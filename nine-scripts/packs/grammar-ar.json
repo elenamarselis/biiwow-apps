@@ -1,0 +1,5908 @@
+{
+ "lang": "ar",
+ "sections": [
+  {
+   "id": "script-and-vowels",
+   "title": "The script: letters, shapes and short vowels",
+   "level": 1,
+   "summary": "Arabic is written from right to left in a cursive script of 28 letters whose shapes change depending on where they sit in a word. Short vowels are usually left unwritten, so learning the few vowel signs and the special letters (shadda, tāʾ marbūṭa, hamza) is the key to reading anything.",
+   "rules": [
+    {
+     "title": "Twenty-eight letters, right to left",
+     "body": "The Arabic alphabet has 28 letters, all consonants or long vowels, written from right to left. Every letter has a name (bāʾ, tāʾ, jīm, nūn...) and a basic sound. There are no capital letters. Several letters share a skeleton and differ only by dots: ب b, ت t, ث th; ج j, ح ḥ, خ kh; د d, ذ dh; ر r, ز z; س s, ش sh; ص ṣ, ض ḍ; ط ṭ, ظ ẓ; ع ʿ, غ gh; ف f, ق q.",
+     "examples": [
+      {
+       "target": "ب ت ث",
+       "roman": "bāʾ, tāʾ, thāʾ",
+       "en": "three letters that differ only by dots"
+      },
+      {
+       "target": "باب",
+       "roman": "bāb",
+       "en": "door (written b-ā-b, right to left)"
+      },
+      {
+       "target": "نور",
+       "roman": "nūr",
+       "en": "light"
+      }
+     ]
+    },
+    {
+     "title": "Joining forms: initial, medial, final, isolated",
+     "body": "Letters join to their neighbours, so most have four shapes: isolated, initial (joined only to the left), medial (joined on both sides) and final (joined only to the right). The core shape stays recognisable; usually the tail is dropped when a letter joins to the left. Six letters never join to the letter after them: ا د ذ ر ز و. After one of these the next letter takes its initial or isolated form, even in the middle of a word.",
+     "examples": [
+      {
+       "target": "ب بـ ـبـ ـب",
+       "roman": "b: isolated, initial, medial, final",
+       "en": "the four shapes of bāʾ"
+      },
+      {
+       "target": "كتب",
+       "roman": "k-t-b",
+       "en": "all three letters join: كـ + ـتـ + ـب"
+      },
+      {
+       "target": "ولد",
+       "roman": "walad",
+       "en": "boy: و and د do not join leftwards, so the letters stay separate"
+      }
+     ]
+    },
+    {
+     "title": "The three short vowels (ḥarakāt)",
+     "body": "Short vowels are small marks written above or below a consonant: fatḥa (a stroke above) = a, kasra (a stroke below) = i, ḍamma (a small wāw above) = u. A small circle, sukūn, means the consonant has no vowel after it. Ordinary books, newspapers and signs leave these marks out; you see them in the Qurʾān, children's books and textbooks. Learners must therefore learn each word's vowels together with its consonant skeleton.",
+     "examples": [
+      {
+       "target": "كَتَبَ",
+       "roman": "kataba",
+       "en": "he wrote (three fatḥas)"
+      },
+      {
+       "target": "كُتُب",
+       "roman": "kutub",
+       "en": "books (two ḍammas)"
+      },
+      {
+       "target": "بِنْت",
+       "roman": "bint",
+       "en": "girl (kasra, then sukūn on the n)"
+      }
+     ]
+    },
+    {
+     "title": "Long vowels: alif, wāw, yāʾ",
+     "body": "The long vowels ā, ū and ī are written with full letters: ا alif for ā, و wāw for ū, ي yāʾ for ī. The same و and ي also stand for the consonants w and y, so context decides: و after a ḍamma is ū, after a fatḥa it is the diphthong aw. Long vowels are held about twice as long as short ones and are always written, which makes them the backbone of every unvocalised word.",
+     "examples": [
+      {
+       "target": "كِتاب",
+       "roman": "kitāb",
+       "en": "book (long ā)"
+      },
+      {
+       "target": "نور",
+       "roman": "nūr",
+       "en": "light (long ū)"
+      },
+      {
+       "target": "كَبير",
+       "roman": "kabīr",
+       "en": "big (long ī)"
+      },
+      {
+       "target": "يَوْم",
+       "roman": "yawm",
+       "en": "day (y as consonant, then the diphthong aw)"
+      }
+     ]
+    },
+    {
+     "title": "Shadda: the doubled consonant",
+     "body": "A small w-shaped sign above a letter, the shadda, shows that the consonant is doubled and held longer. Doubling changes meaning: دَرَسَ darasa 'he studied' but دَرَّسَ darrasa 'he taught'. The shadda is one of the few marks often kept even in unvocalised text because it matters so much. A vowel sign on a doubled letter sits above or below the shadda.",
+     "examples": [
+      {
+       "target": "مُدَرِّس",
+       "roman": "mudarris",
+       "en": "teacher (doubled r)"
+      },
+      {
+       "target": "سَيّارة",
+       "roman": "sayyāra",
+       "en": "car (doubled y)"
+      },
+      {
+       "target": "جَدّ",
+       "roman": "jadd",
+       "en": "grandfather (doubled d)"
+      }
+     ]
+    },
+    {
+     "title": "Tāʾ marbūṭa: the feminine ending",
+     "body": "The letter ة (tāʾ marbūṭa, 'tied tāʾ') looks like a hāʾ with two dots and appears only at the end of a word. It is the usual feminine ending and is pronounced as a short -a in isolation: مدرسة madrasa 'school'. When the word is followed by a closely linked word (as in a possessive phrase) or carries a case ending, it is pronounced -t: madīnat al-qāhira 'the city of Cairo'. In the dual and feminine plural it turns into an ordinary ت.",
+     "examples": [
+      {
+       "target": "طالِبة",
+       "roman": "ṭāliba",
+       "en": "female student"
+      },
+      {
+       "target": "مَدينة",
+       "roman": "madīna",
+       "en": "city"
+      },
+      {
+       "target": "مَدينة القاهِرة",
+       "roman": "madīnat al-qāhira",
+       "en": "the city of Cairo (ة sounds as -t)"
+      }
+     ]
+    },
+    {
+     "title": "Hamza: the glottal stop and its seats",
+     "body": "Hamza ء represents the glottal stop, the catch in the throat you hear in 'uh-oh'. It counts as a consonant and is written on a 'seat': on alif (أ / إ) at the start of a word, on wāw (ؤ), on a dotless yāʾ (ئ) or on the line (ء) at the end after a long vowel. Roughly, the seat follows the strongest neighbouring vowel: i wins over u, and u wins over a. At the start of a word hamza is always on alif: أ for a or u, إ for i.",
+     "examples": [
+      {
+       "target": "أَب",
+       "roman": "ʾab",
+       "en": "father (hamza on alif)"
+      },
+      {
+       "target": "سُؤال",
+       "roman": "suʾāl",
+       "en": "question (hamza on wāw after u)"
+      },
+      {
+       "target": "أَسْئِلة",
+       "roman": "ʾasʾila",
+       "en": "questions (hamza on yāʾ before i)"
+      },
+      {
+       "target": "سَماء",
+       "roman": "samāʾ",
+       "en": "sky (hamza on the line after ā)"
+      }
+     ]
+    },
+    {
+     "title": "Emphatic and throat letters",
+     "body": "Four letters, ص ṣ, ض ḍ, ط ṭ and ظ ẓ, are 'emphatic' versions of s, d, t and dh, pronounced with the back of the tongue raised, which also makes the surrounding vowels sound darker (fatḥa near them sounds like the o in 'hot'). The throat letters are ع ʿayn (a tightening of the throat), ح ḥāʾ (a breathy, strong h), خ kh (as in Scottish 'loch'), غ gh (a gargled r) and ق q (a k pronounced far back). The distinction between س and ص or ت and ط separates different words.",
+     "examples": [
+      {
+       "target": "صَيف",
+       "roman": "ṣayf",
+       "en": "summer (emphatic ṣ) vs. سَيف sayf 'sword'"
+      },
+      {
+       "target": "عَرَبي",
+       "roman": "ʿarabī",
+       "en": "Arabic (begins with ʿayn)"
+      },
+      {
+       "target": "حُبّ",
+       "roman": "ḥubb",
+       "en": "love (strong ḥ)"
+      },
+      {
+       "target": "قَلْب",
+       "roman": "qalb",
+       "en": "heart (deep q)"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "In which direction is Arabic written?",
+     "options": [
+      "right to left",
+      "left to right",
+      "top to bottom",
+      "it depends on the word"
+     ],
+     "answer": 0,
+     "explain": "Arabic runs from right to left; only numerals are written left to right."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "The Arabic alphabet has 28 letters.",
+     "answer": true,
+     "explain": "There are 28 letters; hamza and tāʾ marbūṭa are extra signs, not counted among them."
+    },
+    {
+     "id": "e03",
+     "type": "match",
+     "pairs": [
+      [
+       "فَ",
+       "fa (fatḥa)"
+      ],
+      [
+       "فِ",
+       "fi (kasra)"
+      ],
+      [
+       "فُ",
+       "fu (ḍamma)"
+      ],
+      [
+       "فْ",
+       "f with no vowel (sukūn)"
+      ]
+     ]
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "Which of these letters never joins to the letter that follows it?",
+     "options": [
+      "ب",
+      "د",
+      "س",
+      "م"
+     ],
+     "answer": 1,
+     "explain": "ا د ذ ر ز و are the six non-connectors: they join only to the letter before them."
+    },
+    {
+     "id": "e05",
+     "type": "fill",
+     "q": "Write 'book' (kitāb) in Arabic script: ___",
+     "answer": [
+      "كتاب",
+      "كِتاب",
+      "kitāb",
+      "kitab"
+     ],
+     "roman": "kitāb",
+     "explain": "k-i-t-ā-b: the short i is not written, the long ā is written with alif."
+    },
+    {
+     "id": "e06",
+     "type": "tf",
+     "q": "The letter ة (tāʾ marbūṭa) usually marks a feminine word.",
+     "answer": true,
+     "explain": "Tāʾ marbūṭa is the standard feminine ending, as in ṭāliba, madrasa."
+    },
+    {
+     "id": "e07",
+     "type": "mc",
+     "q": "Which sign is the fatḥa (short a)?",
+     "options": [
+      "a short stroke above the letter",
+      "a short stroke below the letter",
+      "a small wāw above the letter",
+      "a small circle above the letter"
+     ],
+     "answer": 0,
+     "explain": "Fatḥa is the stroke above; kasra is below, ḍamma is the little wāw, sukūn is the circle."
+    },
+    {
+     "id": "e08",
+     "type": "order",
+     "words": [
+      "ت",
+      "ك",
+      "ا",
+      "ب"
+     ],
+     "answer": "ك ت ا ب",
+     "en": "the letters of kitāb 'book', in writing order (right to left: k, t, ā, b)"
+    },
+    {
+     "id": "e09",
+     "type": "match",
+     "pairs": [
+      [
+       "ب",
+       "bāʾ"
+      ],
+      [
+       "ت",
+       "tāʾ"
+      ],
+      [
+       "ث",
+       "thāʾ"
+      ],
+      [
+       "ن",
+       "nūn"
+      ]
+     ]
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "What does the shadda ( ّ ) do?",
+     "options": [
+      "doubles the consonant",
+      "lengthens the vowel",
+      "marks a glottal stop",
+      "shows that the consonant has no vowel"
+     ],
+     "answer": 0,
+     "explain": "Shadda doubles the consonant: darasa 'studied' vs. darrasa 'taught'."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Make 'teacher' feminine: مُعَلِّم → مُعَلِّم___ (add the feminine ending)",
+     "answer": [
+      "ة",
+      "مُعَلِّمة",
+      "معلمة",
+      "muʿallima",
+      "muallima"
+     ],
+     "roman": "muʿallima",
+     "explain": "The feminine ending is tāʾ marbūṭa ة, pronounced -a."
+    },
+    {
+     "id": "e12",
+     "type": "tf",
+     "q": "The letter ا (alif) joins to the letter that comes after it.",
+     "answer": false,
+     "explain": "Alif is a non-connector: it joins only to the letter before it."
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "In سَلام (salām) the long ā is written with which letter?",
+     "options": [
+      "alif ا",
+      "wāw و",
+      "yāʾ ي",
+      "it is not written"
+     ],
+     "answer": 0,
+     "explain": "Long ā is written with alif; wāw gives ū and yāʾ gives ī."
+    },
+    {
+     "id": "e14",
+     "type": "mc",
+     "q": "Which word contains a doubled consonant?",
+     "options": [
+      "مُدَرِّس (mudarris)",
+      "كِتاب (kitāb)",
+      "بَيت (bayt)",
+      "وَلَد (walad)"
+     ],
+     "answer": 0,
+     "explain": "mudarris has shadda on the r; the others have no doubled letter."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Write 'peace' (salām) in Arabic script: ___",
+     "answer": [
+      "سلام",
+      "سَلام",
+      "salām",
+      "salam"
+     ],
+     "roman": "salām",
+     "explain": "s-l-ā-m: the short a after s is unwritten, the long ā is an alif."
+    },
+    {
+     "id": "e16",
+     "type": "order",
+     "words": [
+      "ت",
+      "ب",
+      "ي"
+     ],
+     "answer": "ب ي ت",
+     "en": "the letters of bayt 'house', in writing order (b, y, t)"
+    },
+    {
+     "id": "e17",
+     "type": "tf",
+     "q": "Short vowel signs are normally left out in newspapers and most books.",
+     "answer": true,
+     "explain": "Fully vocalised text is used mainly in the Qurʾān, children's books and textbooks."
+    },
+    {
+     "id": "e18",
+     "type": "match",
+     "pairs": [
+      [
+       "ا",
+       "long ā"
+      ],
+      [
+       "و",
+       "long ū (or the consonant w)"
+      ],
+      [
+       "ي",
+       "long ī (or the consonant y)"
+      ],
+      [
+       "ة",
+       "feminine ending -a"
+      ]
+     ]
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "The sign sukūn ( ْ ) shows that...",
+     "options": [
+      "the consonant has no vowel after it",
+      "the vowel is long",
+      "the consonant is doubled",
+      "the word is feminine"
+     ],
+     "answer": 0,
+     "explain": "Sukūn marks a consonant with no following vowel, as in بِنْت bint."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "In سُؤال (suʾāl, 'question') the hamza sits on which seat?",
+     "options": [
+      "wāw",
+      "alif",
+      "yāʾ",
+      "the line"
+     ],
+     "answer": 0,
+     "explain": "After the vowel u, hamza takes wāw as its seat: ؤ."
+    },
+    {
+     "id": "e21",
+     "type": "fill",
+     "q": "Write 'door' (bāb) in Arabic script: ___",
+     "answer": [
+      "باب",
+      "bāb",
+      "bab"
+     ],
+     "roman": "bāb",
+     "explain": "b-ā-b: two bāʾs around an alif."
+    },
+    {
+     "id": "e22",
+     "type": "tf",
+     "q": "Tāʾ marbūṭa is pronounced -t when its word is closely linked to a following word, as in madīnat al-qāhira.",
+     "answer": true,
+     "explain": "In isolation ة is -a, but in a possessive phrase or with a case ending it sounds as -t."
+    },
+    {
+     "id": "e23",
+     "type": "order",
+     "words": [
+      "بيت",
+      "هذا",
+      "كبير"
+     ],
+     "answer": "هذا بيت كبير",
+     "en": "This is a big house."
+    },
+    {
+     "id": "e24",
+     "type": "match",
+     "pairs": [
+      [
+       "ص",
+       "ṣ (emphatic s)"
+      ],
+      [
+       "س",
+       "s (plain s)"
+      ],
+      [
+       "ط",
+       "ṭ (emphatic t)"
+      ],
+      [
+       "ت",
+       "t (plain t)"
+      ]
+     ]
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "Which is the final form of مـ (mīm), joined only to the letter before it?",
+     "options": [
+      "ـم",
+      "مـ",
+      "ـمـ",
+      "م"
+     ],
+     "answer": 0,
+     "explain": "A final form has the connecting stroke on the right only; مـ is initial and ـمـ is medial."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "Join the letters م + د + ر + س + ة to write 'school' (madrasa): ___",
+     "answer": [
+      "مدرسة",
+      "مَدرَسة",
+      "madrasa"
+     ],
+     "roman": "madrasa",
+     "explain": "مـ joins to د; د does not join leftwards, so ر starts fresh; ر also does not join, so سـ begins and joins to final ـة."
+    },
+    {
+     "id": "e27",
+     "type": "tf",
+     "q": "ʿAyn (ع) is a consonant made by tightening the throat and has no equivalent sound in English.",
+     "answer": true,
+     "explain": "ʿAyn is a voiced pharyngeal consonant; in transliteration it is written ʿ."
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "Which word begins with a hamza (glottal stop)?",
+     "options": [
+      "أَب (ʾab)",
+      "باب (bāb)",
+      "دار (dār)",
+      "نور (nūr)"
+     ],
+     "answer": 0,
+     "explain": "The alif with hamza above (أ) at the start of ʾab is a glottal stop; the others begin with ordinary consonants."
+    },
+    {
+     "id": "e29",
+     "type": "order",
+     "words": [
+      "جميلة",
+      "مدينة",
+      "هذه"
+     ],
+     "answer": "هذه مدينة جميلة",
+     "en": "This is a beautiful city."
+    },
+    {
+     "id": "e30",
+     "type": "match",
+     "pairs": [
+      [
+       "كتاب",
+       "kitāb"
+      ],
+      [
+       "مدرسة",
+       "madrasa"
+      ],
+      [
+       "سؤال",
+       "suʾāl"
+      ],
+      [
+       "سيّارة",
+       "sayyāra"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "definite-article",
+   "title": "The definite article and sun/moon letters",
+   "level": 1,
+   "summary": "Arabic has one definite article, al-, which is attached to the word, and no separate word for 'a'. The l of al- changes its sound before half of the alphabet, and indefinite nouns can instead carry a final -n (nunation).",
+   "rules": [
+    {
+     "title": "al- is written as part of the word",
+     "body": "The definite article is الـ al-, written as alif + lām and attached directly to the front of the noun. It never changes for gender or number: al-walad 'the boy', al-bint 'the girl', al-awlād 'the boys'. There is no word for 'a' or 'an': a bare noun is indefinite. kitāb = 'a book', al-kitāb = 'the book'.",
+     "examples": [
+      {
+       "target": "كِتاب",
+       "roman": "kitāb",
+       "en": "a book"
+      },
+      {
+       "target": "الكِتاب",
+       "roman": "al-kitāb",
+       "en": "the book"
+      },
+      {
+       "target": "البِنْت",
+       "roman": "al-bint",
+       "en": "the girl"
+      },
+      {
+       "target": "الأَوْلاد",
+       "roman": "al-awlād",
+       "en": "the boys"
+      }
+     ]
+    },
+    {
+     "title": "Moon letters: the l is pronounced",
+     "body": "Before fourteen letters the article sounds exactly as written, al-. These are the 'moon letters' (ḥurūf qamariyya), named after al-qamar 'the moon': ا ب ج ح خ ع غ ف ق ك م ه و ي. They are mostly the sounds made with the lips, the back of the mouth and the throat, far from where the l is made.",
+     "examples": [
+      {
+       "target": "القَمَر",
+       "roman": "al-qamar",
+       "en": "the moon"
+      },
+      {
+       "target": "البَيت",
+       "roman": "al-bayt",
+       "en": "the house"
+      },
+      {
+       "target": "الوَلَد",
+       "roman": "al-walad",
+       "en": "the boy"
+      },
+      {
+       "target": "المُدَرِّس",
+       "roman": "al-mudarris",
+       "en": "the teacher"
+      }
+     ]
+    },
+    {
+     "title": "Sun letters: the l assimilates",
+     "body": "Before the other fourteen letters, the 'sun letters' (ḥurūf shamsiyya, after ash-shams 'the sun'), the l of the article is not pronounced; instead the first letter of the noun is doubled: ash-shams, ad-dars, an-nūr, ar-rajul. The spelling does not change: the lām is still written, and in vocalised text a shadda is placed on the sun letter. The sun letters are ت ث د ذ ر ز س ش ص ض ط ظ ل ن, all made with the tongue tip near where l is made.",
+     "examples": [
+      {
+       "target": "الشَّمْس",
+       "roman": "ash-shams",
+       "en": "the sun"
+      },
+      {
+       "target": "الدَّرْس",
+       "roman": "ad-dars",
+       "en": "the lesson"
+      },
+      {
+       "target": "النّور",
+       "roman": "an-nūr",
+       "en": "the light"
+      },
+      {
+       "target": "الرَّجُل",
+       "roman": "ar-rajul",
+       "en": "the man"
+      }
+     ]
+    },
+    {
+     "title": "The vowel of al- disappears after another vowel",
+     "body": "The a of al- is a 'connecting hamza' (hamzat al-waṣl): it is only pronounced at the start of an utterance. When the previous word ends in a vowel, the a drops and the l attaches to that vowel: fī l-bayt 'in the house', hādhā l-kitāb 'this book'. Writing is unchanged (في البيت), and the sun-letter assimilation still applies: fī sh-shāriʿ 'in the street'.",
+     "examples": [
+      {
+       "target": "في البَيت",
+       "roman": "fī l-bayt",
+       "en": "in the house"
+      },
+      {
+       "target": "هذا الكِتاب",
+       "roman": "hādhā l-kitāb",
+       "en": "this book"
+      },
+      {
+       "target": "في الشّارِع",
+       "roman": "fī sh-shāriʿ",
+       "en": "in the street"
+      }
+     ]
+    },
+    {
+     "title": "bi-, li- and wa- with the article",
+     "body": "One-letter prepositions and conjunctions are written joined to the following word. bi- 'with, in' and wa- 'and' simply precede the article: بالقلم bi-l-qalam 'with the pen', والبيت wa-l-bayt 'and the house'. li- 'to, for' swallows the alif of the article entirely: li- + al-bayt = للبيت li-l-bayt 'to the house', written with two lāms and no alif.",
+     "examples": [
+      {
+       "target": "بِالقَلَم",
+       "roman": "bi-l-qalam",
+       "en": "with the pen"
+      },
+      {
+       "target": "وَالبِنت",
+       "roman": "wa-l-bint",
+       "en": "and the girl"
+      },
+      {
+       "target": "لِلبَيت",
+       "roman": "li-l-bayt",
+       "en": "to the house (alif of al- dropped)"
+      },
+      {
+       "target": "لِلطّالِب",
+       "roman": "li-ṭ-ṭālib",
+       "en": "for the student (sun letter still assimilates)"
+      }
+     ]
+    },
+    {
+     "title": "Nunation (tanwīn): the indefinite -n",
+     "body": "In full Standard Arabic, most indefinite nouns and adjectives end in a short vowel plus -n, called tanwīn or nunation: kitābun (nominative), kitāban (accusative), kitābin (genitive). It is written with doubled vowel signs ( ٌ ً ٍ ), and the -an form adds a silent alif: كتابًا. Nunation never appears together with al-: a word is either al-kitābu or kitābun. In ordinary reading the final vowels are often dropped, so kitābun is simply pronounced kitāb.",
+     "examples": [
+      {
+       "target": "كِتابٌ",
+       "roman": "kitābun",
+       "en": "a book (nominative, with -un)"
+      },
+      {
+       "target": "كِتابًا",
+       "roman": "kitāban",
+       "en": "a book (accusative, -an with its alif)"
+      },
+      {
+       "target": "كِتابٍ",
+       "roman": "kitābin",
+       "en": "a book (genitive, -in)"
+      },
+      {
+       "target": "الكِتابُ",
+       "roman": "al-kitābu",
+       "en": "the book (no nunation after al-)"
+      }
+     ]
+    },
+    {
+     "title": "al- for general and abstract ideas",
+     "body": "Arabic uses the definite article where English uses none: for abstract nouns, for a whole class of things, and for many names of languages, sciences and countries. al-ḥubb 'love', al-ʿilm 'knowledge', al-qahwa 'coffee (as a drink)', al-ʿarabiyya 'Arabic'. Some place names always carry it (al-qāhira 'Cairo', al-ʿirāq 'Iraq', al-maghrib 'Morocco'), while others never do (miṣr 'Egypt', bayrūt 'Beirut').",
+     "examples": [
+      {
+       "target": "الحُبّ",
+       "roman": "al-ḥubb",
+       "en": "love (in general)"
+      },
+      {
+       "target": "أُحِبّ القَهْوة",
+       "roman": "uḥibb al-qahwa",
+       "en": "I like coffee"
+      },
+      {
+       "target": "القاهِرة",
+       "roman": "al-qāhira",
+       "en": "Cairo (name with al-)"
+      },
+      {
+       "target": "مِصْر",
+       "roman": "miṣr",
+       "en": "Egypt (name without al-)"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "How do you say 'the book'?",
+     "options": [
+      "الكتاب",
+      "كتاب",
+      "كتابٌ",
+      "لكتاب"
+     ],
+     "answer": 0,
+     "explain": "The article al- (الـ) is attached to the front of the noun."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "Arabic has a separate word for 'a' / 'an'.",
+     "answer": false,
+     "explain": "A bare noun like kitāb is already indefinite; there is no indefinite article."
+    },
+    {
+     "id": "e03",
+     "type": "match",
+     "pairs": [
+      [
+       "الشمس",
+       "ash-shams (sun letter)"
+      ],
+      [
+       "القمر",
+       "al-qamar (moon letter)"
+      ],
+      [
+       "النور",
+       "an-nūr (sun letter)"
+      ],
+      [
+       "الباب",
+       "al-bāb (moon letter)"
+      ]
+     ]
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "Which letter is a sun letter?",
+     "options": [
+      "ش",
+      "ب",
+      "ق",
+      "م"
+     ],
+     "answer": 0,
+     "explain": "shīn is made with the tongue tip, so the l of the article assimilates: ash-shams."
+    },
+    {
+     "id": "e05",
+     "type": "fill",
+     "q": "Write 'the house' (bayt = house): ___",
+     "answer": [
+      "البيت",
+      "البَيت",
+      "al-bayt",
+      "albayt"
+     ],
+     "roman": "al-bayt",
+     "explain": "bāʾ is a moon letter, so the l is pronounced: al-bayt."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "How is الدرس pronounced?",
+     "options": [
+      "ad-dars",
+      "al-dars",
+      "a-dars",
+      "el-dars"
+     ],
+     "answer": 0,
+     "explain": "dāl is a sun letter, so the l assimilates and the d is doubled."
+    },
+    {
+     "id": "e07",
+     "type": "tf",
+     "q": "Before a sun letter the article is spelled differently.",
+     "answer": false,
+     "explain": "The spelling stays الـ; only the pronunciation changes (and a shadda may be written on the sun letter)."
+    },
+    {
+     "id": "e08",
+     "type": "order",
+     "words": [
+      "في",
+      "الولد",
+      "البيت"
+     ],
+     "answer": "الولد في البيت",
+     "en": "The boy is in the house."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Which word is indefinite ('a man')?",
+     "options": [
+      "رجل",
+      "الرجل",
+      "الرّجل",
+      "للرجل"
+     ],
+     "answer": 0,
+     "explain": "Without al- the noun is indefinite: rajul 'a man'."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Write 'the sun' (shams = sun): ___",
+     "answer": [
+      "الشمس",
+      "الشّمس",
+      "الشَّمس",
+      "ash-shams",
+      "al-shams",
+      "ashshams"
+     ],
+     "roman": "ash-shams",
+     "explain": "Spelled with alif-lām as usual, but read ash-shams because shīn is a sun letter."
+    },
+    {
+     "id": "e11",
+     "type": "match",
+     "pairs": [
+      [
+       "كتابٌ",
+       "kitābun (nominative, indefinite)"
+      ],
+      [
+       "كتابًا",
+       "kitāban (accusative, indefinite)"
+      ],
+      [
+       "كتابٍ",
+       "kitābin (genitive, indefinite)"
+      ],
+      [
+       "الكتابُ",
+       "al-kitābu (nominative, definite)"
+      ]
+     ]
+    },
+    {
+     "id": "e12",
+     "type": "tf",
+     "q": "A noun can carry both al- and nunation at the same time.",
+     "answer": false,
+     "explain": "They exclude each other: al-kitābu or kitābun, never al-kitābun."
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "The word فيل (fīl, 'elephant') with the article is pronounced...",
+     "options": [
+      "al-fīl",
+      "af-fīl",
+      "a-fīl",
+      "il-fīl"
+     ],
+     "answer": 0,
+     "explain": "fāʾ is a moon letter, so the l stays."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "Write 'the man' (rajul = man): ___",
+     "answer": [
+      "الرجل",
+      "الرّجل",
+      "الرَّجُل",
+      "ar-rajul",
+      "al-rajul",
+      "arrajul"
+     ],
+     "roman": "ar-rajul",
+     "explain": "rāʾ is a sun letter: ar-rajul."
+    },
+    {
+     "id": "e15",
+     "type": "order",
+     "words": [
+      "القلم",
+      "المكتب",
+      "على"
+     ],
+     "answer": "القلم على المكتب",
+     "en": "The pen is on the desk."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "How is في البيت ('in the house') normally pronounced?",
+     "options": [
+      "fī l-bayt",
+      "fī al-bayt",
+      "fīl bayt",
+      "fī bayt"
+     ],
+     "answer": 0,
+     "explain": "After the vowel of fī the a of al- drops (hamzat al-waṣl)."
+    },
+    {
+     "id": "e17",
+     "type": "tf",
+     "q": "The sun letters are those pronounced with the tip of the tongue, close to where l is made.",
+     "answer": true,
+     "explain": "That closeness is why the l assimilates: ت ث د ذ ر ز س ش ص ض ط ظ ل ن."
+    },
+    {
+     "id": "e18",
+     "type": "match",
+     "pairs": [
+      [
+       "بالقلم",
+       "bi-l-qalam, with the pen"
+      ],
+      [
+       "للبيت",
+       "li-l-bayt, to the house"
+      ],
+      [
+       "والبنت",
+       "wa-l-bint, and the girl"
+      ],
+      [
+       "في الشارع",
+       "fī sh-shāriʿ, in the street"
+      ]
+     ]
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "'To the house' is written...",
+     "options": [
+      "للبيت",
+      "لالبيت",
+      "لبيت",
+      "إلبيت"
+     ],
+     "answer": 0,
+     "explain": "li- swallows the alif of al-, giving two lāms: للبيت li-l-bayt."
+    },
+    {
+     "id": "e20",
+     "type": "fill",
+     "q": "Write 'the student' (ṭālib = student): ___",
+     "answer": [
+      "الطالب",
+      "الطّالب",
+      "الطَّالِب",
+      "aṭ-ṭālib",
+      "al-ṭālib",
+      "attalib",
+      "aṭ-ṭalib"
+     ],
+     "roman": "aṭ-ṭālib",
+     "explain": "ṭāʾ is a sun letter, so the article is read aṭ-ṭālib."
+    },
+    {
+     "id": "e21",
+     "type": "tf",
+     "q": "In full Standard Arabic 'a book' in the nominative is kitābun.",
+     "answer": true,
+     "explain": "The indefinite nominative ending is -un (tanwīn ḍamm); in pause it is usually dropped."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "Which of these words ends in nunation written with an extra alif?",
+     "options": [
+      "كتابًا",
+      "كتابٌ",
+      "كتابٍ",
+      "الكتاب"
+     ],
+     "answer": 0,
+     "explain": "The accusative -an is written with fatḥatān plus a silent alif: كتابًا."
+    },
+    {
+     "id": "e23",
+     "type": "order",
+     "words": [
+      "الولد",
+      "والبنت",
+      "في",
+      "المدرسة"
+     ],
+     "answer": "الولد والبنت في المدرسة",
+     "en": "The boy and the girl are in the school."
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "Which sentence uses the article the way Arabic (but not English) requires?",
+     "options": [
+      "أحبّ القهوة (I like coffee)",
+      "أحبّ قهوة",
+      "أحبّ قهوةٌ",
+      "أحبّ القهوةٌ"
+     ],
+     "answer": 0,
+     "explain": "A class of thing taken in general, like coffee, takes al- in Arabic."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "The name of Egypt, miṣr, is normally used with al-.",
+     "answer": false,
+     "explain": "miṣr has no article; al-qāhira 'Cairo' and al-ʿirāq 'Iraq' do."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "Write 'for the teacher' (li- + al-mudarris): ___",
+     "answer": [
+      "للمدرس",
+      "للمدرّس",
+      "لِلمُدَرِّس",
+      "li-l-mudarris",
+      "lilmudarris"
+     ],
+     "roman": "li-l-mudarris",
+     "explain": "li- drops the alif of the article: للمدرّس."
+    },
+    {
+     "id": "e27",
+     "type": "match",
+     "pairs": [
+      [
+       "ت",
+       "sun letter"
+      ],
+      [
+       "ك",
+       "moon letter"
+      ],
+      [
+       "ا",
+       "the alif of hamzat al-waṣl (silent after a vowel)"
+      ]
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "Pronounce هذا النور ('this light').",
+     "options": [
+      "hādhā n-nūr",
+      "hādhā al-nūr",
+      "hādhā an-nūr",
+      "hādhā l-nūr"
+     ],
+     "answer": 0,
+     "explain": "After the vowel of hādhā the a of al- drops, and nūn is a sun letter: hādhā n-nūr."
+    },
+    {
+     "id": "e29",
+     "type": "order",
+     "words": [
+      "الكتاب",
+      "للطالب",
+      "هذا"
+     ],
+     "answer": "هذا الكتاب للطالب",
+     "en": "This book is for the student."
+    },
+    {
+     "id": "e30",
+     "type": "tf",
+     "q": "In قرأتُ كتابًا (qaraʾtu kitāban, 'I read a book') the final alif of كتابًا is pronounced as a long ā.",
+     "answer": false,
+     "explain": "That alif is only the written support of the -an ending; the word is read kitāban."
+    }
+   ]
+  },
+  {
+   "id": "gender-nominal-sentence-pronouns",
+   "title": "Gender, the nominal sentence and pronouns",
+   "level": 1,
+   "summary": "Every Arabic noun is masculine or feminine, and a simple sentence needs no verb 'to be': you just put subject and predicate side by side. This chapter gives you the subject pronouns and the words for 'this' and 'that' so you can build and negate your first sentences.",
+   "rules": [
+    {
+     "title": "Masculine and feminine",
+     "body": "Every noun has a gender. Masculine is the default and has no special ending; feminine nouns almost always end in tāʾ marbūṭa ة, pronounced -a. Many nouns for people come in pairs: ṭālib 'male student' / ṭāliba 'female student', muʿallim / muʿallima 'teacher'. Objects also have a gender you simply learn: kitāb 'book' is masculine, sayyāra 'car' is feminine.",
+     "examples": [
+      {
+       "target": "طالِب / طالِبة",
+       "roman": "ṭālib / ṭāliba",
+       "en": "student (m.) / student (f.)"
+      },
+      {
+       "target": "مُعَلِّم / مُعَلِّمة",
+       "roman": "muʿallim / muʿallima",
+       "en": "teacher (m.) / teacher (f.)"
+      },
+      {
+       "target": "كِتاب",
+       "roman": "kitāb",
+       "en": "book (masculine)"
+      },
+      {
+       "target": "سَيّارة",
+       "roman": "sayyāra",
+       "en": "car (feminine)"
+      }
+     ]
+    },
+    {
+     "title": "Feminine nouns without ة",
+     "body": "A small but common group of nouns is feminine although it has no tāʾ marbūṭa. These include words for female people (umm 'mother', bint 'girl'), paired body parts (yad 'hand', ʿayn 'eye', rijl 'leg'), most countries and cities (miṣr 'Egypt', bayrūt 'Beirut'), and a handful of everyday nouns you must memorise: shams 'sun', arḍ 'earth, land', nār 'fire', dār 'house', ḥarb 'war', rīḥ 'wind'. A few feminine words end in -āʾ or -ā instead: ṣaḥrāʾ 'desert', dunyā 'world'.",
+     "examples": [
+      {
+       "target": "أُمّ",
+       "roman": "umm",
+       "en": "mother (feminine)"
+      },
+      {
+       "target": "شَمْس",
+       "roman": "shams",
+       "en": "sun (feminine)"
+      },
+      {
+       "target": "يَد",
+       "roman": "yad",
+       "en": "hand (feminine, a paired body part)"
+      },
+      {
+       "target": "مِصْر",
+       "roman": "miṣr",
+       "en": "Egypt (feminine, like most country names)"
+      }
+     ]
+    },
+    {
+     "title": "The nominal sentence: no 'to be' in the present",
+     "body": "There is no verb 'is / are / am' in the present tense. A nominal sentence (jumla ismiyya) is simply a subject followed by a predicate: al-bayt kabīr 'the house (is) big', al-walad ṭālib 'the boy (is) a student'. Typically the subject is definite (has al-, is a name or a pronoun) and the predicate is indefinite. That contrast is what tells you it is a sentence: al-bayt al-kabīr with two definite words is just the phrase 'the big house'.",
+     "examples": [
+      {
+       "target": "البَيت كَبير.",
+       "roman": "al-bayt kabīr.",
+       "en": "The house is big."
+      },
+      {
+       "target": "الوَلَد طالِب.",
+       "roman": "al-walad ṭālib.",
+       "en": "The boy is a student."
+      },
+      {
+       "target": "البَيت الكَبير",
+       "roman": "al-bayt al-kabīr",
+       "en": "the big house (a phrase, not a sentence)"
+      }
+     ]
+    },
+    {
+     "title": "The predicate agrees in gender",
+     "body": "An adjective or noun used as predicate takes the gender of the subject. With a feminine subject it gets the ending ة: al-bint ṭawīla 'the girl is tall', al-madrasa qarība 'the school is near', hiya muʿallima 'she is a teacher'. Nouns that are feminine without ة still demand a feminine predicate: ash-shams ḥārra 'the sun is hot', miṣr kabīra 'Egypt is big'.",
+     "examples": [
+      {
+       "target": "الوَلَد طَويل.",
+       "roman": "al-walad ṭawīl.",
+       "en": "The boy is tall."
+      },
+      {
+       "target": "البِنْت طَويلة.",
+       "roman": "al-bint ṭawīla.",
+       "en": "The girl is tall."
+      },
+      {
+       "target": "الشَّمْس حارّة.",
+       "roman": "ash-shams ḥārra.",
+       "en": "The sun is hot."
+      }
+     ]
+    },
+    {
+     "title": "Subject pronouns",
+     "body": "The independent pronouns are: anā 'I', anta 'you (m.)', anti 'you (f.)', huwa 'he', hiya 'she'; naḥnu 'we', antum 'you (m. pl.)', antunna 'you (f. pl.)', hum 'they (m.)', hunna 'they (f.)'. There are also dual forms antumā 'you two' and humā 'they two'. 'You' distinguishes the sex of the person addressed, and a mixed group counts as masculine. The pronouns stand on their own as subjects: anā ṭālib 'I am a student'.",
+     "examples": [
+      {
+       "target": "أنا طالِب.",
+       "roman": "anā ṭālib.",
+       "en": "I am a student (said by a man)."
+      },
+      {
+       "target": "أنتِ مُعَلِّمة.",
+       "roman": "anti muʿallima.",
+       "en": "You (f.) are a teacher."
+      },
+      {
+       "target": "نَحْنُ مِن لُبْنان.",
+       "roman": "naḥnu min lubnān.",
+       "en": "We are from Lebanon."
+      },
+      {
+       "target": "هُم طُلّاب.",
+       "roman": "hum ṭullāb.",
+       "en": "They are students."
+      }
+     ]
+    },
+    {
+     "title": "huwa and hiya also mean 'it'",
+     "body": "Arabic has no neuter 'it'. A masculine noun is referred to as huwa and a feminine noun as hiya, whether it is a person or a thing: ayna l-kitāb? huwa ʿalā l-maktab 'Where is the book? It is on the desk'; ayna s-sayyāra? hiya fī sh-shāriʿ 'Where is the car? It is in the street'. hiya is also used for plurals of non-human things, which Arabic treats as feminine singular.",
+     "examples": [
+      {
+       "target": "أَيْنَ الكِتاب؟ هُوَ عَلى المَكْتَب.",
+       "roman": "ayna l-kitāb? huwa ʿalā l-maktab.",
+       "en": "Where is the book? It is on the desk."
+      },
+      {
+       "target": "أَيْنَ السَّيّارة؟ هِيَ في الشّارِع.",
+       "roman": "ayna s-sayyāra? hiya fī sh-shāriʿ.",
+       "en": "Where is the car? It is in the street."
+      }
+     ]
+    },
+    {
+     "title": "Demonstratives: hādhā, hādhihi, dhālika, tilka",
+     "body": "'This' is hādhā for masculine and hādhihi for feminine; 'that' is dhālika (m.) and tilka (f.). With a following indefinite noun the demonstrative forms a sentence: hādhā kitāb 'this is a book'. With a definite noun it forms a phrase: hādhā l-kitāb 'this book', which can then be the subject of a sentence: hādhā l-kitāb jadīd 'this book is new'. Note the spelling: هذا and هذه are written without the alif of the long ā.",
+     "examples": [
+      {
+       "target": "هذا كِتاب.",
+       "roman": "hādhā kitāb.",
+       "en": "This is a book."
+      },
+      {
+       "target": "هذا الكِتاب جَديد.",
+       "roman": "hādhā l-kitāb jadīd.",
+       "en": "This book is new."
+      },
+      {
+       "target": "هذِهِ مَدينة جَميلة.",
+       "roman": "hādhihi madīna jamīla.",
+       "en": "This is a beautiful city."
+      },
+      {
+       "target": "تِلْكَ البِنْت طالِبة.",
+       "roman": "tilka l-bint ṭāliba.",
+       "en": "That girl is a student."
+      }
+     ]
+    },
+    {
+     "title": "Negating with laysa",
+     "body": "To say 'is not' you use laysa, a verb-like word that changes with the subject: laysa (he / it m.), laysat (she / it f.), lastu (I), lasta (you m.), lasti (you f.), lasnā (we), laysū (they m.). In careful Standard Arabic the predicate after laysa goes into the accusative, so an indefinite predicate takes -an: al-bayt laysa kabīran 'the house is not big', anā lastu ṭāliban 'I am not a student'. laysa may stand before or after the subject.",
+     "examples": [
+      {
+       "target": "البَيت لَيْسَ كَبيرًا.",
+       "roman": "al-bayt laysa kabīran.",
+       "en": "The house is not big."
+      },
+      {
+       "target": "هِيَ لَيْسَت طالِبة.",
+       "roman": "hiya laysat ṭāliba.",
+       "en": "She is not a student."
+      },
+      {
+       "target": "لَسْتُ مِن مِصْر.",
+       "roman": "lastu min miṣr.",
+       "en": "I am not from Egypt."
+      }
+     ]
+    },
+    {
+     "title": "Nisba adjectives: -ī / -iyya",
+     "body": "Adjectives of nationality, origin and belonging are made by adding -ī (masculine) or -iyya (feminine) to a noun, usually after dropping al- and any final ة or ā: miṣr → miṣrī / miṣriyya 'Egyptian', lubnān → lubnānī / lubnāniyya 'Lebanese', al-ʿarab → ʿarabī / ʿarabiyya 'Arab, Arabic'. The same ending turns nouns into adjectives generally: yawm 'day' → yawmī 'daily'. In the nominal sentence they behave like any predicate: hiya miṣriyya 'she is Egyptian'.",
+     "examples": [
+      {
+       "target": "هُوَ مِصْري.",
+       "roman": "huwa miṣrī.",
+       "en": "He is Egyptian."
+      },
+      {
+       "target": "هِيَ لُبْنانِيّة.",
+       "roman": "hiya lubnāniyya.",
+       "en": "She is Lebanese."
+      },
+      {
+       "target": "اللُّغة العَرَبِيّة",
+       "roman": "al-lugha l-ʿarabiyya",
+       "en": "the Arabic language"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Which of these nouns is feminine?",
+     "options": [
+      "مدرسة (madrasa)",
+      "كتاب (kitāb)",
+      "بيت (bayt)",
+      "قلم (qalam)"
+     ],
+     "answer": 0,
+     "explain": "madrasa ends in tāʾ marbūṭa, the regular feminine ending."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "Most feminine nouns end in tāʾ marbūṭa (ة).",
+     "answer": true,
+     "explain": "ة is the regular feminine marker; only a limited group of feminine nouns lacks it."
+    },
+    {
+     "id": "e03",
+     "type": "match",
+     "pairs": [
+      [
+       "أنا",
+       "anā, I"
+      ],
+      [
+       "أنتَ",
+       "anta, you (to a man)"
+      ],
+      [
+       "أنتِ",
+       "anti, you (to a woman)"
+      ],
+      [
+       "هو",
+       "huwa, he"
+      ],
+      [
+       "هي",
+       "hiya, she"
+      ]
+     ]
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "How do you say 'He is a student'?",
+     "options": [
+      "هو طالب",
+      "هو يكون طالب",
+      "هو طالبة",
+      "هي طالب"
+     ],
+     "answer": 0,
+     "explain": "Subject + predicate with no verb: huwa ṭālib; ṭāliba would be a female student."
+    },
+    {
+     "id": "e05",
+     "type": "fill",
+     "q": "___ طالبة. (She is a student.)",
+     "answer": [
+      "هي",
+      "هِيَ",
+      "hiya"
+     ],
+     "roman": "hiya",
+     "explain": "hiya 'she' goes with the feminine predicate ṭāliba."
+    },
+    {
+     "id": "e06",
+     "type": "tf",
+     "q": "The sentence 'the house is big' needs a present-tense verb 'to be' in Arabic.",
+     "answer": false,
+     "explain": "al-bayt kabīr puts subject and predicate side by side; no verb is used in the present."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "البيت",
+      "كبير",
+      "هذا"
+     ],
+     "answer": "هذا البيت كبير",
+     "en": "This house is big."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "hādhihi (هذه) is used with...",
+     "options": [
+      "feminine singular nouns (and non-human plurals)",
+      "masculine singular nouns",
+      "dual nouns",
+      "male people only"
+     ],
+     "answer": 0,
+     "explain": "hādhihi is the feminine 'this'; hādhā is masculine."
+    },
+    {
+     "id": "e09",
+     "type": "match",
+     "pairs": [
+      [
+       "هذا",
+       "hādhā, this (m.)"
+      ],
+      [
+       "هذه",
+       "hādhihi, this (f.)"
+      ],
+      [
+       "ذلك",
+       "dhālika, that (m.)"
+      ],
+      [
+       "تلك",
+       "tilka, that (f.)"
+      ]
+     ]
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "___ مدينة جميلة. (This is a beautiful city.)",
+     "answer": [
+      "هذه",
+      "هذِهِ",
+      "hādhihi",
+      "hadhihi"
+     ],
+     "roman": "hādhihi",
+     "explain": "madīna is feminine, so 'this' is hādhihi."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "Which sentence means 'The girl is tall'?",
+     "options": [
+      "البنت طويلة",
+      "البنت طويل",
+      "بنت طويلة",
+      "البنت الطويلة"
+     ],
+     "answer": 0,
+     "explain": "Definite subject + indefinite feminine predicate; البنت الطويلة is the phrase 'the tall girl'."
+    },
+    {
+     "id": "e12",
+     "type": "tf",
+     "q": "anta is 'you' said to a man and anti is 'you' said to a woman.",
+     "answer": true,
+     "explain": "The second-person pronouns distinguish the gender of the person addressed."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "مصري",
+      "أنا",
+      "طالب"
+     ],
+     "answer": "أنا طالب مصري",
+     "en": "I am an Egyptian student."
+    },
+    {
+     "id": "e14",
+     "type": "mc",
+     "q": "Which noun is feminine even though it has no ة?",
+     "options": [
+      "شمس (shams, sun)",
+      "قمر (qamar, moon)",
+      "باب (bāb, door)",
+      "قلم (qalam, pen)"
+     ],
+     "answer": 0,
+     "explain": "shams is one of the common feminine nouns without ة; the others are masculine."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "أين السيّارة؟ ___ في الشارع. (Where is the car? It is in the street.)",
+     "answer": [
+      "هي",
+      "هِيَ",
+      "hiya"
+     ],
+     "roman": "hiya",
+     "explain": "sayyāra is feminine, so 'it' is hiya."
+    },
+    {
+     "id": "e16",
+     "type": "match",
+     "pairs": [
+      [
+       "مصري",
+       "miṣrī, Egyptian (m.)"
+      ],
+      [
+       "مصرية",
+       "miṣriyya, Egyptian (f.)"
+      ],
+      [
+       "عربي",
+       "ʿarabī, Arab / Arabic (m.)"
+      ],
+      [
+       "عربية",
+       "ʿarabiyya, Arab / Arabic (f.)"
+      ]
+     ]
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "Which sentence means 'This book is new'?",
+     "options": [
+      "هذا الكتاب جديد",
+      "هذا كتاب جديد",
+      "هذا الكتاب الجديد",
+      "هذه الكتاب جديد"
+     ],
+     "answer": 0,
+     "explain": "hādhā l-kitāb jadīd: demonstrative + definite noun is the subject 'this book'; hādhā kitāb jadīd means 'this is a new book'."
+    },
+    {
+     "id": "e18",
+     "type": "tf",
+     "q": "هذا كتاب (hādhā kitāb) means 'this book'.",
+     "answer": false,
+     "explain": "With an indefinite noun it is a full sentence: 'this is a book'. 'This book' is hādhā l-kitāb."
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "___ من لبنان. (We are from Lebanon.)",
+     "answer": [
+      "نحن",
+      "نَحْنُ",
+      "naḥnu",
+      "nahnu"
+     ],
+     "roman": "naḥnu",
+     "explain": "naḥnu is the pronoun 'we'."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "Which is the correct negation of 'the house is big'?",
+     "options": [
+      "ليس البيت كبيرًا",
+      "لا البيت كبير",
+      "البيت غير كبيرة",
+      "ليست البيت كبيرة"
+     ],
+     "answer": 0,
+     "explain": "laysa negates a nominal sentence; bayt is masculine, and the predicate takes the accusative -an."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "طالبة",
+      "ليست",
+      "هي"
+     ],
+     "answer": "هي ليست طالبة",
+     "en": "She is not a student."
+    },
+    {
+     "id": "e22",
+     "type": "tf",
+     "q": "laysat is the form of laysa used with a feminine singular subject.",
+     "answer": true,
+     "explain": "laysa (he/it m.) becomes laysat (she/it f.): hiya laysat ṭāliba."
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "Which pronoun means 'you' when speaking to a group of men (or a mixed group)?",
+     "options": [
+      "أنتم",
+      "أنتنّ",
+      "أنتما",
+      "هم"
+     ],
+     "answer": 0,
+     "explain": "antum is masculine plural 'you'; antunna is feminine plural, antumā is dual, hum is 'they'."
+    },
+    {
+     "id": "e24",
+     "type": "match",
+     "pairs": [
+      [
+       "نحن",
+       "naḥnu, we"
+      ],
+      [
+       "أنتم",
+       "antum, you (m. pl.)"
+      ],
+      [
+       "هم",
+       "hum, they (m.)"
+      ],
+      [
+       "هنّ",
+       "hunna, they (f.)"
+      ]
+     ]
+    },
+    {
+     "id": "e25",
+     "type": "fill",
+     "q": "___ طالبًا. (I am not a student.)",
+     "answer": [
+      "لستُ",
+      "لست",
+      "لَسْتُ",
+      "lastu"
+     ],
+     "roman": "lastu",
+     "explain": "lastu is laysa in the first person singular; the predicate takes the accusative ṭāliban."
+    },
+    {
+     "id": "e26",
+     "type": "mc",
+     "q": "Which of these nouns is masculine?",
+     "options": [
+      "كتاب (kitāb)",
+      "مدينة (madīna)",
+      "سيّارة (sayyāra)",
+      "طالبة (ṭāliba)"
+     ],
+     "answer": 0,
+     "explain": "kitāb has no feminine ending; the other three end in ة."
+    },
+    {
+     "id": "e27",
+     "type": "tf",
+     "q": "hiya can mean 'it' when it refers to a feminine noun such as madrasa.",
+     "answer": true,
+     "explain": "There is no neuter pronoun; feminine things are hiya, masculine things huwa."
+    },
+    {
+     "id": "e28",
+     "type": "order",
+     "words": [
+      "اللبنانية",
+      "هذه",
+      "الطالبة",
+      "مجتهدة"
+     ],
+     "answer": "هذه الطالبة اللبنانية مجتهدة",
+     "en": "This Lebanese student (f.) is hard-working."
+    },
+    {
+     "id": "e29",
+     "type": "mc",
+     "q": "Which sentence correctly says 'Egypt is big'?",
+     "options": [
+      "مصر كبيرة",
+      "مصر كبير",
+      "المصر كبيرة",
+      "مصر الكبيرة"
+     ],
+     "answer": 0,
+     "explain": "Country names are feminine, so the predicate is kabīra; miṣr never takes al-."
+    },
+    {
+     "id": "e30",
+     "type": "fill",
+     "q": "هل ___ من الأردن؟ (Are you (f.) from Jordan?)",
+     "answer": [
+      "أنتِ",
+      "أنت",
+      "انت",
+      "anti"
+     ],
+     "roman": "anti",
+     "explain": "Addressing a woman, 'you' is anti (with kasra); anta is for a man."
+    }
+   ]
+  },
+  {
+   "id": "roots-and-patterns",
+   "title": "The three-letter root and word patterns",
+   "level": 2,
+   "summary": "Most Arabic words are built from a root of three consonants poured into a fixed pattern of vowels and extra letters. Once you see the root k-t-b in kitāb, kātib, maktab and maktaba, you can guess new words, read them without vowels and find them in a dictionary.",
+   "rules": [
+    {
+     "title": "The three-letter root",
+     "body": "The core of an Arabic word is a root (jidhr) of usually three consonants that carries a general meaning. k-t-b is about writing, d-r-s about studying, ʿ-l-m about knowing. The root never appears alone; it is always realised in a pattern that adds vowels, prefixes or suffixes. Words sharing a root form a family: kataba 'he wrote', kitāb 'book', kātib 'writer', maktab 'office', maktaba 'library', maktūb 'written'.",
+     "examples": [
+      {
+       "target": "كَتَبَ",
+       "roman": "kataba",
+       "en": "he wrote (root k-t-b)"
+      },
+      {
+       "target": "كِتاب",
+       "roman": "kitāb",
+       "en": "book"
+      },
+      {
+       "target": "مَكْتَب",
+       "roman": "maktab",
+       "en": "office, desk"
+      },
+      {
+       "target": "مَكْتَبة",
+       "roman": "maktaba",
+       "en": "library, bookshop"
+      }
+     ]
+    },
+    {
+     "title": "Patterns (awzān) and the f-ʿ-l template",
+     "body": "A pattern (wazn) is a mould: a fixed arrangement of vowels and extra consonants with three slots for the root. Grammarians name patterns with the dummy root f-ʿ-l: faʿala is the simple past verb (kataba, darasa), fāʿil the doer (kātib, dāris), mafʿūl the thing done (maktūb), mafʿal the place (maktab). If you know the pattern and the root, you know roughly what a new word means and how to pronounce it even without vowel signs.",
+     "examples": [
+      {
+       "target": "فَعَلَ ← دَرَسَ",
+       "roman": "faʿala → darasa",
+       "en": "pattern faʿala: he studied"
+      },
+      {
+       "target": "فاعِل ← دارِس",
+       "roman": "fāʿil → dāris",
+       "en": "pattern fāʿil: one who studies"
+      },
+      {
+       "target": "مَفْعول ← مَدْروس",
+       "roman": "mafʿūl → madrūs",
+       "en": "pattern mafʿūl: studied"
+      }
+     ]
+    },
+    {
+     "title": "fāʿil: the active participle, the doer",
+     "body": "The pattern fāʿil (long ā after the first root letter, i before the last) names the person or thing doing the action: kātib 'writer', ṭālib 'student (one who seeks)', ʿāmil 'worker', sākin 'resident', ḥākim 'ruler'. Many everyday nouns for occupations are fāʿil forms, and the pattern also works as an adjective ('writing', 'living'). Its feminine adds ة: kātiba, ṭāliba.",
+     "examples": [
+      {
+       "target": "كاتِب",
+       "roman": "kātib",
+       "en": "writer (k-t-b)"
+      },
+      {
+       "target": "طالِب",
+       "roman": "ṭālib",
+       "en": "student (ṭ-l-b, to seek)"
+      },
+      {
+       "target": "عامِل",
+       "roman": "ʿāmil",
+       "en": "worker (ʿ-m-l, to work)"
+      },
+      {
+       "target": "ساكِن",
+       "roman": "sākin",
+       "en": "resident, inhabitant (s-k-n, to dwell)"
+      }
+     ]
+    },
+    {
+     "title": "mafʿūl: the passive participle, the thing done",
+     "body": "The pattern mafʿūl (prefix ma-, long ū before the last root letter) means 'having had the action done to it': maktūb 'written', maʿrūf 'known', mashhūr 'famous (made known)', maftūḥ 'open(ed)', mashghūl 'busy (occupied)'. These are adjectives but often become nouns: maktūb also means 'letter', mashrūb 'drink', mawḍūʿ 'topic'.",
+     "examples": [
+      {
+       "target": "مَكْتوب",
+       "roman": "maktūb",
+       "en": "written; a letter"
+      },
+      {
+       "target": "مَعْروف",
+       "roman": "maʿrūf",
+       "en": "known (ʿ-r-f, to know)"
+      },
+      {
+       "target": "مَشْهور",
+       "roman": "mashhūr",
+       "en": "famous (sh-h-r)"
+      },
+      {
+       "target": "مَفْتوح",
+       "roman": "maftūḥ",
+       "en": "open, opened (f-t-ḥ, to open)"
+      }
+     ]
+    },
+    {
+     "title": "Nouns of place: mafʿal, mafʿil, mafʿala",
+     "body": "A prefix ma- with the root gives the place where the action happens. The usual shapes are mafʿal (maktab 'office', maṭbakh 'kitchen', malʿab 'playground', madkhal 'entrance'), mafʿil (masjid 'mosque', majlis 'council, sitting room', manzil 'house') and mafʿala with ة (madrasa 'school', maktaba 'library', mazraʿa 'farm', maḥkama 'court'). Their plural is almost always the pattern mafāʿil: makātib, madāris, masājid.",
+     "examples": [
+      {
+       "target": "مَطْبَخ",
+       "roman": "maṭbakh",
+       "en": "kitchen (ṭ-b-kh, to cook)"
+      },
+      {
+       "target": "مَطْعَم",
+       "roman": "maṭʿam",
+       "en": "restaurant (ṭ-ʿ-m, to feed)"
+      },
+      {
+       "target": "مَسْجِد",
+       "roman": "masjid",
+       "en": "mosque (s-j-d, to bow down)"
+      },
+      {
+       "target": "مَدْرَسة",
+       "roman": "madrasa",
+       "en": "school (d-r-s, to study)"
+      }
+     ]
+    },
+    {
+     "title": "Nouns of instrument: mifʿāl, mifʿal, mifʿala",
+     "body": "A prefix mi- (with kasra) names the tool used for the action: miftāḥ 'key' (f-t-ḥ, open), miqaṣṣ 'scissors' (q-ṣ-ṣ, cut), miknasa 'broom' (k-n-s, sweep), mīzān 'scales' (w-z-n, weigh, with w + i merging into ī), mirwaḥa 'fan'. Not every tool follows this pattern, but when you meet a mi- word it is worth trying the root.",
+     "examples": [
+      {
+       "target": "مِفْتاح",
+       "roman": "miftāḥ",
+       "en": "key (f-t-ḥ, to open)"
+      },
+      {
+       "target": "مِقَصّ",
+       "roman": "miqaṣṣ",
+       "en": "scissors (q-ṣ-ṣ, to cut)"
+      },
+      {
+       "target": "مِكْنَسة",
+       "roman": "miknasa",
+       "en": "broom (k-n-s, to sweep)"
+      }
+     ]
+    },
+    {
+     "title": "Derived verb forms (I-X)",
+     "body": "The same root yields up to ten verb forms, each a pattern with its own shade of meaning. Form I is the base: darasa 'he studied'. Form II doubles the middle letter and is often causative: darrasa 'he taught'. Form III lengthens the first vowel: kātaba 'he corresponded with'. Form IV adds a-: aslama 'he submitted'. Form V adds ta- to form II: taʿallama 'he learned'. Form X adds ista-: istaqbala 'he received (a guest)', istaʿlama 'he inquired'. Dictionaries list a root's verbs by Roman numeral.",
+     "examples": [
+      {
+       "target": "دَرَسَ / دَرَّسَ",
+       "roman": "darasa / darrasa",
+       "en": "he studied (I) / he taught (II)"
+      },
+      {
+       "target": "عَلِمَ / عَلَّمَ / تَعَلَّمَ",
+       "roman": "ʿalima / ʿallama / taʿallama",
+       "en": "he knew (I) / he taught (II) / he learned (V)"
+      },
+      {
+       "target": "اِسْتَقْبَلَ",
+       "roman": "istaqbala",
+       "en": "he received, welcomed (X, root q-b-l)"
+      }
+     ]
+    },
+    {
+     "title": "The maṣdar: the verbal noun",
+     "body": "Every verb form has a verbal noun, the maṣdar, which works like an English -ing noun or infinitive: dirāsa 'studying, study', kitāba 'writing', ʿamal 'work'. Form I maṣdars come in many shapes and must be learned with the verb; the derived forms are regular: form II gives tafʿīl (tadrīs 'teaching', taʿlīm 'education'), form V tafaʿʿul (taʿallum 'learning'), form X istifʿāl (istiqbāl 'reception'). Maṣdars are very frequent in writing, where English would use a clause.",
+     "examples": [
+      {
+       "target": "دِراسة",
+       "roman": "dirāsa",
+       "en": "studying, study (from darasa)"
+      },
+      {
+       "target": "تَعْليم",
+       "roman": "taʿlīm",
+       "en": "teaching, education (from ʿallama, form II)"
+      },
+      {
+       "target": "اِسْتِقْبال",
+       "roman": "istiqbāl",
+       "en": "reception (from istaqbala, form X)"
+      }
+     ]
+    },
+    {
+     "title": "Finding a word in the dictionary",
+     "body": "Traditional Arabic dictionaries are arranged by root, not by the first letter of the word. To look up مكتبة you strip the pattern letters (ma-, -a) to reach k-t-b and open the k section. Common additions to strip: al-, the prefixes ma-/mi-/mu-, ta-, ista-, and the suffixes -a, -ī, -āt, -ūn. Roots containing w, y or hamza can hide: qāla 'he said' is q-w-l, and ism 'name' is s-m-w. Modern learner dictionaries and apps often allow alphabetical lookup, but knowing the root is still the fastest way to guess a meaning.",
+     "examples": [
+      {
+       "target": "مَكْتَبة ← ك ت ب",
+       "roman": "maktaba → k-t-b",
+       "en": "strip ma- and -a to find the root"
+      },
+      {
+       "target": "اِسْتِقْبال ← ق ب ل",
+       "roman": "istiqbāl → q-b-l",
+       "en": "strip ista- and the pattern vowels"
+      },
+      {
+       "target": "قالَ ← ق و ل",
+       "roman": "qāla → q-w-l",
+       "en": "the long ā hides a w in the root"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "What is the root of كتاب, كاتب and مكتب?",
+     "options": [
+      "ك-ت-ب",
+      "ك-ا-ب",
+      "ت-ب",
+      "م-ك-ت"
+     ],
+     "answer": 0,
+     "explain": "k-t-b 'writing' is the shared skeleton; alif, ma- and the vowels belong to the patterns."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "Most Arabic words are built on a root of three consonants.",
+     "answer": true,
+     "explain": "Three-consonant roots are the norm; a minority of roots have four."
+    },
+    {
+     "id": "e03",
+     "type": "match",
+     "pairs": [
+      [
+       "كتاب",
+       "kitāb, book"
+      ],
+      [
+       "كاتب",
+       "kātib, writer"
+      ],
+      [
+       "مكتب",
+       "maktab, office"
+      ],
+      [
+       "مكتبة",
+       "maktaba, library"
+      ]
+     ]
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "The pattern fāʿil (فاعل) usually names...",
+     "options": [
+      "the doer of the action",
+      "the thing the action is done to",
+      "the place of the action",
+      "the tool of the action"
+     ],
+     "answer": 0,
+     "explain": "fāʿil is the active participle: kātib 'writer', ʿāmil 'worker'."
+    },
+    {
+     "id": "e05",
+     "type": "fill",
+     "q": "Make the doer noun 'writer' from the root k-t-b (pattern fāʿil): ___",
+     "answer": [
+      "كاتب",
+      "كاتِب",
+      "kātib",
+      "katib"
+     ],
+     "roman": "kātib",
+     "explain": "fāʿil inserts ā after the first root letter and i before the last: kātib."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "What does مكتوب (maktūb) mean?",
+     "options": [
+      "written",
+      "writer",
+      "office",
+      "the act of writing"
+     ],
+     "answer": 0,
+     "explain": "mafʿūl is the passive participle: 'written' (also 'a letter')."
+    },
+    {
+     "id": "e07",
+     "type": "tf",
+     "q": "The pattern mafʿal (مفعل) often gives the place where an action happens.",
+     "answer": true,
+     "explain": "maktab 'office', maṭbakh 'kitchen', malʿab 'playground' are all nouns of place."
+    },
+    {
+     "id": "e08",
+     "type": "order",
+     "words": [
+      "في",
+      "الطالب",
+      "المكتبة"
+     ],
+     "answer": "الطالب في المكتبة",
+     "en": "The student is in the library."
+    },
+    {
+     "id": "e09",
+     "type": "match",
+     "pairs": [
+      [
+       "مطبخ",
+       "kitchen (ṭ-b-kh, to cook)"
+      ],
+      [
+       "مدرسة",
+       "school (d-r-s, to study)"
+      ],
+      [
+       "مطعم",
+       "restaurant (ṭ-ʿ-m, to feed)"
+      ],
+      [
+       "مسجد",
+       "mosque (s-j-d, to bow down)"
+      ]
+     ]
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "The place where one studies (noun of place from d-r-s): ___",
+     "answer": [
+      "مدرسة",
+      "مَدْرَسة",
+      "madrasa"
+     ],
+     "roman": "madrasa",
+     "explain": "ma- + d-r-s + -a gives madrasa 'school'."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "What is the root of مدرّس (mudarris, 'teacher')?",
+     "options": [
+      "د-ر-س",
+      "م-د-ر",
+      "د-ر-ر",
+      "ر-س-م"
+     ],
+     "answer": 0,
+     "explain": "Strip the prefix mu- and the doubling of the middle letter to find d-r-s."
+    },
+    {
+     "id": "e12",
+     "type": "mc",
+     "q": "To look up استقبال (istiqbāl, 'reception') in a root dictionary you search under...",
+     "options": [
+      "ق-ب-ل",
+      "ا-س-ت",
+      "س-ت-ق",
+      "ق-ب-ا"
+     ],
+     "answer": 0,
+     "explain": "ista- is a prefix of form X; the root is q-b-l."
+    },
+    {
+     "id": "e13",
+     "type": "tf",
+     "q": "In a traditional Arabic dictionary you find a word under the first letter of its written form.",
+     "answer": false,
+     "explain": "Traditional dictionaries are arranged by root, so مكتبة is found under k, not m."
+    },
+    {
+     "id": "e14",
+     "type": "match",
+     "pairs": [
+      [
+       "فاعل",
+       "active participle, the doer"
+      ],
+      [
+       "مفعول",
+       "passive participle, the thing done"
+      ],
+      [
+       "مفعل",
+       "noun of place"
+      ],
+      [
+       "فعل",
+       "basic past-tense verb (form I)"
+      ]
+     ]
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "The word for 'key' (instrument noun from f-t-ḥ 'to open'): ___",
+     "answer": [
+      "مفتاح",
+      "مِفْتاح",
+      "miftāḥ",
+      "miftah"
+     ],
+     "roman": "miftāḥ",
+     "explain": "mi- + root + ā gives the instrument pattern mifʿāl: miftāḥ."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "darasa means 'he studied'. What does darrasa (with shadda) mean?",
+     "options": [
+      "he taught",
+      "he studied hard",
+      "he was studied",
+      "he learned"
+     ],
+     "answer": 0,
+     "explain": "Form II (doubled middle letter) is often causative: make someone study = teach."
+    },
+    {
+     "id": "e17",
+     "type": "order",
+     "words": [
+      "مشهور",
+      "كاتب",
+      "هو"
+     ],
+     "answer": "هو كاتب مشهور",
+     "en": "He is a famous writer."
+    },
+    {
+     "id": "e18",
+     "type": "tf",
+     "q": "معروف (maʿrūf, 'known') is a passive participle of the pattern mafʿūl.",
+     "answer": true,
+     "explain": "ma- + ʿ-r-f + ū gives maʿrūf, from ʿarafa 'to know'."
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "Which word is NOT from the root ك-ت-ب?",
+     "options": [
+      "كبير (kabīr)",
+      "كتب (kutub)",
+      "كاتب (kātib)",
+      "مكتبة (maktaba)"
+     ],
+     "answer": 0,
+     "explain": "kabīr 'big' is from k-b-r; the others all contain k-t-b."
+    },
+    {
+     "id": "e20",
+     "type": "fill",
+     "q": "Form V of the root ʿ-l-m: 'he learned' (taʿallama): ___",
+     "answer": [
+      "تعلّم",
+      "تعلم",
+      "تَعَلَّمَ",
+      "taʿallama",
+      "taallama",
+      "ta'allama"
+     ],
+     "roman": "taʿallama",
+     "explain": "Form V adds ta- to the doubled form II: ta + ʿallama."
+    },
+    {
+     "id": "e21",
+     "type": "match",
+     "pairs": [
+      [
+       "درس",
+       "darasa, he studied (form I)"
+      ],
+      [
+       "درّس",
+       "darrasa, he taught (form II)"
+      ],
+      [
+       "تعلّم",
+       "taʿallama, he learned (form V)"
+      ],
+      [
+       "استقبل",
+       "istaqbala, he received (form X)"
+      ]
+     ]
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "Which word is the maṣdar (verbal noun) of درس darasa 'he studied'?",
+     "options": [
+      "دراسة (dirāsa)",
+      "دارس (dāris)",
+      "مدرسة (madrasa)",
+      "تدريس (tadrīs)"
+     ],
+     "answer": 0,
+     "explain": "dirāsa 'studying' is the verbal noun of form I; tadrīs is the maṣdar of form II darrasa."
+    },
+    {
+     "id": "e23",
+     "type": "tf",
+     "q": "The maṣdar works like an English -ing noun or an infinitive: 'studying', 'to study'.",
+     "answer": true,
+     "explain": "dirāsa, kitāba, taʿlīm are nouns naming the action itself."
+    },
+    {
+     "id": "e24",
+     "type": "order",
+     "words": [
+      "المطعم",
+      "قريب",
+      "من",
+      "المكتب"
+     ],
+     "answer": "المطعم قريب من المكتب",
+     "en": "The restaurant is near the office."
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "Which root does قال (qāla, 'he said') belong to?",
+     "options": [
+      "ق-و-ل",
+      "ق-ا-ل",
+      "ق-ل",
+      "ا-ق-ل"
+     ],
+     "answer": 0,
+     "explain": "The long ā hides a w: the root is q-w-l, as seen in qawl 'saying' and yaqūlu 'he says'."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "The active participle of ṭ-l-b 'to seek', meaning 'student': ___",
+     "answer": [
+      "طالب",
+      "طالِب",
+      "ṭālib",
+      "talib"
+     ],
+     "roman": "ṭālib",
+     "explain": "fāʿil pattern: ṭālib, literally 'one who seeks (knowledge)'."
+    },
+    {
+     "id": "e27",
+     "type": "match",
+     "pairs": [
+      [
+       "عامل",
+       "ʿāmil, worker"
+      ],
+      [
+       "معمول",
+       "maʿmūl, done, made"
+      ],
+      [
+       "عمل",
+       "ʿamal, work (verbal noun)"
+      ],
+      [
+       "معمل",
+       "maʿmal, workshop, laboratory"
+      ]
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "tf",
+     "q": "Form X (istafʿala) has only one meaning, 'to ask for'.",
+     "answer": false,
+     "explain": "It often means seeking or asking (istaʿlama 'inquired'), but not always: istaqbala means 'received, welcomed'."
+    },
+    {
+     "id": "e29",
+     "type": "mc",
+     "q": "Which pair of words shares the same root?",
+     "options": [
+      "كتب / مكتوب",
+      "كتب / كبير",
+      "درس / دخل",
+      "طبخ / طالب"
+     ],
+     "answer": 0,
+     "explain": "kataba and maktūb are both k-t-b; the other pairs only look alike."
+    },
+    {
+     "id": "e30",
+     "type": "order",
+     "words": [
+      "هذا",
+      "مفتاح",
+      "الباب"
+     ],
+     "answer": "هذا مفتاح الباب",
+     "en": "This is the key of the door."
+    }
+   ]
+  },
+  {
+   "id": "plurals-and-dual",
+   "title": "Plurals and the dual",
+   "level": 2,
+   "summary": "Arabic counts in three numbers: one, two and more than two. The dual has its own regular ending, while plurals come in two regular 'sound' types and a large family of 'broken' plurals that reshape the word from inside.",
+   "rules": [
+    {
+     "title": "Three numbers: singular, dual, plural",
+     "body": "Besides singular and plural, Arabic has a dual used whenever exactly two things are meant: kitāb 'a book', kitābāni 'two books', kutub 'books'. The dual is obligatory, not optional: you cannot say 'two' with a plural noun. Pronouns, verbs and adjectives also have dual forms, for instance humā 'they two' and antumā 'you two'.",
+     "examples": [
+      {
+       "target": "كِتاب",
+       "roman": "kitāb",
+       "en": "a book"
+      },
+      {
+       "target": "كِتابان",
+       "roman": "kitābāni",
+       "en": "two books"
+      },
+      {
+       "target": "كُتُب",
+       "roman": "kutub",
+       "en": "books"
+      },
+      {
+       "target": "هُما طالِبان.",
+       "roman": "humā ṭālibāni.",
+       "en": "They (two) are students."
+      }
+     ]
+    },
+    {
+     "title": "Forming the dual: -āni / -ayni",
+     "body": "The dual is completely regular: add -āni to the singular for the nominative (subject) and -ayni for the accusative and genitive (object, after prepositions, in possessive phrases). A feminine ة turns into an ordinary ت before the ending: madīna → madīnatāni / madīnatayni. The dual noun needs no numeral, though ithnāni 'two' can be added for emphasis. In spoken and much modern usage the -ayni form (often pronounced -ayn) is used everywhere.",
+     "examples": [
+      {
+       "target": "وَلَدان",
+       "roman": "waladāni",
+       "en": "two boys (nominative)"
+      },
+      {
+       "target": "رَأَيْتُ وَلَدَيْنِ.",
+       "roman": "raʾaytu waladayni.",
+       "en": "I saw two boys (accusative)."
+      },
+      {
+       "target": "مَدينَتان",
+       "roman": "madīnatāni",
+       "en": "two cities (ة becomes ت)"
+      },
+      {
+       "target": "في مَدينَتَيْنِ",
+       "roman": "fī madīnatayni",
+       "en": "in two cities (genitive after fī)"
+      }
+     ]
+    },
+    {
+     "title": "The sound masculine plural: -ūna / -īna",
+     "body": "Nouns and adjectives referring to male people (or mixed groups), especially participles and nisba adjectives, take the ending -ūna in the nominative and -īna in the accusative and genitive: muʿallimūna / muʿallimīna 'teachers', muhandisūna 'engineers', miṣriyyūna 'Egyptians'. In pause and in everyday pronunciation the final a is dropped: muʿallimūn, muʿallimīn. The ending is written ون / ين.",
+     "examples": [
+      {
+       "target": "المُعَلِّمون في المَدْرَسة.",
+       "roman": "al-muʿallimūna fī l-madrasa.",
+       "en": "The teachers are in the school."
+      },
+      {
+       "target": "مَعَ المُهَنْدِسين",
+       "roman": "maʿa l-muhandisīna",
+       "en": "with the engineers (genitive after maʿa)"
+      },
+      {
+       "target": "هُم مِصْرِيّون.",
+       "roman": "hum miṣriyyūna.",
+       "en": "They are Egyptians."
+      }
+     ]
+    },
+    {
+     "title": "The sound feminine plural: -āt",
+     "body": "Words ending in ة, and many others, form their plural by replacing ة with -āt (written ات): ṭāliba → ṭālibāt 'female students', sayyāra → sayyārāt 'cars', muʿallima → muʿallimāt. The case endings are -ātun (nominative) and -ātin (accusative and genitive); there is no -āta. This plural is also the default for many modern and borrowed nouns (tilifizyūnāt 'televisions', maṭārāt 'airports') and for verbal nouns of derived forms (taʿlīmāt 'instructions').",
+     "examples": [
+      {
+       "target": "طالِبات",
+       "roman": "ṭālibāt",
+       "en": "female students"
+      },
+      {
+       "target": "سَيّارات",
+       "roman": "sayyārāt",
+       "en": "cars"
+      },
+      {
+       "target": "مَطارات",
+       "roman": "maṭārāt",
+       "en": "airports"
+      }
+     ]
+    },
+    {
+     "title": "Broken plurals: the word changes from inside",
+     "body": "Most basic nouns form the plural by changing their internal vowel pattern, sometimes adding a prefix or suffix too. These 'broken' plurals follow several dozen patterns, and the pattern a given noun uses must be learned with the word: bayt → buyūt 'houses', kitāb → kutub 'books', walad → awlād 'boys', qalam → aqlām 'pens', rajul → rijāl 'men', madīna → mudun 'cities', madrasa → madāris 'schools', ṣadīq → aṣdiqāʾ 'friends'. The consonant skeleton stays, which is what makes the plural recognisable.",
+     "examples": [
+      {
+       "target": "بَيت ← بُيوت",
+       "roman": "bayt → buyūt",
+       "en": "house → houses"
+      },
+      {
+       "target": "وَلَد ← أَوْلاد",
+       "roman": "walad → awlād",
+       "en": "boy → boys"
+      },
+      {
+       "target": "رَجُل ← رِجال",
+       "roman": "rajul → rijāl",
+       "en": "man → men"
+      },
+      {
+       "target": "مَدْرَسة ← مَدارِس",
+       "roman": "madrasa → madāris",
+       "en": "school → schools"
+      }
+     ]
+    },
+    {
+     "title": "Common broken-plural patterns",
+     "body": "Some patterns recur often enough to be worth knowing: fuʿūl (buyūt 'houses', qulūb 'hearts', durūs 'lessons'); afʿāl (awlād 'boys', aqlām 'pens', abwāb 'doors', ayyām 'days'); fuʿul (kutub 'books', mudun 'cities'); fiʿāl (rijāl 'men', jibāl 'mountains', kilāb 'dogs'); mafāʿil for ma- nouns (makātib 'offices', masājid 'mosques'); mafāʿīl for words with a long vowel (mafātīḥ 'keys'). Some nouns have more than one plural (shahr 'month' → shuhūr or ashhur).",
+     "examples": [
+      {
+       "target": "قَلَم ← أَقْلام",
+       "roman": "qalam → aqlām",
+       "en": "pen → pens (afʿāl)"
+      },
+      {
+       "target": "يَوم ← أَيّام",
+       "roman": "yawm → ayyām",
+       "en": "day → days (afʿāl)"
+      },
+      {
+       "target": "مِفْتاح ← مَفاتيح",
+       "roman": "miftāḥ → mafātīḥ",
+       "en": "key → keys (mafāʿīl)"
+      },
+      {
+       "target": "جَبَل ← جِبال",
+       "roman": "jabal → jibāl",
+       "en": "mountain → mountains (fiʿāl)"
+      }
+     ]
+    },
+    {
+     "title": "Non-human plurals count as feminine singular",
+     "body": "A plural that does not refer to people is treated grammatically as a feminine singular. Adjectives, verbs, pronouns and demonstratives all take the feminine singular form: al-kutub jadīda 'the books are new', hādhihi s-sayyārāt 'these cars', al-buyūt kabīra 'the houses are big', and 'they' for such plurals is hiya. This rule has no exceptions in Standard Arabic and is one of its most characteristic features.",
+     "examples": [
+      {
+       "target": "الكُتُب جَديدة.",
+       "roman": "al-kutub jadīda.",
+       "en": "The books are new."
+      },
+      {
+       "target": "هذِهِ السَّيّارات سَريعة.",
+       "roman": "hādhihi s-sayyārāt sarīʿa.",
+       "en": "These cars are fast."
+      },
+      {
+       "target": "أَيْنَ الأَقْلام؟ هِيَ عَلى المَكْتَب.",
+       "roman": "ayna l-aqlām? hiya ʿalā l-maktab.",
+       "en": "Where are the pens? They are on the desk."
+      }
+     ]
+    },
+    {
+     "title": "Human plurals agree in the plural",
+     "body": "Plurals of people take real plural agreement: masculine (or mixed) groups get the sound masculine plural on adjectives and hum, feminine groups get -āt and hunna. 'These' for people is hāʾulāʾi, for both genders: hāʾulāʾi ṭ-ṭullāb mujtahidūna 'these students are hard-working', al-muʿallimāt lubnāniyyāt 'the teachers (f.) are Lebanese'. Some adjectives have broken plurals of their own: ṭawīl → ṭiwāl 'tall', kabīr → kibār 'big, important', jadīd → judud.",
+     "examples": [
+      {
+       "target": "هؤُلاءِ الطُّلّاب مُجْتَهِدون.",
+       "roman": "hāʾulāʾi ṭ-ṭullāb mujtahidūna.",
+       "en": "These students are hard-working."
+      },
+      {
+       "target": "المُعَلِّمات لُبْنانِيّات.",
+       "roman": "al-muʿallimāt lubnāniyyāt.",
+       "en": "The (female) teachers are Lebanese."
+      },
+      {
+       "target": "هُم رِجال طِوال.",
+       "roman": "hum rijāl ṭiwāl.",
+       "en": "They are tall men."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "How many grammatical numbers does an Arabic noun have?",
+     "options": [
+      "three: singular, dual and plural",
+      "two: singular and plural",
+      "four",
+      "one"
+     ],
+     "answer": 0,
+     "explain": "Arabic keeps a dual for exactly two alongside singular and plural."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "The dual ending in the nominative is -āni.",
+     "answer": true,
+     "explain": "kitābāni 'two books'; the accusative/genitive form is -ayni."
+    },
+    {
+     "id": "e03",
+     "type": "match",
+     "pairs": [
+      [
+       "كتاب",
+       "kitāb, a book"
+      ],
+      [
+       "كتابان",
+       "kitābāni, two books (nominative)"
+      ],
+      [
+       "كتابين",
+       "kitābayni, two books (accusative/genitive)"
+      ],
+      [
+       "كتب",
+       "kutub, books"
+      ]
+     ]
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "'Two boys' (nominative): ولد → ___",
+     "answer": [
+      "ولدان",
+      "وَلَدان",
+      "waladāni",
+      "waladān",
+      "waladan"
+     ],
+     "roman": "waladāni",
+     "explain": "Add -āni to the singular: waladāni."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Which is the sound masculine plural 'teachers' in the nominative?",
+     "options": [
+      "معلّمون",
+      "معلّمات",
+      "معلّمان",
+      "معلّمين"
+     ],
+     "answer": 0,
+     "explain": "-ūna (ون) is the nominative; -īna is accusative/genitive, -āt feminine, -āni dual."
+    },
+    {
+     "id": "e06",
+     "type": "tf",
+     "q": "The sound masculine plural -ūna is used mainly for male people (and mixed groups).",
+     "answer": true,
+     "explain": "Objects do not take -ūna; they use -āt or a broken plural."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "في",
+      "المعلّمون",
+      "المدرسة"
+     ],
+     "answer": "المعلّمون في المدرسة",
+     "en": "The teachers are in the school."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "What is the plural of طالبة (ṭāliba, female student)?",
+     "options": [
+      "طالبات",
+      "طالبون",
+      "طالبتان",
+      "طلاب"
+     ],
+     "answer": 0,
+     "explain": "ة is replaced by -āt: ṭālibāt. ṭullāb is the plural of masculine ṭālib."
+    },
+    {
+     "id": "e09",
+     "type": "fill",
+     "q": "'Cars': سيّارة → ___",
+     "answer": [
+      "سيّارات",
+      "سيارات",
+      "سَيّارات",
+      "sayyārāt",
+      "sayyarat"
+     ],
+     "roman": "sayyārāt",
+     "explain": "sayyāra takes the sound feminine plural -āt."
+    },
+    {
+     "id": "e10",
+     "type": "match",
+     "pairs": [
+      [
+       "بيوت",
+       "buyūt, houses"
+      ],
+      [
+       "كتب",
+       "kutub, books"
+      ],
+      [
+       "أولاد",
+       "awlād, boys"
+      ],
+      [
+       "رجال",
+       "rijāl, men"
+      ]
+     ]
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "What is the plural of بيت (bayt, house)?",
+     "options": [
+      "بيوت",
+      "بيتات",
+      "بيتون",
+      "بيتان"
+     ],
+     "answer": 0,
+     "explain": "bayt has the broken plural buyūt (pattern fuʿūl); بيتان is the dual."
+    },
+    {
+     "id": "e12",
+     "type": "tf",
+     "q": "Broken plurals follow a single predictable rule.",
+     "answer": false,
+     "explain": "There are several dozen patterns, and each noun's plural must be learned with it."
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "What kind of agreement does a non-human plural noun take?",
+     "options": [
+      "feminine singular",
+      "masculine plural",
+      "feminine plural",
+      "dual"
+     ],
+     "answer": 0,
+     "explain": "al-kutub jadīda: plurals of things are treated as feminine singular."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "الكتب ___. (The books are new. Use jadīd with the right agreement.)",
+     "answer": [
+      "جديدة",
+      "جَديدة",
+      "jadīda",
+      "jadida"
+     ],
+     "roman": "jadīda",
+     "explain": "kutub is a non-human plural, so the adjective is feminine singular jadīda."
+    },
+    {
+     "id": "e15",
+     "type": "order",
+     "words": [
+      "جديدة",
+      "هذه",
+      "الكتب"
+     ],
+     "answer": "هذه الكتب جديدة",
+     "en": "These books are new."
+    },
+    {
+     "id": "e16",
+     "type": "match",
+     "pairs": [
+      [
+       "مدينة",
+       "madīna, a city"
+      ],
+      [
+       "مدينتان",
+       "madīnatāni, two cities (nominative)"
+      ],
+      [
+       "مدينتين",
+       "madīnatayni, two cities (accusative/genitive)"
+      ],
+      [
+       "مدن",
+       "mudun, cities"
+      ]
+     ]
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "'Two female students' in the nominative is...",
+     "options": [
+      "طالبتان",
+      "طالبان",
+      "طالبات",
+      "طالبتين"
+     ],
+     "answer": 0,
+     "explain": "ṭāliba + -āni, with ة becoming ت: ṭālibatāni."
+    },
+    {
+     "id": "e18",
+     "type": "tf",
+     "q": "In the dual, tāʾ marbūṭa (ة) becomes an ordinary ت before the ending.",
+     "answer": true,
+     "explain": "madīna → madīnatāni, written مدينتان."
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "'Men': رجل → ___",
+     "answer": [
+      "رجال",
+      "رِجال",
+      "rijāl",
+      "rijal"
+     ],
+     "roman": "rijāl",
+     "explain": "rajul has the broken plural rijāl (pattern fiʿāl)."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "After a preposition such as maʿa 'with', the sound masculine plural ends in...",
+     "options": [
+      "-īna",
+      "-ūna",
+      "-āni",
+      "-āt"
+     ],
+     "answer": 0,
+     "explain": "The genitive (and accusative) form is -īna: maʿa l-muhandisīna."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "مجتهدون",
+      "الطلاب",
+      "هؤلاء"
+     ],
+     "answer": "هؤلاء الطلاب مجتهدون",
+     "en": "These students are hard-working."
+    },
+    {
+     "id": "e22",
+     "type": "match",
+     "pairs": [
+      [
+       "هم",
+       "hum, they (male or mixed people)"
+      ],
+      [
+       "هنّ",
+       "hunna, they (female people)"
+      ],
+      [
+       "هما",
+       "humā, they two"
+      ],
+      [
+       "هي",
+       "hiya, she / they (non-human plural)"
+      ]
+     ]
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "Which sentence means 'The cars are fast'?",
+     "options": [
+      "السيّارات سريعة",
+      "السيّارات سريعون",
+      "السيّارات سريعات",
+      "السيّارة سريعة"
+     ],
+     "answer": 0,
+     "explain": "Non-human plural takes feminine singular sarīʿa; the last option is singular 'the car is fast'."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "أقلام (aqlām) is the plural of قلم (qalam, pen).",
+     "answer": true,
+     "explain": "qalam follows the afʿāl pattern: aqlām."
+    },
+    {
+     "id": "e25",
+     "type": "fill",
+     "q": "'Days': يوم → ___",
+     "answer": [
+      "أيّام",
+      "أيام",
+      "ايام",
+      "أَيّام",
+      "ʾayyām",
+      "ayyām",
+      "ayyam"
+     ],
+     "roman": "ayyām",
+     "explain": "yawm → ayyām (afʿāl pattern, with w assimilated to the doubled y)."
+    },
+    {
+     "id": "e26",
+     "type": "mc",
+     "q": "Which of these is a sound feminine plural?",
+     "options": [
+      "مهندسات",
+      "مهندسون",
+      "مهندسان",
+      "مهندس"
+     ],
+     "answer": 0,
+     "explain": "muhandisāt 'female engineers' has the -āt ending."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "المهندسون",
+      "من",
+      "مصر"
+     ],
+     "answer": "المهندسون من مصر",
+     "en": "The engineers are from Egypt."
+    },
+    {
+     "id": "e28",
+     "type": "tf",
+     "q": "هما (humā) means 'they two'.",
+     "answer": true,
+     "explain": "humā is the dual pronoun, used for two people or things of either gender."
+    },
+    {
+     "id": "e29",
+     "type": "mc",
+     "q": "What is the plural of مدرسة (madrasa, school)?",
+     "options": [
+      "مدارس",
+      "مدرسات",
+      "مدرستان",
+      "مدرسون"
+     ],
+     "answer": 0,
+     "explain": "Nouns of place take the broken plural mafāʿil: madāris."
+    },
+    {
+     "id": "e30",
+     "type": "fill",
+     "q": "'Two (female) teachers' (nominative): معلّمة → ___",
+     "answer": [
+      "معلّمتان",
+      "معلمتان",
+      "مُعَلِّمَتان",
+      "muʿallimatāni",
+      "muʿallimatān",
+      "muallimatani",
+      "muallimatan"
+     ],
+     "roman": "muʿallimatāni",
+     "explain": "ة becomes ت and -āni is added: muʿallimatāni."
+    }
+   ]
+  },
+  {
+   "id": "possession-idafa",
+   "title": "Possession and the iḍāfa",
+   "level": 2,
+   "summary": "Arabic says 'the boy's book' by putting two nouns side by side, kitāb al-walad, a structure called the iḍāfa. For 'my', 'your', 'his' and so on it attaches short pronoun endings directly to the noun.",
+   "rules": [
+    {
+     "title": "The iḍāfa: noun + noun",
+     "body": "To link two nouns as possessed and possessor, place them next to each other: the thing possessed first, the owner second, in the genitive. kitāb al-walad 'the book of the boy, the boy's book', bāb al-bayt 'the door of the house'. The first noun never takes al- and never takes nunation; it is made definite by the second noun. The structure covers 'of' in all its senses: jāmiʿat al-qāhira 'Cairo University', ʿāṣimat miṣr 'the capital of Egypt'.",
+     "examples": [
+      {
+       "target": "كِتاب الوَلَد",
+       "roman": "kitāb al-walad",
+       "en": "the boy's book"
+      },
+      {
+       "target": "باب البَيت",
+       "roman": "bāb al-bayt",
+       "en": "the door of the house"
+      },
+      {
+       "target": "عاصِمة مِصْر",
+       "roman": "ʿāṣimat miṣr",
+       "en": "the capital of Egypt"
+      }
+     ]
+    },
+    {
+     "title": "Indefinite iḍāfa",
+     "body": "If the second noun is indefinite, the whole phrase is indefinite: kitāb walad 'a boy's book', bāb bayt 'a house door', finjān qahwa 'a cup of coffee'. With full case endings the second noun carries nunation (kitābu waladin) while the first still cannot: never kitābun waladin. The iḍāfa therefore also serves where English uses a compound noun: ghurfat nawm 'bedroom', maḥaṭṭat qiṭār 'train station'.",
+     "examples": [
+      {
+       "target": "كِتاب وَلَد",
+       "roman": "kitāb walad",
+       "en": "a boy's book"
+      },
+      {
+       "target": "فِنْجان قَهْوة",
+       "roman": "finjān qahwa",
+       "en": "a cup of coffee"
+      },
+      {
+       "target": "غُرْفة نَوْم",
+       "roman": "ghurfat nawm",
+       "en": "a bedroom (room of sleeping)"
+      }
+     ]
+    },
+    {
+     "title": "tāʾ marbūṭa sounds as -t in the iḍāfa",
+     "body": "When a feminine noun ending in ة is the first term of an iḍāfa, its ending is pronounced -t (or -tu/-ta/-ti with case endings) because the word is no longer in pause: madīna 'city' but madīnat al-qāhira 'the city of Cairo'; sayyāra but sayyārat al-muʿallim 'the teacher's car'. The spelling with ة does not change. The same -t appears before attached pronouns: sayyāratī 'my car'.",
+     "examples": [
+      {
+       "target": "مَدينة القاهِرة",
+       "roman": "madīnat al-qāhira",
+       "en": "the city of Cairo"
+      },
+      {
+       "target": "سَيّارة المُعَلِّم",
+       "roman": "sayyārat al-muʿallim",
+       "en": "the teacher's car"
+      },
+      {
+       "target": "جامِعة بَيْروت",
+       "roman": "jāmiʿat bayrūt",
+       "en": "Beirut University"
+      }
+     ]
+    },
+    {
+     "title": "Nothing between the two nouns; adjectives follow",
+     "body": "The two terms of an iḍāfa form an unbreakable unit. An adjective, even one describing the first noun, goes after the whole phrase: sayyārat al-muʿallim al-jadīda 'the teacher's new car' (the feminine al-jadīda shows it describes sayyāra). Chains of three or more nouns are common: bāb bayt al-muʿallim 'the door of the teacher's house', only the last noun taking al-. A demonstrative for the first noun also comes after the phrase: kitāb al-walad hādhā 'this book of the boy's'.",
+     "examples": [
+      {
+       "target": "سَيّارة المُعَلِّم الجَديدة",
+       "roman": "sayyārat al-muʿallim al-jadīda",
+       "en": "the teacher's new car"
+      },
+      {
+       "target": "باب بَيت المُعَلِّم",
+       "roman": "bāb bayt al-muʿallim",
+       "en": "the door of the teacher's house"
+      },
+      {
+       "target": "مُعَلِّم المَدْرَسة الجَديد",
+       "roman": "muʿallim al-madrasa l-jadīd",
+       "en": "the school's new teacher"
+      }
+     ]
+    },
+    {
+     "title": "Attached possessive pronouns",
+     "body": "'My', 'your', 'his' are suffixes attached to the noun, which counts as definite and so takes no al-: -ī 'my', -ka 'your (m.)', -ki 'your (f.)', -hu 'his', -hā 'her', -nā 'our', -kum 'your (pl.)', -kunna 'your (f. pl.)', -hum 'their', -hunna 'their (f.)', plus dual -kumā and -humā. In full pronunciation the case vowel stands between noun and suffix: kitābu-ka (nominative), kitāba-ka (accusative), kitābi-ka (genitive); -ī swallows that vowel: kitābī. After i or ī, -hu becomes -hi: fī kitābihi 'in his book'.",
+     "examples": [
+      {
+       "target": "كِتابي",
+       "roman": "kitābī",
+       "en": "my book"
+      },
+      {
+       "target": "كِتابُكَ / كِتابُكِ",
+       "roman": "kitābuka / kitābuki",
+       "en": "your book (to a man / to a woman)"
+      },
+      {
+       "target": "كِتابُهُ / كِتابُها",
+       "roman": "kitābuhu / kitābuhā",
+       "en": "his book / her book"
+      },
+      {
+       "target": "بَيتُنا / بَيتُهُم",
+       "roman": "baytunā / baytuhum",
+       "en": "our house / their house"
+      }
+     ]
+    },
+    {
+     "title": "Suffixes on feminine nouns",
+     "body": "Before a suffix a feminine ة becomes an ordinary ت, as in the iḍāfa: sayyāra → sayyāratī 'my car', sayyāratuka 'your car', madīnatunā 'our city', ghurfatuhā 'her room'. The written form changes too, from ة to ت, since the letter is no longer final. Sound masculine plurals and duals drop their final -na / -ni before a suffix or in an iḍāfa: muʿallimū l-madrasa 'the school's teachers', muʿallimūka 'your teachers', waladāhu 'his two sons'.",
+     "examples": [
+      {
+       "target": "سَيّارَتي",
+       "roman": "sayyāratī",
+       "en": "my car"
+      },
+      {
+       "target": "مَدينَتُنا",
+       "roman": "madīnatunā",
+       "en": "our city"
+      },
+      {
+       "target": "مُعَلِّمو المَدْرَسة",
+       "roman": "muʿallimū l-madrasa",
+       "en": "the teachers of the school (-na dropped)"
+      }
+     ]
+    },
+    {
+     "title": "Pronouns on prepositions: 'to have'",
+     "body": "The same suffixes attach to prepositions: maʿī 'with me', maʿaka 'with you', lahu 'to him, his', lahā 'to her', minhum 'from them'. Arabic has no verb 'to have'; instead it uses ʿinda 'at, with' or li- 'to, for' plus a suffix: ʿindī sayyāra 'I have a car (literally: at me is a car)', ʿindahā akh 'she has a brother', lī ṣadīq 'I have a friend'. Ownership can also be stated with li-: al-kitāb li-l-walad 'the book belongs to the boy'.",
+     "examples": [
+      {
+       "target": "عِنْدي سَيّارة.",
+       "roman": "ʿindī sayyāra.",
+       "en": "I have a car."
+      },
+      {
+       "target": "عِنْدَها أَخ.",
+       "roman": "ʿindahā akh.",
+       "en": "She has a brother."
+      },
+      {
+       "target": "مَعي كِتابُكَ.",
+       "roman": "maʿī kitābuka.",
+       "en": "I have your book with me."
+      },
+      {
+       "target": "الكِتاب لِلوَلَد.",
+       "roman": "al-kitāb li-l-walad.",
+       "en": "The book belongs to the boy."
+      }
+     ]
+    },
+    {
+     "title": "The 'five nouns': abū, akhū and friends",
+     "body": "A few short nouns take long vowels as their case endings when they stand before a possessor or a suffix: ab 'father', akh 'brother', ḥam 'father-in-law', fū 'mouth' and dhū 'owner of'. They end in -ū in the nominative, -ā in the accusative and -ī in the genitive: abū aḥmad 'Ahmad's father', raʾaytu abā aḥmad 'I saw Ahmad's father', bayt abī aḥmad 'the house of Ahmad's father'. With -ī 'my' they are simply abī 'my father', akhī 'my brother'.",
+     "examples": [
+      {
+       "target": "أَبو أَحْمَد طَبيب.",
+       "roman": "abū aḥmad ṭabīb.",
+       "en": "Ahmad's father is a doctor."
+      },
+      {
+       "target": "هذا أَخوكَ.",
+       "roman": "hādhā akhūka.",
+       "en": "This is your brother."
+      },
+      {
+       "target": "بَيت أَبي",
+       "roman": "bayt abī",
+       "en": "my father's house"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "How do you say 'the boy's book'?",
+     "options": [
+      "كتاب الولد",
+      "الكتاب الولد",
+      "الكتاب ولد",
+      "كتاب ولد"
+     ],
+     "answer": 0,
+     "explain": "In an iḍāfa only the second noun takes al-; كتاب ولد would be 'a boy's book'."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "In an iḍāfa the first noun never takes al-.",
+     "answer": true,
+     "explain": "The first term is made definite by the second: kitāb al-walad, never al-kitāb al-walad."
+    },
+    {
+     "id": "e03",
+     "type": "match",
+     "pairs": [
+      [
+       "كتابي",
+       "kitābī, my book"
+      ],
+      [
+       "كتابكَ",
+       "kitābuka, your (m.) book"
+      ],
+      [
+       "كتابها",
+       "kitābuhā, her book"
+      ],
+      [
+       "كتابه",
+       "kitābuhu, his book"
+      ]
+     ]
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "___ الولد (the boy's house; bayt)",
+     "answer": [
+      "بيت",
+      "بَيت",
+      "bayt",
+      "baytu"
+     ],
+     "roman": "bayt",
+     "explain": "The first term of the iḍāfa stays bare: bayt al-walad."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "How do you say 'my car' (sayyāra)?",
+     "options": [
+      "سيّارتي",
+      "سيّارةي",
+      "سيّارة أنا",
+      "سيّارتها"
+     ],
+     "answer": 0,
+     "explain": "ة becomes ت before the suffix -ī: sayyāratī."
+    },
+    {
+     "id": "e06",
+     "type": "tf",
+     "q": "tāʾ marbūṭa is pronounced -t when its word is the first term of an iḍāfa.",
+     "answer": true,
+     "explain": "madīna, but madīnat al-qāhira 'the city of Cairo'."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "المعلّم",
+      "سيّارة",
+      "هذه"
+     ],
+     "answer": "هذه سيّارة المعلّم",
+     "en": "This is the teacher's car."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Which form means 'her book'?",
+     "options": [
+      "كتابها",
+      "كتابه",
+      "كتابك",
+      "كتابي"
+     ],
+     "answer": 0,
+     "explain": "-hā is the suffix for 'her'; -hu is 'his', -ka/-ki 'your', -ī 'my'."
+    },
+    {
+     "id": "e09",
+     "type": "fill",
+     "q": "أين ___؟ (Where is your (f.) book?)",
+     "answer": [
+      "كتابكِ",
+      "كتابك",
+      "كِتابُكِ",
+      "kitābuki",
+      "kitabuki",
+      "kitābuk"
+     ],
+     "roman": "kitābuki",
+     "explain": "To a woman the suffix is -ki: kitābuki."
+    },
+    {
+     "id": "e10",
+     "type": "match",
+     "pairs": [
+      [
+       "معي",
+       "maʿī, with me"
+      ],
+      [
+       "لكَ",
+       "laka, to / for you (m.)"
+      ],
+      [
+       "عندها",
+       "ʿindahā, she has"
+      ],
+      [
+       "لهم",
+       "lahum, to / for them"
+      ]
+     ]
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "How do you say 'the door of the teacher's house'?",
+     "options": [
+      "باب بيت المعلّم",
+      "الباب بيت المعلّم",
+      "باب البيت المعلّم",
+      "باب بيت معلّم"
+     ],
+     "answer": 0,
+     "explain": "In a chain only the last noun takes al-: bāb bayt al-muʿallim."
+    },
+    {
+     "id": "e12",
+     "type": "tf",
+     "q": "An adjective describing the first noun of an iḍāfa can be placed between the two nouns.",
+     "answer": false,
+     "explain": "Nothing separates the terms; the adjective follows the whole phrase: sayyārat al-muʿallim al-jadīda."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "جامعة",
+      "في",
+      "القاهرة",
+      "هي"
+     ],
+     "answer": "هي في جامعة القاهرة",
+     "en": "She is at Cairo University."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "___ سيّارة. (I have a car.)",
+     "answer": [
+      "عندي",
+      "عِنْدي",
+      "ʿindī",
+      "indi",
+      "ʿindi",
+      "3indi"
+     ],
+     "roman": "ʿindī",
+     "explain": "'I have' is ʿinda + -ī: ʿindī, literally 'at me'."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "In كتاب الولد (kitāb al-walad), which noun is definite?",
+     "options": [
+      "both: the second makes the whole phrase definite",
+      "only the second",
+      "only the first",
+      "neither"
+     ],
+     "answer": 0,
+     "explain": "The definiteness of al-walad spreads to kitāb, so the phrase means 'the boy's book'."
+    },
+    {
+     "id": "e16",
+     "type": "match",
+     "pairs": [
+      [
+       "كتابنا",
+       "kitābunā, our book"
+      ],
+      [
+       "كتابكم",
+       "kitābukum, your (pl.) book"
+      ],
+      [
+       "كتابهم",
+       "kitābuhum, their book"
+      ],
+      [
+       "كتابكِ",
+       "kitābuki, your (f.) book"
+      ]
+     ]
+    },
+    {
+     "id": "e17",
+     "type": "tf",
+     "q": "'A boy's book' (indefinite) is كتاب ولد (kitāb walad).",
+     "answer": true,
+     "explain": "With an indefinite second term the whole iḍāfa is indefinite."
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "How do you say 'his name' (ism)?",
+     "options": [
+      "اسمه",
+      "اسمها",
+      "اسمي",
+      "اسمك"
+     ],
+     "answer": 0,
+     "explain": "ism + -hu = ismuhu 'his name'."
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "___ جميلة. (Our city is beautiful; madīna + 'our')",
+     "answer": [
+      "مدينتنا",
+      "مَدينَتُنا",
+      "madīnatunā",
+      "madinatuna",
+      "madīnatnā"
+     ],
+     "roman": "madīnatunā",
+     "explain": "ة turns into ت and -nā is added: madīnatunā."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "المدرسة",
+      "بعيد",
+      "بيت",
+      "عن",
+      "المعلّم"
+     ],
+     "answer": "بيت المعلّم بعيد عن المدرسة",
+     "en": "The teacher's house is far from the school."
+    },
+    {
+     "id": "e21",
+     "type": "mc",
+     "q": "After the preposition fī, 'in his book' is pronounced...",
+     "options": [
+      "fī kitābihi",
+      "fī kitābuhu",
+      "fī kitābahu",
+      "fī kitāb huwa"
+     ],
+     "answer": 0,
+     "explain": "fī takes the genitive -i, and after i the suffix -hu becomes -hi."
+    },
+    {
+     "id": "e22",
+     "type": "tf",
+     "q": "The suffix -hu changes to -hi after the vowel i or ī.",
+     "answer": true,
+     "explain": "kitābuhu 'his book' but fī kitābihi 'in his book', ʿalayhi 'on him'."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "هذا مفتاح ___. (This is the key of the door.)",
+     "answer": [
+      "الباب",
+      "al-bāb",
+      "albab",
+      "al-bab",
+      "albāb"
+     ],
+     "roman": "al-bāb",
+     "explain": "The second term carries al- and makes the whole phrase definite: miftāḥ al-bāb."
+    },
+    {
+     "id": "e24",
+     "type": "match",
+     "pairs": [
+      [
+       "عندي",
+       "ʿindī, I have"
+      ],
+      [
+       "عندكَ",
+       "ʿindaka, you (m.) have"
+      ],
+      [
+       "عنده",
+       "ʿindahu, he has"
+      ],
+      [
+       "عندنا",
+       "ʿindanā, we have"
+      ]
+     ]
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "'The teachers of the school' with the sound masculine plural (nominative) is...",
+     "options": [
+      "معلّمو المدرسة",
+      "معلّمون المدرسة",
+      "المعلّمون المدرسة",
+      "معلّمين المدرسة"
+     ],
+     "answer": 0,
+     "explain": "The -na of -ūna is dropped before a possessor: muʿallimū l-madrasa."
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "The first noun of an iḍāfa can carry nunation, as in kitābun al-walad.",
+     "answer": false,
+     "explain": "The first term takes neither al- nor tanwīn: kitābu l-walad."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "اسمي",
+      "أحمد",
+      "وأنا",
+      "من",
+      "مصر"
+     ],
+     "answer": "اسمي أحمد وأنا من مصر",
+     "en": "My name is Ahmad and I am from Egypt."
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "Which form of 'father' is used before a possessor in the nominative, as in 'Ahmad's father is a doctor'?",
+     "options": [
+      "أبو (abū)",
+      "أب (ab)",
+      "أبي (abī)",
+      "أبا (abā)"
+     ],
+     "answer": 0,
+     "explain": "ab is one of the 'five nouns': abū (nominative), abā (accusative), abī (genitive) before a possessor."
+    },
+    {
+     "id": "e29",
+     "type": "fill",
+     "q": "___ كبير. (Their house is big; bayt + 'their' (m.))",
+     "answer": [
+      "بيتهم",
+      "بَيتُهُم",
+      "baytuhum",
+      "baythum",
+      "baytuhom"
+     ],
+     "roman": "baytuhum",
+     "explain": "bayt + -hum = baytuhum 'their house'."
+    },
+    {
+     "id": "e30",
+     "type": "tf",
+     "q": "'The book belongs to the boy' can be expressed with li-: الكتاب للولد.",
+     "answer": true,
+     "explain": "li- + noun or pronoun expresses ownership: al-kitāb li-l-walad, al-kitāb lī 'the book is mine'."
+    }
+   ]
+  },
+  {
+   "id": "past-tense",
+   "title": "The past tense",
+   "level": 2,
+   "summary": "The Arabic past tense (al-māḍī) is the simplest verb form and the one dictionaries list: kataba 'he wrote'. Suffixes mark the subject, so a single word can be a whole sentence, and mā in front of it makes it negative.",
+   "rules": [
+    {
+     "title": "The past tense is built with suffixes",
+     "body": "The past tense describes completed actions ('wrote', 'has written', 'had written'). The dictionary form kataba 'he wrote' is the bare stem katab- with the third-person masculine ending -a. All other persons add their own suffix to the same stem: katab-tu 'I wrote', katab-ta 'you (m.) wrote', katab-ti 'you (f.) wrote', katab-at 'she wrote'. Because the subject is contained in the ending, a separate pronoun is used only for emphasis.",
+     "examples": [
+      {
+       "target": "كَتَبَ",
+       "roman": "kataba",
+       "en": "he wrote"
+      },
+      {
+       "target": "كَتَبْتُ",
+       "roman": "katabtu",
+       "en": "I wrote"
+      },
+      {
+       "target": "كَتَبَتْ",
+       "roman": "katabat",
+       "en": "she wrote"
+      },
+      {
+       "target": "كَتَبْتِ رِسالة.",
+       "roman": "katabti risāla.",
+       "en": "You (f.) wrote a letter."
+      }
+     ]
+    },
+    {
+     "title": "The full conjugation",
+     "body": "Singular: katabtu (I), katabta (you m.), katabti (you f.), kataba (he), katabat (she). Plural: katabnā (we), katabtum (you m. pl.), katabtunna (you f. pl.), katabū (they m., spelled with a silent final alif كتبوا), katabna (they f.). Dual: katabtumā (you two), katabā (they two m.), katabatā (they two f.). In unvocalised writing katabtu, katabta and katabti all look like كتبت, so context decides.",
+     "examples": [
+      {
+       "target": "دَرَسْنا العَرَبِيّة.",
+       "roman": "darasnā l-ʿarabiyya.",
+       "en": "We studied Arabic."
+      },
+      {
+       "target": "ذَهَبوا إلى السّوق.",
+       "roman": "dhahabū ilā s-sūq.",
+       "en": "They went to the market."
+      },
+      {
+       "target": "هَل فَهِمْتُم؟",
+       "roman": "hal fahimtum?",
+       "en": "Did you (pl.) understand?"
+      },
+      {
+       "target": "البَنات ذَهَبْنَ.",
+       "roman": "al-banāt dhahabna.",
+       "en": "The girls went."
+      }
+     ]
+    },
+    {
+     "title": "The middle vowel must be learned",
+     "body": "The first and last vowels of the past stem are always a, but the middle vowel can be a, i or u and must be memorised with each verb: kataba 'wrote', dhahaba 'went', fataḥa 'opened', but shariba 'drank', fahima 'understood', ʿamila 'worked', samiʿa 'heard', and a few with u for qualities: kabura 'grew big', ḥasuna 'was good'. The suffixes never change: sharibtu, fahimnā, ʿamilū.",
+     "examples": [
+      {
+       "target": "شَرِبْتُ القَهْوة.",
+       "roman": "sharibtu l-qahwa.",
+       "en": "I drank the coffee."
+      },
+      {
+       "target": "فَهِمَت الدَّرْس.",
+       "roman": "fahimat ad-dars.",
+       "en": "She understood the lesson."
+      },
+      {
+       "target": "عَمِلوا في المَصْنَع.",
+       "roman": "ʿamilū fī l-maṣnaʿ.",
+       "en": "They worked in the factory."
+      }
+     ]
+    },
+    {
+     "title": "Word order and agreement",
+     "body": "The neutral order of a verbal sentence is verb, subject, object: dhahaba l-waladu ilā l-madrasa 'the boy went to school'. When the verb comes before its subject it agrees in gender only and stays singular even for a plural subject: dhahaba l-awlād 'the boys went', dhahabat al-banāt 'the girls went'. When the subject comes first, the verb agrees fully: al-awlād dhahabū, al-banāt dhahabna. Non-human plural subjects take the feminine singular verb either way: waṣalat ar-rasāʾil 'the letters arrived'.",
+     "examples": [
+      {
+       "target": "ذَهَبَ الأَوْلاد إلى المَدْرَسة.",
+       "roman": "dhahaba l-awlād ilā l-madrasa.",
+       "en": "The boys went to school (verb first: singular)."
+      },
+      {
+       "target": "الأَوْلاد ذَهَبوا إلى المَدْرَسة.",
+       "roman": "al-awlād dhahabū ilā l-madrasa.",
+       "en": "The boys went to school (subject first: plural verb)."
+      },
+      {
+       "target": "وَصَلَت الرَّسائِل.",
+       "roman": "waṣalat ar-rasāʾil.",
+       "en": "The letters arrived (non-human plural = feminine singular)."
+      }
+     ]
+    },
+    {
+     "title": "Negation with mā (and lam)",
+     "body": "To negate the past, put mā before the verb: mā kataba 'he did not write', mā fahimtu 'I did not understand', mā dhahabnā 'we did not go'. Formal written Arabic prefers lam followed by the present tense in its jussive form, which also means past: lam yaktub 'he did not write', lam afham 'I did not understand'. Both are correct; mā + past is simpler and common in speech.",
+     "examples": [
+      {
+       "target": "ما كَتَبَ الرِّسالة.",
+       "roman": "mā kataba r-risāla.",
+       "en": "He did not write the letter."
+      },
+      {
+       "target": "ما فَهِمْتُ.",
+       "roman": "mā fahimtu.",
+       "en": "I did not understand."
+      },
+      {
+       "target": "لَم يَكْتُب الرِّسالة.",
+       "roman": "lam yaktub ar-risāla.",
+       "en": "He did not write the letter (formal, with lam)."
+      }
+     ]
+    },
+    {
+     "title": "kāna: 'was'",
+     "body": "'To be' is absent in the present but needed in the past: kāna 'he was', kānat 'she was', kuntu 'I was', kunta / kunti 'you were', kunnā 'we were', kānū 'they were'. It is a hollow verb (root k-w-n), so the long ā shortens to u when a consonant suffix follows. The predicate after kāna goes into the accusative: kāna l-bayt kabīran 'the house was big', kuntu ṭāliban 'I was a student'. kāna + present tense gives 'used to / was doing': kāna yaktubu 'he used to write'.",
+     "examples": [
+      {
+       "target": "كانَ البَيت كَبيرًا.",
+       "roman": "kāna l-bayt kabīran.",
+       "en": "The house was big."
+      },
+      {
+       "target": "كُنْتُ في بَيْروت.",
+       "roman": "kuntu fī bayrūt.",
+       "en": "I was in Beirut."
+      },
+      {
+       "target": "كانَت تَكْتُب كُلّ يَوم.",
+       "roman": "kānat taktub kulla yawm.",
+       "en": "She used to write every day."
+      }
+     ]
+    },
+    {
+     "title": "Hollow and other irregular stems",
+     "body": "Verbs whose middle root letter is w or y have a long ā in the dictionary form: qāla 'he said' (q-w-l), zāra 'he visited', nāma 'he slept', bāʿa 'he sold'. Before a suffix beginning with a consonant the ā shrinks to u or i: qultu 'I said', qulnā 'we said', but biʿtu 'I sold', nimtu 'I slept'. Verbs ending in a vowel (mashā 'he walked', raʾā 'he saw') change too: mashaytu, raʾaytu 'I saw', raʾat 'she saw'. Doubled verbs like marra 'he passed' give marartu 'I passed'.",
+     "examples": [
+      {
+       "target": "قالَ / قُلْتُ",
+       "roman": "qāla / qultu",
+       "en": "he said / I said"
+      },
+      {
+       "target": "زارَت أُمَّها.",
+       "roman": "zārat ummahā.",
+       "en": "She visited her mother."
+      },
+      {
+       "target": "رَأَيْتُ الفيلم.",
+       "roman": "raʾaytu l-film.",
+       "en": "I saw the film."
+      }
+     ]
+    },
+    {
+     "title": "Object pronouns attached to the verb",
+     "body": "The pronoun suffixes you know from nouns also attach to verbs as direct objects, with one difference: 'me' is -nī (not -ī). katabtuhu 'I wrote it', raʾaytuka 'I saw you', saʾaltuhā 'I asked her', sāʿadanā 'he helped us', shāhadanī 'he saw me'. The suffix comes after the subject ending, and the third person plural -ū keeps its long vowel but loses its silent alif: saʾalūhu 'they asked him'.",
+     "examples": [
+      {
+       "target": "كَتَبْتُهُ أَمْس.",
+       "roman": "katabtuhu ams.",
+       "en": "I wrote it yesterday."
+      },
+      {
+       "target": "شاهَدَني في السّوق.",
+       "roman": "shāhadanī fī s-sūq.",
+       "en": "He saw me in the market."
+      },
+      {
+       "target": "ساعَدونا كَثيرًا.",
+       "roman": "sāʿadūnā kathīran.",
+       "en": "They helped us a lot."
+      }
+     ]
+    },
+    {
+     "title": "qad and time expressions",
+     "body": "The past tense alone covers 'wrote', 'has written' and 'had written'. The particle qad before a past verb stresses that the action is completed, often matching English 'has/have': qad waṣala 'he has arrived'. With kāna it gives the pluperfect: kāna qad waṣala 'he had arrived'. Common time words that go with the past are ams 'yesterday', al-bāriḥa 'last night', qabla 'before', mundhu 'since, ago' and sana 'year'.",
+     "examples": [
+      {
+       "target": "قَد وَصَلَ القِطار.",
+       "roman": "qad waṣala l-qiṭār.",
+       "en": "The train has arrived."
+      },
+      {
+       "target": "كانَ قَد ذَهَبَ.",
+       "roman": "kāna qad dhahaba.",
+       "en": "He had (already) gone."
+      },
+      {
+       "target": "سَكَنْتُ في بَيْروت مُنْذُ سَنة.",
+       "roman": "sakantu fī bayrūt mundhu sana.",
+       "en": "I lived in Beirut a year ago."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "What does كتب (kataba) mean?",
+     "options": [
+      "he wrote",
+      "I wrote",
+      "she wrote",
+      "they wrote"
+     ],
+     "answer": 0,
+     "explain": "The dictionary form is the third person masculine singular of the past."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "The Arabic past tense is formed by adding suffixes to the verb stem.",
+     "answer": true,
+     "explain": "katab-tu, katab-ta, katab-at: the person is marked at the end."
+    },
+    {
+     "id": "e03",
+     "type": "match",
+     "pairs": [
+      [
+       "كتبتُ",
+       "katabtu, I wrote"
+      ],
+      [
+       "كتبتَ",
+       "katabta, you (m.) wrote"
+      ],
+      [
+       "كتبتِ",
+       "katabti, you (f.) wrote"
+      ],
+      [
+       "كتبَت",
+       "katabat, she wrote"
+      ]
+     ]
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "___ الدرس. (She studied the lesson; darasa)",
+     "answer": [
+      "درسَت",
+      "درست",
+      "دَرَسَتْ",
+      "darasat"
+     ],
+     "roman": "darasat",
+     "explain": "'She' takes the suffix -at: darasat."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Which form means 'they (m.) wrote'?",
+     "options": [
+      "كتبوا",
+      "كتبنا",
+      "كتبتم",
+      "كتبن"
+     ],
+     "answer": 0,
+     "explain": "katabū is spelled with -ū plus a silent alif; katabnā is 'we', katabtum 'you (pl.)', katabna 'they (f.)'."
+    },
+    {
+     "id": "e06",
+     "type": "tf",
+     "q": "The dictionary form of an Arabic verb is the 'he' form of the past tense.",
+     "answer": true,
+     "explain": "Dictionaries list kataba, darasa, dhahaba, which English learners render as 'to write' etc."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "إلى",
+      "ذهب",
+      "الولد",
+      "المدرسة"
+     ],
+     "answer": "ذهب الولد إلى المدرسة",
+     "en": "The boy went to school."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "How do you negate كتب 'he wrote' with mā?",
+     "options": [
+      "ما كتب",
+      "لا كتب",
+      "ليس كتب",
+      "لم كتب"
+     ],
+     "answer": 0,
+     "explain": "mā + past verb; lā negates the present, laysa nominal sentences, and lam needs the jussive (lam yaktub)."
+    },
+    {
+     "id": "e09",
+     "type": "fill",
+     "q": "___ القهوة. (I drank the coffee; shariba)",
+     "answer": [
+      "شربتُ",
+      "شربت",
+      "شَرِبْتُ",
+      "sharibtu"
+     ],
+     "roman": "sharibtu",
+     "explain": "'I' takes -tu; the middle vowel i of shariba stays: sharibtu."
+    },
+    {
+     "id": "e10",
+     "type": "match",
+     "pairs": [
+      [
+       "ذهبنا",
+       "dhahabnā, we went"
+      ],
+      [
+       "ذهبتم",
+       "dhahabtum, you (m. pl.) went"
+      ],
+      [
+       "ذهبوا",
+       "dhahabū, they (m.) went"
+      ],
+      [
+       "ذهبن",
+       "dhahabna, they (f.) went"
+      ]
+     ]
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "Which form means 'we ate' (akala)?",
+     "options": [
+      "أكلنا",
+      "أكلوا",
+      "أكلتُ",
+      "أكلتم"
+     ],
+     "answer": 0,
+     "explain": "-nā is the 'we' suffix: akalnā."
+    },
+    {
+     "id": "e12",
+     "type": "tf",
+     "q": "When the verb comes before a plural subject it stays singular: ذهب الأولاد (dhahaba l-awlād).",
+     "answer": true,
+     "explain": "Verb-first order gives gender agreement only; al-awlād dhahabū has full agreement."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "الأولاد",
+      "إلى",
+      "ذهبوا",
+      "المدرسة"
+     ],
+     "answer": "الأولاد ذهبوا إلى المدرسة",
+     "en": "The boys went to school."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "___ البنت الكتاب. (The girl read the book; qaraʾa)",
+     "answer": [
+      "قرأت",
+      "قرأَت",
+      "قَرَأَتْ",
+      "qaraʾat",
+      "qaraat",
+      "qara'at"
+     ],
+     "roman": "qaraʾat",
+     "explain": "Verb before a feminine subject takes -at: qaraʾat al-bint."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "Which form means 'I was' (from kāna)?",
+     "options": [
+      "كنتُ",
+      "كان",
+      "كانت",
+      "كنّا"
+     ],
+     "answer": 0,
+     "explain": "The hollow stem shortens before -tu: kuntu."
+    },
+    {
+     "id": "e16",
+     "type": "match",
+     "pairs": [
+      [
+       "كان",
+       "kāna, he was"
+      ],
+      [
+       "كانت",
+       "kānat, she was"
+      ],
+      [
+       "كنتُ",
+       "kuntu, I was"
+      ],
+      [
+       "كنّا",
+       "kunnā, we were"
+      ]
+     ]
+    },
+    {
+     "id": "e17",
+     "type": "tf",
+     "q": "ما كتبتُ (mā katabtu) means 'I did not write'.",
+     "answer": true,
+     "explain": "mā before the past-tense verb negates it."
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "In كان البيت كبيرًا (kāna l-bayt kabīran), the predicate kabīran is in which case?",
+     "options": [
+      "accusative",
+      "nominative",
+      "genitive",
+      "it has no case"
+     ],
+     "answer": 0,
+     "explain": "kāna puts its predicate in the accusative, shown here by -an with its alif."
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "هل ___ الدرس؟ (Did you (m.) understand the lesson? fahima)",
+     "answer": [
+      "فهمتَ",
+      "فهمت",
+      "فَهِمْتَ",
+      "fahimta"
+     ],
+     "roman": "fahimta",
+     "explain": "'You (m.)' takes -ta: fahimta."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "ما",
+      "الرسالة",
+      "كتبتُ"
+     ],
+     "answer": "ما كتبتُ الرسالة",
+     "en": "I did not write the letter."
+    },
+    {
+     "id": "e21",
+     "type": "mc",
+     "q": "qāla means 'he said'. How is 'I said' pronounced?",
+     "options": [
+      "qultu",
+      "qāltu",
+      "qawaltu",
+      "qālatu"
+     ],
+     "answer": 0,
+     "explain": "In hollow verbs the long ā shortens to u before a consonant suffix: qultu."
+    },
+    {
+     "id": "e22",
+     "type": "tf",
+     "q": "The ending -at (كتبَت) marks 'she' in the past tense.",
+     "answer": true,
+     "explain": "katabat 'she wrote', darasat 'she studied'."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "___ في بيروت سنةً. (We lived in Beirut for a year; sakana)",
+     "answer": [
+      "سكنّا",
+      "سكنا",
+      "سَكَنّا",
+      "sakannā",
+      "sakanna"
+     ],
+     "roman": "sakannā",
+     "explain": "sakan + -nā; the two n's merge into a doubled n written with shadda."
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "Which form means 'I saw you (m.)' with an attached object pronoun?",
+     "options": [
+      "رأيتك",
+      "رأيتني",
+      "رأيته",
+      "رأيتها"
+     ],
+     "answer": 0,
+     "explain": "raʾaytu + -ka = raʾaytuka; -nī would be 'me', -hu 'him', -hā 'her'."
+    },
+    {
+     "id": "e25",
+     "type": "match",
+     "pairs": [
+      [
+       "كتبته",
+       "katabtuhu, I wrote it"
+      ],
+      [
+       "شاهدني",
+       "shāhadanī, he saw me"
+      ],
+      [
+       "سألتها",
+       "saʾaltuhā, I asked her"
+      ],
+      [
+       "ساعدنا",
+       "sāʿadanā, he helped us"
+      ]
+     ]
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "lam + the present tense in the jussive (لم يكتب) is a more formal way of saying 'he did not write'.",
+     "answer": true,
+     "explain": "lam yaktub and mā kataba mean the same; lam is preferred in formal writing."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "العربية",
+      "في",
+      "درسَت",
+      "الجامعة"
+     ],
+     "answer": "درسَت العربية في الجامعة",
+     "en": "She studied Arabic at the university."
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "Which is 'you (f.) wrote'?",
+     "options": [
+      "katabti",
+      "katabta",
+      "katabtu",
+      "katabat"
+     ],
+     "answer": 0,
+     "explain": "-ti is the feminine 'you'; -ta masculine 'you', -tu 'I', -at 'she'."
+    },
+    {
+     "id": "e29",
+     "type": "fill",
+     "q": "___ الباب. (They (m.) opened the door; fataḥa)",
+     "answer": [
+      "فتحوا",
+      "فَتَحوا",
+      "fataḥū",
+      "fatahu",
+      "fatahuu"
+     ],
+     "roman": "fataḥū",
+     "explain": "'They (m.)' takes -ū, written with a silent alif: فتحوا."
+    },
+    {
+     "id": "e30",
+     "type": "tf",
+     "q": "In ذهبَت المعلّمات (dhahabat al-muʿallimāt) the verb is wrong because the subject is plural.",
+     "answer": false,
+     "explain": "A verb before its subject stays singular; it only agrees in gender, so dhahabat is correct."
+    }
+   ]
+  },
+  {
+   "id": "present-and-future",
+   "title": "The present tense and the future",
+   "level": 3,
+   "summary": "The present tense (al-muḍāriʿ) marks the subject with prefixes rather than suffixes: a-, ta-, ya-, na-. The same form serves for the future when you add sa- or sawfa, and it is negated with lā in the present and lan in the future.",
+   "rules": [
+    {
+     "title": "Prefixes mark the subject",
+     "body": "The present tense is built on a different stem from the past (katab- → -ktub-) and takes a prefix: a- 'I' (aktubu), ta- 'you (m.)' and 'she' (taktubu), ya- 'he' (yaktubu), na- 'we' (naktubu). The final -u is the indicative ending, often dropped in pause. Note that taktubu is both 'you write' and 'she writes'; context or a pronoun decides.",
+     "examples": [
+      {
+       "target": "أَكْتُبُ رِسالة.",
+       "roman": "aktubu risāla.",
+       "en": "I write / am writing a letter."
+      },
+      {
+       "target": "يَكْتُبُ كُلّ يَوم.",
+       "roman": "yaktubu kulla yawm.",
+       "en": "He writes every day."
+      },
+      {
+       "target": "هِيَ تَكْتُبُ الآن.",
+       "roman": "hiya taktubu l-ān.",
+       "en": "She is writing now."
+      },
+      {
+       "target": "نَكْتُبُ بِالعَرَبِيّة.",
+       "roman": "naktubu bi-l-ʿarabiyya.",
+       "en": "We write in Arabic."
+      }
+     ]
+    },
+    {
+     "title": "The full present-tense paradigm",
+     "body": "Singular: aktubu (I), taktubu (you m.), taktubīna (you f.), yaktubu (he), taktubu (she). Plural: naktubu (we), taktubūna (you m. pl.), taktubna (you f. pl.), yaktubūna (they m.), yaktubna (they f.). Dual: taktubāni (you two), yaktubāni (they two m.), taktubāni (they two f.). The feminine 'you' and the plurals add suffixes as well as prefixes: -īna, -ūna, -na, -āni.",
+     "examples": [
+      {
+       "target": "تَكْتُبينَ",
+       "roman": "taktubīna",
+       "en": "you (f.) write"
+      },
+      {
+       "target": "يَكْتُبونَ",
+       "roman": "yaktubūna",
+       "en": "they (m.) write"
+      },
+      {
+       "target": "تَكْتُبونَ",
+       "roman": "taktubūna",
+       "en": "you (m. pl.) write"
+      },
+      {
+       "target": "يَكْتُبْنَ",
+       "roman": "yaktubna",
+       "en": "they (f.) write"
+      }
+     ]
+    },
+    {
+     "title": "The present stem vowel",
+     "body": "The vowel between the second and third root letters in the present cannot be predicted from the past and is learned with the verb: kataba → yaktubu, darasa → yadrusu, sakana → yaskunu (u); dhahaba → yadhhabu, fataḥa → yaftaḥu, shariba → yashrabu, fahima → yafhamu (a); jalasa → yajlisu, ʿarafa → yaʿrifu, rajaʿa → yarjiʿu (i). Dictionaries give the past followed by this vowel: kataba (u), jalasa (i).",
+     "examples": [
+      {
+       "target": "يَدْرُسُ",
+       "roman": "yadrusu",
+       "en": "he studies (stem vowel u)"
+      },
+      {
+       "target": "يَشْرَبُ",
+       "roman": "yashrabu",
+       "en": "he drinks (stem vowel a)"
+      },
+      {
+       "target": "يَجْلِسُ",
+       "roman": "yajlisu",
+       "en": "he sits (stem vowel i)"
+      }
+     ]
+    },
+    {
+     "title": "What the present tense means",
+     "body": "One form covers English simple present and continuous: yaktubu is 'he writes' and 'he is writing'. It is used for habits (kulla yawm 'every day'), ongoing actions (al-ān 'now'), general truths, and often for the near future in context. 'Still' is mā zāla + present (mā zāla yadrusu 'he is still studying'), and 'used to' is kāna + present.",
+     "examples": [
+      {
+       "target": "أَسْكُنُ في القاهِرة.",
+       "roman": "askunu fī l-qāhira.",
+       "en": "I live in Cairo."
+      },
+      {
+       "target": "يَدْرُسونَ العَرَبِيّة الآن.",
+       "roman": "yadrusūna l-ʿarabiyya l-ān.",
+       "en": "They are studying Arabic now."
+      },
+      {
+       "target": "تَشْرَبُ القَهْوة كُلّ صَباح.",
+       "roman": "tashrabu l-qahwa kulla ṣabāḥ.",
+       "en": "She drinks coffee every morning."
+      }
+     ]
+    },
+    {
+     "title": "Negating the present with lā",
+     "body": "To negate the present, put lā in front of the verb and change nothing else: lā aktubu 'I don't write', lā afhamu 'I don't understand', lā yatakallamu l-ʿarabiyya 'he doesn't speak Arabic'. lā is also the word for 'no' and the negative command marker (lā taktub! 'don't write!', with the jussive). Do not confuse it with mā, which negates the past.",
+     "examples": [
+      {
+       "target": "لا أَفْهَمُ.",
+       "roman": "lā afhamu.",
+       "en": "I don't understand."
+      },
+      {
+       "target": "لا يَتَكَلَّمُ الإِنْجِليزِيّة.",
+       "roman": "lā yatakallamu l-inglīziyya.",
+       "en": "He doesn't speak English."
+      },
+      {
+       "target": "لا نَسْكُنُ هُنا.",
+       "roman": "lā naskunu hunā.",
+       "en": "We don't live here."
+      }
+     ]
+    },
+    {
+     "title": "The future: sa- and sawfa",
+     "body": "The future is the present tense with sa- attached to the front (سأكتب sa-aktubu 'I will write') or with the separate word sawfa before it (sawfa aktubu). sa- is the everyday choice; sawfa is a little more formal or emphatic ('will certainly, later on'). 'Will be' is sa-yakūnu. Time words: ghadan 'tomorrow', baʿda 'after', fī l-mustaqbal 'in the future', al-usbūʿ al-qādim 'next week'.",
+     "examples": [
+      {
+       "target": "سَأَذْهَبُ إلى السّوق غَدًا.",
+       "roman": "sa-adhhabu ilā s-sūq ghadan.",
+       "en": "I will go to the market tomorrow."
+      },
+      {
+       "target": "سَوْفَ نُسافِرُ إلى مِصْر.",
+       "roman": "sawfa nusāfiru ilā miṣr.",
+       "en": "We will travel to Egypt."
+      },
+      {
+       "target": "سَيَكونُ الطَّقْس حارًّا.",
+       "roman": "sa-yakūnu ṭ-ṭaqs ḥārran.",
+       "en": "The weather will be hot."
+      }
+     ]
+    },
+    {
+     "title": "Negating the future with lan",
+     "body": "'Will not' is lan followed by the present tense in the subjunctive mood: the final -u becomes -a, and the endings -ūna / -īna lose their -na: lan aktuba 'I will not write', lan yadhhabū 'they will not go', lan tafhamī 'you (f.) will not understand'. lan replaces sa- / sawfa; they are never combined.",
+     "examples": [
+      {
+       "target": "لَن أَكْتُبَ الرِّسالة.",
+       "roman": "lan aktuba r-risāla.",
+       "en": "I will not write the letter."
+      },
+      {
+       "target": "لَن يَذْهَبوا.",
+       "roman": "lan yadhhabū.",
+       "en": "They will not go."
+      },
+      {
+       "target": "لَن نَنْسى.",
+       "roman": "lan nansā.",
+       "en": "We will not forget."
+      }
+     ]
+    },
+    {
+     "title": "an + subjunctive: 'to do'",
+     "body": "Arabic has no infinitive; where English uses 'to', Arabic uses an followed by the subjunctive, which is conjugated for the subject: urīdu an adhhaba 'I want to go', turīdu an taktubī 'you (f.) want to write', yajibu an nadrusa 'we must study', yastaṭīʿu an yatakallama 'he can speak'. The subjunctive has the same changes as after lan (-u → -a, -ūna → -ū). Many speakers also use the maṣdar instead: urīdu dh-dhahāb 'I want to go'.",
+     "examples": [
+      {
+       "target": "أُريدُ أَن أَدْرُسَ العَرَبِيّة.",
+       "roman": "urīdu an adrusa l-ʿarabiyya.",
+       "en": "I want to study Arabic."
+      },
+      {
+       "target": "يَجِبُ أَن تَذْهَبَ.",
+       "roman": "yajibu an tadhhaba.",
+       "en": "You must go."
+      },
+      {
+       "target": "يَسْتَطيعونَ أَن يَكْتُبوا.",
+       "roman": "yastaṭīʿūna an yaktubū.",
+       "en": "They can write."
+      }
+     ]
+    },
+    {
+     "title": "Derived forms and hollow verbs in the present",
+     "body": "Forms II, III and IV take the prefix vowel u: yudarrisu 'he teaches', yusāfiru 'he travels', yursilu 'he sends'. The other forms take a: yatakallamu 'he speaks' (V), yastaqbilu 'he receives' (X). Hollow verbs keep a long vowel in the present: qāla → yaqūlu 'he says', kāna → yakūnu 'he is', zāra → yazūru 'he visits', bāʿa → yabīʿu 'he sells', nāma → yanāmu 'he sleeps'. Verbs beginning with w usually drop it: waṣala → yaṣilu 'he arrives'.",
+     "examples": [
+      {
+       "target": "يُدَرِّسُ العَرَبِيّة.",
+       "roman": "yudarrisu l-ʿarabiyya.",
+       "en": "He teaches Arabic (form II)."
+      },
+      {
+       "target": "أَتَكَلَّمُ العَرَبِيّة قَليلًا.",
+       "roman": "atakallamu l-ʿarabiyya qalīlan.",
+       "en": "I speak a little Arabic (form V)."
+      },
+      {
+       "target": "يَقولُ الحَقيقة.",
+       "roman": "yaqūlu l-ḥaqīqa.",
+       "en": "He tells the truth (hollow verb)."
+      },
+      {
+       "target": "مَتى يَصِلُ القِطار؟",
+       "roman": "matā yaṣilu l-qiṭār?",
+       "en": "When does the train arrive? (initial w dropped)"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "What does يكتب (yaktubu) mean?",
+     "options": [
+      "he writes",
+      "I write",
+      "she writes",
+      "we write"
+     ],
+     "answer": 0,
+     "explain": "The prefix ya- marks 'he'; a- is 'I', ta- 'she / you', na- 'we'."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "The present tense marks its subject mainly with prefixes.",
+     "answer": true,
+     "explain": "a-, ta-, ya-, na- go on the front; some persons add a suffix as well."
+    },
+    {
+     "id": "e03",
+     "type": "match",
+     "pairs": [
+      [
+       "أكتب",
+       "aktubu, I write"
+      ],
+      [
+       "تكتب",
+       "taktubu, you (m.) write / she writes"
+      ],
+      [
+       "يكتب",
+       "yaktubu, he writes"
+      ],
+      [
+       "نكتب",
+       "naktubu, we write"
+      ]
+     ]
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "___ العربية كل يوم. (I study Arabic every day; darasa / yadrusu)",
+     "answer": [
+      "أدرس",
+      "أدرُس",
+      "أَدْرُسُ",
+      "adrusu",
+      "adrus"
+     ],
+     "roman": "adrusu",
+     "explain": "'I' takes the prefix a-: adrusu."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Which form means 'she writes'?",
+     "options": [
+      "تكتب",
+      "يكتب",
+      "أكتب",
+      "نكتب"
+     ],
+     "answer": 0,
+     "explain": "'She' uses ta-, the same prefix as 'you (m.)'."
+    },
+    {
+     "id": "e06",
+     "type": "tf",
+     "q": "The prefix ta- is used both for 'you (m.)' and for 'she'.",
+     "answer": true,
+     "explain": "taktubu can mean 'you write' or 'she writes'; context decides."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "القهوة",
+      "يشرب",
+      "في",
+      "الصباح"
+     ],
+     "answer": "يشرب القهوة في الصباح",
+     "en": "He drinks coffee in the morning."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "How do you say 'I don't understand'?",
+     "options": [
+      "لا أفهم",
+      "ما أفهم",
+      "ليس أفهم",
+      "لم أفهم"
+     ],
+     "answer": 0,
+     "explain": "lā negates the present; mā negates the past and lam afham means 'I did not understand'."
+    },
+    {
+     "id": "e09",
+     "type": "fill",
+     "q": "هي ___ في بيروت. (She lives in Beirut; sakana / yaskunu)",
+     "answer": [
+      "تسكن",
+      "تسكُن",
+      "تَسْكُنُ",
+      "taskunu",
+      "taskun"
+     ],
+     "roman": "taskunu",
+     "explain": "'She' takes ta- with the stem -skun-: taskunu."
+    },
+    {
+     "id": "e10",
+     "type": "match",
+     "pairs": [
+      [
+       "سأكتب",
+       "sa-aktubu, I will write"
+      ],
+      [
+       "سوف نسافر",
+       "sawfa nusāfiru, we will travel"
+      ],
+      [
+       "لن أكتب",
+       "lan aktuba, I will not write"
+      ],
+      [
+       "لا أكتب",
+       "lā aktubu, I don't write"
+      ]
+     ]
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "Which form means 'they (m.) write'?",
+     "options": [
+      "يكتبون",
+      "يكتبن",
+      "تكتبون",
+      "يكتبان"
+     ],
+     "answer": 0,
+     "explain": "ya- + -ūna: yaktubūna; yaktubna is 'they (f.)', taktubūna 'you (pl.)', yaktubāni dual."
+    },
+    {
+     "id": "e12",
+     "type": "tf",
+     "q": "sa- is written attached to the verb, while sawfa is a separate word.",
+     "answer": true,
+     "explain": "سأكتب sa-aktubu but سوف أكتب sawfa aktubu."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "إلى",
+      "سأذهب",
+      "غدًا",
+      "السوق"
+     ],
+     "answer": "سأذهب إلى السوق غدًا",
+     "en": "I will go to the market tomorrow."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "هل ___ الدرس؟ (Do you (m.) understand the lesson? fahima / yafhamu)",
+     "answer": [
+      "تفهم",
+      "تفهَم",
+      "تَفْهَمُ",
+      "tafhamu",
+      "tafham"
+     ],
+     "roman": "tafhamu",
+     "explain": "'You (m.)' takes ta-: tafhamu."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "How do you say 'I will not write' in Standard Arabic?",
+     "options": [
+      "لن أكتبَ",
+      "لا سأكتب",
+      "ما سأكتب",
+      "سلا أكتب"
+     ],
+     "answer": 0,
+     "explain": "lan + subjunctive replaces sa-: lan aktuba."
+    },
+    {
+     "id": "e16",
+     "type": "match",
+     "pairs": [
+      [
+       "يكتب",
+       "yaktubu, he writes (stem vowel u)"
+      ],
+      [
+       "يشرب",
+       "yashrabu, he drinks (stem vowel a)"
+      ],
+      [
+       "يجلس",
+       "yajlisu, he sits (stem vowel i)"
+      ],
+      [
+       "يذهب",
+       "yadhhabu, he goes (stem vowel a)"
+      ]
+     ]
+    },
+    {
+     "id": "e17",
+     "type": "tf",
+     "q": "The present-tense stem vowel of a verb can always be predicted from its past tense.",
+     "answer": false,
+     "explain": "kataba → yaktubu but dhahaba → yadhhabu and jalasa → yajlisu: the vowel must be learned."
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "Which form means 'you (f.) write'?",
+     "options": [
+      "تكتبين",
+      "تكتب",
+      "تكتبون",
+      "تكتبن"
+     ],
+     "answer": 0,
+     "explain": "Feminine 'you' adds -īna to ta-: taktubīna."
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "نحن ___ إلى المدرسة. (We go to school; dhahaba / yadhhabu)",
+     "answer": [
+      "نذهب",
+      "نذهَب",
+      "نَذْهَبُ",
+      "nadhhabu",
+      "nadhhab"
+     ],
+     "roman": "nadhhabu",
+     "explain": "'We' takes na-: nadhhabu."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "أن",
+      "أدرس",
+      "أريد",
+      "العربية"
+     ],
+     "answer": "أريد أن أدرس العربية",
+     "en": "I want to study Arabic."
+    },
+    {
+     "id": "e21",
+     "type": "mc",
+     "q": "After an ('to') the verb takes the subjunctive. Which is correct for 'I want to go'?",
+     "options": [
+      "urīdu an adhhaba",
+      "urīdu an adhhabu",
+      "urīdu adhhabu",
+      "urīdu an dhahaba"
+     ],
+     "answer": 0,
+     "explain": "The final -u becomes -a after an: adhhaba."
+    },
+    {
+     "id": "e22",
+     "type": "tf",
+     "q": "Forms II, III and IV take the prefix vowel u in the present (yudarrisu, yusāfiru, yursilu).",
+     "answer": true,
+     "explain": "Other forms use a: yaktubu, yatakallamu, yastaqbilu."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "هو ___ العربية في المدرسة. (He teaches Arabic at school; darrasa / yudarrisu)",
+     "answer": [
+      "يدرّس",
+      "يُدَرِّسُ",
+      "yudarrisu",
+      "yudarris"
+     ],
+     "roman": "yudarrisu",
+     "explain": "Form II: yu- + darris: yudarrisu (yadrusu without shadda would mean 'he studies')."
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "Which form means 'she will be'?",
+     "options": [
+      "ستكون",
+      "سيكون",
+      "سأكون",
+      "سنكون"
+     ],
+     "answer": 0,
+     "explain": "sa- + takūnu: sa-takūnu; sa-yakūnu is 'he will be'."
+    },
+    {
+     "id": "e25",
+     "type": "match",
+     "pairs": [
+      [
+       "تكتبون",
+       "taktubūna, you (m. pl.) write"
+      ],
+      [
+       "يكتبن",
+       "yaktubna, they (f.) write"
+      ],
+      [
+       "نكتب",
+       "naktubu, we write"
+      ],
+      [
+       "يكتبان",
+       "yaktubāni, they two write"
+      ]
+     ]
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "لا يكتب (lā yaktubu) means 'he did not write'.",
+     "answer": false,
+     "explain": "lā + present is 'he does not write'; the past is mā kataba or lam yaktub."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "الطلاب",
+      "لا",
+      "الدرس",
+      "يفهمون"
+     ],
+     "answer": "الطلاب لا يفهمون الدرس",
+     "en": "The students don't understand the lesson."
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "qāla 'he said' is a hollow verb. Which is 'he says'?",
+     "options": [
+      "يقول",
+      "يقال",
+      "يقل",
+      "يقيل"
+     ],
+     "answer": 0,
+     "explain": "The root q-w-l shows its w as ū in the present: yaqūlu."
+    },
+    {
+     "id": "e29",
+     "type": "fill",
+     "q": "سوف ___ إلى مصر في الصيف. (They (m.) will travel to Egypt in the summer; sāfara / yusāfiru)",
+     "answer": [
+      "يسافرون",
+      "يُسافِرونَ",
+      "yusāfirūna",
+      "yusafirun",
+      "yusāfirūn",
+      "yusafiruna"
+     ],
+     "roman": "yusāfirūna",
+     "explain": "Form III with ya- + -ūna: yusāfirūna."
+    },
+    {
+     "id": "e30",
+     "type": "tf",
+     "q": "In الأولاد يلعبون (al-awlād yalʿabūna) the verb is plural because it follows its plural subject.",
+     "answer": true,
+     "explain": "Subject first means full agreement; verb first would be yalʿabu l-awlād."
+    }
+   ]
+  },
+  {
+   "id": "adjectives-agreement-comparison",
+   "title": "Adjectives, agreement and comparison",
+   "level": 3,
+   "summary": "An Arabic adjective follows its noun and copies its gender, number, definiteness and case, so 'the big house' and 'the house is big' differ only by one al-. Comparison uses a single pattern, afʿal, which also gives the superlative.",
+   "rules": [
+    {
+     "title": "The adjective follows the noun",
+     "body": "Adjectives come after the noun they describe, never before: bayt kabīr 'a big house', madīna jamīla 'a beautiful city', qahwa sākhina 'hot coffee'. Several adjectives simply follow one another, usually linked by wa 'and' if there are more than two. Adverbs of degree come after the adjective: kabīr jiddan 'very big', qalīlan 'a little'.",
+     "examples": [
+      {
+       "target": "بَيت كَبير",
+       "roman": "bayt kabīr",
+       "en": "a big house"
+      },
+      {
+       "target": "قَهْوة ساخِنة",
+       "roman": "qahwa sākhina",
+       "en": "hot coffee"
+      },
+      {
+       "target": "بَيت كَبير جِدًّا",
+       "roman": "bayt kabīr jiddan",
+       "en": "a very big house"
+      }
+     ]
+    },
+    {
+     "title": "Agreement in definiteness: phrase vs. sentence",
+     "body": "An adjective describing a definite noun takes al- too: al-bayt al-kabīr 'the big house', al-madīna l-jamīla 'the beautiful city'. If the adjective has no al- after a definite noun, it is a predicate and you have a sentence: al-bayt kabīr 'the house is big'. This single article is the difference between 'the big house' and 'the house is big', so it is worth checking every time.",
+     "examples": [
+      {
+       "target": "البَيت الكَبير",
+       "roman": "al-bayt al-kabīr",
+       "en": "the big house"
+      },
+      {
+       "target": "البَيت كَبير.",
+       "roman": "al-bayt kabīr.",
+       "en": "The house is big."
+      },
+      {
+       "target": "الطّالِبة المِصْرِيّة",
+       "roman": "aṭ-ṭāliba l-miṣriyya",
+       "en": "the Egyptian (female) student"
+      }
+     ]
+    },
+    {
+     "title": "Agreement in gender",
+     "body": "With a feminine noun the adjective adds ة: walad ṣaghīr 'a small boy', bint ṣaghīra 'a small girl'. Nouns that are feminine without ة still take a feminine adjective: shams ḥārra 'a hot sun', miṣr jamīla 'Egypt is beautiful', yad kabīra 'a big hand'. Nisba adjectives form their feminine in -iyya: miṣrī / miṣriyya.",
+     "examples": [
+      {
+       "target": "وَلَد صَغير / بِنْت صَغيرة",
+       "roman": "walad ṣaghīr / bint ṣaghīra",
+       "en": "a small boy / a small girl"
+      },
+      {
+       "target": "الشَّمْس حارّة.",
+       "roman": "ash-shams ḥārra.",
+       "en": "The sun is hot."
+      },
+      {
+       "target": "سَيّارة يابانِيّة",
+       "roman": "sayyāra yābāniyya",
+       "en": "a Japanese car"
+      }
+     ]
+    },
+    {
+     "title": "Agreement in number",
+     "body": "With a dual noun the adjective is dual: waladāni ṣaghīrāni 'two small boys'. With a plural noun referring to people the adjective is plural, either sound (muʿallimūna jududun is possible, but more usual muʿallimūna ṭayyibūna 'good teachers', muʿallimāt ṭayyibāt) or broken (rijāl ṭiwāl 'tall men', from ṭawīl → ṭiwāl; ṭullāb kibār 'big students'). With a plural of things the adjective is feminine singular: kutub jadīda 'new books', buyūt kabīra 'big houses', sayyārāt sarīʿa 'fast cars'.",
+     "examples": [
+      {
+       "target": "وَلَدان صَغيران",
+       "roman": "waladāni ṣaghīrāni",
+       "en": "two small boys"
+      },
+      {
+       "target": "مُعَلِّمون طَيِّبون",
+       "roman": "muʿallimūna ṭayyibūna",
+       "en": "good teachers"
+      },
+      {
+       "target": "رِجال طِوال",
+       "roman": "rijāl ṭiwāl",
+       "en": "tall men (broken plural adjective)"
+      },
+      {
+       "target": "كُتُب جَديدة",
+       "roman": "kutub jadīda",
+       "en": "new books (feminine singular agreement)"
+      }
+     ]
+    },
+    {
+     "title": "Colours and physical traits: afʿal / faʿlāʾ",
+     "body": "Basic colours and some physical characteristics use the pattern afʿal for the masculine and faʿlāʾ for the feminine: aḥmar / ḥamrāʾ 'red', abyaḍ / bayḍāʾ 'white', aswad / sawdāʾ 'black', akhḍar / khaḍrāʾ 'green', azraq / zarqāʾ 'blue', aṣfar / ṣafrāʾ 'yellow'; also aʿmā / ʿamyāʾ 'blind', aṭrash / ṭarshāʾ 'deaf'. Their human plural is fuʿl: ḥumr, bīḍ, sūd. These adjectives take no nunation. Other colours are nisbas: bunnī 'brown', ramādī 'grey', burtuqālī 'orange'.",
+     "examples": [
+      {
+       "target": "قَلَم أَحْمَر",
+       "roman": "qalam aḥmar",
+       "en": "a red pen"
+      },
+      {
+       "target": "سَيّارة حَمْراء",
+       "roman": "sayyāra ḥamrāʾ",
+       "en": "a red car"
+      },
+      {
+       "target": "البَيت الأَبْيَض",
+       "roman": "al-bayt al-abyaḍ",
+       "en": "the white house"
+      },
+      {
+       "target": "عُيون زَرْقاء",
+       "roman": "ʿuyūn zarqāʾ",
+       "en": "blue eyes (non-human plural: feminine singular)"
+      }
+     ]
+    },
+    {
+     "title": "The comparative: afʿal + min",
+     "body": "To compare, pour the adjective's root into the pattern afʿal: kabīr → akbar 'bigger', ṣaghīr → aṣghar 'smaller', jamīl → ajmal 'more beautiful', ṭawīl → aṭwal 'taller, longer', ḥasan → aḥsan 'better', kathīr → akthar 'more', qalīl → aqall 'less', jadīd → ajadd 'newer'. 'Than' is min. As a comparative the form does not change for gender or number: hiya aṭwal min akhīhā 'she is taller than her brother', hum akbar minnā 'they are older than us'. khayr 'better' and sharr 'worse' are irregular.",
+     "examples": [
+      {
+       "target": "القاهِرة أَكْبَر مِن بَيْروت.",
+       "roman": "al-qāhira akbar min bayrūt.",
+       "en": "Cairo is bigger than Beirut."
+      },
+      {
+       "target": "هِيَ أَطْوَل مِن أَخيها.",
+       "roman": "hiya aṭwal min akhīhā.",
+       "en": "She is taller than her brother."
+      },
+      {
+       "target": "هذا الكِتاب أَحْسَن مِن ذلِكَ.",
+       "roman": "hādhā l-kitāb aḥsan min dhālika.",
+       "en": "This book is better than that one."
+      }
+     ]
+    },
+    {
+     "title": "The superlative",
+     "body": "The same afʿal form becomes a superlative in three constructions: (1) afʿal + indefinite singular noun in an iḍāfa: akbar madīna 'the biggest city', aṭwal rajul 'the tallest man'; (2) afʿal + definite plural: akbar al-mudun 'the biggest of the cities', ajmal al-banāt 'the most beautiful of the girls'; (3) after a definite noun, as an adjective with al-: al-madīna l-kubrā 'the biggest city', al-bayt al-akbar. Only in construction (3) does the feminine fuʿlā appear (kubrā, ṣughrā, ʿuẓmā).",
+     "examples": [
+      {
+       "target": "أَكْبَر مَدينة في مِصْر",
+       "roman": "akbar madīna fī miṣr",
+       "en": "the biggest city in Egypt"
+      },
+      {
+       "target": "أَجْمَل البَنات",
+       "roman": "ajmal al-banāt",
+       "en": "the most beautiful of the girls"
+      },
+      {
+       "target": "الشَّرْق الأَوْسَط",
+       "roman": "ash-sharq al-awsaṭ",
+       "en": "the Middle East (literally: the most middle east)"
+      }
+     ]
+    },
+    {
+     "title": "Adjectives with an iḍāfa",
+     "body": "An adjective can never stand between the two nouns of an iḍāfa; it follows the whole phrase, and its agreement shows which noun it describes: sayyārat al-muʿallim al-jadīda 'the teacher's new car' (feminine: the car) versus sayyārat al-muʿallim al-jadīd 'the new teacher's car' (masculine: the teacher). Since the first noun is definite through the second, the adjective takes al-.",
+     "examples": [
+      {
+       "target": "سَيّارة المُعَلِّم الجَديدة",
+       "roman": "sayyārat al-muʿallim al-jadīda",
+       "en": "the teacher's new car"
+      },
+      {
+       "target": "سَيّارة المُعَلِّم الجَديد",
+       "roman": "sayyārat al-muʿallim al-jadīd",
+       "en": "the new teacher's car"
+      },
+      {
+       "target": "كِتاب الطّالِبة القَديم",
+       "roman": "kitāb aṭ-ṭāliba l-qadīm",
+       "en": "the (female) student's old book"
+      }
+     ]
+    },
+    {
+     "title": "Modifying adjectives: jiddan, ghayr, kathīran",
+     "body": "jiddan 'very' follows the adjective: ṣaʿb jiddan 'very difficult'. ghayr 'non-, un-' precedes it in an iḍāfa: ghayr mumkin 'impossible', ghayr maʿrūf 'unknown'. kathīran 'a lot, much' and qalīlan 'a little' are accusative adverbs: yatakallamu kathīran 'he talks a lot'. akthar 'more' and aqall 'less' with min compare quantities, and akthar + maṣdar expresses 'more X-ly'.",
+     "examples": [
+      {
+       "target": "الدَّرْس صَعْب جِدًّا.",
+       "roman": "ad-dars ṣaʿb jiddan.",
+       "en": "The lesson is very difficult."
+      },
+      {
+       "target": "هذا غَيْر مُمْكِن.",
+       "roman": "hādhā ghayr mumkin.",
+       "en": "This is impossible."
+      },
+      {
+       "target": "أَتَكَلَّمُ العَرَبِيّة قَليلًا.",
+       "roman": "atakallamu l-ʿarabiyya qalīlan.",
+       "en": "I speak a little Arabic."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "How do you say 'a big house'?",
+     "options": [
+      "بيت كبير",
+      "كبير بيت",
+      "البيت كبير",
+      "بيت الكبير"
+     ],
+     "answer": 0,
+     "explain": "The adjective follows the noun and matches its indefiniteness: bayt kabīr."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "In Arabic the adjective comes after the noun it describes.",
+     "answer": true,
+     "explain": "bayt kabīr, madīna jamīla: noun first, adjective second."
+    },
+    {
+     "id": "e03",
+     "type": "match",
+     "pairs": [
+      [
+       "كبير",
+       "kabīr, big (m.)"
+      ],
+      [
+       "كبيرة",
+       "kabīra, big (f.)"
+      ],
+      [
+       "أكبر",
+       "akbar, bigger"
+      ],
+      [
+       "الأكبر",
+       "al-akbar, the biggest"
+      ]
+     ]
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "مدينة ___ (a beautiful city; jamīl)",
+     "answer": [
+      "جميلة",
+      "جَميلة",
+      "jamīla",
+      "jamila"
+     ],
+     "roman": "jamīla",
+     "explain": "madīna is feminine, so the adjective adds ة: jamīla."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Which phrase means 'the big house' (not a sentence)?",
+     "options": [
+      "البيت الكبير",
+      "البيت كبير",
+      "بيت الكبير",
+      "الكبير البيت"
+     ],
+     "answer": 0,
+     "explain": "Both noun and adjective carry al-; البيت كبير is the sentence 'the house is big'."
+    },
+    {
+     "id": "e06",
+     "type": "tf",
+     "q": "البيت كبير and البيت الكبير mean the same thing.",
+     "answer": false,
+     "explain": "The first is a sentence ('the house is big'), the second a phrase ('the big house')."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "جديدة",
+      "سيّارة",
+      "عندي"
+     ],
+     "answer": "عندي سيّارة جديدة",
+     "en": "I have a new car."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "How do you say 'old books' (kutub + qadīm)?",
+     "options": [
+      "كتب قديمة",
+      "كتب قديمون",
+      "كتب قدماء",
+      "كتب قديمات"
+     ],
+     "answer": 0,
+     "explain": "A non-human plural takes a feminine singular adjective: kutub qadīma."
+    },
+    {
+     "id": "e09",
+     "type": "fill",
+     "q": "الطلاب ___. (The students are hard-working; mujtahid with the sound masculine plural)",
+     "answer": [
+      "مجتهدون",
+      "مُجْتَهِدونَ",
+      "mujtahidūna",
+      "mujtahidun",
+      "mujtahidūn"
+     ],
+     "roman": "mujtahidūna",
+     "explain": "A human masculine plural takes the plural adjective: mujtahidūna."
+    },
+    {
+     "id": "e10",
+     "type": "match",
+     "pairs": [
+      [
+       "أحمر",
+       "aḥmar, red (m.)"
+      ],
+      [
+       "حمراء",
+       "ḥamrāʾ, red (f.)"
+      ],
+      [
+       "أبيض",
+       "abyaḍ, white (m.)"
+      ],
+      [
+       "بيضاء",
+       "bayḍāʾ, white (f.)"
+      ]
+     ]
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "What is the comparative of كبير (kabīr)?",
+     "options": [
+      "أكبر",
+      "كبيرة",
+      "الكبير",
+      "كبار"
+     ],
+     "answer": 0,
+     "explain": "The afʿal pattern gives akbar 'bigger'; kibār is the plural 'big ones'."
+    },
+    {
+     "id": "e12",
+     "type": "tf",
+     "q": "A comparative of the afʿal pattern used with min does not change for gender or number.",
+     "answer": true,
+     "explain": "hiya akbar min, hum akbar min: the same form for all."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "من",
+      "أكبر",
+      "القاهرة",
+      "بيروت"
+     ],
+     "answer": "القاهرة أكبر من بيروت",
+     "en": "Cairo is bigger than Beirut."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "هذا الكتاب ___ من ذلك. (This book is better than that one; ḥasan → ?)",
+     "answer": [
+      "أحسن",
+      "أَحْسَن",
+      "aḥsan",
+      "ahsan"
+     ],
+     "roman": "aḥsan",
+     "explain": "ḥ-s-n in the afʿal pattern: aḥsan 'better'."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "Which word means 'than' after a comparative?",
+     "options": [
+      "من",
+      "عن",
+      "على",
+      "في"
+     ],
+     "answer": 0,
+     "explain": "akbar min 'bigger than': min is the comparison word."
+    },
+    {
+     "id": "e16",
+     "type": "match",
+     "pairs": [
+      [
+       "أكبر مدينة",
+       "akbar madīna, the biggest city"
+      ],
+      [
+       "أجمل البنات",
+       "ajmal al-banāt, the most beautiful of the girls"
+      ],
+      [
+       "أطول رجل",
+       "aṭwal rajul, the tallest man"
+      ],
+      [
+       "أصغر ولد",
+       "aṣghar walad, the smallest boy"
+      ]
+     ]
+    },
+    {
+     "id": "e17",
+     "type": "tf",
+     "q": "'A red car' is سيّارة حمراء (sayyāra ḥamrāʾ).",
+     "answer": true,
+     "explain": "Colour adjectives use faʿlāʾ for the feminine: ḥamrāʾ."
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "How do you say 'the Egyptian student (f.)' as a phrase?",
+     "options": [
+      "الطالبة المصرية",
+      "الطالبة مصرية",
+      "الطالب المصرية",
+      "طالبة المصرية"
+     ],
+     "answer": 0,
+     "explain": "Both words definite and feminine: aṭ-ṭāliba l-miṣriyya."
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "الشمس ___ اليوم. (The sun is hot today; ḥārr)",
+     "answer": [
+      "حارّة",
+      "حارة",
+      "حارَّة",
+      "ḥārra",
+      "harra"
+     ],
+     "roman": "ḥārra",
+     "explain": "shams is feminine without ة, so the predicate adjective still takes ة: ḥārra."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "الولد",
+      "الصغير",
+      "في",
+      "الحديقة"
+     ],
+     "answer": "الولد الصغير في الحديقة",
+     "en": "The little boy is in the garden."
+    },
+    {
+     "id": "e21",
+     "type": "mc",
+     "q": "How do you say 'the teacher's new car'?",
+     "options": [
+      "سيّارة المعلّم الجديدة",
+      "سيّارة الجديدة المعلّم",
+      "السيّارة الجديدة المعلّم",
+      "سيّارة المعلّم جديدة"
+     ],
+     "answer": 0,
+     "explain": "The adjective follows the whole iḍāfa, with al- and feminine agreement for sayyāra."
+    },
+    {
+     "id": "e22",
+     "type": "tf",
+     "q": "An adjective can be inserted between the two nouns of an iḍāfa.",
+     "answer": false,
+     "explain": "Nothing may separate the two terms; the adjective comes after the whole phrase."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "هو ___ من أخيه. (He is taller than his brother; ṭawīl)",
+     "answer": [
+      "أطول",
+      "أَطْوَل",
+      "aṭwal",
+      "atwal"
+     ],
+     "roman": "aṭwal",
+     "explain": "ṭ-w-l in the afʿal pattern: aṭwal."
+    },
+    {
+     "id": "e24",
+     "type": "match",
+     "pairs": [
+      [
+       "جدًّا",
+       "jiddan, very"
+      ],
+      [
+       "غير",
+       "ghayr, non- / un-"
+      ],
+      [
+       "قليلًا",
+       "qalīlan, a little"
+      ],
+      [
+       "كثيرًا",
+       "kathīran, a lot"
+      ]
+     ]
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "How do you say 'two small boys'?",
+     "options": [
+      "ولدان صغيران",
+      "ولدان صغير",
+      "ولدان صغار",
+      "ولدان صغيرة"
+     ],
+     "answer": 0,
+     "explain": "A dual noun takes a dual adjective: waladāni ṣaghīrāni."
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "An adjective describing a group of women takes the sound feminine plural -āt.",
+     "answer": true,
+     "explain": "muʿallimāt ṭayyibāt 'good (female) teachers'."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "في",
+      "مدينة",
+      "أجمل",
+      "العالم",
+      "هذه"
+     ],
+     "answer": "هذه أجمل مدينة في العالم",
+     "en": "This is the most beautiful city in the world."
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "How do you say 'the most famous writer'?",
+     "options": [
+      "أشهر كاتب",
+      "كاتب أشهر",
+      "الكاتب أشهر",
+      "أشهر الكاتب"
+     ],
+     "answer": 0,
+     "explain": "Superlative: afʿal + indefinite singular noun, ashhar kātib."
+    },
+    {
+     "id": "e29",
+     "type": "fill",
+     "q": "البنات ___. (The girls are tall; ṭawīl with feminine plural agreement)",
+     "answer": [
+      "طويلات",
+      "ṭawīlāt",
+      "tawilat"
+     ],
+     "roman": "ṭawīlāt",
+     "explain": "For a group of females the adjective takes -āt: ṭawīlāt."
+    },
+    {
+     "id": "e30",
+     "type": "tf",
+     "q": "The feminine of the afʿal pattern used as a definite superlative is fuʿlā, e.g. al-kubrā 'the biggest (f.)'.",
+     "answer": true,
+     "explain": "al-madīna l-kubrā 'the biggest city'; the fuʿlā form appears only in this definite use."
+    }
+   ]
+  },
+  {
+   "id": "questions-numbers-politeness",
+   "title": "Questions, numbers and polite patterns",
+   "level": 3,
+   "summary": "Questions keep the normal word order and just add a question word at the front. Counting from one to ten brings in the famous gender 'polarity' of Arabic numerals, and a handful of fixed polite phrases carries most everyday exchanges.",
+   "rules": [
+    {
+     "title": "Yes/no questions with hal and a-",
+     "body": "A statement becomes a yes/no question by putting hal at the start, with no change in word order: hal anta ṭālib? 'are you a student?', hal dhahabta ilā s-sūq? 'did you go to the market?'. The older particle a- (hamza) attached to the first word does the same: a-anta ṭālib? In speech, rising intonation alone is often enough. Answers are naʿam 'yes' and lā 'no'; balā 'yes' contradicts a negative question.",
+     "examples": [
+      {
+       "target": "هَل أَنْتَ طالِب؟",
+       "roman": "hal anta ṭālib?",
+       "en": "Are you a student?"
+      },
+      {
+       "target": "هَل تَتَكَلَّمُ العَرَبِيّة؟",
+       "roman": "hal tatakallamu l-ʿarabiyya?",
+       "en": "Do you speak Arabic?"
+      },
+      {
+       "target": "نَعَم، أَتَكَلَّمُ قَليلًا.",
+       "roman": "naʿam, atakallamu qalīlan.",
+       "en": "Yes, I speak a little."
+      }
+     ]
+    },
+    {
+     "title": "Question words",
+     "body": "The main question words stand at the beginning of the sentence: mā 'what' (before nouns: mā hādhā? 'what is this?'), mādhā 'what' (before verbs: mādhā tafʿalu? 'what are you doing?'), man 'who', ayna 'where', kayfa 'how', matā 'when', limādhā 'why', kam 'how many / how much', ayy / ayya 'which'. Prepositions come before the question word: min ayna anta? 'where are you from?', maʿa man? 'with whom?'.",
+     "examples": [
+      {
+       "target": "ما هذا؟",
+       "roman": "mā hādhā?",
+       "en": "What is this?"
+      },
+      {
+       "target": "ماذا تَدْرُسُ؟",
+       "roman": "mādhā tadrusu?",
+       "en": "What do you study?"
+      },
+      {
+       "target": "مِن أَيْنَ أَنْتِ؟",
+       "roman": "min ayna anti?",
+       "en": "Where are you (f.) from?"
+      },
+      {
+       "target": "لِماذا تَدْرُسُ العَرَبِيّة؟",
+       "roman": "limādhā tadrusu l-ʿarabiyya?",
+       "en": "Why do you study Arabic?"
+      }
+     ]
+    },
+    {
+     "title": "Everyday question patterns",
+     "body": "Some questions are fixed phrases built on these words. kayfa l-ḥāl? / kayfa ḥāluka (-ki)? 'how are you?', answered bi-khayr, al-ḥamdu lillāh 'fine, thank God'. mā ismuka (-ki)? 'what is your name?', answered ismī ... 'my name is ...'. kam as-sāʿa? 'what time is it?'. kam ʿumruka? 'how old are you?'. bi-kam hādhā? 'how much is this?'. ayna l-ḥammām? 'where is the bathroom?'.",
+     "examples": [
+      {
+       "target": "كَيْفَ حالُكَ؟ بِخَيْر، الحَمْدُ لِله.",
+       "roman": "kayfa ḥāluka? bi-khayr, al-ḥamdu lillāh.",
+       "en": "How are you? Fine, thank God."
+      },
+      {
+       "target": "ما اسْمُكِ؟ اِسْمي لَيْلى.",
+       "roman": "mā ismuki? ismī laylā.",
+       "en": "What is your (f.) name? My name is Layla."
+      },
+      {
+       "target": "بِكَم هذا الكِتاب؟",
+       "roman": "bi-kam hādhā l-kitāb?",
+       "en": "How much is this book?"
+      }
+     ]
+    },
+    {
+     "title": "kam + singular accusative",
+     "body": "kam 'how many' is followed by a singular noun in the indefinite accusative, not a plural: kam kitāban? 'how many books?', kam ṭāliban fī ṣ-ṣaff? 'how many students are in the class?', kam sāʿatan? 'how many hours?'. In casual speech the -an is often dropped (kam kitāb?). For prices use bi-kam 'for how much'.",
+     "examples": [
+      {
+       "target": "كَم كِتابًا عِنْدَكَ؟",
+       "roman": "kam kitāban ʿindaka?",
+       "en": "How many books do you have?"
+      },
+      {
+       "target": "كَم طالِبًا في الصَّفّ؟",
+       "roman": "kam ṭāliban fī ṣ-ṣaff?",
+       "en": "How many students are in the class?"
+      },
+      {
+       "target": "كَم عُمْرُكَ؟",
+       "roman": "kam ʿumruka?",
+       "en": "How old are you? (how much is your age)"
+      }
+     ]
+    },
+    {
+     "title": "The numbers one to ten",
+     "body": "Counting forms (used in isolation and for masculine nouns): wāḥid 1, ithnāni 2, thalātha 3, arbaʿa 4, khamsa 5, sitta 6, sabʿa 7, thamāniya 8, tisʿa 9, ʿashara 10. Notice that 3 to 10 end in ة in this masculine form. With feminine nouns the same numbers lose the ة: thalāth, arbaʿ, khams, sitt, sabʿ, thamānī, tisʿ, ʿashr. ṣifr is 'zero'. The figures are written left to right even inside right-to-left text: ١٢٣ or 123.",
+     "examples": [
+      {
+       "target": "واحِد، اِثْنان، ثَلاثة، أَرْبَعة، خَمْسة",
+       "roman": "wāḥid, ithnāni, thalātha, arbaʿa, khamsa",
+       "en": "one, two, three, four, five"
+      },
+      {
+       "target": "سِتّة، سَبْعة، ثَمانِية، تِسْعة، عَشَرة",
+       "roman": "sitta, sabʿa, thamāniya, tisʿa, ʿashara",
+       "en": "six, seven, eight, nine, ten"
+      },
+      {
+       "target": "رَقْم خَمْسة",
+       "roman": "raqm khamsa",
+       "en": "number five"
+      }
+     ]
+    },
+    {
+     "title": "Counting nouns: one, two, and gender polarity",
+     "body": "'One' is an adjective after the noun and agrees with it: kitāb wāḥid, sayyāra wāḥida. 'Two' is normally just the dual: kitābāni, sayyāratāni (ithnāni / ithnatāni may be added for emphasis). From 3 to 10 the number comes first, the noun follows in the plural (genitive), and the number takes the opposite gender from the noun's singular, the so-called polarity rule: thalāthat kutub 'three books' (kitāb is masculine, so the number has ة), thalāth sayyārāt 'three cars' (sayyāra is feminine, so no ة), khamsat awlād, khams banāt.",
+     "examples": [
+      {
+       "target": "كِتاب واحِد / سَيّارة واحِدة",
+       "roman": "kitāb wāḥid / sayyāra wāḥida",
+       "en": "one book / one car"
+      },
+      {
+       "target": "ثَلاثة كُتُب",
+       "roman": "thalāthat kutub",
+       "en": "three books (masculine noun, number with ة)"
+      },
+      {
+       "target": "ثَلاث سَيّارات",
+       "roman": "thalāth sayyārāt",
+       "en": "three cars (feminine noun, number without ة)"
+      },
+      {
+       "target": "خَمْسة أَوْلاد وَأَرْبَع بَنات",
+       "roman": "khamsat awlād wa-arbaʿ banāt",
+       "en": "five boys and four girls"
+      }
+     ]
+    },
+    {
+     "title": "Greetings and their replies",
+     "body": "Many greetings come in fixed pairs. as-salāmu ʿalaykum 'peace be upon you' is answered wa-ʿalaykumu s-salām. ṣabāḥ al-khayr 'good morning' is answered ṣabāḥ an-nūr; masāʾ al-khayr 'good evening' by masāʾ an-nūr. marḥaban and ahlan (wa-sahlan) 'hello, welcome' are answered ahlan bika (-ki). Leaving: maʿa s-salāma 'goodbye', answered with the same or with ilā l-liqāʾ 'until we meet'. tuṣbiḥu ʿalā khayr 'good night'.",
+     "examples": [
+      {
+       "target": "السَّلامُ عَلَيْكُم. وَعَلَيْكُمُ السَّلام.",
+       "roman": "as-salāmu ʿalaykum. wa-ʿalaykumu s-salām.",
+       "en": "Peace be upon you. And upon you peace."
+      },
+      {
+       "target": "صَباح الخَيْر. صَباح النّور.",
+       "roman": "ṣabāḥ al-khayr. ṣabāḥ an-nūr.",
+       "en": "Good morning. (reply) Good morning."
+      },
+      {
+       "target": "أَهْلًا وَسَهْلًا. أَهْلًا بِكَ.",
+       "roman": "ahlan wa-sahlan. ahlan bika.",
+       "en": "Welcome. (reply) Welcome to you."
+      }
+     ]
+    },
+    {
+     "title": "Please, thank you, and other polite formulas",
+     "body": "'Please' is min faḍlika (to a man) / min faḍliki (to a woman) or law samaḥta / samaḥti 'if you permit'. shukran 'thank you', shukran jazīlan 'thank you very much', answered ʿafwan or al-ʿafw 'you're welcome' (ʿafwan also means 'sorry, excuse me'). tafaḍḍal / tafaḍḍalī 'please, go ahead, here you are' offers something. in shāʾ allāh 'God willing' accompanies any future plan, al-ḥamdu lillāh 'thank God' any good news, and mā shāʾ allāh expresses admiration; all three are everyday phrases used by speakers of every background.",
+     "examples": [
+      {
+       "target": "القَهْوة، مِن فَضْلِكَ.",
+       "roman": "al-qahwa, min faḍlika.",
+       "en": "The coffee, please."
+      },
+      {
+       "target": "شُكْرًا جَزيلًا. عَفْوًا.",
+       "roman": "shukran jazīlan. ʿafwan.",
+       "en": "Thank you very much. You're welcome."
+      },
+      {
+       "target": "تَفَضَّل!",
+       "roman": "tafaḍḍal!",
+       "en": "Please (go ahead / here you are)!"
+      },
+      {
+       "target": "سَأَراكَ غَدًا إِن شاءَ الله.",
+       "roman": "sa-arāka ghadan in shāʾ allāh.",
+       "en": "I'll see you tomorrow, God willing."
+      }
+     ]
+    },
+    {
+     "title": "Addressing people: yā and titles",
+     "body": "To call or address someone, put yā before the name or title: yā aḥmad!, yā ustādh 'sir (teacher)', yā duktūr. Common titles are sayyid 'Mr', sayyida 'Mrs', ānisa 'Miss', ustādh / ustādha for teachers and educated people, and ḥaḍratuka 'your honour' as a very polite 'you'. The formal plural of 'you' is simply antum; there is no separate polite pronoun like French vous, but antum and the plural verb are used as a courtesy to a single person in formal letters.",
+     "examples": [
+      {
+       "target": "يا أَحْمَد، تَعالَ!",
+       "roman": "yā aḥmad, taʿāla!",
+       "en": "Ahmad, come here!"
+      },
+      {
+       "target": "يا أُسْتاذ، عِنْدي سُؤال.",
+       "roman": "yā ustādh, ʿindī suʾāl.",
+       "en": "Sir, I have a question."
+      },
+      {
+       "target": "السَّيِّد مَحْمود والسَّيِّدة لَيْلى",
+       "roman": "as-sayyid maḥmūd wa-s-sayyida laylā",
+       "en": "Mr Mahmud and Mrs Layla"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Which word turns a statement into a yes/no question?",
+     "options": [
+      "هل",
+      "ما",
+      "من",
+      "أين"
+     ],
+     "answer": 0,
+     "explain": "hal at the start asks a yes/no question; the others ask what, who, where."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "Word order does not change in a yes/no question.",
+     "answer": true,
+     "explain": "hal anta ṭālib? keeps the order of anta ṭālib."
+    },
+    {
+     "id": "e03",
+     "type": "match",
+     "pairs": [
+      [
+       "ما",
+       "mā, what"
+      ],
+      [
+       "من",
+       "man, who"
+      ],
+      [
+       "أين",
+       "ayna, where"
+      ],
+      [
+       "كيف",
+       "kayfa, how"
+      ],
+      [
+       "متى",
+       "matā, when"
+      ]
+     ]
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "___ أنت؟ (Where are you?)",
+     "answer": [
+      "أين",
+      "أَيْنَ",
+      "ayna"
+     ],
+     "roman": "ayna",
+     "explain": "ayna 'where' stands at the front: ayna anta?"
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "How do you ask 'What is this?'",
+     "options": [
+      "ما هذا؟",
+      "ماذا هذا؟",
+      "من هذا؟",
+      "أين هذا؟"
+     ],
+     "answer": 0,
+     "explain": "mā is 'what' before a noun or pronoun; mādhā is used before verbs; man hādhā? is 'who is this?'."
+    },
+    {
+     "id": "e06",
+     "type": "tf",
+     "q": "mādhā is used before verbs and mā before nouns.",
+     "answer": true,
+     "explain": "mādhā tafʿalu? 'what are you doing?' but mā hādhā? 'what is this?'."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "تدرس",
+      "ماذا",
+      "الجامعة؟",
+      "في"
+     ],
+     "answer": "ماذا تدرس في الجامعة؟",
+     "en": "What do you study at the university?"
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "How do you ask a man 'How are you?'",
+     "options": [
+      "كيف حالك؟",
+      "أين حالك؟",
+      "ما حالك؟",
+      "متى حالك؟"
+     ],
+     "answer": 0,
+     "explain": "kayfa ḥāluka? literally 'how is your condition?'."
+    },
+    {
+     "id": "e09",
+     "type": "fill",
+     "q": "___ هذا؟ (Who is this?)",
+     "answer": [
+      "من",
+      "مَن",
+      "man"
+     ],
+     "roman": "man",
+     "explain": "man 'who' (not to be confused with min 'from', spelled the same without vowels)."
+    },
+    {
+     "id": "e10",
+     "type": "match",
+     "pairs": [
+      [
+       "واحد",
+       "wāḥid, 1"
+      ],
+      [
+       "اثنان",
+       "ithnāni, 2"
+      ],
+      [
+       "ثلاثة",
+       "thalātha, 3"
+      ],
+      [
+       "خمسة",
+       "khamsa, 5"
+      ],
+      [
+       "عشرة",
+       "ʿashara, 10"
+      ]
+     ]
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "How do you say 'three books' (kitāb is masculine)?",
+     "options": [
+      "ثلاثة كتب",
+      "ثلاث كتب",
+      "ثلاثة كتاب",
+      "ثلاث كتاب"
+     ],
+     "answer": 0,
+     "explain": "Polarity: a masculine noun takes the number with ة, and the noun is plural: thalāthat kutub."
+    },
+    {
+     "id": "e12",
+     "type": "tf",
+     "q": "With the numbers 3 to 10 the number takes the opposite gender of the counted noun's singular.",
+     "answer": true,
+     "explain": "thalāthat kutub (kitāb m.) but thalāth sayyārāt (sayyāra f.)."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "في",
+      "طلاب",
+      "الصف",
+      "خمسة"
+     ],
+     "answer": "في الصف خمسة طلاب",
+     "en": "There are five students in the class."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "___ سيّارات (three cars; sayyāra is feminine)",
+     "answer": [
+      "ثلاث",
+      "ثَلاث",
+      "thalāth",
+      "thalath"
+     ],
+     "roman": "thalāth",
+     "explain": "With a feminine noun the number drops its ة: thalāth sayyārāt."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "How do you ask 'How many books?' in Standard Arabic?",
+     "options": [
+      "كم كتابًا؟",
+      "كم كتب؟",
+      "كم الكتب؟",
+      "كم كتابان؟"
+     ],
+     "answer": 0,
+     "explain": "kam takes a singular noun in the indefinite accusative: kam kitāban?"
+    },
+    {
+     "id": "e16",
+     "type": "match",
+     "pairs": [
+      [
+       "شكرًا",
+       "shukran, thank you"
+      ],
+      [
+       "عفوًا",
+       "ʿafwan, you're welcome"
+      ],
+      [
+       "من فضلك",
+       "min faḍlika, please"
+      ],
+      [
+       "مع السلامة",
+       "maʿa s-salāma, goodbye"
+      ]
+     ]
+    },
+    {
+     "id": "e17",
+     "type": "tf",
+     "q": "The reply to as-salāmu ʿalaykum is wa-ʿalaykumu s-salām.",
+     "answer": true,
+     "explain": "Greetings come in fixed pairs; this one returns the wish of peace."
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "What is the reply to صباح الخير (ṣabāḥ al-khayr)?",
+     "options": [
+      "صباح النور",
+      "مساء الخير",
+      "تصبح على خير",
+      "صباح الخير"
+     ],
+     "answer": 0,
+     "explain": "'Morning of goodness' is answered with 'morning of light': ṣabāḥ an-nūr."
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "___ جزيلًا. (Thank you very much.)",
+     "answer": [
+      "شكرًا",
+      "شكرا",
+      "شُكْرًا",
+      "shukran"
+     ],
+     "roman": "shukran",
+     "explain": "shukran jazīlan is the full 'thank you very much'."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "الكتاب؟",
+      "هذا",
+      "بكم"
+     ],
+     "answer": "بكم هذا الكتاب؟",
+     "en": "How much is this book?"
+    },
+    {
+     "id": "e21",
+     "type": "mc",
+     "q": "How do you say 'one car' (sayyāra)?",
+     "options": [
+      "سيّارة واحدة",
+      "واحدة سيّارة",
+      "سيّارة واحد",
+      "واحد سيّارة"
+     ],
+     "answer": 0,
+     "explain": "'One' is an adjective that follows and agrees: sayyāra wāḥida."
+    },
+    {
+     "id": "e22",
+     "type": "tf",
+     "q": "To say 'two books' you must use the numeral ithnāni; the dual كتابان alone is not enough.",
+     "answer": false,
+     "explain": "The dual kitābāni already means 'two books'; ithnāni is only added for emphasis."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "___ تتكلّم العربية؟ (Do you speak Arabic? Use the yes/no question particle.)",
+     "answer": [
+      "هل",
+      "hal"
+     ],
+     "roman": "hal",
+     "explain": "hal at the front makes a yes/no question."
+    },
+    {
+     "id": "e24",
+     "type": "match",
+     "pairs": [
+      [
+       "لا",
+       "lā, negates the present tense"
+      ],
+      [
+       "ما",
+       "mā, negates the past tense"
+      ],
+      [
+       "لن",
+       "lan, negates the future"
+      ],
+      [
+       "ليس",
+       "laysa, negates a nominal sentence"
+      ]
+     ]
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "Which word means 'why'?",
+     "options": [
+      "لماذا",
+      "ماذا",
+      "متى",
+      "كم"
+     ],
+     "answer": 0,
+     "explain": "limādhā is 'why' (li- 'for' + mādhā 'what'); mādhā 'what', matā 'when', kam 'how many'."
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "min faḍlik changes its ending for the person addressed: min faḍlika to a man, min faḍliki to a woman.",
+     "answer": true,
+     "explain": "It contains the possessive suffix 'your', which has masculine and feminine forms."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "وسهلًا",
+      "أهلًا",
+      "بك"
+     ],
+     "answer": "أهلًا وسهلًا بك",
+     "en": "Welcome (to you)."
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "How do you say 'five girls' (bint is feminine, plural banāt)?",
+     "options": [
+      "خمس بنات",
+      "خمسة بنات",
+      "خمسة بنت",
+      "خمس بنت"
+     ],
+     "answer": 0,
+     "explain": "Feminine noun, so the number has no ة, and the noun is plural: khams banāt."
+    },
+    {
+     "id": "e29",
+     "type": "fill",
+     "q": "___ عمرك؟ (How old are you? literally 'how much is your age')",
+     "answer": [
+      "كم",
+      "kam"
+     ],
+     "roman": "kam",
+     "explain": "kam ʿumruka? uses kam 'how much / how many'."
+    },
+    {
+     "id": "e30",
+     "type": "tf",
+     "q": "in shāʾ allāh is an everyday phrase used with any future plan, not only in religious contexts.",
+     "answer": true,
+     "explain": "It accompanies plans and promises in ordinary conversation among speakers of all backgrounds."
+    }
+   ]
+  }
+ ]
+}

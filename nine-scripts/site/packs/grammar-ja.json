@@ -1,0 +1,5742 @@
+{
+ "lang": "ja",
+ "sections": [
+  {
+   "id": "kana-kanji-pronunciation",
+   "title": "Kana, kanji and pronunciation",
+   "level": 1,
+   "summary": "Japanese is written with three scripts (hiragana, katakana and kanji) and is pronounced in even, syllable-like beats called morae. This chapter covers the sound system, the voicing marks, double consonants, long vowels and the three particles that are not pronounced as they are written.",
+   "rules": [
+    {
+     "title": "Three scripts in one sentence",
+     "body": "Japanese mixes three scripts. Hiragana (ひらがな) is a syllabary used for grammatical endings, particles and native words; katakana (カタカナ) is a parallel syllabary used for foreign loanwords, foreign names, onomatopoeia and emphasis; kanji (漢字) are characters of Chinese origin used for the roots of nouns, verbs and adjectives. A typical sentence combines all three: 私はコーヒーを飲みます.",
+     "examples": [
+      {
+       "target": "私はコーヒーを飲みます。",
+       "roman": "Watashi wa kōhī o nomimasu.",
+       "en": "I drink coffee. (kanji + katakana + hiragana)"
+      },
+      {
+       "target": "ありがとう",
+       "roman": "arigatō",
+       "en": "thank you (hiragana)"
+      },
+      {
+       "target": "テレビ",
+       "roman": "terebi",
+       "en": "television (katakana loanword)"
+      },
+      {
+       "target": "日本",
+       "roman": "Nihon",
+       "en": "Japan (kanji)"
+      }
+     ]
+    },
+    {
+     "title": "Five vowels and the kana grid",
+     "body": "Japanese has five vowels, a i u e o, pronounced short and pure: あ い う え お. Most other kana are one consonant plus one vowel (か き く け こ = ka ki ku ke ko, and so on down the rows k, s, t, n, h, m, y, r, w). Each kana takes one beat of time; the nasal ん is a beat of its own. There is no stress accent like English, so keep every beat even.",
+     "examples": [
+      {
+       "target": "あ・い・う・え・お",
+       "roman": "a, i, u, e, o",
+       "en": "the five vowels"
+      },
+      {
+       "target": "さくら",
+       "roman": "sakura",
+       "en": "cherry blossom (three even beats)"
+      },
+      {
+       "target": "にほん",
+       "roman": "Nihon",
+       "en": "Japan (ni-ho-n: three beats)"
+      }
+     ]
+    },
+    {
+     "title": "Irregular readings in the grid",
+     "body": "A few kana do not follow the pattern. し is shi (not si), ち is chi, つ is tsu, ふ is fu (a soft sound between f and h), and を as a word particle is pronounced o. The r sound (ら り る れ ろ) is a light tap between English r, l and d. In Hepburn romanization these spellings are standard: shi, chi, tsu, fu.",
+     "examples": [
+      {
+       "target": "すし",
+       "roman": "sushi",
+       "en": "sushi"
+      },
+      {
+       "target": "つき",
+       "roman": "tsuki",
+       "en": "moon"
+      },
+      {
+       "target": "ふゆ",
+       "roman": "fuyu",
+       "en": "winter"
+      },
+      {
+       "target": "ちず",
+       "roman": "chizu",
+       "en": "map"
+      }
+     ]
+    },
+    {
+     "title": "Dakuten and handakuten: voicing marks",
+     "body": "Two small strokes (dakuten ゛) placed at the top right of a kana make the consonant voiced: か ka becomes が ga, さ sa becomes ざ za, た ta becomes だ da, は ha becomes ば ba. A small circle (handakuten ゜) is used only on the h row and turns it into p: は becomes ぱ pa. The same marks work on katakana: カ → ガ, ハ → パ.",
+     "examples": [
+      {
+       "target": "か → が",
+       "roman": "ka → ga",
+       "en": "adding dakuten"
+      },
+      {
+       "target": "は → ば → ぱ",
+       "roman": "ha → ba → pa",
+       "en": "dakuten and handakuten"
+      },
+      {
+       "target": "がっこう",
+       "roman": "gakkō",
+       "en": "school"
+      },
+      {
+       "target": "パン",
+       "roman": "pan",
+       "en": "bread (katakana with handakuten)"
+      }
+     ]
+    },
+    {
+     "title": "Small つ: the double consonant",
+     "body": "A small っ (ッ in katakana) is not pronounced on its own; it doubles the following consonant and takes one full beat of silence or holding. きって kitte (stamp) sounds different from きて kite (come). In romanization the consonant is written twice: がっこう gakkō, ざっし zasshi, いっぱい ippai.",
+     "examples": [
+      {
+       "target": "きって",
+       "roman": "kitte",
+       "en": "postage stamp"
+      },
+      {
+       "target": "きて",
+       "roman": "kite",
+       "en": "come (no double consonant)"
+      },
+      {
+       "target": "ざっし",
+       "roman": "zasshi",
+       "en": "magazine"
+      },
+      {
+       "target": "サッカー",
+       "roman": "sakkā",
+       "en": "soccer"
+      }
+     ]
+    },
+    {
+     "title": "Long vowels",
+     "body": "A long vowel lasts two beats and changes meaning: おばさん obasan is aunt, おばあさん obāsan is grandmother. In hiragana a long vowel is written by adding a vowel kana: ああ, いい, うう, and for long o usually おう (とうきょう Tōkyō), sometimes おお (おおきい ōkii); long e is usually えい (えいが eiga). In katakana a long vowel is written with a bar: コーヒー kōhī. Hepburn marks long a, o and u with a macron (ā ō ū) and writes long i as ii.",
+     "examples": [
+      {
+       "target": "おばあさん",
+       "roman": "obāsan",
+       "en": "grandmother"
+      },
+      {
+       "target": "おばさん",
+       "roman": "obasan",
+       "en": "aunt"
+      },
+      {
+       "target": "とうきょう",
+       "roman": "Tōkyō",
+       "en": "Tokyo"
+      },
+      {
+       "target": "コーヒー",
+       "roman": "kōhī",
+       "en": "coffee"
+      }
+     ]
+    },
+    {
+     "title": "Combined sounds with small や・ゆ・よ",
+     "body": "A kana from the i column followed by a small ゃ ゅ ょ forms a single beat: きゃ kya, きゅ kyu, きょ kyo, しゃ sha, しゅ shu, しょ sho, ちゃ cha, にゃ nya, ひょ hyo, りょ ryo. The small kana is written smaller and must not be read as a separate syllable: びょういん byōin (hospital) has a small ょ, びよういん biyōin (beauty salon) has a full-size よ.",
+     "examples": [
+      {
+       "target": "きょう",
+       "roman": "kyō",
+       "en": "today"
+      },
+      {
+       "target": "しゃしん",
+       "roman": "shashin",
+       "en": "photograph"
+      },
+      {
+       "target": "おちゃ",
+       "roman": "ocha",
+       "en": "tea"
+      },
+      {
+       "target": "びょういん",
+       "roman": "byōin",
+       "en": "hospital"
+      }
+     ]
+    },
+    {
+     "title": "Particles は, へ and を have special readings",
+     "body": "Three kana are read differently when they work as grammatical particles. The topic particle は is pronounced wa (not ha), the direction particle へ is pronounced e (not he), and the object particle を is pronounced o. Inside ordinary words these kana keep their normal sounds: はな hana (flower), へや heya (room). Hepburn writes the particles as wa, e, o.",
+     "examples": [
+      {
+       "target": "私は学生です。",
+       "roman": "Watashi wa gakusei desu.",
+       "en": "I am a student."
+      },
+      {
+       "target": "東京へ行きます。",
+       "roman": "Tōkyō e ikimasu.",
+       "en": "I am going to Tokyo."
+      },
+      {
+       "target": "水を飲みます。",
+       "roman": "Mizu o nomimasu.",
+       "en": "I drink water."
+      },
+      {
+       "target": "はな / へや",
+       "roman": "hana / heya",
+       "en": "flower / room (normal readings inside words)"
+      }
+     ]
+    },
+    {
+     "title": "Kanji readings: on and kun",
+     "body": "Most kanji have at least two readings: a Chinese-derived on reading, used mostly in compounds (学 gaku in 学生 gakusei), and a native kun reading, used when the character stands alone or with hiragana endings (学ぶ manabu, to learn). Hiragana written over kanji to show the reading is called furigana. Beginners learn kanji word by word rather than reading by reading.",
+     "examples": [
+      {
+       "target": "学生",
+       "roman": "gakusei",
+       "en": "student (on reading of 学)"
+      },
+      {
+       "target": "学ぶ",
+       "roman": "manabu",
+       "en": "to learn (kun reading of 学)"
+      },
+      {
+       "target": "日本語",
+       "roman": "Nihongo",
+       "en": "Japanese language"
+      },
+      {
+       "target": "山 / 富士山",
+       "roman": "yama / Fujisan",
+       "en": "mountain (kun) / Mount Fuji (on)"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Which script is used for loanwords such as コーヒー (coffee)?",
+     "options": [
+      "ひらがな",
+      "カタカナ",
+      "漢字",
+      "ローマ字"
+     ],
+     "answer": 1,
+     "explain": "Katakana is the script for foreign loanwords, foreign names and emphasis."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "Japanese has five basic vowels: a, i, u, e, o.",
+     "answer": true,
+     "explain": "The vowel row あ い う え お gives the five short vowels of Japanese."
+    },
+    {
+     "id": "e03",
+     "type": "match",
+     "pairs": [
+      [
+       "あ",
+       "a"
+      ],
+      [
+       "い",
+       "i"
+      ],
+      [
+       "う",
+       "u"
+      ],
+      [
+       "え",
+       "e"
+      ],
+      [
+       "お",
+       "o"
+      ]
+     ]
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "Adding dakuten (゛) to か gives ___ (ga).",
+     "answer": [
+      "が",
+      "ga"
+     ],
+     "roman": "ga",
+     "explain": "Dakuten voices the consonant, so k becomes g."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "How is the topic particle は pronounced?",
+     "options": [
+      "ha",
+      "wa",
+      "ba",
+      "pa"
+     ],
+     "answer": 1,
+     "explain": "As a particle は is read wa; inside words it is still ha."
+    },
+    {
+     "id": "e06",
+     "type": "order",
+     "words": [
+      "これ",
+      "は",
+      "ペン",
+      "です"
+     ],
+     "answer": "これ は ペン です",
+     "en": "This is a pen."
+    },
+    {
+     "id": "e07",
+     "type": "tf",
+     "q": "The small っ in きって doubles the following consonant: kitte.",
+     "answer": true,
+     "explain": "Small っ holds the next consonant for a full beat, written as a double letter in romanization."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "How is 東京 written in Hepburn romanization with macrons?",
+     "options": [
+      "Tokyo",
+      "Tōkyō",
+      "Toukyou",
+      "Tokio"
+     ],
+     "answer": 1,
+     "explain": "Both o sounds are long (とうきょう), and Hepburn marks long o with a macron."
+    },
+    {
+     "id": "e09",
+     "type": "fill",
+     "q": "Write 'coffee' in katakana with the long-vowel bar: ___",
+     "answer": [
+      "コーヒー",
+      "kōhī"
+     ],
+     "roman": "kōhī",
+     "explain": "Katakana marks long vowels with the bar ー, so both syllables are lengthened."
+    },
+    {
+     "id": "e10",
+     "type": "match",
+     "pairs": [
+      [
+       "か",
+       "ka"
+      ],
+      [
+       "が",
+       "ga"
+      ],
+      [
+       "は",
+       "ha"
+      ],
+      [
+       "ば",
+       "ba"
+      ],
+      [
+       "ぱ",
+       "pa"
+      ]
+     ]
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "Which Hepburn spelling is used for the kana ふ?",
+     "options": [
+      "fu",
+      "pu",
+      "bu",
+      "ho"
+     ],
+     "answer": 0,
+     "explain": "ふ is the u kana of the h row and is written fu; its sound is between f and h."
+    },
+    {
+     "id": "e12",
+     "type": "tf",
+     "q": "Katakana is used mainly for native Japanese words.",
+     "answer": false,
+     "explain": "Native words use hiragana and kanji; katakana is for loanwords, foreign names and emphasis."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "Write 'sushi' in hiragana: ___",
+     "answer": [
+      "すし",
+      "sushi"
+     ],
+     "roman": "sushi",
+     "explain": "す is su and し is shi, so sushi is すし."
+    },
+    {
+     "id": "e14",
+     "type": "order",
+     "words": [
+      "私",
+      "は",
+      "日本",
+      "へ",
+      "行きます"
+     ],
+     "answer": "私 は 日本 へ 行きます",
+     "en": "I am going to Japan."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "How is the object particle を pronounced?",
+     "options": [
+      "wo",
+      "o",
+      "u",
+      "yo"
+     ],
+     "answer": 1,
+     "explain": "The particle を is pronounced o in modern Japanese; Hepburn writes it o."
+    },
+    {
+     "id": "e16",
+     "type": "match",
+     "pairs": [
+      [
+       "きゃ",
+       "kya"
+      ],
+      [
+       "しゅ",
+       "shu"
+      ],
+      [
+       "ちょ",
+       "cho"
+      ],
+      [
+       "にゃ",
+       "nya"
+      ]
+     ]
+    },
+    {
+     "id": "e17",
+     "type": "tf",
+     "q": "In がっこう (school) the small っ means the k is held: gakkō.",
+     "answer": true,
+     "explain": "Small っ doubles the following consonant and the おう is a long o."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "In Hepburn the direction particle へ is written ___ (one letter).",
+     "answer": [
+      "e"
+     ],
+     "roman": "e",
+     "explain": "As a particle へ loses its h sound and is pronounced e."
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "Which spelling means 'grandmother' (obāsan), with a long vowel?",
+     "options": [
+      "おばさん",
+      "おばあさん",
+      "おばん",
+      "おばっさん"
+     ],
+     "answer": 1,
+     "explain": "The extra あ makes a two-beat long vowel; おばさん with a short a means aunt."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "ここ",
+      "は",
+      "学校",
+      "です"
+     ],
+     "answer": "ここ は 学校 です",
+     "en": "This place is a school."
+    },
+    {
+     "id": "e21",
+     "type": "tf",
+     "q": "Kanji are characters of Chinese origin used for the roots of nouns, verbs and adjectives.",
+     "answer": true,
+     "explain": "Kanji carry the meaning of content words while hiragana supplies endings and particles."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "In Hepburn romanization し is written:",
+     "options": [
+      "si",
+      "shi",
+      "ci",
+      "sy"
+     ],
+     "answer": 1,
+     "explain": "Hepburn spells the irregular s-row kana as shi to reflect its sound."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "Romanize おとうさん (father) in Hepburn with a macron: ___",
+     "answer": [
+      "otōsan",
+      "otousan"
+     ],
+     "roman": "otōsan",
+     "explain": "おう is a long o, written ō in Hepburn."
+    },
+    {
+     "id": "e24",
+     "type": "match",
+     "pairs": [
+      [
+       "は (particle)",
+       "wa"
+      ],
+      [
+       "を (particle)",
+       "o"
+      ],
+      [
+       "へ (particle)",
+       "e"
+      ],
+      [
+       "ん",
+       "n"
+      ]
+     ]
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "What does the handakuten ゜ turn は into?",
+     "options": [
+      "ば",
+      "ぱ",
+      "わ",
+      "はー"
+     ],
+     "answer": 1,
+     "explain": "The small circle is used only on the h row and makes it p."
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "The kana ん takes a full beat of its own and can end a word.",
+     "answer": true,
+     "explain": "ん is the only kana without a vowel; にほん Nihon has three beats, ending in ん."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "日本語",
+      "は",
+      "おもしろい",
+      "です"
+     ],
+     "answer": "日本語 は おもしろい です",
+     "en": "Japanese is interesting."
+    },
+    {
+     "id": "e28",
+     "type": "fill",
+     "q": "Romanize きって (postage stamp) in Hepburn: ___",
+     "answer": [
+      "kitte"
+     ],
+     "roman": "kitte",
+     "explain": "The small っ doubles the t of て."
+    }
+   ]
+  },
+  {
+   "id": "core-particles",
+   "title": "The core particles は, が, を, の",
+   "level": 1,
+   "summary": "Japanese marks the job of each noun with a particle placed after it. This chapter covers the four most important ones: は for the topic, が for the subject, を for the object and の for possession and linking nouns.",
+   "rules": [
+    {
+     "title": "は marks the topic",
+     "body": "The particle は (pronounced wa) follows the thing the sentence is about: 私は学生です literally means 'as for me, (I) am a student'. The topic is usually something already known to both speakers, and the rest of the sentence is a comment on it. A topic can be the person doing the action, a time, a place or even an object.",
+     "examples": [
+      {
+       "target": "私は学生です。",
+       "roman": "Watashi wa gakusei desu.",
+       "en": "I am a student."
+      },
+      {
+       "target": "今日は暑いです。",
+       "roman": "Kyō wa atsui desu.",
+       "en": "Today is hot. (As for today, it is hot.)"
+      },
+      {
+       "target": "田中さんは日本人です。",
+       "roman": "Tanaka-san wa Nihonjin desu.",
+       "en": "Mr Tanaka is Japanese."
+      }
+     ]
+    },
+    {
+     "title": "が marks the subject and new information",
+     "body": "The particle が follows the grammatical subject, especially when it is new information or the answer to a question. Question words that are the subject (誰 who, 何 what, どれ which) always take が, never は, and the answer to such a question also uses が: 誰が来ますか — 田中さんが来ます. Natural phenomena being reported as new (雨が降っています) also take が.",
+     "examples": [
+      {
+       "target": "誰が来ますか。",
+       "roman": "Dare ga kimasu ka.",
+       "en": "Who is coming?"
+      },
+      {
+       "target": "田中さんが来ます。",
+       "roman": "Tanaka-san ga kimasu.",
+       "en": "Mr Tanaka is coming."
+      },
+      {
+       "target": "雨が降っています。",
+       "roman": "Ame ga futte imasu.",
+       "en": "It is raining."
+      }
+     ]
+    },
+    {
+     "title": "は versus が",
+     "body": "は introduces what the sentence is about; が identifies who or what does something. In 象は鼻が長いです (as for elephants, the nose is long) the elephant is the topic and the nose is the subject of 'long'. Use は when the focus is on the comment and が when the focus is on the subject itself: 私は田中です answers 'who are you?', 私が田中です answers 'which one is Tanaka?'.",
+     "examples": [
+      {
+       "target": "象は鼻が長いです。",
+       "roman": "Zō wa hana ga nagai desu.",
+       "en": "Elephants have long trunks. (As for elephants, the nose is long.)"
+      },
+      {
+       "target": "私は田中です。",
+       "roman": "Watashi wa Tanaka desu.",
+       "en": "I am Tanaka. (introducing yourself)"
+      },
+      {
+       "target": "私が田中です。",
+       "roman": "Watashi ga Tanaka desu.",
+       "en": "I am Tanaka. (I am the one who is Tanaka.)"
+      }
+     ]
+    },
+    {
+     "title": "を marks the direct object",
+     "body": "The particle を (pronounced o) follows the thing that receives the action of a verb: 水を飲みます (drink water), 本を読みます (read a book), 日本語を勉強します (study Japanese). It is used only with transitive verbs, and the object normally comes right before the verb.",
+     "examples": [
+      {
+       "target": "水を飲みます。",
+       "roman": "Mizu o nomimasu.",
+       "en": "I drink water."
+      },
+      {
+       "target": "本を読みます。",
+       "roman": "Hon o yomimasu.",
+       "en": "I read a book."
+      },
+      {
+       "target": "日本語を勉強します。",
+       "roman": "Nihongo o benkyō shimasu.",
+       "en": "I study Japanese."
+      }
+     ]
+    },
+    {
+     "title": "を with movement through or out of a place",
+     "body": "With verbs of motion, を marks the place that is passed through or left: 公園を歩きます (walk through the park), 道を渡ります (cross the street), 家を出ます (leave the house), 電車を降ります (get off the train). The place is treated as the thing the movement covers.",
+     "examples": [
+      {
+       "target": "公園を歩きます。",
+       "roman": "Kōen o arukimasu.",
+       "en": "I walk through the park."
+      },
+      {
+       "target": "家を出ます。",
+       "roman": "Ie o demasu.",
+       "en": "I leave the house."
+      },
+      {
+       "target": "道を渡ります。",
+       "roman": "Michi o watarimasu.",
+       "en": "I cross the street."
+      }
+     ]
+    },
+    {
+     "title": "の: possession and linking nouns",
+     "body": "の joins two nouns, with the first describing the second: 私の本 (my book), 田中さんの車 (Mr Tanaka's car). It also expresses origin, type and belonging, where English might use 'of' or an adjective: 日本語の先生 (a teacher of Japanese), 東京の大学 (a university in Tokyo), 友達の田中さん (my friend Tanaka). Several の can be chained: 私の友達の車.",
+     "examples": [
+      {
+       "target": "私の本です。",
+       "roman": "Watashi no hon desu.",
+       "en": "It is my book."
+      },
+      {
+       "target": "日本語の先生",
+       "roman": "Nihongo no sensei",
+       "en": "a teacher of Japanese"
+      },
+      {
+       "target": "東京の大学",
+       "roman": "Tōkyō no daigaku",
+       "en": "a university in Tokyo"
+      },
+      {
+       "target": "私の友達の車",
+       "roman": "watashi no tomodachi no kuruma",
+       "en": "my friend's car"
+      }
+     ]
+    },
+    {
+     "title": "の as a pronoun: 'the one'",
+     "body": "When the noun is obvious, の alone can stand for it, like English 'one' or 'mine': 私のです (it is mine), 赤いのをください (give me the red one), 大きいのが好きです (I like the big one). This の follows a possessor or an adjective and takes a particle after it just like a noun.",
+     "examples": [
+      {
+       "target": "これは私のです。",
+       "roman": "Kore wa watashi no desu.",
+       "en": "This is mine."
+      },
+      {
+       "target": "赤いのをください。",
+       "roman": "Akai no o kudasai.",
+       "en": "Please give me the red one."
+      },
+      {
+       "target": "大きいのが好きです。",
+       "roman": "Ōkii no ga suki desu.",
+       "en": "I like the big one."
+      }
+     ]
+    },
+    {
+     "title": "が with certain predicates",
+     "body": "Some predicates take が where English would expect an object. 好き (like), 嫌い (dislike), わかる (understand), できる (can do), ほしい (want), 上手 (good at) and the existence verbs ある/いる all mark the thing in question with が: 寿司が好きです, 日本語がわかります. If that thing is also the topic, は replaces が: 日本語はわかります.",
+     "examples": [
+      {
+       "target": "寿司が好きです。",
+       "roman": "Sushi ga suki desu.",
+       "en": "I like sushi."
+      },
+      {
+       "target": "日本語がわかります。",
+       "roman": "Nihongo ga wakarimasu.",
+       "en": "I understand Japanese."
+      },
+      {
+       "target": "猫がいます。",
+       "roman": "Neko ga imasu.",
+       "en": "There is a cat."
+      }
+     ]
+    },
+    {
+     "title": "は for contrast and in negative sentences",
+     "body": "は can replace を or が (and follow other particles) to single out an item for contrast, and this is very common in negative sentences: 肉は食べません (meat, I don't eat), 東京には行きません (to Tokyo I'm not going). Two は in one sentence often signal a contrast: 魚は食べますが、肉は食べません.",
+     "examples": [
+      {
+       "target": "肉は食べません。",
+       "roman": "Niku wa tabemasen.",
+       "en": "I don't eat meat."
+      },
+      {
+       "target": "魚は食べますが、肉は食べません。",
+       "roman": "Sakana wa tabemasu ga, niku wa tabemasen.",
+       "en": "I eat fish, but I don't eat meat."
+      },
+      {
+       "target": "東京には行きません。",
+       "roman": "Tōkyō ni wa ikimasen.",
+       "en": "I'm not going to Tokyo."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Introducing yourself: 私___学生です。",
+     "options": [
+      "は",
+      "が",
+      "を",
+      "の"
+     ],
+     "answer": 0,
+     "explain": "は marks the topic, 'as for me, I am a student'."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "水___飲みます。(object particle)",
+     "answer": [
+      "を",
+      "o"
+     ],
+     "roman": "o",
+     "explain": "を marks the direct object of 飲みます."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "The topic particle は is pronounced wa.",
+     "answer": true,
+     "explain": "As a particle は keeps its old reading wa; inside words it is ha."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "は",
+       "topic"
+      ],
+      [
+       "が",
+       "subject / new information"
+      ],
+      [
+       "を",
+       "direct object"
+      ],
+      [
+       "の",
+       "possession / 'of'"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "私",
+      "は",
+      "本",
+      "を",
+      "読みます"
+     ],
+     "answer": "私 は 本 を 読みます",
+     "en": "I read a book."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "これは私___本です。(This is my book.)",
+     "options": [
+      "の",
+      "を",
+      "が",
+      "は"
+     ],
+     "answer": 0,
+     "explain": "の links the possessor to the thing possessed."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "誰___来ましたか。(Who came? question word as subject)",
+     "answer": [
+      "が",
+      "ga"
+     ],
+     "roman": "ga",
+     "explain": "A question word that is the subject always takes が."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "Question words such as 誰 and 何 take は when they are the subject.",
+     "answer": false,
+     "explain": "They take が, because a question word can never be a known topic."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "'a teacher of Japanese': 日本語___先生",
+     "options": [
+      "の",
+      "は",
+      "を",
+      "が"
+     ],
+     "answer": 0,
+     "explain": "の joins two nouns, the first describing the second."
+    },
+    {
+     "id": "e10",
+     "type": "order",
+     "words": [
+      "田中さん",
+      "は",
+      "日本語",
+      "の",
+      "先生",
+      "です"
+     ],
+     "answer": "田中さん は 日本語 の 先生 です",
+     "en": "Mr Tanaka is a teacher of Japanese."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "公園___歩きます。(walk through the park)",
+     "answer": [
+      "を",
+      "o"
+     ],
+     "roman": "o",
+     "explain": "を marks the place that a movement passes through."
+    },
+    {
+     "id": "e12",
+     "type": "mc",
+     "q": "Which sentence means 'Elephants have long trunks' (as for elephants, the nose is long)?",
+     "options": [
+      "象は鼻が長いです",
+      "象が鼻は長いです",
+      "象を鼻が長いです",
+      "象の鼻を長いです"
+     ],
+     "answer": 0,
+     "explain": "The elephant is the topic (は) and the nose is the subject (が) of 'long'."
+    },
+    {
+     "id": "e13",
+     "type": "tf",
+     "q": "の can join two nouns so that the first describes the second: 東京の大学 'a university in Tokyo'.",
+     "answer": true,
+     "explain": "の covers possession, origin and type, not just ownership."
+    },
+    {
+     "id": "e14",
+     "type": "match",
+     "pairs": [
+      [
+       "私の",
+       "my / mine"
+      ],
+      [
+       "あなたの",
+       "your / yours"
+      ],
+      [
+       "先生の",
+       "the teacher's"
+      ],
+      [
+       "日本の",
+       "Japanese / of Japan"
+      ]
+     ]
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "Reporting the weather: 雨___降っています。(It is raining.)",
+     "options": [
+      "が",
+      "は",
+      "を",
+      "の"
+     ],
+     "answer": 0,
+     "explain": "New information such as a natural event is introduced with が."
+    },
+    {
+     "id": "e16",
+     "type": "fill",
+     "q": "肉___食べません。(meat, I don't eat; contrast)",
+     "answer": [
+      "は",
+      "wa"
+     ],
+     "roman": "wa",
+     "explain": "は replaces を to single out the object, especially in negative sentences."
+    },
+    {
+     "id": "e17",
+     "type": "order",
+     "words": [
+      "猫",
+      "が",
+      "います"
+     ],
+     "answer": "猫 が います",
+     "en": "There is a cat."
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "Which particle goes with 好き? 寿司___好きです。",
+     "options": [
+      "が",
+      "を",
+      "の",
+      "へ"
+     ],
+     "answer": 0,
+     "explain": "好き is an adjective-like predicate whose object takes が."
+    },
+    {
+     "id": "e19",
+     "type": "tf",
+     "q": "赤いの can mean 'the red one'.",
+     "answer": true,
+     "explain": "の stands in for an obvious noun after an adjective or possessor."
+    },
+    {
+     "id": "e20",
+     "type": "fill",
+     "q": "日本語___わかります。(I understand Japanese)",
+     "answer": [
+      "が",
+      "ga"
+     ],
+     "roman": "ga",
+     "explain": "わかる marks what is understood with が, not を."
+    },
+    {
+     "id": "e21",
+     "type": "match",
+     "pairs": [
+      [
+       "本を読みます",
+       "I read a book"
+      ],
+      [
+       "本が好きです",
+       "I like books"
+      ],
+      [
+       "本は読みません",
+       "I don't read books"
+      ],
+      [
+       "私の本です",
+       "It is my book"
+      ]
+     ]
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "Asking which person is the teacher: 誰___先生ですか。",
+     "options": [
+      "が",
+      "は",
+      "を",
+      "の"
+     ],
+     "answer": 0,
+     "explain": "誰 as the subject must take が."
+    },
+    {
+     "id": "e23",
+     "type": "order",
+     "words": [
+      "これ",
+      "は",
+      "誰",
+      "の",
+      "かばん",
+      "です",
+      "か"
+     ],
+     "answer": "これ は 誰 の かばん です か",
+     "en": "Whose bag is this?"
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "を marks the direct object and is pronounced o.",
+     "answer": true,
+     "explain": "The particle を has lost its w sound in modern Japanese."
+    },
+    {
+     "id": "e25",
+     "type": "fill",
+     "q": "家___出ます。(leave the house)",
+     "answer": [
+      "を",
+      "o"
+     ],
+     "roman": "o",
+     "explain": "The place you leave is marked with を after a verb of motion."
+    },
+    {
+     "id": "e26",
+     "type": "mc",
+     "q": "私は寿司___食べます。でも、ラーメン___食べません。Which pair of particles fits?",
+     "options": [
+      "を / は",
+      "が / を",
+      "は / が",
+      "の / を"
+     ],
+     "answer": 0,
+     "explain": "The first object takes plain を; the contrasted object in the negative sentence takes は."
+    },
+    {
+     "id": "e27",
+     "type": "tf",
+     "q": "は can replace を to contrast or emphasize the object.",
+     "answer": true,
+     "explain": "Contrastive は overrides を and が and often follows other particles too."
+    },
+    {
+     "id": "e28",
+     "type": "order",
+     "words": [
+      "私",
+      "は",
+      "お茶",
+      "が",
+      "好き",
+      "です"
+     ],
+     "answer": "私 は お茶 が 好き です",
+     "en": "I like tea."
+    },
+    {
+     "id": "e29",
+     "type": "mc",
+     "q": "What does 私のです。mean?",
+     "options": [
+      "It is mine.",
+      "I am here.",
+      "It is me.",
+      "I do it."
+     ],
+     "answer": 0,
+     "explain": "の after 私 stands for the possessed thing: 'the one of mine'."
+    }
+   ]
+  },
+  {
+   "id": "place-time-means-particles",
+   "title": "Particles of place, time and means",
+   "level": 1,
+   "summary": "Beyond the core particles, Japanese uses に, で, へ, と, も, から and まで to express where, when, how and with whom something happens. This chapter sorts out the two 'at' particles に and で and the other everyday particles.",
+   "rules": [
+    {
+     "title": "に: location of existence and destination",
+     "body": "に marks the place where something exists or stays (with あります, います, 住んでいます) and the destination of movement verbs (行く, 来る, 帰る, 入る): 東京に住んでいます, 学校に行きます. Think of に as a pin on the map: the point where something is or ends up.",
+     "examples": [
+      {
+       "target": "東京に住んでいます。",
+       "roman": "Tōkyō ni sunde imasu.",
+       "en": "I live in Tokyo."
+      },
+      {
+       "target": "机の上に本があります。",
+       "roman": "Tsukue no ue ni hon ga arimasu.",
+       "en": "There is a book on the desk."
+      },
+      {
+       "target": "学校に行きます。",
+       "roman": "Gakkō ni ikimasu.",
+       "en": "I go to school."
+      }
+     ]
+    },
+    {
+     "title": "に: points in time",
+     "body": "に also marks a specific point in time: 七時に (at seven), 月曜日に (on Monday), 三月に (in March), 2020年に (in 2020). Relative time words that are not clock or calendar names (今日 today, 明日 tomorrow, 毎日 every day, 今週 this week, 今 now) take no particle at all.",
+     "examples": [
+      {
+       "target": "七時に起きます。",
+       "roman": "Shichiji ni okimasu.",
+       "en": "I get up at seven."
+      },
+      {
+       "target": "月曜日に会いましょう。",
+       "roman": "Getsuyōbi ni aimashō.",
+       "en": "Let's meet on Monday."
+      },
+      {
+       "target": "明日東京に行きます。",
+       "roman": "Ashita Tōkyō ni ikimasu.",
+       "en": "I'm going to Tokyo tomorrow. (no particle after 明日)"
+      }
+     ]
+    },
+    {
+     "title": "で: place where an action happens",
+     "body": "で marks the place where an action takes place: 図書館で勉強します (study at the library), レストランで食べます (eat at a restaurant), 公園でサッカーをします. Contrast with に: 図書館にいます (I am at the library, existence) but 図書館で読みます (I read at the library, action).",
+     "examples": [
+      {
+       "target": "図書館で勉強します。",
+       "roman": "Toshokan de benkyō shimasu.",
+       "en": "I study at the library."
+      },
+      {
+       "target": "公園でサッカーをします。",
+       "roman": "Kōen de sakkā o shimasu.",
+       "en": "I play soccer in the park."
+      },
+      {
+       "target": "図書館にいます。",
+       "roman": "Toshokan ni imasu.",
+       "en": "I am at the library. (existence, so に)"
+      }
+     ]
+    },
+    {
+     "title": "で: means, instrument and material",
+     "body": "で also marks the means by which something is done: a vehicle (バスで by bus), a tool (箸で with chopsticks), a language (日本語で in Japanese) or a material (木で out of wood). Going on foot is 歩いて, with no で.",
+     "examples": [
+      {
+       "target": "バスで行きます。",
+       "roman": "Basu de ikimasu.",
+       "en": "I go by bus."
+      },
+      {
+       "target": "箸で食べます。",
+       "roman": "Hashi de tabemasu.",
+       "en": "I eat with chopsticks."
+      },
+      {
+       "target": "日本語で話してください。",
+       "roman": "Nihongo de hanashite kudasai.",
+       "en": "Please speak in Japanese."
+      }
+     ]
+    },
+    {
+     "title": "へ: direction",
+     "body": "へ (pronounced e) marks the direction of movement and is largely interchangeable with に after 行く, 来る and 帰る: 日本へ行きます. へ stresses the direction of travel, に the arrival point; in everyday speech に is more common. Only へ can be followed by の: 東京への電車 (the train to Tokyo).",
+     "examples": [
+      {
+       "target": "日本へ行きます。",
+       "roman": "Nihon e ikimasu.",
+       "en": "I'm going to Japan."
+      },
+      {
+       "target": "家へ帰ります。",
+       "roman": "Ie e kaerimasu.",
+       "en": "I'm going home."
+      },
+      {
+       "target": "東京への電車",
+       "roman": "Tōkyō e no densha",
+       "en": "the train to Tokyo"
+      }
+     ]
+    },
+    {
+     "title": "と: 'and' between nouns, 'with' a person",
+     "body": "と joins nouns in a complete list (パンと牛乳 bread and milk) and marks the person you do something with (友達と映画を見ます). It cannot join verbs or adjectives; for a partial list ('things like A and B') や is used instead. 一緒に (together) often accompanies と.",
+     "examples": [
+      {
+       "target": "パンと牛乳を買います。",
+       "roman": "Pan to gyūnyū o kaimasu.",
+       "en": "I buy bread and milk."
+      },
+      {
+       "target": "友達と映画を見ます。",
+       "roman": "Tomodachi to eiga o mimasu.",
+       "en": "I watch a film with a friend."
+      },
+      {
+       "target": "家族と一緒に住んでいます。",
+       "roman": "Kazoku to issho ni sunde imasu.",
+       "en": "I live together with my family."
+      }
+     ]
+    },
+    {
+     "title": "も: 'also, too'",
+     "body": "も means 'also' and replaces は, が or を: 私も学生です (I am also a student), 寿司も食べます (I eat sushi too). After other particles it is added rather than replacing them: 東京にも行きます (I'm going to Tokyo as well). With a negative verb も means 'neither / not ... either'.",
+     "examples": [
+      {
+       "target": "私も学生です。",
+       "roman": "Watashi mo gakusei desu.",
+       "en": "I am also a student."
+      },
+      {
+       "target": "寿司も食べます。",
+       "roman": "Sushi mo tabemasu.",
+       "en": "I eat sushi too."
+      },
+      {
+       "target": "東京にも行きます。",
+       "roman": "Tōkyō ni mo ikimasu.",
+       "en": "I'm going to Tokyo as well."
+      },
+      {
+       "target": "私も行きません。",
+       "roman": "Watashi mo ikimasen.",
+       "en": "I'm not going either."
+      }
+     ]
+    },
+    {
+     "title": "から and まで: from and until",
+     "body": "から means 'from' and まで 'until, as far as', for both time and place: 九時から五時まで (from nine to five), 駅から家まで (from the station to home). They can be used singly: 明日から (from tomorrow), 東京まで (as far as Tokyo). からの and までの link them to nouns: 東京からの手紙 (a letter from Tokyo).",
+     "examples": [
+      {
+       "target": "九時から五時まで働きます。",
+       "roman": "Kuji kara goji made hatarakimasu.",
+       "en": "I work from nine to five."
+      },
+      {
+       "target": "駅から家まで歩きます。",
+       "roman": "Eki kara ie made arukimasu.",
+       "en": "I walk from the station to home."
+      },
+      {
+       "target": "明日から休みです。",
+       "roman": "Ashita kara yasumi desu.",
+       "en": "I'm off from tomorrow."
+      }
+     ]
+    },
+    {
+     "title": "に: the receiver of giving and communicating",
+     "body": "に also marks the person something is given, sent or said to: 友達に手紙を書きます (write a letter to a friend), 母にプレゼントをあげます (give mother a present), 先生に聞きます (ask the teacher). The order is usually receiver に, then object を, then verb.",
+     "examples": [
+      {
+       "target": "友達に手紙を書きます。",
+       "roman": "Tomodachi ni tegami o kakimasu.",
+       "en": "I write a letter to a friend."
+      },
+      {
+       "target": "母にプレゼントをあげます。",
+       "roman": "Haha ni purezento o agemasu.",
+       "en": "I give my mother a present."
+      },
+      {
+       "target": "先生に聞きます。",
+       "roman": "Sensei ni kikimasu.",
+       "en": "I'll ask the teacher."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "図書館___勉強します。(I study at the library.)",
+     "options": [
+      "で",
+      "に",
+      "へ",
+      "を"
+     ],
+     "answer": 0,
+     "explain": "で marks the place where an action happens."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "東京___住んでいます。(I live in Tokyo.)",
+     "answer": [
+      "に",
+      "ni"
+     ],
+     "roman": "ni",
+     "explain": "Living somewhere is a state of existence, so the place takes に."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "に marks the place where an action such as studying or eating happens.",
+     "answer": false,
+     "explain": "That is で; に marks where something exists or where movement ends."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "に",
+       "location of existence, destination, point in time"
+      ],
+      [
+       "で",
+       "place of action, means"
+      ],
+      [
+       "と",
+       "and / with"
+      ],
+      [
+       "も",
+       "also"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "私",
+      "は",
+      "学校",
+      "に",
+      "行きます"
+     ],
+     "answer": "私 は 学校 に 行きます",
+     "en": "I go to school."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "バス___行きます。(I go by bus.)",
+     "options": [
+      "で",
+      "に",
+      "と",
+      "へ"
+     ],
+     "answer": 0,
+     "explain": "で marks the means of transport."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "七時___起きます。(I get up at seven.)",
+     "answer": [
+      "に",
+      "ni"
+     ],
+     "roman": "ni",
+     "explain": "Clock times are points in time and take に."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "明日に行きます is the correct way to say 'I'll go tomorrow'.",
+     "answer": false,
+     "explain": "Relative time words like 明日 take no particle: 明日行きます."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "私___学生です。(I am also a student.)",
+     "options": [
+      "も",
+      "は",
+      "と",
+      "で"
+     ],
+     "answer": 0,
+     "explain": "も means 'also' and replaces は."
+    },
+    {
+     "id": "e10",
+     "type": "order",
+     "words": [
+      "友達",
+      "と",
+      "映画",
+      "を",
+      "見ます"
+     ],
+     "answer": "友達 と 映画 を 見ます",
+     "en": "I watch a film with a friend."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "九時___五時まで働きます。(from nine)",
+     "answer": [
+      "から",
+      "kara"
+     ],
+     "roman": "kara",
+     "explain": "から marks the starting point and pairs with まで."
+    },
+    {
+     "id": "e12",
+     "type": "match",
+     "pairs": [
+      [
+       "から",
+       "from"
+      ],
+      [
+       "まで",
+       "until / as far as"
+      ],
+      [
+       "へ",
+       "toward"
+      ],
+      [
+       "で",
+       "by means of"
+      ]
+     ]
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "日本語___話してください。(Please speak in Japanese.)",
+     "options": [
+      "で",
+      "に",
+      "を",
+      "と"
+     ],
+     "answer": 0,
+     "explain": "The language used is a means, marked with で."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "The direction particle へ is pronounced e.",
+     "answer": true,
+     "explain": "Like は and を, the particle へ has a special reading."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "猫が部屋___います。(There is a cat in the room.)",
+     "answer": [
+      "に",
+      "ni"
+     ],
+     "roman": "ni",
+     "explain": "With います the location takes に."
+    },
+    {
+     "id": "e16",
+     "type": "order",
+     "words": [
+      "駅",
+      "から",
+      "家",
+      "まで",
+      "歩きます"
+     ],
+     "answer": "駅 から 家 まで 歩きます",
+     "en": "I walk from the station to home."
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "パン___牛乳を買います。(I buy bread and milk.)",
+     "options": [
+      "と",
+      "も",
+      "に",
+      "で"
+     ],
+     "answer": 0,
+     "explain": "と joins two nouns in a complete list."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "友達___手紙を書きます。(I write a letter to a friend.)",
+     "answer": [
+      "に",
+      "ni"
+     ],
+     "roman": "ni",
+     "explain": "The receiver of a letter is marked with に."
+    },
+    {
+     "id": "e19",
+     "type": "tf",
+     "q": "も replaces は, が or を rather than being added after them.",
+     "answer": true,
+     "explain": "私も, not 私はも; after に or で it is added: 東京にも."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "Which sentence correctly says 'I eat sushi too'?",
+     "options": [
+      "寿司も食べます",
+      "寿司をも食べます",
+      "寿司はも食べます",
+      "も寿司食べます"
+     ],
+     "answer": 0,
+     "explain": "も takes the place of を directly after the noun."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "毎日",
+      "電車",
+      "で",
+      "会社",
+      "へ",
+      "行きます"
+     ],
+     "answer": "毎日 電車 で 会社 へ 行きます",
+     "en": "Every day I go to the office by train."
+    },
+    {
+     "id": "e22",
+     "type": "fill",
+     "q": "日曜日___何をしますか。(on Sunday; time particle)",
+     "answer": [
+      "に",
+      "ni"
+     ],
+     "roman": "ni",
+     "explain": "Days of the week are calendar points and take に."
+    },
+    {
+     "id": "e23",
+     "type": "match",
+     "pairs": [
+      [
+       "家で",
+       "at home (doing something)"
+      ],
+      [
+       "家に",
+       "at home (being there) / to home"
+      ],
+      [
+       "家から",
+       "from home"
+      ],
+      [
+       "家まで",
+       "as far as home"
+      ]
+     ]
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "友達とレストランで食べます means 'I eat at a restaurant with a friend'.",
+     "answer": true,
+     "explain": "と marks the companion and で the place of the action."
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "水曜日から金曜日___休みです。(I'm off from Wednesday to Friday.)",
+     "options": [
+      "まで",
+      "に",
+      "で",
+      "へ"
+     ],
+     "answer": 0,
+     "explain": "まで marks the end point of a span that started with から."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "公園___サッカーをします。(place of action)",
+     "answer": [
+      "で",
+      "de"
+     ],
+     "roman": "de",
+     "explain": "Playing is an action, so the park takes で."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "田中さん",
+      "も",
+      "東京",
+      "に",
+      "住んでいます"
+     ],
+     "answer": "田中さん も 東京 に 住んでいます",
+     "en": "Mr Tanaka also lives in Tokyo."
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "箸___食べます。(I eat with chopsticks.)",
+     "options": [
+      "で",
+      "と",
+      "に",
+      "も"
+     ],
+     "answer": 0,
+     "explain": "A tool or instrument is marked with で; と is for a companion."
+    }
+   ]
+  },
+  {
+   "id": "politeness-and-sentence-endings",
+   "title": "です/ます politeness and sentence endings",
+   "level": 1,
+   "summary": "Every Japanese sentence is spoken in either plain or polite style, and the choice is made at the end of the sentence. This chapter introduces the polite copula です, the polite verb ending ます, the question particle か and the sentence-final particles ね and よ.",
+   "rules": [
+    {
+     "title": "Plain style and polite style",
+     "body": "Japanese has two basic speech styles. The polite style ends sentences in です or 〜ます and is used with strangers, superiors, in shops and in most learning materials. The plain style ends in だ or the dictionary form of the verb and is used with family and close friends, and inside longer sentences. The style is chosen once per sentence, at the end.",
+     "examples": [
+      {
+       "target": "学生です。 / 学生だ。",
+       "roman": "Gakusei desu. / Gakusei da.",
+       "en": "(I) am a student. (polite / plain)"
+      },
+      {
+       "target": "行きます。 / 行く。",
+       "roman": "Ikimasu. / Iku.",
+       "en": "(I) go. (polite / plain)"
+      },
+      {
+       "target": "おいしいです。 / おいしい。",
+       "roman": "Oishii desu. / Oishii.",
+       "en": "It's delicious. (polite / plain)"
+      }
+     ]
+    },
+    {
+     "title": "Noun + です: the polite copula",
+     "body": "です links a noun (or adjective) to its topic: 私は学生です (I am a student). It covers English am, is and are and does not change for person or number. The polite negative is じゃありません (or the more formal ではありません); the plain equivalents are だ and じゃない. After an i-adjective です only adds politeness, and after a noun or na-adjective it is required.",
+     "examples": [
+      {
+       "target": "私は学生です。",
+       "roman": "Watashi wa gakusei desu.",
+       "en": "I am a student."
+      },
+      {
+       "target": "田中さんは先生じゃありません。",
+       "roman": "Tanaka-san wa sensei ja arimasen.",
+       "en": "Mr Tanaka is not a teacher."
+      },
+      {
+       "target": "ここは駅ではありません。",
+       "roman": "Koko wa eki de wa arimasen.",
+       "en": "This is not the station. (formal)"
+      }
+     ]
+    },
+    {
+     "title": "Verb + ます: the polite verb ending",
+     "body": "Verbs in the polite style end in ます: 食べます (eat), 行きます (go), します (do). The ます form is used for present habits and for the future, since Japanese has no separate future tense: 明日行きます means 'I will go tomorrow'. The dictionary (plain) form is the one listed in dictionaries: 食べる, 行く, する.",
+     "examples": [
+      {
+       "target": "毎日日本語を勉強します。",
+       "roman": "Mainichi Nihongo o benkyō shimasu.",
+       "en": "I study Japanese every day."
+      },
+      {
+       "target": "明日東京に行きます。",
+       "roman": "Ashita Tōkyō ni ikimasu.",
+       "en": "I will go to Tokyo tomorrow."
+      },
+      {
+       "target": "食べる → 食べます",
+       "roman": "taberu → tabemasu",
+       "en": "to eat (dictionary form → polite form)"
+      }
+     ]
+    },
+    {
+     "title": "Questions with か",
+     "body": "To ask a yes/no question, simply add か to the end of a polite sentence; the word order does not change and the voice rises slightly: 学生ですか (Are you a student?). A question mark is optional in Japanese writing because か already marks the question. Question-word questions work the same way: 何ですか (What is it?).",
+     "examples": [
+      {
+       "target": "あなたは学生ですか。",
+       "roman": "Anata wa gakusei desu ka.",
+       "en": "Are you a student?"
+      },
+      {
+       "target": "コーヒーを飲みますか。",
+       "roman": "Kōhī o nomimasu ka.",
+       "en": "Do you drink coffee?"
+      },
+      {
+       "target": "これは何ですか。",
+       "roman": "Kore wa nan desu ka.",
+       "en": "What is this?"
+      }
+     ]
+    },
+    {
+     "title": "Answering yes and no",
+     "body": "Yes is はい, no is いいえ. A full answer repeats the predicate: はい、学生です (Yes, I am a student), いいえ、学生じゃありません. The set phrases はい、そうです (yes, that's right) and いいえ、違います (no, that's wrong) are used for noun sentences. Note that to a negative question はい agrees with the statement, so 'はい' can mean 'no, I don't'.",
+     "examples": [
+      {
+       "target": "はい、そうです。",
+       "roman": "Hai, sō desu.",
+       "en": "Yes, that's right."
+      },
+      {
+       "target": "いいえ、違います。",
+       "roman": "Iie, chigaimasu.",
+       "en": "No, that's wrong."
+      },
+      {
+       "target": "はい、飲みます。",
+       "roman": "Hai, nomimasu.",
+       "en": "Yes, I do (drink it)."
+      }
+     ]
+    },
+    {
+     "title": "ね: seeking agreement",
+     "body": "The particle ね at the end of a sentence invites the listener to agree or confirms shared knowledge, like English 'isn't it?', 'right?': いい天気ですね (Nice weather, isn't it?). It softens statements and keeps the conversation friendly. With a falling tone it can also express mild emphasis.",
+     "examples": [
+      {
+       "target": "いい天気ですね。",
+       "roman": "Ii tenki desu ne.",
+       "en": "Nice weather, isn't it?"
+      },
+      {
+       "target": "おいしいですね。",
+       "roman": "Oishii desu ne.",
+       "en": "It's delicious, isn't it?"
+      },
+      {
+       "target": "明日は休みですね。",
+       "roman": "Ashita wa yasumi desu ne.",
+       "en": "Tomorrow is a day off, right?"
+      }
+     ]
+    },
+    {
+     "title": "よ: giving new information",
+     "body": "The particle よ marks the sentence as information the listener does not have, like 'you know' or 'I tell you': この店はおいしいですよ (This restaurant is good, you know). It adds assurance or a light warning. よ and ね can combine as よね when you are fairly sure but want confirmation.",
+     "examples": [
+      {
+       "target": "この店はおいしいですよ。",
+       "roman": "Kono mise wa oishii desu yo.",
+       "en": "This restaurant is good, you know."
+      },
+      {
+       "target": "バスが来ましたよ。",
+       "roman": "Basu ga kimashita yo.",
+       "en": "The bus has come (I'm telling you)."
+      },
+      {
+       "target": "明日は休みですよね。",
+       "roman": "Ashita wa yasumi desu yo ne.",
+       "en": "Tomorrow is a day off, right?"
+      }
+     ]
+    },
+    {
+     "title": "Dropping the subject",
+     "body": "Japanese leaves out any noun that is clear from context, including I and you. 学生です can mean 'I am a student' or 'she is a student' depending on the situation, and 行きますか — 行きます is a complete exchange. Over-using 私 and especially あなた sounds unnatural; address people by name plus さん instead.",
+     "examples": [
+      {
+       "target": "学生ですか。— はい、学生です。",
+       "roman": "Gakusei desu ka. — Hai, gakusei desu.",
+       "en": "Are you a student? — Yes, I am."
+      },
+      {
+       "target": "明日行きますか。— 行きます。",
+       "roman": "Ashita ikimasu ka. — Ikimasu.",
+       "en": "Are you going tomorrow? — I am."
+      },
+      {
+       "target": "田中さんは行きますか。",
+       "roman": "Tanaka-san wa ikimasu ka.",
+       "en": "Are you going, Mr Tanaka? (name instead of 'you')"
+      }
+     ]
+    },
+    {
+     "title": "Names and さん",
+     "body": "さん is attached to other people's family or given names: 田中さん (Mr/Ms Tanaka), 山田さんは (as for Ms Yamada). It is never used for yourself or your own family members when speaking to outsiders. Professions can serve as titles: 先生 (teacher, doctor). In casual speech plain forms such as だ and the dictionary form replace です and ます, and questions are made with a rising tone alone: 行く？",
+     "examples": [
+      {
+       "target": "田中さんは先生です。",
+       "roman": "Tanaka-san wa sensei desu.",
+       "en": "Mr Tanaka is a teacher."
+      },
+      {
+       "target": "私は田中です。",
+       "roman": "Watashi wa Tanaka desu.",
+       "en": "I am Tanaka. (no さん for yourself)"
+      },
+      {
+       "target": "行く？ — うん、行く。",
+       "roman": "Iku? — Un, iku.",
+       "en": "Going? — Yeah, I'm going. (casual)"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "The polite form of 'I am a student':",
+     "options": [
+      "学生です",
+      "学生だ",
+      "学生",
+      "学生ます"
+     ],
+     "answer": 0,
+     "explain": "Nouns take the polite copula です; だ is the plain form."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "私は先生___。(polite copula)",
+     "answer": [
+      "です",
+      "desu"
+     ],
+     "roman": "desu",
+     "explain": "です links the noun 先生 politely to the topic."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "Adding か to the end of a polite sentence turns it into a question.",
+     "answer": true,
+     "explain": "Word order stays the same; か alone marks the question."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "です",
+       "is (polite copula)"
+      ],
+      [
+       "ます",
+       "polite verb ending"
+      ],
+      [
+       "か",
+       "question marker"
+      ],
+      [
+       "ね",
+       "isn't it? (seeking agreement)"
+      ],
+      [
+       "よ",
+       "you know (giving information)"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "あなた",
+      "は",
+      "学生",
+      "です",
+      "か"
+     ],
+     "answer": "あなた は 学生 です か",
+     "en": "Are you a student?"
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "The polite form of 食べる (to eat):",
+     "options": [
+      "食べます",
+      "食べるます",
+      "食べです",
+      "食べす"
+     ],
+     "answer": 0,
+     "explain": "Ru-verbs drop る and add ます."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "いい天気です___。(Nice weather, isn't it?)",
+     "answer": [
+      "ね",
+      "ne"
+     ],
+     "roman": "ne",
+     "explain": "ね seeks the listener's agreement."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "In Japanese questions the word order changes, as in English.",
+     "answer": false,
+     "explain": "Japanese keeps the statement order and adds か at the end."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Which ending tells the listener something they did not know?",
+     "options": [
+      "よ",
+      "ね",
+      "か",
+      "の"
+     ],
+     "answer": 0,
+     "explain": "よ asserts new information; ね seeks agreement."
+    },
+    {
+     "id": "e10",
+     "type": "order",
+     "words": [
+      "田中さん",
+      "は",
+      "先生",
+      "じゃ",
+      "ありません"
+     ],
+     "answer": "田中さん は 先生 じゃ ありません",
+     "en": "Mr Tanaka is not a teacher."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "はい、そう___。(Yes, that's right. polite)",
+     "answer": [
+      "です",
+      "desu"
+     ],
+     "roman": "desu",
+     "explain": "そうです is the set polite answer confirming a noun sentence."
+    },
+    {
+     "id": "e12",
+     "type": "match",
+     "pairs": [
+      [
+       "学生です",
+       "is a student (polite)"
+      ],
+      [
+       "学生だ",
+       "is a student (plain)"
+      ],
+      [
+       "学生じゃない",
+       "is not a student (plain)"
+      ],
+      [
+       "学生じゃありません",
+       "is not a student (polite)"
+      ]
+     ]
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "The plain (dictionary) form of 行きます:",
+     "options": [
+      "行く",
+      "行き",
+      "行って",
+      "行きた"
+     ],
+     "answer": 0,
+     "explain": "行く is the form listed in dictionaries and used in plain speech."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "You add さん to your own name when introducing yourself.",
+     "answer": false,
+     "explain": "さん honours other people and is never used for yourself."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "田中___は先生です。(polite title after a name)",
+     "answer": [
+      "さん",
+      "san"
+     ],
+     "roman": "san",
+     "explain": "さん is the neutral polite title for other people."
+    },
+    {
+     "id": "e16",
+     "type": "order",
+     "words": [
+      "私",
+      "は",
+      "毎日",
+      "日本語",
+      "を",
+      "勉強します"
+     ],
+     "answer": "私 は 毎日 日本語 を 勉強します",
+     "en": "I study Japanese every day."
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "How do you reply 'No, that's wrong'?",
+     "options": [
+      "いいえ、違います",
+      "はい、そうです",
+      "いいえ、そうです",
+      "はい、違います"
+     ],
+     "answer": 0,
+     "explain": "いいえ is 'no' and 違います means 'it is different / wrong'."
+    },
+    {
+     "id": "e18",
+     "type": "tf",
+     "q": "Subjects are often dropped when clear from context, so 学生です can mean 'I am a student'.",
+     "answer": true,
+     "explain": "Japanese omits pronouns that context supplies."
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "明日は休み___か。(Is tomorrow a day off? polite)",
+     "answer": [
+      "です",
+      "desu"
+     ],
+     "roman": "desu",
+     "explain": "A polite noun question is noun + です + か."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "Which is the appropriate way to ask a stranger where the station is?",
+     "options": [
+      "すみません、駅はどこですか。",
+      "駅どこ？",
+      "駅はどこだ。",
+      "駅、どこ。"
+     ],
+     "answer": 0,
+     "explain": "Strangers are addressed in the polite style with です and か."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "これ",
+      "は",
+      "おいしい",
+      "です",
+      "よ"
+     ],
+     "answer": "これ は おいしい です よ",
+     "en": "This is delicious, you know."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "What is the plain equivalent of です?",
+     "options": [
+      "だ",
+      "ます",
+      "で",
+      "じゃ"
+     ],
+     "answer": 0,
+     "explain": "だ is the plain copula used with friends and family."
+    },
+    {
+     "id": "e23",
+     "type": "match",
+     "pairs": [
+      [
+       "行きます",
+       "go (polite)"
+      ],
+      [
+       "行く",
+       "go (plain)"
+      ],
+      [
+       "食べます",
+       "eat (polite)"
+      ],
+      [
+       "食べる",
+       "eat (plain)"
+      ]
+     ]
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "ではありません is a more formal version of じゃありません.",
+     "answer": true,
+     "explain": "じゃ is a contraction of では and sounds more conversational."
+    },
+    {
+     "id": "e25",
+     "type": "fill",
+     "q": "学生___ありません。(not a student; conversational polite negative)",
+     "answer": [
+      "じゃ",
+      "ja"
+     ],
+     "roman": "ja",
+     "explain": "じゃありません is the everyday polite negative of です."
+    },
+    {
+     "id": "e26",
+     "type": "order",
+     "words": [
+      "明日",
+      "は",
+      "雨",
+      "です",
+      "ね"
+     ],
+     "answer": "明日 は 雨 です ね",
+     "en": "It's going to rain tomorrow, isn't it?"
+    },
+    {
+     "id": "e27",
+     "type": "mc",
+     "q": "A friend asks 行く？ with rising intonation. This is:",
+     "options": [
+      "a casual question",
+      "a polite question",
+      "a command",
+      "a negative statement"
+     ],
+     "answer": 0,
+     "explain": "In plain style a rising tone alone makes a question; no か or ます is needed."
+    },
+    {
+     "id": "e28",
+     "type": "tf",
+     "q": "ね is used to push new information on the listener, and よ seeks agreement.",
+     "answer": false,
+     "explain": "It is the other way round: よ gives information, ね seeks agreement."
+    }
+   ]
+  },
+  {
+   "id": "verb-groups-and-te-form",
+   "title": "Verb groups and the te-form",
+   "level": 2,
+   "summary": "Japanese verbs fall into three groups, and knowing the group tells you how to conjugate. This chapter teaches the groups, the ます stem and the all-purpose te-form, used for ongoing actions (〜ています), requests (〜てください) and linking actions.",
+   "rules": [
+    {
+     "title": "Three verb groups",
+     "body": "Group 1 verbs (u-verbs, godan) end in an u-sound in the dictionary form: 書く kaku, 飲む nomu, 話す hanasu, 買う kau, 待つ matsu. Group 2 verbs (ru-verbs, ichidan) end in -iru or -eru: 食べる taberu, 見る miru, 起きる okiru. There are only two irregular verbs: する (do) and 来る (come). Compound verbs like 勉強する follow する.",
+     "examples": [
+      {
+       "target": "書く・飲む・買う",
+       "roman": "kaku, nomu, kau",
+       "en": "write, drink, buy (group 1 / u-verbs)"
+      },
+      {
+       "target": "食べる・見る・起きる",
+       "roman": "taberu, miru, okiru",
+       "en": "eat, see, get up (group 2 / ru-verbs)"
+      },
+      {
+       "target": "する・来る",
+       "roman": "suru, kuru",
+       "en": "do, come (irregular)"
+      }
+     ]
+    },
+    {
+     "title": "Spotting ru-verbs and the exceptions",
+     "body": "A verb is a ru-verb only if it ends in -iru or -eru; verbs like 読む or 話す that do not end in る are always u-verbs. Some verbs end in -iru/-eru but are still u-verbs and must be memorized: 帰る (return), 知る (know), 走る (run), 入る (enter), 切る (cut), 要る (need), 喋る (chat). Their ます forms show it: 帰ります, not 帰ます.",
+     "examples": [
+      {
+       "target": "帰る → 帰ります",
+       "roman": "kaeru → kaerimasu",
+       "en": "return (u-verb despite -eru)"
+      },
+      {
+       "target": "知る → 知ります",
+       "roman": "shiru → shirimasu",
+       "en": "know (u-verb despite -iru)"
+      },
+      {
+       "target": "着る → 着ます",
+       "roman": "kiru → kimasu",
+       "en": "wear (a true ru-verb)"
+      }
+     ]
+    },
+    {
+     "title": "The ます stem",
+     "body": "U-verbs change the final u-sound to the i-sound and add ます: 書く → 書きます, 飲む → 飲みます, 話す → 話します, 買う → 買います, 待つ → 待ちます. Ru-verbs simply drop る: 食べる → 食べます, 見る → 見ます. The irregulars are する → します and 来る → 来ます (kimasu). The part before ます is the stem, also used with 〜たい and 〜ましょう.",
+     "examples": [
+      {
+       "target": "書く → 書きます",
+       "roman": "kaku → kakimasu",
+       "en": "write"
+      },
+      {
+       "target": "待つ → 待ちます",
+       "roman": "matsu → machimasu",
+       "en": "wait"
+      },
+      {
+       "target": "食べる → 食べます",
+       "roman": "taberu → tabemasu",
+       "en": "eat"
+      },
+      {
+       "target": "来る → 来ます",
+       "roman": "kuru → kimasu",
+       "en": "come"
+      }
+     ]
+    },
+    {
+     "title": "Te-form of ru-verbs and irregular verbs",
+     "body": "Ru-verbs form the te-form by replacing る with て: 食べる → 食べて, 見る → 見て, 起きる → 起きて. The irregulars are する → して and 来る → 来て (kite). The te-form never stands alone as a complete polite sentence; it connects to what follows.",
+     "examples": [
+      {
+       "target": "食べる → 食べて",
+       "roman": "taberu → tabete",
+       "en": "eat"
+      },
+      {
+       "target": "見る → 見て",
+       "roman": "miru → mite",
+       "en": "see, watch"
+      },
+      {
+       "target": "する → して",
+       "roman": "suru → shite",
+       "en": "do"
+      },
+      {
+       "target": "来る → 来て",
+       "roman": "kuru → kite",
+       "en": "come"
+      }
+     ]
+    },
+    {
+     "title": "Te-form of u-verbs",
+     "body": "The ending decides the te-form. う, つ, る → って (買う → 買って, 待つ → 待って, 帰る → 帰って); む, ぶ, ぬ → んで (飲む → 飲んで, 遊ぶ → 遊んで, 死ぬ → 死んで); く → いて (書く → 書いて) but ぐ → いで (泳ぐ → 泳いで); す → して (話す → 話して). The one exception is 行く (go) → 行って, not 行いて.",
+     "examples": [
+      {
+       "target": "買う → 買って",
+       "roman": "kau → katte",
+       "en": "buy"
+      },
+      {
+       "target": "飲む → 飲んで",
+       "roman": "nomu → nonde",
+       "en": "drink"
+      },
+      {
+       "target": "書く → 書いて / 泳ぐ → 泳いで",
+       "roman": "kaku → kaite / oyogu → oyoide",
+       "en": "write / swim"
+      },
+      {
+       "target": "行く → 行って",
+       "roman": "iku → itte",
+       "en": "go (exception)"
+      }
+     ]
+    },
+    {
+     "title": "〜ています: ongoing action and resulting state",
+     "body": "Te-form + います expresses an action in progress: 今テレビを見ています (I am watching TV now), or a habit continuing over time: 毎日勉強しています. With verbs that describe a change, it expresses the state that results: 結婚しています (is married), 住んでいます (lives), 知っています (knows), 持っています (has). The negative is 〜ていません, which also means 'has not yet' with まだ.",
+     "examples": [
+      {
+       "target": "今テレビを見ています。",
+       "roman": "Ima terebi o mite imasu.",
+       "en": "I am watching TV now."
+      },
+      {
+       "target": "東京に住んでいます。",
+       "roman": "Tōkyō ni sunde imasu.",
+       "en": "I live in Tokyo."
+      },
+      {
+       "target": "田中さんを知っていますか。",
+       "roman": "Tanaka-san o shitte imasu ka.",
+       "en": "Do you know Mr Tanaka?"
+      },
+      {
+       "target": "まだ食べていません。",
+       "roman": "Mada tabete imasen.",
+       "en": "I haven't eaten yet."
+      }
+     ]
+    },
+    {
+     "title": "〜てください: polite requests",
+     "body": "Te-form + ください makes a polite request or instruction: ちょっと待ってください (Please wait a moment), 名前を書いてください (Please write your name). It is suitable for shops, classrooms and asking for help. Dropping ください (待って) gives a casual request among friends. For 'please don't', the negative form 〜ないでください is used.",
+     "examples": [
+      {
+       "target": "ちょっと待ってください。",
+       "roman": "Chotto matte kudasai.",
+       "en": "Please wait a moment."
+      },
+      {
+       "target": "名前を書いてください。",
+       "roman": "Namae o kaite kudasai.",
+       "en": "Please write your name."
+      },
+      {
+       "target": "もう一度言ってください。",
+       "roman": "Mō ichido itte kudasai.",
+       "en": "Please say it once more."
+      }
+     ]
+    },
+    {
+     "title": "Linking actions with the te-form",
+     "body": "The te-form joins actions in sequence, like 'and then': 朝起きて、コーヒーを飲んで、会社に行きます. Only the last verb carries the tense and politeness, so the whole chain is polite present here. The te-form can also give the manner or reason: 歩いて行きます (go on foot), 風邪をひいて休みました (I caught a cold and took the day off).",
+     "examples": [
+      {
+       "target": "朝起きて、コーヒーを飲みます。",
+       "roman": "Asa okite, kōhī o nomimasu.",
+       "en": "I get up in the morning and drink coffee."
+      },
+      {
+       "target": "歩いて行きます。",
+       "roman": "Aruite ikimasu.",
+       "en": "I go on foot."
+      },
+      {
+       "target": "図書館に行って、本を読みました。",
+       "roman": "Toshokan ni itte, hon o yomimashita.",
+       "en": "I went to the library and read a book."
+      }
+     ]
+    },
+    {
+     "title": "〜てもいいですか: asking permission",
+     "body": "Te-form + もいいですか asks for permission: 写真を撮ってもいいですか (May I take a photo?). The answer はい、いいですよ grants it; the refusal is usually softened, for example すみません、ちょっと… Te-form + はいけません states a prohibition: ここで食べてはいけません.",
+     "examples": [
+      {
+       "target": "写真を撮ってもいいですか。",
+       "roman": "Shashin o totte mo ii desu ka.",
+       "en": "May I take a photo?"
+      },
+      {
+       "target": "はい、いいですよ。",
+       "roman": "Hai, ii desu yo.",
+       "en": "Yes, go ahead."
+      },
+      {
+       "target": "ここで食べてはいけません。",
+       "roman": "Koko de tabete wa ikemasen.",
+       "en": "You must not eat here."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Which group does 食べる belong to?",
+     "options": [
+      "ru-verb (group 2)",
+      "u-verb (group 1)",
+      "irregular",
+      "it is an adjective"
+     ],
+     "answer": 0,
+     "explain": "It ends in -eru and conjugates by dropping る: 食べます, 食べて."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "書く → te-form: ___ (kaite)",
+     "answer": [
+      "書いて",
+      "かいて",
+      "kaite"
+     ],
+     "roman": "kaite",
+     "explain": "U-verbs ending in く change く to いて."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "行く has the irregular te-form 行って.",
+     "answer": true,
+     "explain": "By the く rule it would be 行いて, but 行く is the one exception."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "飲む",
+       "飲んで"
+      ],
+      [
+       "買う",
+       "買って"
+      ],
+      [
+       "話す",
+       "話して"
+      ],
+      [
+       "見る",
+       "見て"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "ちょっと",
+      "待って",
+      "ください"
+     ],
+     "answer": "ちょっと 待って ください",
+     "en": "Please wait a moment."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "The te-form of する:",
+     "options": [
+      "して",
+      "すって",
+      "しって",
+      "すて"
+     ],
+     "answer": 0,
+     "explain": "する is irregular: します, して."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "来る → te-form: ___ (kite)",
+     "answer": [
+      "来て",
+      "きて",
+      "kite"
+     ],
+     "roman": "kite",
+     "explain": "来る is irregular; its stem changes to き in 来ます and 来て."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "帰る (to return) is a ru-verb because it ends in -eru.",
+     "answer": false,
+     "explain": "帰る is an exception: it is a u-verb, 帰ります and 帰って."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "The ます form of 読む (to read):",
+     "options": [
+      "読みます",
+      "読むます",
+      "読めます",
+      "読ます"
+     ],
+     "answer": 0,
+     "explain": "U-verbs change the final u-sound to i before ます: mu → mi."
+    },
+    {
+     "id": "e10",
+     "type": "order",
+     "words": [
+      "今",
+      "テレビ",
+      "を",
+      "見て",
+      "います"
+     ],
+     "answer": "今 テレビ を 見て います",
+     "en": "I am watching TV now."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "東京に住んで___。(I live in Tokyo; ongoing state, polite)",
+     "answer": [
+      "います",
+      "imasu"
+     ],
+     "roman": "imasu",
+     "explain": "住む in 〜ています expresses the continuing state of living somewhere."
+    },
+    {
+     "id": "e12",
+     "type": "match",
+     "pairs": [
+      [
+       "う・つ・る",
+       "って"
+      ],
+      [
+       "む・ぶ・ぬ",
+       "んで"
+      ],
+      [
+       "く",
+       "いて"
+      ],
+      [
+       "す",
+       "して"
+      ]
+     ]
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "The te-form of 泳ぐ (to swim):",
+     "options": [
+      "泳いで",
+      "泳いて",
+      "泳んで",
+      "泳って"
+     ],
+     "answer": 0,
+     "explain": "ぐ becomes いで, the voiced counterpart of く → いて."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "〜ています can express a resulting state, as in 結婚しています 'is married'.",
+     "answer": true,
+     "explain": "With change-of-state verbs 〜ている describes the state after the change."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "名前を書いて___。(Please write your name.)",
+     "answer": [
+      "ください",
+      "kudasai"
+     ],
+     "roman": "kudasai",
+     "explain": "Te-form + ください makes a polite request."
+    },
+    {
+     "id": "e16",
+     "type": "order",
+     "words": [
+      "朝",
+      "起きて",
+      "コーヒー",
+      "を",
+      "飲みます"
+     ],
+     "answer": "朝 起きて コーヒー を 飲みます",
+     "en": "I get up in the morning and drink coffee."
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "The te-form of 待つ (to wait):",
+     "options": [
+      "待って",
+      "待んで",
+      "待いて",
+      "待して"
+     ],
+     "answer": 0,
+     "explain": "つ belongs to the う・つ・る group, which takes って."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "死ぬ → te-form: ___ (shinde)",
+     "answer": [
+      "死んで",
+      "しんで",
+      "shinde"
+     ],
+     "roman": "shinde",
+     "explain": "ぬ belongs with む and ぶ, which take んで."
+    },
+    {
+     "id": "e19",
+     "type": "tf",
+     "q": "Ru-verbs form the polite form by dropping る and adding ます: 見る → 見ます.",
+     "answer": true,
+     "explain": "Ru-verbs keep the whole stem and only replace る."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "Which verb is irregular?",
+     "options": [
+      "来る",
+      "食べる",
+      "飲む",
+      "話す"
+     ],
+     "answer": 0,
+     "explain": "来る and する are the only irregular verbs; its stem changes to き and こ."
+    },
+    {
+     "id": "e21",
+     "type": "match",
+     "pairs": [
+      [
+       "食べて",
+       "eat (te-form)"
+      ],
+      [
+       "来て",
+       "come (te-form)"
+      ],
+      [
+       "して",
+       "do (te-form)"
+      ],
+      [
+       "行って",
+       "go (te-form)"
+      ]
+     ]
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "窓",
+      "を",
+      "開けて",
+      "ください"
+     ],
+     "answer": "窓 を 開けて ください",
+     "en": "Please open the window."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "話す → te-form: ___ (hanashite)",
+     "answer": [
+      "話して",
+      "はなして",
+      "hanashite"
+     ],
+     "roman": "hanashite",
+     "explain": "Verbs ending in す take して."
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "What does 知っていますか mean?",
+     "options": [
+      "Do you know?",
+      "Did you know?",
+      "Will you know?",
+      "Do you want to know?"
+     ],
+     "answer": 0,
+     "explain": "知る in 〜ている expresses the state of knowing."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "入る (to enter) is a u-verb: 入ります, 入って.",
+     "answer": true,
+     "explain": "Despite ending in -iru, 入る is one of the exceptional u-verbs."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "遊ぶ → te-form: ___ (asonde)",
+     "answer": [
+      "遊んで",
+      "あそんで",
+      "asonde"
+     ],
+     "roman": "asonde",
+     "explain": "ぶ takes んで, like む and ぬ."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "ここ",
+      "で",
+      "写真",
+      "を",
+      "撮って",
+      "も",
+      "いい",
+      "です",
+      "か"
+     ],
+     "answer": "ここ で 写真 を 撮って も いい です か",
+     "en": "May I take photos here?"
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "毎日日本語を勉強しています。describes:",
+     "options": [
+      "a habitual, continuing activity",
+      "a single completed act",
+      "a request",
+      "a prohibition"
+     ],
+     "answer": 0,
+     "explain": "〜ています with 毎日 expresses an activity that continues over time."
+    },
+    {
+     "id": "e29",
+     "type": "tf",
+     "q": "The te-form can link two actions in sequence, with only the last verb showing tense.",
+     "answer": true,
+     "explain": "起きて、飲みます: the final ます carries politeness and tense for both."
+    },
+    {
+     "id": "e30",
+     "type": "match",
+     "pairs": [
+      [
+       "書く",
+       "group 1 (u-verb)"
+      ],
+      [
+       "起きる",
+       "group 2 (ru-verb)"
+      ],
+      [
+       "する",
+       "irregular"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "negative-and-past-forms",
+   "title": "Negative and past forms",
+   "level": 2,
+   "summary": "Japanese verbs and adjectives change their endings for negative and past, in both polite and plain style. This chapter gives the four-way pattern (present, negative, past, past negative) for verbs, i-adjectives, na-adjectives and nouns.",
+   "rules": [
+    {
+     "title": "Polite verb forms: ません, ました, ませんでした",
+     "body": "In the polite style the ます ending changes: 〜ます (present/future), 〜ません (negative), 〜ました (past), 〜ませんでした (past negative). The stem never changes: 食べます, 食べません, 食べました, 食べませんでした. The same endings apply to all three verb groups: します, しません, しました; 来ます, 来ません, 来ました.",
+     "examples": [
+      {
+       "target": "食べません。",
+       "roman": "Tabemasen.",
+       "en": "I don't eat / won't eat."
+      },
+      {
+       "target": "昨日、映画を見ました。",
+       "roman": "Kinō, eiga o mimashita.",
+       "en": "I watched a film yesterday."
+      },
+      {
+       "target": "昨日は学校に行きませんでした。",
+       "roman": "Kinō wa gakkō ni ikimasen deshita.",
+       "en": "I didn't go to school yesterday."
+      }
+     ]
+    },
+    {
+     "title": "Plain negative 〜ない",
+     "body": "Ru-verbs drop る and add ない: 食べる → 食べない, 見る → 見ない. U-verbs change the final u-sound to the a-sound and add ない: 書く → 書かない, 飲む → 飲まない, 話す → 話さない, 待つ → 待たない; verbs ending in う take わ: 買う → 買わない. Irregulars: する → しない, 来る → 来ない (konai). The negative of ある is simply ない.",
+     "examples": [
+      {
+       "target": "食べる → 食べない",
+       "roman": "taberu → tabenai",
+       "en": "eat → don't eat"
+      },
+      {
+       "target": "書く → 書かない",
+       "roman": "kaku → kakanai",
+       "en": "write → don't write"
+      },
+      {
+       "target": "買う → 買わない",
+       "roman": "kau → kawanai",
+       "en": "buy → don't buy"
+      },
+      {
+       "target": "来る → 来ない",
+       "roman": "kuru → konai",
+       "en": "come → don't come"
+      }
+     ]
+    },
+    {
+     "title": "Plain past 〜た",
+     "body": "The plain past is made exactly like the te-form, with た/だ instead of て/で: 食べて → 食べた, 書いて → 書いた, 飲んで → 飲んだ, 買って → 買った, 話して → 話した, して → した, 来て → 来た (kita), 行って → 行った. It is used in casual speech and inside longer sentences.",
+     "examples": [
+      {
+       "target": "友達と寿司を食べた。",
+       "roman": "Tomodachi to sushi o tabeta.",
+       "en": "I ate sushi with a friend."
+      },
+      {
+       "target": "昨日、東京に行った。",
+       "roman": "Kinō, Tōkyō ni itta.",
+       "en": "I went to Tokyo yesterday."
+      },
+      {
+       "target": "飲む → 飲んだ",
+       "roman": "nomu → nonda",
+       "en": "drink → drank"
+      }
+     ]
+    },
+    {
+     "title": "Plain past negative 〜なかった",
+     "body": "The plain past negative is formed from the ない form by replacing い with かった: 食べない → 食べなかった, 書かない → 書かなかった, しない → しなかった, 来ない → 来なかった. ない itself behaves like an i-adjective, which is why its past is かった.",
+     "examples": [
+      {
+       "target": "昨日は何も食べなかった。",
+       "roman": "Kinō wa nani mo tabenakatta.",
+       "en": "I didn't eat anything yesterday."
+      },
+      {
+       "target": "行く → 行かない → 行かなかった",
+       "roman": "iku → ikanai → ikanakatta",
+       "en": "go → don't go → didn't go"
+      },
+      {
+       "target": "来なかった",
+       "roman": "konakatta",
+       "en": "didn't come"
+      }
+     ]
+    },
+    {
+     "title": "Negative and past of i-adjectives",
+     "body": "I-adjectives drop the final い and add くない (negative), かった (past) or くなかった (past negative): 高い → 高くない, 高かった, 高くなかった. いい (good) uses the stem よ: よくない, よかった, よくなかった. In the polite style です is simply added after each form: 高くないです, 高かったです. Never say 高いでした or 高いじゃない.",
+     "examples": [
+      {
+       "target": "寒くないです。",
+       "roman": "Samukunai desu.",
+       "en": "It's not cold."
+      },
+      {
+       "target": "昨日は寒かったです。",
+       "roman": "Kinō wa samukatta desu.",
+       "en": "It was cold yesterday."
+      },
+      {
+       "target": "映画はおもしろくなかった。",
+       "roman": "Eiga wa omoshirokunakatta.",
+       "en": "The film wasn't interesting."
+      },
+      {
+       "target": "いい → よかった",
+       "roman": "ii → yokatta",
+       "en": "good → was good"
+      }
+     ]
+    },
+    {
+     "title": "Negative and past of nouns and na-adjectives",
+     "body": "Nouns and na-adjectives use the copula: polite です, じゃありません, でした, じゃありませんでした; plain だ, じゃない, だった, じゃなかった. 学生です → 学生でした (was a student), 静かです → 静かじゃありません (is not quiet), 元気だった (was well). ではありません and ではなかった are the formal versions of じゃ.",
+     "examples": [
+      {
+       "target": "学生でした。",
+       "roman": "Gakusei deshita.",
+       "en": "I was a student."
+      },
+      {
+       "target": "静かじゃありません。",
+       "roman": "Shizuka ja arimasen.",
+       "en": "It is not quiet."
+      },
+      {
+       "target": "来週は暇じゃありません。",
+       "roman": "Raishū wa hima ja arimasen.",
+       "en": "I'm not free next week."
+      },
+      {
+       "target": "昨日は元気じゃなかった。",
+       "roman": "Kinō wa genki ja nakatta.",
+       "en": "I wasn't well yesterday."
+      }
+     ]
+    },
+    {
+     "title": "Time words that go with the past",
+     "body": "The past tense is typically accompanied by time words such as 昨日 (yesterday), 先週 (last week), 先月 (last month), 去年 (last year), さっき (a moment ago). もう (already) goes with the past: もう食べました (I have already eaten). まだ (still, not yet) goes with the negative 〜ていません: まだ食べていません (I haven't eaten yet), not with ませんでした.",
+     "examples": [
+      {
+       "target": "先週、京都に行きました。",
+       "roman": "Senshū, Kyōto ni ikimashita.",
+       "en": "I went to Kyoto last week."
+      },
+      {
+       "target": "もう宿題をしました。",
+       "roman": "Mō shukudai o shimashita.",
+       "en": "I have already done the homework."
+      },
+      {
+       "target": "まだ食べていません。",
+       "roman": "Mada tabete imasen.",
+       "en": "I haven't eaten yet."
+      }
+     ]
+    },
+    {
+     "title": "The full pattern side by side",
+     "body": "For every predicate you need four forms in two styles. Verb (polite): 行きます, 行きません, 行きました, 行きませんでした; (plain): 行く, 行かない, 行った, 行かなかった. I-adjective: 高いです, 高くないです, 高かったです, 高くなかったです. Noun or na-adjective: 元気です, 元気じゃありません, 元気でした, 元気じゃありませんでした. Only the ending changes; the words before it stay the same.",
+     "examples": [
+      {
+       "target": "行きます・行きません・行きました・行きませんでした",
+       "roman": "ikimasu, ikimasen, ikimashita, ikimasen deshita",
+       "en": "go, don't go, went, didn't go (polite)"
+      },
+      {
+       "target": "高い・高くない・高かった・高くなかった",
+       "roman": "takai, takakunai, takakatta, takakunakatta",
+       "en": "expensive, not expensive, was expensive, wasn't expensive"
+      },
+      {
+       "target": "元気だ・元気じゃない・元気だった・元気じゃなかった",
+       "roman": "genki da, genki ja nai, genki datta, genki ja nakatta",
+       "en": "well, not well, was well, wasn't well (plain)"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "The polite negative of 食べます:",
+     "options": [
+      "食べません",
+      "食べまません",
+      "食べました",
+      "食べなません"
+     ],
+     "answer": 0,
+     "explain": "ます becomes ません in the polite negative."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "昨日、映画を見___。(polite past)",
+     "answer": [
+      "ました",
+      "mashita"
+     ],
+     "roman": "mashita",
+     "explain": "ます becomes ました for the polite past."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "〜ませんでした is the polite past negative.",
+     "answer": true,
+     "explain": "ません plus でした puts the negative into the past."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "行きます",
+       "go"
+      ],
+      [
+       "行きません",
+       "don't go"
+      ],
+      [
+       "行きました",
+       "went"
+      ],
+      [
+       "行きませんでした",
+       "didn't go"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "昨日",
+      "は",
+      "学校",
+      "に",
+      "行きません",
+      "でした"
+     ],
+     "answer": "昨日 は 学校 に 行きません でした",
+     "en": "I didn't go to school yesterday."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "The plain negative of 飲む:",
+     "options": [
+      "飲まない",
+      "飲みない",
+      "飲むない",
+      "飲めない"
+     ],
+     "answer": 0,
+     "explain": "U-verbs change the final u-sound to a before ない: mu → ma."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "買う → plain negative: ___ (kawanai)",
+     "answer": [
+      "買わない",
+      "かわない",
+      "kawanai"
+     ],
+     "roman": "kawanai",
+     "explain": "Verbs ending in う take わ, not あ, before ない."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "The plain negative of ある is あらない.",
+     "answer": false,
+     "explain": "ある is exceptional: its plain negative is simply ない."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "The plain past of 書く:",
+     "options": [
+      "書いた",
+      "書った",
+      "書きた",
+      "書んだ"
+     ],
+     "answer": 0,
+     "explain": "The plain past follows the te-form rule: 書いて → 書いた."
+    },
+    {
+     "id": "e10",
+     "type": "order",
+     "words": [
+      "友達",
+      "と",
+      "寿司",
+      "を",
+      "食べた"
+     ],
+     "answer": "友達 と 寿司 を 食べた",
+     "en": "I ate sushi with a friend."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "高い → negative: ___ (takakunai)",
+     "answer": [
+      "高くない",
+      "たかくない",
+      "takakunai"
+     ],
+     "roman": "takakunai",
+     "explain": "I-adjectives replace い with くない."
+    },
+    {
+     "id": "e12",
+     "type": "match",
+     "pairs": [
+      [
+       "食べた",
+       "ate"
+      ],
+      [
+       "食べない",
+       "don't eat"
+      ],
+      [
+       "食べなかった",
+       "didn't eat"
+      ],
+      [
+       "食べる",
+       "eat"
+      ]
+     ]
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "The past of いい (good):",
+     "options": [
+      "よかった",
+      "いかった",
+      "いいでした",
+      "いくかった"
+     ],
+     "answer": 0,
+     "explain": "いい conjugates on the stem よ: よくない, よかった."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "The past of an i-adjective is formed by replacing い with かった.",
+     "answer": true,
+     "explain": "高い → 高かった, おいしい → おいしかった."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "昨日は寒___です。(It was cold yesterday; polite)",
+     "answer": [
+      "かった",
+      "katta"
+     ],
+     "roman": "katta",
+     "explain": "The past かった form takes です for politeness."
+    },
+    {
+     "id": "e16",
+     "type": "order",
+     "words": [
+      "来週",
+      "は",
+      "暇",
+      "じゃ",
+      "ありません"
+     ],
+     "answer": "来週 は 暇 じゃ ありません",
+     "en": "I'm not free next week."
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "What does 学生でした mean?",
+     "options": [
+      "was a student",
+      "is a student",
+      "is not a student",
+      "will be a student"
+     ],
+     "answer": 0,
+     "explain": "でした is the polite past of です."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "静か → plain negative: ___ (shizuka ja nai)",
+     "answer": [
+      "静かじゃない",
+      "しずかじゃない",
+      "shizuka ja nai",
+      "shizukajanai"
+     ],
+     "roman": "shizuka ja nai",
+     "explain": "Na-adjectives use the copula's negative じゃない."
+    },
+    {
+     "id": "e19",
+     "type": "tf",
+     "q": "来る has the plain negative 来ない, read konai.",
+     "answer": true,
+     "explain": "The irregular 来る changes its stem vowel to こ in the negative."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "The plain past of する:",
+     "options": [
+      "した",
+      "すた",
+      "しった",
+      "するた"
+     ],
+     "answer": 0,
+     "explain": "する is irregular: して, した."
+    },
+    {
+     "id": "e21",
+     "type": "match",
+     "pairs": [
+      [
+       "〜ません",
+       "polite negative"
+      ],
+      [
+       "〜ました",
+       "polite past"
+      ],
+      [
+       "〜ない",
+       "plain negative"
+      ],
+      [
+       "〜た",
+       "plain past"
+      ],
+      [
+       "〜なかった",
+       "plain past negative"
+      ]
+     ]
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "もう",
+      "宿題",
+      "を",
+      "しました"
+     ],
+     "answer": "もう 宿題 を しました",
+     "en": "I have already done the homework."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "まだ食べて___。(I haven't eaten yet; polite)",
+     "answer": [
+      "いません",
+      "imasen"
+     ],
+     "roman": "imasen",
+     "explain": "'Not yet' is まだ + 〜ていません, not ませんでした."
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "The plain past negative of 行く:",
+     "options": [
+      "行かなかった",
+      "行きなかった",
+      "行かないでした",
+      "行った"
+     ],
+     "answer": 0,
+     "explain": "行かない → 行かなかった: ない changes to なかった."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "おいしいじゃない is the correct negative of おいしい.",
+     "answer": false,
+     "explain": "I-adjectives take くない: おいしくない."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "元気___。(I was well; polite past of a na-adjective)",
+     "answer": [
+      "でした",
+      "deshita"
+     ],
+     "roman": "deshita",
+     "explain": "Na-adjectives and nouns use でした for the polite past."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "昨日",
+      "の",
+      "映画",
+      "は",
+      "おもしろく",
+      "なかった"
+     ],
+     "answer": "昨日 の 映画 は おもしろく なかった",
+     "en": "Yesterday's film wasn't interesting."
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "The plain past of 飲む:",
+     "options": [
+      "飲んだ",
+      "飲んで",
+      "飲みた",
+      "飲った"
+     ],
+     "answer": 0,
+     "explain": "む takes んだ, parallel to the te-form んで."
+    },
+    {
+     "id": "e29",
+     "type": "tf",
+     "q": "来ませんでした means 'did not come'.",
+     "answer": true,
+     "explain": "ませんでした is the polite past negative ending."
+    },
+    {
+     "id": "e30",
+     "type": "match",
+     "pairs": [
+      [
+       "寒い",
+       "cold"
+      ],
+      [
+       "寒くない",
+       "not cold"
+      ],
+      [
+       "寒かった",
+       "was cold"
+      ],
+      [
+       "寒くなかった",
+       "was not cold"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "i-and-na-adjectives",
+   "title": "i-adjectives and na-adjectives",
+   "level": 2,
+   "summary": "Japanese adjectives come in two kinds, i-adjectives and na-adjectives, which differ in how they attach to nouns, how they negate and how they link to other adjectives. This chapter covers both, plus adverbs and 'becoming'.",
+   "rules": [
+    {
+     "title": "Two kinds of adjectives",
+     "body": "I-adjectives end in い in their dictionary form: 高い (expensive, tall), おいしい (delicious), 新しい (new), 大きい (big). Na-adjectives do not conjugate like that and need な before a noun: 静か (quiet), 元気 (well, lively), 有名 (famous), 便利 (convenient), 親切 (kind). A few na-adjectives happen to end in い and must be memorized: きれい (pretty, clean) and 嫌い (disliked).",
+     "examples": [
+      {
+       "target": "高い・おいしい・新しい",
+       "roman": "takai, oishii, atarashii",
+       "en": "expensive, delicious, new (i-adjectives)"
+      },
+      {
+       "target": "静か・元気・便利",
+       "roman": "shizuka, genki, benri",
+       "en": "quiet, lively, convenient (na-adjectives)"
+      },
+      {
+       "target": "きれい・嫌い",
+       "roman": "kirei, kirai",
+       "en": "pretty / clean, disliked (na-adjectives ending in い)"
+      }
+     ]
+    },
+    {
+     "title": "Before a noun",
+     "body": "An i-adjective goes directly before the noun: 高い山 (a tall mountain), 新しい車 (a new car). A na-adjective takes な: 静かな町 (a quiet town), 有名なレストラン (a famous restaurant), きれいな花 (a pretty flower). Never put な after an i-adjective.",
+     "examples": [
+      {
+       "target": "高い山",
+       "roman": "takai yama",
+       "en": "a tall mountain"
+      },
+      {
+       "target": "静かな町",
+       "roman": "shizuka na machi",
+       "en": "a quiet town"
+      },
+      {
+       "target": "きれいな花",
+       "roman": "kirei na hana",
+       "en": "a pretty flower"
+      }
+     ]
+    },
+    {
+     "title": "At the end of a sentence",
+     "body": "As a predicate, an i-adjective stands on its own in plain style and takes です for politeness: 高い / 高いです. A na-adjective needs the copula: 静かだ (plain) / 静かです (polite); な is not used here. The topic is marked with は: この店は高いです, この町は静かです.",
+     "examples": [
+      {
+       "target": "この店は高いです。",
+       "roman": "Kono mise wa takai desu.",
+       "en": "This shop is expensive."
+      },
+      {
+       "target": "この町は静かです。",
+       "roman": "Kono machi wa shizuka desu.",
+       "en": "This town is quiet."
+      },
+      {
+       "target": "田中さんは元気だ。",
+       "roman": "Tanaka-san wa genki da.",
+       "en": "Mr Tanaka is well. (plain)"
+      }
+     ]
+    },
+    {
+     "title": "Negative forms",
+     "body": "I-adjectives: drop い, add くない (plain) or くないです / くありません (polite): 高くない, 高くないです. いい becomes よくない. Na-adjectives: add じゃない (plain) or じゃありません (polite): 静かじゃない, 静かじゃありません. The common mistake is 高いじゃない, which is wrong.",
+     "examples": [
+      {
+       "target": "このカレーは辛くないです。",
+       "roman": "Kono karē wa karakunai desu.",
+       "en": "This curry is not spicy."
+      },
+      {
+       "target": "元気じゃありません。",
+       "roman": "Genki ja arimasen.",
+       "en": "I'm not well."
+      },
+      {
+       "target": "あまりよくないです。",
+       "roman": "Amari yokunai desu.",
+       "en": "It's not very good."
+      }
+     ]
+    },
+    {
+     "title": "Past forms",
+     "body": "I-adjectives: drop い, add かった (plain) or かったです (polite): おいしかった, おいしかったです; いい → よかった. Na-adjectives use the copula's past: 静かだった (plain), 静かでした (polite). Past negatives are 高くなかった(です) and 静かじゃなかった / 静かじゃありませんでした.",
+     "examples": [
+      {
+       "target": "昨日は天気がよかったです。",
+       "roman": "Kinō wa tenki ga yokatta desu.",
+       "en": "The weather was good yesterday."
+      },
+      {
+       "target": "テストは難しかった。",
+       "roman": "Tesuto wa muzukashikatta.",
+       "en": "The test was hard."
+      },
+      {
+       "target": "パーティーはにぎやかでした。",
+       "roman": "Pātī wa nigiyaka deshita.",
+       "en": "The party was lively."
+      }
+     ]
+    },
+    {
+     "title": "Linking adjectives: 〜くて and 〜で",
+     "body": "To say 'A and B' with adjectives, put the first in its linking form. I-adjectives drop い and add くて: 安くておいしい (cheap and delicious), 大きくて新しい. Na-adjectives (and nouns) take で: 静かできれい (quiet and pretty), 親切でおもしろい人. Only the last adjective shows tense and politeness.",
+     "examples": [
+      {
+       "target": "この店は安くておいしいです。",
+       "roman": "Kono mise wa yasukute oishii desu.",
+       "en": "This shop is cheap and delicious."
+      },
+      {
+       "target": "東京は大きくてにぎやかです。",
+       "roman": "Tōkyō wa ōkikute nigiyaka desu.",
+       "en": "Tokyo is big and lively."
+      },
+      {
+       "target": "田中さんは親切でおもしろい人です。",
+       "roman": "Tanaka-san wa shinsetsu de omoshiroi hito desu.",
+       "en": "Mr Tanaka is a kind and funny person."
+      }
+     ]
+    },
+    {
+     "title": "Adverbs from adjectives",
+     "body": "An i-adjective becomes an adverb by changing い to く: 早い → 早く (early, quickly), 大きい → 大きく (loudly, big). A na-adjective becomes an adverb with に: 静か → 静かに (quietly), 上手 → 上手に (skilfully). いい → よく (well, often).",
+     "examples": [
+      {
+       "target": "早く起きます。",
+       "roman": "Hayaku okimasu.",
+       "en": "I get up early."
+      },
+      {
+       "target": "静かに話してください。",
+       "roman": "Shizuka ni hanashite kudasai.",
+       "en": "Please speak quietly."
+      },
+      {
+       "target": "よく食べます。",
+       "roman": "Yoku tabemasu.",
+       "en": "I eat well / a lot."
+      }
+     ]
+    },
+    {
+     "title": "Becoming: 〜くなる and 〜になる",
+     "body": "The adverb form plus なる (to become) expresses change: 寒くなりました (it has become cold), 大きくなる (grow big); 静かになる (become quiet), きれいになりました (has become clean). Nouns also take になる: 先生になりたいです (I want to become a teacher). いい → よくなる (get better).",
+     "examples": [
+      {
+       "target": "寒くなりました。",
+       "roman": "Samuku narimashita.",
+       "en": "It has become cold."
+      },
+      {
+       "target": "部屋がきれいになりました。",
+       "roman": "Heya ga kirei ni narimashita.",
+       "en": "The room has become clean."
+      },
+      {
+       "target": "日本語が上手になりました。",
+       "roman": "Nihongo ga jōzu ni narimashita.",
+       "en": "Your Japanese has got good."
+      }
+     ]
+    },
+    {
+     "title": "Degree words: とても, あまり, ちょっと",
+     "body": "とても (very) and すごく (really) strengthen an adjective: とても高いです. あまり (not very) is used only with a negative: あまり高くないです. ちょっと (a bit) softens: ちょっと高いです, and 全然 (not at all) also requires a negative: 全然おもしろくない.",
+     "examples": [
+      {
+       "target": "とても高いです。",
+       "roman": "Totemo takai desu.",
+       "en": "It is very expensive."
+      },
+      {
+       "target": "あまりおもしろくないです。",
+       "roman": "Amari omoshirokunai desu.",
+       "en": "It is not very interesting."
+      },
+      {
+       "target": "ちょっと高いです。",
+       "roman": "Chotto takai desu.",
+       "en": "It is a bit expensive."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Which of these is a na-adjective?",
+     "options": [
+      "静か",
+      "高い",
+      "安い",
+      "古い"
+     ],
+     "answer": 0,
+     "explain": "静か needs な before a noun: 静かな町; the others end in い and conjugate."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "静か___町 (a quiet town)",
+     "answer": [
+      "な",
+      "na"
+     ],
+     "roman": "na",
+     "explain": "Na-adjectives take な before a noun."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "きれい is an i-adjective because it ends in い.",
+     "answer": false,
+     "explain": "きれい is a na-adjective: きれいな花, きれいじゃない."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "高い",
+       "expensive / tall"
+      ],
+      [
+       "安い",
+       "cheap"
+      ],
+      [
+       "静か",
+       "quiet"
+      ],
+      [
+       "有名",
+       "famous"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "この",
+      "店",
+      "は",
+      "安くて",
+      "おいしい",
+      "です"
+     ],
+     "answer": "この 店 は 安くて おいしい です",
+     "en": "This shop is cheap and delicious."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "The negative of 高い:",
+     "options": [
+      "高くない",
+      "高いじゃない",
+      "高くじゃない",
+      "高ない"
+     ],
+     "answer": 0,
+     "explain": "I-adjectives replace い with くない."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "元気___ありません。(I'm not well; polite)",
+     "answer": [
+      "じゃ",
+      "ja"
+     ],
+     "roman": "ja",
+     "explain": "Na-adjectives negate with じゃありません."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "Two i-adjectives are linked with 〜くて: 大きくて新しい.",
+     "answer": true,
+     "explain": "The first i-adjective drops い and takes くて."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "'a famous restaurant':",
+     "options": [
+      "有名なレストラン",
+      "有名いレストラン",
+      "有名でレストラン",
+      "有名のレストラン"
+     ],
+     "answer": 0,
+     "explain": "有名 is a na-adjective, so it takes な before the noun."
+    },
+    {
+     "id": "e10",
+     "type": "order",
+     "words": [
+      "田中さん",
+      "は",
+      "親切",
+      "で",
+      "おもしろい",
+      "人",
+      "です"
+     ],
+     "answer": "田中さん は 親切 で おもしろい 人 です",
+     "en": "Mr Tanaka is a kind and funny person."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "早___起きます。(I get up early; adverb)",
+     "answer": [
+      "く",
+      "ku"
+     ],
+     "roman": "ku",
+     "explain": "I-adjectives form adverbs by changing い to く."
+    },
+    {
+     "id": "e12",
+     "type": "match",
+     "pairs": [
+      [
+       "〜くて",
+       "linking form of i-adjectives"
+      ],
+      [
+       "〜で",
+       "linking form of na-adjectives"
+      ],
+      [
+       "〜く",
+       "adverb from an i-adjective"
+      ],
+      [
+       "〜に",
+       "adverb from a na-adjective"
+      ]
+     ]
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "The past of おいしい:",
+     "options": [
+      "おいしかった",
+      "おいしいでした",
+      "おいしでした",
+      "おいしくた"
+     ],
+     "answer": 0,
+     "explain": "I-adjectives replace い with かった; でした is not used after them."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "いい becomes よくない in the negative.",
+     "answer": true,
+     "explain": "いい conjugates on the older stem よ."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "部屋がきれい___なりました。(The room has become clean.)",
+     "answer": [
+      "に",
+      "ni"
+     ],
+     "roman": "ni",
+     "explain": "Na-adjectives take に before なる."
+    },
+    {
+     "id": "e16",
+     "type": "order",
+     "words": [
+      "この",
+      "本",
+      "は",
+      "あまり",
+      "おもしろく",
+      "ない",
+      "です"
+     ],
+     "answer": "この 本 は あまり おもしろく ない です",
+     "en": "This book is not very interesting."
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "あまり (not very) is used together with:",
+     "options": [
+      "a negative form",
+      "a past form",
+      "a question",
+      "a command"
+     ],
+     "answer": 0,
+     "explain": "あまり needs a negative: あまり高くない."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "寒___なりました。(It has become cold.)",
+     "answer": [
+      "く",
+      "ku"
+     ],
+     "roman": "ku",
+     "explain": "I-adjectives take the く form before なる."
+    },
+    {
+     "id": "e19",
+     "type": "tf",
+     "q": "Before a noun, i-adjectives take な: 高いな山.",
+     "answer": false,
+     "explain": "I-adjectives attach directly: 高い山; only na-adjectives take な."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "The plain past negative of 静か:",
+     "options": [
+      "静かじゃなかった",
+      "静かくなかった",
+      "静かじゃない",
+      "静かでした"
+     ],
+     "answer": 0,
+     "explain": "Na-adjectives use the copula: じゃない → じゃなかった."
+    },
+    {
+     "id": "e21",
+     "type": "match",
+     "pairs": [
+      [
+       "大きい犬",
+       "a big dog"
+      ],
+      [
+       "静かな犬",
+       "a quiet dog"
+      ],
+      [
+       "元気な犬",
+       "a lively dog"
+      ],
+      [
+       "小さい犬",
+       "a small dog"
+      ]
+     ]
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "東京",
+      "は",
+      "大きくて",
+      "にぎやか",
+      "です"
+     ],
+     "answer": "東京 は 大きくて にぎやか です",
+     "en": "Tokyo is big and lively."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "静か___話してください。(Please speak quietly.)",
+     "answer": [
+      "に",
+      "ni"
+     ],
+     "roman": "ni",
+     "explain": "Na-adjectives form adverbs with に."
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "Which sentence is correct?",
+     "options": [
+      "このカレーは辛くないです",
+      "このカレーは辛いじゃないです",
+      "このカレーは辛いくないです",
+      "このカレーは辛ないです"
+     ],
+     "answer": 0,
+     "explain": "辛い is an i-adjective: drop い, add くない."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "好き and 嫌い are na-adjectives: 好きな食べ物.",
+     "answer": true,
+     "explain": "Both take な before a noun and じゃない in the negative."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "昨日は天気がよ___です。(The weather was good yesterday.)",
+     "answer": [
+      "かった",
+      "katta"
+     ],
+     "roman": "katta",
+     "explain": "いい uses the stem よ: よかった."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "新しい",
+      "車",
+      "は",
+      "とても",
+      "高い",
+      "です"
+     ],
+     "answer": "新しい 車 は とても 高い です",
+     "en": "The new car is very expensive."
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "What does ちょっと高いです mean?",
+     "options": [
+      "It's a bit expensive.",
+      "It's very expensive.",
+      "It's not expensive.",
+      "It was expensive."
+     ],
+     "answer": 0,
+     "explain": "ちょっと means 'a little' and softens the statement."
+    },
+    {
+     "id": "e29",
+     "type": "tf",
+     "q": "便利 (convenient) is a na-adjective: 便利な店.",
+     "answer": true,
+     "explain": "便利 does not end in い and takes な before a noun."
+    }
+   ]
+  },
+  {
+   "id": "existence-and-possession",
+   "title": "Existence and possession",
+   "level": 2,
+   "summary": "Japanese says 'there is' and 'I have' with two verbs, あります for things and います for living beings. This chapter covers the pattern 場所に〜があります, position words, and the basics of counting with counters.",
+   "rules": [
+    {
+     "title": "あります and います",
+     "body": "あります (plain ある) expresses the existence of inanimate things, plants and abstract things: 本があります (there is a book), 時間があります (there is time). います (plain いる) is for people and animals: 猫がいます (there is a cat), 学生がいます. The negatives are ありません / いません, the past forms ありました / いました. Plants take あります even though they are alive.",
+     "examples": [
+      {
+       "target": "本があります。",
+       "roman": "Hon ga arimasu.",
+       "en": "There is a book."
+      },
+      {
+       "target": "猫がいます。",
+       "roman": "Neko ga imasu.",
+       "en": "There is a cat."
+      },
+      {
+       "target": "時間がありません。",
+       "roman": "Jikan ga arimasen.",
+       "en": "There is no time. / I have no time."
+      }
+     ]
+    },
+    {
+     "title": "The pattern 場所に 物が あります",
+     "body": "To say where something is, use place + に, then the thing + が, then the verb: 部屋にテレビがあります (There is a TV in the room), 公園に子供がいます (There are children in the park). To say where a known thing is, make it the topic: テレビは部屋にあります (The TV is in the room), 田中さんは東京にいます.",
+     "examples": [
+      {
+       "target": "部屋にテレビがあります。",
+       "roman": "Heya ni terebi ga arimasu.",
+       "en": "There is a TV in the room."
+      },
+      {
+       "target": "公園に子供がいます。",
+       "roman": "Kōen ni kodomo ga imasu.",
+       "en": "There are children in the park."
+      },
+      {
+       "target": "トイレはどこにありますか。",
+       "roman": "Toire wa doko ni arimasu ka.",
+       "en": "Where is the toilet?"
+      }
+     ]
+    },
+    {
+     "title": "Possession: 〜があります / 〜がいます",
+     "body": "Japanese has no everyday verb 'to have'; instead you say that something exists with respect to you: 私は車があります (I have a car), 兄がいます (I have an older brother), 時間がありません (I have no time). The possessor is the topic with は and the thing possessed takes が. 持っています (is holding, has) is used for things you carry or own.",
+     "examples": [
+      {
+       "target": "私は車があります。",
+       "roman": "Watashi wa kuruma ga arimasu.",
+       "en": "I have a car."
+      },
+      {
+       "target": "兄がいます。",
+       "roman": "Ani ga imasu.",
+       "en": "I have an older brother."
+      },
+      {
+       "target": "妹はいません。",
+       "roman": "Imōto wa imasen.",
+       "en": "I don't have a younger sister."
+      }
+     ]
+    },
+    {
+     "title": "Position words",
+     "body": "Relative positions are nouns joined with の: 机の上 (on the desk), 机の下 (under the desk), かばんの中 (in the bag), 駅の前 (in front of the station), 家の後ろ (behind the house), 銀行の隣 (next to the bank), 駅の近く (near the station). These phrases then take に: 机の上に本があります.",
+     "examples": [
+      {
+       "target": "机の上に本があります。",
+       "roman": "Tsukue no ue ni hon ga arimasu.",
+       "en": "There is a book on the desk."
+      },
+      {
+       "target": "駅は銀行の前にあります。",
+       "roman": "Eki wa ginkō no mae ni arimasu.",
+       "en": "The station is in front of the bank."
+      },
+      {
+       "target": "かばんの中に何がありますか。",
+       "roman": "Kaban no naka ni nani ga arimasu ka.",
+       "en": "What is in the bag?"
+      }
+     ]
+    },
+    {
+     "title": "Nobody and nothing: 誰も / 何も + negative",
+     "body": "Question word + も with a negative verb means 'no one', 'nothing', 'nowhere': 誰もいません (there is no one), 何もありません (there is nothing), どこにもありません (it is nowhere). Question word + か means 'someone / something': 誰かいますか (Is anyone there?).",
+     "examples": [
+      {
+       "target": "ここには誰もいません。",
+       "roman": "Koko ni wa dare mo imasen.",
+       "en": "There is no one here."
+      },
+      {
+       "target": "冷蔵庫に何もありません。",
+       "roman": "Reizōko ni nani mo arimasen.",
+       "en": "There is nothing in the fridge."
+      },
+      {
+       "target": "誰かいますか。",
+       "roman": "Dare ka imasu ka.",
+       "en": "Is anyone there?"
+      }
+     ]
+    },
+    {
+     "title": "Counters: the basics",
+     "body": "Numbers are followed by a counter that depends on what is counted. The native set 一つ (hitotsu), 二つ (futatsu), 三つ (mittsu), 四つ (yottsu), 五つ (itsutsu), 六つ (muttsu), 七つ (nanatsu), 八つ (yattsu), 九つ (kokonotsu), とお (tō) counts general objects up to ten. People use 人: 一人 (hitori), 二人 (futari), then 三人 (sannin), 四人 (yonin). Other common counters are 本 (long things), 枚 (flat things), 匹 (small animals), 冊 (bound books), 台 (machines).",
+     "examples": [
+      {
+       "target": "りんごが三つあります。",
+       "roman": "Ringo ga mittsu arimasu.",
+       "en": "There are three apples."
+      },
+      {
+       "target": "学生が三人います。",
+       "roman": "Gakusei ga sannin imasu.",
+       "en": "There are three students."
+      },
+      {
+       "target": "本が二冊あります。",
+       "roman": "Hon ga nisatsu arimasu.",
+       "en": "There are two books."
+      }
+     ]
+    },
+    {
+     "title": "Sound changes with counters",
+     "body": "Some numbers change shape before certain counters. With 本 (hon): 一本 ippon, 三本 sanbon, 六本 roppon, 八本 happon, 十本 juppon, 何本 nanbon. With 匹 (hiki): 一匹 ippiki, 三匹 sanbiki, 六匹 roppiki. With 枚 (mai) there are no changes: 一枚 ichimai, 三枚 sanmai. With 冊 (satsu): 一冊 issatsu, 八冊 hassatsu. 四 is read よん and 七 なな before most counters.",
+     "examples": [
+      {
+       "target": "ペンが三本あります。",
+       "roman": "Pen ga sanbon arimasu.",
+       "en": "There are three pens."
+      },
+      {
+       "target": "犬が一匹います。",
+       "roman": "Inu ga ippiki imasu.",
+       "en": "There is one dog."
+      },
+      {
+       "target": "紙が五枚あります。",
+       "roman": "Kami ga gomai arimasu.",
+       "en": "There are five sheets of paper."
+      }
+     ]
+    },
+    {
+     "title": "Where the counter goes",
+     "body": "The number plus counter normally comes after the noun and its particle, right before the verb: 猫が二匹います, ビールを三本ください. It can also go before the noun with の: 二匹の猫 (two cats), but the first order is more common in speech. To ask how many, use いくつ (general) or 何 + counter: 何人 (how many people), 何本, 何枚.",
+     "examples": [
+      {
+       "target": "猫が二匹います。",
+       "roman": "Neko ga nihiki imasu.",
+       "en": "There are two cats."
+      },
+      {
+       "target": "ビールを三本ください。",
+       "roman": "Bīru o sanbon kudasai.",
+       "en": "Three beers, please."
+      },
+      {
+       "target": "学生は何人いますか。",
+       "roman": "Gakusei wa nannin imasu ka.",
+       "en": "How many students are there?"
+      }
+     ]
+    },
+    {
+     "title": "あります for events",
+     "body": "あります is also used for events and happenings: 会議があります (there is a meeting), 明日テストがあります (there is a test tomorrow), 今晩パーティーがあります. The place of an event takes で, not に, because the event is an action: 東京で会議があります.",
+     "examples": [
+      {
+       "target": "明日テストがあります。",
+       "roman": "Ashita tesuto ga arimasu.",
+       "en": "There is a test tomorrow."
+      },
+      {
+       "target": "東京で会議があります。",
+       "roman": "Tōkyō de kaigi ga arimasu.",
+       "en": "There is a meeting in Tokyo."
+      },
+      {
+       "target": "今晩パーティーがあります。",
+       "roman": "Konban pātī ga arimasu.",
+       "en": "There is a party tonight."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "猫が___。(There is a cat.)",
+     "options": [
+      "います",
+      "あります",
+      "です",
+      "いません"
+     ],
+     "answer": 0,
+     "explain": "Animals and people take います."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "机の上に本が___。(There is a book on the desk; polite)",
+     "answer": [
+      "あります",
+      "arimasu"
+     ],
+     "roman": "arimasu",
+     "explain": "Inanimate things exist with あります."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "います is used for people and animals, あります for things.",
+     "answer": true,
+     "explain": "The choice depends on whether the thing is animate."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "上",
+       "on / above"
+      ],
+      [
+       "下",
+       "under"
+      ],
+      [
+       "中",
+       "inside"
+      ],
+      [
+       "前",
+       "in front"
+      ],
+      [
+       "後ろ",
+       "behind"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "部屋",
+      "に",
+      "テレビ",
+      "が",
+      "あります"
+     ],
+     "answer": "部屋 に テレビ が あります",
+     "en": "There is a TV in the room."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "私は兄が___。(I have an older brother.)",
+     "options": [
+      "います",
+      "あります",
+      "です",
+      "ありません"
+     ],
+     "answer": 0,
+     "explain": "A brother is a person, so possession is expressed with います."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "本が二___あります。(two books; counter for bound books)",
+     "answer": [
+      "冊",
+      "さつ",
+      "satsu"
+     ],
+     "roman": "satsu",
+     "explain": "冊 counts books, magazines and notebooks."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "三人 is read さんにん.",
+     "answer": true,
+     "explain": "From three upward the people counter is a regular number + にん."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "How is 一人 read?",
+     "options": [
+      "ひとり",
+      "いちにん",
+      "いちり",
+      "ひとにん"
+     ],
+     "answer": 0,
+     "explain": "One and two people use native readings: ひとり, ふたり."
+    },
+    {
+     "id": "e10",
+     "type": "order",
+     "words": [
+      "学生",
+      "が",
+      "三人",
+      "います"
+     ],
+     "answer": "学生 が 三人 います",
+     "en": "There are three students."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "りんごが三___あります。(three apples; generic counter)",
+     "answer": [
+      "つ",
+      "tsu"
+     ],
+     "roman": "tsu",
+     "explain": "The native counter 一つ, 二つ, 三つ counts general objects."
+    },
+    {
+     "id": "e12",
+     "type": "match",
+     "pairs": [
+      [
+       "本",
+       "long, thin things"
+      ],
+      [
+       "枚",
+       "flat things"
+      ],
+      [
+       "匹",
+       "small animals"
+      ],
+      [
+       "冊",
+       "bound books"
+      ]
+     ]
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "The negative of います:",
+     "options": [
+      "いません",
+      "ありません",
+      "いないます",
+      "いじゃない"
+     ],
+     "answer": 0,
+     "explain": "います follows the normal ます → ません pattern."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "Plants take います because they are alive.",
+     "answer": false,
+     "explain": "Plants are treated as immobile things and take あります."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "駅は銀行の___にあります。(The station is in front of the bank.)",
+     "answer": [
+      "前",
+      "まえ",
+      "mae"
+     ],
+     "roman": "mae",
+     "explain": "Position words are nouns linked with の and followed by に."
+    },
+    {
+     "id": "e16",
+     "type": "order",
+     "words": [
+      "かばん",
+      "の",
+      "中",
+      "に",
+      "何",
+      "が",
+      "あります",
+      "か"
+     ],
+     "answer": "かばん の 中 に 何 が あります か",
+     "en": "What is in the bag?"
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "What does 時間がありません mean?",
+     "options": [
+      "I have no time.",
+      "There is time.",
+      "I had time.",
+      "Is there time?"
+     ],
+     "answer": 0,
+     "explain": "ありません is the negative of あります; abstract things like time use あります."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "犬が___います。(There is one dog; number + counter for small animals, いっぴき)",
+     "answer": [
+      "一匹",
+      "いっぴき",
+      "ippiki"
+     ],
+     "roman": "ippiki",
+     "explain": "一 + 匹 becomes いっぴき with a sound change."
+    },
+    {
+     "id": "e19",
+     "type": "tf",
+     "q": "机の上に means 'on the desk'.",
+     "answer": true,
+     "explain": "上 is the position noun 'top / above', linked to 机 with の."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "The plain form of あります:",
+     "options": [
+      "ある",
+      "あり",
+      "あるます",
+      "いる"
+     ],
+     "answer": 0,
+     "explain": "ある is the dictionary form; いる is the plain form of います."
+    },
+    {
+     "id": "e21",
+     "type": "match",
+     "pairs": [
+      [
+       "一つ",
+       "one (thing)"
+      ],
+      [
+       "二つ",
+       "two (things)"
+      ],
+      [
+       "三つ",
+       "three (things)"
+      ],
+      [
+       "四つ",
+       "four (things)"
+      ]
+     ]
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "ここ",
+      "に",
+      "は",
+      "誰",
+      "も",
+      "いません"
+     ],
+     "answer": "ここ に は 誰 も いません",
+     "en": "There is no one here."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "紙が五___あります。(five sheets of paper; counter for flat things)",
+     "answer": [
+      "枚",
+      "まい",
+      "mai"
+     ],
+     "roman": "mai",
+     "explain": "枚 counts flat objects such as paper, tickets and shirts."
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "Which sentence has the counter in its usual position: 'There are two cats'?",
+     "options": [
+      "猫が二匹います",
+      "猫が匹二います",
+      "猫がいます二匹",
+      "二匹猫がいますが"
+     ],
+     "answer": 0,
+     "explain": "Number + counter follows the noun and particle and precedes the verb."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "会議があります 'There is a meeting' uses あります even though a meeting is an event.",
+     "answer": true,
+     "explain": "Events and abstract things exist with あります."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "妹が___。(I don't have a younger sister; polite)",
+     "answer": [
+      "いません",
+      "imasen"
+     ],
+     "roman": "imasen",
+     "explain": "A sister is a person, so the negative is いません."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "トイレ",
+      "は",
+      "どこ",
+      "に",
+      "あります",
+      "か"
+     ],
+     "answer": "トイレ は どこ に あります か",
+     "en": "Where is the toilet?"
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "In ペンが三本あります, how is 三本 read?",
+     "options": [
+      "さんぼん",
+      "さんほん",
+      "さんぽん",
+      "みっぽん"
+     ],
+     "answer": 0,
+     "explain": "After 三 the counter 本 is voiced to ぼん."
+    },
+    {
+     "id": "e29",
+     "type": "tf",
+     "q": "八つ is read やっつ.",
+     "answer": true,
+     "explain": "The native numbers run ひとつ, ふたつ ... やっつ, ここのつ, とお."
+    }
+   ]
+  },
+  {
+   "id": "demonstratives-questions-word-order",
+   "title": "Demonstratives, questions and word order",
+   "level": 3,
+   "summary": "This chapter covers the こ・そ・あ・ど system of pointing words, the question words 誰, 何, どこ and いつ, and the basic subject-object-verb order of Japanese, including when subjects are dropped.",
+   "rules": [
+    {
+     "title": "これ・それ・あれ・どれ",
+     "body": "Pronouns for things follow a three-way system based on distance. これ is something near the speaker (this), それ something near the listener (that), あれ something far from both (that over there), and どれ asks 'which one?'. They stand alone as nouns: これは何ですか (What is this?), それは私のです (That is mine).",
+     "examples": [
+      {
+       "target": "これは何ですか。",
+       "roman": "Kore wa nan desu ka.",
+       "en": "What is this?"
+      },
+      {
+       "target": "それは私の本です。",
+       "roman": "Sore wa watashi no hon desu.",
+       "en": "That (near you) is my book."
+      },
+      {
+       "target": "あれは富士山です。",
+       "roman": "Are wa Fujisan desu.",
+       "en": "That over there is Mount Fuji."
+      },
+      {
+       "target": "どれがあなたのですか。",
+       "roman": "Dore ga anata no desu ka.",
+       "en": "Which one is yours?"
+      }
+     ]
+    },
+    {
+     "title": "この・その・あの・どの before nouns",
+     "body": "When a noun follows, use この, その, あの or どの instead: この本 (this book), その人 (that person near you), あの店 (that shop over there), どの電車 (which train). These forms never stand alone; they must be followed by a noun.",
+     "examples": [
+      {
+       "target": "この本は私のです。",
+       "roman": "Kono hon wa watashi no desu.",
+       "en": "This book is mine."
+      },
+      {
+       "target": "あの人は誰ですか。",
+       "roman": "Ano hito wa dare desu ka.",
+       "en": "Who is that person over there?"
+      },
+      {
+       "target": "どの電車に乗りますか。",
+       "roman": "Dono densha ni norimasu ka.",
+       "en": "Which train do you take?"
+      }
+     ]
+    },
+    {
+     "title": "ここ・そこ・あそこ・どこ for places",
+     "body": "The same system applies to places: ここ (here), そこ (there, near you), あそこ (over there) and どこ (where). The polite direction words こちら, そちら, あちら, どちら are used for places, directions, people and 'which of two'. どちら is also a polite 'where': お国はどちらですか.",
+     "examples": [
+      {
+       "target": "トイレはどこですか。",
+       "roman": "Toire wa doko desu ka.",
+       "en": "Where is the toilet?"
+      },
+      {
+       "target": "あそこです。",
+       "roman": "Asoko desu.",
+       "en": "It's over there."
+      },
+      {
+       "target": "お国はどちらですか。",
+       "roman": "Okuni wa dochira desu ka.",
+       "en": "Where are you from? (polite)"
+      }
+     ]
+    },
+    {
+     "title": "The question words",
+     "body": "The basic question words are 誰 (who), 何 (what), どこ (where), いつ (when), どう (how), どうして / なぜ (why), いくら (how much, price), いくつ (how many, how old), どんな (what kind of) and どの / どれ (which). They take the same particle as the noun they replace: 誰が (who, subject), 何を (what, object), どこで (where, place of action).",
+     "examples": [
+      {
+       "target": "誰が来ますか。",
+       "roman": "Dare ga kimasu ka.",
+       "en": "Who is coming?"
+      },
+      {
+       "target": "何を飲みますか。",
+       "roman": "Nani o nomimasu ka.",
+       "en": "What will you drink?"
+      },
+      {
+       "target": "いつ日本に来ましたか。",
+       "roman": "Itsu Nihon ni kimashita ka.",
+       "en": "When did you come to Japan?"
+      },
+      {
+       "target": "これはいくらですか。",
+       "roman": "Kore wa ikura desu ka.",
+       "en": "How much is this?"
+      }
+     ]
+    },
+    {
+     "title": "なん and なに",
+     "body": "何 is read なん before です, before た/だ/な sounds and before counters: 何ですか (nan desu ka), 何時 (nanji, what time), 何人 (nannin, how many people). It is read なに before particles such as を, が and も: 何を (nani o), 何が, 何も. Both appear in 何か (nanika, something).",
+     "examples": [
+      {
+       "target": "これは何ですか。",
+       "roman": "Kore wa nan desu ka.",
+       "en": "What is this?"
+      },
+      {
+       "target": "何を食べますか。",
+       "roman": "Nani o tabemasu ka.",
+       "en": "What will you eat?"
+      },
+      {
+       "target": "今何時ですか。",
+       "roman": "Ima nanji desu ka.",
+       "en": "What time is it now?"
+      }
+     ]
+    },
+    {
+     "title": "Questions keep the statement order",
+     "body": "A question word stays in the position of the word it replaces; nothing moves to the front. Compare 田中さんは東京で働いています (Tanaka works in Tokyo) with 田中さんはどこで働いていますか (Where does Tanaka work?). The only change is か at the end. Time, place and object keep their positions.",
+     "examples": [
+      {
+       "target": "田中さんはどこで働いていますか。",
+       "roman": "Tanaka-san wa doko de hataraite imasu ka.",
+       "en": "Where does Mr Tanaka work?"
+      },
+      {
+       "target": "あなたはいつ日本に来ましたか。",
+       "roman": "Anata wa itsu Nihon ni kimashita ka.",
+       "en": "When did you come to Japan?"
+      },
+      {
+       "target": "誰と行きますか。",
+       "roman": "Dare to ikimasu ka.",
+       "en": "Who are you going with?"
+      }
+     ]
+    },
+    {
+     "title": "Basic word order: SOV",
+     "body": "Japanese is a subject-object-verb language: the verb (or です) always comes last. The usual order is topic/subject, time, place, object, verb: 私は毎日公園で走ります (I run in the park every day). Because particles mark each role, the elements before the verb can be rearranged for emphasis, but the verb stays at the end and modifiers come before what they modify.",
+     "examples": [
+      {
+       "target": "私は毎日公園で走ります。",
+       "roman": "Watashi wa mainichi kōen de hashirimasu.",
+       "en": "I run in the park every day."
+      },
+      {
+       "target": "田中さんは昨日図書館で本を読みました。",
+       "roman": "Tanaka-san wa kinō toshokan de hon o yomimashita.",
+       "en": "Mr Tanaka read a book at the library yesterday."
+      },
+      {
+       "target": "毎日公園で私は走ります。",
+       "roman": "Mainichi kōen de watashi wa hashirimasu.",
+       "en": "Every day in the park, I run. (rearranged, verb still last)"
+      }
+     ]
+    },
+    {
+     "title": "Dropping subjects and objects",
+     "body": "Any element that is clear from context is left out, especially I and you: 行きますか — はい、行きます. The listener fills in the gaps from the situation and from politeness forms. Repeating 私 in every sentence sounds self-centred, and あなた is avoided in favour of the person's name.",
+     "examples": [
+      {
+       "target": "行きますか。— はい、行きます。",
+       "roman": "Ikimasu ka. — Hai, ikimasu.",
+       "en": "Are you going? — Yes, I am."
+      },
+      {
+       "target": "食べましたか。— いいえ、まだです。",
+       "roman": "Tabemashita ka. — Iie, mada desu.",
+       "en": "Have you eaten? — No, not yet."
+      },
+      {
+       "target": "田中さんは学生ですか。— はい、そうです。",
+       "roman": "Tanaka-san wa gakusei desu ka. — Hai, sō desu.",
+       "en": "Are you a student, Mr Tanaka? — Yes, I am."
+      }
+     ]
+    },
+    {
+     "title": "Question word + か, も, でも",
+     "body": "Adding か to a question word makes an indefinite: 何か (something), 誰か (someone), どこか (somewhere), いつか (some day). Adding も with a negative gives 'nothing, no one, nowhere': 何も食べませんでした (I ate nothing), 誰もいません. Adding でも gives 'anything, anyone': 何でもいいです (anything is fine).",
+     "examples": [
+      {
+       "target": "何か飲みますか。",
+       "roman": "Nanika nomimasu ka.",
+       "en": "Will you drink something?"
+      },
+      {
+       "target": "何も食べませんでした。",
+       "roman": "Nani mo tabemasen deshita.",
+       "en": "I ate nothing."
+      },
+      {
+       "target": "何でもいいです。",
+       "roman": "Nan demo ii desu.",
+       "en": "Anything is fine."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Which word refers to a thing near the listener?",
+     "options": [
+      "それ",
+      "これ",
+      "あれ",
+      "どれ"
+     ],
+     "answer": 0,
+     "explain": "それ is 'that near you'; これ is near the speaker and あれ far from both."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "___は何ですか。(What is this? thing near me)",
+     "answer": [
+      "これ",
+      "kore"
+     ],
+     "roman": "kore",
+     "explain": "これ points to something near the speaker."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "あれ refers to something far from both the speaker and the listener.",
+     "answer": true,
+     "explain": "The あ series marks distance from both parties."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "誰",
+       "who"
+      ],
+      [
+       "何",
+       "what"
+      ],
+      [
+       "どこ",
+       "where"
+      ],
+      [
+       "いつ",
+       "when"
+      ],
+      [
+       "いくら",
+       "how much"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "これ",
+      "は",
+      "何",
+      "です",
+      "か"
+     ],
+     "answer": "これ は 何 です か",
+     "en": "What is this?"
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "この, その and あの are used:",
+     "options": [
+      "before a noun",
+      "alone, as pronouns",
+      "after a verb",
+      "after です"
+     ],
+     "answer": 0,
+     "explain": "The -の forms must be followed by a noun: この本."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "___本は私のです。(That book near you is mine.)",
+     "answer": [
+      "その",
+      "sono"
+     ],
+     "roman": "sono",
+     "explain": "その + noun points to something near the listener."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "Japanese is a subject-object-verb language: the verb comes last.",
+     "answer": true,
+     "explain": "The predicate always closes the sentence."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "How is 何時ですか read?",
+     "options": [
+      "なんじですか",
+      "なにじですか",
+      "なんときですか",
+      "なにときですか"
+     ],
+     "answer": 0,
+     "explain": "何 is read なん before a counter such as 時."
+    },
+    {
+     "id": "e10",
+     "type": "order",
+     "words": [
+      "トイレ",
+      "は",
+      "どこ",
+      "です",
+      "か"
+     ],
+     "answer": "トイレ は どこ です か",
+     "en": "Where is the toilet?"
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "誰___来ますか。(Who is coming? subject)",
+     "answer": [
+      "が",
+      "ga"
+     ],
+     "roman": "ga",
+     "explain": "A question word as subject takes が."
+    },
+    {
+     "id": "e12",
+     "type": "match",
+     "pairs": [
+      [
+       "ここ",
+       "here"
+      ],
+      [
+       "そこ",
+       "there (near you)"
+      ],
+      [
+       "あそこ",
+       "over there"
+      ],
+      [
+       "どこ",
+       "where"
+      ]
+     ]
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "Which sentence has the normal word order?",
+     "options": [
+      "私は毎日公園で走ります",
+      "私は走ります毎日公園で",
+      "走ります私は公園で毎日",
+      "公園で私は走ります毎日"
+     ],
+     "answer": 0,
+     "explain": "Topic, time, place, verb: the verb must come last."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "In a Japanese question the question word moves to the front of the sentence.",
+     "answer": false,
+     "explain": "The question word stays where the answer would be: 何を飲みますか."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "何___飲みますか。(What will you drink? object)",
+     "answer": [
+      "を",
+      "o"
+     ],
+     "roman": "o",
+     "explain": "何 replaces the object, so it takes を."
+    },
+    {
+     "id": "e16",
+     "type": "order",
+     "words": [
+      "あなた",
+      "は",
+      "いつ",
+      "日本",
+      "に",
+      "来ました",
+      "か"
+     ],
+     "answer": "あなた は いつ 日本 に 来ました か",
+     "en": "When did you come to Japan?"
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "What does 何も食べませんでした mean?",
+     "options": [
+      "I ate nothing.",
+      "I ate something.",
+      "I ate everything.",
+      "What did I eat?"
+     ],
+     "answer": 0,
+     "explain": "何も with a negative verb means 'nothing'."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "何___飲みますか。(Will you drink something?)",
+     "answer": [
+      "か",
+      "ka"
+     ],
+     "roman": "ka",
+     "explain": "何か means 'something'."
+    },
+    {
+     "id": "e19",
+     "type": "tf",
+     "q": "誰か means 'someone' and 誰も with a negative means 'no one'.",
+     "answer": true,
+     "explain": "か makes an indefinite and も + negative a universal negative."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "In which phrase is 何 read なに?",
+     "options": [
+      "何を",
+      "何ですか",
+      "何時",
+      "何人"
+     ],
+     "answer": 0,
+     "explain": "Before particles like を, が and も, 何 is なに; before です and counters it is なん."
+    },
+    {
+     "id": "e21",
+     "type": "match",
+     "pairs": [
+      [
+       "どう",
+       "how"
+      ],
+      [
+       "どんな",
+       "what kind of"
+      ],
+      [
+       "どうして",
+       "why"
+      ],
+      [
+       "どの",
+       "which (before a noun)"
+      ],
+      [
+       "どれ",
+       "which one"
+      ]
+     ]
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "あの",
+      "人",
+      "は",
+      "誰",
+      "です",
+      "か"
+     ],
+     "answer": "あの 人 は 誰 です か",
+     "en": "Who is that person over there?"
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "日本語の勉強は___ですか。(How is your Japanese study going?)",
+     "answer": [
+      "どう",
+      "dō"
+     ],
+     "roman": "dō",
+     "explain": "どう asks 'how'."
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "Which reply to 行きますか means 'Yes, I'll go' with the subject dropped?",
+     "options": [
+      "はい、行きます",
+      "はい、行きますか",
+      "はい、行く？",
+      "はい、行きません"
+     ],
+     "answer": 0,
+     "explain": "The verb alone is a complete answer; the subject is understood."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "どちら is a polite way to ask 'which (of two)' or 'where'.",
+     "answer": true,
+     "explain": "The こちら series is the polite counterpart of ここ and これ."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "___レストランがいいですか。(What kind of restaurant is good?)",
+     "answer": [
+      "どんな",
+      "donna"
+     ],
+     "roman": "donna",
+     "explain": "どんな + noun asks 'what kind of'."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "田中さん",
+      "は",
+      "どこ",
+      "で",
+      "働いて",
+      "います",
+      "か"
+     ],
+     "answer": "田中さん は どこ で 働いて います か",
+     "en": "Where does Mr Tanaka work?"
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "'Which one is yours?'",
+     "options": [
+      "どれがあなたのですか",
+      "どのがあなたのですか",
+      "どこがあなたのですか",
+      "どうがあなたのですか"
+     ],
+     "answer": 0,
+     "explain": "どれ stands alone as a pronoun; どの needs a noun after it."
+    },
+    {
+     "id": "e29",
+     "type": "tf",
+     "q": "Time expressions usually come before the place and the object in a Japanese sentence.",
+     "answer": true,
+     "explain": "The default order is topic, time, place, object, verb."
+    },
+    {
+     "id": "e30",
+     "type": "match",
+     "pairs": [
+      [
+       "これ",
+       "this (near me)"
+      ],
+      [
+       "それ",
+       "that (near you)"
+      ],
+      [
+       "あれ",
+       "that (over there)"
+      ],
+      [
+       "どれ",
+       "which one"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "counting-time-wanting-liking",
+   "title": "Counting, time and wanting/liking",
+   "level": 3,
+   "summary": "This chapter brings together numbers and the sound changes they undergo with counters, telling the time with 時 and 分, and three everyday patterns: wanting to do something (〜たい), liking (〜が好き) and suggesting or inviting (〜ましょう / 〜ませんか).",
+   "rules": [
+    {
+     "title": "Numbers",
+     "body": "The Sino-Japanese numbers are 一 ichi, 二 ni, 三 san, 四 yon/shi, 五 go, 六 roku, 七 nana/shichi, 八 hachi, 九 kyū/ku, 十 jū. Tens are 二十 nijū, 三十 sanjū; 百 hyaku (100), 千 sen (1,000), 万 man (10,000). Large numbers group by ten thousand: 一万 is 10,000 and 十万 is 100,000. Some hundreds change sound: 三百 sanbyaku, 六百 roppyaku, 八百 happyaku; 三千 sanzen, 八千 hassen.",
+     "examples": [
+      {
+       "target": "二十五",
+       "roman": "nijūgo",
+       "en": "twenty-five"
+      },
+      {
+       "target": "三百六十",
+       "roman": "sanbyaku rokujū",
+       "en": "three hundred and sixty"
+      },
+      {
+       "target": "一万円",
+       "roman": "ichiman en",
+       "en": "ten thousand yen"
+      }
+     ]
+    },
+    {
+     "title": "Numbers with counters and sound changes",
+     "body": "A counter follows the number, and certain numbers change before counters beginning with h, k, s or t. With 本: 一本 ippon, 三本 sanbon, 六本 roppon, 八本 happon, 十本 juppon. With 分 (minutes): 一分 ippun, 三分 sanpun, 六分 roppun, 十分 juppun. With 冊: 一冊 issatsu, 八冊 hassatsu. 四, 七 and 九 are usually よん, なな, きゅう before counters, but time uses よじ, しちじ, くじ.",
+     "examples": [
+      {
+       "target": "ビールを一本ください。",
+       "roman": "Bīru o ippon kudasai.",
+       "en": "One beer, please."
+      },
+      {
+       "target": "三百円",
+       "roman": "sanbyaku en",
+       "en": "three hundred yen"
+      },
+      {
+       "target": "八冊",
+       "roman": "hassatsu",
+       "en": "eight books"
+      }
+     ]
+    },
+    {
+     "title": "Telling the hour with 時",
+     "body": "Hours are number + 時 (ji): 一時 ichiji, 二時 niji, 三時 sanji, 四時 yoji, 五時 goji, 六時 rokuji, 七時 shichiji, 八時 hachiji, 九時 kuji, 十時 jūji, 十一時 jūichiji, 十二時 jūniji. Note the irregular 四時, 七時 and 九時. 午前 (a.m.) and 午後 (p.m.) go before the hour; 半 (half past) goes after: 六時半 (6:30). Ask the time with 今何時ですか.",
+     "examples": [
+      {
+       "target": "今何時ですか。— 四時です。",
+       "roman": "Ima nanji desu ka. — Yoji desu.",
+       "en": "What time is it? — It's four o'clock."
+      },
+      {
+       "target": "午後三時に会いましょう。",
+       "roman": "Gogo sanji ni aimashō.",
+       "en": "Let's meet at 3 p.m."
+      },
+      {
+       "target": "毎朝六時半に起きます。",
+       "roman": "Maiasa rokuji han ni okimasu.",
+       "en": "I get up at half past six every morning."
+      }
+     ]
+    },
+    {
+     "title": "Minutes with 分",
+     "body": "Minutes are number + 分, read ふん or ぷん depending on the number: 一分 ippun, 二分 nifun, 三分 sanpun, 四分 yonpun, 五分 gofun, 六分 roppun, 七分 nanafun, 八分 happun (or hachifun), 九分 kyūfun, 十分 juppun; 何分 nanpun (how many minutes). Hours come first: 三時五分 (3:05), 十時十五分 (10:15). 前 after a time means 'to': 五時五分前 (five to five).",
+     "examples": [
+      {
+       "target": "三時五分です。",
+       "roman": "Sanji gofun desu.",
+       "en": "It's five past three."
+      },
+      {
+       "target": "十時十五分に出ます。",
+       "roman": "Jūji jūgofun ni demasu.",
+       "en": "I leave at 10:15."
+      },
+      {
+       "target": "何分かかりますか。— 十分です。",
+       "roman": "Nanpun kakarimasu ka. — Juppun desu.",
+       "en": "How many minutes does it take? — Ten minutes."
+      }
+     ]
+    },
+    {
+     "title": "Points in time versus durations",
+     "body": "二時 (niji) is two o'clock, a point; 二時間 (nijikan) is two hours, a duration. Likewise 五分 is both 'five minutes past' and 'five minutes long', and 一週間 is one week, 三か月 three months, 二年 (間) two years. Points in time take に (三時に会います); durations take no particle (二時間勉強しました).",
+     "examples": [
+      {
+       "target": "二時に会います。",
+       "roman": "Niji ni aimasu.",
+       "en": "I'll meet you at two o'clock."
+      },
+      {
+       "target": "二時間日本語を勉強しました。",
+       "roman": "Nijikan Nihongo o benkyō shimashita.",
+       "en": "I studied Japanese for two hours."
+      },
+      {
+       "target": "一週間休みます。",
+       "roman": "Isshūkan yasumimasu.",
+       "en": "I'll take a week off."
+      }
+     ]
+    },
+    {
+     "title": "Wanting to do: 〜たい",
+     "body": "Verb stem (the part before ます) + たい means 'want to': 食べたい (want to eat), 行きたい (want to go), したい (want to do). 〜たい behaves like an i-adjective: 行きたくない (don't want to go), 行きたかった (wanted to go), polite 行きたいです. The object may take が or を: 寿司が食べたい / 寿司を食べたい. 〜たい states the speaker's own wish; for others, use 〜たがっています or report their words.",
+     "examples": [
+      {
+       "target": "日本に行きたいです。",
+       "roman": "Nihon ni ikitai desu.",
+       "en": "I want to go to Japan."
+      },
+      {
+       "target": "寿司が食べたいです。",
+       "roman": "Sushi ga tabetai desu.",
+       "en": "I want to eat sushi."
+      },
+      {
+       "target": "今日は何もしたくないです。",
+       "roman": "Kyō wa nani mo shitakunai desu.",
+       "en": "I don't want to do anything today."
+      }
+     ]
+    },
+    {
+     "title": "Wanting a thing: 〜がほしい",
+     "body": "To want an object, use noun + がほしい: 新しい車がほしいです (I want a new car). ほしい is an i-adjective: ほしくない, ほしかった. Like 〜たい, it is normally used for the speaker's own wishes or to ask the listener's: 何がほしいですか (What do you want?).",
+     "examples": [
+      {
+       "target": "新しい車がほしいです。",
+       "roman": "Atarashii kuruma ga hoshii desu.",
+       "en": "I want a new car."
+      },
+      {
+       "target": "何がほしいですか。",
+       "roman": "Nani ga hoshii desu ka.",
+       "en": "What do you want?"
+      },
+      {
+       "target": "今は何もほしくないです。",
+       "roman": "Ima wa nani mo hoshikunai desu.",
+       "en": "I don't want anything now."
+      }
+     ]
+    },
+    {
+     "title": "Liking and being good at: 〜が好き, 上手",
+     "body": "好き (like), 嫌い (dislike), 上手 (good at) and 下手 (bad at) are na-adjectives, and the thing liked or the skill takes が: 寿司が好きです, テニスが上手です. 大好き means 'love, like very much'. Being na-adjectives, they negate with じゃありません: 肉はあまり好きじゃありません. Before a noun they take な: 好きな食べ物 (favourite food).",
+     "examples": [
+      {
+       "target": "寿司が好きです。",
+       "roman": "Sushi ga suki desu.",
+       "en": "I like sushi."
+      },
+      {
+       "target": "私はテニスが上手じゃありません。",
+       "roman": "Watashi wa tenisu ga jōzu ja arimasen.",
+       "en": "I'm not good at tennis."
+      },
+      {
+       "target": "好きな食べ物は何ですか。",
+       "roman": "Suki na tabemono wa nan desu ka.",
+       "en": "What is your favourite food?"
+      }
+     ]
+    },
+    {
+     "title": "Suggesting and inviting: 〜ましょう, 〜ましょうか, 〜ませんか",
+     "body": "Replace ます with ましょう for 'let's': 行きましょう (let's go). 〜ましょうか means 'shall I / shall we?' and is used to offer help or propose: 手伝いましょうか (Shall I help?). 〜ませんか is a polite invitation, 'won't you ... (with me)?': 一緒に映画を見ませんか. Accept with ええ、いいですね or 〜ましょう; decline softly with すみません、ちょっと….",
+     "examples": [
+      {
+       "target": "一緒に昼ご飯を食べませんか。",
+       "roman": "Issho ni hirugohan o tabemasen ka.",
+       "en": "Won't you have lunch with me?"
+      },
+      {
+       "target": "ええ、食べましょう。",
+       "roman": "Ee, tabemashō.",
+       "en": "Yes, let's."
+      },
+      {
+       "target": "コーヒーを飲みましょうか。",
+       "roman": "Kōhī o nomimashō ka.",
+       "en": "Shall we have some coffee?"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "How is 四時 (four o'clock) read?",
+     "options": [
+      "よじ",
+      "しじ",
+      "よんじ",
+      "よっじ"
+     ],
+     "answer": 0,
+     "explain": "The hours 4, 7 and 9 are irregular: よじ, しちじ, くじ."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "寿司___好きです。(I like sushi; particle)",
+     "answer": [
+      "が",
+      "ga"
+     ],
+     "roman": "ga",
+     "explain": "The thing liked takes が with 好き."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "九時 is read くじ, not きゅうじ.",
+     "answer": true,
+     "explain": "Nine o'clock uses the reading く."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "一本",
+       "いっぽん"
+      ],
+      [
+       "二本",
+       "にほん"
+      ],
+      [
+       "三本",
+       "さんぼん"
+      ],
+      [
+       "六本",
+       "ろっぽん"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "一緒",
+      "に",
+      "映画",
+      "を",
+      "見ませんか"
+     ],
+     "answer": "一緒 に 映画 を 見ませんか",
+     "en": "Won't you watch a film with me?"
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "'I want to eat sushi':",
+     "options": [
+      "寿司が食べたいです",
+      "寿司が食べますたい",
+      "寿司を食べたいます",
+      "寿司が食べほしいです"
+     ],
+     "answer": 0,
+     "explain": "〜たい attaches to the verb stem 食べ and takes です for politeness."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "日本に行き___です。(I want to go to Japan.)",
+     "answer": [
+      "たい",
+      "tai"
+     ],
+     "roman": "tai",
+     "explain": "Stem + たい expresses the speaker's wish."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "〜たい conjugates like an i-adjective: 行きたくない, 行きたかった.",
+     "answer": true,
+     "explain": "たい ends in い and follows the i-adjective pattern."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "How is 七時 (seven o'clock) read?",
+     "options": [
+      "しちじ",
+      "ななじ",
+      "なのじ",
+      "しちとき"
+     ],
+     "answer": 0,
+     "explain": "Seven o'clock is しちじ in standard Japanese."
+    },
+    {
+     "id": "e10",
+     "type": "order",
+     "words": [
+      "毎朝",
+      "六時",
+      "半",
+      "に",
+      "起きます"
+     ],
+     "answer": "毎朝 六時 半 に 起きます",
+     "en": "I get up at half past six every morning."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "今、三時___です。(It's five past three; ごふん)",
+     "answer": [
+      "五分",
+      "ごふん",
+      "gofun"
+     ],
+     "roman": "gofun",
+     "explain": "Minutes follow the hour: 三時五分."
+    },
+    {
+     "id": "e12",
+     "type": "match",
+     "pairs": [
+      [
+       "一分",
+       "いっぷん"
+      ],
+      [
+       "三分",
+       "さんぷん"
+      ],
+      [
+       "五分",
+       "ごふん"
+      ],
+      [
+       "十分",
+       "じゅっぷん"
+      ]
+     ]
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "What does 〜ましょう mean?",
+     "options": [
+      "let's",
+      "want to",
+      "please",
+      "must not"
+     ],
+     "answer": 0,
+     "explain": "ます → ましょう makes a proposal including the speaker."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "二時 means 'two hours'.",
+     "answer": false,
+     "explain": "二時 is two o'clock; two hours is 二時間."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "新しい車___ほしいです。(I want a new car.)",
+     "answer": [
+      "が",
+      "ga"
+     ],
+     "roman": "ga",
+     "explain": "The thing wanted takes が with ほしい."
+    },
+    {
+     "id": "e16",
+     "type": "order",
+     "words": [
+      "コーヒー",
+      "を",
+      "飲みましょう",
+      "か"
+     ],
+     "answer": "コーヒー を 飲みましょう か",
+     "en": "Shall we have some coffee?"
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "How is 三人 read?",
+     "options": [
+      "さんにん",
+      "さんり",
+      "みにん",
+      "さんじん"
+     ],
+     "answer": 0,
+     "explain": "From three on, people are counted with regular number + にん."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "行き___です。(I don't want to go; polite)",
+     "answer": [
+      "たくない",
+      "takunai"
+     ],
+     "roman": "takunai",
+     "explain": "たい negates like an i-adjective: たくない."
+    },
+    {
+     "id": "e19",
+     "type": "tf",
+     "q": "一万 means one thousand.",
+     "answer": false,
+     "explain": "一万 is ten thousand; one thousand is 千."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "What does 午後三時 mean?",
+     "options": [
+      "3 p.m.",
+      "3 a.m.",
+      "three hours",
+      "3:30"
+     ],
+     "answer": 0,
+     "explain": "午後 is 'afternoon / p.m.' and goes before the hour."
+    },
+    {
+     "id": "e21",
+     "type": "match",
+     "pairs": [
+      [
+       "好き",
+       "like"
+      ],
+      [
+       "嫌い",
+       "dislike"
+      ],
+      [
+       "上手",
+       "good at"
+      ],
+      [
+       "下手",
+       "bad at"
+      ],
+      [
+       "ほしい",
+       "want (a thing)"
+      ]
+     ]
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "私",
+      "は",
+      "テニス",
+      "が",
+      "上手",
+      "じゃ",
+      "ありません"
+     ],
+     "answer": "私 は テニス が 上手 じゃ ありません",
+     "en": "I'm not good at tennis."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "一緒に昼ご飯を食べ___か。(Won't you have lunch with me? invitation)",
+     "answer": [
+      "ません",
+      "masen"
+     ],
+     "roman": "masen",
+     "explain": "〜ませんか is the polite invitation form."
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "How is 三百 read?",
+     "options": [
+      "さんびゃく",
+      "さんひゃく",
+      "さんぴゃく",
+      "みひゃく"
+     ],
+     "answer": 0,
+     "explain": "百 is voiced to びゃく after 三."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "六百 is read ろっぴゃく.",
+     "answer": true,
+     "explain": "六 becomes ろっ and 百 becomes ぴゃく."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "今、何___ですか。(What time is it now?)",
+     "answer": [
+      "時",
+      "じ",
+      "ji"
+     ],
+     "roman": "ji",
+     "explain": "何時 (なんじ) asks the hour."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "二時間",
+      "日本語",
+      "を",
+      "勉強しました"
+     ],
+     "answer": "二時間 日本語 を 勉強しました",
+     "en": "I studied Japanese for two hours."
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "水が飲みたい and 水を飲みたい:",
+     "options": [
+      "both are used",
+      "only が is correct",
+      "only を is correct",
+      "neither is correct"
+     ],
+     "answer": 0,
+     "explain": "The object of 〜たい may take either が or を."
+    },
+    {
+     "id": "e29",
+     "type": "tf",
+     "q": "〜たい is normally used for the speaker's own wishes, not to describe a third person's.",
+     "answer": true,
+     "explain": "For others, Japanese uses 〜たがっています or reports what they said."
+    },
+    {
+     "id": "e30",
+     "type": "match",
+     "pairs": [
+      [
+       "四",
+       "よん / し"
+      ],
+      [
+       "七",
+       "なな / しち"
+      ],
+      [
+       "九",
+       "きゅう / く"
+      ],
+      [
+       "百",
+       "ひゃく"
+      ],
+      [
+       "千",
+       "せん"
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

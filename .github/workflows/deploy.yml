@@ -1,0 +1,43 @@
+# Deploys both Biiwow learning apps to Cloudflare Pages on every push to main.
+# Needs the repository secret CLOUDFLARE_API_TOKEN (Cloudflare Pages: Edit).
+name: Deploy to Cloudflare Pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+env:
+  CLOUDFLARE_ACCOUNT_ID: 46ad8d9b54e0a0a2ad68447def7ab415
+jobs:
+  english-steps:
+    name: English Steps
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: english-steps/site
+          command: pages deploy . --project-name biiwow-english-steps --branch main --commit-dirty=true
+      - name: Verify live
+        run: |
+          sleep 20
+          curl -sSf "https://biiwow-english-steps.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "English Steps live: new build served"
+  nine-scripts:
+    name: Nine Scripts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: nine-scripts/site
+          command: pages deploy . --project-name nine-scripts --branch main --commit-dirty=true
+      - name: Verify live
+        run: |
+          sleep 20
+          curl -sSf "https://nine-scripts.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "Nine Scripts live: new build served"

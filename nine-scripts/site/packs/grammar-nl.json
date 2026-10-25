@@ -1,0 +1,5806 @@
+{
+ "lang": "nl",
+ "sections": [
+  {
+   "id": "sounds-and-spelling",
+   "title": "Sounds and spelling",
+   "level": 1,
+   "summary": "Dutch spelling is regular once you know a handful of rules: the throaty g/ch, the vowel pairs ui, eu and ij/ei, and the way a syllable being open or closed decides whether a vowel is long or short (man/mannen, maan/manen). These rules return in every later chapter, because they change the spelling of plurals, verb forms and adjectives.",
+   "rules": [
+    {
+     "title": "The hard g and ch",
+     "body": "The letter g and the combination ch stand for the same sound in most of the Netherlands: a rough fricative made at the back of the throat, like the ch in Scottish 'loch' but often stronger (the 'harde g'). In the south of the Netherlands and in Flanders it is softer (the 'zachte g'). The combination sch is s followed by this sound: school, schrijven. At the end of a word -isch is pronounced simply -ies: logisch, praktisch.",
+     "examples": [
+      {
+       "target": "goed",
+       "roman": null,
+       "en": "good"
+      },
+      {
+       "target": "lachen",
+       "roman": null,
+       "en": "to laugh"
+      },
+      {
+       "target": "school",
+       "roman": null,
+       "en": "school (s + throaty ch)"
+      },
+      {
+       "target": "logisch",
+       "roman": null,
+       "en": "logical (said as 'logies')"
+      }
+     ]
+    },
+    {
+     "title": "ui, eu and ij/ei",
+     "body": "Three vowel spellings have no English match. ui (huis, uit, tuin) is a diphthong that starts around the vowel of 'hut' with rounded lips and glides upwards. eu (neus, deur, leuk) is a long rounded vowel like French 'peu'. ij and ei are two spellings of exactly the same diphthong, roughly like English 'ay' in 'say' but starting lower (ijs, trein, klein); Dutch speakers call them 'lange ij' and 'korte ei' and simply learn which word uses which. At the start of a sentence or name IJ is written as one capital: IJsselmeer.",
+     "examples": [
+      {
+       "target": "huis",
+       "roman": null,
+       "en": "house"
+      },
+      {
+       "target": "leuk",
+       "roman": null,
+       "en": "nice, fun"
+      },
+      {
+       "target": "ijs",
+       "roman": null,
+       "en": "ice, ice cream"
+      },
+      {
+       "target": "trein",
+       "roman": null,
+       "en": "train (same vowel as ijs)"
+      }
+     ]
+    },
+    {
+     "title": "Other vowel pairs: oe, ie, ou/au",
+     "body": "oe is the vowel of English 'boot' (boek, goed, hoe). ie is a long 'ee' sound (vier, niet, zien). ou and au are the same diphthong, like English 'ow' in 'how' (koud, blauw, oud, auto); as with ij/ei, the spelling a word uses must be learned. aa, ee, oo and uu are the long vowels written double, explained in the next rule.",
+     "examples": [
+      {
+       "target": "boek",
+       "roman": null,
+       "en": "book"
+      },
+      {
+       "target": "vier",
+       "roman": null,
+       "en": "four"
+      },
+      {
+       "target": "koud",
+       "roman": null,
+       "en": "cold"
+      },
+      {
+       "target": "blauw",
+       "roman": null,
+       "en": "blue (same vowel as koud)"
+      }
+     ]
+    },
+    {
+     "title": "Short and long vowels",
+     "body": "Dutch distinguishes the short vowels a, e, i, o, u from the long vowels aa, ee, oo, uu, which are written double in a closed syllable (a syllable that ends in a consonant). The difference changes the meaning: man (man) vs maan (moon), bom (bomb) vs boom (tree), vis (fish) vs vies (dirty), zon (sun) vs zoon (son). Long uu is like French 'u' or German 'ü'; short u is a rounded vowel between English 'put' and 'bit'. The long partner of short i is written ie.",
+     "examples": [
+      {
+       "target": "man / maan",
+       "roman": null,
+       "en": "man / moon"
+      },
+      {
+       "target": "bom / boom",
+       "roman": null,
+       "en": "bomb / tree"
+      },
+      {
+       "target": "vis / vies",
+       "roman": null,
+       "en": "fish / dirty"
+      },
+      {
+       "target": "zon / zoon",
+       "roman": null,
+       "en": "sun / son"
+      }
+     ]
+    },
+    {
+     "title": "Open and closed syllables: man/mannen, maan/manen",
+     "body": "A single vowel letter is long in an open syllable (one that ends in the vowel) and short in a closed syllable (one that ends in a consonant). This is why spelling changes when a word gets an ending. maan → ma-nen: the syllable ma- is open, so one a is enough to show the long vowel. man → man-nen: the consonant is doubled so that the first syllable stays closed and the vowel stays short. The same rule gives boom → bomen but bom → bommen, and in verbs ik loop → wij lopen, ik zit → wij zitten.",
+     "examples": [
+      {
+       "target": "maan → manen",
+       "roman": null,
+       "en": "moon → moons (long a, one a in the open syllable)"
+      },
+      {
+       "target": "man → mannen",
+       "roman": null,
+       "en": "man → men (short a, doubled n)"
+      },
+      {
+       "target": "boom → bomen",
+       "roman": null,
+       "en": "tree → trees"
+      },
+      {
+       "target": "bom → bommen",
+       "roman": null,
+       "en": "bomb → bombs"
+      }
+     ]
+    },
+    {
+     "title": "Final devoicing and the f/v, s/z swap",
+     "body": "A voiced consonant at the end of a word is pronounced voiceless: hond sounds like 'hont', web like 'wep', although the spelling keeps the d and b. For v and z the spelling follows the sound: a stem that ends in v or z is written with f or s when nothing follows it. So huis has the plural huizen, brief has the plural brieven, and from lezen (to read) you get ik lees, from leven (to live) ik leef.",
+     "examples": [
+      {
+       "target": "hond",
+       "roman": null,
+       "en": "dog (sounds like 'hont')"
+      },
+      {
+       "target": "huis → huizen",
+       "roman": null,
+       "en": "house → houses"
+      },
+      {
+       "target": "brief → brieven",
+       "roman": null,
+       "en": "letter → letters"
+      },
+      {
+       "target": "lezen → ik lees",
+       "roman": null,
+       "en": "to read → I read"
+      }
+     ]
+    },
+    {
+     "title": "The unstressed e and word stress",
+     "body": "An unstressed e is pronounced as a weak 'uh' (schwa), as in English 'the'. This is the sound of the articles de and een, of the ending -en (lopen, mannen; in everyday speech the final n is often dropped) and of the adjective ending -e (mooie). When een means 'one' rather than 'a', it is written with accents, één, and has its full long vowel. Stress in most native Dutch words falls on the first syllable, but the prefixes be-, ge-, ver-, ont- are never stressed: verhaal, begin.",
+     "examples": [
+      {
+       "target": "de tafel",
+       "roman": null,
+       "en": "the table (de with a weak e)"
+      },
+      {
+       "target": "een boek / één boek",
+       "roman": null,
+       "en": "a book / one book"
+      },
+      {
+       "target": "lopen",
+       "roman": null,
+       "en": "to walk (ending -en with a weak e)"
+      },
+      {
+       "target": "verhaal",
+       "roman": null,
+       "en": "story (stress on -haal)"
+      }
+     ]
+    },
+    {
+     "title": "Consonants that differ from English",
+     "body": "w is made with the lower lip against the upper teeth and is softer than English v (water, wat). v is between English v and f; f is as in English. j is English y (ja, jaar). r may be rolled with the tongue or made in the throat; both are fine. sj is 'sh' (sjaal), tj in diminutives sounds close to 'ch' (katje), and ng is always one sound as in 'singer' (lang, jongen). In casual speech a d between vowels often sounds like 'j' or 'w' (goede → 'goeie'), but the spelling stays.",
+     "examples": [
+      {
+       "target": "water",
+       "roman": null,
+       "en": "water (soft w)"
+      },
+      {
+       "target": "ja",
+       "roman": null,
+       "en": "yes (j = English y)"
+      },
+      {
+       "target": "jongen",
+       "roman": null,
+       "en": "boy (ng as in singer)"
+      },
+      {
+       "target": "sjaal",
+       "roman": null,
+       "en": "scarf (sj = sh)"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Which pair of spellings stands for the same sound in Dutch?",
+     "options": [
+      "ij and ei",
+      "ui and oe",
+      "eu and ie",
+      "aa and a"
+     ],
+     "answer": 0,
+     "explain": "ij and ei are two spellings of one and the same diphthong (ijs, trein)."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "In standard Dutch, g and ch usually stand for the same throaty sound.",
+     "answer": true,
+     "explain": "Both are the fricative heard in goed and lachen."
+    },
+    {
+     "id": "e03",
+     "type": "match",
+     "pairs": [
+      [
+       "ui",
+       "huis"
+      ],
+      [
+       "eu",
+       "deur"
+      ],
+      [
+       "oe",
+       "boek"
+      ],
+      [
+       "ij",
+       "ijs"
+      ]
+     ]
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "Which word has a long vowel?",
+     "options": [
+      "man",
+      "maan",
+      "bom",
+      "vis"
+     ],
+     "answer": 1,
+     "explain": "The double aa in maan is long; man, bom and vis have short vowels."
+    },
+    {
+     "id": "e05",
+     "type": "fill",
+     "q": "The plural of maan (moon) is ___.",
+     "answer": [
+      "manen"
+     ],
+     "roman": null,
+     "explain": "In ma-nen the first syllable is open, so one a already shows the long vowel."
+    },
+    {
+     "id": "e06",
+     "type": "fill",
+     "q": "The plural of man (man) is ___.",
+     "answer": [
+      "mannen"
+     ],
+     "roman": null,
+     "explain": "The n is doubled so the syllable man- stays closed and the a stays short."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "De",
+      "man",
+      "ziet",
+      "de",
+      "maan."
+     ],
+     "answer": "De man ziet de maan.",
+     "en": "The man sees the moon."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "The word boom (tree) has a short vowel.",
+     "answer": false,
+     "explain": "Double oo is the long vowel; the short-vowel word is bom (bomb)."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "How is sch pronounced in school?",
+     "options": [
+      "like English sh",
+      "s followed by the throaty ch sound",
+      "like sk",
+      "the ch is silent"
+     ],
+     "answer": 1,
+     "explain": "sch is simply s plus the Dutch ch sound."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "huis (house) → plural ___",
+     "answer": [
+      "huizen"
+     ],
+     "roman": null,
+     "explain": "The final s of huis is really a z, which reappears before the ending -en."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "What does bommen mean?",
+     "options": [
+      "trees",
+      "bombs",
+      "moons",
+      "men"
+     ],
+     "answer": 1,
+     "explain": "bommen is the plural of bom (bomb); trees would be bomen."
+    },
+    {
+     "id": "e12",
+     "type": "match",
+     "pairs": [
+      [
+       "vis",
+       "fish"
+      ],
+      [
+       "vies",
+       "dirty"
+      ],
+      [
+       "zon",
+       "sun"
+      ],
+      [
+       "zoon",
+       "son"
+      ]
+     ]
+    },
+    {
+     "id": "e13",
+     "type": "tf",
+     "q": "The word logisch ends in the sound 'ies', not 'isk'.",
+     "answer": true,
+     "explain": "Final -isch is pronounced -ies in Dutch."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "lezen (to read) → ik ___ (I read)",
+     "answer": [
+      "lees"
+     ],
+     "roman": null,
+     "explain": "The stem lez- is written lees: z becomes s at the end and the long e is doubled in the closed syllable."
+    },
+    {
+     "id": "e15",
+     "type": "order",
+     "words": [
+      "Ik",
+      "lees",
+      "een",
+      "boek."
+     ],
+     "answer": "Ik lees een boek.",
+     "en": "I am reading a book."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Which is the correct plural of boom (tree)?",
+     "options": [
+      "boomen",
+      "bommen",
+      "bomen",
+      "boomn"
+     ],
+     "answer": 2,
+     "explain": "bo-men has an open first syllable, so a single o is long; bommen would be bombs."
+    },
+    {
+     "id": "e17",
+     "type": "tf",
+     "q": "The d at the end of hond (dog) is pronounced like a t.",
+     "answer": true,
+     "explain": "Dutch devoices final consonants: hond sounds like 'hont'."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "brief (letter) → plural ___",
+     "answer": [
+      "brieven"
+     ],
+     "roman": null,
+     "explain": "Final f becomes v when a vowel ending follows."
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "The Dutch letter j is pronounced like English ___.",
+     "options": [
+      "j in jam",
+      "y in yes",
+      "h in hat",
+      "zh in measure"
+     ],
+     "answer": 1,
+     "explain": "ja sounds like 'ya'; the English j sound hardly exists in Dutch."
+    },
+    {
+     "id": "e20",
+     "type": "match",
+     "pairs": [
+      [
+       "één",
+       "one (stressed, with accents)"
+      ],
+      [
+       "een",
+       "a / an (unstressed)"
+      ],
+      [
+       "de",
+       "the (with a weak e)"
+      ],
+      [
+       "lang",
+       "long (ng as in singer)"
+      ]
+     ]
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Het",
+      "huis",
+      "is",
+      "groot",
+      "en",
+      "oud."
+     ],
+     "answer": "Het huis is groot en oud.",
+     "en": "The house is big and old."
+    },
+    {
+     "id": "e22",
+     "type": "tf",
+     "q": "ou and au are pronounced differently in standard Dutch.",
+     "answer": false,
+     "explain": "koud and blauw have the same diphthong; only the spelling differs."
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "Which word has a short vowel in a closed syllable?",
+     "options": [
+      "manen",
+      "maan",
+      "mannen",
+      "maken"
+     ],
+     "answer": 2,
+     "explain": "man-nen: the doubled n closes the first syllable and keeps the a short."
+    },
+    {
+     "id": "e24",
+     "type": "fill",
+     "q": "ik loop (I walk) → wij ___ (we walk)",
+     "answer": [
+      "lopen"
+     ],
+     "roman": null,
+     "explain": "lo-pen has an open syllable, so the long o is written with one letter."
+    },
+    {
+     "id": "e25",
+     "type": "fill",
+     "q": "leven (to live) → ik ___ (I live)",
+     "answer": [
+      "leef"
+     ],
+     "roman": null,
+     "explain": "v becomes f at the end of the stem and the long e is doubled in the closed syllable."
+    },
+    {
+     "id": "e26",
+     "type": "mc",
+     "q": "Which word contains the diphthong spelled ui?",
+     "options": [
+      "tuin",
+      "trein",
+      "deur",
+      "boek"
+     ],
+     "answer": 0,
+     "explain": "tuin (garden) has ui; trein has ei, deur has eu, boek has oe."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "Wij",
+      "lopen",
+      "naar",
+      "de",
+      "tuin."
+     ],
+     "answer": "Wij lopen naar de tuin.",
+     "en": "We walk to the garden."
+    },
+    {
+     "id": "e28",
+     "type": "tf",
+     "q": "In verhaal (story) the stress falls on the first syllable ver-.",
+     "answer": false,
+     "explain": "The prefix ver- is never stressed; the stress is on -haal."
+    },
+    {
+     "id": "e29",
+     "type": "match",
+     "pairs": [
+      [
+       "zitten",
+       "short i: ik zit"
+      ],
+      [
+       "lopen",
+       "long o: ik loop"
+      ],
+      [
+       "maken",
+       "long a: ik maak"
+      ],
+      [
+       "rennen",
+       "short e: ik ren"
+      ]
+     ]
+    },
+    {
+     "id": "e30",
+     "type": "mc",
+     "q": "Which is the correct spelling of 'I make'?",
+     "options": [
+      "Ik mak",
+      "Ik maak",
+      "Ik maake",
+      "Ik makk"
+     ],
+     "answer": 1,
+     "explain": "The stem of maken has a long a, which must be doubled in the closed syllable maak."
+    }
+   ]
+  },
+  {
+   "id": "nouns-de-het-plurals",
+   "title": "Nouns, de/het and plurals",
+   "level": 1,
+   "summary": "Every Dutch noun is a de-word or a het-word, and that choice affects adjectives and pronouns later on. This chapter covers the two articles, the plural endings -en and -s, the common irregular plurals, and the diminutive -je, which turns any noun into a het-word.",
+   "rules": [
+    {
+     "title": "Two articles: de and het",
+     "body": "Every Dutch noun is either a 'de-word' (common gender) or a 'het-word' (neuter). About two thirds of nouns take de, and all plurals take de: het huis but de huizen. Gender is rarely predictable from the form, so learn each noun with its article: de man, de vrouw, de tafel, het kind, het boek, het water. The article matters later for adjective endings (chapter 6) and for the pronoun used to refer to the noun (chapter 3).",
+     "examples": [
+      {
+       "target": "de man",
+       "roman": null,
+       "en": "the man"
+      },
+      {
+       "target": "het kind",
+       "roman": null,
+       "en": "the child"
+      },
+      {
+       "target": "het boek → de boeken",
+       "roman": null,
+       "en": "the book → the books"
+      },
+      {
+       "target": "de tafel",
+       "roman": null,
+       "en": "the table"
+      }
+     ]
+    },
+    {
+     "title": "The indefinite article een",
+     "body": "een (unstressed, pronounced with a weak 'uh') means 'a' or 'an' and is the same for de-words and het-words: een man, een huis. It has no plural: huizen on its own means 'houses'. The negative of een, or of a noun without any article, is geen (chapter 9): Ik heb geen auto. When een means 'one' it is written één.",
+     "examples": [
+      {
+       "target": "een huis",
+       "roman": null,
+       "en": "a house"
+      },
+      {
+       "target": "een vrouw",
+       "roman": null,
+       "en": "a woman"
+      },
+      {
+       "target": "Ik heb geen auto.",
+       "roman": null,
+       "en": "I have no car."
+      },
+      {
+       "target": "huizen",
+       "roman": null,
+       "en": "houses"
+      }
+     ]
+    },
+    {
+     "title": "Plural in -en",
+     "body": "The most common plural ending is -en: boek → boeken, vrouw → vrouwen, stoel → stoelen. Apply the spelling rules of chapter 1: a long vowel loses one letter (maan → manen, boot → boten), a short vowel doubles the consonant (man → mannen, fles → flessen), and final f and s become v and z (brief → brieven, huis → huizen). Nouns ending in -heid form the plural -heden: mogelijkheid → mogelijkheden.",
+     "examples": [
+      {
+       "target": "boek → boeken",
+       "roman": null,
+       "en": "book → books"
+      },
+      {
+       "target": "fles → flessen",
+       "roman": null,
+       "en": "bottle → bottles"
+      },
+      {
+       "target": "boot → boten",
+       "roman": null,
+       "en": "boat → boats"
+      },
+      {
+       "target": "mogelijkheid → mogelijkheden",
+       "roman": null,
+       "en": "possibility → possibilities"
+      }
+     ]
+    },
+    {
+     "title": "Plural in -s",
+     "body": "-s is the ending for nouns ending in unstressed -el, -em, -en, -er, -ie and -je: tafel → tafels, jongen → jongens, kamer → kamers, meisje → meisjes; for most loanwords (tram → trams, computer → computers); and for words ending in a single a, o, u, i or y, where an apostrophe keeps the vowel long: foto → foto's, auto → auto's, baby → baby's. Words ending in -e take -s or -n: tantes, ziektes or ziekten.",
+     "examples": [
+      {
+       "target": "tafel → tafels",
+       "roman": null,
+       "en": "table → tables"
+      },
+      {
+       "target": "meisje → meisjes",
+       "roman": null,
+       "en": "girl → girls"
+      },
+      {
+       "target": "auto → auto's",
+       "roman": null,
+       "en": "car → cars"
+      },
+      {
+       "target": "jongen → jongens",
+       "roman": null,
+       "en": "boy → boys"
+      }
+     ]
+    },
+    {
+     "title": "Irregular plurals",
+     "body": "A group of short nouns lengthen their vowel in the plural: dag → dagen, weg → wegen, glas → glazen, dak → daken, schip → schepen, stad → steden, lid → leden (da-gen has an open first syllable, so the a becomes long). A few add -eren: kind → kinderen, ei → eieren, blad → bladeren (leaves). Latin loanwords in -um have -a or -s: museum → musea or museums. koe (cow) has koeien.",
+     "examples": [
+      {
+       "target": "dag → dagen",
+       "roman": null,
+       "en": "day → days"
+      },
+      {
+       "target": "stad → steden",
+       "roman": null,
+       "en": "city → cities"
+      },
+      {
+       "target": "kind → kinderen",
+       "roman": null,
+       "en": "child → children"
+      },
+      {
+       "target": "ei → eieren",
+       "roman": null,
+       "en": "egg → eggs"
+      }
+     ]
+    },
+    {
+     "title": "The diminutive -je",
+     "body": "Almost any noun can take the diminutive suffix, meaning 'small' or adding affection or informality: huis → huisje, boek → boekje. The form depends on the final sound: -je after most consonants (huisje, kopje); -tje after a vowel, a diphthong, or l, n, r after a long vowel (autootje, stoeltje, deurtje, tafeltje); -pje after m (boompje); -etje after a short vowel plus l, m, n, r or ng (balletje, mannetje, zonnetje, ringetje). Diminutives are very common in everyday Dutch: een kopje koffie, een biertje.",
+     "examples": [
+      {
+       "target": "huisje",
+       "roman": null,
+       "en": "little house"
+      },
+      {
+       "target": "tafeltje",
+       "roman": null,
+       "en": "small table"
+      },
+      {
+       "target": "boompje",
+       "roman": null,
+       "en": "small tree"
+      },
+      {
+       "target": "zonnetje",
+       "roman": null,
+       "en": "little sun, a nice bit of sunshine"
+      }
+     ]
+    },
+    {
+     "title": "Diminutives are always het-words",
+     "body": "Whatever the gender of the base noun, a diminutive is a het-word: de tafel → het tafeltje, de man → het mannetje. Its plural is always -s: huisjes, meisjes. Several everyday words are mostly used in the diminutive and are therefore het-words: het meisje (girl), het beetje (a bit), het koekje (biscuit), het kopje (cup), het kaartje (ticket).",
+     "examples": [
+      {
+       "target": "de tafel → het tafeltje",
+       "roman": null,
+       "en": "the table → the little table"
+      },
+      {
+       "target": "het meisje → de meisjes",
+       "roman": null,
+       "en": "the girl → the girls"
+      },
+      {
+       "target": "een kopje koffie",
+       "roman": null,
+       "en": "a cup of coffee"
+      },
+      {
+       "target": "een beetje",
+       "roman": null,
+       "en": "a little bit"
+      }
+     ]
+    },
+    {
+     "title": "Clues for het-words",
+     "body": "Besides diminutives, these are het-words: infinitives used as nouns (het eten, het lopen); nouns ending in -um, -isme, -ment, -sel (het museum, het moment, het toerisme); names of languages, metals, sports and compass points (het Nederlands, het goud, het voetbal, het noorden); and most two-syllable nouns beginning with be-, ge-, ver-, ont- (het begin, het gesprek, het verhaal, het ontbijt). Frequent het-words to learn by heart: het huis, het kind, het boek, het water, het geld, het jaar, het werk, het land, het brood, het bed, het raam.",
+     "examples": [
+      {
+       "target": "het gesprek",
+       "roman": null,
+       "en": "the conversation"
+      },
+      {
+       "target": "het moment",
+       "roman": null,
+       "en": "the moment"
+      },
+      {
+       "target": "het Nederlands",
+       "roman": null,
+       "en": "Dutch (the language)"
+      },
+      {
+       "target": "het geld",
+       "roman": null,
+       "en": "the money"
+      }
+     ]
+    },
+    {
+     "title": "Compound nouns",
+     "body": "Dutch writes compounds as one word, and the last part decides the article and the plural: de voordeur (from de deur), het fietspad (from het pad), de boekenkast (from de kast), het woordenboek (from het boek). A linking -s- or -e(n)- sometimes appears between the parts: stationsplein, boekenkast, kinderkamer.",
+     "examples": [
+      {
+       "target": "het woordenboek",
+       "roman": null,
+       "en": "the dictionary (from het boek)"
+      },
+      {
+       "target": "de boekenkast",
+       "roman": null,
+       "en": "the bookcase (from de kast)"
+      },
+      {
+       "target": "het fietspad",
+       "roman": null,
+       "en": "the cycle path (from het pad)"
+      },
+      {
+       "target": "de kinderkamer",
+       "roman": null,
+       "en": "the children's room (from de kamer)"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Which definite article goes with kind (child)?",
+     "options": [
+      "de",
+      "het",
+      "den",
+      "der"
+     ],
+     "answer": 1,
+     "explain": "kind is a neuter noun: het kind."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "All plural nouns take the article de.",
+     "answer": true,
+     "explain": "het huis becomes de huizen; het never appears with a plural."
+    },
+    {
+     "id": "e03",
+     "type": "fill",
+     "q": "boek (book) → plural ___",
+     "answer": [
+      "boeken"
+     ],
+     "roman": null,
+     "explain": "Most nouns simply add -en."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "tafel",
+       "tafels"
+      ],
+      [
+       "kind",
+       "kinderen"
+      ],
+      [
+       "huis",
+       "huizen"
+      ],
+      [
+       "auto",
+       "auto's"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "What is the plural of meisje (girl)?",
+     "options": [
+      "meisjen",
+      "meisjes",
+      "meisjeën",
+      "meisje's"
+     ],
+     "answer": 1,
+     "explain": "Diminutives in -je always take the plural -s."
+    },
+    {
+     "id": "e06",
+     "type": "fill",
+     "q": "___ meisje (the girl)",
+     "answer": [
+      "het",
+      "Het"
+     ],
+     "roman": null,
+     "explain": "meisje is a diminutive, and all diminutives are het-words."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Het",
+      "kind",
+      "heeft",
+      "een",
+      "boek."
+     ],
+     "answer": "Het kind heeft een boek.",
+     "en": "The child has a book."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "The plural of dag (day) is daggen.",
+     "answer": false,
+     "explain": "dag lengthens its vowel in the plural: dagen."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Which noun takes -s in the plural?",
+     "options": [
+      "stoel",
+      "kamer",
+      "boek",
+      "fles"
+     ],
+     "answer": 1,
+     "explain": "Nouns ending in unstressed -er take -s: kamers."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "foto (photo) → plural ___",
+     "answer": [
+      "foto's"
+     ],
+     "roman": null,
+     "explain": "After a single o the apostrophe keeps the vowel long: foto's."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "What is the diminutive of boom (tree)?",
+     "options": [
+      "boomje",
+      "boometje",
+      "boompje",
+      "boomtje"
+     ],
+     "answer": 2,
+     "explain": "After m the diminutive ending is -pje."
+    },
+    {
+     "id": "e12",
+     "type": "tf",
+     "q": "A diminutive can be a de-word or a het-word, depending on the base noun.",
+     "answer": false,
+     "explain": "Diminutives are always het-words: de tafel but het tafeltje."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "de tafel → ___ tafeltje",
+     "answer": [
+      "het"
+     ],
+     "roman": null,
+     "explain": "The diminutive makes it a het-word."
+    },
+    {
+     "id": "e14",
+     "type": "match",
+     "pairs": [
+      [
+       "stad",
+       "steden"
+      ],
+      [
+       "ei",
+       "eieren"
+      ],
+      [
+       "schip",
+       "schepen"
+      ],
+      [
+       "glas",
+       "glazen"
+      ]
+     ]
+    },
+    {
+     "id": "e15",
+     "type": "order",
+     "words": [
+      "De",
+      "meisjes",
+      "drinken",
+      "een",
+      "kopje",
+      "thee."
+     ],
+     "answer": "De meisjes drinken een kopje thee.",
+     "en": "The girls are drinking a cup of tea."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Which of these is a het-word?",
+     "options": [
+      "tafel",
+      "gesprek",
+      "vrouw",
+      "stoel"
+     ],
+     "answer": 1,
+     "explain": "Two-syllable nouns beginning with ge- are usually neuter: het gesprek."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "man (man) → plural ___",
+     "answer": [
+      "mannen"
+     ],
+     "roman": null,
+     "explain": "The short a needs a doubled n to stay short."
+    },
+    {
+     "id": "e18",
+     "type": "tf",
+     "q": "Dutch compounds are written as separate words, as in English 'cycle path'.",
+     "answer": false,
+     "explain": "Compounds are one word: fietspad."
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "The article of woordenboek (dictionary) is decided by:",
+     "options": [
+      "the first part, woord",
+      "the last part, boek",
+      "the linking -en-",
+      "the length of the word"
+     ],
+     "answer": 1,
+     "explain": "The last part of a compound gives its gender: het boek, so het woordenboek."
+    },
+    {
+     "id": "e20",
+     "type": "fill",
+     "q": "stad (city) → plural ___",
+     "answer": [
+      "steden"
+     ],
+     "roman": null,
+     "explain": "stad is irregular and changes its vowel: steden."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Er",
+      "staan",
+      "twee",
+      "auto's",
+      "voor",
+      "het",
+      "huis."
+     ],
+     "answer": "Er staan twee auto's voor het huis.",
+     "en": "There are two cars in front of the house."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "Which diminutive is correctly formed?",
+     "options": [
+      "tafelje",
+      "tafeltje",
+      "tafelpje",
+      "tafeletje"
+     ],
+     "answer": 1,
+     "explain": "After -el the ending is -tje: tafeltje."
+    },
+    {
+     "id": "e23",
+     "type": "tf",
+     "q": "een has no plural form; huizen on its own means 'houses'.",
+     "answer": true,
+     "explain": "Indefinite plurals have no article in Dutch."
+    },
+    {
+     "id": "e24",
+     "type": "fill",
+     "q": "kind (child) → plural ___",
+     "answer": [
+      "kinderen"
+     ],
+     "roman": null,
+     "explain": "kind belongs to the small -eren group, like ei → eieren."
+    },
+    {
+     "id": "e25",
+     "type": "match",
+     "pairs": [
+      [
+       "het eten",
+       "the food (infinitive used as a noun)"
+      ],
+      [
+       "het Nederlands",
+       "Dutch (a language)"
+      ],
+      [
+       "het museum",
+       "the museum (ends in -um)"
+      ],
+      [
+       "het kopje",
+       "the cup (a diminutive)"
+      ]
+     ]
+    },
+    {
+     "id": "e26",
+     "type": "mc",
+     "q": "What is the plural of mogelijkheid (possibility)?",
+     "options": [
+      "mogelijkheids",
+      "mogelijkheden",
+      "mogelijkheiden",
+      "mogelijkheid's"
+     ],
+     "answer": 1,
+     "explain": "Nouns in -heid form the plural -heden."
+    },
+    {
+     "id": "e27",
+     "type": "fill",
+     "q": "glas (glass) → plural ___",
+     "answer": [
+      "glazen"
+     ],
+     "roman": null,
+     "explain": "The vowel lengthens and s becomes z: gla-zen."
+    },
+    {
+     "id": "e28",
+     "type": "order",
+     "words": [
+      "Ik",
+      "heb",
+      "een",
+      "klein",
+      "huisje",
+      "in",
+      "de",
+      "stad."
+     ],
+     "answer": "Ik heb een klein huisje in de stad.",
+     "en": "I have a little house in the city."
+    },
+    {
+     "id": "e29",
+     "type": "tf",
+     "q": "The word museum can have the plural musea.",
+     "answer": true,
+     "explain": "Latin loanwords in -um take -a or -s: musea or museums."
+    },
+    {
+     "id": "e30",
+     "type": "mc",
+     "q": "Which sentence is correct?",
+     "options": [
+      "Het meisjes spelen.",
+      "De meisjes spelen.",
+      "Een meisjes spelen.",
+      "Het meisje spelen."
+     ],
+     "answer": 1,
+     "explain": "Plurals always take de, and the verb must be plural: De meisjes spelen."
+    }
+   ]
+  },
+  {
+   "id": "pronouns-zijn-hebben",
+   "title": "Pronouns and 'to be / to have'",
+   "level": 1,
+   "summary": "The personal pronouns, with their three words for 'you', the possessives, and the two most important verbs, zijn (to be) and hebben (to have). The chapter also introduces er is / er zijn ('there is / there are') and the rule that a de-word is referred to as hij.",
+   "rules": [
+    {
+     "title": "Subject pronouns",
+     "body": "ik (I), jij/je (you, informal singular), u (you, polite), hij (he), zij/ze (she), het (it), wij/we (we), jullie (you, plural), zij/ze (they). Several pronouns have a stressed full form and an unstressed short form: jij/je, zij/ze, wij/we. The short form is the normal one in speech; use the full form for contrast or emphasis: Ik kom, maar jij niet. Note that ze can mean 'she' or 'they'; the verb tells you which.",
+     "examples": [
+      {
+       "target": "Ik ben Anna.",
+       "roman": null,
+       "en": "I am Anna."
+      },
+      {
+       "target": "Zij komt uit Utrecht.",
+       "roman": null,
+       "en": "She comes from Utrecht."
+      },
+      {
+       "target": "We gaan naar huis.",
+       "roman": null,
+       "en": "We are going home."
+      },
+      {
+       "target": "Jullie zijn laat.",
+       "roman": null,
+       "en": "You (all) are late."
+      }
+     ]
+    },
+    {
+     "title": "Three words for 'you': je, u, jullie",
+     "body": "jij/je is the informal singular, for friends, family, children, fellow students and most colleagues. u is polite, both singular and plural, for strangers, older people, customers and officials; it takes the verb form with -t (u bent, u hebt or u heeft) and the possessive uw. jullie is the informal plural and takes the plural verb form: jullie zijn, jullie hebben. Chapter 10 says more about choosing between u and je.",
+     "examples": [
+      {
+       "target": "Heb je tijd?",
+       "roman": null,
+       "en": "Do you have time? (informal)"
+      },
+      {
+       "target": "Hebt u een vraag?",
+       "roman": null,
+       "en": "Do you have a question? (polite)"
+      },
+      {
+       "target": "Jullie hebben gelijk.",
+       "roman": null,
+       "en": "You (all) are right."
+      },
+      {
+       "target": "Dat is uw jas.",
+       "roman": null,
+       "en": "That is your coat. (polite)"
+      }
+     ]
+    },
+    {
+     "title": "zijn: to be",
+     "body": "zijn (to be) is irregular: ik ben, jij bent, u bent, hij/zij/het is, wij zijn, jullie zijn, zij zijn. When jij/je follows the verb, the -t is dropped: ben je? Its past participle is geweest and its simple past was/waren (chapters 7 and 8).",
+     "examples": [
+      {
+       "target": "Ik ben moe.",
+       "roman": null,
+       "en": "I am tired."
+      },
+      {
+       "target": "Ben je ziek?",
+       "roman": null,
+       "en": "Are you ill?"
+      },
+      {
+       "target": "Het is koud.",
+       "roman": null,
+       "en": "It is cold."
+      },
+      {
+       "target": "Wij zijn thuis.",
+       "roman": null,
+       "en": "We are at home."
+      }
+     ]
+    },
+    {
+     "title": "hebben: to have",
+     "body": "hebben (to have): ik heb, jij hebt, u hebt or u heeft, hij/zij/het heeft, wij hebben, jullie hebben, zij hebben. Again the -t disappears before je: heb je? hebben is also the main auxiliary of the perfect tense (chapter 7). Many English 'to be' expressions use hebben in Dutch: honger hebben (to be hungry), dorst hebben (to be thirsty), gelijk hebben (to be right), haast hebben (to be in a hurry), zin hebben in (to feel like).",
+     "examples": [
+      {
+       "target": "Ik heb een broer.",
+       "roman": null,
+       "en": "I have a brother."
+      },
+      {
+       "target": "Heb je honger?",
+       "roman": null,
+       "en": "Are you hungry?"
+      },
+      {
+       "target": "Zij heeft gelijk.",
+       "roman": null,
+       "en": "She is right."
+      },
+      {
+       "target": "Wij hebben geen tijd.",
+       "roman": null,
+       "en": "We have no time."
+      }
+     ]
+    },
+    {
+     "title": "Object pronouns",
+     "body": "mij/me (me), jou/je (you), u, hem (him), haar (her), het (it), ons (us), jullie (you), hen/hun/ze (them). me, je and ze are the unstressed forms. For 'them', hen is the written form for direct objects and after prepositions, hun for indirect objects, but ze is the usual choice in speech and the only option for things. The same forms are used after prepositions: met mij, voor hem, bij ons.",
+     "examples": [
+      {
+       "target": "Zie je mij?",
+       "roman": null,
+       "en": "Do you see me?"
+      },
+      {
+       "target": "Ik ken hem niet.",
+       "roman": null,
+       "en": "I don't know him."
+      },
+      {
+       "target": "Ze helpt ons.",
+       "roman": null,
+       "en": "She helps us."
+      },
+      {
+       "target": "Dit is voor jou.",
+       "roman": null,
+       "en": "This is for you."
+      }
+     ]
+    },
+    {
+     "title": "Possessives",
+     "body": "mijn (my), jouw/je (your), uw (your, polite), zijn (his, its), haar (her), ons/onze (our), jullie (your, plural), hun (their). Only 'our' changes form: ons before a singular het-word, onze before de-words and all plurals: ons huis, onze auto, onze kinderen. jouw is the stressed form, je the unstressed one. 'Mine, yours' and so on are expressed with van: Die fiets is van mij. Die is van jou.",
+     "examples": [
+      {
+       "target": "mijn moeder",
+       "roman": null,
+       "en": "my mother"
+      },
+      {
+       "target": "ons huis / onze straat",
+       "roman": null,
+       "en": "our house / our street"
+      },
+      {
+       "target": "Is dit jouw jas?",
+       "roman": null,
+       "en": "Is this your coat?"
+      },
+      {
+       "target": "Die fiets is van mij.",
+       "roman": null,
+       "en": "That bike is mine."
+      }
+     ]
+    },
+    {
+     "title": "Pronouns for things: hij, het, ze",
+     "body": "English uses 'it' for all things; Dutch chooses by the article. A de-word is referred to as hij (subject) or hem (object), a het-word as het, and any plural as ze: Waar is de sleutel? Hij ligt op tafel. Waar is het boek? Het ligt daar. At the start of a sentence Dutch often prefers die (for de-words) or dat (for het-words) to a pronoun: Die ligt op tafel. A noun for a female person is of course zij/ze.",
+     "examples": [
+      {
+       "target": "Waar is de fiets? Hij staat buiten.",
+       "roman": null,
+       "en": "Where is the bike? It is outside."
+      },
+      {
+       "target": "Het boek? Het is duur.",
+       "roman": null,
+       "en": "The book? It is expensive."
+      },
+      {
+       "target": "De sleutels? Ik heb ze.",
+       "roman": null,
+       "en": "The keys? I have them."
+      },
+      {
+       "target": "Die jas is mooi. Ik koop hem.",
+       "roman": null,
+       "en": "That coat is nice. I'll buy it."
+      }
+     ]
+    },
+    {
+     "title": "er is / er zijn: there is / there are",
+     "body": "To say that something exists or is somewhere, Dutch starts with er, like English 'there': er is + singular, er zijn + plural: Er is een probleem. Er zijn veel mensen. The real subject follows the verb and is indefinite (een, geen, a number, veel, or no article). In a question the verb comes first: Is er een dokter? Zijn er nog vragen? The negative uses geen: Er is geen melk.",
+     "examples": [
+      {
+       "target": "Er is een kat in de tuin.",
+       "roman": null,
+       "en": "There is a cat in the garden."
+      },
+      {
+       "target": "Er zijn twee stoelen.",
+       "roman": null,
+       "en": "There are two chairs."
+      },
+      {
+       "target": "Is er nog koffie?",
+       "roman": null,
+       "en": "Is there any coffee left?"
+      },
+      {
+       "target": "Er zijn geen problemen.",
+       "roman": null,
+       "en": "There are no problems."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Which pronoun is the polite 'you'?",
+     "options": [
+      "jij",
+      "u",
+      "jullie",
+      "je"
+     ],
+     "answer": 1,
+     "explain": "u is used for strangers, older people and officials."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "Ik ___ Anna. (am)",
+     "answer": [
+      "ben"
+     ],
+     "roman": null,
+     "explain": "The ik-form of zijn is ben."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "ze can mean both 'she' and 'they'.",
+     "answer": true,
+     "explain": "ze is the unstressed form of both zij (she) and zij (they); the verb shows which."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "ik ben",
+       "I am"
+      ],
+      [
+       "jij bent",
+       "you are"
+      ],
+      [
+       "hij is",
+       "he is"
+      ],
+      [
+       "wij zijn",
+       "we are"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Hij ___ een auto.",
+     "options": [
+      "heb",
+      "hebt",
+      "heeft",
+      "hebben"
+     ],
+     "answer": 2,
+     "explain": "hij takes heeft."
+    },
+    {
+     "id": "e06",
+     "type": "fill",
+     "q": "___ je moe? (Are you tired?)",
+     "answer": [
+      "Ben",
+      "ben"
+     ],
+     "roman": null,
+     "explain": "The -t of bent is dropped when je follows the verb."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Wij",
+      "hebben",
+      "een",
+      "grote",
+      "tuin."
+     ],
+     "answer": "Wij hebben een grote tuin.",
+     "en": "We have a big garden."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "In 'Heb je tijd?' the verb loses its -t because je follows it.",
+     "answer": true,
+     "explain": "jij/je after the verb always drops the -t: heb je, ben je, werk je."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Which sentence is correct?",
+     "options": [
+      "Jullie bent laat.",
+      "Jullie zijn laat.",
+      "Jullie is laat.",
+      "Jullie ben laat."
+     ],
+     "answer": 1,
+     "explain": "jullie takes the plural form zijn."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Zij ___ gelijk. (She is right.)",
+     "answer": [
+      "heeft"
+     ],
+     "roman": null,
+     "explain": "'To be right' is gelijk hebben, and zij takes heeft."
+    },
+    {
+     "id": "e11",
+     "type": "match",
+     "pairs": [
+      [
+       "mijn",
+       "my"
+      ],
+      [
+       "haar",
+       "her"
+      ],
+      [
+       "ons",
+       "our (before a singular het-word)"
+      ],
+      [
+       "hun",
+       "their"
+      ]
+     ]
+    },
+    {
+     "id": "e12",
+     "type": "mc",
+     "q": "___ huis is groot. (our)",
+     "options": [
+      "ons",
+      "onze",
+      "onzen",
+      "onse"
+     ],
+     "answer": 0,
+     "explain": "huis is a het-word, so 'our' is ons."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "___ kinderen zijn thuis. (our)",
+     "answer": [
+      "Onze",
+      "onze"
+     ],
+     "roman": null,
+     "explain": "Before a plural, 'our' is onze."
+    },
+    {
+     "id": "e14",
+     "type": "order",
+     "words": [
+      "Er",
+      "is",
+      "een",
+      "kat",
+      "in",
+      "de",
+      "tuin."
+     ],
+     "answer": "Er is een kat in de tuin.",
+     "en": "There is a cat in the garden."
+    },
+    {
+     "id": "e15",
+     "type": "tf",
+     "q": "er zijn is used with a singular noun.",
+     "answer": false,
+     "explain": "er is goes with a singular, er zijn with a plural."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Waar is de fiets? ___ staat buiten.",
+     "options": [
+      "Het",
+      "Hij",
+      "Ze",
+      "Zij"
+     ],
+     "answer": 1,
+     "explain": "fiets is a de-word, so it is referred to as hij."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Ik ken ___ niet. (him)",
+     "answer": [
+      "hem"
+     ],
+     "roman": null,
+     "explain": "The object form of hij is hem."
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "Which is the unstressed form of mij?",
+     "options": [
+      "mi",
+      "me",
+      "mijn",
+      "mie"
+     ],
+     "answer": 1,
+     "explain": "mij has the weak form me; mijn is the possessive 'my'."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "Heb",
+      "je",
+      "een",
+      "broer",
+      "of",
+      "een",
+      "zus?"
+     ],
+     "answer": "Heb je een broer of een zus?",
+     "en": "Do you have a brother or a sister?"
+    },
+    {
+     "id": "e20",
+     "type": "tf",
+     "q": "Both 'hebt u' and 'heeft u' are acceptable in standard Dutch.",
+     "answer": true,
+     "explain": "u can take hebt or heeft; both are correct."
+    },
+    {
+     "id": "e21",
+     "type": "fill",
+     "q": "Is dit ___ jas? (your, polite)",
+     "answer": [
+      "uw"
+     ],
+     "roman": null,
+     "explain": "The possessive belonging to u is uw."
+    },
+    {
+     "id": "e22",
+     "type": "match",
+     "pairs": [
+      [
+       "Ik heb honger.",
+       "I am hungry."
+      ],
+      [
+       "Ik heb dorst.",
+       "I am thirsty."
+      ],
+      [
+       "Ik heb haast.",
+       "I am in a hurry."
+      ],
+      [
+       "Ik heb gelijk.",
+       "I am right."
+      ]
+     ]
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "Which sentence means 'There are no problems'?",
+     "options": [
+      "Er is geen problemen.",
+      "Er zijn geen problemen.",
+      "Er zijn niet problemen.",
+      "Het zijn geen problemen."
+     ],
+     "answer": 1,
+     "explain": "A plural subject needs er zijn, and an indefinite noun is negated with geen."
+    },
+    {
+     "id": "e24",
+     "type": "fill",
+     "q": "Zijn ___ nog vragen? (Are there any more questions?)",
+     "answer": [
+      "er"
+     ],
+     "roman": null,
+     "explain": "In a question er follows the verb: Zijn er...?"
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "The possessive zijn means 'his', while the verb zijn means 'to be'.",
+     "answer": true,
+     "explain": "They are spelled the same; context tells them apart: zijn huis vs wij zijn."
+    },
+    {
+     "id": "e26",
+     "type": "order",
+     "words": [
+      "Die",
+      "jas",
+      "is",
+      "mooi",
+      "en",
+      "ik",
+      "koop",
+      "hem."
+     ],
+     "answer": "Die jas is mooi en ik koop hem.",
+     "en": "That coat is nice and I'll buy it."
+    },
+    {
+     "id": "e27",
+     "type": "mc",
+     "q": "Het boek? ___ is duur.",
+     "options": [
+      "Hij",
+      "Het",
+      "Hem",
+      "Ze"
+     ],
+     "answer": 1,
+     "explain": "boek is a het-word, so the pronoun is het."
+    },
+    {
+     "id": "e28",
+     "type": "fill",
+     "q": "De sleutels? Ik heb ___. (them)",
+     "answer": [
+      "ze"
+     ],
+     "roman": null,
+     "explain": "Things in the plural are referred to as ze."
+    },
+    {
+     "id": "e29",
+     "type": "mc",
+     "q": "Which possessive belongs to jullie?",
+     "options": [
+      "jouw",
+      "jullie",
+      "uw",
+      "hun"
+     ],
+     "answer": 1,
+     "explain": "The possessive of jullie is simply jullie: jullie huis."
+    },
+    {
+     "id": "e30",
+     "type": "tf",
+     "q": "hun is the standard choice for 'them' as a direct object.",
+     "answer": false,
+     "explain": "Direct objects take hen (or ze in speech); hun is for indirect objects."
+    }
+   ]
+  },
+  {
+   "id": "present-tense-separable-verbs",
+   "title": "The present tense and separable verbs",
+   "level": 1,
+   "summary": "The Dutch present tense is built from the stem of the verb: stem for ik, stem + t for jij, u, hij and zij, and the infinitive for the plural. This chapter also covers the -t that disappears before je, the few irregular verbs, and separable verbs such as opbellen, whose prefix moves to the end of the sentence: ik bel op.",
+   "rules": [
+    {
+     "title": "Finding the stem",
+     "body": "Take the infinitive, remove -en, and apply the spelling rules of chapter 1: a long vowel is written double when the syllable closes (lopen → loop, maken → maak, lezen → lees), a double consonant becomes single (zitten → zit, rennen → ren), and a final v or z becomes f or s (leven → leef, reizen → reis). One-syllable infinitives ending in -n just lose the n: gaan → ga, doen → doe, zien → zie, staan → sta.",
+     "examples": [
+      {
+       "target": "werken → werk",
+       "roman": null,
+       "en": "to work → stem"
+      },
+      {
+       "target": "lopen → loop",
+       "roman": null,
+       "en": "to walk → stem (long o doubled)"
+      },
+      {
+       "target": "zitten → zit",
+       "roman": null,
+       "en": "to sit → stem (single t)"
+      },
+      {
+       "target": "leven → leef",
+       "roman": null,
+       "en": "to live → stem (v becomes f)"
+      }
+     ]
+    },
+    {
+     "title": "The endings",
+     "body": "ik: the stem. jij/u/hij/zij/het: stem + t. wij/jullie/zij: the full infinitive. So: ik werk, jij werkt, hij werkt, wij werken, jullie werken, zij werken. If the stem already ends in -t, nothing is added (hij zit, zij praat, het eet). If the stem ends in -d, the t is still added and written, even though it is not heard: hij wordt, zij vindt, het rijdt.",
+     "examples": [
+      {
+       "target": "ik loop, jij loopt, wij lopen",
+       "roman": null,
+       "en": "I walk, you walk, we walk"
+      },
+      {
+       "target": "hij praat",
+       "roman": null,
+       "en": "he talks (stem praat, no extra t)"
+      },
+      {
+       "target": "zij vindt het leuk",
+       "roman": null,
+       "en": "she likes it (vind + t)"
+      },
+      {
+       "target": "jullie werken",
+       "roman": null,
+       "en": "you (all) work"
+      }
+     ]
+    },
+    {
+     "title": "Inversion drops the -t before je",
+     "body": "When jij/je follows the verb, in a question or after a fronted element, the -t is dropped: loop je? werk je? Only jij/je does this; u, hij and zij keep the t: loopt u? werkt hij? With stems ending in -d the d stays and only the t goes: vind je? word je?",
+     "examples": [
+      {
+       "target": "Werk je morgen?",
+       "roman": null,
+       "en": "Are you working tomorrow?"
+      },
+      {
+       "target": "Morgen werk je niet.",
+       "roman": null,
+       "en": "Tomorrow you're not working."
+      },
+      {
+       "target": "Werkt u hier?",
+       "roman": null,
+       "en": "Do you work here? (polite: t stays)"
+      },
+      {
+       "target": "Vind je dat leuk?",
+       "roman": null,
+       "en": "Do you like that?"
+      }
+     ]
+    },
+    {
+     "title": "Irregular presents",
+     "body": "Only a handful of verbs are irregular in the present. zijn and hebben (chapter 3); the modals kunnen (ik kan, jij kunt or kan, hij kan, wij kunnen), willen (ik wil, jij wilt or wil, hij wil, wij willen), zullen (ik zal, jij zult or zal, hij zal, wij zullen) and mogen (ik mag, jij mag, hij mag, wij mogen), treated in chapter 8; and komen, whose stem has a short o: ik kom, jij komt, wij komen.",
+     "examples": [
+      {
+       "target": "Ik kan zwemmen.",
+       "roman": null,
+       "en": "I can swim."
+      },
+      {
+       "target": "Hij wil koffie.",
+       "roman": null,
+       "en": "He wants coffee."
+      },
+      {
+       "target": "Ik kom uit Engeland.",
+       "roman": null,
+       "en": "I come from England."
+      },
+      {
+       "target": "Jullie mogen gaan.",
+       "roman": null,
+       "en": "You may go."
+      }
+     ]
+    },
+    {
+     "title": "What the present tense covers",
+     "body": "Dutch has one present tense. It covers both English 'I work' and 'I am working', it is the normal way to talk about the future when a time word makes that clear (Morgen werk ik thuis), and it is used with al or sinds where English uses the present perfect: Ik woon hier al drie jaar (I have lived here for three years). To stress that something is going on right now, use zijn + aan het + infinitive: Ik ben aan het koken.",
+     "examples": [
+      {
+       "target": "Ik werk in Leiden.",
+       "roman": null,
+       "en": "I work / am working in Leiden."
+      },
+      {
+       "target": "Morgen komt ze.",
+       "roman": null,
+       "en": "She is coming tomorrow."
+      },
+      {
+       "target": "Ik woon hier al drie jaar.",
+       "roman": null,
+       "en": "I have lived here for three years."
+      },
+      {
+       "target": "Hij is aan het eten.",
+       "roman": null,
+       "en": "He is eating (right now)."
+      }
+     ]
+    },
+    {
+     "title": "Separable verbs: ik bel op",
+     "body": "Many verbs consist of a stressed prefix plus a verb: opbellen (to phone), opstaan (to get up), aankomen (to arrive), meegaan (to come along), uitgaan (to go out), terugkomen (to come back), afmaken (to finish), weggaan, schoonmaken, thuisblijven. In the present (and the simple past) of a main clause the verb part is conjugated and the prefix goes to the end of the clause: Ik bel je morgen op. Zij staat om zeven uur op. Objects, time and place all sit between the two parts.",
+     "examples": [
+      {
+       "target": "Ik bel je morgen op.",
+       "roman": null,
+       "en": "I'll phone you tomorrow."
+      },
+      {
+       "target": "Zij staat om zeven uur op.",
+       "roman": null,
+       "en": "She gets up at seven."
+      },
+      {
+       "target": "De trein komt om tien uur aan.",
+       "roman": null,
+       "en": "The train arrives at ten."
+      },
+      {
+       "target": "Ga je mee?",
+       "roman": null,
+       "en": "Are you coming along?"
+      }
+     ]
+    },
+    {
+     "title": "When separable verbs stay together",
+     "body": "After a modal or another verb the separable verb is an infinitive at the end and stays in one word: Ik wil je morgen opbellen. Je moet nu opstaan. In a subordinate clause (chapter 5) the conjugated verb goes to the end and joins its prefix again: ...omdat ik je morgen opbel. With te, the two parts are split by te: Ik probeer vroeg op te staan. The past participle puts ge- in the middle: opgebeld (chapter 7).",
+     "examples": [
+      {
+       "target": "Ik wil je opbellen.",
+       "roman": null,
+       "en": "I want to phone you."
+      },
+      {
+       "target": "Je moet opstaan.",
+       "roman": null,
+       "en": "You have to get up."
+      },
+      {
+       "target": "...omdat hij laat opstaat.",
+       "roman": null,
+       "en": "...because he gets up late."
+      },
+      {
+       "target": "Ik probeer vroeg op te staan.",
+       "roman": null,
+       "en": "I try to get up early."
+      }
+     ]
+    },
+    {
+     "title": "Inseparable prefixes",
+     "body": "The unstressed prefixes be-, ge-, ver-, ont-, er-, her- never separate: betalen (to pay), beginnen, gebruiken (to use), verstaan (to understand), vertellen (to tell), ontbijten (to have breakfast), herhalen (to repeat). Ik betaal de rekening. Ik versta je niet. Stress tells you which type a verb is: ópbellen is separable, vertéllen is not. A few prefixes such as door-, om-, over-, voor- can be either, depending on the verb and its stress.",
+     "examples": [
+      {
+       "target": "Ik betaal de rekening.",
+       "roman": null,
+       "en": "I pay the bill."
+      },
+      {
+       "target": "Ik versta je niet.",
+       "roman": null,
+       "en": "I don't understand you."
+      },
+      {
+       "target": "Wij ontbijten om acht uur.",
+       "roman": null,
+       "en": "We have breakfast at eight."
+      },
+      {
+       "target": "Hij vertelt een verhaal.",
+       "roman": null,
+       "en": "He tells a story."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "The stem of lopen (to walk) is:",
+     "options": [
+      "lop",
+      "loop",
+      "lope",
+      "lopen"
+     ],
+     "answer": 1,
+     "explain": "Remove -en and double the long o in the closed syllable: loop."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "Hij ___ in Amsterdam. (werken)",
+     "answer": [
+      "werkt"
+     ],
+     "roman": null,
+     "explain": "hij takes stem + t."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "wij, jullie and zij use the same form as the infinitive in the present tense.",
+     "answer": true,
+     "explain": "All plural forms are identical to the infinitive: wij werken."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "ik maak",
+       "I make"
+      ],
+      [
+       "jij maakt",
+       "you make"
+      ],
+      [
+       "wij maken",
+       "we make"
+      ],
+      [
+       "maak je?",
+       "do you make?"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Which sentence is correct?",
+     "options": [
+      "Hij zitt op de stoel.",
+      "Hij zit op de stoel.",
+      "Hij zits op de stoel.",
+      "Hij zitten op de stoel."
+     ],
+     "answer": 1,
+     "explain": "The stem zit already ends in t, so no second t is added."
+    },
+    {
+     "id": "e06",
+     "type": "fill",
+     "q": "Zij ___ het boek leuk. (vinden)",
+     "answer": [
+      "vindt"
+     ],
+     "roman": null,
+     "explain": "The stem vind ends in d, and the t is still added for zij: vindt."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Ik",
+      "bel",
+      "je",
+      "morgen",
+      "op."
+     ],
+     "answer": "Ik bel je morgen op.",
+     "en": "I'll phone you tomorrow."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "'Werkt je morgen?' is correct standard Dutch.",
+     "answer": false,
+     "explain": "When je follows the verb the -t is dropped: Werk je morgen?"
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "___ je koffie?",
+     "options": [
+      "Drinkt",
+      "Drink",
+      "Drinken",
+      "Drinke"
+     ],
+     "answer": 1,
+     "explain": "Inversion with je drops the -t: Drink je koffie?"
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Ik ___ uit Engeland. (komen)",
+     "answer": [
+      "kom"
+     ],
+     "roman": null,
+     "explain": "komen is irregular: its stem has a short o, kom."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "What does 'Ik woon hier al drie jaar' mean?",
+     "options": [
+      "I lived here three years ago.",
+      "I have lived here for three years.",
+      "I will live here for three years.",
+      "I am moving here in three years."
+     ],
+     "answer": 1,
+     "explain": "With al, the Dutch present covers the English present perfect."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Zij staat om zeven uur ___. (opstaan)",
+     "answer": [
+      "op"
+     ],
+     "roman": null,
+     "explain": "The prefix of a separable verb goes to the end of the main clause."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "De",
+      "trein",
+      "komt",
+      "om",
+      "tien",
+      "uur",
+      "aan."
+     ],
+     "answer": "De trein komt om tien uur aan.",
+     "en": "The train arrives at ten o'clock."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "After a modal verb a separable verb stays in one word: Ik wil je opbellen.",
+     "answer": true,
+     "explain": "Only the conjugated verb splits; the infinitive at the end stays whole."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "Which verb is NOT separable?",
+     "options": [
+      "opstaan",
+      "meegaan",
+      "vertellen",
+      "terugkomen"
+     ],
+     "answer": 2,
+     "explain": "ver- is an unstressed, inseparable prefix: ik vertel."
+    },
+    {
+     "id": "e16",
+     "type": "fill",
+     "q": "Ik ___ de rekening. (betalen)",
+     "answer": [
+      "betaal"
+     ],
+     "roman": null,
+     "explain": "be- is inseparable, and the long a is doubled in the stem: betaal."
+    },
+    {
+     "id": "e17",
+     "type": "match",
+     "pairs": [
+      [
+       "opbellen",
+       "to phone"
+      ],
+      [
+       "opstaan",
+       "to get up"
+      ],
+      [
+       "aankomen",
+       "to arrive"
+      ],
+      [
+       "meegaan",
+       "to come along"
+      ]
+     ]
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "Hij is ___ eten. (He is eating right now.)",
+     "options": [
+      "aan het",
+      "aan de",
+      "in het",
+      "op het"
+     ],
+     "answer": 0,
+     "explain": "The progressive is zijn + aan het + infinitive."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "Je",
+      "moet",
+      "nu",
+      "opstaan."
+     ],
+     "answer": "Je moet nu opstaan.",
+     "en": "You have to get up now."
+    },
+    {
+     "id": "e20",
+     "type": "tf",
+     "q": "Dutch often uses the present tense with a time word to talk about the future.",
+     "answer": true,
+     "explain": "Morgen werk ik thuis = Tomorrow I'll work at home."
+    },
+    {
+     "id": "e21",
+     "type": "fill",
+     "q": "Wij ___ om acht uur. (ontbijten)",
+     "answer": [
+      "ontbijten"
+     ],
+     "roman": null,
+     "explain": "wij takes the infinitive form, and ont- is inseparable."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "Which sentence is correct?",
+     "options": [
+      "Vindt je dat leuk?",
+      "Vind je dat leuk?",
+      "Vin je dat leuk?",
+      "Vinden je dat leuk?"
+     ],
+     "answer": 1,
+     "explain": "Before je only the t is dropped; the d of the stem stays: vind je."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "Ik ___ je niet. (verstaan)",
+     "answer": [
+      "versta"
+     ],
+     "roman": null,
+     "explain": "verstaan loses its -n like staan → sta, and ver- stays attached."
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "Where does the prefix of a separable verb go in a present-tense main clause?",
+     "options": [
+      "Right before the verb",
+      "At the start of the sentence",
+      "At the end of the clause",
+      "Directly after the subject"
+     ],
+     "answer": 2,
+     "explain": "Ik bel je morgen op: the prefix closes the clause."
+    },
+    {
+     "id": "e25",
+     "type": "order",
+     "words": [
+      "Ik",
+      "probeer",
+      "vroeg",
+      "op",
+      "te",
+      "staan."
+     ],
+     "answer": "Ik probeer vroeg op te staan.",
+     "en": "I try to get up early."
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "The stem of leven (to live) is lev.",
+     "answer": false,
+     "explain": "A final v is written f and the long e is doubled: leef."
+    },
+    {
+     "id": "e27",
+     "type": "fill",
+     "q": "Het ___ hard. (regenen: It is raining hard.)",
+     "answer": [
+      "regent"
+     ],
+     "roman": null,
+     "explain": "het takes stem + t: regen + t = regent."
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "betalen",
+       "inseparable (be-)"
+      ],
+      [
+       "schoonmaken",
+       "separable (schoon-)"
+      ],
+      [
+       "herhalen",
+       "inseparable (her-)"
+      ],
+      [
+       "thuisblijven",
+       "separable (thuis-)"
+      ]
+     ]
+    },
+    {
+     "id": "e29",
+     "type": "mc",
+     "q": "Jij ___ morgen niet. (werken)",
+     "options": [
+      "werk",
+      "werkt",
+      "werken",
+      "werkte"
+     ],
+     "answer": 1,
+     "explain": "jij before the verb takes stem + t: jij werkt."
+    },
+    {
+     "id": "e30",
+     "type": "fill",
+     "q": "Wanneer ___ je terug? (terugkomen: When are you coming back?)",
+     "answer": [
+      "kom"
+     ],
+     "roman": null,
+     "explain": "The verb part is conjugated without -t before je, and terug goes to the end."
+    }
+   ]
+  },
+  {
+   "id": "word-order",
+   "title": "Word order: V2, inversion and the verb at the end",
+   "level": 2,
+   "summary": "Dutch word order follows a few strict rules: the conjugated verb is the second element of a main clause, the subject moves behind it when something else comes first, and in a subordinate clause (after omdat, dat, als...) all verbs go to the end. Adverbials follow the order time, manner, place.",
+   "rules": [
+    {
+     "title": "Verb second (V2) in main clauses",
+     "body": "In a Dutch statement the conjugated verb is always the second element. Usually the subject comes first: Ik woon in Amsterdam. Wij eten om zes uur. 'Second element' means second constituent, not second word: a long subject still counts as one element, so Mijn oudere broer woont in Rotterdam is a normal V2 sentence.",
+     "examples": [
+      {
+       "target": "Ik woon in Amsterdam.",
+       "roman": null,
+       "en": "I live in Amsterdam."
+      },
+      {
+       "target": "Mijn oudere broer woont in Rotterdam.",
+       "roman": null,
+       "en": "My older brother lives in Rotterdam."
+      },
+      {
+       "target": "Wij eten om zes uur.",
+       "roman": null,
+       "en": "We eat at six."
+      }
+     ]
+    },
+    {
+     "title": "Inversion: something else comes first",
+     "body": "Any element can be put first for emphasis or to link with the previous sentence: a time, a place, an object. The verb must stay second, so the subject moves to just after the verb (inversion). Morgen ga ik naar Utrecht (not 'Morgen ik ga'). Dat boek ken ik niet. In Amsterdam wonen veel studenten. The rest of the sentence follows the subject.",
+     "examples": [
+      {
+       "target": "Morgen ga ik naar Utrecht.",
+       "roman": null,
+       "en": "Tomorrow I'm going to Utrecht."
+      },
+      {
+       "target": "Dat boek ken ik niet.",
+       "roman": null,
+       "en": "I don't know that book."
+      },
+      {
+       "target": "Vandaag werkt zij thuis.",
+       "roman": null,
+       "en": "Today she is working at home."
+      },
+      {
+       "target": "Daarom blijf ik hier.",
+       "roman": null,
+       "en": "That's why I'm staying here."
+      }
+     ]
+    },
+    {
+     "title": "Subordinate clauses: the verb goes to the end",
+     "body": "A clause introduced by a subordinating conjunction puts all its verbs at the end: Ik blijf thuis omdat ik ziek ben. Zij zegt dat ze morgen komt. Common subordinators: omdat (because), dat (that), als (if, when), of (whether), hoewel (although), terwijl (while), toen (when, in the past), zodat (so that), voordat (before), nadat (after), wanneer (when). A separable verb joins up again at the end: ...dat ik je morgen opbel.",
+     "examples": [
+      {
+       "target": "Ik blijf thuis omdat ik ziek ben.",
+       "roman": null,
+       "en": "I'm staying home because I'm ill."
+      },
+      {
+       "target": "Zij zegt dat ze morgen komt.",
+       "roman": null,
+       "en": "She says that she is coming tomorrow."
+      },
+      {
+       "target": "Ik weet niet of hij thuis is.",
+       "roman": null,
+       "en": "I don't know whether he is at home."
+      },
+      {
+       "target": "Hij belt als hij aankomt.",
+       "roman": null,
+       "en": "He'll call when he arrives."
+      }
+     ]
+    },
+    {
+     "title": "Coordinating conjunctions keep normal order",
+     "body": "en (and), maar (but), of (or), want (because) and dus (so) join two main clauses without changing anything: the verb stays second in both. Compare want and omdat, which both mean 'because': Ik blijf thuis, want ik ben ziek (main-clause order) but Ik blijf thuis omdat ik ziek ben (verb at the end). dus can also be used as a fronted adverb, and then causes inversion: Dus blijf ik thuis.",
+     "examples": [
+      {
+       "target": "Ik blijf thuis, want ik ben ziek.",
+       "roman": null,
+       "en": "I'm staying home, because I'm ill."
+      },
+      {
+       "target": "Hij komt, maar zij blijft thuis.",
+       "roman": null,
+       "en": "He is coming, but she is staying at home."
+      },
+      {
+       "target": "Ik lees een boek en zij kijkt tv.",
+       "roman": null,
+       "en": "I read a book and she watches TV."
+      }
+     ]
+    },
+    {
+     "title": "Subordinate clause first",
+     "body": "When the subordinate clause comes first, it counts as the first element of the main clause, so the main verb follows it immediately and the subject comes after the verb: Als het regent, blijf ik thuis. Omdat hij ziek is, komt hij niet. The two verbs then stand next to each other on either side of the comma.",
+     "examples": [
+      {
+       "target": "Als het regent, blijf ik thuis.",
+       "roman": null,
+       "en": "If it rains, I stay at home."
+      },
+      {
+       "target": "Omdat hij ziek is, komt hij niet.",
+       "roman": null,
+       "en": "Because he is ill, he isn't coming."
+      },
+      {
+       "target": "Toen ik klein was, woonde ik in Gent.",
+       "roman": null,
+       "en": "When I was small, I lived in Ghent."
+      }
+     ]
+    },
+    {
+     "title": "Two or more verbs: the rest goes to the end",
+     "body": "Only the conjugated verb stands in second position. Infinitives and past participles go to the end of the main clause: Ik wil morgen naar de film gaan. Ik heb gisteren hard gewerkt. In a subordinate clause the conjugated verb joins them at the end: ...dat ik morgen naar de film wil gaan; ...dat ik gisteren hard heb gewerkt (or gewerkt heb: with a participle both orders are correct).",
+     "examples": [
+      {
+       "target": "Ik wil morgen naar de film gaan.",
+       "roman": null,
+       "en": "I want to go to the cinema tomorrow."
+      },
+      {
+       "target": "Ik heb gisteren hard gewerkt.",
+       "roman": null,
+       "en": "I worked hard yesterday."
+      },
+      {
+       "target": "...dat ik naar de film wil gaan.",
+       "roman": null,
+       "en": "...that I want to go to the cinema."
+      },
+      {
+       "target": "...dat ik hard heb gewerkt.",
+       "roman": null,
+       "en": "...that I worked hard."
+      }
+     ]
+    },
+    {
+     "title": "Time, manner, place",
+     "body": "When several adverbials follow the verb, Dutch orders them time, manner, place: Ik ga morgen met de trein naar Rotterdam (tomorrow, by train, to Rotterdam). English prefers the reverse order. Time expressions tend to come early, right after the verb and any pronouns; a place expression comes late. Any one of them can still be moved to the front for emphasis, with inversion.",
+     "examples": [
+      {
+       "target": "Ik ga morgen met de trein naar Rotterdam.",
+       "roman": null,
+       "en": "I'm going to Rotterdam by train tomorrow."
+      },
+      {
+       "target": "Zij werkt elke dag hard op kantoor.",
+       "roman": null,
+       "en": "She works hard at the office every day."
+      },
+      {
+       "target": "Wij eten vanavond thuis.",
+       "roman": null,
+       "en": "We're eating at home tonight."
+      }
+     ]
+    },
+    {
+     "title": "Questions and commands: verb first",
+     "body": "Yes/no questions and commands put the conjugated verb first: Kom je morgen? Woont u hier? The imperative uses the bare stem: Kom binnen! Ga zitten! With a question word, the verb is second, right after the question word: Waar woon je? Wanneer komt hij? Chapter 9 says more about questions.",
+     "examples": [
+      {
+       "target": "Kom je morgen?",
+       "roman": null,
+       "en": "Are you coming tomorrow?"
+      },
+      {
+       "target": "Kom binnen!",
+       "roman": null,
+       "en": "Come in!"
+      },
+      {
+       "target": "Waar woon je?",
+       "roman": null,
+       "en": "Where do you live?"
+      },
+      {
+       "target": "Wanneer komt de trein?",
+       "roman": null,
+       "en": "When does the train come?"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "In a Dutch statement, the conjugated verb is in ___ position.",
+     "options": [
+      "first",
+      "second",
+      "last",
+      "any"
+     ],
+     "answer": 1,
+     "explain": "Dutch main clauses are verb-second."
+    },
+    {
+     "id": "e02",
+     "type": "order",
+     "words": [
+      "Morgen",
+      "ga",
+      "ik",
+      "naar",
+      "Utrecht."
+     ],
+     "answer": "Morgen ga ik naar Utrecht.",
+     "en": "Tomorrow I'm going to Utrecht."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "'Morgen ik ga naar school' is correct Dutch.",
+     "answer": false,
+     "explain": "After a fronted time word the verb must come second: Morgen ga ik naar school."
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "Ik blijf thuis omdat ik ziek ___. (zijn)",
+     "answer": [
+      "ben"
+     ],
+     "roman": null,
+     "explain": "After omdat the verb goes to the end of the clause."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Which conjunction sends the verb to the end of its clause?",
+     "options": [
+      "en",
+      "maar",
+      "omdat",
+      "want"
+     ],
+     "answer": 2,
+     "explain": "omdat is subordinating; en, maar and want keep main-clause order."
+    },
+    {
+     "id": "e06",
+     "type": "match",
+     "pairs": [
+      [
+       "omdat",
+       "because (verb at the end)"
+      ],
+      [
+       "want",
+       "because (normal order)"
+      ],
+      [
+       "dat",
+       "that"
+      ],
+      [
+       "als",
+       "if / when"
+      ]
+     ]
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Zij",
+      "zegt",
+      "dat",
+      "ze",
+      "morgen",
+      "komt."
+     ],
+     "answer": "Zij zegt dat ze morgen komt.",
+     "en": "She says that she is coming tomorrow."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "After want, the verb goes to the end of the clause.",
+     "answer": false,
+     "explain": "want is coordinating: Ik blijf thuis, want ik ben ziek."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Complete: Als het regent, ___.",
+     "options": [
+      "ik blijf thuis",
+      "blijf ik thuis",
+      "ik thuis blijf",
+      "thuis ik blijf"
+     ],
+     "answer": 1,
+     "explain": "The fronted clause is element one, so the main verb comes next and the subject follows."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Vandaag ___ zij thuis. (werken)",
+     "answer": [
+      "werkt"
+     ],
+     "roman": null,
+     "explain": "The verb stays second after the fronted Vandaag; zij takes werkt."
+    },
+    {
+     "id": "e11",
+     "type": "order",
+     "words": [
+      "Ik",
+      "wil",
+      "morgen",
+      "naar",
+      "de",
+      "film",
+      "gaan."
+     ],
+     "answer": "Ik wil morgen naar de film gaan.",
+     "en": "I want to go to the cinema tomorrow."
+    },
+    {
+     "id": "e12",
+     "type": "mc",
+     "q": "Which sentence has the correct time-manner-place order?",
+     "options": [
+      "Ik ga naar Rotterdam morgen met de trein.",
+      "Ik ga morgen met de trein naar Rotterdam.",
+      "Ik ga met de trein naar Rotterdam morgen.",
+      "Ik ga naar Rotterdam met de trein morgen."
+     ],
+     "answer": 1,
+     "explain": "morgen (time), met de trein (manner), naar Rotterdam (place)."
+    },
+    {
+     "id": "e13",
+     "type": "tf",
+     "q": "In a subordinate clause a modal goes to the end together with its infinitive: ...dat ik naar huis wil gaan.",
+     "answer": true,
+     "explain": "All verbs cluster at the end: wil gaan."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "Ik weet niet ___ hij thuis is. (whether)",
+     "answer": [
+      "of"
+     ],
+     "roman": null,
+     "explain": "of means 'whether' and sends the verb to the end."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "Which sentence is correct?",
+     "options": [
+      "Ik blijf thuis, want ben ik ziek.",
+      "Ik blijf thuis omdat ik ben ziek.",
+      "Ik blijf thuis, want ik ben ziek.",
+      "Ik blijf thuis omdat ben ik ziek."
+     ],
+     "answer": 2,
+     "explain": "want keeps subject-verb order; omdat would need ...omdat ik ziek ben."
+    },
+    {
+     "id": "e16",
+     "type": "order",
+     "words": [
+      "Dat",
+      "boek",
+      "ken",
+      "ik",
+      "niet."
+     ],
+     "answer": "Dat boek ken ik niet.",
+     "en": "I don't know that book."
+    },
+    {
+     "id": "e17",
+     "type": "match",
+     "pairs": [
+      [
+       "Kom binnen!",
+       "Come in!"
+      ],
+      [
+       "Waar woon je?",
+       "Where do you live?"
+      ],
+      [
+       "Kom je morgen?",
+       "Are you coming tomorrow?"
+      ],
+      [
+       "Wanneer komt hij?",
+       "When is he coming?"
+      ]
+     ]
+    },
+    {
+     "id": "e18",
+     "type": "tf",
+     "q": "The imperative uses the stem of the verb: Ga zitten!",
+     "answer": true,
+     "explain": "Commands use the bare stem in first position."
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "Hij belt ___ hij aankomt. (when)",
+     "answer": [
+      "als",
+      "wanneer"
+     ],
+     "roman": null,
+     "explain": "als (or wanneer) introduces the clause and the verb aankomt stands at its end."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "Complete: ...omdat ik je morgen ___.",
+     "options": [
+      "bel op",
+      "opbel",
+      "op bel",
+      "bel"
+     ],
+     "answer": 1,
+     "explain": "At the end of a subordinate clause a separable verb is written as one word."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Omdat",
+      "hij",
+      "ziek",
+      "is,",
+      "komt",
+      "hij",
+      "niet."
+     ],
+     "answer": "Omdat hij ziek is, komt hij niet.",
+     "en": "Because he is ill, he isn't coming."
+    },
+    {
+     "id": "e22",
+     "type": "tf",
+     "q": "'Mijn oudere broer woont in Rotterdam' breaks the verb-second rule because the verb is the fourth word.",
+     "answer": false,
+     "explain": "Mijn oudere broer is one element, so the verb is still the second element."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "Ik heb gisteren hard ___. (werken)",
+     "answer": [
+      "gewerkt"
+     ],
+     "roman": null,
+     "explain": "The participle goes to the end of the main clause."
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "Which word order is correct in a subordinate clause?",
+     "options": [
+      "...dat ik heb gisteren gewerkt.",
+      "...dat ik gisteren heb gewerkt.",
+      "...dat heb ik gisteren gewerkt.",
+      "...dat ik gisteren werkte heb."
+     ],
+     "answer": 1,
+     "explain": "Both verbs go to the end: heb gewerkt (or gewerkt heb)."
+    },
+    {
+     "id": "e25",
+     "type": "order",
+     "words": [
+      "Ik",
+      "ga",
+      "morgen",
+      "met",
+      "de",
+      "trein",
+      "naar",
+      "Rotterdam."
+     ],
+     "answer": "Ik ga morgen met de trein naar Rotterdam.",
+     "en": "I'm going to Rotterdam by train tomorrow."
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "In Dutch, a place expression normally comes before a time expression.",
+     "answer": false,
+     "explain": "The order is time, manner, place: Ik ga morgen naar Rotterdam."
+    },
+    {
+     "id": "e27",
+     "type": "fill",
+     "q": "Toen ik klein was, ___ ik in Gent. (wonen, simple past)",
+     "answer": [
+      "woonde"
+     ],
+     "roman": null,
+     "explain": "The fronted toen-clause is element one, so the main verb woonde comes next."
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "After a fronted Daarom (that's why), what comes next?",
+     "options": [
+      "the subject",
+      "the conjugated verb",
+      "the object",
+      "a comma"
+     ],
+     "answer": 1,
+     "explain": "Daarom is element one, so the verb follows: Daarom blijf ik hier."
+    },
+    {
+     "id": "e29",
+     "type": "match",
+     "pairs": [
+      [
+       "hoewel",
+       "although"
+      ],
+      [
+       "terwijl",
+       "while"
+      ],
+      [
+       "voordat",
+       "before"
+      ],
+      [
+       "nadat",
+       "after"
+      ]
+     ]
+    },
+    {
+     "id": "e30",
+     "type": "order",
+     "words": [
+      "Wij",
+      "eten",
+      "vanavond",
+      "thuis."
+     ],
+     "answer": "Wij eten vanavond thuis.",
+     "en": "We're eating at home tonight."
+    }
+   ]
+  },
+  {
+   "id": "adjectives-and-e",
+   "title": "Adjectives and -e",
+   "level": 2,
+   "summary": "A Dutch adjective before a noun almost always ends in -e (de mooie fiets), with one famous exception: an indefinite singular het-word (een mooi huis). This chapter covers that rule, the spelling changes it causes, adjectives that never change, and comparison with -er and -st.",
+   "rules": [
+    {
+     "title": "Adjective before the noun: add -e",
+     "body": "An adjective placed before its noun usually takes the ending -e: de mooie fiets, de grote stad, het mooie huis, mooie fietsen, een mooie fiets. The -e is pronounced as a weak 'uh'. This applies to all de-words, to all plurals, and to het-words preceded by a definite word (het, dit, dat, mijn, jouw, deze and so on).",
+     "examples": [
+      {
+       "target": "de mooie fiets",
+       "roman": null,
+       "en": "the beautiful bike"
+      },
+      {
+       "target": "het grote huis",
+       "roman": null,
+       "en": "the big house"
+      },
+      {
+       "target": "mooie fietsen",
+       "roman": null,
+       "en": "beautiful bikes"
+      },
+      {
+       "target": "een lange dag",
+       "roman": null,
+       "en": "a long day (de dag)"
+      }
+     ]
+    },
+    {
+     "title": "No -e: an indefinite singular het-word",
+     "body": "The one exception: a singular het-word that is indefinite, that is after een, geen, elk, ieder, welk, wat voor, zo'n, or with no article at all, takes no ending: een mooi huis, een klein kind, geen groot probleem, welk boek?, koud water. With de-words the -e stays even after een: een mooie fiets. Compare het mooie huis (definite) with een mooi huis (indefinite).",
+     "examples": [
+      {
+       "target": "een mooi huis",
+       "roman": null,
+       "en": "a beautiful house"
+      },
+      {
+       "target": "geen groot probleem",
+       "roman": null,
+       "en": "no big problem"
+      },
+      {
+       "target": "koud water",
+       "roman": null,
+       "en": "cold water"
+      },
+      {
+       "target": "het mooie huis / een mooi huis",
+       "roman": null,
+       "en": "the beautiful house / a beautiful house"
+      }
+     ]
+    },
+    {
+     "title": "Spelling changes when adding -e",
+     "body": "Adding -e opens the last syllable, so the rules of chapter 1 apply: a long vowel loses a letter (groot → grote, laat → late, duur → dure), a short vowel doubles the consonant (dik → dikke, wit → witte, snel → snelle), and f and s become v and z (lief → lieve, doof → dove, grijs → grijze, boos → boze).",
+     "examples": [
+      {
+       "target": "groot → grote",
+       "roman": null,
+       "en": "big"
+      },
+      {
+       "target": "dik → dikke",
+       "roman": null,
+       "en": "fat, thick"
+      },
+      {
+       "target": "lief → lieve",
+       "roman": null,
+       "en": "sweet, kind"
+      },
+      {
+       "target": "grijs → grijze",
+       "roman": null,
+       "en": "grey"
+      }
+     ]
+    },
+    {
+     "title": "Adjectives that never take -e",
+     "body": "Adjectives ending in -en, including the names of materials and past participles, get no ending: de open deur, een houten tafel, de gouden ring, het gebroken glas, de verboden stad. Adjectives ending in a vowel such as prima and lila also stay unchanged, as do linker and rechter (de linkerhand) and eigen (mijn eigen huis).",
+     "examples": [
+      {
+       "target": "een houten tafel",
+       "roman": null,
+       "en": "a wooden table"
+      },
+      {
+       "target": "de open deur",
+       "roman": null,
+       "en": "the open door"
+      },
+      {
+       "target": "een prima idee",
+       "roman": null,
+       "en": "a fine idea"
+      },
+      {
+       "target": "de linkerhand",
+       "roman": null,
+       "en": "the left hand"
+      }
+     ]
+    },
+    {
+     "title": "After the verb: no ending",
+     "body": "An adjective used predicatively, after zijn, worden, blijven, vinden and similar verbs, never takes -e: De fiets is mooi. Het huis is groot. Ik vind de film saai. Adverbs are identical to the bare adjective, so there is no equivalent of English -ly: Hij rijdt snel. Zij zingt mooi.",
+     "examples": [
+      {
+       "target": "De fiets is mooi.",
+       "roman": null,
+       "en": "The bike is beautiful."
+      },
+      {
+       "target": "Het weer wordt koud.",
+       "roman": null,
+       "en": "The weather is getting cold."
+      },
+      {
+       "target": "Hij rijdt snel.",
+       "roman": null,
+       "en": "He drives fast."
+      }
+     ]
+    },
+    {
+     "title": "Comparative -er and superlative -st",
+     "body": "Comparative: adjective + -er; superlative: adjective + -st. mooi, mooier, mooist; groot, groter, grootst; snel, sneller, snelst. After an adjective ending in -r a d is inserted: duur, duurder; ver, verder; lekker, lekkerder. The usual spelling rules apply (dik, dikker; laat, later; lief, liever). 'Than' is dan: Hij is groter dan ik. 'As ... as' is even ... als or net zo ... als.",
+     "examples": [
+      {
+       "target": "groot, groter, grootst",
+       "roman": null,
+       "en": "big, bigger, biggest"
+      },
+      {
+       "target": "duur, duurder, duurst",
+       "roman": null,
+       "en": "expensive, more expensive, most expensive"
+      },
+      {
+       "target": "Hij is groter dan ik.",
+       "roman": null,
+       "en": "He is taller than me."
+      },
+      {
+       "target": "Zij is even oud als ik.",
+       "roman": null,
+       "en": "She is as old as I am."
+      }
+     ]
+    },
+    {
+     "title": "Irregular comparisons",
+     "body": "A few adjectives and adverbs are irregular: goed, beter, best (good); veel, meer, meest (much, many); weinig, minder, minst (little, few); graag, liever, liefst (gladly: Ik drink liever thee = I prefer tea). Long adjectives still take -er and -st rather than 'more' and 'most': interessant, interessanter, interessantst. meer and meest are used only with participles and a few others: meer verbaasd.",
+     "examples": [
+      {
+       "target": "goed, beter, best",
+       "roman": null,
+       "en": "good, better, best"
+      },
+      {
+       "target": "veel, meer, meest",
+       "roman": null,
+       "en": "much, more, most"
+      },
+      {
+       "target": "Ik drink liever thee.",
+       "roman": null,
+       "en": "I prefer tea. (I'd rather drink tea.)"
+      },
+      {
+       "target": "Dat is het beste restaurant.",
+       "roman": null,
+       "en": "That is the best restaurant."
+      }
+     ]
+    },
+    {
+     "title": "Comparatives and superlatives before a noun",
+     "body": "Comparatives and superlatives are ordinary adjectives and follow the same -e rule: een grotere fiets, een groter huis, de mooiste fiets, het mooiste huis. Standing alone after a verb, the superlative takes het: Deze fiets is het mooist (or het mooiste). After iets, niets, wat and veel (something, nothing) an adjective takes -s: iets lekkers, niets nieuws.",
+     "examples": [
+      {
+       "target": "een grotere fiets",
+       "roman": null,
+       "en": "a bigger bike"
+      },
+      {
+       "target": "een groter huis",
+       "roman": null,
+       "en": "a bigger house"
+      },
+      {
+       "target": "het mooiste huis",
+       "roman": null,
+       "en": "the most beautiful house"
+      },
+      {
+       "target": "iets lekkers",
+       "roman": null,
+       "en": "something tasty"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "de ___ fiets (mooi)",
+     "options": [
+      "mooi",
+      "mooie",
+      "mooien",
+      "mooier"
+     ],
+     "answer": 1,
+     "explain": "Before a de-word the adjective takes -e."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "een ___ huis (mooi)",
+     "answer": [
+      "mooi"
+     ],
+     "roman": null,
+     "explain": "een + singular het-word: no ending."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "Before a plural noun mooi takes -e: mooie fietsen.",
+     "answer": true,
+     "explain": "All plurals take the -e form."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "de grote stad",
+       "the big city"
+      ],
+      [
+       "een groot huis",
+       "a big house"
+      ],
+      [
+       "het grote huis",
+       "the big house"
+      ],
+      [
+       "grote huizen",
+       "big houses"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Which is correct?",
+     "options": [
+      "een klein kind",
+      "een kleine kind",
+      "een kleinen kind",
+      "een kleint kind"
+     ],
+     "answer": 0,
+     "explain": "kind is a het-word and een makes it indefinite, so no -e."
+    },
+    {
+     "id": "e06",
+     "type": "fill",
+     "q": "het ___ huis (klein)",
+     "answer": [
+      "kleine"
+     ],
+     "roman": null,
+     "explain": "With het the noun is definite, so the adjective takes -e."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Het",
+      "huis",
+      "is",
+      "groot",
+      "en",
+      "mooi."
+     ],
+     "answer": "Het huis is groot en mooi.",
+     "en": "The house is big and beautiful."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "In 'De fiets is mooi' the adjective takes no -e because it comes after the verb.",
+     "answer": true,
+     "explain": "Predicative adjectives never get the -e ending."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "dik + -e = ___",
+     "options": [
+      "dike",
+      "dikke",
+      "dikee",
+      "dikken"
+     ],
+     "answer": 1,
+     "explain": "The short i needs a doubled k: dikke."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "een ___ tafel (houten)",
+     "answer": [
+      "houten"
+     ],
+     "roman": null,
+     "explain": "Adjectives ending in -en never take an extra -e."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "de ___ ring (gouden)",
+     "options": [
+      "goudene",
+      "gouden",
+      "goude",
+      "goudenen"
+     ],
+     "answer": 1,
+     "explain": "Material adjectives in -en stay unchanged."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "groot → comparative ___",
+     "answer": [
+      "groter"
+     ],
+     "roman": null,
+     "explain": "Add -er; the long o is written single in the open syllable gro-ter."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "Hij",
+      "is",
+      "groter",
+      "dan",
+      "ik."
+     ],
+     "answer": "Hij is groter dan ik.",
+     "en": "He is taller than me."
+    },
+    {
+     "id": "e14",
+     "type": "match",
+     "pairs": [
+      [
+       "goed",
+       "beter"
+      ],
+      [
+       "veel",
+       "meer"
+      ],
+      [
+       "weinig",
+       "minder"
+      ],
+      [
+       "graag",
+       "liever"
+      ]
+     ]
+    },
+    {
+     "id": "e15",
+     "type": "tf",
+     "q": "The comparative of duur is duurer.",
+     "answer": false,
+     "explain": "After -r a d is inserted: duurder."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Which is the comparative of lekker?",
+     "options": [
+      "lekkerer",
+      "lekkerder",
+      "meer lekker",
+      "lekkerst"
+     ],
+     "answer": 1,
+     "explain": "Adjectives ending in -r take -der."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Zij is ___ oud als ik. (as old as)",
+     "answer": [
+      "even",
+      "net zo"
+     ],
+     "roman": null,
+     "explain": "'As ... as' is even ... als or net zo ... als."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "grijs → een ___ jas (a grey coat)",
+     "answer": [
+      "grijze"
+     ],
+     "roman": null,
+     "explain": "s becomes z before the -e ending, and jas is a de-word."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "Dat",
+      "is",
+      "het",
+      "beste",
+      "restaurant",
+      "van",
+      "de",
+      "stad."
+     ],
+     "answer": "Dat is het beste restaurant van de stad.",
+     "en": "That is the best restaurant in the city."
+    },
+    {
+     "id": "e20",
+     "type": "tf",
+     "q": "After iets and niets an adjective takes -s: iets lekkers.",
+     "answer": true,
+     "explain": "iets lekkers, niets nieuws, wat moois."
+    },
+    {
+     "id": "e21",
+     "type": "mc",
+     "q": "Which is correct?",
+     "options": [
+      "een grotere huis",
+      "een groter huis",
+      "een grote huis",
+      "een groten huis"
+     ],
+     "answer": 1,
+     "explain": "The comparative follows the normal rule: indefinite het-word, no -e."
+    },
+    {
+     "id": "e22",
+     "type": "fill",
+     "q": "Ik drink ___ thee dan koffie. (prefer: the comparative of graag)",
+     "answer": [
+      "liever"
+     ],
+     "roman": null,
+     "explain": "graag, liever, liefst is irregular."
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "Which sentence is correct?",
+     "options": [
+      "Het water is koude.",
+      "Het koud water is lekker.",
+      "Koud water is lekker.",
+      "Het koude water is lekkere."
+     ],
+     "answer": 2,
+     "explain": "water is a het-word without an article, so koud takes no -e; after the verb lekker stays bare."
+    },
+    {
+     "id": "e24",
+     "type": "match",
+     "pairs": [
+      [
+       "lief",
+       "lieve"
+      ],
+      [
+       "laat",
+       "late"
+      ],
+      [
+       "wit",
+       "witte"
+      ],
+      [
+       "boos",
+       "boze"
+      ]
+     ]
+    },
+    {
+     "id": "e25",
+     "type": "order",
+     "words": [
+      "Ik",
+      "heb",
+      "een",
+      "nieuwe",
+      "fiets",
+      "gekocht."
+     ],
+     "answer": "Ik heb een nieuwe fiets gekocht.",
+     "en": "I bought a new bike."
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "'de open deur' is correct: adjectives ending in -en take no extra -e.",
+     "answer": true,
+     "explain": "open, houten, gouden and participles in -en never change."
+    },
+    {
+     "id": "e27",
+     "type": "fill",
+     "q": "De film is ___ dan het boek. (interessant)",
+     "answer": [
+      "interessanter"
+     ],
+     "roman": null,
+     "explain": "Even long adjectives take -er in Dutch."
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "Complete: welk ___ boek? (nieuw)",
+     "options": [
+      "nieuw",
+      "nieuwe",
+      "nieuws",
+      "nieuwer"
+     ],
+     "answer": 0,
+     "explain": "welk + singular het-word is indefinite, so the adjective stays bare."
+    },
+    {
+     "id": "e29",
+     "type": "fill",
+     "q": "Wil je iets ___? (lekker)",
+     "answer": [
+      "lekkers"
+     ],
+     "roman": null,
+     "explain": "After iets the adjective takes -s."
+    },
+    {
+     "id": "e30",
+     "type": "tf",
+     "q": "Long adjectives like interessant form the comparative with meer instead of -er.",
+     "answer": false,
+     "explain": "Dutch adds -er regardless of length: interessanter."
+    }
+   ]
+  },
+  {
+   "id": "perfect-tense",
+   "title": "The perfect tense and the past participle",
+   "level": 2,
+   "summary": "The perfect tense (ik heb gewerkt, zij is gekomen) is the everyday way of talking about the past in Dutch. This chapter explains how to build the past participle with ge- and -d/-t using the 't kofschip rule, the strong and irregular participles, and when to use zijn instead of hebben.",
+   "rules": [
+    {
+     "title": "Forming the perfect",
+     "body": "The perfect tense is hebben or zijn in the present plus a past participle, which goes to the end of the main clause: Ik heb gisteren gewerkt. Zij is naar huis gegaan. It is the normal tense for talking about the past in conversation, where English often uses the simple past: Gisteren heb ik gewerkt = Yesterday I worked.",
+     "examples": [
+      {
+       "target": "Ik heb gisteren gewerkt.",
+       "roman": null,
+       "en": "I worked yesterday."
+      },
+      {
+       "target": "Zij is naar huis gegaan.",
+       "roman": null,
+       "en": "She has gone home."
+      },
+      {
+       "target": "Heb je al gegeten?",
+       "roman": null,
+       "en": "Have you eaten yet?"
+      }
+     ]
+    },
+    {
+     "title": "Weak participles and 't kofschip",
+     "body": "Regular (weak) verbs form the participle as ge- + stem + d or t. Use -t if the infinitive minus -en ends in one of the consonants of the word 't kofschip: t, k, f, s, ch, p (and x): werken → gewerkt, maken → gemaakt, hopen → gehoopt, fietsen → gefietst. Otherwise use -d: wonen → gewoond, spelen → gespeeld, leren → geleerd. Judge by the infinitive, not the written stem: leven → geleefd (v is voiced), reizen → gereisd. If the stem already ends in t or d, nothing is added: praten → gepraat, antwoorden → geantwoord.",
+     "examples": [
+      {
+       "target": "werken → gewerkt",
+       "roman": null,
+       "en": "to work → worked"
+      },
+      {
+       "target": "wonen → gewoond",
+       "roman": null,
+       "en": "to live → lived"
+      },
+      {
+       "target": "leven → geleefd",
+       "roman": null,
+       "en": "to live, be alive → lived"
+      },
+      {
+       "target": "praten → gepraat",
+       "roman": null,
+       "en": "to talk → talked"
+      }
+     ]
+    },
+    {
+     "title": "No ge-, or ge- in the middle",
+     "body": "Verbs beginning with an unstressed prefix (be-, ge-, ver-, ont-, her-, er-) take no ge-: betalen → betaald, vertellen → verteld, gebruiken → gebruikt, ontmoeten → ontmoet, herhalen → herhaald. Separable verbs put ge- between the prefix and the stem: opbellen → opgebeld, opstaan → opgestaan, aankomen → aangekomen, schoonmaken → schoongemaakt. Verbs in -eren are regular and do take ge-: studeren → gestudeerd.",
+     "examples": [
+      {
+       "target": "betalen → betaald",
+       "roman": null,
+       "en": "to pay → paid"
+      },
+      {
+       "target": "vertellen → verteld",
+       "roman": null,
+       "en": "to tell → told"
+      },
+      {
+       "target": "opbellen → opgebeld",
+       "roman": null,
+       "en": "to phone → phoned"
+      },
+      {
+       "target": "aankomen → aangekomen",
+       "roman": null,
+       "en": "to arrive → arrived"
+      }
+     ]
+    },
+    {
+     "title": "Strong participles in -en",
+     "body": "Strong verbs form the participle with ge- + a (usually changed) vowel + -en: lezen → gelezen, schrijven → geschreven, drinken → gedronken, lopen → gelopen, eten → gegeten, zien → gezien, komen → gekomen, geven → gegeven, nemen → genomen, spreken → gesproken, vinden → gevonden, blijven → gebleven, slapen → geslapen, helpen → geholpen, worden → geworden, beginnen → begonnen (no ge- because of the prefix). They must be learned, but they come in families: schrijven, blijven, kijken → geschreven, gebleven, gekeken; drinken, vinden, beginnen → gedronken, gevonden, begonnen.",
+     "examples": [
+      {
+       "target": "lezen → gelezen",
+       "roman": null,
+       "en": "to read → read"
+      },
+      {
+       "target": "drinken → gedronken",
+       "roman": null,
+       "en": "to drink → drunk"
+      },
+      {
+       "target": "schrijven → geschreven",
+       "roman": null,
+       "en": "to write → written"
+      },
+      {
+       "target": "eten → gegeten",
+       "roman": null,
+       "en": "to eat → eaten"
+      }
+     ]
+    },
+    {
+     "title": "Irregular participles",
+     "body": "A few common verbs have an irregular participle with a changed vowel and -t or -d: brengen → gebracht, denken → gedacht, kopen → gekocht, zoeken → gezocht, weten → geweten, zeggen → gezegd, hebben → gehad. Others are simply irregular: zijn → geweest, doen → gedaan, gaan → gegaan, staan → gestaan, slaan → geslagen, zien → gezien.",
+     "examples": [
+      {
+       "target": "kopen → gekocht",
+       "roman": null,
+       "en": "to buy → bought"
+      },
+      {
+       "target": "zeggen → gezegd",
+       "roman": null,
+       "en": "to say → said"
+      },
+      {
+       "target": "zijn → geweest",
+       "roman": null,
+       "en": "to be → been"
+      },
+      {
+       "target": "hebben → gehad",
+       "roman": null,
+       "en": "to have → had"
+      }
+     ]
+    },
+    {
+     "title": "zijn or hebben?",
+     "body": "Most verbs take hebben. zijn is used with verbs of movement to or from a place (gaan, komen, vertrekken, vallen), with verbs of change of state (worden, beginnen, stoppen, groeien, sterven, trouwen), and with zijn, blijven and gebeuren: Zij is gekomen. De les is begonnen. Hij is thuis gebleven. Verbs of movement such as lopen, fietsen, rijden and zwemmen take zijn when a destination is mentioned and hebben otherwise: Ik ben naar school gefietst, but Ik heb een uur gefietst.",
+     "examples": [
+      {
+       "target": "Zij is gisteren gekomen.",
+       "roman": null,
+       "en": "She came yesterday."
+      },
+      {
+       "target": "De les is begonnen.",
+       "roman": null,
+       "en": "The lesson has begun."
+      },
+      {
+       "target": "Ik ben naar school gefietst.",
+       "roman": null,
+       "en": "I cycled to school."
+      },
+      {
+       "target": "Ik heb een uur gefietst.",
+       "roman": null,
+       "en": "I cycled for an hour."
+      }
+     ]
+    },
+    {
+     "title": "Word order with the perfect",
+     "body": "In a main clause the auxiliary is second and the participle last: Ik heb het boek nog niet gelezen. In a subordinate clause both verbs go to the end, in either order: ...omdat ik het boek nog niet heb gelezen, or ...gelezen heb. In a question the auxiliary comes first: Heb je het boek gelezen? Adverbs such as al (already), nog niet (not yet), ooit (ever) and nooit (never) stand before the participle.",
+     "examples": [
+      {
+       "target": "Ik heb het boek nog niet gelezen.",
+       "roman": null,
+       "en": "I haven't read the book yet."
+      },
+      {
+       "target": "...omdat ik het boek heb gelezen.",
+       "roman": null,
+       "en": "...because I have read the book."
+      },
+      {
+       "target": "Heb je ooit sushi gegeten?",
+       "roman": null,
+       "en": "Have you ever eaten sushi?"
+      }
+     ]
+    },
+    {
+     "title": "Perfect, simple past and pluperfect",
+     "body": "Use the perfect for single completed events, especially in speech, and for the present result of an action. The simple past (chapter 8) is for narrating a sequence of events, describing situations and habits in the past, and for zijn, hebben and the modals. The pluperfect ('had done') uses had or was + participle: Ik had al gegeten toen hij kwam. zijn + participle can also describe a state or a passive result: De winkel is gesloten (the shop is closed).",
+     "examples": [
+      {
+       "target": "Ik had al gegeten.",
+       "roman": null,
+       "en": "I had already eaten."
+      },
+      {
+       "target": "Toen ik aankwam, was de trein al vertrokken.",
+       "roman": null,
+       "en": "When I arrived, the train had already left."
+      },
+      {
+       "target": "De winkel is gesloten.",
+       "roman": null,
+       "en": "The shop is closed."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "The past participle of werken is:",
+     "options": [
+      "gewerkd",
+      "gewerkt",
+      "werkt",
+      "gewerken"
+     ],
+     "answer": 1,
+     "explain": "k is in 't kofschip, so the ending is -t."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "Wij hebben in de tuin ___. (spelen)",
+     "answer": [
+      "gespeeld"
+     ],
+     "roman": null,
+     "explain": "l is not in 't kofschip, so the ending is -d."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "The consonants of 't kofschip are t, k, f, s, ch and p.",
+     "answer": true,
+     "explain": "A stem ending in one of these takes -t; all others take -d."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "maken",
+       "gemaakt"
+      ],
+      [
+       "wonen",
+       "gewoond"
+      ],
+      [
+       "lezen",
+       "gelezen"
+      ],
+      [
+       "kopen",
+       "gekocht"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Zij ___ naar huis gegaan.",
+     "options": [
+      "heeft",
+      "is",
+      "hebben",
+      "zijn"
+     ],
+     "answer": 1,
+     "explain": "gaan is a verb of movement to a place and takes zijn; zij (she) is singular."
+    },
+    {
+     "id": "e06",
+     "type": "fill",
+     "q": "Ik heb de rekening ___. (betalen)",
+     "answer": [
+      "betaald"
+     ],
+     "roman": null,
+     "explain": "be- is an unstressed prefix, so there is no ge-: betaald."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Ik",
+      "heb",
+      "gisteren",
+      "hard",
+      "gewerkt."
+     ],
+     "answer": "Ik heb gisteren hard gewerkt.",
+     "en": "I worked hard yesterday."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "The participle of leven is geleeft, because the stem leef ends in f.",
+     "answer": false,
+     "explain": "Judge by the infinitive: lev- ends in v, which is not in 't kofschip, so geleefd."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "The participle of opbellen is:",
+     "options": [
+      "geopbeld",
+      "opgebeld",
+      "opbelde",
+      "opgebelt"
+     ],
+     "answer": 1,
+     "explain": "Separable verbs put ge- between prefix and stem, and l takes -d."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Heb je al ___? (eten)",
+     "answer": [
+      "gegeten"
+     ],
+     "roman": null,
+     "explain": "eten is strong: gegeten."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "The participle of vertellen is:",
+     "options": [
+      "geverteld",
+      "vertelt",
+      "verteld",
+      "vertellen"
+     ],
+     "answer": 2,
+     "explain": "ver- blocks ge-, and l takes -d."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Zij heeft een brief ___. (schrijven)",
+     "answer": [
+      "geschreven"
+     ],
+     "roman": null,
+     "explain": "schrijven belongs to the ij → e family: geschreven."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "Heb",
+      "je",
+      "het",
+      "boek",
+      "al",
+      "gelezen?"
+     ],
+     "answer": "Heb je het boek al gelezen?",
+     "en": "Have you read the book yet?"
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "Verbs of movement with a destination take zijn: Ik ben naar school gefietst.",
+     "answer": true,
+     "explain": "With a destination, fietsen and lopen take zijn; without one they take hebben."
+    },
+    {
+     "id": "e15",
+     "type": "match",
+     "pairs": [
+      [
+       "drinken",
+       "gedronken"
+      ],
+      [
+       "beginnen",
+       "begonnen"
+      ],
+      [
+       "zijn",
+       "geweest"
+      ],
+      [
+       "hebben",
+       "gehad"
+      ]
+     ]
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Which sentence is correct?",
+     "options": [
+      "Ik heb een uur gefietst.",
+      "Ik ben een uur gefietst.",
+      "Ik heb een uur fietste.",
+      "Ik ben een uur gefietsd."
+     ],
+     "answer": 0,
+     "explain": "No destination is mentioned, so fietsen takes hebben; s takes -t."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "De les ___ begonnen. (auxiliary)",
+     "answer": [
+      "is"
+     ],
+     "roman": null,
+     "explain": "beginnen expresses a change of state and takes zijn."
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "The participle of praten is:",
+     "options": [
+      "gepraatt",
+      "gepraat",
+      "gepraten",
+      "geprat"
+     ],
+     "answer": 1,
+     "explain": "The stem already ends in t, so nothing is added."
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "Ik heb hem niet ___. (zien)",
+     "answer": [
+      "gezien"
+     ],
+     "roman": null,
+     "explain": "zien has the irregular participle gezien."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "Zij",
+      "is",
+      "gisteren",
+      "thuis",
+      "gebleven."
+     ],
+     "answer": "Zij is gisteren thuis gebleven.",
+     "en": "She stayed at home yesterday."
+    },
+    {
+     "id": "e21",
+     "type": "tf",
+     "q": "In 'Gisteren heb ik gewerkt' Dutch uses the perfect where English uses the simple past.",
+     "answer": true,
+     "explain": "The perfect is the normal conversational past tense in Dutch."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "...omdat ik het boek nog niet ___. Which completion is correct?",
+     "options": [
+      "heb gelezen",
+      "gelezen heb",
+      "both heb gelezen and gelezen heb",
+      "lees gehad"
+     ],
+     "answer": 2,
+     "explain": "At the end of a subordinate clause the auxiliary may stand before or after the participle."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "Wij hebben een nieuwe auto ___. (kopen)",
+     "answer": [
+      "gekocht"
+     ],
+     "roman": null,
+     "explain": "kopen is irregular: gekocht."
+    },
+    {
+     "id": "e24",
+     "type": "fill",
+     "q": "Ik had al ___ toen hij kwam. (eten)",
+     "answer": [
+      "gegeten"
+     ],
+     "roman": null,
+     "explain": "The pluperfect is had + participle: had gegeten."
+    },
+    {
+     "id": "e25",
+     "type": "order",
+     "words": [
+      "Ik",
+      "ben",
+      "naar",
+      "school",
+      "gefietst."
+     ],
+     "answer": "Ik ben naar school gefietst.",
+     "en": "I cycled to school."
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "'De winkel is gesloten' describes a state: the shop is closed.",
+     "answer": true,
+     "explain": "zijn + participle can express the resulting state."
+    },
+    {
+     "id": "e27",
+     "type": "mc",
+     "q": "The participle of studeren is:",
+     "options": [
+      "gestudeerd",
+      "studeerd",
+      "gestudeert",
+      "studeert"
+     ],
+     "answer": 0,
+     "explain": "Verbs in -eren are regular and take ge- and -d."
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "gaan",
+       "gegaan"
+      ],
+      [
+       "doen",
+       "gedaan"
+      ],
+      [
+       "brengen",
+       "gebracht"
+      ],
+      [
+       "denken",
+       "gedacht"
+      ]
+     ]
+    },
+    {
+     "id": "e29",
+     "type": "fill",
+     "q": "Hij ___ gisteren laat aangekomen. (auxiliary)",
+     "answer": [
+      "is"
+     ],
+     "roman": null,
+     "explain": "aankomen is movement to a place and takes zijn."
+    },
+    {
+     "id": "e30",
+     "type": "mc",
+     "q": "Which sentence is correct?",
+     "options": [
+      "Ik heb gisteren naar Parijs gegaan.",
+      "Ik ben gisteren naar Parijs gegaan.",
+      "Ik ben gisteren naar Parijs gaan.",
+      "Ik heb gisteren naar Parijs gegaan is."
+     ],
+     "answer": 1,
+     "explain": "gaan takes zijn, and the participle gegaan closes the clause."
+    }
+   ]
+  },
+  {
+   "id": "simple-past-and-modals",
+   "title": "The simple past and the modal verbs",
+   "level": 3,
+   "summary": "The simple past (ik werkte, ik las) is used for stories, descriptions and habits, and is the usual past tense of zijn, hebben and the modals. This chapter covers weak -te/-de forms, strong vowel changes, and the five modal verbs kunnen, moeten, mogen, willen and zullen in the present and past.",
+   "rules": [
+    {
+     "title": "Weak verbs: -te / -de",
+     "body": "Regular verbs add -te or -de to the stem in the singular and -ten or -den in the plural, using the same 't kofschip test as the participle: werken → werkte, werkten; maken → maakte; wonen → woonde, woonden; leren → leerde. Verbs whose stem ends in t or d simply add the ending, which produces a double letter: praten → praatte, antwoorden → antwoordde. Again judge by the infinitive: leven → leefde, reizen → reisde.",
+     "examples": [
+      {
+       "target": "ik werkte, wij werkten",
+       "roman": null,
+       "en": "I worked, we worked"
+      },
+      {
+       "target": "zij woonde",
+       "roman": null,
+       "en": "she lived"
+      },
+      {
+       "target": "hij praatte",
+       "roman": null,
+       "en": "he talked"
+      },
+      {
+       "target": "wij reisden",
+       "roman": null,
+       "en": "we travelled"
+      }
+     ]
+    },
+    {
+     "title": "Strong verbs: vowel change",
+     "body": "Strong verbs change their vowel and take no ending in the singular and -en in the plural: lezen → las, lazen; schrijven → schreef, schreven; drinken → dronk, dronken; lopen → liep, liepen; eten → at, aten; komen → kwam, kwamen; gaan → ging, gingen; zien → zag, zagen; geven → gaf, gaven; nemen → nam, namen; vinden → vond, vonden; blijven → bleef, bleven; slapen → sliep, sliepen; worden → werd, werden; rijden → reed, reden. The spelling of las/lazen, at/aten, kwam/kwamen follows the open and closed syllable rule.",
+     "examples": [
+      {
+       "target": "Ik las een boek.",
+       "roman": null,
+       "en": "I read a book."
+      },
+      {
+       "target": "Wij gingen naar huis.",
+       "roman": null,
+       "en": "We went home."
+      },
+      {
+       "target": "Hij kwam te laat.",
+       "roman": null,
+       "en": "He came too late."
+      },
+      {
+       "target": "Zij schreven brieven.",
+       "roman": null,
+       "en": "They wrote letters."
+      }
+     ]
+    },
+    {
+     "title": "Irregular pasts",
+     "body": "zijn → was, waren; hebben → had, hadden; doen → deed, deden; staan → stond, stonden; weten → wist, wisten; brengen → bracht, brachten; kopen → kocht, kochten; denken → dacht, dachten; zoeken → zocht, zochten; zeggen → zei, zeiden; kunnen → kon, konden; moeten → moest, moesten; mogen → mocht, mochten; willen → wilde, wilden (also wou in speech); zullen → zou, zouden.",
+     "examples": [
+      {
+       "target": "Ik was moe.",
+       "roman": null,
+       "en": "I was tired."
+      },
+      {
+       "target": "Wij hadden geen tijd.",
+       "roman": null,
+       "en": "We had no time."
+      },
+      {
+       "target": "Hij zei niets.",
+       "roman": null,
+       "en": "He said nothing."
+      },
+      {
+       "target": "Zij kocht brood.",
+       "roman": null,
+       "en": "She bought bread."
+      }
+     ]
+    },
+    {
+     "title": "When to use the simple past",
+     "body": "The simple past narrates a series of events in a story, describes background situations and habits in the past, and is the usual choice for zijn, hebben and the modals: Ik was ziek, dus ik kon niet komen. It also follows toen (when, once in the past): Toen ik jong was, woonde ik in Breda. For a single completed event in conversation, prefer the perfect (chapter 7): Ik heb gisteren een film gezien.",
+     "examples": [
+      {
+       "target": "Ik was ziek, dus ik kon niet komen.",
+       "roman": null,
+       "en": "I was ill, so I couldn't come."
+      },
+      {
+       "target": "Toen ik jong was, woonde ik in Breda.",
+       "roman": null,
+       "en": "When I was young I lived in Breda."
+      },
+      {
+       "target": "Elke zomer gingen we naar zee.",
+       "roman": null,
+       "en": "Every summer we went to the seaside."
+      }
+     ]
+    },
+    {
+     "title": "The five modal verbs",
+     "body": "The modals are kunnen (can), moeten (must), mogen (may), willen (want) and zullen (shall, will). Their present forms are irregular: ik kan, jij kunt or kan, hij kan, wij kunnen; ik moet, jij moet, wij moeten; ik mag, jij mag, wij mogen; ik wil, jij wilt or wil, hij wil, wij willen; ik zal, jij zult or zal, hij zal, wij zullen. u takes the singular -t forms: u kunt, u wilt, u zult. Before je the -t drops as usual: kun je, wil je.",
+     "examples": [
+      {
+       "target": "Ik kan goed zwemmen.",
+       "roman": null,
+       "en": "I can swim well."
+      },
+      {
+       "target": "Kun je me helpen?",
+       "roman": null,
+       "en": "Can you help me?"
+      },
+      {
+       "target": "Wij moeten gaan.",
+       "roman": null,
+       "en": "We have to go."
+      },
+      {
+       "target": "Mag ik hier zitten?",
+       "roman": null,
+       "en": "May I sit here?"
+      }
+     ]
+    },
+    {
+     "title": "Modal + infinitive at the end",
+     "body": "A modal is the conjugated verb in second position, and the main verb goes to the end as a bare infinitive, without te: Ik wil morgen naar Parijs gaan. Je moet nu je huiswerk maken. In a subordinate clause the modal also moves to the end, in front of the infinitive: ...omdat ik niet kan komen. Negated moeten means 'must not'; for 'need not' use hoeven niet, which does take te: Je hoeft niet te komen.",
+     "examples": [
+      {
+       "target": "Ik wil morgen naar Parijs gaan.",
+       "roman": null,
+       "en": "I want to go to Paris tomorrow."
+      },
+      {
+       "target": "...omdat ik niet kan komen.",
+       "roman": null,
+       "en": "...because I can't come."
+      },
+      {
+       "target": "Je hoeft niet te komen.",
+       "roman": null,
+       "en": "You don't have to come."
+      },
+      {
+       "target": "Je mag hier niet roken.",
+       "roman": null,
+       "en": "You may not smoke here."
+      }
+     ]
+    },
+    {
+     "title": "Meanings, and modals on their own",
+     "body": "kunnen expresses ability or possibility; mogen permission; moeten obligation; willen a wish (Ik wil graag ... is the polite 'I would like'); zullen the future or a suggestion: Zullen we gaan? (Shall we go?) Ik zal het doen. When the context is clear the infinitive is left out: Ik wil een koffie. Ik kan dat niet. Dat mag niet. Ik moet naar huis. Note that willen is not the future 'will': 'Will you come?' is simply Kom je?",
+     "examples": [
+      {
+       "target": "Zullen we gaan?",
+       "roman": null,
+       "en": "Shall we go?"
+      },
+      {
+       "target": "Ik wil graag een koffie.",
+       "roman": null,
+       "en": "I would like a coffee."
+      },
+      {
+       "target": "Dat mag niet.",
+       "roman": null,
+       "en": "That is not allowed."
+      },
+      {
+       "target": "Ik moet naar huis.",
+       "roman": null,
+       "en": "I have to go home."
+      }
+     ]
+    },
+    {
+     "title": "Modals in the past",
+     "body": "In the simple past the modal changes and the infinitive stays: Ik kon niet komen. Zij moest werken. Wij wilden blijven. zou and zouden (the past of zullen) mean 'would' and make polite requests: Ik zou graag een kamer willen. Zou je me kunnen helpen? In the perfect tense a modal does not become a participle; Dutch uses two infinitives at the end: Ik heb niet kunnen komen (I wasn't able to come). Zij heeft moeten werken.",
+     "examples": [
+      {
+       "target": "Ik kon gisteren niet komen.",
+       "roman": null,
+       "en": "I couldn't come yesterday."
+      },
+      {
+       "target": "Zou je me kunnen helpen?",
+       "roman": null,
+       "en": "Could you help me?"
+      },
+      {
+       "target": "Ik heb niet kunnen komen.",
+       "roman": null,
+       "en": "I wasn't able to come."
+      },
+      {
+       "target": "Zij moest gisteren werken.",
+       "roman": null,
+       "en": "She had to work yesterday."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "The simple past of 'ik werk' is:",
+     "options": [
+      "ik werkde",
+      "ik werkte",
+      "ik werkten",
+      "ik gewerkt"
+     ],
+     "answer": 1,
+     "explain": "k is in 't kofschip, so the ending is -te."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "Zij ___ in Utrecht. (wonen, simple past)",
+     "answer": [
+      "woonde"
+     ],
+     "roman": null,
+     "explain": "n is not in 't kofschip, so the ending is -de."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "Strong verbs take no ending in the singular of the simple past: ik las, hij las.",
+     "answer": true,
+     "explain": "Only the plural adds -en: wij lazen."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "lezen",
+       "las"
+      ],
+      [
+       "gaan",
+       "ging"
+      ],
+      [
+       "komen",
+       "kwam"
+      ],
+      [
+       "zijn",
+       "was"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "The simple past of 'wij praten' is:",
+     "options": [
+      "wij praten",
+      "wij praatten",
+      "wij pratten",
+      "wij praatte"
+     ],
+     "answer": 1,
+     "explain": "The stem praat ends in t, and the plural ending -ten is added: praatten."
+    },
+    {
+     "id": "e06",
+     "type": "fill",
+     "q": "Wij ___ geen tijd. (hebben, simple past)",
+     "answer": [
+      "hadden"
+     ],
+     "roman": null,
+     "explain": "hebben has the irregular past had, hadden."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Toen",
+      "ik",
+      "jong",
+      "was,",
+      "woonde",
+      "ik",
+      "in",
+      "Breda."
+     ],
+     "answer": "Toen ik jong was, woonde ik in Breda.",
+     "en": "When I was young, I lived in Breda."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "The simple past of kopen is koopte.",
+     "answer": false,
+     "explain": "kopen is irregular: kocht, kochten."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Ik ___ goed zwemmen. (kunnen)",
+     "options": [
+      "kun",
+      "kan",
+      "kunt",
+      "kunnen"
+     ],
+     "answer": 1,
+     "explain": "The ik-form of kunnen is kan."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Hij ___ een brief. (schrijven, simple past)",
+     "answer": [
+      "schreef"
+     ],
+     "roman": null,
+     "explain": "schrijven is strong: schreef, schreven."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "Which modal expresses permission?",
+     "options": [
+      "moeten",
+      "kunnen",
+      "mogen",
+      "zullen"
+     ],
+     "answer": 2,
+     "explain": "mogen means 'may, be allowed to'."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "___ je me helpen? (kunnen)",
+     "answer": [
+      "Kun",
+      "Kan",
+      "kun",
+      "kan"
+     ],
+     "roman": null,
+     "explain": "Before je the -t drops: kun je (or kan je in speech)."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "Ik",
+      "wil",
+      "morgen",
+      "naar",
+      "Parijs",
+      "gaan."
+     ],
+     "answer": "Ik wil morgen naar Parijs gaan.",
+     "en": "I want to go to Paris tomorrow."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "After a modal verb the infinitive is introduced by te: Ik wil te gaan.",
+     "answer": false,
+     "explain": "Modals take a bare infinitive: Ik wil gaan."
+    },
+    {
+     "id": "e15",
+     "type": "match",
+     "pairs": [
+      [
+       "kunnen",
+       "can, be able to"
+      ],
+      [
+       "moeten",
+       "must, have to"
+      ],
+      [
+       "mogen",
+       "may, be allowed to"
+      ],
+      [
+       "willen",
+       "want to"
+      ]
+     ]
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "'You don't have to come' is:",
+     "options": [
+      "Je moet niet komen.",
+      "Je hoeft niet te komen.",
+      "Je mag niet komen.",
+      "Je kunt niet komen."
+     ],
+     "answer": 1,
+     "explain": "'Need not' is hoeven niet + te; moet niet means 'must not'."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Wij ___ gisteren niet komen. (kunnen, simple past)",
+     "answer": [
+      "konden"
+     ],
+     "roman": null,
+     "explain": "kunnen has the past kon, konden."
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "The simple past of 'ik zeg' is:",
+     "options": [
+      "ik zegde",
+      "ik zei",
+      "ik zegte",
+      "ik gezegd"
+     ],
+     "answer": 1,
+     "explain": "zeggen is irregular: zei, zeiden."
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "Zij ___ gisteren werken. (moeten, simple past)",
+     "answer": [
+      "moest"
+     ],
+     "roman": null,
+     "explain": "moeten has the past moest, moesten."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "Zullen",
+      "we",
+      "naar",
+      "de",
+      "film",
+      "gaan?"
+     ],
+     "answer": "Zullen we naar de film gaan?",
+     "en": "Shall we go to the cinema?"
+    },
+    {
+     "id": "e21",
+     "type": "tf",
+     "q": "In the past tense the modal changes and the infinitive stays: Ik kon niet komen.",
+     "answer": true,
+     "explain": "Only the modal is conjugated; komen stays an infinitive."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "Which sentence means 'I would like a coffee'?",
+     "options": [
+      "Ik moet een koffie.",
+      "Ik wil graag een koffie.",
+      "Ik zal een koffie.",
+      "Ik mag een koffie."
+     ],
+     "answer": 1,
+     "explain": "willen + graag is the polite way to ask for something."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "Ik ___ gisteren moe. (zijn, simple past)",
+     "answer": [
+      "was"
+     ],
+     "roman": null,
+     "explain": "The past of zijn is was, waren."
+    },
+    {
+     "id": "e24",
+     "type": "fill",
+     "q": "Zij ___ om zes uur thuis. (komen, simple past)",
+     "answer": [
+      "kwam"
+     ],
+     "roman": null,
+     "explain": "komen is strong: kwam, kwamen."
+    },
+    {
+     "id": "e25",
+     "type": "order",
+     "words": [
+      "Zou",
+      "je",
+      "me",
+      "kunnen",
+      "helpen?"
+     ],
+     "answer": "Zou je me kunnen helpen?",
+     "en": "Could you help me?"
+    },
+    {
+     "id": "e26",
+     "type": "mc",
+     "q": "...omdat ik morgen niet ___.",
+     "options": [
+      "kan komen",
+      "kan kom",
+      "komen kunnen",
+      "kom kunnen"
+     ],
+     "answer": 0,
+     "explain": "In a subordinate clause the conjugated modal stands before the infinitive at the end."
+    },
+    {
+     "id": "e27",
+     "type": "tf",
+     "q": "The simple past is the usual choice for zijn, hebben and the modals: Ik was ziek, ik had geen tijd, ik kon niet.",
+     "answer": true,
+     "explain": "These verbs are rarely used in the perfect for simple statements about the past."
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "werkte",
+       "worked (weak, -te)"
+      ],
+      [
+       "leefde",
+       "lived (weak, -de)"
+      ],
+      [
+       "dronk",
+       "drank (strong)"
+      ],
+      [
+       "wist",
+       "knew (irregular)"
+      ]
+     ]
+    },
+    {
+     "id": "e29",
+     "type": "fill",
+     "q": "Ik heb niet ___ komen. (kunnen: I wasn't able to come)",
+     "answer": [
+      "kunnen"
+     ],
+     "roman": null,
+     "explain": "In the perfect a modal appears as an infinitive, not a participle."
+    },
+    {
+     "id": "e30",
+     "type": "mc",
+     "q": "Zij ___ brood. (kopen, simple past)",
+     "options": [
+      "koopte",
+      "kocht",
+      "kochte",
+      "gekocht"
+     ],
+     "answer": 1,
+     "explain": "kopen has the irregular past kocht."
+    }
+   ]
+  },
+  {
+   "id": "questions-negation-er",
+   "title": "Questions, negation and er",
+   "level": 3,
+   "summary": "How to ask questions with and without a question word, how to say no with niet and geen and where to put niet, and the small but very frequent word er, which appears as 'there', as a dummy subject, after numbers and in combinations like eraan and ermee.",
+   "rules": [
+    {
+     "title": "Yes/no questions",
+     "body": "Put the conjugated verb first and the subject second; no 'do' is needed: Woon je in Amsterdam? Heeft u tijd? Komt hij morgen? Remember that je loses the -t after the verb. Answer with ja or nee; to contradict a negative question use jawel: Kom je niet? Jawel! A tag question is often made with toch? or hè?: Je komt toch?",
+     "examples": [
+      {
+       "target": "Woon je in Amsterdam?",
+       "roman": null,
+       "en": "Do you live in Amsterdam?"
+      },
+      {
+       "target": "Heeft u tijd?",
+       "roman": null,
+       "en": "Do you have time?"
+      },
+      {
+       "target": "Kom je niet? Jawel!",
+       "roman": null,
+       "en": "Aren't you coming? Yes, I am!"
+      }
+     ]
+    },
+    {
+     "title": "Question words",
+     "body": "wie (who), wat (what), waar (where), wanneer (when), waarom (why), hoe (how), hoeveel (how much, how many), hoe laat (what time), welk/welke (which: welk before a singular het-word, welke otherwise), wat voor (een) (what kind of). The question word comes first and the verb second: Waar woon je? Hoe laat begint de film? Welke fiets is van jou?",
+     "examples": [
+      {
+       "target": "Waar woon je?",
+       "roman": null,
+       "en": "Where do you live?"
+      },
+      {
+       "target": "Hoe laat begint de film?",
+       "roman": null,
+       "en": "What time does the film start?"
+      },
+      {
+       "target": "Welk boek lees je?",
+       "roman": null,
+       "en": "Which book are you reading?"
+      },
+      {
+       "target": "Hoeveel kost het?",
+       "roman": null,
+       "en": "How much does it cost?"
+      }
+     ]
+    },
+    {
+     "title": "Prepositions in questions: met wie, waarmee",
+     "body": "For a person, use the preposition + wie: Met wie ga je? Voor wie is dit? For a thing, Dutch does not say 'met wat' but waar + preposition, written as one word or split with the preposition near the end: Waarmee schrijf je? or Waar schrijf je mee? Waarover praten jullie? or Waar praten jullie over? The combined forms are waarmee (met), waarvan (van), waarover (over), waarop (op), waarnaar (naar).",
+     "examples": [
+      {
+       "target": "Met wie ga je?",
+       "roman": null,
+       "en": "Who are you going with?"
+      },
+      {
+       "target": "Waarmee schrijf je?",
+       "roman": null,
+       "en": "What are you writing with?"
+      },
+      {
+       "target": "Waar praten jullie over?",
+       "roman": null,
+       "en": "What are you talking about?"
+      }
+     ]
+    },
+    {
+     "title": "niet or geen?",
+     "body": "geen negates a noun that would otherwise have een or no article at all: Ik heb geen fiets (I have no bike). Ik drink geen koffie. Er zijn geen stoelen. niet negates everything else: verbs, adjectives, adverbs, and nouns preceded by a definite word (de, het, mijn, deze...): Ik heb de fiets niet. Ik werk niet. Het is niet duur. Dit is niet mijn jas.",
+     "examples": [
+      {
+       "target": "Ik heb geen fiets.",
+       "roman": null,
+       "en": "I don't have a bike."
+      },
+      {
+       "target": "Ik drink geen koffie.",
+       "roman": null,
+       "en": "I don't drink coffee."
+      },
+      {
+       "target": "Ik heb de fiets niet.",
+       "roman": null,
+       "en": "I don't have the bike."
+      },
+      {
+       "target": "Het is niet duur.",
+       "roman": null,
+       "en": "It isn't expensive."
+      }
+     ]
+    },
+    {
+     "title": "Where niet goes",
+     "body": "niet comes as late as possible in the clause, but before an infinitive or participle at the end (Ik heb het niet gelezen), before a prepositional phrase (Ik ga niet naar school), and before an adjective or adverb it negates (Hij is niet ziek; zij fietst niet snel). It comes after definite objects and time expressions: Ik lees het boek vandaag niet. Ik zie hem niet. Placing niet directly before one element negates just that element: Niet ik, maar jij.",
+     "examples": [
+      {
+       "target": "Ik heb het boek niet gelezen.",
+       "roman": null,
+       "en": "I haven't read the book."
+      },
+      {
+       "target": "Ik ga morgen niet naar school.",
+       "roman": null,
+       "en": "I'm not going to school tomorrow."
+      },
+      {
+       "target": "Ik zie hem niet.",
+       "roman": null,
+       "en": "I don't see him."
+      },
+      {
+       "target": "Hij is niet thuis.",
+       "roman": null,
+       "en": "He is not at home."
+      }
+     ]
+    },
+    {
+     "title": "Other negative words",
+     "body": "nooit (never), niemand (nobody), niets or niks (nothing), nergens (nowhere), nog niet (not yet), niet meer (no longer), geen ... meer (no more), ook niet (not either). Standard Dutch has no double negation: Ik zie niemand, not 'niet niemand'. Ik heb nog geen tijd gehad. Hij woont hier niet meer.",
+     "examples": [
+      {
+       "target": "Ik zie niemand.",
+       "roman": null,
+       "en": "I see nobody."
+      },
+      {
+       "target": "Ik heb nog niets gegeten.",
+       "roman": null,
+       "en": "I haven't eaten anything yet."
+      },
+      {
+       "target": "Hij woont hier niet meer.",
+       "roman": null,
+       "en": "He doesn't live here any more."
+      },
+      {
+       "target": "Er is geen melk meer.",
+       "roman": null,
+       "en": "There is no milk left."
+      }
+     ]
+    },
+    {
+     "title": "er: 'there' and the dummy subject",
+     "body": "er (unstressed 'there') has several jobs. As a place word it is the weak form of daar: Ik woon er al jaren (I've lived there for years). As a dummy subject it introduces an indefinite subject, as in er is / er zijn (chapter 3) and with other verbs: Er komt iemand. Er staat een man voor de deur. It also appears in impersonal passives: Er wordt gebeld (someone is ringing the bell).",
+     "examples": [
+      {
+       "target": "Er staat een man voor de deur.",
+       "roman": null,
+       "en": "There's a man at the door."
+      },
+      {
+       "target": "Er komt iemand.",
+       "roman": null,
+       "en": "Someone is coming."
+      },
+      {
+       "target": "Ik woon er al jaren.",
+       "roman": null,
+       "en": "I've lived there for years."
+      },
+      {
+       "target": "Er wordt gebeld.",
+       "roman": null,
+       "en": "Someone is ringing the bell."
+      }
+     ]
+    },
+    {
+     "title": "er with numbers and prepositions",
+     "body": "After a number or quantity that stands without its noun, er replaces the noun: Hoeveel kinderen heb je? Ik heb er twee. Heb je een pen? Ik heb er geen. For a thing after a preposition, Dutch uses er + preposition instead of a pronoun (never 'op het'): Ik denk eraan. Ik heb ermee gewerkt. The two parts are often split, with the preposition near the end: Ik denk er niet aan. The stressed form uses daar: Daar denk ik niet aan. Compare waar- in questions and hier- (hiermee).",
+     "examples": [
+      {
+       "target": "Ik heb er twee.",
+       "roman": null,
+       "en": "I have two (of them)."
+      },
+      {
+       "target": "Ik denk eraan.",
+       "roman": null,
+       "en": "I'm thinking about it."
+      },
+      {
+       "target": "Ik denk er niet aan.",
+       "roman": null,
+       "en": "I'm not thinking about it."
+      },
+      {
+       "target": "Daar heb ik geen zin in.",
+       "roman": null,
+       "en": "I don't feel like that."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Which is the correct yes/no question?",
+     "options": [
+      "Wonen je in Amsterdam?",
+      "Woon je in Amsterdam?",
+      "Woont je in Amsterdam?",
+      "Doe je wonen in Amsterdam?"
+     ],
+     "answer": 1,
+     "explain": "Verb first, and the -t drops before je."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "___ woon je? (Where)",
+     "answer": [
+      "Waar"
+     ],
+     "roman": null,
+     "explain": "waar means 'where' and stands first, with the verb second."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "Dutch forms yes/no questions by putting the verb first, without any 'do'.",
+     "answer": true,
+     "explain": "Kom je? = Are you coming?"
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "wie",
+       "who"
+      ],
+      [
+       "wanneer",
+       "when"
+      ],
+      [
+       "waarom",
+       "why"
+      ],
+      [
+       "hoeveel",
+       "how much, how many"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Ik heb ___ fiets. (I don't have a bike.)",
+     "options": [
+      "niet",
+      "geen",
+      "niets",
+      "nee"
+     ],
+     "answer": 1,
+     "explain": "An indefinite noun is negated with geen."
+    },
+    {
+     "id": "e06",
+     "type": "fill",
+     "q": "Ik drink ___ koffie. (I don't drink coffee.)",
+     "answer": [
+      "geen"
+     ],
+     "roman": null,
+     "explain": "koffie has no article here, so the negation is geen."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Hoe",
+      "laat",
+      "begint",
+      "de",
+      "film?"
+     ],
+     "answer": "Hoe laat begint de film?",
+     "en": "What time does the film start?"
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "'Ik heb de fiets niet' is correct, because the noun has a definite article.",
+     "answer": true,
+     "explain": "With de, het or a possessive the negation is niet, placed after the object."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Which sentence is correct?",
+     "options": [
+      "Ik werk geen.",
+      "Ik geen werk.",
+      "Ik werk niet.",
+      "Ik niet werk."
+     ],
+     "answer": 2,
+     "explain": "A verb is negated with niet, which comes after it."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Het is ___ duur. (It isn't expensive.)",
+     "answer": [
+      "niet"
+     ],
+     "roman": null,
+     "explain": "Adjectives are negated with niet, placed in front of them."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "___ boek lees je? (which; het boek)",
+     "options": [
+      "Welke",
+      "Welk",
+      "Wat",
+      "Wie"
+     ],
+     "answer": 1,
+     "explain": "Before a singular het-word 'which' is welk."
+    },
+    {
+     "id": "e12",
+     "type": "order",
+     "words": [
+      "Ik",
+      "ga",
+      "morgen",
+      "niet",
+      "naar",
+      "school."
+     ],
+     "answer": "Ik ga morgen niet naar school.",
+     "en": "I'm not going to school tomorrow."
+    },
+    {
+     "id": "e13",
+     "type": "tf",
+     "q": "'Met wat schrijf je?' is the normal way to ask 'What are you writing with?'",
+     "answer": false,
+     "explain": "For things Dutch uses waar + preposition: Waarmee schrijf je?"
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "___ praten jullie over? (What ... about?)",
+     "answer": [
+      "Waar"
+     ],
+     "roman": null,
+     "explain": "waar ... over is the split form of waarover."
+    },
+    {
+     "id": "e15",
+     "type": "match",
+     "pairs": [
+      [
+       "waarmee",
+       "with what"
+      ],
+      [
+       "waarover",
+       "about what"
+      ],
+      [
+       "waarvan",
+       "of what"
+      ],
+      [
+       "met wie",
+       "with whom"
+      ]
+     ]
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Complete: Ik heb het boek ___.",
+     "options": [
+      "niet gelezen",
+      "gelezen niet",
+      "geen gelezen",
+      "gelezen geen"
+     ],
+     "answer": 0,
+     "explain": "niet comes after the definite object but before the participle."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Ik zie ___. (nobody)",
+     "answer": [
+      "niemand"
+     ],
+     "roman": null,
+     "explain": "niemand means nobody and needs no extra niet."
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "Hoeveel kinderen heb je? Ik heb ___ twee.",
+     "options": [
+      "er",
+      "ze",
+      "het",
+      "daar"
+     ],
+     "answer": 0,
+     "explain": "After a number without its noun, er stands in for the noun."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "Er",
+      "staat",
+      "een",
+      "man",
+      "voor",
+      "de",
+      "deur."
+     ],
+     "answer": "Er staat een man voor de deur.",
+     "en": "There's a man at the door."
+    },
+    {
+     "id": "e20",
+     "type": "tf",
+     "q": "Standard Dutch uses double negation, as in 'Ik zie niet niemand'.",
+     "answer": false,
+     "explain": "One negative word is enough: Ik zie niemand."
+    },
+    {
+     "id": "e21",
+     "type": "fill",
+     "q": "Hij woont hier niet ___. (any more)",
+     "answer": [
+      "meer"
+     ],
+     "roman": null,
+     "explain": "niet meer means 'no longer'."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "'I'm thinking about it' is:",
+     "options": [
+      "Ik denk aan het.",
+      "Ik denk eraan.",
+      "Ik denk het aan.",
+      "Ik denk aan er."
+     ],
+     "answer": 1,
+     "explain": "A thing after a preposition becomes er + preposition: eraan."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "Kom je niet? ___! (Yes, I am!)",
+     "answer": [
+      "Jawel",
+      "jawel"
+     ],
+     "roman": null,
+     "explain": "jawel contradicts a negative question."
+    },
+    {
+     "id": "e24",
+     "type": "order",
+     "words": [
+      "Ik",
+      "denk",
+      "er",
+      "niet",
+      "aan."
+     ],
+     "answer": "Ik denk er niet aan.",
+     "en": "I'm not thinking about it."
+    },
+    {
+     "id": "e25",
+     "type": "match",
+     "pairs": [
+      [
+       "nooit",
+       "never"
+      ],
+      [
+       "nergens",
+       "nowhere"
+      ],
+      [
+       "niets",
+       "nothing"
+      ],
+      [
+       "nog niet",
+       "not yet"
+      ]
+     ]
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "In 'Ik heb er twee', er stands for a noun mentioned earlier.",
+     "answer": true,
+     "explain": "er replaces the noun after a number: twee kinderen → er twee."
+    },
+    {
+     "id": "e27",
+     "type": "mc",
+     "q": "Which sentence is correct?",
+     "options": [
+      "Hij is niet thuis.",
+      "Hij is geen thuis.",
+      "Hij niet is thuis.",
+      "Hij is thuis geen."
+     ],
+     "answer": 0,
+     "explain": "thuis is an adverb, so it is negated with niet placed before it."
+    },
+    {
+     "id": "e28",
+     "type": "fill",
+     "q": "Er ___ gebeld. (Someone is ringing the bell; passive with worden)",
+     "answer": [
+      "wordt"
+     ],
+     "roman": null,
+     "explain": "The impersonal passive uses er + wordt + participle."
+    },
+    {
+     "id": "e29",
+     "type": "mc",
+     "q": "'Who are you going with?' is:",
+     "options": [
+      "Met wat ga je?",
+      "Waarmee ga je?",
+      "Met wie ga je?",
+      "Wie ga je met?"
+     ],
+     "answer": 2,
+     "explain": "For a person the preposition stays with wie: met wie."
+    },
+    {
+     "id": "e30",
+     "type": "order",
+     "words": [
+      "Ik",
+      "heb",
+      "nog",
+      "niets",
+      "gegeten."
+     ],
+     "answer": "Ik heb nog niets gegeten.",
+     "en": "I haven't eaten anything yet."
+    }
+   ]
+  },
+  {
+   "id": "numbers-time-dates-politeness",
+   "title": "Numbers, time, dates and politeness",
+   "level": 3,
+   "summary": "Counting in Dutch, with its units-first numbers (eenentwintig = 21), telling the time with the forward-looking half (half vier = 3:30), days and dates, and the social side of the language: choosing u or jij, alstublieft and alsjeblieft, and the greetings and formulas used every day.",
+   "rules": [
+    {
+     "title": "Numbers 0 to 20",
+     "body": "nul, een (één when stressed), twee, drie, vier, vijf, zes, zeven, acht, negen, tien, elf, twaalf, dertien, veertien, vijftien, zestien, zeventien, achttien, negentien, twintig. Note the irregular dertien and veertien (not drie- and vier-) and the double t in achttien. When numbers are read out, zeven is often pronounced 'zeuven' to avoid confusion with negen.",
+     "examples": [
+      {
+       "target": "drie",
+       "roman": null,
+       "en": "three"
+      },
+      {
+       "target": "dertien",
+       "roman": null,
+       "en": "thirteen"
+      },
+      {
+       "target": "veertien",
+       "roman": null,
+       "en": "fourteen"
+      },
+      {
+       "target": "twintig",
+       "roman": null,
+       "en": "twenty"
+      }
+     ]
+    },
+    {
+     "title": "Units first: eenentwintig",
+     "body": "The tens are twintig, dertig, veertig, vijftig, zestig, zeventig, tachtig, negentig. From 21 on the unit comes first, joined by en and written as one word: eenentwintig (21), vijfendertig (35), achtennegentig (98). After twee and drie a diaeresis is written: tweeëntwintig, drieëndertig. honderd (100), duizend (1000), een miljoen: honderdvijfentwintig (125), tweeduizend (2000); no en after honderd. Years are usually read in hundreds: 1999 is negentienhonderdnegenennegentig; 2026 is tweeduizend zesentwintig. The decimal sign is a comma: 2,5 = twee komma vijf.",
+     "examples": [
+      {
+       "target": "eenentwintig",
+       "roman": null,
+       "en": "twenty-one"
+      },
+      {
+       "target": "tweeëndertig",
+       "roman": null,
+       "en": "thirty-two"
+      },
+      {
+       "target": "honderdvijfentwintig",
+       "roman": null,
+       "en": "one hundred and twenty-five"
+      },
+      {
+       "target": "tweeduizend zesentwintig",
+       "roman": null,
+       "en": "2026"
+      }
+     ]
+    },
+    {
+     "title": "Ordinal numbers",
+     "body": "Add -de to the number: tweede, vierde, vijfde, tiende, twaalfde, with three exceptions: eerste (1st), derde (3rd), achtste (8th). From twintig upward add -ste: twintigste, eenentwintigste, honderdste, duizendste. Ordinals are adjectives and take -e: de eerste dag, het derde huis. In figures they are written 1e, 2e, 3e (or 1ste, 2de).",
+     "examples": [
+      {
+       "target": "de eerste keer",
+       "roman": null,
+       "en": "the first time"
+      },
+      {
+       "target": "het derde huis",
+       "roman": null,
+       "en": "the third house"
+      },
+      {
+       "target": "de achtste verdieping",
+       "roman": null,
+       "en": "the eighth floor"
+      },
+      {
+       "target": "de twintigste eeuw",
+       "roman": null,
+       "en": "the twentieth century"
+      }
+     ]
+    },
+    {
+     "title": "Telling the time",
+     "body": "Hoe laat is het? Het is drie uur (3:00). Dutch halves look forward to the next hour: half vier = 3:30 (half way to four). kwart over drie = 3:15, kwart voor vier = 3:45. Minutes near the hour use over and voor: tien over drie (3:10), tien voor vier (3:50); minutes near the half hour are counted from the half: tien voor half vier (3:20), vijf over half vier (3:35). Spoken Dutch uses the 12-hour clock plus 's ochtends, 's middags, 's avonds, 's nachts; timetables use 24 hours. 'At' is om: om half negen.",
+     "examples": [
+      {
+       "target": "Het is half vier.",
+       "roman": null,
+       "en": "It is half past three (3:30)."
+      },
+      {
+       "target": "kwart voor vier",
+       "roman": null,
+       "en": "a quarter to four"
+      },
+      {
+       "target": "tien over half acht",
+       "roman": null,
+       "en": "twenty to eight (7:40)"
+      },
+      {
+       "target": "om acht uur 's avonds",
+       "roman": null,
+       "en": "at eight in the evening"
+      }
+     ]
+    },
+    {
+     "title": "Days, months and dates",
+     "body": "Days: maandag, dinsdag, woensdag, donderdag, vrijdag, zaterdag, zondag. Months: januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december. Both are written in lower case. Dates use a cardinal number: 3 mei is read drie mei, and figures are written day-month-year: 3-5-2026. Prepositions: op maandag, op 3 mei, in mei, in 2026; 's maandags means 'on Mondays'. Useful words: vandaag, gisteren, morgen, overmorgen, vanavond. Welke datum is het vandaag? (What is the date today?)",
+     "examples": [
+      {
+       "target": "Vandaag is het woensdag 3 mei.",
+       "roman": null,
+       "en": "Today is Wednesday 3 May."
+      },
+      {
+       "target": "op vrijdag",
+       "roman": null,
+       "en": "on Friday"
+      },
+      {
+       "target": "in augustus",
+       "roman": null,
+       "en": "in August"
+      },
+      {
+       "target": "'s maandags",
+       "roman": null,
+       "en": "on Mondays"
+      }
+     ]
+    },
+    {
+     "title": "u or jij?",
+     "body": "Use u for strangers, older people, customers, officials and in formal letters; it goes with bent and hebt (or heeft), with uw and with alstublieft. Use jij/je for family, friends, children, fellow students and most colleagues; Dutch society is informal and people will often say 'Zeg maar je' (just say je). jullie is always informal. In Flanders u is used more widely and ge/gij is heard in speech, but the standard forms are the same.",
+     "examples": [
+      {
+       "target": "Kunt u mij helpen?",
+       "roman": null,
+       "en": "Can you help me? (polite)"
+      },
+      {
+       "target": "Kun je me helpen?",
+       "roman": null,
+       "en": "Can you help me? (informal)"
+      },
+      {
+       "target": "Zeg maar je.",
+       "roman": null,
+       "en": "You can call me je."
+      },
+      {
+       "target": "Hoe heet u? / Hoe heet je?",
+       "roman": null,
+       "en": "What is your name? (polite / informal)"
+      }
+     ]
+    },
+    {
+     "title": "alstublieft, alsjeblieft and thanks",
+     "body": "alstublieft (with u) and alsjeblieft (with je) mean both 'please' and 'here you are' when handing something over. Thanks: dank u wel, dank je wel, bedankt, hartelijk dank; the reply is graag gedaan (you're welcome) or geen dank. Polite requests: Mag ik ...? (May I have ...?), Ik wil graag ... (I would like ...), Kunt u ...?, Zou u ... kunnen ...? Apologies: sorry, pardon, het spijt me (I'm sorry), and in Flanders often excuseer.",
+     "examples": [
+      {
+       "target": "Een koffie, alstublieft.",
+       "roman": null,
+       "en": "A coffee, please."
+      },
+      {
+       "target": "Alsjeblieft! – Dank je wel! – Graag gedaan.",
+       "roman": null,
+       "en": "Here you are! – Thanks! – You're welcome."
+      },
+      {
+       "target": "Mag ik de rekening?",
+       "roman": null,
+       "en": "May I have the bill?"
+      },
+      {
+       "target": "Het spijt me.",
+       "roman": null,
+       "en": "I'm sorry."
+      }
+     ]
+    },
+    {
+     "title": "Greetings and everyday formulas",
+     "body": "Greetings: hallo, hoi (informal), goedemorgen, goedemiddag, goedenavond, dag (hello or goodbye), tot ziens, tot morgen, doei or doeg (informal bye), slaap lekker. Hoe gaat het (met je / met u)? – Goed, dank je. En met jou? Introductions: Ik heet ..., Ik ben ..., Aangenaam (pleased to meet you). Other formulas: eet smakelijk (enjoy your meal), proost (cheers), gefeliciteerd (congratulations), gezondheid (bless you), welkom, fijne dag / prettig weekend (have a nice day / weekend), sterkte (hang in there), geen probleem.",
+     "examples": [
+      {
+       "target": "Goedemorgen! Hoe gaat het?",
+       "roman": null,
+       "en": "Good morning! How are you?"
+      },
+      {
+       "target": "Goed, dank je. En met jou?",
+       "roman": null,
+       "en": "Fine, thanks. And you?"
+      },
+      {
+       "target": "Eet smakelijk!",
+       "roman": null,
+       "en": "Enjoy your meal!"
+      },
+      {
+       "target": "Tot ziens!",
+       "roman": null,
+       "en": "Goodbye!"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "The number 21 is:",
+     "options": [
+      "twintigeen",
+      "eenentwintig",
+      "twintig en een",
+      "een twintig"
+     ],
+     "answer": 1,
+     "explain": "Unit first, then en, then the ten, all in one word."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "13 = ___",
+     "answer": [
+      "dertien"
+     ],
+     "roman": null,
+     "explain": "Thirteen is the irregular dertien, not 'drietien'."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "In Dutch numbers above twenty the unit comes before the ten: vijfendertig = 35.",
+     "answer": true,
+     "explain": "vijf-en-dertig literally means five-and-thirty."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "veertien",
+       "14"
+      ],
+      [
+       "veertig",
+       "40"
+      ],
+      [
+       "achttien",
+       "18"
+      ],
+      [
+       "tachtig",
+       "80"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "32 is written:",
+     "options": [
+      "tweeendertig",
+      "tweeëndertig",
+      "twee-en-dertig",
+      "dertigtwee"
+     ],
+     "answer": 1,
+     "explain": "After twee the en gets a diaeresis: tweeëndertig."
+    },
+    {
+     "id": "e06",
+     "type": "fill",
+     "q": "Het is ___ vier. (3:30)",
+     "answer": [
+      "half"
+     ],
+     "roman": null,
+     "explain": "half vier means half way to four, so 3:30."
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Het",
+      "is",
+      "kwart",
+      "over",
+      "drie."
+     ],
+     "answer": "Het is kwart over drie.",
+     "en": "It is a quarter past three."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "half vier means 4:30.",
+     "answer": false,
+     "explain": "Dutch halves look forward: half vier is 3:30."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "'tien voor half vier' is:",
+     "options": [
+      "3:20",
+      "3:40",
+      "4:20",
+      "3:50"
+     ],
+     "answer": 0,
+     "explain": "Ten minutes before half past three (3:30) is 3:20."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "de ___ keer (the first time)",
+     "answer": [
+      "eerste"
+     ],
+     "roman": null,
+     "explain": "The ordinal of een is the irregular eerste."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "The ordinal 'third' is:",
+     "options": [
+      "driede",
+      "derde",
+      "drieste",
+      "driste"
+     ],
+     "answer": 1,
+     "explain": "derde is one of the three irregular ordinals, with eerste and achtste."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "de ___ verdieping (the eighth floor)",
+     "answer": [
+      "achtste"
+     ],
+     "roman": null,
+     "explain": "acht takes -ste, not -de: achtste."
+    },
+    {
+     "id": "e13",
+     "type": "match",
+     "pairs": [
+      [
+       "maandag",
+       "Monday"
+      ],
+      [
+       "woensdag",
+       "Wednesday"
+      ],
+      [
+       "vrijdag",
+       "Friday"
+      ],
+      [
+       "zondag",
+       "Sunday"
+      ]
+     ]
+    },
+    {
+     "id": "e14",
+     "type": "order",
+     "words": [
+      "Vandaag",
+      "is",
+      "het",
+      "woensdag",
+      "drie",
+      "mei."
+     ],
+     "answer": "Vandaag is het woensdag drie mei.",
+     "en": "Today is Wednesday the third of May."
+    },
+    {
+     "id": "e15",
+     "type": "tf",
+     "q": "Dutch writes the names of months with a capital letter, like English.",
+     "answer": false,
+     "explain": "Days and months are lower case: mei, maandag."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "'On Friday' is:",
+     "options": [
+      "in vrijdag",
+      "op vrijdag",
+      "aan vrijdag",
+      "bij vrijdag"
+     ],
+     "answer": 1,
+     "explain": "Days and dates take op: op vrijdag, op 3 mei."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Ik ben geboren in ___. (August)",
+     "answer": [
+      "augustus"
+     ],
+     "roman": null,
+     "explain": "The month is augustus, written in lower case."
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "Which sentence uses the polite 'you'?",
+     "options": [
+      "Kun je me helpen?",
+      "Kunt u mij helpen?",
+      "Kunnen jullie me helpen?",
+      "Help je me?"
+     ],
+     "answer": 1,
+     "explain": "u with the -t form kunt is the polite address."
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "Een koffie, ___. (please, formal)",
+     "answer": [
+      "alstublieft"
+     ],
+     "roman": null,
+     "explain": "alstublieft goes with u; alsjeblieft with je."
+    },
+    {
+     "id": "e20",
+     "type": "tf",
+     "q": "alsjeblieft can also mean 'here you are' when handing something over.",
+     "answer": true,
+     "explain": "Both alstublieft and alsjeblieft are used for 'please' and 'here you are'."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Mag",
+      "ik",
+      "de",
+      "rekening,",
+      "alstublieft?"
+     ],
+     "answer": "Mag ik de rekening, alstublieft?",
+     "en": "May I have the bill, please?"
+    },
+    {
+     "id": "e22",
+     "type": "match",
+     "pairs": [
+      [
+       "Dank je wel.",
+       "Thank you."
+      ],
+      [
+       "Graag gedaan.",
+       "You're welcome."
+      ],
+      [
+       "Het spijt me.",
+       "I'm sorry."
+      ],
+      [
+       "Tot ziens.",
+       "Goodbye."
+      ]
+     ]
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "'Zeg maar je' means:",
+     "options": [
+      "Say yes",
+      "You can address me informally",
+      "Please speak louder",
+      "Say it again"
+     ],
+     "answer": 1,
+     "explain": "It invites you to drop u and use je."
+    },
+    {
+     "id": "e24",
+     "type": "fill",
+     "q": "Hoe gaat het? – Goed, dank je. En met ___? (you, informal, stressed)",
+     "answer": [
+      "jou"
+     ],
+     "roman": null,
+     "explain": "After a preposition the stressed object form jou is used."
+    },
+    {
+     "id": "e25",
+     "type": "order",
+     "words": [
+      "Hoe",
+      "laat",
+      "is",
+      "het",
+      "nu?"
+     ],
+     "answer": "Hoe laat is het nu?",
+     "en": "What time is it now?"
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "Eet smakelijk is said before a meal and means 'enjoy your meal'.",
+     "answer": true,
+     "explain": "It is the standard formula at the start of a meal."
+    },
+    {
+     "id": "e27",
+     "type": "mc",
+     "q": "The year 2026 is read as:",
+     "options": [
+      "tweeduizend zesentwintig",
+      "twee nul twee zes",
+      "twintig zesentwintig",
+      "tweeduizendtwintigzes"
+     ],
+     "answer": 0,
+     "explain": "Years from 2000 are read with tweeduizend; the English 'twenty twenty-six' pattern is not used."
+    },
+    {
+     "id": "e28",
+     "type": "fill",
+     "q": "Het is ___ voor vier. (3:45)",
+     "answer": [
+      "kwart"
+     ],
+     "roman": null,
+     "explain": "A quarter to four is kwart voor vier."
+    },
+    {
+     "id": "e29",
+     "type": "mc",
+     "q": "Goedenavond is used:",
+     "options": [
+      "in the morning",
+      "in the afternoon",
+      "in the evening",
+      "only at midnight"
+     ],
+     "answer": 2,
+     "explain": "goedemorgen, goedemiddag, goedenavond follow the time of day."
+    },
+    {
+     "id": "e30",
+     "type": "fill",
+     "q": "___ u mij helpen? (Can, polite)",
+     "answer": [
+      "Kunt",
+      "kunt"
+     ],
+     "roman": null,
+     "explain": "u takes the -t form of kunnen: kunt."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5856 @@
+{
+ "lang": "fr",
+ "sections": [
+  {
+   "id": "sounds-silent-letters-liaison",
+   "title": "Sounds, silent letters and liaison",
+   "level": 1,
+   "summary": "French spelling keeps many letters that are no longer pronounced, and words run together through elision and liaison. This chapter gives you the nasal vowels, the accents, the silent final consonants and the rules for l', j' and linking, so that you can read a sentence aloud and recognise it when you hear it.",
+   "rules": [
+    {
+     "title": "Final consonants are usually silent",
+     "body": "A consonant at the end of a French word is normally not pronounced: petit, grand, Paris, chat, trop, nez, beaucoup all end in a silent letter. The usual exceptions are c, r, f and l (remember the word CaReFuL): sac, chef, hôtel, pour, avec. But the -r of an -er infinitive is silent (parler, manger), and so is the -ent of a plural verb (ils parlent). Many short words with final s or t are silent too (les, est, et).",
+     "examples": [
+      {
+       "target": "Le petit chat est gris.",
+       "roman": null,
+       "en": "The little cat is grey. (t of petit, t of chat, t of est all silent)"
+      },
+      {
+       "target": "Le chef est à l'hôtel.",
+       "roman": null,
+       "en": "The chef is at the hotel. (f and l pronounced)"
+      },
+      {
+       "target": "Ils parlent trop.",
+       "roman": null,
+       "en": "They talk too much. (-ent and p silent)"
+      }
+     ]
+    },
+    {
+     "title": "A final -e makes the consonant before it sound",
+     "body": "An unaccented final -e is silent, but it wakes up the consonant in front of it. So petit sounds like 'puh-TEE' while petite sounds like 'puh-TEET'; grand ends in a nasal vowel, grande ends in a d sound. This is how you hear the difference between masculine and feminine forms. A word ending in -es or -ent (verb ending) behaves the same way: the vowel is silent but the consonant before it is heard.",
+     "examples": [
+      {
+       "target": "Il est grand. Elle est grande.",
+       "roman": null,
+       "en": "He is tall. She is tall. (d heard only in grande)"
+      },
+      {
+       "target": "un étudiant, une étudiante",
+       "roman": null,
+       "en": "a student (m), a student (f)"
+      },
+      {
+       "target": "Elle est française.",
+       "roman": null,
+       "en": "She is French. (the z sound is heard)"
+      }
+     ]
+    },
+    {
+     "title": "Nasal vowels: an, on, in, un",
+     "body": "When a vowel is followed by n or m at the end of a word or before another consonant, the n/m is not pronounced as a consonant: instead the vowel comes out through the nose. There are three main nasal vowels: an/en/am/em (enfant, vent, chambre), on/om (bon, nom), and in/ain/ein/im/un (vin, pain, plein, impossible, brun; in standard Parisian French un has merged with in). If the n is followed by a vowel or doubled, there is no nasal: bon is nasal but bonne is not; an is nasal but année is not.",
+     "examples": [
+      {
+       "target": "Mon enfant mange du pain.",
+       "roman": null,
+       "en": "My child is eating bread. (three nasal vowels: on, an, ain)"
+      },
+      {
+       "target": "Il est bon. Elle est bonne.",
+       "roman": null,
+       "en": "He is good. She is good. (bon nasal, bonne not)"
+      },
+      {
+       "target": "un bon vin blanc",
+       "roman": null,
+       "en": "a good white wine"
+      }
+     ]
+    },
+    {
+     "title": "The accents: é, è, ê, à, ù, ç, ï",
+     "body": "The acute accent é marks a closed e, like the a in 'say' without the glide (été, café). The grave è and circumflex ê mark an open e like the e in 'bed' (père, fête). On a and u the grave accent only distinguishes words: a (has) / à (to, at), ou (or) / où (where). The cedilla ç makes c sound like s before a, o, u (garçon, français). The circumflex often marks a lost s from Old French (hôpital, forêt, île). The diaeresis ï or ë shows that two vowels are pronounced separately (naïf, Noël).",
+     "examples": [
+      {
+       "target": "Mon père est à Paris.",
+       "roman": null,
+       "en": "My father is in Paris."
+      },
+      {
+       "target": "Tu veux du thé ou du café ?",
+       "roman": null,
+       "en": "Do you want tea or coffee?"
+      },
+      {
+       "target": "Où est le garçon ?",
+       "roman": null,
+       "en": "Where is the boy?"
+      }
+     ]
+    },
+    {
+     "title": "Vowel spellings: ou, u, oi, au/eau, ai, eu",
+     "body": "French vowels are pure and short, with no English-style glide. ou is 'oo' as in food (vous, nous). u on its own is a tight rounded sound: say 'ee' with your lips rounded for 'oo' (tu, rue, une). oi sounds like 'wa' (moi, trois, voiture). au and eau sound like a clean 'o' (beau, aussi, chaud). ai and ei sound like the e in 'bed' (mais, j'ai, neige). eu is a rounded e (deux, peu, bleu).",
+     "examples": [
+      {
+       "target": "Vous avez trois voitures.",
+       "roman": null,
+       "en": "You have three cars."
+      },
+      {
+       "target": "Il fait beau aujourd'hui.",
+       "roman": null,
+       "en": "The weather is nice today."
+      },
+      {
+       "target": "Tu as deux rues bleues ?",
+       "roman": null,
+       "en": "You have two blue streets? (practise u vs eu)"
+      }
+     ]
+    },
+    {
+     "title": "The letter h is always silent",
+     "body": "French h is never pronounced. But there are two kinds. With an 'h muet' (silent h) the word behaves as if it started with a vowel: it takes l', and liaison happens (l'homme, l'hôtel, les hommes with a z sound). With an 'h aspiré' the word behaves as if it started with a consonant: no elision, no liaison (le héros, le hibou, les haricots with no linking). Dictionaries mark h aspiré with an asterisk; you simply have to learn which words have it. Most h words are h muet.",
+     "examples": [
+      {
+       "target": "l'homme, l'heure, l'hôpital",
+       "roman": null,
+       "en": "the man, the hour, the hospital (h muet: elision)"
+      },
+      {
+       "target": "le héros, le hibou, la Hollande",
+       "roman": null,
+       "en": "the hero, the owl, Holland (h aspiré: no elision)"
+      },
+      {
+       "target": "Les hommes mangent des haricots.",
+       "roman": null,
+       "en": "The men are eating beans. (liaison in les hommes, none in des haricots)"
+      }
+     ]
+    },
+    {
+     "title": "Elision: l', j', n', d', qu', c', s'",
+     "body": "A handful of short words ending in -e or -a drop that vowel and take an apostrophe before a word beginning with a vowel or h muet: le and la become l' (l'école, l'homme), je becomes j' (j'aime), ne becomes n' (il n'est pas), de becomes d' (un verre d'eau), que becomes qu' (qu'il), ce becomes c' (c'est), se becomes s' (il s'appelle), and me and te become m' and t' (il m'aime). This is compulsory, not optional: 'je aime' is wrong. Elision does not happen before an h aspiré (le héros) and, in standard writing, tu does not elide (tu es, not t'es).",
+     "examples": [
+      {
+       "target": "J'habite à l'hôtel.",
+       "roman": null,
+       "en": "I live at the hotel."
+      },
+      {
+       "target": "Il n'a pas d'argent.",
+       "roman": null,
+       "en": "He has no money."
+      },
+      {
+       "target": "C'est l'ami qu'elle aime.",
+       "roman": null,
+       "en": "It's the friend she loves."
+      },
+      {
+       "target": "Elle s'appelle Anne.",
+       "roman": null,
+       "en": "Her name is Anne."
+      }
+     ]
+    },
+    {
+     "title": "Liaison: silent consonants come alive before a vowel",
+     "body": "When a word with a silent final consonant is followed closely by a word beginning with a vowel or h muet, that consonant is pronounced and joins the next word. A final s or x sounds like z (les amis), a final d sounds like t (un grand homme), and n adds an n sound (un ami, mon ami). Liaison is compulsory between article/possessive/number and noun, between subject pronoun and verb (vous avez, ils ont), between a preceding adjective and its noun (petit ami), and after short words like en, très, dans, chez. It is forbidden after et, before h aspiré, and between a singular noun and its verb.",
+     "examples": [
+      {
+       "target": "Vous avez des amis ?",
+       "roman": null,
+       "en": "Do you have friends? (vous‿avez, des‿amis)"
+      },
+      {
+       "target": "Ils ont un grand appartement.",
+       "roman": null,
+       "en": "They have a big flat. (ils‿ont, un‿grand, grand‿appartement with t)"
+      },
+      {
+       "target": "un homme et une femme",
+       "roman": null,
+       "en": "a man and a woman (no liaison after et)"
+      },
+      {
+       "target": "C'est très intéressant.",
+       "roman": null,
+       "en": "It's very interesting. (très‿intéressant)"
+      }
+     ]
+    },
+    {
+     "title": "Stress and rhythm",
+     "body": "French words have no fixed stress of their own; instead the last syllable of each phrase or sentence is slightly lengthened. So 'la télévision' is stressed on -sion, and in 'la télévision française' the stress moves to -çaise. All other syllables are even and equal, which is why French sounds smooth and fast to English ears. The r is made at the back of the throat (rouge, Paris), and consonants are never aspirated: the p in Paris has no puff of air.",
+     "examples": [
+      {
+       "target": "Je ne comprends pas.",
+       "roman": null,
+       "en": "I don't understand. (stress on pas)"
+      },
+      {
+       "target": "Je ne comprends pas le français.",
+       "roman": null,
+       "en": "I don't understand French. (stress now on -çais)"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "In the word 'petit', the final t is:",
+     "options": [
+      "pronounced as t",
+      "pronounced as d",
+      "pronounced as s",
+      "silent"
+     ],
+     "answer": 3,
+     "explain": "Final consonants other than c, r, f, l are normally silent, so petit ends in the vowel sound."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "In 'grande', the final -e is silent but it makes the d before it pronounced.",
+     "answer": true,
+     "explain": "A final -e is silent itself but wakes up the consonant in front of it, which is how you hear grand vs grande."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "Which word contains a nasal vowel?",
+     "options": [
+      "ami",
+      "bon",
+      "bonne",
+      "année"
+     ],
+     "answer": 1,
+     "explain": "bon ends in -on with nothing after the n, so the vowel is nasal; in bonne, année and ami the n/m is followed by a vowel or doubled."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "é",
+       "closed e, like 'ay' without the glide"
+      ],
+      [
+       "è",
+       "open e, like the e in 'bed'"
+      ],
+      [
+       "ç",
+       "soft s sound before a, o, u"
+      ],
+      [
+       "ù",
+       "marks où (where) as different from ou (or)"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "fill",
+     "q": "Elle va à ___ école. (the)",
+     "answer": [
+      "l'",
+      "l’"
+     ],
+     "roman": null,
+     "explain": "la becomes l' before a word starting with a vowel: l'école."
+    },
+    {
+     "id": "e06",
+     "type": "order",
+     "words": [
+      "Je",
+      "suis",
+      "à",
+      "l'hôtel."
+     ],
+     "answer": "Je suis à l'hôtel.",
+     "en": "I am at the hotel."
+    },
+    {
+     "id": "e07",
+     "type": "tf",
+     "q": "In 'les amis', the s of les is pronounced, as a z sound.",
+     "answer": true,
+     "explain": "Liaison between an article and a vowel-initial noun is compulsory, and a linked s sounds like z."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Which pair of words is pronounced exactly the same?",
+     "options": [
+      "bon / bonne",
+      "le / les",
+      "a / à",
+      "petit / petite"
+     ],
+     "answer": 2,
+     "explain": "The grave accent on à only distinguishes the spelling of 'to/at' from 'has'; the sound is identical."
+    },
+    {
+     "id": "e09",
+     "type": "fill",
+     "q": "Je ___ aime pas le thé. (ne, with elision)",
+     "answer": [
+      "n'",
+      "n’"
+     ],
+     "roman": null,
+     "explain": "ne drops its e and becomes n' before a vowel: je n'aime pas."
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "In which word is the final consonant pronounced?",
+     "options": [
+      "sac",
+      "chat",
+      "Paris",
+      "parler"
+     ],
+     "answer": 0,
+     "explain": "c is one of the CaReFuL consonants that are usually sounded; the t, s and infinitive -r are silent."
+    },
+    {
+     "id": "e11",
+     "type": "match",
+     "pairs": [
+      [
+       "ou",
+       "'oo' as in food"
+      ],
+      [
+       "oi",
+       "'wa'"
+      ],
+      [
+       "eau",
+       "a clean 'o'"
+      ],
+      [
+       "ai",
+       "the e of 'bed'"
+      ]
+     ]
+    },
+    {
+     "id": "e12",
+     "type": "tf",
+     "q": "Liaison is made after 'et' (and), so 'et un' is pronounced with a t sound.",
+     "answer": false,
+     "explain": "Liaison is forbidden after et; the t stays silent."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "Vous",
+      "avez",
+      "un",
+      "ami."
+     ],
+     "answer": "Vous avez un ami.",
+     "en": "You have a friend."
+    },
+    {
+     "id": "e14",
+     "type": "mc",
+     "q": "In 'ils parlent', the ending -ent is:",
+     "options": [
+      "silent",
+      "pronounced 'ahn'",
+      "pronounced 'ent'",
+      "pronounced 'eh'"
+     ],
+     "answer": 0,
+     "explain": "The -ent of a plural verb is completely silent; ils parlent sounds like il parle."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "___ habite à Lyon. (je, with elision)",
+     "answer": [
+      "J'",
+      "j'",
+      "J’",
+      "j’"
+     ],
+     "roman": null,
+     "explain": "je becomes j' before a vowel or h muet: j'habite."
+    },
+    {
+     "id": "e16",
+     "type": "tf",
+     "q": "The letter h is never pronounced in French.",
+     "answer": true,
+     "explain": "h is always silent; the only question is whether a word treats it as a vowel (h muet) or a consonant (h aspiré)."
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "Which of these words begins with an h aspiré (no elision, no liaison)?",
+     "options": [
+      "homme",
+      "hôtel",
+      "heure",
+      "héros"
+     ],
+     "answer": 3,
+     "explain": "héros has h aspiré, so we say le héros; the others take l' (l'homme, l'hôtel, l'heure)."
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "Which spelling does NOT represent a nasal vowel?",
+     "options": [
+      "une",
+      "un",
+      "an",
+      "on"
+     ],
+     "answer": 0,
+     "explain": "In une the n is followed by a vowel, so it is a normal n and the u is not nasal."
+    },
+    {
+     "id": "e19",
+     "type": "match",
+     "pairs": [
+      [
+       "garçon",
+       "ç gives an s sound before o"
+      ],
+      [
+       "naïf",
+       "the diaeresis separates two vowels"
+      ],
+      [
+       "où",
+       "the accent distinguishes it from ou (or)"
+      ],
+      [
+       "forêt",
+       "the circumflex marks a lost s"
+      ]
+     ]
+    },
+    {
+     "id": "e20",
+     "type": "fill",
+     "q": "Tu veux du thé ___ du café ? (or)",
+     "answer": [
+      "ou"
+     ],
+     "roman": null,
+     "explain": "ou without an accent means 'or'; où with a grave accent means 'where'."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Les",
+      "enfants",
+      "ont",
+      "un",
+      "chat."
+     ],
+     "answer": "Les enfants ont un chat.",
+     "en": "The children have a cat."
+    },
+    {
+     "id": "e22",
+     "type": "tf",
+     "q": "In 'un grand homme', the d of grand is pronounced like a t in liaison.",
+     "answer": true,
+     "explain": "A linked final d is devoiced to t: grand‿homme sounds like 'gran-tom'."
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "Where does the stress fall in 'la télévision' said on its own?",
+     "options": [
+      "there is no stress at all",
+      "on the last syllable",
+      "on the first syllable",
+      "on the second syllable"
+     ],
+     "answer": 1,
+     "explain": "French stresses the final syllable of a phrase; the other syllables stay even."
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "Which word rhymes with 'vin'?",
+     "options": [
+      "bon",
+      "vie",
+      "pain",
+      "vent"
+     ],
+     "answer": 2,
+     "explain": "in and ain spell the same nasal vowel, so vin and pain rhyme; vent and bon are different nasals and vie has no nasal."
+    },
+    {
+     "id": "e25",
+     "type": "fill",
+     "q": "C'est ___ homme que je connais. (the)",
+     "answer": [
+      "l'",
+      "l’"
+     ],
+     "roman": null,
+     "explain": "homme begins with an h muet, so the article elides: l'homme."
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "'Ce est mon frère' is correct French.",
+     "answer": false,
+     "explain": "ce must elide before est: c'est mon frère."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "Il",
+      "n'est",
+      "pas",
+      "à",
+      "la",
+      "maison."
+     ],
+     "answer": "Il n'est pas à la maison.",
+     "en": "He is not at home."
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "chef",
+       "final f is pronounced"
+      ],
+      [
+       "hôtel",
+       "final l is pronounced"
+      ],
+      [
+       "nez",
+       "final z is silent"
+      ],
+      [
+       "trop",
+       "final p is silent"
+      ]
+     ]
+    },
+    {
+     "id": "e29",
+     "type": "mc",
+     "q": "In which phrase is liaison forbidden?",
+     "options": [
+      "les hommes",
+      "vous êtes",
+      "un petit ami",
+      "les héros"
+     ],
+     "answer": 3,
+     "explain": "héros has an h aspiré, which blocks liaison; the other three link normally."
+    },
+    {
+     "id": "e30",
+     "type": "fill",
+     "q": "Je pense ___ il est là. (que, with elision)",
+     "answer": [
+      "qu'",
+      "qu’"
+     ],
+     "roman": null,
+     "explain": "que becomes qu' before a vowel: je pense qu'il est là."
+    }
+   ]
+  },
+  {
+   "id": "nouns-gender-articles",
+   "title": "Nouns, gender and articles",
+   "level": 1,
+   "summary": "Every French noun is masculine or feminine, and the small words in front of it (le, la, un, une, du, des) change to match. This chapter covers the definite, indefinite and partitive articles, how to guess gender from endings, and how to form plurals, including the -x plurals and the de that replaces articles after a negative or a quantity.",
+   "rules": [
+    {
+     "title": "Every noun has a gender",
+     "body": "French nouns are either masculine or feminine, even for objects: le livre (book) is masculine, la table is feminine. Always learn a noun with its article. Some endings are reliable clues. Usually masculine: -age (le fromage), -ment (le moment), -eau (le bateau), -isme, -ier, -oir. Usually feminine: -tion/-sion (la nation), -té (la liberté), -ure (la voiture), -ette, -ence/-ance, -ie, -esse. There are exceptions: la page and la plage end in -age but are feminine, l'eau (water) is feminine, le musée and le lycée are masculine.",
+     "examples": [
+      {
+       "target": "le fromage, le gouvernement, le bateau",
+       "roman": null,
+       "en": "the cheese, the government, the boat (masculine endings)"
+      },
+      {
+       "target": "la nation, la liberté, la voiture",
+       "roman": null,
+       "en": "the nation, the freedom, the car (feminine endings)"
+      },
+      {
+       "target": "la page, l'eau, le musée",
+       "roman": null,
+       "en": "the page, the water, the museum (exceptions)"
+      }
+     ]
+    },
+    {
+     "title": "The definite article: le, la, l', les",
+     "body": "'The' is le before a masculine singular noun, la before a feminine singular, l' before any singular noun starting with a vowel or h muet, and les before any plural. French uses the definite article more than English: for general statements (J'aime le café means I like coffee in general), for languages (le français), for body parts (Il a les yeux bleus) and with days of the week to mean 'every' (le lundi, on Mondays).",
+     "examples": [
+      {
+       "target": "le livre, la table, l'ami, les enfants",
+       "roman": null,
+       "en": "the book, the table, the friend, the children"
+      },
+      {
+       "target": "J'aime le chocolat.",
+       "roman": null,
+       "en": "I like chocolate."
+      },
+      {
+       "target": "Elle apprend le français.",
+       "roman": null,
+       "en": "She is learning French."
+      }
+     ]
+    },
+    {
+     "title": "The indefinite article: un, une, des",
+     "body": "'A/an' is un before a masculine noun and une before a feminine noun. The plural des means 'some' or just plural 'any', and unlike English it cannot be left out: J'ai des amis (I have friends). Note that un and une also mean the number one. After the verb être with a profession or nationality no article is used: Il est médecin, Elle est française; but with c'est the article comes back: C'est un médecin.",
+     "examples": [
+      {
+       "target": "un chien, une maison, des enfants",
+       "roman": null,
+       "en": "a dog, a house, (some) children"
+      },
+      {
+       "target": "Nous avons des amis à Paris.",
+       "roman": null,
+       "en": "We have friends in Paris."
+      },
+      {
+       "target": "Il est professeur. C'est un bon professeur.",
+       "roman": null,
+       "en": "He is a teacher. He is a good teacher."
+      }
+     ]
+    },
+    {
+     "title": "The partitive: du, de la, de l', des",
+     "body": "For an unspecified amount of something you cannot count, French uses the partitive article, which English often leaves out: du pain (bread, some bread), de la confiture (jam), de l'eau (water), and des for plural countables (des pommes). du is the contraction of de + le, and de la stays as two words. The partitive is used after verbs like manger, boire, vouloir, acheter and in the expression faire du sport / de la musique.",
+     "examples": [
+      {
+       "target": "Je mange du pain avec de la confiture.",
+       "roman": null,
+       "en": "I eat bread with jam."
+      },
+      {
+       "target": "Elle boit de l'eau.",
+       "roman": null,
+       "en": "She drinks water."
+      },
+      {
+       "target": "Il fait du sport et de la guitare.",
+       "roman": null,
+       "en": "He does sport and plays the guitar."
+      }
+     ]
+    },
+    {
+     "title": "After a negative, articles become de",
+     "body": "After ne...pas (and ne...jamais, ne...plus) the articles un, une, des, du, de la, de l' all shrink to de (d' before a vowel): J'ai une voiture becomes Je n'ai pas de voiture; Il mange du pain becomes Il ne mange pas de pain. The definite article le/la/les does not change: Je n'aime pas le café. There is one more exception: after être the indefinite article stays: Ce n'est pas un chat, c'est un chien.",
+     "examples": [
+      {
+       "target": "Je n'ai pas de voiture.",
+       "roman": null,
+       "en": "I don't have a car."
+      },
+      {
+       "target": "Elle ne boit jamais d'alcool.",
+       "roman": null,
+       "en": "She never drinks alcohol."
+      },
+      {
+       "target": "Ce n'est pas un problème.",
+       "roman": null,
+       "en": "It isn't a problem."
+      }
+     ]
+    },
+    {
+     "title": "Plurals: -s, and the -x family",
+     "body": "Most nouns add a silent -s: un livre, des livres. Nouns already ending in -s, -x or -z do not change: le fils / les fils, le prix / les prix, le nez / les nez. Nouns in -eau and -eu add -x: le bateau / les bateaux, le jeu / les jeux. Most nouns in -al change to -aux: le journal / les journaux, l'animal / les animaux (but le festival / les festivals). Nouns in -ou add -s, except seven that take -x: bijou, caillou, chou, genou, hibou, joujou, pou (les bijoux, les genoux). Irregular: l'œil / les yeux. Since the -s is silent, you hear the plural in the article: le/les, un/des.",
+     "examples": [
+      {
+       "target": "un bateau, deux bateaux",
+       "roman": null,
+       "en": "one boat, two boats"
+      },
+      {
+       "target": "le journal, les journaux",
+       "roman": null,
+       "en": "the newspaper, the newspapers"
+      },
+      {
+       "target": "un œil, des yeux",
+       "roman": null,
+       "en": "one eye, eyes"
+      },
+      {
+       "target": "le prix, les prix",
+       "roman": null,
+       "en": "the price, the prices"
+      }
+     ]
+    },
+    {
+     "title": "Masculine and feminine forms for people",
+     "body": "Nouns for people usually have a feminine form made by adding -e: un ami / une amie, un étudiant / une étudiante, un Français / une Française. Some endings change: -eur becomes -euse (vendeur / vendeuse), -teur becomes -trice (acteur / actrice, directeur / directrice), -ien becomes -ienne (musicien / musicienne), -er becomes -ère (boulanger / boulangère). A few are completely different: homme / femme, père / mère, frère / sœur. Some professions traditionally use one form for both (un/une médecin), though feminine forms like professeure and auteure are now common.",
+     "examples": [
+      {
+       "target": "un étudiant, une étudiante",
+       "roman": null,
+       "en": "a male student, a female student"
+      },
+      {
+       "target": "un acteur, une actrice",
+       "roman": null,
+       "en": "an actor, an actress"
+      },
+      {
+       "target": "le boulanger et la boulangère",
+       "roman": null,
+       "en": "the baker (m) and the baker (f)"
+      }
+     ]
+    },
+    {
+     "title": "Quantities take de without an article",
+     "body": "After an expression of quantity the noun is linked with plain de (d' before a vowel), never du/de la/des: beaucoup de livres (many books), un peu de sucre (a little sugar), trop de bruit (too much noise), assez d'argent (enough money), un kilo de pommes, une bouteille de vin, un verre d'eau. The same happens after pas (see the negation rule). Exceptions are la plupart des (most of the) and bien des (many), which keep des.",
+     "examples": [
+      {
+       "target": "Il a beaucoup de travail.",
+       "roman": null,
+       "en": "He has a lot of work."
+      },
+      {
+       "target": "Je voudrais un kilo de tomates.",
+       "roman": null,
+       "en": "I would like a kilo of tomatoes."
+      },
+      {
+       "target": "Elle boit trop de café.",
+       "roman": null,
+       "en": "She drinks too much coffee."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "___ maison (the house)",
+     "options": [
+      "la",
+      "le",
+      "l'",
+      "les"
+     ],
+     "answer": 0,
+     "explain": "maison is feminine singular, so it takes la."
+    },
+    {
+     "id": "e02",
+     "type": "tf",
+     "q": "In 'le livre', the noun livre is masculine.",
+     "answer": true,
+     "explain": "le is the masculine singular definite article, so livre is masculine."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "What is the plural of 'le chat'?",
+     "options": [
+      "le chats",
+      "les chates",
+      "les chats",
+      "les chat"
+     ],
+     "answer": 2,
+     "explain": "Both the article and the noun take the plural: le becomes les and chat adds -s."
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "___ table (a, feminine)",
+     "answer": [
+      "une"
+     ],
+     "roman": null,
+     "explain": "une is the feminine indefinite article; table is feminine."
+    },
+    {
+     "id": "e05",
+     "type": "match",
+     "pairs": [
+      [
+       "le",
+       "'the' before a masculine singular"
+      ],
+      [
+       "la",
+       "'the' before a feminine singular"
+      ],
+      [
+       "les",
+       "'the' before any plural"
+      ],
+      [
+       "l'",
+       "'the' before a singular starting with a vowel"
+      ]
+     ]
+    },
+    {
+     "id": "e06",
+     "type": "order",
+     "words": [
+      "J'ai",
+      "un",
+      "frère",
+      "et",
+      "une",
+      "sœur."
+     ],
+     "answer": "J'ai un frère et une sœur.",
+     "en": "I have a brother and a sister."
+    },
+    {
+     "id": "e07",
+     "type": "mc",
+     "q": "Je mange ___ pain.",
+     "options": [
+      "de l'",
+      "des",
+      "du",
+      "de la"
+     ],
+     "answer": 2,
+     "explain": "pain is masculine and uncountable, so the partitive is du (de + le)."
+    },
+    {
+     "id": "e08",
+     "type": "fill",
+     "q": "Elle boit ___ eau. (some)",
+     "answer": [
+      "de l'",
+      "de l’"
+     ],
+     "roman": null,
+     "explain": "eau starts with a vowel, so the partitive is de l' whatever the gender."
+    },
+    {
+     "id": "e09",
+     "type": "tf",
+     "q": "Nouns ending in -tion are almost always feminine.",
+     "answer": true,
+     "explain": "-tion and -sion are reliable feminine endings: la nation, la télévision, la décision."
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "What is the plural of 'le journal'?",
+     "options": [
+      "les journeaux",
+      "les journaux",
+      "les journals",
+      "les journales"
+     ],
+     "answer": 1,
+     "explain": "Most nouns in -al form their plural in -aux."
+    },
+    {
+     "id": "e11",
+     "type": "order",
+     "words": [
+      "Nous",
+      "avons",
+      "des",
+      "amis",
+      "à",
+      "Paris."
+     ],
+     "answer": "Nous avons des amis à Paris.",
+     "en": "We have friends in Paris."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Je n'ai pas ___ voiture. (any)",
+     "answer": [
+      "de"
+     ],
+     "roman": null,
+     "explain": "After pas, the article une becomes de: pas de voiture."
+    },
+    {
+     "id": "e13",
+     "type": "match",
+     "pairs": [
+      [
+       "le bateau",
+       "les bateaux"
+      ],
+      [
+       "le journal",
+       "les journaux"
+      ],
+      [
+       "le nez",
+       "les nez"
+      ],
+      [
+       "le chou",
+       "les choux"
+      ]
+     ]
+    },
+    {
+     "id": "e14",
+     "type": "mc",
+     "q": "Which of these nouns is feminine?",
+     "options": [
+      "bateau",
+      "liberté",
+      "fromage",
+      "gouvernement"
+     ],
+     "answer": 1,
+     "explain": "-té is a feminine ending (la liberté); -age, -ment and -eau are typically masculine."
+    },
+    {
+     "id": "e15",
+     "type": "tf",
+     "q": "In 'J'ai des amis', the word des is required even though English says 'I have friends' with no article.",
+     "answer": true,
+     "explain": "French plural nouns need an article; des cannot be dropped the way English drops 'some'."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Which sentence is correct for 'He is a doctor'?",
+     "options": [
+      "Il est un médecin.",
+      "Il est de médecin.",
+      "Il médecin.",
+      "Il est médecin."
+     ],
+     "answer": 3,
+     "explain": "After être, a profession takes no article; the article comes back only with c'est (C'est un médecin)."
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "What is the feminine of 'acteur'?",
+     "options": [
+      "actrice",
+      "acteuse",
+      "acteure",
+      "acteresse"
+     ],
+     "answer": 0,
+     "explain": "Nouns in -teur usually form their feminine in -trice."
+    },
+    {
+     "id": "e18",
+     "type": "order",
+     "words": [
+      "Je",
+      "voudrais",
+      "de",
+      "la",
+      "confiture."
+     ],
+     "answer": "Je voudrais de la confiture.",
+     "en": "I would like some jam."
+    },
+    {
+     "id": "e19",
+     "type": "tf",
+     "q": "The plural of 'l'œil' is 'les œils'.",
+     "answer": false,
+     "explain": "œil has the irregular plural yeux: les yeux."
+    },
+    {
+     "id": "e20",
+     "type": "fill",
+     "q": "Il a beaucoup ___ livres. (of)",
+     "answer": [
+      "de"
+     ],
+     "roman": null,
+     "explain": "After a quantity word like beaucoup, the noun is linked with plain de, not des."
+    },
+    {
+     "id": "e21",
+     "type": "match",
+     "pairs": [
+      [
+       "vendeur",
+       "vendeuse"
+      ],
+      [
+       "boulanger",
+       "boulangère"
+      ],
+      [
+       "musicien",
+       "musicienne"
+      ],
+      [
+       "étudiant",
+       "étudiante"
+      ]
+     ]
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "J'aime ___ musique. (I like music in general)",
+     "options": [
+      "des",
+      "la",
+      "de la",
+      "une"
+     ],
+     "answer": 1,
+     "explain": "General statements with aimer use the definite article: J'aime la musique."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "Ce n'est pas ___ chat, c'est un chien. (a)",
+     "answer": [
+      "un"
+     ],
+     "roman": null,
+     "explain": "After être, the indefinite article does not change to de in the negative."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "The noun 'eau' (water) is masculine.",
+     "answer": false,
+     "explain": "eau is feminine (l'eau, une eau minérale) despite the -eau ending."
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "What is the plural of 'le bijou'?",
+     "options": [
+      "les bijoux",
+      "les bijous",
+      "les bijaux",
+      "les bijoues"
+     ],
+     "answer": 0,
+     "explain": "bijou is one of the seven -ou nouns (bijou, caillou, chou, genou, hibou, joujou, pou) that take -x."
+    },
+    {
+     "id": "e26",
+     "type": "order",
+     "words": [
+      "Elle",
+      "n'a",
+      "pas",
+      "d'enfants."
+     ],
+     "answer": "Elle n'a pas d'enfants.",
+     "en": "She has no children."
+    },
+    {
+     "id": "e27",
+     "type": "mc",
+     "q": "un kilo ___ pommes",
+     "options": [
+      "de la",
+      "du",
+      "de",
+      "des"
+     ],
+     "answer": 2,
+     "explain": "A quantity expression is followed by de alone: un kilo de pommes."
+    },
+    {
+     "id": "e28",
+     "type": "fill",
+     "q": "les ___ (hospitals; singular hôpital)",
+     "answer": [
+      "hôpitaux"
+     ],
+     "roman": null,
+     "explain": "hôpital follows the -al to -aux plural pattern."
+    },
+    {
+     "id": "e29",
+     "type": "match",
+     "pairs": [
+      [
+       "-tion",
+       "feminine, e.g. la nation"
+      ],
+      [
+       "-eau",
+       "masculine, e.g. le bateau"
+      ],
+      [
+       "-té",
+       "feminine, e.g. la liberté"
+      ],
+      [
+       "-ment",
+       "masculine, e.g. le moment"
+      ]
+     ]
+    },
+    {
+     "id": "e30",
+     "type": "tf",
+     "q": "'la page' is feminine even though it ends in -age.",
+     "answer": true,
+     "explain": "page (and plage, cage, image) are exceptions to the usually masculine -age ending."
+    }
+   ]
+  },
+  {
+   "id": "present-tense",
+   "title": "The present tense",
+   "level": 1,
+   "summary": "French verbs change their ending for each person, and the subject pronoun must always be there. This chapter gives you the three regular groups (-er, -ir, -re), the four essential irregular verbs être, avoir, aller and faire, the most common other irregulars, and what the one French present covers in English.",
+   "rules": [
+    {
+     "title": "Subject pronouns are compulsory",
+     "body": "Unlike Spanish or Italian, French never drops the subject pronoun: je (I), tu (you, informal singular), il/elle (he/she/it), on (one, we, people), nous (we), vous (you, formal or plural), ils/elles (they, masculine or mixed / all feminine). on is very common in speech for 'we' and takes the il form of the verb. je becomes j' before a vowel or h muet. il and elle also mean 'it' for masculine and feminine things.",
+     "examples": [
+      {
+       "target": "Je parle. Tu parles. Il parle.",
+       "roman": null,
+       "en": "I speak. You speak. He speaks."
+      },
+      {
+       "target": "On va au cinéma ?",
+       "roman": null,
+       "en": "Shall we go to the cinema?"
+      },
+      {
+       "target": "Elles sont françaises.",
+       "roman": null,
+       "en": "They (all women) are French."
+      }
+     ]
+    },
+    {
+     "title": "Regular -er verbs",
+     "body": "About nine verbs in ten end in -er and follow parler: remove -er and add -e, -es, -e, -ons, -ez, -ent: je parle, tu parles, il/elle/on parle, nous parlons, vous parlez, ils/elles parlent. The endings -e, -es and -ent are silent, so four of the six forms sound the same. Common -er verbs: aimer, habiter, manger, travailler, regarder, écouter, jouer, chercher, donner, penser, arriver.",
+     "examples": [
+      {
+       "target": "Nous habitons à Lyon.",
+       "roman": null,
+       "en": "We live in Lyon."
+      },
+      {
+       "target": "Vous travaillez beaucoup.",
+       "roman": null,
+       "en": "You work a lot."
+      },
+      {
+       "target": "Ils regardent la télé.",
+       "roman": null,
+       "en": "They watch TV."
+      }
+     ]
+    },
+    {
+     "title": "Spelling changes in -er verbs",
+     "body": "A few -er verbs adjust their spelling to keep the sound. Verbs in -ger add an e in the nous form: nous mangeons, nous voyageons. Verbs in -cer take a cedilla: nous commençons. Verbs with a silent e in the stem add a grave accent in the forms with silent endings: acheter gives j'achète, tu achètes, ils achètent but nous achetons; lever gives je lève. Verbs with é in the stem change it to è the same way: préférer gives je préfère, nous préférons. appeler and jeter double the consonant instead: j'appelle, nous appelons. payer gives je paie (or paye).",
+     "examples": [
+      {
+       "target": "Nous mangeons à midi.",
+       "roman": null,
+       "en": "We eat at noon."
+      },
+      {
+       "target": "J'achète du pain.",
+       "roman": null,
+       "en": "I buy bread."
+      },
+      {
+       "target": "Elle s'appelle Marie.",
+       "roman": null,
+       "en": "Her name is Marie."
+      }
+     ]
+    },
+    {
+     "title": "Regular -ir verbs",
+     "body": "Verbs like finir drop -ir and add -is, -is, -it, -issons, -issez, -issent: je finis, tu finis, il finit, nous finissons, vous finissez, ils finissent. Others in this group: choisir, réussir, grandir, grossir, réfléchir, obéir, remplir. Watch out: some common -ir verbs do not take -iss-. dormir, partir, sortir, servir, sentir lose the last stem consonant in the singular: je dors, tu dors, il dort, nous dormons, vous dormez, ils dorment; je pars, il part, nous partons.",
+     "examples": [
+      {
+       "target": "Nous finissons à cinq heures.",
+       "roman": null,
+       "en": "We finish at five."
+      },
+      {
+       "target": "Ils choisissent un dessert.",
+       "roman": null,
+       "en": "They choose a dessert."
+      },
+      {
+       "target": "Je dors mal. Elle part demain.",
+       "roman": null,
+       "en": "I sleep badly. She leaves tomorrow."
+      }
+     ]
+    },
+    {
+     "title": "Regular -re verbs",
+     "body": "Verbs like vendre drop -re and add -s, -s, nothing, -ons, -ez, -ent: je vends, tu vends, il vend, nous vendons, vous vendez, ils vendent. Others: attendre (wait), entendre (hear), répondre (answer), perdre (lose), descendre. prendre and its family (apprendre, comprendre) are irregular in the plural: je prends, tu prends, il prend, nous prenons, vous prenez, ils prennent.",
+     "examples": [
+      {
+       "target": "J'attends le bus.",
+       "roman": null,
+       "en": "I am waiting for the bus."
+      },
+      {
+       "target": "Vous répondez en français.",
+       "roman": null,
+       "en": "You answer in French."
+      },
+      {
+       "target": "Ils prennent le train.",
+       "roman": null,
+       "en": "They take the train."
+      }
+     ]
+    },
+    {
+     "title": "être and avoir",
+     "body": "être (to be): je suis, tu es, il est, nous sommes, vous êtes, ils sont. avoir (to have): j'ai, tu as, il a, nous avons, vous avez, ils ont. Both are irregular and both will later serve as auxiliaries for the past tense. Many states that use 'to be' in English use avoir in French: avoir faim (be hungry), avoir soif (thirsty), avoir chaud/froid (hot/cold), avoir peur (afraid), avoir raison/tort (right/wrong), avoir besoin de (need), and age: J'ai vingt ans. il y a means 'there is / there are'.",
+     "examples": [
+      {
+       "target": "Nous sommes étudiants.",
+       "roman": null,
+       "en": "We are students."
+      },
+      {
+       "target": "Elle a vingt ans et elle a faim.",
+       "roman": null,
+       "en": "She is twenty and she is hungry."
+      },
+      {
+       "target": "Il y a un chat sur la table.",
+       "roman": null,
+       "en": "There is a cat on the table."
+      }
+     ]
+    },
+    {
+     "title": "aller and faire",
+     "body": "aller (to go): je vais, tu vas, il va, nous allons, vous allez, ils vont. It also makes the near future: aller + infinitive means 'going to' (Je vais manger). faire (to do, make): je fais, tu fais, il fait, nous faisons, vous faites, ils font. faire is used for sports and activities (faire du vélo, faire la cuisine), for the weather (Il fait beau, Il fait froid) and in Ça fait combien ? (How much is it?). Note the irregular vous faites, like vous êtes and vous dites.",
+     "examples": [
+      {
+       "target": "Nous allons au marché.",
+       "roman": null,
+       "en": "We are going to the market."
+      },
+      {
+       "target": "Je vais partir demain.",
+       "roman": null,
+       "en": "I am going to leave tomorrow."
+      },
+      {
+       "target": "Qu'est-ce que vous faites ? Il fait chaud.",
+       "roman": null,
+       "en": "What are you doing? It's hot."
+      }
+     ]
+    },
+    {
+     "title": "Other frequent irregular verbs",
+     "body": "A handful of irregular verbs come up constantly. pouvoir (can): je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent. vouloir (want): je veux, il veut, nous voulons, ils veulent. devoir (must): je dois, il doit, nous devons, ils doivent. savoir (know a fact): je sais, il sait, nous savons, ils savent. venir (come): je viens, il vient, nous venons, ils viennent. dire (say): je dis, nous disons, vous dites, ils disent. voir (see): je vois, nous voyons, ils voient. boire: je bois, nous buvons, ils boivent. Note that nous and vous keep a fuller stem.",
+     "examples": [
+      {
+       "target": "Je peux venir, mais je dois partir tôt.",
+       "roman": null,
+       "en": "I can come, but I have to leave early."
+      },
+      {
+       "target": "Ils veulent boire un café.",
+       "roman": null,
+       "en": "They want to drink a coffee."
+      },
+      {
+       "target": "Vous dites la vérité ?",
+       "roman": null,
+       "en": "Are you telling the truth?"
+      }
+     ]
+    },
+    {
+     "title": "One present tense does three English jobs",
+     "body": "French has a single present: je parle means 'I speak', 'I am speaking' and 'I do speak'. There is no -ing form of the verb. If you really need to insist that something is happening right now, use être en train de + infinitive: Je suis en train de manger. The present is also used with depuis for something that started in the past and is still going on, where English uses 'have been': J'habite ici depuis deux ans (I have lived here for two years).",
+     "examples": [
+      {
+       "target": "Je travaille.",
+       "roman": null,
+       "en": "I work. / I am working. / I do work."
+      },
+      {
+       "target": "Elle est en train de lire.",
+       "roman": null,
+       "en": "She is (busy) reading."
+      },
+      {
+       "target": "Nous attendons depuis une heure.",
+       "roman": null,
+       "en": "We have been waiting for an hour."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Je ___ français.",
+     "options": [
+      "parlent",
+      "parle",
+      "parles",
+      "parlons"
+     ],
+     "answer": 1,
+     "explain": "The je form of an -er verb ends in -e: je parle."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "Nous ___ anglais. (parler)",
+     "answer": [
+      "parlons"
+     ],
+     "roman": null,
+     "explain": "The nous ending is -ons for almost every French verb."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "French can drop the subject pronoun the way Spanish does ('Parle français' for 'I speak French').",
+     "answer": false,
+     "explain": "The subject pronoun is compulsory in French: Je parle français."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "je",
+       "parle"
+      ],
+      [
+       "tu",
+       "parles"
+      ],
+      [
+       "nous",
+       "parlons"
+      ],
+      [
+       "vous",
+       "parlez"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "Elle",
+      "habite",
+      "à",
+      "Paris."
+     ],
+     "answer": "Elle habite à Paris.",
+     "en": "She lives in Paris."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Tu ___ vingt ans.",
+     "options": [
+      "a",
+      "ai",
+      "as",
+      "es"
+     ],
+     "answer": 2,
+     "explain": "Age uses avoir, and the tu form of avoir is as."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "Ils ___ français. (être)",
+     "answer": [
+      "sont"
+     ],
+     "roman": null,
+     "explain": "The ils/elles form of être is sont."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Nous ___ nos devoirs. (finir)",
+     "options": [
+      "finissons",
+      "finons",
+      "finissez",
+      "finissent"
+     ],
+     "answer": 0,
+     "explain": "Regular -ir verbs insert -iss- in the plural: nous finissons."
+    },
+    {
+     "id": "e09",
+     "type": "tf",
+     "q": "'Vous êtes' is the vous form of être.",
+     "answer": true,
+     "explain": "être: je suis, tu es, il est, nous sommes, vous êtes, ils sont."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Elle ___ faim. (avoir)",
+     "answer": [
+      "a"
+     ],
+     "roman": null,
+     "explain": "Hunger is expressed with avoir, and the il/elle form is a."
+    },
+    {
+     "id": "e11",
+     "type": "order",
+     "words": [
+      "Nous",
+      "allons",
+      "au",
+      "cinéma",
+      "ce",
+      "soir."
+     ],
+     "answer": "Nous allons au cinéma ce soir.",
+     "en": "We are going to the cinema tonight."
+    },
+    {
+     "id": "e12",
+     "type": "match",
+     "pairs": [
+      [
+       "être",
+       "je suis"
+      ],
+      [
+       "avoir",
+       "j'ai"
+      ],
+      [
+       "aller",
+       "je vais"
+      ],
+      [
+       "faire",
+       "je fais"
+      ]
+     ]
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "Ils ___ à l'école. (aller)",
+     "options": [
+      "allons",
+      "vont",
+      "allent",
+      "vas"
+     ],
+     "answer": 1,
+     "explain": "aller is irregular: ils vont."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "Vous ___ du sport ? (faire)",
+     "answer": [
+      "faites"
+     ],
+     "roman": null,
+     "explain": "faire has the irregular vous form faites (like vous êtes, vous dites)."
+    },
+    {
+     "id": "e15",
+     "type": "tf",
+     "q": "'Nous mangons' is the correct nous form of manger.",
+     "answer": false,
+     "explain": "Verbs in -ger keep an e before -ons to keep the g soft: nous mangeons."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Il ___ sa voiture. (vendre)",
+     "options": [
+      "vend",
+      "vends",
+      "vendt",
+      "vende"
+     ],
+     "answer": 0,
+     "explain": "Regular -re verbs have no ending at all in the il/elle form: il vend."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Je ___ le bus. (prendre)",
+     "answer": [
+      "prends"
+     ],
+     "roman": null,
+     "explain": "prendre is regular in the singular: je prends, tu prends, il prend."
+    },
+    {
+     "id": "e18",
+     "type": "order",
+     "words": [
+      "Je",
+      "vais",
+      "manger",
+      "une",
+      "pizza."
+     ],
+     "answer": "Je vais manger une pizza.",
+     "en": "I am going to eat a pizza."
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "Ils ___ le train. (prendre)",
+     "options": [
+      "prendent",
+      "prenent",
+      "prends",
+      "prennent"
+     ],
+     "answer": 3,
+     "explain": "prendre doubles the n in the ils form: ils prennent."
+    },
+    {
+     "id": "e20",
+     "type": "tf",
+     "q": "The -ent ending of 'ils parlent' is pronounced.",
+     "answer": false,
+     "explain": "-ent on a verb is silent; ils parlent sounds exactly like il parle."
+    },
+    {
+     "id": "e21",
+     "type": "fill",
+     "q": "Nous ___ à huit heures. (commencer)",
+     "answer": [
+      "commençons"
+     ],
+     "roman": null,
+     "explain": "Verbs in -cer take a cedilla before -ons to keep the soft s sound."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "'Je parle' can be translated as:",
+     "options": [
+      "only 'I am speaking'",
+      "only 'I will speak'",
+      "I speak, I am speaking or I do speak",
+      "only 'I speak'"
+     ],
+     "answer": 2,
+     "explain": "French has one present tense that covers all three English forms."
+    },
+    {
+     "id": "e23",
+     "type": "match",
+     "pairs": [
+      [
+       "pouvoir",
+       "je peux"
+      ],
+      [
+       "vouloir",
+       "je veux"
+      ],
+      [
+       "devoir",
+       "je dois"
+      ],
+      [
+       "savoir",
+       "je sais"
+      ]
+     ]
+    },
+    {
+     "id": "e24",
+     "type": "fill",
+     "q": "Ils ___ bien. (dormir)",
+     "answer": [
+      "dorment"
+     ],
+     "roman": null,
+     "explain": "dormir keeps its m in the plural: ils dorment (but je dors)."
+    },
+    {
+     "id": "e25",
+     "type": "order",
+     "words": [
+      "Elle",
+      "préfère",
+      "le",
+      "thé",
+      "au",
+      "café."
+     ],
+     "answer": "Elle préfère le thé au café.",
+     "en": "She prefers tea to coffee."
+    },
+    {
+     "id": "e26",
+     "type": "mc",
+     "q": "On ___ au restaurant ce soir.",
+     "options": [
+      "allons",
+      "vas",
+      "va",
+      "vont"
+     ],
+     "answer": 2,
+     "explain": "on means 'we' here but always takes the il/elle form of the verb."
+    },
+    {
+     "id": "e27",
+     "type": "tf",
+     "q": "'J'habite ici depuis deux ans' uses the present tense where English says 'I have lived here for two years'.",
+     "answer": true,
+     "explain": "With depuis, French keeps the present because the action is still going on."
+    },
+    {
+     "id": "e28",
+     "type": "fill",
+     "q": "Elles ___ de Lyon. (venir)",
+     "answer": [
+      "viennent"
+     ],
+     "roman": null,
+     "explain": "venir doubles the n in the ils/elles form: elles viennent."
+    },
+    {
+     "id": "e29",
+     "type": "mc",
+     "q": "Vous ___ la vérité. (dire)",
+     "options": [
+      "disent",
+      "dites",
+      "disez",
+      "dit"
+     ],
+     "answer": 1,
+     "explain": "dire has the irregular vous form dites."
+    },
+    {
+     "id": "e30",
+     "type": "fill",
+     "q": "J'___ du pain. (acheter)",
+     "answer": [
+      "achète"
+     ],
+     "roman": null,
+     "explain": "acheter takes a grave accent in the forms with a silent ending: j'achète."
+    }
+   ]
+  },
+  {
+   "id": "adjectives-possessives-agreement",
+   "title": "Adjectives, possessives and agreement",
+   "level": 2,
+   "summary": "Adjectives in French change to match the gender and number of their noun, and most of them come after it. This chapter covers feminine and plural forms, the short adjectives that go in front, the possessives mon/ma/mes and the demonstratives ce/cette/ces, and how to compare with plus, moins and aussi... que.",
+   "rules": [
+    {
+     "title": "Adjectives agree in gender and number",
+     "body": "An adjective takes the gender and number of the noun it describes. The basic pattern is: add -e for the feminine, -s for the plural, -es for feminine plural: grand, grande, grands, grandes. If the masculine already ends in -e, the feminine is identical (rouge, jeune, facile). If the masculine ends in -s or -x, the masculine plural is unchanged (français, heureux). Because final consonants are silent, adding -e often changes the sound: petit / petite, vert / verte.",
+     "examples": [
+      {
+       "target": "un petit chat, une petite maison",
+       "roman": null,
+       "en": "a small cat, a small house"
+      },
+      {
+       "target": "des murs verts, des portes vertes",
+       "roman": null,
+       "en": "green walls, green doors"
+      },
+      {
+       "target": "Il est jeune. Elle est jeune.",
+       "roman": null,
+       "en": "He is young. She is young."
+      }
+     ]
+    },
+    {
+     "title": "Feminine forms with a twist",
+     "body": "Some endings change more than just adding -e. -eux becomes -euse (heureux / heureuse, sérieux / sérieuse); -f becomes -ve (actif / active, neuf / neuve); -er becomes -ère (premier / première, cher / chère); -en and -on double the n (italien / italienne, bon / bonne); -el and -eil double the l (naturel / naturelle, gentil / gentille); -et usually becomes -ète (complet / complète). Fully irregular: beau / belle, nouveau / nouvelle, vieux / vieille, blanc / blanche, long / longue, gros / grosse, frais / fraîche, doux / douce, fou / folle, sec / sèche.",
+     "examples": [
+      {
+       "target": "Il est heureux. Elle est heureuse.",
+       "roman": null,
+       "en": "He is happy. She is happy."
+      },
+      {
+       "target": "une bonne idée, une belle ville",
+       "roman": null,
+       "en": "a good idea, a beautiful city"
+      },
+      {
+       "target": "une chemise blanche et une veste longue",
+       "roman": null,
+       "en": "a white shirt and a long jacket"
+      }
+     ]
+    },
+    {
+     "title": "Position: most adjectives follow the noun",
+     "body": "In French the adjective normally comes after the noun: une voiture rouge, un film intéressant, un homme français. A small group of very common short adjectives go before the noun: beau, joli, jeune, vieux, nouveau, bon, mauvais, grand, petit, gros, autre, même (think Beauty, Age, Goodness, Size). Before a masculine noun starting with a vowel, beau, nouveau and vieux become bel, nouvel, vieil: un bel homme, un nouvel ami, un vieil arbre. A few adjectives change meaning with position: un grand homme is a great man, un homme grand is a tall man.",
+     "examples": [
+      {
+       "target": "une petite voiture rouge",
+       "roman": null,
+       "en": "a small red car"
+      },
+      {
+       "target": "un bel appartement, un nouvel ami",
+       "roman": null,
+       "en": "a beautiful flat, a new friend"
+      },
+      {
+       "target": "C'est un bon restaurant italien.",
+       "roman": null,
+       "en": "It's a good Italian restaurant."
+      }
+     ]
+    },
+    {
+     "title": "Possessive adjectives: mon, ma, mes",
+     "body": "Possessives agree with the thing owned, not with the owner: mon / ma / mes (my), ton / ta / tes (your, informal), son / sa / ses (his, her, its), notre / nos (our), votre / vos (your, formal or plural), leur / leurs (their). So son frère means his brother or her brother, and sa sœur means his sister or her sister. Before a feminine singular starting with a vowel or h muet, ma / ta / sa become mon / ton / son: mon amie, son école, ton histoire.",
+     "examples": [
+      {
+       "target": "mon père, ma mère, mes parents",
+       "roman": null,
+       "en": "my father, my mother, my parents"
+      },
+      {
+       "target": "Elle aime son frère.",
+       "roman": null,
+       "en": "She loves her brother."
+      },
+      {
+       "target": "Mon amie habite ici.",
+       "roman": null,
+       "en": "My (female) friend lives here."
+      },
+      {
+       "target": "Ils adorent leurs enfants.",
+       "roman": null,
+       "en": "They adore their children."
+      }
+     ]
+    },
+    {
+     "title": "Demonstratives: ce, cet, cette, ces",
+     "body": "'This/that' is ce before a masculine singular (ce livre), cet before a masculine singular beginning with a vowel or h muet (cet homme, cet hôtel), cette before a feminine singular (cette maison), and ces for all plurals (ces enfants). French does not distinguish this from that unless you add -ci (here) or -là (there) to the noun: ce livre-ci, ce livre-là. In practice -là is used far more than -ci.",
+     "examples": [
+      {
+       "target": "Ce film est long.",
+       "roman": null,
+       "en": "This film is long."
+      },
+      {
+       "target": "Cet hôtel est cher.",
+       "roman": null,
+       "en": "This hotel is expensive."
+      },
+      {
+       "target": "Je préfère cette robe-là.",
+       "roman": null,
+       "en": "I prefer that dress."
+      }
+     ]
+    },
+    {
+     "title": "Comparison: plus, moins, aussi... que",
+     "body": "To compare, put plus (more), moins (less) or aussi (as) before the adjective and que after it: Paul est plus grand que Marie; Marie est moins grande que Paul; Il est aussi intelligent qu'elle. The adjective still agrees with its subject. bon has the irregular comparative meilleur (not plus bon): Ce café est meilleur. mauvais can be pire or plus mauvais. The adverb bien becomes mieux: Elle chante mieux que moi. After que, use a stressed pronoun: que moi, que toi, que lui, qu'elle, qu'eux.",
+     "examples": [
+      {
+       "target": "Mon frère est plus grand que moi.",
+       "roman": null,
+       "en": "My brother is taller than me."
+      },
+      {
+       "target": "Ce livre est moins intéressant que l'autre.",
+       "roman": null,
+       "en": "This book is less interesting than the other one."
+      },
+      {
+       "target": "Ce vin est meilleur que celui-là.",
+       "roman": null,
+       "en": "This wine is better than that one."
+      }
+     ]
+    },
+    {
+     "title": "Superlative: le plus, la moins",
+     "body": "The superlative is the comparative with the definite article in front: le plus grand, la plus belle, les moins chers. The article matches the noun. If the adjective normally follows the noun, the article is repeated: la ville la plus belle, but la plus belle ville (adjectives that go before the noun keep their place). 'In' after a superlative is de: la plus grande ville de France, le meilleur restaurant du quartier. bon gives le meilleur / la meilleure; bien gives le mieux.",
+     "examples": [
+      {
+       "target": "Paris est la plus grande ville de France.",
+       "roman": null,
+       "en": "Paris is the biggest city in France."
+      },
+      {
+       "target": "C'est le restaurant le plus cher du quartier.",
+       "roman": null,
+       "en": "It's the most expensive restaurant in the neighbourhood."
+      },
+      {
+       "target": "Elle est la meilleure élève de la classe.",
+       "roman": null,
+       "en": "She is the best pupil in the class."
+      }
+     ]
+    },
+    {
+     "title": "Colours and nationalities",
+     "body": "Colour and nationality adjectives always go after the noun and agree like other adjectives: une voiture noire, des chaussures blanches, une amie anglaise. Nationality adjectives are written with a small letter (un ami français), while the noun for a person is capitalised (un Français). Colours that are really nouns do not agree: orange and marron stay the same in the plural (des chaussures marron), and so do compound colours (des yeux bleu clair).",
+     "examples": [
+      {
+       "target": "Elle a les yeux verts et les cheveux noirs.",
+       "roman": null,
+       "en": "She has green eyes and black hair."
+      },
+      {
+       "target": "des chaussettes orange",
+       "roman": null,
+       "en": "orange socks (invariable)"
+      },
+      {
+       "target": "une étudiante espagnole",
+       "roman": null,
+       "en": "a Spanish (female) student"
+      }
+     ]
+    },
+    {
+     "title": "tout, toute, tous, toutes",
+     "body": "tout (all, every, whole) agrees with the noun that follows its article: tout le monde (everybody), toute la journée (the whole day), tous les jours (every day), toutes les semaines (every week). The s of tous is silent when it stands before a noun (tous les jours) but pronounced when tous is a pronoun on its own (Ils sont tous là). Before an adjective tout is an adverb meaning 'completely' and usually does not agree: Il est tout content.",
+     "examples": [
+      {
+       "target": "Tout le monde est là.",
+       "roman": null,
+       "en": "Everybody is here."
+      },
+      {
+       "target": "Je travaille tous les jours.",
+       "roman": null,
+       "en": "I work every day."
+      },
+      {
+       "target": "Elle a dormi toute la journée.",
+       "roman": null,
+       "en": "She slept the whole day."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "une maison ___ (big)",
+     "options": [
+      "grandes",
+      "grands",
+      "grande",
+      "grand"
+     ],
+     "answer": 2,
+     "explain": "maison is feminine singular, so the adjective takes -e: grande."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "Elle a un chat ___. (black)",
+     "answer": [
+      "noir"
+     ],
+     "roman": null,
+     "explain": "chat is masculine singular, so noir has no extra ending."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "Most French adjectives come after the noun.",
+     "answer": true,
+     "explain": "Only a small group of short adjectives (beau, petit, grand, bon, jeune, vieux...) go before the noun."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "heureux",
+       "heureuse"
+      ],
+      [
+       "actif",
+       "active"
+      ],
+      [
+       "bon",
+       "bonne"
+      ],
+      [
+       "premier",
+       "première"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "C'est",
+      "une",
+      "petite",
+      "voiture",
+      "rouge."
+     ],
+     "answer": "C'est une petite voiture rouge.",
+     "en": "It's a small red car."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "___ sœur (my)",
+     "options": [
+      "mon",
+      "mes",
+      "ta",
+      "ma"
+     ],
+     "answer": 3,
+     "explain": "sœur is feminine singular and starts with a consonant, so 'my' is ma."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "___ amie s'appelle Léa. (my)",
+     "answer": [
+      "Mon",
+      "mon"
+     ],
+     "roman": null,
+     "explain": "Before a feminine word starting with a vowel, ma becomes mon: mon amie."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "'sa voiture' can mean either 'his car' or 'her car'.",
+     "answer": true,
+     "explain": "Possessives agree with the noun owned (voiture is feminine), not with the owner."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Ils sont ___. (French)",
+     "options": [
+      "françaises",
+      "françaix",
+      "français",
+      "française"
+     ],
+     "answer": 2,
+     "explain": "français already ends in -s, so the masculine plural is unchanged."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Paris est ___ grand que Lyon. (more)",
+     "answer": [
+      "plus"
+     ],
+     "roman": null,
+     "explain": "The comparative of superiority is plus... que."
+    },
+    {
+     "id": "e11",
+     "type": "order",
+     "words": [
+      "Mon",
+      "frère",
+      "est",
+      "plus",
+      "grand",
+      "que",
+      "moi."
+     ],
+     "answer": "Mon frère est plus grand que moi.",
+     "en": "My brother is taller than me."
+    },
+    {
+     "id": "e12",
+     "type": "match",
+     "pairs": [
+      [
+       "notre",
+       "our, before a singular noun"
+      ],
+      [
+       "nos",
+       "our, before a plural noun"
+      ],
+      [
+       "leur",
+       "their, before a singular noun"
+      ],
+      [
+       "leurs",
+       "their, before a plural noun"
+      ]
+     ]
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "un ___ homme (handsome)",
+     "options": [
+      "belle",
+      "beaux",
+      "bel",
+      "beau"
+     ],
+     "answer": 2,
+     "explain": "beau becomes bel before a masculine singular noun starting with a vowel or h muet."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "___ hôtel est cher. (this)",
+     "answer": [
+      "Cet",
+      "cet"
+     ],
+     "roman": null,
+     "explain": "ce becomes cet before a masculine noun beginning with a vowel or h muet."
+    },
+    {
+     "id": "e15",
+     "type": "tf",
+     "q": "In 'Ce café est meilleur que l'autre', meilleur is the comparative of bon.",
+     "answer": true,
+     "explain": "bon has the irregular comparative meilleur; 'plus bon' is not used."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Elle est ___ en maths que moi. (better)",
+     "options": [
+      "bonne",
+      "meilleure",
+      "plus bonne",
+      "mieux"
+     ],
+     "answer": 1,
+     "explain": "The adjective bon becomes meilleur(e); mieux is the adverb for bien."
+    },
+    {
+     "id": "e17",
+     "type": "order",
+     "words": [
+      "Elle",
+      "chante",
+      "mieux",
+      "que",
+      "lui."
+     ],
+     "answer": "Elle chante mieux que lui.",
+     "en": "She sings better than him."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "une robe ___ (white)",
+     "answer": [
+      "blanche"
+     ],
+     "roman": null,
+     "explain": "blanc has the irregular feminine blanche."
+    },
+    {
+     "id": "e19",
+     "type": "match",
+     "pairs": [
+      [
+       "beau",
+       "belle"
+      ],
+      [
+       "nouveau",
+       "nouvelle"
+      ],
+      [
+       "vieux",
+       "vieille"
+      ],
+      [
+       "long",
+       "longue"
+      ]
+     ]
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "C'est ___ plus grande ville de France.",
+     "options": [
+      "de",
+      "la",
+      "le",
+      "les"
+     ],
+     "answer": 1,
+     "explain": "The superlative article agrees with ville, which is feminine singular."
+    },
+    {
+     "id": "e21",
+     "type": "tf",
+     "q": "In 'des voitures oranges', orange takes a plural -s like any other adjective.",
+     "answer": false,
+     "explain": "orange is a noun used as a colour, so it is invariable: des voitures orange."
+    },
+    {
+     "id": "e22",
+     "type": "fill",
+     "q": "Tu as ___ livres ? (your, informal)",
+     "answer": [
+      "tes"
+     ],
+     "roman": null,
+     "explain": "livres is plural, so the informal 'your' is tes."
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "une femme ___ (intelligent)",
+     "options": [
+      "intelligente",
+      "intelligent",
+      "intelligents",
+      "intelligentes"
+     ],
+     "answer": 0,
+     "explain": "femme is feminine singular, so the adjective adds -e."
+    },
+    {
+     "id": "e24",
+     "type": "order",
+     "words": [
+      "Ces",
+      "fleurs",
+      "sont",
+      "très",
+      "belles."
+     ],
+     "answer": "Ces fleurs sont très belles.",
+     "en": "These flowers are very beautiful."
+    },
+    {
+     "id": "e25",
+     "type": "fill",
+     "q": "Il travaille ___ les jours. (every)",
+     "answer": [
+      "tous"
+     ],
+     "roman": null,
+     "explain": "jours is masculine plural, so 'every' is tous: tous les jours."
+    },
+    {
+     "id": "e26",
+     "type": "mc",
+     "q": "un ___ ami (old)",
+     "options": [
+      "vieux",
+      "vieille",
+      "vieilles",
+      "vieil"
+     ],
+     "answer": 3,
+     "explain": "vieux becomes vieil before a masculine singular noun starting with a vowel."
+    },
+    {
+     "id": "e27",
+     "type": "tf",
+     "q": "'un homme grand' means 'a great, important man'.",
+     "answer": false,
+     "explain": "After the noun, grand means tall; before the noun (un grand homme) it means great."
+    },
+    {
+     "id": "e28",
+     "type": "fill",
+     "q": "C'est le ___ restaurant de la ville. (best)",
+     "answer": [
+      "meilleur"
+     ],
+     "roman": null,
+     "explain": "The superlative of bon is le meilleur, and 'in' after it is de."
+    },
+    {
+     "id": "e29",
+     "type": "mc",
+     "q": "Marie est ___ intelligente que Paul. (as... as)",
+     "options": [
+      "plus",
+      "si",
+      "aussi",
+      "autant"
+     ],
+     "answer": 2,
+     "explain": "Equality with an adjective is aussi... que; autant is used with nouns and verbs."
+    },
+    {
+     "id": "e30",
+     "type": "match",
+     "pairs": [
+      [
+       "plus... que",
+       "more... than"
+      ],
+      [
+       "moins... que",
+       "less... than"
+      ],
+      [
+       "aussi... que",
+       "as... as"
+      ],
+      [
+       "mieux",
+       "better (adverb)"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "negation-and-questions",
+   "title": "Negation and questions",
+   "level": 2,
+   "summary": "French negation wraps the verb in two parts, ne... pas, and questions can be asked three ways, from a simple rising voice to formal inversion. This chapter covers ne... pas / jamais / rien / personne / plus, the three question patterns, the question words, and the tricky qui / que / quel choices.",
+   "rules": [
+    {
+     "title": "ne... pas wraps the verb",
+     "body": "To make a sentence negative, put ne before the conjugated verb and pas after it: Je ne parle pas anglais. ne becomes n' before a vowel or h muet: Il n'aime pas le café. With an infinitive, both parts go together in front of it: Je préfère ne pas sortir; Ne pas fumer. In everyday speech the ne is usually dropped (Je sais pas), but in writing and careful speech it is required.",
+     "examples": [
+      {
+       "target": "Je ne comprends pas.",
+       "roman": null,
+       "en": "I don't understand."
+      },
+      {
+       "target": "Elle n'habite pas ici.",
+       "roman": null,
+       "en": "She doesn't live here."
+      },
+      {
+       "target": "Il est important de ne pas oublier.",
+       "roman": null,
+       "en": "It is important not to forget."
+      }
+     ]
+    },
+    {
+     "title": "Other negatives: jamais, rien, personne, plus, que",
+     "body": "pas can be replaced by other negative words, with ne staying in place: ne... jamais (never), ne... rien (nothing), ne... personne (nobody), ne... plus (no longer, no more), ne... que (only), ne... nulle part (nowhere). rien and personne can also be the subject, with ne after them: Rien ne marche (Nothing works), Personne ne vient (Nobody is coming). Note that ne... que is not really negative in meaning: Je n'ai que dix euros means I only have ten euros, and the article stays.",
+     "examples": [
+      {
+       "target": "Je ne mange jamais de viande.",
+       "roman": null,
+       "en": "I never eat meat."
+      },
+      {
+       "target": "Il ne dit rien. Elle ne voit personne.",
+       "roman": null,
+       "en": "He says nothing. She sees nobody."
+      },
+      {
+       "target": "Nous n'habitons plus à Paris.",
+       "roman": null,
+       "en": "We no longer live in Paris."
+      },
+      {
+       "target": "Personne ne parle.",
+       "roman": null,
+       "en": "Nobody is speaking."
+      }
+     ]
+    },
+    {
+     "title": "Articles after a negative, and si for 'yes'",
+     "body": "After a negative, un, une, des and the partitives become de: Je n'ai pas de voiture, Il n'y a plus de pain. To answer 'yes' to a negative question, French uses si rather than oui: Tu n'aimes pas le chocolat ? Si ! (Yes, I do!). To agree with a negative statement, say moi non plus (me neither); to agree with a positive one, moi aussi (me too).",
+     "examples": [
+      {
+       "target": "Il n'y a pas de problème.",
+       "roman": null,
+       "en": "There is no problem."
+      },
+      {
+       "target": "Tu ne viens pas ? Si, je viens !",
+       "roman": null,
+       "en": "Aren't you coming? Yes, I am!"
+      },
+      {
+       "target": "Je n'aime pas le froid. Moi non plus.",
+       "roman": null,
+       "en": "I don't like the cold. Me neither."
+      }
+     ]
+    },
+    {
+     "title": "Three ways to ask a yes/no question",
+     "body": "Informal: keep the word order and raise your voice at the end: Tu viens ? Neutral and very common: put est-ce que in front: Est-ce que tu viens ? (est-ce qu' before a vowel: Est-ce qu'il vient ?). Formal: inversion, swapping verb and subject pronoun with a hyphen: Viens-tu ? Parlez-vous anglais ? When the il/elle/on form ends in a vowel, add -t- for sound: A-t-il un chien ? Va-t-elle à Paris ? With a noun subject, keep the noun and add the pronoun: Marie vient-elle ? Note that French puts a space before the question mark.",
+     "examples": [
+      {
+       "target": "Tu parles anglais ?",
+       "roman": null,
+       "en": "Do you speak English? (informal)"
+      },
+      {
+       "target": "Est-ce que vous avez des enfants ?",
+       "roman": null,
+       "en": "Do you have children?"
+      },
+      {
+       "target": "Avez-vous une voiture ? A-t-elle faim ?",
+       "roman": null,
+       "en": "Do you have a car? Is she hungry?"
+      }
+     ]
+    },
+    {
+     "title": "Question words",
+     "body": "The main question words are où (where), quand (when), pourquoi (why), comment (how), combien (how much), combien de + noun (how many), qui (who), que / quoi (what) and quel (which). They can be followed by est-ce que (Où est-ce que tu habites ?), by inversion (Où habites-tu ?), or in casual speech they go at the end of a normal sentence (Tu habites où ? Tu pars quand ?). pourquoi is answered with parce que (because).",
+     "examples": [
+      {
+       "target": "Où est la gare ?",
+       "roman": null,
+       "en": "Where is the station?"
+      },
+      {
+       "target": "Quand est-ce que tu arrives ?",
+       "roman": null,
+       "en": "When are you arriving?"
+      },
+      {
+       "target": "Pourquoi ? Parce que je suis fatigué.",
+       "roman": null,
+       "en": "Why? Because I'm tired."
+      },
+      {
+       "target": "Combien de frères as-tu ?",
+       "roman": null,
+       "en": "How many brothers do you have?"
+      }
+     ]
+    },
+    {
+     "title": "qui, que and quoi",
+     "body": "qui is 'who' and does not change: Qui est-ce ? Qui parle ? Avec qui tu sors ? 'What' is que before a verb (Que fais-tu ?), qu'est-ce que in the common long form (Qu'est-ce que tu fais ?), and quoi after a preposition or at the end of a casual question (De quoi parles-tu ? Tu fais quoi ?). The fixed phrases Qui est-ce ? (Who is it?) and Qu'est-ce que c'est ? (What is it?) are worth learning as single units. As the subject, 'what' is qu'est-ce qui: Qu'est-ce qui se passe ? (What is happening?).",
+     "examples": [
+      {
+       "target": "Qui est-ce ? C'est mon frère.",
+       "roman": null,
+       "en": "Who is it? It's my brother."
+      },
+      {
+       "target": "Qu'est-ce que c'est ? C'est un cadeau.",
+       "roman": null,
+       "en": "What is it? It's a present."
+      },
+      {
+       "target": "Qu'est-ce que tu veux ? Tu veux quoi ?",
+       "roman": null,
+       "en": "What do you want? (standard / casual)"
+      }
+     ]
+    },
+    {
+     "title": "quel agrees with its noun",
+     "body": "quel (which, what) is an adjective and agrees with the noun: quel (m sg), quelle (f sg), quels (m pl), quelles (f pl), all pronounced the same. Quel âge as-tu ? Quelle heure est-il ? Quels livres aimes-tu ? Quelles sont tes chansons préférées ? It is also used before être when 'what' asks for an identity: Quel est ton nom ? Quelle est ta ville préférée ? And in exclamations: Quelle belle maison !",
+     "examples": [
+      {
+       "target": "Quelle heure est-il ?",
+       "roman": null,
+       "en": "What time is it?"
+      },
+      {
+       "target": "Quel est ton numéro de téléphone ?",
+       "roman": null,
+       "en": "What is your phone number?"
+      },
+      {
+       "target": "Quels films aimez-vous ?",
+       "roman": null,
+       "en": "Which films do you like?"
+      }
+     ]
+    },
+    {
+     "title": "Negation with pronouns and compound tenses",
+     "body": "When there is an object pronoun, ne goes before the pronoun and pas after the verb: Je ne le vois pas; Il ne m'aime pas. In the passé composé, ne... pas surrounds the auxiliary, not the participle: Je n'ai pas mangé; Elle n'est pas venue. rien and jamais also come before the participle (Je n'ai rien vu), but personne goes after it (Je n'ai vu personne). A negative question is built the same way: Tu ne viens pas ? N'as-tu pas faim ? The tag n'est-ce pas ? means 'isn't it? / right?'.",
+     "examples": [
+      {
+       "target": "Je ne le connais pas.",
+       "roman": null,
+       "en": "I don't know him."
+      },
+      {
+       "target": "Nous n'avons rien compris.",
+       "roman": null,
+       "en": "We understood nothing."
+      },
+      {
+       "target": "Tu viens, n'est-ce pas ?",
+       "roman": null,
+       "en": "You're coming, aren't you?"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Je ___ parle ___ anglais.",
+     "options": [
+      "pas ... ne",
+      "non ... pas",
+      "ne ... non",
+      "ne ... pas"
+     ],
+     "answer": 3,
+     "explain": "The negative is ne before the verb and pas after it."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "Il ___ aime pas le sport. (ne)",
+     "answer": [
+      "n'",
+      "n’"
+     ],
+     "roman": null,
+     "explain": "ne elides to n' before a vowel: il n'aime pas."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "In written French, ne goes before the conjugated verb and pas after it.",
+     "answer": true,
+     "explain": "The two parts surround the verb: Je ne sais pas."
+    },
+    {
+     "id": "e04",
+     "type": "order",
+     "words": [
+      "Je",
+      "ne",
+      "comprends",
+      "pas."
+     ],
+     "answer": "Je ne comprends pas.",
+     "en": "I don't understand."
+    },
+    {
+     "id": "e05",
+     "type": "match",
+     "pairs": [
+      [
+       "où",
+       "where"
+      ],
+      [
+       "quand",
+       "when"
+      ],
+      [
+       "pourquoi",
+       "why"
+      ],
+      [
+       "comment",
+       "how"
+      ],
+      [
+       "combien",
+       "how much / how many"
+      ]
+     ]
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "___ tu parles français ?",
+     "options": [
+      "Est-ce que",
+      "Est-ce qui",
+      "Qu'est-ce que",
+      "Que"
+     ],
+     "answer": 0,
+     "explain": "Est-ce que in front of a statement turns it into a yes/no question."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "Je ne mange ___ de viande. (never)",
+     "answer": [
+      "jamais"
+     ],
+     "roman": null,
+     "explain": "ne... jamais means never and replaces pas."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Turn 'Il a un chien' into an inversion question:",
+     "options": [
+      "Il a-t-un chien ?",
+      "At-il un chien ?",
+      "A-t-il un chien ?",
+      "A-il un chien ?"
+     ],
+     "answer": 2,
+     "explain": "When the verb ends in a vowel, -t- is inserted between verb and il/elle/on, with hyphens."
+    },
+    {
+     "id": "e09",
+     "type": "tf",
+     "q": "'Tu viens ?' with rising intonation is an acceptable informal question.",
+     "answer": true,
+     "explain": "In speech, intonation alone makes a question; est-ce que and inversion are the more formal options."
+    },
+    {
+     "id": "e10",
+     "type": "order",
+     "words": [
+      "Qu'est-ce",
+      "que",
+      "tu",
+      "fais",
+      "?"
+     ],
+     "answer": "Qu'est-ce que tu fais ?",
+     "en": "What are you doing?"
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "___ est-ce ? C'est ma mère. (Who)",
+     "answer": [
+      "Qui"
+     ],
+     "roman": null,
+     "explain": "Qui est-ce ? is the fixed way to ask who someone is."
+    },
+    {
+     "id": "e12",
+     "type": "mc",
+     "q": "___ heure est-il ?",
+     "options": [
+      "Quels",
+      "Quelles",
+      "Quelle",
+      "Quel"
+     ],
+     "answer": 2,
+     "explain": "quel agrees with heure, which is feminine singular."
+    },
+    {
+     "id": "e13",
+     "type": "match",
+     "pairs": [
+      [
+       "ne... rien",
+       "nothing"
+      ],
+      [
+       "ne... personne",
+       "nobody"
+      ],
+      [
+       "ne... plus",
+       "no longer"
+      ],
+      [
+       "ne... jamais",
+       "never"
+      ]
+     ]
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "'Je ne vois personne' means 'I don't see anybody'.",
+     "answer": true,
+     "explain": "ne... personne is the negative for people; French does not add a separate 'not'."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Je n'ai ___ compris. (nothing)",
+     "answer": [
+      "rien"
+     ],
+     "roman": null,
+     "explain": "rien goes between the auxiliary and the past participle: je n'ai rien compris."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Tu n'aimes pas le chocolat ? — ___, j'adore ça !",
+     "options": [
+      "Non",
+      "Pas",
+      "Si",
+      "Oui"
+     ],
+     "answer": 2,
+     "explain": "To contradict a negative question you answer si, not oui."
+    },
+    {
+     "id": "e17",
+     "type": "order",
+     "words": [
+      "Où",
+      "est",
+      "la",
+      "gare",
+      "?"
+     ],
+     "answer": "Où est la gare ?",
+     "en": "Where is the station?"
+    },
+    {
+     "id": "e18",
+     "type": "mc",
+     "q": "___ est-ce que tu habites ?",
+     "options": [
+      "Où",
+      "Qui",
+      "Que",
+      "Quoi"
+     ],
+     "answer": 0,
+     "explain": "The answer would be a place, so the question word is où (where)."
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "Il ne fume ___. (any more)",
+     "answer": [
+      "plus"
+     ],
+     "roman": null,
+     "explain": "ne... plus means no longer / not any more."
+    },
+    {
+     "id": "e20",
+     "type": "tf",
+     "q": "'Que fais-tu ?' and 'Tu fais quoi ?' mean the same thing; the second is more casual.",
+     "answer": true,
+     "explain": "que is used before the verb in inversion, quoi at the end of a casual question."
+    },
+    {
+     "id": "e21",
+     "type": "mc",
+     "q": "Je n'ai ___ dix euros. (only)",
+     "options": [
+      "pas",
+      "plus",
+      "rien",
+      "que"
+     ],
+     "answer": 3,
+     "explain": "ne... que means only and keeps the noun as it is."
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "Personne",
+      "ne",
+      "parle",
+      "chinois",
+      "ici."
+     ],
+     "answer": "Personne ne parle chinois ici.",
+     "en": "Nobody speaks Chinese here."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "___ de frères as-tu ? (How many)",
+     "answer": [
+      "Combien"
+     ],
+     "roman": null,
+     "explain": "combien de + noun asks how many or how much."
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "Which is the correct inversion of 'Vous parlez anglais'?",
+     "options": [
+      "Parlez vous anglais ?",
+      "Parlent-vous anglais ?",
+      "Parlez-vous anglais ?",
+      "Vous parlez-anglais ?"
+     ],
+     "answer": 2,
+     "explain": "Inversion swaps verb and pronoun and joins them with a hyphen."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "'Il est pas content' is correct in formal written French.",
+     "answer": false,
+     "explain": "Dropping ne is common in speech but not acceptable in formal writing: Il n'est pas content."
+    },
+    {
+     "id": "e26",
+     "type": "match",
+     "pairs": [
+      [
+       "Qui est-ce ?",
+       "Who is it?"
+      ],
+      [
+       "Qu'est-ce que c'est ?",
+       "What is it?"
+      ],
+      [
+       "De quoi parles-tu ?",
+       "What are you talking about?"
+      ],
+      [
+       "Quel âge as-tu ?",
+       "How old are you?"
+      ]
+     ]
+    },
+    {
+     "id": "e27",
+     "type": "fill",
+     "q": "Il est important de ___ fumer. (not to: two words)",
+     "answer": [
+      "ne pas"
+     ],
+     "roman": null,
+     "explain": "Before an infinitive, ne and pas stay together in front of it."
+    },
+    {
+     "id": "e28",
+     "type": "mc",
+     "q": "Formal inversion question with a noun subject: '___ au cinéma ?' (Is Marie going to the cinema?)",
+     "options": [
+      "Va-t-elle Marie",
+      "Marie va-elle",
+      "Marie va-t-elle",
+      "Va-Marie"
+     ],
+     "answer": 2,
+     "explain": "The noun stays first and the matching pronoun is inverted after the verb, with -t- before elle."
+    },
+    {
+     "id": "e29",
+     "type": "order",
+     "words": [
+      "Je",
+      "ne",
+      "le",
+      "connais",
+      "pas."
+     ],
+     "answer": "Je ne le connais pas.",
+     "en": "I don't know him."
+    },
+    {
+     "id": "e30",
+     "type": "tf",
+     "q": "'Rien ne marche' is a correct sentence meaning 'Nothing works'.",
+     "answer": true,
+     "explain": "rien can be the subject; ne then follows it directly before the verb."
+    }
+   ]
+  },
+  {
+   "id": "passe-compose",
+   "title": "The passé composé",
+   "level": 2,
+   "summary": "The passé composé is the everyday past tense of French: 'I ate', 'she left', 'we have seen'. It is built from a present-tense auxiliary (avoir or être) plus a past participle. This chapter covers the regular and irregular participles, which verbs take être, and the agreement rules that follow from each auxiliary.",
+   "rules": [
+    {
+     "title": "Auxiliary + past participle",
+     "body": "The passé composé has two parts: the present tense of avoir (or être) and the past participle of the verb: j'ai mangé (I ate / I have eaten), tu as fini, il a vendu. It describes completed actions and events: what happened, once or a number of times. English 'I ate', 'I have eaten' and 'I did eat' are all the passé composé in French. Most verbs use avoir.",
+     "examples": [
+      {
+       "target": "J'ai mangé une pomme.",
+       "roman": null,
+       "en": "I ate an apple."
+      },
+      {
+       "target": "Nous avons visité Paris.",
+       "roman": null,
+       "en": "We visited Paris."
+      },
+      {
+       "target": "Elle a travaillé hier.",
+       "roman": null,
+       "en": "She worked yesterday."
+      }
+     ]
+    },
+    {
+     "title": "Regular past participles: -é, -i, -u",
+     "body": "The past participle of a regular verb is formed from the infinitive: -er becomes -é (parler, parlé; manger, mangé), -ir becomes -i (finir, fini; choisir, choisi; dormir, dormi), -re becomes -u (vendre, vendu; attendre, attendu; répondre, répondu). The participle does not change with the person when the auxiliary is avoir: j'ai parlé, nous avons parlé, ils ont parlé.",
+     "examples": [
+      {
+       "target": "Tu as parlé avec Marie ?",
+       "roman": null,
+       "en": "Did you talk to Marie?"
+      },
+      {
+       "target": "Ils ont fini leurs devoirs.",
+       "roman": null,
+       "en": "They finished their homework."
+      },
+      {
+       "target": "Vous avez attendu longtemps ?",
+       "roman": null,
+       "en": "Did you wait long?"
+      }
+     ]
+    },
+    {
+     "title": "Irregular past participles",
+     "body": "Many of the most useful verbs have irregular participles: être, été; avoir, eu; faire, fait; prendre, pris (and appris, compris); mettre, mis; dire, dit; écrire, écrit; voir, vu; boire, bu; lire, lu; pouvoir, pu; vouloir, voulu; devoir, dû; savoir, su; connaître, connu; croire, cru; recevoir, reçu; vivre, vécu; pleuvoir, plu; ouvrir, ouvert; offrir, offert; venir, venu; naître, né; mourir, mort. Notice the families: -u for many -oir/-re verbs, -is/-it for prendre, mettre, dire, écrire, and -ert for ouvrir, offrir, découvrir.",
+     "examples": [
+      {
+       "target": "J'ai eu peur. Il a été malade.",
+       "roman": null,
+       "en": "I was scared. He was ill."
+      },
+      {
+       "target": "Nous avons pris le train et nous avons vu la mer.",
+       "roman": null,
+       "en": "We took the train and we saw the sea."
+      },
+      {
+       "target": "Elle a lu le livre et a écrit une lettre.",
+       "roman": null,
+       "en": "She read the book and wrote a letter."
+      },
+      {
+       "target": "Il a plu toute la journée.",
+       "roman": null,
+       "en": "It rained all day."
+      }
+     ]
+    },
+    {
+     "title": "Verbs that take être",
+     "body": "A small group of verbs of movement and change use être instead of avoir: aller (allé), venir (venu), arriver, partir, entrer, sortir, monter, descendre, naître (né), mourir (mort), rester, tomber, retourner, passer, and their compounds devenir, revenir, rentrer. The mnemonic DR & MRS VANDERTRAMP collects their initials. All reflexive verbs also take être (je me suis levé). The auxiliary is still in the present: Je suis allé, Tu es parti, Elle est née.",
+     "examples": [
+      {
+       "target": "Je suis allé au marché.",
+       "roman": null,
+       "en": "I went to the market."
+      },
+      {
+       "target": "Il est parti à huit heures.",
+       "roman": null,
+       "en": "He left at eight."
+      },
+      {
+       "target": "Nous sommes restés à la maison.",
+       "roman": null,
+       "en": "We stayed at home."
+      }
+     ]
+    },
+    {
+     "title": "Agreement with être",
+     "body": "When the auxiliary is être, the past participle agrees with the subject like an adjective: add -e for a feminine subject, -s for plural, -es for feminine plural. Il est allé, elle est allée, ils sont allés, elles sont allées. With vous the participle matches the real person(s): Vous êtes arrivée, madame ? With on meaning 'we', the agreement usually follows the people meant: On est partis. The extra -e or -s is silent except in mort / morte.",
+     "examples": [
+      {
+       "target": "Marie est arrivée hier.",
+       "roman": null,
+       "en": "Marie arrived yesterday."
+      },
+      {
+       "target": "Mes parents sont venus.",
+       "roman": null,
+       "en": "My parents came."
+      },
+      {
+       "target": "Elles sont nées en 2001.",
+       "roman": null,
+       "en": "They (f) were born in 2001."
+      }
+     ]
+    },
+    {
+     "title": "Agreement with avoir: the preceding direct object",
+     "body": "With avoir, the past participle normally does not change: Elle a mangé, Ils ont mangé. But if a direct object comes BEFORE the verb, the participle agrees with that object. This happens with the pronouns le, la, les (Je les ai vus; Je l'ai vue), with que in a relative clause (la pomme que j'ai mangée), and with quel in a question (Quelle robe as-tu achetée ?). There is no agreement with an indirect object (Je leur ai parlé) or with en (J'en ai mangé).",
+     "examples": [
+      {
+       "target": "Tu as vu Marie ? Oui, je l'ai vue.",
+       "roman": null,
+       "en": "Did you see Marie? Yes, I saw her."
+      },
+      {
+       "target": "Voici les photos que j'ai prises.",
+       "roman": null,
+       "en": "Here are the photos I took."
+      },
+      {
+       "target": "Je leur ai téléphoné.",
+       "roman": null,
+       "en": "I phoned them. (no agreement: indirect object)"
+      }
+     ]
+    },
+    {
+     "title": "Movement verbs with a direct object take avoir",
+     "body": "sortir, monter, descendre, passer, rentrer and retourner take être when they describe movement, but avoir when they have a direct object and mean 'take out', 'take up', 'bring down', 'spend (time)': Elle est sortie (she went out) but Elle a sorti le chien (she took the dog out); Il est monté (he went up) but Il a monté les valises (he carried the suitcases up); Nous sommes passés par Lyon but Nous avons passé une semaine à Lyon.",
+     "examples": [
+      {
+       "target": "Elle est sortie à midi.",
+       "roman": null,
+       "en": "She went out at noon."
+      },
+      {
+       "target": "Elle a sorti la poubelle.",
+       "roman": null,
+       "en": "She took the rubbish out."
+      },
+      {
+       "target": "J'ai passé une bonne journée.",
+       "roman": null,
+       "en": "I had a good day."
+      }
+     ]
+    },
+    {
+     "title": "Negation, adverbs and questions",
+     "body": "ne... pas goes around the auxiliary: Je n'ai pas mangé; Elle n'est pas venue; Il n'a jamais vu la mer. Short adverbs such as bien, mal, déjà, encore, toujours, beaucoup, trop and vite also sit between the auxiliary and the participle: J'ai bien dormi; Il a déjà fini; Nous avons beaucoup marché. Questions use the usual patterns: Tu as mangé ? Est-ce que tu as mangé ? As-tu mangé ? Est-elle partie ?",
+     "examples": [
+      {
+       "target": "Je n'ai pas compris.",
+       "roman": null,
+       "en": "I didn't understand."
+      },
+      {
+       "target": "Nous avons bien mangé hier soir.",
+       "roman": null,
+       "en": "We ate well last night."
+      },
+      {
+       "target": "Est-ce que vous avez déjà visité Rome ?",
+       "roman": null,
+       "en": "Have you already visited Rome?"
+      }
+     ]
+    },
+    {
+     "title": "Reflexive verbs in the passé composé",
+     "body": "Reflexive verbs (se lever, se laver, s'appeler, se coucher) always take être, with the reflexive pronoun before it: je me suis levé, tu t'es couché, elle s'est lavée, nous nous sommes amusés. The participle agrees with the subject when the reflexive pronoun is the direct object (Elle s'est levée), but not when a direct object follows the verb: Elle s'est lavé les mains (she washed her hands: les mains is the object, so no -e).",
+     "examples": [
+      {
+       "target": "Je me suis levé à sept heures.",
+       "roman": null,
+       "en": "I got up at seven."
+      },
+      {
+       "target": "Elle s'est couchée tard.",
+       "roman": null,
+       "en": "She went to bed late."
+      },
+      {
+       "target": "Ils se sont bien amusés.",
+       "roman": null,
+       "en": "They had a good time."
+      }
+     ]
+    },
+    {
+     "title": "Time words that go with the passé composé",
+     "body": "The passé composé is the natural partner of expressions pointing at a finished moment: hier (yesterday), hier soir, avant-hier, la semaine dernière, l'année dernière, lundi dernier, il y a deux ans (two years ago), ce matin, une fois / deux fois (once / twice), déjà (already), pas encore (not yet), pendant deux heures (for two hours, now over), soudain, tout à coup (suddenly).",
+     "examples": [
+      {
+       "target": "Hier, j'ai vu un bon film.",
+       "roman": null,
+       "en": "Yesterday I saw a good film."
+      },
+      {
+       "target": "Il y a deux ans, nous sommes allés au Japon.",
+       "roman": null,
+       "en": "Two years ago we went to Japan."
+      },
+      {
+       "target": "Tu as déjà mangé ? Pas encore.",
+       "roman": null,
+       "en": "Have you eaten yet? Not yet."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "J'___ mangé.",
+     "options": [
+      "as",
+      "est",
+      "ai",
+      "suis"
+     ],
+     "answer": 2,
+     "explain": "manger takes avoir, and the je form of avoir is ai."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "Nous avons ___ le travail. (finir)",
+     "answer": [
+      "fini"
+     ],
+     "roman": null,
+     "explain": "-ir verbs form their past participle in -i."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "Regular -er verbs form their past participle in -é.",
+     "answer": true,
+     "explain": "parler gives parlé, manger gives mangé, aimer gives aimé."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "parler",
+       "parlé"
+      ],
+      [
+       "finir",
+       "fini"
+      ],
+      [
+       "vendre",
+       "vendu"
+      ],
+      [
+       "faire",
+       "fait"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "Hier,",
+      "j'ai",
+      "vu",
+      "un",
+      "film."
+     ],
+     "answer": "Hier, j'ai vu un film.",
+     "en": "Yesterday I saw a film."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Elle ___ allée à Paris.",
+     "options": [
+      "a",
+      "es",
+      "sont",
+      "est"
+     ],
+     "answer": 3,
+     "explain": "aller takes être, and the elle form of être is est."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "Ils ___ partis tôt. (être)",
+     "answer": [
+      "sont"
+     ],
+     "roman": null,
+     "explain": "partir is an être verb; ils sont partis."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "What is the past participle of 'prendre'?",
+     "options": [
+      "prenu",
+      "pris",
+      "prendu",
+      "prit"
+     ],
+     "answer": 1,
+     "explain": "prendre has the irregular participle pris, like appris and compris."
+    },
+    {
+     "id": "e09",
+     "type": "tf",
+     "q": "'aller' takes être as its auxiliary in the passé composé.",
+     "answer": true,
+     "explain": "aller is one of the movement verbs that use être: je suis allé."
+    },
+    {
+     "id": "e10",
+     "type": "match",
+     "pairs": [
+      [
+       "avoir",
+       "eu"
+      ],
+      [
+       "être",
+       "été"
+      ],
+      [
+       "voir",
+       "vu"
+      ],
+      [
+       "boire",
+       "bu"
+      ],
+      [
+       "lire",
+       "lu"
+      ]
+     ]
+    },
+    {
+     "id": "e11",
+     "type": "order",
+     "words": [
+      "Elles",
+      "sont",
+      "arrivées",
+      "à",
+      "midi."
+     ],
+     "answer": "Elles sont arrivées à midi.",
+     "en": "They (f) arrived at noon."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Marie est ___ hier. (venir)",
+     "answer": [
+      "venue"
+     ],
+     "roman": null,
+     "explain": "With être, the participle agrees with the feminine subject: venue."
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "Nous ___ en 1990. (naître, we = two brothers)",
+     "options": [
+      "sommes né",
+      "avons nés",
+      "sommes nés",
+      "avons né"
+     ],
+     "answer": 2,
+     "explain": "naître takes être and the participle agrees with the plural subject: sommes nés."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "With avoir, the past participle agrees with the subject.",
+     "answer": false,
+     "explain": "With avoir the participle agrees only with a direct object placed before the verb, never with the subject."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Il a ___ son manteau. (mettre)",
+     "answer": [
+      "mis"
+     ],
+     "roman": null,
+     "explain": "mettre has the irregular participle mis."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Je ___ pas compris.",
+     "options": [
+      "ne ai",
+      "n'ai",
+      "ne suis",
+      "n'a"
+     ],
+     "answer": 1,
+     "explain": "comprendre takes avoir, and ne elides before ai: je n'ai pas compris."
+    },
+    {
+     "id": "e17",
+     "type": "order",
+     "words": [
+      "Tu",
+      "n'as",
+      "pas",
+      "fini",
+      "tes",
+      "devoirs."
+     ],
+     "answer": "Tu n'as pas fini tes devoirs.",
+     "en": "You haven't finished your homework."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "Elle s'est ___ à sept heures. (lever)",
+     "answer": [
+      "levée"
+     ],
+     "roman": null,
+     "explain": "Reflexive verbs take être and the participle agrees with elle: levée."
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "La lettre que j'ai ___.",
+     "options": [
+      "écrite",
+      "écrit",
+      "écrits",
+      "écrites"
+     ],
+     "answer": 0,
+     "explain": "The direct object (la lettre, via que) comes before the verb, so the participle takes the feminine -e."
+    },
+    {
+     "id": "e20",
+     "type": "tf",
+     "q": "'Elle a sorti le chien' is correct even though sortir usually takes être.",
+     "answer": true,
+     "explain": "With a direct object (le chien), sortir means 'take out' and uses avoir."
+    },
+    {
+     "id": "e21",
+     "type": "match",
+     "pairs": [
+      [
+       "hier",
+       "yesterday"
+      ],
+      [
+       "la semaine dernière",
+       "last week"
+      ],
+      [
+       "il y a deux ans",
+       "two years ago"
+      ],
+      [
+       "déjà",
+       "already"
+      ]
+     ]
+    },
+    {
+     "id": "e22",
+     "type": "fill",
+     "q": "Ils ont ___ la porte. (ouvrir)",
+     "answer": [
+      "ouvert"
+     ],
+     "roman": null,
+     "explain": "ouvrir, offrir and découvrir form their participle in -ert."
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "Vous ___ les valises ? (descendre, bring down)",
+     "options": [
+      "avez descendu",
+      "êtes descendu",
+      "êtes descendus",
+      "avez descendus"
+     ],
+     "answer": 0,
+     "explain": "With a direct object (les valises) descendre takes avoir, and the object follows the verb so there is no agreement."
+    },
+    {
+     "id": "e24",
+     "type": "order",
+     "words": [
+      "Nous",
+      "avons",
+      "bien",
+      "mangé",
+      "hier",
+      "soir."
+     ],
+     "answer": "Nous avons bien mangé hier soir.",
+     "en": "We ate well last night."
+    },
+    {
+     "id": "e25",
+     "type": "fill",
+     "q": "Mes amies ? Je les ai ___ hier. (voir)",
+     "answer": [
+      "vues"
+     ],
+     "roman": null,
+     "explain": "les stands for mes amies (feminine plural) and comes before the verb, so the participle is vues."
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "'Il a plu' (it rained) uses the past participle of pleuvoir.",
+     "answer": true,
+     "explain": "pleuvoir has the irregular participle plu; it is the same spelling as the participle of plaire."
+    },
+    {
+     "id": "e27",
+     "type": "mc",
+     "q": "Elle ___ médecin. (devenir)",
+     "options": [
+      "est devenue",
+      "a devenu",
+      "est devenu",
+      "a devenue"
+     ],
+     "answer": 0,
+     "explain": "devenir takes être like venir, and the participle agrees with elle."
+    },
+    {
+     "id": "e28",
+     "type": "fill",
+     "q": "Vous avez ___ venir ? (pouvoir)",
+     "answer": [
+      "pu"
+     ],
+     "roman": null,
+     "explain": "pouvoir has the short irregular participle pu."
+    },
+    {
+     "id": "e29",
+     "type": "match",
+     "pairs": [
+      [
+       "aller",
+       "elle est allée"
+      ],
+      [
+       "mourir",
+       "elle est morte"
+      ],
+      [
+       "naître",
+       "elle est née"
+      ],
+      [
+       "rester",
+       "elle est restée"
+      ]
+     ]
+    },
+    {
+     "id": "e30",
+     "type": "mc",
+     "q": "Les enfants ___ dans la neige. (tomber)",
+     "options": [
+      "ont tombé",
+      "sont tombé",
+      "ont tombés",
+      "sont tombés"
+     ],
+     "answer": 3,
+     "explain": "tomber takes être, so the participle agrees with les enfants: tombés."
+    },
+    {
+     "id": "e31",
+     "type": "tf",
+     "q": "'Je suis mangé une pomme' is correct French.",
+     "answer": false,
+     "explain": "manger takes avoir: J'ai mangé une pomme."
+    }
+   ]
+  },
+  {
+   "id": "imparfait-future-conditional",
+   "title": "Imparfait, future and conditional",
+   "level": 2,
+   "summary": "Beyond the passé composé, three more tenses carry most everyday conversation: the imparfait for descriptions and habits in the past, the futur simple for what will happen, and the conditional for what would happen or for polite requests. This chapter gives their forms, their uses and the basic si (if) patterns.",
+   "rules": [
+    {
+     "title": "Forming the imparfait",
+     "body": "Take the nous form of the present, drop -ons, and add -ais, -ais, -ait, -ions, -iez, -aient: parler (nous parlons) gives je parlais, tu parlais, il parlait, nous parlions, vous parliez, ils parlaient. finir (nous finissons) gives je finissais; prendre (nous prenons) gives je prenais; avoir (nous avons) gives j'avais; faire gives je faisais. The only irregular stem is être: j'étais, tu étais, il était, nous étions, vous étiez, ils étaient. Spelling: je mangeais, je commençais keep the soft g and c.",
+     "examples": [
+      {
+       "target": "Nous habitions à Lyon.",
+       "roman": null,
+       "en": "We lived / used to live in Lyon."
+      },
+      {
+       "target": "Il faisait beau et j'étais content.",
+       "roman": null,
+       "en": "The weather was nice and I was happy."
+      },
+      {
+       "target": "Vous finissiez à cinq heures.",
+       "roman": null,
+       "en": "You used to finish at five."
+      }
+     ]
+    },
+    {
+     "title": "When to use the imparfait",
+     "body": "The imparfait describes the past without saying when it began or ended. Use it for habits and repeated actions (used to, would): Quand j'étais petit, je jouais au foot. For descriptions and background: Il pleuvait, la maison était vieille. For states of mind, age, time and weather: J'avais dix ans, Il était midi, Elle voulait partir. And for an action in progress that another event interrupts: Je dormais quand tu as appelé.",
+     "examples": [
+      {
+       "target": "Quand j'étais petit, je jouais au football.",
+       "roman": null,
+       "en": "When I was little, I used to play football."
+      },
+      {
+       "target": "Il pleuvait et il était tard.",
+       "roman": null,
+       "en": "It was raining and it was late."
+      },
+      {
+       "target": "Elle avait vingt ans à l'époque.",
+       "roman": null,
+       "en": "She was twenty at the time."
+      }
+     ]
+    },
+    {
+     "title": "Imparfait versus passé composé",
+     "body": "Both tenses talk about the past, but they do different jobs. The passé composé reports events: things that happened and were completed (Il est entré, J'ai mangé). The imparfait paints the background: what was going on, what things were like, what used to happen. A typical sentence combines them: Je lisais (background) quand il est entré (event). Compare J'ai habité à Paris pendant deux ans (a finished period) with J'habitais à Paris quand je l'ai rencontré (setting).",
+     "examples": [
+      {
+       "target": "Je lisais quand le téléphone a sonné.",
+       "roman": null,
+       "en": "I was reading when the phone rang."
+      },
+      {
+       "target": "Il faisait froid, alors nous sommes rentrés.",
+       "roman": null,
+       "en": "It was cold, so we went home."
+      },
+      {
+       "target": "Avant, je fumais. J'ai arrêté l'année dernière.",
+       "roman": null,
+       "en": "I used to smoke. I stopped last year."
+      }
+     ]
+    },
+    {
+     "title": "Futur proche and futur simple",
+     "body": "There are two futures. The futur proche uses aller + infinitive for what is about to happen or is planned: Je vais partir (I'm going to leave). The futur simple is a one-word tense for predictions, promises and more distant plans: Je partirai. It is formed from the infinitive plus the endings -ai, -as, -a, -ons, -ez, -ont (the present of avoir): je parlerai, tu finiras, il vendra (for -re verbs drop the final -e), nous parlerons, vous finirez, ils vendront. The endings never change and the stem always ends in r.",
+     "examples": [
+      {
+       "target": "Je vais manger maintenant.",
+       "roman": null,
+       "en": "I'm going to eat now."
+      },
+      {
+       "target": "Demain, nous partirons tôt.",
+       "roman": null,
+       "en": "Tomorrow we will leave early."
+      },
+      {
+       "target": "Ils finiront le projet en mai.",
+       "roman": null,
+       "en": "They will finish the project in May."
+      }
+     ]
+    },
+    {
+     "title": "Irregular future stems",
+     "body": "Some verbs use a special stem in the future (and the same stem in the conditional), but the endings stay regular: être, ser- (je serai); avoir, aur- (j'aurai); aller, ir- (j'irai); faire, fer- (je ferai); venir, viendr- (je viendrai); voir, verr- (je verrai); pouvoir, pourr- (je pourrai); vouloir, voudr- (je voudrai); devoir, devr- (je devrai); savoir, saur- (je saurai); envoyer, enverr-; recevoir, recevr-; courir, courr-; mourir, mourr-; falloir, il faudra; pleuvoir, il pleuvra. Spelling-change verbs keep the accent or double letter: j'achèterai, j'appellerai.",
+     "examples": [
+      {
+       "target": "Je serai là demain.",
+       "roman": null,
+       "en": "I will be there tomorrow."
+      },
+      {
+       "target": "Nous aurons le temps.",
+       "roman": null,
+       "en": "We will have time."
+      },
+      {
+       "target": "Il viendra et il fera la cuisine.",
+       "roman": null,
+       "en": "He will come and he will cook."
+      },
+      {
+       "target": "Tu pourras venir ?",
+       "roman": null,
+       "en": "Will you be able to come?"
+      }
+     ]
+    },
+    {
+     "title": "Future after quand, lorsque, dès que",
+     "body": "When a clause introduced by quand, lorsque (when), dès que or aussitôt que (as soon as) refers to the future, French uses the future tense in it, where English uses the present: Quand j'aurai le temps, je viendrai (When I have time, I will come). Dès que tu arriveras, appelle-moi. The same applies in the main clause, which is also in the future or the imperative.",
+     "examples": [
+      {
+       "target": "Quand il arrivera, nous mangerons.",
+       "roman": null,
+       "en": "When he arrives, we will eat."
+      },
+      {
+       "target": "Je t'appellerai dès que je saurai.",
+       "roman": null,
+       "en": "I'll call you as soon as I know."
+      },
+      {
+       "target": "Quand tu seras grand, tu comprendras.",
+       "roman": null,
+       "en": "When you are grown up, you will understand."
+      }
+     ]
+    },
+    {
+     "title": "The conditional: would",
+     "body": "The conditional uses the future stem (including the irregular ones) with the imparfait endings -ais, -ais, -ait, -ions, -iez, -aient: je parlerais, tu finirais, il serait, nous aurions, vous iriez, ils feraient. It means 'would': Je voyagerais partout. It is also the polite tense: Je voudrais un café (I would like), Pourriez-vous m'aider ? (Could you), Tu devrais dormir (You should), J'aimerais venir. And it reports the future from a past point of view: Il a dit qu'il viendrait (He said he would come).",
+     "examples": [
+      {
+       "target": "Je voudrais un café, s'il vous plaît.",
+       "roman": null,
+       "en": "I would like a coffee, please."
+      },
+      {
+       "target": "Tu devrais te reposer.",
+       "roman": null,
+       "en": "You should rest."
+      },
+      {
+       "target": "Elle a dit qu'elle serait en retard.",
+       "roman": null,
+       "en": "She said she would be late."
+      }
+     ]
+    },
+    {
+     "title": "si clauses: the two basic patterns",
+     "body": "A real or likely condition uses si + present, with the result in the present, the future or the imperative: Si tu veux, on peut partir; S'il pleut, nous resterons à la maison; Si tu as faim, mange. An imagined or unlikely condition uses si + imparfait, with the result in the conditional: Si j'avais de l'argent, je voyagerais; Si tu venais, je serais content. The future and the conditional never appear directly after si in these patterns (never 'si j'aurais'). si becomes s' only before il and ils: s'il, s'ils, but si elle.",
+     "examples": [
+      {
+       "target": "S'il fait beau, nous irons à la plage.",
+       "roman": null,
+       "en": "If the weather is nice, we will go to the beach."
+      },
+      {
+       "target": "Si j'étais riche, j'achèterais une maison.",
+       "roman": null,
+       "en": "If I were rich, I would buy a house."
+      },
+      {
+       "target": "Si tu es fatigué, dors.",
+       "roman": null,
+       "en": "If you're tired, sleep."
+      }
+     ]
+    },
+    {
+     "title": "Time expressions for each tense",
+     "body": "With the imparfait: autrefois (formerly), à l'époque (at the time), avant (before), tous les jours and d'habitude (usually) describing past habits, pendant que (while). With the future: demain, après-demain, la semaine prochaine, l'année prochaine, dans deux jours (in two days' time), bientôt (soon), plus tard, un jour. With the conditional: si (if), à ta place (in your place), en théorie.",
+     "examples": [
+      {
+       "target": "Autrefois, on voyageait en train.",
+       "roman": null,
+       "en": "In the old days, people travelled by train."
+      },
+      {
+       "target": "Dans deux jours, je serai à Rome.",
+       "roman": null,
+       "en": "In two days I will be in Rome."
+      },
+      {
+       "target": "À ta place, je refuserais.",
+       "roman": null,
+       "en": "In your place, I would refuse."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Quand j'étais petit, je ___ au football.",
+     "options": [
+      "joue",
+      "jouerai",
+      "ai joué",
+      "jouais"
+     ],
+     "answer": 3,
+     "explain": "A childhood habit is described with the imparfait: je jouais."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "Nous ___ à Lyon. (habiter, imparfait)",
+     "answer": [
+      "habitions"
+     ],
+     "roman": null,
+     "explain": "The nous ending of the imparfait is -ions: nous habitions."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "The imparfait stem comes from the nous form of the present tense.",
+     "answer": true,
+     "explain": "nous finissons gives finiss-, so je finissais; the one exception is être (ét-)."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "je parlais",
+       "I was speaking / I used to speak"
+      ],
+      [
+       "je parlerai",
+       "I will speak"
+      ],
+      [
+       "je parlerais",
+       "I would speak"
+      ],
+      [
+       "j'ai parlé",
+       "I spoke (completed)"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "Il",
+      "faisait",
+      "beau",
+      "hier."
+     ],
+     "answer": "Il faisait beau hier.",
+     "en": "The weather was nice yesterday."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "What is the je form of être in the imparfait?",
+     "options": [
+      "étais",
+      "était",
+      "étions",
+      "suis"
+     ],
+     "answer": 0,
+     "explain": "être uses the stem ét- with the imparfait endings: j'étais."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "Demain, je ___. (travailler, futur simple)",
+     "answer": [
+      "travaillerai"
+     ],
+     "roman": null,
+     "explain": "The futur simple adds -ai to the infinitive: je travaillerai."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Ils ___ demain. (finir, futur simple)",
+     "options": [
+      "finissent",
+      "finiraient",
+      "finiront",
+      "finirent"
+     ],
+     "answer": 2,
+     "explain": "The ils ending of the future is -ont: ils finiront."
+    },
+    {
+     "id": "e09",
+     "type": "tf",
+     "q": "The futur simple of -re verbs keeps the final -e of the infinitive: 'je vendreai'.",
+     "answer": false,
+     "explain": "The -e is dropped before the ending: je vendrai."
+    },
+    {
+     "id": "e10",
+     "type": "match",
+     "pairs": [
+      [
+       "être",
+       "ser-"
+      ],
+      [
+       "avoir",
+       "aur-"
+      ],
+      [
+       "aller",
+       "ir-"
+      ],
+      [
+       "faire",
+       "fer-"
+      ],
+      [
+       "venir",
+       "viendr-"
+      ]
+     ]
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Nous ___ en vacances la semaine prochaine. (être, futur simple)",
+     "answer": [
+      "serons"
+     ],
+     "roman": null,
+     "explain": "être has the irregular future stem ser-: nous serons."
+    },
+    {
+     "id": "e12",
+     "type": "order",
+     "words": [
+      "Je",
+      "voudrais",
+      "un",
+      "café,",
+      "s'il",
+      "vous",
+      "plaît."
+     ],
+     "answer": "Je voudrais un café, s'il vous plaît.",
+     "en": "I would like a coffee, please."
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "Si j'avais de l'argent, je ___ une maison.",
+     "options": [
+      "achèterai",
+      "achetais",
+      "achète",
+      "achèterais"
+     ],
+     "answer": 3,
+     "explain": "si + imparfait is followed by the conditional in the main clause."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "'Si j'aurais le temps, je viendrais' is correct French.",
+     "answer": false,
+     "explain": "The conditional never follows si in this pattern; it must be Si j'avais le temps."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Tu ___ dormir plus. (devoir, conditionnel)",
+     "answer": [
+      "devrais"
+     ],
+     "roman": null,
+     "explain": "devoir has the stem devr-; the conditional tu form is devrais (you should)."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Je ___ quand le téléphone a sonné. (I was reading)",
+     "options": [
+      "lirai",
+      "lirais",
+      "lisais",
+      "ai lu"
+     ],
+     "answer": 2,
+     "explain": "The action in progress is in the imparfait; the interrupting event is in the passé composé."
+    },
+    {
+     "id": "e17",
+     "type": "order",
+     "words": [
+      "S'il",
+      "pleut,",
+      "nous",
+      "resterons",
+      "à",
+      "la",
+      "maison."
+     ],
+     "answer": "S'il pleut, nous resterons à la maison.",
+     "en": "If it rains, we'll stay at home."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "Quand il ___ le temps, il viendra. (avoir, futur simple)",
+     "answer": [
+      "aura"
+     ],
+     "roman": null,
+     "explain": "After quand referring to the future, French uses the future: quand il aura le temps."
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "Vous ___ m'aider ? (pouvoir, polite conditional)",
+     "options": [
+      "pouvez",
+      "pourriez",
+      "pourrez",
+      "pouviez"
+     ],
+     "answer": 1,
+     "explain": "The polite 'could you' is the conditional: pourriez-vous."
+    },
+    {
+     "id": "e20",
+     "type": "tf",
+     "q": "After 'quand' referring to the future, French uses the future tense where English uses the present.",
+     "answer": true,
+     "explain": "Quand j'aurai le temps = When I have time."
+    },
+    {
+     "id": "e21",
+     "type": "match",
+     "pairs": [
+      [
+       "S'il fait beau,",
+       "nous sortirons."
+      ],
+      [
+       "Si j'avais faim,",
+       "je mangerais."
+      ],
+      [
+       "Quand je serai grand,",
+       "je serai pilote."
+      ],
+      [
+       "Quand j'étais petit,",
+       "j'avais un chien."
+      ]
+     ]
+    },
+    {
+     "id": "e22",
+     "type": "fill",
+     "q": "Autrefois, on ___ en train. (voyager, imparfait)",
+     "answer": [
+      "voyageait"
+     ],
+     "roman": null,
+     "explain": "-ger verbs keep the e before -ait to keep the soft g: voyageait."
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "Il ___ demain. (venir, futur simple)",
+     "options": [
+      "viendrait",
+      "viendra",
+      "venira",
+      "vient"
+     ],
+     "answer": 1,
+     "explain": "venir has the irregular future stem viendr-."
+    },
+    {
+     "id": "e24",
+     "type": "order",
+     "words": [
+      "Nous",
+      "mangions",
+      "souvent",
+      "au",
+      "restaurant."
+     ],
+     "answer": "Nous mangions souvent au restaurant.",
+     "en": "We often used to eat at the restaurant."
+    },
+    {
+     "id": "e25",
+     "type": "fill",
+     "q": "J'___ visiter le Japon. (aimer, conditionnel)",
+     "answer": [
+      "aimerais"
+     ],
+     "roman": null,
+     "explain": "The conditional of aimer (I would like) is aimerais."
+    },
+    {
+     "id": "e26",
+     "type": "tf",
+     "q": "'Je mangeais' is spelled with an e before -ais to keep the g soft.",
+     "answer": true,
+     "explain": "Without the e, 'mangais' would be pronounced with a hard g."
+    },
+    {
+     "id": "e27",
+     "type": "mc",
+     "q": "Elle a dit qu'elle ___ en retard. (future in the past)",
+     "options": [
+      "est",
+      "serait",
+      "sera",
+      "était"
+     ],
+     "answer": 1,
+     "explain": "A future seen from a past moment is expressed with the conditional."
+    },
+    {
+     "id": "e28",
+     "type": "fill",
+     "q": "Il ___ partir tôt demain. (falloir, futur simple)",
+     "answer": [
+      "faudra"
+     ],
+     "roman": null,
+     "explain": "falloir has the irregular future il faudra."
+    },
+    {
+     "id": "e29",
+     "type": "mc",
+     "q": "Nous ___ à huit heures. (commencer, imparfait)",
+     "options": [
+      "commençions",
+      "commençons",
+      "commencerions",
+      "commencions"
+     ],
+     "answer": 3,
+     "explain": "In the nous form the ending starts with i, so no cedilla is needed: commencions."
+    },
+    {
+     "id": "e30",
+     "type": "order",
+     "words": [
+      "Si",
+      "tu",
+      "venais,",
+      "je",
+      "serais",
+      "content."
+     ],
+     "answer": "Si tu venais, je serais content.",
+     "en": "If you came, I would be happy."
+    },
+    {
+     "id": "e31",
+     "type": "tf",
+     "q": "'Je vais partir' and 'Je partirai' both refer to the future.",
+     "answer": true,
+     "explain": "The first is the futur proche (going to), the second the futur simple (will)."
+    }
+   ]
+  },
+  {
+   "id": "object-pronouns-y-en",
+   "title": "Pronouns: object, y and en",
+   "level": 3,
+   "summary": "French object pronouns go in front of the verb, which takes some getting used to: Je le vois (I see him), Je lui parle (I talk to him). This chapter covers direct and indirect object pronouns, the two little pronouns y and en, where they all go (including with infinitives, the passé composé and the imperative), the stressed pronouns, and reflexive verbs.",
+   "rules": [
+    {
+     "title": "Direct object pronouns: me, te, le, la, nous, vous, les",
+     "body": "A direct object pronoun replaces a noun that receives the action directly: me (me), te (you), le (him, it), la (her, it), nous (us), vous (you), les (them). It goes before the conjugated verb: Je vois Marie becomes Je la vois. me, te, le and la elide before a vowel: Je t'aime, Il m'écoute, Je l'ai. The noun being replaced is definite (with le/la/les, a possessive or a demonstrative): Tu connais mon frère ? Oui, je le connais.",
+     "examples": [
+      {
+       "target": "Tu vois le chien ? Oui, je le vois.",
+       "roman": null,
+       "en": "Do you see the dog? Yes, I see it."
+      },
+      {
+       "target": "Je t'aime.",
+       "roman": null,
+       "en": "I love you."
+      },
+      {
+       "target": "Elle nous attend.",
+       "roman": null,
+       "en": "She is waiting for us."
+      }
+     ]
+    },
+    {
+     "title": "Indirect object pronouns: me, te, lui, nous, vous, leur",
+     "body": "An indirect object is introduced by à and refers to a person: parler à, téléphoner à, donner à, dire à, écrire à, demander à, répondre à, plaire à. Its pronouns are me, te, lui (to him or to her), nous, vous, leur (to them). lui and leur do not change for gender: Je parle à Marie / à Paul becomes Je lui parle. Je téléphone à mes parents becomes Je leur téléphone. Note leur as a pronoun never takes -s.",
+     "examples": [
+      {
+       "target": "Je lui donne un cadeau.",
+       "roman": null,
+       "en": "I give him/her a present."
+      },
+      {
+       "target": "Tu leur écris souvent ?",
+       "roman": null,
+       "en": "Do you write to them often?"
+      },
+      {
+       "target": "Ce film me plaît.",
+       "roman": null,
+       "en": "I like this film. (literally: this film pleases me)"
+      }
+     ]
+    },
+    {
+     "title": "y and en",
+     "body": "y replaces à (or dans, sur, chez...) + a place or thing, never a person: Tu vas à Paris ? J'y vais. Tu penses à ton travail ? J'y pense. It is also in il y a. en replaces de + noun, including the partitive and quantities: Tu veux du pain ? J'en veux. Tu as des frères ? J'en ai deux (the number stays). Il parle de son voyage ? Il en parle. Both go before the verb like the other pronouns and y has a liaison with vais, as in j'y vais.",
+     "examples": [
+      {
+       "target": "Tu vas au marché ? Oui, j'y vais.",
+       "roman": null,
+       "en": "Are you going to the market? Yes, I'm going (there)."
+      },
+      {
+       "target": "Tu as des enfants ? J'en ai trois.",
+       "roman": null,
+       "en": "Do you have children? I have three."
+      },
+      {
+       "target": "Il y en a beaucoup.",
+       "roman": null,
+       "en": "There are a lot of them."
+      }
+     ]
+    },
+    {
+     "title": "Placement: before the verb that governs them",
+     "body": "Object pronouns, y and en go immediately before the verb they belong to. With one verb: Je le vois. In the passé composé, before the auxiliary: Je l'ai vu, Elle y est allée, Nous en avons parlé. With an infinitive, before the infinitive, not the first verb: Je vais le faire, Je veux y aller, Tu peux en prendre. Negation wraps pronoun and verb together: Je ne le vois pas, Je n'en veux pas, Je ne vais pas le faire.",
+     "examples": [
+      {
+       "target": "Je l'ai vu hier.",
+       "roman": null,
+       "en": "I saw him yesterday."
+      },
+      {
+       "target": "Elle veut nous voir.",
+       "roman": null,
+       "en": "She wants to see us."
+      },
+      {
+       "target": "Je ne lui ai pas parlé.",
+       "roman": null,
+       "en": "I didn't speak to him/her."
+      }
+     ]
+    },
+    {
+     "title": "Two pronouns together",
+     "body": "When a sentence has two pronouns, they follow a fixed order before the verb: first me / te / se / nous / vous, then le / la / les, then lui / leur, then y, then en. So: Il me le donne (he gives it to me), Je le lui donne (I give it to him), Elle les leur montre, Il y en a (there are some), Je vous en parle. The combinations you meet most are le lui / la lui / les leur and me le / te la.",
+     "examples": [
+      {
+       "target": "Tu me le prêtes ?",
+       "roman": null,
+       "en": "Will you lend it to me?"
+      },
+      {
+       "target": "Je le lui ai dit.",
+       "roman": null,
+       "en": "I told him/her (it)."
+      },
+      {
+       "target": "Il y en a encore.",
+       "roman": null,
+       "en": "There is still some left."
+      }
+     ]
+    },
+    {
+     "title": "Pronouns with the imperative",
+     "body": "In an affirmative command, pronouns go after the verb, attached with hyphens, and me / te become moi / toi: Regarde-moi ! Prends-le ! Écoutez-les ! Donne-le-moi ! Vas-y ! (the -s is restored before y) Prends-en ! Lève-toi ! In a negative command, everything goes back in front of the verb in the normal order: Ne me regarde pas. Ne le prends pas. N'y va pas. Ne te lève pas.",
+     "examples": [
+      {
+       "target": "Attends-moi !",
+       "roman": null,
+       "en": "Wait for me!"
+      },
+      {
+       "target": "Donne-le-lui.",
+       "roman": null,
+       "en": "Give it to him/her."
+      },
+      {
+       "target": "Ne lui dis rien.",
+       "roman": null,
+       "en": "Don't tell him/her anything."
+      },
+      {
+       "target": "Allez-y !",
+       "roman": null,
+       "en": "Go ahead! / Go there!"
+      }
+     ]
+    },
+    {
+     "title": "Stressed pronouns: moi, toi, lui, elle, nous, vous, eux, elles",
+     "body": "Stressed (or tonic) pronouns stand on their own, not attached to a verb. Use them after prepositions (avec moi, chez eux, pour toi, sans elle), after c'est (C'est lui ! C'est nous), after que in comparisons (plus grand que moi), for emphasis at the start of a sentence (Moi, je pense que...), in short answers (Qui veut venir ? Moi !), and with -même for 'self' (moi-même, lui-même).",
+     "examples": [
+      {
+       "target": "Tu viens avec moi ?",
+       "roman": null,
+       "en": "Are you coming with me?"
+      },
+      {
+       "target": "C'est elle qui a gagné.",
+       "roman": null,
+       "en": "She's the one who won."
+      },
+      {
+       "target": "Eux, ils habitent chez leurs parents.",
+       "roman": null,
+       "en": "They live with their parents. (emphatic)"
+      }
+     ]
+    },
+    {
+     "title": "Reflexive verbs",
+     "body": "A reflexive verb has a pronoun that refers back to the subject: se laver (to wash oneself), se lever (get up), se coucher (go to bed), s'appeler (be called), s'habiller, s'amuser, se souvenir de, se dépêcher. The pronouns are me, te, se, nous, vous, se: je me lève, tu te lèves, il se lève, nous nous levons, vous vous levez, ils se lèvent. With an infinitive the pronoun matches the subject: Je vais me coucher. Many reflexives are reciprocal in the plural: Ils se parlent (they talk to each other). In the passé composé they take être: Elle s'est levée.",
+     "examples": [
+      {
+       "target": "Je me lève à sept heures.",
+       "roman": null,
+       "en": "I get up at seven."
+      },
+      {
+       "target": "Comment vous appelez-vous ?",
+       "roman": null,
+       "en": "What is your name?"
+      },
+      {
+       "target": "Nous allons nous coucher.",
+       "roman": null,
+       "en": "We are going to go to bed."
+      },
+      {
+       "target": "Ils se sont rencontrés à Paris.",
+       "roman": null,
+       "en": "They met (each other) in Paris."
+      }
+     ]
+    },
+    {
+     "title": "Agreement with a preceding direct object pronoun",
+     "body": "In the passé composé with avoir, a direct object pronoun placed before the verb makes the participle agree: Je l'ai vue (her), Je les ai pris (them, m), Je les ai prises (them, f). There is no agreement with lui, leur, y or en: Je leur ai parlé, J'en ai mangé. This is a spelling rule above all; you hear the difference only with participles ending in a consonant: Je les ai mises, Je l'ai écrite.",
+     "examples": [
+      {
+       "target": "Ces photos, je les ai prises hier.",
+       "roman": null,
+       "en": "These photos, I took them yesterday."
+      },
+      {
+       "target": "Ma clé ? Je l'ai perdue.",
+       "roman": null,
+       "en": "My key? I lost it."
+      },
+      {
+       "target": "Des pommes ? J'en ai acheté.",
+       "roman": null,
+       "en": "Apples? I bought some. (no agreement with en)"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Tu vois Marie ? — Oui, je ___ vois.",
+     "options": [
+      "la",
+      "le",
+      "lui",
+      "les"
+     ],
+     "answer": 0,
+     "explain": "Marie is a feminine direct object, so the pronoun is la."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "J'aime ce livre. Je ___ lis souvent. (it)",
+     "answer": [
+      "le"
+     ],
+     "roman": null,
+     "explain": "ce livre is masculine singular and a direct object, so it becomes le."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "Object pronouns go before the conjugated verb in French.",
+     "answer": true,
+     "explain": "Unlike English, French says Je le vois, literally 'I him see'."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "le",
+       "him / it (m)"
+      ],
+      [
+       "la",
+       "her / it (f)"
+      ],
+      [
+       "les",
+       "them"
+      ],
+      [
+       "lui",
+       "to him / to her"
+      ],
+      [
+       "leur",
+       "to them"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "Je",
+      "te",
+      "donne",
+      "mon",
+      "numéro."
+     ],
+     "answer": "Je te donne mon numéro.",
+     "en": "I'm giving you my number."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Tu parles à Paul ? — Oui, je ___ parle.",
+     "options": [
+      "y",
+      "lui",
+      "le",
+      "la"
+     ],
+     "answer": 1,
+     "explain": "parler à + person takes the indirect pronoun lui."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "Tu vas à Paris ? — Oui, j'___ vais. (there)",
+     "answer": [
+      "y"
+     ],
+     "roman": null,
+     "explain": "y replaces à + a place: j'y vais."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Tu veux du pain ? — Oui, j'___ veux.",
+     "options": [
+      "le",
+      "y",
+      "les",
+      "en"
+     ],
+     "answer": 3,
+     "explain": "en replaces the partitive du pain: j'en veux."
+    },
+    {
+     "id": "e09",
+     "type": "tf",
+     "q": "'y' can replace 'à + a person', so 'Je parle à Marie' becomes 'J'y parle'.",
+     "answer": false,
+     "explain": "y is only for places and things; for a person you use lui: Je lui parle."
+    },
+    {
+     "id": "e10",
+     "type": "order",
+     "words": [
+      "Il",
+      "ne",
+      "la",
+      "connaît",
+      "pas."
+     ],
+     "answer": "Il ne la connaît pas.",
+     "en": "He doesn't know her."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Je téléphone à mes parents. Je ___ téléphone. (to them)",
+     "answer": [
+      "leur"
+     ],
+     "roman": null,
+     "explain": "téléphoner à + people takes leur, which never adds -s as a pronoun."
+    },
+    {
+     "id": "e12",
+     "type": "match",
+     "pairs": [
+      [
+       "J'en ai trois.",
+       "I have three of them."
+      ],
+      [
+       "J'y vais.",
+       "I'm going there."
+      ],
+      [
+       "Il en parle.",
+       "He talks about it."
+      ],
+      [
+       "Elle y pense.",
+       "She's thinking about it."
+      ]
+     ]
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "Je ___ ai vu hier. (them)",
+     "options": [
+      "les",
+      "leur",
+      "lui",
+      "en"
+     ],
+     "answer": 0,
+     "explain": "'them' as a direct object is les, placed before the auxiliary ai."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "Elle veut ___ voir. (us)",
+     "answer": [
+      "nous"
+     ],
+     "roman": null,
+     "explain": "With an infinitive the pronoun goes before the infinitive: elle veut nous voir."
+    },
+    {
+     "id": "e15",
+     "type": "tf",
+     "q": "In 'Je vais le faire', the pronoun goes before the infinitive, not before vais.",
+     "answer": true,
+     "explain": "A pronoun attaches to the verb it is the object of, here faire."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Donne-___ le livre ! (to me)",
+     "options": [
+      "me",
+      "m'",
+      "lui",
+      "moi"
+     ],
+     "answer": 3,
+     "explain": "After an affirmative imperative, me becomes moi: Donne-moi."
+    },
+    {
+     "id": "e17",
+     "type": "order",
+     "words": [
+      "Je",
+      "me",
+      "lève",
+      "à",
+      "sept",
+      "heures."
+     ],
+     "answer": "Je me lève à sept heures.",
+     "en": "I get up at seven o'clock."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "Nous ___ couchons tard. (reflexive pronoun)",
+     "answer": [
+      "nous"
+     ],
+     "roman": null,
+     "explain": "The reflexive pronoun for nous is nous: nous nous couchons."
+    },
+    {
+     "id": "e19",
+     "type": "match",
+     "pairs": [
+      [
+       "moi",
+       "me (stressed)"
+      ],
+      [
+       "toi",
+       "you (stressed, singular)"
+      ],
+      [
+       "eux",
+       "them (masculine)"
+      ],
+      [
+       "elles",
+       "them (feminine)"
+      ]
+     ]
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "Je le ___ donne. (to her)",
+     "options": [
+      "la",
+      "leur",
+      "en",
+      "lui"
+     ],
+     "answer": 3,
+     "explain": "'to her' is lui, and the order is le before lui: je le lui donne."
+    },
+    {
+     "id": "e21",
+     "type": "fill",
+     "q": "Ils se sont ___ tard. (coucher)",
+     "answer": [
+      "couchés"
+     ],
+     "roman": null,
+     "explain": "Reflexive verbs take être and the participle agrees with ils: couchés."
+    },
+    {
+     "id": "e22",
+     "type": "tf",
+     "q": "'Vas-y !' means 'Go ahead! / Go there!' and puts y after the imperative with a hyphen.",
+     "answer": true,
+     "explain": "In an affirmative command the pronoun follows the verb, and va regains its -s before y."
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "Il y ___ a beaucoup. (of them)",
+     "options": [
+      "y",
+      "le",
+      "en",
+      "les"
+     ],
+     "answer": 2,
+     "explain": "en comes last in the pronoun order: il y en a."
+    },
+    {
+     "id": "e24",
+     "type": "order",
+     "words": [
+      "Ne",
+      "lui",
+      "dis",
+      "rien."
+     ],
+     "answer": "Ne lui dis rien.",
+     "en": "Don't tell him/her anything."
+    },
+    {
+     "id": "e25",
+     "type": "fill",
+     "q": "C'est ___ qui a gagné. (him, stressed)",
+     "answer": [
+      "lui"
+     ],
+     "roman": null,
+     "explain": "After c'est, you need the stressed pronoun lui."
+    },
+    {
+     "id": "e26",
+     "type": "mc",
+     "q": "Tu as acheté des pommes ? — Oui, j'___ ai acheté trois.",
+     "options": [
+      "l'",
+      "en",
+      "les",
+      "y"
+     ],
+     "answer": 1,
+     "explain": "A quantity (trois) needs en: j'en ai acheté trois."
+    },
+    {
+     "id": "e27",
+     "type": "tf",
+     "q": "'Je les ai vues' shows agreement because the feminine direct object pronoun les comes before the verb.",
+     "answer": true,
+     "explain": "A preceding direct object makes the participle agree: vues for a feminine plural les."
+    },
+    {
+     "id": "e28",
+     "type": "fill",
+     "q": "Il ___ a dit la vérité. (to me)",
+     "answer": [
+      "m'",
+      "m’"
+     ],
+     "roman": null,
+     "explain": "me elides to m' before the vowel of a: il m'a dit."
+    },
+    {
+     "id": "e29",
+     "type": "order",
+     "words": [
+      "Je",
+      "ne",
+      "lui",
+      "ai",
+      "pas",
+      "parlé."
+     ],
+     "answer": "Je ne lui ai pas parlé.",
+     "en": "I didn't speak to him/her."
+    },
+    {
+     "id": "e30",
+     "type": "mc",
+     "q": "Prends-___ ! (some)",
+     "options": [
+      "lui",
+      "en",
+      "le",
+      "y"
+     ],
+     "answer": 1,
+     "explain": "'some' is en, attached after the imperative: Prends-en."
+    },
+    {
+     "id": "e31",
+     "type": "match",
+     "pairs": [
+      [
+       "Regarde-moi.",
+       "Look at me."
+      ],
+      [
+       "Écoute-le.",
+       "Listen to him."
+      ],
+      [
+       "Allez-y.",
+       "Go ahead."
+      ],
+      [
+       "Ne me parle pas.",
+       "Don't talk to me."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "prepositions-contractions-places",
+   "title": "Prepositions, à/de contractions and places",
+   "level": 3,
+   "summary": "Two tiny words, à and de, do a huge amount of work in French and they merge with le and les into au, aux, du, des. This chapter covers those contractions, how to say in / to / from a country or city, the all-purpose chez, the prepositions of place and time, and the verbs whose preposition differs from English.",
+   "rules": [
+    {
+     "title": "à and de contract with le and les",
+     "body": "à + le becomes au and à + les becomes aux; de + le becomes du and de + les becomes des. à la, à l', de la and de l' do not change. So: Je vais au cinéma (not à le), Il parle aux enfants, le livre du professeur, la voiture des voisins; but à la gare, à l'école, de la maison, de l'hôtel. These are automatic; writing 'à le' or 'de les' is always wrong.",
+     "examples": [
+      {
+       "target": "Nous allons au restaurant.",
+       "roman": null,
+       "en": "We are going to the restaurant."
+      },
+      {
+       "target": "Elle parle aux étudiants.",
+       "roman": null,
+       "en": "She speaks to the students."
+      },
+      {
+       "target": "C'est la voiture du voisin.",
+       "roman": null,
+       "en": "It's the neighbour's car."
+      },
+      {
+       "target": "Je reviens de la plage.",
+       "roman": null,
+       "en": "I'm coming back from the beach."
+      }
+     ]
+    },
+    {
+     "title": "What à and de mean",
+     "body": "à means to, at or in (Je vais à Paris, Je suis à la maison, à huit heures) and marks the indirect object (donner quelque chose à quelqu'un). de means of or from (le père de Marie, Je viens de Lyon) and expresses possession: le livre de Paul is Paul's book (there is no apostrophe-s in French). Both link verbs to an infinitive, and you must learn which: commencer à, apprendre à, réussir à, aider à, continuer à; essayer de, décider de, oublier de, finir de, arrêter de, avoir besoin de, avoir envie de.",
+     "examples": [
+      {
+       "target": "C'est le vélo de mon frère.",
+       "roman": null,
+       "en": "It's my brother's bike."
+      },
+      {
+       "target": "J'apprends à nager.",
+       "roman": null,
+       "en": "I'm learning to swim."
+      },
+      {
+       "target": "Elle a décidé de partir.",
+       "roman": null,
+       "en": "She decided to leave."
+      }
+     ]
+    },
+    {
+     "title": "Countries and cities: en, au, aux, à",
+     "body": "'In' or 'to' a country depends on its gender. Feminine countries (almost all those ending in -e) take en: en France, en Italie, en Espagne, en Allemagne, en Chine. Masculine countries take au: au Canada, au Japon, au Portugal, au Maroc, and also le Mexique and le Cambodge, which are masculine despite the -e. Plural countries take aux: aux États-Unis, aux Pays-Bas. Cities take à: à Paris, à Londres. 'From' is de for feminine countries and cities (de France, de Paris), du for masculine (du Canada), des for plural (des États-Unis). Continents are feminine: en Europe, en Asie.",
+     "examples": [
+      {
+       "target": "J'habite en France, à Lyon.",
+       "roman": null,
+       "en": "I live in France, in Lyon."
+      },
+      {
+       "target": "Ils vont au Japon et aux États-Unis.",
+       "roman": null,
+       "en": "They are going to Japan and the United States."
+      },
+      {
+       "target": "Elle vient du Canada. Il vient d'Italie.",
+       "roman": null,
+       "en": "She comes from Canada. He comes from Italy."
+      }
+     ]
+    },
+    {
+     "title": "chez: at someone's place",
+     "body": "chez means 'at the home of' or 'at the business of' and is followed by a person, a name, a pronoun or a profession: chez moi (at my place), chez Paul, chez mes parents, chez le médecin (at the doctor's), chez le coiffeur, chez le boulanger. It can also mean 'to' those places with verbs of movement: Je vais chez le dentiste. Figuratively it means 'among' or 'in the work of': chez les Français, chez Molière.",
+     "examples": [
+      {
+       "target": "Viens chez moi ce soir.",
+       "roman": null,
+       "en": "Come to my place tonight."
+      },
+      {
+       "target": "Elle est chez le médecin.",
+       "roman": null,
+       "en": "She is at the doctor's."
+      },
+      {
+       "target": "Nous dînons chez des amis.",
+       "roman": null,
+       "en": "We are having dinner at friends' place."
+      }
+     ]
+    },
+    {
+     "title": "Prepositions of place",
+     "body": "dans (in, inside), sur (on), sous (under), devant (in front of), derrière (behind), entre (between), à côté de (next to), en face de (opposite), près de (near), loin de (far from), au-dessus de (above), au-dessous de (below), au bout de (at the end of), autour de (around). The ones ending in de contract with le and les: à côté du parc, en face des magasins, près de l'école.",
+     "examples": [
+      {
+       "target": "Le chat est sous la table.",
+       "roman": null,
+       "en": "The cat is under the table."
+      },
+      {
+       "target": "La banque est en face de la gare.",
+       "roman": null,
+       "en": "The bank is opposite the station."
+      },
+      {
+       "target": "J'habite à côté du parc.",
+       "roman": null,
+       "en": "I live next to the park."
+      }
+     ]
+    },
+    {
+     "title": "Prepositions of time",
+     "body": "à for clock times (à huit heures); en for months, years and most seasons (en mai, en 2020, en été, en hiver, en automne) but au printemps; le for dates and days (le 3 mars, le lundi). depuis means since or for and goes with the present for something still going on (J'habite ici depuis 2015); pendant is during or a completed 'for' (pendant deux heures); pour is an intended duration (Je pars pour trois jours); dans means 'in' = after a delay from now (dans deux jours); il y a means ago (il y a un an); jusqu'à is until; vers is around; avant and après are before and after.",
+     "examples": [
+      {
+       "target": "Le cours commence à neuf heures.",
+       "roman": null,
+       "en": "The lesson starts at nine."
+      },
+      {
+       "target": "Je travaille ici depuis trois ans.",
+       "roman": null,
+       "en": "I have been working here for three years."
+      },
+      {
+       "target": "Il part dans une semaine.",
+       "roman": null,
+       "en": "He leaves in a week."
+      },
+      {
+       "target": "Elle est née en 1998, au printemps.",
+       "roman": null,
+       "en": "She was born in 1998, in the spring."
+      }
+     ]
+    },
+    {
+     "title": "Transport, manner and company",
+     "body": "Means of transport you get inside take en: en voiture, en train, en bus, en avion, en métro, en bateau. Those you sit on take à: à pied (on foot), à vélo, à cheval, à moto (en vélo is also heard). avec is with, sans is without and takes no article (sans argent, sans sucre), pour is for, par is by or through (par la fenêtre, par avion, deux fois par jour).",
+     "examples": [
+      {
+       "target": "Je vais au travail en voiture.",
+       "roman": null,
+       "en": "I go to work by car."
+      },
+      {
+       "target": "Elle va à l'école à pied.",
+       "roman": null,
+       "en": "She walks to school."
+      },
+      {
+       "target": "un café sans sucre, s'il vous plaît",
+       "roman": null,
+       "en": "a coffee without sugar, please"
+      }
+     ]
+    },
+    {
+     "title": "Verbs whose preposition differs from English",
+     "body": "Some French verbs take a direct object where English needs a preposition: regarder (look at), écouter (listen to), chercher (look for), attendre (wait for), demander (ask for), payer (pay for), habiter (live in, also habiter à). Others need a preposition where English has none: téléphoner à, répondre à, obéir à, entrer dans, jouer à + sport or game, jouer de + instrument, se souvenir de (remember), avoir besoin de (need).",
+     "examples": [
+      {
+       "target": "J'attends le bus et je regarde les gens.",
+       "roman": null,
+       "en": "I'm waiting for the bus and looking at people."
+      },
+      {
+       "target": "Il joue au tennis et il joue du piano.",
+       "roman": null,
+       "en": "He plays tennis and he plays the piano."
+      },
+      {
+       "target": "Elle est entrée dans la salle.",
+       "roman": null,
+       "en": "She entered the room."
+      }
+     ]
+    },
+    {
+     "title": "Common place phrases",
+     "body": "A few everyday places have fixed prepositions: à la maison (at home), au bureau (at the office), à l'école, au lit (in bed), à la campagne (in the country), à la montagne, à la mer / au bord de la mer (at the seaside), au marché, à la banque, en ville (in town), en classe, en vacances (on holiday), dans la rue (in the street), sur la place (in the square). Remember that y replaces all of these: J'y vais.",
+     "examples": [
+      {
+       "target": "Je reste à la maison ce week-end.",
+       "roman": null,
+       "en": "I'm staying at home this weekend."
+      },
+      {
+       "target": "Nous allons à la montagne en vacances.",
+       "roman": null,
+       "en": "We go to the mountains on holiday."
+      },
+      {
+       "target": "Il y a beaucoup de monde dans la rue.",
+       "roman": null,
+       "en": "There are lots of people in the street."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Je vais ___ cinéma.",
+     "options": [
+      "aux",
+      "au",
+      "à le",
+      "à la"
+     ],
+     "answer": 1,
+     "explain": "à + le contracts to au; cinéma is masculine singular."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "Il parle ___ enfants. (to the)",
+     "answer": [
+      "aux"
+     ],
+     "roman": null,
+     "explain": "à + les contracts to aux."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "'à + le' always contracts to 'au'.",
+     "answer": true,
+     "explain": "The contraction is compulsory: au cinéma, au marché, never 'à le'."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "à + le",
+       "au"
+      ],
+      [
+       "à + les",
+       "aux"
+      ],
+      [
+       "de + le",
+       "du"
+      ],
+      [
+       "de + les",
+       "des"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "Nous",
+      "habitons",
+      "en",
+      "France."
+     ],
+     "answer": "Nous habitons en France.",
+     "en": "We live in France."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Elle va ___ Japon.",
+     "options": [
+      "à",
+      "aux",
+      "au",
+      "en"
+     ],
+     "answer": 2,
+     "explain": "le Japon is masculine, so 'to Japan' is au Japon."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "Ils vont ___ États-Unis. (to the)",
+     "answer": [
+      "aux"
+     ],
+     "roman": null,
+     "explain": "Plural countries take aux: aux États-Unis."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "J'habite ___ Paris.",
+     "options": [
+      "à",
+      "en",
+      "au",
+      "dans"
+     ],
+     "answer": 0,
+     "explain": "Cities take à: à Paris, à Londres."
+    },
+    {
+     "id": "e09",
+     "type": "tf",
+     "q": "Most countries ending in -e are feminine and take 'en'.",
+     "answer": true,
+     "explain": "en France, en Italie, en Espagne; the main exceptions are le Mexique and le Cambodge."
+    },
+    {
+     "id": "e10",
+     "type": "match",
+     "pairs": [
+      [
+       "en France",
+       "feminine country"
+      ],
+      [
+       "au Canada",
+       "masculine country"
+      ],
+      [
+       "aux États-Unis",
+       "plural country"
+      ],
+      [
+       "à Lyon",
+       "city"
+      ]
+     ]
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Je viens ___ Canada. (from the)",
+     "answer": [
+      "du"
+     ],
+     "roman": null,
+     "explain": "'From' a masculine country is du (de + le)."
+    },
+    {
+     "id": "e12",
+     "type": "order",
+     "words": [
+      "Je",
+      "suis",
+      "chez",
+      "le",
+      "médecin."
+     ],
+     "answer": "Je suis chez le médecin.",
+     "en": "I'm at the doctor's."
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "le livre ___ professeur (the teacher's book)",
+     "options": [
+      "des",
+      "du",
+      "de le",
+      "de la"
+     ],
+     "answer": 1,
+     "explain": "Possession uses de, and de + le contracts to du."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "Ce soir, on mange ___ Paul. (at Paul's place)",
+     "answer": [
+      "chez"
+     ],
+     "roman": null,
+     "explain": "chez + a person means at that person's home."
+    },
+    {
+     "id": "e15",
+     "type": "tf",
+     "q": "'chez' is used only for a person's house, never for a shop or a doctor's office.",
+     "answer": false,
+     "explain": "chez also works for businesses named by the person: chez le médecin, chez le boulanger."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Le chat est ___ la table. (under)",
+     "options": [
+      "sous",
+      "sur",
+      "dans",
+      "devant"
+     ],
+     "answer": 0,
+     "explain": "sous means under; sur means on."
+    },
+    {
+     "id": "e17",
+     "type": "match",
+     "pairs": [
+      [
+       "sur",
+       "on"
+      ],
+      [
+       "sous",
+       "under"
+      ],
+      [
+       "devant",
+       "in front of"
+      ],
+      [
+       "derrière",
+       "behind"
+      ],
+      [
+       "entre",
+       "between"
+      ]
+     ]
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "La banque est à côté ___ parc. (of the)",
+     "answer": [
+      "du"
+     ],
+     "roman": null,
+     "explain": "à côté de + le contracts to à côté du."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "La",
+      "pharmacie",
+      "est",
+      "en",
+      "face",
+      "de",
+      "la",
+      "gare."
+     ],
+     "answer": "La pharmacie est en face de la gare.",
+     "en": "The pharmacy is opposite the station."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "Je vais au travail ___ voiture.",
+     "options": [
+      "en",
+      "à",
+      "dans",
+      "par"
+     ],
+     "answer": 0,
+     "explain": "Transport you get inside takes en: en voiture, en train."
+    },
+    {
+     "id": "e21",
+     "type": "fill",
+     "q": "Elle va à l'école ___ pied. (on)",
+     "answer": [
+      "à"
+     ],
+     "roman": null,
+     "explain": "'On foot' is à pied."
+    },
+    {
+     "id": "e22",
+     "type": "tf",
+     "q": "In 'Je regarde la télé', regarder takes no preposition, unlike English 'look at'.",
+     "answer": true,
+     "explain": "regarder, écouter, chercher and attendre all take a direct object."
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "J'habite ici ___ 2015. (and I still do)",
+     "options": [
+      "pendant",
+      "pour",
+      "il y a",
+      "depuis"
+     ],
+     "answer": 3,
+     "explain": "depuis + a starting point with the present tense means 'since'."
+    },
+    {
+     "id": "e24",
+     "type": "fill",
+     "q": "Je pars ___ deux jours. (in two days' time)",
+     "answer": [
+      "dans"
+     ],
+     "roman": null,
+     "explain": "dans + a length of time means after that delay from now."
+    },
+    {
+     "id": "e25",
+     "type": "match",
+     "pairs": [
+      [
+       "depuis",
+       "since / for (still going on)"
+      ],
+      [
+       "pendant",
+       "during / for (a completed stretch)"
+      ],
+      [
+       "il y a",
+       "ago"
+      ],
+      [
+       "jusqu'à",
+       "until"
+      ]
+     ]
+    },
+    {
+     "id": "e26",
+     "type": "mc",
+     "q": "Nous partons ___ printemps.",
+     "options": [
+      "à",
+      "dans",
+      "au",
+      "en"
+     ],
+     "answer": 2,
+     "explain": "Seasons take en except printemps, which takes au."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "Il",
+      "joue",
+      "du",
+      "piano",
+      "et",
+      "au",
+      "football."
+     ],
+     "answer": "Il joue du piano et au football.",
+     "en": "He plays the piano and football."
+    },
+    {
+     "id": "e28",
+     "type": "fill",
+     "q": "J'ai décidé ___ partir. (to)",
+     "answer": [
+      "de"
+     ],
+     "roman": null,
+     "explain": "décider is followed by de before an infinitive."
+    },
+    {
+     "id": "e29",
+     "type": "tf",
+     "q": "'Elle est entrée dans la maison' is correct: entrer needs 'dans' before a place.",
+     "answer": true,
+     "explain": "Unlike English 'enter the house', French says entrer dans la maison."
+    },
+    {
+     "id": "e30",
+     "type": "mc",
+     "q": "Il commence ___ pleuvoir.",
+     "options": [
+      "pour",
+      "en",
+      "à",
+      "de"
+     ],
+     "answer": 2,
+     "explain": "commencer takes à before an infinitive."
+    },
+    {
+     "id": "e31",
+     "type": "mc",
+     "q": "Which sentence is correct?",
+     "options": [
+      "J'attends pour le bus.",
+      "J'attends à le bus.",
+      "J'attends au bus.",
+      "J'attends le bus."
+     ],
+     "answer": 3,
+     "explain": "attendre takes a direct object; 'wait for' needs no preposition in French."
+    }
+   ]
+  },
+  {
+   "id": "numbers-time-dates-politeness",
+   "title": "Numbers, time, dates and politeness",
+   "level": 3,
+   "summary": "This chapter gathers the practical patterns you need every day: counting (including the famous 70, 80 and 90), telling the time, giving dates, choosing between tu and vous, the polite formulas that smooth every exchange, the imperative, and a first look at the subjunctive after il faut que.",
+   "rules": [
+    {
+     "title": "Counting to 69",
+     "body": "0 zéro, 1 un, 2 deux, 3 trois, 4 quatre, 5 cinq, 6 six, 7 sept, 8 huit, 9 neuf, 10 dix, 11 onze, 12 douze, 13 treize, 14 quatorze, 15 quinze, 16 seize, 17 dix-sept, 18 dix-huit, 19 dix-neuf, 20 vingt, 30 trente, 40 quarante, 50 cinquante, 60 soixante. 21, 31, 41, 51, 61 use et: vingt et un, trente et un. The others take a hyphen: vingt-deux, quarante-cinq. un agrees with a feminine noun: vingt et une femmes. The final consonant of six, huit, dix is pronounced alone but silent before a consonant (six livres), and cinq, six, huit, dix link before a vowel.",
+     "examples": [
+      {
+       "target": "J'ai vingt et un ans.",
+       "roman": null,
+       "en": "I am twenty-one."
+      },
+      {
+       "target": "Il y a trente-cinq élèves.",
+       "roman": null,
+       "en": "There are thirty-five pupils."
+      },
+      {
+       "target": "cinquante et une pages",
+       "roman": null,
+       "en": "fifty-one pages"
+      }
+     ]
+    },
+    {
+     "title": "70 to 99, and the hundreds",
+     "body": "Standard French counts 70 as sixty-ten: soixante-dix, soixante et onze (71), soixante-douze (72)... soixante-dix-neuf (79). 80 is four twenties: quatre-vingts, with an -s; from 81 the -s disappears and there is no et: quatre-vingt-un, quatre-vingt-deux... 90 is quatre-vingt-dix, 91 quatre-vingt-onze, 99 quatre-vingt-dix-neuf. Belgium and Switzerland say septante (70) and nonante (90). 100 is cent; 200 deux cents (with -s), but 201 deux cent un (no -s when a number follows); 1000 is mille and never changes; un million and un milliard are nouns followed by de: deux millions d'habitants.",
+     "examples": [
+      {
+       "target": "Ma grand-mère a quatre-vingts ans.",
+       "roman": null,
+       "en": "My grandmother is eighty."
+      },
+      {
+       "target": "Ça coûte soixante-quinze euros.",
+       "roman": null,
+       "en": "It costs seventy-five euros."
+      },
+      {
+       "target": "quatre-vingt-dix-neuf, cent, deux cents, deux cent dix",
+       "roman": null,
+       "en": "99, 100, 200, 210"
+      }
+     ]
+    },
+    {
+     "title": "Ordinals: premier, deuxième, troisième",
+     "body": "'First' is premier / première, written 1er / 1re. All the others add -ième to the number: deuxième (or second / seconde), troisième, quatrième (drop the -e of quatre), cinquième (add u), neuvième (f becomes v), dixième, vingtième, vingt et unième. They are written 2e, 3e and so on. Ordinals go before the noun and agree like adjectives: la première fois, le troisième étage. In dates only 'the first' is ordinal: le premier mai, but le deux mai.",
+     "examples": [
+      {
+       "target": "C'est la première fois.",
+       "roman": null,
+       "en": "It's the first time."
+      },
+      {
+       "target": "J'habite au troisième étage.",
+       "roman": null,
+       "en": "I live on the third floor."
+      },
+      {
+       "target": "Elle est arrivée deuxième.",
+       "roman": null,
+       "en": "She came second."
+      }
+     ]
+    },
+    {
+     "title": "Telling the time",
+     "body": "Quelle heure est-il ? Il est une heure (1:00), deux heures (2:00), midi (noon), minuit (midnight). Minutes are added directly: trois heures dix (3:10). The quarters and halves: et quart (quarter past), et demie (half past; et demi after midi and minuit), moins le quart (quarter to), moins dix (ten to): Il est quatre heures moins le quart (3:45). To say a.m. or p.m. add du matin, de l'après-midi, du soir. Timetables and official contexts use the 24-hour clock: quinze heures trente. 'At' a time is à: à huit heures.",
+     "examples": [
+      {
+       "target": "Il est trois heures et demie.",
+       "roman": null,
+       "en": "It's half past three."
+      },
+      {
+       "target": "Le train part à onze heures moins le quart.",
+       "roman": null,
+       "en": "The train leaves at a quarter to eleven."
+      },
+      {
+       "target": "Il est midi et demi.",
+       "roman": null,
+       "en": "It's half past twelve (noon)."
+      },
+      {
+       "target": "Le film est à vingt heures quinze.",
+       "roman": null,
+       "en": "The film is at 8:15 p.m."
+      }
+     ]
+    },
+    {
+     "title": "Days, months and dates",
+     "body": "Days and months are written with a small letter: lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche; janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre. A date uses le + number + month, with no 'of': le 14 juillet, le 3 mars, and the first is le premier. Nous sommes le 3 mars / On est le 3 mars (It's the 3rd of March). lundi alone means 'on Monday' (this one); le lundi means 'on Mondays'. en + month or year: en mai, en 2026 (deux mille vingt-six); years before 2000 are read as mille neuf cent... or dix-neuf cent...",
+     "examples": [
+      {
+       "target": "Mon anniversaire est le 14 juillet.",
+       "roman": null,
+       "en": "My birthday is on the 14th of July."
+      },
+      {
+       "target": "Nous sommes le premier mai.",
+       "roman": null,
+       "en": "It's the first of May."
+      },
+      {
+       "target": "Je travaille le samedi.",
+       "roman": null,
+       "en": "I work on Saturdays."
+      },
+      {
+       "target": "Elle est née en mille neuf cent quatre-vingt-dix.",
+       "roman": null,
+       "en": "She was born in 1990."
+      }
+     ]
+    },
+    {
+     "title": "tu or vous?",
+     "body": "tu is for one person you are close to: family, friends, children, fellow students, and increasingly colleagues. vous is for one person you do not know well, anyone older or in authority, shop staff and officials, and for any group of two or more people, however close. When in doubt, use vous; a French speaker will offer On peut se tutoyer ? when tu is welcome. vous takes the vous form of the verb even for one person, but adjectives and participles agree with the real person: Vous êtes gentille, madame. Vous êtes arrivé, monsieur ?",
+     "examples": [
+      {
+       "target": "Tu viens ce soir ?",
+       "roman": null,
+       "en": "Are you coming tonight? (friend)"
+      },
+      {
+       "target": "Vous avez une table pour deux ?",
+       "roman": null,
+       "en": "Do you have a table for two? (to a waiter)"
+      },
+      {
+       "target": "Vous êtes prête, madame ?",
+       "roman": null,
+       "en": "Are you ready, madam?"
+      }
+     ]
+    },
+    {
+     "title": "Polite formulas",
+     "body": "Greetings: bonjour (until evening), bonsoir, salut (informal), au revoir, bonne nuit (going to bed), bonne journée, bon week-end. Please: s'il vous plaît (vous) / s'il te plaît (tu). Thanks: merci, merci beaucoup; replies: de rien, je vous en prie, je t'en prie, avec plaisir. Apologies: pardon, excusez-moi, désolé(e). Meeting people: enchanté(e). Requests sound polite in the conditional: Je voudrais..., J'aimerais..., Pourriez-vous...?, Est-ce que je pourrais...? Address people as monsieur or madame, and always start an exchange in a shop with bonjour.",
+     "examples": [
+      {
+       "target": "Bonjour madame, je voudrais un croissant, s'il vous plaît.",
+       "roman": null,
+       "en": "Good morning, I would like a croissant, please."
+      },
+      {
+       "target": "Merci beaucoup ! Je vous en prie.",
+       "roman": null,
+       "en": "Thank you very much! You're welcome."
+      },
+      {
+       "target": "Excusez-moi, pourriez-vous m'aider ?",
+       "roman": null,
+       "en": "Excuse me, could you help me?"
+      },
+      {
+       "target": "Enchanté. Bonne journée !",
+       "roman": null,
+       "en": "Pleased to meet you. Have a good day!"
+      }
+     ]
+    },
+    {
+     "title": "The imperative",
+     "body": "Commands use the tu, nous and vous forms of the present without the pronoun: Parle ! Parlons ! Parlez ! For -er verbs (and aller) the tu form drops its -s: Mange ! Va ! (but Vas-y, Manges-en before y and en). Other verbs keep it: Finis ! Prends ! Viens ! Irregular: être gives sois, soyons, soyez; avoir gives aie, ayons, ayez; savoir gives sache, sachez. Negative: Ne parle pas ! A softer written request uses veuillez + infinitive: Veuillez patienter. Adding s'il vous plaît makes any command polite.",
+     "examples": [
+      {
+       "target": "Entrez et asseyez-vous.",
+       "roman": null,
+       "en": "Come in and sit down."
+      },
+      {
+       "target": "Sois gentil avec ta sœur.",
+       "roman": null,
+       "en": "Be nice to your sister."
+      },
+      {
+       "target": "Ne touche pas ! Va dormir.",
+       "roman": null,
+       "en": "Don't touch! Go to sleep."
+      }
+     ]
+    },
+    {
+     "title": "An outlook: the subjunctive after il faut que",
+     "body": "After expressions of necessity, wish and emotion, French uses the subjunctive mood: il faut que (must), je veux que, il est important que, bien que (although), pour que (so that). The present subjunctive takes the ils stem of the present and the endings -e, -es, -e, -ions, -iez, -ent: que je parle, que tu finisses, qu'il prenne, que nous parlions, qu'ils prennent. Key irregulars: être (que je sois, que nous soyons), avoir (que j'aie, que nous ayons), aller (aille), faire (fasse), pouvoir (puisse), savoir (sache). With no specific subject, use il faut + infinitive: Il faut partir.",
+     "examples": [
+      {
+       "target": "Il faut que tu viennes.",
+       "roman": null,
+       "en": "You have to come."
+      },
+      {
+       "target": "Je veux que vous soyez à l'heure.",
+       "roman": null,
+       "en": "I want you to be on time."
+      },
+      {
+       "target": "Il faut que je fasse les courses.",
+       "roman": null,
+       "en": "I have to do the shopping."
+      },
+      {
+       "target": "Il faut partir maintenant.",
+       "roman": null,
+       "en": "We/you/one must leave now."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "How do you say 71 in standard French?",
+     "options": [
+      "sept-dix-un",
+      "soixante-dix-et-un",
+      "soixante et onze",
+      "soixante-onze"
+     ],
+     "answer": 2,
+     "explain": "71 is sixty and eleven: soixante et onze, with et like 21, 31 and 61."
+    },
+    {
+     "id": "e02",
+     "type": "fill",
+     "q": "Il a ___ ans. (80)",
+     "answer": [
+      "quatre-vingts"
+     ],
+     "roman": null,
+     "explain": "80 is quatre-vingts with an -s because nothing follows."
+    },
+    {
+     "id": "e03",
+     "type": "tf",
+     "q": "'quatre-vingt-un' has no 'et' and no -s on vingt.",
+     "answer": true,
+     "explain": "From 81 on, vingt loses its -s and the numbers are joined with hyphens only."
+    },
+    {
+     "id": "e04",
+     "type": "match",
+     "pairs": [
+      [
+       "70",
+       "soixante-dix"
+      ],
+      [
+       "90",
+       "quatre-vingt-dix"
+      ],
+      [
+       "21",
+       "vingt et un"
+      ],
+      [
+       "100",
+       "cent"
+      ],
+      [
+       "1000",
+       "mille"
+      ]
+     ]
+    },
+    {
+     "id": "e05",
+     "type": "order",
+     "words": [
+      "Il",
+      "est",
+      "trois",
+      "heures",
+      "et",
+      "demie."
+     ],
+     "answer": "Il est trois heures et demie.",
+     "en": "It's half past three."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Quelle heure est-il ? (10:45)",
+     "options": [
+      "Il est dix heures et quart.",
+      "Il est onze heures et quart.",
+      "Il est dix heures moins le quart.",
+      "Il est onze heures moins le quart."
+     ],
+     "answer": 3,
+     "explain": "10:45 is a quarter to eleven: onze heures moins le quart."
+    },
+    {
+     "id": "e07",
+     "type": "fill",
+     "q": "Il est deux heures ___. (quarter past: two words)",
+     "answer": [
+      "et quart"
+     ],
+     "roman": null,
+     "explain": "Quarter past is et quart; quarter to is moins le quart."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "'Il est une heure' uses 'une' because heure is feminine.",
+     "answer": true,
+     "explain": "heure is feminine, so one o'clock is une heure, and 'half past' is et demie."
+    },
+    {
+     "id": "e09",
+     "type": "match",
+     "pairs": [
+      [
+       "midi",
+       "noon"
+      ],
+      [
+       "minuit",
+       "midnight"
+      ],
+      [
+       "et demie",
+       "half past"
+      ],
+      [
+       "moins dix",
+       "ten to"
+      ]
+     ]
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "le ___ mai (the first of May)",
+     "options": [
+      "un",
+      "unième",
+      "première",
+      "premier"
+     ],
+     "answer": 3,
+     "explain": "The first of the month is the only ordinal date: le premier mai."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Nous sommes ___ 3 mars. (the)",
+     "answer": [
+      "le"
+     ],
+     "roman": null,
+     "explain": "Dates take le before the number: le 3 mars."
+    },
+    {
+     "id": "e12",
+     "type": "tf",
+     "q": "Days and months are capitalised in French as they are in English.",
+     "answer": false,
+     "explain": "lundi, mars and juillet are written with a small letter."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "Mon",
+      "anniversaire",
+      "est",
+      "le",
+      "quatorze",
+      "juillet."
+     ],
+     "answer": "Mon anniversaire est le quatorze juillet.",
+     "en": "My birthday is on the 14th of July."
+    },
+    {
+     "id": "e14",
+     "type": "mc",
+     "q": "Je joue au tennis ___. (on Mondays, every week)",
+     "options": [
+      "lundi",
+      "à lundi",
+      "en lundi",
+      "le lundi"
+     ],
+     "answer": 3,
+     "explain": "le + day means every such day; lundi alone means this coming Monday."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Je suis né ___ 1995. (in)",
+     "answer": [
+      "en"
+     ],
+     "roman": null,
+     "explain": "Years and months take en: en 1995, en mai."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Who would you normally address with 'tu'?",
+     "options": [
+      "a group of strangers",
+      "a close friend",
+      "a shop assistant",
+      "your new boss"
+     ],
+     "answer": 1,
+     "explain": "tu is for family, friends and children; the others take vous."
+    },
+    {
+     "id": "e17",
+     "type": "tf",
+     "q": "'vous' is used both for the formal singular and for any plural 'you'.",
+     "answer": true,
+     "explain": "vous covers one person you address formally and any group, even of close friends."
+    },
+    {
+     "id": "e18",
+     "type": "match",
+     "pairs": [
+      [
+       "s'il vous plaît",
+       "please (formal or plural)"
+      ],
+      [
+       "de rien",
+       "you're welcome"
+      ],
+      [
+       "excusez-moi",
+       "excuse me (formal)"
+      ],
+      [
+       "enchanté",
+       "pleased to meet you"
+      ],
+      [
+       "bonne nuit",
+       "good night"
+      ]
+     ]
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "Merci ! — ___. (you're welcome: two words, informal)",
+     "answer": [
+      "De rien",
+      "de rien"
+     ],
+     "roman": null,
+     "explain": "de rien is the everyday reply to merci; je vous en prie is more formal."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "Je",
+      "voudrais",
+      "parler",
+      "à",
+      "Madame",
+      "Dupont."
+     ],
+     "answer": "Je voudrais parler à Madame Dupont.",
+     "en": "I would like to speak to Mrs Dupont."
+    },
+    {
+     "id": "e21",
+     "type": "mc",
+     "q": "Vous êtes très ___, madame. (kind)",
+     "options": [
+      "gentil",
+      "gentilles",
+      "gentille",
+      "gentils"
+     ],
+     "answer": 2,
+     "explain": "vous is formal singular here, so the adjective agrees with the one woman: gentille."
+    },
+    {
+     "id": "e22",
+     "type": "fill",
+     "q": "___ m'aider ? (Could you, formal, inverted: one hyphenated word)",
+     "answer": [
+      "Pourriez-vous",
+      "pourriez-vous"
+     ],
+     "roman": null,
+     "explain": "The polite 'could you' is the conditional pourriez inverted with vous."
+    },
+    {
+     "id": "e23",
+     "type": "tf",
+     "q": "The tu imperative of parler is 'Parles !'.",
+     "answer": false,
+     "explain": "-er verbs drop the -s in the tu imperative: Parle !"
+    },
+    {
+     "id": "e24",
+     "type": "mc",
+     "q": "Il faut que tu ___. (venir)",
+     "options": [
+      "venir",
+      "viennes",
+      "viens",
+      "viendras"
+     ],
+     "answer": 1,
+     "explain": "il faut que is followed by the subjunctive: que tu viennes."
+    },
+    {
+     "id": "e25",
+     "type": "fill",
+     "q": "Il faut que nous ___ ce soir. (finir, subjunctive)",
+     "answer": [
+      "finissions"
+     ],
+     "roman": null,
+     "explain": "The nous subjunctive of finir is finissions, like the imparfait."
+    },
+    {
+     "id": "e26",
+     "type": "mc",
+     "q": "What is the je form of être in the subjunctive?",
+     "options": [
+      "suis",
+      "serai",
+      "étais",
+      "sois"
+     ],
+     "answer": 3,
+     "explain": "être is irregular in the subjunctive: que je sois, que tu sois, qu'il soit."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "Il",
+      "faut",
+      "que",
+      "je",
+      "parte",
+      "maintenant."
+     ],
+     "answer": "Il faut que je parte maintenant.",
+     "en": "I have to leave now."
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "être",
+       "que je sois"
+      ],
+      [
+       "avoir",
+       "que j'aie"
+      ],
+      [
+       "aller",
+       "que j'aille"
+      ],
+      [
+       "faire",
+       "que je fasse"
+      ],
+      [
+       "pouvoir",
+       "que je puisse"
+      ]
+     ]
+    },
+    {
+     "id": "e29",
+     "type": "tf",
+     "q": "'Il faut partir' states a general obligation, while 'il faut que + subjunctive' says who has to do it.",
+     "answer": true,
+     "explain": "il faut + infinitive has no subject; il faut que je parte names the person."
+    },
+    {
+     "id": "e30",
+     "type": "fill",
+     "q": "Je veux que tu ___ là. (être, subjunctive)",
+     "answer": [
+      "sois"
+     ],
+     "roman": null,
+     "explain": "vouloir que triggers the subjunctive, and the tu form of être is sois."
+    },
+    {
+     "id": "e31",
+     "type": "mc",
+     "q": "How do you write 99?",
+     "options": [
+      "quatre-vingt-dix-neuf",
+      "quatre-vingts-dix-neuf",
+      "quatre-vingt-neuf-dix",
+      "soixante-dix-neuf"
+     ],
+     "answer": 0,
+     "explain": "99 is four twenties plus nineteen, with no -s on vingt because a number follows."
+    },
+    {
+     "id": "e32",
+     "type": "fill",
+     "q": "Ça coûte trois ___ euros. (hundred)",
+     "answer": [
+      "cents"
+     ],
+     "roman": null,
+     "explain": "cent takes -s when multiplied and nothing follows it: trois cents euros."
+    }
+   ]
+  }
+ ]
+}
