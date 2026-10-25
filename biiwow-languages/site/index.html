@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#fa712d" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1a1a1e" media="(prefers-color-scheme: dark)">
+<title>biiwow · Languages</title>
+<meta name="description" content="Free biiwow language apps: English, Serbian, Hungarian and Spanish Steps, Nine Scripts, and free Italian lessons with music on YouTube.">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap">
+<style>
+/* Layout: one column, logo header, hero with the "free" promise, app cards in a grid, YouTube card, offline section, footer. */
+:root{
+  --bg:#fdfaf5; --surface:#ffffff; --surface2:#fbf7f1; --fg:#2e2e33; --muted:#6d6d74; --line:#e8e0d4;
+  --accent:#fa712d; --accent-ink:#ffffff; --accent-soft:#ffefd2; --accent-deep:#c74513; --good:#1f7f52; --good-soft:#dcf3e6;
+  --shadow:0 1px 2px rgba(46,46,51,.06),0 8px 24px rgba(46,46,51,.08); --r:16px;
+  --font:"Nunito",ui-rounded,"Segoe UI Variable","Segoe UI",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --bg:#1a1a1e; --surface:#232329; --surface2:#2b2b32; --fg:#f2efe9; --muted:#a09a92; --line:#3a3a42;
+  --accent:#fb8a4a; --accent-ink:#1a1a1e; --accent-soft:#3d2c1c; --accent-deep:#ffb27a; --good:#4fc78c; --good-soft:#143326;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+}}
+:root[data-theme="dark"]{
+  --bg:#1a1a1e; --surface:#232329; --surface2:#2b2b32; --fg:#f2efe9; --muted:#a09a92; --line:#3a3a42;
+  --accent:#fb8a4a; --accent-ink:#1a1a1e; --accent-soft:#3d2c1c; --accent-deep:#ffb27a; --good:#4fc78c; --good-soft:#143326;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 8px 24px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--font);font-size:17px;line-height:1.55;-webkit-font-smoothing:antialiased}
+a{color:var(--accent-deep)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-left,0px)) 56px}
+header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 0}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--fg);font-weight:800;font-size:1.35rem;letter-spacing:-.02em}
+.logo svg{width:38px;height:38px}
+.logo .ii{background:linear-gradient(115deg,#fec72f,#fa712d 60%,#ff514b);-webkit-background-clip:text;background-clip:text;color:transparent}
+.logo small{display:block;font-size:.66rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);line-height:1}
+header nav a{font-weight:700;text-decoration:none;color:var(--muted);margin-left:16px}
+h1,h2,h3{font-weight:800;letter-spacing:-.015em;line-height:1.15;margin:0;text-wrap:balance}
+h1{font-size:clamp(2rem,5vw,3rem)}
+h2{font-size:1.5rem;margin:40px 0 14px}
+h3{font-size:1.15rem}
+p{margin:0}
+.hero{padding:24px 0 8px;display:grid;gap:14px;max-width:720px}
+.hero .lead{font-size:1.15rem;color:var(--muted)}
+.badge{display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:999px;font-size:.84rem;font-weight:800;background:var(--good-soft);color:var(--good);white-space:nowrap}
+.badge.orange{background:var(--accent-soft);color:var(--accent-deep)}
+.promise{display:flex;gap:8px;flex-wrap:wrap}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:20px;display:grid;gap:10px;box-shadow:var(--shadow);align-content:start}
+.card .top{display:flex;justify-content:space-between;gap:10px;align-items:start}
+.card .meta{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:.78rem;font-weight:700;padding:3px 9px;border-radius:999px;background:var(--surface2);border:1px solid var(--line);color:var(--muted)}
+.card p{color:var(--muted);font-size:.97rem}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:11px 18px;border-radius:12px;font-weight:800;text-decoration:none;min-height:44px;background:var(--accent);color:var(--accent-ink);margin-top:4px;justify-self:start}
+.btn.ghost{background:transparent;color:var(--accent-deep);border:1px solid var(--line)}
+.yt{display:grid;gap:14px;grid-template-columns:1fr;background:linear-gradient(135deg,var(--accent-soft),var(--surface));border:1px solid var(--line);border-radius:var(--r);padding:22px}
+.yt .row{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.yt svg{width:40px;height:40px;flex:0 0 auto}
+.two{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.list{margin:0;padding-left:20px;display:grid;gap:6px;color:var(--muted)}
+.list li::marker{color:var(--accent)}
+.note{background:var(--surface2);border-radius:12px;padding:14px 16px;color:var(--muted);font-size:.95rem}
+footer{margin-top:48px;border-top:1px solid var(--line);padding-top:18px;color:var(--muted);font-size:.9rem;display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between}
+@media (max-width:480px){header nav{display:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <a class="logo" href="https://biiwow.com/en"><svg class="bwlogo" viewBox="0 0 100 100" aria-hidden="true"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fec72f"/><stop offset=".55" stop-color="#fa712d"/><stop offset="1" stop-color="#ff514b"/></linearGradient><clipPath id="c"><rect width="100" height="100" rx="24"/></clipPath></defs><rect width="100" height="100" rx="24" fill="url(#g)"/><g fill="#fff" clip-path="url(#c)"><circle cx="45" cy="42" r="8.5"/><circle cx="67.5" cy="42" r="8.5"/><rect x="37" y="58" width="15" height="60" rx="7.5"/><rect x="59.5" y="58" width="15.5" height="60" rx="7.5"/></g></svg><span>b<span class="ii">ii</span>wow<small>Languages</small></span></a>
+  <nav><a href="#apps">Apps</a><a href="#italian">Italian on YouTube</a><a href="#offline">Offline</a></nav>
+</header>
+
+<section class="hero">
+  <h1>Learn a language with biiwow. <span style="color:var(--accent)">Free.</span></h1>
+  <p class="lead">Five apps for words, grammar and games, and a YouTube channel for Italian. No subscriptions, no ads, no in-app purchases: everything on this page costs nothing.</p>
+  <div class="promise"><span class="badge">✓ 100% free</span><span class="badge">✓ No ads</span><span class="badge">✓ No payments inside the apps</span><span class="badge orange">Works offline (see below)</span></div>
+</section>
+
+<h2 id="apps">The apps</h2>
+<p style="color:var(--muted);margin-bottom:14px">Each app opens in the browser and can be added to the phone's home screen like a normal app. The interface of the "Steps" apps is in Russian or English (your choice), the explanations are written for Russian speakers.</p>
+<div class="grid">
+  <article class="card">
+    <div class="top"><h3>English Steps</h3><span class="badge">Free</span></div>
+    <div class="meta"><span class="tag">A1 → C1</span><span class="tag">650–1050 words per level</span><span class="tag">10 grammar chapters per level</span><span class="tag">RU / EN</span></div>
+    <p>English for Russian speakers, level by level: vocabulary with pronunciation, examples and notes, phrasal verbs and idioms as separate chapters, grammar with rules in both languages and hundreds of exercises, plus flashcards, quizzes, memory match, listening and typing games. Points, streaks and statistics track your progress.</p>
+    <a class="btn" href="https://biiwow-english-steps.pages.dev">Open English Steps</a>
+  </article>
+  <article class="card">
+    <div class="top"><h3>Serbian Steps</h3><span class="badge">Free</span></div>
+    <div class="meta"><span class="tag">A1 → C2</span><span class="tag">500 words per level</span><span class="tag">Grammar + games</span><span class="tag">RU / EN</span></div>
+    <p>Serbian from the first greeting to fluent speech. Every word is shown in Latin and Cyrillic script with its gender, plural and verb aspect, with a simple Serbian definition and a Russian translation. Grammar chapters point out exactly where Serbian differs from Russian.</p>
+    <a class="btn" href="https://biiwow-serbian-steps.pages.dev">Open Serbian Steps</a>
+  </article>
+  <article class="card">
+    <div class="top"><h3>Hungarian Steps</h3><span class="badge">Free</span></div>
+    <div class="meta"><span class="tag">A1 → C2</span><span class="tag">500 words per level</span><span class="tag">Grammar + games</span><span class="tag">RU / EN</span></div>
+    <p>Hungarian with the case forms you actually need: every noun comes with its accusative, plural and possessive, every verb with its past form. Grammar chapters explain vowel harmony, definite and indefinite conjugation and the case endings step by step.</p>
+    <a class="btn" href="https://biiwow-hungarian-steps.pages.dev">Open Hungarian Steps</a>
+  </article>
+  <article class="card">
+    <div class="top"><h3>Spanish Steps</h3><span class="badge">Free</span></div>
+    <div class="meta"><span class="tag">A1 → C2</span><span class="tag">500 words per level</span><span class="tag">Grammar + games</span><span class="tag">RU / EN</span></div>
+    <p>European Spanish from A1 to C2: nouns with their article, verbs with their irregular forms, verb + preposition patterns and idioms in their own chapters, and grammar from ser/estar to the subjunctive, all with exercises and Russian explanations.</p>
+    <a class="btn" href="https://biiwow-spanish-steps.pages.dev">Open Spanish Steps</a>
+  </article>
+  <article class="card">
+    <div class="top"><h3>Nine Scripts</h3><span class="badge">Free</span></div>
+    <div class="meta"><span class="tag">14 languages</span><span class="tag">~500 words each</span><span class="tag">Alphabets</span><span class="tag">Grammar + 8 games</span></div>
+    <p>One app for Arabic, Chinese, Japanese, Hindi, Turkish, Polish, Hungarian, Finnish, Norwegian, Italian, Spanish, French, Dutch and advanced English. Learn the alphabets letter by letter, load ready-made word packs by topic or add your own words, and practise with flashcards, quizzes, memory match, blitz rounds and grammar tests.</p>
+    <a class="btn" href="https://nine-scripts.pages.dev">Open Nine Scripts</a>
+  </article>
+</div>
+
+<h2 id="italian">Italian, free on YouTube</h2>
+<div class="yt">
+  <div class="row"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#ff0000" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.6 12 3.6 12 3.6s-7.5 0-9.4.5A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.5 9.4.5 9.4.5s7.5 0 9.4-.5a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8z"/><path fill="#fff" d="M9.6 15.6V8.4l6.2 3.6-6.2 3.6z"/></svg><h3>Learn Italian with music on the biiwow channel</h3></div>
+  <p style="color:var(--muted)">Songs with expressions, vocabulary and grammar explained line by line: a relaxed way to pick up Italian, and it is completely free to watch.</p>
+  <a class="btn" href="https://www.youtube.com/@biiwow">Watch on YouTube</a>
+</div>
+
+<h2 id="offline">What works offline</h2>
+<div class="two">
+  <div class="card">
+    <h3 style="color:var(--good)">Works without internet</h3>
+    <ul class="list">
+      <li>Opening the app, once it has been opened or installed online at least once.</li>
+      <li>Words and grammar of every level you have opened before: the app keeps a copy on the phone.</li>
+      <li>All games, flashcards, quizzes, grammar exercises and statistics.</li>
+      <li>Your progress: it is always saved on the device first, and sent to your account automatically when you are back online.</li>
+      <li>Pronunciation, as long as your phone has a voice for that language installed (most phones do).</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3 style="color:var(--accent-deep)">Needs internet</h3>
+    <ul class="list">
+      <li>The very first opening of the app, and opening a level for the first time.</li>
+      <li>Registering or logging in with your email.</li>
+      <li>Syncing progress between your phone and another device.</li>
+      <li>In Nine Scripts: the optional AI features (adding words from a photo, generating word lists).</li>
+      <li>Watching the YouTube lessons.</li>
+    </ul>
+  </div>
+</div>
+<p class="note" style="margin-top:14px"><b>Tip:</b> before a trip, open the app online once and tap through the levels you want to study. After that, everything you tapped works on the plane.</p>
+
+<h2>How progress is saved</h2>
+<div class="two">
+  <div class="card"><h3>As a guest</h3><p>No sign-up. Progress stays in this browser on this device only.</p></div>
+  <div class="card"><h3>With an account</h3><p>Register with an email and a password inside any Steps app or in Nine Scripts. Your progress then follows you to any phone or computer: log in with the same email and password. There is nothing to pay.</p></div>
+</div>
+
+<footer><span>biiwow · All you want to be</span><span><a href="https://biiwow.com/en">biiwow.com</a> · <a href="https://www.youtube.com/@biiwow">YouTube</a></span></footer>
+</div>
+</body>
+</html>

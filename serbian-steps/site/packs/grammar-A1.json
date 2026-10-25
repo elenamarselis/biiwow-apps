@@ -1,0 +1,5640 @@
+{
+ "level": "A1",
+ "sections": [
+  {
+   "id": "alphabet-pronunciation",
+   "title_en": "Alphabet and pronunciation",
+   "title_ru": "Алфавит и произношение",
+   "summary_en": "Serbian uses two alphabets, Latin and Cyrillic, with 30 letters each and a strict one-letter-one-sound rule. This section covers the tricky pairs č/ć and dž/đ, the vowels, and the basics of stress.",
+   "summary_ru": "В сербском два алфавита — латиница и кириллица, по 30 букв, и правило «одна буква — один звук». Разбираем пары č/ć и dž/đ, гласные и основы ударения.",
+   "rules": [
+    {
+     "title_en": "Two alphabets, one sound per letter",
+     "title_ru": "Два алфавита, один звук на букву",
+     "body_en": "Serbian is written in both Latin (latinica) and Cyrillic (ćirilica). Both alphabets have 30 letters and match each other one to one, so a word can be converted letter by letter. Every letter is always read the same way: Serbian spelling is phonetic, 'write as you speak'. Latin: a b c č ć d dž đ e f g h i j k l lj m n nj o p r s š t u v z ž. Cyrillic: а б в г д ђ е ж з и ј к л љ м н њ о п р с т ћ у ф х ц ч џ ш.",
+     "body_ru": "Сербский пишется и латиницей (latinica), и кириллицей (ćirilica). В обоих алфавитах по 30 букв, и они соответствуют друг другу один к одному, поэтому слово переводится из одного письма в другое побуквенно. Каждая буква всегда читается одинаково: сербская орфография фонетическая — «пиши, как говоришь». Обратите внимание: в сербской кириллице нет букв я, ю, ё, э, й, ь, ъ, ы, щ, зато есть ј, љ, њ, ђ, ћ, џ.",
+     "examples": [
+      {
+       "en": "Dobar dan! [Добар дан!]",
+       "ru": "Добрый день!"
+      },
+      {
+       "en": "Hvala. [Хвала.]",
+       "ru": "Спасибо."
+      },
+      {
+       "en": "Molim. [Молим.]",
+       "ru": "Пожалуйста."
+      }
+     ]
+    },
+    {
+     "title_en": "Digraphs lj, nj, dž are single letters",
+     "title_ru": "Lj, nj, dž — это одна буква",
+     "body_en": "In the Latin alphabet lj, nj and dž are written with two characters but count as one letter each, matching Cyrillic љ, њ, џ. Lj sounds like Russian 'ль' in 'люк', nj like 'нь' in 'няня'. Dž is a hard 'дж' as in 'джем'.",
+     "body_ru": "В латинице lj, nj и dž пишутся двумя знаками, но считаются одной буквой — им соответствуют кириллические љ, њ, џ. Lj звучит как русское «ль» (люк), nj — как «нь» (няня). Dž — твёрдое «дж», как в слове «джем». В словаре слова на lj, nj, dž стоят отдельно от слов на l, n, d.",
+     "examples": [
+      {
+       "en": "ljubav [љубав]",
+       "ru": "любовь"
+      },
+      {
+       "en": "konj [коњ]",
+       "ru": "конь"
+      },
+      {
+       "en": "džep [џеп]",
+       "ru": "карман"
+      }
+     ]
+    },
+    {
+     "title_en": "č versus ć",
+     "title_ru": "Č и ć",
+     "body_en": "Č (Cyrillic ч) is a hard 'ch', pronounced with the tongue further back than the Russian 'ч'. Ć (Cyrillic ћ) is a very soft sound, between Russian 'ч' and 'ть'. Russian speakers tend to pronounce both as the soft Russian 'ч', which is closer to ć. Listen to common words: čaj, čovek, kuća, ćao.",
+     "body_ru": "Č (кириллица ч) — твёрдый звук «ч», язык отодвинут назад дальше, чем в русском «ч». Ć (кириллица ћ) — очень мягкий звук, между русскими «ч» и «ть». Русскоязычные обычно произносят оба как мягкое русское «ч», которое ближе к ć, поэтому č нужно специально «твердить». Для памяти: русское «ч» в слове «чай» — почти сербское ć, а сербское čaj звучит твёрже.",
+     "examples": [
+      {
+       "en": "čaj [чај]",
+       "ru": "чай"
+      },
+      {
+       "en": "čovek [човек]",
+       "ru": "человек"
+      },
+      {
+       "en": "kuća [кућа]",
+       "ru": "дом"
+      },
+      {
+       "en": "ćao [ћао]",
+       "ru": "привет / пока"
+      }
+     ]
+    },
+    {
+     "title_en": "dž versus đ",
+     "title_ru": "Dž и đ",
+     "body_en": "Dž (Cyrillic џ) is the voiced pair of č: a hard 'дж'. Đ (Cyrillic ђ) is the voiced pair of ć: a very soft 'дж', close to 'дь' pronounced with friction. Đ is much more frequent than dž. Never write đ as 'dj' in the app: 'Madjarska' is wrong, 'Mađarska' is correct.",
+     "body_ru": "Dž (кириллица џ) — звонкая пара к č: твёрдое «дж». Đ (кириллица ђ) — звонкая пара к ć: очень мягкое «дж», близкое к «дь» с шипящим призвуком. Đ встречается гораздо чаще, чем dž. В интернете đ часто заменяют на dj, но это небрежность: правильно Mađarska, а не Madjarska.",
+     "examples": [
+      {
+       "en": "džem [џем]",
+       "ru": "джем"
+      },
+      {
+       "en": "đak [ђак]",
+       "ru": "ученик"
+      },
+      {
+       "en": "Đorđe [Ђорђе]",
+       "ru": "Джордже (имя)"
+      },
+      {
+       "en": "Mađarska [Мађарска]",
+       "ru": "Венгрия"
+      }
+     ]
+    },
+    {
+     "title_en": "Five clear vowels, no reduction",
+     "title_ru": "Пять чётких гласных, без редукции",
+     "body_en": "Serbian has five vowels: a, e, i, o, u. Each is pronounced clearly in every position. Unlike Russian, an unstressed 'o' never turns into 'a', and an unstressed 'e' never turns into 'i'. The word 'voda' is pronounced vo-da, not va-da.",
+     "body_ru": "В сербском пять гласных: a, e, i, o, u. Каждая произносится чётко в любой позиции. В отличие от русского, безударное «о» никогда не превращается в «а», а безударное «е» — в «и». Слово voda читается «во-да», а не «ва-да»; mleko — «мле-ко», а не «мли-ко». Это самая частая ошибка русскоязычных.",
+     "examples": [
+      {
+       "en": "voda [вода]",
+       "ru": "вода"
+      },
+      {
+       "en": "mleko [млеко]",
+       "ru": "молоко"
+      },
+      {
+       "en": "dobro [добро]",
+       "ru": "хорошо"
+      }
+     ]
+    },
+    {
+     "title_en": "Consonants: c, h, j, syllabic r",
+     "title_ru": "Согласные: c, h, j, слоговое r",
+     "body_en": "The letter c is always 'ц' (never 'k' or 's'): cena = цена. H is like Russian 'х'. J is like 'й' and is written wherever the sound is heard: jaje, moja, Jugoslavija. Š, ž are 'ш', 'ж'. R can form a syllable without a vowel: prst, Srbija, trg, crn.",
+     "body_ru": "Буква c всегда читается «ц» (никогда не «к» и не «с»): cena = цена. H — как русское «х». J — как «й», и пишется везде, где слышится: jaje, moja, Jugoslavija. Š, ž — «ш», «ж». R может быть слогообразующим, без гласного: prst (палец), Srbija, trg (площадь), crn (чёрный) — читайте r протяжно, не вставляя гласный.",
+     "examples": [
+      {
+       "en": "hleb [хлеб]",
+       "ru": "хлеб"
+      },
+      {
+       "en": "jaje [јаје]",
+       "ru": "яйцо"
+      },
+      {
+       "en": "cena [цена]",
+       "ru": "цена"
+      },
+      {
+       "en": "prst [прст]",
+       "ru": "палец"
+      }
+     ]
+    },
+    {
+     "title_en": "No softening before e and i",
+     "title_ru": "Нет смягчения перед e и i",
+     "body_en": "In Russian, consonants soften before е and и. In Serbian they stay hard: 'ne' sounds like 'нэ', 'ti' like 'ты', 'dete' like 'дэтэ'. Only lj, nj, ć, đ are soft, and they are soft everywhere. Keep this in mind when reading Cyrillic: Serbian 'не' is not Russian 'не'.",
+     "body_ru": "В русском согласные смягчаются перед е и и. В сербском они остаются твёрдыми: ne звучит как «нэ», ti — как «ты», dete — как «дэтэ». Мягкие только lj, nj, ć, đ — и они мягкие всегда. Помните об этом при чтении кириллицы: сербское «не» произносится не так, как русское «не».",
+     "examples": [
+      {
+       "en": "ne [не]",
+       "ru": "нет / не"
+      },
+      {
+       "en": "dete [дете]",
+       "ru": "ребёнок"
+      },
+      {
+       "en": "tih [тих]",
+       "ru": "тихий"
+      }
+     ]
+    },
+    {
+     "title_en": "Stress basics",
+     "title_ru": "Основы ударения",
+     "body_en": "Stress is free but never falls on the last syllable of a word with two or more syllables. Very often it is on the first syllable, where Russian stresses later: ŽEna (женА), RUka (рукА), VOda (водА). Serbian also has long and short vowels and rising or falling tones; at A1 you may ignore them, just imitate native speakers.",
+     "body_ru": "Ударение свободное, но никогда не падает на последний слог слова из двух и более слогов. Очень часто оно стоит на первом слоге там, где в русском — дальше: ЖЕна (женА), РУка (рукА), ВОда (водА). В сербском есть ещё долгие и краткие гласные и восходящий/нисходящий тон; на уровне A1 их можно не учить — просто подражайте носителям.",
+     "examples": [
+      {
+       "en": "žena [жена]",
+       "ru": "женщина, жена (ударение на первый слог)"
+      },
+      {
+       "en": "ruka [рука]",
+       "ru": "рука (ударение на первый слог)"
+      },
+      {
+       "en": "voda [вода]",
+       "ru": "вода (ударение на первый слог)"
+      }
+     ]
+    },
+    {
+     "title_en": "Ekavian standard",
+     "title_ru": "Экавская норма",
+     "body_en": "This app teaches the ekavian standard used in Serbia: where Croatian or Bosnian have 'ije' or 'je', Serbian has 'e'. So mleko (not mlijeko), lepo (not lijepo), vreme (not vrijeme), dete (not dijete). This makes many words closer to Russian.",
+     "body_ru": "Приложение учит экавской норме, принятой в Сербии: там, где в хорватском или боснийском стоит ije или je, в сербском — e. Поэтому mleko (а не mlijeko), lepo (а не lijepo), vreme (а не vrijeme), dete (а не dijete). Благодаря этому многие слова ближе к русским.",
+     "examples": [
+      {
+       "en": "lepo [лепо]",
+       "ru": "красиво"
+      },
+      {
+       "en": "reka [река]",
+       "ru": "река"
+      },
+      {
+       "en": "vreme [време]",
+       "ru": "время, погода"
+      }
+     ]
+    },
+    {
+     "title_en": "Reading both scripts",
+     "title_ru": "Читаем оба письма",
+     "body_en": "Cyrillic is the official script, used in documents and on many signs; Latin dominates in media, shops and online. You will meet both every day, so learn to read both. Be careful with Cyrillic letters that look Russian but are read differently: ј = й, љ = ль, њ = нь, ђ, ћ, џ.",
+     "body_ru": "Кириллица — официальное письмо, она в документах и на многих вывесках; латиница преобладает в СМИ, магазинах и интернете. Вы будете встречать оба письма каждый день, поэтому учитесь читать оба. Будьте внимательны к кириллическим буквам, которых нет в русском: ј = й, љ = ль, њ = нь, а также ђ, ћ, џ.",
+     "examples": [
+      {
+       "en": "Beograd [Београд]",
+       "ru": "Белград"
+      },
+      {
+       "en": "ulica [улица]",
+       "ru": "улица"
+      },
+      {
+       "en": "Srbija [Србија]",
+       "ru": "Сербия"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Latinica: Београд → ___",
+     "options": [
+      "Beograd",
+      "Belgrad",
+      "Bieograd"
+     ],
+     "answer": 0,
+     "explain_en": "Each Cyrillic letter maps to one Latin letter: Б-е-о-г-р-а-д = B-e-o-g-r-a-d.",
+     "explain_ru": "Каждой кириллической букве соответствует одна латинская: Б-е-о-г-р-а-д = B-e-o-g-r-a-d. Никаких «ие» или перестановок."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Latinica: ћао → ___",
+     "options": [
+      "čao",
+      "ćao",
+      "cao"
+     ],
+     "answer": 1,
+     "explain_en": "Cyrillic ћ is Latin ć, the soft sound. Č would be ч.",
+     "explain_ru": "Кириллическая ћ — это латинская ć, мягкий звук. Č соответствует ч, а c — ц."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "Latinica: чај → ___",
+     "options": [
+      "ćaj",
+      "čaj",
+      "caj"
+     ],
+     "answer": 1,
+     "explain_en": "Cyrillic ч is Latin č (hard). Compare ћ = ć (soft).",
+     "explain_ru": "Кириллическая ч — это латинская č (твёрдый звук). Сравните: ћ = ć (мягкий). Хотя слово похоже на русское «чай», сербское č твёрже русского «ч»."
+    },
+    {
+     "id": "e04",
+     "type": "tf",
+     "q": "The Serbian letter 'c' is always read like Russian 'ц' (cena = цена).",
+     "answer": true,
+     "explain_en": "True. Serbian c is always 'ц', never 'k' or 's'.",
+     "explain_ru": "Верно. Сербская c всегда читается «ц», никогда «к» или «с»: cena — цена, cipele — ципеле (туфли)."
+    },
+    {
+     "id": "e05",
+     "type": "fill",
+     "q": "ku___a (кућа)",
+     "answer": [
+      "ć"
+     ],
+     "explain_en": "Cyrillic ћ is Latin ć: kuća (house).",
+     "explain_ru": "Кириллическая ћ — латинская ć: kuća (дом). Это мягкий звук, не путайте с č."
+    },
+    {
+     "id": "e06",
+     "type": "match",
+     "pairs": [
+      [
+       "đ",
+       "ђ"
+      ],
+      [
+       "č",
+       "ч"
+      ],
+      [
+       "ć",
+       "ћ"
+      ],
+      [
+       "dž",
+       "џ"
+      ],
+      [
+       "š",
+       "ш"
+      ]
+     ]
+    },
+    {
+     "id": "e07",
+     "type": "mc",
+     "q": "Latinica: џеп → ___",
+     "options": [
+      "džep",
+      "đep",
+      "dzep"
+     ],
+     "answer": 0,
+     "explain_en": "Cyrillic џ is the Latin digraph dž (hard 'дж'). Đ is ђ, a different, softer sound.",
+     "explain_ru": "Кириллическая џ — латинский диграф dž (твёрдое «дж»). Đ — это ђ, другой, более мягкий звук. Написание dz без диакритики неверно."
+    },
+    {
+     "id": "e08",
+     "type": "order",
+     "words": [
+      "Dobar",
+      "dan,",
+      "ja",
+      "sam",
+      "Ana."
+     ],
+     "answer": "Dobar dan, ja sam Ana.",
+     "ru": "Добрый день, я Ана."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Latinica: Ђорђе → ___",
+     "options": [
+      "Džordže",
+      "Đorđe",
+      "Dorde"
+     ],
+     "answer": 1,
+     "explain_en": "Cyrillic ђ is Latin đ. Both đ in the name are the soft sound, not dž.",
+     "explain_ru": "Кириллическая ђ — латинская đ. Оба ђ в имени — мягкий звук, не dž. Писать без диакритики (Dorde) нельзя."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Srbi___a (Србија)",
+     "answer": [
+      "j"
+     ],
+     "explain_en": "Cyrillic ј is Latin j, pronounced like Russian 'й'.",
+     "explain_ru": "Кириллическая ј — латинская j, произносится как русское «й». В сербском нет букв я, ю, е (йэ): их место занимают ja, ju, je."
+    },
+    {
+     "id": "e11",
+     "type": "tf",
+     "q": "In Serbian, an unstressed 'o' is pronounced like 'a', as in Russian 'молоко'.",
+     "answer": false,
+     "explain_en": "False. Serbian vowels are never reduced: voda is vo-da, mleko is mle-ko.",
+     "explain_ru": "Неверно. В сербском гласные не редуцируются: voda — «во-да», mleko — «мле-ко». «Аканье» — типичная ошибка русскоязычных."
+    },
+    {
+     "id": "e12",
+     "type": "mc",
+     "q": "Latinica: коњ → ___",
+     "options": [
+      "kon",
+      "konj",
+      "konij"
+     ],
+     "answer": 1,
+     "explain_en": "Cyrillic њ is the Latin digraph nj (one letter, like Russian 'нь').",
+     "explain_ru": "Кириллическая њ — латинский диграф nj (одна буква, звучит как русское «нь»). Konj — конь."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "___ubav (љубав)",
+     "answer": [
+      "lj"
+     ],
+     "explain_en": "Cyrillic љ is the Latin digraph lj, pronounced like Russian 'ль'.",
+     "explain_ru": "Кириллическая љ — латинский диграф lj, произносится как русское «ль»: ljubav — любовь."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "In 'žena' the stress falls on the first syllable (ŽEna), unlike Russian 'женА'.",
+     "answer": true,
+     "explain_en": "True. Serbian stress is often earlier than in Russian and never on the last syllable of a longer word.",
+     "explain_ru": "Верно. Сербское ударение часто стоит раньше, чем в русском, и никогда не падает на последний слог многосложного слова: ЖЕна, РУка, ВОда."
+    },
+    {
+     "id": "e15",
+     "type": "match",
+     "pairs": [
+      [
+       "hleb",
+       "хлеб"
+      ],
+      [
+       "mleko",
+       "молоко"
+      ],
+      [
+       "voda",
+       "вода"
+      ],
+      [
+       "čaj",
+       "чай"
+      ]
+     ]
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Ekavski oblik: ___ (молоко)",
+     "options": [
+      "mlijeko",
+      "mleko",
+      "mliko"
+     ],
+     "answer": 1,
+     "explain_en": "Serbian ekavian has 'e' where Croatian has 'ije': mleko.",
+     "explain_ru": "В сербской экавской норме стоит e там, где в хорватском ije: mleko. Форма mlijeko — ийекавская (Хорватия, Босния)."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "r___ka (река)",
+     "answer": [
+      "e"
+     ],
+     "explain_en": "Ekavian: reka, not rijeka. The vowel e is pronounced clearly, like 'э'.",
+     "explain_ru": "Экавская норма: reka, а не rijeka. Гласный e произносится чётко, как «э», согласный r перед ним не смягчается."
+    },
+    {
+     "id": "e18",
+     "type": "order",
+     "words": [
+      "Ja",
+      "sam",
+      "iz",
+      "Rusije."
+     ],
+     "answer": "Ja sam iz Rusije.",
+     "ru": "Я из России."
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "Latinica: Мађарска → ___",
+     "options": [
+      "Madžarska",
+      "Mađarska",
+      "Madjarska"
+     ],
+     "answer": 1,
+     "explain_en": "Cyrillic ђ is đ. Writing 'dj' for đ is a common shortcut online but not correct spelling.",
+     "explain_ru": "Кириллическая ђ — это đ. Замена đ на dj — распространённая небрежность в интернете, но не правильное написание. Madžarska — ошибка: там твёрдое dž."
+    },
+    {
+     "id": "e20",
+     "type": "tf",
+     "q": "'lj', 'nj' and 'dž' are each one letter of the Serbian Latin alphabet.",
+     "answer": true,
+     "explain_en": "True. They are digraphs counted as single letters, matching Cyrillic љ, њ, џ.",
+     "explain_ru": "Верно. Это диграфы, которые считаются одной буквой, им соответствуют кириллические љ, њ, џ. Поэтому в алфавите 30 букв, а не 33."
+    },
+    {
+     "id": "e21",
+     "type": "mc",
+     "q": "Srpska azbuka ima ___ slova.",
+     "options": [
+      "30",
+      "33",
+      "26"
+     ],
+     "answer": 0,
+     "explain_en": "Both Serbian alphabets have 30 letters, one for each sound.",
+     "explain_ru": "В обоих сербских алфавитах по 30 букв — по одной на каждый звук. В русском — 33."
+    },
+    {
+     "id": "e22",
+     "type": "fill",
+     "q": "___ovek (човек)",
+     "answer": [
+      "č"
+     ],
+     "explain_en": "Cyrillic ч is Latin č (hard 'ch').",
+     "explain_ru": "Кириллическая ч — латинская č (твёрдое «ч»): čovek — человек."
+    },
+    {
+     "id": "e23",
+     "type": "match",
+     "pairs": [
+      [
+       "Добар дан",
+       "Dobar dan"
+      ],
+      [
+       "Добро јутро",
+       "Dobro jutro"
+      ],
+      [
+       "Добро вече",
+       "Dobro veče"
+      ],
+      [
+       "Довиђења",
+       "Doviđenja"
+      ]
+     ]
+    },
+    {
+     "id": "e24",
+     "type": "order",
+     "words": [
+      "Dobro",
+      "veče,",
+      "kako",
+      "ste?"
+     ],
+     "answer": "Dobro veče, kako ste?",
+     "ru": "Добрый вечер, как вы?"
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "Before 'e' and 'i', Serbian consonants become soft (palatalized), as in Russian 'нет'.",
+     "answer": false,
+     "explain_en": "False. Serbian consonants stay hard before e and i: 'ne' sounds like 'нэ', 'ti' like 'ты'.",
+     "explain_ru": "Неверно. Сербские согласные перед e и i остаются твёрдыми: ne звучит как «нэ», ti — как «ты», dete — «дэтэ». Мягкие только lj, nj, ć, đ."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "Dovi___enja (Довиђења)",
+     "answer": [
+      "đ"
+     ],
+     "explain_en": "Cyrillic ђ is Latin đ: doviđenja (goodbye).",
+     "explain_ru": "Кириллическая ђ — латинская đ: doviđenja (до свидания). Это мягкий звук, не dž."
+    },
+    {
+     "id": "e27",
+     "type": "mc",
+     "q": "Latinica: хлеб → ___",
+     "options": [
+      "hleb",
+      "chleb",
+      "kleb"
+     ],
+     "answer": 0,
+     "explain_en": "Cyrillic х is Latin h, pronounced like Russian 'х'.",
+     "explain_ru": "Кириллическая х — латинская h, читается как русское «х». Сочетание ch в сербском не используется."
+    },
+    {
+     "id": "e28",
+     "type": "order",
+     "words": [
+      "Ovo",
+      "je",
+      "moja",
+      "kuća."
+     ],
+     "answer": "Ovo je moja kuća.",
+     "ru": "Это мой дом."
+    }
+   ]
+  },
+  {
+   "id": "nouns-gender-number",
+   "title_en": "Gender and number of nouns",
+   "title_ru": "Род и число существительных",
+   "summary_en": "Serbian nouns are masculine, feminine or neuter, usually recognizable by the ending, and form the plural with -i, -e or -a. Watch out for nouns whose gender differs from Russian and for plural-only nouns like vrata and naočare.",
+   "summary_ru": "Сербские существительные бывают мужского, женского и среднего рода, обычно род виден по окончанию; множественное число образуется на -i, -e, -a. Обращайте внимание на слова, род которых не совпадает с русским, и на слова только во множественном числе: vrata, naočare.",
+   "rules": [
+    {
+     "title_en": "Three genders by ending",
+     "title_ru": "Три рода по окончанию",
+     "body_en": "Like Russian, Serbian has three genders. Most masculine nouns end in a consonant (grad, sto, student), feminine nouns in -a (žena, kuća, škola), neuter nouns in -o or -e (selo, pismo, more, dete). The gender decides the form of adjectives and past-tense verbs, so always learn a noun with its gender.",
+     "body_ru": "Как и в русском, в сербском три рода. Большинство существительных мужского рода оканчивается на согласный (grad, sto, student), женского — на -a (žena, kuća, škola), среднего — на -o или -e (selo, pismo, more, dete). От рода зависят формы прилагательных и глаголов прошедшего времени, поэтому слово нужно запоминать вместе с родом.",
+     "examples": [
+      {
+       "en": "Grad je velik.",
+       "ru": "Город большой."
+      },
+      {
+       "en": "Kuća je velika.",
+       "ru": "Дом большой."
+      },
+      {
+       "en": "Selo je malo.",
+       "ru": "Село маленькое."
+      }
+     ]
+    },
+    {
+     "title_en": "Masculine nouns ending in -a",
+     "title_ru": "Мужской род на -a",
+     "body_en": "A few nouns for men end in -a but are masculine: tata, deda, kolega, gazda, Nikola. Adjectives and verbs agree with them in the masculine, exactly like Russian 'мой папа'.",
+     "body_ru": "Несколько слов, обозначающих мужчин, оканчиваются на -a, но относятся к мужскому роду: tata (папа), deda (дедушка), kolega, gazda (хозяин), Nikola. Прилагательные и глаголы согласуются с ними в мужском роде — точно как в русском «мой папа».",
+     "examples": [
+      {
+       "en": "Moj tata je dobar.",
+       "ru": "Мой папа добрый."
+      },
+      {
+       "en": "Deda je star.",
+       "ru": "Дедушка старый."
+      },
+      {
+       "en": "Nikola je moj kolega.",
+       "ru": "Никола — мой коллега."
+      }
+     ]
+    },
+    {
+     "title_en": "Feminine nouns and false friends",
+     "title_ru": "Женский род и ложные друзья",
+     "body_en": "Feminine nouns mostly end in -a. A smaller group ends in a consonant: noć, ljubav, stvar, reč, so, smrt. Gender often matches Russian but not always: problem, sistem, program are masculine (Russian проблема, система are feminine); banka is feminine (Russian банк is masculine).",
+     "body_ru": "Существительные женского рода чаще всего оканчиваются на -a. Меньшая группа оканчивается на согласный: noć (ночь), ljubav (любовь), stvar (вещь), reč (слово), so (соль), smrt (смерть). Род часто совпадает с русским, но не всегда: problem, sistem, program — мужского рода (в русском проблема, система — женского); banka — женского (банк — мужского). Такие слова надо запоминать отдельно.",
+     "examples": [
+      {
+       "en": "Noć je duga.",
+       "ru": "Ночь длинная."
+      },
+      {
+       "en": "Ovo je velik problem.",
+       "ru": "Это большая проблема."
+      },
+      {
+       "en": "Banka je zatvorena.",
+       "ru": "Банк закрыт."
+      }
+     ]
+    },
+    {
+     "title_en": "Neuter nouns in -o and -e",
+     "title_ru": "Средний род на -o и -e",
+     "body_en": "Neuter nouns end in -o (selo, pismo, mesto) or -e (more, polje, dete, ime). Some neuter nouns in -e add a syllable in other cases and in the plural: dete – deteta, ime – imena; you will meet these forms later.",
+     "body_ru": "Существительные среднего рода оканчиваются на -o (selo, pismo, mesto) или -e (more, polje, dete, ime). Некоторые слова на -e наращивают основу в других падежах и во множественном числе: dete – deteta, ime – imena — как русские «имя – имени». Эти формы вы встретите позже.",
+     "examples": [
+      {
+       "en": "More je plavo.",
+       "ru": "Море синее."
+      },
+      {
+       "en": "Ime je lepo.",
+       "ru": "Имя красивое."
+      },
+      {
+       "en": "Dete je malo.",
+       "ru": "Ребёнок маленький."
+      }
+     ]
+    },
+    {
+     "title_en": "Plural of masculine nouns: -i, -ovi/-evi",
+     "title_ru": "Множественное число мужского рода: -i, -ovi/-evi",
+     "body_en": "Masculine nouns take -i in the plural: student – studenti, prozor – prozori. Short one-syllable nouns insert -ov- or -ev- (after soft consonants): grad – gradovi, sto – stolovi, muž – muževi, broj – brojevi. Before -i, the consonants k, g, h change to c, z, s: đak – đaci, momak – momci.",
+     "body_ru": "Существительные мужского рода получают во множественном числе -i: student – studenti, prozor – prozori. Короткие односложные слова вставляют -ov- или -ev- (после мягких согласных): grad – gradovi, sto – stolovi, muž – muževi, broj – brojevi. Перед -i согласные k, g, h меняются на c, z, s: đak – đaci, momak – momci. В русском такого чередования нет (ученик – ученики).",
+     "examples": [
+      {
+       "en": "student – studenti",
+       "ru": "студент – студенты"
+      },
+      {
+       "en": "grad – gradovi",
+       "ru": "город – города"
+      },
+      {
+       "en": "đak – đaci",
+       "ru": "ученик – ученики"
+      },
+      {
+       "en": "muž – muževi",
+       "ru": "муж – мужья"
+      }
+     ]
+    },
+    {
+     "title_en": "Plural of feminine nouns: -e, -i",
+     "title_ru": "Множественное число женского рода: -e, -i",
+     "body_en": "Feminine nouns in -a change -a to -e: žena – žene, kuća – kuće, knjiga – knjige. Feminine nouns ending in a consonant take -i: noć – noći, stvar – stvari, reč – reči.",
+     "body_ru": "Существительные женского рода на -a меняют -a на -e: žena – žene, kuća – kuće, knjiga – knjige. Существительные женского рода на согласный получают -i: noć – noći, stvar – stvari, reč – reči. Запомните: в сербском -e во множественном числе — признак женского рода, а не среднего, как может подсказать русская интуиция.",
+     "examples": [
+      {
+       "en": "žena – žene",
+       "ru": "женщина – женщины"
+      },
+      {
+       "en": "kuća – kuće",
+       "ru": "дом – дома"
+      },
+      {
+       "en": "noć – noći",
+       "ru": "ночь – ночи"
+      }
+     ]
+    },
+    {
+     "title_en": "Plural of neuter nouns: -a; deca",
+     "title_ru": "Множественное число среднего рода: -a; deca",
+     "body_en": "Neuter nouns replace -o/-e with -a: selo – sela, pismo – pisma, more – mora. The plural of dete is the collective noun deca (children): it takes a plural verb but feminine singular adjectives: 'Deca su dobra.'",
+     "body_ru": "Существительные среднего рода меняют -o/-e на -a: selo – sela, pismo – pisma, more – mora. Множественное число от dete — собирательное deca (дети): глагол при нём стоит во множественном числе, а прилагательное — в женском роде единственного числа: 'Deca su dobra.' Для русскоязычного это непривычно, запомните как есть.",
+     "examples": [
+      {
+       "en": "Sela su mala.",
+       "ru": "Сёла маленькие."
+      },
+      {
+       "en": "pismo – pisma",
+       "ru": "письмо – письма"
+      },
+      {
+       "en": "Deca su dobra.",
+       "ru": "Дети хорошие."
+      }
+     ]
+    },
+    {
+     "title_en": "Plural-only nouns: vrata, naočare",
+     "title_ru": "Слова только во множественном числе: vrata, naočare",
+     "body_en": "Some nouns exist only in the plural: vrata (door, neuter plural), naočare (glasses, feminine plural), pantalone (trousers), makaze (scissors), kola (car, neuter plural). They take plural verbs and adjectives even for one object. Russian 'дверь' is singular, so 'Vrata su otvorena' needs attention.",
+     "body_ru": "Некоторые слова существуют только во множественном числе: vrata (дверь — средний род мн. ч.), naočare (очки — женский род мн. ч.), pantalone (брюки), makaze (ножницы), kola (машина, средний род мн. ч.). Глагол и прилагательное при них стоят во множественном числе даже для одного предмета. Русское «дверь» — единственное число, поэтому 'Vrata su otvorena' требует внимания.",
+     "examples": [
+      {
+       "en": "Vrata su otvorena.",
+       "ru": "Дверь открыта."
+      },
+      {
+       "en": "Gde su moje naočare?",
+       "ru": "Где мои очки?"
+      },
+      {
+       "en": "Pantalone su nove.",
+       "ru": "Брюки новые."
+      }
+     ]
+    },
+    {
+     "title_en": "People and nationalities: masculine and feminine",
+     "title_ru": "Люди и национальности: мужской и женский род",
+     "body_en": "Nouns for people have separate masculine and feminine forms: Rus – Ruskinja, Srbin – Srpkinja, student – studentkinja, učitelj – učiteljica, lekar – lekarka, prijatelj – prijateljica. Nationality nouns are written with a capital letter, as in English, not in Russian.",
+     "body_ru": "Названия людей имеют отдельные формы мужского и женского рода: Rus – Ruskinja, Srbin – Srpkinja, student – studentkinja, učitelj – učiteljica, lekar – lekarka, prijatelj – prijateljica. Названия национальностей пишутся с заглавной буквы — в отличие от русского «русский, серб».",
+     "examples": [
+      {
+       "en": "On je Rus, ona je Ruskinja.",
+       "ru": "Он русский, она русская."
+      },
+      {
+       "en": "Ona je studentkinja.",
+       "ru": "Она студентка."
+      },
+      {
+       "en": "Moja prijateljica je Srpkinja.",
+       "ru": "Моя подруга — сербка."
+      }
+     ]
+    },
+    {
+     "title_en": "The fleeting a",
+     "title_ru": "Беглое a",
+     "body_en": "Many masculine nouns have an 'a' in the last syllable that disappears in the plural and in other cases: pas – psi, momak – momci, vrabac – vrapci, Petar – Petra. This is like the Russian fleeting vowel in 'отец – отцы'.",
+     "body_ru": "У многих существительных мужского рода в последнем слоге есть «беглое a», которое выпадает во множественном числе и в других падежах: pas – psi, momak – momci, vrabac – vrapci, Petar – Petra. Это похоже на русские беглые гласные: «отец – отцы», «сон – сны».",
+     "examples": [
+      {
+       "en": "pas – psi",
+       "ru": "собака – собаки"
+      },
+      {
+       "en": "momak – momci",
+       "ru": "парень – парни"
+      },
+      {
+       "en": "borac – borci",
+       "ru": "борец – борцы"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Reč 'grad' je ___ roda.",
+     "options": [
+      "muškog",
+      "ženskog",
+      "srednjeg"
+     ],
+     "answer": 0,
+     "explain_en": "Nouns ending in a consonant are usually masculine: grad, sto, student.",
+     "explain_ru": "Существительные на согласный обычно мужского рода: grad, sto, student. Как и в русском «город»."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Reč 'more' je ___ roda.",
+     "options": [
+      "muškog",
+      "ženskog",
+      "srednjeg"
+     ],
+     "answer": 2,
+     "explain_en": "Nouns in -o or -e are neuter: more, selo, dete.",
+     "explain_ru": "Существительные на -o или -e — среднего рода: more, selo, dete. Совпадает с русским «море»."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "Reč 'problem' je ___ roda.",
+     "options": [
+      "muškog",
+      "ženskog",
+      "srednjeg"
+     ],
+     "answer": 0,
+     "explain_en": "Problem ends in a consonant and is masculine, unlike Russian 'проблема' (feminine).",
+     "explain_ru": "Problem оканчивается на согласный и относится к мужскому роду, в отличие от русского «проблема» (женский род). Так же sistem, program."
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "student → ___ (množina)",
+     "answer": [
+      "studenti"
+     ],
+     "explain_en": "Masculine nouns take -i in the plural: studenti.",
+     "explain_ru": "Существительные мужского рода получают во множественном числе -i: studenti."
+    },
+    {
+     "id": "e05",
+     "type": "fill",
+     "q": "žena → ___ (množina)",
+     "answer": [
+      "žene"
+     ],
+     "explain_en": "Feminine nouns in -a change -a to -e: žene.",
+     "explain_ru": "Существительные женского рода на -a меняют -a на -e: žene. Не -ы, как в русском «женщины»."
+    },
+    {
+     "id": "e06",
+     "type": "match",
+     "pairs": [
+      [
+       "grad",
+       "gradovi"
+      ],
+      [
+       "selo",
+       "sela"
+      ],
+      [
+       "kuća",
+       "kuće"
+      ],
+      [
+       "đak",
+       "đaci"
+      ]
+     ]
+    },
+    {
+     "id": "e07",
+     "type": "tf",
+     "q": "'Vrata' (дверь) is a plural noun in Serbian.",
+     "answer": true,
+     "explain_en": "True. Vrata is neuter plural: 'Vrata su otvorena.'",
+     "explain_ru": "Верно. Vrata — средний род множественного числа: 'Vrata su otvorena.' Русское «дверь» — единственное число, поэтому легко ошибиться."
+    },
+    {
+     "id": "e08",
+     "type": "order",
+     "words": [
+      "Ovo",
+      "je",
+      "moj",
+      "grad."
+     ],
+     "answer": "Ovo je moj grad.",
+     "ru": "Это мой город."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Reč 'banka' je ___ roda.",
+     "options": [
+      "muškog",
+      "ženskog",
+      "srednjeg"
+     ],
+     "answer": 1,
+     "explain_en": "Banka ends in -a and is feminine, unlike Russian 'банк' (masculine).",
+     "explain_ru": "Banka оканчивается на -a и относится к женскому роду, в отличие от русского «банк» (мужской род): 'Banka je zatvorena.'"
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "selo → ___ (množina)",
+     "answer": [
+      "sela"
+     ],
+     "explain_en": "Neuter nouns replace -o with -a: sela.",
+     "explain_ru": "Существительные среднего рода меняют -o на -a: sela. Как в русском «сёла»."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "pas → ___ (množina)",
+     "options": [
+      "pasi",
+      "psi",
+      "pasovi"
+     ],
+     "answer": 1,
+     "explain_en": "The fleeting a disappears in the plural: pas – psi.",
+     "explain_ru": "Беглое a выпадает во множественном числе: pas – psi. Сравните русское «пёс – псы»."
+    },
+    {
+     "id": "e12",
+     "type": "mc",
+     "q": "Vrata ___ otvorena.",
+     "options": [
+      "je",
+      "su",
+      "sam"
+     ],
+     "answer": 1,
+     "explain_en": "Vrata is plural, so the verb is plural: su.",
+     "explain_ru": "Vrata — множественное число, поэтому глагол тоже во множественном: su. По-русски «дверь открыта», по-сербски буквально «двери открыты»."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "noć → ___ (množina)",
+     "answer": [
+      "noći"
+     ],
+     "explain_en": "Feminine nouns ending in a consonant take -i: noći.",
+     "explain_ru": "Существительные женского рода на согласный получают -i: noći. Как в русском «ночи»."
+    },
+    {
+     "id": "e14",
+     "type": "tf",
+     "q": "The plural of 'dete' is 'deta'.",
+     "answer": false,
+     "explain_en": "False. The plural of dete is the collective noun deca: 'Deca su dobra.'",
+     "explain_ru": "Неверно. Множественное число от dete — собирательное deca: 'Deca su dobra.' Глагол во множественном числе, прилагательное — в женском роде ед. ч."
+    },
+    {
+     "id": "e15",
+     "type": "order",
+     "words": [
+      "Gde",
+      "su",
+      "moje",
+      "naočare?"
+     ],
+     "answer": "Gde su moje naočare?",
+     "ru": "Где мои очки?"
+    },
+    {
+     "id": "e16",
+     "type": "match",
+     "pairs": [
+      [
+       "Rus",
+       "Ruskinja"
+      ],
+      [
+       "Srbin",
+       "Srpkinja"
+      ],
+      [
+       "student",
+       "studentkinja"
+      ],
+      [
+       "učitelj",
+       "učiteljica"
+      ]
+     ]
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "Reč 'ljubav' je ___ roda.",
+     "options": [
+      "muškog",
+      "ženskog",
+      "srednjeg"
+     ],
+     "answer": 1,
+     "explain_en": "Ljubav is one of the feminine nouns ending in a consonant, like noć and stvar.",
+     "explain_ru": "Ljubav — одно из существительных женского рода на согласный, как noć и stvar. Совпадает с русским «любовь»."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "muž → ___ (množina)",
+     "answer": [
+      "muževi"
+     ],
+     "explain_en": "Short masculine nouns insert -ev- after a soft consonant: muž – muževi.",
+     "explain_ru": "Короткие существительные мужского рода вставляют -ev- после мягкого согласного: muž – muževi. Русское «мужья» образуется иначе."
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "Moj ___ je star.",
+     "options": [
+      "tata",
+      "mama",
+      "sestra"
+     ],
+     "answer": 0,
+     "explain_en": "Tata ends in -a but is masculine, so it agrees with 'moj' and 'star'.",
+     "explain_ru": "Tata оканчивается на -a, но это мужской род, поэтому согласуется с moj и star. Mama и sestra потребовали бы moja ... stara."
+    },
+    {
+     "id": "e20",
+     "type": "fill",
+     "q": "momak → ___ (množina)",
+     "answer": [
+      "momci"
+     ],
+     "explain_en": "The fleeting a drops and k changes to c before -i: momci.",
+     "explain_ru": "Беглое a выпадает, а k перед -i меняется на c: momci. Два изменения сразу — типично для сербского."
+    },
+    {
+     "id": "e21",
+     "type": "tf",
+     "q": "'Naočare je nova' is a correct sentence.",
+     "answer": false,
+     "explain_en": "False. Naočare is feminine plural: 'Naočare su nove.'",
+     "explain_ru": "Неверно. Naočare — женский род множественного числа: 'Naočare su nove.' Как и русское «очки», слово всегда во множественном числе."
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "Deca",
+      "su",
+      "u",
+      "školi."
+     ],
+     "answer": "Deca su u školi.",
+     "ru": "Дети в школе."
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "Reč 'ime' je ___ roda.",
+     "options": [
+      "muškog",
+      "ženskog",
+      "srednjeg"
+     ],
+     "answer": 2,
+     "explain_en": "Ime ends in -e and is neuter (ime – imena), like Russian 'имя'.",
+     "explain_ru": "Ime оканчивается на -e и относится к среднему роду (ime – imena), как русское «имя – имени»."
+    },
+    {
+     "id": "e24",
+     "type": "fill",
+     "q": "grad → ___ (množina)",
+     "answer": [
+      "gradovi"
+     ],
+     "explain_en": "One-syllable masculine nouns insert -ov-: gradovi.",
+     "explain_ru": "Односложные существительные мужского рода вставляют -ov-: gradovi. В русском такого нет («города»)."
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "Reč 'kolega' je ___ roda.",
+     "options": [
+      "muškog",
+      "ženskog",
+      "srednjeg"
+     ],
+     "answer": 0,
+     "explain_en": "Kolega names a man and is masculine despite the -a: 'moj kolega'.",
+     "explain_ru": "Kolega обозначает мужчину и относится к мужскому роду, несмотря на -a: 'moj kolega'. Как русское «мой коллега»."
+    },
+    {
+     "id": "e26",
+     "type": "match",
+     "pairs": [
+      [
+       "sto",
+       "muški rod"
+      ],
+      [
+       "stvar",
+       "ženski rod"
+      ],
+      [
+       "polje",
+       "srednji rod"
+      ]
+     ]
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "Pantalone",
+      "su",
+      "nove",
+      "i",
+      "lepe."
+     ],
+     "answer": "Pantalone su nove i lepe.",
+     "ru": "Брюки новые и красивые."
+    },
+    {
+     "id": "e28",
+     "type": "fill",
+     "q": "stvar → ___ (množina)",
+     "answer": [
+      "stvari"
+     ],
+     "explain_en": "Feminine nouns in a consonant take -i: stvari.",
+     "explain_ru": "Существительные женского рода на согласный получают -i: stvari (вещи)."
+    }
+   ]
+  },
+  {
+   "id": "verb-biti",
+   "title_en": "The verb biti: long and short forms",
+   "title_ru": "Глагол biti: полные и краткие формы",
+   "summary_en": "Unlike Russian, Serbian always uses the verb 'to be' in the present: Ja sam student. Learn the short clitic forms (sam, si, je...), the long forms (jesam...), the negation (nisam...) and the rule that clitics never stand first.",
+   "summary_ru": "В отличие от русского, сербский всегда ставит глагол «быть» в настоящем времени: Ja sam student. Учим краткие формы-клитики (sam, si, je...), полные (jesam...), отрицание (nisam...) и правило: клитика не стоит в начале предложения.",
+   "rules": [
+    {
+     "title_en": "Short (clitic) forms: sam, si, je, smo, ste, su",
+     "title_ru": "Краткие формы (клитики): sam, si, je, smo, ste, su",
+     "body_en": "The present of biti is: ja sam, ti si, on/ona/ono je, mi smo, vi ste, oni/one/ona su. These are the normal, everyday forms. In Russian the present of 'to be' is dropped (Я студент), but in Serbian it is obligatory: Ja sam student. Never leave it out.",
+     "body_ru": "Настоящее время глагола biti: ja sam, ti si, on/ona/ono je, mi smo, vi ste, oni/one/ona su. Это обычные, повседневные формы. В русском глагол «быть» в настоящем времени опускается (Я студент), а в сербском он обязателен: Ja sam student. Никогда не пропускайте его — это главное отличие от русского.",
+     "examples": [
+      {
+       "en": "Ja sam student.",
+       "ru": "Я студент."
+      },
+      {
+       "en": "Ti si moj prijatelj.",
+       "ru": "Ты мой друг."
+      },
+      {
+       "en": "Mi smo iz Rusije.",
+       "ru": "Мы из России."
+      },
+      {
+       "en": "Oni su umorni.",
+       "ru": "Они устали."
+      }
+     ]
+    },
+    {
+     "title_en": "Clitics never stand first",
+     "title_ru": "Клитика никогда не стоит первой",
+     "body_en": "Sam, si, je, smo, ste, su are clitics: unstressed words that lean on the word before them. They cannot open a sentence; they take the second position, after the first stressed word or phrase: 'Ja sam umoran.' / 'Umoran sam.' / 'Moj brat je doktor.' Russian has no such rule, so practice it.",
+     "body_ru": "Sam, si, je, smo, ste, su — клитики: безударные слова, которые «прислоняются» к предыдущему слову. Они не могут начинать предложение и занимают второе место — после первого ударного слова или словосочетания: 'Ja sam umoran.' / 'Umoran sam.' / 'Moj brat je doktor.' В русском такого правила нет, поэтому его нужно специально отрабатывать.",
+     "examples": [
+      {
+       "en": "Ja sam umoran.",
+       "ru": "Я устал."
+      },
+      {
+       "en": "Umoran sam.",
+       "ru": "Я устал."
+      },
+      {
+       "en": "Moja sestra je učiteljica.",
+       "ru": "Моя сестра — учительница."
+      }
+     ]
+    },
+    {
+     "title_en": "Long forms: jesam, jesi, jeste...",
+     "title_ru": "Полные формы: jesam, jesi, jeste...",
+     "body_en": "The long forms are jesam, jesi, jeste, jesmo, jeste, jesu. They are stressed and can stand first. Use them for emphasis, in short affirmative answers ('Jesam!'), and in questions with li: 'Jesi li ti student?'",
+     "body_ru": "Полные формы: jesam, jesi, jeste, jesmo, jeste, jesu. Они ударные и могут стоять в начале. Используйте их для подчёркивания, в кратких утвердительных ответах ('Jesam!' — «Да, я») и в вопросах с li: 'Jesi li ti student?'",
+     "examples": [
+      {
+       "en": "Jesi li ti student? – Jesam.",
+       "ru": "Ты студент? – Да."
+      },
+      {
+       "en": "Jeste li vi iz Srbije?",
+       "ru": "Вы из Сербии?"
+      },
+      {
+       "en": "Ja jesam umoran!",
+       "ru": "Я правда устал!"
+      }
+     ]
+    },
+    {
+     "title_en": "Negation: nisam, nisi, nije...",
+     "title_ru": "Отрицание: nisam, nisi, nije...",
+     "body_en": "The negative forms are nisam, nisi, nije, nismo, niste, nisu, written as one word. They are stressed and may stand first in the sentence: 'Nisam gladan.' 'Nije ovde.' Do not say 'ne sam'.",
+     "body_ru": "Отрицательные формы: nisam, nisi, nije, nismo, niste, nisu — пишутся одним словом. Они ударные и могут стоять в начале предложения: 'Nisam gladan.' 'Nije ovde.' Не говорите 'ne sam' — это ошибка. Сравните с русским «я не студент», где отрицается существительное, а не глагол.",
+     "examples": [
+      {
+       "en": "Nisam gladan.",
+       "ru": "Я не голоден."
+      },
+      {
+       "en": "On nije ovde.",
+       "ru": "Его здесь нет."
+      },
+      {
+       "en": "Nismo iz Beograda.",
+       "ru": "Мы не из Белграда."
+      }
+     ]
+    },
+    {
+     "title_en": "Questions and short answers",
+     "title_ru": "Вопросы и краткие ответы",
+     "body_en": "Yes/no questions use 'Da li' + the short form, or the long form + li: 'Da li si ti student?' = 'Jesi li ti student?' The particle li always comes right after the first word. Short answers: 'Jesam.' / 'Nisam.' or 'Da.' / 'Ne.'",
+     "body_ru": "Общие вопросы строятся с 'Da li' + краткая форма или с полной формой + li: 'Da li si ti student?' = 'Jesi li ti student?' Частица li всегда стоит сразу после первого слова. Краткие ответы: 'Jesam.' / 'Nisam.' или 'Da.' / 'Ne.' Нельзя сказать 'Si li' — после li нужна полная форма.",
+     "examples": [
+      {
+       "en": "Da li si ti student?",
+       "ru": "Ты студент?"
+      },
+      {
+       "en": "Jesi li gladan? – Nisam.",
+       "ru": "Ты голоден? – Нет."
+      },
+      {
+       "en": "Da li ste vi Marko? – Jesam.",
+       "ru": "Вы Марко? – Да."
+      }
+     ]
+    },
+    {
+     "title_en": "Polite Vi",
+     "title_ru": "Вежливое Vi",
+     "body_en": "As in Russian, you address one person politely with Vi: 'Vi ste'. Adjectives after polite Vi are in the masculine plural: 'Vi ste ljubazni.' Nouns stay singular: 'Vi ste profesor.'",
+     "body_ru": "Как и в русском, к одному человеку вежливо обращаются на Vi: 'Vi ste'. Прилагательное после вежливого Vi стоит во множественном числе мужского рода: 'Vi ste ljubazni.' (как русское «Вы любезны»). Существительное остаётся в единственном числе: 'Vi ste profesor.'",
+     "examples": [
+      {
+       "en": "Da li ste Vi gospodin Petrović?",
+       "ru": "Вы господин Петрович?"
+      },
+      {
+       "en": "Vi ste veoma ljubazni.",
+       "ru": "Вы очень любезны."
+      }
+     ]
+    },
+    {
+     "title_en": "Nominative after biti",
+     "title_ru": "Именительный падеж после biti",
+     "body_en": "After biti the noun or adjective is in the nominative: 'On je lekar.' 'Mi smo prijatelji.' There is no dash and no instrumental as in Russian 'он был врачом' at this level.",
+     "body_ru": "После biti существительное или прилагательное стоит в именительном падеже: 'On je lekar.' 'Mi smo prijatelji.' Тире, как в русском «Он — врач», не ставится, потому что глагол есть. Творительный падеж, как в «он был врачом», здесь не используется.",
+     "examples": [
+      {
+       "en": "On je lekar.",
+       "ru": "Он врач."
+      },
+      {
+       "en": "Mi smo prijatelji.",
+       "ru": "Мы друзья."
+      },
+      {
+       "en": "Ona je Ruskinja.",
+       "ru": "Она русская."
+      }
+     ]
+    },
+    {
+     "title_en": "Je is dropped before se",
+     "title_ru": "Je выпадает перед se",
+     "body_en": "With reflexive verbs in the 3rd person singular, the clitic je is omitted next to se: 'Ona se zove Marija', not 'Ona se je zove'. You will need this with zvati se (to be called) right away.",
+     "body_ru": "С возвратными глаголами в 3-м лице единственного числа клитика je рядом с se опускается: 'Ona se zove Marija', а не 'Ona se je zove'. Это понадобится сразу — с глаголом zvati se (называться). В прошедшем времени то же: 'On se smejao' (он смеялся).",
+     "examples": [
+      {
+       "en": "Ona se zove Marija.",
+       "ru": "Её зовут Мария."
+      },
+      {
+       "en": "Kako se zoveš?",
+       "ru": "Как тебя зовут?"
+      },
+      {
+       "en": "On se zove Marko.",
+       "ru": "Его зовут Марко."
+      }
+     ]
+    },
+    {
+     "title_en": "Ovo je / To je / Ovo su",
+     "title_ru": "Ovo je / To je / Ovo su",
+     "body_en": "To point at things use ovo je (this is), to je (that is), ono je (that over there is). With plural nouns the verb is plural: 'Ovo su moji roditelji.' Russian 'Это мои родители' has no verb; Serbian always has one.",
+     "body_ru": "Чтобы указать на предмет, используйте ovo je (это), to je (то), ono je (вон то). С существительными во множественном числе глагол тоже во множественном: 'Ovo su moji roditelji.' В русском «Это мои родители» глагола нет; в сербском он есть всегда.",
+     "examples": [
+      {
+       "en": "Ovo je moja kuća.",
+       "ru": "Это мой дом."
+      },
+      {
+       "en": "To je moj brat.",
+       "ru": "Это мой брат."
+      },
+      {
+       "en": "Ovo su moji roditelji.",
+       "ru": "Это мои родители."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Ja ___ student.",
+     "options": [
+      "sam",
+      "si",
+      "je"
+     ],
+     "answer": 0,
+     "explain_en": "1st person singular of biti is sam. It cannot be omitted as in Russian.",
+     "explain_ru": "1-е лицо единственного числа глагола biti — sam. В русском «Я студент» глагола нет, в сербском он обязателен."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Ti ___ moj prijatelj.",
+     "options": [
+      "sam",
+      "si",
+      "je"
+     ],
+     "answer": 1,
+     "explain_en": "2nd person singular: si.",
+     "explain_ru": "2-е лицо единственного числа: si."
+    },
+    {
+     "id": "e03",
+     "type": "fill",
+     "q": "Ona ___ lekarka.",
+     "answer": [
+      "je"
+     ],
+     "explain_en": "3rd person singular: je.",
+     "explain_ru": "3-е лицо единственного числа: je. По-русски «Она врач», по-сербски глагол нужен."
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "Mi ___ iz Rusije.",
+     "options": [
+      "smo",
+      "ste",
+      "su"
+     ],
+     "answer": 0,
+     "explain_en": "1st person plural: smo.",
+     "explain_ru": "1-е лицо множественного числа: smo."
+    },
+    {
+     "id": "e05",
+     "type": "fill",
+     "q": "Oni ___ studenti.",
+     "answer": [
+      "su"
+     ],
+     "explain_en": "3rd person plural: su.",
+     "explain_ru": "3-е лицо множественного числа: su."
+    },
+    {
+     "id": "e06",
+     "type": "match",
+     "pairs": [
+      [
+       "ja",
+       "sam"
+      ],
+      [
+       "ti",
+       "si"
+      ],
+      [
+       "on",
+       "je"
+      ],
+      [
+       "mi",
+       "smo"
+      ],
+      [
+       "vi",
+       "ste"
+      ],
+      [
+       "oni",
+       "su"
+      ]
+     ]
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Ja",
+      "sam",
+      "iz",
+      "Moskve."
+     ],
+     "answer": "Ja sam iz Moskve.",
+     "ru": "Я из Москвы."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "In Serbian you can say 'Ja student' without a verb, like Russian 'Я студент'.",
+     "answer": false,
+     "explain_en": "False. The verb biti is obligatory in the present: 'Ja sam student.'",
+     "explain_ru": "Неверно. Глагол biti в настоящем времени обязателен: 'Ja sam student.' Это ключевое отличие от русского."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "___ gladan. (ja, negacija)",
+     "options": [
+      "Ne sam",
+      "Nisam",
+      "Ne jesam"
+     ],
+     "answer": 1,
+     "explain_en": "The negation of sam is the single word nisam, which may stand first.",
+     "explain_ru": "Отрицание от sam — одно слово nisam, оно может стоять в начале. 'Ne sam' — ошибка."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "On ___ ovde. (negacija)",
+     "answer": [
+      "nije"
+     ],
+     "explain_en": "3rd person singular negative: nije.",
+     "explain_ru": "3-е лицо единственного числа, отрицание: nije. По-русски «Его здесь нет»."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "Ana ___ učiteljica.",
+     "options": [
+      "je",
+      "su",
+      "si"
+     ],
+     "answer": 0,
+     "explain_en": "Ana is 'she', so 3rd person singular: je.",
+     "explain_ru": "Ana — это «она», 3-е лицо единственного числа: je."
+    },
+    {
+     "id": "e12",
+     "type": "order",
+     "words": [
+      "Moj",
+      "brat",
+      "je",
+      "doktor."
+     ],
+     "answer": "Moj brat je doktor.",
+     "ru": "Мой брат врач."
+    },
+    {
+     "id": "e13",
+     "type": "mc",
+     "q": "Koja rečenica je ispravna?",
+     "options": [
+      "Sam umoran.",
+      "Umoran sam.",
+      "Umoran je sam."
+     ],
+     "answer": 1,
+     "explain_en": "The clitic sam cannot be first; it goes after the first stressed word: 'Umoran sam.'",
+     "explain_ru": "Клитика sam не может стоять первой; она идёт после первого ударного слова: 'Umoran sam.' В русском такого ограничения нет."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "Vi ___ veoma ljubazni.",
+     "answer": [
+      "ste"
+     ],
+     "explain_en": "2nd person plural (also polite Vi): ste.",
+     "explain_ru": "2-е лицо множественного числа (и вежливое Vi): ste."
+    },
+    {
+     "id": "e15",
+     "type": "tf",
+     "q": "'Nisam' is written as one word.",
+     "answer": true,
+     "explain_en": "True. Nisam, nisi, nije, nismo, niste, nisu are single words.",
+     "explain_ru": "Верно. Nisam, nisi, nije, nismo, niste, nisu пишутся одним словом, в отличие от русского «не есть»."
+    },
+    {
+     "id": "e16",
+     "type": "mc",
+     "q": "Da li ___ ti student? – Jesam.",
+     "options": [
+      "sam",
+      "si",
+      "je"
+     ],
+     "answer": 1,
+     "explain_en": "After 'Da li' the short form follows; with ti it is si.",
+     "explain_ru": "После 'Da li' идёт краткая форма; с ti это si. В ответе — полная форма Jesam."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Mi ___ umorni. (negacija)",
+     "answer": [
+      "nismo"
+     ],
+     "explain_en": "1st person plural negative: nismo.",
+     "explain_ru": "1-е лицо множественного числа, отрицание: nismo."
+    },
+    {
+     "id": "e18",
+     "type": "order",
+     "words": [
+      "Da",
+      "li",
+      "si",
+      "ti",
+      "iz",
+      "Beograda?"
+     ],
+     "answer": "Da li si ti iz Beograda?",
+     "ru": "Ты из Белграда?"
+    },
+    {
+     "id": "e19",
+     "type": "match",
+     "pairs": [
+      [
+       "ja",
+       "nisam"
+      ],
+      [
+       "ti",
+       "nisi"
+      ],
+      [
+       "ona",
+       "nije"
+      ],
+      [
+       "mi",
+       "nismo"
+      ],
+      [
+       "oni",
+       "nisu"
+      ]
+     ]
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "Jesi li ti Marko? – ___",
+     "options": [
+      "Jesam.",
+      "Sam.",
+      "Je."
+     ],
+     "answer": 0,
+     "explain_en": "A one-word answer needs the stressed long form: Jesam.",
+     "explain_ru": "Ответ одним словом требует ударной полной формы: Jesam. Клитика sam не может стоять одна."
+    },
+    {
+     "id": "e21",
+     "type": "fill",
+     "q": "To ___ moji roditelji.",
+     "answer": [
+      "su"
+     ],
+     "explain_en": "Roditelji is plural, so the verb is su.",
+     "explain_ru": "Roditelji — множественное число, поэтому глагол su. По-русски «Это мои родители» — без глагола."
+    },
+    {
+     "id": "e22",
+     "type": "tf",
+     "q": "'Ona se je zove Ana' is correct.",
+     "answer": false,
+     "explain_en": "False. Je is dropped next to se: 'Ona se zove Ana.'",
+     "explain_ru": "Неверно. Рядом с se клитика je опускается: 'Ona se zove Ana.'"
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "___ li vi iz Srbije?",
+     "options": [
+      "Jeste",
+      "Ste",
+      "Su"
+     ],
+     "answer": 0,
+     "explain_en": "Before li the long form is used: Jeste li.",
+     "explain_ru": "Перед li используется полная форма: Jeste li. Краткая ste не может начинать предложение."
+    },
+    {
+     "id": "e24",
+     "type": "order",
+     "words": [
+      "Oni",
+      "nisu",
+      "iz",
+      "Srbije."
+     ],
+     "answer": "Oni nisu iz Srbije.",
+     "ru": "Они не из Сербии."
+    },
+    {
+     "id": "e25",
+     "type": "fill",
+     "q": "Ti ___ moj najbolji drug. (negacija)",
+     "answer": [
+      "nisi"
+     ],
+     "explain_en": "2nd person singular negative: nisi.",
+     "explain_ru": "2-е лицо единственного числа, отрицание: nisi."
+    },
+    {
+     "id": "e26",
+     "type": "mc",
+     "q": "Ovo ___ moja sestra i moj brat.",
+     "options": [
+      "je",
+      "su",
+      "smo"
+     ],
+     "answer": 1,
+     "explain_en": "Two people are named, so the verb is plural: su.",
+     "explain_ru": "Названы два человека, поэтому глагол во множественном числе: su."
+    },
+    {
+     "id": "e27",
+     "type": "match",
+     "pairs": [
+      [
+       "Dobro sam.",
+       "У меня всё хорошо."
+      ],
+      [
+       "Nisam gladan.",
+       "Я не голоден."
+      ],
+      [
+       "Umoran sam.",
+       "Я устал."
+      ],
+      [
+       "Jesam!",
+       "Да, так и есть!"
+      ]
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "fill",
+     "q": "Kako ___? – Dobro, hvala. (ti)",
+     "answer": [
+      "si"
+     ],
+     "explain_en": "'Kako si?' = 'How are you?' with the short form si.",
+     "explain_ru": "'Kako si?' — «Как ты?» с краткой формой si. Ответ 'Dobro sam' тоже содержит глагол."
+    }
+   ]
+  },
+  {
+   "id": "present-tense",
+   "title_en": "Present tense: -am, -im, -em verbs",
+   "title_ru": "Настоящее время: глаголы на -am, -im, -em",
+   "summary_en": "Serbian verbs fall into three present-tense classes named after the 3rd person singular vowel: -a (imam), -i (govorim), -e (pišem). This section also covers imati/nemati, hteti and moći, and the 'da + present' construction.",
+   "summary_ru": "Сербские глаголы делятся на три класса настоящего времени по гласному 3-го лица единственного числа: -a (imam), -i (govorim), -e (pišem). Здесь же — imati/nemati, hteti и moći, а также конструкция «da + настоящее время».",
+   "rules": [
+    {
+     "title_en": "Three classes, one set of endings",
+     "title_ru": "Три класса, один набор окончаний",
+     "body_en": "The infinitive ends in -ti or -ći. The present tense has the endings -m, -š, -∅, -mo, -te, and -ju/-e/-u for 'they'. The vowel before the ending is a (imati – imam), i (govoriti – govorim) or e (pisati – pišem). Learn each verb with its 1st person form, because the present stem is not always visible in the infinitive.",
+     "body_ru": "Инфинитив оканчивается на -ti или -ći. Окончания настоящего времени: -m, -š, нулевое, -mo, -te и -ju/-e/-u для «они». Перед окончанием стоит гласный a (imati – imam), i (govoriti – govorim) или e (pisati – pišem). Запоминайте глагол вместе с формой 1-го лица: основа настоящего времени не всегда видна в инфинитиве. Обратите внимание: 1-е лицо оканчивается на -m, а не на -у/-ю, как в русском.",
+     "examples": [
+      {
+       "en": "imati – imam",
+       "ru": "иметь – я имею (у меня есть)"
+      },
+      {
+       "en": "govoriti – govorim",
+       "ru": "говорить – я говорю"
+      },
+      {
+       "en": "pisati – pišem",
+       "ru": "писать – я пишу"
+      }
+     ]
+    },
+    {
+     "title_en": "The -am class",
+     "title_ru": "Класс на -am",
+     "body_en": "Verbs like imati, gledati, čitati, znati, igrati, pevati: imam, imaš, ima, imamo, imate, imaju. The 3rd person plural ends in -aju. Most verbs with the infinitive in -ati belong here, but not all (pisati – pišem).",
+     "body_ru": "Глаголы типа imati, gledati, čitati, znati, igrati, pevati: imam, imaš, ima, imamo, imate, imaju. 3-е лицо множественного числа оканчивается на -aju. Большинство глаголов с инфинитивом на -ati относятся сюда, но не все (pisati – pišem, zvati – zovem).",
+     "examples": [
+      {
+       "en": "Čitam knjigu.",
+       "ru": "Я читаю книгу."
+      },
+      {
+       "en": "Oni gledaju film.",
+       "ru": "Они смотрят фильм."
+      },
+      {
+       "en": "Znaš li srpski?",
+       "ru": "Ты знаешь сербский?"
+      }
+     ]
+    },
+    {
+     "title_en": "The -im class",
+     "title_ru": "Класс на -im",
+     "body_en": "Verbs like govoriti, raditi, učiti, voleti, misliti, videti: govorim, govoriš, govori, govorimo, govorite, govore. Note the 3rd person plural -e: oni govore, oni rade, oni vole (Russian они говорят, работают, любят).",
+     "body_ru": "Глаголы типа govoriti, raditi, učiti, voleti, misliti, videti: govorim, govoriš, govori, govorimo, govorite, govore. Обратите внимание на 3-е лицо множественного числа -e: oni govore, oni rade, oni vole (по-русски они говорят, работают, любят). Не добавляйте -т по русской привычке.",
+     "examples": [
+      {
+       "en": "Radim u banci.",
+       "ru": "Я работаю в банке."
+      },
+      {
+       "en": "Oni uče srpski.",
+       "ru": "Они учат сербский."
+      },
+      {
+       "en": "Volimo muziku.",
+       "ru": "Мы любим музыку."
+      }
+     ]
+    },
+    {
+     "title_en": "The -em class",
+     "title_ru": "Класс на -em",
+     "body_en": "Verbs like pisati – pišem, ići – idem, piti – pijem, razumeti – razumem, zvati se – zovem se, jesti – jedem: pišem, pišeš, piše, pišemo, pišete, pišu. The 3rd person plural ends in -u. The present stem often differs from the infinitive, so memorize it.",
+     "body_ru": "Глаголы типа pisati – pišem, ići – idem, piti – pijem, razumeti – razumem, zvati se – zovem se, jesti – jedem: pišem, pišeš, piše, pišemo, pišete, pišu. 3-е лицо множественного числа оканчивается на -u. Основа настоящего времени часто отличается от инфинитива, поэтому её нужно запоминать (как русское «писать – пишу»).",
+     "examples": [
+      {
+       "en": "Pijem kafu.",
+       "ru": "Я пью кофе."
+      },
+      {
+       "en": "Oni idu u školu.",
+       "ru": "Они идут в школу."
+      },
+      {
+       "en": "Razumeš li?",
+       "ru": "Ты понимаешь?"
+      },
+      {
+       "en": "Zovem se Ana.",
+       "ru": "Меня зовут Ана."
+      }
+     ]
+    },
+    {
+     "title_en": "Pronouns are usually dropped",
+     "title_ru": "Местоимения обычно опускаются",
+     "body_en": "Because the ending shows the person, subject pronouns are usually omitted: 'Učim srpski.' 'Radimo.' Use the pronoun for emphasis or contrast: 'Ja učim, a ti gledaš televiziju.' Russian keeps pronouns more often.",
+     "body_ru": "Поскольку окончание показывает лицо, личные местоимения обычно опускаются: 'Učim srpski.' 'Radimo.' Местоимение ставят для подчёркивания или противопоставления: 'Ja učim, a ti gledaš televiziju.' В русском местоимения сохраняются чаще («Я учу сербский»).",
+     "examples": [
+      {
+       "en": "Učim srpski.",
+       "ru": "Я учу сербский."
+      },
+      {
+       "en": "Radimo svaki dan.",
+       "ru": "Мы работаем каждый день."
+      },
+      {
+       "en": "Ja učim, a ti gledaš televiziju.",
+       "ru": "Я учусь, а ты смотришь телевизор."
+      }
+     ]
+    },
+    {
+     "title_en": "imati and nemati",
+     "title_ru": "Imati и nemati",
+     "body_en": "Serbian expresses possession with the verb imati, like English 'have': 'Imam brata' (У меня есть брат). The negation is one word: nemam, nemaš, nema, nemamo, nemate, nemaju. 'Nema' also means 'there is no': 'Nema hleba.' After nemati the noun is often in the genitive: 'Nemam vremena.'",
+     "body_ru": "Обладание в сербском выражается глаголом imati, как английское have: 'Imam brata' (У меня есть брат) — не «у меня есть». Отрицание пишется одним словом: nemam, nemaš, nema, nemamo, nemate, nemaju. 'Nema' также значит «нет, не имеется»: 'Nema hleba.' После nemati существительное часто стоит в родительном падеже: 'Nemam vremena.' (как русское «нет времени»).",
+     "examples": [
+      {
+       "en": "Imam brata i sestru.",
+       "ru": "У меня есть брат и сестра."
+      },
+      {
+       "en": "Nemam vremena.",
+       "ru": "У меня нет времени."
+      },
+      {
+       "en": "Nema hleba.",
+       "ru": "Хлеба нет."
+      }
+     ]
+    },
+    {
+     "title_en": "hteti: hoću, neću",
+     "title_ru": "Hteti: hoću, neću",
+     "body_en": "Hteti (to want, will) is irregular: hoću, hoćeš, hoće, hoćemo, hoćete, hoće. The negation is one word: neću, nećeš, neće, nećemo, nećete, neće. 'Hoćeš li kafu?' – 'Hoću.' / 'Neću.' Hteti also forms the future tense.",
+     "body_ru": "Hteti (хотеть) — неправильный глагол: hoću, hoćeš, hoće, hoćemo, hoćete, hoće. Отрицание пишется одним словом: neću, nećeš, neće, nećemo, nećete, neće. 'Hoćeš li kafu?' – 'Hoću.' / 'Neću.' Глагол hteti также образует будущее время. Не путайте с русским «хотеть»: формы совсем другие.",
+     "examples": [
+      {
+       "en": "Hoću kafu.",
+       "ru": "Я хочу кофе."
+      },
+      {
+       "en": "Hoćeš li čaj? – Neću, hvala.",
+       "ru": "Хочешь чаю? – Нет, спасибо."
+      },
+      {
+       "en": "Oni hoće da idu kući.",
+       "ru": "Они хотят пойти домой."
+      }
+     ]
+    },
+    {
+     "title_en": "moći: mogu, možeš",
+     "title_ru": "Moći: mogu, možeš",
+     "body_en": "Moći (can, to be able) is irregular: mogu, možeš, može, možemo, možete, mogu. Notice that 'ja' and 'oni' have the same form mogu. 'Možeš li da mi pomogneš?' 'Može!' is a common informal 'OK, sure'.",
+     "body_ru": "Moći (мочь) — неправильный глагол: mogu, možeš, može, možemo, možete, mogu. Обратите внимание: формы «я» и «они» совпадают — mogu. 'Možeš li da mi pomogneš?' Слово 'Može!' — частое разговорное «ладно, можно, договорились».",
+     "examples": [
+      {
+       "en": "Mogu da pomognem.",
+       "ru": "Я могу помочь."
+      },
+      {
+       "en": "Možeš li da mi pomogneš?",
+       "ru": "Ты можешь мне помочь?"
+      },
+      {
+       "en": "Idemo na kafu? – Može!",
+       "ru": "Идём на кофе? – Давай!"
+      }
+     ]
+    },
+    {
+     "title_en": "da + present instead of the infinitive",
+     "title_ru": "Da + настоящее время вместо инфинитива",
+     "body_en": "After verbs like želeti, hteti, moći, morati, voleti, Serbian prefers 'da + present tense' where Russian uses an infinitive: 'Želim da učim srpski' (хочу учить сербский). The infinitive ('Želim učiti') is also correct but less common in Serbia. Both verbs agree with the subject: 'Mi hoćemo da idemo.'",
+     "body_ru": "После глаголов želeti, hteti, moći, morati, voleti сербский предпочитает «da + настоящее время» там, где русский использует инфинитив: 'Želim da učim srpski' (хочу учить сербский). Инфинитив ('Želim učiti') тоже правилен, но в Сербии встречается реже. Оба глагола согласуются с подлежащим: 'Mi hoćemo da idemo' — буквально «мы хотим, чтобы мы идём».",
+     "examples": [
+      {
+       "en": "Želim da učim srpski.",
+       "ru": "Я хочу учить сербский."
+      },
+      {
+       "en": "Moram da radim.",
+       "ru": "Я должен работать."
+      },
+      {
+       "en": "Volim da čitam.",
+       "ru": "Я люблю читать."
+      }
+     ]
+    },
+    {
+     "title_en": "Negation: ne + verb",
+     "title_ru": "Отрицание: ne + глагол",
+     "body_en": "Ordinary verbs are negated with a separate 'ne' before the verb: 'Ne znam.' 'Ne govorim srpski.' Only three verbs merge with the negation: nisam (biti), nemam (imati), neću (hteti).",
+     "body_ru": "Обычные глаголы отрицаются отдельной частицей ne перед глаголом: 'Ne znam.' 'Ne govorim srpski.' Только три глагола сливаются с отрицанием в одно слово: nisam (biti), nemam (imati), neću (hteti). Остальное — как в русском: раздельно.",
+     "examples": [
+      {
+       "en": "Ne znam.",
+       "ru": "Я не знаю."
+      },
+      {
+       "en": "Ne govorim dobro srpski.",
+       "ru": "Я плохо говорю по-сербски."
+      },
+      {
+       "en": "Nemam, neću, nisam.",
+       "ru": "У меня нет, я не хочу, я не (есть)."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Ja ___ kafu. (piti)",
+     "options": [
+      "pijem",
+      "pijam",
+      "pijim"
+     ],
+     "answer": 0,
+     "explain_en": "Piti belongs to the -em class: pijem, piješ, pije.",
+     "explain_ru": "Piti относится к классу на -em: pijem, piješ, pije. Сравните русское «пью» — основа похожа, окончание -m."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Ti ___ srpski? (govoriti)",
+     "options": [
+      "govoriš",
+      "govoreš",
+      "govoraš"
+     ],
+     "answer": 0,
+     "explain_en": "Govoriti is an -im verb: govorim, govoriš, govori.",
+     "explain_ru": "Govoriti — глагол на -im: govorim, govoriš, govori."
+    },
+    {
+     "id": "e03",
+     "type": "fill",
+     "q": "Mi ___ knjigu. (čitati)",
+     "answer": [
+      "čitamo"
+     ],
+     "explain_en": "-am class, 1st person plural: čitamo.",
+     "explain_ru": "Класс на -am, 1-е лицо множественного числа: čitamo."
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "Oni ___ u školi. (raditi)",
+     "answer": [
+      "rade"
+     ],
+     "explain_en": "-im verbs take -e in the 3rd person plural: rade.",
+     "explain_ru": "Глаголы на -im в 3-м лице множественного числа получают -e: rade (не «radat», как могло бы подсказать русское «работают»)."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Oni ___ pismo. (pisati)",
+     "options": [
+      "pišu",
+      "pišaju",
+      "piše"
+     ],
+     "answer": 0,
+     "explain_en": "Pisati is an -em verb (pišem), so 'they' is pišu.",
+     "explain_ru": "Pisati — глагол на -em (pišem), поэтому «они» — pišu. Форма piše — это «он/она пишет»."
+    },
+    {
+     "id": "e06",
+     "type": "match",
+     "pairs": [
+      [
+       "imati",
+       "imam"
+      ],
+      [
+       "govoriti",
+       "govorim"
+      ],
+      [
+       "pisati",
+       "pišem"
+      ],
+      [
+       "ići",
+       "idem"
+      ],
+      [
+       "moći",
+       "mogu"
+      ]
+     ]
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Ja",
+      "učim",
+      "srpski",
+      "jezik."
+     ],
+     "answer": "Ja učim srpski jezik.",
+     "ru": "Я учу сербский язык."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "The 3rd person plural of 'govoriti' is 'govore'.",
+     "answer": true,
+     "explain_en": "True. -im verbs end in -e for 'they': govore, rade, uče.",
+     "explain_ru": "Верно. Глаголы на -im в форме «они» оканчиваются на -e: govore, rade, uče."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Ja ___ brata i sestru. (imati)",
+     "options": [
+      "imam",
+      "imaš",
+      "ima"
+     ],
+     "answer": 0,
+     "explain_en": "Imam = 'I have'. Serbian uses a verb where Russian says 'у меня есть'.",
+     "explain_ru": "Imam — «у меня есть». В сербском обладание выражается глаголом, как в английском have, а не конструкцией «у меня есть»."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Ja ___ vremena. (nemati)",
+     "answer": [
+      "nemam"
+     ],
+     "explain_en": "The negation of imati is one word: nemam.",
+     "explain_ru": "Отрицание от imati пишется одним словом: nemam. После него — родительный падеж (vremena), как в русском «нет времени»."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "___ li kafu? (hteti, ti)",
+     "options": [
+      "Hoćeš",
+      "Hoće",
+      "Hoću"
+     ],
+     "answer": 0,
+     "explain_en": "2nd person singular of hteti: hoćeš.",
+     "explain_ru": "2-е лицо единственного числа глагола hteti: hoćeš. Hoće — он/она/они, hoću — я."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "On ___ da pomogne. (moći)",
+     "answer": [
+      "može"
+     ],
+     "explain_en": "3rd person singular of moći: može.",
+     "explain_ru": "3-е лицо единственного числа глагола moći: može. После него — da + настоящее время, а не инфинитив, как в русском «может помочь»."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "Ne",
+      "govorim",
+      "dobro",
+      "srpski."
+     ],
+     "answer": "Ne govorim dobro srpski.",
+     "ru": "Я плохо говорю по-сербски."
+    },
+    {
+     "id": "e14",
+     "type": "mc",
+     "q": "Mi ___ da idemo. (hteti)",
+     "options": [
+      "hoćemo",
+      "hoćete",
+      "hoće"
+     ],
+     "answer": 0,
+     "explain_en": "1st person plural of hteti: hoćemo. Both verbs agree with 'mi'.",
+     "explain_ru": "1-е лицо множественного числа глагола hteti: hoćemo. Оба глагола согласуются с mi: hoćemo da idemo."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Vi ___ engleski? (razumeti)",
+     "answer": [
+      "razumete"
+     ],
+     "explain_en": "Razumeti is an -em verb: razumem, razumeš, razumete.",
+     "explain_ru": "Razumeti — глагол на -em: razumem, razumeš, razumete. По-русски «понимаете», корень тот же."
+    },
+    {
+     "id": "e16",
+     "type": "tf",
+     "q": "'Ne imam' is the correct negation of 'imam'.",
+     "answer": false,
+     "explain_en": "False. The negation is a single word: nemam.",
+     "explain_ru": "Неверно. Отрицание пишется одним словом: nemam. Только nemam, neću, nisam сливаются с отрицанием."
+    },
+    {
+     "id": "e17",
+     "type": "mc",
+     "q": "Oni ___ u Beograd. (ići)",
+     "options": [
+      "idu",
+      "ide",
+      "iđu"
+     ],
+     "answer": 0,
+     "explain_en": "Ići is an -em verb (idem), so 'they' is idu.",
+     "explain_ru": "Ići — глагол на -em (idem), поэтому «они» — idu. Ide — он/она идёт."
+    },
+    {
+     "id": "e18",
+     "type": "match",
+     "pairs": [
+      [
+       "ja",
+       "mogu"
+      ],
+      [
+       "ti",
+       "možeš"
+      ],
+      [
+       "on",
+       "može"
+      ],
+      [
+       "mi",
+       "možemo"
+      ],
+      [
+       "vi",
+       "možete"
+      ]
+     ]
+    },
+    {
+     "id": "e19",
+     "type": "fill",
+     "q": "Ja ___ čaj. (hteti, negacija)",
+     "answer": [
+      "neću"
+     ],
+     "explain_en": "The negation of hoću is one word: neću.",
+     "explain_ru": "Отрицание от hoću пишется одним словом: neću. 'Ne hoću' — ошибка."
+    },
+    {
+     "id": "e20",
+     "type": "mc",
+     "q": "Ona ___ televiziju. (gledati)",
+     "options": [
+      "gleda",
+      "gledi",
+      "glede"
+     ],
+     "answer": 0,
+     "explain_en": "Gledati is an -am verb: gledam, gledaš, gleda.",
+     "explain_ru": "Gledati — глагол на -am: gledam, gledaš, gleda. Ложный друг: gledati — «смотреть», а не «глядеть» в поэтическом смысле."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Želim",
+      "da",
+      "učim",
+      "srpski."
+     ],
+     "answer": "Želim da učim srpski.",
+     "ru": "Я хочу учить сербский."
+    },
+    {
+     "id": "e22",
+     "type": "fill",
+     "q": "Oni ___ kafu. (piti)",
+     "answer": [
+      "piju"
+     ],
+     "explain_en": "-em verbs take -u for 'they': piju.",
+     "explain_ru": "Глаголы на -em в форме «они» получают -u: piju. Не «пьют» с -т."
+    },
+    {
+     "id": "e23",
+     "type": "mc",
+     "q": "Kako se ___? (zvati, ti)",
+     "options": [
+      "zoveš",
+      "zovaš",
+      "zoviš"
+     ],
+     "answer": 0,
+     "explain_en": "Zvati se is an -em verb: zovem se, zoveš se, zove se.",
+     "explain_ru": "Zvati se — глагол на -em: zovem se, zoveš se, zove se. 'Kako se zoveš?' — «Как тебя зовут?» (буквально «как ты зовёшься»)."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "Serbian prefers 'Želim da učim' over 'Želim učiti', while Russian uses the infinitive 'хочу учить'.",
+     "answer": true,
+     "explain_en": "True. 'da + present' is the usual Serbian construction; the infinitive is possible but less common.",
+     "explain_ru": "Верно. «Da + настоящее время» — обычная сербская конструкция; инфинитив возможен, но в Сербии встречается реже."
+    },
+    {
+     "id": "e25",
+     "type": "fill",
+     "q": "Mi ___ srpski. (učiti)",
+     "answer": [
+      "učimo"
+     ],
+     "explain_en": "-im verb, 1st person plural: učimo.",
+     "explain_ru": "Глагол на -im, 1-е лицо множественного числа: učimo."
+    },
+    {
+     "id": "e26",
+     "type": "mc",
+     "q": "___ li da mi pomognete? (moći, vi)",
+     "options": [
+      "Možete",
+      "Možeš",
+      "Mogu"
+     ],
+     "answer": 0,
+     "explain_en": "2nd person plural of moći: možete.",
+     "explain_ru": "2-е лицо множественного числа глагола moći: možete. Вежливая просьба: 'Možete li da mi pomognete?'"
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "Da",
+      "li",
+      "imaš",
+      "brata",
+      "ili",
+      "sestru?"
+     ],
+     "answer": "Da li imaš brata ili sestru?",
+     "ru": "У тебя есть брат или сестра?"
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "Nemam vremena.",
+       "У меня нет времени."
+      ],
+      [
+       "Neću kafu.",
+       "Я не хочу кофе."
+      ],
+      [
+       "Ne znam.",
+       "Я не знаю."
+      ],
+      [
+       "Nisam gladan.",
+       "Я не голоден."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pronouns-possessives-accusative",
+   "title_en": "Pronouns, possessives, nominative and accusative",
+   "title_ru": "Местоимения, притяжательные, именительный и винительный",
+   "summary_en": "Personal pronouns, possessives (moj, tvoj, njegov, njen...) and the first two cases: nominative for the subject and accusative for the direct object and for direction with u/na. Serbian pronouns have long and short (clitic) accusative forms.",
+   "summary_ru": "Личные местоимения, притяжательные (moj, tvoj, njegov, njen...) и первые два падежа: именительный для подлежащего и винительный для прямого объекта и направления с u/na. У сербских местоимений есть полные и краткие (клитические) формы винительного падежа.",
+   "rules": [
+    {
+     "title_en": "Personal pronouns in the nominative",
+     "title_ru": "Личные местоимения в именительном падеже",
+     "body_en": "ja (I), ti (you), on/ona/ono (he/she/it), mi (we), vi (you plural or polite), oni/one/ona (they, masculine/feminine/neuter). The plural 'they' has three gender forms; use oni for mixed groups.",
+     "body_ru": "ja (я), ti (ты), on/ona/ono (он/она/оно), mi (мы), vi (вы), oni/one/ona (они — мужской/женский/средний род). У «они» три родовые формы — для смешанной группы используется oni. Форма ona — это и «она», и «они» среднего рода; смысл ясен из контекста.",
+     "examples": [
+      {
+       "en": "Ja sam Rus.",
+       "ru": "Я русский."
+      },
+      {
+       "en": "One su studentkinje.",
+       "ru": "Они (женщины) студентки."
+      },
+      {
+       "en": "Oni su moji prijatelji.",
+       "ru": "Они мои друзья."
+      }
+     ]
+    },
+    {
+     "title_en": "Dropping the pronoun",
+     "title_ru": "Опускание местоимения",
+     "body_en": "The verb ending shows the person, so the pronoun is omitted unless you want emphasis or contrast: 'Učim.' / 'Ja učim, a ti gledaš TV.' This is more consistent than in Russian, where 'я учу' is normal.",
+     "body_ru": "Окончание глагола показывает лицо, поэтому местоимение опускается, если не нужно подчёркивание или противопоставление: 'Učim.' / 'Ja učim, a ti gledaš TV.' Это правило соблюдается строже, чем в русском, где «я учу» звучит нормально.",
+     "examples": [
+      {
+       "en": "Radim u školi.",
+       "ru": "Я работаю в школе."
+      },
+      {
+       "en": "Ja radim, a on spava.",
+       "ru": "Я работаю, а он спит."
+      }
+     ]
+    },
+    {
+     "title_en": "Possessives: moj, tvoj, njegov, njen, naš, vaš, njihov",
+     "title_ru": "Притяжательные: moj, tvoj, njegov, njen, naš, vaš, njihov",
+     "body_en": "Possessive pronouns agree with the noun in gender and number: moj brat, moja sestra, moje dete, moji roditelji. Unlike Russian его/её/их, the Serbian njegov, njen (njezin), njihov also change form: njen brat, njena sestra, njeno dete.",
+     "body_ru": "Притяжательные местоимения согласуются с существительным в роде и числе: moj brat, moja sestra, moje dete, moji roditelji. В отличие от русских неизменяемых его/её/их, сербские njegov, njen (njezin), njihov тоже изменяются: njen brat, njena sestra, njeno dete; njihov auto, njihova kuća.",
+     "examples": [
+      {
+       "en": "Ovo je moja sestra.",
+       "ru": "Это моя сестра."
+      },
+      {
+       "en": "Njen muž je lekar.",
+       "ru": "Её муж врач."
+      },
+      {
+       "en": "Njihova kuća je velika.",
+       "ru": "Их дом большой."
+      }
+     ]
+    },
+    {
+     "title_en": "svoj",
+     "title_ru": "Svoj",
+     "body_en": "Svoj refers back to the subject of the sentence, just like Russian свой: 'Volim svoju porodicu.' 'On čita svoju knjigu' (his own book) versus 'On čita njegovu knjigu' (someone else's).",
+     "body_ru": "Svoj указывает на подлежащее, точно как русское «свой»: 'Volim svoju porodicu.' 'On čita svoju knjigu' (свою книгу) — в отличие от 'On čita njegovu knjigu' (чью-то чужую). Здесь русская интуиция работает безошибочно.",
+     "examples": [
+      {
+       "en": "Ja volim svoju porodicu.",
+       "ru": "Я люблю свою семью."
+      },
+      {
+       "en": "On čita svoju knjigu.",
+       "ru": "Он читает свою книгу."
+      }
+     ]
+    },
+    {
+     "title_en": "Accusative of nouns",
+     "title_ru": "Винительный падеж существительных",
+     "body_en": "The accusative marks the direct object (koga? šta?). Feminine -a becomes -u: žena – ženu, knjiga – knjigu. Masculine nouns for living beings take -a: brat – brata, pas – psa; masculine inanimate and neuter nouns stay as in the nominative: grad – grad, selo – selo. Feminine nouns in a consonant do not change: noć – noć. The system is almost identical to Russian.",
+     "body_ru": "Винительный падеж обозначает прямой объект (koga? šta?). Женский род на -a меняет -a на -u: žena – ženu, knjiga – knjigu. Одушевлённые существительные мужского рода получают -a: brat – brata, pas – psa; неодушевлённые мужского и средний род совпадают с именительным: grad – grad, selo – selo. Женский род на согласный не меняется: noć – noć. Система почти такая же, как в русском.",
+     "examples": [
+      {
+       "en": "Vidim ženu.",
+       "ru": "Я вижу женщину."
+      },
+      {
+       "en": "Vidim brata.",
+       "ru": "Я вижу брата."
+      },
+      {
+       "en": "Vidim grad.",
+       "ru": "Я вижу город."
+      },
+      {
+       "en": "Čitam knjigu.",
+       "ru": "Я читаю книгу."
+      }
+     ]
+    },
+    {
+     "title_en": "Accusative of pronouns: long and short forms",
+     "title_ru": "Винительный падеж местоимений: полные и краткие формы",
+     "body_en": "Pronouns have two accusative forms. Short (clitic): me, te, ga, je, nas, vas, ih. Long (stressed): mene, tebe, njega, nju, nas, vas, njih. The short form is the default: 'Vidim te.' 'Volim ga.' The long form is used after prepositions and for emphasis: 'Vidim tebe, ne njega.' Russian has only one form (меня, тебя).",
+     "body_ru": "У местоимений две формы винительного падежа. Краткие (клитики): me, te, ga, je, nas, vas, ih. Полные (ударные): mene, tebe, njega, nju, nas, vas, njih. По умолчанию используется краткая форма: 'Vidim te.' 'Volim ga.' Полная — после предлогов и для подчёркивания: 'Vidim tebe, ne njega.' В русском только одна форма (меня, тебя), поэтому различие нужно специально запомнить.",
+     "examples": [
+      {
+       "en": "Vidim te.",
+       "ru": "Я тебя вижу."
+      },
+      {
+       "en": "Volim ga.",
+       "ru": "Я его люблю."
+      },
+      {
+       "en": "Vidim tebe, ne njega.",
+       "ru": "Я вижу тебя, а не его."
+      },
+      {
+       "en": "Ovo je za tebe.",
+       "ru": "Это для тебя."
+      }
+     ]
+    },
+    {
+     "title_en": "Clitic order",
+     "title_ru": "Порядок клитик",
+     "body_en": "Pronoun clitics, like the forms of biti, stand in second position: 'Ja te volim.' / 'Volim te.' When several clitics meet, the order is: li, then verb clitics (sam, si...), then pronoun clitics: 'Da li me vidiš?' 'Video sam ga.' A clitic never opens a sentence.",
+     "body_ru": "Местоименные клитики, как и формы biti, стоят на втором месте: 'Ja te volim.' / 'Volim te.' Если клитик несколько, порядок такой: li, затем глагольные клитики (sam, si...), затем местоименные: 'Da li me vidiš?' 'Video sam ga.' Клитика никогда не открывает предложение — в русском 'Тебя люблю' возможно, в сербском 'Te volim' нет.",
+     "examples": [
+      {
+       "en": "Ja te volim.",
+       "ru": "Я тебя люблю."
+      },
+      {
+       "en": "Volim te.",
+       "ru": "Люблю тебя."
+      },
+      {
+       "en": "Da li me vidiš?",
+       "ru": "Ты меня видишь?"
+      }
+     ]
+    },
+    {
+     "title_en": "Direction: u/na + accusative",
+     "title_ru": "Направление: u/na + винительный",
+     "body_en": "To express movement towards a place, use u or na with the accusative, like Russian в/на + accusative: 'Idem u školu.' 'Idem na posao.' 'Putujem u Srbiju.' Na is used for open spaces, events and some institutions: na more, na pijacu, na fakultet, na koncert.",
+     "body_ru": "Для движения к месту используются u или na с винительным падежом, как русские в/на + винительный: 'Idem u školu.' 'Idem na posao.' 'Putujem u Srbiju.' Na употребляется с открытыми пространствами, мероприятиями и некоторыми учреждениями: na more, na pijacu, na fakultet (в университет!), na koncert.",
+     "examples": [
+      {
+       "en": "Idem u školu.",
+       "ru": "Я иду в школу."
+      },
+      {
+       "en": "Idem na posao.",
+       "ru": "Я иду на работу."
+      },
+      {
+       "en": "Putujem u Srbiju.",
+       "ru": "Я еду в Сербию."
+      },
+      {
+       "en": "Idemo na more.",
+       "ru": "Мы едем на море."
+      }
+     ]
+    },
+    {
+     "title_en": "Common verbs with the accusative",
+     "title_ru": "Частые глаголы с винительным падежом",
+     "body_en": "Most transitive verbs take the accusative: imati, videti, voleti, čitati, kupovati, gledati, zvati, znati. Masculine names take -a: 'Zovem Marka.' 'Vidim Petra.' Feminine names take -u: 'Vidim Anu.'",
+     "body_ru": "Большинство переходных глаголов требуют винительного падежа: imati, videti, voleti, čitati, kupovati, gledati, zvati, znati. Мужские имена получают -a: 'Zovem Marka.' 'Vidim Petra.' Женские имена получают -u: 'Vidim Anu.' Всё как в русском — но помните о беглом a: Petar – Petra.",
+     "examples": [
+      {
+       "en": "Kupujem hleb.",
+       "ru": "Я покупаю хлеб."
+      },
+      {
+       "en": "Volim muziku.",
+       "ru": "Я люблю музыку."
+      },
+      {
+       "en": "Zovem Marka.",
+       "ru": "Я зову Марко."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "___ sam student. (я)",
+     "options": [
+      "Ja",
+      "Ti",
+      "On"
+     ],
+     "answer": 0,
+     "explain_en": "Ja = I. It agrees with sam.",
+     "explain_ru": "Ja — «я». Согласуется с формой sam."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Ovo je ___ sestra. (моя)",
+     "options": [
+      "moj",
+      "moja",
+      "moje"
+     ],
+     "answer": 1,
+     "explain_en": "Sestra is feminine, so the possessive is moja.",
+     "explain_ru": "Sestra — женский род, поэтому притяжательное местоимение moja. Как в русском «моя сестра»."
+    },
+    {
+     "id": "e03",
+     "type": "fill",
+     "q": "Ovo je ___ brat. (мой)",
+     "answer": [
+      "moj"
+     ],
+     "explain_en": "Brat is masculine: moj brat.",
+     "explain_ru": "Brat — мужской род: moj brat."
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "Vidim ___. (žena)",
+     "options": [
+      "žena",
+      "ženu",
+      "ženi"
+     ],
+     "answer": 1,
+     "explain_en": "Direct object of a feminine noun in -a: -a becomes -u.",
+     "explain_ru": "Прямой объект, женский род на -a: -a меняется на -u, как в русском «вижу женщину»."
+    },
+    {
+     "id": "e05",
+     "type": "fill",
+     "q": "Čitam ___. (knjiga)",
+     "answer": [
+      "knjigu"
+     ],
+     "explain_en": "Accusative of knjiga: knjigu.",
+     "explain_ru": "Винительный падеж от knjiga: knjigu."
+    },
+    {
+     "id": "e06",
+     "type": "match",
+     "pairs": [
+      [
+       "ja",
+       "moj"
+      ],
+      [
+       "ti",
+       "tvoj"
+      ],
+      [
+       "on",
+       "njegov"
+      ],
+      [
+       "ona",
+       "njen"
+      ],
+      [
+       "mi",
+       "naš"
+      ],
+      [
+       "oni",
+       "njihov"
+      ]
+     ]
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Ja",
+      "volim",
+      "svoju",
+      "porodicu."
+     ],
+     "answer": "Ja volim svoju porodicu.",
+     "ru": "Я люблю свою семью."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "In 'Vidim brata', the noun 'brat' is in the accusative case.",
+     "answer": true,
+     "explain_en": "True. Masculine animate nouns take -a in the accusative: brata.",
+     "explain_ru": "Верно. Одушевлённые существительные мужского рода в винительном падеже получают -a: brata. Точно как русское «вижу брата»."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Idem ___ školu.",
+     "options": [
+      "u",
+      "na",
+      "iz"
+     ],
+     "answer": 0,
+     "explain_en": "Movement into an enclosed place: u + accusative.",
+     "explain_ru": "Движение внутрь закрытого места: u + винительный. Как русское «в школу»."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Vidim ___. (brat)",
+     "answer": [
+      "brata"
+     ],
+     "explain_en": "Masculine animate accusative: brata.",
+     "explain_ru": "Винительный падеж одушевлённого существительного мужского рода: brata."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "Volim ___. (ti, kratki oblik)",
+     "options": [
+      "te",
+      "tebe",
+      "ti"
+     ],
+     "answer": 0,
+     "explain_en": "The short accusative form of ti is te. Tebe is the long, stressed form.",
+     "explain_ru": "Краткая форма винительного падежа от ti — te. Tebe — полная ударная форма; ti здесь — именительный."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Idem na ___. (posao)",
+     "answer": [
+      "posao"
+     ],
+     "explain_en": "Masculine inanimate nouns do not change in the accusative: na posao.",
+     "explain_ru": "Неодушевлённые существительные мужского рода в винительном падеже не меняются: na posao (на работу)."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "Da",
+      "li",
+      "me",
+      "vidiš?"
+     ],
+     "answer": "Da li me vidiš?",
+     "ru": "Ты меня видишь?"
+    },
+    {
+     "id": "e14",
+     "type": "mc",
+     "q": "Ovo je ___ auto. (наш)",
+     "options": [
+      "naš",
+      "naša",
+      "naše"
+     ],
+     "answer": 0,
+     "explain_en": "Auto is masculine in Serbian, so naš auto.",
+     "explain_ru": "Auto в сербском мужского рода, поэтому naš auto. В русском «авто» среднего рода — ложный друг."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "Vidim ___, a ne njega. (ti)",
+     "options": [
+      "tebe",
+      "te",
+      "ti"
+     ],
+     "answer": 0,
+     "explain_en": "Contrast requires the stressed long form: tebe.",
+     "explain_ru": "Противопоставление требует ударной полной формы: tebe. Клитика te не может нести ударение."
+    },
+    {
+     "id": "e16",
+     "type": "tf",
+     "q": "The accusative of 'grad' is 'grada'.",
+     "answer": false,
+     "explain_en": "False. Grad is inanimate, so the accusative equals the nominative: 'Vidim grad.'",
+     "explain_ru": "Неверно. Grad — неодушевлённое, поэтому винительный совпадает с именительным: 'Vidim grad.' Grada — это родительный падеж."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Ona ___ voli. (on, kratki oblik)",
+     "answer": [
+      "ga"
+     ],
+     "explain_en": "Short accusative of on: ga.",
+     "explain_ru": "Краткая форма винительного падежа от on: ga. 'Ona ga voli' — «Она его любит»."
+    },
+    {
+     "id": "e18",
+     "type": "match",
+     "pairs": [
+      [
+       "ja",
+       "mene"
+      ],
+      [
+       "ti",
+       "tebe"
+      ],
+      [
+       "on",
+       "njega"
+      ],
+      [
+       "ona",
+       "nju"
+      ],
+      [
+       "oni",
+       "njih"
+      ]
+     ]
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "Putujem ___ Srbiju.",
+     "options": [
+      "u",
+      "na",
+      "po"
+     ],
+     "answer": 0,
+     "explain_en": "Countries take u: u Srbiju, u Rusiju.",
+     "explain_ru": "Со странами используется u: u Srbiju, u Rusiju. Как в русском «в Сербию»."
+    },
+    {
+     "id": "e20",
+     "type": "fill",
+     "q": "Idemo ___ more. (на)",
+     "answer": [
+      "na"
+     ],
+     "explain_en": "Na is used with more: na more (to the seaside).",
+     "explain_ru": "С more используется na: na more (на море). Совпадает с русским."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "On",
+      "čita",
+      "svoju",
+      "knjigu."
+     ],
+     "answer": "On čita svoju knjigu.",
+     "ru": "Он читает свою книгу."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "Vidim ___. (pas)",
+     "options": [
+      "pas",
+      "psa",
+      "pasa"
+     ],
+     "answer": 1,
+     "explain_en": "Pas is animate; the fleeting a drops: psa.",
+     "explain_ru": "Pas — одушевлённое; беглое a выпадает: psa. Сравните русское «вижу пса»."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "Ovo su ___ roditelji. (мои)",
+     "answer": [
+      "moji"
+     ],
+     "explain_en": "Masculine plural possessive: moji.",
+     "explain_ru": "Притяжательное местоимение мужского рода множественного числа: moji."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "Serbian 'njen' changes form to agree with the noun (njen brat, njena sestra), unlike Russian 'её'.",
+     "answer": true,
+     "explain_en": "True. Njen, njegov and njihov are declined like adjectives.",
+     "explain_ru": "Верно. Njen, njegov и njihov склоняются как прилагательные, в отличие от неизменяемых русских «его, её, их»."
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "Ja ___ volim. (вас)",
+     "options": [
+      "vas",
+      "vi",
+      "vama"
+     ],
+     "answer": 0,
+     "explain_en": "Accusative of vi: vas.",
+     "explain_ru": "Винительный падеж от vi: vas. Vi — именительный, vama — дательный."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "Kupujem ___. (hleb)",
+     "answer": [
+      "hleb"
+     ],
+     "explain_en": "Masculine inanimate: the accusative equals the nominative.",
+     "explain_ru": "Неодушевлённое мужского рода: винительный совпадает с именительным — hleb."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "Oni",
+      "idu",
+      "na",
+      "fakultet."
+     ],
+     "answer": "Oni idu na fakultet.",
+     "ru": "Они идут в университет."
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "Idem u školu.",
+       "Я иду в школу."
+      ],
+      [
+       "Idem na posao.",
+       "Я иду на работу."
+      ],
+      [
+       "Volim te.",
+       "Я тебя люблю."
+      ],
+      [
+       "Vidim ih.",
+       "Я их вижу."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "locative-vs-accusative",
+   "title_en": "Locative with u/na: location versus direction",
+   "title_ru": "Локатив с u/na: место и направление",
+   "summary_en": "Where are you? Locative. Where are you going? Accusative. Serbian makes the same distinction as Russian 'в школе / в школу', but the endings and the choice between u and na need practice.",
+   "summary_ru": "Где ты? — локатив. Куда идёшь? — винительный. Сербский различает это так же, как русский «в школе / в школу», но окончания и выбор между u и na требуют тренировки.",
+   "rules": [
+    {
+     "title_en": "Locative for location, accusative for direction",
+     "title_ru": "Локатив — место, винительный — направление",
+     "body_en": "The locative answers gde? (where) and is used only after prepositions: u, na, o, po, pri. The accusative after u/na answers kuda? (where to). 'Ja sam u školi' (location) versus 'Idem u školu' (direction). Russian has exactly the same contrast: в школе / в школу.",
+     "body_ru": "Локатив отвечает на вопрос gde? (где) и употребляется только после предлогов: u, na, o, po, pri. Винительный после u/na отвечает на вопрос kuda? (куда). 'Ja sam u školi' (место) — 'Idem u školu' (направление). В русском точно такое же противопоставление: в школе / в школу.",
+     "examples": [
+      {
+       "en": "Ja sam u školi.",
+       "ru": "Я в школе."
+      },
+      {
+       "en": "Idem u školu.",
+       "ru": "Я иду в школу."
+      },
+      {
+       "en": "Knjiga je na stolu.",
+       "ru": "Книга на столе."
+      }
+     ]
+    },
+    {
+     "title_en": "Locative endings",
+     "title_ru": "Окончания локатива",
+     "body_en": "Masculine and neuter nouns take -u: grad – u gradu, selo – u selu, Beograd – u Beogradu. Feminine nouns in -a take -i: škola – u školi, Srbija – u Srbiji, Moskva – u Moskvi. Feminine nouns in a consonant also take -i: noć – u noći.",
+     "body_ru": "Мужской и средний род получают -u: grad – u gradu, selo – u selu, Beograd – u Beogradu. Женский род на -a получает -i: škola – u školi, Srbija – u Srbiji, Moskva – u Moskvi. Женский род на согласный тоже -i: noć – u noći. Запомните: там, где русский ставит -е (в школе, в Москве), сербский ставит -i.",
+     "examples": [
+      {
+       "en": "Živim u Beogradu.",
+       "ru": "Я живу в Белграде."
+      },
+      {
+       "en": "Ona je u školi.",
+       "ru": "Она в школе."
+      },
+      {
+       "en": "Mi smo u Moskvi.",
+       "ru": "Мы в Москве."
+      }
+     ]
+    },
+    {
+     "title_en": "k, g, h change to c, z, s",
+     "title_ru": "Чередование k, g, h → c, z, s",
+     "body_en": "In feminine nouns the consonants k, g, h change before the locative -i: banka – u banci, Amerika – u Americi, knjiga – u knjizi, reka – na reci. Russian keeps the consonant (в банке), so this needs attention. Many personal names and some nouns are exceptions: Luka – Luki, baka – baki.",
+     "body_ru": "У существительных женского рода согласные k, g, h меняются перед локативным -i: banka – u banci, Amerika – u Americi, knjiga – u knjizi, reka – na reci. В русском согласный сохраняется (в банке), поэтому будьте внимательны. Многие имена и некоторые слова — исключения: Luka – Luki, baka – baki.",
+     "examples": [
+      {
+       "en": "Radim u banci.",
+       "ru": "Я работаю в банке."
+      },
+      {
+       "en": "Oni žive u Americi.",
+       "ru": "Они живут в Америке."
+      },
+      {
+       "en": "To piše u knjizi.",
+       "ru": "Это написано в книге."
+      }
+     ]
+    },
+    {
+     "title_en": "u or na?",
+     "title_ru": "U или na?",
+     "body_en": "U is used for enclosed spaces, cities and countries: u kući, u sobi, u Beogradu, u Srbiji. Na is used for surfaces, open places, events and some institutions: na stolu, na ulici, na moru, na pijaci, na poslu, na fakultetu, na koncertu. Russian often agrees, but not always: na fakultetu = в университете, na poslu = на работе.",
+     "body_ru": "U — для закрытых пространств, городов и стран: u kući, u sobi, u Beogradu, u Srbiji. Na — для поверхностей, открытых мест, мероприятий и некоторых учреждений: na stolu, na ulici, na moru, na pijaci, na poslu, na fakultetu, na koncertu. Русский часто совпадает, но не всегда: na fakultetu = в университете, na odmoru = в отпуске.",
+     "examples": [
+      {
+       "en": "Deca su u sobi.",
+       "ru": "Дети в комнате."
+      },
+      {
+       "en": "Marko je na poslu.",
+       "ru": "Марко на работе."
+      },
+      {
+       "en": "Studiram na fakultetu.",
+       "ru": "Я учусь в университете."
+      }
+     ]
+    },
+    {
+     "title_en": "Question words: gde? kuda? odakle?",
+     "title_ru": "Вопросительные слова: gde? kuda? odakle?",
+     "body_en": "Gde? asks about location and expects the locative: 'Gde si? – U kući.' Kuda? asks about direction and expects the accusative: 'Kuda ideš? – U grad.' In everyday speech 'Gde ideš?' is very common instead of kuda. Odakle? means 'where from' and takes iz + genitive: 'Odakle si? – Iz Rusije.'",
+     "body_ru": "Gde? спрашивает о месте и требует локатива: 'Gde si? – U kući.' Kuda? спрашивает о направлении и требует винительного: 'Kuda ideš? – U grad.' В разговорной речи вместо kuda очень часто говорят 'Gde ideš?' — как русское «где» вместо «куда» в просторечии, но в сербском это норма. Odakle? — «откуда», с iz + родительный: 'Odakle si? – Iz Rusije.'",
+     "examples": [
+      {
+       "en": "Gde si? – U kući sam.",
+       "ru": "Где ты? – Я дома."
+      },
+      {
+       "en": "Kuda ideš? – Idem u grad.",
+       "ru": "Куда ты идёшь? – Я иду в город."
+      },
+      {
+       "en": "Odakle si? – Iz Rusije.",
+       "ru": "Откуда ты? – Из России."
+      }
+     ]
+    },
+    {
+     "title_en": "Verbs of location and verbs of motion",
+     "title_ru": "Глаголы места и глаголы движения",
+     "body_en": "Verbs of being and staying take the locative: biti, živeti, raditi, stanovati, sedeti, učiti. Verbs of motion take the accusative: ići, putovati, dolaziti, trčati, voziti se. 'Živim u Beogradu' but 'Idem u Beograd'.",
+     "body_ru": "Глаголы пребывания требуют локатива: biti, živeti, raditi, stanovati, sedeti, učiti. Глаголы движения требуют винительного: ići, putovati, dolaziti, trčati, voziti se. 'Živim u Beogradu', но 'Idem u Beograd'. Логика та же, что в русском «живу в Белграде / еду в Белград».",
+     "examples": [
+      {
+       "en": "Živim u Beogradu.",
+       "ru": "Я живу в Белграде."
+      },
+      {
+       "en": "Idem u Beograd.",
+       "ru": "Я еду в Белград."
+      },
+      {
+       "en": "Sedimo u kafiću.",
+       "ru": "Мы сидим в кафе."
+      }
+     ]
+    },
+    {
+     "title_en": "Locative with o (about)",
+     "title_ru": "Локатив с o (о)",
+     "body_en": "The preposition o (about) also takes the locative: govoriti o filmu, misliti o tebi, knjiga o Beogradu. This matches Russian о фильме, о тебе.",
+     "body_ru": "Предлог o (о, об) тоже требует локатива: govoriti o filmu, misliti o tebi, knjiga o Beogradu. Полностью совпадает с русским «о фильме, о тебе».",
+     "examples": [
+      {
+       "en": "Govorimo o filmu.",
+       "ru": "Мы говорим о фильме."
+      },
+      {
+       "en": "Mislim o tebi.",
+       "ru": "Я думаю о тебе."
+      },
+      {
+       "en": "Ovo je knjiga o Beogradu.",
+       "ru": "Это книга о Белграде."
+      }
+     ]
+    },
+    {
+     "title_en": "Locative of pronouns",
+     "title_ru": "Локатив местоимений",
+     "body_en": "The locative forms of the personal pronouns are meni, tebi, njemu, njoj, nama, vama, njima. They are the same as the dative forms and are used after prepositions: o meni, o tebi, o njemu, o njoj.",
+     "body_ru": "Формы локатива личных местоимений: meni, tebi, njemu, njoj, nama, vama, njima. Они совпадают с дательным падежом и употребляются после предлогов: o meni, o tebi, o njemu, o njoj. Сравните русское «обо мне, о тебе, о нём, о ней».",
+     "examples": [
+      {
+       "en": "Mislim o tebi.",
+       "ru": "Я думаю о тебе."
+      },
+      {
+       "en": "Govorimo o njemu.",
+       "ru": "Мы говорим о нём."
+      },
+      {
+       "en": "Šta znaš o njoj?",
+       "ru": "Что ты знаешь о ней?"
+      }
+     ]
+    },
+    {
+     "title_en": "Time: u ponedeljak, u januaru",
+     "title_ru": "Время: u ponedeljak, u januaru",
+     "body_en": "Days of the week take u + accusative: u ponedeljak, u sredu, u subotu. Months take u + locative: u januaru, u maju, u septembru. Russian follows the same pattern (в понедельник / в январе).",
+     "body_ru": "Дни недели — u + винительный: u ponedeljak, u sredu, u subotu. Месяцы — u + локатив: u januaru, u maju, u septembru. Русский следует той же модели (в понедельник / в январе), так что здесь можно опираться на интуицию.",
+     "examples": [
+      {
+       "en": "Vidimo se u ponedeljak.",
+       "ru": "Увидимся в понедельник."
+      },
+      {
+       "en": "Rođendan mi je u maju.",
+       "ru": "Мой день рождения в мае."
+      },
+      {
+       "en": "U subotu idemo na more.",
+       "ru": "В субботу мы едем на море."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Ja sam u ___. (škola)",
+     "options": [
+      "školi",
+      "školu",
+      "škola"
+     ],
+     "answer": 0,
+     "explain_en": "Location after 'sam': locative, feminine -a becomes -i.",
+     "explain_ru": "Место после sam: локатив, женский род -a меняется на -i. Русское «в школе» — сербское u školi."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Idem u ___. (škola)",
+     "options": [
+      "školi",
+      "školu",
+      "škola"
+     ],
+     "answer": 1,
+     "explain_en": "Direction after 'idem': accusative, -a becomes -u.",
+     "explain_ru": "Направление после idem: винительный, -a меняется на -u. Как русское «в школу»."
+    },
+    {
+     "id": "e03",
+     "type": "fill",
+     "q": "Živim u ___. (Beograd)",
+     "answer": [
+      "Beogradu"
+     ],
+     "explain_en": "Location, masculine noun: locative -u.",
+     "explain_ru": "Место, мужской род: локатив -u. По-русски «в Белграде»."
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "Putujem u ___. (Beograd)",
+     "answer": [
+      "Beograd"
+     ],
+     "explain_en": "Direction, masculine inanimate: accusative equals nominative.",
+     "explain_ru": "Направление, неодушевлённое мужского рода: винительный совпадает с именительным. «Еду в Белград»."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Knjiga je na ___. (sto)",
+     "options": [
+      "stolu",
+      "sto",
+      "stola"
+     ],
+     "answer": 0,
+     "explain_en": "Location on a surface: na + locative; sto has the stem stol-: na stolu.",
+     "explain_ru": "Положение на поверхности: na + локатив; у sto основа stol-: na stolu. Как русское «на столе»."
+    },
+    {
+     "id": "e06",
+     "type": "match",
+     "pairs": [
+      [
+       "škola",
+       "u školi"
+      ],
+      [
+       "grad",
+       "u gradu"
+      ],
+      [
+       "banka",
+       "u banci"
+      ],
+      [
+       "more",
+       "na moru"
+      ]
+     ]
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Moja",
+      "sestra",
+      "živi",
+      "u",
+      "Srbiji."
+     ],
+     "answer": "Moja sestra živi u Srbiji.",
+     "ru": "Моя сестра живёт в Сербии."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "'Gde?' asks about location and the answer is in the locative.",
+     "answer": true,
+     "explain_en": "True. Gde si? – U školi sam.",
+     "explain_ru": "Верно. Gde si? – U školi sam. Направление спрашивают словом kuda (или разговорно тоже gde)."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Radim na ___. (posao)",
+     "options": [
+      "poslu",
+      "posao",
+      "posla"
+     ],
+     "answer": 0,
+     "explain_en": "Location: locative. Posao has the stem posl-: na poslu.",
+     "explain_ru": "Место: локатив. У posao основа posl-: na poslu (на работе)."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Novac je u ___. (banka)",
+     "answer": [
+      "banci"
+     ],
+     "explain_en": "Feminine locative -i, and k changes to c: banci.",
+     "explain_ru": "Локатив женского рода -i, а k меняется на c: banci. В русском «в банке» такого чередования нет."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "___ ideš? – U bioskop.",
+     "options": [
+      "Kuda",
+      "Odakle",
+      "Zašto"
+     ],
+     "answer": 0,
+     "explain_en": "The answer gives a direction, so the question is kuda (where to).",
+     "explain_ru": "Ответ указывает направление, значит вопрос — kuda (куда). Odakle — откуда, zašto — почему."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Studiram na ___. (fakultet)",
+     "answer": [
+      "fakultetu"
+     ],
+     "explain_en": "Na fakultetu = at the university; masculine locative -u.",
+     "explain_ru": "Na fakultetu = в университете; локатив мужского рода -u. Обратите внимание на предлог na, где русский говорит «в»."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "Gde",
+      "su",
+      "moje",
+      "knjige?"
+     ],
+     "answer": "Gde su moje knjige?",
+     "ru": "Где мои книги?"
+    },
+    {
+     "id": "e14",
+     "type": "mc",
+     "q": "Mi smo ___ moru.",
+     "options": [
+      "na",
+      "u",
+      "po"
+     ],
+     "answer": 0,
+     "explain_en": "More takes na: na moru.",
+     "explain_ru": "С more используется na: na moru (на море). Совпадает с русским."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "Govorimo o ___. (film)",
+     "options": [
+      "filmu",
+      "film",
+      "filma"
+     ],
+     "answer": 0,
+     "explain_en": "O (about) takes the locative: o filmu.",
+     "explain_ru": "Предлог o (о) требует локатива: o filmu. Как русское «о фильме»."
+    },
+    {
+     "id": "e16",
+     "type": "tf",
+     "q": "'Idem u Beogradu' uses the correct case.",
+     "answer": false,
+     "explain_en": "False. Idem expresses direction, so the accusative is needed: 'Idem u Beograd.'",
+     "explain_ru": "Неверно. Idem выражает направление, поэтому нужен винительный: 'Idem u Beograd.' Локатив Beogradu — только для места."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Oni su u ___. (Amerika)",
+     "answer": [
+      "Americi"
+     ],
+     "explain_en": "Feminine locative with k → c: Americi.",
+     "explain_ru": "Локатив женского рода с чередованием k → c: Americi. По-русски «в Америке» — без чередования."
+    },
+    {
+     "id": "e18",
+     "type": "match",
+     "pairs": [
+      [
+       "u Beogradu",
+       "в Белграде"
+      ],
+      [
+       "u Beograd",
+       "в Белград"
+      ],
+      [
+       "na poslu",
+       "на работе"
+      ],
+      [
+       "na posao",
+       "на работу"
+      ]
+     ]
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "Mislim o ___. (ti)",
+     "options": [
+      "tebi",
+      "tebe",
+      "te"
+     ],
+     "answer": 0,
+     "explain_en": "After o the locative pronoun form is used: tebi.",
+     "explain_ru": "После o используется локативная форма местоимения: tebi. Tebe и te — винительный."
+    },
+    {
+     "id": "e20",
+     "type": "fill",
+     "q": "Idem na ___. (pijaca)",
+     "answer": [
+      "pijacu"
+     ],
+     "explain_en": "Direction: accusative, -a becomes -u: na pijacu.",
+     "explain_ru": "Направление: винительный, -a меняется на -u: na pijacu (на рынок)."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Idemo",
+      "u",
+      "bioskop",
+      "večeras."
+     ],
+     "answer": "Idemo u bioskop večeras.",
+     "ru": "Мы идём в кино сегодня вечером."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "Sedim u ___. (kafić)",
+     "options": [
+      "kafiću",
+      "kafić",
+      "kafića"
+     ],
+     "answer": 0,
+     "explain_en": "Sitting is location: locative -u.",
+     "explain_ru": "Сидеть — положение, место: локатив -u. 'Sedim u kafiću' — «Сижу в кафе»."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "Praznik je u ___. (januar)",
+     "answer": [
+      "januaru"
+     ],
+     "explain_en": "Months take u + locative: u januaru.",
+     "explain_ru": "Месяцы — u + локатив: u januaru. Как русское «в январе»."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "'Gde ideš?' is often heard in everyday Serbian even though 'kuda' is the textbook word for direction.",
+     "answer": true,
+     "explain_en": "True. Colloquial Serbian uses gde for both location and direction; the case still shows the difference.",
+     "explain_ru": "Верно. В разговорном сербском gde употребляется и для места, и для направления; различие показывает падеж: gde si (u školi) / gde ideš (u školu)."
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "Vidimo se u ___! (ponedeljak)",
+     "options": [
+      "ponedeljak",
+      "ponedeljku",
+      "ponedeljka"
+     ],
+     "answer": 0,
+     "explain_en": "Days of the week take u + accusative: u ponedeljak.",
+     "explain_ru": "Дни недели — u + винительный: u ponedeljak. Как русское «в понедельник»."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "Deca su u ___. (park)",
+     "answer": [
+      "parku"
+     ],
+     "explain_en": "Location, masculine: locative -u.",
+     "explain_ru": "Место, мужской род: локатив -u. «Дети в парке»."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "Živim",
+      "u",
+      "Moskvi,",
+      "a",
+      "radim",
+      "u",
+      "Beogradu."
+     ],
+     "answer": "Živim u Moskvi, a radim u Beogradu.",
+     "ru": "Я живу в Москве, а работаю в Белграде."
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "Gde si?",
+       "U kući sam."
+      ],
+      [
+       "Kuda ideš?",
+       "Idem u grad."
+      ],
+      [
+       "Odakle si?",
+       "Iz Rusije sam."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "adjectives",
+   "title_en": "Adjectives: agreement and comparison",
+   "title_ru": "Прилагательные: согласование и степени сравнения",
+   "summary_en": "Adjectives agree with the noun in gender, number and case. Masculine adjectives have an indefinite (dobar) and a definite (dobri) form. Comparison uses -ji/-iji and naj-: lep – lepši – najlepši.",
+   "summary_ru": "Прилагательные согласуются с существительным в роде, числе и падеже. У мужского рода есть неопределённая (dobar) и определённая (dobri) форма. Степени сравнения образуются с -ji/-iji и naj-: lep – lepši – najlepši.",
+   "rules": [
+    {
+     "title_en": "Agreement in gender and number",
+     "title_ru": "Согласование в роде и числе",
+     "body_en": "An adjective takes the gender and number of its noun: dobar čovek, dobra žena, dobro dete; plural dobri ljudi, dobre žene, dobra deca. The principle is the same as in Russian, only the endings differ.",
+     "body_ru": "Прилагательное принимает род и число существительного: dobar čovek, dobra žena, dobro dete; множественное число dobri ljudi, dobre žene, dobra deca. Принцип такой же, как в русском, различаются только окончания: мужской род без -ый/-ий, женский -a, средний -o/-e.",
+     "examples": [
+      {
+       "en": "Ovo je lep grad.",
+       "ru": "Это красивый город."
+      },
+      {
+       "en": "Ovo je lepa kuća.",
+       "ru": "Это красивый дом."
+      },
+      {
+       "en": "Ovo je lepo selo.",
+       "ru": "Это красивое село."
+      }
+     ]
+    },
+    {
+     "title_en": "Endings: -∅/-a/-o, -e after soft consonants",
+     "title_ru": "Окончания: нулевое/-a/-o, -e после мягких",
+     "body_en": "In the nominative singular the masculine form has no ending (lep, nov, star), the feminine takes -a (lepa, nova, stara), the neuter takes -o (lepo, novo, staro). After the soft consonants š, ž, č, ć, đ, j, lj, nj the neuter takes -e: loš – loše, vruć – vruće, svež – sveže.",
+     "body_ru": "В именительном падеже единственного числа мужской род не имеет окончания (lep, nov, star), женский получает -a (lepa, nova, stara), средний — -o (lepo, novo, staro). После мягких согласных š, ž, č, ć, đ, j, lj, nj средний род получает -e: loš – loše, vruć – vruće, svež – sveže. Это похоже на русское «хорошее» после шипящих.",
+     "examples": [
+      {
+       "en": "lep, lepa, lepo",
+       "ru": "красивый, красивая, красивое"
+      },
+      {
+       "en": "loš, loša, loše",
+       "ru": "плохой, плохая, плохое"
+      },
+      {
+       "en": "Vreme je loše.",
+       "ru": "Погода плохая."
+      }
+     ]
+    },
+    {
+     "title_en": "The fleeting a in adjectives",
+     "title_ru": "Беглое a в прилагательных",
+     "body_en": "Many masculine adjectives have a fleeting a that disappears in all other forms: dobar – dobra – dobro, hladan – hladna – hladno, pametan – pametna, gladan – gladna, umoran – umorna. Compare Russian 'голоден – голодна'.",
+     "body_ru": "У многих прилагательных мужского рода есть беглое a, которое исчезает во всех остальных формах: dobar – dobra – dobro, hladan – hladna – hladno, pametan – pametna, gladan – gladna, umoran – umorna. Сравните русские краткие формы «голоден – голодна».",
+     "examples": [
+      {
+       "en": "On je dobar, ona je dobra.",
+       "ru": "Он хороший, она хорошая."
+      },
+      {
+       "en": "Voda je hladna.",
+       "ru": "Вода холодная."
+      },
+      {
+       "en": "Umoran sam. Umorna sam.",
+       "ru": "Я устал. Я устала."
+      }
+     ]
+    },
+    {
+     "title_en": "Indefinite and definite forms: dobar / dobri",
+     "title_ru": "Неопределённая и определённая формы: dobar / dobri",
+     "body_en": "Masculine singular adjectives have two forms. The indefinite (short) form dobar, nov, star is used as a predicate: 'Stan je nov.' The definite (long) form dobri, novi, stari ends in -i and is used before a noun that is already known or specified: 'Novi stan je velik.' 'Stari grad.' In the feminine and neuter the two forms look the same. Russian has a similar pair: нов / новый.",
+     "body_ru": "У прилагательных мужского рода единственного числа две формы. Неопределённая (краткая) dobar, nov, star используется как сказуемое: 'Stan je nov.' Определённая (полная) dobri, novi, stari оканчивается на -i и ставится перед существительным, о котором уже известно или которое уточняется: 'Novi stan je velik.' 'Stari grad.' В женском и среднем роде формы совпадают. В русском есть похожая пара: нов / новый, но полная форма используется шире.",
+     "examples": [
+      {
+       "en": "Stan je nov.",
+       "ru": "Квартира новая."
+      },
+      {
+       "en": "Novi stan je velik.",
+       "ru": "Новая квартира большая."
+      },
+      {
+       "en": "Stari čovek sedi u parku.",
+       "ru": "Старик сидит в парке."
+      }
+     ]
+    },
+    {
+     "title_en": "Adjectives in the accusative and locative",
+     "title_ru": "Прилагательные в винительном и локативе",
+     "body_en": "Adjectives follow the noun into other cases. Accusative feminine: -u (Vidim lepu ženu); masculine animate: -og/-eg (Vidim dobrog čoveka); inanimate: no change (Vidim lep grad). Locative masculine/neuter: -om (u velikom gradu, u Novom Sadu); feminine: -oj (u lepoj kući).",
+     "body_ru": "Прилагательные следуют за существительным в другие падежи. Винительный женского рода: -u (Vidim lepu ženu); одушевлённый мужского: -og/-eg (Vidim dobrog čoveka); неодушевлённый — без изменений (Vidim lep grad). Локатив мужского и среднего рода: -om (u velikom gradu, u Novom Sadu); женского: -oj (u lepoj kući). Окончания близки к русским «в большом городе, в красивом доме».",
+     "examples": [
+      {
+       "en": "Vidim lepu ženu.",
+       "ru": "Я вижу красивую женщину."
+      },
+      {
+       "en": "Živim u velikom gradu.",
+       "ru": "Я живу в большом городе."
+      },
+      {
+       "en": "Ona živi u lepoj kući.",
+       "ru": "Она живёт в красивом доме."
+      }
+     ]
+    },
+    {
+     "title_en": "Comparative: -ji, -iji; superlative naj-",
+     "title_ru": "Сравнительная степень: -ji, -iji; превосходная naj-",
+     "body_en": "The comparative is formed with -iji for most adjectives (star – stariji, nov – noviji, pametan – pametniji) or with -ji, which changes the final consonant (lep – lepši, jak – jači, brz – brži, mlad – mlađi, drag – draži). The superlative adds naj- to the comparative: najlepši, najstariji. Comparatives decline like definite adjectives: lepši, lepša, lepše.",
+     "body_ru": "Сравнительная степень образуется с -iji у большинства прилагательных (star – stariji, nov – noviji, pametan – pametniji) или с -ji, который меняет конечный согласный (lep – lepši, jak – jači, brz – brži, mlad – mlađi, drag – draži). Превосходная степень — naj- + сравнительная: najlepši, najstariji. Сравнительные формы склоняются как определённые прилагательные: lepši, lepša, lepše — в отличие от неизменяемого русского «красивее».",
+     "examples": [
+      {
+       "en": "lep – lepši – najlepši",
+       "ru": "красивый – красивее – самый красивый"
+      },
+      {
+       "en": "star – stariji – najstariji",
+       "ru": "старый – старше – самый старый"
+      },
+      {
+       "en": "Ona je mlađa od mene.",
+       "ru": "Она младше меня."
+      }
+     ]
+    },
+    {
+     "title_en": "Irregular comparatives",
+     "title_ru": "Неправильные степени сравнения",
+     "body_en": "Learn these by heart: dobar – bolji – najbolji, loš – gori – najgori, velik – veći – najveći, mali – manji – najmanji, dug – duži, visok – viši, nizak – niži, lak – lakši, mek – mekši. Many resemble Russian: bolji ~ лучше is different, but veći ~ больше, manji ~ меньше, viši ~ выше are close.",
+     "body_ru": "Эти формы нужно выучить: dobar – bolji – najbolji, loš – gori – najgori, velik – veći – najveći, mali – manji – najmanji, dug – duži, visok – viši, nizak – niži, lak – lakši, mek – mekši. Многие похожи на русские: veći ~ больше (вящий), manji ~ меньше, viši ~ выше, а вот bolji (лучше) и gori (хуже) надо запомнить отдельно.",
+     "examples": [
+      {
+       "en": "Ovo je bolji restoran.",
+       "ru": "Это ресторан получше."
+      },
+      {
+       "en": "Beograd je veći od Novog Sada.",
+       "ru": "Белград больше Нови-Сада."
+      },
+      {
+       "en": "To je najgori film.",
+       "ru": "Это худший фильм."
+      }
+     ]
+    },
+    {
+     "title_en": "Comparison: od + genitive or nego",
+     "title_ru": "Сравнение: od + родительный или nego",
+     "body_en": "'Than' is expressed with od + genitive ('On je stariji od mene', 'Beograd je veći od Niša') or with nego + nominative ('On je stariji nego ja'). Russian uses the same two options: старше меня / старше, чем я.",
+     "body_ru": "«Чем» выражается через od + родительный падеж ('On je stariji od mene', 'Beograd je veći od Niša') или через nego + именительный ('On je stariji nego ja'). В русском те же два варианта: «старше меня / старше, чем я».",
+     "examples": [
+      {
+       "en": "On je stariji od mene.",
+       "ru": "Он старше меня."
+      },
+      {
+       "en": "On je stariji nego ja.",
+       "ru": "Он старше, чем я."
+      },
+      {
+       "en": "Danas je toplije nego juče.",
+       "ru": "Сегодня теплее, чем вчера."
+      }
+     ]
+    },
+    {
+     "title_en": "Adverbs from adjectives",
+     "title_ru": "Наречия от прилагательных",
+     "body_en": "The neuter singular form of an adjective serves as an adverb: dobro (well), lepo (nicely), brzo (fast), loše (badly). 'Ona lepo peva.' 'Govorite sporo, molim.' The comparative adverb is the neuter comparative: bolje, lepše, brže.",
+     "body_ru": "Форма среднего рода единственного числа служит наречием: dobro (хорошо), lepo (красиво), brzo (быстро), loše (плохо). 'Ona lepo peva.' 'Govorite sporo, molim.' Сравнительная степень наречия — средний род сравнительной формы: bolje, lepše, brže. Это совпадает с русским «хорошо – лучше».",
+     "examples": [
+      {
+       "en": "Ona lepo peva.",
+       "ru": "Она красиво поёт."
+      },
+      {
+       "en": "Govorite sporo, molim.",
+       "ru": "Говорите медленно, пожалуйста."
+      },
+      {
+       "en": "Danas se osećam bolje.",
+       "ru": "Сегодня я чувствую себя лучше."
+      }
+     ]
+    },
+    {
+     "title_en": "Demonstratives: ovaj, taj, onaj",
+     "title_ru": "Указательные: ovaj, taj, onaj",
+     "body_en": "Ovaj (this, near me), taj (that, near you), onaj (that over there) agree like adjectives: ovaj grad, ova žena, ovo dete, ovi ljudi. Neutral 'this is / that is' uses ovo je, to je, ono je.",
+     "body_ru": "Ovaj (этот, рядом со мной), taj (тот, рядом с тобой), onaj (вон тот) согласуются как прилагательные: ovaj grad, ova žena, ovo dete, ovi ljudi. Нейтральное «это / то» — ovo je, to je, ono je. В сербском три степени удалённости, в русском — две (этот / тот).",
+     "examples": [
+      {
+       "en": "Ovaj grad je lep.",
+       "ru": "Этот город красивый."
+      },
+      {
+       "en": "Ta žena je moja majka.",
+       "ru": "Та женщина — моя мать."
+      },
+      {
+       "en": "Ono dete je moj sin.",
+       "ru": "Вон тот ребёнок — мой сын."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Ovo je ___ kuća. (lep)",
+     "options": [
+      "lep",
+      "lepa",
+      "lepo"
+     ],
+     "answer": 1,
+     "explain_en": "Kuća is feminine, so the adjective takes -a: lepa.",
+     "explain_ru": "Kuća — женский род, прилагательное получает -a: lepa. Помните: kuća (дом) женского рода, в отличие от русского «дом»."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Dete je ___. (mali)",
+     "options": [
+      "mali",
+      "mala",
+      "malo"
+     ],
+     "answer": 2,
+     "explain_en": "Dete is neuter: malo.",
+     "explain_ru": "Dete — средний род: malo."
+    },
+    {
+     "id": "e03",
+     "type": "fill",
+     "q": "Ovo je ___ grad. (velik, m)",
+     "answer": [
+      "velik",
+      "veliki"
+     ],
+     "explain_en": "Masculine singular: velik (indefinite) or veliki (definite); both are used here.",
+     "explain_ru": "Мужской род единственного числа: velik (неопределённая форма) или veliki (определённая); здесь возможны обе."
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "Čaj je ___. (vruć, m)",
+     "answer": [
+      "vruć"
+     ],
+     "explain_en": "Čaj is masculine; as a predicate the indefinite form vruć is used.",
+     "explain_ru": "Čaj — мужской род; в роли сказуемого используется неопределённая форма vruć."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Voda je ___. (hladan)",
+     "options": [
+      "hladan",
+      "hladna",
+      "hladno"
+     ],
+     "answer": 1,
+     "explain_en": "Voda is feminine; the fleeting a drops: hladna.",
+     "explain_ru": "Voda — женский род; беглое a выпадает: hladna. Сравните «холоден – холодна»."
+    },
+    {
+     "id": "e06",
+     "type": "match",
+     "pairs": [
+      [
+       "lep",
+       "lepši"
+      ],
+      [
+       "star",
+       "stariji"
+      ],
+      [
+       "dobar",
+       "bolji"
+      ],
+      [
+       "velik",
+       "veći"
+      ],
+      [
+       "mali",
+       "manji"
+      ]
+     ]
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Moja",
+      "sestra",
+      "je",
+      "lepa",
+      "i",
+      "pametna."
+     ],
+     "answer": "Moja sestra je lepa i pametna.",
+     "ru": "Моя сестра красивая и умная."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "The adjective 'dobar' loses its 'a' in the feminine form: 'dobra'.",
+     "answer": true,
+     "explain_en": "True. Dobar – dobra – dobro: the a is fleeting.",
+     "explain_ru": "Верно. Dobar – dobra – dobro: это беглое a. Так же hladan – hladna, gladan – gladna."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Marko je ___ od mene. (star)",
+     "options": [
+      "stariji",
+      "starši",
+      "starije"
+     ],
+     "answer": 0,
+     "explain_en": "Comparative of star is stariji (-iji). 'Starši' is not Serbian.",
+     "explain_ru": "Сравнительная степень от star — stariji (-iji). «Starši» — калька с русского «старший», в сербском такой формы нет; starije — средний род."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Ovo je ___ restoran u gradu. (dobar, superlativ)",
+     "answer": [
+      "najbolji"
+     ],
+     "explain_en": "Irregular: dobar – bolji – najbolji.",
+     "explain_ru": "Неправильная форма: dobar – bolji – najbolji. По-русски «лучший»."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "Oni su ___ ljudi. (dobar, m pl)",
+     "options": [
+      "dobri",
+      "dobre",
+      "dobra"
+     ],
+     "answer": 0,
+     "explain_en": "Masculine plural: dobri.",
+     "explain_ru": "Мужской род множественного числа: dobri. Dobre — женский род мн. ч., dobra — ж. р. ед. ч. или ср. р. мн. ч."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Deca su ___. (dobar)",
+     "answer": [
+      "dobra"
+     ],
+     "explain_en": "Deca is a collective noun that takes feminine singular adjectives: dobra.",
+     "explain_ru": "Deca — собирательное существительное, при нём прилагательное стоит в женском роде единственного числа: dobra. Не «dobri», как подсказала бы русская логика «дети хорошие»."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "Beograd",
+      "je",
+      "veći",
+      "od",
+      "Novog",
+      "Sada."
+     ],
+     "answer": "Beograd je veći od Novog Sada.",
+     "ru": "Белград больше Нови-Сада."
+    },
+    {
+     "id": "e14",
+     "type": "mc",
+     "q": "loš – ___ – najgori",
+     "options": [
+      "gori",
+      "lošiji",
+      "gorši"
+     ],
+     "answer": 0,
+     "explain_en": "Irregular comparative: loš – gori – najgori.",
+     "explain_ru": "Неправильная сравнительная степень: loš – gori – najgori. По-русски «хуже»."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "Ona ___ peva. (lep, prilog)",
+     "options": [
+      "lepo",
+      "lepa",
+      "lep"
+     ],
+     "answer": 0,
+     "explain_en": "The adverb is the neuter form: lepo.",
+     "explain_ru": "Наречие — форма среднего рода: lepo (красиво). Как русское «красиво» от «красивое»."
+    },
+    {
+     "id": "e16",
+     "type": "tf",
+     "q": "'Velik – veliki – najveliki' is the correct comparison.",
+     "answer": false,
+     "explain_en": "False. Velik is irregular: velik – veći – najveći.",
+     "explain_ru": "Неверно. Velik — неправильное прилагательное: velik – veći – najveći. Veliki — это определённая форма положительной степени."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Živim u ___ gradu. (velik, lokativ)",
+     "answer": [
+      "velikom"
+     ],
+     "explain_en": "Masculine locative of the adjective: -om, like the Russian 'в большом'.",
+     "explain_ru": "Локатив мужского рода прилагательного: -om, как русское «в большом»."
+    },
+    {
+     "id": "e18",
+     "type": "match",
+     "pairs": [
+      [
+       "dobar",
+       "čovek"
+      ],
+      [
+       "dobra",
+       "žena"
+      ],
+      [
+       "dobro",
+       "dete"
+      ]
+     ]
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "Ovaj film je ___ nego onaj. (zanimljiv)",
+     "options": [
+      "zanimljiviji",
+      "zanimljivši",
+      "zanimljiviše"
+     ],
+     "answer": 0,
+     "explain_en": "Longer adjectives form the comparative with -iji: zanimljiviji.",
+     "explain_ru": "Длинные прилагательные образуют сравнительную степень с -iji: zanimljiviji (интереснее)."
+    },
+    {
+     "id": "e20",
+     "type": "fill",
+     "q": "Ove žene su ___. (lep)",
+     "answer": [
+      "lepe"
+     ],
+     "explain_en": "Feminine plural: lepe.",
+     "explain_ru": "Женский род множественного числа: lepe. Не -i, как в русском «красивые»."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Ovo",
+      "je",
+      "najlepši",
+      "grad",
+      "na",
+      "svetu."
+     ],
+     "answer": "Ovo je najlepši grad na svetu.",
+     "ru": "Это самый красивый город в мире."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "Vidim ___ ženu. (lep, akuzativ)",
+     "options": [
+      "lepu",
+      "lepa",
+      "lepoj"
+     ],
+     "answer": 0,
+     "explain_en": "Feminine accusative adjective: -u.",
+     "explain_ru": "Прилагательное женского рода в винительном падеже: -u. Как русское «вижу красивую женщину»."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "Danas je ___ nego juče. (topao, komparativ)",
+     "answer": [
+      "toplije"
+     ],
+     "explain_en": "The comparative adverb is the neuter comparative: toplije.",
+     "explain_ru": "Сравнительная степень наречия — средний род сравнительной формы: toplije (теплее)."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "In Serbian, 'stariji brat' means 'старший брат'.",
+     "answer": true,
+     "explain_en": "True. Serbian uses the ordinary comparative stariji where Russian has 'старший'.",
+     "explain_ru": "Верно. Сербский использует обычную сравнительную степень stariji там, где русский говорит «старший»; аналогично mlađi brat — «младший брат»."
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "___ kuća je stara. (ovaj)",
+     "options": [
+      "Ova",
+      "Ovaj",
+      "Ovo"
+     ],
+     "answer": 0,
+     "explain_en": "Kuća is feminine: ova kuća.",
+     "explain_ru": "Kuća — женский род: ova kuća. Ovaj — мужской, ovo — средний."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "Ja sam ___ od tebe. (mlad, komparativ, m)",
+     "answer": [
+      "mlađi"
+     ],
+     "explain_en": "Mlad takes -ji, and d + j becomes đ: mlađi.",
+     "explain_ru": "Mlad получает -ji, а d + j даёт đ: mlađi (младше). Похожее чередование в русском «молодой – моложе»."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "Ona",
+      "je",
+      "mlađa",
+      "od",
+      "svog",
+      "brata."
+     ],
+     "answer": "Ona je mlađa od svog brata.",
+     "ru": "Она младше своего брата."
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "bolji",
+       "лучше"
+      ],
+      [
+       "gori",
+       "хуже"
+      ],
+      [
+       "veći",
+       "больше"
+      ],
+      [
+       "manji",
+       "меньше"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "questions-negation",
+   "title_en": "Questions and negation",
+   "title_ru": "Вопросы и отрицание",
+   "summary_en": "Yes/no questions with 'da li' or 'verb + li', question words (ko, šta, gde, kada, zašto, koliko), and negation with a separate 'ne' before the verb. Like Russian, Serbian uses double negation.",
+   "summary_ru": "Общие вопросы с 'da li' или «глагол + li», вопросительные слова (ko, šta, gde, kada, zašto, koliko) и отрицание отдельной частицей ne перед глаголом. Как и в русском, в сербском двойное отрицание.",
+   "rules": [
+    {
+     "title_en": "Yes/no questions with da li",
+     "title_ru": "Общие вопросы с da li",
+     "body_en": "The simplest yes/no question starts with 'Da li' followed by the normal sentence: 'Da li govoriš srpski?' 'Da li si ti student?' 'Da li imate vremena?' Russian relies on intonation or ли; Serbian almost always marks the question with da li or li.",
+     "body_ru": "Самый простой общий вопрос начинается с 'Da li', за которым идёт обычное предложение: 'Da li govoriš srpski?' 'Da li si ti student?' 'Da li imate vremena?' Русский полагается на интонацию или частицу «ли»; сербский почти всегда маркирует вопрос через da li или li.",
+     "examples": [
+      {
+       "en": "Da li govoriš srpski?",
+       "ru": "Ты говоришь по-сербски?"
+      },
+      {
+       "en": "Da li si ti student?",
+       "ru": "Ты студент?"
+      },
+      {
+       "en": "Da li imate vremena?",
+       "ru": "У вас есть время?"
+      }
+     ]
+    },
+    {
+     "title_en": "Questions with verb + li",
+     "title_ru": "Вопросы с глагол + li",
+     "body_en": "The verb can stand first, followed by li: 'Govoriš li srpski?' 'Imaš li brata?' With biti and hteti the long forms are used: 'Jesi li student?' 'Hoćeš li kafu?' Li always takes second position, like Russian ли: 'Говоришь ли ты...'",
+     "body_ru": "Глагол может стоять первым, а за ним li: 'Govoriš li srpski?' 'Imaš li brata?' С biti и hteti используются полные формы: 'Jesi li student?' 'Hoćeš li kafu?' Li всегда занимает второе место, как русское «ли»: «Говоришь ли ты...». В отличие от русского, такой вопрос звучит нейтрально, а не книжно.",
+     "examples": [
+      {
+       "en": "Govoriš li srpski?",
+       "ru": "Ты говоришь по-сербски?"
+      },
+      {
+       "en": "Jesi li student?",
+       "ru": "Ты студент?"
+      },
+      {
+       "en": "Hoćeš li kafu?",
+       "ru": "Хочешь кофе?"
+      }
+     ]
+    },
+    {
+     "title_en": "Intonation questions",
+     "title_ru": "Вопросы интонацией",
+     "body_en": "In informal speech a statement with rising intonation works as a question, just like in Russian: 'Ti si student?' 'Ideš u školu?' In writing, prefer da li.",
+     "body_ru": "В неформальной речи утверждение с вопросительной интонацией работает как вопрос, совсем как в русском: 'Ti si student?' 'Ideš u školu?' На письме лучше использовать da li.",
+     "examples": [
+      {
+       "en": "Ti si student?",
+       "ru": "Ты студент?"
+      },
+      {
+       "en": "Ideš u školu?",
+       "ru": "Ты идёшь в школу?"
+      }
+     ]
+    },
+    {
+     "title_en": "Question words",
+     "title_ru": "Вопросительные слова",
+     "body_en": "ko (who), šta (what), gde (where), kuda (where to), odakle (where from), kada (when), zašto (why), kako (how), koliko (how much/many), koji/koja/koje (which), čiji (whose). They stand first; clitics follow them: 'Gde si?' 'Kako se zoveš?'",
+     "body_ru": "ko (кто), šta (что), gde (где), kuda (куда), odakle (откуда), kada (когда), zašto (почему), kako (как), koliko (сколько), koji/koja/koje (какой, который), čiji (чей). Они стоят первыми; клитики идут сразу за ними: 'Gde si?' 'Kako se zoveš?' Обратите внимание: ko без «т», šta вместо «что».",
+     "examples": [
+      {
+       "en": "Ko je ovo?",
+       "ru": "Кто это?"
+      },
+      {
+       "en": "Šta radiš?",
+       "ru": "Что ты делаешь?"
+      },
+      {
+       "en": "Kada dolaziš?",
+       "ru": "Когда ты приходишь?"
+      },
+      {
+       "en": "Zašto učiš srpski?",
+       "ru": "Почему ты учишь сербский?"
+      }
+     ]
+    },
+    {
+     "title_en": "ko and šta decline",
+     "title_ru": "Ko и šta склоняются",
+     "body_en": "Ko: koga (accusative/genitive), kome (dative/locative), kim (instrumental). Šta: šta (accusative), čega (genitive), čemu (dative/locative), čim (instrumental). 'Koga vidiš?' 'Kome pomažeš?' 'O čemu govoriš?' The pattern mirrors Russian кого, кому, о чём.",
+     "body_ru": "Ko: koga (винительный/родительный), kome (дательный/локатив), kim (творительный). Šta: šta (винительный), čega (родительный), čemu (дательный/локатив), čim (творительный). 'Koga vidiš?' 'Kome pomažeš?' 'O čemu govoriš?' Система почти повторяет русскую: кого, кому, о чём.",
+     "examples": [
+      {
+       "en": "Koga vidiš?",
+       "ru": "Кого ты видишь?"
+      },
+      {
+       "en": "Kome pomažeš?",
+       "ru": "Кому ты помогаешь?"
+      },
+      {
+       "en": "O čemu govoriš?",
+       "ru": "О чём ты говоришь?"
+      }
+     ]
+    },
+    {
+     "title_en": "Negation: ne + verb",
+     "title_ru": "Отрицание: ne + глагол",
+     "body_en": "Put 'ne' directly before the verb, written separately: 'Ne znam.' 'Ne idem.' 'Ne govorim engleski.' Only nisam, nemam and neću merge into one word. Unlike Russian, 'ne' cannot be separated from the verb by a clitic: 'Ne vidim ga', never 'Ne ga vidim'.",
+     "body_ru": "Ставьте ne прямо перед глаголом, раздельно: 'Ne znam.' 'Ne idem.' 'Ne govorim engleski.' Только nisam, nemam и neću пишутся слитно. В отличие от русского, между ne и глаголом не может стоять клитика: 'Ne vidim ga', а не 'Ne ga vidim' (по-русски «не вижу его / его не вижу» — оба варианта возможны).",
+     "examples": [
+      {
+       "en": "Ne znam.",
+       "ru": "Я не знаю."
+      },
+      {
+       "en": "Ne vidim ga.",
+       "ru": "Я его не вижу."
+      },
+      {
+       "en": "Ne govorim engleski.",
+       "ru": "Я не говорю по-английски."
+      }
+     ]
+    },
+    {
+     "title_en": "Double negation",
+     "title_ru": "Двойное отрицание",
+     "body_en": "Negative pronouns and adverbs (niko, ništa, nikad, nigde, nijedan) require 'ne' before the verb, exactly as in Russian: 'Niko ne zna.' 'Ništa ne vidim.' 'Nikad ne kasnim.'",
+     "body_ru": "Отрицательные местоимения и наречия (niko, ništa, nikad, nigde, nijedan) требуют ne перед глаголом — точно как в русском: 'Niko ne zna.' 'Ništa ne vidim.' 'Nikad ne kasnim.' Здесь можно смело переносить русскую модель.",
+     "examples": [
+      {
+       "en": "Niko ne zna.",
+       "ru": "Никто не знает."
+      },
+      {
+       "en": "Ništa ne vidim.",
+       "ru": "Я ничего не вижу."
+      },
+      {
+       "en": "Nikad ne kasnim.",
+       "ru": "Я никогда не опаздываю."
+      }
+     ]
+    },
+    {
+     "title_en": "Short answers",
+     "title_ru": "Краткие ответы",
+     "body_en": "Answer with da / ne, or repeat the verb: 'Da li govoriš srpski? – Da, govorim. / Ne, ne govorim.' With biti use the long forms: 'Jesi li umoran? – Jesam. / Nisam.' With imati: 'Imaš li? – Imam. / Nemam.'",
+     "body_ru": "Отвечайте da / ne или повторяйте глагол: 'Da li govoriš srpski? – Da, govorim. / Ne, ne govorim.' С biti — полные формы: 'Jesi li umoran? – Jesam. / Nisam.' С imati: 'Imaš li? – Imam. / Nemam.' Повтор глагола в ответе — очень по-сербски; в русском чаще просто «да/нет».",
+     "examples": [
+      {
+       "en": "Da li govoriš srpski? – Da, govorim.",
+       "ru": "Ты говоришь по-сербски? – Да, говорю."
+      },
+      {
+       "en": "Jesi li umoran? – Nisam.",
+       "ru": "Ты устал? – Нет."
+      },
+      {
+       "en": "Imaš li vremena? – Nemam.",
+       "ru": "У тебя есть время? – Нет."
+      }
+     ]
+    },
+    {
+     "title_en": "zar and zar ne?",
+     "title_ru": "Zar и zar ne?",
+     "body_en": "Zar introduces a surprised or rhetorical question: 'Zar ne znaš?' (Don't you know?!). The tag 'zar ne?' at the end means 'isn't it?': 'Ti si student, zar ne?' Russian uses 'разве' and 'не так ли?'.",
+     "body_ru": "Zar вводит удивлённый или риторический вопрос: 'Zar ne znaš?' (Разве ты не знаешь?!). Хвостик 'zar ne?' в конце значит «не так ли?»: 'Ti si student, zar ne?' По-русски — «разве» и «не так ли / правда?».",
+     "examples": [
+      {
+       "en": "Zar ne znaš?",
+       "ru": "Разве ты не знаешь?"
+      },
+      {
+       "en": "Ti si student, zar ne?",
+       "ru": "Ты студент, не так ли?"
+      }
+     ]
+    },
+    {
+     "title_en": "koliko + genitive",
+     "title_ru": "Koliko + родительный",
+     "body_en": "Koliko (how much, how many) takes the genitive, like Russian сколько: 'Koliko imaš godina?' 'Koliko košta?' 'Koliko ljudi dolazi?' Note 'Koliko je sati?' (what time is it).",
+     "body_ru": "Koliko (сколько) требует родительного падежа, как русское «сколько»: 'Koliko imaš godina?' 'Koliko košta?' 'Koliko ljudi dolazi?' Запомните 'Koliko je sati?' — «Сколько времени?» (буквально «сколько часов»).",
+     "examples": [
+      {
+       "en": "Koliko imaš godina?",
+       "ru": "Сколько тебе лет?"
+      },
+      {
+       "en": "Koliko košta?",
+       "ru": "Сколько стоит?"
+      },
+      {
+       "en": "Koliko je sati?",
+       "ru": "Сколько времени?"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "___ govoriš srpski?",
+     "options": [
+      "Da li",
+      "Li",
+      "Da"
+     ],
+     "answer": 0,
+     "explain_en": "Yes/no questions start with 'Da li'.",
+     "explain_ru": "Общие вопросы начинаются с 'Da li'. Одно li не может стоять первым, одно da — это «да»."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "___ si ti? – Ja sam Marko.",
+     "options": [
+      "Ko",
+      "Šta",
+      "Gde"
+     ],
+     "answer": 0,
+     "explain_en": "The answer names a person, so the question word is ko (who).",
+     "explain_ru": "В ответе назван человек, значит вопросительное слово — ko (кто). Без «т», как в русском «кто»."
+    },
+    {
+     "id": "e03",
+     "type": "fill",
+     "q": "___ je ovo? – Ovo je knjiga.",
+     "answer": [
+      "Šta"
+     ],
+     "explain_en": "Asking about a thing: šta (what).",
+     "explain_ru": "Вопрос о предмете: šta (что). Не «što» — это хорватский вариант."
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "___ si? – U školi sam.",
+     "answer": [
+      "Gde"
+     ],
+     "explain_en": "Asking about location: gde (where).",
+     "explain_ru": "Вопрос о месте: gde (где)."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "___ li ti student?",
+     "options": [
+      "Jesi",
+      "Si",
+      "Da si"
+     ],
+     "answer": 0,
+     "explain_en": "Before li the long form of biti is required: Jesi li.",
+     "explain_ru": "Перед li нужна полная форма biti: Jesi li. Клитика si не может начинать предложение."
+    },
+    {
+     "id": "e06",
+     "type": "match",
+     "pairs": [
+      [
+       "ko",
+       "кто"
+      ],
+      [
+       "šta",
+       "что"
+      ],
+      [
+       "gde",
+       "где"
+      ],
+      [
+       "kada",
+       "когда"
+      ],
+      [
+       "zašto",
+       "почему"
+      ],
+      [
+       "koliko",
+       "сколько"
+      ]
+     ]
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Da",
+      "li",
+      "govoriš",
+      "ruski?"
+     ],
+     "answer": "Da li govoriš ruski?",
+     "ru": "Ты говоришь по-русски?"
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "'Da li si ti umoran?' is a correct question.",
+     "answer": true,
+     "explain_en": "True. Da li + short form si + the rest of the sentence.",
+     "explain_ru": "Верно. Da li + краткая форма si + остальная часть предложения."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Ja ___ znam.",
+     "options": [
+      "ne",
+      "ni",
+      "nisam"
+     ],
+     "answer": 0,
+     "explain_en": "Ordinary verbs are negated with a separate ne: ne znam.",
+     "explain_ru": "Обычные глаголы отрицаются отдельной частицей ne: ne znam. Nisam — только для глагола biti."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "___ učiš srpski? – Zato što živim u Srbiji.",
+     "answer": [
+      "Zašto"
+     ],
+     "explain_en": "The answer starts with 'zato što' (because), so the question is zašto (why).",
+     "explain_ru": "Ответ начинается с 'zato što' (потому что), значит вопрос — zašto (почему)."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "___ vidiš? – Vidim Marka.",
+     "options": [
+      "Koga",
+      "Ko",
+      "Kome"
+     ],
+     "answer": 0,
+     "explain_en": "Direct object: accusative of ko is koga.",
+     "explain_ru": "Прямой объект: винительный падеж от ko — koga. Как русское «кого видишь?»."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "___ imaš godina? – Dvadeset.",
+     "answer": [
+      "Koliko"
+     ],
+     "explain_en": "Koliko (how many) + genitive: Koliko imaš godina?",
+     "explain_ru": "Koliko (сколько) + родительный: Koliko imaš godina? Буквально «сколько имеешь лет»."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "Zašto",
+      "ne",
+      "učiš",
+      "srpski?"
+     ],
+     "answer": "Zašto ne učiš srpski?",
+     "ru": "Почему ты не учишь сербский?"
+    },
+    {
+     "id": "e14",
+     "type": "mc",
+     "q": "Niko ___ zna odgovor.",
+     "options": [
+      "ne",
+      "nije",
+      "nema"
+     ],
+     "answer": 0,
+     "explain_en": "Double negation: niko + ne + verb.",
+     "explain_ru": "Двойное отрицание: niko + ne + глагол. Как русское «никто не знает»."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "___ li srpski? (govoriti, ti)",
+     "options": [
+      "Govoriš",
+      "Govori",
+      "Govorim"
+     ],
+     "answer": 0,
+     "explain_en": "Verb + li question with ti: Govoriš li?",
+     "explain_ru": "Вопрос «глагол + li» с ti: Govoriš li? Govori — он/она, govorim — я."
+    },
+    {
+     "id": "e16",
+     "type": "tf",
+     "q": "Serbian, like Russian, uses double negation: 'Ništa ne znam.'",
+     "answer": true,
+     "explain_en": "True. Negative words require ne before the verb.",
+     "explain_ru": "Верно. Отрицательные слова требуют ne перед глаголом, как в русском «ничего не знаю»."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "___ dolaziš? – Sutra.",
+     "answer": [
+      "Kada",
+      "Kad"
+     ],
+     "explain_en": "Asking about time: kada (or shortened kad).",
+     "explain_ru": "Вопрос о времени: kada (или сокращённо kad). Ответ 'Sutra' — завтра."
+    },
+    {
+     "id": "e18",
+     "type": "match",
+     "pairs": [
+      [
+       "Ko je ovo?",
+       "Ovo je moj brat."
+      ],
+      [
+       "Šta je ovo?",
+       "Ovo je sto."
+      ],
+      [
+       "Gde si?",
+       "U parku sam."
+      ],
+      [
+       "Koliko košta?",
+       "Sto dinara."
+      ]
+     ]
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "O ___ govoriš? (šta)",
+     "options": [
+      "čemu",
+      "čega",
+      "šta"
+     ],
+     "answer": 0,
+     "explain_en": "After o the locative of šta is čemu.",
+     "explain_ru": "После o локатив от šta — čemu. Как русское «о чём»; čega — родительный."
+    },
+    {
+     "id": "e20",
+     "type": "fill",
+     "q": "Ja ___ pijem kafu. (negacija)",
+     "answer": [
+      "ne"
+     ],
+     "explain_en": "Separate ne before the verb: ne pijem.",
+     "explain_ru": "Отдельная частица ne перед глаголом: ne pijem."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Ko",
+      "je",
+      "ta",
+      "žena?"
+     ],
+     "answer": "Ko je ta žena?",
+     "ru": "Кто эта женщина?"
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "___ torba je ovo? – Moja.",
+     "options": [
+      "Čija",
+      "Čiji",
+      "Čije"
+     ],
+     "answer": 0,
+     "explain_en": "Torba is feminine, so čija (whose).",
+     "explain_ru": "Torba — женский род, поэтому čija (чья). Čiji — мужской, čije — средний."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "Da li si gladan? – Ne, ___. (biti, negacija)",
+     "answer": [
+      "nisam"
+     ],
+     "explain_en": "Short negative answer with biti: nisam.",
+     "explain_ru": "Краткий отрицательный ответ с biti: nisam. По-русски просто «нет», по-сербски глагол повторяется."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "In Serbian 'ne' is always written together with the verb, e.g. 'neznam'.",
+     "answer": false,
+     "explain_en": "False. Ne is separate: 'ne znam'. Only nisam, nemam, neću are single words.",
+     "explain_ru": "Неверно. Ne пишется раздельно: 'ne znam'. Слитно только nisam, nemam, neću."
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "Ti si student, ___ ne?",
+     "options": [
+      "zar",
+      "da",
+      "li"
+     ],
+     "answer": 0,
+     "explain_en": "The tag question is 'zar ne?' (isn't it?).",
+     "explain_ru": "Разделительный вопрос — 'zar ne?' (не так ли?)."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "___ grad je lepši: Beograd ili Niš? (который)",
+     "answer": [
+      "Koji"
+     ],
+     "explain_en": "Which (of several) with a masculine noun: koji.",
+     "explain_ru": "«Который / какой» с существительным мужского рода: koji."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "Da",
+      "li",
+      "imate",
+      "sto",
+      "za",
+      "dvoje?"
+     ],
+     "answer": "Da li imate sto za dvoje?",
+     "ru": "У вас есть столик на двоих?"
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "imam",
+       "nemam"
+      ],
+      [
+       "hoću",
+       "neću"
+      ],
+      [
+       "jesam",
+       "nisam"
+      ],
+      [
+       "znam",
+       "ne znam"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "numbers-time-dates",
+   "title_en": "Numbers, time, dates; genitive after numbers and dative basics",
+   "title_ru": "Числительные, время, даты; родительный после числительных и основы дательного",
+   "summary_en": "Counting to 1000, telling the time and giving dates. After 2-4 the noun is in the genitive singular (dva sata), after 5+ in the genitive plural (pet sati), as in Russian. The dative (meni, tebi; pomoći nekome) is introduced.",
+   "summary_ru": "Счёт до 1000, время и даты. После 2–4 существительное стоит в родительном падеже единственного числа (dva sata), после 5 и больше — во множественном (pet sati), как в русском. Вводится дательный падеж (meni, tebi; pomoći nekome).",
+   "rules": [
+    {
+     "title_en": "Cardinal numbers",
+     "title_ru": "Количественные числительные",
+     "body_en": "1 jedan, 2 dva, 3 tri, 4 četiri, 5 pet, 6 šest, 7 sedam, 8 osam, 9 devet, 10 deset, 11 jedanaest, 12 dvanaest, 13 trinaest, 14 četrnaest, 15 petnaest, 16 šesnaest, 17 sedamnaest, 18 osamnaest, 19 devetnaest, 20 dvadeset, 30 trideset, 40 četrdeset, 50 pedeset, 60 šezdeset, 70 sedamdeset, 80 osamdeset, 90 devedeset, 100 sto, 200 dvesta, 300 trista, 1000 hiljada. Compound numbers are simply joined: dvadeset jedan, sto pet.",
+     "body_ru": "1 jedan, 2 dva, 3 tri, 4 četiri, 5 pet, 6 šest, 7 sedam, 8 osam, 9 devet, 10 deset, 11 jedanaest, 12 dvanaest, 13 trinaest, 14 četrnaest, 15 petnaest, 16 šesnaest, 17 sedamnaest, 18 osamnaest, 19 devetnaest, 20 dvadeset, 30 trideset, 40 četrdeset, 50 pedeset, 60 šezdeset, 70 sedamdeset, 80 osamdeset, 90 devedeset, 100 sto, 200 dvesta, 300 trista, 1000 hiljada. Составные числа просто соединяются: dvadeset jedan, sto pet. Числа очень похожи на русские, но «тысяча» — hiljada (греческое слово).",
+     "examples": [
+      {
+       "en": "Imam dvadeset pet godina.",
+       "ru": "Мне двадцать пять лет."
+      },
+      {
+       "en": "To košta sto dinara.",
+       "ru": "Это стоит сто динаров."
+      },
+      {
+       "en": "jedanaest, dvanaest, trinaest",
+       "ru": "одиннадцать, двенадцать, тринадцать"
+      }
+     ]
+    },
+    {
+     "title_en": "jedan, dva/dve agree in gender",
+     "title_ru": "Jedan, dva/dve согласуются в роде",
+     "body_en": "Jedan agrees like an adjective: jedan sat, jedna žena, jedno dete. Two has two forms: dva for masculine and neuter (dva sata, dva sela), dve for feminine (dve žene, dve kuće). This is the same as Russian два/две. Numbers from three on do not change: tri, četiri, pet.",
+     "body_ru": "Jedan согласуется как прилагательное: jedan sat, jedna žena, jedno dete. У «два» две формы: dva для мужского и среднего рода (dva sata, dva sela), dve для женского (dve žene, dve kuće) — как русские два/две. Числительные от трёх не изменяются: tri, četiri, pet.",
+     "examples": [
+      {
+       "en": "jedan sat, jedna žena, jedno dete",
+       "ru": "один час, одна женщина, один ребёнок"
+      },
+      {
+       "en": "dva brata, dve sestre",
+       "ru": "два брата, две сестры"
+      }
+     ]
+    },
+    {
+     "title_en": "Genitive after numbers: dva sata, pet sati",
+     "title_ru": "Родительный после числительных: dva sata, pet sati",
+     "body_en": "After 2, 3, 4 the noun is in the genitive singular: dva sata, tri dana, četiri grada, dve kuće. After 5 and higher the noun is in the genitive plural: pet sati, deset dana, sto dinara, šest kuća. Russian works the same way (два часа / пять часов). Genitive plural endings: -a for most nouns (dana, dinara, kuća, žena), -i for some (sati, ljudi, meseci). Note the irregular sat – sata – sati.",
+     "body_ru": "После 2, 3, 4 существительное стоит в родительном падеже единственного числа: dva sata, tri dana, četiri grada, dve kuće. После 5 и больше — в родительном множественного: pet sati, deset dana, sto dinara, šest kuća. Русский устроен так же (два часа / пять часов). Окончания родительного множественного: -a у большинства слов (dana, dinara, kuća, žena), -i у некоторых (sati, ljudi, meseci). Запомните: sat – sata – sati.",
+     "examples": [
+      {
+       "en": "dva sata, pet sati",
+       "ru": "два часа, пять часов"
+      },
+      {
+       "en": "tri dana, deset dana",
+       "ru": "три дня, десять дней"
+      },
+      {
+       "en": "dve kuće, šest kuća",
+       "ru": "два дома, шесть домов"
+      }
+     ]
+    },
+    {
+     "title_en": "Telling the time",
+     "title_ru": "Который час",
+     "body_en": "'Koliko je sati?' – 'Jedan je sat.' 'Dva su sata.' 'Pet je sati.' Minutes past: 'tri i petnaest' (3:15), 'deset i dvadeset' (10:20). Half hours: 'pola osam' means 7:30 (half of the eighth hour), like Russian 'половина восьмого'. Minutes to: 'petnaest do tri' (2:45). Noon is podne, midnight is ponoć.",
+     "body_ru": "'Koliko je sati?' – 'Jedan je sat.' 'Dva su sata.' 'Pet je sati.' Минуты после: 'tri i petnaest' (3:15), 'deset i dvadeset' (10:20). Половины: 'pola osam' — это 7:30 (половина восьмого), как в русском. Минуты до: 'petnaest do tri' (2:45). Полдень — podne, полночь — ponoć. Глагол согласуется с числительным: dva su sata, но pet je sati.",
+     "examples": [
+      {
+       "en": "Koliko je sati? – Tri je sata.",
+       "ru": "Сколько времени? – Три часа."
+      },
+      {
+       "en": "Sada je pola osam.",
+       "ru": "Сейчас половина восьмого."
+      },
+      {
+       "en": "Deset i petnaest.",
+       "ru": "Десять пятнадцать."
+      }
+     ]
+    },
+    {
+     "title_en": "At what time? u + number",
+     "title_ru": "Во сколько? u + числительное",
+     "body_en": "'U koliko sati?' – 'U osam.' 'U pola devet.' 'U tri i trideset.' The preposition u is followed by the number in the accusative (unchanged). 'Ujutru' (in the morning), 'popodne' (in the afternoon), 'uveče' (in the evening) specify the part of the day.",
+     "body_ru": "'U koliko sati?' – 'U osam.' 'U pola devet.' 'U tri i trideset.' После предлога u числительное стоит в винительном падеже (не меняется). 'Ujutru' (утром), 'popodne' (после полудня), 'uveče' (вечером) уточняют время суток. Как русское «в восемь», без слова «часов» в разговоре.",
+     "examples": [
+      {
+       "en": "Čas počinje u devet.",
+       "ru": "Урок начинается в девять."
+      },
+      {
+       "en": "Vidimo se u pola sedam.",
+       "ru": "Увидимся в половине седьмого."
+      },
+      {
+       "en": "Radim od osam do četiri.",
+       "ru": "Я работаю с восьми до четырёх."
+      }
+     ]
+    },
+    {
+     "title_en": "Days of the week; nedelja",
+     "title_ru": "Дни недели; nedelja",
+     "body_en": "ponedeljak, utorak, sreda, četvrtak, petak, subota, nedelja. Use u + accusative: u ponedeljak, u sredu, u subotu, u nedelju. Careful: nedelja means Sunday and also 'week'; 'week' is also sedmica. Russian неделя means only 'week', a classic false friend. Days are written with a small letter.",
+     "body_ru": "ponedeljak, utorak, sreda, četvrtak, petak, subota, nedelja. С u + винительный: u ponedeljak, u sredu, u subotu, u nedelju. Осторожно: nedelja — это воскресенье, а также «неделя»; «неделя» ещё — sedmica. Русское «неделя» значит только «неделя» — классический ложный друг. Дни недели пишутся с маленькой буквы.",
+     "examples": [
+      {
+       "en": "U nedelju ne radim.",
+       "ru": "В воскресенье я не работаю."
+      },
+      {
+       "en": "Vidimo se u petak.",
+       "ru": "Увидимся в пятницу."
+      },
+      {
+       "en": "Sledeće nedelje idem u Beograd.",
+       "ru": "На следующей неделе я еду в Белград."
+      }
+     ]
+    },
+    {
+     "title_en": "Months and dates",
+     "title_ru": "Месяцы и даты",
+     "body_en": "januar, februar, mart, april, maj, jun, jul, avgust, septembar, oktobar, novembar, decembar; 'in May' is u maju (locative). Dates use ordinal numbers: prvi, drugi, treći, četvrti, peti, šesti, sedmi, osmi, deveti, deseti. 'Danas je prvi maj.' 'Koji je danas datum?' Ordinals are written with a dot: 1. maj.",
+     "body_ru": "januar, februar, mart, april, maj, jun, jul, avgust, septembar, oktobar, novembar, decembar; «в мае» — u maju (локатив). В датах используются порядковые числительные: prvi, drugi, treći, četvrti, peti, šesti, sedmi, osmi, deveti, deseti. 'Danas je prvi maj.' 'Koji je danas datum?' Порядковые числительные пишутся с точкой: 1. maj. Месяцы пишутся с маленькой буквы, как в русском.",
+     "examples": [
+      {
+       "en": "Danas je prvi maj.",
+       "ru": "Сегодня первое мая."
+      },
+      {
+       "en": "Rođen sam u septembru.",
+       "ru": "Я родился в сентябре."
+      },
+      {
+       "en": "Koji je danas datum? – Peti april.",
+       "ru": "Какое сегодня число? – Пятое апреля."
+      }
+     ]
+    },
+    {
+     "title_en": "Dative basics: meni, tebi; bratu, sestri",
+     "title_ru": "Основы дательного: meni, tebi; bratu, sestri",
+     "body_en": "The dative marks the receiver (kome? – to whom). Pronouns have long and short forms: meni/mi, tebi/ti, njemu/mu, njoj/joj, nama/nam, vama/vam, njima/im. Nouns: masculine and neuter -u (bratu, Marku, detetu), feminine -i (sestri, Ani, ženi). The pattern matches Russian брату, сестре, but the clitic ti (to you) must not be confused with the nominative ti (you).",
+     "body_ru": "Дательный падеж обозначает получателя (kome? – кому). У местоимений есть полные и краткие формы: meni/mi, tebi/ti, njemu/mu, njoj/joj, nama/nam, vama/vam, njima/im. Существительные: мужской и средний род -u (bratu, Marku, detetu), женский -i (sestri, Ani, ženi). Модель совпадает с русским «брату, сестре», но клитику ti (тебе) не путайте с именительным ti (ты): 'Dajem ti knjigu' — «Даю тебе книгу».",
+     "examples": [
+      {
+       "en": "Dajem knjigu bratu.",
+       "ru": "Я даю книгу брату."
+      },
+      {
+       "en": "Dajem ti knjigu.",
+       "ru": "Я даю тебе книгу."
+      },
+      {
+       "en": "Kažem sestri istinu.",
+       "ru": "Я говорю сестре правду."
+      }
+     ]
+    },
+    {
+     "title_en": "Dative verbs and phrases: pomoći nekome",
+     "title_ru": "Глаголы и выражения с дательным: pomoći nekome",
+     "body_en": "Common verbs with the dative: pomoći/pomagati (Pomozi mi!), dati (Daj mi!), reći/kazati, verovati, telefonirati. Impersonal phrases: 'Hladno mi je' (I am cold), 'Dosadno mi je', 'Drago mi je' (nice to meet you). Age also uses the dative: 'Koliko ti je godina?' – 'Dvadeset mi je godina', just like Russian 'Сколько тебе лет?'",
+     "body_ru": "Частые глаголы с дательным: pomoći/pomagati (Pomozi mi!), dati (Daj mi!), reći/kazati, verovati, telefonirati. Безличные выражения: 'Hladno mi je' (мне холодно), 'Dosadno mi je' (мне скучно), 'Drago mi je' (очень приятно). Возраст тоже через дательный: 'Koliko ti je godina?' – 'Dvadeset mi je godina' — как русское «Сколько тебе лет?». Обратите внимание на порядок: клитика mi стоит на втором месте.",
+     "examples": [
+      {
+       "en": "Pomozi mi, molim te!",
+       "ru": "Помоги мне, пожалуйста!"
+      },
+      {
+       "en": "Hladno mi je.",
+       "ru": "Мне холодно."
+      },
+      {
+       "en": "Koliko ti je godina? – Dvadeset.",
+       "ru": "Сколько тебе лет? – Двадцать."
+      },
+      {
+       "en": "Drago mi je.",
+       "ru": "Очень приятно."
+      }
+     ]
+    },
+    {
+     "title_en": "Age and prices",
+     "title_ru": "Возраст и цены",
+     "body_en": "'Imam dvadeset godina' (I am twenty). The word godina follows the number rule: 21 godinu, 22/23/24 godine, 25 godina. Prices: 'Košta sto dinara.' 'Koliko košta kafa? – Sto pedeset dinara.' Serbian uses dinar; the plural after numbers is dinara.",
+     "body_ru": "'Imam dvadeset godina' (мне двадцать лет) — буквально «имею двадцать лет». Слово godina подчиняется правилу числительных: 21 godinu, 22/23/24 godine, 25 godina — точно как в русском «21 год, 22 года, 25 лет». Цены: 'Košta sto dinara.' 'Koliko košta kafa? – Sto pedeset dinara.' В Сербии динары; после числительных — dinara.",
+     "examples": [
+      {
+       "en": "Imam dvadeset jednu godinu.",
+       "ru": "Мне двадцать один год."
+      },
+      {
+       "en": "Ona ima trideset dve godine.",
+       "ru": "Ей тридцать два года."
+      },
+      {
+       "en": "Kafa košta sto pedeset dinara.",
+       "ru": "Кофе стоит сто пятьдесят динаров."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "dva ___ (sat)",
+     "options": [
+      "sata",
+      "sati",
+      "sat"
+     ],
+     "answer": 0,
+     "explain_en": "After 2-4 the noun is in the genitive singular: dva sata.",
+     "explain_ru": "После 2–4 существительное в родительном единственного числа: dva sata. Как русское «два часа»."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "pet ___ (sat)",
+     "options": [
+      "sati",
+      "sata",
+      "satova"
+     ],
+     "answer": 0,
+     "explain_en": "After 5+ the genitive plural: pet sati (irregular, with -i).",
+     "explain_ru": "После 5 и больше — родительный множественного: pet sati (неправильная форма на -i). Как русское «пять часов»."
+    },
+    {
+     "id": "e03",
+     "type": "fill",
+     "q": "tri ___ (dan)",
+     "answer": [
+      "dana"
+     ],
+     "explain_en": "Genitive singular after tri: dana.",
+     "explain_ru": "Родительный единственного числа после tri: dana (три дня)."
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "deset ___ (dinar)",
+     "answer": [
+      "dinara"
+     ],
+     "explain_en": "Genitive plural after deset: dinara.",
+     "explain_ru": "Родительный множественного числа после deset: dinara."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "___ žene (2)",
+     "options": [
+      "dve",
+      "dva",
+      "dvoje"
+     ],
+     "answer": 0,
+     "explain_en": "Feminine nouns take dve.",
+     "explain_ru": "С существительными женского рода — dve, как русское «две женщины». Dvoje — собирательное «двое»."
+    },
+    {
+     "id": "e06",
+     "type": "match",
+     "pairs": [
+      [
+       "3",
+       "tri"
+      ],
+      [
+       "7",
+       "sedam"
+      ],
+      [
+       "11",
+       "jedanaest"
+      ],
+      [
+       "20",
+       "dvadeset"
+      ],
+      [
+       "100",
+       "sto"
+      ]
+     ]
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Koliko",
+      "je",
+      "sati?"
+     ],
+     "answer": "Koliko je sati?",
+     "ru": "Сколько времени?"
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "'Pola tri' means 2:30.",
+     "answer": true,
+     "explain_en": "True. Pola tri is half of the third hour, like Russian 'половина третьего'.",
+     "explain_ru": "Верно. Pola tri — половина третьего часа, то есть 2:30, как в русском «половина третьего»."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Sada ___ dva sata.",
+     "options": [
+      "su",
+      "je",
+      "sam"
+     ],
+     "answer": 0,
+     "explain_en": "With 2-4 the verb is plural: dva su sata. With 5+ it is singular: pet je sati.",
+     "explain_ru": "С 2–4 глагол во множественном числе: dva su sata. С 5 и больше — в единственном: pet je sati. В русском глагола здесь нет вовсе."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Imam dvadeset ___. (godina)",
+     "answer": [
+      "godina"
+     ],
+     "explain_en": "After 20 the genitive plural: godina.",
+     "explain_ru": "После 20 — родительный множественного: godina. Как русское «двадцать лет»."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "___ hladno. (мне холодно)",
+     "options": [
+      "Meni je",
+      "Ja sam",
+      "Mene je"
+     ],
+     "answer": 0,
+     "explain_en": "Feeling cold is expressed with the dative: Meni je hladno / Hladno mi je.",
+     "explain_ru": "«Мне холодно» выражается дательным падежом: Meni je hladno / Hladno mi je. 'Ja sam hladan' значило бы «я холодный (человек)»."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Pomozi ___! (ja, kratki oblik)",
+     "answer": [
+      "mi"
+     ],
+     "explain_en": "Pomoći takes the dative; the short form of meni is mi.",
+     "explain_ru": "Pomoći требует дательного падежа; краткая форма от meni — mi. Как русское «помоги мне»."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "Koliko",
+      "ti",
+      "je",
+      "godina?"
+     ],
+     "answer": "Koliko ti je godina?",
+     "ru": "Сколько тебе лет?"
+    },
+    {
+     "id": "e14",
+     "type": "mc",
+     "q": "Vidimo se u ___. (воскресенье)",
+     "options": [
+      "nedelju",
+      "sedmicu",
+      "subotu"
+     ],
+     "answer": 0,
+     "explain_en": "Nedelja means Sunday (and also week). Sedmica is only 'week', subota is Saturday.",
+     "explain_ru": "Nedelja — воскресенье (а также неделя). Sedmica — только «неделя», subota — суббота. Русское «неделя» здесь ложный друг."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "Dajem knjigu ___. (brat)",
+     "options": [
+      "bratu",
+      "brata",
+      "brate"
+     ],
+     "answer": 0,
+     "explain_en": "The receiver is in the dative: bratu.",
+     "explain_ru": "Получатель стоит в дательном падеже: bratu. Как русское «даю брату»."
+    },
+    {
+     "id": "e16",
+     "type": "tf",
+     "q": "Serbian 'nedelja' means only 'week', like Russian 'неделя'.",
+     "answer": false,
+     "explain_en": "False. Nedelja is first of all Sunday; it can also mean week (sedmica).",
+     "explain_ru": "Неверно. Nedelja — прежде всего воскресенье; слово может значить и «неделя» (sedmica). 'U nedelju' — в воскресенье."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Imam dvadeset jednu ___. (godina)",
+     "answer": [
+      "godinu"
+     ],
+     "explain_en": "After 21 the noun is in the accusative singular: godinu.",
+     "explain_ru": "После 21 существительное в винительном единственного числа: godinu. Как русское «двадцать один год»."
+    },
+    {
+     "id": "e18",
+     "type": "match",
+     "pairs": [
+      [
+       "ja",
+       "meni"
+      ],
+      [
+       "ti",
+       "tebi"
+      ],
+      [
+       "on",
+       "njemu"
+      ],
+      [
+       "ona",
+       "njoj"
+      ],
+      [
+       "mi",
+       "nama"
+      ]
+     ]
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "Sastanak je u ___. (8:00)",
+     "options": [
+      "osam",
+      "osmog",
+      "osmi"
+     ],
+     "answer": 0,
+     "explain_en": "At what time: u + cardinal number: u osam.",
+     "explain_ru": "Во сколько: u + количественное числительное: u osam. Osmi — порядковое «восьмой»."
+    },
+    {
+     "id": "e20",
+     "type": "fill",
+     "q": "Rođendan mi je u ___. (maj)",
+     "answer": [
+      "maju"
+     ],
+     "explain_en": "Months take u + locative: u maju.",
+     "explain_ru": "Месяцы — u + локатив: u maju. Как русское «в мае»."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Sada",
+      "je",
+      "pola",
+      "osam."
+     ],
+     "answer": "Sada je pola osam.",
+     "ru": "Сейчас половина восьмого."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "Pomažem ___. (Ana)",
+     "options": [
+      "Ani",
+      "Anu",
+      "Ane"
+     ],
+     "answer": 0,
+     "explain_en": "Pomagati takes the dative; feminine dative is -i: Ani.",
+     "explain_ru": "Pomagati требует дательного падежа; дательный женского рода — -i: Ani. Как русское «помогаю Ане»."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "četiri ___ (kuća)",
+     "answer": [
+      "kuće"
+     ],
+     "explain_en": "Genitive singular after četiri: kuće.",
+     "explain_ru": "Родительный единственного числа после četiri: kuće (четыре дома)."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "After 'pet' the noun takes the genitive plural: 'pet sati'.",
+     "answer": true,
+     "explain_en": "True. 5 and above take the genitive plural, as in Russian 'пять часов'.",
+     "explain_ru": "Верно. После 5 и больше — родительный множественного числа, как в русском «пять часов»."
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "Danas je ___ maj. (1.)",
+     "options": [
+      "prvi",
+      "jedan",
+      "prva"
+     ],
+     "answer": 0,
+     "explain_en": "Dates use ordinal numbers in the masculine: prvi maj.",
+     "explain_ru": "В датах используются порядковые числительные в мужском роде: prvi maj. В русском — средний род «первое мая»."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "Hvala ___! (vi, kratki oblik)",
+     "answer": [
+      "vam"
+     ],
+     "explain_en": "Hvala takes the dative: hvala vam (thank you, polite).",
+     "explain_ru": "Hvala требует дательного падежа: hvala vam (спасибо вам). Краткая форма от vama — vam."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "Čas",
+      "počinje",
+      "u",
+      "pola",
+      "devet."
+     ],
+     "answer": "Čas počinje u pola devet.",
+     "ru": "Урок начинается в половине девятого."
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "7:30",
+       "pola osam"
+      ],
+      [
+       "9:15",
+       "devet i petnaest"
+      ],
+      [
+       "12:00",
+       "podne"
+      ],
+      [
+       "3:00",
+       "tri sata"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "past-and-future",
+   "title_en": "Past tense (perfekat) and future (futur I)",
+   "title_ru": "Прошедшее время (перфект) и будущее (футур I)",
+   "summary_en": "The past tense combines the present of biti with the l-participle: Ja sam radio. The participle agrees in gender and number, and the negation is nisam radio. The future uses the clitics ću, ćeš... + infinitive: Radiću / Ja ću raditi.",
+   "summary_ru": "Прошедшее время сочетает настоящее время biti с l-причастием: Ja sam radio. Причастие согласуется в роде и числе, отрицание — nisam radio. Будущее образуется клитиками ću, ćeš... + инфинитив: Radiću / Ja ću raditi.",
+   "rules": [
+    {
+     "title_en": "Perfekat = biti + l-participle",
+     "title_ru": "Перфект = biti + l-причастие",
+     "body_en": "The Serbian past tense (perfekat) has two parts: the short present form of biti (sam, si, je, smo, ste, su) and the l-participle (radni glagolski pridev): radio, radila, radilo. 'Ja sam radio.' 'Ona je radila.' Russian uses the -л form alone (я работал); Serbian always adds the auxiliary.",
+     "body_ru": "Сербское прошедшее время (перфект) состоит из двух частей: краткая форма настоящего времени biti (sam, si, je, smo, ste, su) и l-причастие (radni glagolski pridev): radio, radila, radilo. 'Ja sam radio.' 'Ona je radila.' Русский использует форму на -л без связки (я работал); сербский всегда добавляет вспомогательный глагол — не пропускайте его.",
+     "examples": [
+      {
+       "en": "Ja sam radio.",
+       "ru": "Я работал."
+      },
+      {
+       "en": "Ona je radila.",
+       "ru": "Она работала."
+      },
+      {
+       "en": "Mi smo učili srpski.",
+       "ru": "Мы учили сербский."
+      }
+     ]
+    },
+    {
+     "title_en": "Forming the participle",
+     "title_ru": "Образование причастия",
+     "body_en": "Remove -ti from the infinitive and add -o (masculine), -la (feminine), -lo (neuter): imati – imao/imala, učiti – učio/učila, videti – video/videla, biti – bio/bila. Verbs in -ći are irregular: ići – išao/išla, moći – mogao/mogla, reći – rekao/rekla, doći – došao/došla. Note that the masculine singular ends in -o, not -l: the l appears in all other forms.",
+     "body_ru": "Уберите -ti у инфинитива и добавьте -o (мужской род), -la (женский), -lo (средний): imati – imao/imala, učiti – učio/učila, videti – video/videla, biti – bio/bila. Глаголы на -ći неправильные: ići – išao/išla, moći – mogao/mogla, reći – rekao/rekla, doći – došao/došla. Обратите внимание: мужской род оканчивается на -o, а не на -l (bio, а не «был»); l появляется в остальных формах.",
+     "examples": [
+      {
+       "en": "učiti – učio, učila",
+       "ru": "учить – учил, учила"
+      },
+      {
+       "en": "ići – išao, išla",
+       "ru": "идти – шёл, шла"
+      },
+      {
+       "en": "biti – bio, bila",
+       "ru": "быть – был, была"
+      },
+      {
+       "en": "doći – došao, došla",
+       "ru": "прийти – пришёл, пришла"
+      }
+     ]
+    },
+    {
+     "title_en": "Agreement of the participle",
+     "title_ru": "Согласование причастия",
+     "body_en": "The participle agrees with the subject: masculine -o, feminine -la, neuter -lo in the singular; -li, -le, -la in the plural: oni su radili, one su radile, deca su radila (deca takes -la). Mixed groups use -li. Polite Vi takes the plural: 'Vi ste radili.'",
+     "body_ru": "Причастие согласуется с подлежащим: мужской род -o, женский -la, средний -lo в единственном числе; -li, -le, -la во множественном: oni su radili, one su radile, deca su radila (deca требует -la). Смешанные группы — -li. Вежливое Vi — множественное число: 'Vi ste radili.' Русский различает род только в единственном числе, сербский — и во множественном.",
+     "examples": [
+      {
+       "en": "Marko je došao.",
+       "ru": "Марко пришёл."
+      },
+      {
+       "en": "Ana je došla.",
+       "ru": "Ана пришла."
+      },
+      {
+       "en": "Marko i Ana su došli.",
+       "ru": "Марко и Ана пришли."
+      },
+      {
+       "en": "Deca su bila u školi.",
+       "ru": "Дети были в школе."
+      }
+     ]
+    },
+    {
+     "title_en": "Word order: the clitic in second place",
+     "title_ru": "Порядок слов: клитика на втором месте",
+     "body_en": "The auxiliary is a clitic and stands in second position: 'Ja sam video.' / 'Video sam.' / 'Juče sam video Marka.' In questions: 'Da li si video?' or 'Jesi li video?'. With reflexive se in the 3rd person singular, je is dropped: 'On se smejao.' Pronoun clitics follow the auxiliary: 'Video sam ga.'",
+     "body_ru": "Вспомогательный глагол — клитика и стоит на втором месте: 'Ja sam video.' / 'Video sam.' / 'Juče sam video Marka.' В вопросах: 'Da li si video?' или 'Jesi li video?'. С возвратным se в 3-м лице единственного числа je опускается: 'On se smejao.' Местоименные клитики идут после вспомогательного глагола: 'Video sam ga.' В русском таких ограничений нет, поэтому отрабатывайте порядок отдельно.",
+     "examples": [
+      {
+       "en": "Video sam film.",
+       "ru": "Я видел фильм."
+      },
+      {
+       "en": "Juče sam video Marka.",
+       "ru": "Вчера я видел Марко."
+      },
+      {
+       "en": "On se smejao.",
+       "ru": "Он смеялся."
+      }
+     ]
+    },
+    {
+     "title_en": "Negation: nisam video",
+     "title_ru": "Отрицание: nisam video",
+     "body_en": "The negative past uses nisam, nisi, nije, nismo, niste, nisu + participle: 'Nisam video.' 'Nije došla.' 'Nismo bili tamo.' The negative form is stressed, so it may start the sentence; the participle follows it.",
+     "body_ru": "Отрицательное прошедшее время: nisam, nisi, nije, nismo, niste, nisu + причастие: 'Nisam video.' 'Nije došla.' 'Nismo bili tamo.' Отрицательная форма ударная, поэтому может стоять в начале предложения; причастие идёт за ней. По-русски «я не видел» — одно отрицание при глаголе, по-сербски отрицается вспомогательный глагол.",
+     "examples": [
+      {
+       "en": "Nisam video Marka.",
+       "ru": "Я не видел Марко."
+      },
+      {
+       "en": "Ona nije došla.",
+       "ru": "Она не пришла."
+      },
+      {
+       "en": "Nismo bili u Beogradu.",
+       "ru": "Мы не были в Белграде."
+      }
+     ]
+    },
+    {
+     "title_en": "Past of biti: bio sam, bila sam",
+     "title_ru": "Прошедшее время biti: bio sam, bila sam",
+     "body_en": "'I was' is bio sam (man) or bila sam (woman): 'Bio sam u Beogradu.' 'Bila je lepa.' 'Bili smo umorni.' It looks like Russian был/была, but remember the clitic: 'Bio sam', not just 'Bio'.",
+     "body_ru": "«Я был(а)» — bio sam (мужчина) или bila sam (женщина): 'Bio sam u Beogradu.' 'Bila je lepa.' 'Bili smo umorni.' Похоже на русское был/была, но не забывайте клитику: 'Bio sam', а не просто 'Bio'.",
+     "examples": [
+      {
+       "en": "Bio sam u Beogradu.",
+       "ru": "Я был в Белграде."
+      },
+      {
+       "en": "Bila je lepa.",
+       "ru": "Она была красивая."
+      },
+      {
+       "en": "Gde ste bili?",
+       "ru": "Где вы были?"
+      }
+     ]
+    },
+    {
+     "title_en": "Aspect in the past",
+     "title_ru": "Вид в прошедшем времени",
+     "body_en": "Serbian has imperfective and perfective verb pairs, like Russian: čitati/pročitati, pisati/napisati, kupovati/kupiti, raditi/uraditi, gledati/pogledati. Both appear in the perfekat: 'Čitao sam knjigu' (I was reading) versus 'Pročitao sam knjigu' (I read it through). Your Russian sense of aspect transfers almost perfectly.",
+     "body_ru": "В сербском, как и в русском, есть видовые пары: čitati/pročitati, pisati/napisati, kupovati/kupiti, raditi/uraditi, gledati/pogledati. Оба вида употребляются в перфекте: 'Čitao sam knjigu' (я читал) — 'Pročitao sam knjigu' (я прочитал). Русское чувство вида переносится почти без изменений — это ваше преимущество.",
+     "examples": [
+      {
+       "en": "Čitao sam knjigu.",
+       "ru": "Я читал книгу."
+      },
+      {
+       "en": "Pročitao sam knjigu.",
+       "ru": "Я прочитал книгу."
+      },
+      {
+       "en": "Kupila je hleb.",
+       "ru": "Она купила хлеб."
+      }
+     ]
+    },
+    {
+     "title_en": "Futur I: ću, ćeš, će + infinitive",
+     "title_ru": "Футур I: ću, ćeš, će + инфинитив",
+     "body_en": "The future is formed with the clitics of hteti (ću, ćeš, će, ćemo, ćete, će) and the infinitive: 'Ja ću raditi.' 'Oni će doći.' When the infinitive in -ti comes first, it loses -ti and merges with the clitic: radiću, radićeš, radiće, radićemo, radićete, radiće; 'Čitaću knjigu.' Infinitives in -ći stay separate: 'Ići ću.' Serbian has one future for both Russian 'буду читать' and 'прочитаю'.",
+     "body_ru": "Будущее время образуется клитиками глагола hteti (ću, ćeš, će, ćemo, ćete, će) и инфинитивом: 'Ja ću raditi.' 'Oni će doći.' Если инфинитив на -ti стоит первым, он теряет -ti и сливается с клитикой: radiću, radićeš, radiće, radićemo, radićete, radiće; 'Čitaću knjigu.' Инфинитивы на -ći пишутся раздельно: 'Ići ću.' В сербском одно будущее и для русского «буду читать», и для «прочитаю»: čitaću / pročitaću.",
+     "examples": [
+      {
+       "en": "Ja ću raditi sutra.",
+       "ru": "Я буду работать завтра."
+      },
+      {
+       "en": "Radiću sutra.",
+       "ru": "Я буду работать завтра."
+      },
+      {
+       "en": "Oni će doći.",
+       "ru": "Они придут."
+      },
+      {
+       "en": "Ići ću u školu.",
+       "ru": "Я пойду в школу."
+      }
+     ]
+    },
+    {
+     "title_en": "Future with da + present; negation neću",
+     "title_ru": "Будущее с da + настоящее; отрицание neću",
+     "body_en": "Colloquially the infinitive is often replaced by da + present: 'Ja ću da radim.' 'Sutra ćemo da idemo.' The negative future uses the full forms neću, nećeš, neće... + infinitive or da + present: 'Neću ići.' 'Neću da idem.' Questions: 'Hoćeš li doći?' 'Da li ćeš doći?'",
+     "body_ru": "В разговорной речи инфинитив часто заменяется на da + настоящее время: 'Ja ću da radim.' 'Sutra ćemo da idemo.' Отрицательное будущее — полные формы neću, nećeš, neće... + инфинитив или da + настоящее: 'Neću ići.' 'Neću da idem.' Вопросы: 'Hoćeš li doći?' 'Da li ćeš doći?' Обратите внимание: neću — это и «не хочу», и «не буду»; смысл ясен из контекста.",
+     "examples": [
+      {
+       "en": "Ja ću da radim.",
+       "ru": "Я буду работать."
+      },
+      {
+       "en": "Neću ići na posao.",
+       "ru": "Я не пойду на работу."
+      },
+      {
+       "en": "Hoćeš li doći sutra?",
+       "ru": "Ты придёшь завтра?"
+      }
+     ]
+    },
+    {
+     "title_en": "Time expressions for past and future",
+     "title_ru": "Слова-маркеры прошлого и будущего",
+     "body_en": "Past: juče (yesterday), prekjuče (the day before yesterday), prošle nedelje (last week), prošle godine (last year), pre dva dana (two days ago). Future: sutra (tomorrow), prekosutra, sledeće nedelje (next week), sledeće godine, za dva dana (in two days). Note 'pre' and 'za' are the Serbian equivalents of 'назад' and 'через'.",
+     "body_ru": "Прошлое: juče (вчера), prekjuče (позавчера), prošle nedelje (на прошлой неделе), prošle godine (в прошлом году), pre dva dana (два дня назад). Будущее: sutra (завтра), prekosutra (послезавтра), sledeće nedelje (на следующей неделе), sledeće godine, za dva dana (через два дня). Обратите внимание: pre = «назад», za = «через» — порядок слов иной, чем в русском.",
+     "examples": [
+      {
+       "en": "Juče sam bio kod kuće.",
+       "ru": "Вчера я был дома."
+      },
+      {
+       "en": "Sutra ću ići na posao.",
+       "ru": "Завтра я пойду на работу."
+      },
+      {
+       "en": "Došli su pre dva dana.",
+       "ru": "Они приехали два дня назад."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Ja ___ radio. (biti)",
+     "options": [
+      "sam",
+      "si",
+      "je"
+     ],
+     "answer": 0,
+     "explain_en": "The auxiliary agrees with ja: sam. Unlike Russian 'я работал', it cannot be dropped.",
+     "explain_ru": "Вспомогательный глагол согласуется с ja: sam. В отличие от русского «я работал», его нельзя опустить."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Ona je ___. (učiti)",
+     "options": [
+      "učila",
+      "učio",
+      "učili"
+     ],
+     "answer": 0,
+     "explain_en": "Feminine singular participle: učila.",
+     "explain_ru": "Причастие женского рода единственного числа: učila. Как русское «училась/учила»."
+    },
+    {
+     "id": "e03",
+     "type": "fill",
+     "q": "Mi ___ bili u Beogradu. (biti)",
+     "answer": [
+      "smo"
+     ],
+     "explain_en": "1st person plural auxiliary: smo.",
+     "explain_ru": "Вспомогательный глагол 1-го лица множественного числа: smo. По-русски «мы были» — без связки."
+    },
+    {
+     "id": "e04",
+     "type": "fill",
+     "q": "On je ___ knjigu. (čitati)",
+     "answer": [
+      "čitao"
+     ],
+     "explain_en": "Masculine singular participle: čitao (ending -o, not -l).",
+     "explain_ru": "Причастие мужского рода единственного числа: čitao (окончание -o, а не -l, как в русском «читал»)."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Oni su ___ u školu. (ići)",
+     "options": [
+      "išli",
+      "išao",
+      "idali"
+     ],
+     "answer": 0,
+     "explain_en": "Ići has the irregular participle išao/išla/išli; plural with oni: išli.",
+     "explain_ru": "У ići неправильное причастие išao/išla/išli; с oni — išli. Сравните русское «шли»."
+    },
+    {
+     "id": "e06",
+     "type": "match",
+     "pairs": [
+      [
+       "raditi",
+       "radio"
+      ],
+      [
+       "videti",
+       "video"
+      ],
+      [
+       "ići",
+       "išao"
+      ],
+      [
+       "moći",
+       "mogao"
+      ],
+      [
+       "biti",
+       "bio"
+      ]
+     ]
+    },
+    {
+     "id": "e07",
+     "type": "order",
+     "words": [
+      "Juče",
+      "sam",
+      "bio",
+      "u",
+      "gradu."
+     ],
+     "answer": "Juče sam bio u gradu.",
+     "ru": "Вчера я был в городе."
+    },
+    {
+     "id": "e08",
+     "type": "tf",
+     "q": "In Serbian the past tense needs the auxiliary 'biti': 'Ja sam radio', unlike Russian 'я работал'.",
+     "answer": true,
+     "explain_en": "True. The perfekat always has two parts.",
+     "explain_ru": "Верно. Перфект всегда состоит из двух частей: вспомогательный глагол + причастие."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "___ video Marka. (ja, negacija)",
+     "options": [
+      "Nisam",
+      "Ne sam",
+      "Ne video"
+     ],
+     "answer": 0,
+     "explain_en": "Negative past: nisam + participle. Nisam can stand first.",
+     "explain_ru": "Отрицательное прошедшее: nisam + причастие. Nisam может стоять первым. 'Ne sam' — ошибка."
+    },
+    {
+     "id": "e10",
+     "type": "fill",
+     "q": "Ona ___ došla. (negacija)",
+     "answer": [
+      "nije"
+     ],
+     "explain_en": "3rd person singular negative auxiliary: nije.",
+     "explain_ru": "Отрицательный вспомогательный глагол 3-го лица единственного числа: nije."
+    },
+    {
+     "id": "e11",
+     "type": "mc",
+     "q": "Marija i Ana su ___ film. (gledati)",
+     "options": [
+      "gledale",
+      "gledali",
+      "gledala"
+     ],
+     "answer": 0,
+     "explain_en": "Two women: feminine plural participle -le.",
+     "explain_ru": "Две женщины: причастие женского рода множественного числа -le. В русском «смотрели» род не различается."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Ja ___ raditi sutra. (hteti, futur)",
+     "answer": [
+      "ću"
+     ],
+     "explain_en": "Future clitic for ja: ću.",
+     "explain_ru": "Клитика будущего времени для ja: ću. 'Ja ću raditi' = «я буду работать»."
+    },
+    {
+     "id": "e13",
+     "type": "order",
+     "words": [
+      "Da",
+      "li",
+      "si",
+      "video",
+      "Marka?"
+     ],
+     "answer": "Da li si video Marka?",
+     "ru": "Ты видел Марко?"
+    },
+    {
+     "id": "e14",
+     "type": "mc",
+     "q": "Sutra ___ ići u školu. (mi)",
+     "options": [
+      "ćemo",
+      "ćete",
+      "će"
+     ],
+     "answer": 0,
+     "explain_en": "1st person plural future clitic: ćemo.",
+     "explain_ru": "Клитика будущего времени 1-го лица множественного числа: ćemo."
+    },
+    {
+     "id": "e15",
+     "type": "mc",
+     "q": "Koja rečenica je ispravna?",
+     "options": [
+      "Sam video film.",
+      "Video sam film.",
+      "Video film sam."
+     ],
+     "answer": 1,
+     "explain_en": "The clitic sam must be in second position: 'Video sam film.'",
+     "explain_ru": "Клитика sam должна стоять на втором месте: 'Video sam film.' Ни первой, ни в конце."
+    },
+    {
+     "id": "e16",
+     "type": "tf",
+     "q": "'Radiću' means the same as 'Ja ću raditi'.",
+     "answer": true,
+     "explain_en": "True. When the infinitive comes first, it drops -ti and merges with ću: radiću.",
+     "explain_ru": "Верно. Когда инфинитив стоит первым, он теряет -ti и сливается с ću: radiću. Оба варианта значат «я буду работать»."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Deca su ___ u parku. (biti)",
+     "answer": [
+      "bila"
+     ],
+     "explain_en": "Deca takes the participle in -la: deca su bila.",
+     "explain_ru": "С deca причастие на -la: deca su bila. Не «bili», как подсказала бы русская логика «дети были»."
+    },
+    {
+     "id": "e18",
+     "type": "match",
+     "pairs": [
+      [
+       "ja",
+       "ću"
+      ],
+      [
+       "ti",
+       "ćeš"
+      ],
+      [
+       "on",
+       "će"
+      ],
+      [
+       "mi",
+       "ćemo"
+      ],
+      [
+       "vi",
+       "ćete"
+      ]
+     ]
+    },
+    {
+     "id": "e19",
+     "type": "mc",
+     "q": "Hoćeš li ___ sutra? (doći)",
+     "options": [
+      "doći",
+      "došao",
+      "dođeš"
+     ],
+     "answer": 0,
+     "explain_en": "After the future auxiliary the infinitive is used: Hoćeš li doći?",
+     "explain_ru": "После вспомогательного глагола будущего времени стоит инфинитив: Hoćeš li doći? Došao — причастие, dođeš — настоящее время."
+    },
+    {
+     "id": "e20",
+     "type": "fill",
+     "q": "Mi ___ išli u bioskop. (negacija)",
+     "answer": [
+      "nismo"
+     ],
+     "explain_en": "1st person plural negative auxiliary: nismo.",
+     "explain_ru": "Отрицательный вспомогательный глагол 1-го лица множественного числа: nismo."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Sutra",
+      "ću",
+      "učiti",
+      "srpski."
+     ],
+     "answer": "Sutra ću učiti srpski.",
+     "ru": "Завтра я буду учить сербский."
+    },
+    {
+     "id": "e22",
+     "type": "mc",
+     "q": "On se ___ celo veče. (smejati se)",
+     "options": [
+      "smejao",
+      "je smejao",
+      "smejali"
+     ],
+     "answer": 0,
+     "explain_en": "With se in the 3rd person singular, je is dropped: 'On se smejao.'",
+     "explain_ru": "С se в 3-м лице единственного числа je опускается: 'On se smejao.' Форма 'se je' в сербском не употребляется."
+    },
+    {
+     "id": "e23",
+     "type": "fill",
+     "q": "___ ići na posao sutra. (hteti, negacija, ja)",
+     "answer": [
+      "Neću"
+     ],
+     "explain_en": "Negative future: neću + infinitive.",
+     "explain_ru": "Отрицательное будущее: neću + инфинитив. 'Neću ići' — «я не пойду»."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "Serbian has one future tense for both 'буду читать' and 'прочитаю': 'Čitaću' / 'Pročitaću'.",
+     "answer": true,
+     "explain_en": "True. Aspect is shown by the verb (čitati/pročitati), not by a different tense form.",
+     "explain_ru": "Верно. Вид показывает сам глагол (čitati/pročitati), а не разная форма времени, как в русском «буду читать / прочитаю»."
+    },
+    {
+     "id": "e25",
+     "type": "mc",
+     "q": "Prošle godine ___ bili u Srbiji. (mi)",
+     "options": [
+      "smo",
+      "su",
+      "ste"
+     ],
+     "answer": 0,
+     "explain_en": "1st person plural auxiliary after the time phrase: Prošle godine smo bili.",
+     "explain_ru": "Вспомогательный глагол 1-го лица множественного числа после обстоятельства времени: Prošle godine smo bili. Клитика — на втором месте."
+    },
+    {
+     "id": "e26",
+     "type": "fill",
+     "q": "Ona ___ knjigu. (pročitati, perfekat)",
+     "answer": [
+      "je pročitala"
+     ],
+     "explain_en": "Perfective past, feminine: je pročitala (she has read it through).",
+     "explain_ru": "Прошедшее время совершенного вида, женский род: je pročitala (она прочитала). Не забудьте вспомогательный глагол."
+    },
+    {
+     "id": "e27",
+     "type": "order",
+     "words": [
+      "Oni",
+      "će",
+      "doći",
+      "sledeće",
+      "nedelje."
+     ],
+     "answer": "Oni će doći sledeće nedelje.",
+     "ru": "Они приедут на следующей неделе."
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "Bio sam.",
+       "Я был."
+      ],
+      [
+       "Nisam bio.",
+       "Я не был."
+      ],
+      [
+       "Biću.",
+       "Я буду."
+      ],
+      [
+       "Neću biti.",
+       "Я не буду."
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

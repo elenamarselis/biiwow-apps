@@ -1,4 +1,4 @@
-# Deploys both Biiwow learning apps to Cloudflare Pages on every push to main.
+# Deploys the Biiwow apps to Cloudflare Pages on every push to main.
 # Needs the repository secret CLOUDFLARE_API_TOKEN (Cloudflare Pages: Edit).
 name: Deploy to Cloudflare Pages
 on:
@@ -41,3 +41,63 @@ jobs:
         run: |
           sleep 20
           curl -sSf "https://nine-scripts.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "Nine Scripts live: new build served"
+  serbian-steps:
+    name: Serbian Steps
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: serbian-steps/site
+          command: pages deploy . --project-name biiwow-serbian-steps --branch main --commit-dirty=true
+      - name: Verify live
+        run: |
+          sleep 20
+          curl -sSf "https://biiwow-serbian-steps.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "Serbian Steps live: new build served"
+  hungarian-steps:
+    name: Hungarian Steps
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: hungarian-steps/site
+          command: pages deploy . --project-name biiwow-hungarian-steps --branch main --commit-dirty=true
+      - name: Verify live
+        run: |
+          sleep 20
+          curl -sSf "https://biiwow-hungarian-steps.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "Hungarian Steps live: new build served"
+  spanish-steps:
+    name: Spanish Steps
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: spanish-steps/site
+          command: pages deploy . --project-name biiwow-spanish-steps --branch main --commit-dirty=true
+      - name: Verify live
+        run: |
+          sleep 20
+          curl -sSf "https://biiwow-spanish-steps.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "Spanish Steps live: new build served"
+  biiwow-languages:
+    name: Languages page
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: biiwow-languages/site
+          command: pages deploy . --project-name biiwow-languages --branch main --commit-dirty=true
+      - name: Verify live
+        run: |
+          sleep 20
+          curl -sSf "https://biiwow-languages.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "Languages page live: new build served"

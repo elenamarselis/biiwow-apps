@@ -1,6 +1,11 @@
 // Cloudflare Pages advanced-mode worker (_worker.js): the progress API on /api/progress/<name>, everything else served from the static files.
 // Bind a KV namespace to the Pages project as PROGRESS. The client sends "x-profile-key": a hash of email+password.
 // Storage: {"__auth": "<key or empty>", "doc": {...}}. Older values without the envelope are read as unprotected and wrapped on the next write.
+const SENTRY_DSN="__SENTRY_DSN__";
+function sentryReport(err,request){try{const m=/^https:\/\/([^@]+)@([^/]+)\/(\d+)$/.exec(SENTRY_DSN);if(!m)return;const [,key,host,pid]=m;const id=crypto.randomUUID().replace(/-/g,"");const now=new Date().toISOString();
+  const ev={event_id:id,timestamp:now,platform:"javascript",level:"error",logger:"worker",request:{url:request.url,method:request.method},exception:{values:[{type:(err&&err.name)||"Error",value:String((err&&err.message)||err),stacktrace:err&&err.stack?{frames:[{function:err.stack.split("\n")[1]||"worker"}]}:undefined}]}};
+  const body=JSON.stringify({event_id:id,sent_at:now,dsn:SENTRY_DSN})+"\n"+JSON.stringify({type:"event"})+"\n"+JSON.stringify(ev);
+  return fetch("https://"+host+"/api/"+pid+"/envelope/",{method:"POST",headers:{"Content-Type":"application/x-sentry-envelope","X-Sentry-Auth":"Sentry sentry_version=7, sentry_client=biiwow-worker/1.0, sentry_key="+key},body});}catch(e){}}
 const PREFIX="progress:";
 const json=(obj,status=200)=>new Response(JSON.stringify(obj),{status,headers:{"Content-Type":"application/json; charset=utf-8","Cache-Control":"no-store"}});
 const keyOf=name=>PREFIX+decodeURIComponent(name||"").trim().toLowerCase().replace(/\s+/g," ").slice(0,80);
@@ -24,9 +29,10 @@ async function save(request,name,env){
   return json({ok:true,updatedAt:doc.updatedAt||null});
 }
 export default {
-  async fetch(request,env){
+  async fetch(request,env,ctx){
     const url=new URL(request.url);const m=url.pathname.match(/^\/api\/progress\/([^\/]+)\/?$/);
-    if(m){const name=m[1];if(request.method==="GET")return get(request,name,env);if(request.method==="PUT"||request.method==="POST")return save(request,name,env);return json({error:"method"},405);}
+    if(m){const name=m[1];try{if(request.method==="GET")return await get(request,name,env);if(request.method==="PUT"||request.method==="POST")return await save(request,name,env);return json({error:"method"},405);}
+      catch(err){const p=sentryReport(err,request);if(p&&ctx)ctx.waitUntil(p);return json({error:"server error"},500);}}
     return env.ASSETS.fetch(request);
   }
 };
