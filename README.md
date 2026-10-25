@@ -6,10 +6,15 @@ Two Biiwow learning apps, each a static site plus a Cloudflare Pages worker (`si
 |---|---|---|
 | English Steps (A1–C1, Russian/English UI) | `english-steps/` | https://biiwow-english-steps.pages.dev |
 | Nine Scripts (14 languages) | `nine-scripts/` | https://nine-scripts.pages.dev |
+| Serbian Steps (A1–C2) | `serbian-steps/` | https://biiwow-serbian-steps.pages.dev (content in progress) |
+| Hungarian Steps (A1–C2) | `hungarian-steps/` | https://biiwow-hungarian-steps.pages.dev (content in progress) |
+| Spanish Steps (A1–C2) | `spanish-steps/` | https://biiwow-spanish-steps.pages.dev (content in progress) |
 
 ## Build
 
-- English Steps: `cd english-steps && node build.js` → `site/index.html`, `site/manifest.webmanifest`, `site/sw.js`, copies packs.
+All "Steps" apps (English, Serbian, Hungarian, Spanish) share one code base in `steps-core/`; each app folder holds a `config.json` (language, levels, names), its `packs/` and the built `site/`.
+
+- Steps app: `node steps-core/build.js <app-folder>` (e.g. `node steps-core/build.js english-steps`) → `<app>/site/`.
 - Nine Scripts: `cd nine-scripts && node build.js && node build-cf.js` → `index.html` (claude.ai preview) and `site/`.
 
 The built `site/` folders are committed; the workflow deploys them as they are.

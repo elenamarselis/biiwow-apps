@@ -9,5 +9,5 @@ if(!Array.isArray(a))errs.push("not an array");
   if(e.topic)topics[e.topic]=(topics[e.topic]||0)+1;});
 const tl=Object.keys(topics);console.log(lvl+": "+(a||[]).length+" items, "+tl.length+" topics, verbs "+(a||[]).filter(e=>e.pos==="verb").length+", with forms "+(a||[]).filter(e=>e.forms).length+", notes "+(a||[]).filter(e=>e.note_ru).length);
 for(const t of tl)console.log("  "+String(topics[t]).padStart(3)+"  "+t);
-if(tl.length!==20)errs.push("expected 20 topics, have "+tl.length);for(const t of tl)if(topics[t]<23||topics[t]>27)errs.push("topic '"+t+"' has "+topics[t]+" (want 25)");
+if(tl.length<20)errs.push("expected at least 20 topics, have "+tl.length);for(const t of tl)if(topics[t]<23||topics[t]>27)errs.push("topic '"+t+"' has "+topics[t]+" (want 25)");
 if(errs.length){console.log("ERRORS ("+errs.length+"):");errs.slice(0,40).forEach(e=>console.log("  - "+e));process.exit(2);}

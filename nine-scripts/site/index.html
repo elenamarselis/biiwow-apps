@@ -816,6 +816,8 @@ async function openDatabase(preTopic){const L=LANGS[S.lang];const body=el("div",
   if(preTopic){const row=[...list.children].find(c=>c.querySelector("b")&&c.querySelector("b").textContent===preTopic);if(row)row.scrollIntoView({block:"center"});}}
 async function loadStarter(){const pack=STARTER.filter(s=>s.lang===S.lang);const have=new Set(itemsFor(S.lang).map(i=>norm(i.target)));const add=pack.filter(s=>!have.has(norm(s.target))).map(s=>newItem(Object.assign({},s,{source:"starter"})));if(!add.length)return toast("You already have the whole starter pack for "+LANGS[S.lang].name+".");await Store.putItems(add);render();toast(add.length+" starter words added.");}
 async function loadAlphabet(quiet){const A=ALPHABETS[S.lang];if(!A)return toast("No built-in alphabet for this language.");const have=new Set(itemsFor(S.lang).filter(i=>i.type==="letter").map(i=>i.target));const add=A.items.filter(a=>!have.has(a[0])).map((a,i)=>newItem({id:"l_"+S.lang+"_"+a[0].codePointAt(0).toString(16)+"_"+i,type:"letter",target:a[0],en:a[1],roman:a[2]||null,note:a[3]||null,topic:"Alphabet",source:"alphabet"}));if(!add.length){if(!quiet)toast("The alphabet is already loaded.");return;}S.loading=true;await Store.putItems(add);S.loading=false;if(quiet){toast(add.length+" letters loaded: "+A.title);return;}S.filter.type="letter";render();toast(add.length+" letters added: "+A.title);}
+/* Sync pending progress as soon as the connection returns. */
+if(CLOUD)addEventListener("online",()=>{if(Cloud.doc&&Cloud.dirty&&!Cloud.guest)Cloud.flush();});
 </script>
 <script>
 /* ---------- round setup ---------- */
