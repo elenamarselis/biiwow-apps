@@ -122,7 +122,7 @@ const ruShort=w=>String(w.ru).split(" / ")[0];
 /* ---------- shell & routing ---------- */
 const TABS=[["home","home"],["words","words"],["grammar","grammar"],["games","games"],["progress","progress"]];
 function go(view,extra){S.view=view;S.setup=extra||null;render();$("#main").scrollTop=0;}
-function renderShell(){const hasDoc=!!S.doc;document.documentElement.lang=UI;$("#brand-sub").textContent=t("appSub");
+function renderShell(){const hasDoc=!!S.doc;document.documentElement.lang=UI;$("#brand-sub").textContent=LANG.hideSubtitle?"":t("appSub");
   const sw=$("#langsw");sw.innerHTML="";for(const l of["ru","en"])sw.append(el("button",{"aria-pressed":UI===l?"true":"false",onclick:()=>{UI=l;lsPatch(o=>{o.ui=l;});render();}},l==="ru"?"RU":"EN"));
   const who=$("#who");who.hidden=!hasDoc;if(hasDoc){who.textContent="👤 "+(S.doc.name||S.name)+(S.guest?" · "+t("guestTag"):"");who.onclick=()=>openSettings();}
   $("#pts").textContent=hasDoc?(S.doc.points||0):0;$("#streak").textContent=hasDoc?(S.doc.streakDays||0):0;

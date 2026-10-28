@@ -7,7 +7,7 @@ const read=f=>fs.readFileSync(path.join(core,"src",f),"utf8");
 const head=read("head.html").replace("<title>Biiwow English Steps</title>","<title>Biiwow "+cfg.appName+"</title>");
 const body=read("body.html").replace("__APPNAME__",cfg.appName);
 const sentryTag=cfg.sentryDsn?'<script src="https://js.sentry-cdn.com/'+cfg.sentryDsn.split('//')[1].split('@')[0]+'.min.js" crossorigin="anonymous"></script>\n<script>window.sentryOnLoad=function(){Sentry.init({release:"'+cfg.slug+'@'+VERSION+'",environment:"production",sendDefaultPii:false});};</script>\n':'';
-const conf='<script>window.STEPS='+JSON.stringify({code:cfg.code,bcp:cfg.bcp,appName:cfg.appName,levels:cfg.levels,en:cfg.en,ru:cfg.ru})+';</script>\n';
+const conf='<script>window.STEPS='+JSON.stringify({code:cfg.code,bcp:cfg.bcp,appName:cfg.appName,levels:cfg.levels,en:cfg.en,ru:cfg.ru,hideSubtitle:!!cfg.hideSubtitle})+';</script>\n';
 const js=conf+read("app1.js")+read("app2.js");
 const inner=head+body+js;
 fs.writeFileSync(path.join(app,"preview.html"),inner);

@@ -13,7 +13,7 @@
 <link rel="icon" href="icons/icon-192.png">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}</style>
 <script src="https://js.sentry-cdn.com/835e9ccc2ba373339738d349c725c85b.min.js" crossorigin="anonymous"></script>
-<script>window.sentryOnLoad=function(){Sentry.init({release:"biiwow-english-steps@1792953252755",environment:"production",sendDefaultPii:false});};</script>
+<script>window.sentryOnLoad=function(){Sentry.init({release:"biiwow-english-steps@1793176059833",environment:"production",sendDefaultPii:false});};</script>
 <title>Biiwow English Steps</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap">
@@ -74,6 +74,7 @@ header.top{min-width:0;overflow:hidden;position:sticky;top:env(safe-area-inset-t
 .wordmark .bw{font-family:var(--display);font-weight:800;letter-spacing:-.02em;white-space:nowrap}
 .wordmark .ii{background:linear-gradient(115deg,#fec72f,#fa712d 60%,#ff514b);-webkit-background-clip:text;background-clip:text;color:transparent}
 .wordmark .app{font-weight:700;color:var(--muted);margin-left:6px}
+.wordmark small:empty{display:none}
 .wordmark small{display:block;font-size:.66rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);line-height:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 @media (max-width:420px){.wordmark .app{display:none}}
 .hdr-right{display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
@@ -265,7 +266,7 @@ kbd{font:inherit;font-size:.8rem;padding:1px 6px;border:1px solid var(--line);bo
 </div>
 <div id="modal-root"></div>
 <div id="toast-root"></div>
-<script>window.STEPS={"code":"en","bcp":"en-GB","appName":"English Steps","levels":["A1","A2","B1","B2","C1"],"en":{"name":"English"},"ru":{"adjM":"английский","AdjM":"Английский","adjN":"английское","adjG":"английского","adv":"по-английски"}};</script>
+<script>window.STEPS={"code":"en","bcp":"en-GB","appName":"English Steps","levels":["A1","A2","B1","B2","C1"],"en":{"name":"English"},"ru":{"adjM":"английский","AdjM":"Английский","adjN":"английское","adjG":"английского","adv":"по-английски"},"hideSubtitle":true};</script>
 <script>
 const LANG=Object.assign({code:"en",bcp:"en-GB",appName:"English Steps",levels:["A1","A2","B1","B2","C1"],en:{name:"English"},ru:{adjM:"английский",AdjM:"Английский",adjN:"английское",adjG:"английского",adv:"по-английски"}},window.STEPS||{});
 /* ---------- i18n ---------- */
@@ -390,7 +391,7 @@ const ruShort=w=>String(w.ru).split(" / ")[0];
 /* ---------- shell & routing ---------- */
 const TABS=[["home","home"],["words","words"],["grammar","grammar"],["games","games"],["progress","progress"]];
 function go(view,extra){S.view=view;S.setup=extra||null;render();$("#main").scrollTop=0;}
-function renderShell(){const hasDoc=!!S.doc;document.documentElement.lang=UI;$("#brand-sub").textContent=t("appSub");
+function renderShell(){const hasDoc=!!S.doc;document.documentElement.lang=UI;$("#brand-sub").textContent=LANG.hideSubtitle?"":t("appSub");
   const sw=$("#langsw");sw.innerHTML="";for(const l of["ru","en"])sw.append(el("button",{"aria-pressed":UI===l?"true":"false",onclick:()=>{UI=l;lsPatch(o=>{o.ui=l;});render();}},l==="ru"?"RU":"EN"));
   const who=$("#who");who.hidden=!hasDoc;if(hasDoc){who.textContent="👤 "+(S.doc.name||S.name)+(S.guest?" · "+t("guestTag"):"");who.onclick=()=>openSettings();}
   $("#pts").textContent=hasDoc?(S.doc.points||0):0;$("#streak").textContent=hasDoc?(S.doc.streakDays||0):0;
