@@ -1,4 +1,4 @@
-# French Steps — content brief (Biiwow app teaching French to Russian speakers)
+# French Steps — content brief (biiwow app teaching French to Russian speakers)
 
 Format: packs/VOCAB_SCHEMA.md and packs/GRAMMAR_SCHEMA.md in this folder. Validators: `node packs/vcheck.js <LEVEL>` and `node packs/gcheck.js <LEVEL>`.
 

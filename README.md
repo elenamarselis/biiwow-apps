@@ -1,6 +1,6 @@
 # biiwow apps
 
-Two Biiwow learning apps, each a static site plus a Cloudflare Pages worker (`site/_worker.js`) backed by a KV namespace bound as `PROGRESS`.
+Two biiwow learning apps, each a static site plus a Cloudflare Pages worker (`site/_worker.js`) backed by a KV namespace bound as `PROGRESS`.
 
 | App | Folder | Live |
 |---|---|---|

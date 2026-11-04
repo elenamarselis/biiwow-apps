@@ -1,4 +1,4 @@
-# Deploys the Biiwow apps to Cloudflare Pages on every push to main.
+# Deploys the biiwow apps to Cloudflare Pages on every push to main.
 # Needs the repository secret CLOUDFLARE_API_TOKEN (Cloudflare Pages: Edit).
 name: Deploy to Cloudflare Pages
 on:
