@@ -9,6 +9,8 @@ Two Biiwow learning apps, each a static site plus a Cloudflare Pages worker (`si
 | Serbian Steps (A1–C2) | `serbian-steps/` | https://biiwow-serbian-steps.pages.dev |
 | Hungarian Steps (A1–C2) | `hungarian-steps/` | https://biiwow-hungarian-steps.pages.dev |
 | Spanish Steps (A1–C2) | `spanish-steps/` | https://biiwow-spanish-steps.pages.dev |
+| Italian Steps (A1–C2) | `italian-steps/` | https://biiwow-italian-steps.pages.dev |
+| French Steps (A1–C2) | `french-steps/` | https://biiwow-french-steps.pages.dev |
 
 ## Build
 

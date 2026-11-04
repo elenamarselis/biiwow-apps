@@ -101,3 +101,33 @@ jobs:
         run: |
           sleep 20
           curl -sSf "https://biiwow-languages.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "Languages page live: new build served"
+  italian-steps:
+    name: Italian Steps
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: italian-steps/site
+          command: pages deploy . --project-name biiwow-italian-steps --branch main --commit-dirty=true
+      - name: Verify live
+        run: |
+          sleep 20
+          curl -sSf "https://biiwow-italian-steps.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "Italian Steps live: new build served"
+  french-steps:
+    name: French Steps
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: french-steps/site
+          command: pages deploy . --project-name biiwow-french-steps --branch main --commit-dirty=true
+      - name: Verify live
+        run: |
+          sleep 20
+          curl -sSf "https://biiwow-french-steps.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "French Steps live: new build served"
