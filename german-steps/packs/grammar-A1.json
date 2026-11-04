@@ -1,0 +1,5439 @@
+{
+ "level": "A1",
+ "sections": [
+  {
+   "id": "pronunciation-spelling",
+   "title_en": "Pronunciation and spelling",
+   "title_ru": "Произношение и орфография",
+   "summary_en": "How German is read: umlauts ä ö ü, the letter ß, ei/ie/eu, the two ch sounds, sch and sp/st, final devoicing, vowel length and word stress.",
+   "summary_ru": "Как читается немецкий: умлауты ä ö ü, буква ß, ei/ie/eu, два звука ch, sch и sp/st, оглушение на конце слова, долгота гласных и ударение.",
+   "rules": [
+    {
+     "title_en": "Umlauts: ä, ö, ü",
+     "title_ru": "Умлауты: ä, ö, ü",
+     "body_en": "The two dots change the vowel. ä sounds like Russian 'э' (Käse, Mädchen). ö is said with the tongue as for 'э' but with rounded lips (schön, hören). ü is said with the tongue as for 'и' but with lips rounded as for 'у' (Tür, müde). Umlauts change meaning: schon (already) and schön (beautiful), Mutter (mother) and Mütter (mothers). Without a German keyboard you may write ae, oe, ue.",
+     "body_ru": "Две точки меняют звук. ä звучит как русское «э» (Käse, Mädchen). ö произносится с языком как для «э», но с округлёнными губами (schön, hören). ü — язык как для «и», губы как для «у» (Tür, müde). Это не «ё» и не «ю»: в начале нет звука «й». Умлаут меняет смысл: schon (уже) и schön (красивый), Mutter (мать) и Mütter (матери). Без немецкой клавиатуры можно писать ae, oe, ue.",
+     "examples": [
+      {
+       "en": "Das Mädchen ist schön.",
+       "ru": "Девочка красивая. — [ˈmɛːtçən], [ʃøːn]"
+      },
+      {
+       "en": "die Tür",
+       "ru": "дверь — [tyːɐ̯], губы как для «у», язык как для «и»"
+      },
+      {
+       "en": "die Mutter – die Mütter",
+       "ru": "мать — матери: умлаут образует множественное число"
+      }
+     ]
+    },
+    {
+     "title_en": "The letter ß and ss",
+     "title_ru": "Буква ß и ss",
+     "body_en": "ß (Eszett) is always a voiceless [s]. It is written after a long vowel or a diphthong: Straße, groß, Fuß, heißen. After a short vowel you write ss: Wasser, essen, dass, muss. ß has no normal capital form at the start of a word, because no German word begins with it. In Switzerland ß is not used at all: Strasse, gross.",
+     "body_ru": "ß (эсцет) всегда звучит как глухое [с]. Её пишут после долгой гласной или дифтонга: Straße, groß, Fuß, heißen. После краткой гласной пишут ss: Wasser, essen, dass, muss. Так написание подсказывает долготу гласной. Ни одно слово не начинается с ß. В Швейцарии ß вообще не употребляют: Strasse, gross.",
+     "examples": [
+      {
+       "en": "Ich heiße Olga.",
+       "ru": "Меня зовут Ольга. — долгий дифтонг ei, поэтому ß"
+      },
+      {
+       "en": "die Straße",
+       "ru": "улица — долгое a [ˈʃtraːsə]"
+      },
+      {
+       "en": "Ich trinke Wasser.",
+       "ru": "Я пью воду. — краткое a, поэтому ss"
+      }
+     ]
+    },
+    {
+     "title_en": "ei, ie, eu/äu, au",
+     "title_ru": "ei, ie, eu/äu, au",
+     "body_en": "ei is read [aɪ], like Russian 'ай': mein, drei, Wein. ie is a long [iː]: Liebe, vier, Bier. A simple trick: say the English name of the SECOND letter: ei → 'i' [aɪ], ie → 'e' [iː]. eu and äu sound like Russian 'ой': neu, heute, Häuser. au is 'ау': Haus, Frau.",
+     "body_ru": "ei читается [aɪ] — как русское «ай»: mein, drei, Wein. ie — долгое [iː]: Liebe, vier, Bier. Не путайте: Wein (вино) и Wien (Вена). eu и äu звучат как русское «ой»: neu, heute, Häuser. au — как «ау»: Haus, Frau. Русскоязычные часто читают ei как «эй» — это ошибка, правильно «ай».",
+     "examples": [
+      {
+       "en": "der Wein – Wien",
+       "ru": "вино [vaɪn] — Вена [viːn]"
+      },
+      {
+       "en": "Heute ist es neu.",
+       "ru": "Сегодня это новое. — [ˈhɔʏtə], [nɔʏ]"
+      },
+      {
+       "en": "Ich trinke ein Bier.",
+       "ru": "Я пью пиво. — [aɪn], [biːɐ̯]"
+      }
+     ]
+    },
+    {
+     "title_en": "Two sounds of ch",
+     "title_ru": "Два звука ch",
+     "body_en": "After a, o, u and au, ch is [x], like Russian 'х': Buch, acht, auch. After e, i, ä, ö, ü, ei, eu, after consonants and in -chen it is the soft [ç] (ich-Laut): ich, Milch, Mädchen. [ç] is not 'ш'; it is close to a whispered soft 'хь'. chs is read [ks]: sechs, Fuchs.",
+     "body_ru": "После a, o, u и au ch звучит [x], как русское «х»: Buch, acht, auch. После e, i, ä, ö, ü, ei, eu, после согласных и в суффиксе -chen это мягкий звук [ç]: ich, Milch, Mädchen. Это не «ш» и не «щ», а мягкое «хь», как в шёпоте слова «хижина». Сочетание chs читается [кс]: sechs, Fuchs.",
+     "examples": [
+      {
+       "en": "das Buch",
+       "ru": "книга — [buːx], как русское «х»"
+      },
+      {
+       "en": "ich, die Milch",
+       "ru": "я, молоко — [ɪç], [mɪlç], мягкое «хь»"
+      },
+      {
+       "en": "sechs",
+       "ru": "шесть — [zɛks]"
+      }
+     ]
+    },
+    {
+     "title_en": "sch, sp, st, tsch and z",
+     "title_ru": "sch, sp, st, tsch и z",
+     "body_en": "sch is Russian 'ш': Schule, Tisch. At the beginning of a word or word stem, sp is [ʃp] and st is [ʃt]: Sport, sprechen, Stadt, verstehen. Elsewhere they are [sp] and [st]: Fenster, ist, erst. tsch is 'ч': Deutsch, tschüss. z and tz are always 'ц': Zeit, Zug, Katze.",
+     "body_ru": "sch — это русское «ш»: Schule, Tisch. В начале слова или корня sp читается [шп], а st — [шт]: Sport, sprechen, Stadt, verstehen. В середине и в конце — [сп] и [ст]: Fenster, ist, erst. tsch — это «ч»: Deutsch, tschüss. z и tz всегда звучат как «ц»: Zeit, Zug, Katze. Не читайте z как русское «з»!",
+     "examples": [
+      {
+       "en": "Die Stadt ist groß.",
+       "ru": "Город большой. — [ʃtat]"
+      },
+      {
+       "en": "Das Fenster ist offen.",
+       "ru": "Окно открыто. — [ˈfɛnstɐ], [ɪst]: здесь st = [ст]"
+      },
+      {
+       "en": "Wir sprechen Deutsch.",
+       "ru": "Мы говорим по-немецки. — [ˈʃprɛçən], [dɔʏtʃ]"
+      },
+      {
+       "en": "die Zeit",
+       "ru": "время — [tsaɪt], z = «ц»"
+      }
+     ]
+    },
+    {
+     "title_en": "s, v, w, j, h and r",
+     "title_ru": "s, v, w, j, h и r",
+     "body_en": "s before a vowel is voiced [z]: Sonne, sieben, Rose. w is [v], like Russian 'в': Wasser, wo. v is usually [f]: Vater, viel, vier (but [v] in some loanwords: Vase, Klavier). j is [j], like 'й': ja, Januar. h at the start of a syllable is a light breath, much softer than 'х'; after a vowel it is silent and shows a long vowel: gehen, Uhr. At the end of a word r is vocalised: Mutter [ˈmʊtɐ], der [deːɐ̯].",
+     "body_ru": "s перед гласной звонкая [з]: Sonne, sieben, Rose. w читается [в]: Wasser, wo. v обычно читается [ф]: Vater, viel, vier (но [в] в заимствованиях: Vase, Klavier). j — это «й»: ja, Januar. h в начале слога — лёгкий выдох, гораздо мягче русского «х»; после гласной h не читается и показывает долготу: gehen, Uhr. В конце слова r почти превращается в гласную: Mutter [ˈmʊtɐ], der [deːɐ̯].",
+     "examples": [
+      {
+       "en": "sieben",
+       "ru": "семь — [ˈziːbən], s звонкая"
+      },
+      {
+       "en": "Mein Vater wohnt in Wien.",
+       "ru": "Мой отец живёт в Вене. — v = [ф], w = [в]"
+      },
+      {
+       "en": "Ja, das Haus ist alt.",
+       "ru": "Да, дом старый. — j = «й», h — лёгкий выдох"
+      }
+     ]
+    },
+    {
+     "title_en": "Final devoicing and no softening",
+     "title_ru": "Оглушение на конце и отсутствие смягчения",
+     "body_en": "At the end of a word or syllable, b, d, g are pronounced p, t, k: Tag [taːk], Hund [hʊnt], ab [ap]. Russian does the same (дуб [дуп]), so this is easy for you. In the plural the voiced sound returns: Tage [ˈtaːɡə]. The ending -ig is read [ɪç] in standard German: zwanzig, König. Unlike Russian, consonants are never softened before e and i: nie is [niː], not 'ньи'.",
+     "body_ru": "В конце слова или слога b, d, g произносятся как p, t, k: Tag [taːk], Hund [hʊnt], ab [ap]. В русском происходит то же самое (дуб [дуп]), поэтому это правило вам знакомо. Во множественном числе звонкий звук возвращается: Tage [ˈtaːɡə]. Окончание -ig в литературном языке читается [ɪç]: zwanzig, König (на юге и в Австрии — [ɪk]). В отличие от русского, согласные перед e и i не смягчаются: nie — [niː], а не «ньи».",
+     "examples": [
+      {
+       "en": "der Tag – die Tage",
+       "ru": "день [taːk] — дни [ˈtaːɡə]"
+      },
+      {
+       "en": "Der Hund ist groß.",
+       "ru": "Собака большая. — [hʊnt]"
+      },
+      {
+       "en": "zwanzig",
+       "ru": "двадцать — [ˈtsvantsɪç]"
+      }
+     ]
+    },
+    {
+     "title_en": "Long and short vowels",
+     "title_ru": "Долгие и краткие гласные",
+     "body_en": "German vowels are long or short, and this changes meaning: Staat (state) and Stadt (city), Miete (rent) and Mitte (middle). A vowel is usually long before h, when doubled or before a single consonant: Sohn, Tee, Boot, Name. It is usually short before a double consonant or several consonants: Bett, kommen, Mann, Hand. Russian has no long vowels, so pay attention.",
+     "body_ru": "Немецкие гласные бывают долгими и краткими, и это различает слова: Staat (государство) и Stadt (город), Miete (квартплата) и Mitte (середина). Гласная обычно долгая перед h, если она удвоена или стоит перед одной согласной: Sohn, Tee, Boot, Name. Обычно краткая — перед двойной согласной или группой согласных: Bett, kommen, Mann, Hand. В русском долгих гласных нет, поэтому тяните их сознательно.",
+     "examples": [
+      {
+       "en": "der Sohn – die Sonne",
+       "ru": "сын (долгое o) — солнце (краткое o)"
+      },
+      {
+       "en": "Ich trinke Tee im Bett.",
+       "ru": "Я пью чай в кровати. — Tee долгое, Bett краткое"
+      },
+      {
+       "en": "der Staat – die Stadt",
+       "ru": "государство — город"
+      }
+     ]
+    },
+    {
+     "title_en": "Word stress",
+     "title_ru": "Ударение",
+     "body_en": "German words are usually stressed on the first syllable of the stem: VA-ter, AR-bei-ten, SPRE-chen. The prefixes be-, ge-, er-, ver-, zer-, ent- are never stressed: be-SU-chen, ver-STE-hen. Separable prefixes are stressed: AN-ru-fen, AUF-ste-hen. Many loanwords stress the last syllable: Stu-DENT, Bü-RO, U-ni-ver-si-TÄT, and verbs in -ieren stress -ie-: stu-DIE-ren.",
+     "body_ru": "Немецкие слова обычно имеют ударение на первом слоге корня: VA-ter, AR-bei-ten, SPRE-chen. Приставки be-, ge-, er-, ver-, zer-, ent- никогда не бывают ударными: be-SU-chen, ver-STE-hen. Отделяемые приставки ударные: AN-ru-fen, AUF-ste-hen. Многие заимствования имеют ударение на последнем слоге: Stu-DENT, Bü-RO, U-ni-ver-si-TÄT, а глаголы на -ieren — на -ie-: stu-DIE-ren. Безударные гласные не «акают», как в русском: только e в -e, -en ослабляется до [ə].",
+     "examples": [
+      {
+       "en": "arbeiten",
+       "ru": "работать — AR-bei-ten"
+      },
+      {
+       "en": "Ich verstehe das.",
+       "ru": "Я это понимаю. — ver-STE-he"
+      },
+      {
+       "en": "Er studiert an der Universität.",
+       "ru": "Он учится в университете. — stu-DIERT, U-ni-ver-si-TÄT"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Welches Wort hat den Laut [aɪ] (wie russisches «ай»)?",
+     "options": [
+      "Bier",
+      "Wein",
+      "Brief",
+      "Liebe"
+     ],
+     "answer": 1,
+     "explain_en": "ei is read [aɪ]: Wein. In Bier, Brief, Liebe the letters ie give a long [iː].",
+     "explain_ru": "ei читается «ай»: Wein [vaɪn]. В Bier, Brief, Liebe сочетание ie — долгое «и»."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Wie klingt „ch“ in „Buch“?",
+     "options": [
+      "wie russisches «ш»",
+      "wie russisches «ч»",
+      "wie russisches «х»",
+      "wie russisches «к»"
+     ],
+     "answer": 2,
+     "explain_en": "After u, ch is [x], like Russian 'х': [buːx].",
+     "explain_ru": "После u ch звучит как русское «х»: Buch [buːx]."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "Wie klingt „st“ am Anfang von „Stadt“?",
+     "options": [
+      "[ʃt] wie «шт»",
+      "[st] wie «ст»",
+      "[ts] wie «ц»",
+      "[sd] wie «сд»"
+     ],
+     "answer": 0,
+     "explain_en": "At the start of a word st is [ʃt]: Stadt [ʃtat].",
+     "explain_ru": "В начале слова st читается [шт]: Stadt [ʃtat]."
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "Das letzte „d“ in „Hund“ klingt wie …",
+     "options": [
+      "[d]",
+      "[n]",
+      "[t]",
+      "stumm (man spricht es nicht)"
+     ],
+     "answer": 2,
+     "explain_en": "Final devoicing: d at the end of a word is [t]: [hʊnt].",
+     "explain_ru": "Оглушение на конце слова: d звучит как [т] — [hʊnt], как в русском «сад» [сат]."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Welche Schreibung ist richtig?",
+     "options": [
+      "das Waßer",
+      "das Waser",
+      "das Wasser",
+      "das Wasßer"
+     ],
+     "answer": 2,
+     "explain_en": "The a in Wasser is short, so it is written ss.",
+     "explain_ru": "В слове Wasser a краткое, поэтому пишется ss, а не ß."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Wie spricht man „v“ in „Vater“?",
+     "options": [
+      "[v] wie «в»",
+      "[b] wie «б»",
+      "[w] wie englisches w",
+      "[f] wie «ф»"
+     ],
+     "answer": 3,
+     "explain_en": "In native German words v is [f]: Vater [ˈfaːtɐ].",
+     "explain_ru": "В исконно немецких словах v читается [ф]: Vater [ˈfaːtɐ]. Звук [в] передаёт буква w."
+    },
+    {
+     "id": "e07",
+     "type": "mc",
+     "q": "Wo liegt die Betonung in „verstehen“?",
+     "options": [
+      "auf „ver-“",
+      "auf „-ste-“",
+      "auf „-hen“"
+     ],
+     "answer": 1,
+     "explain_en": "The prefix ver- is never stressed: ver-STE-hen.",
+     "explain_ru": "Приставка ver- никогда не бывает ударной: ver-STE-hen."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Wie klingt „eu“ in „heute“?",
+     "options": [
+      "wie «эу»",
+      "wie «ой»",
+      "wie «ю»",
+      "wie «ей»"
+     ],
+     "answer": 1,
+     "explain_en": "eu (and äu) is [ɔʏ], close to Russian 'ой': [ˈhɔʏtə].",
+     "explain_ru": "eu (и äu) звучит как «ой»: heute [ˈhɔʏtə]."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "In welchem Wort ist der Vokal lang?",
+     "options": [
+      "das Bett",
+      "kommen",
+      "die Mutter",
+      "der Sohn"
+     ],
+     "answer": 3,
+     "explain_en": "h after a vowel marks length: Sohn has a long o. Double consonants mark short vowels.",
+     "explain_ru": "h после гласной показывает долготу: в Sohn долгое o. Двойная согласная (Bett, kommen, Mutter) показывает краткую гласную."
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "In der Standardaussprache (Deutschland) endet „zwanzig“ auf …",
+     "options": [
+      "[ɪç] wie in „ich“",
+      "[ɪg] wie «иг»",
+      "[ɪʃ] wie «иш»",
+      "[ɪts] wie «иц»"
+     ],
+     "answer": 0,
+     "explain_en": "Standard German reads final -ig as [ɪç]: [ˈtsvantsɪç]. In the south and in Austria you also hear [ɪk].",
+     "explain_ru": "В литературном произношении -ig на конце читается [ɪç]: [ˈtsvantsɪç]. На юге Германии и в Австрии слышно и [ɪk]."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Ich hei___e Anna. (ß oder ss?)",
+     "answer": [
+      "ß"
+     ],
+     "explain_en": "After the diphthong ei you write ß: heißen.",
+     "explain_ru": "После дифтонга ei пишется ß: heißen."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Die Straße ist na___. (ß oder ss?)",
+     "answer": [
+      "ss"
+     ],
+     "explain_en": "The a in nass is short, so ss: nass (wet).",
+     "explain_ru": "В слове nass (мокрый) a краткое, поэтому ss."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "Ich trinke ein B___r. (ei oder ie?)",
+     "answer": [
+      "ie"
+     ],
+     "explain_en": "Bier has a long [iː], written ie.",
+     "explain_ru": "В слове Bier долгое «и», оно пишется ie."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "Eins, zwei, dr___ (ei oder ie?)",
+     "answer": [
+      "ei"
+     ],
+     "explain_en": "drei is read [draɪ], with ei.",
+     "explain_ru": "drei читается [draɪ] — «драй», пишется ei."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Drei, v___r, fünf (ei oder ie?)",
+     "answer": [
+      "ie"
+     ],
+     "explain_en": "vier is read [fiːɐ̯], with ie.",
+     "explain_ru": "vier читается [fiːɐ̯] — «фир», пишется ie."
+    },
+    {
+     "id": "e16",
+     "type": "fill",
+     "q": "Das Mädchen ist sehr sch___n. (o oder ö?)",
+     "answer": [
+      "ö"
+     ],
+     "explain_en": "schön = beautiful; schon = already.",
+     "explain_ru": "schön — «красивый», а schon — «уже». Умлаут меняет смысл."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "die Mutter – die M___tter (Plural, u oder ü?)",
+     "answer": [
+      "ü"
+     ],
+     "explain_en": "The plural of Mutter is Mütter, with an umlaut.",
+     "explain_ru": "Множественное число от Mutter — Mütter: умлаут показывает множественное число."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "Ich spreche ein bisschen Deu___. (sch oder tsch?)",
+     "answer": [
+      "tsch"
+     ],
+     "explain_en": "Deutsch ends in tsch, read like Russian 'ч'.",
+     "explain_ru": "Deutsch пишется с tsch, которое читается как «ч»."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "heiße",
+      "Ich",
+      "Peter."
+     ],
+     "answer": "Ich heiße Peter.",
+     "ru": "Меня зовут Петер."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "ist",
+      "Die",
+      "lang.",
+      "Straße"
+     ],
+     "answer": "Die Straße ist lang.",
+     "ru": "Улица длинная."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Wien.",
+      "wohnt",
+      "in",
+      "Sie"
+     ],
+     "answer": "Sie wohnt in Wien.",
+     "ru": "Она живёт в Вене."
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "sprechen",
+      "Wir",
+      "Deutsch.",
+      "heute"
+     ],
+     "answer": "Wir sprechen heute Deutsch.",
+     "ru": "Сегодня мы говорим по-немецки."
+    },
+    {
+     "id": "e23",
+     "type": "tf",
+     "q": "In „Tag“ the final g is pronounced [k].",
+     "answer": true,
+     "explain_en": "Final devoicing: Tag [taːk], but Tage [ˈtaːɡə].",
+     "explain_ru": "Оглушение на конце: Tag [taːk], но во множественном числе Tage [ˈtaːɡə]."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "„Wein“ and „Wien“ are pronounced the same.",
+     "answer": false,
+     "explain_en": "Wein is [vaɪn] (wine), Wien is [viːn] (Vienna).",
+     "explain_ru": "Wein — [vaɪn] «вино», Wien — [viːn] «Вена». ei и ie читаются по-разному."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "In „sprechen“ the letters „sp“ are pronounced [ʃp].",
+     "answer": true,
+     "explain_en": "At the start of a word, sp is [ʃp].",
+     "explain_ru": "В начале слова sp читается [шп]: [ˈʃprɛçən]."
+    },
+    {
+     "id": "e26",
+     "type": "match",
+     "pairs": [
+      [
+       "ei",
+       "ай"
+      ],
+      [
+       "ie",
+       "долгое и"
+      ],
+      [
+       "eu / äu",
+       "ой"
+      ],
+      [
+       "sch",
+       "ш"
+      ],
+      [
+       "z",
+       "ц"
+      ],
+      [
+       "w",
+       "в"
+      ]
+     ]
+    },
+    {
+     "id": "e27",
+     "type": "match",
+     "pairs": [
+      [
+       "ich",
+       "[ɪç]"
+      ],
+      [
+       "acht",
+       "[axt]"
+      ],
+      [
+       "sechs",
+       "[zɛks]"
+      ],
+      [
+       "der Tag",
+       "[taːk]"
+      ],
+      [
+       "vier",
+       "[fiːɐ̯]"
+      ]
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "der Wein",
+       "вино"
+      ],
+      [
+       "Wien",
+       "Вена"
+      ],
+      [
+       "schon",
+       "уже"
+      ],
+      [
+       "schön",
+       "красивый"
+      ],
+      [
+       "die Mutter",
+       "мать"
+      ],
+      [
+       "die Mütter",
+       "матери"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nouns-gender-articles",
+   "title_en": "Nouns: gender, plural and articles",
+   "title_ru": "Существительные: род, множественное число и артикли",
+   "summary_en": "Every German noun is capitalised and has a gender shown by the article der, die or das. Learn each noun with its article and plural; use ein/eine for something new and der/die/das for something known.",
+   "summary_ru": "Каждое немецкое существительное пишется с большой буквы и имеет род, который показывает артикль der, die или das. Учите каждое слово с артиклем и формой множественного числа; ein/eine — для нового предмета, der/die/das — для уже известного.",
+   "rules": [
+    {
+     "title_en": "Three genders and capital letters",
+     "title_ru": "Три рода и большая буква",
+     "body_en": "German has three genders, like Russian: masculine der, feminine die, neuter das. All nouns are written with a capital letter: der Tisch, die Lampe, das Buch. The gender is often different from Russian: die Sonne (солнце is neuter), der Mond (луна is feminine), das Mädchen (девочка is feminine). So always learn a noun together with its article.",
+     "body_ru": "В немецком, как и в русском, три рода: мужской der, женский die, средний das. Все существительные пишутся с большой буквы: der Tisch, die Lampe, das Buch. Род часто не совпадает с русским: die Sonne (солнце — женский род), der Mond (луна — мужской), das Mädchen (девочка — средний!). Окончание слова, как в русском, здесь мало помогает, поэтому учите каждое существительное вместе с артиклем.",
+     "examples": [
+      {
+       "en": "der Tisch, die Lampe, das Buch",
+       "ru": "стол, лампа, книга"
+      },
+      {
+       "en": "Die Sonne scheint.",
+       "ru": "Светит солнце. — die Sonne женского рода"
+      },
+      {
+       "en": "das Mädchen",
+       "ru": "девочка — средний род!"
+      }
+     ]
+    },
+    {
+     "title_en": "Gender by meaning",
+     "title_ru": "Род по значению",
+     "body_en": "Some groups are easy. Male people and animals are usually der: der Mann, der Vater, der Lehrer. Female people are die: die Frau, die Mutter, die Lehrerin. Days, months and seasons are der: der Montag, der Mai, der Sommer. Verbs used as nouns are das: das Essen, das Lernen.",
+     "body_ru": "Некоторые группы запомнить легко. Лица мужского пола обычно der: der Mann, der Vater, der Lehrer. Лица женского пола — die: die Frau, die Mutter, die Lehrerin. Дни недели, месяцы и времена года — der: der Montag, der Mai, der Sommer. Глаголы, ставшие существительными, — das: das Essen (еда), das Lernen (учёба).",
+     "examples": [
+      {
+       "en": "der Lehrer – die Lehrerin",
+       "ru": "учитель — учительница"
+      },
+      {
+       "en": "Der Sommer ist warm.",
+       "ru": "Лето тёплое. — der Sommer мужского рода"
+      },
+      {
+       "en": "Das Essen ist gut.",
+       "ru": "Еда хорошая."
+      }
+     ]
+    },
+    {
+     "title_en": "Gender by ending",
+     "title_ru": "Род по окончанию",
+     "body_en": "Endings help a lot. Feminine: -ung, -heit, -keit, -schaft, -ion, -tät, -in (die Zeitung, die Freiheit, die Universität) and most nouns in -e (die Lampe, die Straße). Neuter: -chen, -lein, -um, -ment (das Brötchen, das Museum). Masculine: -ismus, -ling, -or and many in -er for people and tools (der Frühling, der Motor, der Computer). Exceptions in -e: der Name, der Junge, der Käse.",
+     "body_ru": "Окончания очень помогают. Женский род: -ung, -heit, -keit, -schaft, -ion, -tät, -in (die Zeitung, die Freiheit, die Universität) и большинство слов на -e (die Lampe, die Straße). Средний род: -chen, -lein, -um, -ment (das Brötchen, das Museum). Мужской род: -ismus, -ling, -or и многие слова на -er, обозначающие людей и приборы (der Frühling, der Motor, der Computer). Исключения на -e: der Name, der Junge, der Käse.",
+     "examples": [
+      {
+       "en": "die Zeitung, die Freiheit",
+       "ru": "газета, свобода — женский род"
+      },
+      {
+       "en": "das Brötchen",
+       "ru": "булочка — -chen всегда средний род"
+      },
+      {
+       "en": "der Frühling",
+       "ru": "весна — -ling мужской род"
+      }
+     ]
+    },
+    {
+     "title_en": "Compound nouns",
+     "title_ru": "Сложные существительные",
+     "body_en": "German joins nouns into one word. The LAST part gives the gender and the plural, and the first part is stressed: das Haus + die Tür = die Haustür, der Tisch + die Lampe = die Tischlampe, die Kinder + der Garten = der Kindergarten. Russian often uses an adjective or a genitive instead: 'входная дверь', 'детский сад'.",
+     "body_ru": "Немецкий соединяет существительные в одно слово. Род и множественное число определяет ПОСЛЕДНЯЯ часть, а ударение падает на первую: das Haus + die Tür = die Haustür, der Tisch + die Lampe = die Tischlampe, die Kinder + der Garten = der Kindergarten. В русском на этом месте обычно прилагательное или родительный падеж: «входная дверь», «детский сад».",
+     "examples": [
+      {
+       "en": "die Haustür",
+       "ru": "входная дверь — род от die Tür"
+      },
+      {
+       "en": "Der Kindergarten ist klein.",
+       "ru": "Детский сад маленький. — род от der Garten"
+      },
+      {
+       "en": "das Wörterbuch",
+       "ru": "словарь — род от das Buch"
+      }
+     ]
+    },
+    {
+     "title_en": "Definite and indefinite articles",
+     "title_ru": "Определённый и неопределённый артикль",
+     "body_en": "Russian has no articles, German has two kinds. The indefinite article ein (masculine, neuter) / eine (feminine) introduces something new or any one thing: Das ist ein Tisch. The definite article der/die/das is used for something already known or unique: Der Tisch ist neu. In the plural the definite article is always die, and there is no indefinite plural article: Kinder, die Kinder.",
+     "body_ru": "В русском артиклей нет, а в немецком их два вида. Неопределённый артикль ein (м. и ср. род) / eine (ж. род) вводит новый предмет или «какой-то, один»: Das ist ein Tisch. Определённый артикль der/die/das — для уже известного или единственного в своём роде: Der Tisch ist neu. Во множественном числе определённый артикль всегда die, а неопределённого артикля нет: Kinder — «дети», die Kinder — «(эти) дети».",
+     "examples": [
+      {
+       "en": "Das ist ein Tisch. Der Tisch ist neu.",
+       "ru": "Это стол. Стол новый."
+      },
+      {
+       "en": "Da ist eine Katze. Die Katze ist schwarz.",
+       "ru": "Там кошка. Кошка чёрная."
+      },
+      {
+       "en": "Die Kinder spielen.",
+       "ru": "Дети играют. — во мн. числе артикль die"
+      }
+     ]
+    },
+    {
+     "title_en": "No article",
+     "title_ru": "Без артикля",
+     "body_en": "Some nouns usually go without an article. Professions and nationalities after sein or werden: Ich bin Lehrer, Sie ist Ärztin. Substances and uncountable things: Ich trinke Wasser, Ich brauche Zeit. Names and most countries and cities: Anna wohnt in Berlin. Indefinite plurals: Ich habe Kinder.",
+     "body_ru": "Некоторые существительные обычно употребляются без артикля. Профессии и национальности после sein или werden: Ich bin Lehrer («я учитель»), Sie ist Ärztin. Вещества и неисчисляемое: Ich trinke Wasser, Ich brauche Zeit. Имена, большинство стран и городов: Anna wohnt in Berlin. Неопределённое множественное число: Ich habe Kinder. Не говорите «Ich bin ein Lehrer» — так звучит как «я какой-то учитель».",
+     "examples": [
+      {
+       "en": "Ich bin Ingenieur.",
+       "ru": "Я инженер. — без артикля"
+      },
+      {
+       "en": "Sie trinkt Milch.",
+       "ru": "Она пьёт молоко."
+      },
+      {
+       "en": "Anna kommt aus Russland.",
+       "ru": "Анна из России."
+      }
+     ]
+    },
+    {
+     "title_en": "Plural forms",
+     "title_ru": "Формы множественного числа",
+     "body_en": "German has five main plural patterns: -e, often with umlaut (der Tisch – die Tische, der Stuhl – die Stühle); -(e)n (die Lampe – die Lampen, die Frau – die Frauen); -er with umlaut where possible (das Kind – die Kinder, das Buch – die Bücher); no ending or only umlaut (der Lehrer – die Lehrer, die Mutter – die Mütter); -s (das Auto – die Autos). The plural article is always die.",
+     "body_ru": "В немецком пять основных способов образовать множественное число: -e, часто с умлаутом (der Tisch – die Tische, der Stuhl – die Stühle); -(e)n (die Lampe – die Lampen, die Frau – die Frauen); -er с умлаутом, если возможно (das Kind – die Kinder, das Buch – die Bücher); без окончания или только умлаут (der Lehrer – die Lehrer, die Mutter – die Mütter); -s (das Auto – die Autos). Артикль во множественном числе всегда die — для всех трёх родов.",
+     "examples": [
+      {
+       "en": "der Stuhl – die Stühle",
+       "ru": "стул — стулья"
+      },
+      {
+       "en": "das Buch – die Bücher",
+       "ru": "книга — книги"
+      },
+      {
+       "en": "Die Autos sind neu.",
+       "ru": "Машины новые."
+      }
+     ]
+    },
+    {
+     "title_en": "Plural tips",
+     "title_ru": "Подсказки для множественного числа",
+     "body_en": "Feminine nouns mostly take -(e)n: die Zeitung – die Zeitungen, die Straße – die Straßen; -in becomes -innen: die Lehrerin – die Lehrerinnen. Masculine and neuter nouns in -er, -el, -en usually add nothing: der Lehrer – die Lehrer, das Zimmer – die Zimmer. Words ending in a vowel other than -e and many loanwords take -s: das Foto – die Fotos, das Hotel – die Hotels. Still, learn every plural with the noun.",
+     "body_ru": "Существительные женского рода чаще всего получают -(e)n: die Zeitung – die Zeitungen, die Straße – die Straßen; -in превращается в -innen: die Lehrerin – die Lehrerinnen. Мужской и средний род на -er, -el, -en обычно ничего не добавляют: der Lehrer – die Lehrer, das Zimmer – die Zimmer. Слова на гласную (кроме -e) и многие заимствования получают -s: das Foto – die Fotos, das Hotel – die Hotels. Но всё же учите множественное число вместе со словом.",
+     "examples": [
+      {
+       "en": "die Lehrerin – die Lehrerinnen",
+       "ru": "учительница — учительницы (двойное n)"
+      },
+      {
+       "en": "das Zimmer – die Zimmer",
+       "ru": "комната — комнаты: форма не меняется"
+      },
+      {
+       "en": "die Fotos und die Hotels",
+       "ru": "фотографии и гостиницы"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "___ Tisch ist neu.",
+     "options": [
+      "Die",
+      "Das",
+      "Der"
+     ],
+     "answer": 2,
+     "explain_en": "Tisch is masculine: der Tisch.",
+     "explain_ru": "Tisch мужского рода: der Tisch, как и «стол»."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Das ist ___ Lampe.",
+     "options": [
+      "ein",
+      "eine",
+      "einen"
+     ],
+     "answer": 1,
+     "explain_en": "Lampe is feminine (-e): eine Lampe.",
+     "explain_ru": "Lampe женского рода (на -e): eine Lampe."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "___ Mädchen spielt im Garten.",
+     "options": [
+      "Das",
+      "Die",
+      "Der"
+     ],
+     "answer": 0,
+     "explain_en": "Nouns in -chen are always neuter: das Mädchen.",
+     "explain_ru": "Слова на -chen всегда среднего рода: das Mädchen, хотя по-русски «девочка» — женский род."
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "Welches Wort ist feminin?",
+     "options": [
+      "Haus",
+      "Montag",
+      "Zeitung",
+      "Brötchen"
+     ],
+     "answer": 2,
+     "explain_en": "-ung is always feminine: die Zeitung.",
+     "explain_ru": "Суффикс -ung всегда женского рода: die Zeitung. Montag — der, Haus и Brötchen — das."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "das Kind – die ___ (Plural)",
+     "options": [
+      "Kinde",
+      "Kinds",
+      "Kinder",
+      "Kinden"
+     ],
+     "answer": 2,
+     "explain_en": "Kind takes -er: die Kinder.",
+     "explain_ru": "Kind образует множественное число на -er: die Kinder."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "das Auto – die ___ (Plural)",
+     "options": [
+      "Auten",
+      "Autos",
+      "Autoe",
+      "Autoer"
+     ],
+     "answer": 1,
+     "explain_en": "Words ending in -o take -s: die Autos.",
+     "explain_ru": "Слова на -o получают -s: die Autos."
+    },
+    {
+     "id": "e07",
+     "type": "mc",
+     "q": "Ich bin ___. (Я учитель — профессия)",
+     "options": [
+      "ein Lehrer",
+      "einen Lehrer",
+      "Lehrer"
+     ],
+     "answer": 2,
+     "explain_en": "No article with a profession after sein: Ich bin Lehrer.",
+     "explain_ru": "С профессией после sein артикль не нужен: Ich bin Lehrer."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Das ist ___ Haustür.",
+     "options": [
+      "der",
+      "das",
+      "die"
+     ],
+     "answer": 2,
+     "explain_en": "The last part decides: die Tür → die Haustür.",
+     "explain_ru": "Род определяет последняя часть: die Tür → die Haustür."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "der Stuhl – die ___ (Plural)",
+     "options": [
+      "Stühle",
+      "Stuhls",
+      "Stuhlen",
+      "Stühler"
+     ],
+     "answer": 0,
+     "explain_en": "Stuhl takes -e with umlaut: die Stühle.",
+     "explain_ru": "Stuhl образует множественное число с -e и умлаутом: die Stühle."
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "Hier ist ein Hotel. ___ Hotel ist sehr gut.",
+     "options": [
+      "Ein",
+      "Der",
+      "Die",
+      "Das"
+     ],
+     "answer": 3,
+     "explain_en": "The hotel is now known, so the definite article: das Hotel.",
+     "explain_ru": "Гостиница уже упомянута, поэтому определённый артикль: das Hotel."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "___ Sonne scheint. (der, die oder das?)",
+     "answer": [
+      "Die",
+      "die"
+     ],
+     "explain_en": "Sonne is feminine: die Sonne.",
+     "explain_ru": "Sonne женского рода: die Sonne, хотя «солнце» по-русски среднего рода."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Das ist ___ Stuhl. (unbestimmter Artikel)",
+     "answer": [
+      "ein"
+     ],
+     "explain_en": "Stuhl is masculine: ein Stuhl.",
+     "explain_ru": "Stuhl мужского рода: ein Stuhl."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "Das ist ___ Zeitung. (unbestimmter Artikel)",
+     "answer": [
+      "eine"
+     ],
+     "explain_en": "Zeitung is feminine: eine Zeitung.",
+     "explain_ru": "Zeitung женского рода (-ung): eine Zeitung."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "das Buch – die ___ (Plural)",
+     "answer": [
+      "Bücher"
+     ],
+     "explain_en": "Buch takes -er with umlaut: die Bücher.",
+     "explain_ru": "Buch: -er и умлаут — die Bücher."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "die Frau – die ___ (Plural)",
+     "answer": [
+      "Frauen"
+     ],
+     "explain_en": "Feminine nouns usually take -(e)n: die Frauen.",
+     "explain_ru": "Существительные женского рода обычно получают -(e)n: die Frauen."
+    },
+    {
+     "id": "e16",
+     "type": "fill",
+     "q": "die Lehrerin – die ___ (Plural)",
+     "answer": [
+      "Lehrerinnen"
+     ],
+     "explain_en": "-in becomes -innen in the plural.",
+     "explain_ru": "-in во множественном числе превращается в -innen: Lehrerinnen."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "der Lehrer – die ___ (Plural)",
+     "answer": [
+      "Lehrer"
+     ],
+     "explain_en": "Masculine nouns in -er usually add nothing: die Lehrer.",
+     "explain_ru": "Существительные мужского рода на -er обычно не меняются: die Lehrer. Число видно только по артиклю."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "___ Kindergarten ist groß. (der, die oder das?)",
+     "answer": [
+      "Der",
+      "der"
+     ],
+     "explain_en": "The last part is der Garten, so der Kindergarten.",
+     "explain_ru": "Последняя часть — der Garten, поэтому der Kindergarten."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "Das",
+      "ein",
+      "Tisch.",
+      "ist"
+     ],
+     "answer": "Das ist ein Tisch.",
+     "ru": "Это стол."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "Die",
+      "ist",
+      "Lampe",
+      "neu."
+     ],
+     "answer": "Die Lampe ist neu.",
+     "ru": "Лампа новая."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Kinder",
+      "Die",
+      "Garten.",
+      "spielen",
+      "im"
+     ],
+     "answer": "Die Kinder spielen im Garten.",
+     "ru": "Дети играют в саду."
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "Mädchen",
+      "heißt",
+      "Das",
+      "Lena."
+     ],
+     "answer": "Das Mädchen heißt Lena.",
+     "ru": "Девочку зовут Лена."
+    },
+    {
+     "id": "e23",
+     "type": "tf",
+     "q": "„Mädchen“ is feminine because it means a girl.",
+     "answer": false,
+     "explain_en": "Nouns in -chen are neuter: das Mädchen. The ending wins over the meaning.",
+     "explain_ru": "Слова на -chen среднего рода: das Mädchen. Суффикс здесь важнее значения."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "The plural definite article is always „die“, whatever the gender.",
+     "answer": true,
+     "explain_en": "der Tisch – die Tische, das Buch – die Bücher, die Lampe – die Lampen.",
+     "explain_ru": "Во множественном числе всегда die: die Tische, die Bücher, die Lampen."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "In „die Haustür“ the gender comes from the first word „das Haus“.",
+     "answer": false,
+     "explain_en": "The last part decides the gender: die Tür → die Haustür.",
+     "explain_ru": "Род определяет последняя часть: die Tür → die Haustür."
+    },
+    {
+     "id": "e26",
+     "type": "match",
+     "pairs": [
+      [
+       "der Tisch",
+       "die Tische"
+      ],
+      [
+       "die Lampe",
+       "die Lampen"
+      ],
+      [
+       "das Kind",
+       "die Kinder"
+      ],
+      [
+       "der Lehrer",
+       "die Lehrer"
+      ],
+      [
+       "das Auto",
+       "die Autos"
+      ]
+     ]
+    },
+    {
+     "id": "e27",
+     "type": "match",
+     "pairs": [
+      [
+       "-ung, -heit, -keit",
+       "die"
+      ],
+      [
+       "-chen, -lein",
+       "das"
+      ],
+      [
+       "-ismus, -ling",
+       "der"
+      ]
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "die Sonne",
+       "солнце"
+      ],
+      [
+       "der Mond",
+       "луна"
+      ],
+      [
+       "das Mädchen",
+       "девочка"
+      ],
+      [
+       "die Zeitung",
+       "газета"
+      ],
+      [
+       "der Löffel",
+       "ложка"
+      ],
+      [
+       "das Brötchen",
+       "булочка"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "pronouns-sein-haben",
+   "title_en": "Personal pronouns; sein and haben",
+   "title_ru": "Личные местоимения; глаголы sein и haben",
+   "summary_en": "The personal pronouns, the difference between du, ihr and Sie, and the two most important verbs: sein (to be) and haben (to have).",
+   "summary_ru": "Личные местоимения, разница между du, ihr и Sie и два важнейших глагола: sein (быть) и haben (иметь).",
+   "rules": [
+    {
+     "title_en": "The personal pronouns",
+     "title_ru": "Личные местоимения",
+     "body_en": "Singular: ich (I), du (you), er (he), sie (she), es (it). Plural: wir (we), ihr (you, informal plural), sie (they). The formal Sie (you) is used for one or more people. Unlike English 'I', ich is written with a small letter unless it begins the sentence.",
+     "body_ru": "Единственное число: ich (я), du (ты), er (он), sie (она), es (оно). Множественное: wir (мы), ihr (вы — неформально, к нескольким людям), sie (они). Вежливое Sie (Вы) употребляется и к одному, и к нескольким людям. ich пишется с маленькой буквы, если не стоит в начале предложения.",
+     "examples": [
+      {
+       "en": "Ich bin Ivan, und du?",
+       "ru": "Я Иван, а ты?"
+      },
+      {
+       "en": "Wir wohnen in Köln.",
+       "ru": "Мы живём в Кёльне."
+      },
+      {
+       "en": "Sie ist Lehrerin.",
+       "ru": "Она учительница."
+      }
+     ]
+    },
+    {
+     "title_en": "du, ihr and Sie",
+     "title_ru": "du, ihr и Sie",
+     "body_en": "du is used with family, friends, children and often with colleagues and young people. ihr is the plural of du: you talk to several friends. Sie is the polite form for strangers, officials, shop staff and in formal situations, for one or more people. Sie is always capitalised and takes the same verb form as sie (they): Sie sind, sie sind.",
+     "body_ru": "du говорят родным, друзьям, детям, а часто и коллегам и молодёжи. ihr — это множественное число от du: так обращаются к нескольким друзьям. Sie — вежливая форма для незнакомых, в учреждениях, в магазине, на работе — к одному или нескольким людям. В отличие от русского «Вы», немецкое Sie грамматически — 3-е лицо множественного числа: Sie sind (как sie sind «они»). Оно всегда пишется с большой буквы.",
+     "examples": [
+      {
+       "en": "Mama, hast du Zeit?",
+       "ru": "Мама, у тебя есть время?"
+      },
+      {
+       "en": "Kinder, seid ihr fertig?",
+       "ru": "Дети, вы готовы?"
+      },
+      {
+       "en": "Frau Weber, sind Sie aus Berlin?",
+       "ru": "Госпожа Вебер, Вы из Берлина?"
+      }
+     ]
+    },
+    {
+     "title_en": "er, sie, es for things",
+     "title_ru": "er, sie, es для предметов",
+     "body_en": "As in Russian, er, sie and es replace nouns according to their grammatical gender, not only people: der Tisch → er, die Lampe → sie, das Buch → es. Because genders differ from Russian, the pronoun can surprise you: die Sonne → sie, der Löffel → er. All plurals become sie.",
+     "body_ru": "Как и в русском, er, sie и es заменяют существительные по грамматическому роду, а не только людей: der Tisch → er, die Lampe → sie, das Buch → es. Поскольку род часто не совпадает с русским, местоимение может удивить: die Sonne → sie («оно» по-русски), der Löffel → er («она» по-русски). Любое множественное число — sie.",
+     "examples": [
+      {
+       "en": "Wo ist der Löffel? – Er ist hier.",
+       "ru": "Где ложка? — Она здесь. (der Löffel → er)"
+      },
+      {
+       "en": "Das Buch ist gut. Es ist neu.",
+       "ru": "Книга хорошая. Она новая. (das Buch → es)"
+      },
+      {
+       "en": "Die Kinder sind laut. Sie spielen.",
+       "ru": "Дети шумят. Они играют."
+      }
+     ]
+    },
+    {
+     "title_en": "sie, sie or Sie?",
+     "title_ru": "sie, sie или Sie?",
+     "body_en": "The form sie has three meanings: 'she', 'they' and, capitalised, formal 'you'. The verb shows which one you mean: sie ist (she is), sie sind (they are), Sie sind (you are). At the start of a sentence only context helps: Sie sind nett can mean 'They are nice' or 'You are nice'.",
+     "body_ru": "Форма sie имеет три значения: «она», «они» и, с большой буквы, вежливое «Вы». Различить помогает глагол: sie ist (она есть), sie sind (они есть), Sie sind (Вы есть). В начале предложения помогает только контекст: Sie sind nett — «Они милые» или «Вы милый/милая».",
+     "examples": [
+      {
+       "en": "Anna? Sie ist zu Hause.",
+       "ru": "Анна? Она дома."
+      },
+      {
+       "en": "Anna und Tom? Sie sind im Kino.",
+       "ru": "Анна и Том? Они в кино."
+      },
+      {
+       "en": "Herr Kraus, Sie sind sehr nett.",
+       "ru": "Господин Краус, Вы очень любезны."
+      }
+     ]
+    },
+    {
+     "title_en": "The verb sein",
+     "title_ru": "Глагол sein",
+     "body_en": "sein (to be) is irregular: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind. In Russian the present of 'быть' is usually left out, but in German the verb can never be omitted: 'Я студент' is Ich bin Student, 'Он дома' is Er ist zu Hause.",
+     "body_ru": "sein (быть) — неправильный глагол: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind. В русском «быть» в настоящем времени обычно пропускается, а в немецком глагол пропускать нельзя: «Я студент» — Ich bin Student, «Он дома» — Er ist zu Hause. В каждом немецком предложении должен быть глагол.",
+     "examples": [
+      {
+       "en": "Ich bin Student.",
+       "ru": "Я студент."
+      },
+      {
+       "en": "Du bist sehr nett.",
+       "ru": "Ты очень милый."
+      },
+      {
+       "en": "Ihr seid zu spät.",
+       "ru": "Вы опоздали. (букв. «вы слишком поздно»)"
+      }
+     ]
+    },
+    {
+     "title_en": "Uses of sein",
+     "title_ru": "Употребление sein",
+     "body_en": "Use sein for name, origin, profession, age and descriptions: Ich bin Olga. Ich bin aus Moskau. Er ist Arzt. Ich bin 25 Jahre alt. Das ist gut. Age is said with sein, not with a dative like Russian 'мне 25 лет'. Das ist / Das sind introduces people and things: Das ist mein Freund. Das sind meine Kinder.",
+     "body_ru": "sein употребляется для имени, происхождения, профессии, возраста и описания: Ich bin Olga. Ich bin aus Moskau. Er ist Arzt. Ich bin 25 Jahre alt. Das ist gut. Возраст выражается через sein, а не через дательный падеж, как в русском «мне 25 лет»: букв. «я 25 лет стар». Das ist / Das sind («это») представляет людей и предметы: Das ist mein Freund. Das sind meine Kinder.",
+     "examples": [
+      {
+       "en": "Ich bin 30 Jahre alt.",
+       "ru": "Мне 30 лет."
+      },
+      {
+       "en": "Wir sind aus Russland.",
+       "ru": "Мы из России."
+      },
+      {
+       "en": "Das sind Anna und Tom.",
+       "ru": "Это Анна и Том."
+      }
+     ]
+    },
+    {
+     "title_en": "The verb haben",
+     "title_ru": "Глагол haben",
+     "body_en": "haben (to have) is almost regular, but the b disappears in the du and er forms: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben. In speech the final -e of habe is often dropped: Ich hab' Zeit.",
+     "body_ru": "haben (иметь) почти правильный, но в формах du и er буква b выпадает: ich habe, du hast, er/sie/es hat, wir haben, ihr habt, sie/Sie haben. В разговорной речи конечное -e в habe часто опускают: Ich hab' Zeit.",
+     "examples": [
+      {
+       "en": "Du hast eine Katze.",
+       "ru": "У тебя есть кошка."
+      },
+      {
+       "en": "Er hat ein Auto.",
+       "ru": "У него есть машина."
+      },
+      {
+       "en": "Habt ihr Fragen?",
+       "ru": "У вас есть вопросы?"
+      }
+     ]
+    },
+    {
+     "title_en": "Uses of haben",
+     "title_ru": "Употребление haben",
+     "body_en": "Where Russian says 'у меня есть', German makes the owner the subject: Ich habe einen Bruder. The thing you have is a direct object, so a masculine article becomes einen. German also uses haben for many states: Hunger haben (be hungry), Durst haben (be thirsty), Zeit haben (have time), Angst haben (be afraid).",
+     "body_ru": "Там, где русский говорит «у меня есть», немецкий делает владельца подлежащим: Ich habe einen Bruder — букв. «я имею брата». Предмет обладания — прямое дополнение, поэтому артикль мужского рода становится einen (винительный падеж). Через haben выражаются и многие состояния: Hunger haben (быть голодным), Durst haben (хотеть пить), Zeit haben (иметь время), Angst haben (бояться).",
+     "examples": [
+      {
+       "en": "Ich habe einen Bruder.",
+       "ru": "У меня есть брат."
+      },
+      {
+       "en": "Wir haben Hunger.",
+       "ru": "Мы голодны."
+      },
+      {
+       "en": "Hast du heute Zeit?",
+       "ru": "У тебя сегодня есть время?"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Ich ___ Student.",
+     "options": [
+      "bist",
+      "bin",
+      "ist",
+      "sind"
+     ],
+     "answer": 1,
+     "explain_en": "ich → bin.",
+     "explain_ru": "ich → bin. Глагол нельзя пропустить, как в русском «Я студент»."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Wir ___ aus Russland.",
+     "options": [
+      "sind",
+      "seid",
+      "ist",
+      "bin"
+     ],
+     "answer": 0,
+     "explain_en": "wir → sind.",
+     "explain_ru": "wir → sind. Не путайте с ihr seid."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "___ seid sehr nett.",
+     "options": [
+      "Wir",
+      "Sie",
+      "Ihr",
+      "Du"
+     ],
+     "answer": 2,
+     "explain_en": "seid is the ihr form.",
+     "explain_ru": "seid — форма для ihr («вы» неформально)."
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "Hast ___ heute Zeit?",
+     "options": [
+      "er",
+      "ihr",
+      "wir",
+      "du"
+     ],
+     "answer": 3,
+     "explain_en": "hast is the du form.",
+     "explain_ru": "hast — форма для du."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Herr Müller, ___ Sie aus Berlin?",
+     "options": [
+      "ist",
+      "sind",
+      "seid",
+      "bist"
+     ],
+     "answer": 1,
+     "explain_en": "Formal Sie takes the plural form: Sie sind.",
+     "explain_ru": "Вежливое Sie требует формы множественного числа: Sie sind — даже к одному человеку."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Er ___ einen Bruder.",
+     "options": [
+      "habt",
+      "haben",
+      "hat",
+      "hast"
+     ],
+     "answer": 2,
+     "explain_en": "er → hat.",
+     "explain_ru": "er → hat: буква b выпадает."
+    },
+    {
+     "id": "e07",
+     "type": "mc",
+     "q": "Wo ist das Buch? – ___ ist auf dem Tisch.",
+     "options": [
+      "Er",
+      "Sie",
+      "Ihr",
+      "Es"
+     ],
+     "answer": 3,
+     "explain_en": "das Buch is neuter → es.",
+     "explain_ru": "das Buch среднего рода → es, хотя по-русски «она» (книга)."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Die Kinder ___ Hunger.",
+     "options": [
+      "haben",
+      "hat",
+      "habt",
+      "hast"
+     ],
+     "answer": 0,
+     "explain_en": "die Kinder = sie (they) → haben.",
+     "explain_ru": "die Kinder = sie (они) → haben."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Wie alt ___ du? – Ich bin 20.",
+     "options": [
+      "ist",
+      "bin",
+      "seid",
+      "bist"
+     ],
+     "answer": 3,
+     "explain_en": "du → bist. Age is said with sein.",
+     "explain_ru": "du → bist. Возраст выражается глаголом sein: «Сколько тебе лет?» — букв. «Как стар ты есть?»"
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "Das ist mein Stuhl. ___ ist bequem.",
+     "options": [
+      "Es",
+      "Sie",
+      "Er",
+      "Ihr"
+     ],
+     "answer": 2,
+     "explain_en": "der Stuhl is masculine → er.",
+     "explain_ru": "der Stuhl мужского рода → er."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Du ___ (sein) mein Freund.",
+     "answer": [
+      "bist"
+     ],
+     "explain_en": "du → bist.",
+     "explain_ru": "du → bist: «ты есть»."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Ihr ___ (haben) ein Auto.",
+     "answer": [
+      "habt"
+     ],
+     "explain_en": "ihr → habt.",
+     "explain_ru": "ihr → habt: «у вас есть»."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "Sie (она) ___ (sein) Ärztin.",
+     "answer": [
+      "ist"
+     ],
+     "explain_en": "sie (she) → ist.",
+     "explain_ru": "sie «она» → ist. С «они» было бы sind."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "Wir ___ (haben) Durst.",
+     "answer": [
+      "haben"
+     ],
+     "explain_en": "wir → haben. Durst haben = to be thirsty.",
+     "explain_ru": "wir → haben. Durst haben — «хотеть пить»."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Ich ___ (haben) eine Schwester.",
+     "answer": [
+      "habe"
+     ],
+     "explain_en": "ich → habe. 'У меня есть' = Ich habe.",
+     "explain_ru": "ich → habe. «У меня есть» = Ich habe."
+    },
+    {
+     "id": "e16",
+     "type": "fill",
+     "q": "Ihr ___ (sein) zu spät.",
+     "answer": [
+      "seid"
+     ],
+     "explain_en": "ihr → seid.",
+     "explain_ru": "ihr → seid. Не путайте с seit (с, с тех пор)."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Die Lampe ist schön. ___ ist aus Italien.",
+     "answer": [
+      "Sie",
+      "sie"
+     ],
+     "explain_en": "die Lampe is feminine → sie.",
+     "explain_ru": "die Lampe женского рода → sie."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "Du ___ (haben) recht.",
+     "answer": [
+      "hast"
+     ],
+     "explain_en": "du → hast. Recht haben = to be right.",
+     "explain_ru": "du → hast. Recht haben — «быть правым»."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "Jahre",
+      "Ich",
+      "alt.",
+      "bin",
+      "30"
+     ],
+     "answer": "Ich bin 30 Jahre alt.",
+     "ru": "Мне 30 лет."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "habe",
+      "Ich",
+      "Bruder.",
+      "einen"
+     ],
+     "answer": "Ich habe einen Bruder.",
+     "ru": "У меня есть брат."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Sie",
+      "aus",
+      "Sind",
+      "Wien?"
+     ],
+     "answer": "Sind Sie aus Wien?",
+     "ru": "Вы из Вены?"
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "heute",
+      "Zeit?",
+      "du",
+      "Hast"
+     ],
+     "answer": "Hast du heute Zeit?",
+     "ru": "У тебя сегодня есть время?"
+    },
+    {
+     "id": "e23",
+     "type": "tf",
+     "q": "In German you can say „Ich Student“ without a verb, like Russian „Я студент“.",
+     "answer": false,
+     "explain_en": "The verb is required: Ich bin Student.",
+     "explain_ru": "Глагол обязателен: Ich bin Student."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "„Sie sind“ can mean both 'they are' and formal 'you are'.",
+     "answer": true,
+     "explain_en": "sie (they) and Sie (you) take the same verb form.",
+     "explain_ru": "sie (они) и Sie (Вы) имеют одну и ту же форму глагола: sind."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "„ihr“ is the polite form for talking to one person.",
+     "answer": false,
+     "explain_en": "ihr is informal plural. The polite form is Sie.",
+     "explain_ru": "ihr — неформальное «вы» к нескольким людям. Вежливая форма — Sie."
+    },
+    {
+     "id": "e26",
+     "type": "match",
+     "pairs": [
+      [
+       "ich",
+       "bin"
+      ],
+      [
+       "du",
+       "bist"
+      ],
+      [
+       "er",
+       "ist"
+      ],
+      [
+       "wir",
+       "sind"
+      ],
+      [
+       "ihr",
+       "seid"
+      ]
+     ]
+    },
+    {
+     "id": "e27",
+     "type": "match",
+     "pairs": [
+      [
+       "ich",
+       "habe"
+      ],
+      [
+       "du",
+       "hast"
+      ],
+      [
+       "sie (она)",
+       "hat"
+      ],
+      [
+       "wir",
+       "haben"
+      ],
+      [
+       "ihr",
+       "habt"
+      ]
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "ich",
+       "я"
+      ],
+      [
+       "du",
+       "ты"
+      ],
+      [
+       "er",
+       "он"
+      ],
+      [
+       "wir",
+       "мы"
+      ],
+      [
+       "ihr",
+       "вы (неформально)"
+      ],
+      [
+       "Sie",
+       "Вы (вежливо)"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "present-tense",
+   "title_en": "Present tense: regular and stem-changing verbs",
+   "title_ru": "Настоящее время: правильные глаголы и глаголы с чередованием",
+   "summary_en": "The present tense endings -e, -st, -t, -en, -t, -en, spelling adjustments, and the verbs that change their vowel (e → i/ie, a → ä) in the du and er/sie/es forms.",
+   "summary_ru": "Окончания настоящего времени -e, -st, -t, -en, -t, -en, особенности написания и глаголы, которые меняют гласную (e → i/ie, a → ä) в формах du и er/sie/es.",
+   "rules": [
+    {
+     "title_en": "Regular endings",
+     "title_ru": "Правильные окончания",
+     "body_en": "Take the infinitive, remove -en (or -n) to get the stem, and add the endings: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. machen: ich mache, du machst, er macht, wir machen, ihr macht, sie machen. Note that the wir and sie/Sie forms look like the infinitive, and the er and ihr forms are the same.",
+     "body_ru": "Возьмите инфинитив, отбросьте -en (или -n) — получится основа, и добавьте окончания: ich -e, du -st, er/sie/es -t, wir -en, ihr -t, sie/Sie -en. machen: ich mache, du machst, er macht, wir machen, ihr macht, sie machen. Формы wir и sie/Sie совпадают с инфинитивом, а формы er и ihr одинаковы. Окончаний всего шесть — меньше путаницы, чем с русскими спряжениями.",
+     "examples": [
+      {
+       "en": "Ich wohne in Hamburg.",
+       "ru": "Я живу в Гамбурге."
+      },
+      {
+       "en": "Du lernst Deutsch.",
+       "ru": "Ты учишь немецкий."
+      },
+      {
+       "en": "Wir spielen und ihr spielt.",
+       "ru": "Мы играем, и вы играете."
+      }
+     ]
+    },
+    {
+     "title_en": "Stems in -t, -d and similar: extra -e-",
+     "title_ru": "Основа на -t, -d и т. п.: вставное -e-",
+     "body_en": "If the stem ends in -t or -d (and in some groups like -chn, -fn, -gn), an -e- is added before -st and -t so the ending can be heard: arbeiten → du arbeitest, er arbeitet, ihr arbeitet; finden → du findest, er findet; öffnen → er öffnet; rechnen → du rechnest.",
+     "body_ru": "Если основа оканчивается на -t или -d (а также на -chn, -fn, -gn), перед -st и -t вставляется -e-, чтобы окончание было слышно: arbeiten → du arbeitest, er arbeitet, ihr arbeitet; finden → du findest, er findet; öffnen → er öffnet; rechnen → du rechnest. Без этого получилось бы непроизносимое «arbeitt».",
+     "examples": [
+      {
+       "en": "Er arbeitet viel.",
+       "ru": "Он много работает."
+      },
+      {
+       "en": "Findest du den Schlüssel?",
+       "ru": "Ты находишь ключ?"
+      },
+      {
+       "en": "Sie öffnet das Fenster.",
+       "ru": "Она открывает окно."
+      }
+     ]
+    },
+    {
+     "title_en": "Stems in -s, -ß, -z: du only adds -t",
+     "title_ru": "Основа на -s, -ß, -z: у du только -t",
+     "body_en": "If the stem ends in an s-sound (-s, -ss, -ß, -z, -tz, -x), the du form adds only -t, so it is the same as the er form: heißen → du heißt, tanzen → du tanzt, reisen → du reist, sitzen → du sitzt. Verbs in -eln drop the e in the ich form: sammeln → ich sammle.",
+     "body_ru": "Если основа оканчивается на звук «с/ц» (-s, -ss, -ß, -z, -tz, -x), в форме du добавляется только -t, и она совпадает с формой er: heißen → du heißt, tanzen → du tanzt, reisen → du reist, sitzen → du sitzt. Глаголы на -eln теряют e в форме ich: sammeln → ich sammle (я собираю).",
+     "examples": [
+      {
+       "en": "Wie heißt du?",
+       "ru": "Как тебя зовут?"
+      },
+      {
+       "en": "Du tanzt sehr gut.",
+       "ru": "Ты очень хорошо танцуешь."
+      },
+      {
+       "en": "Ich sammle Briefmarken.",
+       "ru": "Я собираю марки."
+      }
+     ]
+    },
+    {
+     "title_en": "Vowel change e → i",
+     "title_ru": "Чередование e → i",
+     "body_en": "Many strong verbs change e to i in the du and er/sie/es forms only: sprechen → du sprichst, er spricht; geben → gibst, gibt; helfen → hilfst, hilft; essen → du isst, er isst. nehmen also changes the consonants: du nimmst, er nimmt. The other forms are regular: ich spreche, wir sprechen, ihr sprecht.",
+     "body_ru": "Многие сильные глаголы меняют e на i только в формах du и er/sie/es: sprechen → du sprichst, er spricht; geben → gibst, gibt; helfen → hilfst, hilft; essen → du isst, er isst. У nehmen меняются и согласные: du nimmst, er nimmt. Остальные формы правильные: ich spreche, wir sprechen, ihr sprecht. Похоже на русское «беру — берёшь»: меняется только часть форм.",
+     "examples": [
+      {
+       "en": "Sprichst du Russisch?",
+       "ru": "Ты говоришь по-русски?"
+      },
+      {
+       "en": "Er isst gern Fisch.",
+       "ru": "Он любит есть рыбу."
+      },
+      {
+       "en": "Sie nimmt den Bus.",
+       "ru": "Она едет на автобусе. (букв. «берёт автобус»)"
+      }
+     ]
+    },
+    {
+     "title_en": "Vowel change e → ie",
+     "title_ru": "Чередование e → ie",
+     "body_en": "Some verbs with a long e change it to ie in the du and er/sie/es forms: sehen → du siehst, er sieht; lesen → du liest, er liest; empfehlen → du empfiehlst, er empfiehlt. Because lesen has an s-stem, du liest and er liest are the same.",
+     "body_ru": "Некоторые глаголы с долгим e меняют его на ie в формах du и er/sie/es: sehen → du siehst, er sieht; lesen → du liest, er liest; empfehlen → du empfiehlst, er empfiehlt. Так как основа lesen оканчивается на s, формы du liest и er liest совпадают.",
+     "examples": [
+      {
+       "en": "Siehst du das Haus?",
+       "ru": "Ты видишь дом?"
+      },
+      {
+       "en": "Mein Vater liest die Zeitung.",
+       "ru": "Мой отец читает газету."
+      },
+      {
+       "en": "Was empfiehlst du?",
+       "ru": "Что ты посоветуешь?"
+      }
+     ]
+    },
+    {
+     "title_en": "Vowel change a → ä, au → äu",
+     "title_ru": "Чередование a → ä, au → äu",
+     "body_en": "Some verbs with a get an umlaut in the du and er/sie/es forms: fahren → du fährst, er fährt; schlafen → schläfst, schläft; tragen → trägst, trägt; waschen → wäschst, wäscht. laufen gets äu: du läufst, er läuft. halten adds no -e-: du hältst, er hält. The wir and ihr forms keep a: wir fahren, ihr fahrt.",
+     "body_ru": "Некоторые глаголы с a получают умлаут в формах du и er/sie/es: fahren → du fährst, er fährt; schlafen → schläfst, schläft; tragen → trägst, trägt; waschen → wäschst, wäscht. laufen получает äu: du läufst, er läuft. halten не добавляет -e-: du hältst, er hält. В формах wir и ihr умлаута нет: wir fahren, ihr fahrt.",
+     "examples": [
+      {
+       "en": "Fährst du nach Berlin?",
+       "ru": "Ты едешь в Берлин?"
+      },
+      {
+       "en": "Das Baby schläft.",
+       "ru": "Малыш спит."
+      },
+      {
+       "en": "Er läuft jeden Morgen.",
+       "ru": "Он бегает каждое утро."
+      }
+     ]
+    },
+    {
+     "title_en": "wissen",
+     "title_ru": "Глагол wissen",
+     "body_en": "wissen (to know a fact) is irregular in the singular: ich weiß, du weißt, er/sie/es weiß, but wir wissen, ihr wisst, sie wissen. Note that ich and er have no ending, like modal verbs. Use wissen for facts (Ich weiß, wo er wohnt) and kennen for people and places you are familiar with (Ich kenne Berlin).",
+     "body_ru": "wissen (знать факт) неправильный в единственном числе: ich weiß, du weißt, er/sie/es weiß, но wir wissen, ihr wisst, sie wissen. У ich и er нет окончания, как у модальных глаголов. Русскому «знать» соответствуют два глагола: wissen — знать факт, информацию (Ich weiß, wo er wohnt), kennen — быть знакомым с человеком или местом (Ich kenne Berlin).",
+     "examples": [
+      {
+       "en": "Ich weiß es nicht.",
+       "ru": "Я этого не знаю."
+      },
+      {
+       "en": "Weißt du, wo der Bahnhof ist?",
+       "ru": "Ты знаешь, где вокзал?"
+      },
+      {
+       "en": "Kennst du Anna?",
+       "ru": "Ты знаешь Анну? (знаком с ней)"
+      }
+     ]
+    },
+    {
+     "title_en": "One present for many meanings",
+     "title_ru": "Одно настоящее время — много значений",
+     "body_en": "German has only one present tense. Ich lese means 'I read' and 'I am reading'. With a time word it also expresses the future: Morgen fahre ich nach Wien. With seit it describes something that started in the past and still continues: Ich wohne seit zwei Jahren hier. German has no aspect, so the same verb covers Russian 'читать' and 'прочитать' in many contexts.",
+     "body_ru": "В немецком одно настоящее время. Ich lese значит «я читаю» и «я сейчас читаю». Со словом, указывающим время, оно выражает и будущее: Morgen fahre ich nach Wien («Завтра я поеду в Вену»). С seit оно описывает действие, которое началось в прошлом и продолжается: Ich wohne seit zwei Jahren hier («Я живу здесь два года») — как и в русском. Вида глагола в немецком нет.",
+     "examples": [
+      {
+       "en": "Ich lese gerade.",
+       "ru": "Я сейчас читаю."
+      },
+      {
+       "en": "Morgen fahre ich nach Wien.",
+       "ru": "Завтра я поеду в Вену."
+      },
+      {
+       "en": "Ich lerne seit einem Jahr Deutsch.",
+       "ru": "Я учу немецкий уже год."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Ich ___ in Berlin.",
+     "options": [
+      "wohne",
+      "wohnst",
+      "wohnt",
+      "wohnen"
+     ],
+     "answer": 0,
+     "explain_en": "ich → -e: wohne.",
+     "explain_ru": "ich → окончание -e: wohne."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Du ___ gut Deutsch.",
+     "options": [
+      "sprechst",
+      "spreche",
+      "sprichst",
+      "spricht"
+     ],
+     "answer": 2,
+     "explain_en": "sprechen changes e → i for du: sprichst.",
+     "explain_ru": "sprechen меняет e → i в форме du: sprichst."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "Er ___ jeden Tag.",
+     "options": [
+      "arbeitt",
+      "arbeitet",
+      "arbeitest",
+      "arbeiten"
+     ],
+     "answer": 1,
+     "explain_en": "Stem in -t needs an extra -e-: arbeitet.",
+     "explain_ru": "Основа на -t требует вставного -e-: arbeitet."
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "Wie ___ du?",
+     "options": [
+      "heiße",
+      "heißst",
+      "heißen",
+      "heißt"
+     ],
+     "answer": 3,
+     "explain_en": "Stem in -ß: du adds only -t: heißt.",
+     "explain_ru": "Основа на -ß: в форме du только -t — heißt."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Sie (она) ___ ein Buch.",
+     "options": [
+      "liest",
+      "lest",
+      "lesst",
+      "lese"
+     ],
+     "answer": 0,
+     "explain_en": "lesen changes e → ie: sie liest.",
+     "explain_ru": "lesen меняет e → ie: sie liest."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Mein Bruder ___ nach Hamburg.",
+     "options": [
+      "fahrt",
+      "fährt",
+      "fahrst",
+      "fähre"
+     ],
+     "answer": 1,
+     "explain_en": "fahren: a → ä for er/sie/es: fährt.",
+     "explain_ru": "fahren: a → ä в форме er/sie/es — fährt."
+    },
+    {
+     "id": "e07",
+     "type": "mc",
+     "q": "Was ___ ihr am Abend?",
+     "options": [
+      "machen",
+      "machst",
+      "macht",
+      "mache"
+     ],
+     "answer": 2,
+     "explain_en": "ihr → -t: macht.",
+     "explain_ru": "ihr → окончание -t: macht."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Er ___ den Bus.",
+     "options": [
+      "nehmt",
+      "nimmst",
+      "nehme",
+      "nimmt"
+     ],
+     "answer": 3,
+     "explain_en": "nehmen → er nimmt (vowel and consonant change).",
+     "explain_ru": "nehmen → er nimmt: меняются и гласная, и согласные."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "___ du, wo der Bahnhof ist?",
+     "options": [
+      "Weißt",
+      "Wisst",
+      "Wissst",
+      "Kennst"
+     ],
+     "answer": 0,
+     "explain_en": "A fact → wissen: du weißt.",
+     "explain_ru": "Речь о факте → wissen: du weißt. kennen — для людей и мест."
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "Das Kind ___ zehn Stunden.",
+     "options": [
+      "schlaft",
+      "schläfst",
+      "schläft",
+      "schlafen"
+     ],
+     "answer": 2,
+     "explain_en": "schlafen: a → ä for es: schläft.",
+     "explain_ru": "schlafen: a → ä в форме es — schläft."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Ihr ___ (spielen) Fußball.",
+     "answer": [
+      "spielt"
+     ],
+     "explain_en": "ihr → -t: spielt.",
+     "explain_ru": "ihr → окончание -t: spielt."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Du ___ (essen) gern Pizza.",
+     "answer": [
+      "isst"
+     ],
+     "explain_en": "essen → du isst (e → i, s-stem).",
+     "explain_ru": "essen → du isst: e → i, и после ss только -t."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "Er ___ (sehen) einen Film.",
+     "answer": [
+      "sieht"
+     ],
+     "explain_en": "sehen → er sieht (e → ie).",
+     "explain_ru": "sehen → er sieht: чередование e → ie."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "Du ___ (finden) das Buch nicht.",
+     "answer": [
+      "findest"
+     ],
+     "explain_en": "Stem in -d: du findest.",
+     "explain_ru": "Основа на -d: вставное -e- — du findest."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Wir ___ (fahren) nach Wien.",
+     "answer": [
+      "fahren"
+     ],
+     "explain_en": "No umlaut in the wir form: wir fahren.",
+     "explain_ru": "В форме wir умлаута нет: wir fahren."
+    },
+    {
+     "id": "e16",
+     "type": "fill",
+     "q": "Sie (она) ___ (helfen) der Mutter.",
+     "answer": [
+      "hilft"
+     ],
+     "explain_en": "helfen → sie hilft (e → i).",
+     "explain_ru": "helfen → sie hilft: чередование e → i. Обратите внимание: helfen требует дательного падежа (der Mutter) — как и русское «помогать маме»."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Du ___ (tanzen) sehr gut.",
+     "answer": [
+      "tanzt"
+     ],
+     "explain_en": "Stem in -z: du adds only -t: tanzt.",
+     "explain_ru": "Основа на -z: в форме du только -t — tanzt."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "Ich ___ (wissen) es nicht.",
+     "answer": [
+      "weiß"
+     ],
+     "explain_en": "wissen → ich weiß (no ending).",
+     "explain_ru": "wissen → ich weiß, без окончания."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "Deutsch.",
+      "lernt",
+      "Anna"
+     ],
+     "answer": "Anna lernt Deutsch.",
+     "ru": "Анна учит немецкий."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "fährt",
+      "Zug.",
+      "Er",
+      "mit",
+      "dem"
+     ],
+     "answer": "Er fährt mit dem Zug.",
+     "ru": "Он едет на поезде."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "liest",
+      "Zeitung.",
+      "eine",
+      "Mein",
+      "Vater"
+     ],
+     "answer": "Mein Vater liest eine Zeitung.",
+     "ru": "Мой отец читает газету."
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "fahre",
+      "Morgen",
+      "ich",
+      "Berlin.",
+      "nach"
+     ],
+     "answer": "Morgen fahre ich nach Berlin.",
+     "ru": "Завтра я поеду в Берлин."
+    },
+    {
+     "id": "e23",
+     "type": "tf",
+     "q": "„fahren“ changes its vowel in the wir form too: wir fähren.",
+     "answer": false,
+     "explain_en": "The vowel changes only for du and er/sie/es: wir fahren.",
+     "explain_ru": "Гласная меняется только в формах du и er/sie/es: wir fahren."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "German has one present tense for both 'I read' and 'I am reading'.",
+     "answer": true,
+     "explain_en": "Ich lese covers both meanings.",
+     "explain_ru": "Ich lese означает и «я читаю (обычно)», и «я читаю (сейчас)»."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "With a stem in -t, the du form gets an extra e: du arbeitest.",
+     "answer": true,
+     "explain_en": "The extra -e- makes the ending audible.",
+     "explain_ru": "Вставное -e- делает окончание слышным: du arbeitest."
+    },
+    {
+     "id": "e26",
+     "type": "match",
+     "pairs": [
+      [
+       "ich",
+       "mache"
+      ],
+      [
+       "du",
+       "machst"
+      ],
+      [
+       "sie (она)",
+       "macht"
+      ],
+      [
+       "wir",
+       "machen"
+      ]
+     ]
+    },
+    {
+     "id": "e27",
+     "type": "match",
+     "pairs": [
+      [
+       "sprechen",
+       "er spricht"
+      ],
+      [
+       "lesen",
+       "er liest"
+      ],
+      [
+       "fahren",
+       "er fährt"
+      ],
+      [
+       "laufen",
+       "er läuft"
+      ],
+      [
+       "nehmen",
+       "er nimmt"
+      ],
+      [
+       "essen",
+       "er isst"
+      ]
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "arbeiten",
+       "работать"
+      ],
+      [
+       "wohnen",
+       "жить, проживать"
+      ],
+      [
+       "schlafen",
+       "спать"
+      ],
+      [
+       "sehen",
+       "видеть"
+      ],
+      [
+       "helfen",
+       "помогать"
+      ],
+      [
+       "lernen",
+       "учить, учиться"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "word-order-questions",
+   "title_en": "Word order: verb second, inversion and questions",
+   "title_ru": "Порядок слов: глагол на втором месте, инверсия и вопросы",
+   "summary_en": "In a German statement the conjugated verb is always the second element; if something else comes first, the subject moves behind the verb. W-questions put the question word first, yes/no questions put the verb first.",
+   "summary_ru": "В немецком повествовательном предложении спрягаемый глагол всегда стоит на втором месте; если первым стоит не подлежащее, оно переходит за глагол. В W-вопросах первым стоит вопросительное слово, в вопросах «да/нет» — глагол.",
+   "rules": [
+    {
+     "title_en": "The verb is in second position",
+     "title_ru": "Глагол на втором месте",
+     "body_en": "In a statement the conjugated verb is always the second element. An element can be one word or a group of words: Ich lerne heute Deutsch. Meine kleine Schwester lernt heute Deutsch. Russian word order is free ('Сегодня я учу', 'Я сегодня учу'), but in German the verb position is fixed.",
+     "body_ru": "В повествовательном предложении спрягаемый глагол всегда занимает второе место. Место — это не обязательно одно слово, а член предложения: Ich lerne heute Deutsch. Meine kleine Schwester lernt heute Deutsch. В русском порядок слов свободный («Сегодня я учу», «Я сегодня учу»), а в немецком место глагола жёстко закреплено.",
+     "examples": [
+      {
+       "en": "Ich lerne heute Deutsch.",
+       "ru": "Я сегодня учу немецкий."
+      },
+      {
+       "en": "Meine kleine Schwester lernt auch Deutsch.",
+       "ru": "Моя младшая сестра тоже учит немецкий."
+      },
+      {
+       "en": "Wir wohnen in München.",
+       "ru": "Мы живём в Мюнхене."
+      }
+     ]
+    },
+    {
+     "title_en": "Inversion",
+     "title_ru": "Инверсия",
+     "body_en": "If a time, place or object comes first, the verb still stays in position 2 and the subject moves behind it: Heute lerne ich Deutsch. In Berlin wohnt mein Onkel. Den Film kenne ich. Never say 'Heute ich lerne': there would be two elements before the verb. Starting with time is very common in German.",
+     "body_ru": "Если первым стоит время, место или дополнение, глагол всё равно остаётся на втором месте, а подлежащее переходит за него: Heute lerne ich Deutsch. In Berlin wohnt mein Onkel. Den Film kenne ich. Никогда не говорите «Heute ich lerne»: перед глаголом окажутся два члена предложения. Это самая частая ошибка русскоязычных. Начинать предложение со времени в немецком очень обычно.",
+     "examples": [
+      {
+       "en": "Heute lerne ich Deutsch.",
+       "ru": "Сегодня я учу немецкий."
+      },
+      {
+       "en": "In Berlin wohnt mein Onkel.",
+       "ru": "В Берлине живёт мой дядя."
+      },
+      {
+       "en": "Am Abend sehen wir fern.",
+       "ru": "Вечером мы смотрим телевизор."
+      }
+     ]
+    },
+    {
+     "title_en": "Long first elements and und, aber, oder",
+     "title_ru": "Длинное первое место и und, aber, oder",
+     "body_en": "Position 1 can be long, but it still counts as one element: Am Montag um acht Uhr beginnt der Kurs. The conjunctions und, aber, oder, denn and sondern stand outside the count (position 0), so after them normal order follows: Ich bin müde, aber ich arbeite. You can also invert after them: …, aber heute arbeite ich.",
+     "body_ru": "Первое место может быть длинным, но это всё равно один член предложения: Am Montag um acht Uhr beginnt der Kurs. Союзы und, aber, oder, denn и sondern стоят вне счёта (нулевое место), поэтому после них идёт обычный порядок: Ich bin müde, aber ich arbeite. Можно поставить на первое место и другой член: …, aber heute arbeite ich.",
+     "examples": [
+      {
+       "en": "Am Montag um acht Uhr beginnt der Kurs.",
+       "ru": "В понедельник в восемь часов начинается курс."
+      },
+      {
+       "en": "Ich bin müde, aber ich arbeite.",
+       "ru": "Я устал, но я работаю."
+      },
+      {
+       "en": "Er kommt und wir essen.",
+       "ru": "Он приходит, и мы едим."
+      }
+     ]
+    },
+    {
+     "title_en": "W-questions",
+     "title_ru": "Вопросы с вопросительным словом",
+     "body_en": "A W-question begins with a question word, then the verb, then the subject: Wo wohnst du? Was machst du? The main question words are wer (who), was (what), wo (where), woher (where from), wohin (where to), wann (when), wie (how), warum (why), wie viel (how much). Careful: wo is 'where', wer is 'who'. German splits 'где / откуда / куда' into wo / woher / wohin, just like Russian.",
+     "body_ru": "Вопрос с вопросительным словом начинается с этого слова, затем идёт глагол, потом подлежащее: Wo wohnst du? Was machst du? Основные слова: wer (кто), was (что), wo (где), woher (откуда), wohin (куда), wann (когда), wie (как), warum (почему), wie viel (сколько). Осторожно: wo — это «где», а wer — «кто», хотя wer похоже на английское where. Как и в русском, «где / откуда / куда» — три разных слова: wo / woher / wohin.",
+     "examples": [
+      {
+       "en": "Wo wohnst du?",
+       "ru": "Где ты живёшь?"
+      },
+      {
+       "en": "Woher kommen Sie?",
+       "ru": "Откуда Вы?"
+      },
+      {
+       "en": "Wer ist das?",
+       "ru": "Кто это?"
+      }
+     ]
+    },
+    {
+     "title_en": "Yes/no questions",
+     "title_ru": "Вопросы «да/нет»",
+     "body_en": "A question without a question word starts with the conjugated verb: Kommst du heute? Wohnt er in Berlin? Hast du Zeit? In Russian you can ask with intonation alone ('Ты придёшь?'), but in German the verb must move to the front. The answer is ja or nein.",
+     "body_ru": "Вопрос без вопросительного слова начинается со спрягаемого глагола: Kommst du heute? Wohnt er in Berlin? Hast du Zeit? В русском можно спросить одной интонацией («Ты придёшь?»), а в немецком глагол обязательно выходит на первое место. Ответ — ja (да) или nein (нет).",
+     "examples": [
+      {
+       "en": "Kommst du heute? – Ja.",
+       "ru": "Ты сегодня придёшь? — Да."
+      },
+      {
+       "en": "Wohnt er in Berlin? – Nein, in Bonn.",
+       "ru": "Он живёт в Берлине? — Нет, в Бонне."
+      },
+      {
+       "en": "Sprechen Sie Englisch?",
+       "ru": "Вы говорите по-английски?"
+      }
+     ]
+    },
+    {
+     "title_en": "doch: yes to a negative question",
+     "title_ru": "doch: «да» на отрицательный вопрос",
+     "body_en": "If a question contains a negation (nicht, kein) and your answer is positive, say doch, not ja: Kommst du nicht mit? – Doch, ich komme mit! Nein agrees with the negation: Nein, ich komme nicht mit. Russian speakers often say 'Нет, приду', which in German is confusing; use doch.",
+     "body_ru": "Если в вопросе есть отрицание (nicht, kein), а ваш ответ положительный, говорите doch, а не ja: Kommst du nicht mit? – Doch, ich komme mit! («Ты не пойдёшь? — Нет, пойду!»). Nein подтверждает отрицание: Nein, ich komme nicht mit. По-русски мы говорим «Нет, пойду», а по-немецки «Nein» здесь сбивает с толку — нужно doch.",
+     "examples": [
+      {
+       "en": "Kommst du nicht mit? – Doch!",
+       "ru": "Ты не пойдёшь с нами? — Нет, пойду!"
+      },
+      {
+       "en": "Hast du keinen Hunger? – Doch, ich habe Hunger.",
+       "ru": "Ты не голоден? — Нет, голоден."
+      },
+      {
+       "en": "Bist du nicht müde? – Nein, ich bin nicht müde.",
+       "ru": "Ты не устал? — Нет, не устал."
+      }
+     ]
+    },
+    {
+     "title_en": "The verb bracket (preview)",
+     "title_ru": "Рамочная конструкция (знакомство)",
+     "body_en": "When the verb has two parts, only the conjugated part is in position 2; the other part goes to the end of the sentence. This 'bracket' appears with modal verbs (Ich kann gut schwimmen) and separable verbs (Ich stehe um sieben Uhr auf). In questions the bracket stays: Kannst du gut schwimmen? Wann stehst du auf?",
+     "body_ru": "Если глагол состоит из двух частей, на втором месте стоит только спрягаемая часть, а вторая уходит в конец предложения. Такая «рамка» возникает с модальными глаголами (Ich kann gut schwimmen) и с отделяемыми приставками (Ich stehe um sieben Uhr auf). В вопросах рамка сохраняется: Kannst du gut schwimmen? Wann stehst du auf? В русском такого разрыва нет, поэтому следите за концом предложения.",
+     "examples": [
+      {
+       "en": "Ich kann gut schwimmen.",
+       "ru": "Я хорошо умею плавать."
+      },
+      {
+       "en": "Ich stehe um sieben Uhr auf.",
+       "ru": "Я встаю в семь часов."
+      },
+      {
+       "en": "Wann stehst du auf?",
+       "ru": "Когда ты встаёшь?"
+      }
+     ]
+    },
+    {
+     "title_en": "Time before place",
+     "title_ru": "Время перед местом",
+     "body_en": "In the middle of the sentence, a time expression usually comes before a place or direction: Ich fahre morgen nach Berlin. Wir sind heute zu Hause. Er arbeitet am Montag im Büro. In Russian both orders sound natural, but in German 'Ich fahre nach Berlin morgen' sounds wrong.",
+     "body_ru": "В середине предложения обстоятельство времени обычно стоит перед обстоятельством места или направления: Ich fahre morgen nach Berlin. Wir sind heute zu Hause. Er arbeitet am Montag im Büro. В русском оба порядка звучат естественно, а по-немецки «Ich fahre nach Berlin morgen» звучит неправильно.",
+     "examples": [
+      {
+       "en": "Ich fahre morgen nach Berlin.",
+       "ru": "Я завтра еду в Берлин."
+      },
+      {
+       "en": "Wir sind heute zu Hause.",
+       "ru": "Мы сегодня дома."
+      },
+      {
+       "en": "Er arbeitet am Montag im Büro.",
+       "ru": "В понедельник он работает в офисе."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Welcher Satz ist richtig?",
+     "options": [
+      "Heute ich gehe ins Kino.",
+      "Heute gehe ich ins Kino.",
+      "Heute gehe ins Kino ich.",
+      "Gehe heute ich ins Kino."
+     ],
+     "answer": 1,
+     "explain_en": "Verb in position 2, subject after it: Heute gehe ich …",
+     "explain_ru": "Глагол на втором месте, подлежащее после него: Heute gehe ich ins Kino."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "___ wohnst du? – In Hamburg.",
+     "options": [
+      "Wer",
+      "Was",
+      "Wo",
+      "Wie"
+     ],
+     "answer": 2,
+     "explain_en": "The answer is a place → wo (where).",
+     "explain_ru": "В ответе место → wo (где)."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "___ kommst du? – Aus Russland.",
+     "options": [
+      "Wohin",
+      "Woher",
+      "Wo",
+      "Wann"
+     ],
+     "answer": 1,
+     "explain_en": "aus … answers woher (where from).",
+     "explain_ru": "aus … отвечает на вопрос woher (откуда)."
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "___ ist das? – Das ist Herr Schmidt.",
+     "options": [
+      "Wer",
+      "Was",
+      "Wo",
+      "Wie"
+     ],
+     "answer": 0,
+     "explain_en": "A person → wer (who).",
+     "explain_ru": "Речь о человеке → wer (кто). Не путайте с wo (где)."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Welcher Satz ist eine Ja/Nein-Frage?",
+     "options": [
+      "Wo wohnst du?",
+      "Du wohnst in Berlin.",
+      "Wohnst du in Berlin?",
+      "Wann kommst du?"
+     ],
+     "answer": 2,
+     "explain_en": "A yes/no question starts with the verb.",
+     "explain_ru": "Вопрос «да/нет» начинается с глагола: Wohnst du in Berlin?"
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Welcher Satz ist richtig?",
+     "options": [
+      "Am Wochenende wir besuchen Freunde.",
+      "Wir am Wochenende besuchen Freunde.",
+      "Besuchen am Wochenende wir Freunde.",
+      "Am Wochenende besuchen wir Freunde."
+     ],
+     "answer": 3,
+     "explain_en": "Am Wochenende is position 1, so the verb follows, then the subject.",
+     "explain_ru": "Am Wochenende занимает первое место, затем глагол, затем подлежащее."
+    },
+    {
+     "id": "e07",
+     "type": "mc",
+     "q": "Kommst du nicht mit? – ___, ich komme mit!",
+     "options": [
+      "Ja",
+      "Doch",
+      "Nein",
+      "Nicht"
+     ],
+     "answer": 1,
+     "explain_en": "A positive answer to a negative question is doch.",
+     "explain_ru": "Положительный ответ на отрицательный вопрос — doch."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "___ kostet das? – Drei Euro.",
+     "options": [
+      "Wie viel",
+      "Wie",
+      "Wann",
+      "Warum"
+     ],
+     "answer": 0,
+     "explain_en": "A price → wie viel (how much).",
+     "explain_ru": "Цена → wie viel (сколько)."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Ich bin müde, aber ___.",
+     "options": [
+      "arbeite ich heute",
+      "ich arbeite heute",
+      "heute ich arbeite"
+     ],
+     "answer": 1,
+     "explain_en": "aber is position 0, so normal order follows: ich arbeite heute.",
+     "explain_ru": "aber стоит на нулевом месте, после него обычный порядок: ich arbeite heute."
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "___ lernst du Deutsch? – Weil ich in Wien arbeite.",
+     "options": [
+      "Wann",
+      "Wie",
+      "Wer",
+      "Warum"
+     ],
+     "answer": 3,
+     "explain_en": "weil (because) answers warum (why).",
+     "explain_ru": "weil (потому что) отвечает на вопрос warum (почему)."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Wo ___ (wohnen) ihr?",
+     "answer": [
+      "wohnt"
+     ],
+     "explain_en": "ihr → wohnt; the verb comes right after wo.",
+     "explain_ru": "ihr → wohnt; глагол стоит сразу после wo."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "___ heißen Sie? – Ich heiße Maria Petrova.",
+     "answer": [
+      "Wie"
+     ],
+     "explain_en": "Asking for a name: Wie heißen Sie?",
+     "explain_ru": "Имя спрашивают со словом wie: Wie heißen Sie? (букв. «Как Вы называетесь?»)"
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "___ machst du heute Abend? – Ich lese.",
+     "answer": [
+      "Was"
+     ],
+     "explain_en": "Asking about an activity → was.",
+     "explain_ru": "Вопрос о занятии → was (что)."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "___ beginnt der Kurs? – Um neun Uhr.",
+     "answer": [
+      "Wann"
+     ],
+     "explain_en": "Asking about time → wann.",
+     "explain_ru": "Вопрос о времени → wann (когда)."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "___ fährst du? – Nach München.",
+     "answer": [
+      "Wohin"
+     ],
+     "explain_en": "nach … answers wohin (where to).",
+     "explain_ru": "nach … отвечает на вопрос wohin (куда)."
+    },
+    {
+     "id": "e16",
+     "type": "fill",
+     "q": "Morgen ___ (kommen) mein Bruder.",
+     "answer": [
+      "kommt"
+     ],
+     "explain_en": "Morgen is position 1, the verb is second: kommt.",
+     "explain_ru": "Morgen на первом месте, глагол на втором: kommt, подлежащее после него."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "___ (sprechen) du Englisch? – Ja, ein bisschen.",
+     "answer": [
+      "Sprichst",
+      "sprichst"
+     ],
+     "explain_en": "Yes/no question: verb first; du sprichst.",
+     "explain_ru": "Вопрос «да/нет»: глагол на первом месте — Sprichst du …?"
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "Hast du keinen Hunger? – ___, ich habe Hunger!",
+     "answer": [
+      "Doch"
+     ],
+     "explain_en": "Contradicting a negative question: doch.",
+     "explain_ru": "Возражение на отрицательный вопрос: doch."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "wohnst",
+      "Wo",
+      "du?"
+     ],
+     "answer": "Wo wohnst du?",
+     "ru": "Где ты живёшь?"
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "ich",
+      "Heute",
+      "Deutsch.",
+      "lerne"
+     ],
+     "answer": "Heute lerne ich Deutsch.",
+     "ru": "Сегодня я учу немецкий."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Kaffee?",
+      "du",
+      "Trinkst"
+     ],
+     "answer": "Trinkst du Kaffee?",
+     "ru": "Ты пьёшь кофе?"
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "Montag",
+      "fährt",
+      "Am",
+      "nach",
+      "sie",
+      "Berlin."
+     ],
+     "answer": "Am Montag fährt sie nach Berlin.",
+     "ru": "В понедельник она едет в Берлин."
+    },
+    {
+     "id": "e23",
+     "type": "tf",
+     "q": "„Heute ich arbeite“ is correct German word order.",
+     "answer": false,
+     "explain_en": "The verb must be second: Heute arbeite ich.",
+     "explain_ru": "Глагол должен стоять на втором месте: Heute arbeite ich."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "In a yes/no question the conjugated verb comes first.",
+     "answer": true,
+     "explain_en": "Kommst du? Hast du Zeit?",
+     "explain_ru": "Да: Kommst du? Hast du Zeit? Одной интонации недостаточно."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "The German word „wo“ means 'who'.",
+     "answer": false,
+     "explain_en": "wo = where, wer = who.",
+     "explain_ru": "wo — «где», а «кто» — wer."
+    },
+    {
+     "id": "e26",
+     "type": "match",
+     "pairs": [
+      [
+       "wer",
+       "кто"
+      ],
+      [
+       "was",
+       "что"
+      ],
+      [
+       "wo",
+       "где"
+      ],
+      [
+       "woher",
+       "откуда"
+      ],
+      [
+       "wohin",
+       "куда"
+      ],
+      [
+       "wann",
+       "когда"
+      ]
+     ]
+    },
+    {
+     "id": "e27",
+     "type": "match",
+     "pairs": [
+      [
+       "Wie heißt du?",
+       "Ich heiße Ivan."
+      ],
+      [
+       "Woher kommst du?",
+       "Aus Moskau."
+      ],
+      [
+       "Wie alt bist du?",
+       "Ich bin 25."
+      ],
+      [
+       "Was bist du von Beruf?",
+       "Ich bin Ingenieur."
+      ]
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "warum",
+       "почему"
+      ],
+      [
+       "wie",
+       "как"
+      ],
+      [
+       "wie viel",
+       "сколько"
+      ],
+      [
+       "wohin",
+       "куда"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "accusative-case",
+   "title_en": "Accusative case",
+   "title_ru": "Винительный падеж (Akkusativ)",
+   "summary_en": "The accusative marks the direct object. Only masculine articles change (der → den, ein → einen); pronouns have their own forms, and the prepositions für, ohne, durch, gegen, um always take the accusative.",
+   "summary_ru": "Аккузатив обозначает прямое дополнение. Меняются только артикли мужского рода (der → den, ein → einen); у местоимений свои формы, а предлоги für, ohne, durch, gegen, um всегда требуют аккузатива.",
+   "rules": [
+    {
+     "title_en": "What the accusative is",
+     "title_ru": "Что такое аккузатив",
+     "body_en": "German has four cases; the accusative is the case of the direct object and answers wen? (whom) or was? (what): Ich sehe den Mann. Was kaufst du? – Einen Tisch. It corresponds to the Russian винительный падеж. In Russian the noun ending changes ('вижу маму'); in German it is mainly the article that changes.",
+     "body_ru": "В немецком четыре падежа; аккузатив — падеж прямого дополнения, он отвечает на вопросы wen? (кого?) и was? (что?): Ich sehe den Mann. Was kaufst du? – Einen Tisch. Он соответствует русскому винительному падежу. Но в русском меняется окончание существительного («вижу маму»), а в немецком в основном меняется артикль.",
+     "examples": [
+      {
+       "en": "Ich sehe den Mann.",
+       "ru": "Я вижу мужчину."
+      },
+      {
+       "en": "Was kaufst du? – Einen Tisch.",
+       "ru": "Что ты покупаешь? — Стол."
+      },
+      {
+       "en": "Wen fragst du? – Den Lehrer.",
+       "ru": "Кого ты спрашиваешь? — Учителя."
+      }
+     ]
+    },
+    {
+     "title_en": "Only the masculine changes",
+     "title_ru": "Меняется только мужской род",
+     "body_en": "In the accusative only masculine articles change: der → den, ein → einen. Feminine, neuter and plural stay the same as in the nominative: die Frau, das Kind, die Kinder, eine Lampe, ein Buch. So: Ich kaufe den Tisch, die Lampe, das Buch, die Stühle.",
+     "body_ru": "В аккузативе меняются только артикли мужского рода: der → den, ein → einen. Женский, средний род и множественное число остаются как в именительном падеже: die Frau, das Kind, die Kinder, eine Lampe, ein Buch. Итак: Ich kaufe den Tisch, die Lampe, das Buch, die Stühle. Это проще, чем в русском, где меняются окончания разных родов.",
+     "examples": [
+      {
+       "en": "Ich kaufe den Tisch und die Lampe.",
+       "ru": "Я покупаю стол и лампу."
+      },
+      {
+       "en": "Wir haben einen Hund und eine Katze.",
+       "ru": "У нас есть собака и кошка."
+      },
+      {
+       "en": "Er liest das Buch.",
+       "ru": "Он читает книгу."
+      }
+     ]
+    },
+    {
+     "title_en": "Verbs with the accusative; sein with the nominative",
+     "title_ru": "Глаголы с аккузативом; sein с номинативом",
+     "body_en": "Most verbs with an object take the accusative: haben, sehen, kaufen, brauchen, nehmen, trinken, essen, besuchen, lieben, fragen, and es gibt (there is): Es gibt einen Park. But sein, werden and heißen take the nominative, because they link two names for the same thing: Das ist der Lehrer, not 'den Lehrer'.",
+     "body_ru": "Большинство глаголов с дополнением требуют аккузатива: haben, sehen, kaufen, brauchen, nehmen, trinken, essen, besuchen, lieben, fragen, а также es gibt (есть, имеется): Es gibt einen Park. Но sein, werden и heißen требуют именительного падежа, потому что связывают два названия одного и того же: Das ist der Lehrer, а не «den Lehrer». Обратите внимание: fragen + Akk., как и русское «спрашивать кого».",
+     "examples": [
+      {
+       "en": "Ich brauche einen Stift.",
+       "ru": "Мне нужна ручка. — по-русски «мне», по-немецки подлежащее ich"
+      },
+      {
+       "en": "Hier gibt es einen Park.",
+       "ru": "Здесь есть парк."
+      },
+      {
+       "en": "Das ist der Lehrer.",
+       "ru": "Это учитель. — после sein именительный падеж"
+      }
+     ]
+    },
+    {
+     "title_en": "Accusative pronouns",
+     "title_ru": "Местоимения в аккузативе",
+     "body_en": "The personal pronouns have accusative forms: ich → mich, du → dich, er → ihn, sie → sie, es → es, wir → uns, ihr → euch, sie → sie, Sie → Sie. Only mich, dich, ihn, uns, euch differ from the nominative. Ich liebe dich. Kennst du ihn?",
+     "body_ru": "У личных местоимений есть формы аккузатива: ich → mich (меня), du → dich (тебя), er → ihn (его), sie → sie (её), es → es, wir → uns (нас), ihr → euch (вас), sie → sie (их), Sie → Sie (Вас). Отличаются от именительного падежа только mich, dich, ihn, uns, euch. Ich liebe dich. Kennst du ihn?",
+     "examples": [
+      {
+       "en": "Ich liebe dich.",
+       "ru": "Я тебя люблю."
+      },
+      {
+       "en": "Kennst du ihn?",
+       "ru": "Ты его знаешь?"
+      },
+      {
+       "en": "Besucht ihr uns?",
+       "ru": "Вы нас навестите?"
+      }
+     ]
+    },
+    {
+     "title_en": "Pronouns for things",
+     "title_ru": "Местоимения вместо предметов",
+     "body_en": "When a pronoun replaces a noun object, follow the gender of the noun: den Tisch → ihn, die Lampe → sie, das Buch → es, die Bücher → sie. Kaufst du den Tisch? – Ja, ich kaufe ihn. This matches Russian ('стол — я его покупаю'), but remember that genders can differ: der Löffel → ihn ('ложку — её').",
+     "body_ru": "Когда местоимение заменяет существительное-дополнение, оно следует роду этого существительного: den Tisch → ihn, die Lampe → sie, das Buch → es, die Bücher → sie. Kaufst du den Tisch? – Ja, ich kaufe ihn. Как в русском («стол — я его покупаю»), но помните, что род может не совпадать: der Löffel → ihn («ложку — её»).",
+     "examples": [
+      {
+       "en": "Kaufst du den Tisch? – Ja, ich kaufe ihn.",
+       "ru": "Ты покупаешь стол? — Да, я его покупаю."
+      },
+      {
+       "en": "Wo ist die Zeitung? Ich suche sie.",
+       "ru": "Где газета? Я её ищу."
+      },
+      {
+       "en": "Ich brauche den Löffel. Hast du ihn?",
+       "ru": "Мне нужна ложка. Она у тебя?"
+      }
+     ]
+    },
+    {
+     "title_en": "Prepositions with the accusative",
+     "title_ru": "Предлоги с аккузативом",
+     "body_en": "The prepositions für, ohne, durch, gegen and um always take the accusative. A handy memory word is DOGFU: durch, ohne, gegen, für, um. After them masculine articles and pronouns change: für den Vater, ohne einen Schirm, durch den Park, gegen ihn, um den Tisch.",
+     "body_ru": "Предлоги für, ohne, durch, gegen и um всегда требуют аккузатива. Запомните их по слову DOGFU: durch, ohne, gegen, für, um. После них меняются артикли мужского рода и местоимения: für den Vater, ohne einen Schirm, durch den Park, gegen ihn, um den Tisch.",
+     "examples": [
+      {
+       "en": "Das Geschenk ist für den Vater.",
+       "ru": "Подарок для отца."
+      },
+      {
+       "en": "Wir gehen durch den Park.",
+       "ru": "Мы идём через парк."
+      },
+      {
+       "en": "Ohne dich gehe ich nicht.",
+       "ru": "Без тебя я не пойду."
+      }
+     ]
+    },
+    {
+     "title_en": "Meanings of für, ohne, durch, gegen, um",
+     "title_ru": "Значения für, ohne, durch, gegen, um",
+     "body_en": "für = for (Danke für die Blumen); ohne = without; durch = through, across; gegen = against, and also 'about' with times (gegen acht Uhr); um = around, and 'at' with clock times (um acht Uhr). The cases differ from Russian: 'без' takes the genitive, but ohne takes the accusative: ohne einen Schirm.",
+     "body_ru": "für — «для, за» (Danke für die Blumen — «спасибо за цветы»); ohne — «без»; durch — «через, сквозь»; gegen — «против», а со временем «около» (gegen acht Uhr); um — «вокруг», а с часами «в» (um acht Uhr). Падежи не совпадают с русскими: «без» требует родительного падежа, а ohne — аккузатива: ohne einen Schirm. «За» в значении «спасибо за» — тоже für.",
+     "examples": [
+      {
+       "en": "Danke für die Blumen!",
+       "ru": "Спасибо за цветы!"
+      },
+      {
+       "en": "Er kommt gegen acht Uhr.",
+       "ru": "Он придёт около восьми."
+      },
+      {
+       "en": "Wir sitzen um den Tisch.",
+       "ru": "Мы сидим вокруг стола."
+      }
+     ]
+    },
+    {
+     "title_en": "Weak masculine nouns",
+     "title_ru": "Слабые существительные мужского рода",
+     "body_en": "A small group of masculine nouns (n-declension) add -(e)n in all cases except the nominative singular: der Junge → den Jungen, der Student → den Studenten, der Kollege → den Kollegen, der Herr → den Herrn, der Name → den Namen. Many are male persons and animals, often ending in -e or -ent: der Mensch, der Nachbar, der Löwe.",
+     "body_ru": "Небольшая группа существительных мужского рода (слабое склонение) получает -(e)n во всех падежах, кроме именительного единственного числа: der Junge → den Jungen, der Student → den Studenten, der Kollege → den Kollegen, der Herr → den Herrn, der Name → den Namen. Это в основном лица и животные мужского пола, часто на -e или -ent: der Mensch, der Nachbar, der Löwe. Здесь, как в русском, меняется и само существительное.",
+     "examples": [
+      {
+       "en": "Ich kenne den Jungen.",
+       "ru": "Я знаю этого мальчика."
+      },
+      {
+       "en": "Wir fragen den Studenten.",
+       "ru": "Мы спрашиваем студента."
+      },
+      {
+       "en": "Kennen Sie Herrn Schulz?",
+       "ru": "Вы знаете господина Шульца?"
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Ich sehe ___ Mann.",
+     "options": [
+      "der",
+      "den",
+      "dem",
+      "des"
+     ],
+     "answer": 1,
+     "explain_en": "Direct object, masculine: den Mann.",
+     "explain_ru": "Прямое дополнение мужского рода: den Mann."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Wir kaufen ___ Tisch.",
+     "options": [
+      "ein",
+      "eine",
+      "einen"
+     ],
+     "answer": 2,
+     "explain_en": "Masculine accusative: einen Tisch.",
+     "explain_ru": "Мужской род в аккузативе: einen Tisch."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "Ich liebe ___.",
+     "options": [
+      "dir",
+      "du",
+      "dich"
+     ],
+     "answer": 2,
+     "explain_en": "Accusative of du: dich.",
+     "explain_ru": "Аккузатив от du — dich (тебя)."
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "Das Geschenk ist für ___.",
+     "options": [
+      "mich",
+      "ich",
+      "mir"
+     ],
+     "answer": 0,
+     "explain_en": "für + accusative: mich.",
+     "explain_ru": "für требует аккузатива: für mich (для меня)."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Kennst du Herrn Bauer? – Ja, ich kenne ___ gut.",
+     "options": [
+      "er",
+      "ihn",
+      "ihm",
+      "sie"
+     ],
+     "answer": 1,
+     "explain_en": "Masculine object pronoun: ihn.",
+     "explain_ru": "Местоимение-дополнение мужского рода: ihn (его)."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Wir gehen durch ___ Park.",
+     "options": [
+      "dem",
+      "der",
+      "den"
+     ],
+     "answer": 2,
+     "explain_en": "durch + accusative: den Park.",
+     "explain_ru": "durch требует аккузатива: durch den Park."
+    },
+    {
+     "id": "e07",
+     "type": "mc",
+     "q": "Sie geht ohne ___ Schirm.",
+     "options": [
+      "einen",
+      "ein",
+      "einem"
+     ],
+     "answer": 0,
+     "explain_en": "ohne + accusative: ohne einen Schirm.",
+     "explain_ru": "ohne требует аккузатива (не родительного, как «без»): ohne einen Schirm."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Das ist ___ Lehrer.",
+     "options": [
+      "den",
+      "der",
+      "dem"
+     ],
+     "answer": 1,
+     "explain_en": "After sein: nominative, der Lehrer.",
+     "explain_ru": "После sein — именительный падеж: der Lehrer."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Ich frage ___ Studenten.",
+     "options": [
+      "den",
+      "der",
+      "dem"
+     ],
+     "answer": 0,
+     "explain_en": "fragen + accusative; Student is a weak noun: den Studenten.",
+     "explain_ru": "fragen + аккузатив; Student — слабое существительное: den Studenten."
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "Hast du ___ Bleistift für mich?",
+     "options": [
+      "ein",
+      "eine",
+      "einem",
+      "einen"
+     ],
+     "answer": 3,
+     "explain_en": "haben + accusative, masculine: einen Bleistift.",
+     "explain_ru": "haben + аккузатив, мужской род: einen Bleistift."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Ich habe ___ Bruder. (ein)",
+     "answer": [
+      "einen"
+     ],
+     "explain_en": "Masculine accusative: einen.",
+     "explain_ru": "Мужской род в аккузативе: einen Bruder."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Wir besuchen ___ Großmutter. (die)",
+     "answer": [
+      "die"
+     ],
+     "explain_en": "Feminine does not change: die.",
+     "explain_ru": "Женский род не меняется: die Großmutter."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "Siehst du das Auto? – Ja, ich sehe ___.",
+     "answer": [
+      "es"
+     ],
+     "explain_en": "das Auto → es.",
+     "explain_ru": "das Auto среднего рода → es."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "Wo ist der Schlüssel? Ich suche ___.",
+     "answer": [
+      "ihn"
+     ],
+     "explain_en": "der Schlüssel → ihn.",
+     "explain_ru": "der Schlüssel мужского рода → ihn."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Das Buch ist für ___. (wir)",
+     "answer": [
+      "uns"
+     ],
+     "explain_en": "für + accusative of wir: uns.",
+     "explain_ru": "für + аккузатив от wir: uns (для нас)."
+    },
+    {
+     "id": "e16",
+     "type": "fill",
+     "q": "Ich warte nicht, ich gehe ohne ___. (du)",
+     "answer": [
+      "dich"
+     ],
+     "explain_en": "ohne + accusative of du: dich.",
+     "explain_ru": "ohne + аккузатив от du: ohne dich (без тебя)."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Wir sitzen ___ den Tisch herum. (вокруг)",
+     "answer": [
+      "um"
+     ],
+     "explain_en": "um = around, with accusative.",
+     "explain_ru": "um — «вокруг», с аккузативом."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "Er spielt ___ meinen Bruder Tennis. (против)",
+     "answer": [
+      "gegen"
+     ],
+     "explain_en": "gegen = against.",
+     "explain_ru": "gegen — «против»: gegen meinen Bruder."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "Hund.",
+      "einen",
+      "habe",
+      "Ich"
+     ],
+     "answer": "Ich habe einen Hund.",
+     "ru": "У меня есть собака."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "für",
+      "Das",
+      "dich.",
+      "ist"
+     ],
+     "answer": "Das ist für dich.",
+     "ru": "Это для тебя."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "den",
+      "Wir",
+      "Park.",
+      "durch",
+      "gehen"
+     ],
+     "answer": "Wir gehen durch den Park.",
+     "ru": "Мы идём через парк."
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "ihn",
+      "nicht.",
+      "kenne",
+      "Ich"
+     ],
+     "answer": "Ich kenne ihn nicht.",
+     "ru": "Я его не знаю."
+    },
+    {
+     "id": "e23",
+     "type": "tf",
+     "q": "In the accusative only the masculine article changes (der → den, ein → einen).",
+     "answer": true,
+     "explain_en": "die, das and plural die stay the same.",
+     "explain_ru": "die, das и множественное die остаются без изменений."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "„ohne“ takes the genitive, like Russian „без“.",
+     "answer": false,
+     "explain_en": "ohne always takes the accusative.",
+     "explain_ru": "ohne всегда требует аккузатива: ohne einen Schirm."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "„Das ist einen Tisch.“ is correct.",
+     "answer": false,
+     "explain_en": "After sein use the nominative: Das ist ein Tisch.",
+     "explain_ru": "После sein — именительный падеж: Das ist ein Tisch."
+    },
+    {
+     "id": "e26",
+     "type": "match",
+     "pairs": [
+      [
+       "ich",
+       "mich"
+      ],
+      [
+       "du",
+       "dich"
+      ],
+      [
+       "er",
+       "ihn"
+      ],
+      [
+       "wir",
+       "uns"
+      ],
+      [
+       "ihr",
+       "euch"
+      ]
+     ]
+    },
+    {
+     "id": "e27",
+     "type": "match",
+     "pairs": [
+      [
+       "für",
+       "для, за"
+      ],
+      [
+       "ohne",
+       "без"
+      ],
+      [
+       "durch",
+       "через, сквозь"
+      ],
+      [
+       "gegen",
+       "против; около"
+      ],
+      [
+       "um",
+       "вокруг; в (о времени)"
+      ]
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "der Mann",
+       "den Mann"
+      ],
+      [
+       "der Junge",
+       "den Jungen"
+      ],
+      [
+       "ein Hund",
+       "einen Hund"
+      ],
+      [
+       "die Frau",
+       "die Frau"
+      ],
+      [
+       "das Kind",
+       "das Kind"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "negation-nicht-kein",
+   "title_en": "Negation: nicht vs kein",
+   "title_ru": "Отрицание: nicht и kein",
+   "summary_en": "Russian has one 'не', German has two: kein negates nouns with ein or no article, nicht negates everything else. Also: the position of nicht, doch, and negative words like nichts, niemand, nie.",
+   "summary_ru": "В русском одно «не», а в немецком два: kein отрицает существительные с ein или без артикля, nicht — всё остальное. А также: место nicht в предложении, doch и отрицательные слова nichts, niemand, nie.",
+   "rules": [
+    {
+     "title_en": "kein: the negative article",
+     "title_ru": "kein — отрицательный артикль",
+     "body_en": "kein means 'no, not a, not any'. Use it instead of ein, and with nouns that have no article: Das ist ein Tisch → Das ist kein Tisch. Ich trinke Kaffee → Ich trinke keinen Kaffee. Ich habe Kinder → Ich habe keine Kinder. Russian just puts 'не' before the verb ('я не пью кофе'), but German negates the noun itself.",
+     "body_ru": "kein означает «никакой, ни одного, не». Его ставят вместо ein и перед существительными без артикля: Das ist ein Tisch → Das ist kein Tisch. Ich trinke Kaffee → Ich trinke keinen Kaffee. Ich habe Kinder → Ich habe keine Kinder. В русском «не» просто стоит перед глаголом («я не пью кофе»), а в немецком отрицается само существительное: букв. «я пью никакой кофе».",
+     "examples": [
+      {
+       "en": "Das ist kein Tisch, das ist ein Stuhl.",
+       "ru": "Это не стол, это стул."
+      },
+      {
+       "en": "Ich trinke keinen Kaffee.",
+       "ru": "Я не пью кофе."
+      },
+      {
+       "en": "Wir haben keine Kinder.",
+       "ru": "У нас нет детей."
+      }
+     ]
+    },
+    {
+     "title_en": "Forms of kein",
+     "title_ru": "Формы kein",
+     "body_en": "kein takes the same endings as ein, and it also has a plural: nominative kein (m, n), keine (f, plural); accusative keinen (m), keine (f, plural), kein (n). So: Ich habe keinen Bruder, keine Schwester, kein Auto, keine Geschwister. 'У меня нет …' is Ich habe kein…: the Russian genitive after 'нет' becomes a German accusative.",
+     "body_ru": "kein имеет те же окончания, что ein, но у него есть и множественное число: именительный — kein (м., ср.), keine (ж., мн.); винительный — keinen (м.), keine (ж., мн.), kein (ср.). Итак: Ich habe keinen Bruder, keine Schwester, kein Auto, keine Geschwister. «У меня нет …» — это Ich habe kein…: русский родительный падеж после «нет» превращается в немецкий аккузатив.",
+     "examples": [
+      {
+       "en": "Ich habe keinen Bruder.",
+       "ru": "У меня нет брата."
+      },
+      {
+       "en": "Er hat keine Zeit.",
+       "ru": "У него нет времени."
+      },
+      {
+       "en": "Das ist kein Problem.",
+       "ru": "Это не проблема."
+      }
+     ]
+    },
+    {
+     "title_en": "nicht: everything else",
+     "title_ru": "nicht — во всех остальных случаях",
+     "body_en": "nicht negates verbs, adjectives, adverbs, and nouns with a definite article, a possessive or a name: Ich schlafe nicht. Das ist nicht gut. Das ist nicht der Bus nach Bonn. Das ist nicht mein Buch. Das ist nicht Anna. Quick test: if you could say ein or nothing, use kein; otherwise use nicht.",
+     "body_ru": "nicht отрицает глаголы, прилагательные, наречия, а также существительные с определённым артиклем, притяжательным местоимением или имена: Ich schlafe nicht. Das ist nicht gut. Das ist nicht der Bus nach Bonn. Das ist nicht mein Buch. Das ist nicht Anna. Простая проверка: если без отрицания было бы ein или ничего — ставьте kein, иначе — nicht.",
+     "examples": [
+      {
+       "en": "Ich schlafe nicht.",
+       "ru": "Я не сплю."
+      },
+      {
+       "en": "Der Film ist nicht gut.",
+       "ru": "Фильм не очень хороший. (букв. «не хороший»)"
+      },
+      {
+       "en": "Das ist nicht mein Buch.",
+       "ru": "Это не моя книга."
+      }
+     ]
+    },
+    {
+     "title_en": "Where nicht goes",
+     "title_ru": "Место nicht в предложении",
+     "body_en": "To negate the whole sentence, nicht usually goes to the end of the middle field, after the object and time words: Ich kenne den Mann nicht. Er kommt heute nicht. But it goes BEFORE adjectives, places and prepositional phrases, and before the second part of the verb: Ich bin nicht müde. Ich wohne nicht in Berlin. Ich kann nicht schwimmen. Ich stehe nicht auf.",
+     "body_ru": "Чтобы отрицать всё предложение, nicht обычно ставят в конец, после дополнения и слов времени: Ich kenne den Mann nicht. Er kommt heute nicht. Но nicht стоит ПЕРЕД прилагательным, обстоятельством места, предложной группой и второй частью глагола: Ich bin nicht müde. Ich wohne nicht in Berlin. Ich kann nicht schwimmen. Ich stehe nicht auf. В русском «не» всегда перед глаголом, в немецком — так никогда: «Ich nicht kenne» неправильно.",
+     "examples": [
+      {
+       "en": "Ich kenne den Mann nicht.",
+       "ru": "Я не знаю этого человека."
+      },
+      {
+       "en": "Er wohnt nicht in Berlin.",
+       "ru": "Он живёт не в Берлине."
+      },
+      {
+       "en": "Ich kann heute nicht kommen.",
+       "ru": "Я сегодня не могу прийти."
+      }
+     ]
+    },
+    {
+     "title_en": "Partial negation and sondern",
+     "title_ru": "Частичное отрицание и sondern",
+     "body_en": "To negate only one part of the sentence, put nicht (or kein) directly before it and give the correct alternative with sondern ('but rather'): Ich fahre nicht heute, sondern morgen. Das ist kein Tee, sondern Kaffee. After a negation use sondern, not aber; Russian uses 'а' here: 'не сегодня, а завтра'.",
+     "body_ru": "Чтобы отрицать только одну часть предложения, nicht (или kein) ставят прямо перед ней, а правильный вариант вводят союзом sondern («а»): Ich fahre nicht heute, sondern morgen. Das ist kein Tee, sondern Kaffee. После отрицания нужно sondern, а не aber: русское «не сегодня, а завтра» — это nicht heute, sondern morgen. aber значит «но».",
+     "examples": [
+      {
+       "en": "Ich fahre nicht heute, sondern morgen.",
+       "ru": "Я еду не сегодня, а завтра."
+      },
+      {
+       "en": "Das ist kein Tee, sondern Kaffee.",
+       "ru": "Это не чай, а кофе."
+      },
+      {
+       "en": "Er wohnt nicht in Wien, sondern in Graz.",
+       "ru": "Он живёт не в Вене, а в Граце."
+      }
+     ]
+    },
+    {
+     "title_en": "Answering: ja, nein, doch",
+     "title_ru": "Ответы: ja, nein, doch",
+     "body_en": "To a positive question answer ja or nein: Hast du Zeit? – Ja. / Nein, ich habe keine Zeit. To a negative question, nein agrees with it and doch contradicts it: Hast du keine Zeit? – Nein (I have none). – Doch (yes, I do have time). In Russian both answers often start with 'нет', so learn doch carefully.",
+     "body_ru": "На утвердительный вопрос отвечают ja или nein: Hast du Zeit? – Ja. / Nein, ich habe keine Zeit. На отрицательный вопрос nein соглашается с отрицанием, а doch его опровергает: Hast du keine Zeit? – Nein (времени нет). – Doch! (нет, есть!). По-русски оба ответа часто начинаются с «нет», поэтому doch нужно выучить особенно внимательно.",
+     "examples": [
+      {
+       "en": "Hast du Zeit? – Nein, ich habe keine Zeit.",
+       "ru": "У тебя есть время? — Нет, у меня нет времени."
+      },
+      {
+       "en": "Hast du keine Zeit? – Doch, ich habe Zeit.",
+       "ru": "У тебя нет времени? — Нет, есть."
+      },
+      {
+       "en": "Bist du nicht müde? – Doch, sehr!",
+       "ru": "Ты не устал? — Ещё как устал!"
+      }
+     ]
+    },
+    {
+     "title_en": "nichts, niemand, nie, nicht mehr",
+     "title_ru": "nichts, niemand, nie, nicht mehr",
+     "body_en": "Other negative words: nichts (nothing), niemand (nobody), nie (never), nicht mehr / kein … mehr (no longer). German uses only ONE negative word per clause: Ich sehe niemand(en). Er sagt nichts. Ich esse nie Fleisch. Russian doubles the negation ('я никогда ничего не вижу'); in German 'nicht' would be wrong here.",
+     "body_ru": "Другие отрицательные слова: nichts (ничего), niemand (никто), nie (никогда), nicht mehr / kein … mehr (больше не). В немецком в одном предложении только ОДНО отрицание: Ich sehe niemand(en). Er sagt nichts. Ich esse nie Fleisch. В русском отрицание удваивается («я никогда ничего не вижу»), а в немецком добавлять nicht здесь нельзя.",
+     "examples": [
+      {
+       "en": "Er sagt nichts.",
+       "ru": "Он ничего не говорит."
+      },
+      {
+       "en": "Niemand ist zu Hause.",
+       "ru": "Никого нет дома."
+      },
+      {
+       "en": "Ich rauche nicht mehr.",
+       "ru": "Я больше не курю."
+      }
+     ]
+    },
+    {
+     "title_en": "kein in everyday phrases",
+     "title_ru": "kein в повседневных выражениях",
+     "body_en": "Because professions, languages and phrases like Zeit haben or Hunger haben have no article, they are negated with kein: Ich bin kein Arzt. Ich habe keine Zeit, keinen Hunger, keine Lust. Ich spreche kein Spanisch. With an adverb you use nicht: Ich spreche nicht gut Spanisch.",
+     "body_ru": "Профессии, языки и выражения вроде Zeit haben или Hunger haben употребляются без артикля, поэтому их отрицают с kein: Ich bin kein Arzt. Ich habe keine Zeit, keinen Hunger, keine Lust (нет желания). Ich spreche kein Spanisch. Если есть наречие, нужно nicht: Ich spreche nicht gut Spanisch («Я плохо говорю по-испански»).",
+     "examples": [
+      {
+       "en": "Ich bin kein Arzt.",
+       "ru": "Я не врач."
+      },
+      {
+       "en": "Ich habe keine Lust.",
+       "ru": "Мне не хочется. / Нет желания."
+      },
+      {
+       "en": "Sie spricht kein Deutsch.",
+       "ru": "Она не говорит по-немецки."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Das ist ___ Auto, das ist ein Bus.",
+     "options": [
+      "nicht",
+      "kein",
+      "keine",
+      "keinen"
+     ],
+     "answer": 1,
+     "explain_en": "Instead of ein Auto: kein Auto (neuter).",
+     "explain_ru": "Вместо ein Auto — kein Auto (средний род)."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Ich habe ___ Zeit.",
+     "options": [
+      "nicht",
+      "kein",
+      "keinen",
+      "keine"
+     ],
+     "answer": 3,
+     "explain_en": "Zeit is feminine with no article: keine Zeit.",
+     "explain_ru": "Zeit женского рода, без артикля: keine Zeit."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "Ich schlafe ___.",
+     "options": [
+      "nicht",
+      "kein",
+      "keine"
+     ],
+     "answer": 0,
+     "explain_en": "A verb is negated with nicht.",
+     "explain_ru": "Глагол отрицается с nicht."
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "Wir haben ___ Hund.",
+     "options": [
+      "kein",
+      "keine",
+      "keinen",
+      "nicht"
+     ],
+     "answer": 2,
+     "explain_en": "Masculine accusative: keinen Hund.",
+     "explain_ru": "Мужской род в аккузативе: keinen Hund."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Das ist ___ mein Buch.",
+     "options": [
+      "kein",
+      "nicht",
+      "keine"
+     ],
+     "answer": 1,
+     "explain_en": "With a possessive use nicht.",
+     "explain_ru": "Перед притяжательным местоимением — nicht."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Welcher Satz ist richtig? (Я не знаю этого человека.)",
+     "options": [
+      "Ich nicht kenne den Mann.",
+      "Ich kenne den Mann nicht.",
+      "Ich kenne keinen den Mann.",
+      "Ich kenne den nicht Mann."
+     ],
+     "answer": 1,
+     "explain_en": "Whole-sentence negation: nicht at the end, after the object.",
+     "explain_ru": "Отрицание всего предложения: nicht в конце, после дополнения."
+    },
+    {
+     "id": "e07",
+     "type": "mc",
+     "q": "Ich sehe ___. (никого)",
+     "options": [
+      "nichts",
+      "niemand",
+      "nie",
+      "nicht"
+     ],
+     "answer": 1,
+     "explain_en": "niemand = nobody.",
+     "explain_ru": "niemand — «никто, никого». Второе отрицание не нужно."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Er isst ___ Fleisch. (никогда)",
+     "options": [
+      "nichts",
+      "niemand",
+      "nie",
+      "kein"
+     ],
+     "answer": 2,
+     "explain_en": "nie = never.",
+     "explain_ru": "nie — «никогда». kein Fleisch тоже возможно, но значит «не ест мяса» без «никогда»."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Hast du keine Geschwister? – ___, ich habe einen Bruder.",
+     "options": [
+      "Ja",
+      "Nein",
+      "Doch",
+      "Nicht"
+     ],
+     "answer": 2,
+     "explain_en": "Contradicting a negative question: doch.",
+     "explain_ru": "Возражение на отрицательный вопрос: doch («нет, есть»)."
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "Er wohnt nicht in Wien, ___ in Graz.",
+     "options": [
+      "aber",
+      "oder",
+      "und",
+      "sondern"
+     ],
+     "answer": 3,
+     "explain_en": "After a negation, the correction is introduced by sondern.",
+     "explain_ru": "После отрицания правильный вариант вводится союзом sondern («а»)."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Ich habe ___ Auto. (нет машины)",
+     "answer": [
+      "kein"
+     ],
+     "explain_en": "Neuter accusative: kein Auto.",
+     "explain_ru": "Средний род в аккузативе: kein Auto."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Das ist ___ Lampe, das ist eine Vase.",
+     "answer": [
+      "keine"
+     ],
+     "explain_en": "Feminine: keine Lampe.",
+     "explain_ru": "Женский род: keine Lampe."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "Er hat ___ Bruder. (нет брата)",
+     "answer": [
+      "keinen"
+     ],
+     "explain_en": "Masculine accusative: keinen Bruder.",
+     "explain_ru": "Мужской род в аккузативе: keinen Bruder. Русский родительный «брата» — по-немецки аккузатив."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "Der Film ist ___ interessant.",
+     "answer": [
+      "nicht"
+     ],
+     "explain_en": "An adjective is negated with nicht.",
+     "explain_ru": "Прилагательное отрицается с nicht."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Ich trinke ___ Kaffee, ich trinke Tee.",
+     "answer": [
+      "keinen"
+     ],
+     "explain_en": "der Kaffee, no article → keinen Kaffee.",
+     "explain_ru": "der Kaffee без артикля → keinen Kaffee."
+    },
+    {
+     "id": "e16",
+     "type": "fill",
+     "q": "Wir haben ___ Kinder.",
+     "answer": [
+      "keine"
+     ],
+     "explain_en": "Plural: keine Kinder.",
+     "explain_ru": "Множественное число: keine Kinder."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Ich verstehe ___. (ничего)",
+     "answer": [
+      "nichts"
+     ],
+     "explain_en": "nichts = nothing.",
+     "explain_ru": "nichts — «ничего». Без второго отрицания: не «nicht nichts»."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "Sie ist ___ Ärztin, sie ist Lehrerin.",
+     "answer": [
+      "keine"
+     ],
+     "explain_en": "Profession without article → keine Ärztin.",
+     "explain_ru": "Профессия без артикля → keine Ärztin."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "nicht.",
+      "komme",
+      "Ich",
+      "heute"
+     ],
+     "answer": "Ich komme heute nicht.",
+     "ru": "Я сегодня не приду."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "habe",
+      "Hunger.",
+      "keinen",
+      "Ich"
+     ],
+     "answer": "Ich habe keinen Hunger.",
+     "ru": "Я не голоден."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "nicht",
+      "Berlin.",
+      "Er",
+      "wohnt",
+      "in"
+     ],
+     "answer": "Er wohnt nicht in Berlin.",
+     "ru": "Он живёт не в Берлине."
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "Deutsch.",
+      "Wir",
+      "kein",
+      "sprechen"
+     ],
+     "answer": "Wir sprechen kein Deutsch.",
+     "ru": "Мы не говорим по-немецки."
+    },
+    {
+     "id": "e23",
+     "type": "tf",
+     "q": "„Ich habe nicht Zeit“ is the normal way to say 'I have no time'.",
+     "answer": false,
+     "explain_en": "Zeit has no article, so: Ich habe keine Zeit.",
+     "explain_ru": "Zeit без артикля, поэтому правильно: Ich habe keine Zeit."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "German normally uses only one negative word per clause: „Ich sehe niemand“, not „Ich sehe nicht niemand“.",
+     "answer": true,
+     "explain_en": "No double negation in standard German.",
+     "explain_ru": "В литературном немецком двойного отрицания нет, в отличие от русского."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "„Das ist nicht mein Auto“ is correct: nouns with a possessive are negated with nicht.",
+     "answer": true,
+     "explain_en": "mein, dein … are negated with nicht.",
+     "explain_ru": "Существительные с mein, dein … отрицаются с nicht."
+    },
+    {
+     "id": "e26",
+     "type": "match",
+     "pairs": [
+      [
+       "ein Tisch",
+       "kein Tisch"
+      ],
+      [
+       "eine Lampe",
+       "keine Lampe"
+      ],
+      [
+       "einen Hund",
+       "keinen Hund"
+      ],
+      [
+       "Kinder",
+       "keine Kinder"
+      ]
+     ]
+    },
+    {
+     "id": "e27",
+     "type": "match",
+     "pairs": [
+      [
+       "nichts",
+       "ничего"
+      ],
+      [
+       "niemand",
+       "никто"
+      ],
+      [
+       "nie",
+       "никогда"
+      ],
+      [
+       "nicht mehr",
+       "больше не"
+      ],
+      [
+       "sondern",
+       "а (после отрицания)"
+      ]
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "Hast du Zeit?",
+       "Nein, ich habe keine Zeit."
+      ],
+      [
+       "Bist du müde?",
+       "Nein, ich bin nicht müde."
+      ],
+      [
+       "Hast du keinen Hunger?",
+       "Doch, ich habe Hunger."
+      ],
+      [
+       "Ist das dein Auto?",
+       "Nein, das ist nicht mein Auto."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "possessive-articles",
+   "title_en": "Possessive articles in the nominative and accusative",
+   "title_ru": "Притяжательные местоимения в именительном и винительном падеже",
+   "summary_en": "mein, dein, sein, ihr, unser, euer, Ihr take the endings of ein/kein. The owner chooses the word (sein or ihr), the noun chooses the ending. German has no word like Russian 'свой'.",
+   "summary_ru": "mein, dein, sein, ihr, unser, euer, Ihr получают окончания ein/kein. Владелец определяет слово (sein или ihr), а существительное — окончание. Слова, похожего на русское «свой», в немецком нет.",
+   "rules": [
+    {
+     "title_en": "The possessive articles",
+     "title_ru": "Притяжательные местоимения",
+     "body_en": "Each personal pronoun has a possessive: ich → mein (my), du → dein (your), er → sein (his), sie → ihr (her), es → sein (its), wir → unser (our), ihr → euer (your, plural), sie → ihr (their), Sie → Ihr (your, formal). They stand before the noun instead of an article: mein Vater, unser Haus.",
+     "body_ru": "У каждого личного местоимения есть притяжательное: ich → mein (мой), du → dein (твой), er → sein (его), sie → ihr (её), es → sein (его, о среднем роде), wir → unser (наш), ihr → euer (ваш — к нескольким друзьям), sie → ihr (их), Sie → Ihr (Ваш). Они стоят перед существительным вместо артикля: mein Vater, unser Haus. Русские «его, её, их» не изменяются, а немецкие sein, ihr получают окончания.",
+     "examples": [
+      {
+       "en": "Das ist mein Vater.",
+       "ru": "Это мой отец."
+      },
+      {
+       "en": "Unser Haus ist alt.",
+       "ru": "Наш дом старый."
+      },
+      {
+       "en": "Wie ist Ihr Name?",
+       "ru": "Как Ваша фамилия? / Как Вас зовут?"
+      }
+     ]
+    },
+    {
+     "title_en": "Endings in the nominative",
+     "title_ru": "Окончания в именительном падеже",
+     "body_en": "Possessives take the same endings as ein and kein. Nominative: no ending for masculine and neuter, -e for feminine and plural: mein Vater, mein Kind, meine Mutter, meine Eltern. The same works for all of them: dein Bruder, seine Schwester, unsere Kinder, Ihre Tasche.",
+     "body_ru": "Притяжательные местоимения получают те же окончания, что ein и kein. В именительном падеже: без окончания в мужском и среднем роде, -e в женском роде и во множественном числе: mein Vater, mein Kind, meine Mutter, meine Eltern. Так же для всех остальных: dein Bruder, seine Schwester, unsere Kinder, Ihre Tasche.",
+     "examples": [
+      {
+       "en": "Meine Mutter ist Ärztin.",
+       "ru": "Моя мама врач."
+      },
+      {
+       "en": "Mein Kind ist drei Jahre alt.",
+       "ru": "Моему ребёнку три года."
+      },
+      {
+       "en": "Unsere Eltern wohnen in Bonn.",
+       "ru": "Наши родители живут в Бонне."
+      }
+     ]
+    },
+    {
+     "title_en": "Endings in the accusative",
+     "title_ru": "Окончания в винительном падеже",
+     "body_en": "In the accusative, as with ein, only the masculine changes: -en. Ich besuche meinen Bruder, but meine Schwester, mein Kind, meine Eltern. After für, ohne, durch, gegen, um the same forms are used: für deinen Vater, ohne meine Tasche.",
+     "body_ru": "В винительном падеже, как и у ein, меняется только мужской род: окончание -en. Ich besuche meinen Bruder, но meine Schwester, mein Kind, meine Eltern. После für, ohne, durch, gegen, um употребляются те же формы: für deinen Vater, ohne meine Tasche.",
+     "examples": [
+      {
+       "en": "Ich besuche meinen Bruder.",
+       "ru": "Я навещаю своего брата."
+      },
+      {
+       "en": "Hast du deinen Pass?",
+       "ru": "У тебя есть твой паспорт? / Паспорт с собой?"
+      },
+      {
+       "en": "Das Geschenk ist für unseren Lehrer.",
+       "ru": "Подарок для нашего учителя."
+      }
+     ]
+    },
+    {
+     "title_en": "sein or ihr?",
+     "title_ru": "sein или ihr?",
+     "body_en": "The owner decides the word: a male owner (or a masculine or neuter noun) → sein, a female owner (or feminine noun) or plural owners → ihr. The noun that follows decides the ending: Peter und seine Mutter, Anna und ihr Vater, Anna besucht ihren Bruder. This is like Russian 'его' and 'её', which depend on the owner too.",
+     "body_ru": "Слово выбирает владелец: владелец мужского рода (или существительное м./ср. рода) → sein, женского рода или несколько владельцев → ihr. Окончание определяет существительное, которое идёт после: Peter und seine Mutter, Anna und ihr Vater, Anna besucht ihren Bruder. Как в русском: «его» и «её» зависят от владельца, но в немецком ещё нужно окончание по роду и падежу предмета.",
+     "examples": [
+      {
+       "en": "Peter und seine Mutter",
+       "ru": "Петер и его мама"
+      },
+      {
+       "en": "Anna und ihr Vater",
+       "ru": "Анна и её папа"
+      },
+      {
+       "en": "Die Kinder und ihre Lehrerin",
+       "ru": "Дети и их учительница"
+      }
+     ]
+    },
+    {
+     "title_en": "ihr, ihr and Ihr",
+     "title_ru": "ihr, ihr и Ihr",
+     "body_en": "The possessive ihr has three meanings: her (Anna und ihr Hund), their (die Kinder und ihr Hund) and, written with a capital, formal your (Frau Weber, ist das Ihr Hund?). Do not confuse it with the personal pronoun ihr (you, plural): Habt ihr einen Hund?",
+     "body_ru": "Притяжательное ihr имеет три значения: «её» (Anna und ihr Hund), «их» (die Kinder und ihr Hund) и, с большой буквы, вежливое «Ваш» (Frau Weber, ist das Ihr Hund?). Не путайте его с личным местоимением ihr «вы» (к нескольким друзьям): Habt ihr einen Hund? Различать помогает место в предложении: притяжательное стоит перед существительным.",
+     "examples": [
+      {
+       "en": "Anna sucht ihre Tasche.",
+       "ru": "Анна ищет свою сумку."
+      },
+      {
+       "en": "Frau Weber, ist das Ihr Koffer?",
+       "ru": "Госпожа Вебер, это Ваш чемодан?"
+      },
+      {
+       "en": "Habt ihr euren Schlüssel?",
+       "ru": "Ключ у вас с собой? (букв. «ваш ключ»)"
+      }
+     ]
+    },
+    {
+     "title_en": "euer and unser",
+     "title_ru": "euer и unser",
+     "body_en": "euer loses its second e when an ending is added: euer Haus, but eure Wohnung, euren Sohn. unser keeps its form: unsere Stadt, unseren Garten. In speech you sometimes hear unsre, but write unsere.",
+     "body_ru": "euer теряет второе e, когда добавляется окончание: euer Haus, но eure Wohnung, euren Sohn. unser сохраняет форму: unsere Stadt, unseren Garten. В разговоре иногда слышно unsre, но писать нужно unsere.",
+     "examples": [
+      {
+       "en": "Ist das euer Auto?",
+       "ru": "Это ваша машина?"
+      },
+      {
+       "en": "Wo ist eure Wohnung?",
+       "ru": "Где ваша квартира?"
+      },
+      {
+       "en": "Wir lieben unseren Garten.",
+       "ru": "Мы любим наш сад."
+      }
+     ]
+    },
+    {
+     "title_en": "No word for 'свой'",
+     "title_ru": "Нет слова «свой»",
+     "body_en": "Russian uses 'свой' when the owner is the subject ('Я беру свой зонт'). German has no such word: use the possessive that matches the subject. Ich nehme meinen Schirm. Du nimmst deinen Schirm. Er nimmt seinen Schirm. Sie nimmt ihren Schirm. Wir nehmen unsere Schirme.",
+     "body_ru": "В русском, если владелец — подлежащее, говорят «свой» («Я беру свой зонт»). В немецком такого слова нет: ставьте притяжательное местоимение, соответствующее подлежащему. Ich nehme meinen Schirm. Du nimmst deinen Schirm. Er nimmt seinen Schirm. Sie nimmt ihren Schirm. Wir nehmen unsere Schirme. Типичная ошибка — «Sie nimmt seinen Schirm» вместо «ihren»: всегда проверяйте, кто владелец.",
+     "examples": [
+      {
+       "en": "Ich nehme meinen Schirm.",
+       "ru": "Я беру свой зонт."
+      },
+      {
+       "en": "Sie ruft ihre Mutter an.",
+       "ru": "Она звонит своей маме."
+      },
+      {
+       "en": "Er liebt seine Frau.",
+       "ru": "Он любит свою жену."
+      }
+     ]
+    },
+    {
+     "title_en": "Names with -s and von",
+     "title_ru": "Имена с -s и von",
+     "body_en": "With names you can show the owner by adding -s, with no apostrophe, before the noun: Annas Bruder, Peters Auto. In speech von + name is also common: das Auto von Peter. Russian uses an adjective or genitive: 'Петина машина', 'машина Пети'.",
+     "body_ru": "С именами владельца можно показать окончанием -s без апострофа перед существительным: Annas Bruder, Peters Auto. В разговорной речи часто говорят von + имя: das Auto von Peter. В русском здесь притяжательное прилагательное или родительный падеж: «Петина машина», «машина Пети».",
+     "examples": [
+      {
+       "en": "Das ist Annas Bruder.",
+       "ru": "Это брат Анны."
+      },
+      {
+       "en": "Peters Auto ist rot.",
+       "ru": "Машина Петера красная."
+      },
+      {
+       "en": "Das Haus von Familie Braun ist groß.",
+       "ru": "Дом семьи Браун большой."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Das ist ___ Mutter. (моя)",
+     "options": [
+      "mein",
+      "meine",
+      "meinen"
+     ],
+     "answer": 1,
+     "explain_en": "Mutter is feminine: meine.",
+     "explain_ru": "Mutter женского рода: meine."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Peter, ist das ___ Handy?",
+     "options": [
+      "dein",
+      "deine",
+      "deinen"
+     ],
+     "answer": 0,
+     "explain_en": "das Handy is neuter nominative: dein.",
+     "explain_ru": "das Handy среднего рода, именительный падеж: dein."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "Anna besucht ___ Bruder.",
+     "options": [
+      "seinen",
+      "ihren",
+      "ihre",
+      "ihr"
+     ],
+     "answer": 1,
+     "explain_en": "Owner Anna → ihr; masculine accusative → ihren.",
+     "explain_ru": "Владелец — Анна → ihr; мужской род в аккузативе → ihren."
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "Paul liebt ___ Frau.",
+     "options": [
+      "ihre",
+      "seinen",
+      "sein",
+      "seine"
+     ],
+     "answer": 3,
+     "explain_en": "Owner Paul → sein; Frau is feminine → seine.",
+     "explain_ru": "Владелец — Пауль → sein; Frau женского рода → seine («свою жену»)."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Frau Schmidt, ist das ___ Koffer?",
+     "options": [
+      "Ihr",
+      "dein",
+      "deine"
+     ],
+     "answer": 0,
+     "explain_en": "Formal address → Ihr, capitalised.",
+     "explain_ru": "Вежливое обращение → Ihr с большой буквы."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Kinder, wo ist ___ Lehrerin?",
+     "options": [
+      "euer",
+      "euren",
+      "eure",
+      "eurer"
+     ],
+     "answer": 2,
+     "explain_en": "euer + feminine → eure (the second e drops).",
+     "explain_ru": "euer + женский род → eure (второе e выпадает)."
+    },
+    {
+     "id": "e07",
+     "type": "mc",
+     "q": "Wir besuchen ___ Großeltern.",
+     "options": [
+      "unseren",
+      "unser",
+      "unsere"
+     ],
+     "answer": 2,
+     "explain_en": "Plural accusative: unsere.",
+     "explain_ru": "Множественное число в аккузативе: unsere."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Ich suche ___ Pass.",
+     "options": [
+      "mein",
+      "meine",
+      "meinen",
+      "meinem"
+     ],
+     "answer": 2,
+     "explain_en": "der Pass, masculine accusative: meinen.",
+     "explain_ru": "der Pass, мужской род в аккузативе: meinen."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Maria und ___ Mann wohnen in Köln.",
+     "options": [
+      "sein",
+      "ihr",
+      "ihre",
+      "ihren"
+     ],
+     "answer": 1,
+     "explain_en": "Owner Maria → ihr; der Mann, nominative → ihr.",
+     "explain_ru": "Владелец — Мария → ihr; der Mann в именительном падеже → ihr."
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "Die Kinder lieben ___ Katze. (их)",
+     "options": [
+      "ihre",
+      "seine",
+      "eure",
+      "ihr"
+     ],
+     "answer": 0,
+     "explain_en": "Plural owners → ihr; Katze is feminine → ihre.",
+     "explain_ru": "Несколько владельцев → ihr; Katze женского рода → ihre."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Das ist ___ Vater. (мой)",
+     "answer": [
+      "mein"
+     ],
+     "explain_en": "Masculine nominative: mein.",
+     "explain_ru": "Мужской род, именительный падеж: mein."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Wo ist ___ Tasche? (твоя)",
+     "answer": [
+      "deine"
+     ],
+     "explain_en": "Feminine: deine.",
+     "explain_ru": "Женский род: deine."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "Ich besuche ___ Onkel. (моего)",
+     "answer": [
+      "meinen"
+     ],
+     "explain_en": "Masculine accusative: meinen.",
+     "explain_ru": "Мужской род в аккузативе: meinen."
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "Tom ruft ___ Freundin an. (свою)",
+     "answer": [
+      "seine"
+     ],
+     "explain_en": "Owner Tom → sein; feminine → seine.",
+     "explain_ru": "Владелец — Том → sein; женский род → seine. «Свой» передаётся через sein."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Lisa sucht ___ Hund. (своего)",
+     "answer": [
+      "ihren"
+     ],
+     "explain_en": "Owner Lisa → ihr; masculine accusative → ihren.",
+     "explain_ru": "Владелец — Лиза → ihr; мужской род в аккузативе → ihren."
+    },
+    {
+     "id": "e16",
+     "type": "fill",
+     "q": "Das ist ___ Haus. (наш)",
+     "answer": [
+      "unser"
+     ],
+     "explain_en": "Neuter nominative: unser.",
+     "explain_ru": "Средний род, именительный падеж: unser."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Wo wohnen ___ Eltern? (ваши — к друзьям)",
+     "answer": [
+      "eure"
+     ],
+     "explain_en": "euer + plural → eure.",
+     "explain_ru": "euer + множественное число → eure."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "Herr Weber, wie ist ___ Name? (Ваша фамилия)",
+     "answer": [
+      "Ihr"
+     ],
+     "explain_en": "Formal your → Ihr, capitalised.",
+     "explain_ru": "Вежливое «Ваш» → Ihr с большой буквы."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "ist",
+      "Das",
+      "Schwester.",
+      "meine"
+     ],
+     "answer": "Das ist meine Schwester.",
+     "ru": "Это моя сестра."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "seinen",
+      "Er",
+      "Vater.",
+      "besucht"
+     ],
+     "answer": "Er besucht seinen Vater.",
+     "ru": "Он навещает своего отца."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Ihr",
+      "Wie",
+      "Name?",
+      "ist"
+     ],
+     "answer": "Wie ist Ihr Name?",
+     "ru": "Как Ваша фамилия?"
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "ihre",
+      "Anna",
+      "Tasche.",
+      "sucht"
+     ],
+     "answer": "Anna sucht ihre Tasche.",
+     "ru": "Анна ищет свою сумку."
+    },
+    {
+     "id": "e23",
+     "type": "tf",
+     "q": "German has a word like Russian „свой“ that works for all persons.",
+     "answer": false,
+     "explain_en": "No: use mein, dein, sein, ihr … according to the subject.",
+     "explain_ru": "Нет: используется mein, dein, sein, ihr … в зависимости от подлежащего."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "In „Anna und ihr Bruder“ the possessive is „ihr“ because the owner, Anna, is female.",
+     "answer": true,
+     "explain_en": "The owner chooses sein or ihr.",
+     "explain_ru": "Слово sein или ihr выбирает владелец."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "„eure“ is the correct form of „euer“ before a feminine noun: eure Stadt.",
+     "answer": true,
+     "explain_en": "euer drops the second e before an ending: eure.",
+     "explain_ru": "euer теряет второе e перед окончанием: eure."
+    },
+    {
+     "id": "e26",
+     "type": "match",
+     "pairs": [
+      [
+       "ich",
+       "mein"
+      ],
+      [
+       "du",
+       "dein"
+      ],
+      [
+       "er",
+       "sein"
+      ],
+      [
+       "sie (она)",
+       "ihr"
+      ],
+      [
+       "wir",
+       "unser"
+      ],
+      [
+       "ihr (вы)",
+       "euer"
+      ]
+     ]
+    },
+    {
+     "id": "e27",
+     "type": "match",
+     "pairs": [
+      [
+       "der Vater (Akk.)",
+       "meinen Vater"
+      ],
+      [
+       "die Mutter (Akk.)",
+       "meine Mutter"
+      ],
+      [
+       "das Kind (Akk.)",
+       "mein Kind"
+      ],
+      [
+       "die Eltern (Akk.)",
+       "meine Eltern"
+      ]
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "unser Lehrer",
+       "наш учитель"
+      ],
+      [
+       "eure Wohnung",
+       "ваша квартира"
+      ],
+      [
+       "Ihr Pass",
+       "Ваш паспорт"
+      ],
+      [
+       "sein Auto",
+       "его машина"
+      ],
+      [
+       "ihre Kinder",
+       "её или их дети"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "modal-verbs",
+   "title_en": "Modal verbs and möchte",
+   "title_ru": "Модальные глаголы и möchte",
+   "summary_en": "können, müssen, wollen, dürfen, sollen and the polite möchte: their irregular forms, their meanings, and the verb bracket with the infinitive at the end.",
+   "summary_ru": "können, müssen, wollen, dürfen, sollen и вежливое möchte: их неправильные формы, значения и рамочная конструкция с инфинитивом в конце предложения.",
+   "rules": [
+    {
+     "title_en": "The verb bracket",
+     "title_ru": "Рамочная конструкция",
+     "body_en": "The modal verb is conjugated and stands in position 2; the main verb goes to the END of the sentence in the infinitive: Ich kann heute nicht kommen. In questions the modal comes first and the infinitive is still last: Kannst du morgen kommen? In Russian the infinitive follows the modal directly ('могу прийти'); in German everything else stands between them.",
+     "body_ru": "Модальный глагол спрягается и стоит на втором месте, а смысловой глагол в форме инфинитива уходит в КОНЕЦ предложения: Ich kann heute nicht kommen. В вопросе модальный глагол стоит первым, а инфинитив всё равно в конце: Kannst du morgen kommen? В русском инфинитив идёт сразу за модальным словом («могу прийти»), а в немецком между ними стоят все остальные члены предложения.",
+     "examples": [
+      {
+       "en": "Ich kann heute nicht kommen.",
+       "ru": "Я не могу сегодня прийти."
+      },
+      {
+       "en": "Kannst du morgen kommen?",
+       "ru": "Ты можешь прийти завтра?"
+      },
+      {
+       "en": "Wir müssen jetzt nach Hause gehen.",
+       "ru": "Нам нужно сейчас идти домой."
+      }
+     ]
+    },
+    {
+     "title_en": "Forms of the modal verbs",
+     "title_ru": "Формы модальных глаголов",
+     "body_en": "In the singular, modals often change their vowel and ich and er/sie/es have NO ending: können – ich kann, du kannst, er kann, wir können, ihr könnt, sie können. Likewise müssen (muss, musst, muss), wollen (will, willst, will), dürfen (darf, darfst, darf). sollen keeps its vowel: ich soll, du sollst, er soll. The plural is regular: wir müssen, ihr müsst, sie müssen.",
+     "body_ru": "В единственном числе модальные глаголы часто меняют гласную, а у ich и er/sie/es НЕТ окончания: können – ich kann, du kannst, er kann, wir können, ihr könnt, sie können. Так же müssen (muss, musst, muss), wollen (will, willst, will), dürfen (darf, darfst, darf). sollen гласную не меняет: ich soll, du sollst, er soll. Множественное число правильное: wir müssen, ihr müsst, sie müssen.",
+     "examples": [
+      {
+       "en": "Er kann gut kochen.",
+       "ru": "Он хорошо умеет готовить. — er kann, без -t"
+      },
+      {
+       "en": "Du musst mehr schlafen.",
+       "ru": "Тебе нужно больше спать."
+      },
+      {
+       "en": "Ihr dürft hier spielen.",
+       "ru": "Вам можно здесь играть."
+      }
+     ]
+    },
+    {
+     "title_en": "können: can, be able to",
+     "title_ru": "können — мочь, уметь",
+     "body_en": "können expresses ability and possibility: Ich kann schwimmen (I know how to). Kannst du mir helfen? (Are you able to?) Hier kann man gut essen. It covers both Russian 'уметь' and 'мочь'. With languages the infinitive can be left out: Ich kann Deutsch.",
+     "body_ru": "können выражает способность и возможность: Ich kann schwimmen («я умею плавать»). Kannst du mir helfen? («ты можешь мне помочь?») Hier kann man gut essen. Оно покрывает и русское «уметь», и «мочь». С языками инфинитив можно опустить: Ich kann Deutsch («я знаю немецкий»).",
+     "examples": [
+      {
+       "en": "Ich kann schwimmen.",
+       "ru": "Я умею плавать."
+      },
+      {
+       "en": "Kannst du mir helfen?",
+       "ru": "Ты можешь мне помочь?"
+      },
+      {
+       "en": "Sie kann gut Deutsch.",
+       "ru": "Она хорошо знает немецкий."
+      }
+     ]
+    },
+    {
+     "title_en": "müssen: must, have to",
+     "title_ru": "müssen — быть должным, нужно",
+     "body_en": "müssen expresses necessity: Ich muss arbeiten. Wir müssen den Zug nehmen. Careful with the negation: nicht müssen means 'not have to, need not': Du musst nicht kommen = you don't have to come. It does NOT mean 'нельзя'; for a prohibition use nicht dürfen.",
+     "body_ru": "müssen выражает необходимость: Ich muss arbeiten («мне нужно работать»). Wir müssen den Zug nehmen. Осторожно с отрицанием: nicht müssen значит «не обязательно, не нужно»: Du musst nicht kommen — «тебе не обязательно приходить». Это НЕ «нельзя»: запрет выражается через nicht dürfen. Русская безличная конструкция «мне нужно» по-немецки — с подлежащим: ich muss.",
+     "examples": [
+      {
+       "en": "Ich muss heute arbeiten.",
+       "ru": "Мне сегодня нужно работать."
+      },
+      {
+       "en": "Du musst nicht kommen.",
+       "ru": "Тебе не обязательно приходить."
+      },
+      {
+       "en": "Musst du früh aufstehen?",
+       "ru": "Тебе нужно рано вставать?"
+      }
+     ]
+    },
+    {
+     "title_en": "dürfen: may, be allowed to",
+     "title_ru": "dürfen — иметь разрешение",
+     "body_en": "dürfen expresses permission: Darf ich hier parken? Kinder dürfen hier spielen. With nicht it expresses a prohibition: Hier darf man nicht rauchen. Polite questions often begin with Darf ich …?: Darf ich Sie etwas fragen?",
+     "body_ru": "dürfen выражает разрешение: Darf ich hier parken? («можно мне здесь припарковаться?») Kinder dürfen hier spielen. С nicht оно выражает запрет: Hier darf man nicht rauchen («здесь нельзя курить»). Вежливые вопросы часто начинаются с Darf ich …?: Darf ich Sie etwas fragen? Русское «можно» = dürfen, если речь о разрешении, и können, если о возможности.",
+     "examples": [
+      {
+       "en": "Darf ich hier parken?",
+       "ru": "Можно мне здесь припарковаться?"
+      },
+      {
+       "en": "Hier darf man nicht rauchen.",
+       "ru": "Здесь нельзя курить."
+      },
+      {
+       "en": "Darf ich Sie etwas fragen?",
+       "ru": "Можно Вас кое о чём спросить?"
+      }
+     ]
+    },
+    {
+     "title_en": "wollen and sollen",
+     "title_ru": "wollen и sollen",
+     "body_en": "wollen expresses one's own strong wish or plan: Ich will Arzt werden. Er will nach Hause. Note: ich will does NOT mean the future, unlike English 'will'. sollen expresses someone else's wish, an order or advice: Der Arzt sagt, ich soll viel trinken. In a question it offers help: Soll ich das Fenster öffnen? (Мне открыть окно?)",
+     "body_ru": "wollen выражает собственное сильное желание или намерение: Ich will Arzt werden («я хочу стать врачом»). Er will nach Hause. Внимание: ich will НЕ означает будущее время, в отличие от английского will. sollen выражает чужую волю, указание или совет: Der Arzt sagt, ich soll viel trinken («врач говорит, что мне следует много пить»). В вопросе — предложение помощи: Soll ich das Fenster öffnen? («Мне открыть окно?»)",
+     "examples": [
+      {
+       "en": "Ich will Arzt werden.",
+       "ru": "Я хочу стать врачом."
+      },
+      {
+       "en": "Der Arzt sagt, ich soll viel trinken.",
+       "ru": "Врач говорит, что мне надо много пить."
+      },
+      {
+       "en": "Soll ich das Fenster öffnen?",
+       "ru": "Мне открыть окно?"
+      }
+     ]
+    },
+    {
+     "title_en": "möchte: would like",
+     "title_ru": "möchte — хотел(а) бы",
+     "body_en": "möchte is the polite way to say what you want, especially in shops and restaurants: ich möchte, du möchtest, er/sie/es möchte, wir möchten, ihr möchtet, sie/Sie möchten. It can stand with a noun (Ich möchte einen Kaffee) or with an infinitive at the end (Ich möchte bezahlen). Ich will einen Kaffee sounds rude, like Russian 'хочу кофе!'.",
+     "body_ru": "möchte — вежливый способ сказать, чего вы хотите, особенно в магазине и ресторане: ich möchte, du möchtest, er/sie/es möchte, wir möchten, ihr möchtet, sie/Sie möchten. Оно употребляется с существительным (Ich möchte einen Kaffee) или с инфинитивом в конце (Ich möchte bezahlen). Ich will einen Kaffee звучит грубо, как русское «хочу кофе!». möchte соответствует русскому «я бы хотел».",
+     "examples": [
+      {
+       "en": "Ich möchte einen Kaffee, bitte.",
+       "ru": "Я бы хотел кофе, пожалуйста."
+      },
+      {
+       "en": "Wir möchten bezahlen.",
+       "ru": "Мы хотели бы расплатиться."
+      },
+      {
+       "en": "Was möchten Sie trinken?",
+       "ru": "Что Вы будете пить?"
+      }
+     ]
+    },
+    {
+     "title_en": "man and modals without an infinitive",
+     "title_ru": "man и модальные глаголы без инфинитива",
+     "body_en": "Modals often combine with man (one, people) to express general rules, like Russian impersonal 'можно, нужно, нельзя': Hier kann man gut essen. Im Museum muss man leise sein. Man darf hier nicht parken. If the meaning is clear, the infinitive of a verb of motion can be dropped: Ich muss jetzt nach Hause. Er will ins Kino.",
+     "body_ru": "Модальные глаголы часто сочетаются с man («люди вообще»), выражая общие правила — как русские безличные «можно, нужно, нельзя»: Hier kann man gut essen («здесь можно хорошо поесть»). Im Museum muss man leise sein. Man darf hier nicht parken. Если смысл ясен, инфинитив глагола движения можно опустить: Ich muss jetzt nach Hause («мне пора домой»). Er will ins Kino.",
+     "examples": [
+      {
+       "en": "Hier kann man gut essen.",
+       "ru": "Здесь можно хорошо поесть."
+      },
+      {
+       "en": "Man darf hier nicht parken.",
+       "ru": "Здесь нельзя парковаться."
+      },
+      {
+       "en": "Ich muss jetzt nach Hause.",
+       "ru": "Мне пора домой."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Ich ___ gut schwimmen.",
+     "options": [
+      "kann",
+      "könne",
+      "kannst",
+      "können"
+     ],
+     "answer": 0,
+     "explain_en": "ich → kann (no ending).",
+     "explain_ru": "ich → kann, без окончания."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "Du ___ heute arbeiten.",
+     "options": [
+      "muss",
+      "musst",
+      "müsst",
+      "müssen"
+     ],
+     "answer": 1,
+     "explain_en": "du → musst.",
+     "explain_ru": "du → musst («тебе нужно»)."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "Hier ___ man nicht rauchen.",
+     "options": [
+      "dürft",
+      "darfst",
+      "darf",
+      "dürfen"
+     ],
+     "answer": 2,
+     "explain_en": "man takes the er form: darf.",
+     "explain_ru": "man требует формы 3-го лица ед. числа: darf."
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "Welcher Satz ist richtig?",
+     "options": [
+      "Ich kann schwimmen gut.",
+      "Ich kann gut schwimmen.",
+      "Ich gut kann schwimmen.",
+      "Ich schwimmen kann gut."
+     ],
+     "answer": 1,
+     "explain_en": "Modal in position 2, infinitive at the end.",
+     "explain_ru": "Модальный глагол на втором месте, инфинитив в конце."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Ich ___ einen Tee, bitte. (вежливо)",
+     "options": [
+      "will",
+      "möchten",
+      "möchte",
+      "möchtest"
+     ],
+     "answer": 2,
+     "explain_en": "Polite request: ich möchte.",
+     "explain_ru": "Вежливая просьба: ich möchte. Ich will звучит грубо."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Mein Arzt sagt: „Sie müssen weniger arbeiten.“ – Mein Arzt sagt, ich ___ weniger arbeiten.",
+     "options": [
+      "will",
+      "soll",
+      "kann",
+      "darf"
+     ],
+     "answer": 1,
+     "explain_en": "Someone else's instruction → sollen.",
+     "explain_ru": "Указание другого человека → sollen: ich soll («мне следует»)."
+    },
+    {
+     "id": "e07",
+     "type": "mc",
+     "q": "Du ___ nicht kommen, es ist nicht wichtig. (не обязательно)",
+     "options": [
+      "darfst",
+      "willst",
+      "musst",
+      "kannst"
+     ],
+     "answer": 2,
+     "explain_en": "nicht müssen = need not.",
+     "explain_ru": "nicht müssen — «не обязательно». nicht dürfen было бы «нельзя»."
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "___ ihr am Samstag ins Kino gehen?",
+     "options": [
+      "Wollt",
+      "Willst",
+      "Will",
+      "Wollen"
+     ],
+     "answer": 0,
+     "explain_en": "ihr → wollt.",
+     "explain_ru": "ihr → wollt («вы хотите»)."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "Er ___ Arzt werden. (хочет)",
+     "options": [
+      "wollt",
+      "willt",
+      "will",
+      "wolle"
+     ],
+     "answer": 2,
+     "explain_en": "er → will (no ending).",
+     "explain_ru": "er → will, без окончания. Это не будущее время!"
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "Was ___ Sie trinken? – Ein Wasser, bitte.",
+     "options": [
+      "möchte",
+      "möchtest",
+      "möchtet",
+      "möchten"
+     ],
+     "answer": 3,
+     "explain_en": "Sie → möchten.",
+     "explain_ru": "Вежливое Sie → möchten, как форма множественного числа."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Wir ___ (können) Deutsch sprechen.",
+     "answer": [
+      "können"
+     ],
+     "explain_en": "wir → können (regular plural).",
+     "explain_ru": "wir → können: множественное число правильное."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Er ___ (müssen) früh aufstehen.",
+     "answer": [
+      "muss"
+     ],
+     "explain_en": "er → muss (no ending).",
+     "explain_ru": "er → muss, без окончания."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "___ (dürfen) ich hier parken?",
+     "answer": [
+      "Darf",
+      "darf"
+     ],
+     "explain_en": "Asking permission: Darf ich …?",
+     "explain_ru": "Просьба о разрешении: Darf ich …? («можно мне…?»)"
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "Du ___ (wollen) immer Pizza essen!",
+     "answer": [
+      "willst"
+     ],
+     "explain_en": "du → willst.",
+     "explain_ru": "du → willst («ты хочешь»)."
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Ihr ___ (sollen) die Hausaufgaben machen.",
+     "answer": [
+      "sollt"
+     ],
+     "explain_en": "ihr → sollt.",
+     "explain_ru": "ihr → sollt («вам следует»)."
+    },
+    {
+     "id": "e16",
+     "type": "fill",
+     "q": "Ich ___ (möchten) bitte einen Kaffee.",
+     "answer": [
+      "möchte"
+     ],
+     "explain_en": "ich → möchte, the same form as er möchte.",
+     "explain_ru": "ich → möchte («я бы хотел») — та же форма, что у er möchte."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Kinder ___ (dürfen) hier nicht spielen.",
+     "answer": [
+      "dürfen"
+     ],
+     "explain_en": "Plural → dürfen; nicht dürfen = not allowed.",
+     "explain_ru": "Множественное число → dürfen; nicht dürfen — «нельзя»."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "___ (können) du mir helfen?",
+     "answer": [
+      "Kannst",
+      "kannst"
+     ],
+     "explain_en": "du → kannst; question: modal first.",
+     "explain_ru": "du → kannst; в вопросе модальный глагол на первом месте."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "gut",
+      "kann",
+      "Ich",
+      "kochen."
+     ],
+     "answer": "Ich kann gut kochen.",
+     "ru": "Я хорошо умею готовить."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "heute",
+      "Wir",
+      "arbeiten.",
+      "müssen"
+     ],
+     "answer": "Wir müssen heute arbeiten.",
+     "ru": "Нам сегодня нужно работать."
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "Kaffee.",
+      "möchte",
+      "Ich",
+      "einen"
+     ],
+     "answer": "Ich möchte einen Kaffee.",
+     "ru": "Я бы хотел кофе."
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "hier",
+      "Darf",
+      "rauchen?",
+      "man"
+     ],
+     "answer": "Darf man hier rauchen?",
+     "ru": "Здесь можно курить?"
+    },
+    {
+     "id": "e23",
+     "type": "tf",
+     "q": "„Du musst nicht kommen“ means 'You must not come'.",
+     "answer": false,
+     "explain_en": "It means 'you don't have to come'. 'You must not' is du darfst nicht.",
+     "explain_ru": "Это значит «тебе не обязательно приходить». «Нельзя» — du darfst nicht."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "Modal verbs have no ending in the ich and er/sie/es forms: ich kann, er kann.",
+     "answer": true,
+     "explain_en": "ich kann, er kann; ich muss, er muss.",
+     "explain_ru": "Да: ich kann, er kann; ich muss, er muss — без окончаний."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "In a sentence with a modal verb, the infinitive goes to the end.",
+     "answer": true,
+     "explain_en": "Ich kann heute nicht kommen.",
+     "explain_ru": "Да, это рамочная конструкция: Ich kann heute nicht kommen."
+    },
+    {
+     "id": "e26",
+     "type": "match",
+     "pairs": [
+      [
+       "können",
+       "мочь, уметь"
+      ],
+      [
+       "müssen",
+       "быть должным, нужно"
+      ],
+      [
+       "dürfen",
+       "иметь разрешение"
+      ],
+      [
+       "wollen",
+       "хотеть"
+      ],
+      [
+       "sollen",
+       "следует (по чужой воле)"
+      ],
+      [
+       "möchte",
+       "хотел(а) бы"
+      ]
+     ]
+    },
+    {
+     "id": "e27",
+     "type": "match",
+     "pairs": [
+      [
+       "ich",
+       "muss"
+      ],
+      [
+       "du",
+       "musst"
+      ],
+      [
+       "wir",
+       "müssen"
+      ],
+      [
+       "ihr",
+       "müsst"
+      ]
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "Hier darf man nicht rauchen.",
+       "Здесь нельзя курить."
+      ],
+      [
+       "Ich muss arbeiten.",
+       "Мне нужно работать."
+      ],
+      [
+       "Ich kann schwimmen.",
+       "Я умею плавать."
+      ],
+      [
+       "Ich möchte Tee.",
+       "Я бы хотел чаю."
+      ],
+      [
+       "Soll ich warten?",
+       "Мне подождать?"
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "separable-verbs-imperative-numbers",
+   "title_en": "Separable verbs and the imperative; numbers, time, dates",
+   "title_ru": "Отделяемые приставки и повелительное наклонение; числа, время, даты",
+   "summary_en": "Separable prefixes go to the end of the sentence; the imperative has du, ihr and Sie forms. Plus numbers, prices, telling the time and saying dates.",
+   "summary_ru": "Отделяемые приставки уходят в конец предложения; повелительное наклонение имеет формы для du, ihr и Sie. А также числа, цены, время по часам и даты.",
+   "rules": [
+    {
+     "title_en": "Separable verbs",
+     "title_ru": "Глаголы с отделяемыми приставками",
+     "body_en": "Many verbs have a prefix that separates in the present and goes to the end of the sentence: aufstehen → Ich stehe um sieben Uhr auf. Common separable prefixes are an, auf, aus, ein, mit, ab, zu, zurück, vor, fern: anrufen, einkaufen, mitkommen, abfahren, fernsehen. The prefix is always stressed: AUF-stehen. Russian prefixes never separate, so watch the end of the sentence: it can change the meaning.",
+     "body_ru": "Многие глаголы имеют приставку, которая в настоящем времени отделяется и уходит в конец предложения: aufstehen → Ich stehe um sieben Uhr auf. Частые отделяемые приставки: an, auf, aus, ein, mit, ab, zu, zurück, vor, fern: anrufen, einkaufen, mitkommen, abfahren, fernsehen. Приставка всегда ударная: AUF-stehen. Русские приставки никогда не отделяются, поэтому слушайте конец предложения: от него зависит смысл.",
+     "examples": [
+      {
+       "en": "Ich stehe um sieben Uhr auf.",
+       "ru": "Я встаю в семь часов."
+      },
+      {
+       "en": "Wir kaufen am Samstag ein.",
+       "ru": "Мы делаем покупки в субботу."
+      },
+      {
+       "en": "Der Zug fährt um neun Uhr ab.",
+       "ru": "Поезд отправляется в девять часов."
+      }
+     ]
+    },
+    {
+     "title_en": "Not separated: modals and inseparable prefixes",
+     "title_ru": "Без отделения: модальные глаголы и неотделяемые приставки",
+     "body_en": "With a modal verb the separable verb stays together as an infinitive at the end: Ich muss früh aufstehen. Kannst du mich anrufen? The prefixes be-, ver-, er-, ge-, ent-, emp-, zer- are inseparable and unstressed: Ich verstehe dich. Wir besuchen Oma. Er bekommt einen Brief.",
+     "body_ru": "С модальным глаголом отделяемый глагол стоит в конце целиком, в форме инфинитива: Ich muss früh aufstehen. Kannst du mich anrufen? Приставки be-, ver-, er-, ge-, ent-, emp-, zer- неотделяемые и безударные: Ich verstehe dich. Wir besuchen Oma. Er bekommt einen Brief. Внимание: bekommen значит «получать», а не «становиться» — это ложный друг для тех, кто знает английский.",
+     "examples": [
+      {
+       "en": "Ich muss früh aufstehen.",
+       "ru": "Мне нужно рано вставать."
+      },
+      {
+       "en": "Kannst du mich morgen anrufen?",
+       "ru": "Ты можешь позвонить мне завтра?"
+      },
+      {
+       "en": "Ich verstehe das nicht.",
+       "ru": "Я этого не понимаю."
+      }
+     ]
+    },
+    {
+     "title_en": "Imperative: du",
+     "title_ru": "Повелительное наклонение: du",
+     "body_en": "For du, take the du form, drop -st and drop du: du kommst → Komm! du machst → Mach! Verbs with e → i/ie keep the change: Sprich! Lies! Nimm! Gib! But a → ä verbs lose the umlaut: Fahr! Schlaf! Stems in -t/-d add -e: Warte! Arbeite! The verb sein is special: Sei ruhig!",
+     "body_ru": "Для du возьмите форму du, отбросьте -st и само du: du kommst → Komm! du machst → Mach! Глаголы с чередованием e → i/ie его сохраняют: Sprich! Lies! Nimm! Gib! А глаголы с a → ä теряют умлаут: Fahr! Schlaf! К основам на -t/-d добавляется -e: Warte! Arbeite! Глагол sein особый: Sei ruhig! («Успокойся! / Тише!»)",
+     "examples": [
+      {
+       "en": "Komm schnell!",
+       "ru": "Иди сюда быстрее!"
+      },
+      {
+       "en": "Sprich bitte langsam!",
+       "ru": "Говори, пожалуйста, медленно!"
+      },
+      {
+       "en": "Fahr vorsichtig!",
+       "ru": "Езжай осторожно!"
+      }
+     ]
+    },
+    {
+     "title_en": "Imperative: ihr and Sie; prefixes and bitte",
+     "title_ru": "Повелительное наклонение: ihr и Sie; приставки и bitte",
+     "body_en": "For ihr, use the ihr form without the pronoun: Kommt! Macht! Seid leise! For Sie, put the verb first and keep Sie: Kommen Sie! Warten Sie bitte! Seien Sie vorsichtig! Separable prefixes go to the end: Steh auf! Ruf mich an! Machen Sie die Tür zu! bitte usually comes after the verb or the pronoun: Komm bitte! Nehmen Sie bitte Platz!",
+     "body_ru": "Для ihr берут форму ihr без местоимения: Kommt! Macht! Seid leise! Для Sie глагол ставят первым и сохраняют Sie: Kommen Sie! Warten Sie bitte! Seien Sie vorsichtig! Отделяемые приставки уходят в конец: Steh auf! Ruf mich an! Machen Sie die Tür zu! bitte обычно стоит после глагола или местоимения: Komm bitte! Nehmen Sie bitte Platz! Без bitte немецкий императив звучит резче, чем русский.",
+     "examples": [
+      {
+       "en": "Kinder, seid bitte leise!",
+       "ru": "Дети, тише, пожалуйста!"
+      },
+      {
+       "en": "Nehmen Sie bitte Platz!",
+       "ru": "Садитесь, пожалуйста!"
+      },
+      {
+       "en": "Ruf mich morgen an!",
+       "ru": "Позвони мне завтра!"
+      }
+     ]
+    },
+    {
+     "title_en": "Numbers 0–100",
+     "title_ru": "Числа 0–100",
+     "body_en": "Learn 0–12: null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn, elf, zwölf. 13–19 add -zehn: dreizehn, but sechzehn and siebzehn lose letters. Tens end in -zig: zwanzig, vierzig, but dreißig (with ß), sechzig, siebzig. From 21, the units come FIRST: einundzwanzig (one-and-twenty), fünfundvierzig. Numbers are written as one word.",
+     "body_ru": "Выучите 0–12: null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun, zehn, elf, zwölf. 13–19 образуются с -zehn: dreizehn, но sechzehn и siebzehn теряют буквы. Десятки оканчиваются на -zig: zwanzig, vierzig, но dreißig (с ß), sechzig, siebzig. С 21 единицы идут ПЕРВЫМИ: einundzwanzig (букв. «один-и-двадцать»), fünfundvierzig. В русском наоборот: «двадцать один». Числа пишутся одним словом. По телефону вместо zwei часто говорят zwo, чтобы не путать с drei.",
+     "examples": [
+      {
+       "en": "einundzwanzig",
+       "ru": "двадцать один — букв. «один-и-двадцать»"
+      },
+      {
+       "en": "Ich bin dreißig Jahre alt.",
+       "ru": "Мне тридцать лет."
+      },
+      {
+       "en": "sechzehn, siebzig",
+       "ru": "шестнадцать, семьдесят — без -s и -en"
+      }
+     ]
+    },
+    {
+     "title_en": "Big numbers, prices and years",
+     "title_ru": "Большие числа, цены и годы",
+     "body_en": "hundert and tausend join the rest into one word: 235 = zweihundertfünfunddreißig. Germany uses a decimal comma: 3,50 € is drei Euro fünfzig. Years up to 1999 are said in hundreds: 1990 = neunzehnhundertneunzig; from 2000 in thousands: 2025 = zweitausendfünfundzwanzig. A year stands alone or with im Jahr: Ich bin 1995 geboren, not 'in 1995'.",
+     "body_ru": "hundert и tausend соединяются с остальными числами в одно слово: 235 = zweihundertfünfunddreißig. В Германии десятичная запятая: 3,50 € — drei Euro fünfzig. Годы до 1999 называют сотнями: 1990 = neunzehnhundertneunzig («девятнадцать сотен девяносто»); с 2000 — тысячами: 2025 = zweitausendfünfundzwanzig. Год употребляется без предлога или с im Jahr: Ich bin 1995 geboren, а не «in 1995» — и не как русское «в 1995 году».",
+     "examples": [
+      {
+       "en": "Das kostet drei Euro fünfzig.",
+       "ru": "Это стоит три евро пятьдесят."
+      },
+      {
+       "en": "Ich bin 1995 geboren.",
+       "ru": "Я родился в 1995 году. — без предлога"
+      },
+      {
+       "en": "zweitausendfünfundzwanzig",
+       "ru": "две тысячи двадцать пятый (2025)"
+      }
+     ]
+    },
+    {
+     "title_en": "Telling the time",
+     "title_ru": "Который час",
+     "body_en": "Ask Wie spät ist es? or Wie viel Uhr ist es? Officially (timetables, radio) use the 24-hour clock: 14:30 = vierzehn Uhr dreißig. In everyday speech: Viertel nach drei (3:15), Viertel vor vier (3:45), zehn nach drei (3:10). halb points to the NEXT hour: halb vier = 3:30, like Russian 'половина четвёртого'. 'At' a time is um: um acht Uhr. In parts of Austria and eastern Germany you also hear viertel vier = 3:15.",
+     "body_ru": "Спрашивают: Wie spät ist es? или Wie viel Uhr ist es? Официально (расписания, радио) — 24 часа: 14:30 = vierzehn Uhr dreißig. В обиходе: Viertel nach drei (3:15), Viertel vor vier (3:45), zehn nach drei (3:10). halb указывает на СЛЕДУЮЩИЙ час: halb vier = 3:30, точно как русское «половина четвёртого». «В» какое-то время — um: um acht Uhr. В Австрии и на востоке Германии говорят также viertel vier = 3:15 («четверть четвёртого»).",
+     "examples": [
+      {
+       "en": "Es ist halb vier.",
+       "ru": "Сейчас половина четвёртого (3:30)."
+      },
+      {
+       "en": "Der Kurs beginnt um Viertel nach neun.",
+       "ru": "Курс начинается в четверть десятого (9:15)."
+      },
+      {
+       "en": "Der Zug fährt um 18:05 Uhr.",
+       "ru": "Поезд отправляется в 18:05 (achtzehn Uhr fünf)."
+      }
+     ]
+    },
+    {
+     "title_en": "Ordinal numbers and dates",
+     "title_ru": "Порядковые числительные и даты",
+     "body_en": "Ordinals up to 19 add -t- plus an ending: der zweite, der vierte; irregular are der erste, der dritte, der siebte, der achte. From 20 add -st-: der zwanzigste. In writing a full stop marks an ordinal: der 3. Mai = der dritte Mai. For 'on' a date use am + -en: am dritten Mai. Days take am (am Montag), months take im (im Mai). In Austria January is Jänner.",
+     "body_ru": "Порядковые числительные до 19 образуются с -t- и окончанием: der zweite, der vierte; особые формы: der erste, der dritte, der siebte, der achte. С 20 — с -st-: der zwanzigste. На письме порядковое числительное обозначается точкой: der 3. Mai = der dritte Mai. «Какого числа?» — am + -en: am dritten Mai («третьего мая»). С днями недели am (am Montag), с месяцами im (im Mai). В Австрии январь — Jänner.",
+     "examples": [
+      {
+       "en": "Heute ist der 3. Mai.",
+       "ru": "Сегодня третье мая. (der dritte Mai)"
+      },
+      {
+       "en": "Mein Geburtstag ist am 1. Juli.",
+       "ru": "Мой день рождения первого июля. (am ersten Juli)"
+      },
+      {
+       "en": "Am Montag habe ich frei.",
+       "ru": "В понедельник я свободен."
+      }
+     ]
+    }
+   ],
+   "exercises": [
+    {
+     "id": "e01",
+     "type": "mc",
+     "q": "Welcher Satz ist richtig?",
+     "options": [
+      "Ich aufstehe um 7 Uhr.",
+      "Ich stehe um 7 Uhr auf.",
+      "Ich um 7 Uhr stehe auf.",
+      "Ich auf stehe um 7 Uhr."
+     ],
+     "answer": 1,
+     "explain_en": "The verb is second, the separable prefix goes to the end.",
+     "explain_ru": "Глагол на втором месте, отделяемая приставка — в конце."
+    },
+    {
+     "id": "e02",
+     "type": "mc",
+     "q": "„Halb drei“ ist …",
+     "options": [
+      "3:30",
+      "2:15",
+      "2:30",
+      "3:15"
+     ],
+     "answer": 2,
+     "explain_en": "halb points to the next hour: halb drei = 2:30.",
+     "explain_ru": "halb указывает на следующий час: halb drei = 2:30, «половина третьего»."
+    },
+    {
+     "id": "e03",
+     "type": "mc",
+     "q": "___ bitte langsam! (du, sprechen)",
+     "options": [
+      "Sprich",
+      "Sprech",
+      "Sprichst",
+      "Sprechen"
+     ],
+     "answer": 0,
+     "explain_en": "e → i verbs keep the change in the du imperative: Sprich!",
+     "explain_ru": "Глаголы с e → i сохраняют чередование в императиве: Sprich!"
+    },
+    {
+     "id": "e04",
+     "type": "mc",
+     "q": "21 = …",
+     "options": [
+      "zwanzigeins",
+      "einundzwanzig",
+      "einszwanzig",
+      "zweiundeins"
+     ],
+     "answer": 1,
+     "explain_en": "Units first: einundzwanzig.",
+     "explain_ru": "Сначала единицы: einundzwanzig («один-и-двадцать»)."
+    },
+    {
+     "id": "e05",
+     "type": "mc",
+     "q": "Wann beginnt der Film? – ___ acht Uhr.",
+     "options": [
+      "Am",
+      "Im",
+      "Um",
+      "In"
+     ],
+     "answer": 2,
+     "explain_en": "Clock times take um.",
+     "explain_ru": "С часами употребляется um: um acht Uhr («в восемь часов»)."
+    },
+    {
+     "id": "e06",
+     "type": "mc",
+     "q": "Herr Braun, ___ Sie bitte herein!",
+     "options": [
+      "kommen",
+      "komm",
+      "kommt",
+      "kommst"
+     ],
+     "answer": 0,
+     "explain_en": "Formal imperative: Kommen Sie!",
+     "explain_ru": "Вежливый императив: Kommen Sie! — глагол первым, Sie сохраняется."
+    },
+    {
+     "id": "e07",
+     "type": "mc",
+     "q": "Mach bitte das Fenster ___! Es ist kalt.",
+     "options": [
+      "an",
+      "mit",
+      "zu",
+      "ab"
+     ],
+     "answer": 2,
+     "explain_en": "zumachen = to close.",
+     "explain_ru": "zumachen — «закрывать»: Mach das Fenster zu!"
+    },
+    {
+     "id": "e08",
+     "type": "mc",
+     "q": "Heute ist der ___ Oktober. (3.)",
+     "options": [
+      "dreite",
+      "dritte",
+      "dreiste",
+      "dreitte"
+     ],
+     "answer": 1,
+     "explain_en": "3rd is irregular: der dritte.",
+     "explain_ru": "«Третий» — особая форма: der dritte."
+    },
+    {
+     "id": "e09",
+     "type": "mc",
+     "q": "30 = …",
+     "options": [
+      "dreizig",
+      "dreizehn",
+      "dreisig",
+      "dreißig"
+     ],
+     "answer": 3,
+     "explain_en": "30 is dreißig, with ß (in Switzerland: dreissig). dreizehn is 13.",
+     "explain_ru": "30 — dreißig, с ß (в Швейцарии dreissig). dreizehn — это 13."
+    },
+    {
+     "id": "e10",
+     "type": "mc",
+     "q": "Ich rufe dich morgen ___.",
+     "options": [
+      "auf",
+      "an",
+      "mit",
+      "ein"
+     ],
+     "answer": 1,
+     "explain_en": "anrufen = to phone; an goes to the end.",
+     "explain_ru": "anrufen — «звонить по телефону»; приставка an в конце. Обратите внимание: anrufen + Akk. (dich), а в русском «звонить кому» — дательный."
+    },
+    {
+     "id": "e11",
+     "type": "fill",
+     "q": "Der Zug fährt um 9 Uhr ___. (abfahren)",
+     "answer": [
+      "ab"
+     ],
+     "explain_en": "abfahren: the prefix ab goes to the end.",
+     "explain_ru": "abfahren: приставка ab уходит в конец."
+    },
+    {
+     "id": "e12",
+     "type": "fill",
+     "q": "Ich ___ heute im Supermarkt ein. (einkaufen)",
+     "answer": [
+      "kaufe"
+     ],
+     "explain_en": "einkaufen: ich kaufe … ein.",
+     "explain_ru": "einkaufen: ich kaufe … ein — спрягается корень, приставка в конце."
+    },
+    {
+     "id": "e13",
+     "type": "fill",
+     "q": "___ bitte! (warten, du)",
+     "answer": [
+      "Warte",
+      "warte"
+     ],
+     "explain_en": "Stem in -t: Warte!",
+     "explain_ru": "Основа на -t: Warte! («Подожди!»)"
+    },
+    {
+     "id": "e14",
+     "type": "fill",
+     "q": "___ bitte ruhig, Kinder! (sein, ihr)",
+     "answer": [
+      "Seid",
+      "seid"
+     ],
+     "explain_en": "ihr imperative of sein: Seid!",
+     "explain_ru": "Императив от sein для ihr: Seid! («Будьте!»)"
+    },
+    {
+     "id": "e15",
+     "type": "fill",
+     "q": "Ich ___ am Abend fern. (fernsehen)",
+     "answer": [
+      "sehe"
+     ],
+     "explain_en": "fernsehen: ich sehe … fern.",
+     "explain_ru": "fernsehen: ich sehe … fern («смотрю телевизор»)."
+    },
+    {
+     "id": "e16",
+     "type": "fill",
+     "q": "15 = ___",
+     "answer": [
+      "fünfzehn"
+     ],
+     "explain_en": "fünf + zehn = fünfzehn.",
+     "explain_ru": "fünf + zehn = fünfzehn (пятнадцать)."
+    },
+    {
+     "id": "e17",
+     "type": "fill",
+     "q": "Die Party ist ___ Samstag.",
+     "answer": [
+      "am"
+     ],
+     "explain_en": "Days of the week take am.",
+     "explain_ru": "С днями недели — am: am Samstag («в субботу»)."
+    },
+    {
+     "id": "e18",
+     "type": "fill",
+     "q": "Mein Geburtstag ist im ___. (июль)",
+     "answer": [
+      "Juli"
+     ],
+     "explain_en": "July = Juli; months take im.",
+     "explain_ru": "Июль — Juli; с месяцами употребляется im."
+    },
+    {
+     "id": "e19",
+     "type": "order",
+     "words": [
+      "Uhr",
+      "um",
+      "Ich",
+      "auf.",
+      "sieben",
+      "stehe"
+     ],
+     "answer": "Ich stehe um sieben Uhr auf.",
+     "ru": "Я встаю в семь часов."
+    },
+    {
+     "id": "e20",
+     "type": "order",
+     "words": [
+      "an!",
+      "mich",
+      "Ruf",
+      "morgen"
+     ],
+     "answer": "Ruf mich morgen an!",
+     "ru": "Позвони мне завтра!"
+    },
+    {
+     "id": "e21",
+     "type": "order",
+     "words": [
+      "mit?",
+      "Kommst",
+      "Kino",
+      "du",
+      "ins"
+     ],
+     "answer": "Kommst du ins Kino mit?",
+     "ru": "Ты пойдёшь с нами в кино?"
+    },
+    {
+     "id": "e22",
+     "type": "order",
+     "words": [
+      "Sie",
+      "bitte",
+      "Platz!",
+      "Nehmen"
+     ],
+     "answer": "Nehmen Sie bitte Platz!",
+     "ru": "Садитесь, пожалуйста!"
+    },
+    {
+     "id": "e23",
+     "type": "tf",
+     "q": "„Halb vier“ means 3:30.",
+     "answer": true,
+     "explain_en": "halb + next hour: halb vier = 3:30.",
+     "explain_ru": "halb + следующий час: halb vier = 3:30, «половина четвёртого»."
+    },
+    {
+     "id": "e24",
+     "type": "tf",
+     "q": "In „verstehen“ the prefix ver- separates: „Ich stehe das ver.“",
+     "answer": false,
+     "explain_en": "ver- is inseparable: Ich verstehe das.",
+     "explain_ru": "ver- — неотделяемая приставка: Ich verstehe das."
+    },
+    {
+     "id": "e25",
+     "type": "tf",
+     "q": "In German numbers like 45, the units come first: fünfundvierzig.",
+     "answer": true,
+     "explain_en": "fünfundvierzig = five-and-forty.",
+     "explain_ru": "fünfundvierzig — букв. «пять-и-сорок», в отличие от русского «сорок пять»."
+    },
+    {
+     "id": "e26",
+     "type": "match",
+     "pairs": [
+      [
+       "aufstehen",
+       "вставать"
+      ],
+      [
+       "einkaufen",
+       "делать покупки"
+      ],
+      [
+       "anrufen",
+       "звонить по телефону"
+      ],
+      [
+       "fernsehen",
+       "смотреть телевизор"
+      ],
+      [
+       "mitkommen",
+       "пойти вместе"
+      ],
+      [
+       "abfahren",
+       "отправляться, уезжать"
+      ]
+     ]
+    },
+    {
+     "id": "e27",
+     "type": "match",
+     "pairs": [
+      [
+       "Viertel nach acht",
+       "8:15"
+      ],
+      [
+       "halb neun",
+       "8:30"
+      ],
+      [
+       "Viertel vor neun",
+       "8:45"
+      ],
+      [
+       "neun Uhr",
+       "9:00"
+      ],
+      [
+       "zehn nach neun",
+       "9:10"
+      ]
+     ]
+    },
+    {
+     "id": "e28",
+     "type": "match",
+     "pairs": [
+      [
+       "der erste",
+       "1."
+      ],
+      [
+       "der zweite",
+       "2."
+      ],
+      [
+       "der dritte",
+       "3."
+      ],
+      [
+       "der siebte",
+       "7."
+      ],
+      [
+       "der zwanzigste",
+       "20."
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
