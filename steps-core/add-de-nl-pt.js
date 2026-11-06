@@ -5,7 +5,7 @@ const card=(name,slug,desc)=>`  <article class="card">
     <div class="top"><h3>${name}</h3><span class="badge">Free</span></div>
     <div class="meta"><span class="tag">A1 → C2</span><span class="tag">3,000 words (500 per level)</span><span class="tag">60 grammar chapters</span><span class="tag">RU / EN</span></div>
     <p>${desc}</p>
-    <a class="btn" href="https://${slug}.pages.dev">Open ${name}</a>
+    <a class="btn" href="https://biiwow.com/${slug.replace(/^biiwow-(.*)-steps$/,"language-$1")}/">Open ${name}</a>
   </article>
 `;
 const de=card("German Steps","biiwow-german-steps","German from A1 to C2: nouns with der/die/das and plural, verbs with their past forms and separable prefixes, verbs with prepositions and idioms in their own chapters, and grammar from cases and word order to Konjunktiv and modal particles, all with exercises and Russian explanations.");
