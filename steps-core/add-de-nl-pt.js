@@ -1,6 +1,6 @@
 // Adds German, Dutch and Portuguese Steps to the Languages page (cards after French Steps, counts in the intro and meta description).
 const fs=require("fs");
-const p="/home/user/biiwow-languages/site/index.html";let s=fs.readFileSync(p,"utf8");
+const p=process.argv[2]||"/home/user/biiwow-languages/site/index.html";let s=fs.readFileSync(p,"utf8");
 const card=(name,slug,desc)=>`  <article class="card">
     <div class="top"><h3>${name}</h3><span class="badge">Free</span></div>
     <div class="meta"><span class="tag">A1 → C2</span><span class="tag">3,000 words (500 per level)</span><span class="tag">60 grammar chapters</span><span class="tag">RU / EN</span></div>

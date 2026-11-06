@@ -131,3 +131,48 @@ jobs:
         run: |
           sleep 20
           curl -sSf "https://biiwow-french-steps.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "French Steps live: new build served"
+  german-steps:
+    name: German Steps
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: german-steps/site
+          command: pages deploy . --project-name biiwow-german-steps --branch main --commit-dirty=true
+      - name: Verify live
+        run: |
+          sleep 20
+          curl -sSf "https://biiwow-german-steps.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "German Steps live: new build served"
+  dutch-steps:
+    name: Dutch Steps
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: dutch-steps/site
+          command: pages deploy . --project-name biiwow-dutch-steps --branch main --commit-dirty=true
+      - name: Verify live
+        run: |
+          sleep 20
+          curl -sSf "https://biiwow-dutch-steps.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "Dutch Steps live: new build served"
+  portuguese-steps:
+    name: Portuguese Steps
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: portuguese-steps/site
+          command: pages deploy . --project-name biiwow-portuguese-steps --branch main --commit-dirty=true
+      - name: Verify live
+        run: |
+          sleep 20
+          curl -sSf "https://biiwow-portuguese-steps.pages.dev/?v=${{ github.sha }}" | grep -q bwlogo && echo "Portuguese Steps live: new build served"
