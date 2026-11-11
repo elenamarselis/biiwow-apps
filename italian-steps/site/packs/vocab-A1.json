@@ -9,7 +9,9 @@
   "example": "Ciao, Marco! Come va?",
   "example_ru": "Привет, Марко! Как дела?",
   "forms": null,
-  "note_ru": "Только на «ты»: с незнакомыми и старшими лучше говорить «buongiorno» или «salve»."
+  "note_ru": "Только на «ты»: с незнакомыми и старшими лучше говорить «buongiorno» или «salve».",
+  "gloss_en": "hi / bye",
+  "example_en": "Hi, Marco! How's it going?"
  },
  {
   "en": "buongiorno",
@@ -21,7 +23,9 @@
   "example": "Buongiorno, signora Rossi!",
   "example_ru": "Здравствуйте, синьора Росси!",
   "forms": null,
-  "note_ru": "Говорят примерно до середины дня; потом переходят на «buonasera»."
+  "note_ru": "Говорят примерно до середины дня; потом переходят на «buonasera».",
+  "gloss_en": "good morning / hello",
+  "example_en": "Good morning, Mrs Rossi!"
  },
  {
   "en": "buonasera",
@@ -33,7 +37,9 @@
   "example": "Buonasera, come sta?",
   "example_ru": "Добрый вечер, как вы поживаете?",
   "forms": null,
-  "note_ru": "В Италии «buonasera» говорят уже с середины дня, а не только вечером."
+  "note_ru": "В Италии «buonasera» говорят уже с середины дня, а не только вечером.",
+  "gloss_en": "good evening",
+  "example_en": "Good evening, how are you?"
  },
  {
   "en": "buonanotte",
@@ -45,7 +51,9 @@
   "example": "Buonanotte, mamma!",
   "example_ru": "Спокойной ночи, мама!",
   "forms": null,
-  "note_ru": "Это прощание перед сном, а не приветствие поздно вечером."
+  "note_ru": "Это прощание перед сном, а не приветствие поздно вечером.",
+  "gloss_en": "good night",
+  "example_en": "Good night, Mum!"
  },
  {
   "en": "arrivederci",
@@ -57,7 +65,9 @@
   "example": "Arrivederci e grazie!",
   "example_ru": "До свидания и спасибо!",
   "forms": null,
-  "note_ru": "Очень вежливая форма при обращении на «Вы» — «ArrivederLa»."
+  "note_ru": "Очень вежливая форма при обращении на «Вы» — «ArrivederLa».",
+  "gloss_en": "goodbye",
+  "example_en": "Goodbye and thank you!"
  },
  {
   "en": "grazie",
@@ -69,7 +79,9 @@
   "example": "Grazie mille!",
   "example_ru": "Большое спасибо!",
   "forms": null,
-  "note_ru": "«Grazie mille» — дословно «тысяча спасибо»."
+  "note_ru": "«Grazie mille» — дословно «тысяча спасибо».",
+  "gloss_en": "thank you / thanks",
+  "example_en": "Thanks a lot!"
  },
  {
   "en": "prego",
@@ -81,7 +93,9 @@
   "example": "— Grazie! — Prego!",
   "example_ru": "— Спасибо! — Пожалуйста!",
   "forms": null,
-  "note_ru": "«Prego» — ответ на «спасибо» или приглашение («Prego, entri»); просьба — «per favore»."
+  "note_ru": "«Prego» — ответ на «спасибо» или приглашение («Prego, entri»); просьба — «per favore».",
+  "gloss_en": "you're welcome / please",
+  "example_en": "Thank you! - You're welcome!"
  },
  {
   "en": "per favore",
@@ -93,7 +107,9 @@
   "example": "Un caffè, per favore.",
   "example_ru": "Кофе, пожалуйста.",
   "forms": null,
-  "note_ru": "Синоним — «per piacere»; в ответ на «grazie» говорят не это, а «prego»."
+  "note_ru": "Синоним — «per piacere»; в ответ на «grazie» говорят не это, а «prego».",
+  "gloss_en": "please",
+  "example_en": "A coffee, please."
  },
  {
   "en": "scusa",
@@ -105,7 +121,9 @@
   "example": "Scusa, dov'è la stazione?",
   "example_ru": "Извини, где вокзал?",
   "forms": null,
-  "note_ru": "Это форма на «ты»; на «Вы» — «scusi»."
+  "note_ru": "Это форма на «ты»; на «Вы» — «scusi».",
+  "gloss_en": "sorry / excuse me",
+  "example_en": "Excuse me, where is the station?"
  },
  {
   "en": "scusi",
@@ -117,7 +135,9 @@
   "example": "Scusi, che ore sono?",
   "example_ru": "Извините, который час?",
   "forms": null,
-  "note_ru": "Вежливое «Вы» в итальянском — 3-е лицо ед. ч. «Lei», поэтому «scusi», а не «scusate»."
+  "note_ru": "Вежливое «Вы» в итальянском — 3-е лицо ед. ч. «Lei», поэтому «scusi», а не «scusate».",
+  "gloss_en": "excuse me (formal)",
+  "example_en": "Excuse me, what time is it?"
  },
  {
   "en": "sì",
@@ -129,7 +149,9 @@
   "example": "Sì, sono italiano.",
   "example_ru": "Да, я итальянец.",
   "forms": null,
-  "note_ru": "Пишется с ударением; «si» без него — возвратное местоимение."
+  "note_ru": "Пишется с ударением; «si» без него — возвратное местоимение.",
+  "gloss_en": "yes",
+  "example_en": "Yes, I'm Italian."
  },
  {
   "en": "no",
@@ -141,7 +163,9 @@
   "example": "No, grazie, non bevo vino.",
   "example_ru": "Нет, спасибо, я не пью вино.",
   "forms": null,
-  "note_ru": "Перед глаголом «не» — это «non», а не «no»."
+  "note_ru": "Перед глаголом «не» — это «non», а не «no».",
+  "gloss_en": "no",
+  "example_en": "No, thanks, I don't drink wine."
  },
  {
   "en": "il nome",
@@ -153,7 +177,9 @@
   "example": "Il mio nome è Anna.",
   "example_ru": "Меня зовут Анна.",
   "forms": "m., pl. i nomi",
-  "note_ru": "Фамилия — «il cognome»; в анкетах пишут «nome e cognome»."
+  "note_ru": "Фамилия — «il cognome»; в анкетах пишут «nome e cognome».",
+  "gloss_en": "name",
+  "example_en": "My name is Anna."
  },
  {
   "en": "il signore",
@@ -165,7 +191,9 @@
   "example": "Il signore è molto gentile.",
   "example_ru": "Этот господин очень любезный.",
   "forms": "m., pl. i signori; перед фамилией: signor",
-  "note_ru": "Перед фамилией -e отпадает: «il signor Bianchi»."
+  "note_ru": "Перед фамилией -e отпадает: «il signor Bianchi».",
+  "gloss_en": "gentleman / Mr",
+  "example_en": "The gentleman is very kind."
  },
  {
   "en": "la signora",
@@ -177,7 +205,9 @@
   "example": "La signora Bianchi abita qui.",
   "example_ru": "Синьора Бьянки живёт здесь.",
   "forms": "f., pl. le signore",
-  "note_ru": "При прямом обращении артикль не нужен: «Buongiorno, signora!»."
+  "note_ru": "При прямом обращении артикль не нужен: «Buongiorno, signora!».",
+  "gloss_en": "lady / Mrs",
+  "example_en": "Mrs Bianchi lives here."
  },
  {
   "en": "benvenuto",
@@ -189,7 +219,9 @@
   "example": "Benvenuti in Italia!",
   "example_ru": "Добро пожаловать в Италию!",
   "forms": "f. benvenuta, pl. benvenuti / benvenute",
-  "note_ru": "Согласуется с тем, кого приветствуют: женщине — «benvenuta», группе — «benvenuti»."
+  "note_ru": "Согласуется с тем, кого приветствуют: женщине — «benvenuta», группе — «benvenuti».",
+  "gloss_en": "welcome",
+  "example_en": "Welcome to Italy!"
  },
  {
   "en": "a presto",
@@ -201,7 +233,9 @@
   "example": "Ciao, a presto!",
   "example_ru": "Пока, до скорого!",
   "forms": null,
-  "note_ru": "Похожие: «a domani» — до завтра, «a dopo» — до встречи (сегодня попозже)."
+  "note_ru": "Похожие: «a domani» — до завтра, «a dopo» — до встречи (сегодня попозже).",
+  "gloss_en": "see you soon",
+  "example_en": "Bye, see you soon!"
  },
  {
   "en": "piacere di conoscerti",
@@ -213,7 +247,9 @@
   "example": "Io sono Luca, piacere di conoscerti!",
   "example_ru": "Я Лука, приятно познакомиться!",
   "forms": null,
-  "note_ru": "Часто говорят просто «Piacere!»; на «Вы» — «piacere di conoscerLa»."
+  "note_ru": "Часто говорят просто «Piacere!»; на «Вы» — «piacere di conoscerLa».",
+  "gloss_en": "nice to meet you",
+  "example_en": "I'm Luca, nice to meet you!"
  },
  {
   "en": "come stai?",
@@ -225,7 +261,9 @@
   "example": "Ciao, Giulia, come stai?",
   "example_ru": "Привет, Джулия, как ты?",
   "forms": null,
-  "note_ru": "Здесь глагол «stare», а не «essere»; на «Вы» — «Come sta?»."
+  "note_ru": "Здесь глагол «stare», а не «essere»; на «Вы» — «Come sta?».",
+  "gloss_en": "how are you?",
+  "example_en": "Hi, Giulia, how are you?"
  },
  {
   "en": "bene",
@@ -237,7 +275,9 @@
   "example": "Sto bene, grazie.",
   "example_ru": "У меня всё хорошо, спасибо.",
   "forms": null,
-  "note_ru": "Это наречие; прилагательное «хороший» — «buono»."
+  "note_ru": "Это наречие; прилагательное «хороший» — «buono».",
+  "gloss_en": "well / fine",
+  "example_en": "I'm fine, thanks."
  },
  {
   "en": "salve",
@@ -249,7 +289,9 @@
   "example": "Salve, posso entrare?",
   "example_ru": "Здравствуйте, можно войти?",
   "forms": null,
-  "note_ru": "Удобно, когда не знаешь, обращаться на «ты» или на «Вы»."
+  "note_ru": "Удобно, когда не знаешь, обращаться на «ты» или на «Вы».",
+  "gloss_en": "hello",
+  "example_en": "Hello, may I come in?"
  },
  {
   "en": "mi chiamo",
@@ -261,7 +303,9 @@
   "example": "Mi chiamo Ivan e sono russo.",
   "example_ru": "Меня зовут Иван, я русский.",
   "forms": "chiamarsi: mi chiamo, ti chiami, si chiama",
-  "note_ru": "Дословно «я себя называю» — от возвратного глагола «chiamarsi»."
+  "note_ru": "Дословно «я себя называю» — от возвратного глагола «chiamarsi».",
+  "gloss_en": "my name is",
+  "example_en": "My name is Ivan and I'm Russian."
  },
  {
   "en": "di dove sei?",
@@ -273,7 +317,9 @@
   "example": "— Di dove sei? — Sono di Mosca.",
   "example_ru": "— Откуда ты? — Я из Москвы.",
   "forms": null,
-  "note_ru": "Отвечают через «essere di» + город: «Sono di Milano»; на «Вы» — «Di dov'è?»."
+  "note_ru": "Отвечают через «essere di» + город: «Sono di Milano»; на «Вы» — «Di dov'è?».",
+  "gloss_en": "where are you from?",
+  "example_en": "Where are you from? - I'm from Moscow."
  },
  {
   "en": "va bene",
@@ -285,7 +331,9 @@
   "example": "— Andiamo al cinema? — Va bene!",
   "example_ru": "— Пойдём в кино? — Хорошо!",
   "forms": null,
-  "note_ru": "Дословно «идёт хорошо»; очень частое разговорное согласие."
+  "note_ru": "Дословно «идёт хорошо»; очень частое разговорное согласие.",
+  "gloss_en": "okay / all right",
+  "example_en": "Shall we go to the cinema? - Okay!"
  },
  {
   "en": "l'italiano",
@@ -297,7 +345,9 @@
   "example": "Studio l'italiano da un mese.",
   "example_ru": "Я учу итальянский уже месяц.",
   "forms": "m.; f. l'italiana; прил. italiano, italiana",
-  "note_ru": "Названия языков и национальностей пишутся со строчной буквы."
+  "note_ru": "Названия языков и национальностей пишутся со строчной буквы.",
+  "gloss_en": "Italian (language) / Italian man",
+  "example_en": "I've been studying Italian for a month."
  },
  {
   "en": "uno",
@@ -309,7 +359,9 @@
   "example": "Ho un fratello e una sorella.",
   "example_ru": "У меня один брат и одна сестра.",
   "forms": "f. una; перед сущ.: un, uno, una, un'",
-  "note_ru": "Перед существительным совпадает с неопределённым артиклем."
+  "note_ru": "Перед существительным совпадает с неопределённым артиклем.",
+  "gloss_en": "one",
+  "example_en": "I have one brother and one sister."
  },
  {
   "en": "due",
@@ -321,7 +373,9 @@
   "example": "Ho due gatti.",
   "example_ru": "У меня две кошки.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "two",
+  "example_en": "I have two cats."
  },
  {
   "en": "tre",
@@ -333,7 +387,9 @@
   "example": "Abbiamo tre figli.",
   "example_ru": "У нас трое детей.",
   "forms": null,
-  "note_ru": "В составных числах пишется с ударением: «ventitré»."
+  "note_ru": "В составных числах пишется с ударением: «ventitré».",
+  "gloss_en": "three",
+  "example_en": "We have three children."
  },
  {
   "en": "quattro",
@@ -345,7 +401,9 @@
   "example": "La mia famiglia è di quattro persone.",
   "example_ru": "В моей семье четыре человека.",
   "forms": null,
-  "note_ru": "Двойное «tt» произносится долго: KWAT-tro."
+  "note_ru": "Двойное «tt» произносится долго: KWAT-tro.",
+  "gloss_en": "four",
+  "example_en": "My family has four people."
  },
  {
   "en": "cinque",
@@ -357,7 +415,9 @@
   "example": "Ho cinque euro.",
   "example_ru": "У меня пять евро.",
   "forms": null,
-  "note_ru": "«ci» читается как [tʃi], «qu» — как [kw]."
+  "note_ru": "«ci» читается как [tʃi], «qu» — как [kw].",
+  "gloss_en": "five",
+  "example_en": "I have five euros."
  },
  {
   "en": "sei",
@@ -369,7 +429,9 @@
   "example": "Mio figlio ha sei anni.",
   "example_ru": "Моему сыну шесть лет.",
   "forms": null,
-  "note_ru": "Совпадает с формой «(tu) sei» — «ты есть» от «essere»."
+  "note_ru": "Совпадает с формой «(tu) sei» — «ты есть» от «essere».",
+  "gloss_en": "six",
+  "example_en": "My son is six years old."
  },
  {
   "en": "sette",
@@ -381,7 +443,9 @@
   "example": "Una settimana ha sette giorni.",
   "example_ru": "В неделе семь дней.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "seven",
+  "example_en": "A week has seven days."
  },
  {
   "en": "otto",
@@ -393,7 +457,9 @@
   "example": "Mi sveglio alle otto.",
   "example_ru": "Я просыпаюсь в восемь.",
   "forms": null,
-  "note_ru": "Время: «alle otto» — в восемь часов (предлог a + артикль le)."
+  "note_ru": "Время: «alle otto» — в восемь часов (предлог a + артикль le).",
+  "gloss_en": "eight",
+  "example_en": "I wake up at eight."
  },
  {
   "en": "nove",
@@ -405,7 +471,9 @@
   "example": "La lezione comincia alle nove.",
   "example_ru": "Урок начинается в девять.",
   "forms": null,
-  "note_ru": "Не путайте: «nove» — девять, «nuovo» — новый."
+  "note_ru": "Не путайте: «nove» — девять, «nuovo» — новый.",
+  "gloss_en": "nine",
+  "example_en": "The lesson starts at nine."
  },
  {
   "en": "dieci",
@@ -417,7 +485,9 @@
   "example": "Ci sono dieci studenti in classe.",
   "example_ru": "В классе десять студентов.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "ten",
+  "example_en": "There are ten students in the class."
  },
  {
   "en": "undici",
@@ -429,7 +499,9 @@
   "example": "Abito al numero undici.",
   "example_ru": "Я живу в доме номер одиннадцать.",
   "forms": null,
-  "note_ru": "Ударение на первый слог: UN-di-ci."
+  "note_ru": "Ударение на первый слог: UN-di-ci.",
+  "gloss_en": "eleven",
+  "example_en": "I live at number eleven."
  },
  {
   "en": "dodici",
@@ -441,7 +513,9 @@
   "example": "Un anno ha dodici mesi.",
   "example_ru": "В году двенадцать месяцев.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "twelve",
+  "example_en": "A year has twelve months."
  },
  {
   "en": "venti",
@@ -453,7 +527,9 @@
   "example": "Ho venti anni.",
   "example_ru": "Мне двадцать лет.",
   "forms": "ventuno, ventidue… ventotto",
-  "note_ru": "Перед «uno» и «otto» теряет -i: «ventuno», «ventotto»."
+  "note_ru": "Перед «uno» и «otto» теряет -i: «ventuno», «ventotto».",
+  "gloss_en": "twenty",
+  "example_en": "I'm twenty years old."
  },
  {
   "en": "trenta",
@@ -465,7 +541,9 @@
   "example": "Il libro costa trenta euro.",
   "example_ru": "Книга стоит тридцать евро.",
   "forms": "trentuno, trentadue…",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "thirty",
+  "example_en": "The book costs thirty euros."
  },
  {
   "en": "cento",
@@ -477,7 +555,9 @@
   "example": "Mia nonna ha quasi cento anni.",
   "example_ru": "Моей бабушке почти сто лет.",
   "forms": "duecento, trecento… (не изменяется)",
-  "note_ru": "«Сто» без «uno»: «cento euro», а не «un cento»."
+  "note_ru": "«Сто» без «uno»: «cento euro», а не «un cento».",
+  "gloss_en": "hundred",
+  "example_en": "My grandmother is almost a hundred years old."
  },
  {
   "en": "mille",
@@ -489,7 +569,9 @@
   "example": "La città ha più di mille anni.",
   "example_ru": "Городу больше тысячи лет.",
   "forms": "pl. -mila: duemila, tremila",
-  "note_ru": "Во множественном числе меняется форма: «mille», но «duemila»."
+  "note_ru": "Во множественном числе меняется форма: «mille», но «duemila».",
+  "gloss_en": "thousand",
+  "example_en": "The city is more than a thousand years old."
  },
  {
   "en": "zero",
@@ -501,7 +583,9 @@
   "example": "Il mio numero comincia con zero.",
   "example_ru": "Мой номер начинается с нуля.",
   "forms": null,
-  "note_ru": "Начальное «z» здесь звонкое: [dz]."
+  "note_ru": "Начальное «z» здесь звонкое: [dz].",
+  "gloss_en": "zero",
+  "example_en": "My number starts with zero."
  },
  {
   "en": "il numero",
@@ -513,7 +597,9 @@
   "example": "Qual è il tuo numero di telefono?",
   "example_ru": "Какой у тебя номер телефона?",
   "forms": "m., pl. i numeri",
-  "note_ru": "Ударение на первый слог: NU-me-ro."
+  "note_ru": "Ударение на первый слог: NU-me-ro.",
+  "gloss_en": "number",
+  "example_en": "What's your phone number?"
  },
  {
   "en": "primo",
@@ -525,7 +611,9 @@
   "example": "Oggi è il primo giorno di scuola.",
   "example_ru": "Сегодня первый день в школе.",
   "forms": "f. prima, pl. primi / prime; secondo, terzo…",
-  "note_ru": "Порядковые числительные согласуются как прилагательные; «il primo» — также первое блюдо."
+  "note_ru": "Порядковые числительные согласуются как прилагательные; «il primo» — также первое блюдо.",
+  "gloss_en": "first",
+  "example_en": "Today is the first day of school."
  },
  {
   "en": "la metà",
@@ -537,7 +625,9 @@
   "example": "Mangio la metà della pizza.",
   "example_ru": "Я съедаю половину пиццы.",
   "forms": "f., pl. le metà",
-  "note_ru": "Ударение на последний слог, поэтому пишется с акцентом."
+  "note_ru": "Ударение на последний слог, поэтому пишется с акцентом.",
+  "gloss_en": "half",
+  "example_en": "I eat half of the pizza."
  },
  {
   "en": "molto",
@@ -549,7 +639,9 @@
   "example": "Ho molto lavoro e molti amici.",
   "example_ru": "У меня много работы и много друзей.",
   "forms": "f. molta, pl. molti / molte; наречие: molto",
-  "note_ru": "Перед существительным согласуется («molte case»), перед прилагательным — нет («molto belle»)."
+  "note_ru": "Перед существительным согласуется («molte case»), перед прилагательным — нет («molto belle»).",
+  "gloss_en": "a lot of / very",
+  "example_en": "I have a lot of work and many friends."
  },
  {
   "en": "poco",
@@ -561,7 +653,9 @@
   "example": "Ho poco tempo oggi.",
   "example_ru": "У меня сегодня мало времени.",
   "forms": "f. poca, pl. pochi / poche",
-  "note_ru": "«Un po' di» — немного: «un po' di pane»."
+  "note_ru": "«Un po' di» — немного: «un po' di pane».",
+  "gloss_en": "little / not much",
+  "example_en": "I have little time today."
  },
  {
   "en": "il chilo",
@@ -573,7 +667,9 @@
   "example": "Un chilo di mele, per favore.",
   "example_ru": "Килограмм яблок, пожалуйста.",
   "forms": "m., pl. i chili",
-  "note_ru": "После единиц меры — предлог «di»: «un chilo di pane»."
+  "note_ru": "После единиц меры — предлог «di»: «un chilo di pane».",
+  "gloss_en": "kilo",
+  "example_en": "A kilo of apples, please."
  },
  {
   "en": "il litro",
@@ -585,7 +681,9 @@
   "example": "Compro un litro di latte.",
   "example_ru": "Я покупаю литр молока.",
   "forms": "m., pl. i litri",
-  "note_ru": "«Mezzo litro» — пол-литра."
+  "note_ru": "«Mezzo litro» — пол-литра.",
+  "gloss_en": "litre",
+  "example_en": "I'm buying a litre of milk."
  },
  {
   "en": "quanto",
@@ -597,7 +695,9 @@
   "example": "Quanto pane compri?",
   "example_ru": "Сколько хлеба ты покупаешь?",
   "forms": "f. quanta, pl. quanti / quante",
-  "note_ru": "Согласуется с существительным: «Quante mele?», «Quanti anni?»."
+  "note_ru": "Согласуется с существительным: «Quante mele?», «Quanti anni?».",
+  "gloss_en": "how much / how many",
+  "example_en": "How much bread are you buying?"
  },
  {
   "en": "la famiglia",
@@ -609,7 +709,9 @@
   "example": "La mia famiglia è grande.",
   "example_ru": "Моя семья большая.",
   "forms": "f., pl. le famiglie",
-  "note_ru": "«gli» читается как мягкое [ʎʎ], похоже на русское «ль»."
+  "note_ru": "«gli» читается как мягкое [ʎʎ], похоже на русское «ль».",
+  "gloss_en": "family",
+  "example_en": "My family is big."
  },
  {
   "en": "la madre",
@@ -621,7 +723,9 @@
   "example": "Mia madre si chiama Elena.",
   "example_ru": "Мою маму зовут Елена.",
   "forms": "f., pl. le madri",
-  "note_ru": "С притяжательным при родственнике в ед. ч. артикль не ставят: «mia madre»."
+  "note_ru": "С притяжательным при родственнике в ед. ч. артикль не ставят: «mia madre».",
+  "gloss_en": "mother",
+  "example_en": "My mother's name is Elena."
  },
  {
   "en": "il padre",
@@ -633,7 +737,9 @@
   "example": "Mio padre lavora in banca.",
   "example_ru": "Мой отец работает в банке.",
   "forms": "m., pl. i padri",
-  "note_ru": "Без артикля с притяжательным: «mio padre»; но «i miei padri» не говорят — «i miei genitori»."
+  "note_ru": "Без артикля с притяжательным: «mio padre»; но «i miei padri» не говорят — «i miei genitori».",
+  "gloss_en": "father",
+  "example_en": "My father works in a bank."
  },
  {
   "en": "la mamma",
@@ -645,7 +751,9 @@
   "example": "La mamma prepara la cena.",
   "example_ru": "Мама готовит ужин.",
   "forms": "f., pl. le mamme",
-  "note_ru": "С «mamma» и «papà» артикль обычно сохраняют: «la mia mamma»."
+  "note_ru": "С «mamma» и «papà» артикль обычно сохраняют: «la mia mamma».",
+  "gloss_en": "mum",
+  "example_en": "Mum is making dinner."
  },
  {
   "en": "il papà",
@@ -657,7 +765,9 @@
   "example": "Il mio papà è alto.",
   "example_ru": "Мой папа высокий.",
   "forms": "m., pl. i papà",
-  "note_ru": "Ударение на последний слог; в Тоскане говорят «babbo»."
+  "note_ru": "Ударение на последний слог; в Тоскане говорят «babbo».",
+  "gloss_en": "dad",
+  "example_en": "My dad is tall."
  },
  {
   "en": "il fratello",
@@ -669,7 +779,9 @@
   "example": "Mio fratello ha dieci anni.",
   "example_ru": "Моему брату десять лет.",
   "forms": "m., pl. i fratelli",
-  "note_ru": "«I fratelli» — и братья, и братья с сёстрами вместе."
+  "note_ru": "«I fratelli» — и братья, и братья с сёстрами вместе.",
+  "gloss_en": "brother",
+  "example_en": "My brother is ten years old."
  },
  {
   "en": "la sorella",
@@ -681,7 +793,9 @@
   "example": "Ho una sorella più piccola.",
   "example_ru": "У меня есть младшая сестра.",
   "forms": "f., pl. le sorelle",
-  "note_ru": "«Младшая/старшая сестра» — «sorella più piccola / più grande»."
+  "note_ru": "«Младшая/старшая сестра» — «sorella più piccola / più grande».",
+  "gloss_en": "sister",
+  "example_en": "I have a younger sister."
  },
  {
   "en": "il figlio",
@@ -693,7 +807,9 @@
   "example": "Il figlio di Marco si chiama Paolo.",
   "example_ru": "Сына Марко зовут Паоло.",
   "forms": "m., pl. i figli",
-  "note_ru": "«I figli» — и сыновья, и дети вообще: «Hai figli?» — «У тебя есть дети?»."
+  "note_ru": "«I figli» — и сыновья, и дети вообще: «Hai figli?» — «У тебя есть дети?».",
+  "gloss_en": "son",
+  "example_en": "Marco's son is called Paolo."
  },
  {
   "en": "la figlia",
@@ -705,7 +821,9 @@
   "example": "Mia figlia va a scuola.",
   "example_ru": "Моя дочь ходит в школу.",
   "forms": "f., pl. le figlie",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "daughter",
+  "example_en": "My daughter goes to school."
  },
  {
   "en": "il marito",
@@ -717,7 +835,9 @@
   "example": "Mio marito è italiano.",
   "example_ru": "Мой муж итальянец.",
   "forms": "m., pl. i mariti",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "husband",
+  "example_en": "My husband is Italian."
  },
  {
   "en": "la moglie",
@@ -729,7 +849,9 @@
   "example": "Sua moglie è molto simpatica.",
   "example_ru": "Его жена очень приятная.",
   "forms": "f., pl. le mogli",
-  "note_ru": "Мн. ч. без -e на конце: «le mogli»."
+  "note_ru": "Мн. ч. без -e на конце: «le mogli».",
+  "gloss_en": "wife",
+  "example_en": "His wife is very nice."
  },
  {
   "en": "il nonno",
@@ -741,7 +863,9 @@
   "example": "Il nonno racconta storie ai bambini.",
   "example_ru": "Дедушка рассказывает детям истории.",
   "forms": "m., pl. i nonni",
-  "note_ru": "«I nonni» — бабушка и дедушка вместе."
+  "note_ru": "«I nonni» — бабушка и дедушка вместе.",
+  "gloss_en": "grandfather",
+  "example_en": "Grandpa tells the children stories."
  },
  {
   "en": "la nonna",
@@ -753,7 +877,9 @@
   "example": "La nonna fa la pasta in casa.",
   "example_ru": "Бабушка делает пасту дома.",
   "forms": "f., pl. le nonne",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "grandmother",
+  "example_en": "Grandma makes pasta at home."
  },
  {
   "en": "lo zio",
@@ -765,7 +891,9 @@
   "example": "Mio zio abita a Roma.",
   "example_ru": "Мой дядя живёт в Риме.",
   "forms": "m., pl. gli zii",
-  "note_ru": "Артикль «lo» перед z: «lo zio», во мн. ч. — «gli zii»."
+  "note_ru": "Артикль «lo» перед z: «lo zio», во мн. ч. — «gli zii».",
+  "gloss_en": "uncle",
+  "example_en": "My uncle lives in Rome."
  },
  {
   "en": "la zia",
@@ -777,7 +905,9 @@
   "example": "La zia viene domenica.",
   "example_ru": "Тётя приедет в воскресенье.",
   "forms": "f., pl. le zie",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "aunt",
+  "example_en": "My aunt is coming on Sunday."
  },
  {
   "en": "il cugino",
@@ -789,7 +919,9 @@
   "example": "Mio cugino studia a Milano.",
   "example_ru": "Мой двоюродный брат учится в Милане.",
   "forms": "f. la cugina, pl. i cugini / le cugine",
-  "note_ru": "Одно слово вместо русского «двоюродный брат»."
+  "note_ru": "Одно слово вместо русского «двоюродный брат».",
+  "gloss_en": "cousin",
+  "example_en": "My cousin studies in Milan."
  },
  {
   "en": "i genitori",
@@ -801,7 +933,9 @@
   "example": "I miei genitori abitano in campagna.",
   "example_ru": "Мои родители живут в деревне.",
   "forms": "m. pl.; ед. ч. il genitore",
-  "note_ru": "Во мн. ч. с притяжательным артикль нужен: «i miei genitori»."
+  "note_ru": "Во мн. ч. с притяжательным артикль нужен: «i miei genitori».",
+  "gloss_en": "parents",
+  "example_en": "My parents live in the countryside."
  },
  {
   "en": "il bambino",
@@ -813,7 +947,9 @@
   "example": "Il bambino gioca in giardino.",
   "example_ru": "Ребёнок играет в саду.",
   "forms": "f. la bambina, pl. i bambini / le bambine",
-  "note_ru": "«I bambini» — дети вообще (до 10–12 лет)."
+  "note_ru": "«I bambini» — дети вообще (до 10–12 лет).",
+  "gloss_en": "child / little boy",
+  "example_en": "The child is playing in the garden."
  },
  {
   "en": "il ragazzo",
@@ -825,7 +961,9 @@
   "example": "Quel ragazzo è mio fratello.",
   "example_ru": "Тот парень — мой брат.",
   "forms": "m., pl. i ragazzi",
-  "note_ru": "Также «бойфренд»: «il mio ragazzo»; «ragazzi!» — «ребята!»."
+  "note_ru": "Также «бойфренд»: «il mio ragazzo»; «ragazzi!» — «ребята!».",
+  "gloss_en": "boy / young man",
+  "example_en": "That boy is my brother."
  },
  {
   "en": "la ragazza",
@@ -837,7 +975,9 @@
   "example": "La ragazza legge un libro.",
   "example_ru": "Девушка читает книгу.",
   "forms": "f., pl. le ragazze",
-  "note_ru": "Также «подруга сердца»: «la mia ragazza»."
+  "note_ru": "Также «подруга сердца»: «la mia ragazza».",
+  "gloss_en": "girl / young woman",
+  "example_en": "The girl is reading a book."
  },
  {
   "en": "l'uomo",
@@ -849,7 +989,9 @@
   "example": "Quell'uomo è il padre di Anna.",
   "example_ru": "Тот мужчина — отец Анны.",
   "forms": "m., pl. gli uomini",
-  "note_ru": "Неправильное мн. ч.: «l'uomo» — «gli uomini»."
+  "note_ru": "Неправильное мн. ч.: «l'uomo» — «gli uomini».",
+  "gloss_en": "man",
+  "example_en": "That man is Anna's father."
  },
  {
   "en": "la donna",
@@ -861,7 +1003,9 @@
   "example": "Quella donna è un medico.",
   "example_ru": "Та женщина — врач.",
   "forms": "f., pl. le donne",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "woman",
+  "example_en": "That woman is a doctor."
  },
  {
   "en": "l'amico",
@@ -873,7 +1017,9 @@
   "example": "Vado al cinema con un amico.",
   "example_ru": "Я иду в кино с другом.",
   "forms": "f. l'amica, pl. gli amici / le amiche",
-  "note_ru": "Мн. ч.: «amici» с [tʃ], но «amiche» с [k]."
+  "note_ru": "Мн. ч.: «amici» с [tʃ], но «amiche» с [k].",
+  "gloss_en": "friend",
+  "example_en": "I'm going to the cinema with a friend."
  },
  {
   "en": "la persona",
@@ -885,7 +1031,9 @@
   "example": "In casa ci sono cinque persone.",
   "example_ru": "В доме пять человек.",
   "forms": "f., pl. le persone",
-  "note_ru": "Всегда женского рода, даже о мужчине: «Marco è una persona gentile»."
+  "note_ru": "Всегда женского рода, даже о мужчине: «Marco è una persona gentile».",
+  "gloss_en": "person",
+  "example_en": "There are five people in the house."
  },
  {
   "en": "la gente",
@@ -897,7 +1045,9 @@
   "example": "In piazza c'è molta gente.",
   "example_ru": "На площади много людей.",
   "forms": "f., только ед. ч.",
-  "note_ru": "В отличие от русского «люди», это слово единственного числа: «la gente è…»."
+  "note_ru": "В отличие от русского «люди», это слово единственного числа: «la gente è…».",
+  "gloss_en": "people",
+  "example_en": "There are a lot of people in the square."
  },
  {
   "en": "il pane",
@@ -909,7 +1059,9 @@
   "example": "Compro il pane ogni mattina.",
   "example_ru": "Я покупаю хлеб каждое утро.",
   "forms": "m., pl. i pani",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "bread",
+  "example_en": "I buy bread every morning."
  },
  {
   "en": "l'acqua",
@@ -921,7 +1073,9 @@
   "example": "Un bicchiere d'acqua, per favore.",
   "example_ru": "Стакан воды, пожалуйста.",
   "forms": "f., pl. le acque",
-  "note_ru": "В ресторане спросят: «naturale o frizzante?» — без газа или с газом."
+  "note_ru": "В ресторане спросят: «naturale o frizzante?» — без газа или с газом.",
+  "gloss_en": "water",
+  "example_en": "A glass of water, please."
  },
  {
   "en": "il vino",
@@ -933,7 +1087,9 @@
   "example": "Un bicchiere di vino rosso, per favore.",
   "example_ru": "Бокал красного вина, пожалуйста.",
   "forms": "m., pl. i vini",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "wine",
+  "example_en": "A glass of red wine, please."
  },
  {
   "en": "il caffè",
@@ -945,7 +1101,9 @@
   "example": "La mattina bevo un caffè.",
   "example_ru": "Утром я пью кофе.",
   "forms": "m., pl. i caffè",
-  "note_ru": "«Un caffè» в Италии — это эспрессо; также «il caffè» — кафе-бар."
+  "note_ru": "«Un caffè» в Италии — это эспрессо; также «il caffè» — кафе-бар.",
+  "gloss_en": "coffee",
+  "example_en": "In the morning I drink a coffee."
  },
  {
   "en": "il latte",
@@ -957,7 +1115,9 @@
   "example": "Il bambino beve il latte.",
   "example_ru": "Ребёнок пьёт молоко.",
   "forms": "m., обычно ед. ч.",
-  "note_ru": "Ложный друг: «latte» — просто молоко; кофе с молоком — «caffellatte»."
+  "note_ru": "Ложный друг: «latte» — просто молоко; кофе с молоком — «caffellatte».",
+  "gloss_en": "milk",
+  "example_en": "The child drinks milk."
  },
  {
   "en": "la pasta",
@@ -969,7 +1129,9 @@
   "example": "Mangiamo la pasta al pomodoro.",
   "example_ru": "Мы едим пасту с помидорами.",
   "forms": "f., pl. le paste",
-  "note_ru": "«Una pasta» — ещё и пирожное; «la pasta» не значит «зубная паста» (это «il dentifricio»)."
+  "note_ru": "«Una pasta» — ещё и пирожное; «la pasta» не значит «зубная паста» (это «il dentifricio»).",
+  "gloss_en": "pasta",
+  "example_en": "We're eating pasta with tomato sauce."
  },
  {
   "en": "la pizza",
@@ -981,7 +1143,9 @@
   "example": "Il sabato mangiamo la pizza.",
   "example_ru": "По субботам мы едим пиццу.",
   "forms": "f., pl. le pizze",
-  "note_ru": "«zz» — долгое [tts]."
+  "note_ru": "«zz» — долгое [tts].",
+  "gloss_en": "pizza",
+  "example_en": "On Saturdays we eat pizza."
  },
  {
   "en": "il formaggio",
@@ -993,7 +1157,9 @@
   "example": "Mi piace il formaggio italiano.",
   "example_ru": "Мне нравится итальянский сыр.",
   "forms": "m., pl. i formaggi",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "cheese",
+  "example_en": "I like Italian cheese."
  },
  {
   "en": "la carne",
@@ -1005,7 +1171,9 @@
   "example": "Non mangio la carne.",
   "example_ru": "Я не ем мясо.",
   "forms": "f., pl. le carni",
-  "note_ru": "Женский род, в отличие от русского «мясо»."
+  "note_ru": "Женский род, в отличие от русского «мясо».",
+  "gloss_en": "meat",
+  "example_en": "I don't eat meat."
  },
  {
   "en": "il pesce",
@@ -1017,7 +1185,9 @@
   "example": "Il venerdì mangiamo il pesce.",
   "example_ru": "По пятницам мы едим рыбу.",
   "forms": "m., pl. i pesci",
-  "note_ru": "Мужской род, в отличие от русского «рыба»; «sce» читается [ʃʃe]."
+  "note_ru": "Мужской род, в отличие от русского «рыба»; «sce» читается [ʃʃe].",
+  "gloss_en": "fish",
+  "example_en": "On Fridays we eat fish."
  },
  {
   "en": "la frutta",
@@ -1029,7 +1199,9 @@
   "example": "Mangio la frutta ogni giorno.",
   "example_ru": "Я ем фрукты каждый день.",
   "forms": "f., собир., ед. ч.; один плод — il frutto",
-  "note_ru": "Собирательное ед. ч., хотя по-русски «фрукты» во мн. ч."
+  "note_ru": "Собирательное ед. ч., хотя по-русски «фрукты» во мн. ч.",
+  "gloss_en": "fruit",
+  "example_en": "I eat fruit every day."
  },
  {
   "en": "la verdura",
@@ -1041,7 +1213,9 @@
   "example": "La verdura fa bene.",
   "example_ru": "Овощи полезны.",
   "forms": "f., собир., обычно ед. ч.",
-  "note_ru": "Как и «frutta», обычно в ед. ч.: «mangio verdura»."
+  "note_ru": "Как и «frutta», обычно в ед. ч.: «mangio verdura».",
+  "gloss_en": "vegetables",
+  "example_en": "Vegetables are good for you."
  },
  {
   "en": "la mela",
@@ -1053,7 +1227,9 @@
   "example": "Ogni giorno mangio una mela.",
   "example_ru": "Каждый день я съедаю яблоко.",
   "forms": "f., pl. le mele",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "apple",
+  "example_en": "Every day I eat an apple."
  },
  {
   "en": "l'uovo",
@@ -1065,7 +1241,9 @@
   "example": "A colazione mangio un uovo.",
   "example_ru": "На завтрак я ем яйцо.",
   "forms": "m., pl. le uova (ж. р.)",
-  "note_ru": "Во мн. ч. меняет род: «un uovo», но «le uova»."
+  "note_ru": "Во мн. ч. меняет род: «un uovo», но «le uova».",
+  "gloss_en": "egg",
+  "example_en": "For breakfast I eat an egg."
  },
  {
   "en": "il riso",
@@ -1077,7 +1255,9 @@
   "example": "Stasera cuciniamo il riso.",
   "example_ru": "Сегодня вечером мы готовим рис.",
   "forms": "m.",
-  "note_ru": "Омоним: «il riso» значит и «смех»."
+  "note_ru": "Омоним: «il riso» значит и «смех».",
+  "gloss_en": "rice / laughter",
+  "example_en": "Tonight we're cooking rice."
  },
  {
   "en": "lo zucchero",
@@ -1089,7 +1269,9 @@
   "example": "Prendi il caffè con lo zucchero?",
   "example_ru": "Ты пьёшь кофе с сахаром?",
   "forms": "m.",
-  "note_ru": "Артикль «lo» перед z; ударение на первый слог."
+  "note_ru": "Артикль «lo» перед z; ударение на первый слог.",
+  "gloss_en": "sugar",
+  "example_en": "Do you take your coffee with sugar?"
  },
  {
   "en": "il sale",
@@ -1101,7 +1283,9 @@
   "example": "Mi passi il sale, per favore?",
   "example_ru": "Передай мне соль, пожалуйста.",
   "forms": "m.",
-  "note_ru": "Мужской род, в отличие от русского «соль»."
+  "note_ru": "Мужской род, в отличие от русского «соль».",
+  "gloss_en": "salt",
+  "example_en": "Could you pass me the salt, please?"
  },
  {
   "en": "la birra",
@@ -1113,7 +1297,9 @@
   "example": "Due birre, per favore.",
   "example_ru": "Два пива, пожалуйста.",
   "forms": "f., pl. le birre",
-  "note_ru": "Женский род; «rr» — раскатистое долгое [rr]."
+  "note_ru": "Женский род; «rr» — раскатистое долгое [rr].",
+  "gloss_en": "beer",
+  "example_en": "Two beers, please."
  },
  {
   "en": "il tè",
@@ -1125,7 +1311,9 @@
   "example": "Bevo il tè con il limone.",
   "example_ru": "Я пью чай с лимоном.",
   "forms": "m., pl. i tè",
-  "note_ru": "Пишется с ударением, чтобы отличать от местоимения «te»."
+  "note_ru": "Пишется с ударением, чтобы отличать от местоимения «te».",
+  "gloss_en": "tea",
+  "example_en": "I drink tea with lemon."
  },
  {
   "en": "il succo",
@@ -1137,7 +1325,9 @@
   "example": "Un succo d'arancia, per favore.",
   "example_ru": "Апельсиновый сок, пожалуйста.",
   "forms": "m., pl. i succhi",
-  "note_ru": "«Succo di frutta» — фруктовый сок; «спремута» — свежевыжатый."
+  "note_ru": "«Succo di frutta» — фруктовый сок; «спремута» — свежевыжатый.",
+  "gloss_en": "juice",
+  "example_en": "An orange juice, please."
  },
  {
   "en": "il gelato",
@@ -1149,7 +1339,9 @@
   "example": "Prendo un gelato al cioccolato.",
   "example_ru": "Я возьму шоколадное мороженое.",
   "forms": "m., pl. i gelati",
-  "note_ru": "Вкус указывают через «a + артикль»: «gelato alla fragola»."
+  "note_ru": "Вкус указывают через «a + артикль»: «gelato alla fragola».",
+  "gloss_en": "ice cream",
+  "example_en": "I'll have a chocolate ice cream."
  },
  {
   "en": "il pomodoro",
@@ -1161,7 +1353,9 @@
   "example": "Compro un chilo di pomodori.",
   "example_ru": "Я покупаю килограмм помидоров.",
   "forms": "m., pl. i pomodori",
-  "note_ru": "Дословно «золотое яблоко» (pomo d'oro)."
+  "note_ru": "Дословно «золотое яблоко» (pomo d'oro).",
+  "gloss_en": "tomato",
+  "example_en": "I'm buying a kilo of tomatoes."
  },
  {
   "en": "la colazione",
@@ -1173,7 +1367,9 @@
   "example": "A colazione bevo un cappuccino.",
   "example_ru": "На завтрак я пью капучино.",
   "forms": "f., pl. le colazioni",
-  "note_ru": "Не путайте с «коллекцией»; «fare colazione» — завтракать."
+  "note_ru": "Не путайте с «коллекцией»; «fare colazione» — завтракать.",
+  "gloss_en": "breakfast",
+  "example_en": "For breakfast I drink a cappuccino."
  },
  {
   "en": "il pranzo",
@@ -1185,7 +1381,9 @@
   "example": "Il pranzo è pronto!",
   "example_ru": "Обед готов!",
   "forms": "m., pl. i pranzi",
-  "note_ru": "Обедают обычно в 13–14 часов."
+  "note_ru": "Обедают обычно в 13–14 часов.",
+  "gloss_en": "lunch",
+  "example_en": "Lunch is ready!"
  },
  {
   "en": "la cena",
@@ -1197,7 +1395,9 @@
   "example": "La cena è alle otto.",
   "example_ru": "Ужин в восемь.",
   "forms": "f., pl. le cene",
-  "note_ru": "Ложный друг: не «цена» (это «il prezzo»)."
+  "note_ru": "Ложный друг: не «цена» (это «il prezzo»).",
+  "gloss_en": "dinner",
+  "example_en": "Dinner is at eight."
  },
  {
   "en": "la casa",
@@ -1209,7 +1409,9 @@
   "example": "La mia casa è vicino al centro.",
   "example_ru": "Мой дом рядом с центром.",
   "forms": "f., pl. le case",
-  "note_ru": "«A casa» — и «дома», и «домой», без артикля."
+  "note_ru": "«A casa» — и «дома», и «домой», без артикля.",
+  "gloss_en": "house / home",
+  "example_en": "My house is near the centre."
  },
  {
   "en": "l'appartamento",
@@ -1221,7 +1423,9 @@
   "example": "Abito in un appartamento piccolo.",
   "example_ru": "Я живу в маленькой квартире.",
   "forms": "m., pl. gli appartamenti",
-  "note_ru": "Ложный друг: не «апартаменты» в смысле роскоши, а обычная квартира."
+  "note_ru": "Ложный друг: не «апартаменты» в смысле роскоши, а обычная квартира.",
+  "gloss_en": "flat / apartment",
+  "example_en": "I live in a small flat."
  },
  {
   "en": "la stanza",
@@ -1233,7 +1437,9 @@
   "example": "La casa ha tre stanze.",
   "example_ru": "В доме три комнаты.",
   "forms": "f., pl. le stanze",
-  "note_ru": "Синоним — «la camera»; «stanza» звучит чуть более разговорно."
+  "note_ru": "Синоним — «la camera»; «stanza» звучит чуть более разговорно.",
+  "gloss_en": "room",
+  "example_en": "The house has three rooms."
  },
  {
   "en": "la cucina",
@@ -1245,7 +1451,9 @@
   "example": "La mamma è in cucina.",
   "example_ru": "Мама на кухне.",
   "forms": "f., pl. le cucine",
-  "note_ru": "Также «кухня» как кулинария: «la cucina italiana»; «in cucina» — на кухне."
+  "note_ru": "Также «кухня» как кулинария: «la cucina italiana»; «in cucina» — на кухне.",
+  "gloss_en": "kitchen / cooking",
+  "example_en": "Mum is in the kitchen."
  },
  {
   "en": "il bagno",
@@ -1257,7 +1465,9 @@
   "example": "Il bagno è a destra.",
   "example_ru": "Ванная направо.",
   "forms": "m., pl. i bagni",
-  "note_ru": "«Fare il bagno» — принимать ванну или купаться в море."
+  "note_ru": "«Fare il bagno» — принимать ванну или купаться в море.",
+  "gloss_en": "bathroom",
+  "example_en": "The bathroom is on the right."
  },
  {
   "en": "la camera da letto",
@@ -1269,7 +1479,9 @@
   "example": "La camera da letto è grande.",
   "example_ru": "Спальня большая.",
   "forms": "f., pl. le camere da letto",
-  "note_ru": "Ложный друг: «la camera» — комната, а не камера."
+  "note_ru": "Ложный друг: «la camera» — комната, а не камера.",
+  "gloss_en": "bedroom",
+  "example_en": "The bedroom is big."
  },
  {
   "en": "il soggiorno",
@@ -1281,7 +1493,9 @@
   "example": "La sera siamo in soggiorno.",
   "example_ru": "Вечером мы в гостиной.",
   "forms": "m., pl. i soggiorni",
-  "note_ru": "Также «пребывание»: «un soggiorno a Roma»."
+  "note_ru": "Также «пребывание»: «un soggiorno a Roma».",
+  "gloss_en": "living room",
+  "example_en": "In the evening we're in the living room."
  },
  {
   "en": "la porta",
@@ -1293,7 +1507,9 @@
   "example": "Chiudi la porta, per favore.",
   "example_ru": "Закрой дверь, пожалуйста.",
   "forms": "f., pl. le porte",
-  "note_ru": "Ложный друг: не «порт» (это «il porto»)."
+  "note_ru": "Ложный друг: не «порт» (это «il porto»).",
+  "gloss_en": "door",
+  "example_en": "Close the door, please."
  },
  {
   "en": "la finestra",
@@ -1305,7 +1521,9 @@
   "example": "Apro la finestra, fa caldo.",
   "example_ru": "Я открываю окно, жарко.",
   "forms": "f., pl. le finestre",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "window",
+  "example_en": "I'm opening the window, it's hot."
  },
  {
   "en": "il letto",
@@ -1317,7 +1535,9 @@
   "example": "Il letto è molto grande.",
   "example_ru": "Кровать очень большая.",
   "forms": "m., pl. i letti",
-  "note_ru": "«Andare a letto» — ложиться спать."
+  "note_ru": "«Andare a letto» — ложиться спать.",
+  "gloss_en": "bed",
+  "example_en": "The bed is very big."
  },
  {
   "en": "il tavolo",
@@ -1329,7 +1549,9 @@
   "example": "I libri sono sul tavolo.",
   "example_ru": "Книги на столе.",
   "forms": "m., pl. i tavoli",
-  "note_ru": "Накрытый стол для еды — «la tavola»: «A tavola!» — «За стол!»."
+  "note_ru": "Накрытый стол для еды — «la tavola»: «A tavola!» — «За стол!».",
+  "gloss_en": "table",
+  "example_en": "The books are on the table."
  },
  {
   "en": "la sedia",
@@ -1341,7 +1563,9 @@
   "example": "Ci sono quattro sedie in cucina.",
   "example_ru": "На кухне четыре стула.",
   "forms": "f., pl. le sedie",
-  "note_ru": "Женский род, в отличие от русского «стул»."
+  "note_ru": "Женский род, в отличие от русского «стул».",
+  "gloss_en": "chair",
+  "example_en": "There are four chairs in the kitchen."
  },
  {
   "en": "il divano",
@@ -1353,7 +1577,9 @@
   "example": "Il gatto dorme sul divano.",
   "example_ru": "Кот спит на диване.",
   "forms": "m., pl. i divani",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "sofa",
+  "example_en": "The cat is sleeping on the sofa."
  },
  {
   "en": "l'armadio",
@@ -1365,7 +1591,9 @@
   "example": "I vestiti sono nell'armadio.",
   "example_ru": "Одежда в шкафу.",
   "forms": "m., pl. gli armadi",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "wardrobe",
+  "example_en": "The clothes are in the wardrobe."
  },
  {
   "en": "la lampada",
@@ -1377,7 +1605,9 @@
   "example": "La lampada è sul tavolo.",
   "example_ru": "Лампа стоит на столе.",
   "forms": "f., pl. le lampade",
-  "note_ru": "Ударение на первый слог: LAM-pa-da."
+  "note_ru": "Ударение на первый слог: LAM-pa-da.",
+  "gloss_en": "lamp",
+  "example_en": "The lamp is on the table."
  },
  {
   "en": "il frigorifero",
@@ -1389,7 +1619,9 @@
   "example": "Il latte è nel frigorifero.",
   "example_ru": "Молоко в холодильнике.",
   "forms": "m., pl. i frigoriferi; разг. il frigo",
-  "note_ru": "В разговоре почти всегда «il frigo»."
+  "note_ru": "В разговоре почти всегда «il frigo».",
+  "gloss_en": "fridge",
+  "example_en": "The milk is in the fridge."
  },
  {
   "en": "la doccia",
@@ -1401,7 +1633,9 @@
   "example": "In bagno c'è la doccia.",
   "example_ru": "В ванной есть душ.",
   "forms": "f., pl. le docce",
-  "note_ru": "Женский род; «farsi la doccia» — принимать душ."
+  "note_ru": "Женский род; «farsi la doccia» — принимать душ.",
+  "gloss_en": "shower",
+  "example_en": "There's a shower in the bathroom."
  },
  {
   "en": "il giardino",
@@ -1413,7 +1647,9 @@
   "example": "I bambini giocano in giardino.",
   "example_ru": "Дети играют в саду.",
   "forms": "m., pl. i giardini",
-  "note_ru": "«Giardino» — сад с цветами или зелёный двор; детский сад — «l'asilo»."
+  "note_ru": "«Giardino» — сад с цветами или зелёный двор; детский сад — «l'asilo».",
+  "gloss_en": "garden",
+  "example_en": "The children are playing in the garden."
  },
  {
   "en": "il piano",
@@ -1425,7 +1661,9 @@
   "example": "Abito al terzo piano.",
   "example_ru": "Я живу на третьем этаже (по-нашему на четвёртом).",
   "forms": "m., pl. i piani",
-  "note_ru": "«Piano terra» — наш первый этаж, «primo piano» — наш второй."
+  "note_ru": "«Piano terra» — наш первый этаж, «primo piano» — наш второй.",
+  "gloss_en": "floor / storey",
+  "example_en": "I live on the third floor."
  },
  {
   "en": "le scale",
@@ -1437,7 +1675,9 @@
   "example": "Le scale sono a sinistra.",
   "example_ru": "Лестница слева.",
   "forms": "f. pl.; ед. ч. la scala",
-  "note_ru": "Лестницу в доме обычно называют во мн. ч.: «le scale»."
+  "note_ru": "Лестницу в доме обычно называют во мн. ч.: «le scale».",
+  "gloss_en": "stairs",
+  "example_en": "The stairs are on the left."
  },
  {
   "en": "la chiave",
@@ -1449,7 +1689,9 @@
   "example": "Dove sono le chiavi di casa?",
   "example_ru": "Где ключи от дома?",
   "forms": "f., pl. le chiavi",
-  "note_ru": "Женский род; «chi» читается [ki]."
+  "note_ru": "Женский род; «chi» читается [ki].",
+  "gloss_en": "key",
+  "example_en": "Where are the house keys?"
  },
  {
   "en": "lo specchio",
@@ -1461,7 +1703,9 @@
   "example": "In bagno c'è un grande specchio.",
   "example_ru": "В ванной большое зеркало.",
   "forms": "m., pl. gli specchi",
-  "note_ru": "Артикль «lo» перед s + согласная."
+  "note_ru": "Артикль «lo» перед s + согласная.",
+  "gloss_en": "mirror",
+  "example_en": "There's a big mirror in the bathroom."
  },
  {
   "en": "il balcone",
@@ -1473,7 +1717,9 @@
   "example": "Bevo il caffè sul balcone.",
   "example_ru": "Я пью кофе на балконе.",
   "forms": "m., pl. i balconi",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "balcony",
+  "example_en": "I drink my coffee on the balcony."
  },
  {
   "en": "il tappeto",
@@ -1485,7 +1731,9 @@
   "example": "C'è un tappeto rosso in soggiorno.",
   "example_ru": "В гостиной лежит красный ковёр.",
   "forms": "m., pl. i tappeti",
-  "note_ru": "Ложный друг: не «тапочки» (это «le pantofole»)."
+  "note_ru": "Ложный друг: не «тапочки» (это «le pantofole»).",
+  "gloss_en": "rug / carpet",
+  "example_en": "There's a red rug in the living room."
  },
  {
   "en": "il muro",
@@ -1497,7 +1745,9 @@
   "example": "Sul muro c'è una foto.",
   "example_ru": "На стене фотография.",
   "forms": "m., pl. i muri; городские стены — le mura",
-  "note_ru": "Мужской род, в отличие от русского «стена»; внутренняя стена — также «la parete»."
+  "note_ru": "Мужской род, в отличие от русского «стена»; внутренняя стена — также «la parete».",
+  "gloss_en": "wall",
+  "example_en": "There's a photo on the wall."
  },
  {
   "en": "svegliarsi",
@@ -1509,7 +1759,9 @@
   "example": "Mi sveglio alle sette.",
   "example_ru": "Я просыпаюсь в семь.",
   "forms": "mi sveglio, ti svegli, si sveglia; svegliato (essere)",
-  "note_ru": "Возвратный глагол: в прошедшем времени с «essere» — «mi sono svegliato»."
+  "note_ru": "Возвратный глагол: в прошедшем времени с «essere» — «mi sono svegliato».",
+  "gloss_en": "to wake up",
+  "example_en": "I wake up at seven."
  },
  {
   "en": "alzarsi",
@@ -1521,7 +1773,9 @@
   "example": "La domenica mi alzo tardi.",
   "example_ru": "В воскресенье я встаю поздно.",
   "forms": "mi alzo, ti alzi, si alza; alzato (essere)",
-  "note_ru": "Без «si» — «alzare» значит «поднимать»: «alzare la mano»."
+  "note_ru": "Без «si» — «alzare» значит «поднимать»: «alzare la mano».",
+  "gloss_en": "to get up",
+  "example_en": "On Sundays I get up late."
  },
  {
   "en": "lavarsi",
@@ -1533,7 +1787,9 @@
   "example": "Mi lavo la faccia con l'acqua fredda.",
   "example_ru": "Я умываюсь холодной водой.",
   "forms": "mi lavo, ti lavi, si lava; lavato (essere)",
-  "note_ru": "С частями тела — артикль, а не притяжательное: «mi lavo le mani» (мою руки)."
+  "note_ru": "С частями тела — артикль, а не притяжательное: «mi lavo le mani» (мою руки).",
+  "gloss_en": "to wash (oneself)",
+  "example_en": "I wash my face with cold water."
  },
  {
   "en": "lavarsi i denti",
@@ -1545,7 +1801,9 @@
   "example": "Mi lavo i denti dopo colazione.",
   "example_ru": "Я чищу зубы после завтрака.",
   "forms": "mi lavo i denti, ti lavi i denti",
-  "note_ru": "Дословно «мыть себе зубы» — по-итальянски зубы «моют»."
+  "note_ru": "Дословно «мыть себе зубы» — по-итальянски зубы «моют».",
+  "gloss_en": "to brush one's teeth",
+  "example_en": "I brush my teeth after breakfast."
  },
  {
   "en": "farsi la doccia",
@@ -1557,7 +1815,9 @@
   "example": "Mi faccio la doccia ogni mattina.",
   "example_ru": "Я принимаю душ каждое утро.",
   "forms": "mi faccio, ti fai, si fa la doccia; fatto (essere)",
-  "note_ru": "Можно и без «si»: «fare la doccia»."
+  "note_ru": "Можно и без «si»: «fare la doccia».",
+  "gloss_en": "to take a shower",
+  "example_en": "I take a shower every morning."
  },
  {
   "en": "vestirsi",
@@ -1569,7 +1829,9 @@
   "example": "Mi vesto e vado al lavoro.",
   "example_ru": "Я одеваюсь и иду на работу.",
   "forms": "mi vesto, ti vesti, si veste; vestito (essere)",
-  "note_ru": "Глагол на -ire без -isc-: «mi vesto»."
+  "note_ru": "Глагол на -ire без -isc-: «mi vesto».",
+  "gloss_en": "to get dressed",
+  "example_en": "I get dressed and go to work."
  },
  {
   "en": "pettinarsi",
@@ -1581,7 +1843,9 @@
   "example": "Mia figlia si pettina davanti allo specchio.",
   "example_ru": "Моя дочь причёсывается перед зеркалом.",
   "forms": "mi pettino, ti pettini, si pettina",
-  "note_ru": "Ударение в «pettino» на первый слог: PET-ti-no."
+  "note_ru": "Ударение в «pettino» на первый слог: PET-ti-no.",
+  "gloss_en": "to comb one's hair",
+  "example_en": "My daughter combs her hair in front of the mirror."
  },
  {
   "en": "truccarsi",
@@ -1593,7 +1857,9 @@
   "example": "Anna si trucca in bagno.",
   "example_ru": "Анна красится в ванной.",
   "forms": "mi trucco, ti trucchi, si trucca",
-  "note_ru": "«Il trucco» — макияж и одновременно «трюк, фокус»."
+  "note_ru": "«Il trucco» — макияж и одновременно «трюк, фокус».",
+  "gloss_en": "to put on make-up",
+  "example_en": "Anna puts on her make-up in the bathroom."
  },
  {
   "en": "fare colazione",
@@ -1605,7 +1871,9 @@
   "example": "Faccio colazione al bar.",
   "example_ru": "Я завтракаю в баре.",
   "forms": "faccio, fai, fa colazione; fatto (avere)",
-  "note_ru": "Отдельного глагола «завтракать» нет — говорят «fare colazione»."
+  "note_ru": "Отдельного глагола «завтракать» нет — говорят «fare colazione».",
+  "gloss_en": "to have breakfast",
+  "example_en": "I have breakfast at the café."
  },
  {
   "en": "pranzare",
@@ -1617,7 +1885,9 @@
   "example": "Pranziamo all'una.",
   "example_ru": "Мы обедаем в час.",
   "forms": "pranzo, pranzi, pranza; pranzato (avere)",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to have lunch",
+  "example_en": "We have lunch at one."
  },
  {
   "en": "cenare",
@@ -1629,7 +1899,9 @@
   "example": "Di solito ceniamo alle otto.",
   "example_ru": "Обычно мы ужинаем в восемь.",
   "forms": "ceno, ceni, cena; cenato (avere)",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to have dinner",
+  "example_en": "We usually have dinner at eight."
  },
  {
   "en": "dormire",
@@ -1641,7 +1913,9 @@
   "example": "Il bambino dorme otto ore.",
   "example_ru": "Ребёнок спит восемь часов.",
   "forms": "dormo, dormi, dorme; dormito (avere)",
-  "note_ru": "Глагол на -ire без -isc-."
+  "note_ru": "Глагол на -ire без -isc-.",
+  "gloss_en": "to sleep",
+  "example_en": "The child sleeps eight hours."
  },
  {
   "en": "andare a letto",
@@ -1653,7 +1927,9 @@
   "example": "Vado a letto alle undici.",
   "example_ru": "Я ложусь спать в одиннадцать.",
   "forms": "vado, vai, va a letto; andato (essere)",
-  "note_ru": "Без артикля: «a letto»."
+  "note_ru": "Без артикля: «a letto».",
+  "gloss_en": "to go to bed",
+  "example_en": "I go to bed at eleven."
  },
  {
   "en": "addormentarsi",
@@ -1665,7 +1941,9 @@
   "example": "Mi addormento subito.",
   "example_ru": "Я засыпаю сразу.",
   "forms": "mi addormento, ti addormenti, si addormenta; addormentato (essere)",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to fall asleep",
+  "example_en": "I fall asleep right away."
  },
  {
   "en": "riposarsi",
@@ -1677,7 +1955,9 @@
   "example": "Dopo pranzo mi riposo un po'.",
   "example_ru": "После обеда я немного отдыхаю.",
   "forms": "mi riposo, ti riposi, si riposa",
-  "note_ru": "Отдыхать в отпуске — скорее «andare in vacanza»."
+  "note_ru": "Отдыхать в отпуске — скорее «andare in vacanza».",
+  "gloss_en": "to rest",
+  "example_en": "After lunch I rest a little."
  },
  {
   "en": "cucinare",
@@ -1689,7 +1969,9 @@
   "example": "Mio marito cucina molto bene.",
   "example_ru": "Мой муж очень хорошо готовит.",
   "forms": "cucino, cucini, cucina; cucinato (avere)",
-  "note_ru": "Ударение «cucino» на второй слог: cu-CI-no."
+  "note_ru": "Ударение «cucino» на второй слог: cu-CI-no.",
+  "gloss_en": "to cook",
+  "example_en": "My husband cooks very well."
  },
  {
   "en": "pulire",
@@ -1701,7 +1983,9 @@
   "example": "Il sabato pulisco la casa.",
   "example_ru": "По субботам я убираю дом.",
   "forms": "pulisco, pulisci, pulisce; pulito (avere)",
-  "note_ru": "Глагол с -isc-: «pulisco», но «puliamo»."
+  "note_ru": "Глагол с -isc-: «pulisco», но «puliamo».",
+  "gloss_en": "to clean",
+  "example_en": "On Saturdays I clean the house."
  },
  {
   "en": "fare la spesa",
@@ -1713,7 +1997,9 @@
   "example": "Faccio la spesa al supermercato.",
   "example_ru": "Я покупаю продукты в супермаркете.",
   "forms": "faccio, fai, fa la spesa",
-  "note_ru": "Не путайте: «fare spese» — ходить по магазинам (за одеждой и т. п.)."
+  "note_ru": "Не путайте: «fare spese» — ходить по магазинам (за одеждой и т. п.).",
+  "gloss_en": "to do the shopping",
+  "example_en": "I do the shopping at the supermarket."
  },
  {
   "en": "la sveglia",
@@ -1725,7 +2011,9 @@
   "example": "La sveglia suona alle sei.",
   "example_ru": "Будильник звонит в шесть.",
   "forms": "f., pl. le sveglie",
-  "note_ru": "«Sveglia!» — также «Подъём!»."
+  "note_ru": "«Sveglia!» — также «Подъём!».",
+  "gloss_en": "alarm clock",
+  "example_en": "The alarm goes off at six."
  },
  {
   "en": "lo spazzolino",
@@ -1737,7 +2025,9 @@
   "example": "Lo spazzolino è in bagno.",
   "example_ru": "Зубная щётка в ванной.",
   "forms": "m., pl. gli spazzolini",
-  "note_ru": "Артикль «lo» перед s + согласная."
+  "note_ru": "Артикль «lo» перед s + согласная.",
+  "gloss_en": "toothbrush",
+  "example_en": "The toothbrush is in the bathroom."
  },
  {
   "en": "l'asciugamano",
@@ -1749,7 +2039,9 @@
   "example": "Mi dai un asciugamano pulito?",
   "example_ru": "Дашь мне чистое полотенце?",
   "forms": "m., pl. gli asciugamani",
-  "note_ru": "Дословно «сушит руки» (asciugare + mano)."
+  "note_ru": "Дословно «сушит руки» (asciugare + mano).",
+  "gloss_en": "towel",
+  "example_en": "Can you give me a clean towel?"
  },
  {
   "en": "il sapone",
@@ -1761,7 +2053,9 @@
   "example": "Lavati le mani con il sapone!",
   "example_ru": "Помой руки с мылом!",
   "forms": "m., pl. i saponi",
-  "note_ru": "Ложный друг: не «сапоги» (это «gli stivali»)."
+  "note_ru": "Ложный друг: не «сапоги» (это «gli stivali»).",
+  "gloss_en": "soap",
+  "example_en": "Wash your hands with soap!"
  },
  {
   "en": "di solito",
@@ -1773,7 +2067,9 @@
   "example": "Di solito vado al lavoro in autobus.",
   "example_ru": "Обычно я езжу на работу на автобусе.",
   "forms": null,
-  "note_ru": "Ударение «solito» на первый слог: SO-li-to."
+  "note_ru": "Ударение «solito» на первый слог: SO-li-to.",
+  "gloss_en": "usually",
+  "example_en": "I usually go to work by bus."
  },
  {
   "en": "presto",
@@ -1785,7 +2081,9 @@
   "example": "Domani mi alzo presto.",
   "example_ru": "Завтра я встаю рано.",
   "forms": null,
-  "note_ru": "Два значения: «рано» и «скоро» («A presto!» — до скорого)."
+  "note_ru": "Два значения: «рано» и «скоро» («A presto!» — до скорого).",
+  "gloss_en": "early / soon",
+  "example_en": "Tomorrow I'm getting up early."
  },
  {
   "en": "tardi",
@@ -1797,7 +2095,9 @@
   "example": "È tardi, andiamo a casa.",
   "example_ru": "Уже поздно, пойдём домой.",
   "forms": null,
-  "note_ru": "«In ritardo» — с опозданием: «Sono in ritardo»."
+  "note_ru": "«In ritardo» — с опозданием: «Sono in ritardo».",
+  "gloss_en": "late",
+  "example_en": "It's late, let's go home."
  },
  {
   "en": "il giorno",
@@ -1809,7 +2109,9 @@
   "example": "Studio italiano ogni giorno.",
   "example_ru": "Я учу итальянский каждый день.",
   "forms": "m., pl. i giorni",
-  "note_ru": "«Ogni giorno» — каждый день; светлое время дня — также «la giornata»."
+  "note_ru": "«Ogni giorno» — каждый день; светлое время дня — также «la giornata».",
+  "gloss_en": "day",
+  "example_en": "I study Italian every day."
  },
  {
   "en": "la settimana",
@@ -1821,7 +2123,9 @@
   "example": "La prossima settimana vado a Roma.",
   "example_ru": "На следующей неделе я еду в Рим.",
   "forms": "f., pl. le settimane",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "week",
+  "example_en": "Next week I'm going to Rome."
  },
  {
   "en": "il mese",
@@ -1833,7 +2137,9 @@
   "example": "Gennaio è il primo mese dell'anno.",
   "example_ru": "Январь — первый месяц года.",
   "forms": "m., pl. i mesi",
-  "note_ru": "Месяцы пишутся со строчной буквы: «a maggio» — в мае."
+  "note_ru": "Месяцы пишутся со строчной буквы: «a maggio» — в мае.",
+  "gloss_en": "month",
+  "example_en": "January is the first month of the year."
  },
  {
   "en": "l'anno",
@@ -1845,7 +2151,9 @@
   "example": "Ho trent'anni.",
   "example_ru": "Мне тридцать лет.",
   "forms": "m., pl. gli anni",
-  "note_ru": "Возраст — с «avere»: «ho vent'anni», а не «sono»."
+  "note_ru": "Возраст — с «avere»: «ho vent'anni», а не «sono».",
+  "gloss_en": "year",
+  "example_en": "I'm thirty years old."
  },
  {
   "en": "l'ora",
@@ -1857,7 +2165,9 @@
   "example": "Il film dura due ore.",
   "example_ru": "Фильм длится два часа.",
   "forms": "f., pl. le ore",
-  "note_ru": "«Che ore sono?» — который час? Не путайте с «ora» (сейчас)."
+  "note_ru": "«Che ore sono?» — который час? Не путайте с «ora» (сейчас).",
+  "gloss_en": "hour / time",
+  "example_en": "The film lasts two hours."
  },
  {
   "en": "il minuto",
@@ -1869,7 +2179,9 @@
   "example": "Arrivo tra cinque minuti.",
   "example_ru": "Я приду через пять минут.",
   "forms": "m., pl. i minuti",
-  "note_ru": "Мужской род; «через» о времени — «tra» или «fra»."
+  "note_ru": "Мужской род; «через» о времени — «tra» или «fra».",
+  "gloss_en": "minute",
+  "example_en": "I'll be there in five minutes."
  },
  {
   "en": "oggi",
@@ -1881,7 +2193,9 @@
   "example": "Oggi è lunedì.",
   "example_ru": "Сегодня понедельник.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "today",
+  "example_en": "Today is Monday."
  },
  {
   "en": "domani",
@@ -1893,7 +2207,9 @@
   "example": "Domani non lavoro.",
   "example_ru": "Завтра я не работаю.",
   "forms": null,
-  "note_ru": "«Dopodomani» — послезавтра."
+  "note_ru": "«Dopodomani» — послезавтра.",
+  "gloss_en": "tomorrow",
+  "example_en": "I'm not working tomorrow."
  },
  {
   "en": "ieri",
@@ -1905,7 +2221,9 @@
   "example": "Ieri sono andato al cinema.",
   "example_ru": "Вчера я ходил в кино.",
   "forms": null,
-  "note_ru": "«L'altro ieri» — позавчера."
+  "note_ru": "«L'altro ieri» — позавчера.",
+  "gloss_en": "yesterday",
+  "example_en": "Yesterday I went to the cinema."
  },
  {
   "en": "la mattina",
@@ -1917,7 +2235,9 @@
   "example": "La mattina bevo il caffè.",
   "example_ru": "По утрам я пью кофе.",
   "forms": "f., pl. le mattine",
-  "note_ru": "«La mattina» — утром / по утрам, без предлога; «stamattina» — сегодня утром."
+  "note_ru": "«La mattina» — утром / по утрам, без предлога; «stamattina» — сегодня утром.",
+  "gloss_en": "morning",
+  "example_en": "In the morning I drink coffee."
  },
  {
   "en": "il pomeriggio",
@@ -1929,7 +2249,9 @@
   "example": "Il pomeriggio studio in biblioteca.",
   "example_ru": "Днём я занимаюсь в библиотеке.",
   "forms": "m., pl. i pomeriggi",
-  "note_ru": "Примерно с 13 до 18 часов; по-русски чаще просто «днём»."
+  "note_ru": "Примерно с 13 до 18 часов; по-русски чаще просто «днём».",
+  "gloss_en": "afternoon",
+  "example_en": "In the afternoon I study in the library."
  },
  {
   "en": "la sera",
@@ -1941,7 +2263,9 @@
   "example": "La sera guardo la televisione.",
   "example_ru": "Вечером я смотрю телевизор.",
   "forms": "f., pl. le sere",
-  "note_ru": "«Stasera» — сегодня вечером."
+  "note_ru": "«Stasera» — сегодня вечером.",
+  "gloss_en": "evening",
+  "example_en": "In the evening I watch television."
  },
  {
   "en": "la notte",
@@ -1953,7 +2277,9 @@
   "example": "Di notte la città è tranquilla.",
   "example_ru": "Ночью город спокойный.",
   "forms": "f., pl. le notti",
-  "note_ru": "«Di notte» — ночью; «stanotte» — этой ночью."
+  "note_ru": "«Di notte» — ночью; «stanotte» — этой ночью.",
+  "gloss_en": "night",
+  "example_en": "At night the city is quiet."
  },
  {
   "en": "il lunedì",
@@ -1965,7 +2291,9 @@
   "example": "Il lunedì vado in palestra.",
   "example_ru": "По понедельникам я хожу в спортзал.",
   "forms": "m., pl. i lunedì",
-  "note_ru": "«Lunedì» без артикля — в (этот) понедельник; «il lunedì» — по понедельникам."
+  "note_ru": "«Lunedì» без артикля — в (этот) понедельник; «il lunedì» — по понедельникам.",
+  "gloss_en": "Monday",
+  "example_en": "On Mondays I go to the gym."
  },
  {
   "en": "il martedì",
@@ -1977,7 +2305,9 @@
   "example": "Martedì ho un esame.",
   "example_ru": "Во вторник у меня экзамен.",
   "forms": "m., pl. i martedì",
-  "note_ru": "Дни недели (кроме воскресенья) мужского рода и не изменяются во мн. ч."
+  "note_ru": "Дни недели (кроме воскресенья) мужского рода и не изменяются во мн. ч.",
+  "gloss_en": "Tuesday",
+  "example_en": "On Tuesday I have an exam."
  },
  {
   "en": "il mercoledì",
@@ -1989,7 +2319,9 @@
   "example": "Il mercoledì il museo è chiuso.",
   "example_ru": "По средам музей закрыт.",
   "forms": "m., pl. i mercoledì",
-  "note_ru": "Мужской род, в отличие от русского «среда»."
+  "note_ru": "Мужской род, в отличие от русского «среда».",
+  "gloss_en": "Wednesday",
+  "example_en": "On Wednesdays the museum is closed."
  },
  {
   "en": "il giovedì",
@@ -2001,7 +2333,9 @@
   "example": "Giovedì ceniamo dalla nonna.",
   "example_ru": "В четверг мы ужинаем у бабушки.",
   "forms": "m., pl. i giovedì",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "Thursday",
+  "example_en": "On Thursday we're having dinner at Grandma's."
  },
  {
   "en": "il venerdì",
@@ -2013,7 +2347,9 @@
   "example": "Il venerdì sera esco con gli amici.",
   "example_ru": "В пятницу вечером я гуляю с друзьями.",
   "forms": "m., pl. i venerdì",
-  "note_ru": "Мужской род, в отличие от русского «пятница»."
+  "note_ru": "Мужской род, в отличие от русского «пятница».",
+  "gloss_en": "Friday",
+  "example_en": "On Friday evenings I go out with my friends."
  },
  {
   "en": "il sabato",
@@ -2025,7 +2361,9 @@
   "example": "Sabato andiamo al mare.",
   "example_ru": "В субботу мы едем на море.",
   "forms": "m., pl. i sabati",
-  "note_ru": "Ударение на первый слог: SA-ba-to."
+  "note_ru": "Ударение на первый слог: SA-ba-to.",
+  "gloss_en": "Saturday",
+  "example_en": "On Saturday we're going to the seaside."
  },
  {
   "en": "la domenica",
@@ -2037,7 +2375,9 @@
   "example": "La domenica pranziamo tutti insieme.",
   "example_ru": "По воскресеньям мы обедаем все вместе.",
   "forms": "f., pl. le domeniche",
-  "note_ru": "Единственный день недели женского рода."
+  "note_ru": "Единственный день недели женского рода.",
+  "gloss_en": "Sunday",
+  "example_en": "On Sundays we all have lunch together."
  },
  {
   "en": "il fine settimana",
@@ -2049,7 +2389,9 @@
   "example": "Cosa fai il fine settimana?",
   "example_ru": "Что ты делаешь на выходных?",
   "forms": "m., pl. i fine settimana",
-  "note_ru": "Часто говорят и по-английски: «il weekend»."
+  "note_ru": "Часто говорят и по-английски: «il weekend».",
+  "gloss_en": "weekend",
+  "example_en": "What are you doing at the weekend?"
  },
  {
   "en": "la primavera",
@@ -2061,7 +2403,9 @@
   "example": "In primavera fa bel tempo.",
   "example_ru": "Весной хорошая погода.",
   "forms": "f., pl. le primavere",
-  "note_ru": "«In primavera» — весной (предлог «in»)."
+  "note_ru": "«In primavera» — весной (предлог «in»).",
+  "gloss_en": "spring",
+  "example_en": "In spring the weather is nice."
  },
  {
   "en": "l'estate",
@@ -2073,7 +2417,9 @@
   "example": "D'estate andiamo al mare.",
   "example_ru": "Летом мы ездим на море.",
   "forms": "f., pl. le estati",
-  "note_ru": "Женский род; «d'estate» или «in estate» — летом."
+  "note_ru": "Женский род; «d'estate» или «in estate» — летом.",
+  "gloss_en": "summer",
+  "example_en": "In summer we go to the seaside."
  },
  {
   "en": "l'autunno",
@@ -2085,7 +2431,9 @@
   "example": "In autunno piove molto.",
   "example_ru": "Осенью много дождей.",
   "forms": "m., pl. gli autunni",
-  "note_ru": "Мужской род, в отличие от русского «осень»."
+  "note_ru": "Мужской род, в отличие от русского «осень».",
+  "gloss_en": "autumn",
+  "example_en": "In autumn it rains a lot."
  },
  {
   "en": "l'inverno",
@@ -2097,7 +2445,9 @@
   "example": "D'inverno nevica in montagna.",
   "example_ru": "Зимой в горах идёт снег.",
   "forms": "m., pl. gli inverni",
-  "note_ru": "Мужской род, в отличие от русского «зима»."
+  "note_ru": "Мужской род, в отличие от русского «зима».",
+  "gloss_en": "winter",
+  "example_en": "In winter it snows in the mountains."
  },
  {
   "en": "rosso",
@@ -2109,7 +2459,9 @@
   "example": "Ho una macchina rossa.",
   "example_ru": "У меня красная машина.",
   "forms": "f. rossa, pl. rossi / rosse",
-  "note_ru": "Прилагательные цвета стоят после существительного."
+  "note_ru": "Прилагательные цвета стоят после существительного.",
+  "gloss_en": "red",
+  "example_en": "I have a red car."
  },
  {
   "en": "blu",
@@ -2121,7 +2473,9 @@
   "example": "Porto i pantaloni blu.",
   "example_ru": "Я ношу синие брюки.",
   "forms": "не изменяется",
-  "note_ru": "Голубой — «azzurro» или «celeste»; «blu» — тёмно-синий."
+  "note_ru": "Голубой — «azzurro» или «celeste»; «blu» — тёмно-синий.",
+  "gloss_en": "blue",
+  "example_en": "I'm wearing blue trousers."
  },
  {
   "en": "verde",
@@ -2133,7 +2487,9 @@
   "example": "Mi piacciono gli occhi verdi.",
   "example_ru": "Мне нравятся зелёные глаза.",
   "forms": "f. verde, pl. verdi",
-  "note_ru": "«Essere al verde» — остаться без денег."
+  "note_ru": "«Essere al verde» — остаться без денег.",
+  "gloss_en": "green",
+  "example_en": "I like green eyes."
  },
  {
   "en": "giallo",
@@ -2145,7 +2501,9 @@
   "example": "Il taxi a New York è giallo.",
   "example_ru": "Такси в Нью-Йорке жёлтое.",
   "forms": "f. gialla, pl. gialli / gialle",
-  "note_ru": "«Un giallo» — также детектив (книга или фильм)."
+  "note_ru": "«Un giallo» — также детектив (книга или фильм).",
+  "gloss_en": "yellow",
+  "example_en": "Taxis in New York are yellow."
  },
  {
   "en": "bianco",
@@ -2157,7 +2515,9 @@
   "example": "Mi metto una camicia bianca.",
   "example_ru": "Я надеваю белую рубашку.",
   "forms": "f. bianca, pl. bianchi / bianche",
-  "note_ru": "Мн. ч. с «h», чтобы сохранить звук [k]: «bianchi»."
+  "note_ru": "Мн. ч. с «h», чтобы сохранить звук [k]: «bianchi».",
+  "gloss_en": "white",
+  "example_en": "I'm putting on a white shirt."
  },
  {
   "en": "nero",
@@ -2169,7 +2529,9 @@
   "example": "Il mio gatto è nero.",
   "example_ru": "Мой кот чёрный.",
   "forms": "f. nera, pl. neri / nere",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "black",
+  "example_en": "My cat is black."
  },
  {
   "en": "grigio",
@@ -2181,7 +2543,9 @@
   "example": "Oggi il cielo è grigio.",
   "example_ru": "Сегодня небо серое.",
   "forms": "f. grigia, pl. grigi / grigie",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "grey",
+  "example_en": "The sky is grey today."
  },
  {
   "en": "marrone",
@@ -2193,7 +2557,9 @@
   "example": "Ho le scarpe marroni.",
   "example_ru": "У меня коричневые ботинки.",
   "forms": "f. marrone, pl. marroni",
-  "note_ru": "Карие глаза — «occhi castani», а не «marroni»."
+  "note_ru": "Карие глаза — «occhi castani», а не «marroni».",
+  "gloss_en": "brown",
+  "example_en": "I have brown shoes."
  },
  {
   "en": "rosa",
@@ -2205,7 +2571,9 @@
   "example": "La bambina ha un vestito rosa.",
   "example_ru": "У девочки розовое платье.",
   "forms": "не изменяется",
-  "note_ru": "Также существительное «la rosa» — роза."
+  "note_ru": "Также существительное «la rosa» — роза.",
+  "gloss_en": "pink",
+  "example_en": "The little girl has a pink dress."
  },
  {
   "en": "arancione",
@@ -2217,7 +2585,9 @@
   "example": "Porta una giacca arancione.",
   "example_ru": "Он носит оранжевую куртку.",
   "forms": "f. arancione, pl. arancioni",
-  "note_ru": "Фрукт апельсин — «l'arancia»."
+  "note_ru": "Фрукт апельсин — «l'arancia».",
+  "gloss_en": "orange",
+  "example_en": "He's wearing an orange jacket."
  },
  {
   "en": "viola",
@@ -2229,7 +2599,9 @@
   "example": "Ho comprato una borsa viola.",
   "example_ru": "Я купила фиолетовую сумку.",
   "forms": "не изменяется",
-  "note_ru": "Также «la viola» — фиалка и альт (инструмент)."
+  "note_ru": "Также «la viola» — фиалка и альт (инструмент).",
+  "gloss_en": "purple",
+  "example_en": "I bought a purple bag."
  },
  {
   "en": "il colore",
@@ -2241,7 +2613,9 @@
   "example": "Qual è il tuo colore preferito?",
   "example_ru": "Какой твой любимый цвет?",
   "forms": "m., pl. i colori",
-  "note_ru": "Мужской род: «il colore», «di che colore è?» — какого цвета?"
+  "note_ru": "Мужской род: «il colore», «di che colore è?» — какого цвета?",
+  "gloss_en": "colour",
+  "example_en": "What's your favourite colour?"
  },
  {
   "en": "il vestito",
@@ -2253,7 +2627,9 @@
   "example": "Stasera metto il vestito nero.",
   "example_ru": "Сегодня вечером я надену чёрное платье.",
   "forms": "m., pl. i vestiti",
-  "note_ru": "«I vestiti» во мн. ч. — одежда вообще."
+  "note_ru": "«I vestiti» во мн. ч. — одежда вообще.",
+  "gloss_en": "dress / suit",
+  "example_en": "Tonight I'm wearing the black dress."
  },
  {
   "en": "la maglietta",
@@ -2265,7 +2641,9 @@
   "example": "D'estate porto le magliette.",
   "example_ru": "Летом я ношу футболки.",
   "forms": "f., pl. le magliette",
-  "note_ru": "Уменьшительное от «la maglia» — кофта, майка."
+  "note_ru": "Уменьшительное от «la maglia» — кофта, майка.",
+  "gloss_en": "T-shirt",
+  "example_en": "In summer I wear T-shirts."
  },
  {
   "en": "i pantaloni",
@@ -2277,7 +2655,9 @@
   "example": "Questi pantaloni sono troppo lunghi.",
   "example_ru": "Эти брюки слишком длинные.",
   "forms": "m. pl.",
-  "note_ru": "Как и в русском, обычно во мн. ч."
+  "note_ru": "Как и в русском, обычно во мн. ч.",
+  "gloss_en": "trousers",
+  "example_en": "These trousers are too long."
  },
  {
   "en": "la gonna",
@@ -2289,7 +2669,9 @@
   "example": "Maria porta una gonna lunga.",
   "example_ru": "Мария носит длинную юбку.",
   "forms": "f., pl. le gonne",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "skirt",
+  "example_en": "Maria is wearing a long skirt."
  },
  {
   "en": "la camicia",
@@ -2301,7 +2683,9 @@
   "example": "Mio padre porta sempre la camicia.",
   "example_ru": "Мой отец всегда носит рубашку.",
   "forms": "f., pl. le camicie",
-  "note_ru": "Мн. ч. «camicie» сохраняет «i»; женская блузка — «la camicetta»."
+  "note_ru": "Мн. ч. «camicie» сохраняет «i»; женская блузка — «la camicetta».",
+  "gloss_en": "shirt",
+  "example_en": "My father always wears a shirt."
  },
  {
   "en": "la giacca",
@@ -2313,7 +2697,9 @@
   "example": "Prendi la giacca, fa freddo.",
   "example_ru": "Возьми куртку, холодно.",
   "forms": "f., pl. le giacche",
-  "note_ru": "Не «жакет» в узком смысле — любой пиджак или лёгкая куртка."
+  "note_ru": "Не «жакет» в узком смысле — любой пиджак или лёгкая куртка.",
+  "gloss_en": "jacket",
+  "example_en": "Take your jacket, it's cold."
  },
  {
   "en": "il cappotto",
@@ -2325,7 +2711,9 @@
   "example": "D'inverno metto il cappotto.",
   "example_ru": "Зимой я надеваю пальто.",
   "forms": "m., pl. i cappotti",
-  "note_ru": "Ложный друг: не «капот» (это «il cofano»)."
+  "note_ru": "Ложный друг: не «капот» (это «il cofano»).",
+  "gloss_en": "coat",
+  "example_en": "In winter I wear a coat."
  },
  {
   "en": "la scarpa",
@@ -2337,7 +2725,9 @@
   "example": "Queste scarpe sono nuove.",
   "example_ru": "Эти туфли новые.",
   "forms": "f., pl. le scarpe",
-  "note_ru": "Обувь вообще — «le scarpe»."
+  "note_ru": "Обувь вообще — «le scarpe».",
+  "gloss_en": "shoe",
+  "example_en": "These shoes are new."
  },
  {
   "en": "il cappello",
@@ -2349,7 +2739,9 @@
   "example": "Il nonno porta un cappello nero.",
   "example_ru": "Дедушка носит чёрную шляпу.",
   "forms": "m., pl. i cappelli",
-  "note_ru": "Не путайте: «il cappello» — шляпа, «i capelli» — волосы."
+  "note_ru": "Не путайте: «il cappello» — шляпа, «i capelli» — волосы.",
+  "gloss_en": "hat",
+  "example_en": "Grandpa wears a black hat."
  },
  {
   "en": "la borsa",
@@ -2361,7 +2753,9 @@
   "example": "Le chiavi sono nella borsa.",
   "example_ru": "Ключи в сумке.",
   "forms": "f., pl. le borse",
-  "note_ru": "«La Borsa» с большой буквы — биржа."
+  "note_ru": "«La Borsa» с большой буквы — биржа.",
+  "gloss_en": "bag / handbag",
+  "example_en": "The keys are in the bag."
  },
  {
   "en": "il maglione",
@@ -2373,7 +2767,9 @@
   "example": "Metto il maglione perché ho freddo.",
   "example_ru": "Я надеваю свитер, потому что мне холодно.",
   "forms": "m., pl. i maglioni",
-  "note_ru": "Суффикс -one — «большая maglia»."
+  "note_ru": "Суффикс -one — «большая maglia».",
+  "gloss_en": "sweater / jumper",
+  "example_en": "I'm putting on a sweater because I'm cold."
  },
  {
   "en": "il calzino",
@@ -2385,7 +2781,9 @@
   "example": "Dove sono i miei calzini?",
   "example_ru": "Где мои носки?",
   "forms": "m., pl. i calzini",
-  "note_ru": "Женские колготки — «i collant»; чулки — «le calze»."
+  "note_ru": "Женские колготки — «i collant»; чулки — «le calze».",
+  "gloss_en": "sock",
+  "example_en": "Where are my socks?"
  },
  {
   "en": "indossare",
@@ -2397,7 +2795,9 @@
   "example": "Oggi indosso una gonna blu.",
   "example_ru": "Сегодня на мне синяя юбка.",
   "forms": "indosso, indossi, indossa; indossato (avere)",
-  "note_ru": "В разговоре чаще говорят «portare» или «mettersi»."
+  "note_ru": "В разговоре чаще говорят «portare» или «mettersi».",
+  "gloss_en": "to wear / to put on",
+  "example_en": "Today I'm wearing a blue skirt."
  },
  {
   "en": "il corpo",
@@ -2409,7 +2809,9 @@
   "example": "Lo sport fa bene al corpo.",
   "example_ru": "Спорт полезен для тела.",
   "forms": "m., pl. i corpi",
-  "note_ru": "«Корпус» здания или машины — другие слова; «il corpo» — прежде всего тело человека."
+  "note_ru": "«Корпус» здания или машины — другие слова; «il corpo» — прежде всего тело человека.",
+  "gloss_en": "body",
+  "example_en": "Sport is good for the body."
  },
  {
   "en": "la testa",
@@ -2421,7 +2823,9 @@
   "example": "Mi fa male la testa.",
   "example_ru": "У меня болит голова.",
   "forms": "f., pl. le teste",
-  "note_ru": "Ложный друг: не «тесто» (это «l'impasto»)."
+  "note_ru": "Ложный друг: не «тесто» (это «l'impasto»).",
+  "gloss_en": "head",
+  "example_en": "I have a headache."
  },
  {
   "en": "l'occhio",
@@ -2433,7 +2837,9 @@
   "example": "Lei ha gli occhi azzurri.",
   "example_ru": "У неё голубые глаза.",
   "forms": "m., pl. gli occhi",
-  "note_ru": "Внешность описывают через «avere»: «ha gli occhi verdi»."
+  "note_ru": "Внешность описывают через «avere»: «ha gli occhi verdi».",
+  "gloss_en": "eye",
+  "example_en": "She has blue eyes."
  },
  {
   "en": "l'orecchio",
@@ -2445,7 +2851,9 @@
   "example": "Mi fa male l'orecchio destro.",
   "example_ru": "У меня болит правое ухо.",
   "forms": "m., pl. le orecchie (ж. р.)",
-  "note_ru": "Во мн. ч. меняет род: «l'orecchio» — «le orecchie»."
+  "note_ru": "Во мн. ч. меняет род: «l'orecchio» — «le orecchie».",
+  "gloss_en": "ear",
+  "example_en": "My right ear hurts."
  },
  {
   "en": "il naso",
@@ -2457,7 +2865,9 @@
   "example": "Il bambino ha il naso piccolo.",
   "example_ru": "У ребёнка маленький нос.",
   "forms": "m., pl. i nasi",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "nose",
+  "example_en": "The child has a small nose."
  },
  {
   "en": "la bocca",
@@ -2469,7 +2879,9 @@
   "example": "Apri la bocca, per favore.",
   "example_ru": "Откройте рот, пожалуйста.",
   "forms": "f., pl. le bocche",
-  "note_ru": "Женский род, в отличие от русского «рот»."
+  "note_ru": "Женский род, в отличие от русского «рот».",
+  "gloss_en": "mouth",
+  "example_en": "Open your mouth, please."
  },
  {
   "en": "il dente",
@@ -2481,7 +2893,9 @@
   "example": "Mi fa male un dente.",
   "example_ru": "У меня болит зуб.",
   "forms": "m., pl. i denti",
-  "note_ru": "Зубной врач — «il dentista»."
+  "note_ru": "Зубной врач — «il dentista».",
+  "gloss_en": "tooth",
+  "example_en": "I have a toothache."
  },
  {
   "en": "il capello",
@@ -2493,7 +2907,9 @@
   "example": "Ho i capelli lunghi e neri.",
   "example_ru": "У меня длинные чёрные волосы.",
   "forms": "m., pl. i capelli (волосы)",
-  "note_ru": "«Волосы» — всегда мн. ч. «i capelli»; не путайте с «il cappello» (шляпа)."
+  "note_ru": "«Волосы» — всегда мн. ч. «i capelli»; не путайте с «il cappello» (шляпа).",
+  "gloss_en": "hair",
+  "example_en": "I have long black hair."
  },
  {
   "en": "la mano",
@@ -2505,7 +2921,9 @@
   "example": "Dammi la mano!",
   "example_ru": "Дай мне руку!",
   "forms": "f., pl. le mani",
-  "note_ru": "Женский род на -o; мн. ч. «le mani»."
+  "note_ru": "Женский род на -o; мн. ч. «le mani».",
+  "gloss_en": "hand",
+  "example_en": "Give me your hand!"
  },
  {
   "en": "il braccio",
@@ -2517,7 +2935,9 @@
   "example": "Mi fa male il braccio sinistro.",
   "example_ru": "У меня болит левая рука.",
   "forms": "m., pl. le braccia (ж. р.)",
-  "note_ru": "Итальянский различает «la mano» (кисть) и «il braccio» (рука целиком)."
+  "note_ru": "Итальянский различает «la mano» (кисть) и «il braccio» (рука целиком).",
+  "gloss_en": "arm",
+  "example_en": "My left arm hurts."
  },
  {
   "en": "la gamba",
@@ -2529,7 +2949,9 @@
   "example": "Mio fratello ha le gambe lunghe.",
   "example_ru": "У моего брата длинные ноги.",
   "forms": "f., pl. le gambe",
-  "note_ru": "«In gamba» — толковый, молодец: «È una ragazza in gamba»."
+  "note_ru": "«In gamba» — толковый, молодец: «È una ragazza in gamba».",
+  "gloss_en": "leg",
+  "example_en": "My brother has long legs."
  },
  {
   "en": "il piede",
@@ -2541,7 +2963,9 @@
   "example": "Vado a scuola a piedi.",
   "example_ru": "Я хожу в школу пешком.",
   "forms": "m., pl. i piedi",
-  "note_ru": "«A piedi» — пешком."
+  "note_ru": "«A piedi» — пешком.",
+  "gloss_en": "foot",
+  "example_en": "I walk to school."
  },
  {
   "en": "il dito",
@@ -2553,7 +2977,9 @@
   "example": "Mi sono tagliato un dito.",
   "example_ru": "Я порезал палец.",
   "forms": "m., pl. le dita (ж. р.)",
-  "note_ru": "Во мн. ч. меняет род: «il dito» — «le dita»."
+  "note_ru": "Во мн. ч. меняет род: «il dito» — «le dita».",
+  "gloss_en": "finger",
+  "example_en": "I cut my finger."
  },
  {
   "en": "la schiena",
@@ -2565,7 +2991,9 @@
   "example": "Ho mal di schiena.",
   "example_ru": "У меня болит спина.",
   "forms": "f., pl. le schiene",
-  "note_ru": "«sch» читается [sk]."
+  "note_ru": "«sch» читается [sk].",
+  "gloss_en": "back",
+  "example_en": "I have backache."
  },
  {
   "en": "lo stomaco",
@@ -2577,7 +3005,9 @@
   "example": "Ho mal di stomaco.",
   "example_ru": "У меня болит живот.",
   "forms": "m., pl. gli stomaci",
-  "note_ru": "Артикль «lo» перед s + согласная; ударение на первый слог."
+  "note_ru": "Артикль «lo» перед s + согласная; ударение на первый слог.",
+  "gloss_en": "stomach",
+  "example_en": "I have a stomach ache."
  },
  {
   "en": "il cuore",
@@ -2589,7 +3019,9 @@
   "example": "Il cuore batte forte.",
   "example_ru": "Сердце сильно бьётся.",
   "forms": "m., pl. i cuori",
-  "note_ru": "«Di cuore» — от всего сердца: «Grazie di cuore»."
+  "note_ru": "«Di cuore» — от всего сердца: «Grazie di cuore».",
+  "gloss_en": "heart",
+  "example_en": "My heart is beating fast."
  },
  {
   "en": "il medico",
@@ -2601,7 +3033,9 @@
   "example": "Domani vado dal medico.",
   "example_ru": "Завтра я иду к врачу.",
   "forms": "m., pl. i medici",
-  "note_ru": "«Идти к врачу» — «andare dal medico» (предлог da + артикль)."
+  "note_ru": "«Идти к врачу» — «andare dal medico» (предлог da + артикль).",
+  "gloss_en": "doctor",
+  "example_en": "Tomorrow I'm going to the doctor."
  },
  {
   "en": "la farmacia",
@@ -2613,7 +3047,9 @@
   "example": "La farmacia è vicino alla piazza.",
   "example_ru": "Аптека рядом с площадью.",
   "forms": "f., pl. le farmacie",
-  "note_ru": "Ударение на «i»: far-ma-CI-a."
+  "note_ru": "Ударение на «i»: far-ma-CI-a.",
+  "gloss_en": "pharmacy / chemist's",
+  "example_en": "The pharmacy is near the square."
  },
  {
   "en": "la medicina",
@@ -2625,7 +3061,9 @@
   "example": "Prendo la medicina dopo cena.",
   "example_ru": "Я принимаю лекарство после ужина.",
   "forms": "f., pl. le medicine",
-  "note_ru": "Лекарство «принимают» глаголом «prendere»."
+  "note_ru": "Лекарство «принимают» глаголом «prendere».",
+  "gloss_en": "medicine",
+  "example_en": "I take the medicine after dinner."
  },
  {
   "en": "il raffreddore",
@@ -2637,7 +3075,9 @@
   "example": "Ho il raffreddore.",
   "example_ru": "У меня насморк.",
   "forms": "m., pl. i raffreddori",
-  "note_ru": "Болезни — с «avere»: «ho il raffreddore», «ho la febbre»."
+  "note_ru": "Болезни — с «avere»: «ho il raffreddore», «ho la febbre».",
+  "gloss_en": "cold (illness)",
+  "example_en": "I have a cold."
  },
  {
   "en": "la febbre",
@@ -2649,7 +3089,9 @@
   "example": "Il bambino ha la febbre.",
   "example_ru": "У ребёнка температура.",
   "forms": "f., pl. le febbri",
-  "note_ru": "Ложный друг: «la febbre» — повышенная температура, а не февраль."
+  "note_ru": "Ложный друг: «la febbre» — повышенная температура, а не февраль.",
+  "gloss_en": "fever / temperature",
+  "example_en": "The child has a temperature."
  },
  {
   "en": "malato",
@@ -2661,7 +3103,9 @@
   "example": "Oggi non vado a scuola, sono malato.",
   "example_ru": "Сегодня я не иду в школу, я болен.",
   "forms": "f. malata, pl. malati / malate",
-  "note_ru": "Согласуется с родом: «sono malata» (о женщине)."
+  "note_ru": "Согласуется с родом: «sono malata» (о женщине).",
+  "gloss_en": "ill / sick",
+  "example_en": "I'm not going to school today, I'm ill."
  },
  {
   "en": "stare male",
@@ -2673,7 +3117,9 @@
   "example": "Mia madre sta male da ieri.",
   "example_ru": "Моя мама плохо себя чувствует со вчерашнего дня.",
   "forms": "sto, stai, sta male; stato (essere)",
-  "note_ru": "О самочувствии — «stare», а не «essere»: «Sto bene / sto male»."
+  "note_ru": "О самочувствии — «stare», а не «essere»: «Sto bene / sto male».",
+  "gloss_en": "to feel unwell",
+  "example_en": "My mother has been feeling unwell since yesterday."
  },
  {
   "en": "l'ospedale",
@@ -2685,7 +3131,9 @@
   "example": "Mio zio lavora in ospedale.",
   "example_ru": "Мой дядя работает в больнице.",
   "forms": "m., pl. gli ospedali",
-  "note_ru": "Мужской род; «in ospedale» — в больнице (без артикля)."
+  "note_ru": "Мужской род; «in ospedale» — в больнице (без артикля).",
+  "gloss_en": "hospital",
+  "example_en": "My uncle works in a hospital."
  },
  {
   "en": "avere mal di testa",
@@ -2697,7 +3145,9 @@
   "example": "Ho mal di testa, prendo una medicina.",
   "example_ru": "У меня болит голова, приму лекарство.",
   "forms": "ho, hai, ha mal di…",
-  "note_ru": "Модель «avere mal di + часть тела»: «ho mal di denti / di pancia»."
+  "note_ru": "Модель «avere mal di + часть тела»: «ho mal di denti / di pancia».",
+  "gloss_en": "to have a headache",
+  "example_en": "I have a headache, I'll take some medicine."
  },
  {
   "en": "il tempo",
@@ -2709,7 +3159,9 @@
   "example": "Che tempo fa oggi?",
   "example_ru": "Какая сегодня погода?",
   "forms": "m., pl. i tempi",
-  "note_ru": "Одно слово для «погоды» и «времени»: «Non ho tempo» — у меня нет времени."
+  "note_ru": "Одно слово для «погоды» и «времени»: «Non ho tempo» — у меня нет времени.",
+  "gloss_en": "weather / time",
+  "example_en": "What's the weather like today?"
  },
  {
   "en": "il sole",
@@ -2721,7 +3173,9 @@
   "example": "Oggi c'è il sole.",
   "example_ru": "Сегодня солнечно.",
   "forms": "m., pl. i soli",
-  "note_ru": "Мужской род, в отличие от русского «солнце»."
+  "note_ru": "Мужской род, в отличие от русского «солнце».",
+  "gloss_en": "sun",
+  "example_en": "It's sunny today."
  },
  {
   "en": "la pioggia",
@@ -2733,7 +3187,9 @@
   "example": "Non mi piace la pioggia.",
   "example_ru": "Я не люблю дождь.",
   "forms": "f., pl. le piogge",
-  "note_ru": "Женский род, в отличие от русского «дождь»."
+  "note_ru": "Женский род, в отличие от русского «дождь».",
+  "gloss_en": "rain",
+  "example_en": "I don't like the rain."
  },
  {
   "en": "la neve",
@@ -2745,7 +3201,9 @@
   "example": "I bambini giocano con la neve.",
   "example_ru": "Дети играют со снегом.",
   "forms": "f., pl. le nevi",
-  "note_ru": "Женский род, в отличие от русского «снег»."
+  "note_ru": "Женский род, в отличие от русского «снег».",
+  "gloss_en": "snow",
+  "example_en": "The children are playing in the snow."
  },
  {
   "en": "il vento",
@@ -2757,7 +3215,9 @@
   "example": "Oggi c'è molto vento.",
   "example_ru": "Сегодня очень ветрено.",
   "forms": "m., pl. i venti",
-  "note_ru": "«C'è vento» — ветрено."
+  "note_ru": "«C'è vento» — ветрено.",
+  "gloss_en": "wind",
+  "example_en": "It's very windy today."
  },
  {
   "en": "la nuvola",
@@ -2769,7 +3229,9 @@
   "example": "Ci sono molte nuvole, forse piove.",
   "example_ru": "Много туч, наверное, будет дождь.",
   "forms": "f., pl. le nuvole",
-  "note_ru": "Ударение на первый слог: NU-vo-la."
+  "note_ru": "Ударение на первый слог: NU-vo-la.",
+  "gloss_en": "cloud",
+  "example_en": "There are lots of clouds, maybe it'll rain."
  },
  {
   "en": "il cielo",
@@ -2781,7 +3243,9 @@
   "example": "Il cielo è azzurro.",
   "example_ru": "Небо голубое.",
   "forms": "m., pl. i cieli",
-  "note_ru": "Мужской род; «i» после «c» только смягчает: [ˈtʃɛːlo]."
+  "note_ru": "Мужской род; «i» после «c» только смягчает: [ˈtʃɛːlo].",
+  "gloss_en": "sky",
+  "example_en": "The sky is blue."
  },
  {
   "en": "fa caldo",
@@ -2793,7 +3257,9 @@
   "example": "Ad agosto fa molto caldo.",
   "example_ru": "В августе очень жарко.",
   "forms": null,
-  "note_ru": "О погоде — «fa caldo»; о себе — «ho caldo» (мне жарко), не «sono caldo»."
+  "note_ru": "О погоде — «fa caldo»; о себе — «ho caldo» (мне жарко), не «sono caldo».",
+  "gloss_en": "it's hot",
+  "example_en": "In August it's very hot."
  },
  {
   "en": "fa freddo",
@@ -2805,7 +3271,9 @@
   "example": "Oggi fa freddo, metti il cappotto.",
   "example_ru": "Сегодня холодно, надень пальто.",
   "forms": null,
-  "note_ru": "«Мне холодно» — «ho freddo» (глагол avere)."
+  "note_ru": "«Мне холодно» — «ho freddo» (глагол avere).",
+  "gloss_en": "it's cold",
+  "example_en": "It's cold today, put on your coat."
  },
  {
   "en": "piovere",
@@ -2817,7 +3285,9 @@
   "example": "Piove, prendi l'ombrello!",
   "example_ru": "Идёт дождь, возьми зонт!",
   "forms": "piove; piovuto (essere / avere)",
-  "note_ru": "Безличный глагол: «piove» — идёт дождь, без подлежащего."
+  "note_ru": "Безличный глагол: «piove» — идёт дождь, без подлежащего.",
+  "gloss_en": "to rain",
+  "example_en": "It's raining, take your umbrella!"
  },
  {
   "en": "nevicare",
@@ -2829,7 +3299,9 @@
   "example": "A Mosca nevica spesso.",
   "example_ru": "В Москве часто идёт снег.",
   "forms": "nevica; nevicato (essere / avere)",
-  "note_ru": "Безличный: «nevica» — идёт снег; ударение NE-vi-ca."
+  "note_ru": "Безличный: «nevica» — идёт снег; ударение NE-vi-ca.",
+  "gloss_en": "to snow",
+  "example_en": "It often snows in Moscow."
  },
  {
   "en": "caldo",
@@ -2841,7 +3313,9 @@
   "example": "Bevo un tè caldo.",
   "example_ru": "Я пью горячий чай.",
   "forms": "f. calda, pl. caldi / calde",
-  "note_ru": "Ложный друг: на кране «C» — это «caldo» (горячая), а не холодная!"
+  "note_ru": "Ложный друг: на кране «C» — это «caldo» (горячая), а не холодная!",
+  "gloss_en": "hot / warm",
+  "example_en": "I'm drinking a hot tea."
  },
  {
   "en": "freddo",
@@ -2853,7 +3327,9 @@
   "example": "L'acqua del mare è fredda.",
   "example_ru": "Вода в море холодная.",
   "forms": "f. fredda, pl. freddi / fredde",
-  "note_ru": "Также существительное: «il freddo» — холод."
+  "note_ru": "Также существительное: «il freddo» — холод.",
+  "gloss_en": "cold",
+  "example_en": "The sea water is cold."
  },
  {
   "en": "il mare",
@@ -2865,7 +3341,9 @@
   "example": "D'estate andiamo al mare.",
   "example_ru": "Летом мы ездим на море.",
   "forms": "m., pl. i mari",
-  "note_ru": "«Al mare» — на море (и «на море» как место отдыха)."
+  "note_ru": "«Al mare» — на море (и «на море» как место отдыха).",
+  "gloss_en": "sea / seaside",
+  "example_en": "In summer we go to the seaside."
  },
  {
   "en": "la montagna",
@@ -2877,7 +3355,9 @@
   "example": "D'inverno andiamo in montagna.",
   "example_ru": "Зимой мы ездим в горы.",
   "forms": "f., pl. le montagne",
-  "note_ru": "«In montagna» — в горы / в горах (ед. ч.)."
+  "note_ru": "«In montagna» — в горы / в горах (ед. ч.).",
+  "gloss_en": "mountain / mountains",
+  "example_en": "In winter we go to the mountains."
  },
  {
   "en": "il fiume",
@@ -2889,7 +3369,9 @@
   "example": "Il Tevere è il fiume di Roma.",
   "example_ru": "Тибр — река Рима.",
   "forms": "m., pl. i fiumi",
-  "note_ru": "Мужской род, в отличие от русского «река»."
+  "note_ru": "Мужской род, в отличие от русского «река».",
+  "gloss_en": "river",
+  "example_en": "The Tiber is Rome's river."
  },
  {
   "en": "il lago",
@@ -2901,7 +3383,9 @@
   "example": "Il lago di Como è molto bello.",
   "example_ru": "Озеро Комо очень красивое.",
   "forms": "m., pl. i laghi",
-  "note_ru": "Мн. ч. с «h»: «i laghi»."
+  "note_ru": "Мн. ч. с «h»: «i laghi».",
+  "gloss_en": "lake",
+  "example_en": "Lake Como is very beautiful."
  },
  {
   "en": "l'albero",
@@ -2913,7 +3397,9 @@
   "example": "Nel parco ci sono molti alberi.",
   "example_ru": "В парке много деревьев.",
   "forms": "m., pl. gli alberi",
-  "note_ru": "«L'albero di Natale» — новогодняя ёлка."
+  "note_ru": "«L'albero di Natale» — новогодняя ёлка.",
+  "gloss_en": "tree",
+  "example_en": "There are lots of trees in the park."
  },
  {
   "en": "il fiore",
@@ -2925,7 +3411,9 @@
   "example": "Ti regalo dei fiori.",
   "example_ru": "Я дарю тебе цветы.",
   "forms": "m., pl. i fiori",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "flower",
+  "example_en": "I'm giving you some flowers."
  },
  {
   "en": "la spiaggia",
@@ -2937,7 +3425,9 @@
   "example": "Passiamo la giornata in spiaggia.",
   "example_ru": "Мы проводим день на пляже.",
   "forms": "f., pl. le spiagge",
-  "note_ru": "Женский род; «in spiaggia» — на пляже."
+  "note_ru": "Женский род; «in spiaggia» — на пляже.",
+  "gloss_en": "beach",
+  "example_en": "We spend the day at the beach."
  },
  {
   "en": "il bosco",
@@ -2949,7 +3439,9 @@
   "example": "La domenica camminiamo nel bosco.",
   "example_ru": "По воскресеньям мы гуляем в лесу.",
   "forms": "m., pl. i boschi",
-  "note_ru": "Большой густой лес — «la foresta»."
+  "note_ru": "Большой густой лес — «la foresta».",
+  "gloss_en": "wood / forest",
+  "example_en": "On Sundays we walk in the woods."
  },
  {
   "en": "la terra",
@@ -2961,7 +3453,9 @@
   "example": "Il libro è caduto per terra.",
   "example_ru": "Книга упала на пол.",
   "forms": "f., pl. le terre",
-  "note_ru": "«Per terra» — на пол / на землю; планета — «la Terra»."
+  "note_ru": "«Per terra» — на пол / на землю; планета — «la Terra».",
+  "gloss_en": "earth / ground",
+  "example_en": "The book fell on the floor."
  },
  {
   "en": "la luna",
@@ -2973,7 +3467,9 @@
   "example": "Stasera c'è la luna piena.",
   "example_ru": "Сегодня вечером полная луна.",
   "forms": "f., pl. le lune",
-  "note_ru": "«Luna di miele» — медовый месяц."
+  "note_ru": "«Luna di miele» — медовый месяц.",
+  "gloss_en": "moon",
+  "example_en": "There's a full moon tonight."
  },
  {
   "en": "la stella",
@@ -2985,7 +3481,9 @@
   "example": "In montagna si vedono tante stelle.",
   "example_ru": "В горах видно много звёзд.",
   "forms": "f., pl. le stelle",
-  "note_ru": "Также о звёздах кино: «una stella del cinema»."
+  "note_ru": "Также о звёздах кино: «una stella del cinema».",
+  "gloss_en": "star",
+  "example_en": "In the mountains you can see lots of stars."
  },
  {
   "en": "la campagna",
@@ -2997,7 +3495,9 @@
   "example": "I nonni abitano in campagna.",
   "example_ru": "Бабушка и дедушка живут за городом.",
   "forms": "f., pl. le campagne",
-  "note_ru": "Ложный друг: также «кампания» (рекламная), но в быту — «деревня, за городом»."
+  "note_ru": "Ложный друг: также «кампания» (рекламная), но в быту — «деревня, за городом».",
+  "gloss_en": "countryside",
+  "example_en": "My grandparents live in the countryside."
  },
  {
   "en": "la città",
@@ -3009,7 +3509,9 @@
   "example": "Roma è una città bellissima.",
   "example_ru": "Рим — очень красивый город.",
   "forms": "f., pl. le città",
-  "note_ru": "Слова с ударением на последний слог не меняются во мн. ч.: «le città»."
+  "note_ru": "Слова с ударением на последний слог не меняются во мн. ч.: «le città».",
+  "gloss_en": "city / town",
+  "example_en": "Rome is a really beautiful city."
  },
  {
   "en": "la strada",
@@ -3021,7 +3523,9 @@
   "example": "Attenzione quando attraversi la strada!",
   "example_ru": "Будь осторожен, когда переходишь дорогу!",
   "forms": "f., pl. le strade",
-  "note_ru": "«Per strada» — на улице."
+  "note_ru": "«Per strada» — на улице.",
+  "gloss_en": "road / street",
+  "example_en": "Be careful when you cross the road!"
  },
  {
   "en": "la via",
@@ -3033,7 +3537,9 @@
   "example": "Abito in via Garibaldi, numero dieci.",
   "example_ru": "Я живу на улице Гарибальди, дом десять.",
   "forms": "f., pl. le vie",
-  "note_ru": "В адресах: «in via Roma» — на улице Рома (предлог «in»)."
+  "note_ru": "В адресах: «in via Roma» — на улице Рома (предлог «in»).",
+  "gloss_en": "street (in addresses)",
+  "example_en": "I live at number ten, Via Garibaldi."
  },
  {
   "en": "la piazza",
@@ -3045,7 +3551,9 @@
   "example": "Ci vediamo in piazza alle sei.",
   "example_ru": "Встречаемся на площади в шесть.",
   "forms": "f., pl. le piazze",
-  "note_ru": "Площадь — центр жизни итальянского города; «in piazza» — на площади."
+  "note_ru": "Площадь — центр жизни итальянского города; «in piazza» — на площади.",
+  "gloss_en": "square",
+  "example_en": "Let's meet in the square at six."
  },
  {
   "en": "il centro",
@@ -3057,7 +3565,9 @@
   "example": "Il museo è in centro.",
   "example_ru": "Музей в центре.",
   "forms": "m., pl. i centri",
-  "note_ru": "«In centro» — в центре / в центр, без артикля."
+  "note_ru": "«In centro» — в центре / в центр, без артикля.",
+  "gloss_en": "centre",
+  "example_en": "The museum is in the centre."
  },
  {
   "en": "la stazione",
@@ -3069,7 +3579,9 @@
   "example": "La stazione è lontana da qui?",
   "example_ru": "Вокзал далеко отсюда?",
   "forms": "f., pl. le stazioni",
-  "note_ru": "Слова на -zione — женского рода."
+  "note_ru": "Слова на -zione — женского рода.",
+  "gloss_en": "station",
+  "example_en": "Is the station far from here?"
  },
  {
   "en": "l'autobus",
@@ -3081,7 +3593,9 @@
   "example": "Prendo l'autobus numero otto.",
   "example_ru": "Я сажусь на восьмой автобус.",
   "forms": "m., pl. gli autobus",
-  "note_ru": "Транспорт «берут»: «prendere l'autobus»; ехать на — «in autobus»."
+  "note_ru": "Транспорт «берут»: «prendere l'autobus»; ехать на — «in autobus».",
+  "gloss_en": "bus",
+  "example_en": "I take the number eight bus."
  },
  {
   "en": "il treno",
@@ -3093,7 +3607,9 @@
   "example": "Vado a Firenze in treno.",
   "example_ru": "Я еду во Флоренцию на поезде.",
   "forms": "m., pl. i treni",
-  "note_ru": "«In treno» — на поезде (предлог «in» без артикля)."
+  "note_ru": "«In treno» — на поезде (предлог «in» без артикля).",
+  "gloss_en": "train",
+  "example_en": "I'm going to Florence by train."
  },
  {
   "en": "la macchina",
@@ -3105,7 +3621,9 @@
   "example": "Mio padre ha una macchina nuova.",
   "example_ru": "У моего отца новая машина.",
   "forms": "f., pl. le macchine",
-  "note_ru": "Синоним — «l'auto» (ж. р., не изменяется во мн. ч.); ударение MAC-chi-na."
+  "note_ru": "Синоним — «l'auto» (ж. р., не изменяется во мн. ч.); ударение MAC-chi-na.",
+  "gloss_en": "car",
+  "example_en": "My father has a new car."
  },
  {
   "en": "la bicicletta",
@@ -3117,7 +3635,9 @@
   "example": "Vado al lavoro in bicicletta.",
   "example_ru": "Я езжу на работу на велосипеде.",
   "forms": "f., pl. le biciclette; разг. la bici",
-  "note_ru": "Женский род; в разговоре — «la bici»."
+  "note_ru": "Женский род; в разговоре — «la bici».",
+  "gloss_en": "bicycle / bike",
+  "example_en": "I cycle to work."
  },
  {
   "en": "la metropolitana",
@@ -3129,7 +3649,9 @@
   "example": "A Milano prendo la metropolitana.",
   "example_ru": "В Милане я езжу на метро.",
   "forms": "f., pl. le metropolitane; разг. la metro",
-  "note_ru": "Женский род, в отличие от русского «метро»."
+  "note_ru": "Женский род, в отличие от русского «метро».",
+  "gloss_en": "underground / metro",
+  "example_en": "In Milan I take the metro."
  },
  {
   "en": "l'aereo",
@@ -3141,7 +3663,9 @@
   "example": "Vado in Russia in aereo.",
   "example_ru": "Я лечу в Россию на самолёте.",
   "forms": "m., pl. gli aerei",
-  "note_ru": "«In aereo» — самолётом."
+  "note_ru": "«In aereo» — самолётом.",
+  "gloss_en": "plane",
+  "example_en": "I'm flying to Russia."
  },
  {
   "en": "l'aeroporto",
@@ -3153,7 +3677,9 @@
   "example": "L'aeroporto è a venti minuti dal centro.",
   "example_ru": "Аэропорт в двадцати минутах от центра.",
   "forms": "m., pl. gli aeroporti",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "airport",
+  "example_en": "The airport is twenty minutes from the centre."
  },
  {
   "en": "il taxi",
@@ -3165,7 +3691,9 @@
   "example": "Prendiamo un taxi, è tardi.",
   "example_ru": "Давай возьмём такси, уже поздно.",
   "forms": "m., pl. i taxi",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "taxi",
+  "example_en": "Let's take a taxi, it's late."
  },
  {
   "en": "il biglietto",
@@ -3177,7 +3705,9 @@
   "example": "Un biglietto per Roma, per favore.",
   "example_ru": "Один билет до Рима, пожалуйста.",
   "forms": "m., pl. i biglietti",
-  "note_ru": "Билет на автобус перед поездкой нужно «convalidare» — прокомпостировать."
+  "note_ru": "Билет на автобус перед поездкой нужно «convalidare» — прокомпостировать.",
+  "gloss_en": "ticket",
+  "example_en": "A ticket to Rome, please."
  },
  {
   "en": "la fermata",
@@ -3189,7 +3719,9 @@
   "example": "Scendo alla prossima fermata.",
   "example_ru": "Я выхожу на следующей остановке.",
   "forms": "f., pl. le fermate",
-  "note_ru": "Ложный друг: не «ферма» (это «la fattoria»)."
+  "note_ru": "Ложный друг: не «ферма» (это «la fattoria»).",
+  "gloss_en": "stop (bus, tram)",
+  "example_en": "I'm getting off at the next stop."
  },
  {
   "en": "la chiesa",
@@ -3201,7 +3733,9 @@
   "example": "In questa piazza c'è una chiesa antica.",
   "example_ru": "На этой площади есть старинная церковь.",
   "forms": "f., pl. le chiese",
-  "note_ru": "«chie» читается [kjɛ]."
+  "note_ru": "«chie» читается [kjɛ].",
+  "gloss_en": "church",
+  "example_en": "There's an old church in this square."
  },
  {
   "en": "il museo",
@@ -3213,7 +3747,9 @@
   "example": "Il museo apre alle nove.",
   "example_ru": "Музей открывается в девять.",
   "forms": "m., pl. i musei",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "museum",
+  "example_en": "The museum opens at nine."
  },
  {
   "en": "il parco",
@@ -3225,7 +3761,9 @@
   "example": "La domenica andiamo al parco.",
   "example_ru": "По воскресеньям мы ходим в парк.",
   "forms": "m., pl. i parchi",
-  "note_ru": "Мн. ч. с «h»: «i parchi»."
+  "note_ru": "Мн. ч. с «h»: «i parchi».",
+  "gloss_en": "park",
+  "example_en": "On Sundays we go to the park."
  },
  {
   "en": "il ponte",
@@ -3237,7 +3775,9 @@
   "example": "A Venezia ci sono tanti ponti.",
   "example_ru": "В Венеции много мостов.",
   "forms": "m., pl. i ponti",
-  "note_ru": "«Fare il ponte» — взять отгул между праздником и выходными."
+  "note_ru": "«Fare il ponte» — взять отгул между праздником и выходными.",
+  "gloss_en": "bridge",
+  "example_en": "There are lots of bridges in Venice."
  },
  {
   "en": "l'albergo",
@@ -3249,7 +3789,9 @@
   "example": "L'albergo è vicino alla stazione.",
   "example_ru": "Гостиница рядом с вокзалом.",
   "forms": "m., pl. gli alberghi",
-  "note_ru": "Синоним — «l'hotel» (произносится без «h»)."
+  "note_ru": "Синоним — «l'hotel» (произносится без «h»).",
+  "gloss_en": "hotel",
+  "example_en": "The hotel is near the station."
  },
  {
   "en": "il ristorante",
@@ -3261,7 +3803,9 @@
   "example": "Stasera ceniamo al ristorante.",
   "example_ru": "Сегодня вечером мы ужинаем в ресторане.",
   "forms": "m., pl. i ristoranti",
-  "note_ru": "Попроще и дешевле — «la trattoria» или «l'osteria»."
+  "note_ru": "Попроще и дешевле — «la trattoria» или «l'osteria».",
+  "gloss_en": "restaurant",
+  "example_en": "Tonight we're having dinner at a restaurant."
  },
  {
   "en": "il bar",
@@ -3273,7 +3817,9 @@
   "example": "Ci vediamo al bar sotto casa.",
   "example_ru": "Встретимся в кафе у дома.",
   "forms": "m., pl. i bar",
-  "note_ru": "Ложный друг: итальянский «bar» — это прежде всего кафе, где пьют кофе утром."
+  "note_ru": "Ложный друг: итальянский «bar» — это прежде всего кафе, где пьют кофе утром.",
+  "gloss_en": "café / bar",
+  "example_en": "See you at the café downstairs."
  },
  {
   "en": "a destra",
@@ -3285,7 +3831,9 @@
   "example": "Gira a destra dopo il ponte.",
   "example_ru": "Поверни направо после моста.",
   "forms": null,
-  "note_ru": "«Sempre dritto» — всё время прямо."
+  "note_ru": "«Sempre dritto» — всё время прямо.",
+  "gloss_en": "to the right / on the right",
+  "example_en": "Turn right after the bridge."
  },
  {
   "en": "a sinistra",
@@ -3297,7 +3845,9 @@
   "example": "La farmacia è a sinistra.",
   "example_ru": "Аптека слева.",
   "forms": null,
-  "note_ru": "Одно выражение и для «налево» (куда), и для «слева» (где)."
+  "note_ru": "Одно выражение и для «налево» (куда), и для «слева» (где).",
+  "gloss_en": "to the left / on the left",
+  "example_en": "The pharmacy is on the left."
  },
  {
   "en": "il negozio",
@@ -3309,7 +3859,9 @@
   "example": "Il negozio chiude alle otto.",
   "example_ru": "Магазин закрывается в восемь.",
   "forms": "m., pl. i negozi",
-  "note_ru": "Многие магазины закрыты днём на перерыв, примерно с 13 до 16."
+  "note_ru": "Многие магазины закрыты днём на перерыв, примерно с 13 до 16.",
+  "gloss_en": "shop",
+  "example_en": "The shop closes at eight."
  },
  {
   "en": "il supermercato",
@@ -3321,7 +3873,9 @@
   "example": "Vado al supermercato a comprare il latte.",
   "example_ru": "Я иду в супермаркет купить молока.",
   "forms": "m., pl. i supermercati",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "supermarket",
+  "example_en": "I'm going to the supermarket to buy milk."
  },
  {
   "en": "il mercato",
@@ -3333,7 +3887,9 @@
   "example": "Il sabato c'è il mercato in piazza.",
   "example_ru": "По субботам на площади рынок.",
   "forms": "m., pl. i mercati",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "market",
+  "example_en": "On Saturdays there's a market in the square."
  },
  {
   "en": "i soldi",
@@ -3345,7 +3901,9 @@
   "example": "Non ho soldi per il cinema.",
   "example_ru": "У меня нет денег на кино.",
   "forms": "m. pl.",
-  "note_ru": "Как и в русском, мн. ч.; книжный синоним — «il denaro»."
+  "note_ru": "Как и в русском, мн. ч.; книжный синоним — «il denaro».",
+  "gloss_en": "money",
+  "example_en": "I don't have money for the cinema."
  },
  {
   "en": "l'euro",
@@ -3357,7 +3915,9 @@
   "example": "Il caffè costa un euro.",
   "example_ru": "Кофе стоит одно евро.",
   "forms": "m., pl. gli euro",
-  "note_ru": "Мужской род и не изменяется: «due euro»."
+  "note_ru": "Мужской род и не изменяется: «due euro».",
+  "gloss_en": "euro",
+  "example_en": "Coffee costs one euro."
  },
  {
   "en": "il prezzo",
@@ -3369,7 +3929,9 @@
   "example": "Il prezzo è scritto qui.",
   "example_ru": "Цена написана здесь.",
   "forms": "m., pl. i prezzi",
-  "note_ru": "Мужской род; не путайте с «la cena» (ужин)."
+  "note_ru": "Мужской род; не путайте с «la cena» (ужин).",
+  "gloss_en": "price",
+  "example_en": "The price is written here."
  },
  {
   "en": "lo sconto",
@@ -3381,7 +3943,9 @@
   "example": "Oggi c'è uno sconto del venti per cento.",
   "example_ru": "Сегодня скидка двадцать процентов.",
   "forms": "m., pl. gli sconti",
-  "note_ru": "Сезон распродаж — «i saldi»."
+  "note_ru": "Сезон распродаж — «i saldi».",
+  "gloss_en": "discount",
+  "example_en": "Today there's a twenty per cent discount."
  },
  {
   "en": "la carta di credito",
@@ -3393,7 +3957,9 @@
   "example": "Posso pagare con la carta di credito?",
   "example_ru": "Можно заплатить кредитной картой?",
   "forms": "f., pl. le carte di credito",
-  "note_ru": "Часто просто «la carta»: «Pago con la carta»."
+  "note_ru": "Часто просто «la carta»: «Pago con la carta».",
+  "gloss_en": "credit card",
+  "example_en": "Can I pay by credit card?"
  },
  {
   "en": "i contanti",
@@ -3405,7 +3971,9 @@
   "example": "Pago in contanti.",
   "example_ru": "Я плачу наличными.",
   "forms": "m. pl.",
-  "note_ru": "«In contanti» — наличными."
+  "note_ru": "«In contanti» — наличными.",
+  "gloss_en": "cash",
+  "example_en": "I'm paying in cash."
  },
  {
   "en": "lo scontrino",
@@ -3417,7 +3985,9 @@
   "example": "Ecco il suo scontrino.",
   "example_ru": "Вот ваш чек.",
   "forms": "m., pl. gli scontrini",
-  "note_ru": "Это только кассовый чек; банковский чек — «l'assegno»."
+  "note_ru": "Это только кассовый чек; банковский чек — «l'assegno».",
+  "gloss_en": "receipt",
+  "example_en": "Here's your receipt."
  },
  {
   "en": "la cassa",
@@ -3429,7 +3999,9 @@
   "example": "Si paga alla cassa.",
   "example_ru": "Платят на кассе.",
   "forms": "f., pl. le casse",
-  "note_ru": "Также «колонка» (аудио) и «ящик»."
+  "note_ru": "Также «колонка» (аудио) и «ящик».",
+  "gloss_en": "checkout / till",
+  "example_en": "You pay at the till."
  },
  {
   "en": "la taglia",
@@ -3441,7 +4013,9 @@
   "example": "Che taglia porta?",
   "example_ru": "Какой у вас размер?",
   "forms": "f., pl. le taglie",
-  "note_ru": "Размер обуви — «il numero»: «Che numero porti?»."
+  "note_ru": "Размер обуви — «il numero»: «Che numero porti?».",
+  "gloss_en": "size (clothing)",
+  "example_en": "What size do you take?"
  },
  {
   "en": "comprare",
@@ -3453,7 +4027,9 @@
   "example": "Compro il pane al supermercato.",
   "example_ru": "Я покупаю хлеб в супермаркете.",
   "forms": "compro, compri, compra; comprato (avere)",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to buy",
+  "example_en": "I buy bread at the supermarket."
  },
  {
   "en": "vendere",
@@ -3465,7 +4041,9 @@
   "example": "Il mio vicino vende la macchina.",
   "example_ru": "Мой сосед продаёт машину.",
   "forms": "vendo, vendi, vende; venduto (avere)",
-  "note_ru": "«Vendesi» на объявлении — «продаётся»."
+  "note_ru": "«Vendesi» на объявлении — «продаётся».",
+  "gloss_en": "to sell",
+  "example_en": "My neighbour is selling his car."
  },
  {
   "en": "pagare",
@@ -3477,7 +4055,9 @@
   "example": "Pago io il caffè!",
   "example_ru": "Я плачу за кофе!",
   "forms": "pago, paghi, paga; pagato (avere)",
-  "note_ru": "Без предлога: «pagare il conto» — платить по счёту; перед i/e вставляется «h»: «paghi»."
+  "note_ru": "Без предлога: «pagare il conto» — платить по счёту; перед i/e вставляется «h»: «paghi».",
+  "gloss_en": "to pay",
+  "example_en": "I'll pay for the coffee!"
  },
  {
   "en": "costare",
@@ -3489,7 +4069,9 @@
   "example": "Quanto costano queste scarpe?",
   "example_ru": "Сколько стоят эти туфли?",
   "forms": "costa, costano; costato (essere)",
-  "note_ru": "В прошедшем с «essere»: «È costato molto»."
+  "note_ru": "В прошедшем с «essere»: «È costato molto».",
+  "gloss_en": "to cost",
+  "example_en": "How much do these shoes cost?"
  },
  {
   "en": "aperto",
@@ -3501,7 +4083,9 @@
   "example": "Il negozio è aperto anche la domenica.",
   "example_ru": "Магазин открыт и в воскресенье.",
   "forms": "f. aperta, pl. aperti / aperte",
-  "note_ru": "Причастие от «aprire»; «all'aperto» — на открытом воздухе."
+  "note_ru": "Причастие от «aprire»; «all'aperto» — на открытом воздухе.",
+  "gloss_en": "open",
+  "example_en": "The shop is open on Sundays too."
  },
  {
   "en": "chiuso",
@@ -3513,7 +4097,9 @@
   "example": "Il lunedì il museo è chiuso.",
   "example_ru": "По понедельникам музей закрыт.",
   "forms": "f. chiusa, pl. chiusi / chiuse",
-  "note_ru": "Причастие от «chiudere»."
+  "note_ru": "Причастие от «chiudere».",
+  "gloss_en": "closed",
+  "example_en": "The museum is closed on Mondays."
  },
  {
   "en": "caro",
@@ -3525,7 +4111,9 @@
   "example": "Questo ristorante è troppo caro.",
   "example_ru": "Этот ресторан слишком дорогой.",
   "forms": "f. cara, pl. cari / care",
-  "note_ru": "Как и в русском, два смысла: «дорогой по цене» и «милый» («Caro Marco»)."
+  "note_ru": "Как и в русском, два смысла: «дорогой по цене» и «милый» («Caro Marco»).",
+  "gloss_en": "expensive / dear",
+  "example_en": "This restaurant is too expensive."
  },
  {
   "en": "economico",
@@ -3537,7 +4125,9 @@
   "example": "Cerco un albergo economico.",
   "example_ru": "Я ищу недорогую гостиницу.",
   "forms": "f. economica, pl. economici / economiche",
-  "note_ru": "Ложный друг: в быту значит «дешёвый», а не «экономный»."
+  "note_ru": "Ложный друг: в быту значит «дешёвый», а не «экономный».",
+  "gloss_en": "cheap / inexpensive",
+  "example_en": "I'm looking for a cheap hotel."
  },
  {
   "en": "il resto",
@@ -3549,7 +4139,9 @@
   "example": "Ecco il resto: due euro.",
   "example_ru": "Вот сдача: два евро.",
   "forms": "m., pl. i resti",
-  "note_ru": "«Tenga il resto» — сдачи не надо."
+  "note_ru": "«Tenga il resto» — сдачи не надо.",
+  "gloss_en": "change / rest",
+  "example_en": "Here's your change: two euros."
  },
  {
   "en": "la bottiglia",
@@ -3561,7 +4153,9 @@
   "example": "Compro una bottiglia d'acqua.",
   "example_ru": "Я покупаю бутылку воды.",
   "forms": "f., pl. le bottiglie",
-  "note_ru": "«Una bottiglia di vino» — бутылка вина (предлог «di»)."
+  "note_ru": "«Una bottiglia di vino» — бутылка вина (предлог «di»).",
+  "gloss_en": "bottle",
+  "example_en": "I'm buying a bottle of water."
  },
  {
   "en": "il sacchetto",
@@ -3573,7 +4167,9 @@
   "example": "Vuole un sacchetto?",
   "example_ru": "Вам нужен пакет?",
   "forms": "m., pl. i sacchetti",
-  "note_ru": "В магазинах пакет обычно платный."
+  "note_ru": "В магазинах пакет обычно платный.",
+  "gloss_en": "bag (plastic, paper)",
+  "example_en": "Would you like a bag?"
  },
  {
   "en": "quanto costa?",
@@ -3585,7 +4181,9 @@
   "example": "Scusi, quanto costa questa borsa?",
   "example_ru": "Извините, сколько стоит эта сумка?",
   "forms": "pl. quanto costano?",
-  "note_ru": "Во мн. ч. — «Quanto costano?»; разговорно — «Quant'è?» (сколько с меня?)."
+  "note_ru": "Во мн. ч. — «Quanto costano?»; разговорно — «Quant'è?» (сколько с меня?).",
+  "gloss_en": "how much is it?",
+  "example_en": "Excuse me, how much is this bag?"
  },
  {
   "en": "il cliente",
@@ -3597,7 +4195,9 @@
   "example": "Il negozio ha molti clienti.",
   "example_ru": "У магазина много покупателей.",
   "forms": "f. la cliente, pl. i clienti",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "customer / client",
+  "example_en": "The shop has a lot of customers."
  },
  {
   "en": "il lavoro",
@@ -3609,7 +4209,9 @@
   "example": "Il mio lavoro è interessante.",
   "example_ru": "Моя работа интересная.",
   "forms": "m., pl. i lavori",
-  "note_ru": "«Al lavoro» — на работе / на работу."
+  "note_ru": "«Al lavoro» — на работе / на работу.",
+  "gloss_en": "work / job",
+  "example_en": "My job is interesting."
  },
  {
   "en": "lavorare",
@@ -3621,7 +4223,9 @@
   "example": "Lavoro in un ufficio.",
   "example_ru": "Я работаю в офисе.",
   "forms": "lavoro, lavori, lavora; lavorato (avere)",
-  "note_ru": "«Lavorare come…» — работать кем-то: «lavoro come cameriere»."
+  "note_ru": "«Lavorare come…» — работать кем-то: «lavoro come cameriere».",
+  "gloss_en": "to work",
+  "example_en": "I work in an office."
  },
  {
   "en": "l'ufficio",
@@ -3633,7 +4237,9 @@
   "example": "Il mio ufficio è al secondo piano.",
   "example_ru": "Мой офис на третьем этаже.",
   "forms": "m., pl. gli uffici",
-  "note_ru": "«L'ufficio postale» — почта."
+  "note_ru": "«L'ufficio postale» — почта.",
+  "gloss_en": "office",
+  "example_en": "My office is on the second floor."
  },
  {
   "en": "il collega",
@@ -3645,7 +4251,9 @@
   "example": "Pranzo con i miei colleghi.",
   "example_ru": "Я обедаю с коллегами.",
   "forms": "f. la collega, pl. i colleghi / le colleghe",
-  "note_ru": "Мужской род на -a: «il collega», мн. ч. «i colleghi»."
+  "note_ru": "Мужской род на -a: «il collega», мн. ч. «i colleghi».",
+  "gloss_en": "colleague",
+  "example_en": "I have lunch with my colleagues."
  },
  {
   "en": "l'insegnante",
@@ -3657,7 +4265,9 @@
   "example": "La nostra insegnante è molto brava.",
   "example_ru": "Наша учительница очень хорошая.",
   "forms": "m./f., pl. gli insegnanti / le insegnanti",
-  "note_ru": "Одна форма для мужчин и женщин, различает только артикль."
+  "note_ru": "Одна форма для мужчин и женщин, различает только артикль.",
+  "gloss_en": "teacher",
+  "example_en": "Our teacher is very good."
  },
  {
   "en": "lo studente",
@@ -3669,7 +4279,9 @@
   "example": "Sono uno studente di medicina.",
   "example_ru": "Я студент-медик.",
   "forms": "f. la studentessa, pl. gli studenti / le studentesse",
-  "note_ru": "Артикль «lo» перед s + согласная; женский род — «la studentessa»."
+  "note_ru": "Артикль «lo» перед s + согласная; женский род — «la studentessa».",
+  "gloss_en": "student / pupil",
+  "example_en": "I'm a medical student."
  },
  {
   "en": "la scuola",
@@ -3681,7 +4293,9 @@
   "example": "Mio figlio va a scuola a piedi.",
   "example_ru": "Мой сын ходит в школу пешком.",
   "forms": "f., pl. le scuole",
-  "note_ru": "«A scuola» — в школу / в школе, без артикля."
+  "note_ru": "«A scuola» — в школу / в школе, без артикля.",
+  "gloss_en": "school",
+  "example_en": "My son walks to school."
  },
  {
   "en": "l'università",
@@ -3693,7 +4307,9 @@
   "example": "Mia sorella studia all'università.",
   "example_ru": "Моя сестра учится в университете.",
   "forms": "f., pl. le università",
-  "note_ru": "Женский род, в отличие от русского «университет»."
+  "note_ru": "Женский род, в отличие от русского «университет».",
+  "gloss_en": "university",
+  "example_en": "My sister studies at university."
  },
  {
   "en": "la classe",
@@ -3705,7 +4321,9 @@
   "example": "Nella mia classe ci sono venti studenti.",
   "example_ru": "В моём классе двадцать учеников.",
   "forms": "f., pl. le classi",
-  "note_ru": "Женский род; «in classe» — в классе."
+  "note_ru": "Женский род; «in classe» — в классе.",
+  "gloss_en": "class / classroom",
+  "example_en": "There are twenty students in my class."
  },
  {
   "en": "la lezione",
@@ -3717,7 +4335,9 @@
   "example": "La lezione di italiano è alle dieci.",
   "example_ru": "Урок итальянского в десять.",
   "forms": "f., pl. le lezioni",
-  "note_ru": "Не путайте: «la lezione» — урок, «la lettura» — чтение."
+  "note_ru": "Не путайте: «la lezione» — урок, «la lettura» — чтение.",
+  "gloss_en": "lesson / class",
+  "example_en": "The Italian lesson is at ten."
  },
  {
   "en": "il libro",
@@ -3729,7 +4349,9 @@
   "example": "Leggo un libro in italiano.",
   "example_ru": "Я читаю книгу на итальянском.",
   "forms": "m., pl. i libri",
-  "note_ru": "Мужской род, в отличие от русского «книга»."
+  "note_ru": "Мужской род, в отличие от русского «книга».",
+  "gloss_en": "book",
+  "example_en": "I'm reading a book in Italian."
  },
  {
   "en": "il quaderno",
@@ -3741,7 +4363,9 @@
   "example": "Scrivo le parole nuove nel quaderno.",
   "example_ru": "Я записываю новые слова в тетрадь.",
   "forms": "m., pl. i quaderni",
-  "note_ru": "Мужской род, в отличие от русского «тетрадь»."
+  "note_ru": "Мужской род, в отличие от русского «тетрадь».",
+  "gloss_en": "exercise book / notebook",
+  "example_en": "I write the new words in my notebook."
  },
  {
   "en": "la penna",
@@ -3753,7 +4377,9 @@
   "example": "Mi presti una penna?",
   "example_ru": "Одолжишь мне ручку?",
   "forms": "f., pl. le penne",
-  "note_ru": "Также «перо»; «le penne» — ещё и вид пасты."
+  "note_ru": "Также «перо»; «le penne» — ещё и вид пасты.",
+  "gloss_en": "pen",
+  "example_en": "Can you lend me a pen?"
  },
  {
   "en": "la matita",
@@ -3765,7 +4391,9 @@
   "example": "I bambini disegnano con le matite.",
   "example_ru": "Дети рисуют карандашами.",
   "forms": "f., pl. le matite",
-  "note_ru": "Женский род, в отличие от русского «карандаш»."
+  "note_ru": "Женский род, в отличие от русского «карандаш».",
+  "gloss_en": "pencil",
+  "example_en": "The children draw with pencils."
  },
  {
   "en": "il compito",
@@ -3777,7 +4405,9 @@
   "example": "Dopo cena faccio i compiti.",
   "example_ru": "После ужина я делаю уроки.",
   "forms": "m., pl. i compiti",
-  "note_ru": "«I compiti» — домашнее задание; ударение на первый слог."
+  "note_ru": "«I compiti» — домашнее задание; ударение на первый слог.",
+  "gloss_en": "task / homework",
+  "example_en": "After dinner I do my homework."
  },
  {
   "en": "l'esame",
@@ -3789,7 +4419,9 @@
   "example": "Domani ho un esame di italiano.",
   "example_ru": "Завтра у меня экзамен по итальянскому.",
   "forms": "m., pl. gli esami",
-  "note_ru": "«Fare / dare un esame» — сдавать экзамен."
+  "note_ru": "«Fare / dare un esame» — сдавать экзамен.",
+  "gloss_en": "exam",
+  "example_en": "Tomorrow I have an Italian exam."
  },
  {
   "en": "studiare",
@@ -3801,7 +4433,9 @@
   "example": "Studio l'italiano ogni sera.",
   "example_ru": "Я занимаюсь итальянским каждый вечер.",
   "forms": "studio, studi, studia; studiato (avere)",
-  "note_ru": "Переходный: «studiare l'italiano» — без предлога."
+  "note_ru": "Переходный: «studiare l'italiano» — без предлога.",
+  "gloss_en": "to study",
+  "example_en": "I study Italian every evening."
  },
  {
   "en": "imparare",
@@ -3813,7 +4447,9 @@
   "example": "Imparo dieci parole al giorno.",
   "example_ru": "Я учу десять слов в день.",
   "forms": "imparo, impari, impara; imparato (avere)",
-  "note_ru": "Результат учёбы: «ho imparato» — я выучил."
+  "note_ru": "Результат учёбы: «ho imparato» — я выучил.",
+  "gloss_en": "to learn",
+  "example_en": "I learn ten words a day."
  },
  {
   "en": "insegnare",
@@ -3825,7 +4461,9 @@
   "example": "Mia madre insegna matematica.",
   "example_ru": "Моя мама преподаёт математику.",
   "forms": "insegno, insegni, insegna; insegnato (avere)",
-  "note_ru": "Кого — через «a»: «insegnare l'italiano ai bambini»."
+  "note_ru": "Кого — через «a»: «insegnare l'italiano ai bambini».",
+  "gloss_en": "to teach",
+  "example_en": "My mother teaches maths."
  },
  {
   "en": "scrivere",
@@ -3837,7 +4475,9 @@
   "example": "Scrivo una lettera alla nonna.",
   "example_ru": "Я пишу письмо бабушке.",
   "forms": "scrivo, scrivi, scrive; scritto (avere)",
-  "note_ru": "Неправильное причастие: «scritto»."
+  "note_ru": "Неправильное причастие: «scritto».",
+  "gloss_en": "to write",
+  "example_en": "I'm writing a letter to Grandma."
  },
  {
   "en": "leggere",
@@ -3849,7 +4489,9 @@
   "example": "La sera leggo un libro.",
   "example_ru": "Вечером я читаю книгу.",
   "forms": "leggo, leggi, legge; letto (avere)",
-  "note_ru": "«leggo» с [ɡ], «leggi» с [dʒ]; причастие «letto» (совпадает с «кровать»)."
+  "note_ru": "«leggo» с [ɡ], «leggi» с [dʒ]; причастие «letto» (совпадает с «кровать»).",
+  "gloss_en": "to read",
+  "example_en": "In the evening I read a book."
  },
  {
   "en": "il computer",
@@ -3861,7 +4503,9 @@
   "example": "Lavoro al computer tutto il giorno.",
   "example_ru": "Я весь день работаю за компьютером.",
   "forms": "m., pl. i computer",
-  "note_ru": "Заимствования не изменяются во мн. ч.: «i computer»."
+  "note_ru": "Заимствования не изменяются во мн. ч.: «i computer».",
+  "gloss_en": "computer",
+  "example_en": "I work at the computer all day."
  },
  {
   "en": "il professore",
@@ -3873,7 +4517,9 @@
   "example": "Il professore spiega la lezione.",
   "example_ru": "Преподаватель объясняет урок.",
   "forms": "f. la professoressa, pl. i professori / le professoresse",
-  "note_ru": "Ложный друг: так называют любого учителя средней школы, не только профессора."
+  "note_ru": "Ложный друг: так называют любого учителя средней школы, не только профессора.",
+  "gloss_en": "teacher / professor",
+  "example_en": "The teacher explains the lesson."
  },
  {
   "en": "l'impiegato",
@@ -3885,7 +4531,9 @@
   "example": "Mio fratello fa l'impiegato in banca.",
   "example_ru": "Мой брат работает служащим в банке.",
   "forms": "f. l'impiegata, pl. gli impiegati / le impiegate",
-  "note_ru": "Профессию называют через «fare» + артикль: «faccio l'impiegato»."
+  "note_ru": "Профессию называют через «fare» + артикль: «faccio l'impiegato».",
+  "gloss_en": "office worker / clerk",
+  "example_en": "My brother works as a clerk in a bank."
  },
  {
   "en": "la parola",
@@ -3897,7 +4545,9 @@
   "example": "Questa parola è difficile.",
   "example_ru": "Это слово трудное.",
   "forms": "f., pl. le parole",
-  "note_ru": "Женский род, в отличие от русского «слово»."
+  "note_ru": "Женский род, в отличие от русского «слово».",
+  "gloss_en": "word",
+  "example_en": "This word is difficult."
  },
  {
   "en": "il tempo libero",
@@ -3909,7 +4559,9 @@
   "example": "Cosa fai nel tempo libero?",
   "example_ru": "Что ты делаешь в свободное время?",
   "forms": "m.",
-  "note_ru": "«Nel tempo libero» — в свободное время."
+  "note_ru": "«Nel tempo libero» — в свободное время.",
+  "gloss_en": "free time",
+  "example_en": "What do you do in your free time?"
  },
  {
   "en": "lo sport",
@@ -3921,7 +4573,9 @@
   "example": "Faccio sport tre volte alla settimana.",
   "example_ru": "Я занимаюсь спортом три раза в неделю.",
   "forms": "m., pl. gli sport",
-  "note_ru": "«Fare sport» — заниматься спортом."
+  "note_ru": "«Fare sport» — заниматься спортом.",
+  "gloss_en": "sport",
+  "example_en": "I do sport three times a week."
  },
  {
   "en": "il calcio",
@@ -3933,7 +4587,9 @@
   "example": "Mio figlio gioca a calcio.",
   "example_ru": "Мой сын играет в футбол.",
   "forms": "m.",
-  "note_ru": "Также «кальций» и «удар ногой»; «giocare a calcio» — с предлогом «a»."
+  "note_ru": "Также «кальций» и «удар ногой»; «giocare a calcio» — с предлогом «a».",
+  "gloss_en": "football",
+  "example_en": "My son plays football."
  },
  {
   "en": "la musica",
@@ -3945,7 +4601,9 @@
   "example": "Ascolto la musica in macchina.",
   "example_ru": "Я слушаю музыку в машине.",
   "forms": "f., pl. le musiche",
-  "note_ru": "Ударение на первый слог: MU-si-ca."
+  "note_ru": "Ударение на первый слог: MU-si-ca.",
+  "gloss_en": "music",
+  "example_en": "I listen to music in the car."
  },
  {
   "en": "il film",
@@ -3957,7 +4615,9 @@
   "example": "Stasera guardiamo un film.",
   "example_ru": "Сегодня вечером посмотрим фильм.",
   "forms": "m., pl. i film",
-  "note_ru": "Не изменяется во мн. ч.: «due film»."
+  "note_ru": "Не изменяется во мн. ч.: «due film».",
+  "gloss_en": "film",
+  "example_en": "Tonight we're watching a film."
  },
  {
   "en": "il cinema",
@@ -3969,7 +4629,9 @@
   "example": "Andiamo al cinema sabato?",
   "example_ru": "Пойдём в кино в субботу?",
   "forms": "m., pl. i cinema",
-  "note_ru": "Мужской род на -a, не изменяется во мн. ч."
+  "note_ru": "Мужской род на -a, не изменяется во мн. ч.",
+  "gloss_en": "cinema",
+  "example_en": "Shall we go to the cinema on Saturday?"
  },
  {
   "en": "il teatro",
@@ -3981,7 +4643,9 @@
   "example": "Stasera andiamo a teatro.",
   "example_ru": "Сегодня вечером мы идём в театр.",
   "forms": "m., pl. i teatri",
-  "note_ru": "«A teatro» — в театр / в театре, без артикля."
+  "note_ru": "«A teatro» — в театр / в театре, без артикля.",
+  "gloss_en": "theatre",
+  "example_en": "Tonight we're going to the theatre."
  },
  {
   "en": "la canzone",
@@ -3993,7 +4657,9 @@
   "example": "Questa canzone è molto famosa.",
   "example_ru": "Эта песня очень известная.",
   "forms": "f., pl. le canzoni",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "song",
+  "example_en": "This song is very famous."
  },
  {
   "en": "giocare",
@@ -4005,7 +4671,9 @@
   "example": "I bambini giocano nel parco.",
   "example_ru": "Дети играют в парке.",
   "forms": "gioco, giochi, gioca; giocato (avere)",
-  "note_ru": "Играть в игру — «giocare a»; на инструменте — «suonare»."
+  "note_ru": "Играть в игру — «giocare a»; на инструменте — «suonare».",
+  "gloss_en": "to play (a game)",
+  "example_en": "The children are playing in the park."
  },
  {
   "en": "suonare",
@@ -4017,7 +4685,9 @@
   "example": "Mio fratello suona la chitarra.",
   "example_ru": "Мой брат играет на гитаре.",
   "forms": "suono, suoni, suona; suonato (avere)",
-  "note_ru": "Без предлога: «suonare il piano»; также «звонить» (о будильнике, звонке)."
+  "note_ru": "Без предлога: «suonare il piano»; также «звонить» (о будильнике, звонке).",
+  "gloss_en": "to play (an instrument) / to ring",
+  "example_en": "My brother plays the guitar."
  },
  {
   "en": "ballare",
@@ -4029,7 +4699,9 @@
   "example": "Il sabato sera andiamo a ballare.",
   "example_ru": "В субботу вечером мы идём танцевать.",
   "forms": "ballo, balli, balla; ballato (avere)",
-  "note_ru": "«Il ballo» — танец, бал."
+  "note_ru": "«Il ballo» — танец, бал.",
+  "gloss_en": "to dance",
+  "example_en": "On Saturday nights we go dancing."
  },
  {
   "en": "cantare",
@@ -4041,7 +4713,9 @@
   "example": "Mia nonna canta sempre in cucina.",
   "example_ru": "Моя бабушка всегда поёт на кухне.",
   "forms": "canto, canti, canta; cantato (avere)",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to sing",
+  "example_en": "My grandmother always sings in the kitchen."
  },
  {
   "en": "nuotare",
@@ -4053,7 +4727,9 @@
   "example": "D'estate nuoto nel mare.",
   "example_ru": "Летом я плаваю в море.",
   "forms": "nuoto, nuoti, nuota; nuotato (avere)",
-  "note_ru": "Купаться — «fare il bagno»."
+  "note_ru": "Купаться — «fare il bagno».",
+  "gloss_en": "to swim",
+  "example_en": "In summer I swim in the sea."
  },
  {
   "en": "correre",
@@ -4065,7 +4741,9 @@
   "example": "La mattina corro nel parco.",
   "example_ru": "По утрам я бегаю в парке.",
   "forms": "corro, corri, corre; corso (avere / essere)",
-  "note_ru": "Неправильное причастие: «corso»."
+  "note_ru": "Неправильное причастие: «corso».",
+  "gloss_en": "to run",
+  "example_en": "In the morning I run in the park."
  },
  {
   "en": "viaggiare",
@@ -4077,7 +4755,9 @@
   "example": "Mi piace viaggiare in treno.",
   "example_ru": "Мне нравится путешествовать на поезде.",
   "forms": "viaggio, viaggi, viaggia; viaggiato (avere)",
-  "note_ru": "«Il viaggio» — поездка, путешествие."
+  "note_ru": "«Il viaggio» — поездка, путешествие.",
+  "gloss_en": "to travel",
+  "example_en": "I like travelling by train."
  },
  {
   "en": "disegnare",
@@ -4089,7 +4769,9 @@
   "example": "Mia figlia disegna molto bene.",
   "example_ru": "Моя дочь очень хорошо рисует.",
   "forms": "disegno, disegni, disegna; disegnato (avere)",
-  "note_ru": "Рисовать карандашом — «disegnare», красками — «dipingere»."
+  "note_ru": "Рисовать карандашом — «disegnare», красками — «dipingere».",
+  "gloss_en": "to draw",
+  "example_en": "My daughter draws very well."
  },
  {
   "en": "fare una passeggiata",
@@ -4101,7 +4783,9 @@
   "example": "Dopo cena facciamo una passeggiata.",
   "example_ru": "После ужина мы гуляем.",
   "forms": "faccio, fai, fa una passeggiata",
-  "note_ru": "«Passeggiare» — гулять пешком."
+  "note_ru": "«Passeggiare» — гулять пешком.",
+  "gloss_en": "to go for a walk",
+  "example_en": "After dinner we go for a walk."
  },
  {
   "en": "la foto",
@@ -4113,7 +4797,9 @@
   "example": "Facciamo una foto in piazza!",
   "example_ru": "Давай сфотографируемся на площади!",
   "forms": "f., pl. le foto",
-  "note_ru": "Сокращение от «la fotografia», поэтому женский род и не изменяется во мн. ч."
+  "note_ru": "Сокращение от «la fotografia», поэтому женский род и не изменяется во мн. ч.",
+  "gloss_en": "photo",
+  "example_en": "Let's take a photo in the square!"
  },
  {
   "en": "il gioco",
@@ -4125,7 +4811,9 @@
   "example": "Questo gioco è per bambini.",
   "example_ru": "Эта игра для детей.",
   "forms": "m., pl. i giochi",
-  "note_ru": "Также «игрушка» — чаще «il giocattolo»."
+  "note_ru": "Также «игрушка» — чаще «il giocattolo».",
+  "gloss_en": "game",
+  "example_en": "This game is for children."
  },
  {
   "en": "la festa",
@@ -4137,7 +4825,9 @@
   "example": "Sabato faccio una festa a casa.",
   "example_ru": "В субботу я устраиваю вечеринку дома.",
   "forms": "f., pl. le feste",
-  "note_ru": "«Fare festa» — праздновать; «la festa della mamma» — День матери."
+  "note_ru": "«Fare festa» — праздновать; «la festa della mamma» — День матери.",
+  "gloss_en": "party / holiday",
+  "example_en": "On Saturday I'm having a party at home."
  },
  {
   "en": "il concerto",
@@ -4149,7 +4839,9 @@
   "example": "Stasera c'è un concerto in piazza.",
   "example_ru": "Сегодня вечером на площади концерт.",
   "forms": "m., pl. i concerti",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "concert",
+  "example_en": "There's a concert in the square tonight."
  },
  {
   "en": "la chitarra",
@@ -4161,7 +4853,9 @@
   "example": "Suono la chitarra da due anni.",
   "example_ru": "Я играю на гитаре два года.",
   "forms": "f., pl. le chitarre",
-  "note_ru": "«chi» читается [ki]."
+  "note_ru": "«chi» читается [ki].",
+  "gloss_en": "guitar",
+  "example_en": "I've been playing the guitar for two years."
  },
  {
   "en": "la palestra",
@@ -4173,7 +4867,9 @@
   "example": "Vado in palestra dopo il lavoro.",
   "example_ru": "Я хожу в спортзал после работы.",
   "forms": "f., pl. le palestre",
-  "note_ru": "«In palestra» — в спортзал / в спортзале."
+  "note_ru": "«In palestra» — в спортзал / в спортзале.",
+  "gloss_en": "gym",
+  "example_en": "I go to the gym after work."
  },
  {
   "en": "la vacanza",
@@ -4185,7 +4881,9 @@
   "example": "Ad agosto siamo in vacanza.",
   "example_ru": "В августе мы в отпуске.",
   "forms": "f., pl. le vacanze",
-  "note_ru": "Ложный друг: не «вакансия»; «andare in vacanza» — поехать в отпуск."
+  "note_ru": "Ложный друг: не «вакансия»; «andare in vacanza» — поехать в отпуск.",
+  "gloss_en": "holiday / vacation",
+  "example_en": "In August we're on holiday."
  },
  {
   "en": "la televisione",
@@ -4197,7 +4895,9 @@
   "example": "La sera guardiamo la televisione.",
   "example_ru": "Вечером мы смотрим телевизор.",
   "forms": "f., pl. le televisioni; разг. la tv",
-  "note_ru": "В разговоре — «la tv» [ti ˈvu] или «la tele»."
+  "note_ru": "В разговоре — «la tv» [ti ˈvu] или «la tele».",
+  "gloss_en": "television / TV",
+  "example_en": "In the evening we watch television."
  },
  {
   "en": "l'animale",
@@ -4209,7 +4909,9 @@
   "example": "Hai animali in casa?",
   "example_ru": "У тебя есть домашние животные?",
   "forms": "m., pl. gli animali",
-  "note_ru": "Мужской род, в отличие от русского «животное» (ср. р.)."
+  "note_ru": "Мужской род, в отличие от русского «животное» (ср. р.).",
+  "gloss_en": "animal",
+  "example_en": "Do you have any pets?"
  },
  {
   "en": "il cane",
@@ -4221,7 +4923,9 @@
   "example": "Il mio cane si chiama Rex.",
   "example_ru": "Мою собаку зовут Рекс.",
   "forms": "m., pl. i cani; f. la cagna",
-  "note_ru": "Мужской род, в отличие от русского «собака»."
+  "note_ru": "Мужской род, в отличие от русского «собака».",
+  "gloss_en": "dog",
+  "example_en": "My dog is called Rex."
  },
  {
   "en": "il gatto",
@@ -4233,7 +4937,9 @@
   "example": "Il gatto dorme sul letto.",
   "example_ru": "Кот спит на кровати.",
   "forms": "f. la gatta, pl. i gatti / le gatte",
-  "note_ru": "«Il gatto» — и кошка вообще."
+  "note_ru": "«Il gatto» — и кошка вообще.",
+  "gloss_en": "cat",
+  "example_en": "The cat is sleeping on the bed."
  },
  {
   "en": "il cavallo",
@@ -4245,7 +4951,9 @@
   "example": "Mia sorella va a cavallo.",
   "example_ru": "Моя сестра ездит верхом.",
   "forms": "m., pl. i cavalli",
-  "note_ru": "«Andare a cavallo» — ездить верхом."
+  "note_ru": "«Andare a cavallo» — ездить верхом.",
+  "gloss_en": "horse",
+  "example_en": "My sister goes horse riding."
  },
  {
   "en": "la mucca",
@@ -4257,7 +4965,9 @@
   "example": "In campagna ci sono molte mucche.",
   "example_ru": "В деревне много коров.",
   "forms": "f., pl. le mucche",
-  "note_ru": "Книжный синоним — «la vacca»."
+  "note_ru": "Книжный синоним — «la vacca».",
+  "gloss_en": "cow",
+  "example_en": "There are lots of cows in the countryside."
  },
  {
   "en": "il maiale",
@@ -4269,7 +4979,9 @@
   "example": "Il maiale mangia molto.",
   "example_ru": "Свинья много ест.",
   "forms": "m., pl. i maiali",
-  "note_ru": "Мясо тоже «il maiale»: «carne di maiale» — свинина."
+  "note_ru": "Мясо тоже «il maiale»: «carne di maiale» — свинина.",
+  "gloss_en": "pig / pork",
+  "example_en": "The pig eats a lot."
  },
  {
   "en": "la pecora",
@@ -4281,7 +4993,9 @@
   "example": "Le pecore sono in montagna.",
   "example_ru": "Овцы в горах.",
   "forms": "f., pl. le pecore",
-  "note_ru": "Ударение на первый слог: PE-co-ra."
+  "note_ru": "Ударение на первый слог: PE-co-ra.",
+  "gloss_en": "sheep",
+  "example_en": "The sheep are in the mountains."
  },
  {
   "en": "la gallina",
@@ -4293,7 +5007,9 @@
   "example": "La gallina fa un uovo ogni giorno.",
   "example_ru": "Курица несёт яйцо каждый день.",
   "forms": "f., pl. le galline; петух — il gallo",
-  "note_ru": "Курица как еда — «il pollo»."
+  "note_ru": "Курица как еда — «il pollo».",
+  "gloss_en": "hen",
+  "example_en": "The hen lays an egg every day."
  },
  {
   "en": "l'uccello",
@@ -4305,7 +5021,9 @@
   "example": "Sull'albero canta un uccello.",
   "example_ru": "На дереве поёт птица.",
   "forms": "m., pl. gli uccelli",
-  "note_ru": "Мужской род, в отличие от русского «птица»."
+  "note_ru": "Мужской род, в отличие от русского «птица».",
+  "gloss_en": "bird",
+  "example_en": "A bird is singing in the tree."
  },
  {
   "en": "il topo",
@@ -4317,7 +5035,9 @@
   "example": "Il gatto corre dietro al topo.",
   "example_ru": "Кот бежит за мышью.",
   "forms": "m., pl. i topi",
-  "note_ru": "Также компьютерная мышь — «il mouse»; «Topolino» — Микки Маус."
+  "note_ru": "Также компьютерная мышь — «il mouse»; «Topolino» — Микки Маус.",
+  "gloss_en": "mouse / rat",
+  "example_en": "The cat is running after the mouse."
  },
  {
   "en": "il coniglio",
@@ -4329,7 +5049,9 @@
   "example": "I bambini hanno un coniglio bianco.",
   "example_ru": "У детей есть белый кролик.",
   "forms": "m., pl. i conigli",
-  "note_ru": "Дикий заяц — «la lepre»."
+  "note_ru": "Дикий заяц — «la lepre».",
+  "gloss_en": "rabbit",
+  "example_en": "The children have a white rabbit."
  },
  {
   "en": "l'orso",
@@ -4341,7 +5063,9 @@
   "example": "In Russia ci sono molti orsi.",
   "example_ru": "В России много медведей.",
   "forms": "m., pl. gli orsi",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "bear",
+  "example_en": "There are lots of bears in Russia."
  },
  {
   "en": "il lupo",
@@ -4353,7 +5077,9 @@
   "example": "Il lupo vive in montagna.",
   "example_ru": "Волк живёт в горах.",
   "forms": "m., pl. i lupi; f. la lupa",
-  "note_ru": "«In bocca al lupo!» — «Ни пуха ни пера!»."
+  "note_ru": "«In bocca al lupo!» — «Ни пуха ни пера!».",
+  "gloss_en": "wolf",
+  "example_en": "The wolf lives in the mountains."
  },
  {
   "en": "la volpe",
@@ -4365,7 +5091,9 @@
   "example": "La volpe è un animale furbo.",
   "example_ru": "Лиса — хитрое животное.",
   "forms": "f., pl. le volpi",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "fox",
+  "example_en": "The fox is a cunning animal."
  },
  {
   "en": "il leone",
@@ -4377,7 +5105,9 @@
   "example": "Il leone è il re degli animali.",
   "example_ru": "Лев — царь зверей.",
   "forms": "f. la leonessa, pl. i leoni",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "lion",
+  "example_en": "The lion is the king of the animals."
  },
  {
   "en": "la tigre",
@@ -4389,7 +5119,9 @@
   "example": "Allo zoo c'è una tigre.",
   "example_ru": "В зоопарке есть тигр.",
   "forms": "f., pl. le tigri",
-  "note_ru": "Женский род, в отличие от русского «тигр»."
+  "note_ru": "Женский род, в отличие от русского «тигр».",
+  "gloss_en": "tiger",
+  "example_en": "There's a tiger at the zoo."
  },
  {
   "en": "l'elefante",
@@ -4401,7 +5133,9 @@
   "example": "L'elefante è grande e grigio.",
   "example_ru": "Слон большой и серый.",
   "forms": "m., pl. gli elefanti",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "elephant",
+  "example_en": "The elephant is big and grey."
  },
  {
   "en": "la scimmia",
@@ -4413,7 +5147,9 @@
   "example": "La scimmia mangia una banana.",
   "example_ru": "Обезьяна ест банан.",
   "forms": "f., pl. le scimmie",
-  "note_ru": "«sci» читается [ʃi]."
+  "note_ru": "«sci» читается [ʃi].",
+  "gloss_en": "monkey",
+  "example_en": "The monkey is eating a banana."
  },
  {
   "en": "il serpente",
@@ -4425,7 +5161,9 @@
   "example": "Ho paura dei serpenti.",
   "example_ru": "Я боюсь змей.",
   "forms": "m., pl. i serpenti",
-  "note_ru": "Мужской род, в отличие от русского «змея»."
+  "note_ru": "Мужской род, в отличие от русского «змея».",
+  "gloss_en": "snake",
+  "example_en": "I'm afraid of snakes."
  },
  {
   "en": "la farfalla",
@@ -4437,7 +5175,9 @@
   "example": "In giardino c'è una farfalla gialla.",
   "example_ru": "В саду жёлтая бабочка.",
   "forms": "f., pl. le farfalle",
-  "note_ru": "«Le farfalle» — ещё и паста в форме бантиков."
+  "note_ru": "«Le farfalle» — ещё и паста в форме бантиков.",
+  "gloss_en": "butterfly",
+  "example_en": "There's a yellow butterfly in the garden."
  },
  {
   "en": "l'ape",
@@ -4449,7 +5189,9 @@
   "example": "Le api amano i fiori.",
   "example_ru": "Пчёлы любят цветы.",
   "forms": "f., pl. le api",
-  "note_ru": "«Ape» — также трёхколёсный грузовичок Piaggio."
+  "note_ru": "«Ape» — также трёхколёсный грузовичок Piaggio.",
+  "gloss_en": "bee",
+  "example_en": "Bees love flowers."
  },
  {
   "en": "la mosca",
@@ -4461,7 +5203,9 @@
   "example": "C'è una mosca in cucina.",
   "example_ru": "На кухне муха.",
   "forms": "f., pl. le mosche",
-  "note_ru": "С большой буквы «Mosca» — Москва!"
+  "note_ru": "С большой буквы «Mosca» — Москва!",
+  "gloss_en": "fly",
+  "example_en": "There's a fly in the kitchen."
  },
  {
   "en": "l'anatra",
@@ -4473,7 +5217,9 @@
   "example": "Al parco diamo il pane alle anatre.",
   "example_ru": "В парке мы кормим уток хлебом.",
   "forms": "f., pl. le anatre",
-  "note_ru": "Ударение на первый слог: A-na-tra."
+  "note_ru": "Ударение на первый слог: A-na-tra.",
+  "gloss_en": "duck",
+  "example_en": "At the park we feed bread to the ducks."
  },
  {
   "en": "la tartaruga",
@@ -4485,7 +5231,9 @@
   "example": "La tartaruga è molto lenta.",
   "example_ru": "Черепаха очень медленная.",
   "forms": "f., pl. le tartarughe",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "tortoise / turtle",
+  "example_en": "The tortoise is very slow."
  },
  {
   "en": "il cucciolo",
@@ -4497,7 +5245,9 @@
   "example": "Il nostro cane ha tre cuccioli.",
   "example_ru": "У нашей собаки трое щенков.",
   "forms": "m., pl. i cuccioli",
-  "note_ru": "Подходит для детёнышей любых животных, а ласково — и о детях."
+  "note_ru": "Подходит для детёнышей любых животных, а ласково — и о детях.",
+  "gloss_en": "puppy / cub",
+  "example_en": "Our dog has three puppies."
  },
  {
   "en": "essere",
@@ -4509,7 +5259,9 @@
   "example": "Sono russo e sono a Roma.",
   "example_ru": "Я русский, и я в Риме.",
   "forms": "sono, sei, è; siamo, siete, sono; stato (essere)",
-  "note_ru": "В отличие от русского, связку нельзя опускать: «Lui è medico» — «Он врач»; вспомогательный глагол для глаголов движения."
+  "note_ru": "В отличие от русского, связку нельзя опускать: «Lui è medico» — «Он врач»; вспомогательный глагол для глаголов движения.",
+  "gloss_en": "to be",
+  "example_en": "I'm Russian and I'm in Rome."
  },
  {
   "en": "avere",
@@ -4521,7 +5273,9 @@
   "example": "Ho due fratelli.",
   "example_ru": "У меня два брата.",
   "forms": "ho, hai, ha; abbiamo, avete, hanno; avuto (avere)",
-  "note_ru": "Вместо «у меня есть» — «io ho»; также вспомогательный глагол: «ho mangiato». «h» не читается."
+  "note_ru": "Вместо «у меня есть» — «io ho»; также вспомогательный глагол: «ho mangiato». «h» не читается.",
+  "gloss_en": "to have",
+  "example_en": "I have two brothers."
  },
  {
   "en": "fare",
@@ -4533,7 +5287,9 @@
   "example": "Cosa fai stasera?",
   "example_ru": "Что ты делаешь сегодня вечером?",
   "forms": "faccio, fai, fa; facciamo, fate, fanno; fatto (avere)",
-  "note_ru": "Много устойчивых сочетаний: «fare colazione», «fare la doccia», «fa caldo»."
+  "note_ru": "Много устойчивых сочетаний: «fare colazione», «fare la doccia», «fa caldo».",
+  "gloss_en": "to do / to make",
+  "example_en": "What are you doing tonight?"
  },
  {
   "en": "andare",
@@ -4545,7 +5301,9 @@
   "example": "Vado a Milano in treno.",
   "example_ru": "Я еду в Милан на поезде.",
   "forms": "vado, vai, va; andiamo, andate, vanno; andato (essere)",
-  "note_ru": "Один глагол для «идти» и «ехать»; в прошедшем с «essere»: «sono andato»."
+  "note_ru": "Один глагол для «идти» и «ехать»; в прошедшем с «essere»: «sono andato».",
+  "gloss_en": "to go",
+  "example_en": "I'm going to Milan by train."
  },
  {
   "en": "venire",
@@ -4557,7 +5315,9 @@
   "example": "Vieni a cena da noi?",
   "example_ru": "Придёшь к нам на ужин?",
   "forms": "vengo, vieni, viene; veniamo, venite, vengono; venuto (essere)",
-  "note_ru": "Движение к говорящему; «Vengo!» — «Иду!» (к тому, кто зовёт)."
+  "note_ru": "Движение к говорящему; «Vengo!» — «Иду!» (к тому, кто зовёт).",
+  "gloss_en": "to come",
+  "example_en": "Are you coming to dinner at our place?"
  },
  {
   "en": "stare",
@@ -4569,7 +5329,9 @@
   "example": "Oggi sto a casa.",
   "example_ru": "Сегодня я дома.",
   "forms": "sto, stai, sta; stiamo, state, stanno; stato (essere)",
-  "note_ru": "О самочувствии — «stare»: «Come stai?»; «stare per» — собираться (вот-вот)."
+  "note_ru": "О самочувствии — «stare»: «Come stai?»; «stare per» — собираться (вот-вот).",
+  "gloss_en": "to stay / to be",
+  "example_en": "Today I'm staying at home."
  },
  {
   "en": "volere",
@@ -4581,7 +5343,9 @@
   "example": "Voglio un gelato!",
   "example_ru": "Я хочу мороженое!",
   "forms": "voglio, vuoi, vuole; vogliamo, volete, vogliono; voluto (avere)",
-  "note_ru": "Вежливо — «vorrei» (я бы хотел): «Vorrei un caffè»."
+  "note_ru": "Вежливо — «vorrei» (я бы хотел): «Vorrei un caffè».",
+  "gloss_en": "to want",
+  "example_en": "I want an ice cream!"
  },
  {
   "en": "potere",
@@ -4593,7 +5357,9 @@
   "example": "Posso entrare?",
   "example_ru": "Можно войти?",
   "forms": "posso, puoi, può; possiamo, potete, possono; potuto (avere)",
-  "note_ru": "«Уметь» (навык) — чаще «sapere»: «So nuotare»."
+  "note_ru": "«Уметь» (навык) — чаще «sapere»: «So nuotare».",
+  "gloss_en": "can / to be able to",
+  "example_en": "May I come in?"
  },
  {
   "en": "dovere",
@@ -4605,7 +5371,9 @@
   "example": "Devo lavorare domani.",
   "example_ru": "Завтра мне нужно работать.",
   "forms": "devo, devi, deve; dobbiamo, dovete, devono; dovuto (avere)",
-  "note_ru": "Также «быть должным» (о деньгах): «Ti devo dieci euro»."
+  "note_ru": "Также «быть должным» (о деньгах): «Ti devo dieci euro».",
+  "gloss_en": "must / to have to",
+  "example_en": "I have to work tomorrow."
  },
  {
   "en": "dire",
@@ -4617,7 +5385,9 @@
   "example": "Cosa dici?",
   "example_ru": "Что ты говоришь?",
   "forms": "dico, dici, dice; diciamo, dite, dicono; detto (avere)",
-  "note_ru": "«Dire» — сказать что-то конкретное; «parlare» — говорить, разговаривать."
+  "note_ru": "«Dire» — сказать что-то конкретное; «parlare» — говорить, разговаривать.",
+  "gloss_en": "to say / to tell",
+  "example_en": "What are you saying?"
  },
  {
   "en": "uscire",
@@ -4629,7 +5399,9 @@
   "example": "Stasera esco con gli amici.",
   "example_ru": "Сегодня вечером я гуляю с друзьями.",
   "forms": "esco, esci, esce; usciamo, uscite, escono; uscito (essere)",
-  "note_ru": "Корень меняется: «esco», но «usciamo»; «uscire con» — встречаться, гулять с кем-то."
+  "note_ru": "Корень меняется: «esco», но «usciamo»; «uscire con» — встречаться, гулять с кем-то.",
+  "gloss_en": "to go out",
+  "example_en": "Tonight I'm going out with my friends."
  },
  {
   "en": "sapere",
@@ -4641,7 +5413,9 @@
   "example": "Non so dov'è la stazione.",
   "example_ru": "Я не знаю, где вокзал.",
   "forms": "so, sai, sa; sappiamo, sapete, sanno; saputo (avere)",
-  "note_ru": "«Sapere» — знать факт или уметь; знать человека или место — «conoscere»."
+  "note_ru": "«Sapere» — знать факт или уметь; знать человека или место — «conoscere».",
+  "gloss_en": "to know / to know how",
+  "example_en": "I don't know where the station is."
  },
  {
   "en": "conoscere",
@@ -4653,7 +5427,9 @@
   "example": "Conosci mia sorella?",
   "example_ru": "Ты знаешь мою сестру?",
   "forms": "conosco, conosci, conosce; conosciuto (avere)",
-  "note_ru": "«conosco» с [sk], «conosci» с [ʃʃ]; в прошедшем — «познакомиться»: «L'ho conosciuto ieri»."
+  "note_ru": "«conosco» с [sk], «conosci» с [ʃʃ]; в прошедшем — «познакомиться»: «L'ho conosciuto ieri».",
+  "gloss_en": "to know / to meet",
+  "example_en": "Do you know my sister?"
  },
  {
   "en": "vedere",
@@ -4665,7 +5441,9 @@
   "example": "Vedo il mare dalla finestra.",
   "example_ru": "Я вижу море из окна.",
   "forms": "vedo, vedi, vede; visto / veduto (avere)",
-  "note_ru": "«Ci vediamo!» — «Увидимся!»."
+  "note_ru": "«Ci vediamo!» — «Увидимся!».",
+  "gloss_en": "to see",
+  "example_en": "I can see the sea from the window."
  },
  {
   "en": "sentire",
@@ -4677,7 +5455,9 @@
   "example": "Non ti sento bene.",
   "example_ru": "Я тебя плохо слышу.",
   "forms": "sento, senti, sente; sentito (avere)",
-  "note_ru": "«Senti!» — «Слушай!»; «sentirsi» — чувствовать себя."
+  "note_ru": "«Senti!» — «Слушай!»; «sentirsi» — чувствовать себя.",
+  "gloss_en": "to hear / to feel",
+  "example_en": "I can't hear you well."
  },
  {
   "en": "parlare",
@@ -4689,7 +5469,9 @@
   "example": "Parli italiano?",
   "example_ru": "Ты говоришь по-итальянски?",
   "forms": "parlo, parli, parla; parlato (avere)",
-  "note_ru": "Язык без предлога: «parlare italiano» — говорить по-итальянски."
+  "note_ru": "Язык без предлога: «parlare italiano» — говорить по-итальянски.",
+  "gloss_en": "to speak / to talk",
+  "example_en": "Do you speak Italian?"
  },
  {
   "en": "mangiare",
@@ -4701,7 +5483,9 @@
   "example": "Mangiamo una pizza stasera?",
   "example_ru": "Поедим пиццу сегодня вечером?",
   "forms": "mangio, mangi, mangia; mangiato (avere)",
-  "note_ru": "«i» после «g» только смягчает: [ˈmandʒo]; во 2-м лице одна «i»: «mangi»."
+  "note_ru": "«i» после «g» только смягчает: [ˈmandʒo]; во 2-м лице одна «i»: «mangi».",
+  "gloss_en": "to eat",
+  "example_en": "Shall we have a pizza tonight?"
  },
  {
   "en": "bere",
@@ -4713,7 +5497,9 @@
   "example": "Bevo molta acqua.",
   "example_ru": "Я пью много воды.",
   "forms": "bevo, bevi, beve; beviamo, bevete, bevono; bevuto (avere)",
-  "note_ru": "Спрягается от старой формы «bevere»: «bevo», «bevuto»."
+  "note_ru": "Спрягается от старой формы «bevere»: «bevo», «bevuto».",
+  "gloss_en": "to drink",
+  "example_en": "I drink a lot of water."
  },
  {
   "en": "prendere",
@@ -4725,7 +5511,9 @@
   "example": "Prendo un caffè, e tu?",
   "example_ru": "Я возьму кофе, а ты?",
   "forms": "prendo, prendi, prende; preso (avere)",
-  "note_ru": "Также о транспорте и заказе: «prendere l'autobus», «prendo una pizza»."
+  "note_ru": "Также о транспорте и заказе: «prendere l'autobus», «prendo una pizza».",
+  "gloss_en": "to take / to have",
+  "example_en": "I'll have a coffee, what about you?"
  },
  {
   "en": "dare",
@@ -4737,7 +5525,9 @@
   "example": "Mi dai il tuo numero?",
   "example_ru": "Дашь мне свой номер?",
   "forms": "do, dai, dà; diamo, date, danno; dato (avere)",
-  "note_ru": "«Dà» (даёт) пишется с ударением, чтобы отличать от предлога «da»."
+  "note_ru": "«Dà» (даёт) пишется с ударением, чтобы отличать от предлога «da».",
+  "gloss_en": "to give",
+  "example_en": "Will you give me your number?"
  },
  {
   "en": "mettere",
@@ -4749,7 +5539,9 @@
   "example": "Metto il latte nel frigo.",
   "example_ru": "Я ставлю молоко в холодильник.",
   "forms": "metto, metti, mette; messo (avere)",
-  "note_ru": "Один глагол для «класть», «ставить» и «надевать»; «mettersi» — надевать на себя."
+  "note_ru": "Один глагол для «класть», «ставить» и «надевать»; «mettersi» — надевать на себя.",
+  "gloss_en": "to put / to put on",
+  "example_en": "I put the milk in the fridge."
  },
  {
   "en": "capire",
@@ -4761,7 +5553,9 @@
   "example": "Scusi, non capisco.",
   "example_ru": "Извините, я не понимаю.",
   "forms": "capisco, capisci, capisce; capiamo; capito (avere)",
-  "note_ru": "Глагол с -isc-: «capisco», но «capiamo»; «Capito?» — «Понятно?»."
+  "note_ru": "Глагол с -isc-: «capisco», но «capiamo»; «Capito?» — «Понятно?».",
+  "gloss_en": "to understand",
+  "example_en": "Sorry, I don't understand."
  },
  {
   "en": "aprire",
@@ -4773,7 +5567,9 @@
   "example": "Apri la finestra, per favore.",
   "example_ru": "Открой окно, пожалуйста.",
   "forms": "apro, apri, apre; aperto (avere)",
-  "note_ru": "Неправильное причастие: «aperto»; противоположное — «chiudere», «chiuso»."
+  "note_ru": "Неправильное причастие: «aperto»; противоположное — «chiudere», «chiuso».",
+  "gloss_en": "to open",
+  "example_en": "Open the window, please."
  },
  {
   "en": "aspettare",
@@ -4785,7 +5581,9 @@
   "example": "Ti aspetto alla fermata.",
   "example_ru": "Я жду тебя на остановке.",
   "forms": "aspetto, aspetti, aspetta; aspettato (avere)",
-  "note_ru": "Без предлога: «aspettare l'autobus» — ждать автобус."
+  "note_ru": "Без предлога: «aspettare l'autobus» — ждать автобус.",
+  "gloss_en": "to wait (for)",
+  "example_en": "I'll wait for you at the stop."
  },
  {
   "en": "piacere",
@@ -4797,7 +5595,9 @@
   "example": "Mi piace la pizza, mi piacciono i film.",
   "example_ru": "Мне нравится пицца, мне нравятся фильмы.",
   "forms": "piace / piacciono; mi, ti, gli, le piace; piaciuto (essere)",
-  "note_ru": "Как и русское «нравиться»: кому — местоимение (mi), что — подлежащее; с мн. ч. — «piacciono»."
+  "note_ru": "Как и русское «нравиться»: кому — местоимение (mi), что — подлежащее; с мн. ч. — «piacciono».",
+  "gloss_en": "to like / to please",
+  "example_en": "I like pizza, I like films."
  },
  {
   "en": "grande",
@@ -4809,7 +5609,9 @@
   "example": "Abito in una casa grande.",
   "example_ru": "Я живу в большом доме.",
   "forms": "f. grande, pl. grandi",
-  "note_ru": "О людях может значить «взрослый» или «старший»: «mio fratello più grande»."
+  "note_ru": "О людях может значить «взрослый» или «старший»: «mio fratello più grande».",
+  "gloss_en": "big / large",
+  "example_en": "I live in a big house."
  },
  {
   "en": "piccolo",
@@ -4821,7 +5623,9 @@
   "example": "Ho un cane piccolo.",
   "example_ru": "У меня маленькая собака.",
   "forms": "f. piccola, pl. piccoli / piccole",
-  "note_ru": "Ударение на первый слог: PIC-co-lo."
+  "note_ru": "Ударение на первый слог: PIC-co-lo.",
+  "gloss_en": "small / little",
+  "example_en": "I have a small dog."
  },
  {
   "en": "bello",
@@ -4833,7 +5637,9 @@
   "example": "Che bella giornata!",
   "example_ru": "Какой прекрасный день!",
   "forms": "f. bella, pl. belli / belle; перед сущ.: bel, bell', bello, bei, begli",
-  "note_ru": "Перед существительным меняется как артикль: «un bel ragazzo», «un bello zaino», «i begli occhi»."
+  "note_ru": "Перед существительным меняется как артикль: «un bel ragazzo», «un bello zaino», «i begli occhi».",
+  "gloss_en": "beautiful / nice",
+  "example_en": "What a beautiful day!"
  },
  {
   "en": "brutto",
@@ -4845,7 +5651,9 @@
   "example": "Oggi fa brutto tempo.",
   "example_ru": "Сегодня плохая погода.",
   "forms": "f. brutta, pl. brutti / brutte",
-  "note_ru": "Не только «уродливый», но и «плохой, неприятный»: «una brutta notizia»."
+  "note_ru": "Не только «уродливый», но и «плохой, неприятный»: «una brutta notizia».",
+  "gloss_en": "ugly / bad",
+  "example_en": "The weather is bad today."
  },
  {
   "en": "buono",
@@ -4857,7 +5665,9 @@
   "example": "Questa pizza è molto buona.",
   "example_ru": "Эта пицца очень вкусная.",
   "forms": "f. buona, pl. buoni / buone; перед сущ.: buon",
-  "note_ru": "Перед мужским существительным в ед. ч. — «buon»: «buon giorno», «buon viaggio»."
+  "note_ru": "Перед мужским существительным в ед. ч. — «buon»: «buon giorno», «buon viaggio».",
+  "gloss_en": "good / tasty",
+  "example_en": "This pizza is really good."
  },
  {
   "en": "cattivo",
@@ -4869,7 +5679,9 @@
   "example": "Il lupo è cattivo nella storia.",
   "example_ru": "В сказке волк злой.",
   "forms": "f. cattiva, pl. cattivi / cattive",
-  "note_ru": "О еде — невкусный, о человеке — злой."
+  "note_ru": "О еде — невкусный, о человеке — злой.",
+  "gloss_en": "bad / naughty / nasty",
+  "example_en": "The wolf is the bad guy in the story."
  },
  {
   "en": "nuovo",
@@ -4881,7 +5693,9 @@
   "example": "Ho un telefono nuovo.",
   "example_ru": "У меня новый телефон.",
   "forms": "f. nuova, pl. nuovi / nuove",
-  "note_ru": "«Di nuovo» — снова."
+  "note_ru": "«Di nuovo» — снова.",
+  "gloss_en": "new",
+  "example_en": "I have a new phone."
  },
  {
   "en": "vecchio",
@@ -4893,7 +5707,9 @@
   "example": "Questa macchina è vecchia.",
   "example_ru": "Эта машина старая.",
   "forms": "f. vecchia, pl. vecchi / vecchie",
-  "note_ru": "О людях вежливее говорить «anziano» — пожилой."
+  "note_ru": "О людях вежливее говорить «anziano» — пожилой.",
+  "gloss_en": "old",
+  "example_en": "This car is old."
  },
  {
   "en": "giovane",
@@ -4905,7 +5721,9 @@
   "example": "Mia madre è ancora giovane.",
   "example_ru": "Моя мама ещё молодая.",
   "forms": "f. giovane, pl. giovani",
-  "note_ru": "«I giovani» — молодёжь; ударение на первый слог."
+  "note_ru": "«I giovani» — молодёжь; ударение на первый слог.",
+  "gloss_en": "young",
+  "example_en": "My mother is still young."
  },
  {
   "en": "alto",
@@ -4917,7 +5735,9 @@
   "example": "Mio fratello è molto alto.",
   "example_ru": "Мой брат очень высокий.",
   "forms": "f. alta, pl. alti / alte",
-  "note_ru": "«Ad alta voce» — вслух, громко."
+  "note_ru": "«Ad alta voce» — вслух, громко.",
+  "gloss_en": "tall / high",
+  "example_en": "My brother is very tall."
  },
  {
   "en": "basso",
@@ -4929,7 +5749,9 @@
   "example": "La sedia è troppo bassa.",
   "example_ru": "Стул слишком низкий.",
   "forms": "f. bassa, pl. bassi / basse",
-  "note_ru": "О голосе — тихий, низкий."
+  "note_ru": "О голосе — тихий, низкий.",
+  "gloss_en": "short / low",
+  "example_en": "The chair is too low."
  },
  {
   "en": "lungo",
@@ -4941,7 +5763,9 @@
   "example": "È un viaggio lungo.",
   "example_ru": "Это долгая поездка.",
   "forms": "f. lunga, pl. lunghi / lunghe",
-  "note_ru": "Мн. ч. с «h», чтобы сохранить звук [ɡ]."
+  "note_ru": "Мн. ч. с «h», чтобы сохранить звук [ɡ].",
+  "gloss_en": "long",
+  "example_en": "It's a long journey."
  },
  {
   "en": "corto",
@@ -4953,7 +5777,9 @@
   "example": "Ho i capelli corti.",
   "example_ru": "У меня короткие волосы.",
   "forms": "f. corta, pl. corti / corte",
-  "note_ru": "О времени чаще «breve»: «una breve vacanza»."
+  "note_ru": "О времени чаще «breve»: «una breve vacanza».",
+  "gloss_en": "short",
+  "example_en": "I have short hair."
  },
  {
   "en": "facile",
@@ -4965,7 +5791,9 @@
   "example": "L'esame è facile.",
   "example_ru": "Экзамен лёгкий.",
   "forms": "f. facile, pl. facili",
-  "note_ru": "Ударение на первый слог: FA-ci-le; лёгкий по весу — «leggero»."
+  "note_ru": "Ударение на первый слог: FA-ci-le; лёгкий по весу — «leggero».",
+  "gloss_en": "easy",
+  "example_en": "The exam is easy."
  },
  {
   "en": "difficile",
@@ -4977,7 +5805,9 @@
   "example": "L'italiano non è difficile.",
   "example_ru": "Итальянский не трудный.",
   "forms": "f. difficile, pl. difficili",
-  "note_ru": "Ударение: dif-FI-ci-le."
+  "note_ru": "Ударение: dif-FI-ci-le.",
+  "gloss_en": "difficult / hard",
+  "example_en": "Italian isn't difficult."
  },
  {
   "en": "felice",
@@ -4989,7 +5819,9 @@
   "example": "Sono felice di vederti.",
   "example_ru": "Я рад тебя видеть.",
   "forms": "f. felice, pl. felici",
-  "note_ru": "Чуть менее сильное — «contento» (довольный, рад)."
+  "note_ru": "Чуть менее сильное — «contento» (довольный, рад).",
+  "gloss_en": "happy",
+  "example_en": "I'm happy to see you."
  },
  {
   "en": "triste",
@@ -5001,7 +5833,9 @@
   "example": "Perché sei triste?",
   "example_ru": "Почему ты грустный?",
   "forms": "f. triste, pl. tristi",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "sad",
+  "example_en": "Why are you sad?"
  },
  {
   "en": "stanco",
@@ -5013,7 +5847,9 @@
   "example": "La sera sono sempre stanco.",
   "example_ru": "Вечером я всегда уставший.",
   "forms": "f. stanca, pl. stanchi / stanche",
-  "note_ru": "«Sono stanco» — я устал (прилагательное, а не глагол, как в русском)."
+  "note_ru": "«Sono stanco» — я устал (прилагательное, а не глагол, как в русском).",
+  "gloss_en": "tired",
+  "example_en": "In the evening I'm always tired."
  },
  {
   "en": "simpatico",
@@ -5025,7 +5861,9 @@
   "example": "Il tuo amico è molto simpatico.",
   "example_ru": "Твой друг очень приятный человек.",
   "forms": "f. simpatica, pl. simpatici / simpatiche",
-  "note_ru": "Ложный друг: не «симпатичный внешне» (это «carino»), а приятный в общении."
+  "note_ru": "Ложный друг: не «симпатичный внешне» (это «carino»), а приятный в общении.",
+  "gloss_en": "nice / friendly",
+  "example_en": "Your friend is really nice."
  },
  {
   "en": "bravo",
@@ -5037,7 +5875,9 @@
   "example": "Sei un bravo cuoco!",
   "example_ru": "Ты хороший повар!",
   "forms": "f. brava, pl. bravi / brave",
-  "note_ru": "«Bravo!» говорят мужчине, «Brava!» — женщине, «Bravi!» — группе."
+  "note_ru": "«Bravo!» говорят мужчине, «Brava!» — женщине, «Bravi!» — группе.",
+  "gloss_en": "good / skilful",
+  "example_en": "You're a good cook!"
  },
  {
   "en": "pulito",
@@ -5049,7 +5889,9 @@
   "example": "La cucina è pulita.",
   "example_ru": "Кухня чистая.",
   "forms": "f. pulita, pl. puliti / pulite",
-  "note_ru": "Причастие от «pulire»."
+  "note_ru": "Причастие от «pulire».",
+  "gloss_en": "clean",
+  "example_en": "The kitchen is clean."
  },
  {
   "en": "sporco",
@@ -5061,7 +5903,9 @@
   "example": "Le scarpe sono sporche.",
   "example_ru": "Ботинки грязные.",
   "forms": "f. sporca, pl. sporchi / sporche",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "dirty",
+  "example_en": "The shoes are dirty."
  },
  {
   "en": "veloce",
@@ -5073,7 +5917,9 @@
   "example": "Il treno è più veloce dell'autobus.",
   "example_ru": "Поезд быстрее автобуса.",
   "forms": "f. veloce, pl. veloci",
-  "note_ru": "Наречие — «velocemente»; противоположное — «lento»."
+  "note_ru": "Наречие — «velocemente»; противоположное — «lento».",
+  "gloss_en": "fast / quick",
+  "example_en": "The train is faster than the bus."
  },
  {
   "en": "pieno",
@@ -5085,7 +5931,9 @@
   "example": "Il bicchiere è pieno.",
   "example_ru": "Стакан полный.",
   "forms": "f. piena, pl. pieni / piene",
-  "note_ru": "«Sono pieno» — я сыт (наелся)."
+  "note_ru": "«Sono pieno» — я сыт (наелся).",
+  "gloss_en": "full",
+  "example_en": "The glass is full."
  },
  {
   "en": "vuoto",
@@ -5097,7 +5945,9 @@
   "example": "Il frigo è vuoto!",
   "example_ru": "Холодильник пустой!",
   "forms": "f. vuota, pl. vuoti / vuote",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "empty",
+  "example_en": "The fridge is empty!"
  },
  {
   "en": "io",
@@ -5109,7 +5959,9 @@
   "example": "Io sono Marco.",
   "example_ru": "Я Марко.",
   "forms": null,
-  "note_ru": "Обычно опускается, так как лицо видно по глаголу: «Sono Marco»."
+  "note_ru": "Обычно опускается, так как лицо видно по глаголу: «Sono Marco».",
+  "gloss_en": "I",
+  "example_en": "I'm Marco."
  },
  {
   "en": "tu",
@@ -5121,7 +5973,9 @@
   "example": "E tu, come ti chiami?",
   "example_ru": "А тебя как зовут?",
   "forms": null,
-  "note_ru": "На «ты» в Италии переходят быстрее, чем в России."
+  "note_ru": "На «ты» в Италии переходят быстрее, чем в России.",
+  "gloss_en": "you (informal)",
+  "example_en": "And you, what's your name?"
  },
  {
   "en": "lui",
@@ -5133,7 +5987,9 @@
   "example": "Lui è mio marito.",
   "example_ru": "Он мой муж.",
   "forms": null,
-  "note_ru": "О предметах «он/она» обычно не говорят — местоимение просто опускают."
+  "note_ru": "О предметах «он/она» обычно не говорят — местоимение просто опускают.",
+  "gloss_en": "he",
+  "example_en": "He's my husband."
  },
  {
   "en": "lei",
@@ -5145,7 +6001,9 @@
   "example": "Lei è di Milano?",
   "example_ru": "Вы из Милана? / Она из Милана?",
   "forms": "вежливое «Вы» — Lei",
-  "note_ru": "Вежливое «Вы» — это «Lei» с глаголом в 3-м лице ед. ч., даже при обращении к мужчине."
+  "note_ru": "Вежливое «Вы» — это «Lei» с глаголом в 3-м лице ед. ч., даже при обращении к мужчине.",
+  "gloss_en": "she / you (formal)",
+  "example_en": "Are you from Milan?"
  },
  {
   "en": "noi",
@@ -5157,7 +6015,9 @@
   "example": "Noi abitiamo a Torino.",
   "example_ru": "Мы живём в Турине.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "we",
+  "example_en": "We live in Turin."
  },
  {
   "en": "voi",
@@ -5169,7 +6029,9 @@
   "example": "Voi venite alla festa?",
   "example_ru": "Вы придёте на праздник?",
   "forms": null,
-  "note_ru": "Только множественное «вы»; вежливое «Вы» одному человеку — «Lei»."
+  "note_ru": "Только множественное «вы»; вежливое «Вы» одному человеку — «Lei».",
+  "gloss_en": "you (plural)",
+  "example_en": "Are you coming to the party?"
  },
  {
   "en": "loro",
@@ -5181,7 +6043,9 @@
   "example": "Loro sono i miei genitori.",
   "example_ru": "Это мои родители.",
   "forms": "также притяж. «il loro» — их",
-  "note_ru": "«Il loro» — их (не изменяется): «la loro casa»."
+  "note_ru": "«Il loro» — их (не изменяется): «la loro casa».",
+  "gloss_en": "they",
+  "example_en": "They're my parents."
  },
  {
   "en": "e",
@@ -5193,7 +6057,9 @@
   "example": "Ho un gatto e un cane.",
   "example_ru": "У меня есть кот и собака.",
   "forms": "перед гласной иногда: ed",
-  "note_ru": "Без ударения — «и»; «è» с ударением — «есть, является»."
+  "note_ru": "Без ударения — «и»; «è» с ударением — «есть, является».",
+  "gloss_en": "and",
+  "example_en": "I have a cat and a dog."
  },
  {
   "en": "ma",
@@ -5205,7 +6071,9 @@
   "example": "È caro, ma è bello.",
   "example_ru": "Это дорого, но красиво.",
   "forms": null,
-  "note_ru": "«Ma dai!» — «Да ладно!»."
+  "note_ru": "«Ma dai!» — «Да ладно!».",
+  "gloss_en": "but",
+  "example_en": "It's expensive, but it's beautiful."
  },
  {
   "en": "o",
@@ -5217,7 +6085,9 @@
   "example": "Vuoi tè o caffè?",
   "example_ru": "Хочешь чай или кофе?",
   "forms": "перед гласной иногда: od",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "or",
+  "example_en": "Do you want tea or coffee?"
  },
  {
   "en": "perché",
@@ -5229,7 +6099,9 @@
   "example": "— Perché sei qui? — Perché ti aspetto.",
   "example_ru": "— Почему ты здесь? — Потому что жду тебя.",
   "forms": null,
-  "note_ru": "Одно слово и для вопроса «почему?», и для ответа «потому что»."
+  "note_ru": "Одно слово и для вопроса «почему?», и для ответа «потому что».",
+  "gloss_en": "why / because",
+  "example_en": "Why are you here? - Because I'm waiting for you."
  },
  {
   "en": "chi",
@@ -5241,7 +6113,9 @@
   "example": "Chi è quella ragazza?",
   "example_ru": "Кто эта девушка?",
   "forms": null,
-  "note_ru": "Читается [ki], а не «чи»."
+  "note_ru": "Читается [ki], а не «чи».",
+  "gloss_en": "who",
+  "example_en": "Who's that girl?"
  },
  {
   "en": "che cosa",
@@ -5253,7 +6127,9 @@
   "example": "Che cosa mangi?",
   "example_ru": "Что ты ешь?",
   "forms": "разг.: che? / cosa?",
-  "note_ru": "В разговоре чаще просто «Cosa?» или «Che?»."
+  "note_ru": "В разговоре чаще просто «Cosa?» или «Che?».",
+  "gloss_en": "what",
+  "example_en": "What are you eating?"
  },
  {
   "en": "dove",
@@ -5265,7 +6141,9 @@
   "example": "Dove abiti?",
   "example_ru": "Где ты живёшь?",
   "forms": "перед è: dov'è",
-  "note_ru": "Одно слово для «где» и «куда»; «da dove» — откуда."
+  "note_ru": "Одно слово для «где» и «куда»; «da dove» — откуда.",
+  "gloss_en": "where",
+  "example_en": "Where do you live?"
  },
  {
   "en": "come",
@@ -5277,7 +6155,9 @@
   "example": "Come si dice in italiano?",
   "example_ru": "Как это сказать по-итальянски?",
   "forms": "перед è: com'è",
-  "note_ru": "Также «как, словно» в сравнениях: «bianco come la neve»."
+  "note_ru": "Также «как, словно» в сравнениях: «bianco come la neve».",
+  "gloss_en": "how / like",
+  "example_en": "How do you say it in Italian?"
  },
  {
   "en": "quando",
@@ -5289,7 +6169,9 @@
   "example": "Quando parti?",
   "example_ru": "Когда ты уезжаешь?",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "when",
+  "example_en": "When are you leaving?"
  },
  {
   "en": "non",
@@ -5301,7 +6183,9 @@
   "example": "Non parlo tedesco.",
   "example_ru": "Я не говорю по-немецки.",
   "forms": null,
-  "note_ru": "Двойное отрицание нормально, как в русском: «Non vedo niente» — «Я ничего не вижу»."
+  "note_ru": "Двойное отрицание нормально, как в русском: «Non vedo niente» — «Я ничего не вижу».",
+  "gloss_en": "not",
+  "example_en": "I don't speak German."
  },
  {
   "en": "anche",
@@ -5313,7 +6197,9 @@
   "example": "Anch'io sono stanco.",
   "example_ru": "Я тоже устал.",
   "forms": "перед io: anch'io",
-  "note_ru": "Стоит перед словом, к которому относится: «anche lui» — и он тоже."
+  "note_ru": "Стоит перед словом, к которому относится: «anche lui» — и он тоже.",
+  "gloss_en": "also / too / even",
+  "example_en": "I'm tired too."
  },
  {
   "en": "sempre",
@@ -5325,7 +6211,9 @@
   "example": "Arrivi sempre in ritardo!",
   "example_ru": "Ты всегда опаздываешь!",
   "forms": null,
-  "note_ru": "«Sempre dritto» — всё время прямо."
+  "note_ru": "«Sempre dritto» — всё время прямо.",
+  "gloss_en": "always",
+  "example_en": "You're always late!"
  },
  {
   "en": "mai",
@@ -5337,7 +6225,9 @@
   "example": "Non bevo mai il caffè la sera.",
   "example_ru": "Я никогда не пью кофе вечером.",
   "forms": null,
-  "note_ru": "После глагола нужно «non»: «non… mai»; в вопросе — «когда-нибудь»: «Sei mai stato a Roma?»."
+  "note_ru": "После глагола нужно «non»: «non… mai»; в вопросе — «когда-нибудь»: «Sei mai stato a Roma?».",
+  "gloss_en": "never / ever",
+  "example_en": "I never drink coffee in the evening."
  },
  {
   "en": "qui",
@@ -5349,7 +6239,9 @@
   "example": "Vieni qui!",
   "example_ru": "Иди сюда!",
   "forms": null,
-  "note_ru": "Синоним — «qua»; «lì / là» — там."
+  "note_ru": "Синоним — «qua»; «lì / là» — там.",
+  "gloss_en": "here",
+  "example_en": "Come here!"
  },
  {
   "en": "con",
@@ -5361,7 +6253,9 @@
   "example": "Vado al cinema con Paolo.",
   "example_ru": "Я иду в кино с Паоло.",
   "forms": "con + il = col (разг.)",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "with",
+  "example_en": "I'm going to the cinema with Paolo."
  },
  {
   "en": "per",
@@ -5373,7 +6267,9 @@
   "example": "Questo regalo è per te.",
   "example_ru": "Этот подарок для тебя.",
   "forms": null,
-  "note_ru": "Также направление: «il treno per Roma» — поезд в Рим."
+  "note_ru": "Также направление: «il treno per Roma» — поезд в Рим.",
+  "gloss_en": "for / in order to",
+  "example_en": "This present is for you."
  },
  {
   "en": "di",
@@ -5385,7 +6281,9 @@
   "example": "Questo è il libro di Maria.",
   "example_ru": "Это книга Марии.",
   "forms": "di + il = del, dello, della, dei, degli, delle",
-  "note_ru": "Заменяет русский родительный падеж: «la casa di Marco» — дом Марко."
+  "note_ru": "Заменяет русский родительный падеж: «la casa di Marco» — дом Марко.",
+  "gloss_en": "of / from / about",
+  "example_en": "This is Maria's book."
  },
  {
   "en": "in",
@@ -5397,7 +6295,9 @@
   "example": "Abito in Italia, in via Roma.",
   "example_ru": "Я живу в Италии, на улице Рома.",
   "forms": "in + il = nel, nello, nella, nei, negli, nelle",
-  "note_ru": "Со странами — «in» (in Italia), с городами — «a» (a Roma)."
+  "note_ru": "Со странами — «in» (in Italia), с городами — «a» (a Roma).",
+  "gloss_en": "in / on / to",
+  "example_en": "I live in Italy, on Via Roma."
  },
  {
   "en": "abitare in",
@@ -5409,7 +6309,9 @@
   "example": "Abito in Francia, ma sono russo.",
   "example_ru": "Я живу во Франции, но я русский.",
   "forms": "abito, abiti, abita; abitato (avere)",
-  "note_ru": "Со странами и улицами — «in», с городами — «a»: «abito a Napoli»."
+  "note_ru": "Со странами и улицами — «in», с городами — «a»: «abito a Napoli».",
+  "gloss_en": "to live in",
+  "example_en": "I live in France, but I'm Russian."
  },
  {
   "en": "venire da",
@@ -5421,7 +6323,9 @@
   "example": "Vengo da Mosca.",
   "example_ru": "Я из Москвы (приехал из Москвы).",
   "forms": "vengo, vieni, viene da; venuto (essere)",
-  "note_ru": "«Da» обозначает происхождение: «da dove vieni?» — откуда ты?"
+  "note_ru": "«Da» обозначает происхождение: «da dove vieni?» — откуда ты?",
+  "gloss_en": "to come from",
+  "example_en": "I come from Moscow."
  },
  {
   "en": "tornare a",
@@ -5433,7 +6337,9 @@
   "example": "Torno a casa alle sei.",
   "example_ru": "Я возвращаюсь домой в шесть.",
   "forms": "torno, torni, torna; tornato (essere)",
-  "note_ru": "В прошедшем с «essere»: «sono tornato a casa»."
+  "note_ru": "В прошедшем с «essere»: «sono tornato a casa».",
+  "gloss_en": "to return to / to go back to",
+  "example_en": "I go back home at six."
  },
  {
   "en": "partire per",
@@ -5445,7 +6351,9 @@
   "example": "Domani parto per Londra.",
   "example_ru": "Завтра я уезжаю в Лондон.",
   "forms": "parto, parti, parte; partito (essere)",
-  "note_ru": "Пункт назначения после «partire» — с предлогом «per», а не «a»."
+  "note_ru": "Пункт назначения после «partire» — с предлогом «per», а не «a».",
+  "gloss_en": "to leave for",
+  "example_en": "Tomorrow I'm leaving for London."
  },
  {
   "en": "arrivare a",
@@ -5457,7 +6365,9 @@
   "example": "Il treno arriva a Roma alle dieci.",
   "example_ru": "Поезд прибывает в Рим в десять.",
   "forms": "arrivo, arrivi, arriva; arrivato (essere)",
-  "note_ru": "С городами — «a», со странами — «in»: «arrivare in Italia»."
+  "note_ru": "С городами — «a», со странами — «in»: «arrivare in Italia».",
+  "gloss_en": "to arrive in / at",
+  "example_en": "The train arrives in Rome at ten."
  },
  {
   "en": "pensare a",
@@ -5469,7 +6379,9 @@
   "example": "Penso sempre a te.",
   "example_ru": "Я всегда думаю о тебе.",
   "forms": "penso, pensi, pensa; pensato (avere)",
-  "note_ru": "По-русски «о ком», по-итальянски «a»: «pensare a qualcuno»; мнение — «pensare di»."
+  "note_ru": "По-русски «о ком», по-итальянски «a»: «pensare a qualcuno»; мнение — «pensare di».",
+  "gloss_en": "to think about / of",
+  "example_en": "I always think about you."
  },
  {
   "en": "parlare di",
@@ -5481,7 +6393,9 @@
   "example": "Parliamo di calcio.",
   "example_ru": "Мы говорим о футболе.",
   "forms": "parlo, parli, parla di; parlato (avere)",
-  "note_ru": "С кем — «parlare con», о чём — «parlare di»."
+  "note_ru": "С кем — «parlare con», о чём — «parlare di».",
+  "gloss_en": "to talk about",
+  "example_en": "We're talking about football."
  },
  {
   "en": "giocare a",
@@ -5493,7 +6407,9 @@
   "example": "Il sabato giochiamo a tennis.",
   "example_ru": "По субботам мы играем в теннис.",
   "forms": "gioco, giochi, gioca a; giocato (avere)",
-  "note_ru": "Игра — без артикля: «giocare a calcio, a carte»."
+  "note_ru": "Игра — без артикля: «giocare a calcio, a carte».",
+  "gloss_en": "to play (a sport or game)",
+  "example_en": "On Saturdays we play tennis."
  },
  {
   "en": "cominciare a",
@@ -5505,7 +6421,9 @@
   "example": "Comincio a capire l'italiano.",
   "example_ru": "Я начинаю понимать итальянский.",
   "forms": "comincio, cominci, comincia a; cominciato (avere)",
-  "note_ru": "Перед инфинитивом — «a»: «comincia a piovere» — начинается дождь."
+  "note_ru": "Перед инфинитивом — «a»: «comincia a piovere» — начинается дождь.",
+  "gloss_en": "to start (doing)",
+  "example_en": "I'm starting to understand Italian."
  },
  {
   "en": "finire di",
@@ -5517,7 +6435,9 @@
   "example": "Finisco di lavorare alle cinque.",
   "example_ru": "Я заканчиваю работать в пять.",
   "forms": "finisco, finisci, finisce di; finiamo; finito (avere)",
-  "note_ru": "Глагол с -isc-; перед инфинитивом — «di»."
+  "note_ru": "Глагол с -isc-; перед инфинитивом — «di».",
+  "gloss_en": "to finish (doing)",
+  "example_en": "I finish work at five."
  },
  {
   "en": "aiutare a",
@@ -5529,7 +6449,9 @@
   "example": "Aiuto mia madre a cucinare.",
   "example_ru": "Я помогаю маме готовить.",
   "forms": "aiuto, aiuti, aiuta a; aiutato (avere)",
-  "note_ru": "Кому — прямое дополнение без предлога: «aiuto mia madre» (а не «a mia madre»)."
+  "note_ru": "Кому — прямое дополнение без предлога: «aiuto mia madre» (а не «a mia madre»).",
+  "gloss_en": "to help (to do)",
+  "example_en": "I help my mother cook."
  },
  {
   "en": "imparare a",
@@ -5541,7 +6463,9 @@
   "example": "Imparo a nuotare.",
   "example_ru": "Я учусь плавать.",
   "forms": "imparo, impari, impara a; imparato (avere)",
-  "note_ru": "Перед инфинитивом всегда «a»: «imparare a guidare»."
+  "note_ru": "Перед инфинитивом всегда «a»: «imparare a guidare».",
+  "gloss_en": "to learn (to do)",
+  "example_en": "I'm learning to swim."
  },
  {
   "en": "telefonare a",
@@ -5553,7 +6477,9 @@
   "example": "Stasera telefono alla nonna.",
   "example_ru": "Сегодня вечером я позвоню бабушке.",
   "forms": "telefono, telefoni, telefona a; telefonato (avere)",
-  "note_ru": "Как в русском дательном: «кому» — «a»; ударение te-LE-fo-no."
+  "note_ru": "Как в русском дательном: «кому» — «a»; ударение te-LE-fo-no.",
+  "gloss_en": "to phone / to call",
+  "example_en": "Tonight I'm calling Grandma."
  },
  {
   "en": "chiedere a",
@@ -5565,7 +6491,9 @@
   "example": "Chiedo a un signore dov'è la stazione.",
   "example_ru": "Я спрашиваю у мужчины, где вокзал.",
   "forms": "chiedo, chiedi, chiede a; chiesto (avere)",
-  "note_ru": "По-русски «у кого», по-итальянски «a»: «chiedere a Marco»; причастие «chiesto»."
+  "note_ru": "По-русски «у кого», по-итальянски «a»: «chiedere a Marco»; причастие «chiesto».",
+  "gloss_en": "to ask (someone)",
+  "example_en": "I ask a man where the station is."
  },
  {
   "en": "rispondere a",
@@ -5577,7 +6505,9 @@
   "example": "Rispondo alla domanda dell'insegnante.",
   "example_ru": "Я отвечаю на вопрос учителя.",
   "forms": "rispondo, rispondi, risponde a; risposto (avere)",
-  "note_ru": "И «на что», и «кому» — предлог «a»: «rispondere al telefono»."
+  "note_ru": "И «на что», и «кому» — предлог «a»: «rispondere al telefono».",
+  "gloss_en": "to answer / to reply to",
+  "example_en": "I answer the teacher's question."
  },
  {
   "en": "entrare in",
@@ -5589,7 +6519,9 @@
   "example": "Entriamo in un bar.",
   "example_ru": "Мы заходим в бар.",
   "forms": "entro, entri, entra in; entrato (essere)",
-  "note_ru": "В прошедшем с «essere»: «sono entrato in casa»."
+  "note_ru": "В прошедшем с «essere»: «sono entrato in casa».",
+  "gloss_en": "to go into / to enter",
+  "example_en": "We go into a café."
  },
  {
   "en": "uscire da",
@@ -5601,7 +6533,9 @@
   "example": "Esco dall'ufficio alle sei.",
   "example_ru": "Я выхожу из офиса в шесть.",
   "forms": "esco, esci, esce da; uscito (essere)",
-  "note_ru": "«Из» — «da»; устойчивое исключение: «uscire di casa» — выйти из дома."
+  "note_ru": "«Из» — «da»; устойчивое исключение: «uscire di casa» — выйти из дома.",
+  "gloss_en": "to go out of / to leave",
+  "example_en": "I leave the office at six."
  },
  {
   "en": "salire su",
@@ -5613,7 +6547,9 @@
   "example": "Salgo sull'autobus davanti a casa.",
   "example_ru": "Я сажусь в автобус перед домом.",
   "forms": "salgo, sali, sale su; salito (essere)",
-  "note_ru": "В транспорт «поднимаются»: «salire sul treno» — сесть в поезд."
+  "note_ru": "В транспорт «поднимаются»: «salire sul treno» — сесть в поезд.",
+  "gloss_en": "to get on / to go up",
+  "example_en": "I get on the bus in front of my house."
  },
  {
   "en": "scendere da",
@@ -5625,7 +6561,9 @@
   "example": "Scendo dal treno a Bologna.",
   "example_ru": "Я выхожу из поезда в Болонье.",
   "forms": "scendo, scendi, scende da; sceso (essere)",
-  "note_ru": "Из транспорта не «выходят», а «спускаются»: «scendere dall'autobus»."
+  "note_ru": "Из транспорта не «выходят», а «спускаются»: «scendere dall'autobus».",
+  "gloss_en": "to get off / to go down",
+  "example_en": "I get off the train in Bologna."
  },
  {
   "en": "passare da",
@@ -5637,7 +6575,9 @@
   "example": "Passo da te stasera.",
   "example_ru": "Я зайду к тебе сегодня вечером.",
   "forms": "passo, passi, passa da; passato (essere)",
-  "note_ru": "«Da» + человек = «к кому-то, у кого-то»: «passare dal medico»."
+  "note_ru": "«Da» + человек = «к кому-то, у кого-то»: «passare dal medico».",
+  "gloss_en": "to drop by / to pass through",
+  "example_en": "I'll drop by your place tonight."
  },
  {
   "en": "cercare di",
@@ -5649,7 +6589,9 @@
   "example": "Cerco di parlare solo italiano.",
   "example_ru": "Я стараюсь говорить только по-итальянски.",
   "forms": "cerco, cerchi, cerca di; cercato (avere)",
-  "note_ru": "Без предлога «cercare» — искать: «cerco le chiavi»."
+  "note_ru": "Без предлога «cercare» — искать: «cerco le chiavi».",
+  "gloss_en": "to try to",
+  "example_en": "I try to speak only Italian."
  },
  {
   "en": "avere bisogno di",
@@ -5661,7 +6603,9 @@
   "example": "Ho bisogno di aiuto.",
   "example_ru": "Мне нужна помощь.",
   "forms": "ho, hai, ha bisogno di; avuto (avere)",
-  "note_ru": "Вместо русского «мне нужно» — «я имею нужду»: «ho bisogno di un caffè»."
+  "note_ru": "Вместо русского «мне нужно» — «я имею нужду»: «ho bisogno di un caffè».",
+  "gloss_en": "to need",
+  "example_en": "I need help."
  },
  {
   "en": "smettere di",
@@ -5673,7 +6617,9 @@
   "example": "Mio padre smette di fumare.",
   "example_ru": "Мой отец бросает курить.",
   "forms": "smetto, smetti, smette di; smesso (avere)",
-  "note_ru": "«Smettila!» — «Прекрати!»."
+  "note_ru": "«Smettila!» — «Прекрати!».",
+  "gloss_en": "to stop (doing) / to quit",
+  "example_en": "My father is giving up smoking."
  },
  {
   "en": "andare da",
@@ -5685,7 +6631,9 @@
   "example": "Domani vado dalla nonna.",
   "example_ru": "Завтра я иду к бабушке.",
   "forms": "vado, vai, va da; andato (essere)",
-  "note_ru": "К человеку — «da», в место — «a / in»: «vado dal medico», но «vado in farmacia»."
+  "note_ru": "К человеку — «da», в место — «a / in»: «vado dal medico», но «vado in farmacia».",
+  "gloss_en": "to go to (someone's place)",
+  "example_en": "Tomorrow I'm going to Grandma's."
  },
  {
   "en": "provare a",
@@ -5697,7 +6645,9 @@
   "example": "Provo a chiamare Marco.",
   "example_ru": "Попробую позвонить Марко.",
   "forms": "provo, provi, prova a; provato (avere)",
-  "note_ru": "Без предлога — примерять / пробовать: «provare un vestito»."
+  "note_ru": "Без предлога — примерять / пробовать: «provare un vestito».",
+  "gloss_en": "to try (doing)",
+  "example_en": "I'll try calling Marco."
  },
  {
   "en": "in bocca al lupo",
@@ -5709,7 +6659,9 @@
   "example": "Domani hai l'esame? In bocca al lupo!",
   "example_ru": "Завтра у тебя экзамен? Ни пуха ни пера!",
   "forms": null,
-  "note_ru": "Дословно «в пасть волку»; отвечают «Crepi!» — как наше «К чёрту!»."
+  "note_ru": "Дословно «в пасть волку»; отвечают «Crepi!» — как наше «К чёрту!».",
+  "gloss_en": "good luck / break a leg",
+  "example_en": "Is your exam tomorrow? Good luck!"
  },
  {
   "en": "non c'è problema",
@@ -5721,7 +6673,9 @@
   "example": "— Puoi aiutarmi? — Non c'è problema!",
   "example_ru": "— Можешь мне помочь? — Без проблем!",
   "forms": null,
-  "note_ru": "«Il problema» — мужского рода, несмотря на -a."
+  "note_ru": "«Il problema» — мужского рода, несмотря на -a.",
+  "gloss_en": "no problem",
+  "example_en": "Can you help me? - No problem!"
  },
  {
   "en": "non fa niente",
@@ -5733,7 +6687,9 @@
   "example": "— Scusa, sono in ritardo! — Non fa niente.",
   "example_ru": "— Извини, я опоздал! — Ничего страшного.",
   "forms": null,
-  "note_ru": "Дословно «ничего не делает»; синоним — «Non importa»."
+  "note_ru": "Дословно «ничего не делает»; синоним — «Non importa».",
+  "gloss_en": "never mind / it doesn't matter",
+  "example_en": "Sorry, I'm late! - Never mind."
  },
  {
   "en": "buon appetito",
@@ -5745,7 +6701,9 @@
   "example": "Il pranzo è pronto, buon appetito!",
   "example_ru": "Обед готов, приятного аппетита!",
   "forms": null,
-  "note_ru": "Отвечают «Grazie, altrettanto!» — «Спасибо, и вам того же!»."
+  "note_ru": "Отвечают «Grazie, altrettanto!» — «Спасибо, и вам того же!».",
+  "gloss_en": "enjoy your meal",
+  "example_en": "Lunch is ready, enjoy your meal!"
  },
  {
   "en": "buon viaggio",
@@ -5757,7 +6715,9 @@
   "example": "Parti domani? Buon viaggio!",
   "example_ru": "Уезжаешь завтра? Счастливого пути!",
   "forms": null,
-  "note_ru": "По той же модели: «buon lavoro», «buona giornata», «buona serata»."
+  "note_ru": "По той же модели: «buon lavoro», «buona giornata», «buona serata».",
+  "gloss_en": "have a good trip",
+  "example_en": "Are you leaving tomorrow? Have a good trip!"
  },
  {
   "en": "tanti auguri",
@@ -5769,7 +6729,9 @@
   "example": "Tanti auguri di buon compleanno!",
   "example_ru": "Поздравляю с днём рождения!",
   "forms": null,
-  "note_ru": "Универсальное поздравление для любого праздника."
+  "note_ru": "Универсальное поздравление для любого праздника.",
+  "gloss_en": "best wishes / congratulations",
+  "example_en": "Happy birthday!"
  },
  {
   "en": "che bello!",
@@ -5781,7 +6743,9 @@
   "example": "Andiamo al mare? Che bello!",
   "example_ru": "Едем на море? Как здорово!",
   "forms": "f. che bella!",
-  "note_ru": "Модель «che + прилагательное»: «Che caldo!», «Che buono!»."
+  "note_ru": "Модель «che + прилагательное»: «Che caldo!», «Che buono!».",
+  "gloss_en": "how lovely! / great!",
+  "example_en": "Are we going to the seaside? How lovely!"
  },
  {
   "en": "meno male",
@@ -5793,7 +6757,9 @@
   "example": "Meno male, il treno è ancora qui!",
   "example_ru": "Слава богу, поезд ещё здесь!",
   "forms": null,
-  "note_ru": "Дословно «меньше плохого»; очень частое разговорное выражение."
+  "note_ru": "Дословно «меньше плохого»; очень частое разговорное выражение.",
+  "gloss_en": "thank goodness",
+  "example_en": "Thank goodness, the train is still here!"
  },
  {
   "en": "dai!",
@@ -5805,7 +6771,9 @@
   "example": "Dai, andiamo, è tardi!",
   "example_ru": "Давай, пошли, уже поздно!",
   "forms": null,
-  "note_ru": "Форма от «dare», но значит «давай!»; «Ma dai!» — «Да ну!»."
+  "note_ru": "Форма от «dare», но значит «давай!»; «Ma dai!» — «Да ну!».",
+  "gloss_en": "come on!",
+  "example_en": "Come on, let's go, it's late!"
  },
  {
   "en": "magari!",
@@ -5817,7 +6785,9 @@
   "example": "— Vai in vacanza ad agosto? — Magari!",
   "example_ru": "— Ты едешь в отпуск в августе? — Хорошо бы!",
   "forms": null,
-  "note_ru": "В разговоре также «может быть»: «Magari vengo domani»."
+  "note_ru": "В разговоре также «может быть»: «Magari vengo domani».",
+  "gloss_en": "if only! / I wish!",
+  "example_en": "Are you going on holiday in August? - I wish!"
  },
  {
   "en": "boh",
@@ -5829,7 +6799,9 @@
   "example": "— Dov'è Marco? — Boh!",
   "example_ru": "— Где Марко? — Без понятия!",
   "forms": null,
-  "note_ru": "Очень разговорное, с пожатием плеч; не для официальной речи."
+  "note_ru": "Очень разговорное, с пожатием плеч; не для официальной речи.",
+  "gloss_en": "dunno / no idea",
+  "example_en": "Where's Marco? - No idea!"
  },
  {
   "en": "d'accordo",
@@ -5841,7 +6813,9 @@
   "example": "Ci vediamo alle otto, d'accordo?",
   "example_ru": "Встречаемся в восемь, договорились?",
   "forms": null,
-  "note_ru": "«Essere d'accordo con» — быть согласным с кем-то."
+  "note_ru": "«Essere d'accordo con» — быть согласным с кем-то.",
+  "gloss_en": "agreed / okay",
+  "example_en": "See you at eight, okay?"
  },
  {
   "en": "certo",
@@ -5853,7 +6827,9 @@
   "example": "— Mi aiuti? — Certo!",
   "example_ru": "— Поможешь мне? — Конечно!",
   "forms": null,
-  "note_ru": "Усиленно — «Certo che sì!»; как прилагательное значит «определённый»."
+  "note_ru": "Усиленно — «Certo che sì!»; как прилагательное значит «определённый».",
+  "gloss_en": "of course / sure",
+  "example_en": "Will you help me? - Of course!"
  },
  {
   "en": "per fortuna",
@@ -5865,7 +6841,9 @@
   "example": "Per fortuna non piove.",
   "example_ru": "К счастью, дождя нет.",
   "forms": null,
-  "note_ru": "Противоположное — «purtroppo» (к сожалению)."
+  "note_ru": "Противоположное — «purtroppo» (к сожалению).",
+  "gloss_en": "luckily / fortunately",
+  "example_en": "Luckily it isn't raining."
  },
  {
   "en": "avere fame",
@@ -5877,7 +6855,9 @@
   "example": "Ho fame, mangiamo?",
   "example_ru": "Я голоден, поедим?",
   "forms": "ho, hai, ha fame",
-  "note_ru": "С «avere», а не «essere»: дословно «иметь голод»."
+  "note_ru": "С «avere», а не «essere»: дословно «иметь голод».",
+  "gloss_en": "to be hungry",
+  "example_en": "I'm hungry, shall we eat?"
  },
  {
   "en": "avere sete",
@@ -5889,7 +6869,9 @@
   "example": "Fa caldo e ho sete.",
   "example_ru": "Жарко, и мне хочется пить.",
   "forms": "ho, hai, ha sete",
-  "note_ru": "Дословно «иметь жажду»; «la sete» — женского рода."
+  "note_ru": "Дословно «иметь жажду»; «la sete» — женского рода.",
+  "gloss_en": "to be thirsty",
+  "example_en": "It's hot and I'm thirsty."
  },
  {
   "en": "avere sonno",
@@ -5901,7 +6883,9 @@
   "example": "È tardi, ho sonno.",
   "example_ru": "Уже поздно, я хочу спать.",
   "forms": "ho, hai, ha sonno",
-  "note_ru": "Дословно «иметь сон»; ещё: «avere caldo / freddo / paura»."
+  "note_ru": "Дословно «иметь сон»; ещё: «avere caldo / freddo / paura».",
+  "gloss_en": "to be sleepy",
+  "example_en": "It's late, I'm sleepy."
  },
  {
   "en": "avere ragione",
@@ -5913,7 +6897,9 @@
   "example": "Hai ragione, è troppo caro.",
   "example_ru": "Ты прав, это слишком дорого.",
   "forms": "ho, hai, ha ragione",
-  "note_ru": "Не «essere giusto», а «avere ragione»; «avere torto» — быть неправым."
+  "note_ru": "Не «essere giusto», а «avere ragione»; «avere torto» — быть неправым.",
+  "gloss_en": "to be right",
+  "example_en": "You're right, it's too expensive."
  },
  {
   "en": "quanti anni hai?",
@@ -5925,7 +6911,9 @@
   "example": "— Quanti anni hai? — Ho venticinque anni.",
   "example_ru": "— Сколько тебе лет? — Мне двадцать пять.",
   "forms": "на «Вы»: quanti anni ha?",
-  "note_ru": "Возраст «имеют»: «ho trent'anni», а не «sono»."
+  "note_ru": "Возраст «имеют»: «ho trent'anni», а не «sono».",
+  "gloss_en": "how old are you?",
+  "example_en": "How old are you? - I'm twenty-five."
  },
  {
   "en": "che ore sono?",
@@ -5937,7 +6925,9 @@
   "example": "— Che ore sono? — Sono le tre.",
   "example_ru": "— Который час? — Три часа.",
   "forms": "также: che ora è?",
-  "note_ru": "Ответ во мн. ч.: «Sono le due», но «È l'una», «È mezzogiorno»."
+  "note_ru": "Ответ во мн. ч.: «Sono le due», но «È l'una», «È mezzogiorno».",
+  "gloss_en": "what time is it?",
+  "example_en": "What time is it? - It's three o'clock."
  },
  {
   "en": "come mai?",
@@ -5949,7 +6939,9 @@
   "example": "Come mai sei qui così presto?",
   "example_ru": "Как это ты здесь так рано?",
   "forms": null,
-  "note_ru": "Мягче и удивлённее, чем «perché?»."
+  "note_ru": "Мягче и удивлённее, чем «perché?».",
+  "gloss_en": "how come?",
+  "example_en": "How come you're here so early?"
  },
  {
   "en": "salute!",
@@ -5961,7 +6953,9 @@
   "example": "— Etciù! — Salute!",
   "example_ru": "— Апчхи! — Будь здоров!",
   "forms": null,
-  "note_ru": "«La salute» — здоровье; тост — также «Cin cin!»."
+  "note_ru": "«La salute» — здоровье; тост — также «Cin cin!».",
+  "gloss_en": "bless you! / cheers!",
+  "example_en": "Atishoo! - Bless you!"
  },
  {
   "en": "piano piano",
@@ -5973,7 +6967,9 @@
   "example": "Piano piano imparo l'italiano.",
   "example_ru": "Потихоньку я учу итальянский.",
   "forms": null,
-  "note_ru": "Повтор усиливает значение: «piano» — медленно, тихо."
+  "note_ru": "Повтор усиливает значение: «piano» — медленно, тихо.",
+  "gloss_en": "little by little / slowly",
+  "example_en": "Little by little I'm learning Italian."
  },
  {
   "en": "essere al verde",
@@ -5985,7 +6981,9 @@
   "example": "Non vengo al ristorante, sono al verde.",
   "example_ru": "Я не пойду в ресторан, я на мели.",
   "forms": "sono, sei, è al verde",
-  "note_ru": "Дословно «быть на зелёном» — с «essere»."
+  "note_ru": "Дословно «быть на зелёном» — с «essere».",
+  "gloss_en": "to be broke",
+  "example_en": "I'm not coming to the restaurant, I'm broke."
  },
  {
   "en": "costare un occhio della testa",
@@ -5997,6 +6995,8 @@
   "example": "Questa borsa costa un occhio della testa!",
   "example_ru": "Эта сумка стоит целое состояние!",
   "forms": "costa, costano un occhio della testa",
-  "note_ru": "Дословно «стоить глаз из головы»."
+  "note_ru": "Дословно «стоить глаз из головы».",
+  "gloss_en": "to cost an arm and a leg",
+  "example_en": "This bag costs an arm and a leg!"
  }
 ]
