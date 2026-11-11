@@ -1,0 +1,1644 @@
+[
+ {
+  "kind": "form",
+  "text": "A ___ gyorsan futnak a réten.",
+  "answer": [
+   "lovak"
+  ],
+  "lemma": "ló",
+  "tr_en": "The horses are running fast in the meadow.",
+  "tr_ru": "Лошади быстро бегут по лугу.",
+  "explain_en": "The plural verb futnak needs a plural subject; ló has the stem lov- before endings: lovak.",
+  "explain_ru": "Глагол futnak во мн. числе требует подлежащего во мн. числе; у слова ló перед окончанием основа lov-: lovak.",
+  "id": "g001"
+ },
+ {
+  "kind": "form",
+  "text": "Evés előtt a gyerek ___ mos.",
+  "answer": [
+   "kezet"
+  ],
+  "lemma": "kéz",
+  "tr_en": "The child washes his hands before eating.",
+  "tr_ru": "Перед едой ребёнок моет руки.",
+  "explain_en": "Object of mos, so accusative; kéz shortens its vowel: kezet. The fixed phrase is singular kezet mos, without an article.",
+  "explain_ru": "Прямое дополнение к mos — винительный падеж; в kéz гласная сокращается: kezet. Устойчиво kezet mos — в ед. числе и без артикля, в отличие от русского «руки».",
+  "id": "g002"
+ },
+ {
+  "kind": "form",
+  "text": "A boltban friss ___ veszek.",
+  "answer": [
+   "kenyeret"
+  ],
+  "lemma": "kenyér",
+  "tr_en": "I buy fresh bread in the shop.",
+  "tr_ru": "Я покупаю в магазине свежий хлеб.",
+  "explain_en": "Direct object of veszek: accusative -t; the long é of kenyér becomes short e: kenyeret.",
+  "explain_ru": "Прямое дополнение к veszek — окончание -t; долгое é в kenyér становится кратким e: kenyeret.",
+  "id": "g003"
+ },
+ {
+  "kind": "form",
+  "text": "Nagyon szomjas vagyok, kérek egy pohár ___.",
+  "answer": [
+   "vizet"
+  ],
+  "lemma": "víz",
+  "tr_en": "I am very thirsty, I'd like a glass of water.",
+  "tr_ru": "Я очень хочу пить, дайте стакан воды.",
+  "explain_en": "In egy pohár víz the word víz is the real object of kérek, so it takes -t, with a short i: vizet.",
+  "explain_ru": "В egy pohár víz именно víz — дополнение к kérek, поэтому -t и краткое i: vizet. По-русски здесь родительный «воды», по-венгерски — винительный.",
+  "id": "g004"
+ },
+ {
+  "kind": "form",
+  "text": "Az ___ éjszaka a konyhában futnak.",
+  "answer": [
+   "egerek"
+  ],
+  "lemma": "egér",
+  "tr_en": "The mice run around in the kitchen at night.",
+  "tr_ru": "Ночью мыши бегают по кухне.",
+  "explain_en": "Plural verb futnak, so plural subject; egér shortens é before the ending: egerek. The article az before a vowel confirms the vowel-initial word.",
+  "explain_ru": "Глагол futnak во мн. числе; в egér долгое é сокращается: egerek. Артикль az стоит перед гласной.",
+  "id": "g005"
+ },
+ {
+  "kind": "form",
+  "text": "Reggel én mindig kenyeret ___ sajttal.",
+  "answer": [
+   "eszem"
+  ],
+  "lemma": "eszik",
+  "tr_en": "In the morning I always eat bread with cheese.",
+  "tr_ru": "Утром я всегда ем хлеб с сыром.",
+  "explain_en": "eszik is an -ik verb: in the 1st person singular it takes -em, not -ek: eszem.",
+  "explain_ru": "eszik — глагол на -ik: в 1-м лице ед. числа окончание -em: eszem (форма eszek — разговорная).",
+  "id": "g006"
+ },
+ {
+  "kind": "form",
+  "text": "Én a kávét mindig cukor nélkül ___.",
+  "answer": [
+   "iszom"
+  ],
+  "lemma": "iszik",
+  "tr_en": "I always drink my coffee without sugar.",
+  "tr_ru": "Я всегда пью кофе без сахара.",
+  "explain_en": "Definite object (a kávét), 1st person singular: iszom. With iszik the indefinite and definite 1sg coincide.",
+  "explain_ru": "Определённое дополнение (a kávét), 1-е лицо ед. числа: iszom. У iszik формы 1-го лица обоих спряжений совпадают.",
+  "id": "g007"
+ },
+ {
+  "kind": "form",
+  "text": "Te miért ___ még? Már tíz óra van!",
+  "answer": [
+   "alszol"
+  ],
+  "lemma": "alszik",
+  "tr_en": "Why are you still sleeping? It's already ten o'clock!",
+  "tr_ru": "Почему ты ещё спишь? Уже десять часов!",
+  "explain_en": "alszik ends in -sz, so the 2nd person singular is -ol, not -sz: alszol.",
+  "explain_ru": "Основа alsz- кончается на sz, поэтому 2-е лицо ед. числа -ol, а не -sz: alszol.",
+  "id": "g008"
+ },
+ {
+  "kind": "form",
+  "text": "Te is ___ ma este a buliba?",
+  "answer": [
+   "jössz"
+  ],
+  "lemma": "jön",
+  "tr_en": "Are you coming to the party tonight too?",
+  "tr_ru": "Ты тоже придёшь сегодня вечером на вечеринку?",
+  "explain_en": "jön is irregular: the 2nd person singular is jössz with a double sz.",
+  "explain_ru": "jön — неправильный глагол: 2-е лицо ед. числа jössz с двойным sz.",
+  "id": "g009"
+ },
+ {
+  "kind": "form",
+  "text": "Ti hol ___ most? Már várunk!",
+  "answer": [
+   "vagytok"
+  ],
+  "lemma": "van",
+  "tr_en": "Where are you (all) now? We are already waiting!",
+  "tr_ru": "Вы где сейчас? Мы уже ждём!",
+  "explain_en": "Location needs a form of van; the subject ti requires vagytok.",
+  "explain_ru": "Для местонахождения нужен глагол van; с подлежащим ti — vagytok. В русском связка опускается, в венгерском нет.",
+  "id": "g010"
+ },
+ {
+  "kind": "form",
+  "text": "Bocsánat, ma nagyon fáradt ___.",
+  "answer": [
+   "vagyok"
+  ],
+  "lemma": "van",
+  "tr_en": "Sorry, I'm very tired today.",
+  "tr_ru": "Извините, я сегодня очень устал.",
+  "explain_en": "Only the 3rd person drops 'to be' before an adjective; in the 1st person it must be there: vagyok.",
+  "explain_ru": "Связка опускается только в 3-м лице; в 1-м лице она обязательна: fáradt vagyok, хотя по-русски просто «я устал».",
+  "id": "g011"
+ },
+ {
+  "kind": "form",
+  "text": "Te most milyen könyvet ___?",
+  "answer": [
+   "olvasol"
+  ],
+  "lemma": "olvas",
+  "tr_en": "What kind of book are you reading now?",
+  "tr_ru": "Какую книгу ты сейчас читаешь?",
+  "explain_en": "milyen könyvet is indefinite, so the indefinite conjugation; after final -s the 2nd person ending is -ol: olvasol.",
+  "explain_ru": "milyen könyvet — неопределённое дополнение; после основы на -s окончание 2-го лица -ol: olvasol.",
+  "id": "g012"
+ },
+ {
+  "kind": "form",
+  "text": "Apa minden reggel ___ az újságot.",
+  "answer": [
+   "olvassa"
+  ],
+  "lemma": "olvas",
+  "tr_en": "Dad reads the newspaper every morning.",
+  "tr_ru": "Папа каждое утро читает газету.",
+  "explain_en": "az újságot is definite, so -ja; after s the j assimilates: olvas + ja = olvassa.",
+  "explain_ru": "az újságot — определённое дополнение, нужно -ja; после s звук j уподобляется: olvassa.",
+  "id": "g013"
+ },
+ {
+  "kind": "form",
+  "text": "Te miért ___ egész nap a telefonodat?",
+  "answer": [
+   "nézed"
+  ],
+  "lemma": "néz",
+  "tr_en": "Why are you looking at your phone all day?",
+  "tr_ru": "Почему ты весь день смотришь в телефон?",
+  "explain_en": "A possessed object (a telefonodat) is definite: definite 2nd person singular nézed.",
+  "explain_ru": "Дополнение с притяжательным суффиксом определённое: определённое спряжение, 2-е лицо — nézed.",
+  "id": "g014"
+ },
+ {
+  "kind": "form",
+  "text": "A pincér ___ a számlát.",
+  "answer": [
+   "hozza"
+  ],
+  "lemma": "hoz",
+  "tr_en": "The waiter brings the bill.",
+  "tr_ru": "Официант приносит счёт.",
+  "explain_en": "Definite object a számlát: -ja, which assimilates after z: hozza.",
+  "explain_ru": "Определённое дополнение a számlát: окончание -ja после z переходит в -za: hozza.",
+  "id": "g015"
+ },
+ {
+  "kind": "form",
+  "text": "A macska ___ a tejet.",
+  "answer": [
+   "issza"
+  ],
+  "lemma": "iszik",
+  "tr_en": "The cat is drinking the milk.",
+  "tr_ru": "Кошка пьёт молоко.",
+  "explain_en": "Definite object, 3rd person: isz- + ja gives issza, and the -ik disappears.",
+  "explain_ru": "Определённое дополнение, 3-е лицо: isz- + ja = issza, окончание -ik исчезает.",
+  "id": "g016"
+ },
+ {
+  "kind": "form",
+  "text": "Én ezt a piros pulóvert ___, a kéket nem.",
+  "answer": [
+   "veszem"
+  ],
+  "lemma": "vesz",
+  "tr_en": "I'll take this red sweater, not the blue one.",
+  "tr_ru": "Я беру этот красный свитер, а синий нет.",
+  "explain_en": "ezt a pulóvert is definite, so the definite 1sg ending -em: veszem.",
+  "explain_ru": "ezt a pulóvert — определённое дополнение, поэтому определённое окончание -em: veszem.",
+  "id": "g017"
+ },
+ {
+  "kind": "form",
+  "text": "Anya, én nagyon ___ téged!",
+  "answer": [
+   "szeretlek"
+  ],
+  "lemma": "szeret",
+  "tr_en": "Mum, I love you very much!",
+  "tr_ru": "Мама, я тебя очень люблю!",
+  "explain_en": "When I am the subject and 'you' the object, the special ending -lak/-lek is used: szeretlek.",
+  "explain_ru": "Когда «я» действую на «тебя», используется особое окончание -lak/-lek: szeretlek.",
+  "id": "g018"
+ },
+ {
+  "kind": "form",
+  "text": "Péter ___ lakik, nem Bécsben.",
+  "answer": [
+   "Budapesten"
+  ],
+  "lemma": "Budapest",
+  "tr_en": "Peter lives in Budapest, not in Vienna.",
+  "tr_ru": "Петер живёт в Будапеште, а не в Вене.",
+  "explain_en": "Most Hungarian towns take the 'on' suffix: Budapesten, while foreign towns take -ban/-ben (Bécsben).",
+  "explain_ru": "Большинство венгерских городов принимают суффикс поверхности: Budapesten, а иностранные — -ban/-ben (Bécsben).",
+  "id": "g019"
+ },
+ {
+  "kind": "form",
+  "text": "A kisfiú reggel ___ megy.",
+  "answer": [
+   "iskolába"
+  ],
+  "lemma": "iskola",
+  "tr_en": "The little boy goes to school in the morning.",
+  "tr_ru": "Мальчик утром идёт в школу.",
+  "explain_en": "Motion into a place: -ba; final -a lengthens to á before the suffix: iskolába.",
+  "explain_ru": "Движение внутрь — -ba; конечное -a удлиняется: iskolába.",
+  "id": "g020"
+ },
+ {
+  "kind": "form",
+  "text": "Most a ___ megyek, mert levelet küldök.",
+  "answer": [
+   "postára"
+  ],
+  "lemma": "posta",
+  "tr_en": "I'm going to the post office now because I'm sending a letter.",
+  "tr_ru": "Я сейчас иду на почту, потому что отправляю письмо.",
+  "explain_en": "posta takes the surface series: hová? postára, with a lengthened á.",
+  "explain_ru": "posta, как и русское «на почту», требует поверхностного ряда: postára, с удлинением á.",
+  "id": "g021"
+ },
+ {
+  "kind": "form",
+  "text": "Az orosz barátom most ___ él.",
+  "answer": [
+   "Magyarországon"
+  ],
+  "lemma": "Magyarország",
+  "tr_en": "My Russian friend now lives in Hungary.",
+  "tr_ru": "Мой русский друг сейчас живёт в Венгрии.",
+  "explain_en": "Magyarország is an exception among countries: it takes -on, not -ban.",
+  "explain_ru": "Magyarország — исключение среди стран: суффикс -on, а не -ban, хотя по-русски «в Венгрии».",
+  "id": "g022"
+ },
+ {
+  "kind": "form",
+  "text": "Nekem van egy ___, a neve Bodri.",
+  "answer": [
+   "kutyám"
+  ],
+  "lemma": "kutya",
+  "tr_en": "I have a dog, its name is Bodri.",
+  "tr_ru": "У меня есть собака, её зовут Бодри.",
+  "explain_en": "'To have' is nekem van + a possessive suffix on the thing owned; -a lengthens: kutyám.",
+  "explain_ru": "«У меня есть» = nekem van + притяжательный суффикс на предмете; -a удлиняется: kutyám.",
+  "id": "g023"
+ },
+ {
+  "kind": "form",
+  "text": "A mi ___ még nagyon kicsi, csak kétéves.",
+  "answer": [
+   "testvérünk"
+  ],
+  "lemma": "testvér",
+  "tr_en": "Our brother is still very small, he's only two.",
+  "tr_ru": "Наш братик ещё очень маленький, ему всего два года.",
+  "explain_en": "a mi 'our' needs the 1st person plural suffix on the noun: front vowels give -ünk: testvérünk.",
+  "explain_ru": "a mi «наш» требует суффикса 1-го лица мн. числа; гласные переднего ряда: testvérünk.",
+  "id": "g024"
+ },
+ {
+  "kind": "form",
+  "text": "Ez a leves sokkal ___, mint a tegnapi.",
+  "answer": [
+   "jobb"
+  ],
+  "lemma": "jó",
+  "tr_en": "This soup is much better than yesterday's.",
+  "tr_ru": "Этот суп гораздо лучше вчерашнего.",
+  "explain_en": "mint signals the comparative; jó is irregular: jobb.",
+  "explain_ru": "mint указывает на сравнительную степень; jó неправильное: jobb, как и русское «хороший – лучше».",
+  "id": "g025"
+ },
+ {
+  "kind": "form",
+  "text": "Nekem ___ pénzem van, mint neked.",
+  "answer": [
+   "több"
+  ],
+  "lemma": "sok",
+  "tr_en": "I have more money than you.",
+  "tr_ru": "У меня больше денег, чем у тебя.",
+  "explain_en": "The comparative of sok is irregular: több.",
+  "explain_ru": "Сравнительная степень от sok неправильная: több.",
+  "id": "g026"
+ },
+ {
+  "kind": "form",
+  "text": "Szerintem a Balaton a ___ tó Magyarországon.",
+  "answer": [
+   "legszebb"
+  ],
+  "lemma": "szép",
+  "tr_en": "In my opinion Lake Balaton is the most beautiful lake in Hungary.",
+  "tr_ru": "По-моему, Балатон — самое красивое озеро в Венгрии.",
+  "explain_en": "Superlative leg- + comparative; szép has the irregular comparative szebb: legszebb.",
+  "explain_ru": "Превосходная степень leg- + сравнительная; у szép сравнительная форма szebb (с одним p): legszebb.",
+  "id": "g027"
+ },
+ {
+  "kind": "form",
+  "text": "A lakásunk ___, mint a régi házunk, de kényelmes.",
+  "answer": [
+   "kisebb"
+  ],
+  "lemma": "kicsi",
+  "tr_en": "Our flat is smaller than our old house, but it is comfortable.",
+  "tr_ru": "Наша квартира меньше нашего старого дома, но удобная.",
+  "explain_en": "The comparative is built on the short stem kis-: kisebb.",
+  "explain_ru": "Сравнительная степень строится от краткой основы kis-: kisebb.",
+  "id": "g028"
+ },
+ {
+  "kind": "form",
+  "text": "Ezek a cipők szépek, de nagyon ___.",
+  "answer": [
+   "drágák"
+  ],
+  "lemma": "drága",
+  "tr_en": "These shoes are nice but very expensive.",
+  "tr_ru": "Эти туфли красивые, но очень дорогие.",
+  "explain_en": "A predicative adjective agrees in number with a plural subject: drágák, with a lengthened á.",
+  "explain_ru": "Прилагательное-сказуемое согласуется во мн. числе: drágák (с удлинением á).",
+  "id": "g029"
+ },
+ {
+  "kind": "form",
+  "text": "Kérek ___ kávét és egy teát.",
+  "answer": [
+   "két"
+  ],
+  "lemma": "kettő",
+  "tr_en": "I'd like two coffees and a tea.",
+  "tr_ru": "Дайте, пожалуйста, два кофе и один чай.",
+  "explain_en": "Before a noun 'two' is két; kettő stands alone. The noun stays singular after a numeral.",
+  "explain_ru": "Перед существительным «два» — két, kettő употребляется самостоятельно. После числительного существительное в ед. числе.",
+  "id": "g030"
+ },
+ {
+  "kind": "form",
+  "text": "A lakásunk a ___ emeleten van.",
+  "answer": [
+   "harmadik"
+  ],
+  "lemma": "három",
+  "tr_en": "Our flat is on the third floor.",
+  "tr_ru": "Наша квартира на третьем этаже.",
+  "explain_en": "The ordinal of három is irregular: harmadik.",
+  "explain_ru": "Порядковое числительное от három неправильное: harmadik.",
+  "id": "g031"
+ },
+ {
+  "kind": "form",
+  "text": "___ nincs autóm, ezért busszal járok.",
+  "answer": [
+   "Nekem"
+  ],
+  "lemma": "én",
+  "tr_en": "I don't have a car, so I go by bus.",
+  "tr_ru": "У меня нет машины, поэтому я езжу на автобусе.",
+  "explain_en": "The possessor in 'have' sentences is in the dative: én becomes nekem.",
+  "explain_ru": "Обладатель в конструкции «иметь» стоит в дательном падеже: én → nekem (как русское «у меня»).",
+  "id": "g032"
+ },
+ {
+  "kind": "form",
+  "text": "Ki hív ___ telefonon? – A főnököm.",
+  "answer": [
+   "téged"
+  ],
+  "lemma": "te",
+  "tr_en": "Who is calling you on the phone? – My boss.",
+  "tr_ru": "Кто тебе звонит? – Мой начальник.",
+  "explain_en": "Object pronoun 'you' (sg.) is téged.",
+  "explain_ru": "Винительный падеж от te — téged. Венгерский hív требует прямого дополнения, в отличие от русского «звонить кому».",
+  "id": "g033"
+ },
+ {
+  "kind": "form",
+  "text": "Ezek az új magyar ___ nagyon nehezek.",
+  "answer": [
+   "szavak"
+  ],
+  "lemma": "szó",
+  "tr_en": "These new Hungarian words are very difficult.",
+  "tr_ru": "Эти новые венгерские слова очень трудные.",
+  "explain_en": "Plural (ezek, nehezek); szó has the stem szav- before endings: szavak.",
+  "explain_ru": "Мн. число (ezek, nehezek); у szó перед окончанием основа szav-: szavak.",
+  "id": "g034"
+ },
+ {
+  "kind": "form",
+  "text": "A gyerekek nagyon szeretik a ___.",
+  "answer": [
+   "havat"
+  ],
+  "lemma": "hó",
+  "tr_en": "Children love snow very much.",
+  "tr_ru": "Дети очень любят снег.",
+  "explain_en": "Object of szeretik; hó has the stem hav- before endings: havat.",
+  "explain_ru": "Дополнение к szeretik; у hó перед окончанием основа hav-: havat.",
+  "id": "g035"
+ },
+ {
+  "kind": "form",
+  "text": "Sajnos én már nem ___ a nevére.",
+  "answer": [
+   "emlékszem"
+  ],
+  "lemma": "emlékszik",
+  "tr_en": "Unfortunately I don't remember his name anymore.",
+  "tr_ru": "К сожалению, я уже не помню его имени.",
+  "explain_en": "emlékszik is an -ik verb: 1sg -em: emlékszem. It takes -ra/-re, not an object.",
+  "explain_ru": "emlékszik — глагол на -ik: 1-е лицо emlékszem; управляет -ra/-re, а не прямым дополнением, как русское «помнить что».",
+  "id": "g036"
+ },
+ {
+  "kind": "form",
+  "text": "Én nem ___ neki, mert mindig hazudik.",
+  "answer": [
+   "hiszek"
+  ],
+  "lemma": "hisz",
+  "tr_en": "I don't believe him because he always lies.",
+  "tr_ru": "Я ему не верю, потому что он всегда врёт.",
+  "explain_en": "hisz + dative (neki), no object, so indefinite 1sg: hiszek.",
+  "explain_ru": "hisz + дательный (neki), прямого дополнения нет — неопределённое 1-е лицо: hiszek.",
+  "id": "g037"
+ },
+ {
+  "kind": "form",
+  "text": "Sajnos a gyerekek most ___ itthon.",
+  "answer": [
+   "nincsenek"
+  ],
+  "lemma": "nincs",
+  "tr_en": "Unfortunately the children aren't at home now.",
+  "tr_ru": "К сожалению, детей сейчас нет дома.",
+  "explain_en": "The negative of vannak with a plural subject is nincsenek.",
+  "explain_ru": "Отрицание от vannak при подлежащем во мн. числе — nincsenek. По-русски «детей нет», по-венгерски подлежащее остаётся в именительном.",
+  "id": "g038"
+ },
+ {
+  "kind": "form",
+  "text": "Te ___, hol van a posta?",
+  "answer": [
+   "tudod"
+  ],
+  "lemma": "tud",
+  "tr_en": "Do you know where the post office is?",
+  "tr_ru": "Ты знаешь, где почта?",
+  "explain_en": "A following clause counts as a definite object, so definite 2sg: tudod.",
+  "explain_ru": "Придаточное предложение считается определённым дополнением, поэтому определённое спряжение: tudod.",
+  "id": "g039"
+ },
+ {
+  "kind": "form",
+  "text": "Bocsánat, én ezt a szót nem ___.",
+  "answer": [
+   "értem"
+  ],
+  "lemma": "ért",
+  "tr_en": "Sorry, I don't understand this word.",
+  "tr_ru": "Извините, я не понимаю это слово.",
+  "explain_en": "ezt a szót is definite: definite 1sg értem.",
+  "explain_ru": "ezt a szót — определённое дополнение: определённое 1-е лицо értem.",
+  "id": "g040"
+ },
+ {
+  "kind": "word",
+  "text": "Még nem ___ az új szomszédot, csak a nevét tudom.",
+  "answer": [
+   "ismerem"
+  ],
+  "ref": "ismer",
+  "clue_en": "know (a person)",
+  "clue_ru": "знать (быть знакомым)",
+  "tr_en": "I don't know the new neighbour yet, I only know his name.",
+  "tr_ru": "Я ещё не знаком с новым соседом, знаю только его имя.",
+  "explain_en": "Being acquainted with a person is ismer; tud is for facts. Definite object, so ismerem.",
+  "explain_ru": "Знать человека — ismer, а tud — знать факт. Русское «знать» покрывает оба. Дополнение определённое: ismerem.",
+  "id": "g041"
+ },
+ {
+  "kind": "word",
+  "text": "Sajnos nem ___ úszni, de szeretnék megtanulni.",
+  "answer": [
+   "tudok"
+  ],
+  "ref": "tud",
+  "clue_en": "know how, be able",
+  "clue_ru": "уметь, мочь",
+  "tr_en": "Unfortunately I can't swim, but I'd like to learn.",
+  "tr_ru": "К сожалению, я не умею плавать, но хотел бы научиться.",
+  "explain_en": "Ability with an infinitive is tud + infinitive; no definite object, so tudok.",
+  "explain_ru": "Умение выражается tud + инфинитив; определённого дополнения нет: tudok.",
+  "id": "g042"
+ },
+ {
+  "kind": "word",
+  "text": "Hányadik emeleten ___, Péter?",
+  "answer": [
+   "laksz"
+  ],
+  "ref": "lakik",
+  "clue_en": "live (reside)",
+  "clue_ru": "жить, проживать",
+  "tr_en": "Which floor do you live on, Peter?",
+  "tr_ru": "На каком этаже ты живёшь, Петер?",
+  "explain_en": "Living at an address or on a floor is lakik (él means 'be alive, live a life'). 2sg of lakik: laksz.",
+  "explain_ru": "Жить по адресу, на этаже — lakik; él значит «жить, быть живым». 2-е лицо: laksz.",
+  "id": "g043"
+ },
+ {
+  "kind": "word",
+  "text": "Este mi mindig filmet ___ a tévében.",
+  "answer": [
+   "nézünk"
+  ],
+  "ref": "néz",
+  "clue_en": "watch, look at",
+  "clue_ru": "смотреть",
+  "tr_en": "In the evening we always watch a film on TV.",
+  "tr_ru": "Вечером мы всегда смотрим фильм по телевизору.",
+  "explain_en": "Watching on purpose is néz; lát is just 'see'. Indefinite object filmet, subject mi: nézünk.",
+  "explain_ru": "Смотреть намеренно — néz, а lát — «видеть». Неопределённое дополнение, подлежащее mi: nézünk.",
+  "id": "g044"
+ },
+ {
+  "kind": "word",
+  "text": "Én szemüveg nélkül semmit sem ___.",
+  "answer": [
+   "látok"
+  ],
+  "ref": "lát",
+  "clue_en": "see",
+  "clue_ru": "видеть",
+  "tr_en": "Without glasses I can't see anything.",
+  "tr_ru": "Без очков я ничего не вижу.",
+  "explain_en": "The ability to perceive with the eyes is lát, not néz. semmit is indefinite: látok.",
+  "explain_ru": "Воспринимать глазами — lát, а не néz. semmit — неопределённое дополнение: látok.",
+  "id": "g045"
+ },
+ {
+  "kind": "word",
+  "text": "Beszélj hangosabban, mert nem ___ téged!",
+  "answer": [
+   "hallak"
+  ],
+  "ref": "hall",
+  "clue_en": "hear",
+  "clue_ru": "слышать",
+  "tr_en": "Speak louder because I can't hear you!",
+  "tr_ru": "Говори громче, я тебя не слышу!",
+  "explain_en": "Hearing is hall; with 'I … you' it takes -lak: hallak.",
+  "explain_ru": "Слышать — hall; при «я … тебя» окончание -lak: hallak.",
+  "id": "g046"
+ },
+ {
+  "kind": "word",
+  "text": "Miért ___ mindig ugyanazt? Már tudod a választ!",
+  "answer": [
+   "kérdezed"
+  ],
+  "ref": "kérdez",
+  "clue_en": "ask (a question)",
+  "clue_ru": "спрашивать",
+  "tr_en": "Why do you always ask the same thing? You already know the answer!",
+  "tr_ru": "Почему ты всё время спрашиваешь одно и то же? Ты же знаешь ответ!",
+  "explain_en": "Asking a question is kérdez; kér means 'ask for, request'. ugyanazt is definite: kérdezed.",
+  "explain_ru": "Задавать вопрос — kérdez, а kér — «просить». Русское «спрашивать/просить» тоже различает их. ugyanazt определённое: kérdezed.",
+  "id": "g047"
+ },
+ {
+  "kind": "word",
+  "text": "Én egy kávét ___, a feleségem pedig egy teát.",
+  "answer": [
+   "kérek"
+  ],
+  "ref": "kér",
+  "clue_en": "ask for, order",
+  "clue_ru": "просить, заказывать",
+  "tr_en": "I'd like a coffee, and my wife a tea.",
+  "tr_ru": "Мне кофе, а жене чай.",
+  "explain_en": "Requesting something is kér; egy kávét is indefinite: kérek.",
+  "explain_ru": "Просить что-либо — kér; egy kávét — неопределённое дополнение: kérek.",
+  "id": "g048"
+ },
+ {
+  "kind": "word",
+  "text": "Anna már egyetemre ___, harmadéves.",
+  "answer": [
+   "jár"
+  ],
+  "ref": "jár -ba/-be",
+  "clue_en": "attend regularly",
+  "clue_ru": "ходить, посещать (регулярно)",
+  "tr_en": "Anna already goes to university, she is in her third year.",
+  "tr_ru": "Анна уже учится в университете, она на третьем курсе.",
+  "explain_en": "Regularly attending a school is jár; megy is a single trip.",
+  "explain_ru": "Регулярно посещать учебное заведение — jár, а megy — однократное движение (как «ходить» и «идти»).",
+  "id": "g049"
+ },
+ {
+  "kind": "word",
+  "text": "Holnap elmegyek a nagymamához, és ajándékot ___ neki.",
+  "answer": [
+   "viszek"
+  ],
+  "ref": "visz",
+  "clue_en": "take, carry (there)",
+  "clue_ru": "нести, везти (туда)",
+  "tr_en": "Tomorrow I'm going to grandma's and I'm taking her a present.",
+  "tr_ru": "Завтра я поеду к бабушке и повезу ей подарок.",
+  "explain_en": "Carrying something away from the speaker is visz; hoz is 'bring here'. Indefinite object: viszek.",
+  "explain_ru": "Нести от говорящего — visz, к говорящему — hoz. Дополнение неопределённое: viszek.",
+  "id": "g050"
+ },
+ {
+  "kind": "word",
+  "text": "Hideg van, ___ a kabátomat.",
+  "answer": [
+   "felveszem"
+  ],
+  "ref": "felvesz",
+  "clue_en": "put on (clothes)",
+  "clue_ru": "надевать",
+  "tr_en": "It's cold, I'm putting on my coat.",
+  "tr_ru": "Холодно, я надеваю пальто.",
+  "explain_en": "The act of putting on clothes is felvesz (visel means 'wear'). Possessed object is definite: felveszem.",
+  "explain_ru": "Действие «надеть» — felvesz, а visel — «носить». Дополнение с притяжательным суффиксом определённое: felveszem.",
+  "id": "g051"
+ },
+ {
+  "kind": "word",
+  "text": "A ___ autónk már nem jó, ezért újat veszünk.",
+  "answer": [
+   "régi"
+  ],
+  "ref": "régi",
+  "clue_en": "old (thing)",
+  "clue_ru": "старый (о вещах)",
+  "tr_en": "Our old car is no good anymore, so we're buying a new one.",
+  "tr_ru": "Наша старая машина уже никуда не годится, поэтому мы покупаем новую.",
+  "explain_en": "Old things are régi; öreg is used for people and animals.",
+  "explain_ru": "О вещах — régi, а öreg — о людях и животных. По-русски в обоих случаях «старый».",
+  "id": "g052"
+ },
+ {
+  "kind": "word",
+  "text": "Ez a lakás túl ___ egy ötfős családnak.",
+  "answer": [
+   "kicsi"
+  ],
+  "ref": "kicsi",
+  "clue_en": "small",
+  "clue_ru": "маленький",
+  "tr_en": "This flat is too small for a family of five.",
+  "tr_ru": "Эта квартира слишком мала для семьи из пяти человек.",
+  "explain_en": "As a predicate only kicsi is possible; the short kis is used before a noun.",
+  "explain_ru": "В роли сказуемого возможно только kicsi; краткое kis употребляется перед существительным.",
+  "id": "g053"
+ },
+ {
+  "kind": "word",
+  "text": "Anna tanárnő, egy iskolában angolt ___.",
+  "answer": [
+   "tanít"
+  ],
+  "ref": "tanít",
+  "clue_en": "teach",
+  "clue_ru": "преподавать",
+  "tr_en": "Anna is a teacher; she teaches English in a school.",
+  "tr_ru": "Анна учительница, она преподаёт английский в школе.",
+  "explain_en": "A teacher tanít; a student tanul.",
+  "explain_ru": "Учитель tanít, ученик tanul. Не путайте с русским «учить», которое значит и то и другое.",
+  "id": "g054"
+ },
+ {
+  "kind": "word",
+  "text": "Már két éve ___ magyarul, de még sok hibát csinálok.",
+  "answer": [
+   "tanulok"
+  ],
+  "ref": "tanul",
+  "clue_en": "study, learn",
+  "clue_ru": "учить, учиться",
+  "tr_en": "I've been learning Hungarian for two years, but I still make many mistakes.",
+  "tr_ru": "Я учу венгерский уже два года, но всё ещё делаю много ошибок.",
+  "explain_en": "Learning is tanul; no object (magyarul is an adverb): tanulok.",
+  "explain_ru": "Учиться — tanul; magyarul — наречие, а не дополнение: tanulok.",
+  "id": "g055"
+ },
+ {
+  "kind": "word",
+  "text": "Péter mindig igazat ___, neki hihetsz.",
+  "answer": [
+   "mond"
+  ],
+  "ref": "mond",
+  "clue_en": "say, tell",
+  "clue_ru": "говорить, сказать",
+  "tr_en": "Peter always tells the truth, you can believe him.",
+  "tr_ru": "Петер всегда говорит правду, ему можно верить.",
+  "explain_en": "igazat mond 'tell the truth' needs mond, which takes an object; beszél does not.",
+  "explain_ru": "igazat mond «говорить правду» — с mond, который берёт прямое дополнение; beszél — «разговаривать».",
+  "id": "g056"
+ },
+ {
+  "kind": "word",
+  "text": "Én minden éjjel ___, mert a szomszéd kutyája ugat.",
+  "answer": [
+   "felébredek"
+  ],
+  "ref": "felébred",
+  "clue_en": "wake up",
+  "clue_ru": "просыпаться",
+  "tr_en": "I wake up every night because the neighbour's dog barks.",
+  "tr_ru": "Я каждую ночь просыпаюсь, потому что лает соседская собака.",
+  "explain_en": "Waking from sleep is felébred; felkel is getting out of bed.",
+  "explain_ru": "Проснуться — felébred, а felkel — встать с постели.",
+  "id": "g057"
+ },
+ {
+  "kind": "word",
+  "text": "Hétvégén nem sietek: ___, kávét iszom, és újságot olvasok.",
+  "answer": [
+   "felkelek"
+  ],
+  "ref": "felkel",
+  "clue_en": "get up",
+  "clue_ru": "вставать",
+  "tr_en": "At the weekend I don't hurry: I get up, drink coffee and read the paper.",
+  "tr_ru": "В выходные я не спешу: встаю, пью кофе и читаю газету.",
+  "explain_en": "Getting out of bed is felkel; 1sg felkelek.",
+  "explain_ru": "Встать с постели — felkel; 1-е лицо: felkelek.",
+  "id": "g058"
+ },
+ {
+  "kind": "word",
+  "text": "A beteg nagypapa egész nap az ágyban ___.",
+  "answer": [
+   "fekszik"
+  ],
+  "ref": "fekszik",
+  "clue_en": "lie (be lying)",
+  "clue_ru": "лежать",
+  "tr_en": "Sick grandpa lies in bed all day.",
+  "tr_ru": "Больной дедушка весь день лежит в постели.",
+  "explain_en": "The state of lying is fekszik; lefekszik is the act of lying down.",
+  "explain_ru": "Состояние «лежать» — fekszik, а lefekszik — «лечь».",
+  "id": "g059"
+ },
+ {
+  "kind": "word",
+  "text": "Nagyon fáradt vagyok, most ___.",
+  "answer": [
+   "lefekszem"
+  ],
+  "ref": "lefekszik",
+  "clue_en": "go to bed",
+  "clue_ru": "ложиться спать",
+  "tr_en": "I'm very tired, I'm going to bed now.",
+  "tr_ru": "Я очень устал, сейчас лягу спать.",
+  "explain_en": "The act of lying down is lefekszik; 1sg of the -ik verb: lefekszem.",
+  "explain_ru": "Действие «лечь» — lefekszik; 1-е лицо глагола на -ik: lefekszem.",
+  "id": "g060"
+ },
+ {
+  "kind": "word",
+  "text": "Hogy ___ a kutyádat?",
+  "answer": [
+   "hívják"
+  ],
+  "ref": "hív",
+  "clue_en": "call (by name)",
+  "clue_ru": "звать (по имени)",
+  "tr_en": "What is your dog called?",
+  "tr_ru": "Как зовут твою собаку?",
+  "explain_en": "Names are asked with impersonal 3pl hívják ('how do they call'); the object is definite.",
+  "explain_ru": "Имя спрашивают безличной формой 3-го лица мн. числа hívják, как русское «как зовут»; дополнение определённое.",
+  "id": "g061"
+ },
+ {
+  "kind": "word",
+  "text": "Én a pénztárnál mindig kártyával ___.",
+  "answer": [
+   "fizetek"
+  ],
+  "ref": "fizet",
+  "clue_en": "pay",
+  "clue_ru": "платить",
+  "tr_en": "I always pay by card at the checkout.",
+  "tr_ru": "Я на кассе всегда плачу картой.",
+  "explain_en": "Paying is fizet; no object, 1sg: fizetek. The instrument takes -val/-vel.",
+  "explain_ru": "Платить — fizet; дополнения нет, 1-е лицо: fizetek. Способ — суффикс -val/-vel (как творительный).",
+  "id": "g062"
+ },
+ {
+  "kind": "word",
+  "text": "Szombaton mi mindig a piacon ___.",
+  "answer": [
+   "vásárolunk"
+  ],
+  "ref": "vásárol",
+  "clue_en": "do the shopping",
+  "clue_ru": "делать покупки",
+  "tr_en": "On Saturdays we always do our shopping at the market.",
+  "tr_ru": "По субботам мы всегда делаем покупки на рынке.",
+  "explain_en": "Without an object 'shop' is vásárol; vesz needs an object. 1pl: vásárolunk.",
+  "explain_ru": "Без дополнения «делать покупки» — vásárol; vesz требует дополнения. 1-е лицо мн. числа: vásárolunk.",
+  "id": "g063"
+ },
+ {
+  "kind": "word",
+  "text": "Holnap ___ az új munkát, kicsit izgulok.",
+  "answer": [
+   "kezdem"
+  ],
+  "ref": "kezd",
+  "clue_en": "begin, start",
+  "clue_ru": "начинать",
+  "tr_en": "Tomorrow I start the new job, I'm a bit nervous.",
+  "tr_ru": "Завтра я начинаю новую работу, немного волнуюсь.",
+  "explain_en": "kezd takes an object; az új munkát is definite: kezdem. The present expresses the future here.",
+  "explain_ru": "kezd берёт прямое дополнение; az új munkát определённое: kezdem. Настоящее время здесь выражает будущее.",
+  "id": "g064"
+ },
+ {
+  "kind": "word",
+  "text": "A vonat pontosan hétkor ___ Budapestről.",
+  "answer": [
+   "indul"
+  ],
+  "ref": "indul",
+  "clue_en": "depart, set off",
+  "clue_ru": "отправляться",
+  "tr_en": "The train leaves Budapest at exactly seven.",
+  "tr_ru": "Поезд отправляется из Будапешта ровно в семь.",
+  "explain_en": "Departing vehicles indul; megy just means 'go'.",
+  "explain_ru": "Об отправлении транспорта — indul, а megy — просто «идти, ехать».",
+  "id": "g065"
+ },
+ {
+  "kind": "word",
+  "text": "Bocsánat, most nem tudok beszélni, nagyon ___.",
+  "answer": [
+   "sietek"
+  ],
+  "ref": "siet",
+  "clue_en": "hurry",
+  "clue_ru": "спешить",
+  "tr_en": "Sorry, I can't talk now, I'm in a big hurry.",
+  "tr_ru": "Извините, сейчас не могу говорить, очень спешу.",
+  "explain_en": "'Be in a hurry' is a verb in Hungarian: siet; 1sg sietek.",
+  "explain_ru": "«Спешить» — глагол siet; 1-е лицо: sietek.",
+  "id": "g066"
+ },
+ {
+  "kind": "word",
+  "text": "Nem megyek iskolába, mert ___ a fejem.",
+  "answer": [
+   "fáj"
+  ],
+  "ref": "fáj",
+  "clue_en": "hurt, ache",
+  "clue_ru": "болеть (о части тела)",
+  "tr_en": "I'm not going to school because I have a headache.",
+  "tr_ru": "Я не пойду в школу, потому что у меня болит голова.",
+  "explain_en": "Pain in a body part is fáj with the body part as subject (a fejem); beteg means 'ill'.",
+  "explain_ru": "Боль в части тела — fáj, подлежащее — часть тела (a fejem), как в русском «болит голова».",
+  "id": "g067"
+ },
+ {
+  "kind": "word",
+  "text": "Ebédidő van, és nagyon ___ vagyok.",
+  "answer": [
+   "éhes"
+  ],
+  "ref": "éhes",
+  "clue_en": "hungry",
+  "clue_ru": "голодный",
+  "tr_en": "It's lunchtime and I'm very hungry.",
+  "tr_ru": "Время обеда, и я очень голоден.",
+  "explain_en": "'Hungry' is an adjective with vagyok: éhes vagyok.",
+  "explain_ru": "«Голодный» — прилагательное с vagyok: éhes vagyok (по-русски часто «хочу есть»).",
+  "id": "g068"
+ },
+ {
+  "kind": "word",
+  "text": "Sajnos most nincs ___, holnap segítek.",
+  "answer": [
+   "időm"
+  ],
+  "ref": "idő",
+  "clue_en": "time",
+  "clue_ru": "время",
+  "tr_en": "Unfortunately I don't have time now, I'll help tomorrow.",
+  "tr_ru": "К сожалению, сейчас у меня нет времени, помогу завтра.",
+  "explain_en": "'I have no time' is nincs időm: nincs + possessive suffix.",
+  "explain_ru": "«У меня нет времени» — nincs időm: nincs + притяжательный суффикс.",
+  "id": "g069"
+ },
+ {
+  "kind": "word",
+  "text": "Egy évben tizenkét ___ van.",
+  "answer": [
+   "hónap"
+  ],
+  "ref": "hónap",
+  "clue_en": "month",
+  "clue_ru": "месяц",
+  "tr_en": "There are twelve months in a year.",
+  "tr_ru": "В году двенадцать месяцев.",
+  "explain_en": "After a numeral the noun stays singular: tizenkét hónap.",
+  "explain_ru": "После числительного существительное в ед. числе: tizenkét hónap.",
+  "id": "g070"
+ },
+ {
+  "kind": "word",
+  "text": "A ruhák a ___ vannak, nem a polcon.",
+  "answer": [
+   "szekrényben"
+  ],
+  "ref": "szekrény",
+  "clue_en": "wardrobe",
+  "clue_ru": "шкаф",
+  "tr_en": "The clothes are in the wardrobe, not on the shelf.",
+  "tr_ru": "Одежда в шкафу, а не на полке.",
+  "explain_en": "Inside a container: -ben (front vowels): szekrényben.",
+  "explain_ru": "Внутри — -ben (гласные переднего ряда): szekrényben.",
+  "id": "g071"
+ },
+ {
+  "kind": "word",
+  "text": "Még nincs ___ a vonatra, ezért a pénztárba megyek.",
+  "answer": [
+   "jegyem"
+  ],
+  "ref": "jegy",
+  "clue_en": "ticket",
+  "clue_ru": "билет",
+  "tr_en": "I don't have a ticket for the train yet, so I'm going to the ticket office.",
+  "tr_ru": "У меня ещё нет билета на поезд, поэтому я иду в кассу.",
+  "explain_en": "nincs + possessive: jegyem 'my ticket'.",
+  "explain_ru": "nincs + притяжательный суффикс: jegyem. Русский родительный «билета» здесь не нужен.",
+  "id": "g072"
+ },
+ {
+  "kind": "word",
+  "text": "Pincér, kérem a ___, fizetni szeretnénk.",
+  "answer": [
+   "számlát"
+  ],
+  "ref": "számla",
+  "clue_en": "bill",
+  "clue_ru": "счёт",
+  "tr_en": "Waiter, the bill please, we'd like to pay.",
+  "tr_ru": "Официант, счёт, пожалуйста, мы хотим заплатить.",
+  "explain_en": "Object of kérem: számla + -t with lengthened á: számlát.",
+  "explain_ru": "Дополнение к kérem: számla + -t с удлинением á: számlát.",
+  "id": "g073"
+ },
+ {
+  "kind": "word",
+  "text": "A piacon a zöldség ___, mint a boltban.",
+  "answer": [
+   "olcsóbb"
+  ],
+  "ref": "olcsó",
+  "clue_en": "cheap",
+  "clue_ru": "дешёвый",
+  "tr_en": "Vegetables are cheaper at the market than in the shop.",
+  "tr_ru": "На рынке овощи дешевле, чем в магазине.",
+  "explain_en": "mint requires the comparative: olcsó + bb.",
+  "explain_ru": "mint требует сравнительной степени: olcsóbb.",
+  "id": "g074"
+ },
+ {
+  "kind": "word",
+  "text": "A nagypapának öt ___ van: három fiú és két lány.",
+  "answer": [
+   "unokája"
+  ],
+  "ref": "unoka",
+  "clue_en": "grandchild",
+  "clue_ru": "внук, внучка",
+  "tr_en": "Grandpa has five grandchildren: three boys and two girls.",
+  "tr_ru": "У дедушки пять внуков: три мальчика и две девочки.",
+  "explain_en": "X-nak van + 3sg possessive; singular after a numeral: öt unokája.",
+  "explain_ru": "X-nak van + притяжательный суффикс 3-го лица; после числительного ед. число: öt unokája.",
+  "id": "g075"
+ },
+ {
+  "kind": "word",
+  "text": "Péter ___ orvos, ő maga pedig tanár.",
+  "answer": [
+   "felesége"
+  ],
+  "ref": "feleség",
+  "clue_en": "wife",
+  "clue_ru": "жена",
+  "tr_en": "Peter's wife is a doctor, and he himself is a teacher.",
+  "tr_ru": "Жена Петера врач, а сам он учитель.",
+  "explain_en": "The possessor comes first without an ending, the possessed noun takes -e: Péter felesége.",
+  "explain_ru": "Обладатель стоит впереди без окончания, у обладаемого — суффикс -e: Péter felesége.",
+  "id": "g076"
+ },
+ {
+  "kind": "word",
+  "text": "Vacsora után én ___, a férjem pedig takarít.",
+  "answer": [
+   "mosogatok"
+  ],
+  "ref": "mosogat",
+  "clue_en": "wash the dishes",
+  "clue_ru": "мыть посуду",
+  "tr_en": "After dinner I do the dishes and my husband cleans.",
+  "tr_ru": "После ужина я мою посуду, а муж убирает.",
+  "explain_en": "Washing dishes is one verb, mosogat; mos alone means 'wash' (e.g. laundry).",
+  "explain_ru": "«Мыть посуду» — один глагол mosogat; mos — просто «мыть, стирать».",
+  "id": "g077"
+ },
+ {
+  "kind": "word",
+  "text": "Hétvégén a hegyekben ___ a barátainkkal.",
+  "answer": [
+   "kirándulunk"
+  ],
+  "ref": "kirándul",
+  "clue_en": "go hiking",
+  "clue_ru": "ходить в поход",
+  "tr_en": "At the weekend we go hiking in the mountains with our friends.",
+  "tr_ru": "В выходные мы ходим в походы в горы с друзьями.",
+  "explain_en": "barátainkkal 'with our friends' points to we: kirándulunk.",
+  "explain_ru": "barátainkkal «с нашими друзьями» указывает на «мы»: kirándulunk.",
+  "id": "g078"
+ },
+ {
+  "kind": "word",
+  "text": "Fáj a fejem, gyorsan elmegyek a ___.",
+  "answer": [
+   "gyógyszertárba"
+  ],
+  "ref": "gyógyszertár",
+  "clue_en": "pharmacy",
+  "clue_ru": "аптека",
+  "tr_en": "I have a headache, I'll quickly go to the pharmacy.",
+  "tr_ru": "У меня болит голова, быстро схожу в аптеку.",
+  "explain_en": "Going into a place: -ba: gyógyszertárba.",
+  "explain_ru": "Движение внутрь — -ba: gyógyszertárba (русское «в аптеку»).",
+  "id": "g079"
+ },
+ {
+  "kind": "word",
+  "text": "Szombaton mindig én ___ a konyhát.",
+  "answer": [
+   "takarítom"
+  ],
+  "ref": "takarít",
+  "clue_en": "clean, tidy up",
+  "clue_ru": "убирать",
+  "tr_en": "On Saturdays I'm always the one who cleans the kitchen.",
+  "tr_ru": "По субботам кухню всегда убираю я.",
+  "explain_en": "Cleaning a room is takarít; a konyhát is definite: takarítom.",
+  "explain_ru": "Убирать помещение — takarít; a konyhát определённое: takarítom.",
+  "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-plural-articles",
+  "text": "Ez ___ ember a szomszédom.",
+  "answer": [
+   "az"
+  ],
+  "tr_en": "This man is my neighbour.",
+  "tr_ru": "Этот человек — мой сосед.",
+  "explain_en": "ez 'this' before a noun needs the article: ez az; az before a vowel (ember).",
+  "explain_ru": "Указательное ez перед существительным требует артикля: ez az; перед гласной — az. В русском артикля нет.",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-plural-articles",
+  "text": "Holnap ___ egyetemre megyek, nem a munkahelyemre.",
+  "answer": [
+   "az"
+  ],
+  "tr_en": "Tomorrow I'm going to the university, not to my workplace.",
+  "tr_ru": "Завтра я иду в университет, а не на работу.",
+  "explain_en": "A specific, known university: definite article, and az because egyetem starts with a vowel.",
+  "explain_ru": "Конкретный, известный университет — определённый артикль; az, так как egyetem начинается с гласной.",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-plural-articles",
+  "text": "Magyarországon ___ Duna a leghosszabb folyó.",
+  "answer": [
+   "a"
+  ],
+  "tr_en": "In Hungary the Danube is the longest river.",
+  "tr_ru": "В Венгрии Дунай — самая длинная река.",
+  "explain_en": "Names of rivers and lakes take the definite article: a Duna, a Balaton.",
+  "explain_ru": "Названия рек и озёр употребляются с определённым артиклем: a Duna, a Balaton.",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-plural-articles",
+  "text": "Van itt ___ jó étterem a közelben?",
+  "answer": [
+   "egy"
+  ],
+  "tr_en": "Is there a good restaurant nearby?",
+  "tr_ru": "Здесь поблизости есть хороший ресторан?",
+  "explain_en": "A new, unknown thing whose existence is asked about takes the indefinite article egy.",
+  "explain_ru": "Новый, неизвестный предмет, о существовании которого спрашивают, — с неопределённым артиклем egy.",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "section": "definite-vs-indefinite-conjugation",
+  "text": "Péter olvas ___ újságot a kávézóban.",
+  "answer": [
+   "egy"
+  ],
+  "tr_en": "Peter is reading a newspaper in the café.",
+  "tr_ru": "Петер читает газету в кафе.",
+  "explain_en": "olvas is the indefinite form, so the object must be indefinite: egy újságot (az újságot would need olvassa).",
+  "explain_ru": "olvas — неопределённое спряжение, значит дополнение неопределённое: egy újságot (с az újságot был бы olvassa).",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "section": "definite-vs-indefinite-conjugation",
+  "text": "Anna ismeri ___ új tanárt.",
+  "answer": [
+   "az"
+  ],
+  "tr_en": "Anna knows the new teacher.",
+  "tr_ru": "Анна знакома с новым учителем.",
+  "explain_en": "ismeri is definite, so the object needs the definite article; az before the vowel of új.",
+  "explain_ru": "ismeri — определённое спряжение, нужен определённый артикль; az перед гласной в új.",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "section": "definite-vs-indefinite-conjugation",
+  "text": "Nem értem ___ kérdést, megismételné?",
+  "answer": [
+   "a"
+  ],
+  "tr_en": "I don't understand the question, could you repeat it?",
+  "tr_ru": "Я не понимаю вопрос, не могли бы вы повторить?",
+  "explain_en": "értem here is definite (I don't understand it), so the object takes a.",
+  "explain_ru": "értem здесь — определённое спряжение, поэтому у дополнения артикль a.",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "section": "definite-vs-indefinite-conjugation",
+  "text": "Látok ___ macskát a fán.",
+  "answer": [
+   "egy"
+  ],
+  "tr_en": "I see a cat in the tree.",
+  "tr_ru": "Я вижу кошку на дереве.",
+  "explain_en": "látok is indefinite, so the object is indefinite: egy macskát.",
+  "explain_ru": "látok — неопределённое спряжение, поэтому дополнение с egy.",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "section": "definite-vs-indefinite-conjugation",
+  "text": "Keresem ___ kulcsomat, nem láttad?",
+  "answer": [
+   "a"
+  ],
+  "tr_en": "I'm looking for my key, have you seen it?",
+  "tr_ru": "Я ищу свой ключ, ты не видел?",
+  "explain_en": "A possessed noun normally takes the definite article (a kulcsomat), which matches the definite keresem.",
+  "explain_ru": "Существительное с притяжательным суффиксом обычно стоит с артиклем (a kulcsomat), что соответствует определённому keresem.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "section": "accusative-and-word-order",
+  "text": "___ keresel? – A kulcsomat.",
+  "answer": [
+   "Mit"
+  ],
+  "tr_en": "What are you looking for? – My key.",
+  "tr_ru": "Что ты ищешь? – Свой ключ.",
+  "explain_en": "The question word for a thing as object takes -t: mit.",
+  "explain_ru": "Вопрос к прямому дополнению-предмету — mit (mi + -t).",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "section": "accusative-and-word-order",
+  "text": "___ vársz? – Annát, ő mindig késik.",
+  "answer": [
+   "Kit"
+  ],
+  "tr_en": "Who are you waiting for? – Anna, she's always late.",
+  "tr_ru": "Кого ты ждёшь? – Анну, она всегда опаздывает.",
+  "explain_en": "The answer Annát is a person in the accusative, so the question is kit.",
+  "explain_ru": "Ответ Annát — лицо в винительном падеже, поэтому вопрос kit «кого».",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "section": "accusative-and-word-order",
+  "text": "Sajnos Anna nem ___ szeret, hanem téged, és ez nekem nagyon fáj.",
+  "answer": [
+   "engem"
+  ],
+  "tr_en": "Unfortunately Anna doesn't love me but you, and that hurts me a lot.",
+  "tr_ru": "К сожалению, Анна любит не меня, а тебя, и мне от этого очень больно.",
+  "explain_en": "'Me' as object is engem; with a 1st/2nd person object the verb is indefinite (szeret).",
+  "explain_ru": "«Меня» — engem; при дополнении 1-го/2-го лица глагол в неопределённом спряжении (szeret).",
+  "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "section": "accusative-and-word-order",
+  "text": "___ kér Péter? – Egy pohár vizet.",
+  "answer": [
+   "Mit"
+  ],
+  "tr_en": "What does Peter want? – A glass of water.",
+  "tr_ru": "Что хочет Петер? – Стакан воды.",
+  "explain_en": "The question word for the object stands right before the verb: mit.",
+  "explain_ru": "Вопросительное слово к дополнению стоит прямо перед глаголом: mit.",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "section": "place-suffixes-hol-hova-honnan",
+  "text": "___ jössz? – A boltból.",
+  "answer": [
+   "Honnan"
+  ],
+  "tr_en": "Where are you coming from? – From the shop.",
+  "tr_ru": "Откуда ты идёшь? – Из магазина.",
+  "explain_en": "-ból answers honnan? 'where from'.",
+  "explain_ru": "Суффикс -ból отвечает на вопрос honnan? «откуда».",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "section": "place-suffixes-hol-hova-honnan",
+  "text": "___ mész? – Haza.",
+  "answer": [
+   "Hova",
+   "Hová"
+  ],
+  "tr_en": "Where are you going? – Home.",
+  "tr_ru": "Куда ты идёшь? – Домой.",
+  "explain_en": "Direction is asked with hova/hová; haza is the 'where to' form of 'home'.",
+  "explain_ru": "Направление — hova/hová «куда»; haza — «домой».",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "section": "place-suffixes-hol-hova-honnan",
+  "text": "Gyere ___, Péter, mutatok valamit!",
+  "answer": [
+   "ide"
+  ],
+  "tr_en": "Come here, Peter, I'll show you something!",
+  "tr_ru": "Иди сюда, Петер, я тебе кое-что покажу!",
+  "explain_en": "Motion towards the speaker uses the 'where to' form ide, not itt.",
+  "explain_ru": "Движение к говорящему — ide «сюда», а не itt «здесь», как в русском.",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "section": "place-suffixes-hol-hova-honnan",
+  "text": "A posta nincs messze ___, csak öt perc gyalog.",
+  "answer": [
+   "innen"
+  ],
+  "tr_en": "The post office isn't far from here, only five minutes on foot.",
+  "tr_ru": "Почта недалеко отсюда, всего пять минут пешком.",
+  "explain_en": "messze 'far from' uses the 'where from' series: innen 'from here'.",
+  "explain_ru": "messze «далеко от» требует ряда «откуда»: innen «отсюда».",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "section": "place-suffixes-hol-hova-honnan",
+  "text": "Ne ___ tedd a táskát, hanem ide, az asztalra!",
+  "answer": [
+   "oda"
+  ],
+  "tr_en": "Don't put the bag there, but here, on the table!",
+  "tr_ru": "Не ставь сумку туда, а сюда, на стол!",
+  "explain_en": "tesz is a 'where to' verb, and the contrast with ide requires oda 'to there'.",
+  "explain_ru": "tesz требует направления «куда», и в противопоставлении с ide нужно oda «туда».",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "section": "verb-van-nincs-to-be",
+  "text": "Hol ___ a gyerekek? – A kertben.",
+  "answer": [
+   "vannak"
+  ],
+  "tr_en": "Where are the children? – In the garden.",
+  "tr_ru": "Где дети? – В саду.",
+  "explain_en": "Location requires van even in the 3rd person; with a plural subject: vannak.",
+  "explain_ru": "Для местонахождения van нужен и в 3-м лице; при подлежащем во мн. числе — vannak.",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "section": "verb-van-nincs-to-be",
+  "text": "Péter ma ___ itthon, mert dolgozik.",
+  "answer": [
+   "nincs"
+  ],
+  "tr_en": "Peter isn't at home today because he's working.",
+  "tr_ru": "Петера сегодня нет дома, потому что он работает.",
+  "explain_en": "The negation of van in location sentences is nincs, not nem van.",
+  "explain_ru": "Отрицание van при местонахождении — nincs, а не nem van.",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "section": "verb-van-nincs-to-be",
+  "text": "Te orosz ___, ugye?",
+  "answer": [
+   "vagy"
+  ],
+  "tr_en": "You're Russian, aren't you?",
+  "tr_ru": "Ты ведь русский?",
+  "explain_en": "Only the 3rd person drops the verb before a noun or adjective; with te it is vagy.",
+  "explain_ru": "Связка опускается только в 3-м лице; с te нужно vagy.",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "section": "verb-van-nincs-to-be",
+  "text": "Mi most a parkban ___, gyere te is!",
+  "answer": [
+   "vagyunk"
+  ],
+  "tr_en": "We're in the park now, you come too!",
+  "tr_ru": "Мы сейчас в парке, приходи и ты!",
+  "explain_en": "Location with the subject mi: vagyunk.",
+  "explain_ru": "Местонахождение, подлежащее mi: vagyunk.",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "section": "possession-possessive-suffixes",
+  "text": "___ van autód? – Nincs, busszal járok.",
+  "answer": [
+   "Neked"
+  ],
+  "tr_en": "Do you have a car? – No, I take the bus.",
+  "tr_ru": "У тебя есть машина? – Нет, я езжу на автобусе.",
+  "explain_en": "The possessor in 'have' sentences is dative; autód (your car) shows te: neked.",
+  "explain_ru": "Обладатель — в дательном падеже; autód («твоя машина») указывает на te: neked («у тебя»).",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "section": "possession-possessive-suffixes",
+  "text": "Annának ___ macskája, csak kutyája.",
+  "answer": [
+   "nincs"
+  ],
+  "tr_en": "Anna doesn't have a cat, only a dog.",
+  "tr_ru": "У Анны нет кошки, только собака.",
+  "explain_en": "'Not have' is nincs + possessed noun; the noun stays in the nominative, unlike the Russian genitive.",
+  "explain_ru": "«Не иметь» — nincs + существительное с суффиксом; оно остаётся в именительном, в отличие от русского родительного «кошки».",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "section": "possession-possessive-suffixes",
+  "text": "A szomszédnak van egy lánya; ___ neve Kati.",
+  "answer": [
+   "a"
+  ],
+  "tr_en": "The neighbour has a daughter; her name is Kati.",
+  "tr_ru": "У соседа есть дочь, её зовут Кати.",
+  "explain_en": "A possessed noun as subject takes the definite article: a neve.",
+  "explain_ru": "Существительное с притяжательным суффиксом в роли подлежащего стоит с артиклем: a neve.",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "section": "possession-possessive-suffixes",
+  "text": "___ van egy új biciklije, mert ma van a születésnapja.",
+  "answer": [
+   "Neki"
+  ],
+  "tr_en": "He has a new bike because today is his birthday.",
+  "tr_ru": "У него новый велосипед, потому что сегодня его день рождения.",
+  "explain_en": "The 3sg possessive biciklije requires the 3sg dative pronoun: neki.",
+  "explain_ru": "Притяжательный суффикс 3-го лица (biciklije) требует дательного местоимения 3-го лица: neki.",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjectives-numbers-comparison",
+  "text": "Péter magasabb, ___ Anna.",
+  "answer": [
+   "mint"
+  ],
+  "tr_en": "Peter is taller than Anna.",
+  "tr_ru": "Петер выше, чем Анна.",
+  "explain_en": "After a comparative 'than' is mint.",
+  "explain_ru": "После сравнительной степени «чем» — mint.",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjectives-numbers-comparison",
+  "text": "___ testvéred van? – Kettő.",
+  "answer": [
+   "Hány"
+  ],
+  "tr_en": "How many siblings do you have? – Two.",
+  "tr_ru": "Сколько у тебя братьев и сестёр? – Двое.",
+  "explain_en": "Countable things are asked with hány, followed by a singular noun.",
+  "explain_ru": "Исчисляемое спрашивают через hány, после него — ед. число.",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjectives-numbers-comparison",
+  "text": "___ pénzed van még? – Csak egy kevés.",
+  "answer": [
+   "Mennyi"
+  ],
+  "tr_en": "How much money do you still have? – Only a little.",
+  "tr_ru": "Сколько у тебя ещё денег? – Совсем немного.",
+  "explain_en": "Uncountable amounts are asked with mennyi, countable ones with hány.",
+  "explain_ru": "Неисчисляемое количество — mennyi, исчисляемое — hány; в русском оба «сколько».",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjectives-numbers-comparison",
+  "text": "___ a ház? – Nagy és fehér.",
+  "answer": [
+   "Milyen"
+  ],
+  "tr_en": "What is the house like? – Big and white.",
+  "tr_ru": "Какой дом? – Большой и белый.",
+  "explain_en": "Questions about qualities use milyen.",
+  "explain_ru": "Вопрос о качестве — milyen «какой».",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjectives-numbers-comparison",
+  "text": "Hány kávét kér? – ___, kérem.",
+  "answer": [
+   "Kettőt"
+  ],
+  "tr_en": "How many coffees would you like? – Two, please.",
+  "tr_ru": "Сколько кофе вам? – Два, пожалуйста.",
+  "explain_en": "Standing alone, 'two' is kettő, and as an object it takes -t: kettőt.",
+  "explain_ru": "Самостоятельно «два» — kettő, и как дополнение оно получает -t: kettőt. По-русски числительное не меняется.",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-tense-indefinite-conjugation",
+  "text": "Péter nagyon jól ___ főzni, a vacsorája mindig finom.",
+  "answer": [
+   "tud"
+  ],
+  "tr_en": "Peter can cook very well; his dinner is always delicious.",
+  "tr_ru": "Петер очень хорошо умеет готовить, его ужин всегда вкусный.",
+  "explain_en": "Ability is tud + infinitive; 3sg indefinite: tud.",
+  "explain_ru": "Умение — tud + инфинитив; 3-е лицо: tud.",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation-polite-forms",
+  "text": "Nincs itt ___, mindenki otthon van.",
+  "answer": [
+   "senki"
+  ],
+  "tr_en": "Nobody is here, everyone is at home.",
+  "tr_ru": "Здесь никого нет, все дома.",
+  "explain_en": "With nincs the negative pronoun senki is used; as in Russian, the negation is doubled.",
+  "explain_ru": "С nincs употребляется senki; как и в русском, отрицание двойное.",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation-polite-forms",
+  "text": "Péter nem iszik kávét, és Anna ___.",
+  "answer": [
+   "sem"
+  ],
+  "tr_en": "Peter doesn't drink coffee, and neither does Anna.",
+  "tr_ru": "Петер не пьёт кофе, и Анна тоже.",
+  "explain_en": "'Neither, not … either' after a negative is sem; is is only for positive sentences.",
+  "explain_ru": "После отрицания «тоже не» — sem; is — только в утвердительных предложениях.",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation-polite-forms",
+  "text": "Péter beszél angolul, és Anna ___.",
+  "answer": [
+   "is"
+  ],
+  "tr_en": "Peter speaks English, and so does Anna.",
+  "tr_ru": "Петер говорит по-английски, и Анна тоже.",
+  "explain_en": "'Too, also' in a positive sentence is is, placed after the word it refers to.",
+  "explain_ru": "«Тоже» в утвердительном предложении — is, ставится после слова, к которому относится.",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation-polite-forms",
+  "text": "Nem vagy éhes? – ___, nagyon éhes vagyok!",
+  "answer": [
+   "De"
+  ],
+  "tr_en": "Aren't you hungry? – Yes, I am, very!",
+  "tr_ru": "Ты не голоден? – Ещё как, очень голоден!",
+  "explain_en": "To contradict a negative question, Hungarian answers de, not igen.",
+  "explain_ru": "Чтобы возразить на отрицательный вопрос, отвечают de, а не igen (ср. русское «ещё как»).",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation-polite-forms",
+  "text": "Elnézést, ___ honnan jön?",
+  "answer": [
+   "Ön",
+   "maga"
+  ],
+  "tr_en": "Excuse me, where are you from?",
+  "tr_ru": "Извините, откуда вы?",
+  "explain_en": "The verb jön is 3rd person, but the sentence addresses someone: the polite pronoun ön (or maga).",
+  "explain_ru": "Глагол jön в 3-м лице, но обращаются к собеседнику — вежливое ön (или maga), как русское «вы».",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation-polite-forms",
+  "text": "Köszönöm, nem eszem ___, nem vagyok éhes.",
+  "answer": [
+   "semmit"
+  ],
+  "tr_en": "Thanks, I won't eat anything, I'm not hungry.",
+  "tr_ru": "Спасибо, я ничего не буду есть, я не голоден.",
+  "explain_en": "'Nothing' as an object is semmit, with nem before the verb.",
+  "explain_ru": "«Ничего» в роли дополнения — semmit, при глаголе остаётся nem.",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation-polite-forms",
+  "text": "Ő ___ nem késik, mindig pontos.",
+  "answer": [
+   "soha"
+  ],
+  "tr_en": "He is never late, he's always on time.",
+  "tr_ru": "Он никогда не опаздывает, всегда пунктуален.",
+  "explain_en": "'Never' is soha, and it is used together with nem (double negation).",
+  "explain_ru": "«Никогда» — soha, вместе с nem, как в русском «никогда не».",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation-polite-forms",
+  "text": "Nem tudom, hol van Péter. – Én ___ tudom.",
+  "answer": [
+   "sem"
+  ],
+  "tr_en": "I don't know where Peter is. – I don't know either.",
+  "tr_ru": "Я не знаю, где Петер. – Я тоже не знаю.",
+  "explain_en": "Agreeing with a negative statement uses sem after the pronoun; it replaces nem.",
+  "explain_ru": "Согласие с отрицанием — sem после местоимения; sem заменяет nem («я тоже не»).",
+  "id": "g120"
+ }
+]

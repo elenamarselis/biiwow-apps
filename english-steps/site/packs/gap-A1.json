@@ -1,0 +1,1556 @@
+[
+ {
+  "kind": "form",
+  "text": "My little brother has two loose ___ at the front of his mouth.",
+  "answer": [
+   "teeth"
+  ],
+  "lemma": "tooth",
+  "tr_ru": "У моего младшего брата шатаются два передних зуба.",
+  "explain_en": "'Two' needs a plural; tooth has the irregular plural teeth (oo → ee).",
+  "explain_ru": "После two нужно множественное число; tooth — неправильное: teeth (oo → ee), без -s.",
+  "id": "g001"
+ },
+ {
+  "kind": "form",
+  "text": "There are three small ___ in our kitchen, and the cat is very interested.",
+  "answer": [
+   "mice"
+  ],
+  "lemma": "mouse",
+  "tr_ru": "У нас на кухне три маленькие мыши, и кошка очень заинтересовалась.",
+  "explain_en": "Mouse has the irregular plural mice; 'mouses' is wrong.",
+  "explain_ru": "Mouse — неправильное существительное: множественное число mice, а не mouses.",
+  "id": "g002"
+ },
+ {
+  "kind": "form",
+  "text": "How many ___ have your parents got? — Three: two boys and a girl.",
+  "answer": [
+   "children"
+  ],
+  "lemma": "child",
+  "tr_ru": "Сколько детей у твоих родителей? — Трое: два мальчика и девочка.",
+  "explain_en": "After 'how many' we need a plural; child → children is irregular.",
+  "explain_ru": "После how many нужно множественное число; child → children — неправильная форма.",
+  "id": "g003"
+ },
+ {
+  "kind": "form",
+  "text": "Those two ___ next to the car are my uncles.",
+  "answer": [
+   "men"
+  ],
+  "lemma": "man",
+  "tr_ru": "Те двое мужчин возле машины — мои дяди.",
+  "explain_en": "Plural of man is men (vowel change), not 'mans'.",
+  "explain_ru": "Множественное число man — men (меняется гласная), а не mans.",
+  "id": "g004"
+ },
+ {
+  "kind": "form",
+  "text": "Most of the ___ in our village keep chickens and grow vegetables.",
+  "answer": [
+   "women"
+  ],
+  "lemma": "woman",
+  "tr_ru": "Большинство женщин в нашей деревне держат кур и выращивают овощи.",
+  "explain_en": "'Most of the …' and 'keep' need a plural: woman → women.",
+  "explain_ru": "После most of the и с глаголом keep нужно множественное число: woman → women (читается [ˈwɪmɪn]).",
+  "id": "g005"
+ },
+ {
+  "kind": "form",
+  "text": "Please put the forks and ___ on the table next to the plates.",
+  "answer": [
+   "knives"
+  ],
+  "lemma": "knife",
+  "tr_ru": "Пожалуйста, положи вилки и ножи на стол рядом с тарелками.",
+  "explain_en": "Many nouns ending in -fe change to -ves in the plural: knife → knives.",
+  "explain_ru": "У многих слов на -fe во множественном числе -fe меняется на -ves: knife → knives.",
+  "id": "g006"
+ },
+ {
+  "kind": "form",
+  "text": "After the long walk both my ___ hurt.",
+  "answer": [
+   "feet"
+  ],
+  "lemma": "foot",
+  "tr_ru": "После долгой прогулки у меня болят обе ноги (ступни).",
+  "explain_en": "'Both' needs a plural; foot → feet is irregular.",
+  "explain_ru": "После both нужно множественное число; foot → feet — неправильная форма.",
+  "id": "g007"
+ },
+ {
+  "kind": "form",
+  "text": "Every evening my father ___ the dishes, and I dry them.",
+  "answer": [
+   "washes"
+  ],
+  "lemma": "wash",
+  "tr_ru": "Каждый вечер папа моет посуду, а я её вытираю.",
+  "explain_en": "Present simple with he/she/it adds -s; after -sh we add -es: washes.",
+  "explain_ru": "В Present Simple с he/she/it добавляется -s; после -sh пишется -es: washes.",
+  "id": "g008"
+ },
+ {
+  "kind": "form",
+  "text": "My sister usually ___ her homework on the bus, so she is free in the evening.",
+  "answer": [
+   "does"
+  ],
+  "lemma": "do",
+  "tr_ru": "Сестра обычно делает домашнее задание в автобусе, поэтому вечером она свободна.",
+  "explain_en": "Third person singular of do is does (spelled -es, pronounced /dʌz/).",
+  "explain_ru": "Форма do для he/she/it — does (пишется -es, читается [dʌz]).",
+  "id": "g009"
+ },
+ {
+  "kind": "form",
+  "text": "The baby ___ a lot at night, so his parents are always tired.",
+  "answer": [
+   "cries"
+  ],
+  "lemma": "cry",
+  "tr_ru": "Малыш много плачет по ночам, поэтому его родители всегда уставшие.",
+  "explain_en": "Consonant + y: change y to i and add -es: cry → cries.",
+  "explain_ru": "Согласная + y: y меняется на i и добавляется -es: cry → cries.",
+  "id": "g010"
+ },
+ {
+  "kind": "form",
+  "text": "My uncle is a pilot, and he ___ to New York every Monday.",
+  "answer": [
+   "flies"
+  ],
+  "lemma": "fly",
+  "tr_ru": "Мой дядя пилот, и он летает в Нью-Йорк каждый понедельник.",
+  "explain_en": "Present simple, he: consonant + y → -ies: flies.",
+  "explain_ru": "Present Simple с he: согласная + y → -ies: flies.",
+  "id": "g011"
+ },
+ {
+  "kind": "form",
+  "text": "My grandmother ___ a big garden behind her house, and she loves it.",
+  "answer": [
+   "has"
+  ],
+  "lemma": "have",
+  "tr_ru": "У моей бабушки за домом большой сад, и она его обожает.",
+  "explain_en": "Have is irregular in the third person: she has, not 'haves'.",
+  "explain_ru": "Have в 3-м лице ед. числа неправильный: she has, а не haves. По-русски «у неё есть», по-английски — she has.",
+  "id": "g012"
+ },
+ {
+  "kind": "form",
+  "text": "Don't worry, the bus ___ to the station every ten minutes.",
+  "answer": [
+   "goes"
+  ],
+  "lemma": "go",
+  "tr_ru": "Не волнуйся, автобус ходит до вокзала каждые десять минут.",
+  "explain_en": "Go ending in -o adds -es in the third person: goes.",
+  "explain_ru": "Глаголы на -o в 3-м лице получают -es: go → goes.",
+  "id": "g013"
+ },
+ {
+  "kind": "form",
+  "text": "My brother likes tea, but he ___ like coffee at all.",
+  "answer": [
+   "doesn't",
+   "does not"
+  ],
+  "lemma": "do",
+  "tr_ru": "Мой брат любит чай, но кофе совсем не любит.",
+  "explain_en": "Negative present simple with he: doesn't + base verb (like, not likes).",
+  "explain_ru": "Отрицание в Present Simple с he: doesn't + глагол без -s. В русском просто «не», в английском нужен вспомогательный глагол.",
+  "id": "g014"
+ },
+ {
+  "kind": "form",
+  "text": "Look — the keys to the front door ___ under the sofa!",
+  "answer": [
+   "are"
+  ],
+  "lemma": "be",
+  "tr_ru": "Смотри — ключи от входной двери под диваном!",
+  "explain_en": "The subject is 'the keys' (plural), not 'the door', so the verb is are.",
+  "explain_ru": "Подлежащее — the keys (мн. число), а не the door, поэтому are. В русском связки нет, в английском она обязательна.",
+  "id": "g015"
+ },
+ {
+  "kind": "form",
+  "text": "Everyone in my family ___ tall, but I am short.",
+  "answer": [
+   "is"
+  ],
+  "lemma": "be",
+  "tr_ru": "Все в моей семье высокие, а я низкий.",
+  "explain_en": "Everyone is grammatically singular, so it takes is.",
+  "explain_ru": "Everyone грамматически в единственном числе, поэтому is — хотя по-русски «все» требует множественного.",
+  "id": "g016"
+ },
+ {
+  "kind": "form",
+  "text": "My sister and I are twins, but I ___ ten minutes older.",
+  "answer": [
+   "am"
+  ],
+  "lemma": "be",
+  "tr_ru": "Мы с сестрой близнецы, но я на десять минут старше.",
+  "explain_en": "With I the present form of be is am.",
+  "explain_ru": "С I форма глагола be — am. В русском «я старше» без глагола, а в английском связка нужна.",
+  "id": "g017"
+ },
+ {
+  "kind": "form",
+  "text": "Where ___ you yesterday at six o'clock? I called you twice.",
+  "answer": [
+   "were"
+  ],
+  "lemma": "be",
+  "tr_ru": "Где ты был вчера в шесть часов? Я звонил тебе два раза.",
+  "explain_en": "'Yesterday' needs the past; with you the past of be is were.",
+  "explain_ru": "Yesterday требует прошедшего времени; с you форма be — were (не was).",
+  "id": "g018"
+ },
+ {
+  "kind": "form",
+  "text": "The weather ___ terrible last weekend, so we stayed at home.",
+  "answer": [
+   "was"
+  ],
+  "lemma": "be",
+  "tr_ru": "В прошлые выходные погода была ужасная, поэтому мы остались дома.",
+  "explain_en": "Past with a singular subject (the weather): was.",
+  "explain_ru": "Прошедшее время с подлежащим в ед. числе (the weather): was.",
+  "id": "g019"
+ },
+ {
+  "kind": "form",
+  "text": "The shops ___ open on Sunday, so we didn't buy any bread.",
+  "answer": [
+   "weren't",
+   "were not"
+  ],
+  "lemma": "be",
+  "tr_ru": "В воскресенье магазины не работали, поэтому мы не купили хлеба.",
+  "explain_en": "'Didn't buy' shows the past; plural subject + negative: weren't.",
+  "explain_ru": "Didn't buy показывает прошлое; подлежащее во мн. числе + отрицание: weren't.",
+  "id": "g020"
+ },
+ {
+  "kind": "form",
+  "text": "The taxi ___ in front of the hotel, and a tall man got out.",
+  "answer": [
+   "stopped"
+  ],
+  "lemma": "stop",
+  "tr_ru": "Такси остановилось перед отелем, и из него вышел высокий мужчина.",
+  "explain_en": "Short verb with one vowel + one consonant doubles the consonant: stop → stopped.",
+  "explain_ru": "В коротком глаголе с одной гласной и одной согласной на конце согласная удваивается: stop → stopped.",
+  "id": "g021"
+ },
+ {
+  "kind": "form",
+  "text": "Last night I ___ to call you three times, but your phone was off.",
+  "answer": [
+   "tried"
+  ],
+  "lemma": "try",
+  "tr_ru": "Вчера вечером я три раза пытался тебе позвонить, но твой телефон был выключен.",
+  "explain_en": "Consonant + y → -ied in the past: try → tried.",
+  "explain_ru": "Согласная + y → -ied в прошедшем времени: try → tried.",
+  "id": "g022"
+ },
+ {
+  "kind": "form",
+  "text": "Last summer we ___ around Spain by train for two weeks.",
+  "answer": [
+   "travelled",
+   "traveled"
+  ],
+  "lemma": "travel",
+  "tr_ru": "Прошлым летом мы две недели путешествовали по Испании на поезде.",
+  "explain_en": "Past simple; British English doubles the final l: travelled (American: traveled).",
+  "explain_ru": "Past Simple; в британском варианте l удваивается: travelled (в американском — traveled).",
+  "id": "g023"
+ },
+ {
+  "kind": "form",
+  "text": "Yesterday my father ___ the heavy box upstairs on his own.",
+  "answer": [
+   "carried"
+  ],
+  "lemma": "carry",
+  "tr_ru": "Вчера папа сам отнёс тяжёлую коробку наверх.",
+  "explain_en": "Consonant + y → -ied: carry → carried.",
+  "explain_ru": "Согласная + y → -ied: carry → carried.",
+  "id": "g024"
+ },
+ {
+  "kind": "form",
+  "text": "We ___ to the station this morning, but we still missed the train.",
+  "answer": [
+   "hurried"
+  ],
+  "lemma": "hurry",
+  "tr_ru": "Сегодня утром мы спешили на вокзал, но всё равно опоздали на поезд.",
+  "explain_en": "'Missed' shows the past; hurry → hurried (y → ied).",
+  "explain_ru": "Missed показывает прошлое; hurry → hurried (y → ied).",
+  "id": "g025"
+ },
+ {
+  "kind": "form",
+  "text": "Look! Two boys are ___ in the lake, and the water is so cold!",
+  "answer": [
+   "swimming"
+  ],
+  "lemma": "swim",
+  "tr_ru": "Смотри! Два мальчика плавают в озере, а вода такая холодная!",
+  "explain_en": "Present continuous: are + -ing; swim doubles the m: swimming.",
+  "explain_ru": "Present Continuous: are + -ing; в swim удваивается m: swimming.",
+  "id": "g026"
+ },
+ {
+  "kind": "form",
+  "text": "Why are you ___? — Because our bus is leaving!",
+  "answer": [
+   "running"
+  ],
+  "lemma": "run",
+  "tr_ru": "Почему ты бежишь? — Потому что наш автобус уходит!",
+  "explain_en": "-ing form after are; run doubles the n: running.",
+  "explain_ru": "Форма -ing после are; в run удваивается n: running.",
+  "id": "g027"
+ },
+ {
+  "kind": "form",
+  "text": "Be quiet, please — Grandma is ___ a letter to her sister.",
+  "answer": [
+   "writing"
+  ],
+  "lemma": "write",
+  "tr_ru": "Тише, пожалуйста — бабушка пишет письмо своей сестре.",
+  "explain_en": "Verbs ending in silent -e drop the e before -ing: write → writing (one t).",
+  "explain_ru": "У глаголов на немое -e буква e выпадает перед -ing: write → writing (одна t).",
+  "id": "g028"
+ },
+ {
+  "kind": "form",
+  "text": "Who is that girl ___ next to your brother at the back?",
+  "answer": [
+   "sitting"
+  ],
+  "lemma": "sit",
+  "tr_ru": "Кто та девочка, которая сидит рядом с твоим братом сзади?",
+  "explain_en": "'Girl sitting …' = the girl who is sitting; sit doubles the t: sitting.",
+  "explain_ru": "Girl sitting … = девочка, которая сидит; в sit удваивается t: sitting.",
+  "id": "g029"
+ },
+ {
+  "kind": "form",
+  "text": "Mum is in the kitchen; she's ___ a cake for my birthday.",
+  "answer": [
+   "making"
+  ],
+  "lemma": "make",
+  "tr_ru": "Мама на кухне — она печёт торт на мой день рождения.",
+  "explain_en": "'She's' = she is, so we need -ing; make drops the e: making.",
+  "explain_ru": "She's = she is, поэтому нужна форма -ing; в make выпадает e: making.",
+  "id": "g030"
+ },
+ {
+  "kind": "form",
+  "text": "Can you help my brother and ___ with our homework?",
+  "answer": [
+   "me"
+  ],
+  "lemma": "I",
+  "tr_ru": "Ты можешь помочь нам с братом с домашним заданием?",
+  "explain_en": "After the verb help we need the object form: me, even in 'my brother and me'.",
+  "explain_ru": "После глагола help нужна объектная форма: me — и в сочетании my brother and me тоже.",
+  "id": "g031"
+ },
+ {
+  "kind": "form",
+  "text": "I like my new teacher, and all the other students like ___ too.",
+  "answer": [
+   "him"
+  ],
+  "lemma": "he",
+  "tr_ru": "Мне нравится мой новый учитель, и всем остальным ученикам он тоже нравится.",
+  "explain_en": "Object of 'like' → object pronoun him.",
+  "explain_ru": "Дополнение после like — объектное местоимение him. Обратите внимание: по-русски «он нравится», а по-английски students like him.",
+  "id": "g032"
+ },
+ {
+  "kind": "form",
+  "text": "Where are my glasses? I can't find ___ anywhere.",
+  "answer": [
+   "them"
+  ],
+  "lemma": "they",
+  "tr_ru": "Где мои очки? Я нигде не могу их найти.",
+  "explain_en": "Glasses is plural, and after find we need the object form: them.",
+  "explain_ru": "Glasses — множественное число, а после find нужна объектная форма: them (не it).",
+  "id": "g033"
+ },
+ {
+  "kind": "form",
+  "text": "Our grandparents often visit ___ at the weekend.",
+  "answer": [
+   "us"
+  ],
+  "lemma": "we",
+  "tr_ru": "Бабушка с дедушкой часто приезжают к нам в гости на выходных.",
+  "explain_en": "Object of visit → object form of we: us.",
+  "explain_ru": "Дополнение после visit — объектная форма we: us. По-русски «к нам», по-английски без предлога.",
+  "id": "g034"
+ },
+ {
+  "kind": "form",
+  "text": "Anna is new here, so please show ___ the way to the office.",
+  "answer": [
+   "her"
+  ],
+  "lemma": "she",
+  "tr_ru": "Анна здесь новенькая, так что, пожалуйста, покажи ей дорогу в офис.",
+  "explain_en": "After show we need the object form: she → her.",
+  "explain_ru": "После show нужна объектная форма: she → her.",
+  "id": "g035"
+ },
+ {
+  "kind": "form",
+  "text": "The dog is hungry because ___ bowl is empty.",
+  "answer": [
+   "its"
+  ],
+  "lemma": "it",
+  "tr_ru": "Собака голодная, потому что её миска пуста.",
+  "explain_en": "Possessive of it is its — no apostrophe (it's = it is).",
+  "explain_ru": "Притяжательная форма it — its, без апострофа (it's = it is).",
+  "id": "g036"
+ },
+ {
+  "kind": "form",
+  "text": "We love ___ new flat because it has a big kitchen.",
+  "answer": [
+   "our"
+  ],
+  "lemma": "we",
+  "tr_ru": "Мы обожаем нашу новую квартиру, потому что в ней большая кухня.",
+  "explain_en": "Possessive of we is our.",
+  "explain_ru": "Притяжательная форма we — our. В русском можно сказать «свою», в английском только our.",
+  "id": "g037"
+ },
+ {
+  "kind": "form",
+  "text": "This is my ___ house; they live here with my grandmother.",
+  "answer": [
+   "parents'"
+  ],
+  "lemma": "parent",
+  "tr_ru": "Это дом моих родителей; они живут здесь с моей бабушкой.",
+  "explain_en": "'They' shows two parents: plural parents + possessive apostrophe after the s: parents'.",
+  "explain_ru": "They показывает, что родителей двое: множественное parents + апостроф после s: parents'.",
+  "id": "g038"
+ },
+ {
+  "kind": "form",
+  "text": "I'm sorry, I ___ swim, so I never go into the sea.",
+  "answer": [
+   "can't",
+   "cannot",
+   "can not"
+  ],
+  "lemma": "can",
+  "tr_ru": "Извини, я не умею плавать, поэтому никогда не захожу в море.",
+  "explain_en": "Negative of can is can't / cannot; it does not use don't.",
+  "explain_ru": "Отрицание can — can't / cannot, без don't. Русское «не умею» тоже передаётся через can't.",
+  "id": "g039"
+ },
+ {
+  "kind": "form",
+  "text": "The children are playing in the garden with ___ new dog.",
+  "answer": [
+   "their"
+  ],
+  "lemma": "they",
+  "tr_ru": "Дети играют в саду со своей новой собакой.",
+  "explain_en": "The possessive of they is their; English has no general word like Russian 'svoy', so the possessive follows the subject.",
+  "explain_ru": "Притяжательная форма they — their. Русское «свой» в английском переводится по лицу: их → their.",
+  "id": "g040"
+ },
+ {
+  "kind": "word",
+  "text": "At our school we ___ a uniform: a white shirt and grey trousers.",
+  "answer": [
+   "wear"
+  ],
+  "ref": "to wear",
+  "clue_en": "have clothes on your body",
+  "clue_ru": "носить (одежду)",
+  "tr_ru": "В нашей школе мы носим форму: белую рубашку и серые брюки.",
+  "explain_en": "Wear = have clothes on (a state); put on is the action of dressing.",
+  "explain_ru": "Wear — «быть одетым, носить» (состояние); put on — действие «надеть».",
+  "id": "g041"
+ },
+ {
+  "kind": "word",
+  "text": "It's cold outside — ___ your jacket before you go out!",
+  "answer": [
+   "put on"
+  ],
+  "ref": "to put on",
+  "clue_en": "start wearing",
+  "clue_ru": "надеть",
+  "tr_ru": "На улице холодно — надень куртку, прежде чем выходить!",
+  "explain_en": "Put on is the action of getting dressed; wear only describes the state.",
+  "explain_ru": "Put on — действие «надеть»; wear — состояние «быть в чём-то». Русское «надень» = put on.",
+  "id": "g042"
+ },
+ {
+  "kind": "word",
+  "text": "Please ___ your shoes when you come into the house.",
+  "answer": [
+   "take off"
+  ],
+  "ref": "to take off",
+  "clue_en": "remove (clothes)",
+  "clue_ru": "снять (одежду)",
+  "tr_ru": "Пожалуйста, снимай обувь, когда заходишь в дом.",
+  "explain_en": "Take off is the opposite of put on: remove clothes or shoes.",
+  "explain_ru": "Take off — противоположность put on: снять одежду или обувь.",
+  "id": "g043"
+ },
+ {
+  "kind": "word",
+  "text": "Don't ___ anyone about the party — it's a surprise!",
+  "answer": [
+   "tell"
+  ],
+  "ref": "to tell",
+  "clue_en": "give information to someone",
+  "clue_ru": "рассказать (кому-то)",
+  "tr_ru": "Никому не рассказывай о вечеринке — это сюрприз!",
+  "explain_en": "Tell is followed directly by a person (tell anyone); say cannot take a person object like this.",
+  "explain_ru": "После tell сразу идёт человек (tell anyone); say так не употребляется. Русское «сказать/рассказать кому-то» = tell.",
+  "id": "g044"
+ },
+ {
+  "kind": "word",
+  "text": "What did she ___ to you? — Nothing, she just smiled.",
+  "answer": [
+   "say"
+  ],
+  "ref": "to say",
+  "clue_en": "speak words",
+  "clue_ru": "сказать",
+  "tr_ru": "Что она тебе сказала? — Ничего, просто улыбнулась.",
+  "explain_en": "Say + to + person; tell needs no 'to' (tell you).",
+  "explain_ru": "Say + to + человек; у tell предлога нет (tell you). Поэтому здесь только say.",
+  "id": "g045"
+ },
+ {
+  "kind": "word",
+  "text": "My grandmother can ___ three languages: English, French and Polish.",
+  "answer": [
+   "speak"
+  ],
+  "ref": "to speak",
+  "clue_en": "use a language",
+  "clue_ru": "говорить (на языке)",
+  "tr_ru": "Моя бабушка говорит на трёх языках: английском, французском и польском.",
+  "explain_en": "We speak a language; say and tell are not used with languages.",
+  "explain_ru": "С языками используется speak; say и tell так не употребляются. Предлога «на» в английском нет.",
+  "id": "g046"
+ },
+ {
+  "kind": "word",
+  "text": "We ___ TV for an hour every evening after dinner.",
+  "answer": [
+   "watch"
+  ],
+  "ref": "to watch",
+  "clue_en": "look at for some time",
+  "clue_ru": "смотреть (телевизор)",
+  "tr_ru": "Мы смотрим телевизор час каждый вечер после ужина.",
+  "explain_en": "We watch TV (look at something moving for a time); 'see TV' and 'look TV' are wrong.",
+  "explain_ru": "Телевизор смотрят — watch TV; see TV и look TV неправильно.",
+  "id": "g047"
+ },
+ {
+  "kind": "word",
+  "text": "I ___ to music on the bus every morning.",
+  "answer": [
+   "listen"
+  ],
+  "ref": "to listen",
+  "clue_en": "pay attention to sounds",
+  "clue_ru": "слушать",
+  "tr_ru": "Каждое утро я слушаю музыку в автобусе.",
+  "explain_en": "Listen to = pay attention to sounds; hear does not take 'to'.",
+  "explain_ru": "Listen to — «слушать»; hear («слышать») без to. Русское «слушать музыку» = listen to music.",
+  "id": "g048"
+ },
+ {
+  "kind": "word",
+  "text": "Speak louder, please — I can't ___ you.",
+  "answer": [
+   "hear"
+  ],
+  "ref": "to hear",
+  "clue_en": "notice a sound",
+  "clue_ru": "слышать",
+  "tr_ru": "Говори громче, пожалуйста — я тебя не слышу.",
+  "explain_en": "Hear = notice sound with your ears; 'listen you' is wrong without 'to'.",
+  "explain_ru": "Hear — «слышать»; listen — «слушать» и требует to. Здесь «не слышу» = can't hear.",
+  "id": "g049"
+ },
+ {
+  "kind": "word",
+  "text": "___ at this photo — it's my grandfather as a little boy!",
+  "answer": [
+   "Look",
+   "look"
+  ],
+  "ref": "to look",
+  "clue_en": "turn your eyes",
+  "clue_ru": "смотреть, взглянуть",
+  "tr_ru": "Посмотри на эту фотографию — это мой дедушка, когда был маленьким!",
+  "explain_en": "Look at = turn your eyes to something; see and watch don't take 'at'.",
+  "explain_ru": "Look at — «посмотреть на»; see и watch не употребляются с at.",
+  "id": "g050"
+ },
+ {
+  "kind": "word",
+  "text": "Come to my party on Saturday and ___ your sister with you!",
+  "answer": [
+   "bring"
+  ],
+  "ref": "to bring",
+  "clue_en": "come with something",
+  "clue_ru": "привести, принести",
+  "tr_ru": "Приходи ко мне на вечеринку в субботу и приводи с собой сестру!",
+  "explain_en": "Bring = carry or come with something/someone to where the speaker is; take is away from the speaker.",
+  "explain_ru": "Bring — принести/привести сюда, к говорящему; take — унести/отвести туда.",
+  "id": "g051"
+ },
+ {
+  "kind": "word",
+  "text": "My son is ___ to swim at school this year.",
+  "answer": [
+   "learning"
+  ],
+  "ref": "to learn",
+  "clue_en": "get new knowledge",
+  "clue_ru": "учиться, учить",
+  "tr_ru": "В этом году мой сын учится плавать в школе.",
+  "explain_en": "Learn = get knowledge or a skill yourself; teach = give it to someone else.",
+  "explain_ru": "Learn — учиться самому; teach — учить кого-то. Русское «учить» бывает и тем, и другим.",
+  "id": "g052"
+ },
+ {
+  "kind": "word",
+  "text": "My mother ___ English to children at a school in our town.",
+  "answer": [
+   "teaches"
+  ],
+  "ref": "to teach",
+  "clue_en": "give lessons",
+  "clue_ru": "преподавать, учить (кого-то)",
+  "tr_ru": "Моя мама преподаёт английский детям в школе нашего города.",
+  "explain_en": "'To children' shows she gives knowledge to others: teach; she → teaches (-es after ch).",
+  "explain_ru": "To children показывает, что она учит других: teach; с she — teaches (после ch пишется -es).",
+  "id": "g053"
+ },
+ {
+  "kind": "word",
+  "text": "I can't buy this jacket — it costs three hundred pounds, it's too ___.",
+  "answer": [
+   "expensive"
+  ],
+  "ref": "expensive",
+  "clue_en": "costing a lot",
+  "clue_ru": "дорогой",
+  "tr_ru": "Я не могу купить эту куртку — она стоит триста фунтов, слишком дорого.",
+  "explain_en": "Expensive = high in price; 'dear' is old-fashioned in this meaning.",
+  "explain_ru": "Expensive — «дорогой» по цене. Не путайте с dear — «дорогой» как обращение.",
+  "id": "g054"
+ },
+ {
+  "kind": "word",
+  "text": "The bus is really ___: a ticket is only one pound.",
+  "answer": [
+   "cheap"
+  ],
+  "ref": "cheap",
+  "clue_en": "low in price",
+  "clue_ru": "дешёвый",
+  "tr_ru": "Автобус очень дешёвый: билет стоит всего один фунт.",
+  "explain_en": "Cheap = not expensive; 'free' would mean no price at all.",
+  "explain_ru": "Cheap — «дешёвый»; free — «бесплатный», а здесь цена есть — один фунт.",
+  "id": "g055"
+ },
+ {
+  "kind": "word",
+  "text": "My brother is very ___ — almost two metres!",
+  "answer": [
+   "tall"
+  ],
+  "ref": "tall",
+  "clue_en": "big from head to foot",
+  "clue_ru": "высокий (о человеке)",
+  "tr_ru": "Мой брат очень высокий — почти два метра!",
+  "explain_en": "For people we say tall, not high.",
+  "explain_ru": "О людях говорят tall, а не high. Русское «высокий» переводится по-разному.",
+  "id": "g056"
+ },
+ {
+  "kind": "word",
+  "text": "Hurry up, or we'll be ___ for school again!",
+  "answer": [
+   "late"
+  ],
+  "ref": "late",
+  "clue_en": "after the right time",
+  "clue_ru": "опоздавший, поздно",
+  "tr_ru": "Поторопись, а то мы опять опоздаем в школу!",
+  "explain_en": "Be late for = arrive after the right time. Russian uses a verb, English uses be + late.",
+  "explain_ru": "Be late for — «опаздывать на/в». В русском это глагол, в английском — be + прилагательное late.",
+  "id": "g057"
+ },
+ {
+  "kind": "word",
+  "text": "How much money do you ___ on food every week?",
+  "answer": [
+   "spend"
+  ],
+  "ref": "to spend",
+  "clue_en": "use money",
+  "clue_ru": "тратить",
+  "tr_ru": "Сколько денег ты тратишь на еду каждую неделю?",
+  "explain_en": "Spend money on something; pay is used with 'for'.",
+  "explain_ru": "Spend money on — «тратить деньги на»; pay употребляется с for.",
+  "id": "g058"
+ },
+ {
+  "kind": "word",
+  "text": "Excuse me, how much does this ticket ___?",
+  "answer": [
+   "cost"
+  ],
+  "ref": "to cost",
+  "clue_en": "have a price of",
+  "clue_ru": "стоить",
+  "tr_ru": "Извините, сколько стоит этот билет?",
+  "explain_en": "Cost = have a price; the thing is the subject: the ticket costs.",
+  "explain_ru": "Cost — «стоить»; подлежащее — сама вещь: the ticket costs.",
+  "id": "g059"
+ },
+ {
+  "kind": "word",
+  "text": "Can I ___ by card here, or only in cash?",
+  "answer": [
+   "pay"
+  ],
+  "ref": "to pay",
+  "clue_en": "give money for",
+  "clue_ru": "платить",
+  "tr_ru": "Здесь можно расплатиться картой или только наличными?",
+  "explain_en": "Pay by card / in cash = give money for something.",
+  "explain_ru": "Pay by card / in cash — «платить картой / наличными». Предлог by, а не «с».",
+  "id": "g060"
+ },
+ {
+  "kind": "word",
+  "text": "Our team plays very badly; we ___ almost every game.",
+  "answer": [
+   "lose"
+  ],
+  "ref": "to lose",
+  "clue_en": "not win",
+  "clue_ru": "проигрывать",
+  "tr_ru": "Наша команда играет очень плохо; мы проигрываем почти каждую игру.",
+  "explain_en": "Lose = not win; the opposite of win.",
+  "explain_ru": "Lose — «проигрывать» (а также «терять»). Не путайте с loose — «свободный».",
+  "id": "g061"
+ },
+ {
+  "kind": "word",
+  "text": "Who usually ___ when you play chess with your dad? — He does.",
+  "answer": [
+   "wins"
+  ],
+  "ref": "to win",
+  "clue_en": "be first in a game",
+  "clue_ru": "выигрывать",
+  "tr_ru": "Кто обычно выигрывает, когда ты играешь в шахматы с папой? — Он.",
+  "explain_en": "Win = be the best in a game; with who (singular) → wins.",
+  "explain_ru": "Win — «выигрывать»; who в вопросе требует формы 3-го лица: wins.",
+  "id": "g062"
+ },
+ {
+  "kind": "word",
+  "text": "Don't ___ to buy milk on your way home!",
+  "answer": [
+   "forget"
+  ],
+  "ref": "to forget",
+  "clue_en": "not remember",
+  "clue_ru": "забыть",
+  "tr_ru": "Не забудь купить молоко по дороге домой!",
+  "explain_en": "Forget to do something = not remember to do it.",
+  "explain_ru": "Forget to do — «забыть сделать».",
+  "id": "g063"
+ },
+ {
+  "kind": "word",
+  "text": "I ___ my first day at school very well: I was six and very scared.",
+  "answer": [
+   "remember"
+  ],
+  "ref": "to remember",
+  "clue_en": "keep in your mind",
+  "clue_ru": "помнить",
+  "tr_ru": "Я очень хорошо помню свой первый день в школе: мне было шесть, и я очень боялся.",
+  "explain_en": "Remember = keep something in your memory.",
+  "explain_ru": "Remember — «помнить». В английском нет приставки «вс-»: remember = и «помнить», и «вспомнить».",
+  "id": "g064"
+ },
+ {
+  "kind": "word",
+  "text": "Can you ___ a minute? I'm almost ready.",
+  "answer": [
+   "wait"
+  ],
+  "ref": "to wait",
+  "clue_en": "stay until something happens",
+  "clue_ru": "подождать",
+  "tr_ru": "Можешь подождать минутку? Я почти готов.",
+  "explain_en": "Wait = stay until something happens; 'wait a minute' needs no preposition.",
+  "explain_ru": "Wait — «ждать/подождать»; wait a minute — без предлога.",
+  "id": "g065"
+ },
+ {
+  "kind": "word",
+  "text": "Sorry, I can't talk now — I'm very ___ at work today.",
+  "answer": [
+   "busy"
+  ],
+  "ref": "busy",
+  "clue_en": "with a lot to do",
+  "clue_ru": "занятой",
+  "tr_ru": "Извини, не могу сейчас говорить — я сегодня очень занят на работе.",
+  "explain_en": "Busy = having a lot to do. Note it is an adjective: I am busy.",
+  "explain_ru": "Busy — «занятой» (прилагательное): I am busy — «я занят».",
+  "id": "g066"
+ },
+ {
+  "kind": "word",
+  "text": "After ten hours at work, my dad is always very ___.",
+  "answer": [
+   "tired"
+  ],
+  "ref": "tired",
+  "clue_en": "needing rest",
+  "clue_ru": "уставший",
+  "tr_ru": "После десяти часов работы мой папа всегда очень уставший.",
+  "explain_en": "Tired = needing rest or sleep.",
+  "explain_ru": "Tired — «уставший». Русский глагол «устал» передаётся как be tired.",
+  "id": "g067"
+ },
+ {
+  "kind": "word",
+  "text": "I didn't have breakfast, so I'm really ___ now.",
+  "answer": [
+   "hungry"
+  ],
+  "ref": "hungry",
+  "clue_en": "wanting food",
+  "clue_ru": "голодный",
+  "tr_ru": "Я не завтракал, поэтому сейчас очень голоден.",
+  "explain_en": "Hungry = wanting to eat. English uses be + adjective: I'm hungry.",
+  "explain_ru": "Hungry — «голодный». «Я хочу есть» = I'm hungry (be + прилагательное).",
+  "id": "g068"
+ },
+ {
+  "kind": "word",
+  "text": "What time does your train ___ in London?",
+  "answer": [
+   "arrive"
+  ],
+  "ref": "to arrive",
+  "clue_en": "reach a place",
+  "clue_ru": "прибывать",
+  "tr_ru": "Во сколько твой поезд прибывает в Лондон?",
+  "explain_en": "Arrive in + city (arrive at + building); 'come in London' is not natural.",
+  "explain_ru": "Arrive in + город (arrive at + здание). Обратите внимание: по-русски «в Лондон», а по-английски in, не to.",
+  "id": "g069"
+ },
+ {
+  "kind": "word",
+  "text": "The last bus ___ the station at midnight, so don't be late.",
+  "answer": [
+   "leaves"
+  ],
+  "ref": "to leave",
+  "clue_en": "go away from",
+  "clue_ru": "уезжать, отправляться",
+  "tr_ru": "Последний автобус уходит со станции в полночь, так что не опаздывай.",
+  "explain_en": "Leave + place without a preposition = go away from it; the bus → leaves.",
+  "explain_ru": "Leave + место без предлога = уходить/уезжать откуда-то; the bus → leaves.",
+  "id": "g070"
+ },
+ {
+  "kind": "word",
+  "text": "Every summer we ___ at my aunt's house by the sea for two weeks.",
+  "answer": [
+   "stay"
+  ],
+  "ref": "to stay",
+  "clue_en": "live somewhere for a short time",
+  "clue_ru": "гостить, останавливаться",
+  "tr_ru": "Каждое лето мы на две недели останавливаемся у тёти в доме у моря.",
+  "explain_en": "Stay = live somewhere for a short time as a guest; live is permanent.",
+  "explain_ru": "Stay — «гостить, жить временно»; live — «жить постоянно».",
+  "id": "g071"
+ },
+ {
+  "kind": "word",
+  "text": "We ___ our grandparents in their village every Sunday.",
+  "answer": [
+   "visit"
+  ],
+  "ref": "to visit",
+  "clue_en": "go to see someone",
+  "clue_ru": "навещать",
+  "tr_ru": "Каждое воскресенье мы навещаем бабушку и дедушку в их деревне.",
+  "explain_en": "Visit + person, no preposition.",
+  "explain_ru": "Visit + человек без предлога. Русское «ездить к бабушке» = visit grandma.",
+  "id": "g072"
+ },
+ {
+  "kind": "word",
+  "text": "My parents love to ___; they go to a new country every year.",
+  "answer": [
+   "travel"
+  ],
+  "ref": "to travel",
+  "clue_en": "go on journeys",
+  "clue_ru": "путешествовать",
+  "tr_ru": "Мои родители обожают путешествовать; каждый год они едут в новую страну.",
+  "explain_en": "Travel = go from place to place, often far.",
+  "explain_ru": "Travel — «путешествовать, ездить».",
+  "id": "g073"
+ },
+ {
+  "kind": "word",
+  "text": "Entry to the museum is ___ on Mondays — you don't pay anything.",
+  "answer": [
+   "free"
+  ],
+  "ref": "free",
+  "clue_en": "costing nothing",
+  "clue_ru": "бесплатный",
+  "tr_ru": "По понедельникам вход в музей бесплатный — ничего платить не нужно.",
+  "explain_en": "Free = costing nothing (it can also mean not busy).",
+  "explain_ru": "Free — «бесплатный» (а также «свободный»).",
+  "id": "g074"
+ },
+ {
+  "kind": "word",
+  "text": "We can't buy bread now; the baker's is ___ on Sundays.",
+  "answer": [
+   "closed"
+  ],
+  "ref": "closed",
+  "clue_en": "not open",
+  "clue_ru": "закрытый",
+  "tr_ru": "Сейчас хлеб не купить: пекарня по воскресеньям закрыта.",
+  "explain_en": "Closed = not open (adjective form, with -d).",
+  "explain_ru": "Closed — «закрыт» (прилагательное с -d): the shop is closed.",
+  "id": "g075"
+ },
+ {
+  "kind": "word",
+  "text": "I have a terrible ___, so please turn off that loud music.",
+  "answer": [
+   "headache"
+  ],
+  "ref": "headache",
+  "clue_en": "pain in your head",
+  "clue_ru": "головная боль",
+  "tr_ru": "У меня ужасно болит голова, поэтому, пожалуйста, выключи эту громкую музыку.",
+  "explain_en": "Have a headache — English uses a noun with 'have a'.",
+  "explain_ru": "Have a headache — «болит голова». В английском существительное с артиклем a.",
+  "id": "g076"
+ },
+ {
+  "kind": "word",
+  "text": "It's raining, so don't forget your ___ when you go out.",
+  "answer": [
+   "umbrella"
+  ],
+  "ref": "umbrella",
+  "clue_en": "it keeps rain off you",
+  "clue_ru": "зонт",
+  "tr_ru": "Идёт дождь, так что не забудь зонт, когда будешь выходить.",
+  "explain_en": "An umbrella keeps you dry in the rain.",
+  "explain_ru": "Umbrella — «зонт», ударение на второй слог: [ʌmˈbrelə].",
+  "id": "g077"
+ },
+ {
+  "kind": "word",
+  "text": "I usually ___ at seven, but I get up at half past seven.",
+  "answer": [
+   "wake up"
+  ],
+  "ref": "to wake up",
+  "clue_en": "stop sleeping",
+  "clue_ru": "проснуться",
+  "tr_ru": "Обычно я просыпаюсь в семь, а встаю в половине восьмого.",
+  "explain_en": "Wake up = stop sleeping; get up = get out of bed.",
+  "explain_ru": "Wake up — «проснуться»; get up — «встать с кровати».",
+  "id": "g078"
+ },
+ {
+  "kind": "word",
+  "text": "Run, or we won't ___ the last bus!",
+  "answer": [
+   "catch"
+  ],
+  "ref": "to catch",
+  "clue_en": "get on in time",
+  "clue_ru": "успеть на (транспорт)",
+  "tr_ru": "Бежим, а то не успеем на последний автобус!",
+  "explain_en": "Catch a bus/train = get on it before it leaves.",
+  "explain_ru": "Catch a bus — «успеть на автобус». Русское «успеть» здесь передаётся глаголом catch.",
+  "id": "g079"
+ },
+ {
+  "kind": "word",
+  "text": "Tom isn't at school today because he is ___ with a bad cold.",
+  "answer": [
+   "ill",
+   "sick"
+  ],
+  "ref": "ill",
+  "clue_en": "not well",
+  "clue_ru": "больной",
+  "tr_ru": "Тома сегодня нет в школе, потому что он болеет — сильно простудился.",
+  "explain_en": "Be ill (British) or be sick = not well. Russian uses a verb here, English uses be + adjective.",
+  "explain_ru": "Be ill / be sick — «болеть». В русском глагол, в английском be + прилагательное.",
+  "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "section": "to-be-present",
+  "text": "My parents ___ at work now, so I'm at home with my little brother.",
+  "answer": [
+   "are",
+   "'re"
+  ],
+  "tr_ru": "Мои родители сейчас на работе, поэтому я дома с младшим братом.",
+  "explain_en": "Plural subject (my parents) + present: are.",
+  "explain_ru": "Подлежащее во мн. числе (my parents) + настоящее время: are. В русском связка не нужна, в английском обязательна.",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "section": "to-be-present",
+  "text": "___ your sister married? — No, she isn't.",
+  "answer": [
+   "Is",
+   "is"
+  ],
+  "tr_ru": "Твоя сестра замужем? — Нет.",
+  "explain_en": "Questions with be put the verb first; the short answer 'she isn't' shows is.",
+  "explain_ru": "В вопросе с be глагол ставится в начало; краткий ответ she isn't подсказывает is.",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "section": "to-be-present",
+  "text": "The news ___ good today: Dad has got a new job!",
+  "answer": [
+   "is",
+   "'s"
+  ],
+  "tr_ru": "Сегодня хорошие новости: папа получил новую работу!",
+  "explain_en": "News looks plural but is uncountable and singular: the news is.",
+  "explain_ru": "News выглядит как множественное, но это неисчисляемое существительное в ед. числе: the news is (в русском «новости» — мн. число).",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "section": "to-be-present",
+  "text": "Don't wear your new jeans today — they ___ in the washing machine.",
+  "answer": [
+   "are",
+   "'re"
+  ],
+  "tr_ru": "Не надевай сегодня новые джинсы — они в стиральной машине.",
+  "explain_en": "Jeans is always plural (they), so the verb is are.",
+  "explain_ru": "Jeans всегда во множественном числе (they), поэтому are. По-русски тоже «джинсы» — мн. число.",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-possessives",
+  "text": "Whose phone is this? Is it Anna's? — Yes, it's ___.",
+  "answer": [
+   "hers"
+  ],
+  "tr_ru": "Чей это телефон? Анны? — Да, её.",
+  "explain_en": "Without a noun after it we need the possessive pronoun: hers (not her).",
+  "explain_ru": "Без существительного после него нужно абсолютное местоимение: hers, а не her.",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-possessives",
+  "text": "My brother and I share a bedroom. ___ room is small but nice.",
+  "answer": [
+   "Our",
+   "our"
+  ],
+  "tr_ru": "Мы с братом живём в одной спальне. Наша комната маленькая, но уютная.",
+  "explain_en": "My brother and I = we; the possessive before a noun is our.",
+  "explain_ru": "My brother and I = we; притяжательное перед существительным — our.",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-possessives",
+  "text": "That's not our car; ___ is the red one over there.",
+  "answer": [
+   "ours"
+  ],
+  "tr_ru": "Это не наша машина; наша — вон та красная.",
+  "explain_en": "Used alone, without a noun, the possessive is ours (our + car).",
+  "explain_ru": "Без существительного используется ours (= our car).",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-possessives",
+  "text": "Kate is an old friend of ___; I met her at school.",
+  "answer": [
+   "mine"
+  ],
+  "tr_ru": "Кейт — моя старая подруга; я познакомилась с ней в школе.",
+  "explain_en": "'A friend of + possessive pronoun': a friend of mine, not 'of me'.",
+  "explain_ru": "Конструкция a friend of mine — «мой друг/подруга»; не of me и не of my.",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-possessives",
+  "text": "Mr Brown lives with ___ wife and two dogs in a small house.",
+  "answer": [
+   "his"
+  ],
+  "tr_ru": "Мистер Браун живёт со своей женой и двумя собаками в маленьком доме.",
+  "explain_en": "Mr Brown = he, so the possessive is his.",
+  "explain_ru": "Mr Brown = he, поэтому his. Русское «своей» передаётся через his.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "section": "articles-plurals",
+  "text": "My uncle is ___ engineer in a big company.",
+  "answer": [
+   "an"
+  ],
+  "tr_ru": "Мой дядя — инженер в большой компании.",
+  "explain_en": "Jobs take a/an; before a vowel sound we use an: an engineer.",
+  "explain_ru": "С профессиями нужен a/an (в русском артикля нет); перед гласным звуком — an.",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "section": "articles-plurals",
+  "text": "She is ___ university student in Leeds.",
+  "answer": [
+   "a"
+  ],
+  "tr_ru": "Она студентка университета в Лидсе.",
+  "explain_en": "University starts with the sound /juː/, a consonant sound, so we use a, not an.",
+  "explain_ru": "University начинается со звука [juː] — согласного, поэтому a, а не an.",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "section": "articles-plurals",
+  "text": "We waited for ___ hour at the station, but the train didn't come.",
+  "answer": [
+   "an"
+  ],
+  "tr_ru": "Мы ждали на вокзале час, но поезд так и не пришёл.",
+  "explain_en": "The h in hour is silent, so it starts with a vowel sound: an hour.",
+  "explain_ru": "В hour буква h не читается, слово начинается с гласного звука: an hour.",
+  "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "section": "articles-plurals",
+  "text": "___ sun is very hot today, so wear a hat.",
+  "answer": [
+   "The",
+   "the"
+  ],
+  "tr_ru": "Солнце сегодня очень жаркое, так что надень шляпу.",
+  "explain_en": "There is only one sun, so we use the.",
+  "explain_ru": "Солнце одно, поэтому the.",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-simple",
+  "text": "___ your brother live in London? — No, in Manchester.",
+  "answer": [
+   "Does",
+   "does"
+  ],
+  "tr_ru": "Твой брат живёт в Лондоне? — Нет, в Манчестере.",
+  "explain_en": "Questions in the present simple with he/she use does + base verb (live).",
+  "explain_ru": "Вопрос в Present Simple с he/she: does + глагол без -s (live).",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-simple",
+  "text": "We ___ eat meat because we are vegetarians.",
+  "answer": [
+   "don't",
+   "do not"
+  ],
+  "tr_ru": "Мы не едим мясо, потому что мы вегетарианцы.",
+  "explain_en": "Negative present simple with we: don't + base verb.",
+  "explain_ru": "Отрицание в Present Simple с we: don't + глагол.",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-simple",
+  "text": "What time ___ the supermarket open on Saturdays?",
+  "answer": [
+   "does"
+  ],
+  "tr_ru": "Во сколько открывается супермаркет по субботам?",
+  "explain_en": "The subject (the supermarket) is singular, so the question uses does.",
+  "explain_ru": "Подлежащее (the supermarket) в ед. числе, поэтому вопрос с does.",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "section": "there-is-have-got-some-any",
+  "text": "Look! There ___ two horses in the field.",
+  "answer": [
+   "are",
+   "'re"
+  ],
+  "tr_ru": "Смотри! В поле две лошади.",
+  "explain_en": "There + be agrees with the noun after it: two horses → there are.",
+  "explain_ru": "There + be согласуется с существительным после него: two horses → there are.",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "section": "there-is-have-got-some-any",
+  "text": "There isn't ___ milk in the fridge, so I'm drinking black tea.",
+  "answer": [
+   "any"
+  ],
+  "tr_ru": "В холодильнике нет молока, поэтому я пью чай без молока.",
+  "explain_en": "In negative sentences we use any, not some.",
+  "explain_ru": "В отрицаниях используется any, а не some.",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "section": "there-is-have-got-some-any",
+  "text": "Can I have ___ water, please? I haven't had a drink all day.",
+  "answer": [
+   "some"
+  ],
+  "tr_ru": "Можно мне воды, пожалуйста? Я весь день ничего не пил.",
+  "explain_en": "In requests (Can I have…?) we use some, even in a question.",
+  "explain_ru": "В просьбах (Can I have…?) используется some, хотя это вопрос.",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "section": "there-is-have-got-some-any",
+  "text": "We don't need ___ eggs; there are six in the fridge.",
+  "answer": [
+   "any"
+  ],
+  "tr_ru": "Нам не нужны яйца — в холодильнике есть шесть.",
+  "explain_en": "After a negative verb (don't need) we use any.",
+  "explain_ru": "После отрицания (don't need) используется any.",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "section": "there-is-have-got-some-any",
+  "text": "___ your brother got a car? — Yes, a small blue one.",
+  "answer": [
+   "Has",
+   "has"
+  ],
+  "tr_ru": "У твоего брата есть машина? — Да, маленькая синяя.",
+  "explain_en": "Questions with have got put have/has first; with he → has.",
+  "explain_ru": "В вопросах с have got have/has ставится в начало; с he — has.",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "section": "there-is-have-got-some-any",
+  "text": "There ___ any chairs in the room now, so we're sitting on the floor.",
+  "answer": [
+   "aren't",
+   "are not"
+  ],
+  "tr_ru": "Сейчас в комнате нет стульев, поэтому мы сидим на полу.",
+  "explain_en": "Plural noun + negative: there aren't any.",
+  "explain_ru": "Существительное во мн. числе + отрицание: there aren't any.",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "section": "can-imperatives",
+  "text": "___ touch the oven — it's very hot!",
+  "answer": [
+   "Don't",
+   "don't",
+   "Do not",
+   "do not"
+  ],
+  "tr_ru": "Не трогай духовку — она очень горячая!",
+  "explain_en": "A negative imperative is Don't + base verb.",
+  "explain_ru": "Отрицательный повелительный: Don't + глагол.",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "section": "can-imperatives",
+  "text": "___ quiet, please — the baby is sleeping.",
+  "answer": [
+   "Be",
+   "be"
+  ],
+  "tr_ru": "Тише, пожалуйста — малыш спит.",
+  "explain_en": "Imperative with an adjective uses Be: Be quiet!",
+  "explain_ru": "Повелительное наклонение с прилагательным требует Be: Be quiet! В русском глагола нет.",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "section": "can-imperatives",
+  "text": "He's only two, so he ___ read yet.",
+  "answer": [
+   "can't",
+   "cannot",
+   "can not"
+  ],
+  "tr_ru": "Ему всего два года, поэтому он ещё не умеет читать.",
+  "explain_en": "Inability: can't + base verb.",
+  "explain_ru": "Неумение: can't + глагол. Русское «не умеет» = can't.",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositions-place-time",
+  "text": "My birthday is ___ May, but I don't know the exact day.",
+  "answer": [
+   "in"
+  ],
+  "tr_ru": "Мой день рождения в мае, но точный день я не знаю.",
+  "explain_en": "We use in with months.",
+  "explain_ru": "С месяцами — in.",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositions-place-time",
+  "text": "The lesson starts ___ nine o'clock sharp.",
+  "answer": [
+   "at"
+  ],
+  "tr_ru": "Урок начинается ровно в девять часов.",
+  "explain_en": "We use at with clock times.",
+  "explain_ru": "С точным временем — at.",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositions-place-time",
+  "text": "We never go to school ___ Saturdays.",
+  "answer": [
+   "on"
+  ],
+  "tr_ru": "По субботам мы никогда не ходим в школу.",
+  "explain_en": "We use on with days of the week.",
+  "explain_ru": "С днями недели — on. Русское «по субботам» = on Saturdays.",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositions-place-time",
+  "text": "I always drink a cup of coffee ___ the morning.",
+  "answer": [
+   "in"
+  ],
+  "tr_ru": "Утром я всегда пью чашку кофе.",
+  "explain_en": "In the morning / afternoon / evening (but at night).",
+  "explain_ru": "In the morning / afternoon / evening, но at night. В русском просто «утром».",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositions-place-time",
+  "text": "Our flat is ___ the third floor, and there is no lift.",
+  "answer": [
+   "on"
+  ],
+  "tr_ru": "Наша квартира на третьем этаже, а лифта нет.",
+  "explain_en": "We say on the … floor.",
+  "explain_ru": "Об этажах говорят on the … floor.",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "section": "question-words",
+  "text": "___ is your bike? — The red one next to the door.",
+  "answer": [
+   "Which",
+   "which"
+  ],
+  "tr_ru": "Какой велосипед твой? — Красный, у двери.",
+  "explain_en": "Which asks us to choose from a small group.",
+  "explain_ru": "Which — выбор из ограниченного числа вариантов («который из»).",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "section": "question-words",
+  "text": "___ bag is this? — It's Tom's.",
+  "answer": [
+   "Whose",
+   "whose"
+  ],
+  "tr_ru": "Чья это сумка? — Тома.",
+  "explain_en": "Whose asks about the owner; the answer Tom's confirms it.",
+  "explain_ru": "Whose — «чей»; ответ Tom's это подтверждает.",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "section": "question-words",
+  "text": "___ often do you go swimming? — Twice a week.",
+  "answer": [
+   "How",
+   "how"
+  ],
+  "tr_ru": "Как часто ты ходишь плавать? — Два раза в неделю.",
+  "explain_en": "How often asks about frequency.",
+  "explain_ru": "How often — «как часто».",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-continuous",
+  "text": "Listen! Somebody ___ singing in the garden.",
+  "answer": [
+   "is",
+   "'s"
+  ],
+  "tr_ru": "Послушай! Кто-то поёт в саду.",
+  "explain_en": "Present continuous: be + -ing; somebody is singular → is.",
+  "explain_ru": "Present Continuous: be + -ing; somebody — ед. число → is.",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-continuous",
+  "text": "Why ___ you wearing a coat? It's hot today!",
+  "answer": [
+   "are"
+  ],
+  "tr_ru": "Почему ты в пальто? Сегодня жарко!",
+  "explain_en": "Present continuous question: are + you + -ing.",
+  "explain_ru": "Вопрос в Present Continuous: are + you + -ing.",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "section": "past-simple-be-regular",
+  "text": "___ you at home last night? — No, I wasn't.",
+  "answer": [
+   "Were",
+   "were"
+  ],
+  "tr_ru": "Ты был дома вчера вечером? — Нет.",
+  "explain_en": "Past of be with you is were.",
+  "explain_ru": "Прошедшее время be с you — were.",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "section": "past-simple-be-regular",
+  "text": "We ___ watch TV yesterday; we played football instead.",
+  "answer": [
+   "didn't",
+   "did not"
+  ],
+  "tr_ru": "Вчера мы не смотрели телевизор, а играли в футбол.",
+  "explain_en": "Negative past simple: didn't + base verb (watch, not watched).",
+  "explain_ru": "Отрицание в Past Simple: didn't + глагол в начальной форме (watch, не watched).",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "section": "past-simple-be-regular",
+  "text": "Where ___ you born? — In a small town near Moscow.",
+  "answer": [
+   "were"
+  ],
+  "tr_ru": "Где ты родился? — В маленьком городке под Москвой.",
+  "explain_en": "Be born is in the past: you were born.",
+  "explain_ru": "«Родиться» по-английски be born: you were born.",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "section": "can-imperatives",
+  "text": "___ you help me with this heavy box, please? — Of course!",
+  "answer": [
+   "Can",
+   "can",
+   "Could",
+   "could"
+  ],
+  "tr_ru": "Можешь помочь мне с этой тяжёлой коробкой? — Конечно!",
+  "explain_en": "Requests use Can (or more politely Could) + you + base verb; Do you help… is not a request.",
+  "explain_ru": "Просьба: Can (вежливее Could) + you + глагол. Do you help… — это не просьба, а вопрос о привычке.",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "section": "question-words",
+  "text": "___ is your new teacher like? — She's very kind.",
+  "answer": [
+   "What",
+   "what"
+  ],
+  "tr_ru": "Какая твоя новая учительница? — Очень добрая.",
+  "explain_en": "What … like? asks for a description of a person or thing; How is wrong here.",
+  "explain_ru": "What … like? — «какой (по характеру)». Не How!",
+  "id": "g120"
+ }
+]

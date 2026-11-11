@@ -1,0 +1,1649 @@
+[
+ {
+  "kind": "form",
+  "text": "Se eu ___ mais tempo livre, aprenderia a tocar violino.",
+  "answer": [
+   "tivesse"
+  ],
+  "lemma": "ter",
+  "tr_en": "If I had more free time, I would learn to play the violin.",
+  "tr_ru": "Если бы у меня было больше свободного времени, я бы научился играть на скрипке.",
+  "explain_en": "Unreal present condition: se + imperfeito do conjuntivo, main clause in the conditional; ter → tive → tivesse.",
+  "explain_ru": "Нереальное условие: se + imperfeito do conjuntivo, в главном — condicional. В русском «если бы» + прошедшее, в португальском — особая форма сослагательного: tivesse.",
+  "id": "g001"
+ },
+ {
+  "kind": "form",
+  "text": "O professor pediu que nós ___ o ensaio impresso na aula seguinte.",
+  "answer": [
+   "trouxéssemos"
+  ],
+  "lemma": "trazer",
+  "tr_en": "The teacher asked us to bring the essay printed to the next class.",
+  "tr_ru": "Преподаватель попросил, чтобы мы принесли эссе в распечатанном виде на следующее занятие.",
+  "explain_en": "Past main verb (pediu) + que → imperfeito do conjuntivo; it is built on the irregular preterite trouxeram → trouxéssemos.",
+  "explain_ru": "После прошедшего pediu que — imperfeito do conjuntivo (согласование времён). Основа берётся от неправильного претерита trouxeram: trouxéssemos, как в русском «чтобы мы принесли».",
+  "id": "g002"
+ },
+ {
+  "kind": "form",
+  "text": "Era fundamental que alguém ___ a verdade aos acionistas antes da fusão.",
+  "answer": [
+   "dissesse"
+  ],
+  "lemma": "dizer",
+  "tr_en": "It was essential that someone tell the shareholders the truth before the merger.",
+  "tr_ru": "Было крайне важно, чтобы кто-то сказал акционерам правду до слияния.",
+  "explain_en": "Impersonal expression in the past (era fundamental que) requires the imperfeito do conjuntivo; dizer → disseram → dissesse.",
+  "explain_ru": "Безличное выражение в прошедшем (era fundamental que) требует imperfeito do conjuntivo. От претерита disseram — dissesse; в русском просто «чтобы … сказал».",
+  "id": "g003"
+ },
+ {
+  "kind": "form",
+  "text": "Ainda que o Presidente ___ o decreto, a oposição continuaria a contestá-lo.",
+  "answer": [
+   "promulgasse"
+  ],
+  "lemma": "promulgar",
+  "tr_en": "Even if the President signed the decree into law, the opposition would keep contesting it.",
+  "tr_ru": "Даже если бы президент подписал указ, оппозиция продолжала бы его оспаривать.",
+  "explain_en": "Hypothetical concession with a conditional in the main clause (continuaria) → ainda que + imperfeito do conjuntivo.",
+  "explain_ru": "Гипотетическая уступка: в главном condicional (continuaria), поэтому после ainda que — imperfeito do conjuntivo, а не presente.",
+  "id": "g004"
+ },
+ {
+  "kind": "form",
+  "text": "Duvidávamos que os eleitores se ___ a votar debaixo daquele temporal.",
+  "answer": [
+   "dispusessem"
+  ],
+  "lemma": "dispor",
+  "tr_en": "We doubted that voters would be willing to vote in that storm.",
+  "tr_ru": "Мы сомневались, что избиратели решатся голосовать в такую бурю.",
+  "explain_en": "Doubt in the past → imperfeito do conjuntivo; dispor conjugates like pôr: dispuseram → dispusessem.",
+  "explain_ru": "Сомнение в прошедшем → imperfeito do conjuntivo. Dispor спрягается как pôr: dispuseram → dispusessem. В русском после «сомневались, что» стоит изъявительное наклонение.",
+  "id": "g005"
+ },
+ {
+  "kind": "form",
+  "text": "Não havia ninguém na sala que ___ reparar a máquina sem o manual.",
+  "answer": [
+   "soubesse"
+  ],
+  "lemma": "saber",
+  "tr_en": "There was nobody in the room who knew how to repair the machine without the manual.",
+  "tr_ru": "В зале не было никого, кто умел бы починить машину без инструкции.",
+  "explain_en": "Relative clause about a non-existent person (não havia ninguém que) in the past → imperfeito do conjuntivo; saber → souberam → soubesse.",
+  "explain_ru": "Придаточное о несуществующем лице (não havia ninguém que) в прошедшем → imperfeito do conjuntivo: soubesse. Ср. русское «кто умел бы».",
+  "id": "g006"
+ },
+ {
+  "kind": "form",
+  "text": "O comboio já devia ter chegado; ___ havido algum acidente na linha?",
+  "answer": [
+   "terá"
+  ],
+  "lemma": "ter",
+  "tr_en": "The train should have arrived by now; could there have been an accident on the line?",
+  "tr_ru": "Поезд уже должен был прийти; неужели на линии произошла авария?",
+  "explain_en": "Futuro composto (terá + participle) expresses a guess about the past: 'could there have been…?'.",
+  "explain_ru": "Futuro composto (terá + причастие) выражает предположение о прошлом: «неужели было…?», «наверное, было». В русском будущее время так не используется.",
+  "id": "g007"
+ },
+ {
+  "kind": "form",
+  "text": "Não te preocupes: eu próprio ___ a resposta amanhã, por escrito.",
+  "answer": [
+   "dar-te-ei"
+  ],
+  "lemma": "dar-te",
+  "tr_en": "Don't worry: I'll give you the answer myself tomorrow, in writing.",
+  "tr_ru": "Не волнуйся: я сам дам тебе ответ завтра, в письменном виде.",
+  "explain_en": "In formal European Portuguese the pronoun goes inside the future form (mesoclisis): dar + te + ei → dar-te-ei.",
+  "explain_ru": "В европейском португальском в будущем времени местоимение вставляется внутрь глагола (мезоклиза): dar-te-ei. В Бразилии сказали бы te darei.",
+  "id": "g008"
+ },
+ {
+  "kind": "form",
+  "text": "À primeira vista, ___ que o autor exagerou, mas os dados confirmam tudo.",
+  "answer": [
+   "dir-se-ia"
+  ],
+  "lemma": "dizer-se",
+  "tr_en": "At first sight one would say the author exaggerated, but the data confirm everything.",
+  "tr_ru": "На первый взгляд можно было бы сказать, что автор преувеличил, но данные всё подтверждают.",
+  "explain_en": "Impersonal 'one would say' = conditional of dizer with se in mesoclisis: dir- + se + -ia.",
+  "explain_ru": "«Можно было бы сказать» — condicional от dizer с безличным se внутри формы (мезоклиза): dir-se-ia. Основа dir- неправильная.",
+  "id": "g009"
+ },
+ {
+  "kind": "form",
+  "text": "Para o projeto avançar, é fundamental nós ___ todos os prazos.",
+  "answer": [
+   "cumprirmos"
+  ],
+  "lemma": "cumprir",
+  "tr_en": "For the project to move forward, it is essential that we meet all the deadlines.",
+  "tr_ru": "Чтобы проект продвигался, нам крайне важно соблюдать все сроки.",
+  "explain_en": "With an explicit subject (nós) after an impersonal expression, Portuguese uses the personal infinitive: cumprir + -mos.",
+  "explain_ru": "При явном подлежащем (nós) после безличного выражения нужен личный инфинитив: cumprirmos. В русском инфинитив не изменяется по лицам.",
+  "id": "g010"
+ },
+ {
+  "kind": "form",
+  "text": "Antes de os convidados ___, arrumámos a sala toda.",
+  "answer": [
+   "chegarem"
+  ],
+  "lemma": "chegar",
+  "tr_en": "Before the guests arrived, we tidied the whole living room.",
+  "tr_ru": "До того как пришли гости, мы убрали всю гостиную.",
+  "explain_en": "Antes de + subject different from the main clause → personal infinitive agreeing with os convidados: chegarem.",
+  "explain_ru": "После antes de с другим подлежащим (os convidados) — личный инфинитив 3-го л. мн. ч.: chegarem. Русскому «до того как пришли» соответствует инфинитив с окончанием.",
+  "id": "g011"
+ },
+ {
+  "kind": "form",
+  "text": "Quando vocês ___ a Lisboa no verão, avisem-nos.",
+  "answer": [
+   "vierem"
+  ],
+  "lemma": "vir",
+  "tr_en": "When you come to Lisbon in the summer, let us know.",
+  "tr_ru": "Когда приедете в Лиссабон летом, дайте нам знать.",
+  "explain_en": "Future time after quando → futuro do conjuntivo; vir → vieram → vierem (not virem, which comes from ver).",
+  "explain_ru": "Будущее после quando → futuro do conjuntivo: vierem (от vir). Не путать с virem — это от ver. В русском здесь простое будущее «приедете».",
+  "id": "g012"
+ },
+ {
+  "kind": "form",
+  "text": "___ as obras, a ponte reabriu ao trânsito.",
+  "answer": [
+   "Concluídas"
+  ],
+  "lemma": "concluir",
+  "tr_en": "Once the works were finished, the bridge reopened to traffic.",
+  "tr_ru": "По завершении работ мост вновь открыли для движения.",
+  "explain_en": "Absolute participle clause: the participle agrees with its noun (as obras, feminine plural) → concluídas.",
+  "explain_ru": "Абсолютная причастная конструкция: причастие согласуется с существительным as obras (ж. р., мн. ч.) → concluídas. Ср. русское «Когда работы были завершены…».",
+  "id": "g013"
+ },
+ {
+  "kind": "form",
+  "text": "___ a sentença, o advogado do réu anunciou que ia recorrer.",
+  "answer": [
+   "Proferida"
+  ],
+  "lemma": "proferir",
+  "tr_en": "Once the sentence had been pronounced, the defendant's lawyer announced he would appeal.",
+  "tr_ru": "После оглашения приговора адвокат подсудимого объявил, что будет подавать апелляцию.",
+  "explain_en": "Participle clause placed first; the participle agrees with a sentença (feminine singular) → proferida.",
+  "explain_ru": "Причастный оборот в начале предложения; причастие согласуется с a sentença (ж. р., ед. ч.): proferida. В русском — существительное «после оглашения».",
+  "id": "g014"
+ },
+ {
+  "kind": "form",
+  "text": "O nosso pedido de financiamento foi finalmente ___ pela comissão.",
+  "answer": [
+   "aceite",
+   "aceito"
+  ],
+  "lemma": "aceitar",
+  "tr_en": "Our funding application was finally accepted by the committee.",
+  "tr_ru": "Нашу заявку на финансирование наконец приняла комиссия.",
+  "explain_en": "Aceitar has a double participle: aceitado with ter/haver, the short form with ser/estar — aceite in Portugal (aceito in Brazil).",
+  "explain_ru": "У aceitar два причастия: aceitado — с ter/haver, короткое — с ser/estar: в Португалии aceite, в Бразилии aceito.",
+  "id": "g015"
+ },
+ {
+  "kind": "form",
+  "text": "Os relatórios já tinham sido ___ antes de a reunião começar.",
+  "answer": [
+   "impressos"
+  ],
+  "lemma": "imprimir",
+  "tr_en": "The reports had already been printed before the meeting started.",
+  "tr_ru": "Отчёты уже были распечатаны до начала собрания.",
+  "explain_en": "Passive with ser takes the short participle of imprimir (impresso), agreeing with os relatórios → impressos.",
+  "explain_ru": "В пассиве с ser используется краткое причастие impresso (а не imprimido), согласованное с os relatórios: impressos.",
+  "id": "g016"
+ },
+ {
+  "kind": "form",
+  "text": "O suspeito foi ___ pela polícia quando tentava atravessar a fronteira.",
+  "answer": [
+   "preso"
+  ],
+  "lemma": "prender",
+  "tr_en": "The suspect was arrested by the police while trying to cross the border.",
+  "tr_ru": "Подозреваемого арестовала полиция, когда он пытался пересечь границу.",
+  "explain_en": "Prender has the irregular participle preso used with ser/estar (prendido is rare and only with ter).",
+  "explain_ru": "У prender в пассиве используется неправильное причастие preso; prendido встречается редко и только с ter.",
+  "id": "g017"
+ },
+ {
+  "kind": "form",
+  "text": "A nova reitora foi ___ por unanimidade.",
+  "answer": [
+   "eleita"
+  ],
+  "lemma": "eleger",
+  "tr_en": "The new rector was elected unanimously.",
+  "tr_ru": "Нового ректора (женщину) избрали единогласно.",
+  "explain_en": "With ser the short participle eleito is used, agreeing with a reitora → eleita (elegido only with ter).",
+  "explain_ru": "С ser — краткое причастие eleito, согласованное с a reitora (ж. р.): eleita. Форма elegido — только с ter.",
+  "id": "g018"
+ },
+ {
+  "kind": "form",
+  "text": "Ontem à noite, a polícia ___ três suspeitos de branqueamento de capitais.",
+  "answer": [
+   "deteve"
+  ],
+  "lemma": "deter",
+  "tr_en": "Last night the police arrested three money-laundering suspects.",
+  "tr_ru": "Вчера вечером полиция задержала трёх подозреваемых в отмывании денег.",
+  "explain_en": "Deter conjugates like ter: ter → teve, so deter → deteve in the pretérito perfeito.",
+  "explain_ru": "Deter спрягается как ter: teve → deteve. Ошибка «deteu» типична — глагол неправильный.",
+  "id": "g019"
+ },
+ {
+  "kind": "form",
+  "text": "Se o tribunal ___ o arguido, haveria protestos à porta.",
+  "answer": [
+   "absolvesse"
+  ],
+  "lemma": "absolver",
+  "tr_en": "If the court acquitted the defendant, there would be protests outside.",
+  "tr_ru": "Если бы суд оправдал обвиняемого, у входа были бы протесты.",
+  "explain_en": "Hypothetical condition with a conditional (haveria) in the main clause → se + imperfeito do conjuntivo: absolvesse.",
+  "explain_ru": "Гипотетическое условие с condicional (haveria) → se + imperfeito do conjuntivo: absolvesse. Русское «если бы оправдал».",
+  "id": "g020"
+ },
+ {
+  "kind": "form",
+  "text": "Mesmo que os novos dados ___ a hipótese, a revista exigiria mais provas.",
+  "answer": [
+   "corroborassem"
+  ],
+  "lemma": "corroborar",
+  "tr_en": "Even if the new data corroborated the hypothesis, the journal would demand more evidence.",
+  "tr_ru": "Даже если бы новые данные подтвердили гипотезу, журнал потребовал бы больше доказательств.",
+  "explain_en": "Mesmo que with a conditional main clause (exigiria) → imperfeito do conjuntivo, plural to agree with os dados.",
+  "explain_ru": "Mesmo que + condicional в главном (exigiria) → imperfeito do conjuntivo; мн. ч. по подлежащему os dados: corroborassem.",
+  "id": "g021"
+ },
+ {
+  "kind": "form",
+  "text": "Caso o Presidente ___ o diploma, a Assembleia poderá confirmá-lo.",
+  "answer": [
+   "vete"
+  ],
+  "lemma": "vetar",
+  "tr_en": "Should the President veto the bill, the Assembly may confirm it.",
+  "tr_ru": "Если президент наложит вето на законопроект, Ассамблея сможет его подтвердить.",
+  "explain_en": "Caso ('in case, if') always takes the conjuntivo; with a future main clause it is the presente: vete.",
+  "explain_ru": "После caso всегда conjuntivo (в отличие от se + presente do indicativo); при будущем в главном — presente: vete.",
+  "id": "g022"
+ },
+ {
+  "kind": "form",
+  "text": "Na manifestação de ontem, a polícia ___ para separar os dois grupos.",
+  "answer": [
+   "interveio"
+  ],
+  "lemma": "intervir",
+  "tr_en": "At yesterday's demonstration the police intervened to separate the two groups.",
+  "tr_ru": "На вчерашней демонстрации полиция вмешалась, чтобы разнять две группы.",
+  "explain_en": "Intervir conjugates like vir: veio → interveio (not 'interviu', which looks like ver).",
+  "explain_ru": "Intervir спрягается как vir: veio → interveio. Форма «interviu» ошибочна — это по модели ver.",
+  "id": "g023"
+ },
+ {
+  "kind": "form",
+  "text": "Os sindicatos ___ à reforma laboral logo no primeiro dia de negociações.",
+  "answer": [
+   "opuseram-se"
+  ],
+  "lemma": "opor-se",
+  "tr_en": "The unions opposed the labour reform on the very first day of negotiations.",
+  "tr_ru": "Профсоюзы выступили против трудовой реформы в первый же день переговоров.",
+  "explain_en": "Opor-se conjugates like pôr: puseram → opuseram; in Portugal the reflexive pronoun follows the verb in an affirmative main clause.",
+  "explain_ru": "Opor-se спрягается как pôr: puseram → opuseram. В Португалии в утвердительном предложении местоимение ставится после глагола: opuseram-se.",
+  "id": "g024"
+ },
+ {
+  "kind": "form",
+  "text": "Se eu ___ no teu lugar, não aceitaria aquela proposta.",
+  "answer": [
+   "estivesse"
+  ],
+  "lemma": "estar",
+  "tr_en": "If I were in your place, I wouldn't accept that offer.",
+  "tr_ru": "Если бы я был на твоём месте, я бы не принял это предложение.",
+  "explain_en": "Unreal present condition → se + imperfeito do conjuntivo; estar → estiveram → estivesse (location 'no teu lugar' uses estar).",
+  "explain_ru": "Нереальное условие → se + imperfeito do conjuntivo; «на месте» — estar: estivesse. Русское «был бы» не различает ser/estar.",
+  "id": "g025"
+ },
+ {
+  "kind": "form",
+  "text": "Os acionistas exigiram que a administração ___ uma auditoria independente.",
+  "answer": [
+   "fizesse"
+  ],
+  "lemma": "fazer",
+  "tr_en": "The shareholders demanded that the board carry out an independent audit.",
+  "tr_ru": "Акционеры потребовали, чтобы правление провело независимый аудит.",
+  "explain_en": "Demand in the past (exigiram que) → imperfeito do conjuntivo from the preterite stem fizeram → fizesse.",
+  "explain_ru": "Требование в прошедшем (exigiram que) → imperfeito do conjuntivo: fizesse (от fizeram). В русском — «чтобы провело».",
+  "id": "g026"
+ },
+ {
+  "kind": "form",
+  "text": "O Governo aprovou ontem três ___ sobre habitação.",
+  "answer": [
+   "decretos-leis",
+   "decretos-lei"
+  ],
+  "lemma": "decreto-lei",
+  "tr_en": "Yesterday the Government approved three decree-laws on housing.",
+  "tr_ru": "Вчера правительство утвердило три декрета-закона о жилье.",
+  "explain_en": "In a noun + noun compound both parts usually take the plural (decretos-leis); decretos-lei is also accepted.",
+  "explain_ru": "В составном существительном «сущ. + сущ.» обычно оба элемента во мн. ч.: decretos-leis; допускается и decretos-lei.",
+  "id": "g027"
+ },
+ {
+  "kind": "form",
+  "text": "Os ___ dos dois partidos recusaram comentar a sondagem.",
+  "answer": [
+   "porta-vozes"
+  ],
+  "lemma": "porta-voz",
+  "tr_en": "The spokespeople of the two parties declined to comment on the poll.",
+  "tr_ru": "Пресс-секретари обеих партий отказались комментировать опрос.",
+  "explain_en": "Verb + noun compound: only the noun is pluralised, and voz → vozes, so porta-vozes.",
+  "explain_ru": "Составное «глагол + существительное»: во мн. ч. изменяется только существительное, voz → vozes: porta-vozes.",
+  "id": "g028"
+ },
+ {
+  "kind": "form",
+  "text": "Dois antigos ___ assistiram à tomada de posse do novo Governo.",
+  "answer": [
+   "primeiros-ministros"
+  ],
+  "lemma": "primeiro-ministro",
+  "tr_en": "Two former prime ministers attended the swearing-in of the new Government.",
+  "tr_ru": "Два бывших премьер-министра присутствовали на вступлении в должность нового правительства.",
+  "explain_en": "Adjective + noun compound: both elements take the plural → primeiros-ministros.",
+  "explain_ru": "Составное «прилагательное + существительное»: оба элемента во мн. ч.: primeiros-ministros. В русском «премьер» не изменяется.",
+  "id": "g029"
+ },
+ {
+  "kind": "form",
+  "text": "Os ___ do hospital de Santa Maria fizeram ontem greve.",
+  "answer": [
+   "cirurgiões"
+  ],
+  "lemma": "cirurgião",
+  "tr_en": "The surgeons of Santa Maria hospital went on strike yesterday.",
+  "tr_ru": "Хирурги больницы Санта-Мария вчера бастовали.",
+  "explain_en": "Nouns in -ão have three plural types; cirurgião takes -ões → cirurgiões.",
+  "explain_ru": "У слов на -ão три типа мн. ч. (-ões, -ães, -ãos); cirurgião → cirurgiões. Это надо запоминать.",
+  "id": "g030"
+ },
+ {
+  "kind": "form",
+  "text": "A ___ foi absolvida por falta de provas.",
+  "answer": [
+   "ré"
+  ],
+  "lemma": "réu",
+  "tr_en": "The (female) defendant was acquitted for lack of evidence.",
+  "tr_ru": "Подсудимую оправдали за недостатком доказательств.",
+  "explain_en": "The feminine of réu is irregular: ré (the article a and absolvida show it is a woman).",
+  "explain_ru": "Женский род от réu неправильный: ré. На женский род указывают артикль a и absolvida.",
+  "id": "g031"
+ },
+ {
+  "kind": "form",
+  "text": "As diferenças entre as duas traduções são tão ___ que quase ninguém as nota.",
+  "answer": [
+   "subtis"
+  ],
+  "lemma": "subtil",
+  "tr_en": "The differences between the two translations are so subtle that hardly anyone notices them.",
+  "tr_ru": "Различия между двумя переводами настолько тонкие, что их почти никто не замечает.",
+  "explain_en": "Adjectives in -il (stressed) form the plural -is: subtil → subtis (Brazil: sutil → sutis).",
+  "explain_ru": "Прилагательные на ударное -il образуют мн. ч. на -is: subtil → subtis. В Бразилии: sutil → sutis.",
+  "id": "g032"
+ },
+ {
+  "kind": "form",
+  "text": "O diretor fala como se ___ o dono da empresa.",
+  "answer": [
+   "fosse"
+  ],
+  "lemma": "ser",
+  "tr_en": "The director talks as if he were the owner of the company.",
+  "tr_ru": "Директор говорит так, будто он владелец компании.",
+  "explain_en": "Como se ('as if') is always followed by the imperfeito (or mais-que-perfeito) do conjuntivo, even with a present main verb.",
+  "explain_ru": "После como se всегда imperfeito do conjuntivo, даже если главный глагол в настоящем: fosse. В русском «будто» + изъявительное.",
+  "id": "g033"
+ },
+ {
+  "kind": "form",
+  "text": "Quem quer que ___ o responsável pela fuga de informação, será despedido.",
+  "answer": [
+   "seja"
+  ],
+  "lemma": "ser",
+  "tr_en": "Whoever is responsible for the leak will be fired.",
+  "tr_ru": "Кто бы ни был виноват в утечке информации, его уволят.",
+  "explain_en": "Quem quer que ('whoever') requires the conjuntivo; with a future main clause, the presente: seja.",
+  "explain_ru": "После quem quer que («кто бы ни») — conjuntivo; при будущем в главном — presente: seja. Ср. русское «кто бы ни был».",
+  "id": "g034"
+ },
+ {
+  "kind": "form",
+  "text": "Precisávamos de um tradutor que ___ russo e português na perfeição.",
+  "answer": [
+   "dominasse"
+  ],
+  "lemma": "dominar",
+  "tr_en": "We needed a translator who had a perfect command of Russian and Portuguese.",
+  "tr_ru": "Нам был нужен переводчик, который в совершенстве владел бы русским и португальским.",
+  "explain_en": "Relative clause about a person sought, not yet found, in the past → imperfeito do conjuntivo.",
+  "explain_ru": "Придаточное о человеке, которого ищут (неизвестно, существует ли он), в прошедшем → imperfeito do conjuntivo: dominasse.",
+  "id": "g035"
+ },
+ {
+  "kind": "form",
+  "text": "Onde quer que tu ___, encontrarás sempre portugueses.",
+  "answer": [
+   "vás"
+  ],
+  "lemma": "ir",
+  "tr_en": "Wherever you go, you will always find Portuguese people.",
+  "tr_ru": "Куда бы ты ни поехал, ты всегда встретишь португальцев.",
+  "explain_en": "Onde quer que ('wherever') takes the conjuntivo; ir → presente do conjuntivo vá, tu vás.",
+  "explain_ru": "После onde quer que («куда бы ни») — conjuntivo; ir в presente do conjuntivo: tu vás.",
+  "id": "g036"
+ },
+ {
+  "kind": "form",
+  "text": "Por mais que eu ___ as instruções, nunca percebo como funciona.",
+  "answer": [
+   "leia"
+  ],
+  "lemma": "ler",
+  "tr_en": "However much I read the instructions, I never understand how it works.",
+  "tr_ru": "Сколько бы я ни читал инструкцию, я никак не пойму, как это работает.",
+  "explain_en": "Por mais que ('however much') requires the conjuntivo; ler → leio → leia.",
+  "explain_ru": "Por mais que («сколько бы ни») требует conjuntivo; от leio — leia.",
+  "id": "g037"
+ },
+ {
+  "kind": "form",
+  "text": "Quando ___ os resultados finais, informaremos todos os participantes.",
+  "answer": [
+   "obtivermos"
+  ],
+  "lemma": "obter",
+  "tr_en": "When we obtain the final results, we will inform all participants.",
+  "tr_ru": "Когда мы получим окончательные результаты, мы сообщим всем участникам.",
+  "explain_en": "Future reference after quando → futuro do conjuntivo; obter conjugates like ter: tiveram → obtiveram → obtivermos.",
+  "explain_ru": "Будущее после quando → futuro do conjuntivo. Obter спрягается как ter: obtiveram → obtivermos.",
+  "id": "g038"
+ },
+ {
+  "kind": "form",
+  "text": "Se os médicos ___ que é seguro, o doente terá alta amanhã.",
+  "answer": [
+   "virem"
+  ],
+  "lemma": "ver",
+  "tr_en": "If the doctors see that it is safe, the patient will be discharged tomorrow.",
+  "tr_ru": "Если врачи увидят, что это безопасно, пациента завтра выпишут.",
+  "explain_en": "Se with future meaning → futuro do conjuntivo; ver → viram → virem (vierem would be from vir).",
+  "explain_ru": "Se с будущим значением → futuro do conjuntivo: от ver — virem (а vierem — от vir).",
+  "id": "g039"
+ },
+ {
+  "kind": "form",
+  "text": "Logo que tu ___ as malas, partimos para o aeroporto.",
+  "answer": [
+   "fizeres"
+  ],
+  "lemma": "fazer",
+  "tr_en": "As soon as you have packed your bags, we'll leave for the airport.",
+  "tr_ru": "Как только ты соберёшь чемоданы, мы поедем в аэропорт.",
+  "explain_en": "Logo que with future meaning → futuro do conjuntivo, built on fizeram: tu fizeres.",
+  "explain_ru": "Logo que с будущим значением → futuro do conjuntivo от основы fizeram: tu fizeres. «Fazer as malas» — «собирать чемоданы».",
+  "id": "g040"
+ },
+ {
+  "kind": "word",
+  "text": "Segundo a última ___, o partido do Governo perdeu cinco pontos nas intenções de voto.",
+  "answer": [
+   "sondagem"
+  ],
+  "ref": "a sondagem",
+  "clue_en": "opinion poll",
+  "clue_ru": "опрос общественного мнения",
+  "tr_en": "According to the latest poll, the governing party lost five points in voting intentions.",
+  "tr_ru": "Согласно последнему опросу, правящая партия потеряла пять пунктов в намерениях избирателей.",
+  "explain_en": "A poll of voting intentions is uma sondagem; um inquérito is a general survey or an official inquiry.",
+  "explain_ru": "Опрос о намерениях избирателей — sondagem; inquérito — анкета или официальное расследование.",
+  "id": "g041"
+ },
+ {
+  "kind": "word",
+  "text": "O ___ recusou prestar declarações ao juiz de instrução.",
+  "answer": [
+   "arguido"
+  ],
+  "ref": "o arguido",
+  "clue_en": "formal suspect",
+  "clue_ru": "обвиняемый (на этапе следствия)",
+  "tr_en": "The suspect refused to make a statement to the investigating judge.",
+  "tr_ru": "Обвиняемый отказался давать показания следственному судье.",
+  "explain_en": "In Portugal a person formally under investigation is o arguido; o réu is used once the case is at trial.",
+  "explain_ru": "В Португалии лицо, официально привлечённое к следствию, — arguido; réu — подсудимый уже на стадии суда.",
+  "id": "g042"
+ },
+ {
+  "kind": "word",
+  "text": "O novo programa de formação pretende ___ as lacunas deixadas pela universidade.",
+  "answer": [
+   "colmatar"
+  ],
+  "ref": "colmatar",
+  "clue_en": "to fill (a gap)",
+  "clue_ru": "восполнять (пробел)",
+  "tr_en": "The new training programme aims to fill the gaps left by university.",
+  "tr_ru": "Новая программа обучения призвана восполнить пробелы, оставленные университетом.",
+  "explain_en": "Colmatar is the formal verb that collocates with lacunas, falhas or deficiências.",
+  "explain_ru": "Colmatar — книжный глагол, сочетающийся с lacunas, falhas («восполнять пробелы»).",
+  "id": "g043"
+ },
+ {
+  "kind": "word",
+  "text": "O aumento do preço do pão ___ uma onda de protestos em todo o país.",
+  "answer": [
+   "desencadeou"
+  ],
+  "ref": "desencadear",
+  "clue_en": "to trigger, to spark",
+  "clue_ru": "вызывать, развязывать",
+  "tr_en": "The rise in the price of bread sparked a wave of protests across the country.",
+  "tr_ru": "Повышение цены на хлеб вызвало волну протестов по всей стране.",
+  "explain_en": "Desencadear means to set off a chain of events (protests, a crisis, a war); past single event → desencadeou.",
+  "explain_ru": "Desencadear — «запустить, вызвать» цепь событий (протесты, кризис); законченное действие в прошлом: desencadeou.",
+  "id": "g044"
+ },
+ {
+  "kind": "word",
+  "text": "Esta decisão ___ custos elevados para os contribuintes nos próximos anos.",
+  "answer": [
+   "acarreta"
+  ],
+  "ref": "acarretar",
+  "clue_en": "to entail",
+  "clue_ru": "влечь за собой",
+  "tr_en": "This decision entails high costs for taxpayers in the coming years.",
+  "tr_ru": "Это решение влечёт за собой высокие расходы для налогоплательщиков в ближайшие годы.",
+  "explain_en": "Acarretar = to bring as a consequence (costs, risks); present tense, 3rd person singular.",
+  "explain_ru": "Acarretar — «влечь за собой» (расходы, риски); настоящее время, 3-е л. ед. ч.: acarreta.",
+  "id": "g045"
+ },
+ {
+  "kind": "word",
+  "text": "Desde 2019 que ___ em Portugal uma lei que proíbe a venda de animais em feiras.",
+  "answer": [
+   "vigora"
+  ],
+  "ref": "vigorar",
+  "clue_en": "to be in force",
+  "clue_ru": "действовать (о законе)",
+  "tr_en": "Since 2019 a law has been in force in Portugal banning the sale of animals at fairs.",
+  "tr_ru": "С 2019 года в Португалии действует закон, запрещающий продажу животных на ярмарках.",
+  "explain_en": "Vigorar is used of laws and rules; desde … que + present expresses a state that still continues.",
+  "explain_ru": "Vigorar говорят о законах и правилах. Desde … que + настоящее время = «действует с … (до сих пор)», как в русском.",
+  "id": "g046"
+ },
+ {
+  "kind": "word",
+  "text": "Ainda existe uma ___ esperança de encontrar sobreviventes nos escombros.",
+  "answer": [
+   "ténue"
+  ],
+  "ref": "ténue",
+  "clue_en": "faint, slight",
+  "clue_ru": "слабый, едва заметный",
+  "tr_en": "There is still a faint hope of finding survivors in the rubble.",
+  "tr_ru": "Всё ещё есть слабая надежда найти выживших под завалами.",
+  "explain_en": "Ténue (Brazil: tênue) describes something faint or barely perceptible: a hope, a line, a light.",
+  "explain_ru": "Ténue — «слабый, едва ощутимый» (надежда, граница, свет). В Бразилии: tênue.",
+  "id": "g047"
+ },
+ {
+  "kind": "word",
+  "text": "Pagaram-lhe um valor ___ pelo terreno, praticamente nada.",
+  "answer": [
+   "irrisório"
+  ],
+  "ref": "irrisório",
+  "clue_en": "derisory, negligible",
+  "clue_ru": "смехотворный, ничтожный",
+  "tr_en": "They paid him a derisory sum for the land, practically nothing.",
+  "tr_ru": "Ему заплатили смехотворную сумму за участок, практически ничего.",
+  "explain_en": "Irrisório is used for absurdly small amounts; masculine singular to agree with valor.",
+  "explain_ru": "Irrisório — «смехотворно малый» о суммах; согласуется с valor (м. р.).",
+  "id": "g048"
+ },
+ {
+  "kind": "word",
+  "text": "A versão do arguido não era nada ___: nem o próprio advogado acreditou nela.",
+  "answer": [
+   "verosímil",
+   "verossímil"
+  ],
+  "ref": "verosímil",
+  "clue_en": "believable, true-to-life",
+  "clue_ru": "правдоподобный",
+  "tr_en": "The defendant's version was not at all believable: not even his own lawyer believed it.",
+  "tr_ru": "Версия обвиняемого была совсем неправдоподобной: даже его собственный адвокат в неё не поверил.",
+  "explain_en": "Verosímil means 'having the appearance of truth'; Brazil spells it verossímil.",
+  "explain_ru": "Verosímil — буквально «похожий на правду», как русское «правдоподобный». В Бразилии: verossímil.",
+  "id": "g049"
+ },
+ {
+  "kind": "word",
+  "text": "O estilo do autor é demasiado ___: frases intermináveis e palavras que ninguém usa.",
+  "answer": [
+   "rebuscado"
+  ],
+  "ref": "rebuscado",
+  "clue_en": "overly elaborate",
+  "clue_ru": "вычурный",
+  "tr_en": "The author's style is too convoluted: endless sentences and words nobody uses.",
+  "tr_ru": "Стиль автора слишком вычурный: бесконечные фразы и слова, которыми никто не пользуется.",
+  "explain_en": "Rebuscado is a negative judgement on style: artificially complicated, affected.",
+  "explain_ru": "Rebuscado — отрицательная оценка стиля: «вычурный, витиеватый».",
+  "id": "g050"
+ },
+ {
+  "kind": "word",
+  "text": "Espalhou-se o ___ de que o ministro se ia demitir, mas era falso.",
+  "answer": [
+   "boato"
+  ],
+  "ref": "o boato",
+  "clue_en": "rumour",
+  "clue_ru": "слух",
+  "tr_en": "The rumour spread that the minister was going to resign, but it was false.",
+  "tr_ru": "Распространился слух, что министр собирается уйти в отставку, но это была неправда.",
+  "explain_en": "Um boato is an unconfirmed piece of news passed from person to person.",
+  "explain_ru": "Boato — непроверенная новость, «слух»; часто с глаголом espalhar-se («распространиться»).",
+  "id": "g051"
+ },
+ {
+  "kind": "word",
+  "text": "O ministério ___ a notícia num comunicado enviado às redações.",
+  "answer": [
+   "desmentiu"
+  ],
+  "ref": "desmentir",
+  "clue_en": "to deny (a report)",
+  "clue_ru": "опровергать",
+  "tr_en": "The ministry denied the news in a statement sent to newsrooms.",
+  "tr_ru": "Министерство опровергло новость в заявлении, разосланном в редакции.",
+  "explain_en": "Desmentir = to state officially that a report is false; irregular like mentir (eu desminto), here preterite desmentiu.",
+  "explain_ru": "Desmentir — «официально опровергнуть»; спрягается как mentir (eu desminto); претерит: desmentiu.",
+  "id": "g052"
+ },
+ {
+  "kind": "word",
+  "text": "O semanário tem uma ___ de oitenta mil exemplares.",
+  "answer": [
+   "tiragem"
+  ],
+  "ref": "a tiragem",
+  "clue_en": "print run, circulation",
+  "clue_ru": "тираж",
+  "tr_en": "The weekly has a print run of eighty thousand copies.",
+  "tr_ru": "У еженедельника тираж восемьдесят тысяч экземпляров.",
+  "explain_en": "A tiragem is the number of copies printed; a circulação is more about distribution.",
+  "explain_ru": "Tiragem — «тираж», количество напечатанных экземпляров.",
+  "id": "g053"
+ },
+ {
+  "kind": "word",
+  "text": "O ___ do filme inclui atores portugueses, brasileiros e angolanos.",
+  "answer": [
+   "elenco"
+  ],
+  "ref": "o elenco",
+  "clue_en": "cast (of actors)",
+  "clue_ru": "актёрский состав",
+  "tr_en": "The film's cast includes Portuguese, Brazilian and Angolan actors.",
+  "tr_ru": "В актёрский состав фильма входят португальские, бразильские и ангольские актёры.",
+  "explain_en": "O elenco is the set of actors in a film or play.",
+  "explain_ru": "Elenco — «актёрский состав»; не путать с русским «список» в общем смысле.",
+  "id": "g054"
+ },
+ {
+  "kind": "word",
+  "text": "A ___ de água no Alentejo preocupa cada vez mais os agricultores.",
+  "answer": [
+   "escassez"
+  ],
+  "ref": "a escassez",
+  "clue_en": "shortage, scarcity",
+  "clue_ru": "нехватка, дефицит",
+  "tr_en": "Water shortage in the Alentejo increasingly worries farmers.",
+  "tr_ru": "Нехватка воды в Алентежу всё больше беспокоит фермеров.",
+  "explain_en": "A escassez is a formal word for a lack of a resource (water, food, labour).",
+  "explain_ru": "Escassez — книжное «нехватка, дефицит» ресурса (воды, рабочей силы).",
+  "id": "g055"
+ },
+ {
+  "kind": "word",
+  "text": "O ___ dos glaciares contribui para a subida do nível do mar.",
+  "answer": [
+   "degelo"
+  ],
+  "ref": "o degelo",
+  "clue_en": "melting of ice",
+  "clue_ru": "таяние льда",
+  "tr_en": "The melting of glaciers contributes to sea-level rise.",
+  "tr_ru": "Таяние ледников способствует повышению уровня моря.",
+  "explain_en": "O degelo (de- + gelo) is the melting of ice or snow; also a political 'thaw'.",
+  "explain_ru": "Degelo (de- + gelo «лёд») — «таяние льда», а также «оттепель» в политике.",
+  "id": "g056"
+ },
+ {
+  "kind": "word",
+  "text": "A União Europeia proibiu os pratos e talheres de plástico ___.",
+  "answer": [
+   "descartáveis"
+  ],
+  "ref": "descartável",
+  "clue_en": "disposable, single-use",
+  "clue_ru": "одноразовый",
+  "tr_en": "The European Union banned disposable plastic plates and cutlery.",
+  "tr_ru": "Евросоюз запретил одноразовые пластиковые тарелки и столовые приборы.",
+  "explain_en": "Descartável agrees with the plural nouns: -vel → -veis.",
+  "explain_ru": "Descartável согласуется с существительными во мн. ч.: -vel → -veis.",
+  "id": "g057"
+ },
+ {
+  "kind": "word",
+  "text": "Foi detetado um ___ de sarampo numa escola primária do Porto.",
+  "answer": [
+   "surto"
+  ],
+  "ref": "o surto",
+  "clue_en": "outbreak",
+  "clue_ru": "вспышка (болезни)",
+  "tr_en": "A measles outbreak was detected in a primary school in Porto.",
+  "tr_ru": "В одной из начальных школ Порту выявлена вспышка кори.",
+  "explain_en": "Um surto is a sudden outbreak of a disease; a epidemia is larger in scale.",
+  "explain_ru": "Surto — «вспышка» болезни; epidemia — более масштабное явление.",
+  "id": "g058"
+ },
+ {
+  "kind": "word",
+  "text": "Após duas semanas de ___, o doente pôde finalmente voltar para casa.",
+  "answer": [
+   "internamento"
+  ],
+  "ref": "o internamento",
+  "clue_en": "hospital stay",
+  "clue_ru": "госпитализация",
+  "tr_en": "After two weeks in hospital, the patient was finally able to go home.",
+  "tr_ru": "После двух недель госпитализации пациент наконец смог вернуться домой.",
+  "explain_en": "O internamento is the period a patient spends admitted to hospital (Brazil: internação).",
+  "explain_ru": "Internamento — «пребывание в больнице, госпитализация». В Бразилии: internação. Не путать с «интернатом».",
+  "id": "g059"
+ },
+ {
+  "kind": "word",
+  "text": "O ___ do romance surpreendeu todos os leitores: ninguém esperava aquela morte.",
+  "answer": [
+   "desfecho"
+  ],
+  "ref": "o desfecho",
+  "clue_en": "ending, outcome",
+  "clue_ru": "развязка",
+  "tr_en": "The ending of the novel surprised all readers: nobody expected that death.",
+  "tr_ru": "Развязка романа удивила всех читателей: никто не ожидал этой смерти.",
+  "explain_en": "O desfecho is the resolution of a plot or situation; it is more literary than o final.",
+  "explain_ru": "Desfecho — «развязка» сюжета или ситуации; более литературное слово, чем o final.",
+  "id": "g060"
+ },
+ {
+  "kind": "word",
+  "text": "Cada ___ de sangue pode ajudar a salvar até três vidas.",
+  "answer": [
+   "dador"
+  ],
+  "ref": "o dador",
+  "clue_en": "donor",
+  "clue_ru": "донор",
+  "tr_en": "Each blood donor can help save up to three lives.",
+  "tr_ru": "Каждый донор крови может помочь спасти до трёх жизней.",
+  "explain_en": "In Portugal a blood or organ donor is o dador (Brazil: o doador).",
+  "explain_ru": "В Португалии донор крови или органов — dador; в Бразилии — doador.",
+  "id": "g061"
+ },
+ {
+  "kind": "word",
+  "text": "Depois de dois anos sem beber, teve uma ___ e voltou à clínica.",
+  "answer": [
+   "recaída"
+  ],
+  "ref": "a recaída",
+  "clue_en": "relapse",
+  "clue_ru": "рецидив, срыв",
+  "tr_en": "After two years without drinking, he had a relapse and went back to the clinic.",
+  "tr_ru": "После двух лет трезвости у него случился срыв, и он вернулся в клинику.",
+  "explain_en": "A recaída (re- + cair) is a falling back into an illness or addiction.",
+  "explain_ru": "Recaída (re- + cair «падать») — «рецидив, срыв» при болезни или зависимости.",
+  "id": "g062"
+ },
+ {
+  "kind": "word",
+  "text": "A família ainda está de ___ pela morte do avô e não vai à festa.",
+  "answer": [
+   "luto"
+  ],
+  "ref": "o luto",
+  "clue_en": "mourning",
+  "clue_ru": "траур",
+  "tr_en": "The family is still in mourning for the grandfather's death and won't go to the party.",
+  "tr_ru": "Семья всё ещё в трауре по деду и не пойдёт на праздник.",
+  "explain_en": "Estar de luto = to be in mourning; o luto is both grief and its outward signs.",
+  "explain_ru": "Estar de luto — «быть в трауре»; luto — и скорбь, и её внешние знаки.",
+  "id": "g063"
+ },
+ {
+  "kind": "word",
+  "text": "Segundo o regulamento, o aluno que ___ a mais de duas unidades curriculares perde a bolsa.",
+  "answer": [
+   "reprovar"
+  ],
+  "ref": "reprovar",
+  "clue_en": "to fail (an exam, course)",
+  "clue_ru": "не сдать, провалить (экзамен)",
+  "tr_en": "According to the regulations, a student who fails more than two course units loses the scholarship.",
+  "tr_ru": "Согласно правилам, студент, который не сдаст больше двух дисциплин, теряет стипендию.",
+  "explain_en": "Formal reprovar a (colloquial EP: chumbar a); in a relative clause about the future it takes the futuro do conjuntivo, identical here to the infinitive.",
+  "explain_ru": "Официальное reprovar a (разг. в Португалии chumbar). В придаточном о будущем — futuro do conjuntivo, который здесь совпадает с инфинитивом.",
+  "id": "g064"
+ },
+ {
+  "kind": "word",
+  "text": "Na primeira semana de aulas, os ___ são recebidos pelos estudantes mais velhos com a praxe.",
+  "answer": [
+   "caloiros"
+  ],
+  "ref": "o caloiro",
+  "clue_en": "first-year student",
+  "clue_ru": "первокурсник",
+  "tr_en": "In the first week of classes, the freshmen are welcomed by older students with the initiation rituals.",
+  "tr_ru": "В первую неделю занятий старшекурсники встречают первокурсников обрядом «праше».",
+  "explain_en": "O caloiro (Brazil: calouro) is a first-year university student; plural caloiros.",
+  "explain_ru": "Caloiro — «первокурсник» (в Бразилии calouro); мн. ч.: caloiros.",
+  "id": "g065"
+ },
+ {
+  "kind": "word",
+  "text": "A ___ laboral afeta sobretudo os jovens com contratos temporários.",
+  "answer": [
+   "precariedade"
+  ],
+  "ref": "a precariedade",
+  "clue_en": "job insecurity",
+  "clue_ru": "нестабильность занятости",
+  "tr_en": "Job insecurity mainly affects young people on temporary contracts.",
+  "tr_ru": "Нестабильность занятости затрагивает прежде всего молодых людей с временными контрактами.",
+  "explain_en": "A precariedade (laboral) is the key Portuguese term for insecure, temporary work.",
+  "explain_ru": "Precariedade laboral — ключевой термин для нестабильной, временной работы (ср. «прекариат»).",
+  "id": "g066"
+ },
+ {
+  "kind": "word",
+  "text": "Para se despedir, o trabalhador tem de dar um ___ de trinta dias à empresa.",
+  "answer": [
+   "pré-aviso"
+  ],
+  "ref": "o pré-aviso",
+  "clue_en": "notice period",
+  "clue_ru": "предварительное уведомление",
+  "tr_en": "To resign, the worker must give the company thirty days' notice.",
+  "tr_ru": "Чтобы уволиться, работник должен предупредить компанию за тридцать дней.",
+  "explain_en": "Dar um pré-aviso = to give notice; the hyphenated pré- keeps its accent.",
+  "explain_ru": "Dar um pré-aviso — «предупредить заранее (об увольнении)»; приставка pré- пишется через дефис с ударением.",
+  "id": "g067"
+ },
+ {
+  "kind": "word",
+  "text": "O autarca foi acusado de aceitar ___ de empresas de construção.",
+  "answer": [
+   "subornos"
+  ],
+  "ref": "o suborno",
+  "clue_en": "bribe",
+  "clue_ru": "взятка",
+  "tr_en": "The mayor was accused of accepting bribes from construction companies.",
+  "tr_ru": "Мэра обвинили в получении взяток от строительных компаний.",
+  "explain_en": "O suborno = bribe; plural here because several payments are meant.",
+  "explain_ru": "Suborno — «взятка»; здесь мн. ч., так как речь о нескольких выплатах.",
+  "id": "g068"
+ },
+ {
+  "kind": "word",
+  "text": "Como tinha ___, não conseguiu entrar para a função pública.",
+  "answer": [
+   "cadastro"
+  ],
+  "ref": "o cadastro",
+  "clue_en": "criminal record",
+  "clue_ru": "судимость",
+  "tr_en": "Because he had a criminal record, he couldn't get a civil-service job.",
+  "tr_ru": "Поскольку у него была судимость, он не смог устроиться на государственную службу.",
+  "explain_en": "Ter cadastro = to have a criminal record; it is not a land register in everyday use.",
+  "explain_ru": "Ter cadastro — «иметь судимость». Ложный друг: это не русский «кадастр».",
+  "id": "g069"
+ },
+ {
+  "kind": "word",
+  "text": "A ___ nas últimas eleições ultrapassou os cinquenta por cento.",
+  "answer": [
+   "abstenção"
+  ],
+  "ref": "a abstenção",
+  "clue_en": "not voting, abstention",
+  "clue_ru": "неявка (на выборы)",
+  "tr_en": "Abstention in the last elections exceeded fifty per cent.",
+  "tr_ru": "Неявка на последних выборах превысила пятьдесят процентов.",
+  "explain_en": "A abstenção is the share of voters who did not vote.",
+  "explain_ru": "Abstenção — доля избирателей, не пришедших голосовать («неявка»).",
+  "id": "g070"
+ },
+ {
+  "kind": "word",
+  "text": "Em Portugal, são as ___ que tratam da recolha do lixo e da iluminação pública.",
+  "answer": [
+   "autarquias"
+  ],
+  "ref": "a autarquia",
+  "clue_en": "local authority",
+  "clue_ru": "орган местного самоуправления",
+  "tr_en": "In Portugal it is the local authorities that handle rubbish collection and street lighting.",
+  "tr_ru": "В Португалии вывозом мусора и уличным освещением занимаются органы местного самоуправления.",
+  "explain_en": "Autarquia = municipality or parish council; plural because it refers to all of them.",
+  "explain_ru": "Autarquia — муниципалитет, орган местной власти. Не путать с русским «автаркия».",
+  "id": "g071"
+ },
+ {
+  "kind": "word",
+  "text": "O presidente da câmara está a cumprir o seu terceiro ___ consecutivo.",
+  "answer": [
+   "mandato"
+  ],
+  "ref": "o mandato",
+  "clue_en": "term of office",
+  "clue_ru": "срок полномочий",
+  "tr_en": "The mayor is serving his third consecutive term.",
+  "tr_ru": "Мэр отбывает свой третий срок подряд.",
+  "explain_en": "Cumprir um mandato = to serve a term of office.",
+  "explain_ru": "Cumprir um mandato — «отбывать срок полномочий»; mandato — это прежде всего срок, а не «мандат»-документ.",
+  "id": "g072"
+ },
+ {
+  "kind": "word",
+  "text": "A empresa registou um ___ de dois milhões de euros no último trimestre.",
+  "answer": [
+   "prejuízo"
+  ],
+  "ref": "o prejuízo",
+  "clue_en": "financial loss",
+  "clue_ru": "убыток",
+  "tr_en": "The company recorded a loss of two million euros in the last quarter.",
+  "tr_ru": "Компания зафиксировала убыток в два миллиона евро в последнем квартале.",
+  "explain_en": "O prejuízo is the opposite of o lucro; it never means 'prejudice' (o preconceito).",
+  "explain_ru": "Prejuízo — «убыток, ущерб», противоположность lucro. Ложный друг: «предрассудок» — preconceito.",
+  "id": "g073"
+ },
+ {
+  "kind": "word",
+  "text": "Os supermercados usam cartões de desconto para ___ os clientes.",
+  "answer": [
+   "fidelizar"
+  ],
+  "ref": "fidelizar",
+  "clue_en": "to build customer loyalty",
+  "clue_ru": "удерживать (клиентов)",
+  "tr_en": "Supermarkets use discount cards to build customer loyalty.",
+  "tr_ru": "Супермаркеты используют дисконтные карты, чтобы удерживать клиентов.",
+  "explain_en": "Fidelizar (from fiel) is the marketing verb for making customers return.",
+  "explain_ru": "Fidelizar (от fiel «верный») — маркетинговый термин «сделать клиента постоянным».",
+  "id": "g074"
+ },
+ {
+  "kind": "word",
+  "text": "A ___ da empresa fica em Lisboa, mas a fábrica é no Porto.",
+  "answer": [
+   "sede"
+  ],
+  "ref": "a sede",
+  "clue_en": "head office",
+  "clue_ru": "штаб-квартира",
+  "tr_en": "The company's head office is in Lisbon, but the factory is in Porto.",
+  "tr_ru": "Штаб-квартира компании находится в Лиссабоне, а завод — в Порту.",
+  "explain_en": "A sede = headquarters; the same word also means 'thirst' (ter sede).",
+  "explain_ru": "Sede — «штаб-квартира»; то же слово значит «жажда» (ter sede).",
+  "id": "g075"
+ },
+ {
+  "kind": "word",
+  "text": "Os ___ aprovaram a fusão por larga maioria na assembleia geral.",
+  "answer": [
+   "acionistas"
+  ],
+  "ref": "o acionista",
+  "clue_en": "shareholder",
+  "clue_ru": "акционер",
+  "tr_en": "The shareholders approved the merger by a large majority at the general meeting.",
+  "tr_ru": "Акционеры одобрили слияние подавляющим большинством на общем собрании.",
+  "explain_en": "O acionista (from ação 'share') votes at the assembleia geral; Brazil: acionista too.",
+  "explain_ru": "Acionista (от ação «акция») голосует на общем собрании; plural acionistas.",
+  "id": "g076"
+ },
+ {
+  "kind": "word",
+  "text": "Antes de aceitar a proposta, vou ___ bem os prós e os contras.",
+  "answer": [
+   "ponderar"
+  ],
+  "ref": "ponderar",
+  "clue_en": "to weigh up",
+  "clue_ru": "взвешивать",
+  "tr_en": "Before accepting the offer, I'm going to weigh up the pros and cons carefully.",
+  "tr_ru": "Прежде чем принять предложение, я хорошенько взвешу все за и против.",
+  "explain_en": "Ponderar = to consider carefully, literally 'to weigh'; it collocates with prós e contras.",
+  "explain_ru": "Ponderar — «взвешивать, обдумывать», сочетается с prós e contras.",
+  "id": "g077"
+ },
+ {
+  "kind": "word",
+  "text": "A acusação ___ de fundamento e o juiz arquivou o processo.",
+  "answer": [
+   "carecia"
+  ],
+  "ref": "carecer de",
+  "clue_en": "to lack",
+  "clue_ru": "быть лишённым, не иметь",
+  "tr_en": "The charge lacked any basis and the judge dismissed the case.",
+  "tr_ru": "Обвинение было лишено оснований, и судья закрыл дело.",
+  "explain_en": "Carecer de = to lack (formal); imperfeito for a background state in the past.",
+  "explain_ru": "Carecer de — книжное «быть лишённым чего-л.»; imperfeito описывает состояние в прошлом.",
+  "id": "g078"
+ },
+ {
+  "kind": "word",
+  "text": "Nenhuma associação pode ___ da ajuda dos voluntários.",
+  "answer": [
+   "prescindir"
+  ],
+  "ref": "prescindir de",
+  "clue_en": "to do without",
+  "clue_ru": "обходиться без",
+  "tr_en": "No association can do without the help of volunteers.",
+  "tr_ru": "Ни одна ассоциация не может обойтись без помощи волонтёров.",
+  "explain_en": "Prescindir de = to manage without something; after poder the infinitive.",
+  "explain_ru": "Prescindir de — «обходиться без»; после poder — инфинитив.",
+  "id": "g079"
+ },
+ {
+  "kind": "word",
+  "text": "Quem vai ___ com os custos da reparação do telhado?",
+  "answer": [
+   "arcar"
+  ],
+  "ref": "arcar com",
+  "clue_en": "to bear (costs)",
+  "clue_ru": "нести (расходы)",
+  "tr_en": "Who is going to bear the cost of repairing the roof?",
+  "tr_ru": "Кто будет нести расходы на ремонт крыши?",
+  "explain_en": "Arcar com = to shoulder a burden, usually costs or consequences.",
+  "explain_ru": "Arcar com — «взять на себя, нести» (расходы, последствия).",
+  "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "section": "imperfeito-conjuntivo-sequence",
+  "text": "Ela continuou a falar ___ se nada tivesse acontecido.",
+  "answer": [
+   "como"
+  ],
+  "tr_en": "She carried on talking as if nothing had happened.",
+  "tr_ru": "Она продолжала говорить, как будто ничего не случилось.",
+  "explain_en": "Como se ('as if') is the conjunction that triggers the imperfeito or mais-que-perfeito do conjuntivo.",
+  "explain_ru": "Como se («как будто») — союз, после которого всегда идёт imperfeito или mais-que-perfeito do conjuntivo.",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "section": "imperfeito-conjuntivo-sequence",
+  "text": "Era pouco provável ___ os deputados aprovassem a moção de censura.",
+  "answer": [
+   "que"
+  ],
+  "tr_en": "It was unlikely that the MPs would pass the motion of no confidence.",
+  "tr_ru": "Было маловероятно, что депутаты одобрят вотум недоверия.",
+  "explain_en": "Impersonal expressions of probability are linked to the clause by que, which then takes the conjuntivo (aprovassem).",
+  "explain_ru": "Безличное выражение вероятности присоединяет придаточное союзом que, а после него — conjuntivo (aprovassem).",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "section": "imperfeito-conjuntivo-sequence",
+  "text": "Ninguém acreditava que o projeto ___ viável sem financiamento europeu.",
+  "answer": [
+   "fosse"
+  ],
+  "tr_en": "Nobody believed that the project was viable without European funding.",
+  "tr_ru": "Никто не верил, что проект осуществим без европейского финансирования.",
+  "explain_en": "Negated belief in the past (ninguém acreditava que) → imperfeito do conjuntivo of ser: fosse.",
+  "explain_ru": "Отрицание веры в прошлом (ninguém acreditava que) → imperfeito do conjuntivo от ser: fosse. В русском — изъявительное «был».",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "section": "imperfeito-conjuntivo-sequence",
+  "text": "Não queria que tu ___ preocupasses com o meu exame.",
+  "answer": [
+   "te"
+  ],
+  "tr_en": "I didn't want you to worry about my exam.",
+  "tr_ru": "Я не хотел, чтобы ты волновался из-за моего экзамена.",
+  "explain_en": "Preocupar-se is reflexive; the subject tu requires te, placed before the verb after que.",
+  "explain_ru": "Preocupar-se — возвратный глагол; для tu нужно te, и после que оно стоит перед глаголом (как русское «-ся», но отдельным словом).",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "section": "mais-que-perfeito-conjuntivo-past-conditionals",
+  "text": "Se tu ___ estudado mais, terias passado no exame.",
+  "answer": [
+   "tivesses"
+  ],
+  "tr_en": "If you had studied more, you would have passed the exam.",
+  "tr_ru": "Если бы ты больше занимался, ты бы сдал экзамен.",
+  "explain_en": "Unreal past condition: se + mais-que-perfeito do conjuntivo (tivesses + participle), result in the condicional composto.",
+  "explain_ru": "Нереальное условие в прошлом: se + tivesses + причастие, в главном — terias passado. В русском одно «если бы» для настоящего и прошлого.",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "section": "mais-que-perfeito-conjuntivo-past-conditionals",
+  "text": "Se o governo tivesse agido a tempo, a crise não ___ sido tão grave.",
+  "answer": [
+   "teria",
+   "tinha"
+  ],
+  "tr_en": "If the government had acted in time, the crisis would not have been so serious.",
+  "tr_ru": "Если бы правительство приняло меры вовремя, кризис не был бы таким тяжёлым.",
+  "explain_en": "Result of an unreal past condition: condicional composto teria + participle; in spoken European Portuguese tinha is also common.",
+  "explain_ru": "Следствие нереального условия в прошлом: teria + причастие; в разговорном европейском португальском часто tinha.",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "section": "mais-que-perfeito-conjuntivo-past-conditionals",
+  "text": "Embora ___ tivessem avisado do perigo, o turista entrou no mar.",
+  "answer": [
+   "o"
+  ],
+  "tr_en": "Although they had warned him of the danger, the tourist went into the sea.",
+  "tr_ru": "Хотя его предупредили об опасности, турист зашёл в море.",
+  "explain_en": "Avisar alguém takes a direct object: o (him); after embora the pronoun goes before the auxiliary.",
+  "explain_ru": "Avisar alguém — прямое дополнение: o («его»). После embora местоимение ставится перед вспомогательным глаголом.",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "section": "mais-que-perfeito-conjuntivo-past-conditionals",
+  "text": "Se não ___ sido o trânsito, teríamos chegado a horas.",
+  "answer": [
+   "tivesse"
+  ],
+  "tr_en": "If it hadn't been for the traffic, we would have arrived on time.",
+  "tr_ru": "Если бы не пробки, мы бы приехали вовремя.",
+  "explain_en": "'If it hadn't been for X' = se não tivesse sido X, singular because it is impersonal.",
+  "explain_ru": "«Если бы не…» в прошлом = se não tivesse sido…; глагол в ед. ч., конструкция безличная.",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "section": "conjuntivo-relative-indefinites",
+  "text": "Procuro alguém ___ saiba falar mandarim e tenha experiência em vendas.",
+  "answer": [
+   "que"
+  ],
+  "tr_en": "I'm looking for someone who can speak Mandarin and has sales experience.",
+  "tr_ru": "Ищу человека, который умеет говорить на мандаринском и имеет опыт продаж.",
+  "explain_en": "The relative pronoun que introduces a clause about an unknown person, hence the conjuntivo saiba.",
+  "explain_ru": "Относительное que вводит придаточное о неизвестном лице, поэтому conjuntivo saiba. Quem здесь невозможно.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "section": "conjuntivo-relative-indefinites",
+  "text": "___ quer que tenha feito isto vai ter de pagar os estragos.",
+  "answer": [
+   "Quem"
+  ],
+  "tr_en": "Whoever did this is going to have to pay for the damage.",
+  "tr_ru": "Кто бы это ни сделал, ему придётся заплатить за ущерб.",
+  "explain_en": "Quem quer que = whoever (about a person), followed by the conjuntivo.",
+  "explain_ru": "Quem quer que — «кто бы ни», о человеке; после него conjuntivo (tenha feito).",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "section": "conjuntivo-relative-indefinites",
+  "text": "Seja ___ for o resultado, temos de o aceitar.",
+  "answer": [
+   "qual"
+  ],
+  "tr_en": "Whatever the result is, we have to accept it.",
+  "tr_ru": "Каким бы ни был результат, мы должны его принять.",
+  "explain_en": "The fixed pattern seja qual for = whatever it may be (qual because it refers to a choice among things).",
+  "explain_ru": "Устойчивая модель seja qual for — «каким бы ни был»; qual, потому что речь о предмете, а не о человеке.",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "section": "conjuntivo-relative-indefinites",
+  "text": "Podes sentar-te ___ quiseres, a sala ainda está vazia.",
+  "answer": [
+   "onde"
+  ],
+  "tr_en": "You can sit wherever you like, the room is still empty.",
+  "tr_ru": "Можешь сесть, где хочешь, зал ещё пустой.",
+  "explain_en": "Onde + futuro do conjuntivo (quiseres) = wherever you like.",
+  "explain_ru": "Onde + futuro do conjuntivo (quiseres) = «где захочешь»; в русском — настоящее или будущее изъявительное.",
+  "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "section": "mesoclisis-pronoun-position",
+  "text": "Os documentos? O advogado vai entregá-___ amanhã de manhã.",
+  "answer": [
+   "los"
+  ],
+  "tr_en": "The documents? The lawyer is going to hand them over tomorrow morning.",
+  "tr_ru": "Документы? Адвокат передаст их завтра утром.",
+  "explain_en": "After an infinitive ending in -r, os becomes los and the -r drops: entregar + os → entregá-los.",
+  "explain_ru": "После инфинитива на -r местоимение os превращается в los, а -r выпадает: entregá-los.",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "section": "mesoclisis-pronoun-position",
+  "text": "Pela cara dele, dir-___-ia que não está nada contente com a notícia.",
+  "answer": [
+   "se"
+  ],
+  "tr_en": "Judging by his face, one would say he's not at all happy with the news.",
+  "tr_ru": "Судя по его лицу, можно было бы сказать, что он совсем не рад новости.",
+  "explain_en": "Impersonal se in mesoclisis inside the conditional dir-ia: dir-se-ia = one would say.",
+  "explain_ru": "Безличное se вставлено внутрь condicional (мезоклиза): dir-se-ia — «можно было бы сказать».",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "section": "mesoclisis-pronoun-position",
+  "text": "Nunca ___ esquecerei, mãe: foste tudo para mim.",
+  "answer": [
+   "te"
+  ],
+  "tr_en": "I will never forget you, mum: you were everything to me.",
+  "tr_ru": "Я никогда тебя не забуду, мама: ты была для меня всем.",
+  "explain_en": "Negative words like nunca attract the pronoun before the verb, so no mesoclisis (not esquecer-te-ei); foste shows tu → te.",
+  "explain_ru": "Отрицательные слова вроде nunca притягивают местоимение перед глаголом, поэтому без мезоклизы; foste указывает на tu → te.",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "section": "mesoclisis-pronoun-position",
+  "text": "Senhor doutor, amanhã telefonar-___-ei com a resposta definitiva.",
+  "answer": [
+   "lhe"
+  ],
+  "tr_en": "Doctor, I will phone you tomorrow with the final answer.",
+  "tr_ru": "Господин доктор, завтра я позвоню вам с окончательным ответом.",
+  "explain_en": "Telefonar a alguém takes an indirect object; for o senhor doutor it is lhe, placed inside the future (mesoclisis).",
+  "explain_ru": "Telefonar a alguém — косвенное дополнение; для o senhor — lhe, внутри формы будущего: telefonar-lhe-ei. В русском «позвонить кому» — тоже дательный.",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "section": "verbal-periphrases",
+  "text": "O diretor acabou ___ sair; volte daqui a uma hora.",
+  "answer": [
+   "de"
+  ],
+  "tr_en": "The director has just left; come back in an hour.",
+  "tr_ru": "Директор только что ушёл; зайдите через час.",
+  "explain_en": "Acabar de + infinitive = to have just done something.",
+  "explain_ru": "Acabar de + инфинитив = «только что сделать»; в русском передаётся наречием «только что».",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "section": "verbal-periphrases",
+  "text": "Ultimamente ando ___ dormir muito mal por causa do calor.",
+  "answer": [
+   "a"
+  ],
+  "tr_en": "Lately I've been sleeping very badly because of the heat.",
+  "tr_ru": "В последнее время я очень плохо сплю из-за жары.",
+  "explain_en": "Andar a + infinitive (Portugal) = to have been doing something repeatedly lately (Brazil: ando dormindo).",
+  "explain_ru": "Andar a + инфинитив (Португалия) — повторяющееся действие в последнее время; в Бразилии: ando dormindo.",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "section": "verbal-periphrases",
+  "text": "Ficámos ___ conversar no café até às três da manhã.",
+  "answer": [
+   "a"
+  ],
+  "tr_en": "We stayed chatting in the café until three in the morning.",
+  "tr_ru": "Мы засиделись в кафе за разговором до трёх часов ночи.",
+  "explain_en": "Ficar a + infinitive = to stay doing something for a long time.",
+  "explain_ru": "Ficar a + инфинитив — «оставаться за каким-то занятием», продолжительность действия.",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "section": "verbal-periphrases",
+  "text": "Depois do enfarte, o meu pai deixou ___ fumar de um dia para o outro.",
+  "answer": [
+   "de"
+  ],
+  "tr_en": "After the heart attack, my father stopped smoking overnight.",
+  "tr_ru": "После инфаркта мой отец бросил курить в одночасье.",
+  "explain_en": "Deixar de + infinitive = to stop doing something (deixar a would mean 'leave to').",
+  "explain_ru": "Deixar de + инфинитив = «перестать, бросить»; русское «бросить курить» без предлога.",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "section": "futuro-condicional-composto-probability",
+  "text": "São dez da noite; a esta hora eles já ___ chegado a Paris.",
+  "answer": [
+   "terão"
+  ],
+  "tr_en": "It's ten at night; by now they will have arrived in Paris.",
+  "tr_ru": "Десять вечера; к этому времени они, наверное, уже прилетели в Париж.",
+  "explain_en": "Futuro composto (terão + participle) expresses an assumption about something already completed now.",
+  "explain_ru": "Futuro composto (terão + причастие) выражает предположение о завершённом действии: «наверное, уже прилетели».",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "section": "futuro-condicional-composto-probability",
+  "text": "Quem ___ sido o autor desta carta anónima?",
+  "answer": [
+   "terá"
+  ],
+  "tr_en": "Who could have written this anonymous letter?",
+  "tr_ru": "Кто же мог быть автором этого анонимного письма?",
+  "explain_en": "In a question, terá sido conveys wondering about the past: 'who could it have been?'.",
+  "explain_ru": "В вопросе terá sido передаёт размышление о прошлом: «кто же мог…?». Русское будущее так не употребляется.",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "section": "futuro-condicional-composto-probability",
+  "text": "O João não apareceu na reunião; deve ___ adormecido outra vez.",
+  "answer": [
+   "ter"
+  ],
+  "tr_en": "João didn't show up at the meeting; he must have overslept again.",
+  "tr_ru": "Жуан не пришёл на собрание; наверное, опять проспал.",
+  "explain_en": "Dever + ter + participle = must have done (deduction about the past); the infinitive ter does not change.",
+  "explain_ru": "Dever + ter + причастие = «должно быть, сделал» (вывод о прошлом); ter остаётся в инфинитиве.",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "section": "futuro-condicional-composto-probability",
+  "text": "Segundo a imprensa, o ministro ___ recebido subornos de uma construtora.",
+  "answer": [
+   "terá",
+   "teria"
+  ],
+  "tr_en": "According to the press, the minister allegedly received bribes from a construction firm.",
+  "tr_ru": "По данным прессы, министр якобы получал взятки от строительной компании.",
+  "explain_en": "Journalistic Portuguese uses terá or teria + participle to report unconfirmed facts ('allegedly').",
+  "explain_ru": "В журналистском стиле terá/teria + причастие сообщает о неподтверждённом факте — как русское «якобы».",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "section": "concession-condition",
+  "text": "Vou contigo à festa, ___ que voltemos antes da meia-noite.",
+  "answer": [
+   "desde",
+   "contanto"
+  ],
+  "tr_en": "I'll go to the party with you, provided that we come back before midnight.",
+  "tr_ru": "Я пойду с тобой на вечеринку при условии, что мы вернёмся до полуночи.",
+  "explain_en": "Desde que / contanto que + conjuntivo = provided that; desde que with the indicative would mean 'since'.",
+  "explain_ru": "Desde que / contanto que + conjuntivo = «при условии, что». Desde que с изъявительным значит «с тех пор как».",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "section": "concession-condition",
+  "text": "___ haja algum problema com a encomenda, ligue para este número.",
+  "answer": [
+   "Caso"
+  ],
+  "tr_en": "Should there be any problem with the order, call this number.",
+  "tr_ru": "Если с заказом возникнут проблемы, звоните по этому номеру.",
+  "explain_en": "Haja is conjuntivo, so the conjunction must be caso; se would require há or houver.",
+  "explain_ru": "Haja — conjuntivo, поэтому нужен caso; после se было бы há или houver.",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "section": "concession-condition",
+  "text": "Não sairemos de casa ___ menos que o tempo melhore.",
+  "answer": [
+   "a"
+  ],
+  "tr_en": "We won't leave the house unless the weather improves.",
+  "tr_ru": "Мы не выйдем из дома, если только погода не улучшится.",
+  "explain_en": "A menos que + conjuntivo = unless (also a não ser que).",
+  "explain_ru": "A menos que + conjuntivo = «если только не»; синоним a não ser que.",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "section": "concession-condition",
+  "text": "Por ___ que se esforce, nunca consegue chegar a horas.",
+  "answer": [
+   "mais",
+   "muito"
+  ],
+  "tr_en": "However hard he tries, he never manages to arrive on time.",
+  "tr_ru": "Как бы он ни старался, он никогда не приходит вовремя.",
+  "explain_en": "Por mais que / por muito que + conjuntivo = however much.",
+  "explain_ru": "Por mais que / por muito que + conjuntivo = «как бы ни, сколько бы ни».",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "section": "infinitivo-pessoal-vs-conjuntivo",
+  "text": "Expliquei tudo duas vezes ___ vocês perceberem bem as regras.",
+  "answer": [
+   "para"
+  ],
+  "tr_en": "I explained everything twice so that you would understand the rules properly.",
+  "tr_ru": "Я всё объяснил дважды, чтобы вы хорошо поняли правила.",
+  "explain_en": "Para + personal infinitive (perceberem) is the usual alternative to para que + conjuntivo.",
+  "explain_ru": "Para + личный инфинитив (perceberem) — обычная альтернатива para que + conjuntivo; ср. русское «чтобы вы поняли».",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "section": "infinitivo-pessoal-vs-conjuntivo",
+  "text": "Depois de nós ___ jantado, fomos dar uma volta pela marginal.",
+  "answer": [
+   "termos"
+  ],
+  "tr_en": "After we had dined, we went for a walk along the seafront.",
+  "tr_ru": "Поужинав, мы пошли прогуляться по набережной.",
+  "explain_en": "With an explicit subject after a preposition, the auxiliary takes the personal infinitive: termos jantado.",
+  "explain_ru": "С явным подлежащим после предлога вспомогательный глагол стоит в личном инфинитиве: termos jantado.",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "section": "infinitivo-pessoal-vs-conjuntivo",
+  "text": "É natural ___ os jovens queiram sair de casa dos pais cedo.",
+  "answer": [
+   "que"
+  ],
+  "tr_en": "It's natural that young people want to leave their parents' home early.",
+  "tr_ru": "Естественно, что молодые люди хотят рано уехать от родителей.",
+  "explain_en": "The conjugated conjuntivo queiram needs que; without que the personal infinitive quererem would be used.",
+  "explain_ru": "Спрягаемый conjuntivo queiram требует que; без que нужен был бы личный инфинитив quererem.",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "section": "infinitivo-pessoal-vs-conjuntivo",
+  "text": "Antes ___ os alunos saírem, o professor distribuiu os enunciados.",
+  "answer": [
+   "de"
+  ],
+  "tr_en": "Before the students left, the teacher handed out the exam papers.",
+  "tr_ru": "До того как ученики ушли, учитель раздал задания.",
+  "explain_en": "Antes de + personal infinitive (saírem); antes que would require the conjuntivo (saíssem).",
+  "explain_ru": "Antes de + личный инфинитив (saírem); с antes que понадобился бы conjuntivo (saíssem).",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "section": "gerund-participle-clauses",
+  "text": "___ chegar a casa, reparei que a porta estava aberta.",
+  "answer": [
+   "Ao"
+  ],
+  "tr_en": "On arriving home, I noticed that the door was open.",
+  "tr_ru": "Придя домой, я заметил, что дверь открыта.",
+  "explain_en": "Ao (a + o) + infinitive = 'on/when doing', the usual European Portuguese equivalent of a time gerund.",
+  "explain_ru": "Ao (a + o) + инфинитив = «когда/придя»; в Португалии это обычная замена деепричастия.",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "section": "gerund-participle-clauses",
+  "text": "Terminada ___ reunião, os diretores foram almoçar juntos.",
+  "answer": [
+   "a"
+  ],
+  "tr_en": "Once the meeting was over, the directors went to lunch together.",
+  "tr_ru": "По окончании совещания директора пошли вместе обедать.",
+  "explain_en": "The participle terminada is feminine singular, so the noun after it takes the article a.",
+  "explain_ru": "Причастие terminada в ж. р. ед. ч., значит, существительное после него — с артиклем a (a reunião).",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "section": "gerund-participle-clauses",
+  "text": "___ terminado o curso, emigrou para Londres à procura de trabalho.",
+  "answer": [
+   "Tendo"
+  ],
+  "tr_en": "Having finished the degree, he emigrated to London in search of work.",
+  "tr_ru": "Окончив университет, он эмигрировал в Лондон в поисках работы.",
+  "explain_en": "Compound gerund tendo + participle = 'having done', an action completed before the main one.",
+  "explain_ru": "Сложный герундий tendo + причастие = «сделав» (деепричастие совершенного вида).",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "section": "gerund-participle-clauses",
+  "text": "Uma ___ assinado o acordo, as tropas começaram a retirar-se.",
+  "answer": [
+   "vez"
+  ],
+  "tr_en": "Once the agreement was signed, the troops began to withdraw.",
+  "tr_ru": "Как только соглашение было подписано, войска начали отходить.",
+  "explain_en": "Uma vez + participle = once (something is done).",
+  "explain_ru": "Uma vez + причастие = «как только, после того как».",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "section": "connectors-discourse-markers",
+  "text": "O plano parece bom; no ___, ainda não sabemos quanto vai custar.",
+  "answer": [
+   "entanto"
+  ],
+  "tr_en": "The plan looks good; however, we still don't know how much it will cost.",
+  "tr_ru": "План выглядит хорошо; однако мы ещё не знаем, сколько он будет стоить.",
+  "explain_en": "No entanto = however, a contrastive connector.",
+  "explain_ru": "No entanto = «однако, тем не менее» — противительный коннектор.",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "section": "connectors-discourse-markers",
+  "text": "O projeto é caro e, ___ disso, demoraria dez anos a concluir.",
+  "answer": [
+   "além"
+  ],
+  "tr_en": "The project is expensive and, besides that, it would take ten years to complete.",
+  "tr_ru": "Проект дорогой, и, кроме того, на его завершение ушло бы десять лет.",
+  "explain_en": "Além disso = besides that, moreover (additive).",
+  "explain_ru": "Além disso = «кроме того» (добавление).",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "section": "connectors-discourse-markers",
+  "text": "Não gosto daquele restaurante; ___, nunca gostei, nem quando abriu.",
+  "answer": [
+   "aliás"
+  ],
+  "tr_en": "I don't like that restaurant; in fact, I never have, not even when it opened.",
+  "tr_ru": "Мне не нравится тот ресторан; впрочем, никогда и не нравился, даже когда он открылся.",
+  "explain_en": "Aliás adds a correction or reinforcement: 'in fact, actually'.",
+  "explain_ru": "Aliás вводит уточнение или усиление: «впрочем, более того».",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "section": "connectors-discourse-markers",
+  "text": "Choveu durante toda a manhã; ___ conseguinte, o jogo foi adiado.",
+  "answer": [
+   "por"
+  ],
+  "tr_en": "It rained all morning; consequently, the match was postponed.",
+  "tr_ru": "Всё утро шёл дождь; следовательно, матч перенесли.",
+  "explain_en": "Por conseguinte = consequently, therefore.",
+  "explain_ru": "Por conseguinte = «следовательно, поэтому».",
+  "id": "g120"
+ }
+]

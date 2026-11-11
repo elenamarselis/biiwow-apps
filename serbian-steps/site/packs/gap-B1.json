@@ -1,0 +1,1778 @@
+[
+ {
+  "kind": "form",
+  "text": "Ovaj roman je ___ pre više od sto godina, a i danas je popularan.",
+  "answer": [
+   "napisan",
+   "написан"
+  ],
+  "lemma": "napisati",
+  "tr_en": "This novel was written more than a hundred years ago, and it is still popular today.",
+  "tr_ru": "Этот роман был написан более ста лет назад и популярен до сих пор.",
+  "explain_en": "The passive participle of napisati is napisan (masculine for roman).",
+  "explain_ru": "Страдательное причастие от napisati — napisan (м. р., как roman).",
+  "id": "g001"
+ },
+ {
+  "kind": "form",
+  "text": "Moj bicikl je ___ ispred fakulteta dok sam bio na predavanju.",
+  "answer": [
+   "ukraden",
+   "украден"
+  ],
+  "lemma": "ukrasti",
+  "tr_en": "My bike was stolen in front of the faculty while I was at a lecture.",
+  "tr_ru": "Мой велосипед украли перед факультетом, пока я был на лекции.",
+  "explain_en": "Ukrasti has the passive participle ukraden (stem krad-).",
+  "explain_ru": "Страдательное причастие от ukrasti — ukraden (основа krad-).",
+  "id": "g002"
+ },
+ {
+  "kind": "form",
+  "text": "Prozori su bili ___ celu noć i sada je u sobi ledeno.",
+  "answer": [
+   "otvoreni",
+   "отворени"
+  ],
+  "lemma": "otvoriti",
+  "tr_en": "The windows were open all night and now the room is freezing.",
+  "tr_ru": "Окна были открыты всю ночь, и теперь в комнате ледяной холод.",
+  "explain_en": "Passive participle of otvoriti: otvoren; masculine plural for prozori: otvoreni.",
+  "explain_ru": "Причастие от otvoriti — otvoren; для prozori (м. р. мн. ч.) — otvoreni.",
+  "id": "g003"
+ },
+ {
+  "kind": "form",
+  "text": "Večera je ___, sedite za sto!",
+  "answer": [
+   "spremljena",
+   "спремљена"
+  ],
+  "lemma": "spremiti",
+  "tr_en": "Dinner is ready, sit down at the table!",
+  "tr_ru": "Ужин готов, садитесь за стол!",
+  "explain_en": "Passive participles of -iti verbs insert l after m: spremiti → spremljen, feminine spremljena.",
+  "explain_ru": "У глаголов на -iti после m появляется l: spremiti → spremljen, ж. р. spremljena.",
+  "id": "g004"
+ },
+ {
+  "kind": "form",
+  "text": "Ugovor je ___ juče u prisustvu advokata.",
+  "answer": [
+   "potpisan",
+   "потписан"
+  ],
+  "lemma": "potpisati",
+  "tr_en": "The contract was signed yesterday in the presence of a lawyer.",
+  "tr_ru": "Договор был подписан вчера в присутствии адвоката.",
+  "explain_en": "Passive participle of potpisati: potpisan.",
+  "explain_ru": "Страдательное причастие от potpisati — potpisan.",
+  "id": "g005"
+ },
+ {
+  "kind": "form",
+  "text": "Žao nam je, sve karte za koncert su već ___.",
+  "answer": [
+   "prodate",
+   "продате"
+  ],
+  "lemma": "prodati",
+  "tr_en": "We're sorry, all tickets for the concert are already sold.",
+  "tr_ru": "К сожалению, все билеты на концерт уже проданы.",
+  "explain_en": "Passive participle of prodati: prodat; feminine plural for karte: prodate.",
+  "explain_ru": "Причастие от prodati — prodat; для karte (ж. р. мн. ч.) — prodate.",
+  "id": "g006"
+ },
+ {
+  "kind": "form",
+  "text": "Svi gledaoci su bili ___ predstavom i dugo su aplaudirali.",
+  "answer": [
+   "oduševljeni",
+   "одушевљени"
+  ],
+  "lemma": "oduševiti",
+  "tr_en": "All the spectators were thrilled by the play and applauded for a long time.",
+  "tr_ru": "Все зрители были в восторге от спектакля и долго аплодировали.",
+  "explain_en": "Oduševiti forms the participle oduševljen (v → vlj); plural oduševljeni.",
+  "explain_ru": "Oduševiti → oduševljen (v → vlj); мн. ч. oduševljeni. Сербский: predstavom (творительный), русский: «от спектакля».",
+  "id": "g007"
+ },
+ {
+  "kind": "form",
+  "text": "___ kući, srela sam staru drugaricu iz škole.",
+  "answer": [
+   "Idući",
+   "Идући"
+  ],
+  "lemma": "ići",
+  "tr_en": "While walking home, I met an old school friend.",
+  "tr_ru": "Идя домой, я встретила старую школьную подругу.",
+  "explain_en": "Present gerund of ići: idući (3rd plural idu + -ći).",
+  "explain_ru": "Деепричастие настоящего времени: idu + -ći = idući.",
+  "id": "g008"
+ },
+ {
+  "kind": "form",
+  "text": "___ pismo, baka je počela da plače.",
+  "answer": [
+   "Pročitavši",
+   "Прочитавши"
+  ],
+  "lemma": "pročitati",
+  "tr_en": "Having read the letter, Grandma began to cry.",
+  "tr_ru": "Прочитав письмо, бабушка заплакала.",
+  "explain_en": "Past gerund of a perfective verb: pročita- + -vši.",
+  "explain_ru": "Деепричастие прошедшего времени: pročitavši (ср. «прочитав»).",
+  "id": "g009"
+ },
+ {
+  "kind": "form",
+  "text": "Nikad ne pričaj ___, to je nepristojno!",
+  "answer": [
+   "jedući",
+   "једући"
+  ],
+  "lemma": "jesti",
+  "tr_en": "Never talk while eating, it's rude!",
+  "tr_ru": "Никогда не разговаривай во время еды, это невежливо!",
+  "explain_en": "Present gerund of jesti: jedu + -ći = jedući.",
+  "explain_ru": "Деепричастие от jesti: jedu + -ći = jedući.",
+  "id": "g010"
+ },
+ {
+  "kind": "form",
+  "text": "___ je zabranjeno u svim zatvorenim prostorijama.",
+  "answer": [
+   "Pušenje",
+   "Пушење"
+  ],
+  "lemma": "pušiti",
+  "tr_en": "Smoking is forbidden in all indoor spaces.",
+  "tr_ru": "Курение запрещено во всех закрытых помещениях.",
+  "explain_en": "The verbal noun is formed from the passive participle stem + -nje: pušenje.",
+  "explain_ru": "Отглагольное существительное: pušen- + -je = pušenje.",
+  "id": "g011"
+ },
+ {
+  "kind": "form",
+  "text": "Sve što radi, radi sa mnogo ___.",
+  "answer": [
+   "ljubavi",
+   "љубави"
+  ],
+  "lemma": "ljubav",
+  "tr_en": "Everything she does, she does with a lot of love.",
+  "tr_ru": "Всё, что она делает, она делает с большой любовью.",
+  "explain_en": "After mnogo the noun is in the genitive: ljubavi.",
+  "explain_ru": "После mnogo — родительный: ljubavi.",
+  "id": "g012"
+ },
+ {
+  "kind": "form",
+  "text": "Prihvatio je poziv s velikom ___ i odmah se spakovao.",
+  "answer": [
+   "radošću",
+   "radosti",
+   "радошћу",
+   "радости"
+  ],
+  "lemma": "radost",
+  "tr_en": "He accepted the invitation with great joy and packed his bags right away.",
+  "tr_ru": "Он принял приглашение с большой радостью и сразу собрал вещи.",
+  "explain_en": "Feminine nouns in a consonant have the instrumental -i or -ju with a sound change: radošću (s + j = š, t + j = ć).",
+  "explain_ru": "Существительные ж. р. на согласный в творительном: radošću (st + j = šć) или radosti.",
+  "id": "g013"
+ },
+ {
+  "kind": "form",
+  "text": "Svi ga zovu samo ___, niko ne zna njegovo prezime.",
+  "answer": [
+   "imenom",
+   "именом"
+  ],
+  "lemma": "ime",
+  "tr_en": "Everyone calls him only by his first name, nobody knows his surname.",
+  "tr_ru": "Все называют его только по имени, никто не знает его фамилию.",
+  "explain_en": "Ime has an expanded stem imen-; instrumental imenom.",
+  "explain_ru": "У ime наращение -en-: творительный imenom.",
+  "id": "g014"
+ },
+ {
+  "kind": "form",
+  "text": "Kupio sam igračku ___ moje sestre za rođendan.",
+  "answer": [
+   "detetu",
+   "детету"
+  ],
+  "lemma": "dete",
+  "tr_en": "I bought a toy for my sister's child for its birthday.",
+  "tr_ru": "Я купил игрушку ребёнку моей сестры на день рождения.",
+  "explain_en": "Dete has an expanded stem detet-; dative detetu.",
+  "explain_ru": "У dete наращение -et-: дательный detetu.",
+  "id": "g015"
+ },
+ {
+  "kind": "form",
+  "text": "Dame i ___, dobro došli na naš festival!",
+  "answer": [
+   "gospodo",
+   "господо"
+  ],
+  "lemma": "gospodin",
+  "tr_en": "Ladies and gentlemen, welcome to our festival!",
+  "tr_ru": "Дамы и господа, добро пожаловать на наш фестиваль!",
+  "explain_en": "The plural of gospodin is the collective gospoda; in the vocative gospodo.",
+  "explain_ru": "Мн. ч. от gospodin — собирательное gospoda; звательный gospodo.",
+  "id": "g016"
+ },
+ {
+  "kind": "form",
+  "text": "Muzika je bila toliko glasna da mi je još uvek zvonilo u ___.",
+  "answer": [
+   "ušima",
+   "ушима"
+  ],
+  "lemma": "uho",
+  "tr_en": "The music was so loud that my ears were still ringing.",
+  "tr_ru": "Музыка была такой громкой, что у меня всё ещё звенело в ушах.",
+  "explain_en": "Uho has the irregular plural uši; locative plural ušima.",
+  "explain_ru": "У uho нерегулярное мн. ч. uši; локатив мн. ч. ušima.",
+  "id": "g017"
+ },
+ {
+  "kind": "form",
+  "text": "Kad sam ga video posle dvadeset godina, nisam mogao da verujem svojim ___.",
+  "answer": [
+   "očima",
+   "очима"
+  ],
+  "lemma": "oko",
+  "tr_en": "When I saw him after twenty years, I couldn't believe my eyes.",
+  "tr_ru": "Когда я увидел его через двадцать лет, я не мог поверить своим глазам.",
+  "explain_en": "Verovati takes the dative; oči has the dative plural očima.",
+  "explain_ru": "Verovati + дательный; oči → očima.",
+  "id": "g018"
+ },
+ {
+  "kind": "form",
+  "text": "Ivo Andrić je jedan od najpoznatijih srpskih ___.",
+  "answer": [
+   "pisaca",
+   "писаца"
+  ],
+  "lemma": "pisac",
+  "tr_en": "Ivo Andrić is one of the best-known Serbian writers.",
+  "tr_ru": "Иво Андрич — один из самых известных сербских писателей.",
+  "explain_en": "Jedan od + genitive plural; pisac keeps the a and adds -a: pisaca.",
+  "explain_ru": "Jedan od + родительный мн. ч.: pisaca (беглое a сохраняется).",
+  "id": "g019"
+ },
+ {
+  "kind": "form",
+  "text": "Na suđenju su govorila tri ___ i svi su rekli isto.",
+  "answer": [
+   "svedoka",
+   "сведока"
+  ],
+  "lemma": "svedok",
+  "tr_en": "Three witnesses spoke at the trial and they all said the same thing.",
+  "tr_ru": "На суде выступили три свидетеля, и все сказали одно и то же.",
+  "explain_en": "After tri: genitive singular (paucal) svedoka; note the verb in -a.",
+  "explain_ru": "После tri — svedoka; глагол стоит в форме на -a (govorila).",
+  "id": "g020"
+ },
+ {
+  "kind": "form",
+  "text": "Dva policajca su ___ lopova na izlazu iz banke.",
+  "answer": [
+   "uhapsila",
+   "ухапсила"
+  ],
+  "lemma": "uhapsiti",
+  "tr_en": "Two police officers arrested the thief at the bank exit.",
+  "tr_ru": "Два полицейских арестовали вора на выходе из банка.",
+  "explain_en": "With dva + masculine noun the participle takes the ending -a: uhapsila.",
+  "explain_ru": "С dva + существительное м. р. причастие на -a: uhapsila (в русском — мн. ч.).",
+  "id": "g021"
+ },
+ {
+  "kind": "form",
+  "text": "U zatvoru su dva ___ lopova pobegla iz ćelije.",
+  "answer": [
+   "opasna",
+   "опасна"
+  ],
+  "lemma": "opasan",
+  "tr_en": "In the prison two dangerous thieves escaped from their cell.",
+  "tr_ru": "В тюрьме два опасных вора сбежали из камеры.",
+  "explain_en": "Adjectives after dva with masculine nouns end in -a (paucal): opasna.",
+  "explain_ru": "Прилагательные после dva с сущ. м. р. на -a: opasna (в русском — род. мн.: «опасных»).",
+  "id": "g022"
+ },
+ {
+  "kind": "form",
+  "text": "Komšije imaju ___ dece: sina i ćerku.",
+  "answer": [
+   "dvoje",
+   "двоје"
+  ],
+  "lemma": "dva",
+  "tr_en": "The neighbours have two children: a son and a daughter.",
+  "tr_ru": "У соседей двое детей: сын и дочь.",
+  "explain_en": "Deca is counted with collective numerals: dvoje dece.",
+  "explain_ru": "Deca считают собирательными: dvoje dece (как «двое детей»).",
+  "id": "g023"
+ },
+ {
+  "kind": "form",
+  "text": "Juče su ___ mojih kolega dobila otkaz.",
+  "answer": [
+   "dvojica",
+   "двојица"
+  ],
+  "lemma": "dva",
+  "tr_en": "Yesterday two of my (male) colleagues were fired.",
+  "tr_ru": "Вчера двоих моих коллег уволили.",
+  "explain_en": "Dvojica counts groups of men; it takes the genitive plural and a verb in -a.",
+  "explain_ru": "Dvojica — для двух мужчин; + родительный мн. ч., глагол на -a.",
+  "id": "g024"
+ },
+ {
+  "kind": "form",
+  "text": "Upoznala sam brata ___ najboljeg prijatelja.",
+  "answer": [
+   "mog",
+   "mojeg",
+   "мог",
+   "мојег"
+  ],
+  "lemma": "moj",
+  "tr_en": "I met my best friend's brother.",
+  "tr_ru": "Я познакомилась с братом моего лучшего друга.",
+  "explain_en": "Genitive masculine of moj: mog (or mojeg).",
+  "explain_ru": "Родительный м. р. от moj: mog (или mojeg).",
+  "id": "g025"
+ },
+ {
+  "kind": "form",
+  "text": "Dao sam svoj stari telefon ___ bratu.",
+  "answer": [
+   "starijem",
+   "старијем"
+  ],
+  "lemma": "star",
+  "tr_en": "I gave my old phone to my older brother.",
+  "tr_ru": "Я отдал свой старый телефон старшему брату.",
+  "explain_en": "Comparative stariji declines like an adjective; dative masculine starijem.",
+  "explain_ru": "Сравнительная степень склоняется: дательный м. р. starijem.",
+  "id": "g026"
+ },
+ {
+  "kind": "form",
+  "text": "U ___ kući ste spavali kad ste bili na selu?",
+  "answer": [
+   "čijoj",
+   "чијој"
+  ],
+  "lemma": "čiji",
+  "tr_en": "In whose house did you sleep when you were in the countryside?",
+  "tr_ru": "В чьём доме вы спали, когда были в деревне?",
+  "explain_en": "Čiji agrees with kuća: locative feminine čijoj.",
+  "explain_ru": "Čiji согласуется с kuća: локатив ж. р. čijoj (ср. «в чьём доме» — в русском м. р.).",
+  "id": "g027"
+ },
+ {
+  "kind": "form",
+  "text": "Devojka sa ___ se zabavlja moj brat studira medicinu.",
+  "answer": [
+   "kojom",
+   "којом"
+  ],
+  "lemma": "koji",
+  "tr_en": "The girl my brother is dating studies medicine.",
+  "tr_ru": "Девушка, с которой встречается мой брат, учится на медицинском.",
+  "explain_en": "Koji takes gender from devojka and case from sa: kojom.",
+  "explain_ru": "Koji берёт род от devojka, а падеж — от sa: kojom.",
+  "id": "g028"
+ },
+ {
+  "kind": "form",
+  "text": "Kad smo ___ iz bioskopa, napolju je padala kiša.",
+  "answer": [
+   "izašli",
+   "изашли"
+  ],
+  "lemma": "izaći",
+  "tr_en": "When we came out of the cinema, it was raining outside.",
+  "tr_ru": "Когда мы вышли из кинотеатра, на улице шёл дождь.",
+  "explain_en": "Izaći has the participle izašao, izašli.",
+  "explain_ru": "Причастие от izaći: izašao, izašli.",
+  "id": "g029"
+ },
+ {
+  "kind": "form",
+  "text": "Moj otac svakog jutra ___ iz kuće tačno u sedam.",
+  "answer": [
+   "izlazi",
+   "излази"
+  ],
+  "lemma": "izaći",
+  "tr_en": "Every morning my father leaves the house at exactly seven.",
+  "tr_ru": "Каждое утро мой отец выходит из дома ровно в семь.",
+  "explain_en": "Habitual actions need the imperfective partner izlaziti: izlazi.",
+  "explain_ru": "Повторяющееся действие — несовершенный вид izlaziti: izlazi.",
+  "id": "g030"
+ },
+ {
+  "kind": "form",
+  "text": "Javi mi se čim ___ u hotel.",
+  "answer": [
+   "stigneš",
+   "стигнеш"
+  ],
+  "lemma": "stići",
+  "tr_en": "Let me know as soon as you arrive at the hotel.",
+  "tr_ru": "Дай мне знать, как только приедешь в отель.",
+  "explain_en": "After čim the perfective present is used: stignem, stigneš.",
+  "explain_ru": "После čim — настоящее время совершенного вида: stigneš.",
+  "id": "g031"
+ },
+ {
+  "kind": "form",
+  "text": "Petar je na slavu ___ svoju novu devojku.",
+  "answer": [
+   "doveo",
+   "довео"
+  ],
+  "lemma": "dovesti",
+  "tr_en": "Petar brought his new girlfriend to the slava.",
+  "tr_ru": "Петар привёл свою новую девушку на славу.",
+  "explain_en": "Dovesti (bring a person) has the participle doveo; doneti is for things.",
+  "explain_ru": "Dovesti («привести» человека) — doveo; doneti — для вещей.",
+  "id": "g032"
+ },
+ {
+  "kind": "form",
+  "text": "Da sam ___ da si bolestan, posetio bih te.",
+  "answer": [
+   "znao",
+   "знао"
+  ],
+  "lemma": "znati",
+  "tr_en": "If I had known you were ill, I would have visited you.",
+  "tr_ru": "Если бы я знал, что ты болен, я бы тебя навестил.",
+  "explain_en": "Unreal past condition: da + perfekat (znao sam → da sam znao).",
+  "explain_ru": "Нереальное условие в прошлом: da + перфект.",
+  "id": "g033"
+ },
+ {
+  "kind": "form",
+  "text": "Moram da ___ ovaj izveštaj do pet, šef ga čeka.",
+  "answer": [
+   "završim",
+   "завршим"
+  ],
+  "lemma": "završavati",
+  "tr_en": "I have to finish this report by five, the boss is waiting for it.",
+  "tr_ru": "Мне надо закончить этот отчёт к пяти, шеф его ждёт.",
+  "explain_en": "A single completed result needs the perfective: završiti → završim.",
+  "explain_ru": "Однократный результат — совершенный вид: završim.",
+  "id": "g034"
+ },
+ {
+  "kind": "form",
+  "text": "Ne mogu da se koncentrišem, baš mi se ___.",
+  "answer": [
+   "spava",
+   "спава"
+  ],
+  "lemma": "spavati",
+  "tr_en": "I can't concentrate, I'm really sleepy.",
+  "tr_ru": "Не могу сосредоточиться, мне очень хочется спать.",
+  "explain_en": "Impersonal dative construction: spava mi se (3rd person singular).",
+  "explain_ru": "Безличная конструкция: spava mi se — «мне хочется спать».",
+  "id": "g035"
+ },
+ {
+  "kind": "form",
+  "text": "Ona se ___ svakoj mojoj šali, čak i kad nije smešna.",
+  "answer": [
+   "smeje",
+   "смеје"
+  ],
+  "lemma": "smejati se",
+  "tr_en": "She laughs at every one of my jokes, even when it isn't funny.",
+  "tr_ru": "Она смеётся над каждой моей шуткой, даже когда та не смешная.",
+  "explain_en": "Smejati se: smejem se, smeje se; it takes the dative (šali).",
+  "explain_ru": "Smejati se: smeje se; + дательный (šali), без предлога «над».",
+  "id": "g036"
+ },
+ {
+  "kind": "form",
+  "text": "Mnoge životinjske vrste su ___ zbog ljudi.",
+  "answer": [
+   "izumrle",
+   "изумрле"
+  ],
+  "lemma": "izumreti",
+  "tr_en": "Many animal species have died out because of humans.",
+  "tr_ru": "Многие виды животных вымерли из-за людей.",
+  "explain_en": "Izumreti has the participle izumro, izumrla; feminine plural for vrste: izumrle.",
+  "explain_ru": "Причастие от izumreti: izumro, izumrla; для vrste (ж. р. мн. ч.) — izumrle.",
+  "id": "g037"
+ },
+ {
+  "kind": "form",
+  "text": "Pre nego što krenemo, moram da ___ sve prozore.",
+  "answer": [
+   "zatvorim",
+   "затворим"
+  ],
+  "lemma": "zatvarati",
+  "tr_en": "Before we leave, I have to close all the windows.",
+  "tr_ru": "Прежде чем мы уйдём, мне надо закрыть все окна.",
+  "explain_en": "A single completed action: perfective zatvoriti → zatvorim.",
+  "explain_ru": "Однократное действие — совершенный вид: zatvorim.",
+  "id": "g038"
+ },
+ {
+  "kind": "form",
+  "text": "U Rimu smo za tri dana ___ sve važne muzeje.",
+  "answer": [
+   "obišli",
+   "обишли"
+  ],
+  "lemma": "obići",
+  "tr_en": "In Rome we visited all the important museums in three days.",
+  "tr_ru": "В Риме за три дня мы обошли все важные музеи.",
+  "explain_en": "Obići has the participle obišao, obišli.",
+  "explain_ru": "Причастие от obići: obišao, obišli.",
+  "id": "g039"
+ },
+ {
+  "kind": "form",
+  "text": "Ne volim da vozim ___, slabo vidim u mraku.",
+  "answer": [
+   "noću",
+   "ноћу"
+  ],
+  "lemma": "noć",
+  "tr_en": "I don't like driving at night, I don't see well in the dark.",
+  "tr_ru": "Я не люблю водить ночью, плохо вижу в темноте.",
+  "explain_en": "The instrumental noću is used as an adverb meaning 'at night'.",
+  "explain_ru": "Творительный noću работает как наречие «ночью».",
+  "id": "g040"
+ },
+ {
+  "kind": "word",
+  "text": "Koliko dugo se ___ sa Markom? — Već dve godine.",
+  "answer": [
+   "zabavljaš",
+   "забављаш"
+  ],
+  "ref": "zabavljati se",
+  "clue_en": "go out with, date",
+  "clue_ru": "встречаться (с кем-либо)",
+  "tr_en": "How long have you been going out with Marko? — Two years already.",
+  "tr_ru": "Как долго ты встречаешься с Марко? — Уже два года.",
+  "explain_en": "Zabavljati se sa nekim means 'to date someone'.",
+  "explain_ru": "Zabavljati se sa — «встречаться», а не «забавляться».",
+  "id": "g041"
+ },
+ {
+  "kind": "word",
+  "text": "Posle pet godina veze Ana i Petar su ___ prošlog meseca.",
+  "answer": [
+   "raskinuli",
+   "раскинули"
+  ],
+  "ref": "raskinuti",
+  "clue_en": "break up",
+  "clue_ru": "расстаться",
+  "tr_en": "After five years together, Ana and Petar broke up last month.",
+  "tr_ru": "После пяти лет отношений Ана и Петар расстались в прошлом месяце.",
+  "explain_en": "Raskinuti means 'to break up' (a relationship).",
+  "explain_ru": "Raskinuti — «расстаться» (о паре).",
+  "id": "g042"
+ },
+ {
+  "kind": "word",
+  "text": "Moja sestra se prošlog leta ___ za jednog Italijana.",
+  "answer": [
+   "udala",
+   "удала"
+  ],
+  "ref": "udati se",
+  "clue_en": "marry (of a woman)",
+  "clue_ru": "выйти замуж",
+  "tr_en": "Last summer my sister married an Italian.",
+  "tr_ru": "Прошлым летом моя сестра вышла замуж за итальянца.",
+  "explain_en": "A woman udaje se za nekoga; a man ženi se.",
+  "explain_ru": "О женщине — udati se za (как «выйти замуж за»), о мужчине — oženiti se.",
+  "id": "g043"
+ },
+ {
+  "kind": "word",
+  "text": "Majka moga muža, moja ___, živi sa nama.",
+  "answer": [
+   "svekrva",
+   "свекрва"
+  ],
+  "ref": "svekrva",
+  "clue_en": "husband's mother",
+  "clue_ru": "свекровь",
+  "tr_en": "My husband's mother, my mother-in-law, lives with us.",
+  "tr_ru": "Мать моего мужа, моя свекровь, живёт с нами.",
+  "explain_en": "Svekrva is the husband's mother; tašta is the wife's mother.",
+  "explain_ru": "Svekrva — свекровь; tašta — тёща.",
+  "id": "g044"
+ },
+ {
+  "kind": "word",
+  "text": "Petar se nikako ne slaže sa ___, majkom svoje žene.",
+  "answer": [
+   "taštom",
+   "таштом"
+  ],
+  "ref": "tašta",
+  "clue_en": "wife's mother",
+  "clue_ru": "тёща",
+  "tr_en": "Petar just doesn't get on with his mother-in-law, his wife's mother.",
+  "tr_ru": "Петар никак не ладит с тёщей, матерью своей жены.",
+  "explain_en": "Tašta is the wife's mother; instrumental after sa: taštom.",
+  "explain_ru": "Tašta — тёща; sa + творительный: taštom.",
+  "id": "g045"
+ },
+ {
+  "kind": "word",
+  "text": "Ne volim ljude koji ___ druge iza leđa.",
+  "answer": [
+   "ogovaraju",
+   "оговарају"
+  ],
+  "ref": "ogovarati",
+  "clue_en": "gossip about",
+  "clue_ru": "сплетничать о",
+  "tr_en": "I don't like people who gossip about others behind their backs.",
+  "tr_ru": "Не люблю людей, которые сплетничают о других за спиной.",
+  "explain_en": "Ogovarati nekoga takes a direct object: to badmouth someone.",
+  "explain_ru": "Ogovarati + винительный, без предлога: ogovarati druge.",
+  "id": "g046"
+ },
+ {
+  "kind": "word",
+  "text": "Toliko je ___ da nikad ne časti ni kafom.",
+  "answer": [
+   "škrt",
+   "шкрт"
+  ],
+  "ref": "škrt",
+  "clue_en": "stingy",
+  "clue_ru": "скупой",
+  "tr_en": "He is so stingy that he never even treats anyone to a coffee.",
+  "tr_ru": "Он такой скупой, что никогда не угостит даже кофе.",
+  "explain_en": "Škrt means 'stingy'.",
+  "explain_ru": "«Скупой» — škrt; а skup значит «дорогой».",
+  "id": "g047"
+ },
+ {
+  "kind": "word",
+  "text": "Sine, budi ___ i pozdravi gospođu!",
+  "answer": [
+   "pristojan",
+   "пристојан"
+  ],
+  "ref": "pristojan",
+  "clue_en": "polite, well-mannered",
+  "clue_ru": "вежливый, воспитанный",
+  "tr_en": "Son, be polite and say hello to the lady!",
+  "tr_ru": "Сынок, будь вежливым и поздоровайся с госпожой!",
+  "explain_en": "Pristojan means 'polite, decent'.",
+  "explain_ru": "Pristojan — «вежливый, воспитанный».",
+  "id": "g048"
+ },
+ {
+  "kind": "word",
+  "text": "Mačke su veoma ___ životinje, sve moraju da pomirišu.",
+  "answer": [
+   "radoznale",
+   "радознале"
+  ],
+  "ref": "radoznao",
+  "clue_en": "curious",
+  "clue_ru": "любопытный",
+  "tr_en": "Cats are very curious animals, they have to sniff everything.",
+  "tr_ru": "Кошки очень любопытные животные, им всё надо обнюхать.",
+  "explain_en": "Radoznao means 'curious'; feminine plural radoznale.",
+  "explain_ru": "Radoznao — «любопытный»; ж. р. мн. ч. radoznale.",
+  "id": "g049"
+ },
+ {
+  "kind": "word",
+  "text": "Moj brat je ___ i retko izlazi sa društvom.",
+  "answer": [
+   "povučen",
+   "повучен"
+  ],
+  "ref": "povučen",
+  "clue_en": "reserved, withdrawn",
+  "clue_ru": "замкнутый",
+  "tr_en": "My brother is reserved and rarely goes out with friends.",
+  "tr_ru": "Мой брат замкнутый и редко выходит с друзьями.",
+  "explain_en": "Povučen means 'reserved, introverted'.",
+  "explain_ru": "Povučen — «замкнутый, сдержанный».",
+  "id": "g050"
+ },
+ {
+  "kind": "word",
+  "text": "Mnogo mi ___, kad se vraćaš iz Kanade?",
+  "answer": [
+   "nedostaješ",
+   "недостајеш"
+  ],
+  "ref": "nedostajati",
+  "clue_en": "be missed",
+  "clue_ru": "не хватать (о человеке)",
+  "tr_en": "I miss you a lot, when are you coming back from Canada?",
+  "tr_ru": "Мне тебя очень не хватает, когда ты вернёшься из Канады?",
+  "explain_en": "Nedostajati: the person missed is the subject, the one who misses is in the dative.",
+  "explain_ru": "Nedostajati: тот, по кому скучают, — подлежащее (ti nedostaješ), кто скучает — в дательном.",
+  "id": "g051"
+ },
+ {
+  "kind": "word",
+  "text": "Svi mu ___ na novom poslu i velikoj plati.",
+  "answer": [
+   "zavide",
+   "завиде"
+  ],
+  "ref": "zavideti",
+  "clue_en": "envy",
+  "clue_ru": "завидовать",
+  "tr_en": "Everyone envies him his new job and big salary.",
+  "tr_ru": "Все завидуют его новой работе и большой зарплате.",
+  "explain_en": "Zavideti nekome na nečemu: envy someone something.",
+  "explain_ru": "Zavideti nekome na nečemu — «завидовать кому-то в чём-то».",
+  "id": "g052"
+ },
+ {
+  "kind": "word",
+  "text": "___ u kupatilu curi već nedelju dana.",
+  "answer": [
+   "Slavina",
+   "Славина"
+  ],
+  "ref": "slavina",
+  "clue_en": "tap, faucet",
+  "clue_ru": "кран (водопроводный)",
+  "tr_en": "The tap in the bathroom has been dripping for a week.",
+  "tr_ru": "Кран в ванной течёт уже неделю.",
+  "explain_en": "Slavina is a water tap.",
+  "explain_ru": "«Кран» — slavina (ж. р.).",
+  "id": "g053"
+ },
+ {
+  "kind": "word",
+  "text": "Treba mi čekić i jedan ___ da okačim sliku.",
+  "answer": [
+   "ekser",
+   "ексер"
+  ],
+  "ref": "ekser",
+  "clue_en": "nail",
+  "clue_ru": "гвоздь",
+  "tr_en": "I need a hammer and a nail to hang the picture.",
+  "tr_ru": "Мне нужны молоток и гвоздь, чтобы повесить картину.",
+  "explain_en": "Ekser is a nail.",
+  "explain_ru": "«Гвоздь» — ekser.",
+  "id": "g054"
+ },
+ {
+  "kind": "word",
+  "text": "Popni se na ___ i promeni sijalicu.",
+  "answer": [
+   "merdevine",
+   "мердевине"
+  ],
+  "ref": "merdevine",
+  "clue_en": "stepladder",
+  "clue_ru": "стремянка",
+  "tr_en": "Climb up the stepladder and change the bulb.",
+  "tr_ru": "Залезь на стремянку и поменяй лампочку.",
+  "explain_en": "Merdevine is a plural-only noun for a ladder.",
+  "explain_ru": "Merdevine — «стремянка, лестница», только во мн. ч.",
+  "id": "g055"
+ },
+ {
+  "kind": "word",
+  "text": "Majstor je konačno našao ___ na veš mašini.",
+  "answer": [
+   "kvar",
+   "квар"
+  ],
+  "ref": "kvar",
+  "clue_en": "fault, breakdown",
+  "clue_ru": "поломка",
+  "tr_en": "The repairman finally found the fault in the washing machine.",
+  "tr_ru": "Мастер наконец нашёл поломку в стиральной машине.",
+  "explain_en": "Kvar is a technical fault.",
+  "explain_ru": "«Поломка» — kvar.",
+  "id": "g056"
+ },
+ {
+  "kind": "word",
+  "text": "Ovaj hleb je ___, kupljen je pre tri dana.",
+  "answer": [
+   "bajat",
+   "бајат"
+  ],
+  "ref": "bajat",
+  "clue_en": "stale",
+  "clue_ru": "чёрствый",
+  "tr_en": "This bread is stale, it was bought three days ago.",
+  "tr_ru": "Этот хлеб чёрствый, его купили три дня назад.",
+  "explain_en": "Bajat means 'stale'.",
+  "explain_ru": "«Чёрствый» — bajat.",
+  "id": "g057"
+ },
+ {
+  "kind": "word",
+  "text": "Moramo hitno da predamo izveštaj, ___ je u petak.",
+  "answer": [
+   "rok",
+   "рок"
+  ],
+  "ref": "rok",
+  "clue_en": "deadline",
+  "clue_ru": "срок",
+  "tr_en": "We urgently need to submit the report, the deadline is on Friday.",
+  "tr_ru": "Нам срочно надо сдать отчёт, срок — в пятницу.",
+  "explain_en": "Rok is a deadline or time limit.",
+  "explain_ru": "Rok — «срок», а не «рок».",
+  "id": "g058"
+ },
+ {
+  "kind": "word",
+  "text": "Ana je na dijeti mesec dana i već je ___ pet kila.",
+  "answer": [
+   "smršala",
+   "смршала"
+  ],
+  "ref": "smršati",
+  "clue_en": "lose weight",
+  "clue_ru": "похудеть",
+  "tr_en": "Ana has been on a diet for a month and has already lost five kilos.",
+  "tr_ru": "Ана на диете месяц и уже похудела на пять килограммов.",
+  "explain_en": "Smršati means 'to lose weight'; it takes a direct object (pet kila).",
+  "explain_ru": "Smršati — «похудеть»; в сербском без предлога: smršala je pet kila.",
+  "id": "g059"
+ },
+ {
+  "kind": "word",
+  "text": "Konačno sam se ___, spavala sam deset sati.",
+  "answer": [
+   "naspavala",
+   "наспавала"
+  ],
+  "ref": "naspavati se",
+  "clue_en": "get enough sleep",
+  "clue_ru": "выспаться",
+  "tr_en": "I finally got enough sleep, I slept for ten hours.",
+  "tr_ru": "Я наконец выспалась, спала десять часов.",
+  "explain_en": "Naspavati se means 'to get enough sleep'.",
+  "explain_ru": "Naspavati se — «выспаться»; ж. р. от spavala.",
+  "id": "g060"
+ },
+ {
+  "kind": "word",
+  "text": "Pijem čaj od kamilice jer patim od ___.",
+  "answer": [
+   "nesanice",
+   "несанице"
+  ],
+  "ref": "nesanica",
+  "clue_en": "insomnia",
+  "clue_ru": "бессонница",
+  "tr_en": "I drink chamomile tea because I suffer from insomnia.",
+  "tr_ru": "Я пью ромашковый чай, потому что страдаю бессонницей.",
+  "explain_en": "Patiti od + genitive: nesanice.",
+  "explain_ru": "Patiti od + родительный: nesanice (в русском — творительный).",
+  "id": "g061"
+ },
+ {
+  "kind": "word",
+  "text": "Bilo je toliko vruće da se jedna devojka u redu ___.",
+  "answer": [
+   "onesvestila",
+   "онесвестила"
+  ],
+  "ref": "onesvestiti se",
+  "clue_en": "faint",
+  "clue_ru": "потерять сознание",
+  "tr_en": "It was so hot that a girl in the queue fainted.",
+  "tr_ru": "Было так жарко, что одна девушка в очереди потеряла сознание.",
+  "explain_en": "Onesvestiti se means 'to faint'.",
+  "explain_ru": "Onesvestiti se — «упасть в обморок».",
+  "id": "g062"
+ },
+ {
+  "kind": "word",
+  "text": "Za pregled kod specijaliste treba vam ___ od lekara opšte prakse.",
+  "answer": [
+   "uputnica",
+   "упутница"
+  ],
+  "ref": "uputnica",
+  "clue_en": "referral (medical)",
+  "clue_ru": "направление (к врачу)",
+  "tr_en": "For an appointment with a specialist you need a referral from your GP.",
+  "tr_ru": "Для приёма у специалиста вам нужно направление от терапевта.",
+  "explain_en": "Uputnica is a medical referral.",
+  "explain_ru": "«Направление» к врачу — uputnica.",
+  "id": "g063"
+ },
+ {
+  "kind": "word",
+  "text": "Na ostrvo idemo ___, mosta nema.",
+  "answer": [
+   "trajektom",
+   "трајектом"
+  ],
+  "ref": "trajekt",
+  "clue_en": "ferry",
+  "clue_ru": "паром",
+  "tr_en": "We're going to the island by ferry, there's no bridge.",
+  "tr_ru": "На остров мы едем на пароме, моста нет.",
+  "explain_en": "Means of transport: instrumental trajektom.",
+  "explain_ru": "Средство передвижения — творительный: trajektom.",
+  "id": "g064"
+ },
+ {
+  "kind": "word",
+  "text": "Pas je istrčao na put i vozač je naglo pritisnuo ___.",
+  "answer": [
+   "kočnicu",
+   "кочницу"
+  ],
+  "ref": "kočnica",
+  "clue_en": "brake",
+  "clue_ru": "тормоз",
+  "tr_en": "A dog ran out onto the road and the driver hit the brake.",
+  "tr_ru": "Собака выбежала на дорогу, и водитель резко нажал на тормоз.",
+  "explain_en": "Kočnica is a brake; accusative kočnicu.",
+  "explain_ru": "«Тормоз» — kočnica (ж. р.).",
+  "id": "g065"
+ },
+ {
+  "kind": "word",
+  "text": "Zabranjeno je ___ na ovom delu puta, ima mnogo krivina.",
+  "answer": [
+   "preticati",
+   "претицати"
+  ],
+  "ref": "preticati",
+  "clue_en": "overtake",
+  "clue_ru": "обгонять",
+  "tr_en": "Overtaking is forbidden on this part of the road, there are many bends.",
+  "tr_ru": "Обгон на этом участке дороги запрещён, там много поворотов.",
+  "explain_en": "Preticati means 'to overtake'.",
+  "explain_ru": "Preticati — «обгонять».",
+  "id": "g066"
+ },
+ {
+  "kind": "word",
+  "text": "Šef mi je konačno dao ___ od deset posto.",
+  "answer": [
+   "povišicu",
+   "повишицу"
+  ],
+  "ref": "povišica",
+  "clue_en": "pay rise",
+  "clue_ru": "прибавка к зарплате",
+  "tr_en": "My boss finally gave me a ten percent pay rise.",
+  "tr_ru": "Шеф наконец дал мне прибавку в десять процентов.",
+  "explain_en": "Povišica is a pay rise; unapređenje is a promotion.",
+  "explain_ru": "Povišica — прибавка к зарплате; unapređenje — повышение в должности.",
+  "id": "g067"
+ },
+ {
+  "kind": "word",
+  "text": "Posle tri godine dobila je ___ i sada vodi celo odeljenje.",
+  "answer": [
+   "unapređenje",
+   "унапређење"
+  ],
+  "ref": "unapređenje",
+  "clue_en": "promotion",
+  "clue_ru": "повышение (по службе)",
+  "tr_en": "After three years she got a promotion and now runs the whole department.",
+  "tr_ru": "Через три года она получила повышение и теперь руководит всем отделом.",
+  "explain_en": "Unapređenje is a promotion to a higher position.",
+  "explain_ru": "Unapređenje — повышение в должности.",
+  "id": "g068"
+ },
+ {
+  "kind": "word",
+  "text": "Kolega je na ___ jer je slomio nogu.",
+  "answer": [
+   "bolovanju",
+   "боловању"
+  ],
+  "ref": "bolovanje",
+  "clue_en": "sick leave",
+  "clue_ru": "больничный",
+  "tr_en": "My colleague is on sick leave because he broke his leg.",
+  "tr_ru": "Коллега на больничном, потому что сломал ногу.",
+  "explain_en": "Biti na bolovanju means 'to be on sick leave'.",
+  "explain_ru": "«На больничном» — na bolovanju.",
+  "id": "g069"
+ },
+ {
+  "kind": "word",
+  "text": "Možeš li da mi ___ hiljadu dinara do petka?",
+  "answer": [
+   "pozajmiš",
+   "позајмиш"
+  ],
+  "ref": "pozajmiti",
+  "clue_en": "lend",
+  "clue_ru": "одолжить",
+  "tr_en": "Can you lend me a thousand dinars until Friday?",
+  "tr_ru": "Можешь одолжить мне тысячу динаров до пятницы?",
+  "explain_en": "Pozajmiti nekome means 'to lend to someone'.",
+  "explain_ru": "Pozajmiti — «одолжить».",
+  "id": "g070"
+ },
+ {
+  "kind": "word",
+  "text": "Koliko ti ___ za kartu? — Hiljadu dinara.",
+  "answer": [
+   "dugujem",
+   "дугујем"
+  ],
+  "ref": "dugovati",
+  "clue_en": "owe",
+  "clue_ru": "быть должным",
+  "tr_en": "How much do I owe you for the ticket? — A thousand dinars.",
+  "tr_ru": "Сколько я тебе должен за билет? — Тысячу динаров.",
+  "explain_en": "Dugovati: dugujem (-ovati → -ujem).",
+  "explain_ru": "Dugovati — «быть должным»; -ovati → -ujem.",
+  "id": "g071"
+ },
+ {
+  "kind": "word",
+  "text": "Banka traži visoku ___ na ovaj kredit.",
+  "answer": [
+   "kamatu",
+   "камату"
+  ],
+  "ref": "kamata",
+  "clue_en": "interest (rate)",
+  "clue_ru": "процент (по кредиту)",
+  "tr_en": "The bank charges high interest on this loan.",
+  "tr_ru": "Банк требует высокий процент по этому кредиту.",
+  "explain_en": "Kamata is interest on a loan.",
+  "explain_ru": "«Процент по кредиту» — kamata.",
+  "id": "g072"
+ },
+ {
+  "kind": "word",
+  "text": "Ove godine ne možemo sebi da ___ letovanje.",
+  "answer": [
+   "priuštimo",
+   "приуштимо"
+  ],
+  "ref": "priuštiti",
+  "clue_en": "afford",
+  "clue_ru": "позволить себе (финансово)",
+  "tr_en": "This year we can't afford a summer holiday.",
+  "tr_ru": "В этом году мы не можем позволить себе отпуск на море.",
+  "explain_en": "Priuštiti sebi means 'to afford'.",
+  "explain_ru": "Priuštiti sebi — «позволить себе» (по деньгам).",
+  "id": "g073"
+ },
+ {
+  "kind": "word",
+  "text": "Na buvljoj pijaci se svi ___ oko cene.",
+  "answer": [
+   "cenkaju",
+   "ценкају"
+  ],
+  "ref": "cenkati se",
+  "clue_en": "haggle",
+  "clue_ru": "торговаться",
+  "tr_en": "At the flea market everyone haggles over the price.",
+  "tr_ru": "На блошином рынке все торгуются из-за цены.",
+  "explain_en": "Cenkati se means 'to haggle'.",
+  "explain_ru": "Cenkati se — «торговаться».",
+  "id": "g074"
+ },
+ {
+  "kind": "word",
+  "text": "Profesor ga je uhvatio kako ___ od kolege na ispitu.",
+  "answer": [
+   "prepisuje",
+   "преписује"
+  ],
+  "ref": "prepisivati",
+  "clue_en": "copy, cheat (in exams)",
+  "clue_ru": "списывать",
+  "tr_en": "The teacher caught him copying from a classmate during the exam.",
+  "tr_ru": "Преподаватель поймал его, когда он списывал у однокурсника на экзамене.",
+  "explain_en": "Prepisivati: prepisujem; it means cheating by copying.",
+  "explain_ru": "Prepisivati — «списывать»; prepisuje.",
+  "id": "g075"
+ },
+ {
+  "kind": "word",
+  "text": "Njen profil na Instagramu ima više od sto hiljada ___.",
+  "answer": [
+   "pratilaca",
+   "пратилаца"
+  ],
+  "ref": "pratilac",
+  "clue_en": "follower",
+  "clue_ru": "подписчик",
+  "tr_en": "Her Instagram profile has more than a hundred thousand followers.",
+  "tr_ru": "У её профиля в Инстаграме больше ста тысяч подписчиков.",
+  "explain_en": "Pratilac keeps the a in the genitive plural: pratilaca.",
+  "explain_ru": "Pratilac — родительный мн. ч. pratilaca.",
+  "id": "g076"
+ },
+ {
+  "kind": "word",
+  "text": "Izveštaj vam šaljem u ___, javite mi ako ne može da se otvori.",
+  "answer": [
+   "prilogu",
+   "прилогу"
+  ],
+  "ref": "prilog",
+  "clue_en": "attachment",
+  "clue_ru": "вложение",
+  "tr_en": "I'm sending you the report as an attachment, let me know if it won't open.",
+  "tr_ru": "Отправляю вам отчёт во вложении, сообщите, если он не открывается.",
+  "explain_en": "U prilogu means 'attached, in the attachment'.",
+  "explain_ru": "U prilogu — «во вложении».",
+  "id": "g077"
+ },
+ {
+  "kind": "word",
+  "text": "Deda svako jutro čita ___ uz kafu.",
+  "answer": [
+   "novine",
+   "новине"
+  ],
+  "ref": "novine",
+  "clue_en": "newspaper",
+  "clue_ru": "газета",
+  "tr_en": "Every morning Grandpa reads the newspaper with his coffee.",
+  "tr_ru": "Дедушка каждое утро читает газету за кофе.",
+  "explain_en": "Novine is a plural-only noun meaning 'newspaper'.",
+  "explain_ru": "Novine — «газета» (только мн. ч.), не «новости» (vesti).",
+  "id": "g078"
+ },
+ {
+  "kind": "word",
+  "text": "Osuđen je na pet godina ___ zbog pljačke.",
+  "answer": [
+   "zatvora",
+   "затвора"
+  ],
+  "ref": "zatvor",
+  "clue_en": "prison",
+  "clue_ru": "тюрьма",
+  "tr_en": "He was sentenced to five years in prison for robbery.",
+  "tr_ru": "Его приговорили к пяти годам тюрьмы за ограбление.",
+  "explain_en": "Zatvor is prison; genitive zatvora after godina.",
+  "explain_ru": "Zatvor — «тюрьма», не «затвор».",
+  "id": "g079"
+ },
+ {
+  "kind": "word",
+  "text": "Nemoj nikad da ___ od svojih snova!",
+  "answer": [
+   "odustaneš",
+   "одустанеш"
+  ],
+  "ref": "odustati od",
+  "clue_en": "give up",
+  "clue_ru": "отказаться от",
+  "tr_en": "Never give up on your dreams!",
+  "tr_ru": "Никогда не отказывайся от своей мечты!",
+  "explain_en": "Odustati od nečega: to give up on something; present odustanem.",
+  "explain_ru": "Odustati od — «отказаться от»; настоящее время odustanem.",
+  "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "text": "___ budeš imao vremena sutra, svrati do mene.",
+  "answer": [
+   "Ako",
+   "Ако"
+  ],
+  "section": "conditional-and-conditional-sentences",
+  "tr_en": "If you have time tomorrow, drop by my place.",
+  "tr_ru": "Если у тебя будет время завтра, загляни ко мне.",
+  "explain_en": "A real condition about the future: ako + futur II.",
+  "explain_ru": "Реальное условие в будущем: ako + футур II.",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "text": "___ sam znala da dolaziš, napravila bih ručak.",
+  "answer": [
+   "Da",
+   "Да"
+  ],
+  "section": "conditional-and-conditional-sentences",
+  "tr_en": "If I had known you were coming, I would have made lunch.",
+  "tr_ru": "Если бы я знала, что ты придёшь, я бы приготовила обед.",
+  "explain_en": "Unreal past condition: da + perfekat.",
+  "explain_ru": "Нереальное условие в прошлом: da + перфект.",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "text": "Ana uči svaki dan da ___ položila prijemni ispit.",
+  "answer": [
+   "bi",
+   "би"
+  ],
+  "section": "conditional-and-conditional-sentences",
+  "tr_en": "Ana studies every day in order to pass the entrance exam.",
+  "tr_ru": "Ана занимается каждый день, чтобы сдать вступительный экзамен.",
+  "explain_en": "Purpose: da bi + participle (bi for 3rd person).",
+  "explain_ru": "Цель: da bi + причастие («чтобы»).",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "text": "Na tvom mestu, ja ___ prihvatio tu ponudu.",
+  "answer": [
+   "bih",
+   "бих"
+  ],
+  "section": "conditional-and-conditional-sentences",
+  "tr_en": "If I were you, I would accept that offer.",
+  "tr_ru": "На твоём месте я бы принял это предложение.",
+  "explain_en": "Advice with the potencijal: ja bih.",
+  "explain_ru": "Совет с потенциалом: ja bih.",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "text": "Ovo je čovek o ___ sam ti pričala.",
+  "answer": [
+   "kome",
+   "kojem",
+   "коме",
+   "којем"
+  ],
+  "section": "relative-clauses",
+  "tr_en": "This is the man I told you about.",
+  "tr_ru": "Это человек, о котором я тебе рассказывала.",
+  "explain_en": "Koji takes the case from the clause: o + locative kome/kojem.",
+  "explain_ru": "Koji берёт падеж из придаточного: o + локатив kome/kojem.",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "text": "Kuća u ___ smo živeli kao deca srušena je prošle godine.",
+  "answer": [
+   "kojoj",
+   "којој"
+  ],
+  "section": "relative-clauses",
+  "tr_en": "The house we lived in as children was demolished last year.",
+  "tr_ru": "Дом, в котором мы жили в детстве, снесли в прошлом году.",
+  "explain_en": "Kuća is feminine; u + locative: kojoj.",
+  "explain_ru": "Kuća — ж. р.; u + локатив: kojoj (в русском «в котором» — м. р.).",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "text": "Pisac ___ knjige čitam već godinama dolazi u naš grad.",
+  "answer": [
+   "čije",
+   "чије"
+  ],
+  "section": "relative-clauses",
+  "tr_en": "The writer whose books I've been reading for years is coming to our town.",
+  "tr_ru": "Писатель, чьи книги я читаю уже много лет, приезжает в наш город.",
+  "explain_en": "Čiji agrees with the possessed noun knjige: čije.",
+  "explain_ru": "Čiji согласуется с тем, чем владеют (knjige): čije.",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "text": "To je kolega ___ sam pozajmio novac i nikad mi ga nije vratio.",
+  "answer": [
+   "kome",
+   "kojem",
+   "коме",
+   "којем"
+  ],
+  "section": "relative-clauses",
+  "tr_en": "That's the colleague I lent money to who never paid me back.",
+  "tr_ru": "Это тот коллега, которому я одолжил деньги и который так и не вернул их.",
+  "explain_en": "Pozajmiti nekome takes the dative: kome/kojem.",
+  "explain_ru": "Pozajmiti nekome — дательный: kome/kojem.",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "text": "Nisam razumeo ništa od onoga ___ je rekao.",
+  "answer": [
+   "što",
+   "што"
+  ],
+  "section": "relative-clauses",
+  "tr_en": "I didn't understand anything of what he said.",
+  "tr_ru": "Я ничего не понял из того, что он сказал.",
+  "explain_en": "After onoga the relative word is što.",
+  "explain_ru": "После onoga — относительное što.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "text": "Pitao me je ___ li sam umoran od puta.",
+  "answer": [
+   "da",
+   "да"
+  ],
+  "section": "reported-speech-indirect-questions",
+  "tr_en": "He asked me whether I was tired from the trip.",
+  "tr_ru": "Он спросил меня, устал ли я с дороги.",
+  "explain_en": "Indirect yes/no questions use da li.",
+  "explain_ru": "Косвенный общий вопрос — da li («ли»).",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "text": "Zanima me ima ___ još slobodnih soba za vikend.",
+  "answer": [
+   "li",
+   "ли"
+  ],
+  "section": "reported-speech-indirect-questions",
+  "tr_en": "I'd like to know whether there are still free rooms for the weekend.",
+  "tr_ru": "Мне интересно, есть ли ещё свободные номера на выходные.",
+  "explain_en": "Indirect question: verb + li.",
+  "explain_ru": "Косвенный вопрос: глагол + li.",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "text": "Ne znam ___ je on, nikad ga ranije nisam video.",
+  "answer": [
+   "ko",
+   "ко"
+  ],
+  "section": "reported-speech-indirect-questions",
+  "tr_en": "I don't know who he is, I've never seen him before.",
+  "tr_ru": "Не знаю, кто он, никогда раньше его не видел.",
+  "explain_en": "Indirect wh-question with ko.",
+  "explain_ru": "Косвенный вопрос с ko.",
+  "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "text": "Čuo sam ___ komšija svako jutro peva pod tušem.",
+  "answer": [
+   "kako",
+   "како"
+  ],
+  "section": "reported-speech-indirect-questions",
+  "tr_en": "I've heard the neighbour singing in the shower every morning.",
+  "tr_ru": "Я слышал, как сосед каждое утро поёт в душе.",
+  "explain_en": "After verbs of perception kako introduces what is heard or seen.",
+  "explain_ru": "После глаголов восприятия — kako («как»).",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "text": "Baš mi je drago ___ si došao na moju proslavu.",
+  "answer": [
+   "što",
+   "што"
+  ],
+  "section": "reported-speech-indirect-questions",
+  "tr_en": "I'm really glad you came to my party.",
+  "tr_ru": "Я очень рад, что ты пришёл на мой праздник.",
+  "explain_en": "After expressions of feeling the conjunction is što, not da.",
+  "explain_ru": "После выражений чувства — što, а не da.",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "text": "Mama mi je rekla ___ kupim hleb i mleko.",
+  "answer": [
+   "da",
+   "да"
+  ],
+  "section": "reported-speech-indirect-questions",
+  "tr_en": "Mum told me to buy bread and milk.",
+  "tr_ru": "Мама сказала мне купить хлеб и молоко.",
+  "explain_en": "Reported commands: da + present.",
+  "explain_ru": "Косвенное повеление: da + настоящее время (в русском — инфинитив).",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "text": "Pitaj ga ___ tačno dolazi, u pet ili u šest.",
+  "answer": [
+   "kada",
+   "када"
+  ],
+  "section": "reported-speech-indirect-questions",
+  "tr_en": "Ask him when exactly he's coming, at five or at six.",
+  "tr_ru": "Спроси его, когда именно он придёт — в пять или в шесть.",
+  "explain_en": "Indirect question about time: kada.",
+  "explain_ru": "Косвенный вопрос о времени: kada.",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "text": "Izletela je ___ kuće bez jakne i kišobrana.",
+  "answer": [
+   "iz",
+   "из"
+  ],
+  "section": "verbs-of-motion-prefixes",
+  "tr_en": "She rushed out of the house without a jacket or umbrella.",
+  "tr_ru": "Она вылетела из дома без куртки и зонта.",
+  "explain_en": "Motion out of a place: iz + genitive.",
+  "explain_ru": "Движение изнутри наружу: iz + родительный.",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "text": "Skinula je knjigu ___ najviše police.",
+  "answer": [
+   "sa",
+   "s",
+   "са",
+   "с"
+  ],
+  "section": "verbs-of-motion-prefixes",
+  "tr_en": "She took the book down from the top shelf.",
+  "tr_ru": "Она сняла книгу с самой верхней полки.",
+  "explain_en": "Motion off a surface: sa (s) + genitive.",
+  "explain_ru": "Движение с поверхности: sa (s) + родительный.",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "text": "Prošli smo ___ šumu za manje od sat vremena.",
+  "answer": [
+   "kroz",
+   "кроз"
+  ],
+  "section": "verbs-of-motion-prefixes",
+  "tr_en": "We went through the forest in less than an hour.",
+  "tr_ru": "Мы прошли через лес меньше чем за час.",
+  "explain_en": "Through: kroz + accusative.",
+  "explain_ru": "«Через, сквозь» — kroz + винительный.",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "text": "Kreni ___ mnom, pokazaću ti put.",
+  "answer": [
+   "za",
+   "за"
+  ],
+  "section": "verbs-of-motion-prefixes",
+  "tr_en": "Follow me, I'll show you the way.",
+  "tr_ru": "Иди за мной, я покажу тебе дорогу.",
+  "explain_en": "Following someone: za + instrumental.",
+  "explain_ru": "«За кем-то» — za + творительный.",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "text": "Pas je pretrčao ___ ulice pravo ispred auta.",
+  "answer": [
+   "preko",
+   "преко"
+  ],
+  "section": "verbs-of-motion-prefixes",
+  "tr_en": "The dog ran across the street right in front of the car.",
+  "tr_ru": "Собака перебежала через улицу прямо перед машиной.",
+  "explain_en": "Across: preko + genitive.",
+  "explain_ru": "«Через (поперёк)» — preko + родительный.",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "text": "Šetali smo uz reku i stigli ___ samog mosta.",
+  "answer": [
+   "do",
+   "до"
+  ],
+  "section": "verbs-of-motion-prefixes",
+  "tr_en": "We walked along the river and got as far as the bridge itself.",
+  "tr_ru": "Мы гуляли вдоль реки и дошли до самого моста.",
+  "explain_en": "Up to: do + genitive.",
+  "explain_ru": "«До» — do + родительный.",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "text": "Ova kuća ___ prodaje već dve godine, niko neće da je kupi.",
+  "answer": [
+   "se",
+   "се"
+  ],
+  "section": "participles-and-verbal-nouns",
+  "tr_en": "This house has been up for sale for two years, nobody wants to buy it.",
+  "tr_ru": "Этот дом продаётся уже два года, никто не хочет его покупать.",
+  "explain_en": "Passive with se: kuća se prodaje.",
+  "explain_ru": "Пассив с se: kuća se prodaje (ср. «продаётся»).",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "text": "Kako ___ kaže 'hvala' na japanskom?",
+  "answer": [
+   "se",
+   "се"
+  ],
+  "section": "participles-and-verbal-nouns",
+  "tr_en": "How do you say 'thank you' in Japanese?",
+  "tr_ru": "Как сказать «спасибо» по-японски?",
+  "explain_en": "Impersonal passive with se: kako se kaže.",
+  "explain_ru": "Безличный пассив с se: kako se kaže.",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "text": "Roman je napisan ___ strane poznatog pisca iz Niša.",
+  "answer": [
+   "od",
+   "од"
+  ],
+  "section": "participles-and-verbal-nouns",
+  "tr_en": "The novel was written by a well-known writer from Niš.",
+  "tr_ru": "Роман был написан известным писателем из Ниша.",
+  "explain_en": "The agent in a passive is introduced with od strane + genitive.",
+  "explain_ru": "Деятель в пассиве — od strane + родительный (в русском — творительный).",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "text": "U ovom filmu ne ___ se o ljubavi, nego o ratu.",
+  "answer": [
+   "radi",
+   "ради"
+  ],
+  "section": "impersonal-reflexive-word-formation",
+  "tr_en": "This film isn't about love, it's about war.",
+  "tr_ru": "Этот фильм не о любви, а о войне.",
+  "explain_en": "Radi se o + locative means 'it's about'.",
+  "explain_ru": "Radi se o — «речь идёт о».",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "text": "Boli ___ glava od ove buke.",
+  "answer": [
+   "me",
+   "ме"
+  ],
+  "section": "impersonal-reflexive-word-formation",
+  "tr_en": "This noise is giving me a headache.",
+  "tr_ru": "У меня болит голова от этого шума.",
+  "explain_en": "Boleti takes the accusative of the person: boli me.",
+  "explain_ru": "Boleti + винительный: boli me (в русском «у меня болит»).",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "text": "Moja ćerka plače jer ___ je strah od mraka.",
+  "answer": [
+   "ju",
+   "ју"
+  ],
+  "section": "impersonal-reflexive-word-formation",
+  "tr_en": "My daughter is crying because she is afraid of the dark.",
+  "tr_ru": "Моя дочь плачет, потому что боится темноты.",
+  "explain_en": "Strah takes the accusative; before je the clitic je becomes ju: strah ju je.",
+  "explain_ru": "Strah + винительный; перед je клитика je заменяется на ju: strah ju je.",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "text": "Petra zanima istorija, ali ___ uopšte ne zanima matematika.",
+  "answer": [
+   "ga",
+   "га"
+  ],
+  "section": "impersonal-reflexive-word-formation",
+  "tr_en": "Petar is interested in history, but maths doesn't interest him at all.",
+  "tr_ru": "Петра интересует история, но математика его совсем не интересует.",
+  "explain_en": "Zanimati takes the accusative of the person: zanima ga.",
+  "explain_ru": "Zanimati + винительный: zanima ga.",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "text": "___ je ovo kaput? — Mislim da je Markov.",
+  "answer": [
+   "Čiji",
+   "Чији"
+  ],
+  "section": "adjective-pronoun-declension",
+  "tr_en": "Whose coat is this? — I think it's Marko's.",
+  "tr_ru": "Чьё это пальто? — Думаю, Марко.",
+  "explain_en": "Čiji asks about the owner and agrees with kaput.",
+  "explain_ru": "Čiji — «чей», согласуется с kaput (м. р.; в русском «пальто» — ср. р.).",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "text": "___ je tvoj novi šef? — Strog, ali pošten.",
+  "answer": [
+   "Kakav",
+   "Какав"
+  ],
+  "section": "adjective-pronoun-declension",
+  "tr_en": "What's your new boss like? — Strict, but fair.",
+  "tr_ru": "Какой твой новый начальник? — Строгий, но честный.",
+  "explain_en": "Kakav asks about qualities; koji asks which one.",
+  "explain_ru": "Kakav — о качествах; koji — «который из».",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "text": "___ od ove dve haljine ti se više sviđa?",
+  "answer": [
+   "Koja",
+   "Која"
+  ],
+  "section": "adjective-pronoun-declension",
+  "tr_en": "Which of these two dresses do you like better?",
+  "tr_ru": "Какое из этих двух платьев тебе больше нравится?",
+  "explain_en": "Koji chooses from a set; feminine for haljina.",
+  "explain_ru": "Koji — выбор из нескольких; ж. р. для haljina.",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "text": "___ se toliko plašiš? — Pasa, od malena.",
+  "answer": [
+   "Čega",
+   "Чега"
+  ],
+  "section": "adjective-pronoun-declension",
+  "tr_en": "What are you so afraid of? — Dogs, since I was little.",
+  "tr_ru": "Чего ты так боишься? — Собак, с детства.",
+  "explain_en": "Plašiti se takes the genitive: čega.",
+  "explain_ru": "Plašiti se + родительный: čega.",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "text": "___ si poklonio ono cveće? — Svojoj majci.",
+  "answer": [
+   "Kome",
+   "Коме"
+  ],
+  "section": "adjective-pronoun-declension",
+  "tr_en": "Who did you give those flowers to? — To my mother.",
+  "tr_ru": "Кому ты подарил те цветы? — Своей маме.",
+  "explain_en": "The indirect object is in the dative: kome.",
+  "explain_ru": "Косвенное дополнение — дательный: kome.",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "text": "___ kiši, utakmica je odigrana do kraja.",
+  "answer": [
+   "Uprkos",
+   "Usprkos",
+   "Упркос",
+   "Успркос"
+  ],
+  "section": "noun-declension-full",
+  "tr_en": "Despite the rain, the match was played to the end.",
+  "tr_ru": "Несмотря на дождь, матч был доигран до конца.",
+  "explain_en": "Uprkos takes the dative (kiši).",
+  "explain_ru": "Uprkos + дательный: kiši (в русском «несмотря на» + винительный).",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "text": "Ovo pismo je stiglo ___ adresu mojih roditelja.",
+  "answer": [
+   "na",
+   "на"
+  ],
+  "section": "noun-declension-full",
+  "tr_en": "This letter arrived at my parents' address.",
+  "tr_ru": "Это письмо пришло на адрес моих родителей.",
+  "explain_en": "Sending to an address: na + accusative.",
+  "explain_ru": "«На адрес» — na + винительный.",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "text": "Od sutra sam na dijeti i ___ više jesti slatkiše.",
+  "answer": [
+   "neću",
+   "нећу"
+  ],
+  "section": "verb-aspect-in-depth",
+  "tr_en": "From tomorrow I'm on a diet and I won't eat sweets any more.",
+  "tr_ru": "С завтрашнего дня я на диете и больше не буду есть сладкое.",
+  "explain_en": "Negative future: neću + infinitive (the imperfective jesti for a general habit).",
+  "explain_ru": "Отрицательное будущее: neću + инфинитив (несов. вид для привычки).",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "text": "Dobar dan, mi ___ voleli da rezervišemo sobu s pogledom na more.",
+  "answer": [
+   "bismo",
+   "бисмо"
+  ],
+  "section": "conditional-and-conditional-sentences",
+  "tr_en": "Good afternoon, we would like to book a room with a sea view.",
+  "tr_ru": "Добрый день, мы бы хотели забронировать номер с видом на море.",
+  "explain_en": "Polite wish with the potencijal: mi bismo + participle.",
+  "explain_ru": "Вежливое пожелание с потенциалом: mi bismo + причастие.",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "text": "Svako ___ nas je na rastanku dobio po jedan poklon.",
+  "answer": [
+   "od",
+   "од"
+  ],
+  "section": "numbers-and-quantity",
+  "tr_en": "Each of us got a present when we said goodbye.",
+  "tr_ru": "Каждый из нас на прощание получил по подарку.",
+  "explain_en": "'Each of' is svako od + genitive.",
+  "explain_ru": "«Каждый из» — svako od + родительный.",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "text": "Restoran ___ smo prošle godine slavili godišnjicu sada je zatvoren.",
+  "answer": [
+   "gde",
+   "u kojem",
+   "u kome",
+   "где",
+   "у којем",
+   "у коме"
+  ],
+  "section": "relative-clauses",
+  "tr_en": "The restaurant where we celebrated our anniversary last year is now closed.",
+  "tr_ru": "Ресторан, где мы в прошлом году праздновали годовщину, теперь закрыт.",
+  "explain_en": "Gde can introduce a relative clause about a place.",
+  "explain_ru": "Gde может вводить относительное придаточное места, как «где».",
+  "id": "g120"
+ }
+]

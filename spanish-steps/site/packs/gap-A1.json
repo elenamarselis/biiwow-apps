@@ -1,0 +1,1647 @@
+[
+ {
+  "kind": "form",
+  "text": "Los domingos mi abuela ___ la siesta en el sofá del salón.",
+  "answer": [
+   "duerme"
+  ],
+  "lemma": "dormir",
+  "tr_en": "On Sundays my grandmother has a nap on the living-room sofa.",
+  "tr_ru": "По воскресеньям моя бабушка спит после обеда на диване в гостиной.",
+  "explain_en": "Dormir changes o > ue in stressed forms: duermo, duermes, duerme. Only nosotros/vosotros keep o (dormimos).",
+  "explain_ru": "У dormir под ударением o > ue: duermo, duermes, duerme. Только nosotros/vosotros сохраняют o (dormimos).",
+  "id": "g001"
+ },
+ {
+  "kind": "form",
+  "text": "¿Y vosotros? ¿A qué hora ___ a trabajar por la mañana?",
+  "answer": [
+   "empezáis"
+  ],
+  "lemma": "empezar",
+  "tr_en": "And you (guys)? What time do you start work in the morning?",
+  "tr_ru": "А вы? Во сколько вы начинаете работать утром?",
+  "explain_en": "Empezar changes e > ie (empiezo, empiezas), but not in the vosotros form, where the stress is on the ending: empezáis.",
+  "explain_ru": "У empezar e > ie (empiezo, empiezas), но не в форме vosotros: ударение падает на окончание — empezáis.",
+  "id": "g002"
+ },
+ {
+  "kind": "form",
+  "text": "Lo siento, esta noche no ___ ir al cine contigo: mañana tengo un examen.",
+  "answer": [
+   "puedo"
+  ],
+  "lemma": "poder",
+  "tr_en": "Sorry, I can't go to the cinema with you tonight: I have an exam tomorrow.",
+  "tr_ru": "Извини, сегодня вечером я не могу пойти с тобой в кино: завтра у меня экзамен.",
+  "explain_en": "Poder is o > ue: puedo, puedes, puede. The subject is 'I' (tengo, contigo).",
+  "explain_ru": "Poder меняет o > ue: puedo, puedes, puede. Подлежащее — «я» (tengo, contigo).",
+  "id": "g003"
+ },
+ {
+  "kind": "form",
+  "text": "Yo siempre les ___ la verdad a mis padres.",
+  "answer": [
+   "digo"
+  ],
+  "lemma": "decir",
+  "tr_en": "I always tell my parents the truth.",
+  "tr_ru": "Я всегда говорю родителям правду.",
+  "explain_en": "Decir is irregular: yo digo (with g), tú dices, él dice.",
+  "explain_ru": "Decir неправильный: yo digo (с g), tú dices, él dice.",
+  "id": "g004"
+ },
+ {
+  "kind": "form",
+  "text": "Los sábados yo ___ de casa muy tarde, casi a medianoche.",
+  "answer": [
+   "salgo"
+  ],
+  "lemma": "salir",
+  "tr_en": "On Saturdays I leave home very late, almost at midnight.",
+  "tr_ru": "По субботам я выхожу из дома очень поздно, почти в полночь.",
+  "explain_en": "Salir adds -g- in the yo form: salgo. The other forms are regular: sales, sale.",
+  "explain_ru": "Salir получает -g- в форме yo: salgo. Остальные формы правильные: sales, sale.",
+  "id": "g005"
+ },
+ {
+  "kind": "form",
+  "text": "En casa yo ___ la mesa y mi marido lava los platos.",
+  "answer": [
+   "pongo"
+  ],
+  "lemma": "poner",
+  "tr_en": "At home I set the table and my husband washes the dishes.",
+  "tr_ru": "Дома я накрываю на стол, а мой муж моет посуду.",
+  "explain_en": "Poner has a -g- in the yo form: pongo. 'Poner la mesa' means to set the table.",
+  "explain_ru": "Poner в форме yo: pongo (с -g-). «Poner la mesa» — накрывать на стол.",
+  "id": "g006"
+ },
+ {
+  "kind": "form",
+  "text": "¿Tú ___ a la fiesta de Marta el viernes o te quedas en casa?",
+  "answer": [
+   "vienes"
+  ],
+  "lemma": "venir",
+  "tr_en": "Are you coming to Marta's party on Friday or are you staying at home?",
+  "tr_ru": "Ты придёшь на вечеринку к Марте в пятницу или останешься дома?",
+  "explain_en": "Venir: vengo, vienes, viene. The tú form has the e > ie change, not the g.",
+  "explain_ru": "Venir: vengo, vienes, viene. В форме tú — чередование e > ie, а не g.",
+  "id": "g007"
+ },
+ {
+  "kind": "form",
+  "text": "Esta tarde yo ___ a llamar a mi abuela, que está enferma.",
+  "answer": [
+   "voy"
+  ],
+  "lemma": "ir",
+  "tr_en": "This afternoon I'm going to call my grandmother, who is ill.",
+  "tr_ru": "Сегодня днём я позвоню бабушке, она болеет.",
+  "explain_en": "Near future: ir a + infinitive. Yo → voy a llamar.",
+  "explain_ru": "Ближайшее будущее: ir a + инфинитив. Yo → voy a llamar. В русском здесь просто будущее время.",
+  "id": "g008"
+ },
+ {
+  "kind": "form",
+  "text": "Perdona, no ___ dónde está la estación; no soy de aquí.",
+  "answer": [
+   "sé"
+  ],
+  "lemma": "saber",
+  "tr_en": "Sorry, I don't know where the station is; I'm not from here.",
+  "tr_ru": "Извини, я не знаю, где вокзал: я не местный.",
+  "explain_en": "Saber is irregular only in the yo form: sé (with an accent, unlike the pronoun se).",
+  "explain_ru": "Saber неправильный только в форме yo: sé (с ударением, в отличие от местоимения se).",
+  "id": "g009"
+ },
+ {
+  "kind": "form",
+  "text": "Mi madre ___ cincuenta años, pero parece mucho más joven.",
+  "answer": [
+   "tiene"
+  ],
+  "lemma": "tener",
+  "tr_en": "My mother is fifty, but she looks much younger.",
+  "tr_ru": "Моей маме пятьдесят лет, но она выглядит гораздо моложе.",
+  "explain_en": "Age is expressed with tener: tiene cincuenta años. Tener: tengo, tienes, tiene.",
+  "explain_ru": "Возраст выражается глаголом tener («иметь годы»), а не «быть»: tiene cincuenta años.",
+  "id": "g010"
+ },
+ {
+  "kind": "form",
+  "text": "Perdone, ¿cuánto ___ estos zapatos negros del escaparate?",
+  "answer": [
+   "cuestan"
+  ],
+  "lemma": "costar",
+  "tr_en": "Excuse me, how much are these black shoes in the window?",
+  "tr_ru": "Извините, сколько стоят эти чёрные туфли с витрины?",
+  "explain_en": "Costar is o > ue and agrees with the plural subject 'estos zapatos', which comes after it: cuestan.",
+  "explain_ru": "Costar меняет o > ue и согласуется с подлежащим во мн. ч. «estos zapatos», которое стоит после глагола: cuestan.",
+  "id": "g011"
+ },
+ {
+  "kind": "form",
+  "text": "En los restaurantes mi padre siempre ___ pescado y una copa de vino blanco.",
+  "answer": [
+   "pide"
+  ],
+  "lemma": "pedir",
+  "tr_en": "In restaurants my father always orders fish and a glass of white wine.",
+  "tr_ru": "В ресторанах мой отец всегда заказывает рыбу и бокал белого вина.",
+  "explain_en": "Pedir changes e > i: pido, pides, pide.",
+  "explain_ru": "Pedir меняет e > i: pido, pides, pide.",
+  "id": "g012"
+ },
+ {
+  "kind": "form",
+  "text": "Mis alumnos no ___ nada cuando hablo demasiado rápido.",
+  "answer": [
+   "entienden"
+  ],
+  "lemma": "entender",
+  "tr_en": "My students don't understand anything when I speak too fast.",
+  "tr_ru": "Мои ученики ничего не понимают, когда я говорю слишком быстро.",
+  "explain_en": "Entender: e > ie in stressed forms; ellos → entienden.",
+  "explain_ru": "Entender: e > ie под ударением; ellos → entienden.",
+  "id": "g013"
+ },
+ {
+  "kind": "form",
+  "text": "Los niños ___ a casa a las cinco, después de la escuela.",
+  "answer": [
+   "vuelven"
+  ],
+  "lemma": "volver",
+  "tr_en": "The children come back home at five, after school.",
+  "tr_ru": "Дети возвращаются домой в пять, после школы.",
+  "explain_en": "Volver: o > ue → vuelven. Note: Spanish says 'volver a casa' with the preposition a.",
+  "explain_ru": "Volver: o > ue → vuelven. Обратите внимание: «volver a casa» с предлогом a.",
+  "id": "g014"
+ },
+ {
+  "kind": "form",
+  "text": "Los viernes por la tarde mi hermano ___ al fútbol con sus amigos.",
+  "answer": [
+   "juega"
+  ],
+  "lemma": "jugar",
+  "tr_en": "On Friday afternoons my brother plays football with his friends.",
+  "tr_ru": "По пятницам после обеда мой брат играет в футбол с друзьями.",
+  "explain_en": "Jugar is the only verb with u > ue: juego, juegas, juega.",
+  "explain_ru": "Jugar — единственный глагол с чередованием u > ue: juego, juegas, juega.",
+  "id": "g015"
+ },
+ {
+  "kind": "form",
+  "text": "Mi hermano y yo ___ altos y morenos, como nuestro padre.",
+  "answer": [
+   "somos"
+  ],
+  "lemma": "ser",
+  "tr_en": "My brother and I are tall and dark-haired, like our father.",
+  "tr_ru": "Мы с братом высокие и темноволосые, как наш отец.",
+  "explain_en": "'Mi hermano y yo' = nosotros → somos. Ser for permanent physical description.",
+  "explain_ru": "«Mi hermano y yo» = nosotros → somos. Ser — для постоянных внешних черт. В русском «мы с братом», в испанском «брат и я».",
+  "id": "g016"
+ },
+ {
+  "kind": "form",
+  "text": "¿De dónde ___ vosotras? —Somos de Valencia.",
+  "answer": [
+   "sois"
+  ],
+  "lemma": "ser",
+  "tr_en": "Where are you (girls) from? —We're from Valencia.",
+  "tr_ru": "Откуда вы? — Мы из Валенсии.",
+  "explain_en": "Vosotros/vosotras form of ser: sois. Origin is expressed with ser de.",
+  "explain_ru": "Форма vosotros/vosotras глагола ser: sois. Происхождение — ser de.",
+  "id": "g017"
+ },
+ {
+  "kind": "form",
+  "text": "Mis hermanas se ___ muy rápido por la mañana porque siempre llegan tarde.",
+  "answer": [
+   "visten"
+  ],
+  "lemma": "vestirse",
+  "tr_en": "My sisters get dressed very quickly in the morning because they are always late.",
+  "tr_ru": "Мои сёстры утром одеваются очень быстро, потому что всегда опаздывают.",
+  "explain_en": "Vestirse changes e > i: me visto, te vistes, se visten. The pronoun se is already in the sentence.",
+  "explain_ru": "Vestirse меняет e > i: me visto, te vistes, se visten. Возвратное se уже стоит в предложении.",
+  "id": "g018"
+ },
+ {
+  "kind": "form",
+  "text": "Entre semana yo me ___ a las once y media de la noche.",
+  "answer": [
+   "acuesto"
+  ],
+  "lemma": "acostarse",
+  "tr_en": "On weekdays I go to bed at half past eleven at night.",
+  "tr_ru": "По будням я ложусь спать в половине двенадцатого ночи.",
+  "explain_en": "Acostarse: o > ue → me acuesto.",
+  "explain_ru": "Acostarse: o > ue → me acuesto. Русское «ложиться спать» — один глагол в испанском.",
+  "id": "g019"
+ },
+ {
+  "kind": "form",
+  "text": "¿A qué hora te ___ normalmente los lunes?",
+  "answer": [
+   "despiertas"
+  ],
+  "lemma": "despertarse",
+  "tr_en": "What time do you usually wake up on Mondays?",
+  "tr_ru": "Во сколько ты обычно просыпаешься по понедельникам?",
+  "explain_en": "Despertarse: e > ie → te despiertas (tú, shown by te).",
+  "explain_ru": "Despertarse: e > ie → te despiertas (tú — видно по te).",
+  "id": "g020"
+ },
+ {
+  "kind": "form",
+  "text": "Voy al gimnasio tres ___ por semana.",
+  "answer": [
+   "veces"
+  ],
+  "lemma": "vez",
+  "tr_en": "I go to the gym three times a week.",
+  "tr_ru": "Я хожу в спортзал три раза в неделю.",
+  "explain_en": "Nouns ending in -z change z to c before -es: vez → veces.",
+  "explain_ru": "Существительные на -z во мн. ч. меняют z на c: vez → veces.",
+  "id": "g021"
+ },
+ {
+  "kind": "form",
+  "text": "En el estuche tengo tres ___ y un bolígrafo azul.",
+  "answer": [
+   "lápices"
+  ],
+  "lemma": "lápiz",
+  "tr_en": "In my pencil case I have three pencils and a blue pen.",
+  "tr_ru": "В пенале у меня три карандаша и синяя ручка.",
+  "explain_en": "Lápiz → lápices: z becomes c before -es, and the accent stays because the stress does not move.",
+  "explain_ru": "Lápiz → lápices: z переходит в c перед -es, ударение и знак остаются.",
+  "id": "g022"
+ },
+ {
+  "kind": "form",
+  "text": "En el salón hay dos ___: una en el techo y otra al lado del sofá.",
+  "answer": [
+   "luces"
+  ],
+  "lemma": "luz",
+  "tr_en": "In the living room there are two lights: one on the ceiling and another next to the sofa.",
+  "tr_ru": "В гостиной две лампы: одна на потолке, другая рядом с диваном.",
+  "explain_en": "Luz is feminine and forms its plural with -ces: luces (una, otra agree with it).",
+  "explain_ru": "Luz — женского рода, мн. ч. luces (una, otra согласуются с ним).",
+  "id": "g023"
+ },
+ {
+  "kind": "form",
+  "text": "Esta semana tengo dos ___ en la universidad, uno de inglés y otro de historia.",
+  "answer": [
+   "exámenes"
+  ],
+  "lemma": "examen",
+  "tr_en": "This week I have two exams at university, one in English and another in history.",
+  "tr_ru": "На этой неделе у меня в университете два экзамена: по английскому и по истории.",
+  "explain_en": "Examen → exámenes: the plural adds a syllable, so the stress needs a written accent.",
+  "explain_ru": "Examen → exámenes: во мн. ч. добавляется слог, поэтому появляется знак ударения.",
+  "id": "g024"
+ },
+ {
+  "kind": "form",
+  "text": "Muchos ___ de mi pueblo trabajan en la ciudad.",
+  "answer": [
+   "jóvenes"
+  ],
+  "lemma": "joven",
+  "tr_en": "Many young people from my village work in the city.",
+  "tr_ru": "Многие молодые люди из моей деревни работают в городе.",
+  "explain_en": "Joven → jóvenes: the plural gets an accent to keep the stress on jo-.",
+  "explain_ru": "Joven → jóvenes: во мн. ч. нужен знак ударения, чтобы ударение осталось на jo-.",
+  "id": "g025"
+ },
+ {
+  "kind": "form",
+  "text": "Me gustan mucho las ___ de este grupo, sobre todo las lentas.",
+  "answer": [
+   "canciones"
+  ],
+  "lemma": "canción",
+  "tr_en": "I really like this band's songs, especially the slow ones.",
+  "tr_ru": "Мне очень нравятся песни этой группы, особенно медленные.",
+  "explain_en": "Canción → canciones: the accent disappears in the plural because the stress is now on the second-to-last syllable.",
+  "explain_ru": "Canción → canciones: во мн. ч. знак ударения исчезает, так как ударение падает на предпоследний слог.",
+  "id": "g026"
+ },
+ {
+  "kind": "form",
+  "text": "Madrid es una ___ ciudad con museos muy famosos.",
+  "answer": [
+   "gran"
+  ],
+  "lemma": "grande",
+  "tr_en": "Madrid is a great city with very famous museums.",
+  "tr_ru": "Мадрид — великий город с очень известными музеями.",
+  "explain_en": "Before a singular noun (masculine or feminine) grande shortens to gran and usually means 'great'.",
+  "explain_ru": "Перед существительным в ед. ч. (любого рода) grande сокращается до gran и обычно значит «великий».",
+  "id": "g027"
+ },
+ {
+  "kind": "form",
+  "text": "Hoy hace muy ___ tiempo para ir a la playa.",
+  "answer": [
+   "buen"
+  ],
+  "lemma": "bueno",
+  "tr_en": "The weather is very good today for going to the beach.",
+  "tr_ru": "Сегодня очень хорошая погода для пляжа.",
+  "explain_en": "Bueno becomes buen before a masculine singular noun: buen tiempo.",
+  "explain_ru": "Bueno перед существительным м. р. ед. ч. сокращается: buen tiempo.",
+  "id": "g028"
+ },
+ {
+  "kind": "form",
+  "text": "Mi hija vive en el ___ piso de este edificio, justo encima de la tienda.",
+  "answer": [
+   "primer"
+  ],
+  "lemma": "primero",
+  "tr_en": "My daughter lives on the first floor of this building, right above the shop.",
+  "tr_ru": "Моя дочь живёт на втором этаже этого дома, прямо над магазином.",
+  "explain_en": "Primero shortens to primer before a masculine singular noun. In Spain the 'primer piso' is above the ground floor (planta baja).",
+  "explain_ru": "Primero перед существительным м. р. ед. ч. → primer. В Испании «primer piso» — это наш второй этаж (над planta baja).",
+  "id": "g029"
+ },
+ {
+  "kind": "form",
+  "text": "Mis amigas de la universidad son muy ___ y siempre me ayudan.",
+  "answer": [
+   "simpáticas"
+  ],
+  "lemma": "simpático",
+  "tr_en": "My university friends are very nice and always help me.",
+  "tr_ru": "Мои подруги из университета очень милые и всегда мне помогают.",
+  "explain_en": "The adjective agrees with 'mis amigas' (feminine plural): simpáticas.",
+  "explain_ru": "Прилагательное согласуется с «mis amigas» (ж. р., мн. ч.): simpáticas.",
+  "id": "g030"
+ },
+ {
+  "kind": "form",
+  "text": "Las camisetas de nuestro equipo son ___ y blancas.",
+  "answer": [
+   "azules"
+  ],
+  "lemma": "azul",
+  "tr_en": "Our team's T-shirts are blue and white.",
+  "tr_ru": "Футболки нашей команды сине-белые.",
+  "explain_en": "Adjectives ending in a consonant add -es in the plural and do not change for gender: azul → azules.",
+  "explain_ru": "Прилагательные на согласный во мн. ч. получают -es и не меняются по родам: azul → azules.",
+  "id": "g031"
+ },
+ {
+  "kind": "form",
+  "text": "Cariño, ¿dónde están ___ llaves de casa? Las necesitamos para entrar.",
+  "answer": [
+   "nuestras"
+  ],
+  "lemma": "nuestro",
+  "tr_en": "Darling, where are our house keys? We need them to get in.",
+  "tr_ru": "Дорогой, где наши ключи от дома? Они нам нужны, чтобы войти.",
+  "explain_en": "Nuestro agrees with the thing owned (llaves, feminine plural): nuestras.",
+  "explain_ru": "Nuestro согласуется с предметом (llaves, ж. р. мн. ч.): nuestras.",
+  "id": "g032"
+ },
+ {
+  "kind": "form",
+  "text": "Ana y Luis viven en Toledo con ___ abuelos.",
+  "answer": [
+   "sus"
+  ],
+  "lemma": "su",
+  "tr_en": "Ana and Luis live in Toledo with their grandparents.",
+  "tr_ru": "Ана и Луис живут в Толедо со своими бабушкой и дедушкой.",
+  "explain_en": "Su takes -s when the thing owned is plural (abuelos), not because there are two owners.",
+  "explain_ru": "Su получает -s, потому что множественное число у предмета (abuelos), а не у владельцев.",
+  "id": "g033"
+ },
+ {
+  "kind": "form",
+  "text": "¿Ves ___ montañas de allí, al fondo? Son los Pirineos.",
+  "answer": [
+   "aquellas"
+  ],
+  "lemma": "aquel",
+  "tr_en": "Do you see those mountains over there, in the distance? They are the Pyrenees.",
+  "tr_ru": "Видишь те горы вон там, вдали? Это Пиренеи.",
+  "explain_en": "Aquel (far away) agrees with montañas (feminine plural): aquellas.",
+  "explain_ru": "Aquel (далеко) согласуется с montañas (ж. р. мн. ч.): aquellas.",
+  "id": "g034"
+ },
+ {
+  "kind": "form",
+  "text": "A mi hermano pequeño no le ___ nada las verduras.",
+  "answer": [
+   "gustan"
+  ],
+  "lemma": "gustar",
+  "tr_en": "My little brother doesn't like vegetables at all.",
+  "tr_ru": "Моему младшему брату совсем не нравятся овощи.",
+  "explain_en": "Gustar agrees with the thing liked, 'las verduras' (plural), not with the person: gustan.",
+  "explain_ru": "Gustar согласуется с тем, что нравится («las verduras», мн. ч.), как и русское «нравятся».",
+  "id": "g035"
+ },
+ {
+  "kind": "form",
+  "text": "Después del partido me ___ mucho las piernas.",
+  "answer": [
+   "duelen"
+  ],
+  "lemma": "doler",
+  "tr_en": "After the match my legs hurt a lot.",
+  "tr_ru": "После матча у меня сильно болят ноги.",
+  "explain_en": "Doler works like gustar (subject: las piernas, plural) and changes o > ue: duelen.",
+  "explain_ru": "Doler строится как gustar (подлежащее — las piernas, мн. ч.) и меняет o > ue: duelen.",
+  "id": "g036"
+ },
+ {
+  "kind": "form",
+  "text": "A nosotros nos ___ viajar en tren por Europa.",
+  "answer": [
+   "encanta"
+  ],
+  "lemma": "encantar",
+  "tr_en": "We love travelling around Europe by train.",
+  "tr_ru": "Мы обожаем путешествовать по Европе на поезде.",
+  "explain_en": "With an infinitive as subject, encantar is singular: nos encanta viajar (not encantamos).",
+  "explain_ru": "Если подлежащее — инфинитив, глагол в ед. ч.: nos encanta viajar (не encantamos).",
+  "id": "g037"
+ },
+ {
+  "kind": "form",
+  "text": "¿___ hermanas tiene tu madre?",
+  "answer": [
+   "Cuántas"
+  ],
+  "lemma": "cuánto",
+  "tr_en": "How many sisters does your mother have?",
+  "tr_ru": "Сколько сестёр у твоей мамы?",
+  "explain_en": "Cuánto agrees with the noun: hermanas (feminine plural) → cuántas.",
+  "explain_ru": "Cuánto согласуется с существительным: hermanas (ж. р. мн. ч.) → cuántas. В русском «сколько» не меняется.",
+  "id": "g038"
+ },
+ {
+  "kind": "form",
+  "text": "En este teatro caben ___ personas.",
+  "answer": [
+   "doscientas"
+  ],
+  "lemma": "doscientos",
+  "tr_en": "Two hundred people fit in this theatre.",
+  "tr_ru": "В этот театр помещается двести человек.",
+  "explain_en": "Hundreds from 200 agree in gender with the noun: personas → doscientas.",
+  "explain_ru": "Сотни начиная с 200 согласуются в роде: personas → doscientas.",
+  "id": "g039"
+ },
+ {
+  "kind": "form",
+  "text": "Este ordenador cuesta ___ euros justos, ni uno más.",
+  "answer": [
+   "cien"
+  ],
+  "lemma": "ciento",
+  "tr_en": "This computer costs exactly one hundred euros, not one more.",
+  "tr_ru": "Этот компьютер стоит ровно сто евро, ни евро больше.",
+  "explain_en": "Exactly 100 before a noun is cien; ciento is used only in 101–199 (ciento uno).",
+  "explain_ru": "Ровно 100 перед существительным — cien; ciento только в 101–199 (ciento uno).",
+  "id": "g040"
+ },
+ {
+  "kind": "word",
+  "text": "En este restaurante el ___ es muy fresco porque el puerto está al lado.",
+  "answer": [
+   "pescado"
+  ],
+  "ref": "el pescado",
+  "clue_en": "fish (as food)",
+  "clue_ru": "рыба (как еда)",
+  "tr_en": "In this restaurant the fish is very fresh because the port is next door.",
+  "tr_ru": "В этом ресторане рыба очень свежая, потому что порт рядом.",
+  "explain_en": "Fish as food on a plate is el pescado; a live fish in the water is el pez.",
+  "explain_ru": "Рыба как еда — el pescado; живая рыба в воде — el pez. В русском одно слово.",
+  "id": "g041"
+ },
+ {
+  "kind": "word",
+  "text": "En el río hay muchos ___ pequeños de colores.",
+  "answer": [
+   "peces"
+  ],
+  "ref": "el pez",
+  "clue_en": "fish (living)",
+  "clue_ru": "рыба (живая)",
+  "tr_en": "In the river there are lots of small colourful fish.",
+  "tr_ru": "В реке много маленьких разноцветных рыбок.",
+  "explain_en": "Living fish are peces (plural of pez, z > c); pescado is only fish as food.",
+  "explain_ru": "Живые рыбы — peces (мн. ч. от pez, z > c); pescado — только рыба как продукт.",
+  "id": "g042"
+ },
+ {
+  "kind": "word",
+  "text": "Hoy Marta ___ un vestido rojo y unos zapatos negros.",
+  "answer": [
+   "lleva"
+  ],
+  "ref": "llevar",
+  "clue_en": "to wear",
+  "clue_ru": "носить (одежду)",
+  "tr_en": "Today Marta is wearing a red dress and black shoes.",
+  "tr_ru": "Сегодня на Марте красное платье и чёрные туфли.",
+  "explain_en": "Llevar describes what someone is wearing; ponerse is the action of putting it on.",
+  "explain_ru": "Llevar — «быть одетым во что-то»; ponerse — действие «надеть». По-русски часто «на ней…».",
+  "id": "g043"
+ },
+ {
+  "kind": "word",
+  "text": "Antes de salir a la calle, mi hijo siempre se ___ las gafas de sol.",
+  "answer": [
+   "pone"
+  ],
+  "ref": "ponerse",
+  "clue_en": "to put on (clothes)",
+  "clue_ru": "надевать",
+  "tr_en": "Before going out, my son always puts on his sunglasses.",
+  "tr_ru": "Перед выходом на улицу мой сын всегда надевает солнечные очки.",
+  "explain_en": "The action of putting something on is ponerse (se pone); llevar is the state of wearing.",
+  "explain_ru": "Действие «надевать» — ponerse (se pone); llevar — «быть в чём-то».",
+  "id": "g044"
+ },
+ {
+  "kind": "word",
+  "text": "Mis abuelos no viven en la ciudad, sino en el ___, entre vacas y árboles.",
+  "answer": [
+   "campo"
+  ],
+  "ref": "el campo",
+  "clue_en": "countryside",
+  "clue_ru": "сельская местность",
+  "tr_en": "My grandparents don't live in the city but in the countryside, among cows and trees.",
+  "tr_ru": "Мои бабушка с дедушкой живут не в городе, а в деревне, среди коров и деревьев.",
+  "explain_en": "El campo is the countryside in general (opposite of the city); un pueblo is a specific village.",
+  "explain_ru": "El campo — сельская местность вообще (в противоположность городу); un pueblo — конкретная деревня.",
+  "id": "g045"
+ },
+ {
+  "kind": "word",
+  "text": "El español es la ___ oficial de más de veinte países.",
+  "answer": [
+   "lengua"
+  ],
+  "ref": "la lengua",
+  "clue_en": "language",
+  "clue_ru": "язык (речь)",
+  "tr_en": "Spanish is the official language of more than twenty countries.",
+  "tr_ru": "Испанский — официальный язык более чем двадцати стран.",
+  "explain_en": "Lengua means both 'tongue' and 'language'; the feminine article la excludes el idioma.",
+  "explain_ru": "Lengua — и «язык» во рту, и «язык» как речь, как в русском; артикль la исключает el idioma.",
+  "id": "g046"
+ },
+ {
+  "kind": "word",
+  "text": "En esta escuela los niños ___ a leer con cinco años.",
+  "answer": [
+   "aprenden"
+  ],
+  "ref": "aprender",
+  "clue_en": "to learn",
+  "clue_ru": "учиться (чему-то)",
+  "tr_en": "In this school children learn to read at the age of five.",
+  "tr_ru": "В этой школе дети учатся читать в пять лет.",
+  "explain_en": "Aprender a + infinitive = to learn to do something; the children receive the knowledge.",
+  "explain_ru": "Aprender a + инфинитив — научиться что-то делать; знания получают дети.",
+  "id": "g047"
+ },
+ {
+  "kind": "word",
+  "text": "¿Qué ___ hace hoy en Barcelona? —Hace sol y mucho calor.",
+  "answer": [
+   "tiempo"
+  ],
+  "ref": "el tiempo",
+  "clue_en": "weather",
+  "clue_ru": "погода",
+  "tr_en": "What's the weather like in Barcelona today? —It's sunny and very hot.",
+  "tr_ru": "Какая сегодня погода в Барселоне? — Солнечно и очень жарко.",
+  "explain_en": "El tiempo means both 'time' and 'weather'; the fixed question is ¿Qué tiempo hace?",
+  "explain_ru": "El tiempo — и «время», и «погода»; устойчивый вопрос: ¿Qué tiempo hace?",
+  "id": "g048"
+ },
+ {
+  "kind": "word",
+  "text": "Cuando voy a un bar, yo siempre ___ un café con leche y una tostada.",
+  "answer": [
+   "pido"
+  ],
+  "ref": "pedir",
+  "clue_en": "to order, to ask for",
+  "clue_ru": "заказывать, просить",
+  "tr_en": "When I go to a bar, I always order a white coffee and a piece of toast.",
+  "tr_ru": "Когда я хожу в бар, я всегда заказываю кофе с молоком и тост.",
+  "explain_en": "Pedir = to ask for / order something (pido, e > i); preguntar = to ask a question.",
+  "explain_ru": "Pedir — просить, заказывать что-то (pido, e > i); preguntar — задавать вопрос.",
+  "id": "g049"
+ },
+ {
+  "kind": "word",
+  "text": "El domingo vamos al estadio a ver el ___ del Betis contra el Sevilla.",
+  "answer": [
+   "partido"
+  ],
+  "ref": "el partido",
+  "clue_en": "match (sport)",
+  "clue_ru": "матч",
+  "tr_en": "On Sunday we're going to the stadium to watch the Betis vs Sevilla match.",
+  "tr_ru": "В воскресенье мы идём на стадион смотреть матч «Бетис» — «Севилья».",
+  "explain_en": "A sports match is un partido; el juego is a game in general.",
+  "explain_ru": "Спортивный матч — el partido (не «партия»!); el juego — игра вообще.",
+  "id": "g050"
+ },
+ {
+  "kind": "word",
+  "text": "Todavía vivo con mis ___ porque soy estudiante y no trabajo.",
+  "answer": [
+   "padres"
+  ],
+  "ref": "los padres",
+  "clue_en": "parents",
+  "clue_ru": "родители",
+  "tr_en": "I still live with my parents because I'm a student and don't work.",
+  "tr_ru": "Я до сих пор живу с родителями, потому что я студент и не работаю.",
+  "explain_en": "Los padres = mother and father. Beware: los parientes means relatives.",
+  "explain_ru": "Los padres — мать и отец. Осторожно: los parientes — «родственники», а не «родители».",
+  "id": "g051"
+ },
+ {
+  "kind": "word",
+  "text": "Carmen y su ___ llevan una tienda de ropa en el centro.",
+  "answer": [
+   "marido"
+  ],
+  "ref": "el marido",
+  "clue_en": "husband",
+  "clue_ru": "муж",
+  "tr_en": "Carmen and her husband run a clothes shop in the centre.",
+  "tr_ru": "Кармен с мужем держат магазин одежды в центре.",
+  "explain_en": "El marido is the everyday word for husband.",
+  "explain_ru": "El marido — обычное слово для «муж».",
+  "id": "g052"
+ },
+ {
+  "kind": "word",
+  "text": "En agosto siempre hay mucha ___ en la playa.",
+  "answer": [
+   "gente"
+  ],
+  "ref": "la gente",
+  "clue_en": "people",
+  "clue_ru": "люди",
+  "tr_en": "In August there are always a lot of people on the beach.",
+  "tr_ru": "В августе на пляже всегда много людей.",
+  "explain_en": "La gente is grammatically singular and feminine: mucha gente. Personas would need muchas.",
+  "explain_ru": "La gente грамматически ед. ч. ж. р.: mucha gente. Для personas нужно было бы muchas.",
+  "id": "g053"
+ },
+ {
+  "kind": "word",
+  "text": "Me llamo Ana Pérez: Ana es mi nombre y Pérez es mi ___.",
+  "answer": [
+   "apellido"
+  ],
+  "ref": "el apellido",
+  "clue_en": "surname",
+  "clue_ru": "фамилия",
+  "tr_en": "My name is Ana Pérez: Ana is my first name and Pérez is my surname.",
+  "tr_ru": "Меня зовут Ана Перес: Ана — моё имя, а Перес — фамилия.",
+  "explain_en": "El apellido is the surname; Spaniards usually have two (father's and mother's).",
+  "explain_ru": "El apellido — фамилия (не «апелляция»); у испанцев обычно их две — отца и матери.",
+  "id": "g054"
+ },
+ {
+  "kind": "word",
+  "text": "Pon la leche en la ___; si no, se va a estropear con este calor.",
+  "answer": [
+   "nevera"
+  ],
+  "ref": "la nevera",
+  "clue_en": "fridge",
+  "clue_ru": "холодильник",
+  "tr_en": "Put the milk in the fridge; otherwise it will go off in this heat.",
+  "tr_ru": "Поставь молоко в холодильник, иначе оно испортится в такую жару.",
+  "explain_en": "La nevera is the fridge; the feminine article excludes el frigorífico.",
+  "explain_ru": "La nevera — холодильник; артикль ж. р. исключает el frigorífico.",
+  "id": "g055"
+ },
+ {
+  "kind": "word",
+  "text": "Para desayunar tomo un ___ de naranja y una tostada con tomate.",
+  "answer": [
+   "zumo",
+   "jugo"
+  ],
+  "ref": "el zumo",
+  "clue_en": "juice",
+  "clue_ru": "сок",
+  "tr_en": "For breakfast I have an orange juice and toast with tomato.",
+  "tr_ru": "На завтрак я пью апельсиновый сок и ем тост с помидором.",
+  "explain_en": "In Spain juice is el zumo; in Latin America el jugo. Spanish says 'zumo de naranja', not an adjective.",
+  "explain_ru": "В Испании сок — el zumo, в Латинской Америке el jugo. «Апельсиновый сок» — zumo de naranja.",
+  "id": "g056"
+ },
+ {
+  "kind": "word",
+  "text": "Para hacer una tortilla española necesitas huevos, aceite, sal y ___.",
+  "answer": [
+   "patatas",
+   "papas"
+  ],
+  "ref": "la patata",
+  "clue_en": "potato",
+  "clue_ru": "картофель",
+  "tr_en": "To make a Spanish omelette you need eggs, oil, salt and potatoes.",
+  "tr_ru": "Для испанской тортильи нужны яйца, масло, соль и картошка.",
+  "explain_en": "In Spain potatoes are patatas (Latin America: papas); countable, so plural here.",
+  "explain_ru": "В Испании картошка — patatas (в Латинской Америке papas); это исчисляемое слово, поэтому мн. ч.",
+  "id": "g057"
+ },
+ {
+  "kind": "word",
+  "text": "Trabajo ocho horas al día delante del ___ y por la noche me duelen los ojos.",
+  "answer": [
+   "ordenador",
+   "computador"
+  ],
+  "ref": "el ordenador",
+  "clue_en": "computer",
+  "clue_ru": "компьютер",
+  "tr_en": "I work eight hours a day in front of the computer and at night my eyes hurt.",
+  "tr_ru": "Я работаю восемь часов в день за компьютером, и вечером у меня болят глаза.",
+  "explain_en": "In Spain a computer is el ordenador; del (masculine) rules out la computadora.",
+  "explain_ru": "В Испании компьютер — el ordenador; del (м. р.) исключает la computadora.",
+  "id": "g058"
+ },
+ {
+  "kind": "word",
+  "text": "¿Me dejas un ___? Tengo que firmar este papel y no llevo nada para escribir.",
+  "answer": [
+   "bolígrafo",
+   "boli"
+  ],
+  "ref": "el bolígrafo",
+  "clue_en": "ballpoint pen",
+  "clue_ru": "шариковая ручка",
+  "tr_en": "Can you lend me a pen? I have to sign this paper and I have nothing to write with.",
+  "tr_ru": "Дашь мне ручку? Мне надо подписать этот листок, а писать нечем.",
+  "explain_en": "A ballpoint pen is el bolígrafo (colloquially el boli); un (masculine) rules out la pluma.",
+  "explain_ru": "Шариковая ручка — el bolígrafo (разг. el boli); un (м. р.) исключает la pluma.",
+  "id": "g059"
+ },
+ {
+  "kind": "word",
+  "text": "Antes de salir, me miro en el ___ del baño para peinarme.",
+  "answer": [
+   "espejo"
+  ],
+  "ref": "el espejo",
+  "clue_en": "mirror",
+  "clue_ru": "зеркало",
+  "tr_en": "Before going out, I look in the bathroom mirror to comb my hair.",
+  "tr_ru": "Перед выходом я смотрюсь в зеркало в ванной, чтобы причесаться.",
+  "explain_en": "Mirarse en el espejo = to look at oneself in the mirror (note: en, not a).",
+  "explain_ru": "Mirarse en el espejo — смотреться в зеркало (предлог en).",
+  "id": "g060"
+ },
+ {
+  "kind": "word",
+  "text": "¿Me pones un ___ de agua del grifo, por favor?",
+  "answer": [
+   "vaso"
+  ],
+  "ref": "el vaso",
+  "clue_en": "drinking glass",
+  "clue_ru": "стакан",
+  "tr_en": "Could I have a glass of tap water, please?",
+  "tr_ru": "Можно мне стакан воды из-под крана?",
+  "explain_en": "Water is drunk from un vaso; una copa is a wine glass and una taza a cup (both feminine).",
+  "explain_ru": "Воду пьют из vaso; una copa — бокал, una taza — чашка (оба ж. р.).",
+  "id": "g061"
+ },
+ {
+  "kind": "word",
+  "text": "El gato duerme en el ___, debajo de la mesa de la cocina.",
+  "answer": [
+   "suelo"
+  ],
+  "ref": "el suelo",
+  "clue_en": "floor (ground)",
+  "clue_ru": "пол",
+  "tr_en": "The cat sleeps on the floor, under the kitchen table.",
+  "tr_ru": "Кот спит на полу, под кухонным столом.",
+  "explain_en": "El suelo is the surface you walk on; el piso in Spain usually means a flat or a storey.",
+  "explain_ru": "El suelo — пол, по которому ходят; el piso в Испании — обычно квартира или этаж.",
+  "id": "g062"
+ },
+ {
+  "kind": "word",
+  "text": "Paso todo el día sentada en la oficina y por la noche me duele la ___.",
+  "answer": [
+   "espalda"
+  ],
+  "ref": "la espalda",
+  "clue_en": "back (body)",
+  "clue_ru": "спина",
+  "tr_en": "I spend all day sitting in the office and at night my back hurts.",
+  "tr_ru": "Я весь день сижу в офисе, и вечером у меня болит спина.",
+  "explain_en": "La espalda is the back of the body; with doler Spanish uses the article, not a possessive.",
+  "explain_ru": "La espalda — спина; с doler используется артикль, а не притяжательное: me duele la espalda.",
+  "id": "g063"
+ },
+ {
+  "kind": "word",
+  "text": "La niña cuenta con los ___ de las manos: uno, dos, tres...",
+  "answer": [
+   "dedos"
+  ],
+  "ref": "el dedo",
+  "clue_en": "finger",
+  "clue_ru": "палец",
+  "tr_en": "The little girl counts on the fingers of her hands: one, two, three...",
+  "tr_ru": "Девочка считает на пальцах: раз, два, три...",
+  "explain_en": "El dedo covers both fingers and toes (dedos de los pies).",
+  "explain_ru": "El dedo — палец и на руке, и на ноге (dedos de los pies), как в русском.",
+  "id": "g064"
+ },
+ {
+  "kind": "word",
+  "text": "Este perro tiene las ___ tan largas que casi tocan el suelo.",
+  "answer": [
+   "orejas"
+  ],
+  "ref": "la oreja",
+  "clue_en": "ear (outer)",
+  "clue_ru": "ухо (наружное)",
+  "tr_en": "This dog has ears so long that they almost touch the ground.",
+  "tr_ru": "У этой собаки такие длинные уши, что почти касаются земли.",
+  "explain_en": "La oreja is the visible outer ear; el oído is the inner ear and the sense of hearing.",
+  "explain_ru": "La oreja — наружное ухо; el oído — внутреннее ухо и слух.",
+  "id": "g065"
+ },
+ {
+  "kind": "word",
+  "text": "Después de correr quince kilómetros, mis amigas están muy ___.",
+  "answer": [
+   "cansadas"
+  ],
+  "ref": "cansado",
+  "clue_en": "tired",
+  "clue_ru": "усталый",
+  "tr_en": "After running fifteen kilometres, my friends are very tired.",
+  "tr_ru": "После пробежки в пятнадцать километров мои подруги очень устали.",
+  "explain_en": "Cansado agrees with 'mis amigas': cansadas. With estar it describes a temporary state.",
+  "explain_ru": "Cansado согласуется с «mis amigas»: cansadas. С estar — временное состояние.",
+  "id": "g066"
+ },
+ {
+  "kind": "word",
+  "text": "Esta camisa está ___: tiene una mancha de café. Tengo que lavarla.",
+  "answer": [
+   "sucia"
+  ],
+  "ref": "sucio",
+  "clue_en": "dirty",
+  "clue_ru": "грязный",
+  "tr_en": "This shirt is dirty: it has a coffee stain. I have to wash it.",
+  "tr_ru": "Эта рубашка грязная: на ней пятно от кофе. Надо её постирать.",
+  "explain_en": "Sucio agrees with camisa (feminine): sucia. Its opposite is limpio.",
+  "explain_ru": "Sucio согласуется с camisa (ж. р.): sucia. Противоположное — limpio.",
+  "id": "g067"
+ },
+ {
+  "kind": "word",
+  "text": "En el mercado las naranjas son muy ___: un kilo cuesta solo un euro.",
+  "answer": [
+   "baratas"
+  ],
+  "ref": "barato",
+  "clue_en": "cheap",
+  "clue_ru": "дешёвый",
+  "tr_en": "At the market oranges are very cheap: a kilo costs only one euro.",
+  "tr_ru": "На рынке апельсины очень дешёвые: килограмм стоит всего один евро.",
+  "explain_en": "Barato agrees with naranjas: baratas. Its opposite is caro.",
+  "explain_ru": "Barato согласуется с naranjas: baratas. Противоположное — caro.",
+  "id": "g068"
+ },
+ {
+  "kind": "word",
+  "text": "El aeropuerto está muy ___ del centro: tardamos una hora en autobús.",
+  "answer": [
+   "lejos"
+  ],
+  "ref": "lejos",
+  "clue_en": "far",
+  "clue_ru": "далеко",
+  "tr_en": "The airport is very far from the centre: it takes us an hour by bus.",
+  "tr_ru": "Аэропорт очень далеко от центра: на автобусе мы едем час.",
+  "explain_en": "Lejos de = far from; its opposite is cerca de. It is an adverb and does not agree.",
+  "explain_ru": "Lejos de — далеко от; противоположное — cerca de. Это наречие, оно не изменяется.",
+  "id": "g069"
+ },
+ {
+  "kind": "word",
+  "text": "Mi padre es panadero y se levanta muy ___, a las cuatro de la mañana.",
+  "answer": [
+   "temprano",
+   "pronto"
+  ],
+  "ref": "temprano",
+  "clue_en": "early",
+  "clue_ru": "рано",
+  "tr_en": "My father is a baker and gets up very early, at four in the morning.",
+  "tr_ru": "Мой отец пекарь и встаёт очень рано, в четыре утра.",
+  "explain_en": "Temprano = early (opposite of tarde); in Spain pronto is also used in this sense.",
+  "explain_ru": "Temprano — рано (противоположное tarde); в Испании в этом значении говорят и pronto.",
+  "id": "g070"
+ },
+ {
+  "kind": "word",
+  "text": "En España la ___ es muy tarde, a las nueve o a las diez de la noche.",
+  "answer": [
+   "cena"
+  ],
+  "ref": "la cena",
+  "clue_en": "dinner, supper",
+  "clue_ru": "ужин",
+  "tr_en": "In Spain dinner is very late, at nine or ten at night.",
+  "tr_ru": "В Испании ужинают очень поздно, в девять или в десять вечера.",
+  "explain_en": "La cena is the evening meal; la comida is the main midday meal.",
+  "explain_ru": "La cena — вечерняя еда; la comida — основной приём пищи в середине дня.",
+  "id": "g071"
+ },
+ {
+  "kind": "word",
+  "text": "Mañana es el ___ de mi abuela: cumple ochenta años y hacemos una fiesta.",
+  "answer": [
+   "cumpleaños"
+  ],
+  "ref": "el cumpleaños",
+  "clue_en": "birthday",
+  "clue_ru": "день рождения",
+  "tr_en": "Tomorrow is my grandmother's birthday: she turns eighty and we're having a party.",
+  "tr_ru": "Завтра у бабушки день рождения: ей исполняется восемьдесят, и мы устраиваем праздник.",
+  "explain_en": "El cumpleaños (one word, same in singular and plural) comes from cumplir años, to turn an age.",
+  "explain_ru": "El cumpleaños — одно слово (от cumplir años — исполняться годам), одинаково в ед. и мн. ч.",
+  "id": "g072"
+ },
+ {
+  "kind": "word",
+  "text": "¿Cuál es la ___ de hoy? —Es el tres de mayo.",
+  "answer": [
+   "fecha"
+  ],
+  "ref": "la fecha",
+  "clue_en": "date (calendar)",
+  "clue_ru": "дата, число",
+  "tr_en": "What's the date today? —It's the third of May.",
+  "tr_ru": "Какое сегодня число? — Третье мая.",
+  "explain_en": "La fecha is a calendar date; a romantic date is una cita.",
+  "explain_ru": "La fecha — календарная дата; свидание — una cita.",
+  "id": "g073"
+ },
+ {
+  "kind": "word",
+  "text": "Mi ___ decide quién trabaja el sábado en la oficina.",
+  "answer": [
+   "jefe"
+  ],
+  "ref": "el jefe",
+  "clue_en": "boss",
+  "clue_ru": "начальник",
+  "tr_en": "My boss decides who works on Saturday at the office.",
+  "tr_ru": "Мой начальник решает, кто работает в субботу в офисе.",
+  "explain_en": "El jefe (feminine la jefa) is the person in charge at work.",
+  "explain_ru": "El jefe (ж. р. la jefa) — начальник на работе.",
+  "id": "g074"
+ },
+ {
+  "kind": "word",
+  "text": "El profesor escribe la fecha en la ___ con una tiza blanca.",
+  "answer": [
+   "pizarra"
+  ],
+  "ref": "la pizarra",
+  "clue_en": "blackboard",
+  "clue_ru": "доска (школьная)",
+  "tr_en": "The teacher writes the date on the blackboard with white chalk.",
+  "tr_ru": "Учитель пишет дату на доске белым мелом.",
+  "explain_en": "The classroom board is la pizarra; a wooden plank is una tabla.",
+  "explain_ru": "Школьная доска — la pizarra; деревянная доска — una tabla.",
+  "id": "g075"
+ },
+ {
+  "kind": "word",
+  "text": "Nuestra ___ es un conejo blanco que se llama Copo.",
+  "answer": [
+   "mascota"
+  ],
+  "ref": "la mascota",
+  "clue_en": "pet",
+  "clue_ru": "домашний питомец",
+  "tr_en": "Our pet is a white rabbit called Copo.",
+  "tr_ru": "Наш питомец — белый кролик по кличке Копо.",
+  "explain_en": "La mascota is any pet; it is always feminine, even for a male animal.",
+  "explain_ru": "La mascota — любой питомец; слово всегда ж. р., даже для самца.",
+  "id": "g076"
+ },
+ {
+  "kind": "word",
+  "text": "Tienes fiebre y te duele la garganta: ___ ir al médico hoy mismo.",
+  "answer": [
+   "debes"
+  ],
+  "ref": "deber",
+  "clue_en": "must, should",
+  "clue_ru": "быть должным",
+  "tr_en": "You have a temperature and a sore throat: you must go to the doctor today.",
+  "tr_ru": "У тебя температура и болит горло: тебе нужно сегодня же пойти к врачу.",
+  "explain_en": "Deber + infinitive (no preposition) = should/must; tú → debes.",
+  "explain_ru": "Deber + инфинитив (без предлога) — «должен, следует»; tú → debes.",
+  "id": "g077"
+ },
+ {
+  "kind": "word",
+  "text": "Mi hermano mayor me ___ con los deberes de matemáticas.",
+  "answer": [
+   "ayuda"
+  ],
+  "ref": "ayudar",
+  "clue_en": "to help",
+  "clue_ru": "помогать",
+  "tr_en": "My older brother helps me with my maths homework.",
+  "tr_ru": "Старший брат помогает мне с домашним заданием по математике.",
+  "explain_en": "Ayudar takes a direct object (me ayuda) and con for the task.",
+  "explain_ru": "Ayudar: «me ayuda» — помогает мне; задание вводится предлогом con.",
+  "id": "g078"
+ },
+ {
+  "kind": "word",
+  "text": "La farmacia de la plaza está ___ toda la noche, también los domingos.",
+  "answer": [
+   "abierta"
+  ],
+  "ref": "abierto",
+  "clue_en": "open",
+  "clue_ru": "открытый",
+  "tr_en": "The pharmacy on the square is open all night, on Sundays too.",
+  "tr_ru": "Аптека на площади открыта всю ночь, и по воскресеньям тоже.",
+  "explain_en": "Abierto agrees with farmacia: abierta; estar abierto is a state.",
+  "explain_ru": "Abierto согласуется с farmacia: abierta; estar abierto — состояние.",
+  "id": "g079"
+ },
+ {
+  "kind": "word",
+  "text": "¿Puedo pagar con ___? —Lo siento, aquí solo aceptamos dinero en efectivo.",
+  "answer": [
+   "tarjeta"
+  ],
+  "ref": "la tarjeta",
+  "clue_en": "(bank) card",
+  "clue_ru": "банковская карта",
+  "tr_en": "Can I pay by card? —Sorry, here we only accept cash.",
+  "tr_ru": "Можно заплатить картой? — Извините, у нас только наличные.",
+  "explain_en": "A bank card is la tarjeta; un mapa is a geographical map. Pagar con tarjeta, without an article.",
+  "explain_ru": "Банковская карта — la tarjeta; географическая карта — el mapa. Pagar con tarjeta — без артикля.",
+  "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronunciation-spelling",
+  "text": "—¿Eres tú el hermano de Lucía? —___, soy yo. Encantado.",
+  "answer": [
+   "Sí"
+  ],
+  "tr_en": "—Are you Lucía's brother? —Yes, it's me. Nice to meet you.",
+  "tr_ru": "— Ты брат Лусии? — Да, это я. Очень приятно.",
+  "explain_en": "'Yes' is sí with a written accent; si without it means 'if'.",
+  "explain_ru": "«Да» — sí со знаком ударения; si без него значит «если».",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronunciation-spelling",
+  "text": "Madre ___ hija trabajan juntas en la tienda del pueblo.",
+  "answer": [
+   "e"
+  ],
+  "tr_en": "Mother and daughter work together in the village shop.",
+  "tr_ru": "Мать и дочь вместе работают в деревенском магазине.",
+  "explain_en": "Y becomes e before a word starting with the sound [i] (i-, hi-): madre e hija.",
+  "explain_ru": "Союз y перед словом, начинающимся со звука [i] (i-, hi-), превращается в e: madre e hija.",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronunciation-spelling",
+  "text": "En la foto hay siete ___ ocho niños, no lo sé exactamente.",
+  "answer": [
+   "u"
+  ],
+  "tr_en": "In the photo there are seven or eight children, I don't know exactly.",
+  "tr_ru": "На фото семь или восемь детей, точно не знаю.",
+  "explain_en": "O becomes u before a word starting with the sound [o] (o-, ho-): siete u ocho.",
+  "explain_ru": "Союз o перед словом на звук [o] (o-, ho-) превращается в u: siete u ocho.",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-number-articles",
+  "text": "___ agua de este río está muy fría incluso en verano.",
+  "answer": [
+   "El"
+  ],
+  "tr_en": "The water in this river is very cold even in summer.",
+  "tr_ru": "Вода в этой реке очень холодная даже летом.",
+  "explain_en": "Agua is feminine (fría), but takes el because it starts with a stressed a-.",
+  "explain_ru": "Agua — ж. р. (fría), но перед ударным a- берёт артикль el.",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-number-articles",
+  "text": "___ problema más grande de mi coche es el motor, no las ruedas.",
+  "answer": [
+   "El"
+  ],
+  "tr_en": "The biggest problem with my car is the engine, not the wheels.",
+  "tr_ru": "Самая большая проблема моей машины — двигатель, а не колёса.",
+  "explain_en": "Problema ends in -a but is masculine (from Greek), like el día, el mapa.",
+  "explain_ru": "Problema оканчивается на -a, но мужского рода (греческое слово), как el día, el mapa.",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-number-articles",
+  "text": "___ manos de mi abuela están siempre frías.",
+  "answer": [
+   "Las"
+  ],
+  "tr_en": "My grandmother's hands are always cold.",
+  "tr_ru": "У моей бабушки всегда холодные руки.",
+  "explain_en": "Mano ends in -o but is feminine: la mano, las manos (frías agrees).",
+  "explain_ru": "Mano оканчивается на -o, но женского рода: la mano, las manos (frías согласуется).",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-number-articles",
+  "text": "La casa ___ abuelo de Pedro es muy antigua.",
+  "answer": [
+   "del"
+  ],
+  "tr_en": "Pedro's grandfather's house is very old.",
+  "tr_ru": "Дом дедушки Педро очень старый.",
+  "explain_en": "De + el contracts to del. Spanish expresses possession with de, where Russian uses the genitive.",
+  "explain_ru": "De + el сливаются в del. Принадлежность выражается через de, в русском — родительным падежом.",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-number-articles",
+  "text": "Mi hermana es ___ médica muy buena: todos sus pacientes la quieren.",
+  "answer": [
+   "una"
+  ],
+  "tr_en": "My sister is a very good doctor: all her patients love her.",
+  "tr_ru": "Моя сестра — очень хороший врач: все пациенты её любят.",
+  "explain_en": "A bare profession takes no article (es médica), but with an adjective it needs one: es una médica muy buena.",
+  "explain_ru": "Профессия без определения идёт без артикля (es médica), а с прилагательным нужен артикль: una médica muy buena.",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "section": "ser-vs-estar",
+  "text": "La sopa ___ fría; ¿la calientas un poco en el microondas?",
+  "answer": [
+   "está"
+  ],
+  "tr_en": "The soup is cold; will you heat it up a bit in the microwave?",
+  "tr_ru": "Суп остыл; подогреешь его немного в микроволновке?",
+  "explain_en": "A temporary state of something takes estar: la sopa está fría (it has gone cold).",
+  "explain_ru": "Временное состояние — estar: la sopa está fría (суп остыл). В русском «быть» опускается.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "section": "ser-vs-estar",
+  "text": "—¿Dónde ___ la fiesta de Ana? —En su casa, a las nueve.",
+  "answer": [
+   "es"
+  ],
+  "tr_en": "—Where is Ana's party? —At her house, at nine.",
+  "tr_ru": "— Где будет вечеринка Аны? — У неё дома, в девять.",
+  "explain_en": "The location of an event (party, concert, meeting) takes ser, not estar.",
+  "explain_ru": "Место события (праздник, концерт, встреча) выражается через ser, а не estar.",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "section": "ser-vs-estar",
+  "text": "Perdone, ¿dónde ___ los servicios, por favor?",
+  "answer": [
+   "están"
+  ],
+  "tr_en": "Excuse me, where are the toilets, please?",
+  "tr_ru": "Извините, где здесь туалет?",
+  "explain_en": "The location of things or people takes estar: ¿dónde están...?",
+  "explain_ru": "Местонахождение предметов и людей — estar: ¿dónde están...?",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "section": "ser-vs-estar",
+  "text": "Hoy Lucía ___ guapísima con ese vestido nuevo.",
+  "answer": [
+   "está"
+  ],
+  "tr_en": "Lucía looks gorgeous today in that new dress.",
+  "tr_ru": "Сегодня Лусия просто красавица в этом новом платье.",
+  "explain_en": "'Hoy' and 'con ese vestido' show how she looks now, so estar; es guapa would be a permanent feature.",
+  "explain_ru": "«Hoy» и «con ese vestido» указывают на то, как она выглядит сейчас, — estar; es guapa — постоянная черта.",
+  "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-regular-verbs",
+  "text": "Perdone, señora, ¿habla ___ inglés o solo español?",
+  "answer": [
+   "usted"
+  ],
+  "tr_en": "Excuse me, madam, do you speak English or only Spanish?",
+  "tr_ru": "Извините, сеньора, вы говорите по-английски или только по-испански?",
+  "explain_en": "Formal 'you' to one person is usted, with the third-person verb (habla).",
+  "explain_ru": "Вежливое «вы» одному человеку — usted с глаголом в 3-м лице (habla).",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-regular-verbs",
+  "text": "Perdonen, señores, ¿viven ___ en este edificio?",
+  "answer": [
+   "ustedes"
+  ],
+  "tr_en": "Excuse me, gentlemen, do you live in this building?",
+  "tr_ru": "Простите, господа, вы живёте в этом доме?",
+  "explain_en": "Formal plural 'you' is ustedes with the ellos form (viven); vosotros would need vivís.",
+  "explain_ru": "Вежливое «вы» во мн. ч. — ustedes с формой ellos (viven); с vosotros был бы vivís.",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "section": "irregular-verbs-present",
+  "text": "Mañana tengo ___ levantarme a las seis para coger el tren.",
+  "answer": [
+   "que"
+  ],
+  "tr_en": "Tomorrow I have to get up at six to catch the train.",
+  "tr_ru": "Завтра мне нужно встать в шесть, чтобы успеть на поезд.",
+  "explain_en": "Obligation: tener que + infinitive.",
+  "explain_ru": "Обязанность: tener que + инфинитив («должен, надо»).",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "section": "irregular-verbs-present",
+  "text": "Mis primos vienen ___ Sevilla, que está a cinco horas de aquí en coche.",
+  "answer": [
+   "de"
+  ],
+  "tr_en": "My cousins are coming from Seville, which is five hours from here by car.",
+  "tr_ru": "Мои двоюродные братья едут из Севильи, а это пять часов отсюда на машине.",
+  "explain_en": "Venir de = to come from a place.",
+  "explain_ru": "Venir de — приезжать откуда-то.",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "section": "irregular-verbs-present",
+  "text": "Normalmente voy a la universidad ___ metro, pero hoy voy andando.",
+  "answer": [
+   "en"
+  ],
+  "tr_en": "I usually go to university by metro, but today I'm walking.",
+  "tr_ru": "Обычно я езжу в университет на метро, но сегодня иду пешком.",
+  "explain_en": "Means of transport: ir en metro, en coche, en tren (but a pie / andando).",
+  "explain_ru": "Транспорт: ir en metro, en coche, en tren (но a pie / andando). В русском — «на».",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "section": "irregular-verbs-present",
+  "text": "Los viernes salgo ___ mis compañeros de trabajo a tomar algo.",
+  "answer": [
+   "con"
+  ],
+  "tr_en": "On Fridays I go out with my colleagues for a drink.",
+  "tr_ru": "По пятницам я хожу с коллегами куда-нибудь выпить.",
+  "explain_en": "Salir con alguien = to go out with someone.",
+  "explain_ru": "Salir con alguien — выходить, проводить время с кем-то.",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjectives-possessives",
+  "text": "Señor López, ¿este paraguas es ___? Está aquí desde ayer.",
+  "answer": [
+   "suyo"
+  ],
+  "tr_en": "Mr López, is this umbrella yours? It has been here since yesterday.",
+  "tr_ru": "Сеньор Лопес, это ваш зонт? Он здесь со вчерашнего дня.",
+  "explain_en": "Speaking formally (usted), 'yours' after ser is suyo (agreeing with paraguas), not tuyo.",
+  "explain_ru": "При обращении на usted «ваш» после ser — suyo (согласуется с paraguas), а не tuyo.",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjectives-possessives",
+  "text": "—Chicos, ¿es ___ este perro? —Sí, es nuestro; se llama Toby.",
+  "answer": [
+   "vuestro"
+  ],
+  "tr_en": "—Guys, is this dog yours? —Yes, it's ours; it's called Toby.",
+  "tr_ru": "— Ребята, это ваша собака? — Да, наша; его зовут Тоби.",
+  "explain_en": "Addressing several people informally (vosotros), 'yours' is vuestro, agreeing with perro.",
+  "explain_ru": "Обращение к нескольким на «ты» (vosotros): «ваш» — vuestro, согласуется с perro.",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjectives-possessives",
+  "text": "Esta casa no es de mis padres, es ___: la compramos mi marido y yo el año pasado.",
+  "answer": [
+   "nuestra"
+  ],
+  "tr_en": "This house isn't my parents', it's ours: my husband and I bought it last year.",
+  "tr_ru": "Этот дом не моих родителей, он наш: мы с мужем купили его в прошлом году.",
+  "explain_en": "Owners = mi marido y yo (we); nuestro agrees with casa: nuestra.",
+  "explain_ru": "Владельцы — «мы с мужем»; nuestro согласуется с casa: nuestra.",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "¿___ es tu número de teléfono? Te llamo esta tarde.",
+  "answer": [
+   "Cuál"
+  ],
+  "tr_en": "What is your phone number? I'll call you this afternoon.",
+  "tr_ru": "Какой у тебя номер телефона? Я позвоню тебе сегодня днём.",
+  "explain_en": "Before ser asking for one item from a set (number, name, address) Spanish uses cuál, not qué.",
+  "explain_ru": "Перед ser, когда спрашивают о конкретном варианте (номер, адрес), используется cuál, а не qué.",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "¿___ años tiene tu hija pequeña?",
+  "answer": [
+   "Cuántos"
+  ],
+  "tr_en": "How old is your younger daughter?",
+  "tr_ru": "Сколько лет твоей младшей дочери?",
+  "explain_en": "Age: ¿cuántos años tiene? — cuánto agrees with años (masculine plural).",
+  "explain_ru": "Возраст: ¿cuántos años tiene? — cuánto согласуется с años (м. р. мн. ч.).",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "No entiendo absolutamente ___ cuando el profesor habla tan rápido.",
+  "answer": [
+   "nada"
+  ],
+  "tr_en": "I understand absolutely nothing when the teacher speaks so fast.",
+  "tr_ru": "Я абсолютно ничего не понимаю, когда учитель говорит так быстро.",
+  "explain_en": "Double negation: no entiendo nada, exactly like Russian.",
+  "explain_ru": "Двойное отрицание: no entiendo nada — как в русском «ничего не понимаю».",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "Llamo a la puerta varias veces, pero no contesta ___.",
+  "answer": [
+   "nadie"
+  ],
+  "tr_en": "I knock on the door several times, but nobody answers.",
+  "tr_ru": "Я несколько раз стучу в дверь, но никто не отвечает.",
+  "explain_en": "Nadie after the verb needs no before it: no contesta nadie.",
+  "explain_ru": "Если nadie стоит после глагола, перед глаголом нужно no: no contesta nadie — как «никто не отвечает».",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "—Yo no como carne. —Yo ___; soy vegetariana desde hace años.",
+  "answer": [
+   "tampoco"
+  ],
+  "tr_en": "—I don't eat meat. —Neither do I; I've been a vegetarian for years.",
+  "tr_ru": "— Я не ем мясо. — Я тоже; я уже много лет вегетарианка.",
+  "explain_en": "Agreeing with a negative statement uses tampoco, not también.",
+  "explain_ru": "Согласие с отрицанием — tampoco, а не también. В русском в обоих случаях «тоже».",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "¿___ qué hora empieza la película? —A las diez.",
+  "answer": [
+   "A"
+  ],
+  "tr_en": "What time does the film start? —At ten.",
+  "tr_ru": "Во сколько начинается фильм? — В десять.",
+  "explain_en": "The preposition goes in front of the question word: ¿A qué hora...? (answer: a las diez).",
+  "explain_ru": "Предлог стоит перед вопросительным словом: ¿A qué hora...? (ответ: a las diez).",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "¿___ dónde es tu marido? —De Bilbao, pero vive aquí.",
+  "answer": [
+   "De"
+  ],
+  "tr_en": "Where is your husband from? —From Bilbao, but he lives here.",
+  "tr_ru": "Откуда твой муж? — Из Бильбао, но живёт здесь.",
+  "explain_en": "Origin: ¿De dónde es? — the preposition de goes at the start of the question.",
+  "explain_ru": "Происхождение: ¿De dónde es? — предлог de стоит в начале вопроса.",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "section": "hay-location-demonstratives",
+  "text": "Perdone, ¿dónde ___ la farmacia de guardia?",
+  "answer": [
+   "está"
+  ],
+  "tr_en": "Excuse me, where is the duty pharmacy?",
+  "tr_ru": "Извините, где дежурная аптека?",
+  "explain_en": "With a definite noun (la farmacia) we ask where it is with estar; hay is for unknown things.",
+  "explain_ru": "С определённым существительным (la farmacia) спрашиваем через estar; hay — для неизвестных предметов.",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "section": "hay-location-demonstratives",
+  "text": "El gato está ___ la cama y la pared, y no puedo sacarlo.",
+  "answer": [
+   "entre"
+  ],
+  "tr_en": "The cat is between the bed and the wall, and I can't get it out.",
+  "tr_ru": "Кот между кроватью и стеной, и я не могу его достать.",
+  "explain_en": "Entre X y Y = between X and Y.",
+  "explain_ru": "Entre X y Y — между X и Y.",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "section": "gustar-and-similar-verbs",
+  "text": "A mis padres ___ gusta mucho el teatro clásico.",
+  "answer": [
+   "les"
+  ],
+  "tr_en": "My parents really like classical theatre.",
+  "tr_ru": "Моим родителям очень нравится классический театр.",
+  "explain_en": "The person who likes is an indirect object: a mis padres → les (plural), even with a mis padres stated.",
+  "explain_ru": "Тот, кому нравится, — косвенное дополнение: a mis padres → les (мн. ч.); местоимение нужно даже при «a mis padres».",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "section": "gustar-and-similar-verbs",
+  "text": "—No me gusta nada el café. —Pues a mí ___; lo tomo todos los días.",
+  "answer": [
+   "sí"
+  ],
+  "tr_en": "—I don't like coffee at all. —Well, I do; I drink it every day.",
+  "tr_ru": "— Я совсем не люблю кофе. — А я люблю: пью его каждый день.",
+  "explain_en": "Disagreeing with a negative statement: a mí sí.",
+  "explain_ru": "Несогласие с отрицательным высказыванием: a mí sí («а мне — да»).",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "section": "gustar-and-similar-verbs",
+  "text": "A Juan le encanta el fútbol, y a mí ___: vamos juntos al estadio.",
+  "answer": [
+   "también"
+  ],
+  "tr_en": "Juan loves football, and so do I: we go to the stadium together.",
+  "tr_ru": "Хуан обожает футбол, и я тоже: мы вместе ходим на стадион.",
+  "explain_en": "Agreeing with a positive gustar-type statement: a mí también.",
+  "explain_ru": "Согласие с утвердительным высказыванием: a mí también.",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "section": "gustar-and-similar-verbs",
+  "text": "___ Pedro le duele la cabeza desde esta mañana.",
+  "answer": [
+   "A"
+  ],
+  "tr_en": "Pedro has had a headache since this morning.",
+  "tr_ru": "У Педро с утра болит голова.",
+  "explain_en": "The person with gustar-type verbs is introduced by a: a Pedro le duele.",
+  "explain_ru": "Лицо при глаголах типа gustar вводится предлогом a: a Pedro le duele (ср. «Педро болит» — нельзя).",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "section": "gustar-and-similar-verbs",
+  "text": "—¿Os gusta la paella? —Sí, ___ encanta; la comemos todos los domingos.",
+  "answer": [
+   "nos"
+  ],
+  "tr_en": "—Do you (guys) like paella? —Yes, we love it; we have it every Sunday.",
+  "tr_ru": "— Вам нравится паэлья? — Да, очень: мы едим её каждое воскресенье.",
+  "explain_en": "The answer to os gusta is about us: nos encanta.",
+  "explain_ru": "Ответ на «os gusta» — о нас: nos encanta.",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "section": "numbers-time-future-reflexives",
+  "text": "—¿Qué hora es? —Es ___ una y media.",
+  "answer": [
+   "la"
+  ],
+  "tr_en": "—What time is it? —It's half past one.",
+  "tr_ru": "— Который час? — Половина второго.",
+  "explain_en": "One o'clock is singular: es la una; other hours are son las dos, son las tres.",
+  "explain_ru": "С часом — ед. ч.: es la una; с остальными — son las dos, son las tres.",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "section": "numbers-time-future-reflexives",
+  "text": "Mira esas nubes negras: creo que ___ a llover.",
+  "answer": [
+   "va"
+  ],
+  "tr_en": "Look at those black clouds: I think it's going to rain.",
+  "tr_ru": "Посмотри на эти чёрные тучи: по-моему, сейчас пойдёт дождь.",
+  "explain_en": "Near future with ir a + infinitive; impersonal llover uses the third person: va a llover.",
+  "explain_ru": "Ближайшее будущее: ir a + инфинитив; безличное llover — в 3-м лице: va a llover.",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "section": "numbers-time-future-reflexives",
+  "text": "Hola, ¿cómo ___ llamas? —Me llamo Daniel.",
+  "answer": [
+   "te"
+  ],
+  "tr_en": "Hi, what's your name? —My name is Daniel.",
+  "tr_ru": "Привет, как тебя зовут? — Меня зовут Даниэль.",
+  "explain_en": "Llamarse is reflexive: (tú) te llamas.",
+  "explain_ru": "Llamarse — возвратный глагол: (tú) te llamas. Буквально «как ты себя называешь».",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "section": "numbers-time-future-reflexives",
+  "text": "Los sábados mis hijos y yo ___ levantamos tarde y desayunamos churros.",
+  "answer": [
+   "nos"
+  ],
+  "tr_en": "On Saturdays my children and I get up late and have churros for breakfast.",
+  "tr_ru": "По субботам мы с детьми встаём поздно и завтракаем чуррос.",
+  "explain_en": "The reflexive pronoun matches the subject: nosotros → nos levantamos.",
+  "explain_ru": "Возвратное местоимение совпадает с подлежащим: nosotros → nos levantamos.",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "¿De ___ es esta chaqueta? —Es de Marta.",
+  "answer": [
+   "quién"
+  ],
+  "tr_en": "Whose jacket is this? —It's Marta's.",
+  "tr_ru": "Чья это куртка? — Марты.",
+  "explain_en": "'Whose?' is ¿de quién?; Spanish has no single word for it.",
+  "explain_ru": "«Чей?» — ¿de quién?; отдельного слова, как русское «чей», нет.",
+  "id": "g120"
+ }
+]

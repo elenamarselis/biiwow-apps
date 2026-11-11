@@ -1,0 +1,1544 @@
+[
+ {
+  "kind": "form",
+  "text": "By the time we got to the cinema, the film had already ___.",
+  "answer": [
+   "begun"
+  ],
+  "lemma": "begin",
+  "tr_ru": "К тому времени, как мы добрались до кинотеатра, фильм уже начался.",
+  "explain_en": "Past perfect (had + past participle) for the earlier action; begin – began – begun.",
+  "explain_ru": "Past Perfect (had + третья форма) для более раннего действия; begin – began – begun.",
+  "id": "g001"
+ },
+ {
+  "kind": "form",
+  "text": "At the airport I realised I had ___ my passport at home.",
+  "answer": [
+   "left"
+  ],
+  "lemma": "leave",
+  "tr_ru": "В аэропорту я понял, что оставил паспорт дома.",
+  "explain_en": "Leaving happened before realising, so past perfect: had left.",
+  "explain_ru": "Оставил раньше, чем понял, поэтому Past Perfect: had left.",
+  "id": "g002"
+ },
+ {
+  "kind": "form",
+  "text": "She was exhausted because she had ___ all night without a break.",
+  "answer": [
+   "driven"
+  ],
+  "lemma": "drive",
+  "tr_ru": "Она была измотана, потому что всю ночь ехала за рулём без перерыва.",
+  "explain_en": "Past perfect explains the earlier cause; drive – drove – driven.",
+  "explain_ru": "Past Perfect объясняет более раннюю причину; drive – drove – driven.",
+  "id": "g003"
+ },
+ {
+  "kind": "form",
+  "text": "When I finally arrived at the party, most of the guests had already ___ home.",
+  "answer": [
+   "gone"
+  ],
+  "lemma": "go",
+  "tr_ru": "Когда я наконец пришёл на вечеринку, большинство гостей уже ушли домой.",
+  "explain_en": "Past perfect of go: had gone (they were not there any more).",
+  "explain_ru": "Past Perfect от go: had gone (их там уже не было).",
+  "id": "g004"
+ },
+ {
+  "kind": "form",
+  "text": "This bridge was ___ in 1890 and is still used today.",
+  "answer": [
+   "built"
+  ],
+  "lemma": "build",
+  "tr_ru": "Этот мост был построен в 1890 году и до сих пор используется.",
+  "explain_en": "Passive: was + past participle; build – built – built.",
+  "explain_ru": "Пассив: was + третья форма; build – built – built.",
+  "id": "g005"
+ },
+ {
+  "kind": "form",
+  "text": "This song was ___ by a seventeen-year-old girl in her bedroom.",
+  "answer": [
+   "written"
+  ],
+  "lemma": "write",
+  "tr_ru": "Эту песню написала семнадцатилетняя девушка у себя в спальне.",
+  "explain_en": "Passive with by + agent: was written. Russian often uses an active sentence here.",
+  "explain_ru": "Пассив с by: was written. В русском здесь чаще активная конструкция.",
+  "id": "g006"
+ },
+ {
+  "kind": "form",
+  "text": "The burglar was ___ by the police two days later.",
+  "answer": [
+   "caught"
+  ],
+  "lemma": "catch",
+  "tr_ru": "Через два дня грабителя поймала полиция.",
+  "explain_en": "Passive past: was + past participle; catch – caught – caught.",
+  "explain_ru": "Пассив в прошедшем: was + третья форма; catch – caught – caught.",
+  "id": "g007"
+ },
+ {
+  "kind": "form",
+  "text": "The paintings were ___ from the museum in the middle of the night.",
+  "answer": [
+   "stolen"
+  ],
+  "lemma": "steal",
+  "tr_ru": "Картины украли из музея посреди ночи.",
+  "explain_en": "Passive: were + past participle; steal – stole – stolen.",
+  "explain_ru": "Пассив: were + третья форма; steal – stole – stolen. В русском — неопределённо-личное «украли».",
+  "id": "g008"
+ },
+ {
+  "kind": "form",
+  "text": "Portuguese, not Spanish, is ___ in Brazil.",
+  "answer": [
+   "spoken"
+  ],
+  "lemma": "speak",
+  "tr_ru": "В Бразилии говорят на португальском, а не на испанском.",
+  "explain_en": "Present passive: is + past participle; speak – spoke – spoken.",
+  "explain_ru": "Пассив в настоящем: is + третья форма; speak – spoke – spoken. Русское «говорят» = is spoken.",
+  "id": "g009"
+ },
+ {
+  "kind": "form",
+  "text": "If I ___ you, I'd apologise to her before it's too late.",
+  "answer": [
+   "were",
+   "was"
+  ],
+  "lemma": "be",
+  "tr_ru": "На твоём месте я бы извинился перед ней, пока не поздно.",
+  "explain_en": "Second conditional advice: If I were you (was is informal).",
+  "explain_ru": "Второй тип условных: If I were you — «на твоём месте» (was — разговорный вариант).",
+  "id": "g010"
+ },
+ {
+  "kind": "form",
+  "text": "If we ___ a car, we could visit my grandparents more often.",
+  "answer": [
+   "had"
+  ],
+  "lemma": "have",
+  "tr_ru": "Если бы у нас была машина, мы могли бы чаще навещать бабушку с дедушкой.",
+  "explain_en": "Second conditional: if + past simple, could/would + verb.",
+  "explain_ru": "Второй тип: if + Past Simple, could/would + глагол. В русском «если бы была».",
+  "id": "g011"
+ },
+ {
+  "kind": "form",
+  "text": "If you heat ice, it ___.",
+  "answer": [
+   "melts"
+  ],
+  "lemma": "melt",
+  "tr_ru": "Если нагреть лёд, он тает.",
+  "explain_en": "Zero conditional (general truth): present simple in both parts; it → melts.",
+  "explain_ru": "Нулевой тип (общая истина): Present Simple в обеих частях; it → melts.",
+  "id": "g012"
+ },
+ {
+  "kind": "form",
+  "text": "If it ___ tomorrow, we'll have the party indoors.",
+  "answer": [
+   "rains"
+  ],
+  "lemma": "rain",
+  "tr_ru": "Если завтра будет дождь, мы устроим вечеринку в помещении.",
+  "explain_en": "First conditional: if + present simple (not will), even about the future.",
+  "explain_ru": "Первый тип: после if Present Simple (не will), хотя по-русски «будет».",
+  "id": "g013"
+ },
+ {
+  "kind": "form",
+  "text": "What would you do if you ___ the lottery?",
+  "answer": [
+   "won"
+  ],
+  "lemma": "win",
+  "tr_ru": "Что бы ты сделал, если бы выиграл в лотерею?",
+  "explain_en": "Second conditional: if + past simple; win → won.",
+  "explain_ru": "Второй тип: if + Past Simple; win → won.",
+  "id": "g014"
+ },
+ {
+  "kind": "form",
+  "text": "She told me she ___ too tired to come out, and then she went to bed.",
+  "answer": [
+   "was"
+  ],
+  "lemma": "be",
+  "tr_ru": "Она сказала мне, что слишком устала, чтобы куда-то идти, и легла спать.",
+  "explain_en": "Reported speech after a past verb: am → was (backshift).",
+  "explain_ru": "Косвенная речь после глагола в прошедшем: am → was (сдвиг времён; в русском времена не сдвигаются).",
+  "id": "g015"
+ },
+ {
+  "kind": "form",
+  "text": "He said he ___ call me the next day, but he never did.",
+  "answer": [
+   "would"
+  ],
+  "lemma": "will",
+  "tr_ru": "Он сказал, что позвонит мне на следующий день, но так и не позвонил.",
+  "explain_en": "Reported speech: will → would; 'the next day' replaces tomorrow.",
+  "explain_ru": "Косвенная речь: will → would; the next day вместо tomorrow. По-русски — «позвонит».",
+  "id": "g016"
+ },
+ {
+  "kind": "form",
+  "text": "She said she had ___ to Paris twice before.",
+  "answer": [
+   "been"
+  ],
+  "lemma": "be",
+  "tr_ru": "Она сказала, что уже дважды была в Париже.",
+  "explain_en": "Present perfect becomes past perfect in reported speech: had been.",
+  "explain_ru": "Present Perfect в косвенной речи становится Past Perfect: had been.",
+  "id": "g017"
+ },
+ {
+  "kind": "form",
+  "text": "Tom asked me if I ___ swim, and I said yes.",
+  "answer": [
+   "could"
+  ],
+  "lemma": "can",
+  "tr_ru": "Том спросил меня, умею ли я плавать, и я сказал, что да.",
+  "explain_en": "Reported question: can → could.",
+  "explain_ru": "Косвенный вопрос: can → could.",
+  "id": "g018"
+ },
+ {
+  "kind": "form",
+  "text": "I'm really looking forward to ___ you next week.",
+  "answer": [
+   "seeing"
+  ],
+  "lemma": "see",
+  "tr_ru": "Я очень жду встречи с тобой на следующей неделе.",
+  "explain_en": "In look forward to, 'to' is a preposition, so it is followed by -ing.",
+  "explain_ru": "В look forward to частица to — предлог, поэтому после неё -ing.",
+  "id": "g019"
+ },
+ {
+  "kind": "form",
+  "text": "She avoided ___ him about the accident because she didn't want to upset him.",
+  "answer": [
+   "telling"
+  ],
+  "lemma": "tell",
+  "tr_ru": "Она избегала рассказывать ему об аварии, потому что не хотела его расстраивать.",
+  "explain_en": "Avoid is followed by the -ing form, never by to + infinitive.",
+  "explain_ru": "После avoid — только -ing, а не to + инфинитив (хотя по-русски «избегать рассказывать»).",
+  "id": "g020"
+ },
+ {
+  "kind": "form",
+  "text": "I'm not used to ___ up so early; I usually sleep till nine.",
+  "answer": [
+   "getting"
+  ],
+  "lemma": "get",
+  "tr_ru": "Я не привык вставать так рано; обычно я сплю до девяти.",
+  "explain_en": "Be used to + -ing (to is a preposition); don't confuse it with used to + infinitive.",
+  "explain_ru": "Be used to + -ing — «привыкнуть к» (to — предлог); не путайте с used to + инфинитив.",
+  "id": "g021"
+ },
+ {
+  "kind": "form",
+  "text": "Despite being ill, he managed ___ the exam with a good grade.",
+  "answer": [
+   "to pass"
+  ],
+  "lemma": "pass",
+  "tr_ru": "Несмотря на болезнь, ему удалось сдать экзамен на хорошую оценку.",
+  "explain_en": "Manage is followed by to + infinitive.",
+  "explain_ru": "После manage — to + инфинитив: «удалось сделать».",
+  "id": "g022"
+ },
+ {
+  "kind": "form",
+  "text": "Would you mind ___ the window? It's really hot in here.",
+  "answer": [
+   "opening"
+  ],
+  "lemma": "open",
+  "tr_ru": "Вы не против открыть окно? Здесь очень жарко.",
+  "explain_en": "Mind is followed by the -ing form.",
+  "explain_ru": "После mind — форма -ing.",
+  "id": "g023"
+ },
+ {
+  "kind": "form",
+  "text": "She stopped ___ when she found out she was pregnant.",
+  "answer": [
+   "smoking"
+  ],
+  "lemma": "smoke",
+  "tr_ru": "Она бросила курить, когда узнала, что беременна.",
+  "explain_en": "Stop + -ing = no longer do it; stop + to-infinitive = stop in order to do it.",
+  "explain_ru": "Stop + -ing — «перестать делать»; stop + to — «остановиться, чтобы сделать».",
+  "id": "g024"
+ },
+ {
+  "kind": "form",
+  "text": "I've been ___ for you for an hour! Where have you been?",
+  "answer": [
+   "waiting"
+  ],
+  "lemma": "wait",
+  "tr_ru": "Я жду тебя уже целый час! Где ты был?",
+  "explain_en": "Present perfect continuous: have been + -ing for an action that started in the past and continues now.",
+  "explain_ru": "Present Perfect Continuous: have been + -ing — действие началось в прошлом и длится до сих пор (в русском — настоящее время «жду»).",
+  "id": "g025"
+ },
+ {
+  "kind": "form",
+  "text": "We've ___ each other since primary school.",
+  "answer": [
+   "known"
+  ],
+  "lemma": "know",
+  "tr_ru": "Мы знаем друг друга с начальной школы.",
+  "explain_en": "State verbs like know use the present perfect simple with since; know – knew – known.",
+  "explain_ru": "Глаголы состояния, как know, с since употребляются в Present Perfect; know – knew – known. В русском — настоящее «знаем».",
+  "id": "g026"
+ },
+ {
+  "kind": "form",
+  "text": "Have you ___ the washing-up yet, or shall I do it?",
+  "answer": [
+   "done"
+  ],
+  "lemma": "do",
+  "tr_ru": "Ты уже помыл посуду или мне помыть?",
+  "explain_en": "Present perfect with yet: have + past participle; do – did – done.",
+  "explain_ru": "Present Perfect с yet: have + третья форма; do – did – done.",
+  "id": "g027"
+ },
+ {
+  "kind": "form",
+  "text": "She's ___ her leg, so she can't come skiing with us.",
+  "answer": [
+   "broken"
+  ],
+  "lemma": "break",
+  "tr_ru": "Она сломала ногу, так что не сможет поехать с нами кататься на лыжах.",
+  "explain_en": "She's = she has here (+ past participle), because the result matters now: broken.",
+  "explain_ru": "She's здесь = she has (+ третья форма), так как важен результат сейчас: broken.",
+  "id": "g028"
+ },
+ {
+  "kind": "form",
+  "text": "The ___ you practise, the better you get.",
+  "answer": [
+   "more"
+  ],
+  "lemma": "much",
+  "tr_ru": "Чем больше практикуешься, тем лучше получается.",
+  "explain_en": "The + comparative …, the + comparative: much → more.",
+  "explain_ru": "Конструкция «чем…, тем…»: the + сравнительная степень; much → more.",
+  "id": "g029"
+ },
+ {
+  "kind": "form",
+  "text": "Neither of my parents ___ English, so I translate for them.",
+  "answer": [
+   "speaks"
+  ],
+  "lemma": "speak",
+  "tr_ru": "Никто из моих родителей не говорит по-английски, поэтому я перевожу для них.",
+  "explain_en": "Neither of + plural noun normally takes a singular verb in careful English: speaks.",
+  "explain_ru": "Neither of + существительное во мн. числе в нормативном английском требует глагола в ед. числе: speaks. Отрицания not не нужно — оно уже в neither.",
+  "id": "g030"
+ },
+ {
+  "kind": "form",
+  "text": "Each of the rooms in this hotel ___ its own bathroom.",
+  "answer": [
+   "has"
+  ],
+  "lemma": "have",
+  "tr_ru": "В каждом номере этого отеля есть своя ванная.",
+  "explain_en": "Each is singular, so the verb is has (and its).",
+  "explain_ru": "Each — ед. число, поэтому has (и its).",
+  "id": "g031"
+ },
+ {
+  "kind": "form",
+  "text": "She isn't here yet; she must have ___ the bus.",
+  "answer": [
+   "missed"
+  ],
+  "lemma": "miss",
+  "tr_ru": "Её всё ещё нет; должно быть, она опоздала на автобус.",
+  "explain_en": "Deduction about the past: must have + past participle.",
+  "explain_ru": "Предположение о прошлом: must have + третья форма — «должно быть, …».",
+  "id": "g032"
+ },
+ {
+  "kind": "form",
+  "text": "You should have ___ me you were ill! I would have helped.",
+  "answer": [
+   "told"
+  ],
+  "lemma": "tell",
+  "tr_ru": "Надо было сказать мне, что ты болеешь! Я бы помог.",
+  "explain_en": "Criticism of the past: should have + past participle; tell → told.",
+  "explain_ru": "Упрёк о прошлом: should have + третья форма — «надо было»; tell → told.",
+  "id": "g033"
+ },
+ {
+  "kind": "form",
+  "text": "He can't have ___ the money — he was with me all evening.",
+  "answer": [
+   "taken"
+  ],
+  "lemma": "take",
+  "tr_ru": "Он не мог взять деньги — он весь вечер был со мной.",
+  "explain_en": "Negative deduction about the past: can't have + past participle.",
+  "explain_ru": "Уверенное отрицание о прошлом: can't have + третья форма — «не может быть, чтобы…».",
+  "id": "g034"
+ },
+ {
+  "kind": "form",
+  "text": "The man ___ car was stolen called the police immediately.",
+  "answer": [
+   "whose"
+  ],
+  "lemma": "who",
+  "tr_ru": "Мужчина, у которого угнали машину, сразу позвонил в полицию.",
+  "explain_en": "Possession in a relative clause: whose + noun.",
+  "explain_ru": "Принадлежность в определительном придаточном: whose + существительное («чей, у которого»).",
+  "id": "g035"
+ },
+ {
+  "kind": "form",
+  "text": "The woman to ___ I spoke at the desk was very helpful.",
+  "answer": [
+   "whom"
+  ],
+  "lemma": "who",
+  "tr_ru": "Женщина, с которой я говорил на стойке, очень помогла.",
+  "explain_en": "After a preposition in formal English we use whom, not who.",
+  "explain_ru": "После предлога в формальном английском — whom, а не who.",
+  "id": "g036"
+ },
+ {
+  "kind": "form",
+  "text": "While she was ___ dinner, the lights suddenly went out.",
+  "answer": [
+   "cooking"
+  ],
+  "lemma": "cook",
+  "tr_ru": "Пока она готовила ужин, внезапно погас свет.",
+  "explain_en": "Past continuous for the background action: was + -ing.",
+  "explain_ru": "Past Continuous для фонового действия: was + -ing.",
+  "id": "g037"
+ },
+ {
+  "kind": "form",
+  "text": "Hurry up! According to the timetable, the train ___ at 6.15.",
+  "answer": [
+   "leaves"
+  ],
+  "lemma": "leave",
+  "tr_ru": "Поторопись! По расписанию поезд отправляется в 6:15.",
+  "explain_en": "Timetabled future events use the present simple: leaves.",
+  "explain_ru": "Будущее по расписанию — Present Simple: leaves.",
+  "id": "g038"
+ },
+ {
+  "kind": "form",
+  "text": "The police arrested two ___ outside the jewellery shop.",
+  "answer": [
+   "thieves"
+  ],
+  "lemma": "thief",
+  "tr_ru": "Полиция арестовала двух воров у ювелирного магазина.",
+  "explain_en": "Nouns ending in -f often change to -ves: thief → thieves.",
+  "explain_ru": "Существительные на -f часто меняют окончание на -ves: thief → thieves.",
+  "id": "g039"
+ },
+ {
+  "kind": "form",
+  "text": "This time tomorrow I'll be ___ on a beach in Spain.",
+  "answer": [
+   "lying"
+  ],
+  "lemma": "lie",
+  "tr_ru": "Завтра в это время я буду лежать на пляже в Испании.",
+  "explain_en": "Future continuous (an action in progress at a future moment): will be + -ing; lie → lying.",
+  "explain_ru": "Future Continuous — действие в процессе в момент будущего: will be + -ing; lie → lying (ie меняется на y).",
+  "id": "g040"
+ },
+ {
+  "kind": "word",
+  "text": "I ___ my sister really well; we hardly ever argue.",
+  "answer": [
+   "get on with",
+   "get along with"
+  ],
+  "ref": "to get on with",
+  "clue_en": "have a good relationship with",
+  "clue_ru": "ладить с",
+  "tr_ru": "Я очень хорошо лажу с сестрой; мы почти никогда не ссоримся.",
+  "explain_en": "Get on with someone (British) = have a friendly relationship.",
+  "explain_ru": "Get on with smb — «ладить с кем-то» (брит.); амер. get along with.",
+  "id": "g041"
+ },
+ {
+  "kind": "word",
+  "text": "She ___ her best friend over a boy, and they haven't spoken since.",
+  "answer": [
+   "fell out with"
+  ],
+  "ref": "to fall out with",
+  "clue_en": "stop being friends after a quarrel",
+  "clue_ru": "поссориться (и перестать общаться)",
+  "tr_ru": "Она поссорилась с лучшей подругой из-за парня, и с тех пор они не разговаривают.",
+  "explain_en": "Fall out with = quarrel and stop being friendly; past: fell out.",
+  "explain_ru": "Fall out with — «рассориться»; в прошедшем fell out.",
+  "id": "g042"
+ },
+ {
+  "kind": "word",
+  "text": "We moved to different cities, but we still ___ by email.",
+  "answer": [
+   "keep in touch"
+  ],
+  "ref": "to keep in touch",
+  "clue_en": "stay in contact",
+  "clue_ru": "поддерживать связь",
+  "tr_ru": "Мы переехали в разные города, но всё ещё поддерживаем связь по электронной почте.",
+  "explain_en": "Keep in touch = continue to communicate.",
+  "explain_ru": "Keep in touch — «поддерживать связь, не теряться».",
+  "id": "g043"
+ },
+ {
+  "kind": "word",
+  "text": "I'll never ___ him for lying to me about the money.",
+  "answer": [
+   "forgive"
+  ],
+  "ref": "to forgive",
+  "clue_en": "stop being angry with",
+  "clue_ru": "простить",
+  "tr_ru": "Я никогда не прощу ему того, что он солгал мне о деньгах.",
+  "explain_en": "Forgive someone for doing something.",
+  "explain_ru": "Forgive smb for doing smth — «простить кого-то за что-то».",
+  "id": "g044"
+ },
+ {
+  "kind": "word",
+  "text": "He's so ___ — once he decides something, nobody can change his mind.",
+  "answer": [
+   "stubborn"
+  ],
+  "ref": "stubborn",
+  "clue_en": "refusing to change your mind",
+  "clue_ru": "упрямый",
+  "tr_ru": "Он такой упрямый — если он что-то решил, никто не может его переубедить.",
+  "explain_en": "Stubborn = determined not to change your opinion.",
+  "explain_ru": "Stubborn — «упрямый».",
+  "id": "g045"
+ },
+ {
+  "kind": "word",
+  "text": "It was very ___ of you to take a map; without it we'd have got lost.",
+  "answer": [
+   "sensible"
+  ],
+  "ref": "sensible",
+  "clue_en": "showing good judgement",
+  "clue_ru": "благоразумный",
+  "tr_ru": "Очень разумно, что ты взял карту; без неё мы бы заблудились.",
+  "explain_en": "Sensible = practical and wise. Don't confuse it with sensitive (easily upset).",
+  "explain_ru": "Sensible — «разумный, благоразумный»; ложный друг — не «сенситивный». «Чувствительный» = sensitive.",
+  "id": "g046"
+ },
+ {
+  "kind": "word",
+  "text": "Be careful what you say — she's very ___ about her weight.",
+  "answer": [
+   "sensitive"
+  ],
+  "ref": "sensitive",
+  "clue_en": "easily upset",
+  "clue_ru": "чувствительный, ранимый",
+  "tr_ru": "Будь осторожен в словах — она очень болезненно относится к своему весу.",
+  "explain_en": "Sensitive about = easily hurt by comments on a subject.",
+  "explain_ru": "Sensitive about — «болезненно реагирующий на что-то, ранимый».",
+  "id": "g047"
+ },
+ {
+  "kind": "word",
+  "text": "Don't be so ___ — share your sweets with your little brother!",
+  "answer": [
+   "mean"
+  ],
+  "ref": "mean",
+  "clue_en": "not generous",
+  "clue_ru": "жадный",
+  "tr_ru": "Не будь таким жадным — поделись конфетами с младшим братом!",
+  "explain_en": "In British English mean = not willing to share or spend.",
+  "explain_ru": "В британском английском mean — «жадный, скупой» (а также «злой»).",
+  "id": "g048"
+ },
+ {
+  "kind": "word",
+  "text": "I was so ___ when the doctor said it was nothing serious.",
+  "answer": [
+   "relieved"
+  ],
+  "ref": "relieved",
+  "clue_en": "no longer worried",
+  "clue_ru": "испытывающий облегчение",
+  "tr_ru": "Я испытал такое облегчение, когда врач сказал, что ничего серьёзного.",
+  "explain_en": "Relieved = happy because a worry has gone.",
+  "explain_ru": "Relieved — «почувствовавший облегчение». В русском существительное «облегчение», в английском — прилагательное.",
+  "id": "g049"
+ },
+ {
+  "kind": "word",
+  "text": "I'm really ___ for all your help with the move last week.",
+  "answer": [
+   "grateful"
+  ],
+  "ref": "grateful",
+  "clue_en": "thankful",
+  "clue_ru": "благодарный",
+  "tr_ru": "Я очень благодарен тебе за помощь с переездом на прошлой неделе.",
+  "explain_en": "Grateful for something = thankful. Note the spelling: grate-, not great-.",
+  "explain_ru": "Grateful for — «благодарен за». Пишется grate-, а не great-.",
+  "id": "g050"
+ },
+ {
+  "kind": "word",
+  "text": "He was ___ of himself for lying to his parents.",
+  "answer": [
+   "ashamed"
+  ],
+  "ref": "ashamed",
+  "clue_en": "feeling bad about your actions",
+  "clue_ru": "стыдящийся",
+  "tr_ru": "Ему было стыдно за то, что он солгал родителям.",
+  "explain_en": "Ashamed (of yourself) = feeling guilty about something wrong you did; embarrassed is about feeling silly.",
+  "explain_ru": "Ashamed — «стыдно» за плохой поступок; embarrassed — «неловко» в смешной ситуации.",
+  "id": "g051"
+ },
+ {
+  "kind": "word",
+  "text": "Now I really ___ not studying harder at school.",
+  "answer": [
+   "regret"
+  ],
+  "ref": "to regret",
+  "clue_en": "be sorry about the past",
+  "clue_ru": "сожалеть",
+  "tr_ru": "Теперь я очень жалею, что не учился усерднее в школе.",
+  "explain_en": "Regret + -ing = be sorry about something you did or didn't do.",
+  "explain_ru": "Regret + -ing — «сожалеть о сделанном/несделанном».",
+  "id": "g052"
+ },
+ {
+  "kind": "word",
+  "text": "The landlord wants every ___ to pay the rent by the first of the month.",
+  "answer": [
+   "tenant"
+  ],
+  "ref": "tenant",
+  "clue_en": "person who rents a home",
+  "clue_ru": "жилец, арендатор",
+  "tr_ru": "Хозяин хочет, чтобы каждый жилец платил за аренду до первого числа месяца.",
+  "explain_en": "The tenant rents from the landlord.",
+  "explain_ru": "Tenant — тот, кто снимает жильё; landlord — хозяин.",
+  "id": "g053"
+ },
+ {
+  "kind": "word",
+  "text": "The roof ___ every time it rains, so we need to get it fixed.",
+  "answer": [
+   "leaks"
+  ],
+  "ref": "to leak",
+  "clue_en": "let water through",
+  "clue_ru": "протекать",
+  "tr_ru": "Крыша протекает каждый раз, когда идёт дождь, так что её надо починить.",
+  "explain_en": "Leak = let liquid escape through a hole; the roof → leaks.",
+  "explain_ru": "Leak — «протекать»; the roof → leaks.",
+  "id": "g054"
+ },
+ {
+  "kind": "word",
+  "text": "In Japan people often eat ___ fish, for example in sushi.",
+  "answer": [
+   "raw"
+  ],
+  "ref": "raw",
+  "clue_en": "not cooked",
+  "clue_ru": "сырой",
+  "tr_ru": "В Японии часто едят сырую рыбу, например в суши.",
+  "explain_en": "Raw = not cooked. A slightly wet thing is damp, not raw.",
+  "explain_ru": "Raw — «сырой» (не приготовленный). «Сырой» в значении «влажный» — damp.",
+  "id": "g055"
+ },
+ {
+  "kind": "word",
+  "text": "Don't eat that banana — it isn't ___ yet; it's still green.",
+  "answer": [
+   "ripe"
+  ],
+  "ref": "ripe",
+  "clue_en": "ready to eat (fruit)",
+  "clue_ru": "спелый",
+  "tr_ru": "Не ешь этот банан — он ещё не спелый, совсем зелёный.",
+  "explain_en": "Ripe = fully grown and ready to eat.",
+  "explain_ru": "Ripe — «спелый».",
+  "id": "g056"
+ },
+ {
+  "kind": "word",
+  "text": "A high temperature is a common ___ of flu.",
+  "answer": [
+   "symptom"
+  ],
+  "ref": "symptom",
+  "clue_en": "sign of an illness",
+  "clue_ru": "симптом",
+  "tr_ru": "Высокая температура — частый симптом гриппа.",
+  "explain_en": "A symptom is a sign that you have an illness.",
+  "explain_ru": "Symptom — «симптом, признак болезни».",
+  "id": "g057"
+ },
+ {
+  "kind": "word",
+  "text": "You can't buy this medicine without a ___ from your doctor.",
+  "answer": [
+   "prescription"
+  ],
+  "ref": "prescription",
+  "clue_en": "doctor's order for medicine",
+  "clue_ru": "рецепт (врача)",
+  "tr_ru": "Это лекарство нельзя купить без рецепта врача.",
+  "explain_en": "A doctor gives a prescription; a recipe is instructions for cooking.",
+  "explain_ru": "Врачебный «рецепт» — prescription; recipe — только кулинарный рецепт. Ложный друг!",
+  "id": "g058"
+ },
+ {
+  "kind": "word",
+  "text": "It took her six months to fully ___ from the operation.",
+  "answer": [
+   "recover"
+  ],
+  "ref": "to recover",
+  "clue_en": "get well again",
+  "clue_ru": "выздороветь, восстановиться",
+  "tr_ru": "Ей понадобилось полгода, чтобы полностью восстановиться после операции.",
+  "explain_en": "Recover from an illness or operation = get well again.",
+  "explain_ru": "Recover from — «восстановиться после, выздороветь».",
+  "id": "g059"
+ },
+ {
+  "kind": "word",
+  "text": "The price of the trip includes flights and ___ in a four-star hotel.",
+  "answer": [
+   "accommodation"
+  ],
+  "ref": "accommodation",
+  "clue_en": "a place to stay",
+  "clue_ru": "жильё, размещение",
+  "tr_ru": "Стоимость поездки включает перелёт и проживание в четырёхзвёздочном отеле.",
+  "explain_en": "Accommodation is uncountable in British English (no 'an', no -s); note double c and double m.",
+  "explain_ru": "Accommodation в британском — неисчисляемое (без an и -s); две c и две m.",
+  "id": "g060"
+ },
+ {
+  "kind": "word",
+  "text": "Spain is the most popular holiday ___ for British tourists.",
+  "answer": [
+   "destination"
+  ],
+  "ref": "destination",
+  "clue_en": "place you travel to",
+  "clue_ru": "место назначения, направление",
+  "tr_ru": "Испания — самое популярное направление для отдыха у британских туристов.",
+  "explain_en": "Destination = the place where a journey ends.",
+  "explain_ru": "Destination — «пункт назначения, направление».",
+  "id": "g061"
+ },
+ {
+  "kind": "word",
+  "text": "Never try to ___ another car on a sharp bend.",
+  "answer": [
+   "overtake"
+  ],
+  "ref": "to overtake",
+  "clue_en": "pass a slower vehicle",
+  "clue_ru": "обгонять",
+  "tr_ru": "Никогда не пытайтесь обогнать другую машину на крутом повороте.",
+  "explain_en": "Overtake = go past a vehicle moving in the same direction.",
+  "explain_ru": "Overtake — «обгонять» (машину).",
+  "id": "g062"
+ },
+ {
+  "kind": "word",
+  "text": "He had to pay a £100 ___ for parking in the wrong place.",
+  "answer": [
+   "fine"
+  ],
+  "ref": "fine",
+  "clue_en": "money paid as punishment",
+  "clue_ru": "штраф",
+  "tr_ru": "Ему пришлось заплатить штраф в 100 фунтов за парковку в неположенном месте.",
+  "explain_en": "A fine is money you pay for breaking a rule; it also means 'good', but not here.",
+  "explain_ru": "Fine — «штраф» (а как прилагательное — «хороший»).",
+  "id": "g063"
+ },
+ {
+  "kind": "word",
+  "text": "She ___ from her job because she couldn't work with her new boss.",
+  "answer": [
+   "resigned"
+  ],
+  "ref": "to resign",
+  "clue_en": "leave a job yourself",
+  "clue_ru": "уволиться (по собственному желанию)",
+  "tr_ru": "Она уволилась, потому что не могла работать с новым начальником.",
+  "explain_en": "Resign = leave a job by your own decision; 'from' fits resign, not quit.",
+  "explain_ru": "Resign (from) — «уволиться по собственному желанию»; fire/sack — «уволить» (решение начальника).",
+  "id": "g064"
+ },
+ {
+  "kind": "word",
+  "text": "He was ___ for stealing money from the company.",
+  "answer": [
+   "fired",
+   "sacked"
+  ],
+  "ref": "to fire",
+  "clue_en": "dismiss from a job",
+  "clue_ru": "уволить",
+  "tr_ru": "Его уволили за кражу денег у компании.",
+  "explain_en": "Be fired / sacked = lose your job because the employer decided it.",
+  "explain_ru": "Be fired / be sacked — «быть уволенным» работодателем. В русском «его уволили», в английском пассив.",
+  "id": "g065"
+ },
+ {
+  "kind": "word",
+  "text": "The ___ for the project is Friday, so we have to hurry.",
+  "answer": [
+   "deadline"
+  ],
+  "ref": "deadline",
+  "clue_en": "final date for finishing",
+  "clue_ru": "крайний срок",
+  "tr_ru": "Крайний срок по проекту — пятница, так что нужно торопиться.",
+  "explain_en": "Deadline = the time by which something must be finished.",
+  "explain_ru": "Deadline — «крайний срок, дедлайн».",
+  "id": "g066"
+ },
+ {
+  "kind": "word",
+  "text": "You still ___ me twenty pounds from last month!",
+  "answer": [
+   "owe"
+  ],
+  "ref": "to owe",
+  "clue_en": "need to pay back",
+  "clue_ru": "быть должным",
+  "tr_ru": "Ты всё ещё должен мне двадцать фунтов с прошлого месяца!",
+  "explain_en": "Owe someone money = have to pay it back. English uses a verb here, where Russian uses an adjective.",
+  "explain_ru": "Owe smb money — «быть должным». В английском это глагол: you owe me.",
+  "id": "g067"
+ },
+ {
+  "kind": "word",
+  "text": "Don't ___ your money on things you don't really need.",
+  "answer": [
+   "waste"
+  ],
+  "ref": "to waste",
+  "clue_en": "use badly or uselessly",
+  "clue_ru": "тратить впустую",
+  "tr_ru": "Не трать деньги впустую на вещи, которые тебе на самом деле не нужны.",
+  "explain_en": "Waste = use something badly; spend is neutral.",
+  "explain_ru": "Waste — «тратить впустую, зря»; spend — нейтральное «тратить».",
+  "id": "g068"
+ },
+ {
+  "kind": "word",
+  "text": "I'm ___ for a new laptop, so I'm not going out much this month.",
+  "answer": [
+   "saving up"
+  ],
+  "ref": "to save up",
+  "clue_en": "keep money for later",
+  "clue_ru": "копить",
+  "tr_ru": "Я коплю на новый ноутбук, поэтому в этом месяце почти никуда не хожу.",
+  "explain_en": "Save up for something = keep money to buy it later.",
+  "explain_ru": "Save up for — «копить на что-то».",
+  "id": "g069"
+ },
+ {
+  "kind": "word",
+  "text": "He was caught ___ in the exam and had to leave the room.",
+  "answer": [
+   "cheating"
+  ],
+  "ref": "to cheat",
+  "clue_en": "act dishonestly to win",
+  "clue_ru": "списывать, жульничать",
+  "tr_ru": "Его поймали на списывании на экзамене, и ему пришлось выйти из аудитории.",
+  "explain_en": "Be caught + -ing; cheat = act dishonestly (e.g. copy answers).",
+  "explain_ru": "Be caught + -ing — «попасться на чём-то»; cheat — «списывать, жульничать».",
+  "id": "g070"
+ },
+ {
+  "kind": "word",
+  "text": "She ___ from Oxford in 2019 with a degree in law.",
+  "answer": [
+   "graduated"
+  ],
+  "ref": "to graduate",
+  "clue_en": "finish university",
+  "clue_ru": "окончить (вуз)",
+  "tr_ru": "Она окончила Оксфорд в 2019 году с дипломом юриста.",
+  "explain_en": "Graduate from a university = finish it successfully; 'finish Oxford' is not used.",
+  "explain_ru": "Graduate from — «окончить вуз». Русское «окончить университет» = graduate from university.",
+  "id": "g071"
+ },
+ {
+  "kind": "word",
+  "text": "Turn the music off, please — I can't ___ on my homework.",
+  "answer": [
+   "concentrate"
+  ],
+  "ref": "to concentrate",
+  "clue_en": "give full attention",
+  "clue_ru": "сосредоточиться",
+  "tr_ru": "Выключи, пожалуйста, музыку — я не могу сосредоточиться на домашнем задании.",
+  "explain_en": "Concentrate on something = give it all your attention.",
+  "explain_ru": "Concentrate on — «сосредоточиться на».",
+  "id": "g072"
+ },
+ {
+  "kind": "word",
+  "text": "The tiger is an ___ species; there are very few left in the wild.",
+  "answer": [
+   "endangered"
+  ],
+  "ref": "endangered",
+  "clue_en": "at risk of dying out",
+  "clue_ru": "находящийся под угрозой исчезновения",
+  "tr_ru": "Тигр — вид, находящийся под угрозой исчезновения; в дикой природе их осталось очень мало.",
+  "explain_en": "An endangered species may soon disappear completely; dangerous means it can hurt you.",
+  "explain_ru": "Endangered — «под угрозой исчезновения»; dangerous — «опасный» (для других).",
+  "id": "g073"
+ },
+ {
+  "kind": "word",
+  "text": "The police didn't have enough ___ to arrest him.",
+  "answer": [
+   "evidence"
+  ],
+  "ref": "evidence",
+  "clue_en": "facts that prove something",
+  "clue_ru": "улики, доказательства",
+  "tr_ru": "У полиции не было достаточно улик, чтобы его арестовать.",
+  "explain_en": "Evidence is uncountable: enough evidence, not 'evidences'.",
+  "explain_ru": "Evidence — неисчисляемое: enough evidence, без -s (в русском «улики» — мн. число).",
+  "id": "g074"
+ },
+ {
+  "kind": "word",
+  "text": "A ___ saw the man running away from the bank with a bag.",
+  "answer": [
+   "witness"
+  ],
+  "ref": "witness",
+  "clue_en": "person who sees a crime",
+  "clue_ru": "свидетель",
+  "tr_ru": "Свидетель видел, как мужчина убегал из банка с сумкой.",
+  "explain_en": "A witness sees an event, especially a crime, and can describe it.",
+  "explain_ru": "Witness — «свидетель».",
+  "id": "g075"
+ },
+ {
+  "kind": "word",
+  "text": "I can't ___ this noise any longer — I'm calling the neighbours!",
+  "answer": [
+   "put up with",
+   "stand"
+  ],
+  "ref": "to put up with",
+  "clue_en": "tolerate",
+  "clue_ru": "терпеть, мириться",
+  "tr_ru": "Я больше не могу терпеть этот шум — звоню соседям!",
+  "explain_en": "Put up with = accept something unpleasant without complaining.",
+  "explain_ru": "Put up with — «терпеть, мириться с чем-то».",
+  "id": "g076"
+ },
+ {
+  "kind": "word",
+  "text": "She ___ the job offer because the salary was too low.",
+  "answer": [
+   "turned down",
+   "refused",
+   "rejected"
+  ],
+  "ref": "to turn down",
+  "clue_en": "say no to an offer",
+  "clue_ru": "отклонить",
+  "tr_ru": "Она отклонила предложение о работе, потому что зарплата была слишком низкой.",
+  "explain_en": "Turn down = refuse an offer or invitation.",
+  "explain_ru": "Turn down — «отклонить» (предложение, приглашение).",
+  "id": "g077"
+ },
+ {
+  "kind": "word",
+  "text": "I finally ___ my dad to let me go to the concert.",
+  "answer": [
+   "persuaded",
+   "convinced"
+  ],
+  "ref": "to persuade",
+  "clue_en": "make someone agree",
+  "clue_ru": "уговорить",
+  "tr_ru": "Наконец я уговорил папу отпустить меня на концерт.",
+  "explain_en": "Persuade someone to do something = make them agree to do it.",
+  "explain_ru": "Persuade smb to do — «уговорить кого-то сделать».",
+  "id": "g078"
+ },
+ {
+  "kind": "word",
+  "text": "He ___ breaking the window, but we all saw him do it.",
+  "answer": [
+   "denied"
+  ],
+  "ref": "to deny",
+  "clue_en": "say something isn't true",
+  "clue_ru": "отрицать",
+  "tr_ru": "Он отрицал, что разбил окно, но мы все видели, как он это сделал.",
+  "explain_en": "Deny + -ing = say you did not do something; refuse means say you won't do it.",
+  "explain_ru": "Deny + -ing — «отрицать (что сделал)»; refuse — «отказываться (делать)».",
+  "id": "g079"
+ },
+ {
+  "kind": "word",
+  "text": "Is Tuesday at ten ___ for you, or shall we meet later?",
+  "answer": [
+   "convenient"
+  ],
+  "ref": "convenient",
+  "clue_en": "suitable for your plans",
+  "clue_ru": "удобный (по времени)",
+  "tr_ru": "Тебе удобно во вторник в десять, или встретимся позже?",
+  "explain_en": "Convenient is about time and place; comfortable is about physical feeling.",
+  "explain_ru": "Convenient — «удобный» по времени/месту; comfortable — физически удобный (одежда, кресло).",
+  "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-perfect-vs-past-simple",
+  "text": "How long ___ you known each other? — Since 2010.",
+  "answer": [
+   "have"
+  ],
+  "tr_ru": "Как долго вы знаете друг друга? — С 2010 года.",
+  "explain_en": "How long + state up to now = present perfect: have you known. Russian uses the present tense.",
+  "explain_ru": "How long + состояние до настоящего момента = Present Perfect: have you known. В русском — настоящее время «знаете».",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-perfect-vs-past-simple",
+  "text": "When ___ you start learning English? — About five years ago.",
+  "answer": [
+   "did"
+  ],
+  "tr_ru": "Когда ты начал учить английский? — Около пяти лет назад.",
+  "explain_en": "Questions with when and answers with ago refer to finished time: past simple, did.",
+  "explain_ru": "Вопрос с when и ответ с ago — законченное время: Past Simple, did. С when Present Perfect не употребляется.",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-perfect-vs-past-simple",
+  "text": "She's been working here ___ three years, ever since she left school.",
+  "answer": [
+   "for"
+  ],
+  "tr_ru": "Она работает здесь уже три года, с тех пор как окончила школу.",
+  "explain_en": "For + a period of time (three years); since + a starting point.",
+  "explain_ru": "For + период (three years); since + начальная точка.",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-perfect-vs-past-simple",
+  "text": "Have you ___ been to Japan? — No, never.",
+  "answer": [
+   "ever"
+  ],
+  "tr_ru": "Ты когда-нибудь был в Японии? — Нет, ни разу.",
+  "explain_en": "Ever in present perfect questions asks about life experience.",
+  "explain_ru": "Ever в вопросах в Present Perfect — «когда-нибудь (в жизни)».",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "section": "past-perfect-and-narrative-tenses",
+  "text": "When we got to the station, the train ___ already left.",
+  "answer": [
+   "had",
+   "'d"
+  ],
+  "tr_ru": "Когда мы добрались до вокзала, поезд уже ушёл.",
+  "explain_en": "The train left before we arrived: past perfect, had + past participle.",
+  "explain_ru": "Поезд ушёл раньше, чем мы пришли: Past Perfect, had + третья форма.",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "section": "past-perfect-and-narrative-tenses",
+  "text": "The sun ___ shining and the birds were singing as we set off.",
+  "answer": [
+   "was"
+  ],
+  "tr_ru": "Светило солнце и пели птицы, когда мы отправились в путь.",
+  "explain_en": "Background description in a story: past continuous, was + -ing.",
+  "explain_ru": "Описание фона в рассказе: Past Continuous, was + -ing.",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "section": "past-perfect-and-narrative-tenses",
+  "text": "We were having dinner ___ suddenly the doorbell rang.",
+  "answer": [
+   "when"
+  ],
+  "tr_ru": "Мы ужинали, когда вдруг зазвонил звонок в дверь.",
+  "explain_en": "A sudden short event interrupting a longer one is introduced with when.",
+  "explain_ru": "Внезапное короткое событие, прерывающее длительное, вводится через when.",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "section": "past-perfect-and-narrative-tenses",
+  "text": "___ soon as she had finished her homework, she went out with her friends.",
+  "answer": [
+   "As",
+   "as"
+  ],
+  "tr_ru": "Как только она закончила домашнее задание, она пошла гулять с друзьями.",
+  "explain_en": "As soon as + past perfect shows the first action was completed before the second.",
+  "explain_ru": "As soon as + Past Perfect: первое действие завершилось до второго.",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "section": "future-forms",
+  "text": "By this time next year, I will ___ finished university.",
+  "answer": [
+   "have"
+  ],
+  "tr_ru": "К этому времени в следующем году я уже окончу университет.",
+  "explain_en": "Future perfect: will have + past participle for something completed before a future time.",
+  "explain_ru": "Future Perfect: will have + третья форма — действие завершится к моменту в будущем.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "section": "future-forms",
+  "text": "Don't call me between two and four — I'll ___ having my driving lesson.",
+  "answer": [
+   "be"
+  ],
+  "tr_ru": "Не звони мне с двух до четырёх — у меня будет урок вождения.",
+  "explain_en": "Future continuous: will be + -ing for an action in progress at a future time.",
+  "explain_ru": "Future Continuous: will be + -ing — действие будет в процессе в определённое время.",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "section": "future-forms",
+  "text": "Sorry, I can't come on Friday — I ___ working late that evening.",
+  "answer": [
+   "am",
+   "'m"
+  ],
+  "tr_ru": "Извини, в пятницу не смогу — в тот вечер я работаю допоздна.",
+  "explain_en": "A fixed personal arrangement uses the present continuous: I'm working.",
+  "explain_ru": "Запланированное дело — Present Continuous: I'm working (в русском тоже настоящее время).",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "section": "future-forms",
+  "text": "I'm really sorry. I promise I ___ be late again.",
+  "answer": [
+   "won't",
+   "will not"
+  ],
+  "tr_ru": "Мне очень жаль. Обещаю, что больше не буду опаздывать.",
+  "explain_en": "Promises about the future use will; negative: won't.",
+  "explain_ru": "Обещания — will; отрицание — won't.",
+  "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "section": "conditionals-zero-first-second",
+  "text": "___ you hurry, you'll miss the bus.",
+  "answer": [
+   "Unless",
+   "unless"
+  ],
+  "tr_ru": "Если не поторопишься, опоздаешь на автобус.",
+  "explain_en": "Unless = if … not: unless you hurry = if you don't hurry.",
+  "explain_ru": "Unless = if … not («если не»): unless you hurry = if you don't hurry.",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "section": "conditionals-zero-first-second",
+  "text": "I'd travel much more if I ___ afraid of flying.",
+  "answer": [
+   "weren't",
+   "wasn't",
+   "were not",
+   "was not"
+  ],
+  "tr_ru": "Я бы гораздо больше путешествовал, если бы не боялся летать.",
+  "explain_en": "Second conditional (unreal present): if + past; negative of be: weren't (wasn't is informal).",
+  "explain_ru": "Второй тип (нереальное настоящее): if + Past; отрицание be — weren't (wasn't — разговорное).",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "section": "conditionals-zero-first-second",
+  "text": "What ___ you do if you lost your passport abroad?",
+  "answer": [
+   "would"
+  ],
+  "tr_ru": "Что бы ты сделал, если бы потерял паспорт за границей?",
+  "explain_en": "Second conditional: would + verb in the main clause, if + past simple.",
+  "explain_ru": "Второй тип: would + глагол в главной части, if + Past Simple.",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "section": "conditionals-zero-first-second",
+  "text": "You can borrow my car as ___ as you drive carefully.",
+  "answer": [
+   "long"
+  ],
+  "tr_ru": "Можешь взять мою машину, при условии что будешь ездить осторожно.",
+  "explain_en": "As long as = only if, on condition that.",
+  "explain_ru": "As long as — «при условии, что; если только».",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "section": "the-passive",
+  "text": "The museum ___ visited by millions of people every year.",
+  "answer": [
+   "is"
+  ],
+  "tr_ru": "Музей ежегодно посещают миллионы людей.",
+  "explain_en": "Present simple passive: is + past participle (every year = regular).",
+  "explain_ru": "Пассив в Present Simple: is + третья форма (every year — регулярно).",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "section": "the-passive",
+  "text": "The new bridge is ___ built at the moment, so the road is closed.",
+  "answer": [
+   "being"
+  ],
+  "tr_ru": "Новый мост сейчас строится, поэтому дорога закрыта.",
+  "explain_en": "Present continuous passive: is being + past participle.",
+  "explain_ru": "Пассив в Present Continuous: is being + третья форма.",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "section": "the-passive",
+  "text": "All mobile phones must ___ switched off during the exam.",
+  "answer": [
+   "be"
+  ],
+  "tr_ru": "Все мобильные телефоны должны быть выключены во время экзамена.",
+  "explain_en": "Passive after a modal: must be + past participle.",
+  "explain_ru": "Пассив после модального глагола: must be + третья форма.",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "section": "the-passive",
+  "text": "This photo was taken ___ my grandfather in 1965.",
+  "answer": [
+   "by"
+  ],
+  "tr_ru": "Эту фотографию сделал мой дедушка в 1965 году.",
+  "explain_en": "In the passive, the person who does the action is introduced by by.",
+  "explain_ru": "В пассиве исполнитель действия вводится предлогом by.",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "section": "reported-speech",
+  "text": "She asked me ___ I had ever been to London.",
+  "answer": [
+   "if",
+   "whether"
+  ],
+  "tr_ru": "Она спросила меня, был ли я когда-нибудь в Лондоне.",
+  "explain_en": "Reported yes/no questions use if or whether, with normal word order.",
+  "explain_ru": "Косвенные общие вопросы вводятся if/whether с прямым порядком слов (русское «ли»).",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "section": "reported-speech",
+  "text": "He told me ___ to touch the computer while he was out.",
+  "answer": [
+   "not"
+  ],
+  "tr_ru": "Он сказал мне не трогать компьютер, пока его нет.",
+  "explain_en": "Reported negative command: tell someone not to do something.",
+  "explain_ru": "Косвенная отрицательная просьба/приказ: tell smb not to do.",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "section": "reported-speech",
+  "text": "She said she would call me the ___ day, but she didn't.",
+  "answer": [
+   "next",
+   "following"
+  ],
+  "tr_ru": "Она сказала, что позвонит мне на следующий день, но не позвонила.",
+  "explain_en": "In reported speech tomorrow often becomes the next / following day.",
+  "explain_ru": "В косвенной речи tomorrow часто становится the next / the following day.",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "section": "reported-speech",
+  "text": "Mum ___ me that dinner was ready.",
+  "answer": [
+   "told"
+  ],
+  "tr_ru": "Мама сказала мне, что ужин готов.",
+  "explain_en": "Tell + person (told me); say has no person object without to ('said me' is wrong).",
+  "explain_ru": "Tell + человек (told me); said me — ошибка (said to me).",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "section": "relative-clauses",
+  "text": "That's the hotel ___ we stayed on our honeymoon.",
+  "answer": [
+   "where"
+  ],
+  "tr_ru": "Это тот отель, где мы останавливались во время медового месяца.",
+  "explain_en": "Where replaces 'in which' for places when no preposition follows.",
+  "explain_ru": "Where = in which для мест, если в конце нет предлога.",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "section": "relative-clauses",
+  "text": "Do you remember the day ___ we first met?",
+  "answer": [
+   "when",
+   "that"
+  ],
+  "tr_ru": "Ты помнишь день, когда мы впервые встретились?",
+  "explain_en": "When (or that) introduces a relative clause about time.",
+  "explain_ru": "When (или that) вводит определительное придаточное о времени.",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "section": "relative-clauses",
+  "text": "My brother, ___ lives in Canada, is coming to visit us next week.",
+  "answer": [
+   "who"
+  ],
+  "tr_ru": "Мой брат, который живёт в Канаде, приезжает к нам на следующей неделе.",
+  "explain_en": "Non-defining clause (with commas) about a person: who; that is not allowed here.",
+  "explain_ru": "Неограничительное придаточное (в запятых) о человеке: who; that здесь нельзя.",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "section": "relative-clauses",
+  "text": "She passed all her exams, ___ surprised everyone.",
+  "answer": [
+   "which"
+  ],
+  "tr_ru": "Она сдала все экзамены, что всех удивило.",
+  "explain_en": "Which can refer to the whole previous clause; that and what cannot.",
+  "explain_ru": "Which может относиться ко всему предыдущему предложению — русское «что».",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "section": "gerunds-and-infinitives",
+  "text": "I'm thinking ___ learning Spanish next year.",
+  "answer": [
+   "of",
+   "about"
+  ],
+  "tr_ru": "Я подумываю о том, чтобы в следующем году начать учить испанский.",
+  "explain_en": "Think of/about + -ing = consider doing.",
+  "explain_ru": "Think of/about + -ing — «подумывать о том, чтобы».",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "section": "gerunds-and-infinitives",
+  "text": "She's very good ___ remembering people's names.",
+  "answer": [
+   "at"
+  ],
+  "tr_ru": "Она очень хорошо запоминает имена людей.",
+  "explain_en": "Good at + -ing: after a preposition we use the gerund.",
+  "explain_ru": "Good at + -ing: после предлога — герундий.",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "section": "gerunds-and-infinitives",
+  "text": "Because of the storm, we decided ___ to go out.",
+  "answer": [
+   "not"
+  ],
+  "tr_ru": "Из-за шторма мы решили никуда не выходить.",
+  "explain_en": "Negative infinitive: not + to + verb (decided not to go).",
+  "explain_ru": "Отрицательный инфинитив: not + to + глагол (decided not to go).",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "section": "gerunds-and-infinitives",
+  "text": "Instead ___ taking the bus, we walked all the way home.",
+  "answer": [
+   "of"
+  ],
+  "tr_ru": "Вместо того чтобы сесть на автобус, мы прошли весь путь домой пешком.",
+  "explain_en": "Instead of + -ing.",
+  "explain_ru": "Instead of + -ing — «вместо того чтобы».",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "section": "modals-obligation-advice-deduction",
+  "text": "You ___ be tired — you've been travelling all day!",
+  "answer": [
+   "must"
+  ],
+  "tr_ru": "Ты, должно быть, устал — ты весь день в дороге!",
+  "explain_en": "Must for a confident positive deduction about the present.",
+  "explain_ru": "Must — уверенное предположение о настоящем: «должно быть».",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "section": "modals-obligation-advice-deduction",
+  "text": "That ___ be Tom at the door — he's in Spain this week.",
+  "answer": [
+   "can't",
+   "cannot"
+  ],
+  "tr_ru": "Это не может быть Том у двери — он на этой неделе в Испании.",
+  "explain_en": "Can't for a confident negative deduction; mustn't is not used this way.",
+  "explain_ru": "Can't — уверенное отрицательное предположение; mustn't так не употребляется.",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "section": "modals-obligation-advice-deduction",
+  "text": "You'd ___ leave now, or you'll miss your flight.",
+  "answer": [
+   "better"
+  ],
+  "tr_ru": "Тебе лучше выйти сейчас, а то опоздаешь на самолёт.",
+  "explain_en": "Had better (you'd better) + base verb = strong advice with a warning.",
+  "explain_ru": "Had better (you'd better) + глагол — настойчивый совет с предупреждением.",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "section": "modals-obligation-advice-deduction",
+  "text": "When I was at school, we didn't ___ to wear a uniform.",
+  "answer": [
+   "have",
+   "need"
+  ],
+  "tr_ru": "Когда я учился в школе, нам не нужно было носить форму.",
+  "explain_en": "Lack of obligation in the past: didn't have to.",
+  "explain_ru": "Отсутствие необходимости в прошлом: didn't have to — «не нужно было».",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "section": "articles-and-quantifiers",
+  "text": "___ of my two brothers is married; they're both single.",
+  "answer": [
+   "Neither",
+   "neither"
+  ],
+  "tr_ru": "Ни один из двух моих братьев не женат; оба холосты.",
+  "explain_en": "Neither = not one and not the other (of two), with a singular verb.",
+  "explain_ru": "Neither — «ни тот, ни другой» (из двух), с глаголом в ед. числе.",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "section": "articles-and-quantifiers",
+  "text": "She plays ___ piano beautifully.",
+  "answer": [
+   "the"
+  ],
+  "tr_ru": "Она прекрасно играет на пианино.",
+  "explain_en": "Play + the + musical instrument.",
+  "explain_ru": "Play + the + музыкальный инструмент.",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "section": "articles-and-quantifiers",
+  "text": "There's ___ little milk left, so we can still have tea with milk.",
+  "answer": [
+   "a"
+  ],
+  "tr_ru": "Осталось немного молока, так что можно ещё выпить чай с молоком.",
+  "explain_en": "A little = some, enough (positive); little alone = almost none.",
+  "explain_ru": "A little — «немного, есть» (положительно); little без a — «почти нет».",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "section": "articles-and-quantifiers",
+  "text": "I go to the gym three times ___ week.",
+  "answer": [
+   "a"
+  ],
+  "tr_ru": "Я хожу в спортзал три раза в неделю.",
+  "explain_en": "Frequency: three times a week (a = per).",
+  "explain_ru": "Частота: three times a week (a = «в»).",
+  "id": "g120"
+ }
+]

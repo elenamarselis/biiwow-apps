@@ -1,0 +1,1654 @@
+[
+ {
+  "kind": "form",
+  "text": "Ha sok pénzem lenne, egy házat ___ a tengerparton.",
+  "answer": [
+   "vennék"
+  ],
+  "lemma": "vesz",
+  "tr_en": "If I had a lot of money, I would buy a house by the sea.",
+  "tr_ru": "Если бы у меня было много денег, я бы купил дом на побережье.",
+  "explain_en": "Unreal condition: conditional -né- + indefinite 1sg -k; egy házat is indefinite: vennék.",
+  "explain_ru": "Нереальное условие: показатель -né- + неопределённое 1-е лицо: vennék. В русском одно «бы» для всех лиц.",
+  "id": "g001"
+ },
+ {
+  "kind": "form",
+  "text": "Ha lenne időm, ___ ezt a könyvet.",
+  "answer": [
+   "elolvasnám"
+  ],
+  "lemma": "elolvas",
+  "tr_en": "If I had time, I would read this book.",
+  "tr_ru": "Если бы у меня было время, я бы прочитал эту книгу.",
+  "explain_en": "Definite object (ezt a könyvet), conditional 1sg definite: -nám: elolvasnám.",
+  "explain_ru": "Определённое дополнение (ezt a könyvet), условное определённое 1-е лицо -nám: elolvasnám.",
+  "id": "g002"
+ },
+ {
+  "kind": "form",
+  "text": "Elnézést, uram, ___ nekem segíteni egy percre?",
+  "answer": [
+   "Tudna"
+  ],
+  "lemma": "tud",
+  "tr_en": "Excuse me, sir, could you help me for a minute?",
+  "tr_ru": "Извините, не могли бы вы мне помочь минутку?",
+  "explain_en": "A polite request to Ön uses the 3sg conditional: tudna.",
+  "explain_ru": "Вежливая просьба к Ön — условное наклонение 3-го лица: tudna («не могли бы вы»).",
+  "id": "g003"
+ },
+ {
+  "kind": "form",
+  "text": "Ha te lennél a helyemben, mit ___?",
+  "answer": [
+   "csinálnál"
+  ],
+  "lemma": "csinál",
+  "tr_en": "If you were in my place, what would you do?",
+  "tr_ru": "Что бы ты сделал на моём месте?",
+  "explain_en": "mit is an indefinite object, so the indefinite conditional 2sg: csinálnál.",
+  "explain_ru": "mit — неопределённое дополнение, поэтому неопределённое условное 2-го лица: csinálnál.",
+  "id": "g004"
+ },
+ {
+  "kind": "form",
+  "text": "Ha nem ___ ilyen fáradt, elmennék veled.",
+  "answer": [
+   "lennék"
+  ],
+  "lemma": "van",
+  "tr_en": "If I weren't so tired, I would go with you.",
+  "tr_ru": "Если бы я не был так устал, я бы пошёл с тобой.",
+  "explain_en": "The conditional of van is len-: lennék (1sg).",
+  "explain_ru": "Условное от van строится на основе len-: lennék.",
+  "id": "g005"
+ },
+ {
+  "kind": "form",
+  "text": "A gyerekek szívesen ___ még, de mennünk kell.",
+  "answer": [
+   "maradnának"
+  ],
+  "lemma": "marad",
+  "tr_en": "The children would gladly stay longer, but we have to go.",
+  "tr_ru": "Дети с удовольствием остались бы ещё, но нам надо идти.",
+  "explain_en": "Conditional 3pl: marad + na + nak: maradnának.",
+  "explain_ru": "Условное 3-го лица мн. числа: maradnának.",
+  "id": "g006"
+ },
+ {
+  "kind": "form",
+  "text": "Ha tudtam volna, hogy beteg vagy, ___ volna gyógyszert.",
+  "answer": [
+   "hoztam"
+  ],
+  "lemma": "hoz",
+  "tr_en": "If I had known you were ill, I would have brought medicine.",
+  "tr_ru": "Если бы я знал, что ты болен, я бы принёс лекарство.",
+  "explain_en": "Past conditional = past tense + volna; gyógyszert is indefinite: hoztam volna.",
+  "explain_ru": "Прошедшее условное = прошедшее время + volna; дополнение неопределённое: hoztam volna.",
+  "id": "g007"
+ },
+ {
+  "kind": "form",
+  "text": "Ha korábban ___ volna, nem késtük volna le a vonatot.",
+  "answer": [
+   "indultunk"
+  ],
+  "lemma": "indul",
+  "tr_en": "If we had left earlier, we wouldn't have missed the train.",
+  "tr_ru": "Если бы мы выехали раньше, мы бы не опоздали на поезд.",
+  "explain_en": "Unreal past condition: past + volna in both clauses; késtük shows mi: indultunk.",
+  "explain_ru": "Нереальное условие в прошлом: прошедшее + volna в обеих частях; késtük указывает на «мы»: indultunk.",
+  "id": "g008"
+ },
+ {
+  "kind": "form",
+  "text": "Ezt nem ___ volna mondanod, nagyon megsértődött.",
+  "answer": [
+   "kellett"
+  ],
+  "lemma": "kell",
+  "tr_en": "You shouldn't have said that, she was very offended.",
+  "tr_ru": "Не стоило тебе этого говорить, она очень обиделась.",
+  "explain_en": "Reproach 'shouldn't have' = nem kellett volna + personal infinitive.",
+  "explain_ru": "Упрёк «не надо было» = nem kellett volna + личный инфинитив.",
+  "id": "g009"
+ },
+ {
+  "kind": "form",
+  "text": "Az öt perc múlva ___ vonat Debrecenbe megy.",
+  "answer": [
+   "induló"
+  ],
+  "lemma": "indul",
+  "tr_en": "The train leaving in five minutes goes to Debrecen.",
+  "tr_ru": "Поезд, отправляющийся через пять минут, идёт в Дебрецен.",
+  "explain_en": "An action in progress or about to happen before a noun: present participle -ó: induló.",
+  "explain_ru": "Действие, происходящее или предстоящее, перед существительным — причастие на -ó: induló.",
+  "id": "g010"
+ },
+ {
+  "kind": "form",
+  "text": "Reggelire két ___ tojást kérek.",
+  "answer": [
+   "főtt"
+  ],
+  "lemma": "főz",
+  "tr_en": "For breakfast I'd like two boiled eggs.",
+  "tr_ru": "На завтрак мне, пожалуйста, два варёных яйца.",
+  "explain_en": "The past participle of főz is irregular: főtt (not főzött).",
+  "explain_ru": "Причастие прошедшего времени от főz неправильное: főtt (а не főzött).",
+  "id": "g011"
+ },
+ {
+  "kind": "form",
+  "text": "A ___ feladatokat felírtam a táblára, holnapra oldjátok meg őket!",
+  "answer": [
+   "megoldandó"
+  ],
+  "lemma": "megold",
+  "tr_en": "I've written the tasks to be solved on the board; solve them by tomorrow!",
+  "tr_ru": "Задачи, которые нужно решить, я написал на доске, решите их к завтрашнему дню!",
+  "explain_en": "'To be done' before a noun: future participle -andó/-endő: megoldandó.",
+  "explain_ru": "«Подлежащий выполнению» перед существительным — причастие -andó/-endő: megoldandó.",
+  "id": "g012"
+ },
+ {
+  "kind": "form",
+  "text": "Az ajtó be van ___, nem tudunk bemenni.",
+  "answer": [
+   "zárva"
+  ],
+  "lemma": "zár",
+  "tr_en": "The door is locked, we can't go in.",
+  "tr_ru": "Дверь заперта, мы не можем войти.",
+  "explain_en": "A resulting state is van + -va/-ve: be van zárva.",
+  "explain_ru": "Результирующее состояние — van + -va/-ve: be van zárva (рус. краткое причастие «заперта»).",
+  "id": "g013"
+ },
+ {
+  "kind": "form",
+  "text": "Vasárnap ___ csirkét eszünk krumplival.",
+  "answer": [
+   "sült"
+  ],
+  "lemma": "süt",
+  "tr_en": "On Sunday we eat roast chicken with potatoes.",
+  "tr_ru": "В воскресенье мы едим жареную курицу с картошкой.",
+  "explain_en": "The past participle of süt is the irregular sült.",
+  "explain_ru": "Причастие прошедшего времени от süt — неправильное sült.",
+  "id": "g014"
+ },
+ {
+  "kind": "form",
+  "text": "Nem szabad ennyit ___, holnap vizsgád van!",
+  "answer": [
+   "tévéznod"
+  ],
+  "lemma": "tévézik",
+  "tr_en": "You mustn't watch so much TV, you have an exam tomorrow!",
+  "tr_ru": "Тебе нельзя столько смотреть телевизор, у тебя завтра экзамен!",
+  "explain_en": "After nem szabad the infinitive takes a personal ending; vizsgád shows te: tévéznod.",
+  "explain_ru": "После nem szabad инфинитив получает личное окончание; vizsgád указывает на te: tévéznod.",
+  "id": "g015"
+ },
+ {
+  "kind": "form",
+  "text": "Végre sikerült ___ a jogosítványt, most már én is vezethetek!",
+  "answer": [
+   "megszereznem"
+  ],
+  "lemma": "megszerez",
+  "tr_en": "I finally managed to get my driving licence, now I can drive too!",
+  "tr_ru": "Наконец мне удалось получить права, теперь и я могу водить!",
+  "explain_en": "sikerül + personal infinitive; én shows 1sg: megszereznem.",
+  "explain_ru": "sikerül + личный инфинитив; én указывает на 1-е лицо: megszereznem (рус. «мне удалось»).",
+  "id": "g016"
+ },
+ {
+  "kind": "form",
+  "text": "Holnap muszáj ___ a fogorvoshoz, nagyon fáj a fogam.",
+  "answer": [
+   "elmennem"
+  ],
+  "lemma": "elmegy",
+  "tr_en": "Tomorrow I simply have to go to the dentist, my tooth hurts a lot.",
+  "tr_ru": "Завтра мне обязательно надо сходить к стоматологу, у меня очень болит зуб.",
+  "explain_en": "muszáj + personal infinitive; a fogam shows 1sg: elmennem.",
+  "explain_ru": "muszáj + личный инфинитив; a fogam указывает на 1-е лицо: elmennem.",
+  "id": "g017"
+ },
+ {
+  "kind": "form",
+  "text": "Nekünk is ___ kellene valamit, mielőtt elindulunk.",
+  "answer": [
+   "ennünk"
+  ],
+  "lemma": "eszik",
+  "tr_en": "We should eat something too before we set off.",
+  "tr_ru": "Нам тоже стоило бы что-нибудь поесть, прежде чем отправиться.",
+  "explain_en": "The infinitive of eszik is enni; 1pl personal infinitive: ennünk.",
+  "explain_ru": "Инфинитив от eszik — enni; личный инфинитив 1-го лица мн. числа: ennünk.",
+  "id": "g018"
+ },
+ {
+  "kind": "form",
+  "text": "A betegnek sok vizet kell ___.",
+  "answer": [
+   "innia"
+  ],
+  "lemma": "iszik",
+  "tr_en": "The patient has to drink a lot of water.",
+  "tr_ru": "Больному нужно пить много воды.",
+  "explain_en": "Infinitive inni; 3sg personal infinitive: innia (the dative a betegnek shows the person).",
+  "explain_ru": "Инфинитив inni; личный инфинитив 3-го лица: innia (лицо указано дательным a betegnek).",
+  "id": "g019"
+ },
+ {
+  "kind": "form",
+  "text": "Holnap ___ a hajamat, mert már túl hosszú.",
+  "answer": [
+   "levágatom"
+  ],
+  "lemma": "levág",
+  "tr_en": "Tomorrow I'm having my hair cut because it's too long.",
+  "tr_ru": "Завтра я подстригусь, потому что волосы уже слишком длинные.",
+  "explain_en": "Having something done by someone else is the causative -at/-tat: levágatom.",
+  "explain_ru": "Сделать что-то чужими руками — понудительный суффикс -at/-tat: levágatom. По-русски «подстричься» или «постричь у парикмахера».",
+  "id": "g020"
+ },
+ {
+  "kind": "form",
+  "text": "A tanár minden héten dolgozatot ___ a diákokkal.",
+  "answer": [
+   "írat"
+  ],
+  "lemma": "ír",
+  "tr_en": "The teacher has the students write a test every week.",
+  "tr_ru": "Учитель каждую неделю даёт ученикам писать контрольную.",
+  "explain_en": "Causative of ír: írat; the person made to act takes -val/-vel.",
+  "explain_ru": "Понудительный от ír — írat; тот, кого заставляют, — с -val/-vel.",
+  "id": "g021"
+ },
+ {
+  "kind": "form",
+  "text": "Az ajtó hirtelen magától ___.",
+  "answer": [
+   "kinyílt"
+  ],
+  "lemma": "kinyit",
+  "tr_en": "The door suddenly opened by itself.",
+  "tr_ru": "Дверь вдруг сама открылась.",
+  "explain_en": "With no agent the intransitive pair of kinyit is used: kinyílik, past kinyílt.",
+  "explain_ru": "Без деятеля используется непереходная пара kinyílik, прошедшее kinyílt (рус. -ся: открылась).",
+  "id": "g022"
+ },
+ {
+  "kind": "form",
+  "text": "Ez a templom a 18. században ___.",
+  "answer": [
+   "épült"
+  ],
+  "lemma": "épít",
+  "tr_en": "This church was built in the 18th century.",
+  "tr_ru": "Эта церковь была построена в XVIII веке.",
+  "explain_en": "Hungarian avoids the passive: the intransitive pair épül 'get built' is used: épült.",
+  "explain_ru": "Венгерский избегает пассива: используется непереходный глагол épül: épült («строилась, была построена»).",
+  "id": "g023"
+ },
+ {
+  "kind": "form",
+  "text": "Az orvos szerint az állapota napról napra ___.",
+  "answer": [
+   "javul"
+  ],
+  "lemma": "javít",
+  "tr_en": "According to the doctor, his condition is improving day by day.",
+  "tr_ru": "По словам врача, его состояние улучшается день ото дня.",
+  "explain_en": "Improving by itself is the intransitive javul; javít means 'improve something'.",
+  "explain_ru": "Улучшаться само по себе — непереходное javul; javít — «улучшать что-то».",
+  "id": "g024"
+ },
+ {
+  "kind": "form",
+  "text": "A kislány minden reggel sokáig ___ a tükör előtt.",
+  "answer": [
+   "fésülködik"
+  ],
+  "lemma": "fésül",
+  "tr_en": "Every morning the little girl combs her hair for a long time in front of the mirror.",
+  "tr_ru": "Девочка каждое утро долго причёсывается перед зеркалом.",
+  "explain_en": "Doing something to oneself: reflexive -kodik/-ködik: fésülködik.",
+  "explain_ru": "Действие над собой — возвратный суффикс -ködik: fésülködik (рус. -ся).",
+  "id": "g025"
+ },
+ {
+  "kind": "form",
+  "text": "Az a lány, ___ tegnap láttál, a húgom.",
+  "answer": [
+   "akit"
+  ],
+  "lemma": "aki",
+  "tr_en": "The girl you saw yesterday is my younger sister.",
+  "tr_ru": "Девушка, которую ты вчера видел, — моя младшая сестра.",
+  "explain_en": "The relative pronoun takes the case of its role in its own clause: object of láttál, so akit.",
+  "explain_ru": "Относительное местоимение стоит в падеже своей роли в придаточном: дополнение к láttál — akit (как «которую»).",
+  "id": "g026"
+ },
+ {
+  "kind": "form",
+  "text": "Ez az a ház, ___ gyerekkoromban laktam.",
+  "answer": [
+   "amelyben",
+   "amiben"
+  ],
+  "lemma": "amely",
+  "tr_en": "This is the house I lived in as a child.",
+  "tr_ru": "Это тот дом, в котором я жил в детстве.",
+  "explain_en": "'In which' is the relative pronoun with -ban/-ben: amelyben (colloquially amiben).",
+  "explain_ru": "«В котором» — относительное местоимение с -ban/-ben: amelyben (разг. amiben).",
+  "id": "g027"
+ },
+ {
+  "kind": "form",
+  "text": "Az a férfi, ___ az előbb beszéltem, az új főnököm.",
+  "answer": [
+   "akivel"
+  ],
+  "lemma": "aki",
+  "tr_en": "The man I was talking to just now is my new boss.",
+  "tr_ru": "Мужчина, с которым я только что разговаривал, — мой новый начальник.",
+  "explain_en": "beszél -val/-vel, so the relative pronoun takes -vel: akivel.",
+  "explain_ru": "beszél управляет -val/-vel, поэтому akivel «с которым».",
+  "id": "g028"
+ },
+ {
+  "kind": "form",
+  "text": "Nem találom a könyvet, ___ tegnap vettem.",
+  "answer": [
+   "amit",
+   "amelyet"
+  ],
+  "lemma": "ami",
+  "tr_en": "I can't find the book I bought yesterday.",
+  "tr_ru": "Не могу найти книгу, которую купил вчера.",
+  "explain_en": "Object of vettem, so the accusative relative: amit (formal amelyet).",
+  "explain_ru": "Дополнение к vettem — относительное местоимение в винительном: amit (книжн. amelyet).",
+  "id": "g029"
+ },
+ {
+  "kind": "form",
+  "text": "Ő az a szomszéd, ___ a kutyája egész éjjel ugat.",
+  "answer": [
+   "akinek"
+  ],
+  "lemma": "aki",
+  "tr_en": "He's the neighbour whose dog barks all night.",
+  "tr_ru": "Это тот сосед, чья собака лает всю ночь.",
+  "explain_en": "'Whose' is akinek a …-ja: the dative relative plus a possessed noun.",
+  "explain_ru": "«Чей» — akinek a …-ja: дательный относительного местоимения + существительное с суффиксом.",
+  "id": "g030"
+ },
+ {
+  "kind": "form",
+  "text": "Ülj le ___, itt van egy szabad hely!",
+  "answer": [
+   "mellém"
+  ],
+  "lemma": "mellett",
+  "tr_en": "Sit down next to me, there's a free seat here!",
+  "tr_ru": "Садись рядом со мной, тут есть свободное место!",
+  "explain_en": "leül answers 'where to', so the 'to' form of mellett is needed: mellé + -m = mellém.",
+  "explain_ru": "leül отвечает на вопрос «куда», поэтому нужна форма направления mellé: mellém.",
+  "id": "g031"
+ },
+ {
+  "kind": "form",
+  "text": "Nem tudok élni ___, szeretlek!",
+  "answer": [
+   "nélküled"
+  ],
+  "lemma": "nélkül",
+  "tr_en": "I can't live without you, I love you!",
+  "tr_ru": "Я не могу жить без тебя, я тебя люблю!",
+  "explain_en": "Postpositions take personal endings instead of a pronoun: nélküled 'without you'.",
+  "explain_ru": "Послелог получает личное окончание вместо местоимения: nélküled «без тебя».",
+  "id": "g032"
+ },
+ {
+  "kind": "form",
+  "text": "Holnap ___ megyek, mert a barátom beteg.",
+  "answer": [
+   "hozzá"
+  ],
+  "lemma": "ő",
+  "tr_en": "Tomorrow I'm going to his place because my friend is ill.",
+  "tr_ru": "Завтра я пойду к нему, потому что мой друг болен.",
+  "explain_en": "'To him' is the -hoz suffix with a personal ending: hozzá.",
+  "explain_ru": "«К нему» — суффикс -hoz с личным окончанием: hozzá.",
+  "id": "g033"
+ },
+ {
+  "kind": "form",
+  "text": "A gyerekek félnek ___, pedig én nem vagyok szigorú.",
+  "answer": [
+   "tőlem"
+  ],
+  "lemma": "én",
+  "tr_en": "The children are afraid of me, although I'm not strict.",
+  "tr_ru": "Дети меня боятся, хотя я не строгий.",
+  "explain_en": "fél takes -tól/-től; with a pronoun: tőlem.",
+  "explain_ru": "fél управляет -tól/-től; с местоимением: tőlem (рус. «меня» в родительном).",
+  "id": "g034"
+ },
+ {
+  "kind": "form",
+  "text": "Bízom ___, tudom, hogy sikerülni fog.",
+  "answer": [
+   "benned"
+  ],
+  "lemma": "te",
+  "tr_en": "I trust you, I know you'll succeed.",
+  "tr_ru": "Я в тебя верю, я знаю, что у тебя получится.",
+  "explain_en": "bízik takes -ban/-ben, whose personal forms have the stem benn-: benned.",
+  "explain_ru": "bízik управляет -ban/-ben, личные формы на основе benn-: benned.",
+  "id": "g035"
+ },
+ {
+  "kind": "form",
+  "text": "Várok ___, siess!",
+  "answer": [
+   "rád"
+  ],
+  "lemma": "te",
+  "tr_en": "I'm waiting for you, hurry up!",
+  "tr_ru": "Я тебя жду, поторопись!",
+  "explain_en": "vár takes -ra/-re; its personal form for 'you' is rád.",
+  "explain_ru": "vár управляет -ra/-re; «тебя» — rád (а не винительный, как в русском).",
+  "id": "g036"
+ },
+ {
+  "kind": "form",
+  "text": "Szép ez a kép, de a ___ nem minden.",
+  "answer": [
+   "szépség"
+  ],
+  "lemma": "szép",
+  "tr_en": "This picture is beautiful, but beauty isn't everything.",
+  "tr_ru": "Картина красивая, но красота — это не всё.",
+  "explain_en": "Abstract nouns from adjectives take -ság/-ség: szépség.",
+  "explain_ru": "Абстрактные существительные от прилагательных — -ság/-ség (рус. -ость, -ота): szépség.",
+  "id": "g037"
+ },
+ {
+  "kind": "form",
+  "text": "Péter május ___ született.",
+  "answer": [
+   "ötödikén"
+  ],
+  "lemma": "öt",
+  "tr_en": "Peter was born on the fifth of May.",
+  "tr_ru": "Петер родился пятого мая.",
+  "explain_en": "A day of the month is the ordinal + -án/-én: ötödikén.",
+  "explain_ru": "Число месяца — порядковое числительное + -án/-én: ötödikén.",
+  "id": "g038"
+ },
+ {
+  "kind": "form",
+  "text": "Ez a leves teljesen ___, egy csipet sem került bele.",
+  "answer": [
+   "sótlan"
+  ],
+  "lemma": "só",
+  "tr_en": "This soup is completely unsalted, not a pinch went into it.",
+  "tr_ru": "Этот суп совсем несолёный, туда не положили ни щепотки.",
+  "explain_en": "'Without X' adjectives take -tlan/-tlen: sótlan.",
+  "explain_ru": "Прилагательные «без X» — суффикс -tlan/-tlen (рус. без-/не-): sótlan.",
+  "id": "g039"
+ },
+ {
+  "kind": "form",
+  "text": "Egy kék ___ lány ült mellettem a buszon.",
+  "answer": [
+   "szemű"
+  ],
+  "lemma": "szem",
+  "tr_en": "A blue-eyed girl sat next to me on the bus.",
+  "tr_ru": "Рядом со мной в автобусе сидела голубоглазая девушка.",
+  "explain_en": "'Having a … feature' is adjective + noun + -ú/-ű: kék szemű.",
+  "explain_ru": "«Обладающий признаком» — прилагательное + существительное + -ú/-ű: kék szemű.",
+  "id": "g040"
+ },
+ {
+  "kind": "word",
+  "text": "Ő nem a barátom, csak egy ___ a munkahelyemről.",
+  "answer": [
+   "ismerős"
+  ],
+  "ref": "ismerős",
+  "clue_en": "acquaintance",
+  "clue_ru": "знакомый",
+  "tr_en": "He's not my friend, just an acquaintance from work.",
+  "tr_ru": "Он мне не друг, просто знакомый с работы.",
+  "explain_en": "Someone you merely know is an ismerős; barát is a real friend.",
+  "explain_ru": "Просто знакомый — ismerős, а barát — настоящий друг.",
+  "id": "g041"
+ },
+ {
+  "kind": "word",
+  "text": "Tegnap ___ a barátnőmmel, de ma már kibékültünk.",
+  "answer": [
+   "összevesztem"
+  ],
+  "ref": "összeveszik",
+  "clue_en": "quarrel",
+  "clue_ru": "поссориться",
+  "tr_en": "Yesterday I fell out with my girlfriend, but today we've already made up.",
+  "tr_ru": "Вчера я поссорился с девушкой, но сегодня мы уже помирились.",
+  "explain_en": "Falling out is összeveszik (+ -val/-vel); past 1sg összevesztem.",
+  "explain_ru": "Поссориться — összeveszik (+ -val/-vel); прошедшее 1-го лица: összevesztem.",
+  "id": "g042"
+ },
+ {
+  "kind": "word",
+  "text": "Két hét hallgatás után Anna végre ___ a testvérével.",
+  "answer": [
+   "kibékült"
+  ],
+  "ref": "kibékül",
+  "clue_en": "make up, reconcile",
+  "clue_ru": "помириться",
+  "tr_en": "After two weeks of silence, Anna finally made up with her sister.",
+  "tr_ru": "После двух недель молчания Анна наконец помирилась с сестрой.",
+  "explain_en": "Reconciling is kibékül + -val/-vel; past 3sg kibékült.",
+  "explain_ru": "Помириться — kibékül + -val/-vel; прошедшее: kibékült.",
+  "id": "g043"
+ },
+ {
+  "kind": "word",
+  "text": "A szüleim tíz évvel ezelőtt ___, de jóban maradtak.",
+  "answer": [
+   "elváltak"
+  ],
+  "ref": "elválik",
+  "clue_en": "divorce",
+  "clue_ru": "разводиться",
+  "tr_en": "My parents divorced ten years ago, but they stayed on good terms.",
+  "tr_ru": "Мои родители развелись десять лет назад, но остались в хороших отношениях.",
+  "explain_en": "Divorcing is elválik; past 3pl elváltak.",
+  "explain_ru": "Развестись — elválik; прошедшее 3-го лица мн. числа: elváltak.",
+  "id": "g044"
+ },
+ {
+  "kind": "word",
+  "text": "Ne légy ___ a testvéredre, neked is van új biciklid!",
+  "answer": [
+   "irigy"
+  ],
+  "ref": "irigy",
+  "clue_en": "envious",
+  "clue_ru": "завистливый",
+  "tr_en": "Don't be envious of your brother, you have a new bike too!",
+  "tr_ru": "Не завидуй брату, у тебя тоже есть новый велосипед!",
+  "explain_en": "Envy of someone's things is irigy (+ -ra/-re); féltékeny is jealousy in love.",
+  "explain_ru": "Зависть к чужому — irigy (+ -ra/-re); féltékeny — ревнивый.",
+  "id": "g045"
+ },
+ {
+  "kind": "word",
+  "text": "A főnököm nagyon ___, még a borravalót is sajnálja.",
+  "answer": [
+   "fukar"
+  ],
+  "ref": "fukar",
+  "clue_en": "stingy",
+  "clue_ru": "скупой",
+  "tr_en": "My boss is very stingy, he even begrudges the tip.",
+  "tr_ru": "Мой начальник очень скупой, ему даже чаевых жалко.",
+  "explain_en": "Not wanting to spend money is fukar.",
+  "explain_ru": "Нежелание тратить деньги — fukar «скупой».",
+  "id": "g046"
+ },
+ {
+  "kind": "word",
+  "text": "Hiába lett híres, nagyon ___ ember maradt.",
+  "answer": [
+   "szerény"
+  ],
+  "ref": "szerény",
+  "clue_en": "modest",
+  "clue_ru": "скромный",
+  "tr_en": "Although he became famous, he remained a very modest person.",
+  "tr_ru": "Хотя он стал знаменитым, он остался очень скромным человеком.",
+  "explain_en": "Not boasting about success is szerény (the opposite is nagyképű).",
+  "explain_ru": "Не хвастаться успехом — szerény (противоположность — nagyképű).",
+  "id": "g047"
+ },
+ {
+  "kind": "word",
+  "text": "Anna ___, mert nem hívtuk meg a buliba.",
+  "answer": [
+   "megsértődött"
+  ],
+  "ref": "megsértődik",
+  "clue_en": "take offence",
+  "clue_ru": "обидеться",
+  "tr_en": "Anna took offence because we didn't invite her to the party.",
+  "tr_ru": "Анна обиделась, потому что мы не пригласили её на вечеринку.",
+  "explain_en": "Taking offence oneself is megsértődik; megsért is offending someone else.",
+  "explain_ru": "Обидеться — megsértődik, а megsért — обидеть кого-то.",
+  "id": "g048"
+ },
+ {
+  "kind": "word",
+  "text": "Az orvos nyugodt szavai ___ a beteget.",
+  "answer": [
+   "megnyugtatták"
+  ],
+  "ref": "megnyugtat",
+  "clue_en": "calm (someone)",
+  "clue_ru": "успокоить (кого-л.)",
+  "tr_en": "The doctor's calm words reassured the patient.",
+  "tr_ru": "Спокойные слова врача успокоили больного.",
+  "explain_en": "Calming someone else is megnyugtat; plural subject, definite object: megnyugtatták.",
+  "explain_ru": "Успокоить кого-то — megnyugtat; подлежащее во мн. числе, дополнение определённое: megnyugtatták.",
+  "id": "g049"
+ },
+ {
+  "kind": "word",
+  "text": "Az anya végre ___, amikor meghallotta, hogy a fia jól van.",
+  "answer": [
+   "megnyugodott"
+  ],
+  "ref": "megnyugszik",
+  "clue_en": "calm down",
+  "clue_ru": "успокоиться",
+  "tr_en": "The mother finally calmed down when she heard her son was fine.",
+  "tr_ru": "Мать наконец успокоилась, когда услышала, что с сыном всё в порядке.",
+  "explain_en": "Calming down oneself is megnyugszik, with the irregular past stem megnyugod-: megnyugodott.",
+  "explain_ru": "Успокоиться самому — megnyugszik, неправильная основа прошедшего megnyugod-: megnyugodott.",
+  "id": "g050"
+ },
+ {
+  "kind": "word",
+  "text": "Nagyon ___ vagyok a segítségedért.",
+  "answer": [
+   "hálás"
+  ],
+  "ref": "hálás",
+  "clue_en": "grateful",
+  "clue_ru": "благодарный",
+  "tr_en": "I'm very grateful for your help.",
+  "tr_ru": "Я очень благодарен тебе за помощь.",
+  "explain_en": "'Grateful for' is hálás + -ért.",
+  "explain_ru": "«Благодарен за» — hálás + -ért.",
+  "id": "g051"
+ },
+ {
+  "kind": "word",
+  "text": "A csap egész éjjel ___, nem tudtam aludni.",
+  "answer": [
+   "csöpögött"
+  ],
+  "ref": "csöpög",
+  "clue_en": "drip",
+  "clue_ru": "капать",
+  "tr_en": "The tap dripped all night, I couldn't sleep.",
+  "tr_ru": "Кран всю ночь капал, я не мог уснуть.",
+  "explain_en": "A leaking tap csöpög; past 3sg csöpögött.",
+  "explain_ru": "Протекающий кран csöpög; прошедшее: csöpögött.",
+  "id": "g052"
+ },
+ {
+  "kind": "word",
+  "text": "Kiégett az izzó a konyhában, holnap ___.",
+  "answer": [
+   "kicserélem"
+  ],
+  "ref": "kicserél",
+  "clue_en": "replace",
+  "clue_ru": "заменить",
+  "tr_en": "The bulb in the kitchen has burnt out, I'll replace it tomorrow.",
+  "tr_ru": "Лампочка на кухне перегорела, завтра я её заменю.",
+  "explain_en": "Replacing is kicserél; the dropped object 'it' is definite: kicserélem.",
+  "explain_ru": "Заменить — kicserél; опущенное «её» — определённое дополнение: kicserélem.",
+  "id": "g053"
+ },
+ {
+  "kind": "word",
+  "text": "A régi házat teljesen ___, most olyan, mint az új.",
+  "answer": [
+   "felújították"
+  ],
+  "ref": "felújít",
+  "clue_en": "renovate",
+  "clue_ru": "отремонтировать",
+  "tr_en": "The old house has been completely renovated, now it's like new.",
+  "tr_ru": "Старый дом полностью отремонтировали, теперь он как новый.",
+  "explain_en": "Renovating is felújít; the impersonal 3pl replaces a passive: felújították.",
+  "explain_ru": "Капитально отремонтировать — felújít; безличное 3-е лицо мн. числа вместо пассива: felújították.",
+  "id": "g054"
+ },
+ {
+  "kind": "word",
+  "text": "Két hónapja diétázom, és már öt kilót ___.",
+  "answer": [
+   "fogytam"
+  ],
+  "ref": "fogy",
+  "clue_en": "lose weight",
+  "clue_ru": "худеть",
+  "tr_en": "I've been on a diet for two months and I've already lost five kilos.",
+  "tr_ru": "Я на диете два месяца и уже похудел на пять килограммов.",
+  "explain_en": "Losing weight is fogy, with the amount as an object: öt kilót fogytam.",
+  "explain_ru": "Похудеть — fogy, количество — винительный: öt kilót fogytam (рус. «на пять кило»).",
+  "id": "g055"
+ },
+ {
+  "kind": "word",
+  "text": "Ne idd meg a tejet, már ___ a szavatossága!",
+  "answer": [
+   "lejárt"
+  ],
+  "ref": "lejár",
+  "clue_en": "expire",
+  "clue_ru": "истекать (о сроке)",
+  "tr_en": "Don't drink the milk, it's past its use-by date!",
+  "tr_ru": "Не пей молоко, у него уже истёк срок годности!",
+  "explain_en": "A date that has run out lejárt.",
+  "explain_ru": "Истёкший срок — lejárt.",
+  "id": "g056"
+ },
+ {
+  "kind": "word",
+  "text": "Péter tavaly ___ a dohányzásról, és azóta jobban érzi magát.",
+  "answer": [
+   "leszokott"
+  ],
+  "ref": "leszokik",
+  "clue_en": "give up (a habit)",
+  "clue_ru": "бросить (привычку)",
+  "tr_en": "Peter gave up smoking last year and has felt better since.",
+  "tr_ru": "Петер в прошлом году бросил курить и с тех пор чувствует себя лучше.",
+  "explain_en": "Quitting a habit is leszokik + -ról/-ről; past leszokott.",
+  "explain_ru": "Бросить привычку — leszokik + -ról/-ről; прошедшее leszokott.",
+  "id": "g057"
+ },
+ {
+  "kind": "word",
+  "text": "Hétvégén végre ___ magam, tíz órán át pihentem az ágyban.",
+  "answer": [
+   "kialudtam"
+  ],
+  "ref": "kialussza magát",
+  "clue_en": "get enough sleep",
+  "clue_ru": "выспаться",
+  "tr_en": "At the weekend I finally got a good night's sleep, I rested in bed for ten hours.",
+  "tr_ru": "В выходные я наконец выспался, десять часов провалялся в постели.",
+  "explain_en": "kialussza magát 'sleep one's fill'; past 1sg with magam: kialudtam magam.",
+  "explain_ru": "kialussza magát «выспаться»; прошедшее 1-го лица с magam: kialudtam magam.",
+  "id": "g058"
+ },
+ {
+  "kind": "word",
+  "text": "A szobánkból gyönyörű ___ nyílik a tengerre.",
+  "answer": [
+   "kilátás"
+  ],
+  "ref": "kilátás",
+  "clue_en": "view",
+  "clue_ru": "вид (из окна)",
+  "tr_en": "Our room has a beautiful view of the sea.",
+  "tr_ru": "Из нашего номера открывается великолепный вид на море.",
+  "explain_en": "A view from a window is kilátás; 'opens onto' is nyílik -ra/-re.",
+  "explain_ru": "Вид из окна — kilátás; «открывается на» — nyílik -ra/-re.",
+  "id": "g059"
+ },
+ {
+  "kind": "word",
+  "text": "A sofőr hirtelen ___, mert egy kutya szaladt az útra.",
+  "answer": [
+   "fékezett"
+  ],
+  "ref": "fékez",
+  "clue_en": "brake",
+  "clue_ru": "тормозить",
+  "tr_en": "The driver braked suddenly because a dog ran onto the road.",
+  "tr_ru": "Водитель резко затормозил, потому что на дорогу выбежала собака.",
+  "explain_en": "Braking is fékez; past 3sg fékezett.",
+  "explain_ru": "Тормозить — fékez; прошедшее: fékezett.",
+  "id": "g060"
+ },
+ {
+  "kind": "word",
+  "text": "Óvatosan ___, mert mögötted egy oszlop van!",
+  "answer": [
+   "tolass"
+  ],
+  "ref": "tolat",
+  "clue_en": "reverse (a car)",
+  "clue_ru": "сдавать назад",
+  "tr_en": "Reverse carefully, there's a post behind you!",
+  "tr_ru": "Осторожно сдавай назад, сзади столб!",
+  "explain_en": "Imperative of tolat: vowel + t + j becomes ss: tolass.",
+  "explain_ru": "Повелительное от tolat: t + j после гласной даёт ss: tolass.",
+  "id": "g061"
+ },
+ {
+  "kind": "word",
+  "text": "Péter nagyon jól dolgozott, ezért a főnöke ___.",
+  "answer": [
+   "előléptette"
+  ],
+  "ref": "előléptet",
+  "clue_en": "promote",
+  "clue_ru": "повысить (в должности)",
+  "tr_en": "Peter worked very well, so his boss promoted him.",
+  "tr_ru": "Петер очень хорошо работал, поэтому начальник повысил его в должности.",
+  "explain_en": "Promoting is előléptet; the dropped 3rd person object is definite: előléptette.",
+  "explain_ru": "Повысить — előléptet; опущенное «его» — определённое дополнение: előléptette.",
+  "id": "g062"
+ },
+ {
+  "kind": "word",
+  "text": "A férjem egy hétig ___ van Németországban.",
+  "answer": [
+   "kiküldetésben"
+  ],
+  "ref": "kiküldetés",
+  "clue_en": "business trip",
+  "clue_ru": "командировка",
+  "tr_en": "My husband is on a business trip in Germany for a week.",
+  "tr_ru": "Мой муж на неделю в командировке в Германии.",
+  "explain_en": "'Be on a business trip' is kiküldetésben van.",
+  "explain_ru": "«Быть в командировке» — kiküldetésben van.",
+  "id": "g063"
+ },
+ {
+  "kind": "word",
+  "text": "Ez a bank öt százalék ___ fizet a megtakarításokra.",
+  "answer": [
+   "kamatot"
+  ],
+  "ref": "kamat",
+  "clue_en": "interest (on money)",
+  "clue_ru": "процент (по вкладу)",
+  "tr_en": "This bank pays five per cent interest on savings.",
+  "tr_ru": "Этот банк платит пять процентов годовых по вкладам.",
+  "explain_en": "Interest is kamat; object of fizet: kamatot.",
+  "explain_ru": "Проценты по вкладу — kamat; дополнение к fizet: kamatot.",
+  "id": "g064"
+ },
+ {
+  "kind": "word",
+  "text": "Tessék, és tartsa meg a ___!",
+  "answer": [
+   "visszajárót"
+  ],
+  "ref": "visszajáró",
+  "clue_en": "change (money back)",
+  "clue_ru": "сдача",
+  "tr_en": "Here you are, and keep the change!",
+  "tr_ru": "Вот, возьмите, сдачи не надо!",
+  "explain_en": "Money given back is visszajáró; object of tartsa meg: visszajárót.",
+  "explain_ru": "Сдача — visszajáró; дополнение к tartsa meg: visszajárót.",
+  "id": "g065"
+ },
+ {
+  "kind": "word",
+  "text": "Drága volt a jegy, de a koncert ___ az árát.",
+  "answer": [
+   "megérte"
+  ],
+  "ref": "megér",
+  "clue_en": "be worth",
+  "clue_ru": "стоить (того)",
+  "tr_en": "The ticket was expensive, but the concert was worth the price.",
+  "tr_ru": "Билет был дорогой, но концерт того стоил.",
+  "explain_en": "'Be worth' is megér + definite object: megérte az árát.",
+  "explain_ru": "«Стоить того» — megér + определённое дополнение: megérte az árát.",
+  "id": "g066"
+ },
+ {
+  "kind": "word",
+  "text": "Sajnos ___ a matekvizsgán, jövő hónapban újra kell vizsgáznom.",
+  "answer": [
+   "megbuktam"
+  ],
+  "ref": "megbukik",
+  "clue_en": "fail (an exam)",
+  "clue_ru": "провалиться (на экзамене)",
+  "tr_en": "Unfortunately I failed the maths exam, I have to retake it next month.",
+  "tr_ru": "К сожалению, я провалил экзамен по математике, в следующем месяце пересдаю.",
+  "explain_en": "Failing is megbukik + -n/-on; past 1sg megbuktam.",
+  "explain_ru": "Провалиться — megbukik + -n; прошедшее 1-го лица: megbuktam.",
+  "id": "g067"
+ },
+ {
+  "kind": "word",
+  "text": "Képzeld, ___ a vizsgán, pedig alig tanultam!",
+  "answer": [
+   "átmentem"
+  ],
+  "ref": "átmegy",
+  "clue_en": "pass (an exam)",
+  "clue_ru": "сдать (экзамен)",
+  "tr_en": "Guess what, I passed the exam, although I hardly studied!",
+  "tr_ru": "Представляешь, я сдал экзамен, хотя почти не готовился!",
+  "explain_en": "Passing an exam is átmegy a vizsgán; past 1sg átmentem.",
+  "explain_ru": "Сдать экзамен — átmegy a vizsgán («пройти через»); прошедшее: átmentem.",
+  "id": "g068"
+ },
+ {
+  "kind": "word",
+  "text": "A verset ___ kell megtanulnotok holnapra.",
+  "answer": [
+   "kívülről"
+  ],
+  "ref": "kívülről",
+  "clue_en": "by heart",
+  "clue_ru": "наизусть",
+  "tr_en": "You have to learn the poem by heart for tomorrow.",
+  "tr_ru": "Стихотворение вы должны выучить наизусть к завтрашнему дню.",
+  "explain_en": "'By heart' is kívülről, literally 'from outside'.",
+  "explain_ru": "«Наизусть» — kívülről, буквально «снаружи».",
+  "id": "g069"
+ },
+ {
+  "kind": "word",
+  "text": "A dinoszauruszok sok millió évvel ezelőtt ___.",
+  "answer": [
+   "kihaltak"
+  ],
+  "ref": "kihal",
+  "clue_en": "die out",
+  "clue_ru": "вымирать",
+  "tr_en": "The dinosaurs died out many millions of years ago.",
+  "tr_ru": "Динозавры вымерли много миллионов лет назад.",
+  "explain_en": "A species dying out is kihal; past 3pl kihaltak.",
+  "explain_ru": "Вымирание вида — kihal; прошедшее 3-го лица мн. числа: kihaltak.",
+  "id": "g070"
+ },
+ {
+  "kind": "word",
+  "text": "A számítógépem megint ___, újra kell indítanom.",
+  "answer": [
+   "lefagyott"
+  ],
+  "ref": "lefagy",
+  "clue_en": "freeze (computer)",
+  "clue_ru": "зависнуть",
+  "tr_en": "My computer has frozen again, I have to restart it.",
+  "tr_ru": "Мой компьютер опять завис, придётся перезагрузить.",
+  "explain_en": "A computer that hangs lefagy ('freezes'); past lefagyott.",
+  "explain_ru": "Компьютер «замерзает» — lefagy; прошедшее lefagyott (рус. «завис»).",
+  "id": "g071"
+ },
+ {
+  "kind": "word",
+  "text": "A hackerek ___ a bank rendszerét, és adatokat loptak.",
+  "answer": [
+   "feltörték"
+  ],
+  "ref": "feltör",
+  "clue_en": "hack, break into",
+  "clue_ru": "взломать",
+  "tr_en": "The hackers broke into the bank's system and stole data.",
+  "tr_ru": "Хакеры взломали систему банка и украли данные.",
+  "explain_en": "Hacking is feltör; definite object, 3pl past: feltörték.",
+  "explain_ru": "Взломать — feltör; определённое дополнение, 3-е лицо мн. числа: feltörték.",
+  "id": "g072"
+ },
+ {
+  "kind": "word",
+  "text": "Gyorshajtásért húszezer forint ___ kellett fizetnem.",
+  "answer": [
+   "bírságot"
+  ],
+  "ref": "bírság",
+  "clue_en": "fine (penalty)",
+  "clue_ru": "штраф",
+  "tr_en": "I had to pay a twenty-thousand-forint fine for speeding.",
+  "tr_ru": "За превышение скорости мне пришлось заплатить штраф в двадцать тысяч форинтов.",
+  "explain_en": "A money penalty is bírság (büntetés is punishment in general); object: bírságot.",
+  "explain_ru": "Денежный штраф — bírság (büntetés — наказание вообще); дополнение: bírságot.",
+  "id": "g073"
+ },
+ {
+  "kind": "word",
+  "text": "A gyanúsított mindent ___, azt mondja, ártatlan.",
+  "answer": [
+   "tagad"
+  ],
+  "ref": "tagad",
+  "clue_en": "deny",
+  "clue_ru": "отрицать",
+  "tr_en": "The suspect denies everything, he says he's innocent.",
+  "tr_ru": "Подозреваемый всё отрицает, говорит, что невиновен.",
+  "explain_en": "Denying is tagad; mindent is an indefinite object, so tagad (not tagadja).",
+  "explain_ru": "Отрицать — tagad; mindent требует неопределённого спряжения: tagad (не tagadja).",
+  "id": "g074"
+ },
+ {
+  "kind": "word",
+  "text": "Végül a kisfiú ___, hogy ő törte el a vázát.",
+  "answer": [
+   "beismerte",
+   "elismerte"
+  ],
+  "ref": "beismer",
+  "clue_en": "admit, confess",
+  "clue_ru": "признаться",
+  "tr_en": "In the end the little boy admitted that he had broken the vase.",
+  "tr_ru": "В конце концов мальчик признался, что это он разбил вазу.",
+  "explain_en": "Confessing a wrongdoing is beismer; the hogy-clause makes it definite: beismerte.",
+  "explain_ru": "Признаться в проступке — beismer; придаточное с hogy делает спряжение определённым: beismerte.",
+  "id": "g075"
+ },
+ {
+  "kind": "word",
+  "text": "Az eső miatt egy héttel ___ a meccset.",
+  "answer": [
+   "elhalasztották"
+  ],
+  "ref": "elhalaszt",
+  "clue_en": "postpone",
+  "clue_ru": "отложить",
+  "tr_en": "Because of the rain the match was postponed by a week.",
+  "tr_ru": "Из-за дождя матч перенесли на неделю.",
+  "explain_en": "Postponing is elhalaszt; impersonal 3pl instead of a passive: elhalasztották.",
+  "explain_ru": "Отложить — elhalaszt; безличное 3-е лицо мн. числа вместо пассива: elhalasztották.",
+  "id": "g076"
+ },
+ {
+  "kind": "word",
+  "text": "Ilyen lehetőséget nem szabad ___!",
+  "answer": [
+   "kihagyni"
+  ],
+  "ref": "kihagy",
+  "clue_en": "miss, pass up",
+  "clue_ru": "пропустить",
+  "tr_en": "You mustn't miss an opportunity like this!",
+  "tr_ru": "Такую возможность нельзя упускать!",
+  "explain_en": "Passing up a chance is kihagy; after nem szabad the infinitive: kihagyni.",
+  "explain_ru": "Упустить шанс — kihagy; после nem szabad — инфинитив: kihagyni.",
+  "id": "g077"
+ },
+ {
+  "kind": "word",
+  "text": "Később ___, hogy neked volt igazad.",
+  "answer": [
+   "kiderült"
+  ],
+  "ref": "kiderül",
+  "clue_en": "turn out",
+  "clue_ru": "выясниться",
+  "tr_en": "Later it turned out that you were right.",
+  "tr_ru": "Позже выяснилось, что ты был прав.",
+  "explain_en": "'It turned out that' is kiderült, hogy …",
+  "explain_ru": "«Выяснилось, что» — kiderült, hogy …",
+  "id": "g078"
+ },
+ {
+  "kind": "word",
+  "text": "A film olyan ___ volt, hogy a közepén elaludtam.",
+  "answer": [
+   "unalmas"
+  ],
+  "ref": "unalmas",
+  "clue_en": "boring",
+  "clue_ru": "скучный",
+  "tr_en": "The film was so boring that I fell asleep in the middle.",
+  "tr_ru": "Фильм был такой скучный, что я уснул на середине.",
+  "explain_en": "Falling asleep shows it was unalmas 'boring'.",
+  "explain_ru": "Уснул — значит, фильм был unalmas «скучный».",
+  "id": "g079"
+ },
+ {
+  "kind": "word",
+  "text": "___ sietni, a vonat úgyis húsz percet késik.",
+  "answer": [
+   "Fölösleges",
+   "Felesleges"
+  ],
+  "ref": "fölösleges",
+  "clue_en": "unnecessary",
+  "clue_ru": "лишний, ненужный",
+  "tr_en": "There's no need to hurry, the train is twenty minutes late anyway.",
+  "tr_ru": "Незачем спешить, поезд всё равно опаздывает на двадцать минут.",
+  "explain_en": "'It is pointless to …' is fölösleges (felesleges) + infinitive.",
+  "explain_ru": "«Незачем, нет смысла» — fölösleges (felesleges) + инфинитив.",
+  "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "section": "conditional-present-polite-requests-ha-akkor",
+  "text": "Ha ___ időm, elmennék veled moziba.",
+  "answer": [
+   "lenne",
+   "volna"
+  ],
+  "tr_en": "If I had time, I would go to the cinema with you.",
+  "tr_ru": "Если бы у меня было время, я бы пошёл с тобой в кино.",
+  "explain_en": "An unreal present condition needs the conditional of van: lenne (or volna).",
+  "explain_ru": "Нереальное условие в настоящем требует условного от van: lenne (или volna).",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "section": "conditional-present-polite-requests-ha-akkor",
+  "text": "___ nem esne az eső, kimennénk a kertbe.",
+  "answer": [
+   "Ha"
+  ],
+  "tr_en": "If it weren't raining, we would go out into the garden.",
+  "tr_ru": "Если бы не шёл дождь, мы бы вышли в сад.",
+  "explain_en": "The condition clause is introduced by ha; both clauses use the conditional.",
+  "explain_ru": "Условие вводится союзом ha; в обеих частях — условное наклонение.",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "section": "conditional-present-polite-requests-ha-akkor",
+  "text": "Ha holnap esik, ___ itthon maradunk.",
+  "answer": [
+   "akkor"
+  ],
+  "tr_en": "If it rains tomorrow, then we'll stay at home.",
+  "tr_ru": "Если завтра будет дождь, то мы останемся дома.",
+  "explain_en": "The main clause after a ha-clause can begin with akkor 'then'; a real condition keeps the indicative.",
+  "explain_ru": "Главное предложение после ha может начинаться с akkor «то»; реальное условие — в изъявительном.",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "section": "conditional-present-polite-requests-ha-akkor",
+  "text": "___ egy kérdésem, ha nem zavarom.",
+  "answer": [
+   "Lenne",
+   "Volna"
+  ],
+  "tr_en": "I'd have a question, if I'm not disturbing you.",
+  "tr_ru": "У меня был бы вопрос, если не помешаю.",
+  "explain_en": "The conditional softens a statement politely: lenne egy kérdésem.",
+  "explain_ru": "Условное смягчает высказывание: lenne egy kérdésem «у меня был бы вопрос».",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "section": "conditional-past-volna-barcsak",
+  "text": "Szívesen segítettem ___, de nem kérted.",
+  "answer": [
+   "volna"
+  ],
+  "tr_en": "I would gladly have helped, but you didn't ask.",
+  "tr_ru": "Я бы с удовольствием помог, но ты не попросил.",
+  "explain_en": "Past conditional = past tense + volna, placed right after the verb.",
+  "explain_ru": "Прошедшее условное = прошедшее время + volna сразу после глагола.",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "section": "conditional-past-volna-barcsak",
+  "text": "Tegnap el kellett ___ jönnöd, nagyon jó buli volt!",
+  "answer": [
+   "volna"
+  ],
+  "tr_en": "You should have come yesterday, it was a great party!",
+  "tr_ru": "Тебе надо было вчера прийти, вечеринка была отличная!",
+  "explain_en": "Reproach 'should have' is kellett volna + personal infinitive.",
+  "explain_ru": "Упрёк «надо было» — kellett volna + личный инфинитив.",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "section": "conditional-past-volna-barcsak",
+  "text": "___ ne mondtam volna el neki a titkot!",
+  "answer": [
+   "Bárcsak",
+   "Bár"
+  ],
+  "tr_en": "If only I hadn't told him the secret!",
+  "tr_ru": "Лучше бы я не рассказывал ему этот секрет!",
+  "explain_en": "Wishes and regrets start with bárcsak (bár) + conditional.",
+  "explain_ru": "Желания и сожаления — bárcsak (bár) + условное, как русское «если бы / лучше бы».",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "section": "conditional-past-volna-barcsak",
+  "text": "Úgy viselkedik, ___ ő lenne a főnök.",
+  "answer": [
+   "mintha"
+  ],
+  "tr_en": "He behaves as if he were the boss.",
+  "tr_ru": "Он ведёт себя так, будто он начальник.",
+  "explain_en": "'As if' is mintha, followed by the conditional.",
+  "explain_ru": "«Как будто» — mintha + условное наклонение.",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "section": "participles-o-t-ando-va-ve",
+  "text": "Az ablak ki ___ nyitva, csukd be!",
+  "answer": [
+   "van"
+  ],
+  "tr_en": "The window is open, close it!",
+  "tr_ru": "Окно открыто, закрой его!",
+  "explain_en": "A resulting state is prefix + van + -va/-ve participle.",
+  "explain_ru": "Состояние — приставка + van + причастие на -va/-ve.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "section": "participles-o-t-ando-va-ve",
+  "text": "Amikor odaértünk, az ajtó már be ___ zárva.",
+  "answer": [
+   "volt"
+  ],
+  "tr_en": "When we got there, the door was already locked.",
+  "tr_ru": "Когда мы пришли, дверь уже была заперта.",
+  "explain_en": "In the past the state construction uses volt: be volt zárva.",
+  "explain_ru": "В прошедшем конструкция состояния использует volt: be volt zárva.",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "section": "participles-o-t-ando-va-ve",
+  "text": "A boltok vasárnap zárva ___.",
+  "answer": [
+   "vannak"
+  ],
+  "tr_en": "The shops are closed on Sundays.",
+  "tr_ru": "По воскресеньям магазины закрыты.",
+  "explain_en": "van agrees with the plural subject: zárva vannak.",
+  "explain_ru": "van согласуется с подлежащим во мн. числе: zárva vannak.",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "section": "personal-infinitive-kell-szabad-lehet-sikerul",
+  "text": "A kórházban ___ dohányozni, a tábla is jelzi.",
+  "answer": [
+   "tilos",
+   "nem szabad"
+  ],
+  "tr_en": "Smoking is forbidden in the hospital, the sign says so too.",
+  "tr_ru": "В больнице курить запрещено, об этом говорит и табличка.",
+  "explain_en": "Prohibition: tilos (or nem szabad) + infinitive.",
+  "explain_ru": "Запрет: tilos (или nem szabad) + инфинитив.",
+  "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "section": "personal-infinitive-kell-szabad-lehet-sikerul",
+  "text": "___ sikerült megoldanod a feladatot?",
+  "answer": [
+   "Neked"
+  ],
+  "tr_en": "Did you manage to solve the task?",
+  "tr_ru": "Тебе удалось решить задачу?",
+  "explain_en": "The ending -od shows te; the person with sikerül is in the dative: neked.",
+  "explain_ru": "Окончание -od указывает на te; лицо при sikerül — в дательном: neked (как «тебе удалось»).",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "section": "personal-infinitive-kell-szabad-lehet-sikerul",
+  "text": "Nem ___ elmennünk, ha nem akarunk.",
+  "answer": [
+   "kell"
+  ],
+  "tr_en": "We don't have to go if we don't want to.",
+  "tr_ru": "Нам не обязательно идти, если мы не хотим.",
+  "explain_en": "nem kell = 'don't have to'; prohibition would be nem szabad.",
+  "explain_ru": "nem kell = «не нужно, не обязательно»; запрет — nem szabad.",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "section": "personal-infinitive-kell-szabad-lehet-sikerul",
+  "text": "Ezt a filmet ___ megnézni: nem kötelező, de nagyon jó.",
+  "answer": [
+   "érdemes"
+  ],
+  "tr_en": "This film is worth seeing: it's not compulsory, but it's very good.",
+  "tr_ru": "Этот фильм стоит посмотреть: не обязательно, но он очень хороший.",
+  "explain_en": "'It's worth doing' is érdemes + infinitive.",
+  "explain_ru": "«Стоит (сделать)» — érdemes + инфинитив.",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "section": "causative-tat-tet-reflexive-mediopassive-verb-pairs",
+  "text": "A tanár ___ olvastatta fel a verset, mert én olvasok a legszebben.",
+  "answer": [
+   "velem"
+  ],
+  "tr_en": "The teacher had me read the poem aloud because I read the most beautifully.",
+  "tr_ru": "Учитель попросил меня прочитать стихотворение вслух, потому что я читаю лучше всех.",
+  "explain_en": "With a causative verb the person made to act takes -val/-vel: velem.",
+  "explain_ru": "При понудительном глаголе исполнитель стоит с -val/-vel: velem.",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "section": "causative-tat-tet-reflexive-mediopassive-verb-pairs",
+  "text": "Az ajtó ___ kinyílt, pedig senki sem volt ott.",
+  "answer": [
+   "magától"
+  ],
+  "tr_en": "The door opened by itself, although nobody was there.",
+  "tr_ru": "Дверь открылась сама собой, хотя там никого не было.",
+  "explain_en": "'By itself' is magától, typical with intransitive verbs like kinyílik.",
+  "explain_ru": "«Сама собой» — magától, типично с непереходными глаголами вроде kinyílik.",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "section": "causative-tat-tet-reflexive-mediopassive-verb-pairs",
+  "text": "Anna nagyon jól érzi ___ az új munkahelyén.",
+  "answer": [
+   "magát"
+  ],
+  "tr_en": "Anna feels very good at her new workplace.",
+  "tr_ru": "Анна очень хорошо чувствует себя на новой работе.",
+  "explain_en": "'Feel oneself' needs the reflexive pronoun: 3sg magát.",
+  "explain_ru": "«Чувствовать себя» — возвратное местоимение: 3-е лицо magát.",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "section": "relative-clauses-aki-ami-amely-ahol-amikor",
+  "text": "Az, ___ sokat olvas, sokat tud.",
+  "answer": [
+   "aki"
+  ],
+  "tr_en": "He who reads a lot knows a lot.",
+  "tr_ru": "Тот, кто много читает, много знает.",
+  "explain_en": "az, aki … 'the one who' for people.",
+  "explain_ru": "az, aki … «тот, кто» — о людях.",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "section": "relative-clauses-aki-ami-amely-ahol-amikor",
+  "text": "Ott találkozunk, ___ tegnap is.",
+  "answer": [
+   "ahol"
+  ],
+  "tr_en": "We'll meet where we met yesterday too.",
+  "tr_ru": "Встретимся там же, где и вчера.",
+  "explain_en": "ott … ahol 'there … where'.",
+  "explain_ru": "ott … ahol «там … где».",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "section": "relative-clauses-aki-ami-amely-ahol-amikor",
+  "text": "Mindig azt csinálod, ___ akarsz.",
+  "answer": [
+   "amit"
+  ],
+  "tr_en": "You always do what you want.",
+  "tr_ru": "Ты всегда делаешь то, что хочешь.",
+  "explain_en": "azt … amit: the relative is the object of akarsz, so accusative amit.",
+  "explain_ru": "azt … amit: местоимение — дополнение к akarsz, поэтому amit.",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "section": "relative-clauses-aki-ami-amely-ahol-amikor",
+  "text": "Akkor gyere, ___ ráérsz.",
+  "answer": [
+   "amikor"
+  ],
+  "tr_en": "Come when you have time.",
+  "tr_ru": "Приходи тогда, когда у тебя будет время.",
+  "explain_en": "akkor … amikor 'then … when'.",
+  "explain_ru": "akkor … amikor «тогда … когда».",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "section": "relative-clauses-aki-ami-amely-ahol-amikor",
+  "text": "Melyik ruhát kéred? – Azt, ___ az ablakban van.",
+  "answer": [
+   "amelyik",
+   "ami",
+   "amely"
+  ],
+  "tr_en": "Which dress would you like? – The one that is in the window.",
+  "tr_ru": "Какое платье вы хотите? – То, которое в витрине.",
+  "explain_en": "Choosing one of several things uses amelyik (also ami/amely).",
+  "explain_ru": "Выбор одного из нескольких — amelyik (также ami/amely).",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "section": "hogy-clauses-reported-speech-indirect-questions",
+  "text": "Nem tudom, ___ eljön-e holnap.",
+  "answer": [
+   "hogy"
+  ],
+  "tr_en": "I don't know whether he's coming tomorrow.",
+  "tr_ru": "Не знаю, придёт ли он завтра.",
+  "explain_en": "An indirect yes/no question is hogy + verb + -e.",
+  "explain_ru": "Косвенный общий вопрос — hogy + глагол + -e (рус. «ли»).",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "section": "hogy-clauses-reported-speech-indirect-questions",
+  "text": "___ kérlek, hogy ne mondd el senkinek.",
+  "answer": [
+   "Arra"
+  ],
+  "tr_en": "I ask you not to tell anyone.",
+  "tr_ru": "Прошу тебя никому не рассказывать.",
+  "explain_en": "kér valakit valamire: the pointer word for the hogy-clause is arra.",
+  "explain_ru": "kér valakit valamire: указательное слово перед hogy — arra.",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "section": "hogy-clauses-reported-speech-indirect-questions",
+  "text": "Azért tanulok magyarul, ___ beszélgetni tudjak a nagymamámmal.",
+  "answer": [
+   "hogy"
+  ],
+  "tr_en": "I'm learning Hungarian so that I can talk to my grandmother.",
+  "tr_ru": "Я учу венгерский, чтобы разговаривать с бабушкой.",
+  "explain_en": "Purpose: azért, hogy + imperative form (tudjak).",
+  "explain_ru": "Цель: azért, hogy + форма на -j (tudjak), как русское «чтобы».",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "section": "hogy-clauses-reported-speech-indirect-questions",
+  "text": "Félek ___, hogy elkésünk.",
+  "answer": [
+   "attól"
+  ],
+  "tr_en": "I'm afraid that we'll be late.",
+  "tr_ru": "Боюсь, что мы опоздаем.",
+  "explain_en": "fél takes -tól/-től, so the pointer word is attól.",
+  "explain_ru": "fél управляет -tól/-től, поэтому указательное слово — attól.",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "section": "hogy-clauses-reported-speech-indirect-questions",
+  "text": "Péter ___ mondta, hogy beteg, de láttam a moziban.",
+  "answer": [
+   "azt"
+  ],
+  "tr_en": "Peter said he was ill, but I saw him at the cinema.",
+  "tr_ru": "Петер сказал, что болен, но я видел его в кино.",
+  "explain_en": "The object pointer azt announces the hogy-clause; note there is no tense shift (beteg).",
+  "explain_ru": "Указательное azt вводит придаточное с hogy; согласования времён нет (beteg).",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "section": "postpositions-case-suffixes-with-personal-endings",
+  "text": "A moziban Anna ült ___, a jobb oldalamon.",
+  "answer": [
+   "mellettem"
+  ],
+  "tr_en": "At the cinema Anna sat next to me, on my right.",
+  "tr_ru": "В кино Анна сидела рядом со мной, справа от меня.",
+  "explain_en": "Postposition + personal ending replaces the pronoun: mellettem.",
+  "explain_ru": "Послелог с личным окончанием заменяет местоимение: mellettem «рядом со мной».",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "section": "postpositions-case-suffixes-with-personal-endings",
+  "text": "Ezt a csokit ___ vettem, a tiéd!",
+  "answer": [
+   "neked",
+   "érted"
+  ],
+  "tr_en": "I bought this chocolate for you, it's yours!",
+  "tr_ru": "Эту шоколадку я купил тебе, она твоя!",
+  "explain_en": "The recipient takes the dative with a personal ending: neked.",
+  "explain_ru": "Получатель — дательный с личным окончанием: neked.",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "section": "postpositions-case-suffixes-with-personal-endings",
+  "text": "Nem tudok semmit ___, még sosem láttam.",
+  "answer": [
+   "róla"
+  ],
+  "tr_en": "I don't know anything about him, I've never seen him.",
+  "tr_ru": "Я ничего о нём не знаю, ни разу его не видел.",
+  "explain_en": "'About him' is -ról with a personal ending: róla.",
+  "explain_ru": "«О нём» — -ról с личным окончанием: róla.",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "section": "postpositions-case-suffixes-with-personal-endings",
+  "text": "Ne haragudj ___, nem akartam!",
+  "answer": [
+   "rám"
+  ],
+  "tr_en": "Don't be angry with me, I didn't mean to!",
+  "tr_ru": "Не сердись на меня, я не хотел!",
+  "explain_en": "haragszik takes -ra/-re; 'on me' is rám.",
+  "explain_ru": "haragszik управляет -ra/-re; «на меня» — rám.",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-formation-sag-seg-as-es-s-i-tlan-u-compounds",
+  "text": "Ma reggel vettem a ___ újságot, még nem olvastam el.",
+  "answer": [
+   "mai"
+  ],
+  "tr_en": "I bought today's newspaper this morning, I haven't read it yet.",
+  "tr_ru": "Сегодня утром я купил сегодняшнюю газету, ещё не прочитал.",
+  "explain_en": "Adjectives from time words take -i: ma → mai 'today's'.",
+  "explain_ru": "Прилагательные от слов времени — суффикс -i: ma → mai «сегодняшний».",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "section": "time-dates-frequency-kor-an-ota-mulva-nkent",
+  "text": "Két hét ___ indulunk nyaralni.",
+  "answer": [
+   "múlva"
+  ],
+  "tr_en": "We're leaving on holiday in two weeks.",
+  "tr_ru": "Через две недели мы уезжаем в отпуск.",
+  "explain_en": "'In (a period from now)' is múlva after the time span.",
+  "explain_ru": "«Через (какое-то время)» — múlva после отрезка времени.",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "section": "time-dates-frequency-kor-an-ota-mulva-nkent",
+  "text": "2020 ___ élek Budapesten.",
+  "answer": [
+   "óta"
+  ],
+  "tr_en": "I have been living in Budapest since 2020.",
+  "tr_ru": "Я живу в Будапеште с 2020 года.",
+  "explain_en": "'Since' is óta, with the present tense for an ongoing state.",
+  "explain_ru": "«С (какого времени)» — óta, с настоящим временем для продолжающегося состояния.",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "section": "time-dates-frequency-kor-an-ota-mulva-nkent",
+  "text": "Hetente ___ járok edzésre: kedden és csütörtökön.",
+  "answer": [
+   "kétszer"
+  ],
+  "tr_en": "I go to training twice a week: on Tuesdays and Thursdays.",
+  "tr_ru": "Я хожу на тренировки два раза в неделю: по вторникам и четвергам.",
+  "explain_en": "Frequency: number + -szor/-szer/-ször: kétszer.",
+  "explain_ru": "Частота: числительное + -szor/-szer/-ször: kétszer «два раза».",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "section": "time-dates-frequency-kor-an-ota-mulva-nkent",
+  "text": "Mikor kezdődik a film? – Nyolc ___.",
+  "answer": [
+   "órakor"
+  ],
+  "tr_en": "When does the film start? – At eight o'clock.",
+  "tr_ru": "Когда начинается фильм? – В восемь часов.",
+  "explain_en": "Clock time takes -kor: nyolc órakor.",
+  "explain_ru": "Время по часам — суффикс -kor: nyolc órakor.",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "section": "time-dates-frequency-kor-an-ota-mulva-nkent",
+  "text": "A vizsga ___ nem szabad beszélni.",
+  "answer": [
+   "alatt",
+   "közben"
+  ],
+  "tr_en": "You mustn't talk during the exam.",
+  "tr_ru": "Во время экзамена нельзя разговаривать.",
+  "explain_en": "'During' is the postposition alatt (or közben).",
+  "explain_ru": "«Во время» — послелог alatt (или közben).",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "section": "participles-o-t-ando-va-ve",
+  "text": "A vacsora már ___ van főzve, csak fel kell melegíteni.",
+  "answer": [
+   "meg"
+  ],
+  "tr_en": "Dinner is already cooked, it just needs warming up.",
+  "tr_ru": "Ужин уже приготовлен, его надо только разогреть.",
+  "explain_en": "In the state construction the prefix of megfőz stands before van: meg van főzve.",
+  "explain_ru": "В конструкции состояния приставка глагола megfőz стоит перед van: meg van főzve.",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "section": "causative-tat-tet-reflexive-mediopassive-verb-pairs",
+  "text": "Mi is nagyon jól éreztük ___ a buliban.",
+  "answer": [
+   "magunkat"
+  ],
+  "tr_en": "We also had a very good time at the party.",
+  "tr_ru": "Мы тоже отлично провели время на вечеринке.",
+  "explain_en": "The reflexive pronoun changes with the person: mi needs magunkat, unlike the unchanging Russian reflexive.",
+  "explain_ru": "Возвратное местоимение меняется по лицам: mi → magunkat, в отличие от неизменного «себя».",
+  "id": "g120"
+ }
+]

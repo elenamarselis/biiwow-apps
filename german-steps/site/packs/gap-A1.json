@@ -1,0 +1,1645 @@
+[
+ {
+  "kind": "form",
+  "text": "Mein Bruder ___ jeden Tag mit dem Fahrrad zur Arbeit.",
+  "answer": [
+   "fährt"
+  ],
+  "lemma": "fahren",
+  "tr_en": "My brother rides his bike to work every day.",
+  "tr_ru": "Мой брат каждый день ездит на работу на велосипеде.",
+  "explain_en": "fahren changes a → ä in the du and er/sie/es forms: er fährt.",
+  "explain_ru": "У fahren в формах du и er/sie/es корневая a меняется на ä: er fährt.",
+  "id": "g001"
+ },
+ {
+  "kind": "form",
+  "text": "Vor unserem Haus stehen drei alte ___.",
+  "answer": [
+   "Bäume"
+  ],
+  "lemma": "der Baum",
+  "tr_en": "Three old trees stand in front of our house.",
+  "tr_ru": "Перед нашим домом стоят три старых дерева.",
+  "explain_en": "Plural of der Baum takes an umlaut and -e: die Bäume.",
+  "explain_ru": "Множественное число от der Baum — с умлаутом и -e: die Bäume.",
+  "id": "g002"
+ },
+ {
+  "kind": "form",
+  "text": "Meine Tante hat drei ___ und keinen Sohn.",
+  "answer": [
+   "Töchter"
+  ],
+  "lemma": "die Tochter",
+  "tr_en": "My aunt has three daughters and no son.",
+  "tr_ru": "У моей тёти три дочери и ни одного сына.",
+  "explain_en": "die Tochter forms its plural only with an umlaut: die Töchter (like die Mutter – die Mütter).",
+  "explain_ru": "die Tochter образует множественное число только умлаутом: die Töchter (как die Mutter – die Mütter).",
+  "id": "g003"
+ },
+ {
+  "kind": "form",
+  "text": "Das Baby ist sechs Monate alt und hat schon zwei ___.",
+  "answer": [
+   "Zähne"
+  ],
+  "lemma": "der Zahn",
+  "tr_en": "The baby is six months old and already has two teeth.",
+  "tr_ru": "Малышу шесть месяцев, а у него уже два зуба.",
+  "explain_en": "der Zahn → die Zähne: umlaut plus -e.",
+  "explain_ru": "der Zahn → die Zähne: умлаут плюс -e. После «zwei» в немецком всегда множественное число, а не «два зуба» в родительном падеже, как в русском.",
+  "id": "g004"
+ },
+ {
+  "kind": "form",
+  "text": "Sagt mal, ___ ihr am Samstag Zeit für uns?",
+  "answer": [
+   "habt"
+  ],
+  "lemma": "haben",
+  "tr_en": "Tell me, do you (all) have time for us on Saturday?",
+  "tr_ru": "Скажите, у вас есть время для нас в субботу?",
+  "explain_en": "With ihr, haben takes the ending -t: ihr habt.",
+  "explain_ru": "С ihr глагол haben получает окончание -t: ihr habt. В немецком «у вас есть» передаётся глаголом haben.",
+  "id": "g005"
+ },
+ {
+  "kind": "form",
+  "text": "Kinder, ihr ___ heute aber sehr laut!",
+  "answer": [
+   "seid"
+  ],
+  "lemma": "sein",
+  "tr_en": "Children, you are really loud today!",
+  "tr_ru": "Дети, вы сегодня очень шумные!",
+  "explain_en": "The ihr form of sein is seid (with d) – not seit, which means 'since'.",
+  "explain_ru": "Форма sein для ihr — seid (с d); не путайте с seit «с, начиная с». В русском связку «есть» опускают, в немецком она обязательна.",
+  "id": "g006"
+ },
+ {
+  "kind": "form",
+  "text": "Was ___ du am liebsten zum Frühstück?",
+  "answer": [
+   "isst"
+  ],
+  "lemma": "essen",
+  "tr_en": "What do you like eating best for breakfast?",
+  "tr_ru": "Что ты больше всего любишь есть на завтрак?",
+  "explain_en": "essen changes e → i and, because the stem ends in -ss, du only adds -t: du isst.",
+  "explain_ru": "essen меняет e → i, а так как основа кончается на -ss, к du добавляется только -t: du isst.",
+  "id": "g007"
+ },
+ {
+  "kind": "form",
+  "text": "Anna, ___ mir bitte mal das Salz!",
+  "answer": [
+   "gib"
+  ],
+  "lemma": "geben",
+  "tr_en": "Anna, please pass me the salt!",
+  "tr_ru": "Анна, передай мне, пожалуйста, соль!",
+  "explain_en": "Verbs with e → i keep the vowel change in the du imperative and drop the ending: gib!",
+  "explain_ru": "Глаголы со сменой e → i сохраняют её в повелительном наклонении для du и теряют окончание: gib!",
+  "id": "g008"
+ },
+ {
+  "kind": "form",
+  "text": "Peter, ___ nicht so viel Zucker, das ist ungesund!",
+  "answer": [
+   "nimm"
+  ],
+  "lemma": "nehmen",
+  "tr_en": "Peter, don't take so much sugar, it's unhealthy!",
+  "tr_ru": "Петер, не бери столько сахара, это вредно!",
+  "explain_en": "The du imperative of nehmen is nimm – vowel change e → i and a double m.",
+  "explain_ru": "Повелительная форма для du от nehmen — nimm: смена e → i и двойная m.",
+  "id": "g009"
+ },
+ {
+  "kind": "form",
+  "text": "Herr Braun, bitte ___ Sie morgen pünktlich, der Zug wartet nicht!",
+  "answer": [
+   "seien"
+  ],
+  "lemma": "sein",
+  "tr_en": "Mr Braun, please be on time tomorrow, the train won't wait!",
+  "tr_ru": "Господин Браун, пожалуйста, будьте завтра вовремя, поезд ждать не будет!",
+  "explain_en": "sein has a special Sie imperative: seien Sie!",
+  "explain_ru": "У sein особая форма повелительного наклонения для Sie: seien Sie! (а не sind Sie).",
+  "id": "g010"
+ },
+ {
+  "kind": "form",
+  "text": "Meine Mutter ___ immer genau, wo meine Schlüssel sind.",
+  "answer": [
+   "weiß"
+  ],
+  "lemma": "wissen",
+  "tr_en": "My mother always knows exactly where my keys are.",
+  "tr_ru": "Моя мама всегда точно знает, где мои ключи.",
+  "explain_en": "wissen is irregular in the singular: ich weiß, du weißt, er/sie weiß – no -t in the 3rd person.",
+  "explain_ru": "wissen неправильный в единственном числе: ich weiß, du weißt, sie weiß — в 3-м лице без -t.",
+  "id": "g011"
+ },
+ {
+  "kind": "form",
+  "text": "Am Wochenende ___ mein Sohn immer bis zehn Uhr.",
+  "answer": [
+   "schläft"
+  ],
+  "lemma": "schlafen",
+  "tr_en": "At the weekend my son always sleeps until ten o'clock.",
+  "tr_ru": "По выходным мой сын всегда спит до десяти часов.",
+  "explain_en": "schlafen changes a → ä: er schläft. The verb stands in second place after 'Am Wochenende'.",
+  "explain_ru": "schlafen меняет a → ä: er schläft. Глагол стоит на втором месте после «Am Wochenende».",
+  "id": "g012"
+ },
+ {
+  "kind": "form",
+  "text": "Heute ist es warm, deshalb ___ meine Schwester einen Rock.",
+  "answer": [
+   "trägt"
+  ],
+  "lemma": "tragen",
+  "tr_en": "It's warm today, so my sister is wearing a skirt.",
+  "tr_ru": "Сегодня тепло, поэтому моя сестра в юбке.",
+  "explain_en": "tragen changes a → ä in the 3rd person singular: sie trägt.",
+  "explain_ru": "tragen меняет a → ä в 3-м лице единственного числа: sie trägt. По-русски «носит/надета», по-немецки одним глаголом tragen.",
+  "id": "g013"
+ },
+ {
+  "kind": "form",
+  "text": "Papa, ___ du mir bitte bei den Hausaufgaben?",
+  "answer": [
+   "hilfst"
+  ],
+  "lemma": "helfen",
+  "tr_en": "Dad, will you help me with my homework, please?",
+  "tr_ru": "Папа, ты поможешь мне, пожалуйста, с домашним заданием?",
+  "explain_en": "helfen changes e → i: du hilfst. Note: helfen takes the dative (mir).",
+  "explain_ru": "helfen меняет e → i: du hilfst. Обратите внимание: helfen требует датива (mir), как и русское «помогать кому».",
+  "id": "g014"
+ },
+ {
+  "kind": "form",
+  "text": "Unser Lehrer ___ leider sehr schnell, ich verstehe nicht alles.",
+  "answer": [
+   "spricht"
+  ],
+  "lemma": "sprechen",
+  "tr_en": "Unfortunately our teacher speaks very fast; I don't understand everything.",
+  "tr_ru": "К сожалению, наш учитель говорит очень быстро, я понимаю не всё.",
+  "explain_en": "sprechen changes e → i: er spricht.",
+  "explain_ru": "sprechen меняет e → i: er spricht.",
+  "id": "g015"
+ },
+ {
+  "kind": "form",
+  "text": "Der Kurs ___ heute erst um neun Uhr an.",
+  "answer": [
+   "fängt"
+  ],
+  "lemma": "anfangen",
+  "tr_en": "The course only starts at nine o'clock today.",
+  "tr_ru": "Курс сегодня начинается только в девять часов.",
+  "explain_en": "anfangen is separable and changes a → ä: der Kurs fängt … an.",
+  "explain_ru": "anfangen — отделяемый глагол со сменой a → ä: der Kurs fängt … an. Приставка an уходит в конец предложения.",
+  "id": "g016"
+ },
+ {
+  "kind": "form",
+  "text": "Lena ___ alle Kollegen zu ihrem Geburtstag ein.",
+  "answer": [
+   "lädt"
+  ],
+  "lemma": "einladen",
+  "tr_en": "Lena is inviting all her colleagues to her birthday.",
+  "tr_ru": "Лена приглашает всех коллег на свой день рождения.",
+  "explain_en": "einladen is separable; laden changes a → ä and keeps the -t: sie lädt … ein.",
+  "explain_ru": "einladen отделяемый; laden меняет a → ä, окончание просто -t: sie lädt … ein.",
+  "id": "g017"
+ },
+ {
+  "kind": "form",
+  "text": "Um wie viel Uhr ___ du am Sonntag auf?",
+  "answer": [
+   "stehst"
+  ],
+  "lemma": "aufstehen",
+  "tr_en": "What time do you get up on Sunday?",
+  "tr_ru": "Во сколько ты встаёшь в воскресенье?",
+  "explain_en": "aufstehen is separable: the conjugated part stehst is in second place, auf goes to the end.",
+  "explain_ru": "aufstehen отделяемый: спрягаемая часть stehst на втором месте, auf — в конце.",
+  "id": "g018"
+ },
+ {
+  "kind": "form",
+  "text": "Du ___ schon drei Stunden fern – mach jetzt deine Hausaufgaben!",
+  "answer": [
+   "siehst"
+  ],
+  "lemma": "fernsehen",
+  "tr_en": "You've been watching TV for three hours – do your homework now!",
+  "tr_ru": "Ты уже три часа смотришь телевизор — делай теперь домашнее задание!",
+  "explain_en": "fernsehen is separable and changes e → ie: du siehst … fern. German uses the present here where English uses 'have been watching'.",
+  "explain_ru": "fernsehen отделяемый, смена e → ie: du siehst … fern. Как и в русском, здесь стоит настоящее время.",
+  "id": "g019"
+ },
+ {
+  "kind": "form",
+  "text": "Hast du ___ Kugelschreiber für mich? Meiner ist leer.",
+  "answer": [
+   "einen"
+  ],
+  "lemma": "ein",
+  "tr_en": "Have you got a pen for me? Mine has run out.",
+  "tr_ru": "У тебя есть для меня ручка? Моя закончилась.",
+  "explain_en": "der Kugelschreiber is masculine and the object of haben, so the accusative is einen.",
+  "explain_ru": "der Kugelschreiber мужского рода и стоит в аккузативе после haben: einen. Внимание: по-русски «ручка» женского рода.",
+  "id": "g020"
+ },
+ {
+  "kind": "form",
+  "text": "Wo ist Max? Ich sehe ___ nirgends.",
+  "answer": [
+   "ihn"
+  ],
+  "lemma": "er",
+  "tr_en": "Where is Max? I can't see him anywhere.",
+  "tr_ru": "Где Макс? Я его нигде не вижу.",
+  "explain_en": "sehen takes an accusative object; the accusative of er is ihn.",
+  "explain_ru": "sehen требует аккузатива; винительный падеж от er — ihn (ср. «его»).",
+  "id": "g021"
+ },
+ {
+  "kind": "form",
+  "text": "Hörst du ___? Ich bin hier im Garten!",
+  "answer": [
+   "mich"
+  ],
+  "lemma": "ich",
+  "tr_en": "Can you hear me? I'm here in the garden!",
+  "tr_ru": "Ты меня слышишь? Я здесь, в саду!",
+  "explain_en": "hören takes the accusative: mich.",
+  "explain_ru": "hören требует аккузатива: mich («меня»).",
+  "id": "g022"
+ },
+ {
+  "kind": "form",
+  "text": "Unsere Oma ruft ___ jeden Sonntag an.",
+  "answer": [
+   "uns"
+  ],
+  "lemma": "wir",
+  "tr_en": "Our grandma phones us every Sunday.",
+  "tr_ru": "Наша бабушка звонит нам каждое воскресенье.",
+  "explain_en": "anrufen takes an accusative object: uns.",
+  "explain_ru": "anrufen требует аккузатива (jemanden anrufen), хотя по-русски «звонить кому» — дательный. Форма: uns.",
+  "id": "g023"
+ },
+ {
+  "kind": "form",
+  "text": "Kinder, wo seid ihr? Ich suche ___ schon zehn Minuten!",
+  "answer": [
+   "euch"
+  ],
+  "lemma": "ihr",
+  "tr_en": "Children, where are you? I've been looking for you for ten minutes!",
+  "tr_ru": "Дети, где вы? Я ищу вас уже десять минут!",
+  "explain_en": "suchen takes the accusative; the accusative of ihr is euch.",
+  "explain_ru": "suchen требует аккузатива; винительный падеж от ihr — euch.",
+  "id": "g024"
+ },
+ {
+  "kind": "form",
+  "text": "Kennst du ___ neue Lehrerin schon? Wir finden sie sehr nett.",
+  "answer": [
+   "unsere"
+  ],
+  "lemma": "unser",
+  "tr_en": "Do you know our new teacher yet? We think she's very nice.",
+  "tr_ru": "Ты уже знаешь нашу новую учительницу? Нам она очень нравится.",
+  "explain_en": "die Lehrerin is feminine, so unser takes -e: unsere.",
+  "explain_ru": "die Lehrerin женского рода, поэтому unser получает -e: unsere.",
+  "id": "g025"
+ },
+ {
+  "kind": "form",
+  "text": "Ich mag ___ Wohnung, Lisa und Tom, sie ist so hell!",
+  "answer": [
+   "eure"
+  ],
+  "lemma": "euer",
+  "tr_en": "I like your flat, Lisa and Tom, it's so bright!",
+  "tr_ru": "Мне нравится ваша квартира, Лиза и Том, она такая светлая!",
+  "explain_en": "With an ending, euer drops its second e: eure Wohnung.",
+  "explain_ru": "С окончанием euer теряет второе e: eure Wohnung (не euere).",
+  "id": "g026"
+ },
+ {
+  "kind": "form",
+  "text": "Anna besucht am Sonntag ___ Großeltern in Bremen.",
+  "answer": [
+   "ihre"
+  ],
+  "lemma": "ihr (her)",
+  "tr_en": "Anna is visiting her grandparents in Bremen on Sunday.",
+  "tr_ru": "Анна в воскресенье навещает своих бабушку и дедушку в Бремене.",
+  "explain_en": "The owner is Anna (female), so 'her' = ihr; plural object → ihre.",
+  "explain_ru": "Владелец — Анна (она), поэтому ihr; во множественном числе — ihre. Русского «свой» нет: выбирают по владельцу.",
+  "id": "g027"
+ },
+ {
+  "kind": "form",
+  "text": "Tom liebt ___ Hund und geht jeden Tag mit ihm spazieren.",
+  "answer": [
+   "seinen"
+  ],
+  "lemma": "sein (his)",
+  "tr_en": "Tom loves his dog and goes for a walk with him every day.",
+  "tr_ru": "Том любит свою собаку и каждый день гуляет с ней.",
+  "explain_en": "Owner Tom (male) → sein; der Hund is a masculine accusative object → seinen.",
+  "explain_ru": "Владелец Том → sein; der Hund мужского рода в аккузативе → seinen. Внимание: «собака» по-русски женского рода, Hund — мужского.",
+  "id": "g028"
+ },
+ {
+  "kind": "form",
+  "text": "Ich habe leider ___ Bruder, nur zwei Schwestern.",
+  "answer": [
+   "keinen"
+  ],
+  "lemma": "kein",
+  "tr_en": "Unfortunately I have no brother, only two sisters.",
+  "tr_ru": "К сожалению, у меня нет брата, только две сестры.",
+  "explain_en": "der Bruder is masculine and in the accusative after haben: keinen.",
+  "explain_ru": "der Bruder мужского рода, аккузатив после haben: keinen. В русском — родительный «нет брата», в немецком — аккузатив.",
+  "id": "g029"
+ },
+ {
+  "kind": "form",
+  "text": "Sag mal, ___ du eigentlich gut schwimmen?",
+  "answer": [
+   "kannst"
+  ],
+  "lemma": "können",
+  "tr_en": "Tell me, can you actually swim well?",
+  "tr_ru": "Скажи, а ты вообще хорошо умеешь плавать?",
+  "explain_en": "können is irregular in the singular: du kannst.",
+  "explain_ru": "können неправильный в единственном числе: du kannst. Немецкое können = и «мочь», и «уметь».",
+  "id": "g030"
+ },
+ {
+  "kind": "form",
+  "text": "Mein Sohn ist krank, er ___ heute im Bett bleiben.",
+  "answer": [
+   "muss"
+  ],
+  "lemma": "müssen",
+  "tr_en": "My son is ill; he has to stay in bed today.",
+  "tr_ru": "Мой сын болен, сегодня он должен оставаться в постели.",
+  "explain_en": "Modal verbs have no ending in the 3rd person singular and lose the umlaut: er muss.",
+  "explain_ru": "У модальных глаголов в 3-м лице ед. ч. нет окончания и пропадает умлаут: er muss.",
+  "id": "g031"
+ },
+ {
+  "kind": "form",
+  "text": "Im Museum ___ man leider keine Fotos machen.",
+  "answer": [
+   "darf"
+  ],
+  "lemma": "dürfen",
+  "tr_en": "Unfortunately you're not allowed to take photos in the museum.",
+  "tr_ru": "В музее, к сожалению, нельзя фотографировать.",
+  "explain_en": "dürfen: man darf (no umlaut, no ending). man darf kein… = it is not allowed.",
+  "explain_ru": "dürfen: man darf (без умлаута и окончания). Русское «нельзя» = man darf nicht / kein.",
+  "id": "g032"
+ },
+ {
+  "kind": "form",
+  "text": "Was ___ du später werden? – Ärztin!",
+  "answer": [
+   "willst"
+  ],
+  "lemma": "wollen",
+  "tr_en": "What do you want to be later? – A doctor!",
+  "tr_ru": "Кем ты хочешь стать, когда вырастешь? – Врачом!",
+  "explain_en": "wollen changes o → i in the singular: du willst.",
+  "explain_ru": "wollen меняет o → i в единственном числе: du willst.",
+  "id": "g033"
+ },
+ {
+  "kind": "form",
+  "text": "Was ___ Sie trinken, Frau Klein? – Einen Tee, bitte.",
+  "answer": [
+   "möchten"
+  ],
+  "lemma": "mögen",
+  "tr_en": "What would you like to drink, Mrs Klein? – A tea, please.",
+  "tr_ru": "Что вы хотите выпить, госпожа Кляйн? – Чай, пожалуйста.",
+  "explain_en": "Polite offers use möchte, a form of mögen: Sie möchten.",
+  "explain_ru": "Вежливое «хотели бы» — möchte (форма от mögen): Sie möchten.",
+  "id": "g034"
+ },
+ {
+  "kind": "form",
+  "text": "Wie viele neue ___ lernst du jeden Tag?",
+  "answer": [
+   "Wörter"
+  ],
+  "lemma": "das Wort",
+  "tr_en": "How many new words do you learn every day?",
+  "tr_ru": "Сколько новых слов ты учишь каждый день?",
+  "explain_en": "Individual words in a vocabulary list are die Wörter; die Worte means words in the sense of statements.",
+  "explain_ru": "Отдельные слова (лексика) — die Wörter; die Worte — это «слова» в смысле высказывания.",
+  "id": "g035"
+ },
+ {
+  "kind": "form",
+  "text": "Kennen Sie den ___ dort am Fenster? – Ja, das ist mein Chef.",
+  "answer": [
+   "Herrn"
+  ],
+  "lemma": "der Herr",
+  "tr_en": "Do you know the gentleman over there by the window? – Yes, that's my boss.",
+  "tr_ru": "Вы знаете того господина у окна? – Да, это мой начальник.",
+  "explain_en": "der Herr is a weak noun: in the accusative it takes -n: den Herrn.",
+  "explain_ru": "der Herr — слабое существительное: в аккузативе получает -n: den Herrn.",
+  "id": "g036"
+ },
+ {
+  "kind": "form",
+  "text": "Der Professor fragt einen ___ nach seinem Namen.",
+  "answer": [
+   "Studenten"
+  ],
+  "lemma": "der Student",
+  "tr_en": "The professor asks a student for his name.",
+  "tr_ru": "Профессор спрашивает у студента его имя.",
+  "explain_en": "der Student is a weak noun: accusative einen Studenten.",
+  "explain_ru": "der Student — слабое существительное: в аккузативе einen Studenten.",
+  "id": "g037"
+ },
+ {
+  "kind": "form",
+  "text": "Mein Sohn ___ im Mai zehn Jahre alt.",
+  "answer": [
+   "wird"
+  ],
+  "lemma": "werden",
+  "tr_en": "My son turns ten in May.",
+  "tr_ru": "В мае моему сыну исполнится десять лет.",
+  "explain_en": "werden is irregular: er wird. 'Turn N years old' = N Jahre alt werden.",
+  "explain_ru": "werden неправильный: er wird. «Исполняется N лет» = N Jahre alt werden.",
+  "id": "g038"
+ },
+ {
+  "kind": "form",
+  "text": "Wohin ___ ihr im Sommer in Urlaub?",
+  "answer": [
+   "fahrt"
+  ],
+  "lemma": "fahren",
+  "tr_en": "Where are you (all) going on holiday in summer?",
+  "tr_ru": "Куда вы поедете летом в отпуск?",
+  "explain_en": "The vowel change a → ä only affects du and er/sie/es; with ihr it is fahrt.",
+  "explain_ru": "Смена a → ä бывает только у du и er/sie/es; с ihr — fahrt без умлаута.",
+  "id": "g039"
+ },
+ {
+  "kind": "form",
+  "text": "Ich finde ___ Schlüssel nicht. Hast du ihn gesehen?",
+  "answer": [
+   "meinen"
+  ],
+  "lemma": "mein",
+  "tr_en": "I can't find my key. Have you seen it?",
+  "tr_ru": "Я не могу найти свой ключ. Ты его не видел?",
+  "explain_en": "der Schlüssel is masculine and the accusative object of finden: meinen. German has no reflexive possessive like Russian, so mein is used.",
+  "explain_ru": "der Schlüssel мужского рода, аккузатив после finden: meinen. Русское «свой» передаётся здесь словом mein.",
+  "id": "g040"
+ },
+ {
+  "kind": "word",
+  "text": "Ich ___ deine Schwester noch nicht. Wie heißt sie?",
+  "answer": [
+   "kenne"
+  ],
+  "ref": "kennen",
+  "clue_en": "to be acquainted with",
+  "clue_ru": "быть знакомым с",
+  "tr_en": "I don't know your sister yet. What's her name?",
+  "tr_ru": "Я ещё не знаком с твоей сестрой. Как её зовут?",
+  "explain_en": "Knowing a person = kennen; wissen is for facts and is followed by a clause or a pronoun like das.",
+  "explain_ru": "Знать человека = kennen; wissen — знать факт (обычно с придаточным или das). В русском один глагол «знать», в немецком два.",
+  "id": "g041"
+ },
+ {
+  "kind": "word",
+  "text": "Ich ___ leider nicht, wann der letzte Bus fährt.",
+  "answer": [
+   "weiß"
+  ],
+  "ref": "wissen",
+  "clue_en": "to know (a fact)",
+  "clue_ru": "знать (факт)",
+  "tr_en": "Unfortunately I don't know when the last bus leaves.",
+  "tr_ru": "К сожалению, я не знаю, когда уходит последний автобус.",
+  "explain_en": "A fact introduced by a question word (wann …) needs wissen: ich weiß.",
+  "explain_ru": "Факт с вопросительным словом (wann …) требует wissen: ich weiß. kennen здесь невозможно.",
+  "id": "g042"
+ },
+ {
+  "kind": "word",
+  "text": "Meine Kollegin ___ vier Sprachen: Deutsch, Englisch, Russisch und Türkisch.",
+  "answer": [
+   "spricht"
+  ],
+  "ref": "sprechen",
+  "clue_en": "to speak",
+  "clue_ru": "говорить (на языке)",
+  "tr_en": "My colleague speaks four languages: German, English, Russian and Turkish.",
+  "tr_ru": "Моя коллега говорит на четырёх языках: немецком, английском, русском и турецком.",
+  "explain_en": "Languages go with sprechen (er/sie spricht), never with sagen.",
+  "explain_ru": "С языками употребляется sprechen (sie spricht), а не sagen. И без предлога: Deutsch sprechen — «говорить по-немецки».",
+  "id": "g043"
+ },
+ {
+  "kind": "word",
+  "text": "Kannst du mir bitte ___, wie spät es ist?",
+  "answer": [
+   "sagen"
+  ],
+  "ref": "sagen",
+  "clue_en": "to tell",
+  "clue_ru": "сказать",
+  "tr_en": "Can you tell me what time it is, please?",
+  "tr_ru": "Можешь сказать мне, который час?",
+  "explain_en": "'Tell someone something' = jemandem etwas sagen; sprechen does not take a clause like this.",
+  "explain_ru": "«Сказать кому-то что-то» = jemandem etwas sagen; sprechen так не употребляется.",
+  "id": "g044"
+ },
+ {
+  "kind": "word",
+  "text": "Morgen ___ wir mit dem Zug nach Hamburg.",
+  "answer": [
+   "fahren"
+  ],
+  "ref": "fahren",
+  "clue_en": "to travel by vehicle",
+  "clue_ru": "ехать",
+  "tr_en": "Tomorrow we're going to Hamburg by train.",
+  "tr_ru": "Завтра мы едем на поезде в Гамбург.",
+  "explain_en": "With a vehicle German uses fahren; gehen means going on foot.",
+  "explain_ru": "На транспорте — fahren («ехать»); gehen — идти пешком. Русское «ехать/идти» различает то же самое.",
+  "id": "g045"
+ },
+ {
+  "kind": "word",
+  "text": "Die Schule ist nicht weit, ich ___ jeden Morgen zu Fuß.",
+  "answer": [
+   "gehe"
+  ],
+  "ref": "gehen",
+  "clue_en": "to walk",
+  "clue_ru": "идти пешком",
+  "tr_en": "The school isn't far, I walk every morning.",
+  "tr_ru": "Школа недалеко, я каждое утро хожу пешком.",
+  "explain_en": "zu Fuß gehen = to walk; fahren needs a vehicle.",
+  "explain_ru": "zu Fuß gehen = идти пешком; fahren предполагает транспорт.",
+  "id": "g046"
+ },
+ {
+  "kind": "word",
+  "text": "Die Prüfung war ganz ___, ich hatte alle Antworten in zehn Minuten.",
+  "answer": [
+   "leicht"
+  ],
+  "ref": "leicht",
+  "clue_en": "easy",
+  "clue_ru": "лёгкий (простой)",
+  "tr_en": "The exam was really easy; I had all the answers in ten minutes.",
+  "tr_ru": "Экзамен был совсем лёгким, я ответил на всё за десять минут.",
+  "explain_en": "leicht means both 'easy' and 'light (in weight)'; here the context is difficulty.",
+  "explain_ru": "leicht значит и «лёгкий по весу», и «простой»; здесь речь о трудности, противоположность — schwer.",
+  "id": "g047"
+ },
+ {
+  "kind": "word",
+  "text": "Der Koffer ist zu ___, ich kann ihn nicht allein tragen.",
+  "answer": [
+   "schwer"
+  ],
+  "ref": "schwer",
+  "clue_en": "heavy",
+  "clue_ru": "тяжёлый",
+  "tr_en": "The suitcase is too heavy; I can't carry it on my own.",
+  "tr_ru": "Чемодан слишком тяжёлый, я не могу нести его один.",
+  "explain_en": "schwer = heavy (and also difficult).",
+  "explain_ru": "schwer = тяжёлый (и также «трудный»).",
+  "id": "g048"
+ },
+ {
+  "kind": "word",
+  "text": "Früher waren meine Haare lang, jetzt sind sie ganz ___.",
+  "answer": [
+   "kurz"
+  ],
+  "ref": "kurz",
+  "clue_en": "short (length)",
+  "clue_ru": "короткий",
+  "tr_en": "My hair used to be long; now it is very short.",
+  "tr_ru": "Раньше у меня были длинные волосы, а теперь совсем короткие.",
+  "explain_en": "The opposite of lang is kurz; klein means small in size.",
+  "explain_ru": "Противоположность lang — kurz; klein — «маленький» по размеру. Haare во множественном числе, отсюда sind.",
+  "id": "g049"
+ },
+ {
+  "kind": "word",
+  "text": "Bitte sprich ___, das Baby schläft gerade.",
+  "answer": [
+   "leise"
+  ],
+  "ref": "leise",
+  "clue_en": "quietly",
+  "clue_ru": "тихо",
+  "tr_en": "Please speak quietly, the baby is sleeping right now.",
+  "tr_ru": "Пожалуйста, говори тихо, малыш сейчас спит.",
+  "explain_en": "leise refers to volume; langsam refers to speed.",
+  "explain_ru": "leise — о громкости («тихо»), langsam — о скорости («медленно»). Русское «тихо» может значить и то, и другое, немецкое — нет.",
+  "id": "g050"
+ },
+ {
+  "kind": "word",
+  "text": "Das Hotel ist wirklich ___: 250 Euro für eine Nacht!",
+  "answer": [
+   "teuer"
+  ],
+  "ref": "teuer",
+  "clue_en": "expensive",
+  "clue_ru": "дорогой",
+  "tr_en": "The hotel is really expensive: 250 euros for one night!",
+  "tr_ru": "Отель действительно дорогой: 250 евро за ночь!",
+  "explain_en": "teuer = expensive; as a predicate it keeps its full form.",
+  "explain_ru": "teuer = дорогой (о цене). Внимание: «дорогой друг» по-немецки lieber Freund, а не teuer.",
+  "id": "g051"
+ },
+ {
+  "kind": "word",
+  "text": "Heute sind die Äpfel sehr ___: nur ein Euro das Kilo.",
+  "answer": [
+   "billig"
+  ],
+  "ref": "billig",
+  "clue_en": "cheap",
+  "clue_ru": "дешёвый",
+  "tr_en": "Today the apples are very cheap: only one euro a kilo.",
+  "tr_ru": "Сегодня яблоки очень дешёвые: всего евро за килограмм.",
+  "explain_en": "billig = cheap, the opposite of teuer.",
+  "explain_ru": "billig = дешёвый, противоположность teuer.",
+  "id": "g052"
+ },
+ {
+  "kind": "word",
+  "text": "Entschuldigung, ist dieser ___ hier noch frei?",
+  "answer": [
+   "Platz"
+  ],
+  "ref": "der Platz",
+  "clue_en": "seat",
+  "clue_ru": "место (сиденье)",
+  "tr_en": "Excuse me, is this seat free?",
+  "tr_ru": "Извините, это место свободно?",
+  "explain_en": "A seat in a train, cinema or café is der Platz; dieser shows a masculine noun.",
+  "explain_ru": "Место в поезде, кино или кафе — der Platz; dieser указывает на мужской род. «Площадь» — тоже Platz.",
+  "id": "g053"
+ },
+ {
+  "kind": "word",
+  "text": "Der Film ist lang, er dauert fast drei ___.",
+  "answer": [
+   "Stunden"
+  ],
+  "ref": "die Stunde",
+  "clue_en": "hour",
+  "clue_ru": "час (60 минут)",
+  "tr_en": "The film is long; it lasts almost three hours.",
+  "tr_ru": "Фильм длинный, он идёт почти три часа.",
+  "explain_en": "Duration = die Stunde (Pl. Stunden); Uhr is only for clock time (um drei Uhr).",
+  "explain_ru": "Продолжительность — die Stunde (мн. ч. Stunden); Uhr — только время по часам (um drei Uhr). В русском оба значения — «час».",
+  "id": "g054"
+ },
+ {
+  "kind": "word",
+  "text": "Der Zug aus München kommt pünktlich um acht ___ an.",
+  "answer": [
+   "Uhr"
+  ],
+  "ref": "die Uhr",
+  "clue_en": "o'clock",
+  "clue_ru": "час (время по часам)",
+  "tr_en": "The train from Munich arrives punctually at eight o’clock.",
+  "tr_ru": "Поезд из Мюнхена прибывает точно в восемь часов.",
+  "explain_en": "Clock times use Uhr: um acht Uhr; Stunde is a duration.",
+  "explain_ru": "Время по часам — Uhr (um acht Uhr); Stunde — продолжительность. В русском и то и другое — «час».",
+  "id": "g055"
+ },
+ {
+  "kind": "word",
+  "text": "Hast du heute Nachmittag ___ für einen Kaffee?",
+  "answer": [
+   "Zeit"
+  ],
+  "ref": "die Zeit",
+  "clue_en": "time (free)",
+  "clue_ru": "время",
+  "tr_en": "Do you have time for a coffee this afternoon?",
+  "tr_ru": "У тебя есть сегодня днём время на кофе?",
+  "explain_en": "Zeit haben = to have time; no article here.",
+  "explain_ru": "Zeit haben = иметь время; без артикля.",
+  "id": "g056"
+ },
+ {
+  "kind": "word",
+  "text": "Gib mir bitte deine ___, dann rufe ich dich heute Abend an.",
+  "answer": [
+   "Nummer"
+  ],
+  "ref": "die Nummer",
+  "clue_en": "(phone) number",
+  "clue_ru": "номер",
+  "tr_en": "Please give me your number, then I'll call you this evening.",
+  "tr_ru": "Дай мне, пожалуйста, свой номер, тогда я позвоню тебе вечером.",
+  "explain_en": "A phone or house number is die Nummer; die Zahl is a number as a mathematical figure.",
+  "explain_ru": "Номер телефона или дома — die Nummer; die Zahl — число, цифра в математике.",
+  "id": "g057"
+ },
+ {
+  "kind": "word",
+  "text": "Unsere Wohnung hat drei ___, eine Küche und ein Bad.",
+  "answer": [
+   "Zimmer"
+  ],
+  "ref": "das Zimmer",
+  "clue_en": "room",
+  "clue_ru": "комната",
+  "tr_en": "Our flat has three rooms, a kitchen and a bathroom.",
+  "tr_ru": "В нашей квартире три комнаты, кухня и ванная.",
+  "explain_en": "das Zimmer, plural unchanged: drei Zimmer.",
+  "explain_ru": "das Zimmer, во множественном числе без изменений: drei Zimmer.",
+  "id": "g058"
+ },
+ {
+  "kind": "word",
+  "text": "Herr Ober, wir möchten zahlen – die ___, bitte!",
+  "answer": [
+   "Rechnung"
+  ],
+  "ref": "die Rechnung",
+  "clue_en": "bill",
+  "clue_ru": "счёт",
+  "tr_en": "Waiter, we'd like to pay – the bill, please!",
+  "tr_ru": "Официант, мы хотим расплатиться — счёт, пожалуйста!",
+  "explain_en": "In a restaurant the bill is die Rechnung.",
+  "explain_ru": "Счёт в ресторане — die Rechnung (не «Konto» — это банковский счёт).",
+  "id": "g059"
+ },
+ {
+  "kind": "word",
+  "text": "Bitte bezahlen Sie vorne an der ___.",
+  "answer": [
+   "Kasse"
+  ],
+  "ref": "die Kasse",
+  "clue_en": "checkout",
+  "clue_ru": "касса",
+  "tr_en": "Please pay at the checkout at the front.",
+  "tr_ru": "Пожалуйста, оплатите на кассе впереди.",
+  "explain_en": "an der Kasse = at the checkout; feminine, dative after an (wo?).",
+  "explain_ru": "an der Kasse = на кассе; женский род, датив после an (где?). В немецком «на кассе» — an, а не auf.",
+  "id": "g060"
+ },
+ {
+  "kind": "word",
+  "text": "Die ___ für unsere Wohnung beträgt 900 Euro im Monat.",
+  "answer": [
+   "Miete"
+  ],
+  "ref": "die Miete",
+  "clue_en": "rent",
+  "clue_ru": "квартплата, аренда",
+  "tr_en": "The rent for our flat is 900 euros a month.",
+  "tr_ru": "Аренда нашей квартиры — 900 евро в месяц.",
+  "explain_en": "Money paid for a flat each month = die Miete.",
+  "explain_ru": "Ежемесячная плата за квартиру — die Miete.",
+  "id": "g061"
+ },
+ {
+  "kind": "word",
+  "text": "Mein ___ klingelt jeden Morgen um sechs, aber ich bleibe noch liegen.",
+  "answer": [
+   "Wecker"
+  ],
+  "ref": "der Wecker",
+  "clue_en": "alarm clock",
+  "clue_ru": "будильник",
+  "tr_en": "My alarm clock rings every morning at six, but I stay in bed.",
+  "tr_ru": "Мой будильник звонит каждое утро в шесть, но я ещё лежу.",
+  "explain_en": "mein (no ending) shows a masculine noun: der Wecker. die Uhr would need meine.",
+  "explain_ru": "mein без окончания указывает на мужской род: der Wecker. Для die Uhr нужно было бы meine.",
+  "id": "g062"
+ },
+ {
+  "kind": "word",
+  "text": "Wir warten schon zwanzig Minuten an der ___, aber kein Bus kommt.",
+  "answer": [
+   "Haltestelle"
+  ],
+  "ref": "die Haltestelle",
+  "clue_en": "bus stop",
+  "clue_ru": "остановка",
+  "tr_en": "We've been waiting at the stop for twenty minutes, but no bus is coming.",
+  "tr_ru": "Мы уже двадцать минут ждём на остановке, но автобуса нет.",
+  "explain_en": "A bus or tram stop is die Haltestelle; an der Haltestelle = at the stop.",
+  "explain_ru": "Остановка автобуса или трамвая — die Haltestelle; «на остановке» = an der Haltestelle.",
+  "id": "g063"
+ },
+ {
+  "kind": "word",
+  "text": "Halt! Die ___ ist rot, wir müssen warten.",
+  "answer": [
+   "Ampel"
+  ],
+  "ref": "die Ampel",
+  "clue_en": "traffic light",
+  "clue_ru": "светофор",
+  "tr_en": "Stop! The light is red, we have to wait.",
+  "tr_ru": "Стой! На светофоре красный, нам надо подождать.",
+  "explain_en": "die Ampel = traffic light (feminine).",
+  "explain_ru": "die Ampel = светофор (женского рода, в отличие от русского).",
+  "id": "g064"
+ },
+ {
+  "kind": "word",
+  "text": "Hast du ___? – Ja, einen Bruder und eine Schwester.",
+  "answer": [
+   "Geschwister"
+  ],
+  "ref": "die Geschwister",
+  "clue_en": "siblings",
+  "clue_ru": "братья и сёстры",
+  "tr_en": "Do you have any siblings? – Yes, a brother and a sister.",
+  "tr_ru": "У тебя есть братья или сёстры? – Да, брат и сестра.",
+  "explain_en": "die Geschwister (plural only) covers brothers and sisters together.",
+  "explain_ru": "die Geschwister (только мн. ч.) — братья и сёстры вместе; в русском одного слова нет.",
+  "id": "g065"
+ },
+ {
+  "kind": "word",
+  "text": "Kann ich hier auch mit Karte ___?",
+  "answer": [
+   "bezahlen",
+   "zahlen"
+  ],
+  "ref": "bezahlen",
+  "clue_en": "to pay",
+  "clue_ru": "платить",
+  "tr_en": "Can I pay by card here too?",
+  "tr_ru": "Здесь можно расплатиться и картой?",
+  "explain_en": "(be)zahlen = to pay; mit Karte = by card.",
+  "explain_ru": "(be)zahlen = платить; mit Karte = картой (предлог mit + датив вместо русского творительного).",
+  "id": "g066"
+ },
+ {
+  "kind": "word",
+  "text": "Wir brauchen unser altes Auto nicht mehr, deshalb ___ wir es.",
+  "answer": [
+   "verkaufen"
+  ],
+  "ref": "verkaufen",
+  "clue_en": "to sell",
+  "clue_ru": "продавать",
+  "tr_en": "We don't need our old car any more, so we're selling it.",
+  "tr_ru": "Нам больше не нужна наша старая машина, поэтому мы её продаём.",
+  "explain_en": "ver- + kaufen = to sell; kaufen alone means to buy.",
+  "explain_ru": "ver- + kaufen = продавать; просто kaufen — покупать.",
+  "id": "g067"
+ },
+ {
+  "kind": "word",
+  "text": "Mir tut der Rücken ___, ich kann nicht lange sitzen.",
+  "answer": [
+   "weh"
+  ],
+  "ref": "wehtun",
+  "clue_en": "to hurt",
+  "clue_ru": "болеть",
+  "tr_en": "My back hurts; I can't sit for long.",
+  "tr_ru": "У меня болит спина, я не могу долго сидеть.",
+  "explain_en": "wehtun is separable: der Rücken tut mir weh. The person is in the dative (mir).",
+  "explain_ru": "wehtun отделяемый: der Rücken tut mir weh. Человек стоит в дативе (mir), как в русском «мне больно».",
+  "id": "g068"
+ },
+ {
+  "kind": "word",
+  "text": "Das Kind hat 39 Grad ___ und muss im Bett bleiben.",
+  "answer": [
+   "Fieber"
+  ],
+  "ref": "das Fieber",
+  "clue_en": "high temperature",
+  "clue_ru": "температура (жар)",
+  "tr_en": "The child has a temperature of 39 degrees and has to stay in bed.",
+  "tr_ru": "У ребёнка температура 39 градусов, ему нужно лежать в постели.",
+  "explain_en": "Raised body temperature = das Fieber; Temperatur is used for the weather or a neutral measurement.",
+  "explain_ru": "Повышенная температура тела — das Fieber; «у него температура» = er hat Fieber.",
+  "id": "g069"
+ },
+ {
+  "kind": "word",
+  "text": "Ich huste und meine Nase läuft – ich habe eine ___.",
+  "answer": [
+   "Erkältung"
+  ],
+  "ref": "die Erkältung",
+  "clue_en": "a cold",
+  "clue_ru": "простуда",
+  "tr_en": "I'm coughing and my nose is running – I have a cold.",
+  "tr_ru": "Я кашляю, и у меня течёт из носа — я простудился.",
+  "explain_en": "eine Erkältung haben = to have a cold.",
+  "explain_ru": "eine Erkältung haben = быть простуженным; по-немецки «иметь простуду».",
+  "id": "g070"
+ },
+ {
+  "kind": "word",
+  "text": "Die Ostsee heißt zwar „See“, aber sie ist eigentlich ein ___.",
+  "answer": [
+   "Meer"
+  ],
+  "ref": "das Meer",
+  "clue_en": "sea",
+  "clue_ru": "море",
+  "tr_en": "The Baltic is called 'See', but it is really a sea.",
+  "tr_ru": "Балтийское море хоть и называется «See», но на самом деле это море.",
+  "explain_en": "die See / das Meer = sea; der See = lake. ein (neuter) needs das Meer.",
+  "explain_ru": "die See / das Meer — море, der See — озеро. Артикль ein (средний род) требует das Meer.",
+  "id": "g071"
+ },
+ {
+  "kind": "word",
+  "text": "Am Wochenende ___ wir gern in den Bergen, manchmal sechs Stunden lang.",
+  "answer": [
+   "wandern"
+  ],
+  "ref": "wandern",
+  "clue_en": "to hike",
+  "clue_ru": "ходить в походы",
+  "tr_en": "At the weekend we like hiking in the mountains, sometimes for six hours.",
+  "tr_ru": "По выходным мы любим ходить в походы в горы, иногда по шесть часов.",
+  "explain_en": "wandern = to hike (a long walk in nature), not 'to wander'.",
+  "explain_ru": "wandern = ходить в пеший поход, а не «бродить без цели».",
+  "id": "g072"
+ },
+ {
+  "kind": "word",
+  "text": "Ich habe ___, kannst du mir ein Glas Wasser geben?",
+  "answer": [
+   "Durst"
+  ],
+  "ref": "Durst haben",
+  "clue_en": "thirst",
+  "clue_ru": "жажда",
+  "tr_en": "I'm thirsty, can you give me a glass of water?",
+  "tr_ru": "Я хочу пить, можешь дать мне стакан воды?",
+  "explain_en": "German says 'I have thirst': Durst haben, without an article.",
+  "explain_ru": "По-немецки «иметь жажду»: Durst haben, без артикля; ср. Hunger haben — хотеть есть.",
+  "id": "g073"
+ },
+ {
+  "kind": "word",
+  "text": "Hast du ___, heute Abend mit uns ins Kino zu gehen?",
+  "answer": [
+   "Lust"
+  ],
+  "ref": "Lust haben",
+  "clue_en": "desire, inclination",
+  "clue_ru": "желание, охота",
+  "tr_en": "Do you fancy coming to the cinema with us tonight?",
+  "tr_ru": "Хочешь сегодня вечером пойти с нами в кино?",
+  "explain_en": "Lust haben (zu …) = to feel like doing something.",
+  "explain_ru": "Lust haben (zu …) = иметь желание, «хотеть» что-то делать; не путать с русским «похоть».",
+  "id": "g074"
+ },
+ {
+  "kind": "word",
+  "text": "Du hast ___, die Antwort war falsch – entschuldige!",
+  "answer": [
+   "recht",
+   "Recht"
+  ],
+  "ref": "Recht haben",
+  "clue_en": "right (correct)",
+  "clue_ru": "правота",
+  "tr_en": "You're right, the answer was wrong – sorry!",
+  "tr_ru": "Ты прав, ответ был неправильный — извини!",
+  "explain_en": "'To be right' = recht/Recht haben (both spellings are allowed).",
+  "explain_ru": "«Быть правым» = recht/Recht haben, буквально «иметь право»; допустимы оба написания.",
+  "id": "g075"
+ },
+ {
+  "kind": "word",
+  "text": "Weißt du, wo mein Handy ist? – Keine ___, frag doch Mama.",
+  "answer": [
+   "Ahnung"
+  ],
+  "ref": "Keine Ahnung!",
+  "clue_en": "idea, clue",
+  "clue_ru": "понятие, представление",
+  "tr_en": "Do you know where my phone is? – No idea, ask Mum.",
+  "tr_ru": "Ты не знаешь, где мой телефон? – Понятия не имею, спроси маму.",
+  "explain_en": "Keine Ahnung = no idea.",
+  "explain_ru": "Keine Ahnung = понятия не имею.",
+  "id": "g076"
+ },
+ {
+  "kind": "word",
+  "text": "Herr und Frau Klein sind schon seit vierzig Jahren ___.",
+  "answer": [
+   "verheiratet"
+  ],
+  "ref": "verheiratet",
+  "clue_en": "married",
+  "clue_ru": "женат / замужем",
+  "tr_en": "Mr and Mrs Klein have been married for forty years.",
+  "tr_ru": "Господин и госпожа Кляйн женаты уже сорок лет.",
+  "explain_en": "verheiratet sein = to be married; with seit German uses the present tense.",
+  "explain_ru": "verheiratet sein = быть женатым/замужем — одно слово для мужчин и женщин; с seit — настоящее время.",
+  "id": "g077"
+ },
+ {
+  "kind": "word",
+  "text": "Ich habe morgen um zehn einen ___ beim Zahnarzt.",
+  "answer": [
+   "Termin"
+  ],
+  "ref": "der Termin",
+  "clue_en": "appointment",
+  "clue_ru": "запись, назначенная встреча",
+  "tr_en": "I have an appointment at the dentist's at ten tomorrow.",
+  "tr_ru": "Завтра в десять я записан к зубному врачу.",
+  "explain_en": "An appointment is der Termin; it's a false friend – it doesn't mean 'term'.",
+  "explain_ru": "Назначенная встреча — der Termin; ложный друг: это не «термин» (по-немецки der Fachbegriff).",
+  "id": "g078"
+ },
+ {
+  "kind": "word",
+  "text": "Die Flasche ist ___, wir brauchen eine neue.",
+  "answer": [
+   "leer"
+  ],
+  "ref": "leer",
+  "clue_en": "empty",
+  "clue_ru": "пустой",
+  "tr_en": "The bottle is empty; we need a new one.",
+  "tr_ru": "Бутылка пустая, нам нужна новая.",
+  "explain_en": "leer = empty, the opposite of voll.",
+  "explain_ru": "leer = пустой, противоположность voll.",
+  "id": "g079"
+ },
+ {
+  "kind": "word",
+  "text": "Wie ___ Sie, bitte? – Mein Name ist Schmidt.",
+  "answer": [
+   "heißen"
+  ],
+  "ref": "heißen",
+  "clue_en": "to be called",
+  "clue_ru": "зваться",
+  "tr_en": "What is your name, please? – My name is Schmidt.",
+  "tr_ru": "Как вас зовут? – Моя фамилия Шмидт.",
+  "explain_en": "Asking for a name: Wie heißen Sie? The person is the subject (literally ‘how are you called’), unlike the Russian construction.",
+  "explain_ru": "Вопрос об имени: Wie heißen Sie? Подлежащее — сам человек («как вы называетесь»), а не «вас зовут».",
+  "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-articles",
+  "text": "Hier liegt ein Buch. Ist ___ Buch von dir?",
+  "answer": [
+   "das"
+  ],
+  "tr_en": "There's a book here. Is the book yours?",
+  "tr_ru": "Здесь лежит книга. Это твоя книга?",
+  "explain_en": "das Buch is neuter; once it has been mentioned, the definite article is used.",
+  "explain_ru": "das Buch — среднего рода (по-русски «книга» женского!); после первого упоминания — определённый артикль.",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-articles",
+  "text": "Das ist ___ Mädchen aus meiner Klasse, sie heißt Mia.",
+  "answer": [
+   "ein"
+  ],
+  "tr_en": "That is a girl from my class; her name is Mia.",
+  "tr_ru": "Это девочка из моего класса, её зовут Мия.",
+  "explain_en": "das Mädchen is neuter (all -chen nouns are), so the indefinite article is ein, not eine.",
+  "explain_ru": "das Mädchen среднего рода (все слова на -chen), поэтому ein, а не eine, хотя речь о девочке.",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-articles",
+  "text": "Wie heißt ___ Junge dort mit dem Fußball?",
+  "answer": [
+   "der"
+  ],
+  "tr_en": "What's the name of the boy over there with the football?",
+  "tr_ru": "Как зовут того мальчика с футбольным мячом?",
+  "explain_en": "der Junge is masculine and the subject here (nominative).",
+  "explain_ru": "der Junge — мужского рода, здесь подлежащее (номинатив).",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-sein-haben",
+  "text": "Wo ist das Buch? – Ich glaube, ___ liegt auf dem Tisch.",
+  "answer": [
+   "es"
+  ],
+  "tr_en": "Where's the book? – I think it's on the table.",
+  "tr_ru": "Где книга? – Думаю, она лежит на столе.",
+  "explain_en": "The pronoun follows the German gender: das Buch → es.",
+  "explain_ru": "Местоимение следует немецкому роду: das Buch → es, хотя по-русски «она».",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-sein-haben",
+  "text": "Hast du meine Tasche gesehen? – Ja, ___ ist im Auto.",
+  "answer": [
+   "sie"
+  ],
+  "tr_en": "Have you seen my bag? – Yes, it's in the car.",
+  "tr_ru": "Ты видел мою сумку? – Да, она в машине.",
+  "explain_en": "die Tasche is feminine, so it is replaced by sie.",
+  "explain_ru": "die Tasche женского рода, поэтому заменяется на sie.",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-sein-haben",
+  "text": "Das ist Herr Kim, ___ kommt aus Korea.",
+  "answer": [
+   "er"
+  ],
+  "tr_en": "This is Mr Kim; he comes from Korea.",
+  "tr_ru": "Это господин Ким, он из Кореи.",
+  "explain_en": "A man is referred to with er; the verb ending -t matches er.",
+  "explain_ru": "О мужчине говорят er; окончание -t у kommt подходит к er.",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-sein-haben",
+  "text": "Lisa und Tom, ___ ihr Geschwister?",
+  "answer": [
+   "seid"
+  ],
+  "tr_en": "Lisa and Tom, are you brother and sister?",
+  "tr_ru": "Лиза и Том, вы брат и сестра?",
+  "explain_en": "sein with ihr: seid. German never drops the verb 'to be'.",
+  "explain_ru": "sein с ihr: seid. В немецком связку нельзя опустить, как в русском «вы — брат и сестра».",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-sein-haben",
+  "text": "Mein Bruder ___ zwei Kinder und einen Hund.",
+  "answer": [
+   "hat"
+  ],
+  "tr_en": "My brother has two children and a dog.",
+  "tr_ru": "У моего брата двое детей и собака.",
+  "explain_en": "Possession is expressed with haben: er hat.",
+  "explain_ru": "Принадлежность выражается глаголом haben: er hat, а не «у него есть».",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-tense",
+  "text": "Nimmst ___ Milch und Zucker in den Kaffee?",
+  "answer": [
+   "du"
+  ],
+  "tr_en": "Do you take milk and sugar in your coffee?",
+  "tr_ru": "Ты кладёшь в кофе молоко и сахар?",
+  "explain_en": "The ending -st (and the vowel change nimmst) belongs to du only.",
+  "explain_ru": "Окончание -st (и смена гласной nimmst) бывает только у du.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-tense",
+  "text": "Wohin fahrt ___ morgen, Kinder?",
+  "answer": [
+   "ihr"
+  ],
+  "tr_en": "Where are you going tomorrow, children?",
+  "tr_ru": "Куда вы завтра едете, дети?",
+  "explain_en": "fahrt (no umlaut, ending -t) is the ihr form; er/sie would be fährt.",
+  "explain_ru": "fahrt (без умлаута, окончание -t) — форма для ihr; для er/sie было бы fährt.",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-tense",
+  "text": "Arbeiten ___ heute auch bis sechs, Frau Lang?",
+  "answer": [
+   "Sie"
+  ],
+  "tr_en": "Are you working until six today too, Mrs Lang?",
+  "tr_ru": "Вы сегодня тоже работаете до шести, госпожа Ланг?",
+  "explain_en": "Formal address uses Sie with a capital letter and the -en form of the verb.",
+  "explain_ru": "Вежливое обращение — Sie с большой буквы и форма глагола на -en, как у «они».",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-order-questions",
+  "text": "Und du, ___ kommst du? – Aus Polen.",
+  "answer": [
+   "woher"
+  ],
+  "tr_en": "And you, where are you from? – From Poland.",
+  "tr_ru": "А ты откуда? – Из Польши.",
+  "explain_en": "The answer 'aus …' asks for the origin: woher.",
+  "explain_ru": "Ответ «aus …» отвечает на вопрос woher «откуда»; wo — «где», wohin — «куда».",
+  "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-order-questions",
+  "text": "Und ___ besuchst du am Sonntag? – Meine Oma.",
+  "answer": [
+   "wen"
+  ],
+  "tr_en": "And who are you visiting on Sunday? – My grandma.",
+  "tr_ru": "А кого ты навещаешь в воскресенье? – Свою бабушку.",
+  "explain_en": "The person is the accusative object of besuchen, so the question word is wen.",
+  "explain_ru": "Человек — прямое дополнение (аккузатив) при besuchen, поэтому вопрос wen «кого».",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-order-questions",
+  "text": "Weißt du, ___ der Zug kommt? – Um acht Uhr.",
+  "answer": [
+   "wann"
+  ],
+  "tr_en": "Do you know when the train is coming? – At eight o'clock.",
+  "tr_ru": "Ты не знаешь, когда придёт поезд? – В восемь часов.",
+  "explain_en": "The answer is a time, so the question word is wann; in the indirect question the verb goes to the end.",
+  "explain_ru": "Ответ — время, значит wann «когда»; в косвенном вопросе глагол уходит в конец.",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-order-questions",
+  "text": "Mit ___ fährst du in den Urlaub? – Mit meinem Freund.",
+  "answer": [
+   "wem"
+  ],
+  "tr_en": "Who are you going on holiday with? – With my boyfriend.",
+  "tr_ru": "С кем ты едешь в отпуск? – Со своим парнем.",
+  "explain_en": "mit takes the dative, so 'who' becomes wem.",
+  "explain_ru": "mit требует датива, поэтому «кто» превращается в wem (ср. «с кем»).",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-order-questions",
+  "text": "Hast du keinen Hunger? – ___, ich habe großen Hunger!",
+  "answer": [
+   "Doch",
+   "doch"
+  ],
+  "tr_en": "Aren't you hungry? – Yes, I am, I'm very hungry!",
+  "tr_ru": "Ты не голоден? – Ещё как, я очень голоден!",
+  "explain_en": "A positive answer to a negative question is doch, not ja.",
+  "explain_ru": "Утвердительный ответ на отрицательный вопрос — doch, а не ja. В русском говорят «нет, голоден» или «да нет, голоден».",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "section": "accusative-case",
+  "text": "Das Geschenk ist ___ dich – alles Gute zum Geburtstag!",
+  "answer": [
+   "für"
+  ],
+  "tr_en": "The present is for you – happy birthday!",
+  "tr_ru": "Подарок для тебя — с днём рождения!",
+  "explain_en": "für (for) always takes the accusative: für dich.",
+  "explain_ru": "für («для») всегда с аккузативом: für dich, а не родительный, как в русском «для тебя».",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "section": "accusative-case",
+  "text": "Ich trinke Kaffee immer ___ Zucker, ich mag ihn nicht süß.",
+  "answer": [
+   "ohne"
+  ],
+  "tr_en": "I always drink coffee without sugar; I don't like it sweet.",
+  "tr_ru": "Я всегда пью кофе без сахара, я не люблю сладкий.",
+  "explain_en": "ohne (without) takes the accusative; with a noun without an article you just say ohne Zucker.",
+  "explain_ru": "ohne («без») требует аккузатива; без артикля — просто ohne Zucker.",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "section": "accusative-case",
+  "text": "Der Film beginnt ___ acht Uhr, komm bitte pünktlich.",
+  "answer": [
+   "um"
+  ],
+  "tr_en": "The film starts at eight o'clock, please come on time.",
+  "tr_ru": "Фильм начинается в восемь часов, приходи, пожалуйста, вовремя.",
+  "explain_en": "Clock times take um: um acht Uhr.",
+  "explain_ru": "Время по часам — с um: um acht Uhr (русское «в восемь»).",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "section": "accusative-case",
+  "text": "Das Auto fährt ___ einen Baum – zum Glück ist niemand verletzt.",
+  "answer": [
+   "gegen"
+  ],
+  "tr_en": "The car crashes into a tree – luckily nobody is hurt.",
+  "tr_ru": "Машина врезается в дерево — к счастью, никто не пострадал.",
+  "explain_en": "Hitting something is gegen + accusative: gegen einen Baum fahren.",
+  "explain_ru": "Удар обо что-то — gegen + аккузатив: gegen einen Baum fahren «врезаться в дерево».",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "section": "accusative-case",
+  "text": "Die Katze schaut ___ das Fenster in den Garten.",
+  "answer": [
+   "durch"
+  ],
+  "tr_en": "The cat looks through the window into the garden.",
+  "tr_ru": "Кошка смотрит через окно в сад.",
+  "explain_en": "durch (through) takes the accusative: durch das Fenster.",
+  "explain_ru": "durch («через, сквозь») требует аккузатива: durch das Fenster.",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "section": "accusative-case",
+  "text": "Ich sehe ___ Mann mit dem Hut nicht mehr, wo ist er?",
+  "answer": [
+   "den"
+  ],
+  "tr_en": "I can't see the man with the hat any more – where is he?",
+  "tr_ru": "Я больше не вижу мужчину в шляпе, где он?",
+  "explain_en": "der Mann is the direct object of sehen, so der becomes den.",
+  "explain_ru": "der Mann — прямое дополнение при sehen, поэтому der → den. Меняется только мужской род.",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "section": "accusative-case",
+  "text": "Ich habe einen neuen Pullover. Wie findest du ___?",
+  "answer": [
+   "ihn"
+  ],
+  "tr_en": "I have a new jumper. What do you think of it?",
+  "tr_ru": "У меня новый свитер. Как он тебе?",
+  "explain_en": "der Pullover is masculine, so 'it' in the accusative is ihn.",
+  "explain_ru": "der Pullover мужского рода, поэтому в аккузативе — ihn («его»), даже для вещи.",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "section": "negation-nicht-kein",
+  "text": "Tut mir leid, ich habe heute ___ Zeit.",
+  "answer": [
+   "keine"
+  ],
+  "tr_en": "Sorry, I have no time today.",
+  "tr_ru": "Извини, у меня сегодня нет времени.",
+  "explain_en": "A noun without an article is negated with kein; die Zeit → keine Zeit.",
+  "explain_ru": "Существительное без артикля отрицается словом kein: die Zeit → keine Zeit.",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "section": "negation-nicht-kein",
+  "text": "Das ist ___ mein Buch, das gehört Paul.",
+  "answer": [
+   "nicht"
+  ],
+  "tr_en": "That isn't my book, it belongs to Paul.",
+  "tr_ru": "Это не моя книга, она принадлежит Паулю.",
+  "explain_en": "A noun with a possessive article is negated with nicht, not kein.",
+  "explain_ru": "Существительное с притяжательным артиклем отрицается nicht, а не kein.",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "section": "negation-nicht-kein",
+  "text": "Wir haben ___ Auto, wir fahren immer mit dem Fahrrad.",
+  "answer": [
+   "kein"
+  ],
+  "tr_en": "We don't have a car; we always go by bike.",
+  "tr_ru": "У нас нет машины, мы всегда ездим на велосипеде.",
+  "explain_en": "das Auto (neuter accusative) → kein Auto.",
+  "explain_ru": "das Auto (средний род, аккузатив) → kein Auto.",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "section": "negation-nicht-kein",
+  "text": "Ich trinke ___ Kaffee, nur Tee.",
+  "answer": [
+   "keinen"
+  ],
+  "tr_en": "I don't drink coffee, only tea.",
+  "tr_ru": "Я не пью кофе, только чай.",
+  "explain_en": "der Kaffee is masculine accusative: keinen Kaffee.",
+  "explain_ru": "der Kaffee мужского рода в аккузативе: keinen Kaffee.",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "section": "negation-nicht-kein",
+  "text": "Das ist kein Hund, ___ eine Katze!",
+  "answer": [
+   "sondern"
+  ],
+  "tr_en": "That isn't a dog, it's a cat!",
+  "tr_ru": "Это не собака, а кошка!",
+  "explain_en": "After a negation, 'but rather' is sondern, not aber.",
+  "explain_ru": "После отрицания «а» = sondern, а не aber («но»).",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "section": "negation-nicht-kein",
+  "text": "Ich habe Hunger, aber es gibt ___ mehr im Kühlschrank.",
+  "answer": [
+   "nichts"
+  ],
+  "tr_en": "I'm hungry, but there's nothing left in the fridge.",
+  "tr_ru": "Я голоден, но в холодильнике больше ничего нет.",
+  "explain_en": "'Nothing' is nichts; it is not combined with another negation.",
+  "explain_ru": "«Ничего» = nichts; в немецком нет двойного отрицания, как в русском «ничего не».",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "section": "possessive-articles",
+  "text": "Herr Müller, ist das ___ Auto?",
+  "answer": [
+   "Ihr"
+  ],
+  "tr_en": "Mr Müller, is this your car?",
+  "tr_ru": "Господин Мюллер, это ваша машина?",
+  "explain_en": "Formal 'your' is Ihr with a capital I; das Auto needs no ending.",
+  "explain_ru": "Вежливое «ваш» — Ihr с большой буквы; у das Auto окончания нет.",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "section": "possessive-articles",
+  "text": "Lena und Tom, ist das ___ Hund?",
+  "answer": [
+   "euer"
+  ],
+  "tr_en": "Lena and Tom, is that your dog?",
+  "tr_ru": "Лена и Том, это ваша собака?",
+  "explain_en": "Informal plural 'your' is euer; masculine nominative has no ending.",
+  "explain_ru": "Неформальное «ваш» для нескольких людей — euer; мужской род в номинативе без окончания.",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "section": "possessive-articles",
+  "text": "Max hat einen Hund, und ___ Hund heißt Bello.",
+  "answer": [
+   "sein"
+  ],
+  "tr_en": "Max has a dog, and his dog is called Bello.",
+  "tr_ru": "У Макса есть собака, и его собаку зовут Белло.",
+  "explain_en": "The owner is Max (he), so 'his' = sein; masculine nominative, no ending.",
+  "explain_ru": "Владелец — Макс (он), поэтому sein; мужской род в номинативе без окончания.",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "section": "possessive-articles",
+  "text": "Anna hat eine Katze; ___ Katze ist schwarz und sehr klein.",
+  "answer": [
+   "ihre"
+  ],
+  "tr_en": "Anna has a cat; her cat is black and very small.",
+  "tr_ru": "У Анны есть кошка; её кошка чёрная и очень маленькая.",
+  "explain_en": "The owner is a woman → ihr; die Katze is feminine → ihre.",
+  "explain_ru": "Владелица — женщина → ihr; die Katze женского рода → ihre.",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "section": "possessive-articles",
+  "text": "Ich heiße Paul, und das ist ___ Schwester Lisa.",
+  "answer": [
+   "meine"
+  ],
+  "tr_en": "My name is Paul, and this is my sister Lisa.",
+  "tr_ru": "Меня зовут Пауль, а это моя сестра Лиза.",
+  "explain_en": "The speaker introduces his own sister: mein + -e for the feminine: meine.",
+  "explain_ru": "Говорящий представляет свою сестру: mein + -e для женского рода: meine.",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "section": "modal-verbs",
+  "text": "Mein Sohn ist erst drei, er ___ noch nicht lesen.",
+  "answer": [
+   "kann"
+  ],
+  "tr_en": "My son is only three; he can't read yet.",
+  "tr_ru": "Моему сыну всего три года, он ещё не умеет читать.",
+  "explain_en": "Ability is expressed with können: er kann (no ending).",
+  "explain_ru": "Умение выражается глаголом können: er kann (без окончания) — русское «уметь».",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "section": "modal-verbs",
+  "text": "Im Kino ___ man nicht telefonieren, das ist verboten.",
+  "answer": [
+   "darf"
+  ],
+  "tr_en": "You're not allowed to make phone calls in the cinema; it's forbidden.",
+  "tr_ru": "В кино нельзя говорить по телефону, это запрещено.",
+  "explain_en": "'Not allowed' = nicht dürfen: man darf nicht.",
+  "explain_ru": "«Нельзя» = man darf nicht. Не путайте: man muss nicht = «не обязательно».",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "section": "separable-verbs-imperative-numbers",
+  "text": "Ich stehe jeden Tag um sechs Uhr ___, auch am Sonntag.",
+  "answer": [
+   "auf"
+  ],
+  "tr_en": "I get up at six o'clock every day, even on Sunday.",
+  "tr_ru": "Я встаю каждый день в шесть часов, даже в воскресенье.",
+  "explain_en": "aufstehen is separable: the prefix auf goes to the end of the main clause.",
+  "explain_ru": "aufstehen — отделяемый глагол: приставка auf уходит в конец главного предложения.",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "section": "separable-verbs-imperative-numbers",
+  "text": "Kauf bitte auf dem Weg nach Hause Brot und Milch ___!",
+  "answer": [
+   "ein"
+  ],
+  "tr_en": "Please buy bread and milk on your way home!",
+  "tr_ru": "Купи, пожалуйста, по дороге домой хлеб и молоко!",
+  "explain_en": "einkaufen is separable; in the imperative the prefix also goes to the end.",
+  "explain_ru": "einkaufen отделяемый; в повелительном наклонении приставка тоже в конце.",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "section": "separable-verbs-imperative-numbers",
+  "text": "Es ist 7:45 Uhr, also Viertel ___ acht.",
+  "answer": [
+   "vor"
+  ],
+  "tr_en": "It's 7:45, so a quarter to eight.",
+  "tr_ru": "Сейчас 7:45, то есть без четверти восемь.",
+  "explain_en": "Before the hour = vor: Viertel vor acht.",
+  "explain_ru": "До полного часа — vor: Viertel vor acht = «без четверти восемь».",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "section": "separable-verbs-imperative-numbers",
+  "text": "Es ist 8:30 Uhr, also halb ___.",
+  "answer": [
+   "neun"
+  ],
+  "tr_en": "It's 8:30, so half past eight.",
+  "tr_ru": "Сейчас 8:30, то есть половина девятого.",
+  "explain_en": "halb counts towards the next hour: 8:30 = halb neun.",
+  "explain_ru": "halb считается к следующему часу, как в русском: 8:30 = halb neun «половина девятого».",
+  "id": "g120"
+ }
+]
