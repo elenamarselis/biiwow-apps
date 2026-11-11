@@ -512,5 +512,626 @@
   "explain_en": "Cuyo agrees with the thing possessed (novelas), not with the owner: cuyas.",
   "explain_ru": "Cuyo согласуется с тем, чем владеют (novelas), а не с владельцем: cuyas — как русское «чьи».",
   "id": "g039"
+ },
+ {
+  "kind": "form",
+  "text": "Si ___ elegir, viviría en un pueblo junto al mar.",
+  "answer": [
+   "pudiera",
+   "pudiese"
+  ],
+  "lemma": "poder",
+  "tr_en": "If I could choose, I'd live in a village by the sea.",
+  "tr_ru": "Если бы я мог выбирать, я бы жил в деревне у моря.",
+  "explain_en": "Si + imperfect subjunctive + conditional (viviría): poder → pudiera / pudiese.",
+  "explain_ru": "Si + imperfecto de subjuntivo + condicional (viviría): poder → pudiera / pudiese (от pudieron).",
+  "id": "g040"
+ },
+ {
+  "kind": "word",
+  "text": "Mi hijo es muy ___: llora con cualquier película triste.",
+  "answer": [
+   "sensible"
+  ],
+  "ref": "sensible",
+  "clue_en": "sensitive",
+  "clue_ru": "чувствительный",
+  "tr_en": "My son is very sensitive: he cries at any sad film.",
+  "tr_ru": "Мой сын очень чувствительный: плачет над любым грустным фильмом.",
+  "explain_en": "Sensible means sensitive (false friend of English 'sensible', which is sensato).",
+  "explain_ru": "Sensible — «чувствительный»; «разумный» — sensato.",
+  "id": "g041"
+ },
+ {
+  "kind": "word",
+  "text": "Fue una decisión muy ___ no conducir con aquella tormenta.",
+  "answer": [
+   "sensata"
+  ],
+  "ref": "sensato",
+  "clue_en": "reasonable, wise",
+  "clue_ru": "разумный, здравый",
+  "tr_en": "It was a very sensible decision not to drive in that storm.",
+  "tr_ru": "Не ехать в такую грозу было очень разумным решением.",
+  "explain_en": "Sensato = reasonable, agreeing with decisión: sensata. Do not confuse with sensible (sensitive).",
+  "explain_ru": "Sensato — разумный, согласуется с decisión: sensata. Не путать с sensible (чувствительный).",
+  "id": "g042"
+ },
+ {
+  "kind": "word",
+  "text": "Mi abuelo es tan ___ que nunca reconoce que se ha equivocado.",
+  "answer": [
+   "terco",
+   "testarudo",
+   "cabezota"
+  ],
+  "ref": "terco",
+  "clue_en": "stubborn",
+  "clue_ru": "упрямый",
+  "tr_en": "My grandfather is so stubborn that he never admits he's wrong.",
+  "tr_ru": "Мой дедушка такой упрямый, что никогда не признаёт своих ошибок.",
+  "explain_en": "Terco = stubborn (also testarudo, colloquially cabezota).",
+  "explain_ru": "Terco — упрямый (также testarudo, разг. cabezota).",
+  "id": "g043"
+ },
+ {
+  "kind": "word",
+  "text": "Mi madre está ___ de que los vecinos pongan la música a las tres de la mañana.",
+  "answer": [
+   "harta"
+  ],
+  "ref": "harto",
+  "clue_en": "fed up",
+  "clue_ru": "сытый по горло",
+  "tr_en": "My mother is fed up with the neighbours playing music at three in the morning.",
+  "tr_ru": "Моей маме надоело, что соседи включают музыку в три часа ночи.",
+  "explain_en": "Estar harto de = to be fed up with; agrees with madre: harta.",
+  "explain_ru": "Estar harto de — «сыт по горло»; согласуется с madre: harta.",
+  "id": "g044"
+ },
+ {
+  "kind": "word",
+  "text": "No fue ___ tuya: el otro coche se saltó el semáforo.",
+  "answer": [
+   "culpa"
+  ],
+  "ref": "la culpa",
+  "clue_en": "fault, blame",
+  "clue_ru": "вина",
+  "tr_en": "It wasn't your fault: the other car jumped the lights.",
+  "tr_ru": "Ты не виноват: другая машина проехала на красный.",
+  "explain_en": "No fue culpa tuya = it wasn't your fault (no article in this phrase).",
+  "explain_ru": "No fue culpa tuya — «это не твоя вина» (без артикля).",
+  "id": "g045"
+ },
+ {
+  "kind": "word",
+  "text": "¡Qué ___! Pensaba que había perdido el pasaporte y estaba en la maleta.",
+  "answer": [
+   "alivio"
+  ],
+  "ref": "el alivio",
+  "clue_en": "relief",
+  "clue_ru": "облегчение",
+  "tr_en": "What a relief! I thought I'd lost my passport and it was in the suitcase.",
+  "tr_ru": "Какое облегчение! Я думал, что потерял паспорт, а он был в чемодане.",
+  "explain_en": "¡Qué alivio! = What a relief!",
+  "explain_ru": "¡Qué alivio! — «Какое облегчение!»",
+  "id": "g046"
+ },
+ {
+  "kind": "word",
+  "text": "No ___ el calor de agosto en Sevilla; por eso me voy al norte.",
+  "answer": [
+   "soporto",
+   "aguanto"
+  ],
+  "ref": "soportar",
+  "clue_en": "to bear, stand",
+  "clue_ru": "выносить, терпеть",
+  "tr_en": "I can't stand the August heat in Seville; that's why I go north.",
+  "tr_ru": "Я не выношу августовскую жару в Севилье, поэтому уезжаю на север.",
+  "explain_en": "Soportar = to put up with (not 'to support', which is apoyar).",
+  "explain_ru": "Soportar — терпеть, выносить (а не «поддерживать» — apoyar).",
+  "id": "g047"
+ },
+ {
+  "kind": "word",
+  "text": "Se me ha ___ el coche en plena autopista y estoy esperando la grúa.",
+  "answer": [
+   "estropeado",
+   "averiado"
+  ],
+  "ref": "estropearse",
+  "clue_en": "to break down",
+  "clue_ru": "сломаться",
+  "tr_en": "My car has broken down in the middle of the motorway and I'm waiting for the tow truck.",
+  "tr_ru": "У меня сломалась машина посреди автострады, жду эвакуатор.",
+  "explain_en": "Estropearse = to break down; 'se me ha estropeado' shows it happened to me involuntarily.",
+  "explain_ru": "Estropearse — сломаться; «se me ha estropeado» — «у меня сломалась» (невольно).",
+  "id": "g048"
+ },
+ {
+  "kind": "word",
+  "text": "Se ha fundido la ___ de la cocina y no veo nada.",
+  "answer": [
+   "bombilla"
+  ],
+  "ref": "la bombilla",
+  "clue_en": "light bulb",
+  "clue_ru": "лампочка",
+  "tr_en": "The kitchen light bulb has blown and I can't see a thing.",
+  "tr_ru": "На кухне перегорела лампочка, и ничего не видно.",
+  "explain_en": "A bulb is la bombilla; la lámpara is the whole lamp. Fundirse = to blow.",
+  "explain_ru": "Лампочка — la bombilla; la lámpara — светильник. Fundirse — перегореть.",
+  "id": "g049"
+ },
+ {
+  "kind": "word",
+  "text": "¿Hay algún ___ libre por aquí para cargar el portátil?",
+  "answer": [
+   "enchufe"
+  ],
+  "ref": "el enchufe",
+  "clue_en": "socket, plug",
+  "clue_ru": "розетка",
+  "tr_en": "Is there a free socket around here to charge my laptop?",
+  "tr_ru": "Здесь есть свободная розетка, чтобы зарядить ноутбук?",
+  "explain_en": "El enchufe is a socket or plug; colloquially it also means connections ('tener enchufe').",
+  "explain_ru": "El enchufe — розетка, вилка; разг. также «блат» (tener enchufe).",
+  "id": "g050"
+ },
+ {
+  "kind": "word",
+  "text": "Cierra el ___ mientras te lavas los dientes; no malgastes agua.",
+  "answer": [
+   "grifo"
+  ],
+  "ref": "el grifo",
+  "clue_en": "tap, faucet",
+  "clue_ru": "кран (водопроводный)",
+  "tr_en": "Turn off the tap while you brush your teeth; don't waste water.",
+  "tr_ru": "Закрывай кран, пока чистишь зубы: не трать воду зря.",
+  "explain_en": "A water tap in Spain is el grifo; agua del grifo = tap water.",
+  "explain_ru": "Водопроводный кран — el grifo; agua del grifo — вода из-под крана.",
+  "id": "g051"
+ },
+ {
+  "kind": "word",
+  "text": "Los niños toman la ___ a las seis: un bocadillo y una pieza de fruta.",
+  "answer": [
+   "merienda"
+  ],
+  "ref": "la merienda",
+  "clue_en": "afternoon snack",
+  "clue_ru": "полдник",
+  "tr_en": "The children have their afternoon snack at six: a sandwich and a piece of fruit.",
+  "tr_ru": "Дети полдничают в шесть: бутерброд и фрукт.",
+  "explain_en": "La merienda is the afternoon snack between lunch and a late dinner.",
+  "explain_ru": "La merienda — полдник между обедом и поздним ужином.",
+  "id": "g052"
+ },
+ {
+  "kind": "word",
+  "text": "Antes de comerte el yogur, mira la fecha de ___.",
+  "answer": [
+   "caducidad"
+  ],
+  "ref": "la caducidad",
+  "clue_en": "expiry",
+  "clue_ru": "срок годности",
+  "tr_en": "Before you eat the yoghurt, check the expiry date.",
+  "tr_ru": "Прежде чем есть йогурт, посмотри срок годности.",
+  "explain_en": "Fecha de caducidad = expiry date (caducar = to expire).",
+  "explain_ru": "Fecha de caducidad — срок годности (caducar — истекать).",
+  "id": "g053"
+ },
+ {
+  "kind": "word",
+  "text": "El médico me ha ___ antibióticos para la infección de oído.",
+  "answer": [
+   "recetado"
+  ],
+  "ref": "recetar",
+  "clue_en": "to prescribe",
+  "clue_ru": "выписывать (лекарство)",
+  "tr_en": "The doctor has prescribed me antibiotics for the ear infection.",
+  "tr_ru": "Врач выписал мне антибиотики от инфекции уха.",
+  "explain_en": "Recetar = to prescribe (from la receta, prescription).",
+  "explain_ru": "Recetar — выписывать лекарство (от la receta — рецепт).",
+  "id": "g054"
+ },
+ {
+  "kind": "word",
+  "text": "Me torcí el tobillo jugando al baloncesto y el médico dice que es un ___.",
+  "answer": [
+   "esguince"
+  ],
+  "ref": "el esguince",
+  "clue_en": "sprain",
+  "clue_ru": "растяжение связок",
+  "tr_en": "I twisted my ankle playing basketball and the doctor says it's a sprain.",
+  "tr_ru": "Я подвернул лодыжку, играя в баскетбол, и врач говорит, что это растяжение.",
+  "explain_en": "Un esguince is a sprain; a fracture is una fractura.",
+  "explain_ru": "Un esguince — растяжение; перелом — una fractura.",
+  "id": "g055"
+ },
+ {
+  "kind": "word",
+  "text": "Esperamos que disfruten de su ___ en nuestro hotel.",
+  "answer": [
+   "estancia"
+  ],
+  "ref": "la estancia",
+  "clue_en": "stay (period)",
+  "clue_ru": "пребывание",
+  "tr_en": "We hope you enjoy your stay at our hotel.",
+  "tr_ru": "Желаем вам приятного пребывания в нашем отеле.",
+  "explain_en": "La estancia = a period of staying somewhere.",
+  "explain_ru": "La estancia — пребывание (период проживания где-то).",
+  "id": "g056"
+ },
+ {
+  "kind": "word",
+  "text": "Reservamos una habitación con ___ al mar en el último piso.",
+  "answer": [
+   "vistas",
+   "vista"
+  ],
+  "ref": "las vistas",
+  "clue_en": "view",
+  "clue_ru": "вид (из окна)",
+  "tr_en": "We booked a sea-view room on the top floor.",
+  "tr_ru": "Мы забронировали номер с видом на море на последнем этаже.",
+  "explain_en": "Con vistas al mar = with a sea view (usually plural in Spain).",
+  "explain_ru": "Con vistas al mar — с видом на море (в Испании обычно мн. ч.).",
+  "id": "g057"
+ },
+ {
+  "kind": "word",
+  "text": "Tuvimos un ___ en la carretera y tardamos media hora en cambiar la rueda.",
+  "answer": [
+   "pinchazo"
+  ],
+  "ref": "el pinchazo",
+  "clue_en": "puncture, flat tyre",
+  "clue_ru": "прокол шины",
+  "tr_en": "We got a puncture on the road and it took us half an hour to change the wheel.",
+  "tr_ru": "У нас на дороге пробило колесо, и мы полчаса меняли его.",
+  "explain_en": "Un pinchazo is a puncture (pinchar = to prick).",
+  "explain_ru": "Un pinchazo — прокол (pinchar — проколоть).",
+  "id": "g058"
+ },
+ {
+  "kind": "word",
+  "text": "Está prohibido ___ en esta curva porque no se ve bien.",
+  "answer": [
+   "adelantar"
+  ],
+  "ref": "adelantar",
+  "clue_en": "to overtake",
+  "clue_ru": "обгонять",
+  "tr_en": "Overtaking is prohibited on this bend because visibility is poor.",
+  "tr_ru": "На этом повороте обгон запрещён, потому что плохо видно.",
+  "explain_en": "Adelantar = to overtake (also to bring forward).",
+  "explain_ru": "Adelantar — обгонять (а также переносить на более ранний срок).",
+  "id": "g059"
+ },
+ {
+  "kind": "word",
+  "text": "Mete las maletas en el ___; en los asientos de atrás van los niños.",
+  "answer": [
+   "maletero"
+  ],
+  "ref": "el maletero",
+  "clue_en": "boot (of a car)",
+  "clue_ru": "багажник",
+  "tr_en": "Put the suitcases in the boot; the children are going in the back seats.",
+  "tr_ru": "Положи чемоданы в багажник: на заднем сиденье поедут дети.",
+  "explain_en": "The boot of a car is el maletero (from maleta).",
+  "explain_ru": "Багажник — el maletero (от maleta — чемодан).",
+  "id": "g060"
+ },
+ {
+  "kind": "word",
+  "text": "El ___ para presentar la solicitud termina este viernes a las dos.",
+  "answer": [
+   "plazo"
+  ],
+  "ref": "el plazo",
+  "clue_en": "deadline, time limit",
+  "clue_ru": "срок",
+  "tr_en": "The deadline for submitting the application ends this Friday at two.",
+  "tr_ru": "Срок подачи заявления истекает в эту пятницу в два часа.",
+  "explain_en": "El plazo = time limit; a plazos = in instalments.",
+  "explain_ru": "El plazo — срок; a plazos — в рассрочку.",
+  "id": "g061"
+ },
+ {
+  "kind": "word",
+  "text": "Hoy no funciona el metro porque los conductores están de ___.",
+  "answer": [
+   "huelga"
+  ],
+  "ref": "la huelga",
+  "clue_en": "strike (work)",
+  "clue_ru": "забастовка",
+  "tr_en": "The metro isn't running today because the drivers are on strike.",
+  "tr_ru": "Сегодня метро не работает: машинисты бастуют.",
+  "explain_en": "Estar de huelga = to be on strike; hacer huelga = to strike.",
+  "explain_ru": "Estar de huelga — бастовать; hacer huelga — объявить забастовку.",
+  "id": "g062"
+ },
+ {
+  "kind": "word",
+  "text": "Mi compañera está de ___ desde hace un mes por una operación de rodilla.",
+  "answer": [
+   "baja"
+  ],
+  "ref": "la baja",
+  "clue_en": "sick leave",
+  "clue_ru": "больничный",
+  "tr_en": "My colleague has been on sick leave for a month because of a knee operation.",
+  "tr_ru": "Моя коллега уже месяц на больничном после операции на колене.",
+  "explain_en": "Estar de baja = to be on sick leave.",
+  "explain_ru": "Estar de baja — быть на больничном.",
+  "id": "g063"
+ },
+ {
+  "kind": "word",
+  "text": "Después de seis años en la empresa, por fin le dieron el ___ a jefe de sección.",
+  "answer": [
+   "ascenso"
+  ],
+  "ref": "el ascenso",
+  "clue_en": "promotion",
+  "clue_ru": "повышение (по службе)",
+  "tr_en": "After six years at the company, he finally got promoted to head of department.",
+  "tr_ru": "Через шесть лет работы в компании его наконец повысили до начальника отдела.",
+  "explain_en": "El ascenso = promotion (ascender = to go up, to be promoted).",
+  "explain_ru": "El ascenso — повышение (ascender — подниматься, получать повышение).",
+  "id": "g064"
+ },
+ {
+  "kind": "word",
+  "text": "¿Cuánto me va a ___ por arreglar el grifo del baño?",
+  "answer": [
+   "cobrar"
+  ],
+  "ref": "cobrar",
+  "clue_en": "to charge (money)",
+  "clue_ru": "брать (плату)",
+  "tr_en": "How much are you going to charge me for fixing the bathroom tap?",
+  "tr_ru": "Сколько вы возьмёте с меня за ремонт крана в ванной?",
+  "explain_en": "Cobrar = to charge or to receive money; pagar is what the customer does.",
+  "explain_ru": "Cobrar — брать деньги, получать оплату; pagar — платить (действие клиента).",
+  "id": "g065"
+ },
+ {
+  "kind": "word",
+  "text": "En enero empiezan las ___ y mucha ropa cuesta la mitad.",
+  "answer": [
+   "rebajas"
+  ],
+  "ref": "las rebajas",
+  "clue_en": "sales (season)",
+  "clue_ru": "распродажа",
+  "tr_en": "In January the sales start and a lot of clothes cost half price.",
+  "tr_ru": "В январе начинаются распродажи, и многая одежда стоит вполовину дешевле.",
+  "explain_en": "Las rebajas = seasonal sales; un descuento = a single discount.",
+  "explain_ru": "Las rebajas — сезонные распродажи; un descuento — отдельная скидка.",
+  "id": "g066"
+ },
+ {
+  "kind": "word",
+  "text": "¿Tiene esta camisa en una ___ más grande? La M me queda pequeña.",
+  "answer": [
+   "talla"
+  ],
+  "ref": "la talla",
+  "clue_en": "clothing size",
+  "clue_ru": "размер (одежды)",
+  "tr_en": "Do you have this shirt in a bigger size? The M is too small for me.",
+  "tr_ru": "У вас есть эта рубашка на размер больше? M мне мала.",
+  "explain_en": "Clothes have una talla; shoes have un número.",
+  "explain_ru": "У одежды — la talla; у обуви — el número.",
+  "id": "g067"
+ },
+ {
+  "kind": "word",
+  "text": "¿Va a pagar con tarjeta o en ___?",
+  "answer": [
+   "efectivo",
+   "metálico"
+  ],
+  "ref": "el efectivo",
+  "clue_en": "cash",
+  "clue_ru": "наличные",
+  "tr_en": "Are you paying by card or in cash?",
+  "tr_ru": "Вы будете платить картой или наличными?",
+  "explain_en": "Pagar en efectivo (or en metálico) = to pay cash.",
+  "explain_ru": "Pagar en efectivo (или en metálico) — платить наличными.",
+  "id": "g068"
+ },
+ {
+  "kind": "word",
+  "text": "En los mercadillos de Marruecos es normal ___ antes de comprar.",
+  "answer": [
+   "regatear"
+  ],
+  "ref": "regatear",
+  "clue_en": "to haggle",
+  "clue_ru": "торговаться",
+  "tr_en": "In Moroccan markets it's normal to haggle before buying.",
+  "tr_ru": "На рынках Марокко принято торговаться перед покупкой.",
+  "explain_en": "Regatear = to bargain over the price.",
+  "explain_ru": "Regatear — торговаться о цене.",
+  "id": "g069"
+ },
+ {
+  "kind": "word",
+  "text": "Si ___ a más de tres clases este trimestre, no podrás presentarte al examen.",
+  "answer": [
+   "faltas"
+  ],
+  "ref": "faltar",
+  "clue_en": "to be absent, miss",
+  "clue_ru": "пропускать (отсутствовать)",
+  "tr_en": "If you miss more than three classes this term, you won't be able to sit the exam.",
+  "tr_ru": "Если в этом триместре пропустишь больше трёх занятий, тебя не допустят к экзамену.",
+  "explain_en": "Faltar a clase = to miss class; type 1 condition with present: si faltas.",
+  "explain_ru": "Faltar a clase — пропускать занятия; реальное условие с presente: si faltas.",
+  "id": "g070"
+ },
+ {
+  "kind": "word",
+  "text": "Para este puesto es imprescindible ___ el inglés y el alemán.",
+  "answer": [
+   "dominar"
+  ],
+  "ref": "dominar",
+  "clue_en": "to master (a language)",
+  "clue_ru": "свободно владеть",
+  "tr_en": "For this position it is essential to be fluent in English and German.",
+  "tr_ru": "Для этой должности обязательно свободное владение английским и немецким.",
+  "explain_en": "Dominar un idioma = to have full command of a language.",
+  "explain_ru": "Dominar un idioma — свободно владеть языком.",
+  "id": "g071"
+ },
+ {
+  "kind": "word",
+  "text": "Este año apenas ha llovido y la ___ afecta a los agricultores de toda la región.",
+  "answer": [
+   "sequía"
+  ],
+  "ref": "la sequía",
+  "clue_en": "drought",
+  "clue_ru": "засуха",
+  "tr_en": "It has hardly rained this year and the drought is affecting farmers across the region.",
+  "tr_ru": "В этом году почти не было дождей, и засуха бьёт по фермерам всего региона.",
+  "explain_en": "La sequía = drought (from seco, dry).",
+  "explain_ru": "La sequía — засуха (от seco — сухой).",
+  "id": "g072"
+ },
+ {
+  "kind": "word",
+  "text": "La película tuvo un ___ enorme: estuvo seis meses en los cines.",
+  "answer": [
+   "éxito"
+  ],
+  "ref": "el éxito",
+  "clue_en": "success",
+  "clue_ru": "успех",
+  "tr_en": "The film was a huge success: it was in cinemas for six months.",
+  "tr_ru": "Фильм имел огромный успех: он полгода шёл в кинотеатрах.",
+  "explain_en": "El éxito means success, not 'exit' (la salida).",
+  "explain_ru": "El éxito — успех, а не «выход» (la salida).",
+  "id": "g073"
+ },
+ {
+  "kind": "word",
+  "text": "El robo de la joyería salió en la sección de ___ del periódico.",
+  "answer": [
+   "sucesos"
+  ],
+  "ref": "el suceso",
+  "clue_en": "incident (crime news)",
+  "clue_ru": "происшествие",
+  "tr_en": "The jewellery shop robbery appeared in the crime section of the newspaper.",
+  "tr_ru": "Об ограблении ювелирного писали в разделе происшествий газеты.",
+  "explain_en": "Un suceso is an incident (often crime or accident news), not 'success' (éxito).",
+  "explain_ru": "Un suceso — происшествие (криминальная хроника), а не «успех» (éxito).",
+  "id": "g074"
+ },
+ {
+  "kind": "word",
+  "text": "Un ___ vio cómo el ladrón salía corriendo de la tienda.",
+  "answer": [
+   "testigo"
+  ],
+  "ref": "el testigo",
+  "clue_en": "witness",
+  "clue_ru": "свидетель",
+  "tr_en": "A witness saw the thief running out of the shop.",
+  "tr_ru": "Свидетель видел, как вор выбежал из магазина.",
+  "explain_en": "El testigo = witness (also the baton in a relay).",
+  "explain_ru": "El testigo — свидетель (а также эстафетная палочка).",
+  "id": "g075"
+ },
+ {
+  "kind": "word",
+  "text": "Mi hijo nunca me hace ___ cuando le digo que apague el móvil.",
+  "answer": [
+   "caso"
+  ],
+  "ref": "hacer caso",
+  "clue_en": "to pay attention (obey)",
+  "clue_ru": "слушаться",
+  "tr_en": "My son never listens to me when I tell him to switch off his phone.",
+  "tr_ru": "Мой сын никогда меня не слушается, когда я говорю ему выключить телефон.",
+  "explain_en": "Hacer caso a alguien = to take notice of / obey someone.",
+  "explain_ru": "Hacer caso a alguien — слушаться кого-то, обращать внимание.",
+  "id": "g076"
+ },
+ {
+  "kind": "word",
+  "text": "Me da muchísima ___ ver a ese perro abandonado en la calle.",
+  "answer": [
+   "pena",
+   "lástima"
+  ],
+  "ref": "dar pena",
+  "clue_en": "pity, sadness",
+  "clue_ru": "жалость",
+  "tr_en": "It makes me so sad to see that abandoned dog in the street.",
+  "tr_ru": "Мне очень жалко этого брошенного пса на улице.",
+  "explain_en": "Dar pena (or dar lástima) works like gustar: me da pena = I feel sorry.",
+  "explain_ru": "Dar pena (или dar lástima) строится как gustar: me da pena — мне жалко.",
+  "id": "g077"
+ },
+ {
+  "kind": "word",
+  "text": "¿Me echas una ___ con la mudanza el sábado? Te invito a comer.",
+  "answer": [
+   "mano"
+  ],
+  "ref": "echar una mano",
+  "clue_en": "to lend a hand",
+  "clue_ru": "помочь",
+  "tr_en": "Will you give me a hand with the move on Saturday? I'll buy you lunch.",
+  "tr_ru": "Поможешь мне с переездом в субботу? Угощу обедом.",
+  "explain_en": "Echar una mano = to give someone a hand.",
+  "explain_ru": "Echar una mano — помочь («протянуть руку»).",
+  "id": "g078"
+ },
+ {
+  "kind": "word",
+  "text": "Con el ruido de la obra no he pegado ___ en toda la noche.",
+  "answer": [
+   "ojo"
+  ],
+  "ref": "no pegar ojo",
+  "clue_en": "eye",
+  "clue_ru": "глаз",
+  "tr_en": "With the noise of the building work I haven't slept a wink all night.",
+  "tr_ru": "Из-за шума стройки я всю ночь не сомкнул глаз.",
+  "explain_en": "No pegar ojo = not to sleep a wink (singular ojo, no article).",
+  "explain_ru": "No pegar ojo — не сомкнуть глаз (ojo в ед. ч., без артикля).",
+  "id": "g079"
+ },
+ {
+  "kind": "word",
+  "text": "Es un piso pequeño, pero muy ___: tiene mucha luz y una chimenea.",
+  "answer": [
+   "acogedor"
+  ],
+  "ref": "acogedor",
+  "clue_en": "cosy, welcoming",
+  "clue_ru": "уютный",
+  "tr_en": "It's a small flat, but very cosy: it has lots of light and a fireplace.",
+  "tr_ru": "Квартира небольшая, но очень уютная: много света и камин.",
+  "explain_en": "Acogedor = cosy (from acoger, to welcome); feminine acogedora.",
+  "explain_ru": "Acogedor — уютный (от acoger — принимать); ж. р. acogedora.",
+  "id": "g080"
  }
 ]

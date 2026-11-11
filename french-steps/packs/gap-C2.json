@@ -1,0 +1,540 @@
+[
+ {
+  "kind": "form",
+  "text": "Il fallait qu'il ___ la vérité avant qu'il ne fût trop tard.",
+  "answer": [
+   "sût",
+   "sache"
+  ],
+  "lemma": "savoir",
+  "tr_en": "He had to know the truth before it was too late.",
+  "tr_ru": "Ему нужно было узнать правду, пока не стало слишком поздно.",
+  "explain_en": "In literary sequence of tenses (cf. fût), a past main verb takes the imparfait du subjonctif: qu'il sût; everyday French uses sache.",
+  "explain_ru": "В книжном согласовании времён (ср. fût) после прошедшего времени ставится imparfait du subjonctif: qu'il sût (с циркумфлексом); в обиходной речи — sache.",
+  "id": "g001"
+ },
+ {
+  "kind": "form",
+  "text": "Le roi exigea que ses vassaux lui ___ hommage chaque printemps.",
+  "answer": [
+   "rendissent",
+   "rendent"
+  ],
+  "lemma": "rendre",
+  "tr_en": "The king demanded that his vassals pay him homage every spring.",
+  "tr_ru": "Король требовал, чтобы вассалы каждую весну приносили ему присягу.",
+  "explain_en": "Imparfait du subjonctif after a passé simple main verb: ils rendissent (stem of the passé simple rendi- + -ssent).",
+  "explain_ru": "Imparfait du subjonctif после passé simple: ils rendissent (основа passé simple rendi- + -ssent); в современной речи — rendent.",
+  "id": "g002"
+ },
+ {
+  "kind": "form",
+  "text": "Victor Hugo ___ à Besançon en 1802 et mourut à Paris en 1885.",
+  "answer": [
+   "naquit"
+  ],
+  "lemma": "naître",
+  "tr_en": "Victor Hugo was born in Besançon in 1802 and died in Paris in 1885.",
+  "tr_ru": "Виктор Гюго родился в Безансоне в 1802 году и умер в Париже в 1885-м.",
+  "explain_en": "Mourut sets the passé simple; naître has the irregular stem naqu-: il naquit.",
+  "explain_ru": "Mourut задаёт passé simple; у naître неправильная основа naqu-: il naquit.",
+  "id": "g003"
+ },
+ {
+  "kind": "form",
+  "text": "Elle ___ ses dernières années dans un couvent breton, où elle s'éteignit en 1720.",
+  "answer": [
+   "vécut"
+  ],
+  "lemma": "vivre",
+  "tr_en": "She lived out her last years in a Breton convent, where she passed away in 1720.",
+  "tr_ru": "Последние годы она прожила в бретонском монастыре, где скончалась в 1720 году.",
+  "explain_en": "S'éteignit sets the passé simple; vivre → il vécut (-u- type with stem véc-).",
+  "explain_ru": "S'éteignit задаёт passé simple; vivre → elle vécut (тип на -u- с основой véc-).",
+  "id": "g004"
+ },
+ {
+  "kind": "form",
+  "text": "César assiégea Alésia et ___ Vercingétorix en 52 avant notre ère.",
+  "answer": [
+   "vainquit"
+  ],
+  "lemma": "vaincre",
+  "tr_en": "Caesar besieged Alesia and defeated Vercingetorix in 52 BC.",
+  "tr_ru": "Цезарь осадил Алезию и победил Верцингеторикса в 52 году до н. э.",
+  "explain_en": "Vaincre changes c to qu before a vowel: il vainquit.",
+  "explain_ru": "В vaincre c перед гласной меняется на qu: il vainquit.",
+  "id": "g005"
+ },
+ {
+  "kind": "form",
+  "text": "Après une nuit de réflexion, il ___ de quitter la ville sans prévenir personne.",
+  "answer": [
+   "résolut"
+  ],
+  "lemma": "résoudre",
+  "tr_en": "After a night of reflection, he resolved to leave the town without telling anyone.",
+  "tr_ru": "Проразмышляв всю ночь, он решил покинуть город, никого не предупредив.",
+  "explain_en": "Résoudre has the passé simple stem résol-: il résolut.",
+  "explain_ru": "У résoudre основа passé simple résol-: il résolut.",
+  "id": "g006"
+ },
+ {
+  "kind": "form",
+  "text": "La jeune femme ___ aussitôt au vieux comte, qui l'épousa le mois suivant.",
+  "answer": [
+   "plut"
+  ],
+  "lemma": "plaire",
+  "tr_en": "The young woman immediately appealed to the old count, who married her the following month.",
+  "tr_ru": "Молодая женщина сразу понравилась старому графу, который женился на ней через месяц.",
+  "explain_en": "Plaire → il plut (passé simple), identical to the passé simple of pleuvoir.",
+  "explain_ru": "Plaire → elle plut (passé simple) — совпадает с passé simple от pleuvoir (il plut).",
+  "id": "g007"
+ },
+ {
+  "kind": "form",
+  "text": "À ces mots, toute l'assemblée ___ et se tourna vers le vieillard.",
+  "answer": [
+   "se tut"
+  ],
+  "lemma": "se taire",
+  "tr_en": "At these words the whole assembly fell silent and turned towards the old man.",
+  "tr_ru": "При этих словах всё собрание смолкло и повернулось к старику.",
+  "explain_en": "Se taire → elle se tut (passé simple, -u- type).",
+  "explain_ru": "Se taire → elle se tut (passé simple, тип на -u-).",
+  "id": "g008"
+ },
+ {
+  "kind": "form",
+  "text": "J'ai ___ dire que le vieux moulin allait être vendu.",
+  "answer": [
+   "ouï"
+  ],
+  "lemma": "ouïr",
+  "tr_en": "I've heard tell that the old mill is going to be sold.",
+  "tr_ru": "Я слышал, что старую мельницу собираются продать.",
+  "explain_en": "Ouïr survives in ouï-dire and in j'ai ouï dire; its participle is ouï.",
+  "explain_ru": "Ouïr сохранился в ouï-dire и j'ai ouï dire; причастие — ouï.",
+  "id": "g009"
+ },
+ {
+  "kind": "form",
+  "text": "Le vieil homme glissa et ___ lourdement sur le pavé.",
+  "answer": [
+   "chut"
+  ],
+  "lemma": "choir",
+  "tr_en": "The old man slipped and fell heavily onto the cobbles.",
+  "tr_ru": "Старик поскользнулся и тяжело рухнул на мостовую.",
+  "explain_en": "Choir is defective; its literary passé simple is il chut, matching glissa.",
+  "explain_ru": "Choir — недостаточный глагол; его книжный passé simple — il chut, в паре с glissa.",
+  "id": "g010"
+ },
+ {
+  "kind": "form",
+  "text": "Aujourd'hui encore, les moines de cette abbaye se ___ de bure.",
+  "answer": [
+   "vêtent"
+  ],
+  "lemma": "vêtir",
+  "tr_en": "Even today the monks of this abbey dress in homespun.",
+  "tr_ru": "Монахи этого аббатства и сегодня облачаются в грубое сукно.",
+  "explain_en": "Vêtir is conjugated like an -ir verb without -iss-: ils se vêtent (not vêtissent).",
+  "explain_ru": "Vêtir спрягается без -iss-: ils se vêtent (а не «vêtissent»).",
+  "id": "g011"
+ },
+ {
+  "kind": "form",
+  "text": "Le chevalier fut ___ par traîtrise au détour d'un chemin.",
+  "answer": [
+   "occis"
+  ],
+  "lemma": "occire",
+  "tr_en": "The knight was slain treacherously at a bend in the road.",
+  "tr_ru": "Рыцарь был коварно убит на повороте дороги.",
+  "explain_en": "Occire (archaic 'to slay') survives mainly in its participle occis.",
+  "explain_ru": "Occire (устар. «убивать») сохранился в основном в причастии occis.",
+  "id": "g012"
+ },
+ {
+  "kind": "form",
+  "text": "Après qu'il ___ parti, on se mit enfin à table.",
+  "answer": [
+   "fut"
+  ],
+  "lemma": "être",
+  "tr_en": "After he had left, we finally sat down to eat.",
+  "tr_ru": "Когда он ушёл, все наконец сели за стол.",
+  "explain_en": "Après que takes the indicative; with a passé simple main clause, the passé antérieur: il fut parti (not fût).",
+  "explain_ru": "После après que — индикатив; при passé simple в главном — passé antérieur: il fut parti (без циркумфлекса, а не subjonctif fût).",
+  "id": "g013"
+ },
+ {
+  "kind": "form",
+  "text": "Elle, partir sans dire adieu ? Qui l'eût ___ ?",
+  "answer": [
+   "cru"
+  ],
+  "lemma": "croire",
+  "tr_en": "Her, leaving without saying goodbye? Who would have thought it?",
+  "tr_ru": "Она — уехать, не попрощавшись? Кто бы мог подумать?",
+  "explain_en": "Qui l'eût cru = 'who would have thought'; participle of croire: cru (no circumflex).",
+  "explain_ru": "Qui l'eût cru — «кто бы мог подумать»; причастие от croire — cru (без циркумфлекса, в отличие от crû от croître).",
+  "id": "g014"
+ },
+ {
+  "kind": "form",
+  "text": "« ___ la République ! » s'écria le député à la fin de son discours.",
+  "answer": [
+   "Vive"
+  ],
+  "lemma": "vivre",
+  "tr_en": "'Long live the Republic!' cried the MP at the end of his speech.",
+  "tr_ru": "«Да здравствует Республика!» — воскликнул депутат в конце речи.",
+  "explain_en": "A wish without que uses the subjunctive: vive (also often left invariable before a plural: vive les vacances).",
+  "explain_ru": "Пожелание без que — subjonctif: vive («да здравствует»), часто неизменяемо даже перед мн. ч.",
+  "id": "g015"
+ },
+ {
+  "kind": "form",
+  "text": "Advienne que ___ , je partirai demain à l'aube.",
+  "answer": [
+   "pourra"
+  ],
+  "lemma": "pouvoir",
+  "tr_en": "Come what may, I will leave tomorrow at dawn.",
+  "tr_ru": "Будь что будет, завтра на рассвете я уеду.",
+  "explain_en": "The fixed formula advienne que pourra uses the futur of pouvoir.",
+  "explain_ru": "В устойчивой формуле advienne que pourra стоит futur от pouvoir («будь что будет»).",
+  "id": "g016"
+ },
+ {
+  "kind": "form",
+  "text": "Que je ___ , personne n'a été prévenu de ce changement.",
+  "answer": [
+   "sache"
+  ],
+  "lemma": "savoir",
+  "tr_en": "As far as I know, nobody was told about this change.",
+  "tr_ru": "Насколько мне известно, никого об этом изменении не предупредили.",
+  "explain_en": "Que je sache ('as far as I know') is a frozen subjunctive formula.",
+  "explain_ru": "Que je sache («насколько мне известно») — застывшая формула с subjonctif.",
+  "id": "g017"
+ },
+ {
+  "kind": "form",
+  "text": "Viens à la fête, ne ___-ce que pour lui faire plaisir.",
+  "answer": [
+   "fût"
+  ],
+  "lemma": "être",
+  "tr_en": "Come to the party, if only to please him.",
+  "tr_ru": "Приходи на праздник, хотя бы ради того, чтобы доставить ему удовольствие.",
+  "explain_en": "Ne fût-ce que = 'if only', with the imparfait du subjonctif of être (circumflex).",
+  "explain_ru": "Ne fût-ce que — «хотя бы», с imparfait du subjonctif от être (с циркумфлексом).",
+  "id": "g018"
+ },
+ {
+  "kind": "form",
+  "text": "___-je y passer la nuit, je finirai ce rapport.",
+  "answer": [
+   "Dussé"
+  ],
+  "lemma": "devoir",
+  "tr_en": "Even if I have to spend the night on it, I'll finish this report.",
+  "tr_ru": "Пусть даже придётся просидеть всю ночь, я закончу этот отчёт.",
+  "explain_en": "Dussé-je = 'even if I had to'; the e of dusse becomes é before the inverted je.",
+  "explain_ru": "Dussé-je — «пусть даже мне придётся»; e в dusse переходит в é перед инвертированным je.",
+  "id": "g019"
+ },
+ {
+  "kind": "form",
+  "text": "Tu n'as pas de voiture ? Qu'à cela ne ___ : je t'emmène.",
+  "answer": [
+   "tienne"
+  ],
+  "lemma": "tenir",
+  "tr_en": "You don't have a car? Never mind that: I'll take you.",
+  "tr_ru": "У тебя нет машины? Не беда: я тебя отвезу.",
+  "explain_en": "Qu'à cela ne tienne ('let that not be an obstacle') uses the subjunctive of tenir.",
+  "explain_ru": "Qu'à cela ne tienne («за этим дело не станет») — subjonctif от tenir.",
+  "id": "g020"
+ },
+ {
+  "kind": "form",
+  "text": "N'en ___ à ses détracteurs, ce roman est un chef-d'œuvre.",
+  "answer": [
+   "déplaise"
+  ],
+  "lemma": "déplaire",
+  "tr_en": "With all due respect to its critics, this novel is a masterpiece.",
+  "tr_ru": "Что бы ни говорили его хулители, этот роман — шедевр.",
+  "explain_en": "N'en déplaise à = 'with all due respect to, whether X likes it or not'; frozen subjunctive.",
+  "explain_ru": "N'en déplaise à — «при всём уважении к», «как бы ни возражал»; застывший subjonctif.",
+  "id": "g021"
+ },
+ {
+  "kind": "form",
+  "text": "Tu veux partir ? Eh bien, ainsi ___-il !",
+  "answer": [
+   "soit"
+  ],
+  "lemma": "être",
+  "tr_en": "You want to leave? Well, so be it!",
+  "tr_ru": "Хочешь уйти? Что ж, да будет так!",
+  "explain_en": "Ainsi soit-il = 'so be it', a subjunctive without que with inversion.",
+  "explain_ru": "Ainsi soit-il — «да будет так», subjonctif без que с инверсией.",
+  "id": "g022"
+ },
+ {
+  "kind": "form",
+  "text": "Elle est ___ être au bureau à neuf heures, mais on ne la voit jamais avant dix.",
+  "answer": [
+   "censée"
+  ],
+  "lemma": "censé",
+  "tr_en": "She's supposed to be at the office at nine, but nobody sees her before ten.",
+  "tr_ru": "Она должна быть в офисе в девять, но раньше десяти её никто не видит.",
+  "explain_en": "Être censé + infinitive agrees with the subject: censée; not to be confused with sensé (sensible).",
+  "explain_ru": "Être censé + инфинитив согласуется с подлежащим: censée; не путать с sensé («разумный»).",
+  "id": "g023"
+ },
+ {
+  "kind": "form",
+  "text": "La ___ victime avait en réalité organisé elle-même le vol.",
+  "answer": [
+   "prétendue"
+  ],
+  "lemma": "prétendu",
+  "tr_en": "The so-called victim had in fact organised the theft herself.",
+  "tr_ru": "Мнимая жертва на самом деле сама организовала кражу.",
+  "explain_en": "Prétendu ('alleged') agrees with victime: prétendue.",
+  "explain_ru": "Prétendu («мнимый») согласуется с victime: prétendue.",
+  "id": "g024"
+ },
+ {
+  "kind": "form",
+  "text": "Tu as oublié ton parapluie chez Marc ? ___-y tout de suite, avant qu'il parte.",
+  "answer": [
+   "Vas"
+  ],
+  "lemma": "aller",
+  "tr_en": "You left your umbrella at Marc's? Go there right away, before he leaves.",
+  "tr_ru": "Забыл зонт у Марка? Сходи туда сразу, пока он не ушёл.",
+  "explain_en": "The imperative va takes a euphonic -s before y: vas-y.",
+  "explain_ru": "Императив va получает благозвучное -s перед y: vas-y.",
+  "id": "g025"
+ },
+ {
+  "kind": "form",
+  "text": "___-en à ton père avant de prendre une décision.",
+  "answer": [
+   "Parles"
+  ],
+  "lemma": "parler",
+  "tr_en": "Talk to your father about it before you make a decision.",
+  "tr_ru": "Поговори об этом с отцом, прежде чем принимать решение.",
+  "explain_en": "Imperative of -er verbs takes a euphonic -s before en and y: parles-en.",
+  "explain_ru": "Императив глаголов на -er получает -s перед en и y: parles-en.",
+  "id": "g026"
+ },
+ {
+  "kind": "form",
+  "text": "Je regrette les trois heures que ce trajet a ___ : j'aurais pu prendre le train.",
+  "answer": [
+   "duré"
+  ],
+  "lemma": "durer",
+  "tr_en": "I regret the three hours this journey took: I could have taken the train.",
+  "tr_ru": "Жалею о трёх часах, которые занял этот путь: мог бы поехать на поезде.",
+  "explain_en": "With durer, the preceding que is a complement of measure, not a direct object: no agreement (duré).",
+  "explain_ru": "При durer предшествующее que — обстоятельство меры, а не прямое дополнение: согласования нет (duré).",
+  "id": "g027"
+ },
+ {
+  "kind": "form",
+  "text": "Je ne regrette pas les efforts que ce projet m'a ___ .",
+  "answer": [
+   "coûtés"
+  ],
+  "lemma": "coûter",
+  "tr_en": "I don't regret the effort this project cost me.",
+  "tr_ru": "Я не жалею об усилиях, которых мне стоил этот проект.",
+  "explain_en": "In its figurative sense ('to cause'), coûter has a real direct object, so it agrees: coûtés.",
+  "explain_ru": "В переносном смысле («стоить усилий») coûter имеет прямое дополнение и согласуется: coûtés.",
+  "id": "g028"
+ },
+ {
+  "kind": "form",
+  "text": "Les cent vingt kilos qu'il a ___ avant son régime ne sont plus qu'un souvenir.",
+  "answer": [
+   "pesé"
+  ],
+  "lemma": "peser",
+  "tr_en": "The hundred and twenty kilos he weighed before his diet are now just a memory.",
+  "tr_ru": "Сто двадцать килограммов, которые он весил до диеты, остались лишь воспоминанием.",
+  "explain_en": "Peser meaning 'to weigh X kilos' has a complement of measure: no agreement (pesé).",
+  "explain_ru": "Peser в значении «весить» имеет обстоятельство меры: согласования нет (pesé).",
+  "id": "g029"
+ },
+ {
+  "kind": "form",
+  "text": "Il a fait tous les efforts qu'il a ___ , mais cela n'a pas suffi.",
+  "answer": [
+   "pu"
+  ],
+  "lemma": "pouvoir",
+  "tr_en": "He made all the efforts he could, but it wasn't enough.",
+  "tr_ru": "Он приложил все усилия, какие мог, но этого оказалось недостаточно.",
+  "explain_en": "An infinitive is implied (qu'il a pu faire), so pu stays invariable.",
+  "explain_ru": "Подразумевается инфинитив (qu'il a pu faire), поэтому pu не согласуется.",
+  "id": "g030"
+ },
+ {
+  "kind": "form",
+  "text": "Le train de Lyon part à une heure et ___ .",
+  "answer": [
+   "demie"
+  ],
+  "lemma": "demi",
+  "tr_en": "The Lyon train leaves at half past one.",
+  "tr_ru": "Поезд на Лион отправляется в половине второго.",
+  "explain_en": "After a noun, et demi agrees in gender: une heure et demie (but midi et demi).",
+  "explain_ru": "После существительного et demi согласуется в роде: une heure et demie (но midi et demi).",
+  "id": "g031"
+ },
+ {
+  "kind": "form",
+  "text": "Les enfants couraient pieds ___ sur le sable brûlant.",
+  "answer": [
+   "nus"
+  ],
+  "lemma": "nu",
+  "tr_en": "The children were running barefoot on the burning sand.",
+  "tr_ru": "Дети бегали босиком по раскалённому песку.",
+  "explain_en": "After the noun, nu agrees: pieds nus (but nu-pieds, invariable, before a hyphen).",
+  "explain_ru": "После существительного nu согласуется: pieds nus (но nu-pieds — неизменяемо, через дефис).",
+  "id": "g032"
+ },
+ {
+  "kind": "form",
+  "text": "Prise sur le fait, elle était ___ honteuse de son mensonge.",
+  "answer": [
+   "toute"
+  ],
+  "lemma": "tout",
+  "tr_en": "Caught in the act, she was utterly ashamed of her lie.",
+  "tr_ru": "Пойманная с поличным, она очень стыдилась своей лжи.",
+  "explain_en": "Adverbial tout agrees before a feminine adjective starting with a consonant or aspirate h: toute honteuse.",
+  "explain_ru": "Наречие tout согласуется перед прилагательным женского рода на согласную или h придыхательное: toute honteuse.",
+  "id": "g033"
+ },
+ {
+  "kind": "form",
+  "text": "Le peu d'efforts qu'il a ___ lui a valu un échec cuisant.",
+  "answer": [
+   "fourni"
+  ],
+  "lemma": "fournir",
+  "tr_en": "The little effort he made earned him a humiliating failure.",
+  "tr_ru": "Недостаточные усилия, которые он приложил, обернулись для него унизительным провалом.",
+  "explain_en": "When le peu means 'insufficiency', agreement is with peu (m. sg.): fourni.",
+  "explain_ru": "Когда le peu означает «недостаток», согласование идёт с peu (м. р., ед. ч.): fourni.",
+  "id": "g034"
+ },
+ {
+  "kind": "form",
+  "text": "Plus d'un candidat ___ échoué à l'épreuve écrite cette année.",
+  "answer": [
+   "a"
+  ],
+  "lemma": "avoir",
+  "tr_en": "More than one candidate failed the written exam this year.",
+  "tr_ru": "В этом году не один кандидат провалил письменный экзамен.",
+  "explain_en": "Plus d'un takes a singular verb, despite its plural meaning.",
+  "explain_ru": "После plus d'un глагол стоит в единственном числе, несмотря на смысл множественности.",
+  "id": "g035"
+ },
+ {
+  "kind": "form",
+  "text": "Si j'___ su qu'il serait là, je ne serais jamais venu.",
+  "answer": [
+   "avais"
+  ],
+  "lemma": "avoir",
+  "tr_en": "If I had known he would be there, I would never have come.",
+  "tr_ru": "Если бы я знал, что он будет там, я бы ни за что не пришёл.",
+  "explain_en": "Never the conditional after conditional si: si j'avais su (si j'aurais su is a classic error).",
+  "explain_ru": "После условного si никогда не ставится conditionnel: si j'avais su («si j'aurais su» — типичная ошибка, под влиянием русского «если бы»).",
+  "id": "g036"
+ },
+ {
+  "kind": "form",
+  "text": "Les villageois ___ la nouvelle avec stupeur et se turent.",
+  "answer": [
+   "accueillirent"
+  ],
+  "lemma": "accueillir",
+  "tr_en": "The villagers received the news with astonishment and fell silent.",
+  "tr_ru": "Жители деревни встретили новость в оцепенении и замолчали.",
+  "explain_en": "Accueillir has a passé simple of the -i- type: ils accueillirent.",
+  "explain_ru": "Accueillir образует passé simple на -i-: ils accueillirent.",
+  "id": "g037"
+ },
+ {
+  "kind": "form",
+  "text": "Les assiégés ___ trois mois, puis se rendirent faute de vivres.",
+  "answer": [
+   "tinrent"
+  ],
+  "lemma": "tenir",
+  "tr_en": "The besieged held out for three months, then surrendered for lack of food.",
+  "tr_ru": "Осаждённые продержались три месяца, а затем сдались из-за нехватки провизии.",
+  "explain_en": "Tenir has the -in- passé simple: ils tinrent.",
+  "explain_ru": "У tenir passé simple типа -in-: ils tinrent.",
+  "id": "g038"
+ },
+ {
+  "kind": "form",
+  "text": "Il eût fallu que nous ___ bien plus tôt pour éviter la tempête.",
+  "answer": [
+   "partissions",
+   "partions"
+  ],
+  "lemma": "partir",
+  "tr_en": "We should have left much earlier to avoid the storm.",
+  "tr_ru": "Нам следовало выехать гораздо раньше, чтобы избежать бури.",
+  "explain_en": "After the literary il eût fallu que, the imparfait du subjonctif fits: que nous partissions (everyday: partions).",
+  "explain_ru": "После книжного il eût fallu que уместен imparfait du subjonctif: que nous partissions (обиходно — partions).",
+  "id": "g039"
+ },
+ {
+  "kind": "form",
+  "text": "Elle craignait qu'on ne la ___ sous son déguisement.",
+  "answer": [
+   "reconnût",
+   "reconnaisse"
+  ],
+  "lemma": "reconnaître",
+  "tr_en": "She was afraid she would be recognised in her disguise.",
+  "tr_ru": "Она боялась, что её узнают под маскарадным костюмом.",
+  "explain_en": "Craindre que + ne explétif + subjunctive; literary past: qu'on ne la reconnût (everyday: reconnaisse).",
+  "explain_ru": "Craindre que + ne explétif + subjonctif; книжное прошедшее: qu'on ne la reconnût (обиходно — reconnaisse). Ne здесь не отрицает.",
+  "id": "g040"
+ },
+ {
+  "kind": "form",
+  "text": "Le juge ordonna qu'on ___ le prisonnier sur-le-champ.",
+  "answer": [
+   "libérât",
+   "libère"
+  ],
+  "lemma": "libérer",
+  "tr_en": "The judge ordered that the prisoner be released immediately.",
+  "tr_ru": "Судья приказал немедленно освободить заключённого.",
+  "explain_en": "Ordonner que + subjunctive; after ordonna, literary style uses the imparfait du subjonctif: qu'on libérât.",
+  "explain_ru": "Ordonner que + subjonctif; после ordonna в книжном стиле — imparfait du subjonctif: qu'on libérât.",
+  "id": "g041"
+ }
+]
