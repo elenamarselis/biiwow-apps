@@ -8,7 +8,7 @@ const head=read("head.html").replace("<title>biiwow English Steps</title>","<tit
 const body=read("body.html").replace("__APPNAME__",cfg.appName);
 const sentryTag=cfg.sentryDsn?'<script src="https://js.sentry-cdn.com/'+cfg.sentryDsn.split('//')[1].split('@')[0]+'.min.js" crossorigin="anonymous"></script>\n<script>window.sentryOnLoad=function(){Sentry.init({release:"'+cfg.slug+'@'+VERSION+'",environment:"production",sendDefaultPii:false});};</script>\n':'';
 const conf='<script>window.STEPS='+JSON.stringify({code:cfg.code,bcp:cfg.bcp,appName:cfg.appName,levels:cfg.levels,en:cfg.en,ru:cfg.ru,hideSubtitle:!!cfg.hideSubtitle})+';</script>\n';
-const js=conf+read("app1.js")+(a2=>{const k=a2.lastIndexOf("(async()=>{");return a2.slice(0,k)+read("app3.js")+a2.slice(k);})(read("app2.js"));
+const js=conf+read("app1.js")+(a2=>{const k=a2.lastIndexOf("(async()=>{");return a2.slice(0,k)+read("app3.js")+read("app4.js")+a2.slice(k);})(read("app2.js"));
 const inner=head+body+js;
 fs.writeFileSync(path.join(app,"preview.html"),inner);
 const site=path.join(app,"site");fs.mkdirSync(path.join(site,"packs"),{recursive:true});fs.mkdirSync(path.join(site,"icons"),{recursive:true});
@@ -24,5 +24,5 @@ self.addEventListener("fetch",e=>{const u=new URL(e.request.url);if(e.request.me
   e.respondWith(fetch(e.request).then(r=>{if(r.ok){const cp=r.clone();caches.open(V).then(c=>c.put(e.request,cp));}return r;}).catch(()=>caches.match(e.request).then(h=>h||caches.match("index.html"))));});`);
 fs.writeFileSync(path.join(site,"_worker.js"),fs.readFileSync(path.join(core,"worker.js"),"utf8").replace("__SENTRY_DSN__",cfg.sentryDsn||""));
 for(const f of fs.readdirSync(path.join(core,"icons")))fs.copyFileSync(path.join(core,"icons",f),path.join(site,"icons",f));
-let n=0;const packs=path.join(app,"packs");for(const f of fs.readdirSync(packs))if(/^(vocab|grammar)-[ABC][12]\.json$/.test(f)){fs.copyFileSync(path.join(packs,f),path.join(site,"packs",f));n++;}
+let n=0;const packs=path.join(app,"packs");for(const f of fs.readdirSync(packs))if(/^(vocab|grammar|gap)-[ABC][12]\.json$/.test(f)){fs.copyFileSync(path.join(packs,f),path.join(site,"packs",f));n++;}
 console.log(cfg.appName+": preview.html "+(inner.length/1024).toFixed(0)+" KB; site/index.html "+(full.length/1024).toFixed(0)+" KB; packs copied: "+n);
