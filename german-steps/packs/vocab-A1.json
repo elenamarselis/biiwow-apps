@@ -9,7 +9,9 @@
   "example": "Hallo, wie geht's?",
   "example_ru": "Привет, как дела?",
   "forms": null,
-  "note_ru": "Нейтральное приветствие: подходит и для «ты», и для неформального «вы»."
+  "note_ru": "Нейтральное приветствие: подходит и для «ты», и для неформального «вы».",
+  "gloss_en": "hello / hi",
+  "example_en": "Hi, how's it going?"
  },
  {
   "en": "guten Morgen",
@@ -21,7 +23,9 @@
   "example": "Guten Morgen, Frau Müller!",
   "example_ru": "Доброе утро, госпожа Мюллер!",
   "forms": null,
-  "note_ru": "Говорят примерно до 10–11 часов утра."
+  "note_ru": "Говорят примерно до 10–11 часов утра.",
+  "gloss_en": "good morning",
+  "example_en": "Good morning, Mrs Müller!"
  },
  {
   "en": "guten Tag",
@@ -33,7 +37,9 @@
   "example": "Guten Tag, ich heiße Anna.",
   "example_ru": "Здравствуйте, меня зовут Анна.",
   "forms": null,
-  "note_ru": "В Австрии и на юге Германии говорят «Grüß Gott», в Швейцарии — «Grüezi»."
+  "note_ru": "В Австрии и на юге Германии говорят «Grüß Gott», в Швейцарии — «Grüezi».",
+  "gloss_en": "good day / hello",
+  "example_en": "Hello, my name is Anna."
  },
  {
   "en": "guten Abend",
@@ -45,7 +51,9 @@
   "example": "Guten Abend, Herr Schmidt!",
   "example_ru": "Добрый вечер, господин Шмидт!",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "good evening",
+  "example_en": "Good evening, Mr Schmidt!"
  },
  {
   "en": "gute Nacht",
@@ -57,7 +65,9 @@
   "example": "Gute Nacht, schlaf gut!",
   "example_ru": "Спокойной ночи, спи хорошо!",
   "forms": null,
-  "note_ru": "Это прощание перед сном, а не приветствие вечером."
+  "note_ru": "Это прощание перед сном, а не приветствие вечером.",
+  "gloss_en": "good night",
+  "example_en": "Good night, sleep well!"
  },
  {
   "en": "tschüss",
@@ -69,7 +79,9 @@
   "example": "Tschüss, bis morgen!",
   "example_ru": "Пока, до завтра!",
   "forms": null,
-  "note_ru": "В Австрии и Швейцарии часто говорят «Servus» или «Ciao»; в Швейцарии пишут «tschüs»."
+  "note_ru": "В Австрии и Швейцарии часто говорят «Servus» или «Ciao»; в Швейцарии пишут «tschüs».",
+  "gloss_en": "bye",
+  "example_en": "Bye, see you tomorrow!"
  },
  {
   "en": "auf Wiedersehen",
@@ -81,7 +93,9 @@
   "example": "Auf Wiedersehen, Frau Becker!",
   "example_ru": "До свидания, госпожа Беккер!",
   "forms": null,
-  "note_ru": "По телефону говорят «auf Wiederhören»."
+  "note_ru": "По телефону говорят «auf Wiederhören».",
+  "gloss_en": "goodbye",
+  "example_en": "Goodbye, Mrs Becker!"
  },
  {
   "en": "bis bald",
@@ -93,7 +107,9 @@
   "example": "Danke für alles, bis bald!",
   "example_ru": "Спасибо за всё, до скорого!",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "see you soon",
+  "example_en": "Thanks for everything, see you soon!"
  },
  {
   "en": "danke",
@@ -105,7 +121,9 @@
   "example": "Danke für den Kaffee!",
   "example_ru": "Спасибо за кофе!",
   "forms": null,
-  "note_ru": "«За что» — für + Akk.: danke für das Geschenk."
+  "note_ru": "«За что» — für + Akk.: danke für das Geschenk.",
+  "gloss_en": "thank you / thanks",
+  "example_en": "Thanks for the coffee!"
  },
  {
   "en": "bitte",
@@ -117,7 +135,9 @@
   "example": "Einen Kaffee, bitte.",
   "example_ru": "Кофе, пожалуйста.",
   "forms": null,
-  "note_ru": "«Bitte» — и просьба, и ответ на «danke», и «вот, возьмите»."
+  "note_ru": "«Bitte» — и просьба, и ответ на «danke», и «вот, возьмите».",
+  "gloss_en": "please",
+  "example_en": "A coffee, please."
  },
  {
   "en": "ja",
@@ -129,7 +149,9 @@
   "example": "Ja, ich komme mit.",
   "example_ru": "Да, я пойду с вами.",
   "forms": null,
-  "note_ru": "На отрицательный вопрос отвечают «doch»: Kommst du nicht? – Doch!"
+  "note_ru": "На отрицательный вопрос отвечают «doch»: Kommst du nicht? – Doch!",
+  "gloss_en": "yes",
+  "example_en": "Yes, I'm coming along."
  },
  {
   "en": "nein",
@@ -141,7 +163,9 @@
   "example": "Nein, ich habe keine Zeit.",
   "example_ru": "Нет, у меня нет времени.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "no",
+  "example_en": "No, I don't have time."
  },
  {
   "en": "Entschuldigung",
@@ -153,7 +177,9 @@
   "example": "Entschuldigung, wo ist der Bahnhof?",
   "example_ru": "Извините, где вокзал?",
   "forms": null,
-  "note_ru": "Также существительное: die Entschuldigung, Pl. die Entschuldigungen — «извинение»."
+  "note_ru": "Также существительное: die Entschuldigung, Pl. die Entschuldigungen — «извинение».",
+  "gloss_en": "excuse me / sorry",
+  "example_en": "Excuse me, where is the train station?"
  },
  {
   "en": "Wie geht's?",
@@ -165,7 +191,9 @@
   "example": "Hallo Tom, wie geht's?",
   "example_ru": "Привет, Том, как дела?",
   "forms": null,
-  "note_ru": "Вежливо: «Wie geht es Ihnen?»; ответ: «Gut, danke!»"
+  "note_ru": "Вежливо: «Wie geht es Ihnen?»; ответ: «Gut, danke!»",
+  "gloss_en": "How are you?",
+  "example_en": "Hi Tom, how are you?"
  },
  {
   "en": "heißen",
@@ -177,7 +205,9 @@
   "example": "Ich heiße Maria.",
   "example_ru": "Меня зовут Мария.",
   "forms": "heißt, hieß, hat geheißen",
-  "note_ru": "По-русски «меня зовут», а по-немецки «я зовусь»: Ich heiße …"
+  "note_ru": "По-русски «меня зовут», а по-немецки «я зовусь»: Ich heiße …",
+  "gloss_en": "to be called",
+  "example_en": "My name is Maria."
  },
  {
   "en": "der Name",
@@ -189,7 +219,9 @@
   "example": "Mein Name ist Peter Braun.",
   "example_ru": "Меня зовут Петер Браун.",
   "forms": "des Namens, Pl. die Namen",
-  "note_ru": "Слабое существительное с особым родительным: des Namens; имя — der Vorname, фамилия — der Nachname."
+  "note_ru": "Слабое существительное с особым родительным: des Namens; имя — der Vorname, фамилия — der Nachname.",
+  "gloss_en": "name",
+  "example_en": "My name is Peter Braun."
  },
  {
   "en": "der Herr",
@@ -201,7 +233,9 @@
   "example": "Guten Tag, Herr Weber!",
   "example_ru": "Здравствуйте, господин Вебер!",
   "forms": "des Herrn, Pl. die Herren",
-  "note_ru": "Слабое существительное: den/dem Herrn; в письме: Sehr geehrter Herr …"
+  "note_ru": "Слабое существительное: den/dem Herrn; в письме: Sehr geehrter Herr …",
+  "gloss_en": "Mr / gentleman",
+  "example_en": "Hello, Mr Weber!"
  },
  {
   "en": "willkommen",
@@ -213,7 +247,9 @@
   "example": "Willkommen in Berlin!",
   "example_ru": "Добро пожаловать в Берлин!",
   "forms": null,
-  "note_ru": "Также прилагательное: Du bist hier immer willkommen."
+  "note_ru": "Также прилагательное: Du bist hier immer willkommen.",
+  "gloss_en": "welcome",
+  "example_en": "Welcome to Berlin!"
  },
  {
   "en": "Wie bitte?",
@@ -225,7 +261,9 @@
   "example": "Wie bitte? Ich verstehe Sie nicht.",
   "example_ru": "Простите, что? Я вас не понимаю.",
   "forms": null,
-  "note_ru": "Вежливее, чем просто «Was?»."
+  "note_ru": "Вежливее, чем просто «Was?».",
+  "gloss_en": "Pardon? / Sorry?",
+  "example_en": "Pardon? I don't understand you."
  },
  {
   "en": "Woher kommst du?",
@@ -237,7 +275,9 @@
   "example": "Woher kommst du? – Aus Russland.",
   "example_ru": "Откуда ты? – Из России.",
   "forms": null,
-  "note_ru": "Вежливо: «Woher kommen Sie?»"
+  "note_ru": "Вежливо: «Woher kommen Sie?»",
+  "gloss_en": "Where are you from?",
+  "example_en": "Where are you from? – From Russia."
  },
  {
   "en": "die Sprache",
@@ -249,7 +289,9 @@
   "example": "Ich spreche zwei Sprachen.",
   "example_ru": "Я говорю на двух языках.",
   "forms": "Pl. die Sprachen",
-  "note_ru": "Язык как орган — die Zunge."
+  "note_ru": "Язык как орган — die Zunge.",
+  "gloss_en": "language",
+  "example_en": "I speak two languages."
  },
  {
   "en": "das Deutsch",
@@ -261,7 +303,9 @@
   "example": "Ich lerne Deutsch.",
   "example_ru": "Я учу немецкий.",
   "forms": "ohne Pl.; meist ohne Artikel: Ich spreche Deutsch.",
-  "note_ru": "Названия языков пишутся с большой буквы: Deutsch, Russisch, Englisch."
+  "note_ru": "Названия языков пишутся с большой буквы: Deutsch, Russisch, Englisch.",
+  "gloss_en": "German (language)",
+  "example_en": "I'm learning German."
  },
  {
   "en": "das Land",
@@ -273,7 +317,9 @@
   "example": "Aus welchem Land kommst du?",
   "example_ru": "Из какой ты страны?",
   "forms": "Pl. die Länder",
-  "note_ru": "«auf dem Land» — в деревне, за городом."
+  "note_ru": "«auf dem Land» — в деревне, за городом.",
+  "gloss_en": "country / countryside",
+  "example_en": "Which country are you from?"
  },
  {
   "en": "Freut mich!",
@@ -285,7 +331,9 @@
   "example": "Ich bin Lena. – Freut mich!",
   "example_ru": "Я Лена. – Очень приятно!",
   "forms": null,
-  "note_ru": "Полная форма: «Es freut mich, Sie kennenzulernen.»"
+  "note_ru": "Полная форма: «Es freut mich, Sie kennenzulernen.»",
+  "gloss_en": "Nice to meet you!",
+  "example_en": "I'm Lena. – Nice to meet you!"
  },
  {
   "en": "die Adresse",
@@ -297,7 +345,9 @@
   "example": "Wie ist Ihre Adresse?",
   "example_ru": "Какой у вас адрес?",
   "forms": "Pl. die Adressen",
-  "note_ru": "Пишется с двумя «s»: Adresse; женского рода, в отличие от русского «адрес»."
+  "note_ru": "Пишется с двумя «s»: Adresse; женского рода, в отличие от русского «адрес».",
+  "gloss_en": "address",
+  "example_en": "What is your address?"
  },
  {
   "en": "null",
@@ -309,7 +359,9 @@
   "example": "Heute sind es null Grad.",
   "example_ru": "Сегодня ноль градусов.",
   "forms": null,
-  "note_ru": "В спорте: zwei zu null — два ноль."
+  "note_ru": "В спорте: zwei zu null — два ноль.",
+  "gloss_en": "zero",
+  "example_en": "It's zero degrees today."
  },
  {
   "en": "eins",
@@ -321,7 +373,9 @@
   "example": "Eins plus eins ist zwei.",
   "example_ru": "Один плюс один — два.",
   "forms": null,
-  "note_ru": "При счёте «eins», перед существительным — «ein/eine»: ein Buch, eine Tasse."
+  "note_ru": "При счёте «eins», перед существительным — «ein/eine»: ein Buch, eine Tasse.",
+  "gloss_en": "one",
+  "example_en": "One plus one is two."
  },
  {
   "en": "zwei",
@@ -333,7 +387,9 @@
   "example": "Ich habe zwei Brüder.",
   "example_ru": "У меня два брата.",
   "forms": null,
-  "note_ru": "По телефону часто говорят «zwo», чтобы не спутать с «drei»."
+  "note_ru": "По телефону часто говорят «zwo», чтобы не спутать с «drei».",
+  "gloss_en": "two",
+  "example_en": "I have two brothers."
  },
  {
   "en": "drei",
@@ -345,7 +401,9 @@
   "example": "Wir bleiben drei Tage.",
   "example_ru": "Мы остаёмся на три дня.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "three",
+  "example_en": "We're staying three days."
  },
  {
   "en": "vier",
@@ -357,7 +415,9 @@
   "example": "Das Zimmer hat vier Fenster.",
   "example_ru": "В комнате четыре окна.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "four",
+  "example_en": "The room has four windows."
  },
  {
   "en": "fünf",
@@ -369,7 +429,9 @@
   "example": "Das kostet fünf Euro.",
   "example_ru": "Это стоит пять евро.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "five",
+  "example_en": "That costs five euros."
  },
  {
   "en": "sechs",
@@ -381,7 +443,9 @@
   "example": "Ich stehe um sechs Uhr auf.",
   "example_ru": "Я встаю в шесть часов.",
   "forms": null,
-  "note_ru": "Произносится [zɛks], «chs» здесь звучит как [ks]."
+  "note_ru": "Произносится [zɛks], «chs» здесь звучит как [ks].",
+  "gloss_en": "six",
+  "example_en": "I get up at six o'clock."
  },
  {
   "en": "sieben",
@@ -393,7 +457,9 @@
   "example": "Die Woche hat sieben Tage.",
   "example_ru": "В неделе семь дней.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "seven",
+  "example_en": "The week has seven days."
  },
  {
   "en": "acht",
@@ -405,7 +471,9 @@
   "example": "Der Kurs beginnt um acht.",
   "example_ru": "Курс начинается в восемь.",
   "forms": null,
-  "note_ru": "Не путать с «Acht geben» — быть внимательным."
+  "note_ru": "Не путать с «Acht geben» — быть внимательным.",
+  "gloss_en": "eight",
+  "example_en": "The course starts at eight."
  },
  {
   "en": "neun",
@@ -417,7 +485,9 @@
   "example": "Mein Sohn ist neun Jahre alt.",
   "example_ru": "Моему сыну девять лет.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "nine",
+  "example_en": "My son is nine years old."
  },
  {
   "en": "zehn",
@@ -429,7 +499,9 @@
   "example": "Ich warte zehn Minuten.",
   "example_ru": "Я жду десять минут.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "ten",
+  "example_en": "I'll wait ten minutes."
  },
  {
   "en": "elf",
@@ -441,7 +513,9 @@
   "example": "Eine Fußballmannschaft hat elf Spieler.",
   "example_ru": "В футбольной команде одиннадцать игроков.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "eleven",
+  "example_en": "A football team has eleven players."
  },
  {
   "en": "zwölf",
@@ -453,7 +527,9 @@
   "example": "Um zwölf Uhr essen wir.",
   "example_ru": "В двенадцать часов мы обедаем.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "twelve",
+  "example_en": "We eat at twelve o'clock."
  },
  {
   "en": "zwanzig",
@@ -465,7 +541,9 @@
   "example": "Sie ist zwanzig Jahre alt.",
   "example_ru": "Ей двадцать лет.",
   "forms": null,
-  "note_ru": "Числа 21–99 читаются «наоборот»: einundzwanzig — «один-и-двадцать»."
+  "note_ru": "Числа 21–99 читаются «наоборот»: einundzwanzig — «один-и-двадцать».",
+  "gloss_en": "twenty",
+  "example_en": "She is twenty years old."
  },
  {
   "en": "dreißig",
@@ -477,7 +555,9 @@
   "example": "Der Monat hat dreißig Tage.",
   "example_ru": "В месяце тридцать дней.",
   "forms": null,
-  "note_ru": "Пишется с ß, в отличие от других десятков на -zig; в Швейцарии — dreissig."
+  "note_ru": "Пишется с ß, в отличие от других десятков на -zig; в Швейцарии — dreissig.",
+  "gloss_en": "thirty",
+  "example_en": "The month has thirty days."
  },
  {
   "en": "hundert",
@@ -489,7 +569,9 @@
   "example": "Das Fahrrad kostet hundert Euro.",
   "example_ru": "Велосипед стоит сто евро.",
   "forms": null,
-  "note_ru": "Часто говорят «einhundert»; пишется слитно: zweihundert."
+  "note_ru": "Часто говорят «einhundert»; пишется слитно: zweihundert.",
+  "gloss_en": "hundred",
+  "example_en": "The bike costs a hundred euros."
  },
  {
   "en": "tausend",
@@ -501,7 +583,9 @@
   "example": "Der Computer kostet tausend Euro.",
   "example_ru": "Компьютер стоит тысячу евро.",
   "forms": null,
-  "note_ru": "Числительные пишутся слитно: zweitausend, zehntausend."
+  "note_ru": "Числительные пишутся слитно: zweitausend, zehntausend.",
+  "gloss_en": "thousand",
+  "example_en": "The computer costs a thousand euros."
  },
  {
   "en": "die Zahl",
@@ -513,7 +597,9 @@
   "example": "Schreib bitte die Zahl auf.",
   "example_ru": "Запиши, пожалуйста, это число.",
   "forms": "Pl. die Zahlen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "number / figure",
+  "example_en": "Please write down the number."
  },
  {
   "en": "die Nummer",
@@ -525,7 +611,9 @@
   "example": "Wie ist deine Nummer?",
   "example_ru": "Какой у тебя номер?",
   "forms": "Pl. die Nummern",
-  "note_ru": "«Zahl» — число вообще, «Nummer» — номер телефона, дома, комнаты."
+  "note_ru": "«Zahl» — число вообще, «Nummer» — номер телефона, дома, комнаты.",
+  "gloss_en": "number",
+  "example_en": "What's your number?"
  },
  {
   "en": "zählen",
@@ -537,7 +625,9 @@
   "example": "Das Kind zählt bis zehn.",
   "example_ru": "Ребёнок считает до десяти.",
   "forms": "zählt, zählte, hat gezählt",
-  "note_ru": "Не путать с zahlen — платить."
+  "note_ru": "Не путать с zahlen — платить.",
+  "gloss_en": "to count",
+  "example_en": "The child counts to ten."
  },
  {
   "en": "die Hälfte",
@@ -549,7 +639,9 @@
   "example": "Ich esse die Hälfte vom Kuchen.",
   "example_ru": "Я съем половину пирога.",
   "forms": "Pl. die Hälften",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "half",
+  "example_en": "I'm eating half of the cake."
  },
  {
   "en": "viel",
@@ -561,7 +653,9 @@
   "example": "Ich trinke viel Wasser.",
   "example_ru": "Я пью много воды.",
   "forms": "mehr, am meisten",
-  "note_ru": "Перед существительным во мн. ч. склоняется: viele Leute."
+  "note_ru": "Перед существительным во мн. ч. склоняется: viele Leute.",
+  "gloss_en": "much / a lot of",
+  "example_en": "I drink a lot of water."
  },
  {
   "en": "wenig",
@@ -573,7 +667,9 @@
   "example": "Ich habe wenig Zeit.",
   "example_ru": "У меня мало времени.",
   "forms": "weniger, am wenigsten",
-  "note_ru": "«ein wenig» — немного."
+  "note_ru": "«ein wenig» — немного.",
+  "gloss_en": "little / few",
+  "example_en": "I have little time."
  },
  {
   "en": "das Stück",
@@ -585,7 +681,9 @@
   "example": "Ein Stück Kuchen, bitte.",
   "example_ru": "Кусок пирога, пожалуйста.",
   "forms": "Pl. die Stücke",
-  "note_ru": "После числа часто без окончания: zwei Stück Kuchen."
+  "note_ru": "После числа часто без окончания: zwei Stück Kuchen.",
+  "gloss_en": "piece",
+  "example_en": "A piece of cake, please."
  },
  {
   "en": "das Kilo",
@@ -597,7 +695,9 @@
   "example": "Ein Kilo Äpfel kostet zwei Euro.",
   "example_ru": "Килограмм яблок стоит два евро.",
   "forms": "Pl. die Kilos",
-  "note_ru": "После единиц меры нет предлога и родительного падежа: ein Kilo Äpfel."
+  "note_ru": "После единиц меры нет предлога и родительного падежа: ein Kilo Äpfel.",
+  "gloss_en": "kilo",
+  "example_en": "A kilo of apples costs two euros."
  },
  {
   "en": "die Familie",
@@ -609,7 +709,9 @@
   "example": "Meine Familie ist groß.",
   "example_ru": "Моя семья большая.",
   "forms": "Pl. die Familien",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "family",
+  "example_en": "My family is big."
  },
  {
   "en": "die Mutter",
@@ -621,7 +723,9 @@
   "example": "Meine Mutter ist Ärztin.",
   "example_ru": "Моя мама — врач.",
   "forms": "Pl. die Mütter",
-  "note_ru": "Разговорно — die Mama."
+  "note_ru": "Разговорно — die Mama.",
+  "gloss_en": "mother / mum",
+  "example_en": "My mother is a doctor."
  },
  {
   "en": "der Vater",
@@ -633,7 +737,9 @@
   "example": "Mein Vater arbeitet in Bonn.",
   "example_ru": "Мой отец работает в Бонне.",
   "forms": "Pl. die Väter",
-  "note_ru": "Разговорно — der Papa."
+  "note_ru": "Разговорно — der Papa.",
+  "gloss_en": "father / dad",
+  "example_en": "My father works in Bonn."
  },
  {
   "en": "die Eltern",
@@ -645,7 +751,9 @@
   "example": "Meine Eltern leben in Moskau.",
   "example_ru": "Мои родители живут в Москве.",
   "forms": "nur Pl.",
-  "note_ru": "Только множественное число."
+  "note_ru": "Только множественное число.",
+  "gloss_en": "parents",
+  "example_en": "My parents live in Moscow."
  },
  {
   "en": "das Kind",
@@ -657,7 +765,9 @@
   "example": "Wir haben zwei Kinder.",
   "example_ru": "У нас двое детей.",
   "forms": "Pl. die Kinder",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "child",
+  "example_en": "We have two children."
  },
  {
   "en": "der Sohn",
@@ -669,7 +779,9 @@
   "example": "Mein Sohn heißt Max.",
   "example_ru": "Моего сына зовут Макс.",
   "forms": "Pl. die Söhne",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "son",
+  "example_en": "My son's name is Max."
  },
  {
   "en": "die Tochter",
@@ -681,7 +793,9 @@
   "example": "Meine Tochter ist fünf Jahre alt.",
   "example_ru": "Моей дочери пять лет.",
   "forms": "Pl. die Töchter",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "daughter",
+  "example_en": "My daughter is five years old."
  },
  {
   "en": "der Bruder",
@@ -693,7 +807,9 @@
   "example": "Mein Bruder ist älter als ich.",
   "example_ru": "Мой брат старше меня.",
   "forms": "Pl. die Brüder",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "brother",
+  "example_en": "My brother is older than me."
  },
  {
   "en": "die Schwester",
@@ -705,7 +821,9 @@
   "example": "Meine Schwester wohnt in Wien.",
   "example_ru": "Моя сестра живёт в Вене.",
   "forms": "Pl. die Schwestern",
-  "note_ru": "Также «медсестра» (полностью — die Krankenschwester)."
+  "note_ru": "Также «медсестра» (полностью — die Krankenschwester).",
+  "gloss_en": "sister",
+  "example_en": "My sister lives in Vienna."
  },
  {
   "en": "die Geschwister",
@@ -717,7 +835,9 @@
   "example": "Hast du Geschwister?",
   "example_ru": "У тебя есть братья или сёстры?",
   "forms": "nur Pl.",
-  "note_ru": "В русском нет одного слова для этого понятия."
+  "note_ru": "В русском нет одного слова для этого понятия.",
+  "gloss_en": "siblings",
+  "example_en": "Do you have any brothers or sisters?"
  },
  {
   "en": "die Großeltern",
@@ -729,7 +849,9 @@
   "example": "Am Sonntag besuchen wir die Großeltern.",
   "example_ru": "В воскресенье мы навещаем бабушку и дедушку.",
   "forms": "nur Pl.",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "grandparents",
+  "example_en": "On Sunday we visit our grandparents."
  },
  {
   "en": "die Oma",
@@ -741,7 +863,9 @@
   "example": "Meine Oma kocht sehr gut.",
   "example_ru": "Моя бабушка очень хорошо готовит.",
   "forms": "Pl. die Omas",
-  "note_ru": "Официально — die Großmutter."
+  "note_ru": "Официально — die Großmutter.",
+  "gloss_en": "grandma",
+  "example_en": "My grandma cooks very well."
  },
  {
   "en": "der Opa",
@@ -753,7 +877,9 @@
   "example": "Mein Opa ist achtzig Jahre alt.",
   "example_ru": "Моему дедушке восемьдесят лет.",
   "forms": "Pl. die Opas",
-  "note_ru": "Официально — der Großvater."
+  "note_ru": "Официально — der Großvater.",
+  "gloss_en": "grandpa",
+  "example_en": "My grandpa is eighty years old."
  },
  {
   "en": "der Mann",
@@ -765,7 +891,9 @@
   "example": "Mein Mann heißt Paul.",
   "example_ru": "Моего мужа зовут Пауль.",
   "forms": "Pl. die Männer",
-  "note_ru": "«mein Mann» — «мой муж»; не путать с местоимением man."
+  "note_ru": "«mein Mann» — «мой муж»; не путать с местоимением man.",
+  "gloss_en": "man / husband",
+  "example_en": "My husband's name is Paul."
  },
  {
   "en": "die Frau",
@@ -777,7 +905,9 @@
   "example": "Das ist meine Frau Anna.",
   "example_ru": "Это моя жена Анна.",
   "forms": "Pl. die Frauen",
-  "note_ru": "Также вежливое обращение: Frau Müller — «госпожа Мюллер»."
+  "note_ru": "Также вежливое обращение: Frau Müller — «госпожа Мюллер».",
+  "gloss_en": "woman / wife / Mrs",
+  "example_en": "This is my wife Anna."
  },
  {
   "en": "der Junge",
@@ -789,7 +919,9 @@
   "example": "Der Junge spielt Fußball.",
   "example_ru": "Мальчик играет в футбол.",
   "forms": "des Jungen, Pl. die Jungen",
-  "note_ru": "Слабое существительное: den/dem/des Jungen; в Австрии и Швейцарии чаще der Bub."
+  "note_ru": "Слабое существительное: den/dem/des Jungen; в Австрии и Швейцарии чаще der Bub.",
+  "gloss_en": "boy",
+  "example_en": "The boy is playing football."
  },
  {
   "en": "das Mädchen",
@@ -801,7 +933,9 @@
   "example": "Das Mädchen liest ein Buch.",
   "example_ru": "Девочка читает книгу.",
   "forms": "Pl. die Mädchen",
-  "note_ru": "Среднего рода из-за суффикса -chen, хотя это девочка."
+  "note_ru": "Среднего рода из-за суффикса -chen, хотя это девочка.",
+  "gloss_en": "girl",
+  "example_en": "The girl is reading a book."
  },
  {
   "en": "der Freund",
@@ -813,7 +947,9 @@
   "example": "Mein Freund kommt heute.",
   "example_ru": "Мой друг сегодня придёт.",
   "forms": "Pl. die Freunde",
-  "note_ru": "«mein Freund» часто значит «мой парень»; просто друг — «ein Freund von mir»."
+  "note_ru": "«mein Freund» часто значит «мой парень»; просто друг — «ein Freund von mir».",
+  "gloss_en": "friend / boyfriend",
+  "example_en": "My friend is coming today."
  },
  {
   "en": "die Freundin",
@@ -825,7 +961,9 @@
   "example": "Meine Freundin wohnt in Hamburg.",
   "example_ru": "Моя подруга живёт в Гамбурге.",
   "forms": "Pl. die Freundinnen",
-  "note_ru": "«meine Freundin» может значить «моя девушка»."
+  "note_ru": "«meine Freundin» может значить «моя девушка».",
+  "gloss_en": "friend / girlfriend",
+  "example_en": "My friend lives in Hamburg."
  },
  {
   "en": "das Baby",
@@ -837,7 +975,9 @@
   "example": "Das Baby schläft.",
   "example_ru": "Малыш спит.",
   "forms": "Pl. die Babys",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "baby",
+  "example_en": "The baby is sleeping."
  },
  {
   "en": "der Onkel",
@@ -849,7 +989,9 @@
   "example": "Mein Onkel hat ein Auto.",
   "example_ru": "У моего дяди есть машина.",
   "forms": "Pl. die Onkel",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "uncle",
+  "example_en": "My uncle has a car."
  },
  {
   "en": "die Tante",
@@ -861,7 +1003,9 @@
   "example": "Meine Tante hat drei Katzen.",
   "example_ru": "У моей тёти три кошки.",
   "forms": "Pl. die Tanten",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "aunt",
+  "example_en": "My aunt has three cats."
  },
  {
   "en": "der Mensch",
@@ -873,7 +1017,9 @@
   "example": "Er ist ein guter Mensch.",
   "example_ru": "Он хороший человек.",
   "forms": "des Menschen, Pl. die Menschen",
-  "note_ru": "Слабое существительное: den/dem/des Menschen."
+  "note_ru": "Слабое существительное: den/dem/des Menschen.",
+  "gloss_en": "person / human being",
+  "example_en": "He is a good person."
  },
  {
   "en": "die Leute",
@@ -885,7 +1031,9 @@
   "example": "Hier sind viele Leute.",
   "example_ru": "Здесь много людей.",
   "forms": "nur Pl.",
-  "note_ru": "Только множественное число; «человек» в ед. ч. — der Mensch."
+  "note_ru": "Только множественное число; «человек» в ед. ч. — der Mensch.",
+  "gloss_en": "people",
+  "example_en": "There are lots of people here."
  },
  {
   "en": "verheiratet",
@@ -897,7 +1045,9 @@
   "example": "Ich bin verheiratet.",
   "example_ru": "Я женат / замужем.",
   "forms": null,
-  "note_ru": "Одно слово и для мужчин, и для женщин; противоположность — ledig."
+  "note_ru": "Одно слово и для мужчин, и для женщин; противоположность — ledig.",
+  "gloss_en": "married",
+  "example_en": "I'm married."
  },
  {
   "en": "das Brot",
@@ -909,7 +1059,9 @@
   "example": "Ich kaufe ein Brot.",
   "example_ru": "Я покупаю буханку хлеба.",
   "forms": "Pl. die Brote",
-  "note_ru": "«ein Brot» — буханка или бутерброд; в Германии сотни сортов хлеба."
+  "note_ru": "«ein Brot» — буханка или бутерброд; в Германии сотни сортов хлеба.",
+  "gloss_en": "bread / loaf",
+  "example_en": "I'm buying a loaf of bread."
  },
  {
   "en": "das Brötchen",
@@ -921,7 +1073,9 @@
   "example": "Zum Frühstück esse ich zwei Brötchen.",
   "example_ru": "На завтрак я ем две булочки.",
   "forms": "Pl. die Brötchen",
-  "note_ru": "В Австрии и Баварии — die Semmel, в Швейцарии — das Brötli."
+  "note_ru": "В Австрии и Баварии — die Semmel, в Швейцарии — das Brötli.",
+  "gloss_en": "bread roll",
+  "example_en": "I eat two rolls for breakfast."
  },
  {
   "en": "das Wasser",
@@ -933,7 +1087,9 @@
   "example": "Ein Glas Wasser, bitte.",
   "example_ru": "Стакан воды, пожалуйста.",
   "forms": "ohne Pl.",
-  "note_ru": "В ресторане уточняют: mit oder ohne Kohlensäure — с газом или без."
+  "note_ru": "В ресторане уточняют: mit oder ohne Kohlensäure — с газом или без.",
+  "gloss_en": "water",
+  "example_en": "A glass of water, please."
  },
  {
   "en": "der Kaffee",
@@ -945,7 +1101,9 @@
   "example": "Ich trinke morgens Kaffee.",
   "example_ru": "Я пью кофе по утрам.",
   "forms": "Pl. die Kaffees",
-  "note_ru": "Мужского рода, как и в русском; в Австрии ударение на конце: [kaˈfeː]."
+  "note_ru": "Мужского рода, как и в русском; в Австрии ударение на конце: [kaˈfeː].",
+  "gloss_en": "coffee",
+  "example_en": "I drink coffee in the mornings."
  },
  {
   "en": "der Tee",
@@ -957,7 +1115,9 @@
   "example": "Möchtest du einen Tee?",
   "example_ru": "Хочешь чаю?",
   "forms": "Pl. die Tees",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "tea",
+  "example_en": "Would you like a tea?"
  },
  {
   "en": "die Milch",
@@ -969,7 +1129,9 @@
   "example": "Die Milch ist im Kühlschrank.",
   "example_ru": "Молоко в холодильнике.",
   "forms": "ohne Pl.",
-  "note_ru": "Женского рода, а «молоко» — среднего."
+  "note_ru": "Женского рода, а «молоко» — среднего.",
+  "gloss_en": "milk",
+  "example_en": "The milk is in the fridge."
  },
  {
   "en": "der Saft",
@@ -981,7 +1143,9 @@
   "example": "Die Kinder trinken Apfelsaft.",
   "example_ru": "Дети пьют яблочный сок.",
   "forms": "Pl. die Säfte",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "juice",
+  "example_en": "The children are drinking apple juice."
  },
  {
   "en": "das Bier",
@@ -993,7 +1157,9 @@
   "example": "Ein Bier, bitte!",
   "example_ru": "Одно пиво, пожалуйста!",
   "forms": "Pl. die Biere",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "beer",
+  "example_en": "A beer, please!"
  },
  {
   "en": "das Fleisch",
@@ -1005,7 +1171,9 @@
   "example": "Ich esse kein Fleisch.",
   "example_ru": "Я не ем мясо.",
   "forms": "ohne Pl.",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "meat",
+  "example_en": "I don't eat meat."
  },
  {
   "en": "der Fisch",
@@ -1017,7 +1185,9 @@
   "example": "Am Freitag gibt es Fisch.",
   "example_ru": "В пятницу у нас рыба.",
   "forms": "Pl. die Fische",
-  "note_ru": "Мужского рода, «рыба» — женского."
+  "note_ru": "Мужского рода, «рыба» — женского.",
+  "gloss_en": "fish",
+  "example_en": "On Friday there's fish."
  },
  {
   "en": "das Ei",
@@ -1029,7 +1199,9 @@
   "example": "Ich esse ein Ei zum Frühstück.",
   "example_ru": "Я ем на завтрак яйцо.",
   "forms": "Pl. die Eier",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "egg",
+  "example_en": "I eat an egg for breakfast."
  },
  {
   "en": "der Käse",
@@ -1041,7 +1213,9 @@
   "example": "Ich möchte Brot mit Käse.",
   "example_ru": "Я хочу хлеб с сыром.",
   "forms": "Pl. die Käse",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "cheese",
+  "example_en": "I'd like bread with cheese."
  },
  {
   "en": "die Butter",
@@ -1053,7 +1227,9 @@
   "example": "Ich esse Brot mit Butter.",
   "example_ru": "Я ем хлеб с маслом.",
   "forms": "ohne Pl.",
-  "note_ru": "Растительное масло — das Öl."
+  "note_ru": "Растительное масло — das Öl.",
+  "gloss_en": "butter",
+  "example_en": "I eat bread with butter."
  },
  {
   "en": "der Apfel",
@@ -1065,7 +1241,9 @@
   "example": "Der Apfel ist süß.",
   "example_ru": "Яблоко сладкое.",
   "forms": "Pl. die Äpfel",
-  "note_ru": "Мужского рода: der Apfel."
+  "note_ru": "Мужского рода: der Apfel.",
+  "gloss_en": "apple",
+  "example_en": "The apple is sweet."
  },
  {
   "en": "die Kartoffel",
@@ -1077,7 +1255,9 @@
   "example": "Heute gibt es Fleisch mit Kartoffeln.",
   "example_ru": "Сегодня мясо с картошкой.",
   "forms": "Pl. die Kartoffeln",
-  "note_ru": "В Австрии — der Erdapfel."
+  "note_ru": "В Австрии — der Erdapfel.",
+  "gloss_en": "potato",
+  "example_en": "Today there's meat with potatoes."
  },
  {
   "en": "das Gemüse",
@@ -1089,7 +1269,9 @@
   "example": "Gemüse ist gesund.",
   "example_ru": "Овощи полезны.",
   "forms": "ohne Pl.",
-  "note_ru": "Собирательное в ед. ч.: das Gemüse ist … = «овощи …»."
+  "note_ru": "Собирательное в ед. ч.: das Gemüse ist … = «овощи …».",
+  "gloss_en": "vegetables",
+  "example_en": "Vegetables are healthy."
  },
  {
   "en": "das Obst",
@@ -1101,7 +1283,9 @@
   "example": "Ich kaufe Obst auf dem Markt.",
   "example_ru": "Я покупаю фрукты на рынке.",
   "forms": "ohne Pl.",
-  "note_ru": "Тоже собирательное в ед. ч."
+  "note_ru": "Тоже собирательное в ед. ч.",
+  "gloss_en": "fruit",
+  "example_en": "I buy fruit at the market."
  },
  {
   "en": "der Reis",
@@ -1113,7 +1297,9 @@
   "example": "Wir essen Reis mit Gemüse.",
   "example_ru": "Мы едим рис с овощами.",
   "forms": "ohne Pl.",
-  "note_ru": "Не путать с die Reise — поездка."
+  "note_ru": "Не путать с die Reise — поездка.",
+  "gloss_en": "rice",
+  "example_en": "We're eating rice with vegetables."
  },
  {
   "en": "der Zucker",
@@ -1125,7 +1311,9 @@
   "example": "Trinkst du Kaffee mit Zucker?",
   "example_ru": "Ты пьёшь кофе с сахаром?",
   "forms": "ohne Pl.",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "sugar",
+  "example_en": "Do you take your coffee with sugar?"
  },
  {
   "en": "das Salz",
@@ -1137,7 +1325,9 @@
   "example": "Die Suppe braucht mehr Salz.",
   "example_ru": "В суп нужно добавить соли.",
   "forms": "ohne Pl.",
-  "note_ru": "Среднего рода, а «соль» — женского."
+  "note_ru": "Среднего рода, а «соль» — женского.",
+  "gloss_en": "salt",
+  "example_en": "The soup needs more salt."
  },
  {
   "en": "die Suppe",
@@ -1149,7 +1339,9 @@
   "example": "Die Suppe ist heiß.",
   "example_ru": "Суп горячий.",
   "forms": "Pl. die Suppen",
-  "note_ru": "Женского рода, а «суп» — мужского."
+  "note_ru": "Женского рода, а «суп» — мужского.",
+  "gloss_en": "soup",
+  "example_en": "The soup is hot."
  },
  {
   "en": "der Kuchen",
@@ -1161,7 +1353,9 @@
   "example": "Oma backt einen Kuchen.",
   "example_ru": "Бабушка печёт пирог.",
   "forms": "Pl. die Kuchen",
-  "note_ru": "Праздничный торт с кремом — die Torte."
+  "note_ru": "Праздничный торт с кремом — die Torte.",
+  "gloss_en": "cake",
+  "example_en": "Grandma is baking a cake."
  },
  {
   "en": "das Frühstück",
@@ -1173,7 +1367,9 @@
   "example": "Das Frühstück ist um acht Uhr.",
   "example_ru": "Завтрак в восемь часов.",
   "forms": "Pl. die Frühstücke",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "breakfast",
+  "example_en": "Breakfast is at eight o'clock."
  },
  {
   "en": "essen",
@@ -1185,7 +1381,9 @@
   "example": "Was isst du gern?",
   "example_ru": "Что ты любишь есть?",
   "forms": "isst, aß, hat gegessen",
-  "note_ru": "О животных говорят fressen."
+  "note_ru": "О животных говорят fressen.",
+  "gloss_en": "to eat",
+  "example_en": "What do you like to eat?"
  },
  {
   "en": "trinken",
@@ -1197,7 +1395,9 @@
   "example": "Ich trinke gern Tee.",
   "example_ru": "Я люблю пить чай.",
   "forms": "trinkt, trank, hat getrunken",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to drink",
+  "example_en": "I like drinking tea."
  },
  {
   "en": "das Haus",
@@ -1209,7 +1409,9 @@
   "example": "Unser Haus hat einen Garten.",
   "example_ru": "У нашего дома есть сад.",
   "forms": "Pl. die Häuser",
-  "note_ru": "«nach Hause» — домой, «zu Hause» — дома."
+  "note_ru": "«nach Hause» — домой, «zu Hause» — дома.",
+  "gloss_en": "house",
+  "example_en": "Our house has a garden."
  },
  {
   "en": "die Wohnung",
@@ -1221,7 +1423,9 @@
   "example": "Die Wohnung hat drei Zimmer.",
   "example_ru": "В квартире три комнаты.",
   "forms": "Pl. die Wohnungen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "flat / apartment",
+  "example_en": "The flat has three rooms."
  },
  {
   "en": "das Zimmer",
@@ -1233,7 +1437,9 @@
   "example": "Mein Zimmer ist klein.",
   "example_ru": "Моя комната маленькая.",
   "forms": "Pl. die Zimmer",
-  "note_ru": "В гостинице ein Zimmer — номер."
+  "note_ru": "В гостинице ein Zimmer — номер.",
+  "gloss_en": "room",
+  "example_en": "My room is small."
  },
  {
   "en": "die Küche",
@@ -1245,7 +1451,9 @@
   "example": "Wir essen in der Küche.",
   "example_ru": "Мы едим на кухне.",
   "forms": "Pl. die Küchen",
-  "note_ru": "«на кухне» — in der Küche (предлог in)."
+  "note_ru": "«на кухне» — in der Küche (предлог in).",
+  "gloss_en": "kitchen",
+  "example_en": "We eat in the kitchen."
  },
  {
   "en": "das Bad",
@@ -1257,7 +1465,9 @@
   "example": "Das Bad ist neben der Küche.",
   "example_ru": "Ванная рядом с кухней.",
   "forms": "Pl. die Bäder",
-  "note_ru": "Также das Badezimmer."
+  "note_ru": "Также das Badezimmer.",
+  "gloss_en": "bathroom",
+  "example_en": "The bathroom is next to the kitchen."
  },
  {
   "en": "das Schlafzimmer",
@@ -1269,7 +1479,9 @@
   "example": "Das Schlafzimmer ist sehr ruhig.",
   "example_ru": "Спальня очень тихая.",
   "forms": "Pl. die Schlafzimmer",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "bedroom",
+  "example_en": "The bedroom is very quiet."
  },
  {
   "en": "das Wohnzimmer",
@@ -1281,7 +1493,9 @@
   "example": "Das Sofa steht im Wohnzimmer.",
   "example_ru": "Диван стоит в гостиной.",
   "forms": "Pl. die Wohnzimmer",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "living room",
+  "example_en": "The sofa is in the living room."
  },
  {
   "en": "der Tisch",
@@ -1293,7 +1507,9 @@
   "example": "Das Essen steht auf dem Tisch.",
   "example_ru": "Еда стоит на столе.",
   "forms": "Pl. die Tische",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "table",
+  "example_en": "The food is on the table."
  },
  {
   "en": "der Stuhl",
@@ -1305,7 +1521,9 @@
   "example": "Bitte nimm einen Stuhl.",
   "example_ru": "Возьми, пожалуйста, стул.",
   "forms": "Pl. die Stühle",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "chair",
+  "example_en": "Please take a chair."
  },
  {
   "en": "das Bett",
@@ -1317,7 +1535,9 @@
   "example": "Ich gehe um zehn ins Bett.",
   "example_ru": "Я ложусь спать в десять.",
   "forms": "Pl. die Betten",
-  "note_ru": "«ins Bett gehen» — ложиться спать."
+  "note_ru": "«ins Bett gehen» — ложиться спать.",
+  "gloss_en": "bed",
+  "example_en": "I go to bed at ten."
  },
  {
   "en": "der Schrank",
@@ -1329,7 +1549,9 @@
   "example": "Die Hosen sind im Schrank.",
   "example_ru": "Брюки в шкафу.",
   "forms": "Pl. die Schränke",
-  "note_ru": "В Швейцарии — der Kasten."
+  "note_ru": "В Швейцарии — der Kasten.",
+  "gloss_en": "cupboard / wardrobe",
+  "example_en": "The trousers are in the wardrobe."
  },
  {
   "en": "das Sofa",
@@ -1341,7 +1563,9 @@
   "example": "Wir sitzen auf dem Sofa.",
   "example_ru": "Мы сидим на диване.",
   "forms": "Pl. die Sofas",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "sofa",
+  "example_en": "We're sitting on the sofa."
  },
  {
   "en": "die Lampe",
@@ -1353,7 +1577,9 @@
   "example": "Die Lampe ist neu.",
   "example_ru": "Лампа новая.",
   "forms": "Pl. die Lampen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "lamp",
+  "example_en": "The lamp is new."
  },
  {
   "en": "das Fenster",
@@ -1365,7 +1591,9 @@
   "example": "Mach bitte das Fenster auf!",
   "example_ru": "Открой, пожалуйста, окно!",
   "forms": "Pl. die Fenster",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "window",
+  "example_en": "Please open the window!"
  },
  {
   "en": "die Tür",
@@ -1377,7 +1605,9 @@
   "example": "Die Tür ist zu.",
   "example_ru": "Дверь закрыта.",
   "forms": "Pl. die Türen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "door",
+  "example_en": "The door is closed."
  },
  {
   "en": "der Kühlschrank",
@@ -1389,7 +1619,9 @@
   "example": "Ist noch Milch im Kühlschrank?",
   "example_ru": "В холодильнике ещё есть молоко?",
   "forms": "Pl. die Kühlschränke",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "fridge",
+  "example_en": "Is there any milk left in the fridge?"
  },
  {
   "en": "der Garten",
@@ -1401,7 +1633,9 @@
   "example": "Die Kinder spielen im Garten.",
   "example_ru": "Дети играют в саду.",
   "forms": "Pl. die Gärten",
-  "note_ru": "Обычно небольшой участок с садом у дома."
+  "note_ru": "Обычно небольшой участок с садом у дома.",
+  "gloss_en": "garden",
+  "example_en": "The children are playing in the garden."
  },
  {
   "en": "der Balkon",
@@ -1413,7 +1647,9 @@
   "example": "Im Sommer frühstücken wir auf dem Balkon.",
   "example_ru": "Летом мы завтракаем на балконе.",
   "forms": "Pl. die Balkone / die Balkons",
-  "note_ru": "На юге Германии и в Австрии произносят [balˈkoːn], мн. ч. die Balkone."
+  "note_ru": "На юге Германии и в Австрии произносят [balˈkoːn], мн. ч. die Balkone.",
+  "gloss_en": "balcony",
+  "example_en": "In summer we have breakfast on the balcony."
  },
  {
   "en": "die Wand",
@@ -1425,7 +1661,9 @@
   "example": "An der Wand hängt ein Bild.",
   "example_ru": "На стене висит картина.",
   "forms": "Pl. die Wände",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "wall",
+  "example_en": "There's a picture hanging on the wall."
  },
  {
   "en": "der Schlüssel",
@@ -1437,7 +1675,9 @@
   "example": "Wo ist mein Schlüssel?",
   "example_ru": "Где мой ключ?",
   "forms": "Pl. die Schlüssel",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "key",
+  "example_en": "Where is my key?"
  },
  {
   "en": "die Toilette",
@@ -1449,7 +1689,9 @@
   "example": "Entschuldigung, wo ist die Toilette?",
   "example_ru": "Извините, где туалет?",
   "forms": "Pl. die Toiletten",
-  "note_ru": "Также das WC [veːˈtseː]; в Швейцарии и Австрии часто das WC."
+  "note_ru": "Также das WC [veːˈtseː]; в Швейцарии и Австрии часто das WC.",
+  "gloss_en": "toilet",
+  "example_en": "Excuse me, where is the toilet?"
  },
  {
   "en": "die Dusche",
@@ -1461,7 +1703,9 @@
   "example": "Die Dusche ist kaputt.",
   "example_ru": "Душ сломался.",
   "forms": "Pl. die Duschen",
-  "note_ru": "Женского рода, а «душ» — мужского."
+  "note_ru": "Женского рода, а «душ» — мужского.",
+  "gloss_en": "shower",
+  "example_en": "The shower is broken."
  },
  {
   "en": "das Regal",
@@ -1473,7 +1717,9 @@
   "example": "Die Bücher stehen im Regal.",
   "example_ru": "Книги стоят на полке.",
   "forms": "Pl. die Regale",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "shelf / bookcase",
+  "example_en": "The books are on the shelf."
  },
  {
   "en": "wohnen",
@@ -1485,7 +1731,9 @@
   "example": "Wir wohnen im dritten Stock.",
   "example_ru": "Мы живём на третьем этаже.",
   "forms": "wohnt, wohnte, hat gewohnt",
-  "note_ru": "«wohnen» — жить где-то (адрес), «leben» — жить вообще."
+  "note_ru": "«wohnen» — жить где-то (адрес), «leben» — жить вообще.",
+  "gloss_en": "to live / to reside",
+  "example_en": "We live on the third floor."
  },
  {
   "en": "die Miete",
@@ -1497,7 +1745,9 @@
   "example": "Die Miete ist sehr hoch.",
   "example_ru": "Арендная плата очень высокая.",
   "forms": "Pl. die Mieten",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "rent",
+  "example_en": "The rent is very high."
  },
  {
   "en": "aufstehen",
@@ -1509,7 +1759,9 @@
   "example": "Ich stehe um sieben Uhr auf.",
   "example_ru": "Я встаю в семь часов.",
   "forms": "steht auf, stand auf, ist aufgestanden",
-  "note_ru": "Отделяемая приставка уходит в конец: Ich stehe … auf."
+  "note_ru": "Отделяемая приставка уходит в конец: Ich stehe … auf.",
+  "gloss_en": "to get up",
+  "example_en": "I get up at seven o'clock."
  },
  {
   "en": "aufwachen",
@@ -1521,7 +1773,9 @@
   "example": "Das Baby wacht oft auf.",
   "example_ru": "Малыш часто просыпается.",
   "forms": "wacht auf, wachte auf, ist aufgewacht",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to wake up",
+  "example_en": "The baby often wakes up."
  },
  {
   "en": "schlafen",
@@ -1533,7 +1787,9 @@
   "example": "Ich schlafe acht Stunden.",
   "example_ru": "Я сплю восемь часов.",
   "forms": "schläft, schlief, hat geschlafen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to sleep",
+  "example_en": "I sleep eight hours."
  },
  {
   "en": "sich waschen",
@@ -1545,7 +1801,9 @@
   "example": "Ich wasche mich jeden Morgen.",
   "example_ru": "Я умываюсь каждое утро.",
   "forms": "wäscht sich, wusch sich, hat sich gewaschen",
-  "note_ru": "Возвратный глагол: ich wasche mich, du wäschst dich."
+  "note_ru": "Возвратный глагол: ich wasche mich, du wäschst dich.",
+  "gloss_en": "to wash (oneself)",
+  "example_en": "I wash every morning."
  },
  {
   "en": "duschen",
@@ -1557,7 +1815,9 @@
   "example": "Ich dusche am Abend.",
   "example_ru": "Я принимаю душ вечером.",
   "forms": "duscht, duschte, hat geduscht",
-  "note_ru": "Часто возвратный: sich duschen."
+  "note_ru": "Часто возвратный: sich duschen.",
+  "gloss_en": "to shower",
+  "example_en": "I shower in the evening."
  },
  {
   "en": "sich anziehen",
@@ -1569,7 +1829,9 @@
   "example": "Das Kind zieht sich allein an.",
   "example_ru": "Ребёнок одевается сам.",
   "forms": "zieht sich an, zog sich an, hat sich angezogen",
-  "note_ru": "Без sich — «надевать что-то»: Ich ziehe die Jacke an."
+  "note_ru": "Без sich — «надевать что-то»: Ich ziehe die Jacke an.",
+  "gloss_en": "to get dressed",
+  "example_en": "The child gets dressed on his own."
  },
  {
   "en": "frühstücken",
@@ -1581,7 +1843,9 @@
   "example": "Wir frühstücken um halb acht.",
   "example_ru": "Мы завтракаем в половине восьмого.",
   "forms": "frühstückt, frühstückte, hat gefrühstückt",
-  "note_ru": "Неотделяемый глагол: ich frühstücke."
+  "note_ru": "Неотделяемый глагол: ich frühstücke.",
+  "gloss_en": "to have breakfast",
+  "example_en": "We have breakfast at half past seven."
  },
  {
   "en": "das Mittagessen",
@@ -1593,7 +1857,9 @@
   "example": "Was gibt es zum Mittagessen?",
   "example_ru": "Что на обед?",
   "forms": "Pl. die Mittagessen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "lunch",
+  "example_en": "What's for lunch?"
  },
  {
   "en": "das Abendessen",
@@ -1605,7 +1871,9 @@
   "example": "Zum Abendessen gibt es Suppe.",
   "example_ru": "На ужин суп.",
   "forms": "Pl. die Abendessen",
-  "note_ru": "В Германии ужин часто холодный: хлеб, сыр, колбаса (das Abendbrot)."
+  "note_ru": "В Германии ужин часто холодный: хлеб, сыр, колбаса (das Abendbrot).",
+  "gloss_en": "dinner / supper",
+  "example_en": "There's soup for dinner."
  },
  {
   "en": "kochen",
@@ -1617,7 +1885,9 @@
   "example": "Mein Mann kocht heute.",
   "example_ru": "Сегодня готовит мой муж.",
   "forms": "kocht, kochte, hat gekocht",
-  "note_ru": "Также «кипятить»: Wasser kochen."
+  "note_ru": "Также «кипятить»: Wasser kochen.",
+  "gloss_en": "to cook / to boil",
+  "example_en": "My husband is cooking today."
  },
  {
   "en": "putzen",
@@ -1629,7 +1899,9 @@
   "example": "Ich putze mir die Zähne.",
   "example_ru": "Я чищу зубы.",
   "forms": "putzt, putzte, hat geputzt",
-  "note_ru": "«sich die Zähne putzen» — с дательным: mir, dir; в Швейцарии «putzen» также «убирать квартиру»."
+  "note_ru": "«sich die Zähne putzen» — с дательным: mir, dir; в Швейцарии «putzen» также «убирать квартиру».",
+  "gloss_en": "to clean",
+  "example_en": "I brush my teeth."
  },
  {
   "en": "aufräumen",
@@ -1641,7 +1913,9 @@
   "example": "Am Samstag räumen wir auf.",
   "example_ru": "В субботу мы убираемся.",
   "forms": "räumt auf, räumte auf, hat aufgeräumt",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to tidy up",
+  "example_en": "On Saturday we tidy up."
  },
  {
   "en": "fernsehen",
@@ -1653,7 +1927,9 @@
   "example": "Am Abend sehe ich fern.",
   "example_ru": "Вечером я смотрю телевизор.",
   "forms": "sieht fern, sah fern, hat ferngesehen",
-  "note_ru": "Отделяемый глагол: Ich sehe fern."
+  "note_ru": "Отделяемый глагол: Ich sehe fern.",
+  "gloss_en": "to watch TV",
+  "example_en": "In the evening I watch TV."
  },
  {
   "en": "zu Hause",
@@ -1665,7 +1941,9 @@
   "example": "Heute bleibe ich zu Hause.",
   "example_ru": "Сегодня я остаюсь дома.",
   "forms": null,
-  "note_ru": "В Австрии и Швейцарии часто пишут «zuhause»."
+  "note_ru": "В Австрии и Швейцарии часто пишут «zuhause».",
+  "gloss_en": "at home",
+  "example_en": "Today I'm staying at home."
  },
  {
   "en": "nach Hause",
@@ -1677,7 +1955,9 @@
   "example": "Um fünf gehe ich nach Hause.",
   "example_ru": "В пять я иду домой.",
   "forms": null,
-  "note_ru": "«nach Hause» — куда? (домой), «zu Hause» — где? (дома)."
+  "note_ru": "«nach Hause» — куда? (домой), «zu Hause» — где? (дома).",
+  "gloss_en": "home (homeward)",
+  "example_en": "At five I go home."
  },
  {
   "en": "der Alltag",
@@ -1689,7 +1969,9 @@
   "example": "Mein Alltag ist ruhig.",
   "example_ru": "Моя повседневная жизнь спокойная.",
   "forms": "ohne Pl.",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "everyday life",
+  "example_en": "My everyday life is quiet."
  },
  {
   "en": "der Wecker",
@@ -1701,7 +1983,9 @@
   "example": "Mein Wecker klingelt um sechs.",
   "example_ru": "Мой будильник звонит в шесть.",
   "forms": "Pl. die Wecker",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "alarm clock",
+  "example_en": "My alarm clock goes off at six."
  },
  {
   "en": "die Zahnbürste",
@@ -1713,7 +1997,9 @@
   "example": "Wo ist meine Zahnbürste?",
   "example_ru": "Где моя зубная щётка?",
   "forms": "Pl. die Zahnbürsten",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "toothbrush",
+  "example_en": "Where is my toothbrush?"
  },
  {
   "en": "spülen",
@@ -1725,7 +2011,9 @@
   "example": "Nach dem Essen spüle ich.",
   "example_ru": "После еды я мою посуду.",
   "forms": "spült, spülte, hat gespült",
-  "note_ru": "В Австрии чаще говорят «abwaschen»."
+  "note_ru": "В Австрии чаще говорят «abwaschen».",
+  "gloss_en": "to wash up / to rinse",
+  "example_en": "After the meal I do the washing-up."
  },
  {
   "en": "die Pause",
@@ -1737,7 +2025,9 @@
   "example": "Wir machen eine Pause.",
   "example_ru": "Мы делаем перерыв.",
   "forms": "Pl. die Pausen",
-  "note_ru": "«eine Pause machen» — делать перерыв."
+  "note_ru": "«eine Pause machen» — делать перерыв.",
+  "gloss_en": "break",
+  "example_en": "Let's take a break."
  },
  {
   "en": "müde",
@@ -1749,7 +2039,9 @@
   "example": "Am Abend bin ich sehr müde.",
   "example_ru": "Вечером я очень устаю.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "tired / sleepy",
+  "example_en": "In the evening I'm very tired."
  },
  {
   "en": "sich ausziehen",
@@ -1761,7 +2053,9 @@
   "example": "Er zieht sich aus und geht ins Bett.",
   "example_ru": "Он раздевается и ложится спать.",
   "forms": "zieht sich aus, zog sich aus, hat sich ausgezogen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to get undressed",
+  "example_en": "He gets undressed and goes to bed."
  },
  {
   "en": "einschlafen",
@@ -1773,7 +2067,9 @@
   "example": "Ich schlafe immer schnell ein.",
   "example_ru": "Я всегда быстро засыпаю.",
   "forms": "schläft ein, schlief ein, ist eingeschlafen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to fall asleep",
+  "example_en": "I always fall asleep quickly."
  },
  {
   "en": "der Termin",
@@ -1785,7 +2081,9 @@
   "example": "Ich habe um zehn einen Termin beim Arzt.",
   "example_ru": "В десять у меня приём у врача.",
   "forms": "Pl. die Termine",
-  "note_ru": "Ложный друг: не «термин», а назначенная встреча."
+  "note_ru": "Ложный друг: не «термин», а назначенная встреча.",
+  "gloss_en": "appointment",
+  "example_en": "I have a doctor's appointment at ten."
  },
  {
   "en": "jeden Tag",
@@ -1797,7 +2095,9 @@
   "example": "Ich lerne jeden Tag Deutsch.",
   "example_ru": "Я учу немецкий каждый день.",
   "forms": null,
-  "note_ru": "Винительный падеж без предлога: jeden Tag, jede Woche."
+  "note_ru": "Винительный падеж без предлога: jeden Tag, jede Woche.",
+  "gloss_en": "every day",
+  "example_en": "I study German every day."
  },
  {
   "en": "die Zeit",
@@ -1809,7 +2109,9 @@
   "example": "Hast du heute Zeit?",
   "example_ru": "У тебя сегодня есть время?",
   "forms": "Pl. die Zeiten",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "time",
+  "example_en": "Do you have time today?"
  },
  {
   "en": "die Uhr",
@@ -1821,7 +2123,9 @@
   "example": "Es ist drei Uhr.",
   "example_ru": "Сейчас три часа.",
   "forms": "Pl. die Uhren",
-  "note_ru": "«Wie viel Uhr ist es?» — «Который час?»; «um drei Uhr» — в три часа."
+  "note_ru": "«Wie viel Uhr ist es?» — «Который час?»; «um drei Uhr» — в три часа.",
+  "gloss_en": "clock / watch / o'clock",
+  "example_en": "It's three o'clock."
  },
  {
   "en": "die Stunde",
@@ -1833,7 +2137,9 @@
   "example": "Der Film dauert zwei Stunden.",
   "example_ru": "Фильм длится два часа.",
   "forms": "Pl. die Stunden",
-  "note_ru": "«Stunde» — продолжительность, «Uhr» — время на часах; также урок: die Deutschstunde."
+  "note_ru": "«Stunde» — продолжительность, «Uhr» — время на часах; также урок: die Deutschstunde.",
+  "gloss_en": "hour",
+  "example_en": "The film lasts two hours."
  },
  {
   "en": "die Minute",
@@ -1845,7 +2151,9 @@
   "example": "Der Bus kommt in fünf Minuten.",
   "example_ru": "Автобус придёт через пять минут.",
   "forms": "Pl. die Minuten",
-  "note_ru": "«через пять минут» — in fünf Minuten."
+  "note_ru": "«через пять минут» — in fünf Minuten.",
+  "gloss_en": "minute",
+  "example_en": "The bus is coming in five minutes."
  },
  {
   "en": "der Tag",
@@ -1857,7 +2165,9 @@
   "example": "Wie war dein Tag?",
   "example_ru": "Как прошёл твой день?",
   "forms": "Pl. die Tage",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "day",
+  "example_en": "How was your day?"
  },
  {
   "en": "die Woche",
@@ -1869,7 +2179,9 @@
   "example": "Nächste Woche habe ich Urlaub.",
   "example_ru": "На следующей неделе у меня отпуск.",
   "forms": "Pl. die Wochen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "week",
+  "example_en": "Next week I'm on holiday."
  },
  {
   "en": "der Monat",
@@ -1881,7 +2193,9 @@
   "example": "Das Jahr hat zwölf Monate.",
   "example_ru": "В году двенадцать месяцев.",
   "forms": "Pl. die Monate",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "month",
+  "example_en": "The year has twelve months."
  },
  {
   "en": "das Jahr",
@@ -1893,7 +2207,9 @@
   "example": "Ich bin dreißig Jahre alt.",
   "example_ru": "Мне тридцать лет.",
   "forms": "Pl. die Jahre",
-  "note_ru": "Возраст: «Ich bin … Jahre alt» — с глаголом sein."
+  "note_ru": "Возраст: «Ich bin … Jahre alt» — с глаголом sein.",
+  "gloss_en": "year",
+  "example_en": "I'm thirty years old."
  },
  {
   "en": "heute",
@@ -1905,7 +2221,9 @@
   "example": "Heute ist Montag.",
   "example_ru": "Сегодня понедельник.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "today",
+  "example_en": "Today is Monday."
  },
  {
   "en": "morgen",
@@ -1917,7 +2235,9 @@
   "example": "Morgen fahre ich nach München.",
   "example_ru": "Завтра я еду в Мюнхен.",
   "forms": null,
-  "note_ru": "«morgen früh» — завтра утром; не путать с der Morgen — утро."
+  "note_ru": "«morgen früh» — завтра утром; не путать с der Morgen — утро.",
+  "gloss_en": "tomorrow",
+  "example_en": "Tomorrow I'm going to Munich."
  },
  {
   "en": "gestern",
@@ -1929,7 +2249,9 @@
   "example": "Gestern war ich im Kino.",
   "example_ru": "Вчера я был в кино.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "yesterday",
+  "example_en": "Yesterday I was at the cinema."
  },
  {
   "en": "der Morgen",
@@ -1941,7 +2263,9 @@
   "example": "Am Morgen trinke ich Tee.",
   "example_ru": "Утром я пью чай.",
   "forms": "Pl. die Morgen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "morning",
+  "example_en": "In the morning I drink tea."
  },
  {
   "en": "der Abend",
@@ -1953,7 +2277,9 @@
   "example": "Am Abend lese ich.",
   "example_ru": "Вечером я читаю.",
   "forms": "Pl. die Abende",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "evening",
+  "example_en": "In the evening I read."
  },
  {
   "en": "die Nacht",
@@ -1965,7 +2291,9 @@
   "example": "In der Nacht ist es kalt.",
   "example_ru": "Ночью холодно.",
   "forms": "Pl. die Nächte",
-  "note_ru": "«in der Nacht» — ночью, но «am Morgen», «am Abend»."
+  "note_ru": "«in der Nacht» — ночью, но «am Morgen», «am Abend».",
+  "gloss_en": "night",
+  "example_en": "It's cold at night."
  },
  {
   "en": "der Montag",
@@ -1977,7 +2305,9 @@
   "example": "Am Montag beginnt der Kurs.",
   "example_ru": "В понедельник начинается курс.",
   "forms": "Pl. die Montage",
-  "note_ru": "Все дни недели мужского рода; «в понедельник» — am Montag."
+  "note_ru": "Все дни недели мужского рода; «в понедельник» — am Montag.",
+  "gloss_en": "Monday",
+  "example_en": "The course starts on Monday."
  },
  {
   "en": "der Dienstag",
@@ -1989,7 +2319,9 @@
   "example": "Am Dienstag gehe ich schwimmen.",
   "example_ru": "Во вторник я иду плавать.",
   "forms": "Pl. die Dienstage",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "Tuesday",
+  "example_en": "On Tuesday I go swimming."
  },
  {
   "en": "der Mittwoch",
@@ -2001,7 +2333,9 @@
   "example": "Am Mittwoch habe ich frei.",
   "example_ru": "В среду у меня выходной.",
   "forms": "Pl. die Mittwoche",
-  "note_ru": "Буквально «середина недели», как и русское «среда»; мужского рода."
+  "note_ru": "Буквально «середина недели», как и русское «среда»; мужского рода.",
+  "gloss_en": "Wednesday",
+  "example_en": "On Wednesday I'm off."
  },
  {
   "en": "der Donnerstag",
@@ -2013,7 +2347,9 @@
   "example": "Am Donnerstag kommt meine Mutter.",
   "example_ru": "В четверг приезжает моя мама.",
   "forms": "Pl. die Donnerstage",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "Thursday",
+  "example_en": "My mother is coming on Thursday."
  },
  {
   "en": "der Freitag",
@@ -2025,7 +2361,9 @@
   "example": "Am Freitag arbeite ich nur bis zwölf.",
   "example_ru": "В пятницу я работаю только до двенадцати.",
   "forms": "Pl. die Freitage",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "Friday",
+  "example_en": "On Friday I only work until twelve."
  },
  {
   "en": "der Samstag",
@@ -2037,7 +2375,9 @@
   "example": "Am Samstag schlafe ich lange.",
   "example_ru": "В субботу я долго сплю.",
   "forms": "Pl. die Samstage",
-  "note_ru": "На севере Германии также der Sonnabend."
+  "note_ru": "На севере Германии также der Sonnabend.",
+  "gloss_en": "Saturday",
+  "example_en": "On Saturday I sleep in."
  },
  {
   "en": "der Sonntag",
@@ -2049,7 +2389,9 @@
   "example": "Am Sonntag sind die Geschäfte zu.",
   "example_ru": "В воскресенье магазины закрыты.",
   "forms": "Pl. die Sonntage",
-  "note_ru": "В Германии магазины по воскресеньям обычно закрыты."
+  "note_ru": "В Германии магазины по воскресеньям обычно закрыты.",
+  "gloss_en": "Sunday",
+  "example_en": "On Sunday the shops are closed."
  },
  {
   "en": "das Wochenende",
@@ -2061,7 +2403,9 @@
   "example": "Schönes Wochenende!",
   "example_ru": "Хороших выходных!",
   "forms": "Pl. die Wochenenden",
-  "note_ru": "Ед. ч. в немецком, мн. ч. в русском: das Wochenende — выходные."
+  "note_ru": "Ед. ч. в немецком, мн. ч. в русском: das Wochenende — выходные.",
+  "gloss_en": "weekend",
+  "example_en": "Have a nice weekend!"
  },
  {
   "en": "der Geburtstag",
@@ -2073,7 +2417,9 @@
   "example": "Wann hast du Geburtstag?",
   "example_ru": "Когда у тебя день рождения?",
   "forms": "Pl. die Geburtstage",
-  "note_ru": "«У меня день рождения» — Ich habe Geburtstag."
+  "note_ru": "«У меня день рождения» — Ich habe Geburtstag.",
+  "gloss_en": "birthday",
+  "example_en": "When is your birthday?"
  },
  {
   "en": "das Datum",
@@ -2085,7 +2431,9 @@
   "example": "Welches Datum ist heute?",
   "example_ru": "Какое сегодня число?",
   "forms": "Pl. die Daten",
-  "note_ru": "Мн. ч. die Daten совпадает со словом «данные»."
+  "note_ru": "Мн. ч. die Daten совпадает со словом «данные».",
+  "gloss_en": "date",
+  "example_en": "What's the date today?"
  },
  {
   "en": "der Januar",
@@ -2097,7 +2445,9 @@
   "example": "Im Januar ist es sehr kalt.",
   "example_ru": "В январе очень холодно.",
   "forms": "Pl. die Januare",
-  "note_ru": "Все месяцы мужского рода, «в январе» — im Januar; в Австрии — der Jänner."
+  "note_ru": "Все месяцы мужского рода, «в январе» — im Januar; в Австрии — der Jänner.",
+  "gloss_en": "January",
+  "example_en": "It's very cold in January."
  },
  {
   "en": "die Farbe",
@@ -2109,7 +2459,9 @@
   "example": "Welche Farbe hat dein Auto?",
   "example_ru": "Какого цвета твоя машина?",
   "forms": "Pl. die Farben",
-  "note_ru": "Вопрос «какого цвета?» — «Welche Farbe hat …?»"
+  "note_ru": "Вопрос «какого цвета?» — «Welche Farbe hat …?»",
+  "gloss_en": "colour / paint",
+  "example_en": "What colour is your car?"
  },
  {
   "en": "rot",
@@ -2121,7 +2473,9 @@
   "example": "Ich habe ein rotes Auto.",
   "example_ru": "У меня красная машина.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "red",
+  "example_en": "I have a red car."
  },
  {
   "en": "blau",
@@ -2133,7 +2487,9 @@
   "example": "Der Himmel ist blau.",
   "example_ru": "Небо голубое.",
   "forms": null,
-  "note_ru": "Одно слово для «синий» и «голубой»; разговорное «blau sein» — быть пьяным."
+  "note_ru": "Одно слово для «синий» и «голубой»; разговорное «blau sein» — быть пьяным.",
+  "gloss_en": "blue",
+  "example_en": "The sky is blue."
  },
  {
   "en": "grün",
@@ -2145,7 +2501,9 @@
   "example": "Das Gras ist grün.",
   "example_ru": "Трава зелёная.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "green",
+  "example_en": "The grass is green."
  },
  {
   "en": "gelb",
@@ -2157,7 +2515,9 @@
   "example": "Die Banane ist gelb.",
   "example_ru": "Банан жёлтый.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "yellow",
+  "example_en": "The banana is yellow."
  },
  {
   "en": "schwarz",
@@ -2169,7 +2529,9 @@
   "example": "Ich trinke den Kaffee schwarz.",
   "example_ru": "Я пью чёрный кофе, без молока.",
   "forms": "schwärzer, am schwärzesten",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "black",
+  "example_en": "I drink my coffee black."
  },
  {
   "en": "weiß",
@@ -2181,7 +2543,9 @@
   "example": "Im Winter ist alles weiß.",
   "example_ru": "Зимой всё белое.",
   "forms": null,
-  "note_ru": "Не путать с «ich weiß» — «я знаю» (от wissen)."
+  "note_ru": "Не путать с «ich weiß» — «я знаю» (от wissen).",
+  "gloss_en": "white",
+  "example_en": "In winter everything is white."
  },
  {
   "en": "grau",
@@ -2193,7 +2557,9 @@
   "example": "Heute ist der Himmel grau.",
   "example_ru": "Сегодня небо серое.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "grey",
+  "example_en": "The sky is grey today."
  },
  {
   "en": "braun",
@@ -2205,7 +2571,9 @@
   "example": "Er hat braune Augen.",
   "example_ru": "У него карие глаза.",
   "forms": null,
-  "note_ru": "О глазах — «карие», о загаре — braun werden «загореть»."
+  "note_ru": "О глазах — «карие», о загаре — braun werden «загореть».",
+  "gloss_en": "brown",
+  "example_en": "He has brown eyes."
  },
  {
   "en": "rosa",
@@ -2217,7 +2585,9 @@
   "example": "Das Mädchen trägt ein rosa Kleid.",
   "example_ru": "На девочке розовое платье.",
   "forms": null,
-  "note_ru": "В литературном языке не склоняется: ein rosa Kleid."
+  "note_ru": "В литературном языке не склоняется: ein rosa Kleid.",
+  "gloss_en": "pink",
+  "example_en": "The girl is wearing a pink dress."
  },
  {
   "en": "die Kleidung",
@@ -2229,7 +2599,9 @@
   "example": "Ich kaufe neue Kleidung.",
   "example_ru": "Я покупаю новую одежду.",
   "forms": "ohne Pl.",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "clothes / clothing",
+  "example_en": "I'm buying new clothes."
  },
  {
   "en": "die Hose",
@@ -2241,7 +2613,9 @@
   "example": "Die Hose ist zu lang.",
   "example_ru": "Брюки слишком длинные.",
   "forms": "Pl. die Hosen",
-  "note_ru": "В немецком ед. ч.: eine Hose — одни брюки."
+  "note_ru": "В немецком ед. ч.: eine Hose — одни брюки.",
+  "gloss_en": "trousers / pants",
+  "example_en": "The trousers are too long."
  },
  {
   "en": "das Hemd",
@@ -2253,7 +2627,9 @@
   "example": "Er trägt ein weißes Hemd.",
   "example_ru": "На нём белая рубашка.",
   "forms": "Pl. die Hemden",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "shirt",
+  "example_en": "He's wearing a white shirt."
  },
  {
   "en": "das T-Shirt",
@@ -2265,7 +2641,9 @@
   "example": "Im Sommer trage ich T-Shirts.",
   "example_ru": "Летом я ношу футболки.",
   "forms": "Pl. die T-Shirts",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "T-shirt",
+  "example_en": "In summer I wear T-shirts."
  },
  {
   "en": "der Pullover",
@@ -2277,7 +2655,9 @@
   "example": "Es ist kalt, nimm einen Pullover mit.",
   "example_ru": "Холодно, возьми с собой свитер.",
   "forms": "Pl. die Pullover",
-  "note_ru": "Разговорно — der Pulli."
+  "note_ru": "Разговорно — der Pulli.",
+  "gloss_en": "sweater / jumper",
+  "example_en": "It's cold, take a sweater with you."
  },
  {
   "en": "die Jacke",
@@ -2289,7 +2669,9 @@
   "example": "Die Jacke ist warm und leicht.",
   "example_ru": "Куртка тёплая и лёгкая.",
   "forms": "Pl. die Jacken",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "jacket",
+  "example_en": "The jacket is warm and light."
  },
  {
   "en": "der Mantel",
@@ -2301,7 +2683,9 @@
   "example": "Im Winter trage ich einen Mantel.",
   "example_ru": "Зимой я ношу пальто.",
   "forms": "Pl. die Mäntel",
-  "note_ru": "Ложный друг: не «мантия», а пальто."
+  "note_ru": "Ложный друг: не «мантия», а пальто.",
+  "gloss_en": "coat",
+  "example_en": "In winter I wear a coat."
  },
  {
   "en": "das Kleid",
@@ -2313,7 +2697,9 @@
   "example": "Das Kleid ist sehr schön.",
   "example_ru": "Платье очень красивое.",
   "forms": "Pl. die Kleider",
-  "note_ru": "Мн. ч. die Kleider также значит «одежда»."
+  "note_ru": "Мн. ч. die Kleider также значит «одежда».",
+  "gloss_en": "dress",
+  "example_en": "The dress is very pretty."
  },
  {
   "en": "der Rock",
@@ -2325,7 +2711,9 @@
   "example": "Sie trägt einen kurzen Rock.",
   "example_ru": "На ней короткая юбка.",
   "forms": "Pl. die Röcke",
-  "note_ru": "Также «рок» (музыка), но основное значение — юбка."
+  "note_ru": "Также «рок» (музыка), но основное значение — юбка.",
+  "gloss_en": "skirt",
+  "example_en": "She's wearing a short skirt."
  },
  {
   "en": "der Schuh",
@@ -2337,7 +2725,9 @@
   "example": "Die Schuhe sind zu klein.",
   "example_ru": "Туфли слишком малы.",
   "forms": "Pl. die Schuhe",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "shoe",
+  "example_en": "The shoes are too small."
  },
  {
   "en": "die Socke",
@@ -2349,7 +2739,9 @@
   "example": "Ich brauche warme Socken.",
   "example_ru": "Мне нужны тёплые носки.",
   "forms": "Pl. die Socken",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "sock",
+  "example_en": "I need warm socks."
  },
  {
   "en": "die Mütze",
@@ -2361,7 +2753,9 @@
   "example": "Zieh deine Mütze an!",
   "example_ru": "Надень шапку!",
   "forms": "Pl. die Mützen",
-  "note_ru": "В Австрии — die Haube."
+  "note_ru": "В Австрии — die Haube.",
+  "gloss_en": "cap / woolly hat",
+  "example_en": "Put your hat on!"
  },
  {
   "en": "die Bluse",
@@ -2373,7 +2767,9 @@
   "example": "Die Bluse ist blau.",
   "example_ru": "Блузка синяя.",
   "forms": "Pl. die Blusen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "blouse",
+  "example_en": "The blouse is blue."
  },
  {
   "en": "tragen",
@@ -2385,7 +2781,9 @@
   "example": "Sie trägt heute eine Brille.",
   "example_ru": "Сегодня она в очках.",
   "forms": "trägt, trug, hat getragen",
-  "note_ru": "Одно слово для «носить одежду» и «нести сумку»."
+  "note_ru": "Одно слово для «носить одежду» и «нести сумку».",
+  "gloss_en": "to wear / to carry",
+  "example_en": "She's wearing glasses today."
  },
  {
   "en": "die Größe",
@@ -2397,7 +2795,9 @@
   "example": "Welche Größe haben Sie?",
   "example_ru": "Какой у вас размер?",
   "forms": "Pl. die Größen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "size / height",
+  "example_en": "What size are you?"
  },
  {
   "en": "der Körper",
@@ -2409,7 +2809,9 @@
   "example": "Sport ist gut für den Körper.",
   "example_ru": "Спорт полезен для тела.",
   "forms": "Pl. die Körper",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "body",
+  "example_en": "Sport is good for the body."
  },
  {
   "en": "der Kopf",
@@ -2421,7 +2823,9 @@
   "example": "Ich habe einen Hut auf dem Kopf.",
   "example_ru": "У меня на голове шляпа.",
   "forms": "Pl. die Köpfe",
-  "note_ru": "Мужского рода, «голова» — женского."
+  "note_ru": "Мужского рода, «голова» — женского.",
+  "gloss_en": "head",
+  "example_en": "I have a hat on my head."
  },
  {
   "en": "das Auge",
@@ -2433,7 +2837,9 @@
   "example": "Sie hat blaue Augen.",
   "example_ru": "У неё голубые глаза.",
   "forms": "Pl. die Augen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "eye",
+  "example_en": "She has blue eyes."
  },
  {
   "en": "das Ohr",
@@ -2445,7 +2851,9 @@
   "example": "Das Kind hat Schmerzen im Ohr.",
   "example_ru": "У ребёнка болит ухо.",
   "forms": "Pl. die Ohren",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "ear",
+  "example_en": "The child has an earache."
  },
  {
   "en": "die Nase",
@@ -2457,7 +2865,9 @@
   "example": "Meine Nase ist kalt.",
   "example_ru": "У меня замёрз нос.",
   "forms": "Pl. die Nasen",
-  "note_ru": "Женского рода, а «нос» — мужского."
+  "note_ru": "Женского рода, а «нос» — мужского.",
+  "gloss_en": "nose",
+  "example_en": "My nose is cold."
  },
  {
   "en": "der Mund",
@@ -2469,7 +2879,9 @@
   "example": "Mach bitte den Mund auf.",
   "example_ru": "Открой, пожалуйста, рот.",
   "forms": "Pl. die Münder",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "mouth",
+  "example_en": "Open your mouth, please."
  },
  {
   "en": "der Zahn",
@@ -2481,7 +2893,9 @@
   "example": "Der Zahn tut sehr weh.",
   "example_ru": "Зуб очень болит.",
   "forms": "Pl. die Zähne",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "tooth",
+  "example_en": "The tooth hurts a lot."
  },
  {
   "en": "das Haar",
@@ -2493,7 +2907,9 @@
   "example": "Ich wasche mir die Haare.",
   "example_ru": "Я мою голову.",
   "forms": "Pl. die Haare",
-  "note_ru": "«Волосы» обычно во мн. ч.: die Haare."
+  "note_ru": "«Волосы» обычно во мн. ч.: die Haare.",
+  "gloss_en": "hair",
+  "example_en": "I'm washing my hair."
  },
  {
   "en": "das Gesicht",
@@ -2505,7 +2921,9 @@
   "example": "Er hat ein freundliches Gesicht.",
   "example_ru": "У него доброе лицо.",
   "forms": "Pl. die Gesichter",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "face",
+  "example_en": "He has a friendly face."
  },
  {
   "en": "die Hand",
@@ -2517,7 +2935,9 @@
   "example": "Wasch dir die Hände!",
   "example_ru": "Помой руки!",
   "forms": "Pl. die Hände",
-  "note_ru": "Немецкий различает die Hand (кисть) и der Arm (рука до плеча)."
+  "note_ru": "Немецкий различает die Hand (кисть) и der Arm (рука до плеча).",
+  "gloss_en": "hand",
+  "example_en": "Wash your hands!"
  },
  {
   "en": "der Arm",
@@ -2529,7 +2949,9 @@
   "example": "Sie nimmt das Baby auf den Arm.",
   "example_ru": "Она берёт малыша на руки.",
   "forms": "Pl. die Arme",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "arm",
+  "example_en": "She picks the baby up in her arms."
  },
  {
   "en": "das Bein",
@@ -2541,7 +2963,9 @@
   "example": "Der Hund hat vier Beine.",
   "example_ru": "У собаки четыре лапы.",
   "forms": "Pl. die Beine",
-  "note_ru": "Нога целиком — das Bein, стопа — der Fuß."
+  "note_ru": "Нога целиком — das Bein, стопа — der Fuß.",
+  "gloss_en": "leg",
+  "example_en": "The dog has four legs."
  },
  {
   "en": "der Fuß",
@@ -2553,7 +2977,9 @@
   "example": "Ich gehe zu Fuß.",
   "example_ru": "Я иду пешком.",
   "forms": "Pl. die Füße",
-  "note_ru": "«zu Fuß gehen» — идти пешком; в Швейцарии пишут Fuss."
+  "note_ru": "«zu Fuß gehen» — идти пешком; в Швейцарии пишут Fuss.",
+  "gloss_en": "foot",
+  "example_en": "I'm going on foot."
  },
  {
   "en": "der Bauch",
@@ -2565,7 +2991,9 @@
   "example": "Nach dem Essen ist mein Bauch voll.",
   "example_ru": "После еды мой живот полон.",
   "forms": "Pl. die Bäuche",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "belly / stomach",
+  "example_en": "After eating my stomach is full."
  },
  {
   "en": "der Rücken",
@@ -2577,7 +3005,9 @@
   "example": "Ich liege auf dem Rücken.",
   "example_ru": "Я лежу на спине.",
   "forms": "Pl. die Rücken",
-  "note_ru": "Мужского рода, «спина» — женского."
+  "note_ru": "Мужского рода, «спина» — женского.",
+  "gloss_en": "back",
+  "example_en": "I'm lying on my back."
  },
  {
   "en": "krank",
@@ -2589,7 +3019,9 @@
   "example": "Ich bin krank und bleibe zu Hause.",
   "example_ru": "Я болен и остаюсь дома.",
   "forms": "kränker, am kränksten",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "ill / sick",
+  "example_en": "I'm ill and staying at home."
  },
  {
   "en": "gesund",
@@ -2601,7 +3033,9 @@
   "example": "Bleib gesund!",
   "example_ru": "Будь здоров!",
   "forms": "gesünder, am gesündesten",
-  "note_ru": "О еде «gesund» значит «полезный для здоровья»."
+  "note_ru": "О еде «gesund» значит «полезный для здоровья».",
+  "gloss_en": "healthy",
+  "example_en": "Stay healthy!"
  },
  {
   "en": "der Arzt",
@@ -2613,7 +3047,9 @@
   "example": "Ich gehe heute zum Arzt.",
   "example_ru": "Сегодня я иду к врачу.",
   "forms": "Pl. die Ärzte",
-  "note_ru": "Женщина-врач — die Ärztin; «к врачу» — zum Arzt (zu + Dat.)."
+  "note_ru": "Женщина-врач — die Ärztin; «к врачу» — zum Arzt (zu + Dat.).",
+  "gloss_en": "doctor",
+  "example_en": "I'm going to the doctor today."
  },
  {
   "en": "das Krankenhaus",
@@ -2625,7 +3061,9 @@
   "example": "Mein Opa ist im Krankenhaus.",
   "example_ru": "Мой дедушка в больнице.",
   "forms": "Pl. die Krankenhäuser",
-  "note_ru": "В Австрии и Швейцарии чаще das Spital."
+  "note_ru": "В Австрии и Швейцарии чаще das Spital.",
+  "gloss_en": "hospital",
+  "example_en": "My grandpa is in hospital."
  },
  {
   "en": "die Apotheke",
@@ -2637,7 +3075,9 @@
   "example": "Die Apotheke ist neben der Post.",
   "example_ru": "Аптека рядом с почтой.",
   "forms": "Pl. die Apotheken",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "pharmacy / chemist's",
+  "example_en": "The pharmacy is next to the post office."
  },
  {
   "en": "die Tablette",
@@ -2649,7 +3089,9 @@
   "example": "Nimm eine Tablette gegen Kopfschmerzen.",
   "example_ru": "Прими таблетку от головной боли.",
   "forms": "Pl. die Tabletten",
-  "note_ru": "«таблетка от …» — eine Tablette gegen + Akk."
+  "note_ru": "«таблетка от …» — eine Tablette gegen + Akk.",
+  "gloss_en": "tablet / pill",
+  "example_en": "Take a tablet for your headache."
  },
  {
   "en": "das Fieber",
@@ -2661,7 +3103,9 @@
   "example": "Das Kind hat Fieber.",
   "example_ru": "У ребёнка температура.",
   "forms": "ohne Pl.",
-  "note_ru": "«Fieber haben» — «иметь температуру»."
+  "note_ru": "«Fieber haben» — «иметь температуру».",
+  "gloss_en": "fever / temperature",
+  "example_en": "The child has a temperature."
  },
  {
   "en": "der Schmerz",
@@ -2673,7 +3117,9 @@
   "example": "Ich habe Schmerzen im Rücken.",
   "example_ru": "У меня болит спина.",
   "forms": "Pl. die Schmerzen",
-  "note_ru": "Обычно во мн. ч.: Kopfschmerzen, Bauchschmerzen."
+  "note_ru": "Обычно во мн. ч.: Kopfschmerzen, Bauchschmerzen.",
+  "gloss_en": "pain",
+  "example_en": "I have back pain."
  },
  {
   "en": "wehtun",
@@ -2685,7 +3131,9 @@
   "example": "Mein Bein tut weh.",
   "example_ru": "У меня болит нога.",
   "forms": "tut weh, tat weh, hat wehgetan",
-  "note_ru": "Что болит — подлежащее, у кого — дательный: Mir tut der Kopf weh."
+  "note_ru": "Что болит — подлежащее, у кого — дательный: Mir tut der Kopf weh.",
+  "gloss_en": "to hurt",
+  "example_en": "My leg hurts."
  },
  {
   "en": "die Erkältung",
@@ -2697,7 +3145,9 @@
   "example": "Ich habe eine Erkältung.",
   "example_ru": "Я простудился.",
   "forms": "Pl. die Erkältungen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "cold (illness)",
+  "example_en": "I have a cold."
  },
  {
   "en": "das Wetter",
@@ -2709,7 +3159,9 @@
   "example": "Wie ist das Wetter heute?",
   "example_ru": "Какая сегодня погода?",
   "forms": "ohne Pl.",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "weather",
+  "example_en": "What's the weather like today?"
  },
  {
   "en": "die Sonne",
@@ -2721,7 +3173,9 @@
   "example": "Die Sonne scheint.",
   "example_ru": "Светит солнце.",
   "forms": "Pl. die Sonnen",
-  "note_ru": "Женского рода, а «солнце» — среднего."
+  "note_ru": "Женского рода, а «солнце» — среднего.",
+  "gloss_en": "sun",
+  "example_en": "The sun is shining."
  },
  {
   "en": "der Regen",
@@ -2733,7 +3187,9 @@
   "example": "Bei Regen bleibe ich zu Hause.",
   "example_ru": "В дождь я остаюсь дома.",
   "forms": "ohne Pl.",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "rain",
+  "example_en": "When it rains I stay at home."
  },
  {
   "en": "der Schnee",
@@ -2745,7 +3201,9 @@
   "example": "Die Kinder spielen im Schnee.",
   "example_ru": "Дети играют в снегу.",
   "forms": "ohne Pl.",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "snow",
+  "example_en": "The children are playing in the snow."
  },
  {
   "en": "der Wind",
@@ -2757,7 +3215,9 @@
   "example": "Heute ist der Wind sehr stark.",
   "example_ru": "Сегодня очень сильный ветер.",
   "forms": "Pl. die Winde",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "wind",
+  "example_en": "The wind is very strong today."
  },
  {
   "en": "die Wolke",
@@ -2769,7 +3229,9 @@
   "example": "Heute sind viele Wolken da.",
   "example_ru": "Сегодня много облаков.",
   "forms": "Pl. die Wolken",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "cloud",
+  "example_en": "There are a lot of clouds today."
  },
  {
   "en": "warm",
@@ -2781,7 +3243,9 @@
   "example": "Im Mai ist es schon warm.",
   "example_ru": "В мае уже тепло.",
   "forms": "wärmer, am wärmsten",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "warm",
+  "example_en": "In May it's already warm."
  },
  {
   "en": "kalt",
@@ -2793,7 +3257,9 @@
   "example": "Mir ist kalt.",
   "example_ru": "Мне холодно.",
   "forms": "kälter, am kältesten",
-  "note_ru": "«Мне холодно» — Mir ist kalt (дательный), а не «Ich bin kalt»."
+  "note_ru": "«Мне холодно» — Mir ist kalt (дательный), а не «Ich bin kalt».",
+  "gloss_en": "cold",
+  "example_en": "I'm cold."
  },
  {
   "en": "heiß",
@@ -2805,7 +3271,9 @@
   "example": "Im August ist es oft heiß.",
   "example_ru": "В августе часто жарко.",
   "forms": null,
-  "note_ru": "Одно слово для «жаркий» (о погоде) и «горячий» (о чае)."
+  "note_ru": "Одно слово для «жаркий» (о погоде) и «горячий» (о чае).",
+  "gloss_en": "hot",
+  "example_en": "It's often hot in August."
  },
  {
   "en": "regnen",
@@ -2817,7 +3285,9 @@
   "example": "Es regnet seit Montag.",
   "example_ru": "Дождь идёт с понедельника.",
   "forms": "regnet, regnete, hat geregnet",
-  "note_ru": "Безличный глагол: es regnet — «идёт дождь»."
+  "note_ru": "Безличный глагол: es regnet — «идёт дождь».",
+  "gloss_en": "to rain",
+  "example_en": "It's been raining since Monday."
  },
  {
   "en": "schneien",
@@ -2829,7 +3299,9 @@
   "example": "Im Dezember schneit es oft.",
   "example_ru": "В декабре часто идёт снег.",
   "forms": "schneit, schneite, hat geschneit",
-  "note_ru": "Безличный глагол: es schneit."
+  "note_ru": "Безличный глагол: es schneit.",
+  "gloss_en": "to snow",
+  "example_en": "It often snows in December."
  },
  {
   "en": "der Frühling",
@@ -2841,7 +3313,9 @@
   "example": "Im Frühling wird es wärmer.",
   "example_ru": "Весной становится теплее.",
   "forms": "Pl. die Frühlinge",
-  "note_ru": "Все времена года мужского рода: im Frühling — весной."
+  "note_ru": "Все времена года мужского рода: im Frühling — весной.",
+  "gloss_en": "spring",
+  "example_en": "In spring it gets warmer."
  },
  {
   "en": "der Sommer",
@@ -2853,7 +3327,9 @@
   "example": "Im Sommer fahren wir ans Meer.",
   "example_ru": "Летом мы едем на море.",
   "forms": "Pl. die Sommer",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "summer",
+  "example_en": "In summer we go to the seaside."
  },
  {
   "en": "der Herbst",
@@ -2865,7 +3341,9 @@
   "example": "Im Herbst sind die Blätter gelb und rot.",
   "example_ru": "Осенью листья жёлтые и красные.",
   "forms": "Pl. die Herbste",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "autumn / fall",
+  "example_en": "In autumn the leaves are yellow and red."
  },
  {
   "en": "der Winter",
@@ -2877,7 +3355,9 @@
   "example": "Der Winter in Russland ist lang.",
   "example_ru": "Зима в России долгая.",
   "forms": "Pl. die Winter",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "winter",
+  "example_en": "Winter in Russia is long."
  },
  {
   "en": "der Himmel",
@@ -2889,7 +3369,9 @@
   "example": "Am Himmel sind keine Wolken.",
   "example_ru": "На небе нет облаков.",
   "forms": "Pl. die Himmel",
-  "note_ru": "Также «рай» в религиозном смысле."
+  "note_ru": "Также «рай» в религиозном смысле.",
+  "gloss_en": "sky",
+  "example_en": "There are no clouds in the sky."
  },
  {
   "en": "der Baum",
@@ -2901,7 +3383,9 @@
   "example": "Vor dem Haus steht ein großer Baum.",
   "example_ru": "Перед домом стоит большое дерево.",
   "forms": "Pl. die Bäume",
-  "note_ru": "Мужского рода, «дерево» — среднего."
+  "note_ru": "Мужского рода, «дерево» — среднего.",
+  "gloss_en": "tree",
+  "example_en": "There's a big tree in front of the house."
  },
  {
   "en": "die Blume",
@@ -2913,7 +3397,9 @@
   "example": "Ich schenke meiner Mutter Blumen.",
   "example_ru": "Я дарю маме цветы.",
   "forms": "Pl. die Blumen",
-  "note_ru": "Женского рода, «цветок» — мужского."
+  "note_ru": "Женского рода, «цветок» — мужского.",
+  "gloss_en": "flower",
+  "example_en": "I give my mother flowers."
  },
  {
   "en": "der Wald",
@@ -2925,7 +3411,9 @@
   "example": "Am Sonntag gehen wir im Wald spazieren.",
   "example_ru": "В воскресенье мы гуляем в лесу.",
   "forms": "Pl. die Wälder",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "forest / woods",
+  "example_en": "On Sunday we go for a walk in the woods."
  },
  {
   "en": "der See",
@@ -2937,7 +3425,9 @@
   "example": "Im Sommer schwimmen wir im See.",
   "example_ru": "Летом мы плаваем в озере.",
   "forms": "Pl. die Seen",
-  "note_ru": "der See — озеро, но die See — море!"
+  "note_ru": "der See — озеро, но die See — море!",
+  "gloss_en": "lake",
+  "example_en": "In summer we swim in the lake."
  },
  {
   "en": "das Meer",
@@ -2949,7 +3439,9 @@
   "example": "Das Meer ist heute ruhig.",
   "example_ru": "Море сегодня спокойное.",
   "forms": "Pl. die Meere",
-  "note_ru": "«на море» (куда?) — ans Meer, (где?) — am Meer."
+  "note_ru": "«на море» (куда?) — ans Meer, (где?) — am Meer.",
+  "gloss_en": "sea",
+  "example_en": "The sea is calm today."
  },
  {
   "en": "der Berg",
@@ -2961,7 +3453,9 @@
   "example": "Im Winter fahren wir in die Berge.",
   "example_ru": "Зимой мы едем в горы.",
   "forms": "Pl. die Berge",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "mountain",
+  "example_en": "In winter we go to the mountains."
  },
  {
   "en": "der Fluss",
@@ -2973,7 +3467,9 @@
   "example": "Der Rhein ist ein langer Fluss.",
   "example_ru": "Рейн — длинная река.",
   "forms": "Pl. die Flüsse",
-  "note_ru": "Мужского рода, «река» — женского."
+  "note_ru": "Мужского рода, «река» — женского.",
+  "gloss_en": "river",
+  "example_en": "The Rhine is a long river."
  },
  {
   "en": "die Natur",
@@ -2985,7 +3481,9 @@
   "example": "Ich bin gern in der Natur.",
   "example_ru": "Я люблю бывать на природе.",
   "forms": "ohne Pl.",
-  "note_ru": "«на природе» — in der Natur."
+  "note_ru": "«на природе» — in der Natur.",
+  "gloss_en": "nature",
+  "example_en": "I like being out in nature."
  },
  {
   "en": "der Grad",
@@ -2997,7 +3495,9 @@
   "example": "Heute sind es zwanzig Grad.",
   "example_ru": "Сегодня двадцать градусов.",
   "forms": "Pl. die Grade",
-  "note_ru": "После чисел без мн. окончания: zwanzig Grad."
+  "note_ru": "После чисел без мн. окончания: zwanzig Grad.",
+  "gloss_en": "degree",
+  "example_en": "It's twenty degrees today."
  },
  {
   "en": "die Stadt",
@@ -3009,7 +3509,9 @@
   "example": "Hamburg ist eine große Stadt.",
   "example_ru": "Гамбург — большой город.",
   "forms": "Pl. die Städte",
-  "note_ru": "«in die Stadt fahren» часто значит «поехать в центр»."
+  "note_ru": "«in die Stadt fahren» часто значит «поехать в центр».",
+  "gloss_en": "city / town",
+  "example_en": "Hamburg is a big city."
  },
  {
   "en": "das Dorf",
@@ -3021,7 +3523,9 @@
   "example": "Meine Oma wohnt in einem Dorf.",
   "example_ru": "Моя бабушка живёт в деревне.",
   "forms": "Pl. die Dörfer",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "village",
+  "example_en": "My grandma lives in a village."
  },
  {
   "en": "die Straße",
@@ -3033,7 +3537,9 @@
   "example": "In welcher Straße wohnst du?",
   "example_ru": "На какой улице ты живёшь?",
   "forms": "Pl. die Straßen",
-  "note_ru": "«на улице» (адрес) — in der Straße, (снаружи) — draußen; в Швейцарии — Strasse."
+  "note_ru": "«на улице» (адрес) — in der Straße, (снаружи) — draußen; в Швейцарии — Strasse.",
+  "gloss_en": "street / road",
+  "example_en": "Which street do you live on?"
  },
  {
   "en": "der Platz",
@@ -3045,7 +3551,9 @@
   "example": "Ist hier noch ein Platz frei?",
   "example_ru": "Здесь есть свободное место?",
   "forms": "Pl. die Plätze",
-  "note_ru": "Два значения: площадь в городе и место (сидячее)."
+  "note_ru": "Два значения: площадь в городе и место (сидячее).",
+  "gloss_en": "square / seat / place",
+  "example_en": "Is there a free seat here?"
  },
  {
   "en": "der Bahnhof",
@@ -3057,7 +3565,9 @@
   "example": "Wo ist der Bahnhof?",
   "example_ru": "Где вокзал?",
   "forms": "Pl. die Bahnhöfe",
-  "note_ru": "Главный вокзал — der Hauptbahnhof (Hbf)."
+  "note_ru": "Главный вокзал — der Hauptbahnhof (Hbf).",
+  "gloss_en": "train station",
+  "example_en": "Where is the train station?"
  },
  {
   "en": "der Bus",
@@ -3069,7 +3579,9 @@
   "example": "Ich fahre mit dem Bus zur Arbeit.",
   "example_ru": "Я езжу на работу на автобусе.",
   "forms": "Pl. die Busse",
-  "note_ru": "«на автобусе» — mit dem Bus (mit + Dat.)."
+  "note_ru": "«на автобусе» — mit dem Bus (mit + Dat.).",
+  "gloss_en": "bus",
+  "example_en": "I take the bus to work."
  },
  {
   "en": "der Zug",
@@ -3081,7 +3593,9 @@
   "example": "Der Zug fährt um neun Uhr ab.",
   "example_ru": "Поезд отправляется в девять часов.",
   "forms": "Pl. die Züge",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "train",
+  "example_en": "The train leaves at nine o'clock."
  },
  {
   "en": "die U-Bahn",
@@ -3093,7 +3607,9 @@
   "example": "Die U-Bahn ist schneller als der Bus.",
   "example_ru": "Метро быстрее автобуса.",
   "forms": "Pl. die U-Bahnen",
-  "note_ru": "Городская электричка — die S-Bahn."
+  "note_ru": "Городская электричка — die S-Bahn.",
+  "gloss_en": "underground / subway",
+  "example_en": "The underground is faster than the bus."
  },
  {
   "en": "die Straßenbahn",
@@ -3105,7 +3621,9 @@
   "example": "Die Straßenbahn hält vor meinem Haus.",
   "example_ru": "Трамвай останавливается перед моим домом.",
   "forms": "Pl. die Straßenbahnen",
-  "note_ru": "В Швейцарии — das Tram, в Вене разговорно — die Bim."
+  "note_ru": "В Швейцарии — das Tram, в Вене разговорно — die Bim.",
+  "gloss_en": "tram",
+  "example_en": "The tram stops in front of my house."
  },
  {
   "en": "das Auto",
@@ -3117,7 +3635,9 @@
   "example": "Wir fahren mit dem Auto nach Italien.",
   "example_ru": "Мы едем на машине в Италию.",
   "forms": "Pl. die Autos",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "car",
+  "example_en": "We're driving to Italy by car."
  },
  {
   "en": "das Fahrrad",
@@ -3129,7 +3649,9 @@
   "example": "Ich fahre jeden Morgen Fahrrad.",
   "example_ru": "Я каждое утро катаюсь на велосипеде.",
   "forms": "Pl. die Fahrräder",
-  "note_ru": "Разговорно — das Rad; в Швейцарии — das Velo."
+  "note_ru": "Разговорно — das Rad; в Швейцарии — das Velo.",
+  "gloss_en": "bicycle / bike",
+  "example_en": "I ride my bike every morning."
  },
  {
   "en": "das Taxi",
@@ -3141,7 +3663,9 @@
   "example": "Wir nehmen ein Taxi zum Hotel.",
   "example_ru": "Мы берём такси до гостиницы.",
   "forms": "Pl. die Taxis",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "taxi",
+  "example_en": "We're taking a taxi to the hotel."
  },
  {
   "en": "das Flugzeug",
@@ -3153,7 +3677,9 @@
   "example": "Das Flugzeug landet um zehn.",
   "example_ru": "Самолёт приземляется в десять.",
   "forms": "Pl. die Flugzeuge",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "plane / aeroplane",
+  "example_en": "The plane lands at ten."
  },
  {
   "en": "der Flughafen",
@@ -3165,7 +3691,9 @@
   "example": "Der Flughafen ist weit von der Stadt.",
   "example_ru": "Аэропорт далеко от города.",
   "forms": "Pl. die Flughäfen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "airport",
+  "example_en": "The airport is far from the city."
  },
  {
   "en": "die Haltestelle",
@@ -3177,7 +3705,9 @@
   "example": "Die Haltestelle ist gleich hier.",
   "example_ru": "Остановка прямо здесь.",
   "forms": "Pl. die Haltestellen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "stop (bus, tram)",
+  "example_en": "The stop is right here."
  },
  {
   "en": "die Fahrkarte",
@@ -3189,7 +3719,9 @@
   "example": "Ich kaufe eine Fahrkarte nach Köln.",
   "example_ru": "Я покупаю билет до Кёльна.",
   "forms": "Pl. die Fahrkarten",
-  "note_ru": "Также der Fahrschein; в Швейцарии — das Billett."
+  "note_ru": "Также der Fahrschein; в Швейцарии — das Billett.",
+  "gloss_en": "ticket (travel)",
+  "example_en": "I'm buying a ticket to Cologne."
  },
  {
   "en": "die Post",
@@ -3201,7 +3733,9 @@
   "example": "Ich gehe zur Post.",
   "example_ru": "Я иду на почту.",
   "forms": "ohne Pl.",
-  "note_ru": "«на почту» — zur Post."
+  "note_ru": "«на почту» — zur Post.",
+  "gloss_en": "post office / mail",
+  "example_en": "I'm going to the post office."
  },
  {
   "en": "das Hotel",
@@ -3213,7 +3747,9 @@
   "example": "Das Hotel ist am Bahnhof.",
   "example_ru": "Гостиница у вокзала.",
   "forms": "Pl. die Hotels",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "hotel",
+  "example_en": "The hotel is by the station."
  },
  {
   "en": "die Ampel",
@@ -3225,7 +3761,9 @@
   "example": "Die Ampel ist rot, wir warten.",
   "example_ru": "Светофор красный, мы ждём.",
   "forms": "Pl. die Ampeln",
-  "note_ru": "Ложный друг: не «ампула»."
+  "note_ru": "Ложный друг: не «ампула».",
+  "gloss_en": "traffic light",
+  "example_en": "The light is red, we're waiting."
  },
  {
   "en": "links",
@@ -3237,7 +3775,9 @@
   "example": "Gehen Sie hier links.",
   "example_ru": "Здесь поверните налево.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "left / on the left",
+  "example_en": "Turn left here."
  },
  {
   "en": "rechts",
@@ -3249,7 +3789,9 @@
   "example": "Das Hotel ist rechts.",
   "example_ru": "Гостиница справа.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "right / on the right",
+  "example_en": "The hotel is on the right."
  },
  {
   "en": "geradeaus",
@@ -3261,7 +3803,9 @@
   "example": "Gehen Sie immer geradeaus.",
   "example_ru": "Идите всё время прямо.",
   "forms": null,
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "straight ahead",
+  "example_en": "Keep going straight ahead."
  },
  {
   "en": "fahren",
@@ -3273,7 +3817,9 @@
   "example": "Ich fahre morgen nach Wien.",
   "example_ru": "Завтра я еду в Вену.",
   "forms": "fährt, fuhr, ist gefahren",
-  "note_ru": "«gehen» — идти пешком, «fahren» — ехать на транспорте."
+  "note_ru": "«gehen» — идти пешком, «fahren» — ехать на транспорте.",
+  "gloss_en": "to go (by vehicle) / to drive",
+  "example_en": "Tomorrow I'm going to Vienna."
  },
  {
   "en": "die Brücke",
@@ -3285,7 +3831,9 @@
   "example": "Die Brücke ist sehr alt.",
   "example_ru": "Мост очень старый.",
   "forms": "Pl. die Brücken",
-  "note_ru": "Женского рода, «мост» — мужского."
+  "note_ru": "Женского рода, «мост» — мужского.",
+  "gloss_en": "bridge",
+  "example_en": "The bridge is very old."
  },
  {
   "en": "das Zentrum",
@@ -3297,7 +3845,9 @@
   "example": "Im Zentrum gibt es viele Geschäfte.",
   "example_ru": "В центре много магазинов.",
   "forms": "Pl. die Zentren",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "centre",
+  "example_en": "There are lots of shops in the centre."
  },
  {
   "en": "das Geld",
@@ -3309,7 +3859,9 @@
   "example": "Ich habe kein Geld dabei.",
   "example_ru": "У меня нет с собой денег.",
   "forms": "Pl. die Gelder",
-  "note_ru": "Ед. ч. в немецком: das Geld ist … — «деньги …»."
+  "note_ru": "Ед. ч. в немецком: das Geld ist … — «деньги …».",
+  "gloss_en": "money",
+  "example_en": "I don't have any money on me."
  },
  {
   "en": "der Euro",
@@ -3321,7 +3873,9 @@
   "example": "Das Buch kostet zehn Euro.",
   "example_ru": "Книга стоит десять евро.",
   "forms": "Pl. die Euros",
-  "note_ru": "После числа без окончания: zehn Euro; в Швейцарии — der Franken."
+  "note_ru": "После числа без окончания: zehn Euro; в Швейцарии — der Franken.",
+  "gloss_en": "euro",
+  "example_en": "The book costs ten euros."
  },
  {
   "en": "der Cent",
@@ -3333,7 +3887,9 @@
   "example": "Der Apfel kostet fünfzig Cent.",
   "example_ru": "Яблоко стоит пятьдесят центов.",
   "forms": "Pl. die Cents",
-  "note_ru": "После числа без окончания: fünfzig Cent."
+  "note_ru": "После числа без окончания: fünfzig Cent.",
+  "gloss_en": "cent",
+  "example_en": "The apple costs fifty cents."
  },
  {
   "en": "kosten",
@@ -3345,7 +3901,9 @@
   "example": "Was kostet die Jacke?",
   "example_ru": "Сколько стоит куртка?",
   "forms": "kostet, kostete, hat gekostet",
-  "note_ru": "Омоним: kosten также «пробовать на вкус»."
+  "note_ru": "Омоним: kosten также «пробовать на вкус».",
+  "gloss_en": "to cost",
+  "example_en": "How much is the jacket?"
  },
  {
   "en": "kaufen",
@@ -3357,7 +3915,9 @@
   "example": "Ich kaufe einen neuen Pullover.",
   "example_ru": "Я покупаю новый свитер.",
   "forms": "kauft, kaufte, hat gekauft",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to buy",
+  "example_en": "I'm buying a new sweater."
  },
  {
   "en": "verkaufen",
@@ -3369,7 +3929,9 @@
   "example": "Er verkauft sein altes Auto.",
   "example_ru": "Он продаёт свою старую машину.",
   "forms": "verkauft, verkaufte, hat verkauft",
-  "note_ru": "Неотделяемая приставка ver-: Partizip без ge-."
+  "note_ru": "Неотделяемая приставка ver-: Partizip без ge-.",
+  "gloss_en": "to sell",
+  "example_en": "He's selling his old car."
  },
  {
   "en": "bezahlen",
@@ -3381,7 +3943,9 @@
   "example": "Ich bezahle mit Karte.",
   "example_ru": "Я плачу картой.",
   "forms": "bezahlt, bezahlte, hat bezahlt",
-  "note_ru": "«bezahlen» + Akk. без предлога: die Rechnung bezahlen — оплатить счёт."
+  "note_ru": "«bezahlen» + Akk. без предлога: die Rechnung bezahlen — оплатить счёт.",
+  "gloss_en": "to pay",
+  "example_en": "I'm paying by card."
  },
  {
   "en": "einkaufen",
@@ -3393,7 +3957,9 @@
   "example": "Ich gehe heute Nachmittag einkaufen.",
   "example_ru": "Сегодня днём я пойду за покупками.",
   "forms": "kauft ein, kaufte ein, hat eingekauft",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to go shopping",
+  "example_en": "I'm going shopping this afternoon."
  },
  {
   "en": "der Preis",
@@ -3405,7 +3971,9 @@
   "example": "Der Preis ist gut.",
   "example_ru": "Цена хорошая.",
   "forms": "Pl. die Preise",
-  "note_ru": "Также «приз, премия»: der Nobelpreis."
+  "note_ru": "Также «приз, премия»: der Nobelpreis.",
+  "gloss_en": "price / prize",
+  "example_en": "The price is good."
  },
  {
   "en": "teuer",
@@ -3417,7 +3985,9 @@
   "example": "Das Hotel ist sehr teuer.",
   "example_ru": "Гостиница очень дорогая.",
   "forms": "teurer, am teuersten",
-  "note_ru": "«Дорогой» о человеке — lieb, а teuer — о цене."
+  "note_ru": "«Дорогой» о человеке — lieb, а teuer — о цене.",
+  "gloss_en": "expensive",
+  "example_en": "The hotel is very expensive."
  },
  {
   "en": "billig",
@@ -3429,7 +3999,9 @@
   "example": "Das T-Shirt ist billig.",
   "example_ru": "Футболка дешёвая.",
   "forms": null,
-  "note_ru": "Иногда звучит как «дешёвый, плохой»; нейтрально — günstig."
+  "note_ru": "Иногда звучит как «дешёвый, плохой»; нейтрально — günstig.",
+  "gloss_en": "cheap",
+  "example_en": "The T-shirt is cheap."
  },
  {
   "en": "das Geschäft",
@@ -3441,7 +4013,9 @@
   "example": "Das Geschäft öffnet um neun.",
   "example_ru": "Магазин открывается в девять.",
   "forms": "Pl. die Geschäfte",
-  "note_ru": "Также «бизнес, сделка»; синоним «магазина» — der Laden."
+  "note_ru": "Также «бизнес, сделка»; синоним «магазина» — der Laden.",
+  "gloss_en": "shop / business",
+  "example_en": "The shop opens at nine."
  },
  {
   "en": "der Supermarkt",
@@ -3453,7 +4027,9 @@
   "example": "Ich kaufe Milch im Supermarkt.",
   "example_ru": "Я покупаю молоко в супермаркете.",
   "forms": "Pl. die Supermärkte",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "supermarket",
+  "example_en": "I buy milk at the supermarket."
  },
  {
   "en": "der Markt",
@@ -3465,7 +4041,9 @@
   "example": "Am Samstag ist Markt auf dem Platz.",
   "example_ru": "В субботу на площади рынок.",
   "forms": "Pl. die Märkte",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "market",
+  "example_en": "On Saturday there's a market on the square."
  },
  {
   "en": "die Kasse",
@@ -3477,7 +4055,9 @@
   "example": "Bitte bezahlen Sie an der Kasse.",
   "example_ru": "Пожалуйста, оплатите на кассе.",
   "forms": "Pl. die Kassen",
-  "note_ru": "«на кассе» — an der Kasse."
+  "note_ru": "«на кассе» — an der Kasse.",
+  "gloss_en": "checkout / till",
+  "example_en": "Please pay at the checkout."
  },
  {
   "en": "die Rechnung",
@@ -3489,7 +4069,9 @@
   "example": "Die Rechnung, bitte!",
   "example_ru": "Счёт, пожалуйста!",
   "forms": "Pl. die Rechnungen",
-  "note_ru": "В Австрии и на юге в кафе часто говорят «Zahlen, bitte!»."
+  "note_ru": "В Австрии и на юге в кафе часто говорят «Zahlen, bitte!».",
+  "gloss_en": "bill / invoice",
+  "example_en": "The bill, please!"
  },
  {
   "en": "bar",
@@ -3501,7 +4083,9 @@
   "example": "Kann ich bar bezahlen?",
   "example_ru": "Можно заплатить наличными?",
   "forms": null,
-  "note_ru": "Не путать с die Bar — бар."
+  "note_ru": "Не путать с die Bar — бар.",
+  "gloss_en": "in cash",
+  "example_en": "Can I pay in cash?"
  },
  {
   "en": "die Kreditkarte",
@@ -3513,7 +4097,9 @@
   "example": "Nehmen Sie Kreditkarten?",
   "example_ru": "Вы принимаете кредитные карты?",
   "forms": "Pl. die Kreditkarten",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "credit card",
+  "example_en": "Do you take credit cards?"
  },
  {
   "en": "das Angebot",
@@ -3525,7 +4111,9 @@
   "example": "Die Äpfel sind heute im Angebot.",
   "example_ru": "Яблоки сегодня по акции.",
   "forms": "Pl. die Angebote",
-  "note_ru": "«im Angebot» — по специальной цене."
+  "note_ru": "«im Angebot» — по специальной цене.",
+  "gloss_en": "offer / special offer",
+  "example_en": "The apples are on special offer today."
  },
  {
   "en": "die Tasche",
@@ -3537,7 +4125,9 @@
   "example": "Meine Tasche ist sehr schwer.",
   "example_ru": "Моя сумка очень тяжёлая.",
   "forms": "Pl. die Taschen",
-  "note_ru": "Также «карман»: die Hosentasche."
+  "note_ru": "Также «карман»: die Hosentasche.",
+  "gloss_en": "bag / pocket",
+  "example_en": "My bag is very heavy."
  },
  {
   "en": "die Flasche",
@@ -3549,7 +4139,9 @@
   "example": "Ich kaufe eine Flasche Wasser.",
   "example_ru": "Я покупаю бутылку воды.",
   "forms": "Pl. die Flaschen",
-  "note_ru": "Без предлога и родительного: eine Flasche Wasser — «бутылка воды»."
+  "note_ru": "Без предлога и родительного: eine Flasche Wasser — «бутылка воды».",
+  "gloss_en": "bottle",
+  "example_en": "I'm buying a bottle of water."
  },
  {
   "en": "die Packung",
@@ -3561,7 +4153,9 @@
   "example": "Eine Packung Tee, bitte.",
   "example_ru": "Пачку чая, пожалуйста.",
   "forms": "Pl. die Packungen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "pack / packet",
+  "example_en": "A packet of tea, please."
  },
  {
   "en": "der Bäcker",
@@ -3573,7 +4167,9 @@
   "example": "Ich hole Brötchen beim Bäcker.",
   "example_ru": "Я беру булочки в булочной.",
   "forms": "Pl. die Bäcker",
-  "note_ru": "«zum Bäcker gehen» — идти в булочную; сама булочная — die Bäckerei."
+  "note_ru": "«zum Bäcker gehen» — идти в булочную; сама булочная — die Bäckerei.",
+  "gloss_en": "baker / bakery",
+  "example_en": "I get rolls at the bakery."
  },
  {
   "en": "Wie viel kostet das?",
@@ -3585,7 +4181,9 @@
   "example": "Entschuldigung, wie viel kostet das?",
   "example_ru": "Извините, сколько это стоит?",
   "forms": null,
-  "note_ru": "Короче: «Was kostet das?»"
+  "note_ru": "Короче: «Was kostet das?»",
+  "gloss_en": "How much is this?",
+  "example_en": "Excuse me, how much is this?"
  },
  {
   "en": "brauchen",
@@ -3597,7 +4195,9 @@
   "example": "Ich brauche eine neue Tasche.",
   "example_ru": "Мне нужна новая сумка.",
   "forms": "braucht, brauchte, hat gebraucht",
-  "note_ru": "Русское «мне нужно …» → «ich brauche» + Akk."
+  "note_ru": "Русское «мне нужно …» → «ich brauche» + Akk.",
+  "gloss_en": "to need",
+  "example_en": "I need a new bag."
  },
  {
   "en": "die Arbeit",
@@ -3609,7 +4209,9 @@
   "example": "Ich habe viel Arbeit.",
   "example_ru": "У меня много работы.",
   "forms": "Pl. die Arbeiten",
-  "note_ru": "«на работу» — zur Arbeit, «на работе» — bei der Arbeit."
+  "note_ru": "«на работу» — zur Arbeit, «на работе» — bei der Arbeit.",
+  "gloss_en": "work / job",
+  "example_en": "I have a lot of work."
  },
  {
   "en": "arbeiten",
@@ -3621,7 +4223,9 @@
   "example": "Sie arbeitet in einem Krankenhaus.",
   "example_ru": "Она работает в больнице.",
   "forms": "arbeitet, arbeitete, hat gearbeitet",
-  "note_ru": "«работать кем» — arbeiten als + Nom. без артикля: Er arbeitet als Lehrer."
+  "note_ru": "«работать кем» — arbeiten als + Nom. без артикля: Er arbeitet als Lehrer.",
+  "gloss_en": "to work",
+  "example_en": "She works in a hospital."
  },
  {
   "en": "der Beruf",
@@ -3633,7 +4237,9 @@
   "example": "Was sind Sie von Beruf?",
   "example_ru": "Кто вы по профессии?",
   "forms": "Pl. die Berufe",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "profession / job",
+  "example_en": "What do you do for a living?"
  },
  {
   "en": "die Firma",
@@ -3645,7 +4251,9 @@
   "example": "Meine Firma ist in Frankfurt.",
   "example_ru": "Моя фирма во Франкфурте.",
   "forms": "Pl. die Firmen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "company / firm",
+  "example_en": "My company is in Frankfurt."
  },
  {
   "en": "das Büro",
@@ -3657,7 +4265,9 @@
   "example": "Ich bin bis fünf im Büro.",
   "example_ru": "Я в офисе до пяти.",
   "forms": "Pl. die Büros",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "office",
+  "example_en": "I'm in the office until five."
  },
  {
   "en": "der Chef",
@@ -3669,7 +4279,9 @@
   "example": "Mein Chef kommt heute nicht.",
   "example_ru": "Мой начальник сегодня не придёт.",
   "forms": "Pl. die Chefs",
-  "note_ru": "Женщина — die Chefin; в Австрии часто произносят [ʃeːf]."
+  "note_ru": "Женщина — die Chefin; в Австрии часто произносят [ʃeːf].",
+  "gloss_en": "boss",
+  "example_en": "My boss isn't coming in today."
  },
  {
   "en": "der Kollege",
@@ -3681,7 +4293,9 @@
   "example": "Mein Kollege hilft mir.",
   "example_ru": "Мой коллега мне помогает.",
   "forms": "des Kollegen, Pl. die Kollegen",
-  "note_ru": "Слабое существительное: den/dem/des Kollegen; женщина — die Kollegin."
+  "note_ru": "Слабое существительное: den/dem/des Kollegen; женщина — die Kollegin.",
+  "gloss_en": "colleague",
+  "example_en": "My colleague helps me."
  },
  {
   "en": "der Lehrer",
@@ -3693,7 +4307,9 @@
   "example": "Unser Lehrer erklärt alles gut.",
   "example_ru": "Наш учитель всё хорошо объясняет.",
   "forms": "Pl. die Lehrer",
-  "note_ru": "Женщина — die Lehrerin."
+  "note_ru": "Женщина — die Lehrerin.",
+  "gloss_en": "teacher",
+  "example_en": "Our teacher explains everything well."
  },
  {
   "en": "der Schüler",
@@ -3705,7 +4321,9 @@
   "example": "Die Schüler haben heute frei.",
   "example_ru": "У школьников сегодня нет уроков.",
   "forms": "Pl. die Schüler",
-  "note_ru": "Студент вуза — der Student."
+  "note_ru": "Студент вуза — der Student.",
+  "gloss_en": "pupil / student",
+  "example_en": "The pupils have the day off today."
  },
  {
   "en": "der Student",
@@ -3717,7 +4335,9 @@
   "example": "Mein Bruder ist Student.",
   "example_ru": "Мой брат — студент.",
   "forms": "des Studenten, Pl. die Studenten",
-  "note_ru": "Слабое существительное: den/dem/des Studenten."
+  "note_ru": "Слабое существительное: den/dem/des Studenten.",
+  "gloss_en": "student (university)",
+  "example_en": "My brother is a student."
  },
  {
   "en": "die Schule",
@@ -3729,7 +4349,9 @@
   "example": "Mein Sohn geht in die Schule.",
   "example_ru": "Мой сын ходит в школу.",
   "forms": "Pl. die Schulen",
-  "note_ru": "«ходить в школу» — in die Schule / zur Schule gehen."
+  "note_ru": "«ходить в школу» — in die Schule / zur Schule gehen.",
+  "gloss_en": "school",
+  "example_en": "My son goes to school."
  },
  {
   "en": "die Universität",
@@ -3741,7 +4363,9 @@
   "example": "Sie studiert an der Universität in Köln.",
   "example_ru": "Она учится в университете в Кёльне.",
   "forms": "Pl. die Universitäten",
-  "note_ru": "Разговорно — die Uni; «в университете» — an der Universität."
+  "note_ru": "Разговорно — die Uni; «в университете» — an der Universität.",
+  "gloss_en": "university",
+  "example_en": "She studies at the university in Cologne."
  },
  {
   "en": "der Kurs",
@@ -3753,7 +4377,9 @@
   "example": "Der Deutschkurs ist am Abend.",
   "example_ru": "Курс немецкого проходит вечером.",
   "forms": "Pl. die Kurse",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "course / class",
+  "example_en": "The German course is in the evening."
  },
  {
   "en": "die Prüfung",
@@ -3765,7 +4391,9 @@
   "example": "Morgen habe ich eine Prüfung.",
   "example_ru": "Завтра у меня экзамен.",
   "forms": "Pl. die Prüfungen",
-  "note_ru": "«сдать экзамен» — eine Prüfung bestehen; «сдавать» — machen."
+  "note_ru": "«сдать экзамен» — eine Prüfung bestehen; «сдавать» — machen.",
+  "gloss_en": "exam",
+  "example_en": "I have an exam tomorrow."
  },
  {
   "en": "lernen",
@@ -3777,7 +4405,9 @@
   "example": "Ich lerne seit einem Jahr Deutsch.",
   "example_ru": "Я учу немецкий уже год.",
   "forms": "lernt, lernte, hat gelernt",
-  "note_ru": "«lernen» — учить, «studieren» — учиться в вузе."
+  "note_ru": "«lernen» — учить, «studieren» — учиться в вузе.",
+  "gloss_en": "to learn / to study",
+  "example_en": "I've been learning German for a year."
  },
  {
   "en": "die Hausaufgabe",
@@ -3789,7 +4419,9 @@
   "example": "Hast du deine Hausaufgaben gemacht?",
   "example_ru": "Ты сделал домашнее задание?",
   "forms": "Pl. die Hausaufgaben",
-  "note_ru": "Обычно во мн. ч.: die Hausaufgaben machen."
+  "note_ru": "Обычно во мн. ч.: die Hausaufgaben machen.",
+  "gloss_en": "homework",
+  "example_en": "Have you done your homework?"
  },
  {
   "en": "das Heft",
@@ -3801,7 +4433,9 @@
   "example": "Schreibt die Wörter ins Heft!",
   "example_ru": "Запишите слова в тетрадь!",
   "forms": "Pl. die Hefte",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "exercise book",
+  "example_en": "Write the words in your exercise books!"
  },
  {
   "en": "der Kugelschreiber",
@@ -3813,7 +4447,9 @@
   "example": "Hast du einen Kugelschreiber für mich?",
   "example_ru": "У тебя есть для меня ручка?",
   "forms": "Pl. die Kugelschreiber",
-  "note_ru": "Разговорно — der Kuli."
+  "note_ru": "Разговорно — der Kuli.",
+  "gloss_en": "ballpoint pen",
+  "example_en": "Do you have a pen for me?"
  },
  {
   "en": "der Bleistift",
@@ -3825,7 +4461,9 @@
   "example": "Ich schreibe mit dem Bleistift.",
   "example_ru": "Я пишу карандашом.",
   "forms": "Pl. die Bleistifte",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "pencil",
+  "example_en": "I write with a pencil."
  },
  {
   "en": "das Wort",
@@ -3837,7 +4475,9 @@
   "example": "Was bedeutet dieses Wort?",
   "example_ru": "Что значит это слово?",
   "forms": "Pl. die Wörter / die Worte",
-  "note_ru": "die Wörter — отдельные слова, die Worte — высказывание, речь."
+  "note_ru": "die Wörter — отдельные слова, die Worte — высказывание, речь.",
+  "gloss_en": "word",
+  "example_en": "What does this word mean?"
  },
  {
   "en": "der Satz",
@@ -3849,7 +4489,9 @@
   "example": "Lies bitte den Satz vor.",
   "example_ru": "Прочитай, пожалуйста, предложение вслух.",
   "forms": "Pl. die Sätze",
-  "note_ru": "«Предложение» в смысле «оффер» — das Angebot."
+  "note_ru": "«Предложение» в смысле «оффер» — das Angebot.",
+  "gloss_en": "sentence",
+  "example_en": "Please read the sentence aloud."
  },
  {
   "en": "die Frage",
@@ -3861,7 +4503,9 @@
   "example": "Ich habe eine Frage.",
   "example_ru": "У меня вопрос.",
   "forms": "Pl. die Fragen",
-  "note_ru": "«задать вопрос» — eine Frage stellen."
+  "note_ru": "«задать вопрос» — eine Frage stellen.",
+  "gloss_en": "question",
+  "example_en": "I have a question."
  },
  {
   "en": "die Antwort",
@@ -3873,7 +4517,9 @@
   "example": "Die Antwort ist richtig.",
   "example_ru": "Ответ правильный.",
   "forms": "Pl. die Antworten",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "answer",
+  "example_en": "The answer is correct."
  },
  {
   "en": "der Computer",
@@ -3885,7 +4531,9 @@
   "example": "Ich arbeite viel am Computer.",
   "example_ru": "Я много работаю за компьютером.",
   "forms": "Pl. die Computer",
-  "note_ru": "«за компьютером» — am Computer."
+  "note_ru": "«за компьютером» — am Computer.",
+  "gloss_en": "computer",
+  "example_en": "I work a lot on the computer."
  },
  {
   "en": "die Klasse",
@@ -3897,7 +4545,9 @@
   "example": "In meiner Klasse sind zwanzig Schüler.",
   "example_ru": "В моём классе двадцать учеников.",
   "forms": "Pl. die Klassen",
-  "note_ru": "Разговорно также «отлично!»: Das ist klasse!"
+  "note_ru": "Разговорно также «отлично!»: Das ist klasse!",
+  "gloss_en": "class / classroom",
+  "example_en": "There are twenty pupils in my class."
  },
  {
   "en": "das Hobby",
@@ -3909,7 +4559,9 @@
   "example": "Mein Hobby ist Kochen.",
   "example_ru": "Моё хобби — готовка.",
   "forms": "Pl. die Hobbys",
-  "note_ru": "Мн. ч. пишется Hobbys (не Hobbies)."
+  "note_ru": "Мн. ч. пишется Hobbys (не Hobbies).",
+  "gloss_en": "hobby",
+  "example_en": "My hobby is cooking."
  },
  {
   "en": "die Freizeit",
@@ -3921,7 +4573,9 @@
   "example": "Was machst du in deiner Freizeit?",
   "example_ru": "Что ты делаешь в свободное время?",
   "forms": "ohne Pl.",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "free time / leisure",
+  "example_en": "What do you do in your free time?"
  },
  {
   "en": "spielen",
@@ -3933,7 +4587,9 @@
   "example": "Wir spielen am Abend Karten.",
   "example_ru": "Вечером мы играем в карты.",
   "forms": "spielt, spielte, hat gespielt",
-  "note_ru": "На инструменте без предлога: Klavier spielen — играть на пианино."
+  "note_ru": "На инструменте без предлога: Klavier spielen — играть на пианино.",
+  "gloss_en": "to play",
+  "example_en": "In the evening we play cards."
  },
  {
   "en": "schwimmen",
@@ -3945,7 +4601,9 @@
   "example": "Ich schwimme gern im Meer.",
   "example_ru": "Я люблю плавать в море.",
   "forms": "schwimmt, schwamm, ist geschwommen",
-  "note_ru": "Perfekt обычно с sein: Ich bin geschwommen."
+  "note_ru": "Perfekt обычно с sein: Ich bin geschwommen.",
+  "gloss_en": "to swim",
+  "example_en": "I like swimming in the sea."
  },
  {
   "en": "tanzen",
@@ -3957,7 +4615,9 @@
   "example": "Wir tanzen die ganze Nacht.",
   "example_ru": "Мы танцуем всю ночь.",
   "forms": "tanzt, tanzte, hat getanzt",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to dance",
+  "example_en": "We dance all night."
  },
  {
   "en": "singen",
@@ -3969,7 +4629,9 @@
   "example": "Meine Schwester singt sehr schön.",
   "example_ru": "Моя сестра очень красиво поёт.",
   "forms": "singt, sang, hat gesungen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to sing",
+  "example_en": "My sister sings beautifully."
  },
  {
   "en": "malen",
@@ -3981,7 +4643,9 @@
   "example": "Das Kind malt ein Haus.",
   "example_ru": "Ребёнок рисует дом.",
   "forms": "malt, malte, hat gemalt",
-  "note_ru": "Красками — malen, карандашом — zeichnen."
+  "note_ru": "Красками — malen, карандашом — zeichnen.",
+  "gloss_en": "to paint",
+  "example_en": "The child is painting a house."
  },
  {
   "en": "der Fußball",
@@ -3993,7 +4657,9 @@
   "example": "Am Wochenende spielen wir Fußball.",
   "example_ru": "На выходных мы играем в футбол.",
   "forms": "Pl. die Fußbälle",
-  "note_ru": "«Fußball spielen» — без артикля; в Швейцарии пишут Fussball."
+  "note_ru": "«Fußball spielen» — без артикля; в Швейцарии пишут Fussball.",
+  "gloss_en": "football / soccer",
+  "example_en": "At the weekend we play football."
  },
  {
   "en": "das Kino",
@@ -4005,7 +4671,9 @@
   "example": "Gehen wir heute ins Kino?",
   "example_ru": "Пойдём сегодня в кино?",
   "forms": "Pl. die Kinos",
-  "note_ru": "«в кино» — ins Kino (куда?), im Kino (где?)."
+  "note_ru": "«в кино» — ins Kino (куда?), im Kino (где?).",
+  "gloss_en": "cinema",
+  "example_en": "Shall we go to the cinema today?"
  },
  {
   "en": "der Film",
@@ -4017,7 +4685,9 @@
   "example": "Der Film war sehr gut.",
   "example_ru": "Фильм был очень хороший.",
   "forms": "Pl. die Filme",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "film / movie",
+  "example_en": "The film was very good."
  },
  {
   "en": "die Musik",
@@ -4029,7 +4699,9 @@
   "example": "Ich höre gern Musik.",
   "example_ru": "Я люблю слушать музыку.",
   "forms": "ohne Pl.",
-  "note_ru": "Ударение на последний слог: Mu-SIK."
+  "note_ru": "Ударение на последний слог: Mu-SIK.",
+  "gloss_en": "music",
+  "example_en": "I like listening to music."
  },
  {
   "en": "das Konzert",
@@ -4041,7 +4713,9 @@
   "example": "Das Konzert beginnt um acht.",
   "example_ru": "Концерт начинается в восемь.",
   "forms": "Pl. die Konzerte",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "concert",
+  "example_en": "The concert starts at eight."
  },
  {
   "en": "das Buch",
@@ -4053,7 +4727,9 @@
   "example": "Ich lese ein Buch über Tiere.",
   "example_ru": "Я читаю книгу о животных.",
   "forms": "Pl. die Bücher",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "book",
+  "example_en": "I'm reading a book about animals."
  },
  {
   "en": "das Spiel",
@@ -4065,7 +4741,9 @@
   "example": "Das Spiel beginnt gleich.",
   "example_ru": "Игра сейчас начнётся.",
   "forms": "Pl. die Spiele",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "game / match",
+  "example_en": "The game is about to start."
  },
  {
   "en": "der Sport",
@@ -4077,7 +4755,9 @@
   "example": "Machst du gern Sport?",
   "example_ru": "Ты любишь заниматься спортом?",
   "forms": "ohne Pl.",
-  "note_ru": "«заниматься спортом» — Sport machen / Sport treiben."
+  "note_ru": "«заниматься спортом» — Sport machen / Sport treiben.",
+  "gloss_en": "sport",
+  "example_en": "Do you like doing sport?"
  },
  {
   "en": "spazieren gehen",
@@ -4089,7 +4769,9 @@
   "example": "Wir gehen im Park spazieren.",
   "example_ru": "Мы гуляем в парке.",
   "forms": "geht spazieren, ging spazieren, ist spazieren gegangen",
-  "note_ru": "Пишется раздельно; spazieren стоит в конце предложения."
+  "note_ru": "Пишется раздельно; spazieren стоит в конце предложения.",
+  "gloss_en": "to go for a walk",
+  "example_en": "We go for a walk in the park."
  },
  {
   "en": "reisen",
@@ -4101,7 +4783,9 @@
   "example": "Ich reise gern.",
   "example_ru": "Я люблю путешествовать.",
   "forms": "reist, reiste, ist gereist",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to travel",
+  "example_en": "I like travelling."
  },
  {
   "en": "wandern",
@@ -4113,7 +4797,9 @@
   "example": "Im Sommer wandern wir in den Alpen.",
   "example_ru": "Летом мы ходим в походы в Альпах.",
   "forms": "wandert, wanderte, ist gewandert",
-  "note_ru": "Не просто «бродить»: это пешие походы на природе, любимое хобби немцев."
+  "note_ru": "Не просто «бродить»: это пешие походы на природе, любимое хобби немцев.",
+  "gloss_en": "to hike",
+  "example_en": "In summer we go hiking in the Alps."
  },
  {
   "en": "das Foto",
@@ -4125,7 +4811,9 @@
   "example": "Ich zeige dir ein Foto von meiner Familie.",
   "example_ru": "Я покажу тебе фотографию моей семьи.",
   "forms": "Pl. die Fotos",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "photo",
+  "example_en": "I'll show you a photo of my family."
  },
  {
   "en": "fotografieren",
@@ -4137,7 +4825,9 @@
   "example": "Darf ich hier fotografieren?",
   "example_ru": "Здесь можно фотографировать?",
   "forms": "fotografiert, fotografierte, hat fotografiert",
-  "note_ru": "Глаголы на -ieren образуют Partizip без ge-."
+  "note_ru": "Глаголы на -ieren образуют Partizip без ge-.",
+  "gloss_en": "to take photos",
+  "example_en": "Am I allowed to take photos here?"
  },
  {
   "en": "das Museum",
@@ -4149,7 +4839,9 @@
   "example": "Das Museum ist am Montag zu.",
   "example_ru": "По понедельникам музей закрыт.",
   "forms": "Pl. die Museen",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "museum",
+  "example_en": "The museum is closed on Mondays."
  },
  {
   "en": "die Party",
@@ -4161,7 +4853,9 @@
   "example": "Am Samstag mache ich eine Party.",
   "example_ru": "В субботу я устраиваю вечеринку.",
   "forms": "Pl. die Partys",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "party",
+  "example_en": "I'm having a party on Saturday."
  },
  {
   "en": "die Gitarre",
@@ -4173,7 +4867,9 @@
   "example": "Mein Sohn spielt Gitarre.",
   "example_ru": "Мой сын играет на гитаре.",
   "forms": "Pl. die Gitarren",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "guitar",
+  "example_en": "My son plays the guitar."
  },
  {
   "en": "der Urlaub",
@@ -4185,7 +4881,9 @@
   "example": "Wir machen Urlaub in Spanien.",
   "example_ru": "Мы проводим отпуск в Испании.",
   "forms": "Pl. die Urlaube",
-  "note_ru": "«в отпуске» — im Urlaub; в Швейцарии чаще die Ferien."
+  "note_ru": "«в отпуске» — im Urlaub; в Швейцарии чаще die Ferien.",
+  "gloss_en": "holiday / vacation",
+  "example_en": "We're going on holiday in Spain."
  },
  {
   "en": "das Theater",
@@ -4197,7 +4895,9 @@
   "example": "Heute Abend gehen wir ins Theater.",
   "example_ru": "Сегодня вечером мы идём в театр.",
   "forms": "Pl. die Theater",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "theatre",
+  "example_en": "We're going to the theatre tonight."
  },
  {
   "en": "das Tier",
@@ -4209,7 +4909,9 @@
   "example": "Ich mag Tiere sehr.",
   "example_ru": "Я очень люблю животных.",
   "forms": "Pl. die Tiere",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "animal",
+  "example_en": "I really like animals."
  },
  {
   "en": "der Hund",
@@ -4221,7 +4923,9 @@
   "example": "Unser Hund heißt Bello.",
   "example_ru": "Нашу собаку зовут Белло.",
   "forms": "Pl. die Hunde",
-  "note_ru": "Мужского рода; «собака» — женского."
+  "note_ru": "Мужского рода; «собака» — женского.",
+  "gloss_en": "dog",
+  "example_en": "Our dog's name is Bello."
  },
  {
   "en": "die Katze",
@@ -4233,7 +4937,9 @@
   "example": "Die Katze schläft auf dem Sofa.",
   "example_ru": "Кошка спит на диване.",
   "forms": "Pl. die Katzen",
-  "note_ru": "Кот — der Kater."
+  "note_ru": "Кот — der Kater.",
+  "gloss_en": "cat",
+  "example_en": "The cat is sleeping on the sofa."
  },
  {
   "en": "das Pferd",
@@ -4245,7 +4951,9 @@
   "example": "Das Pferd ist groß und braun.",
   "example_ru": "Лошадь большая и гнедая.",
   "forms": "Pl. die Pferde",
-  "note_ru": "Среднего рода: das Pferd."
+  "note_ru": "Среднего рода: das Pferd.",
+  "gloss_en": "horse",
+  "example_en": "The horse is big and brown."
  },
  {
   "en": "die Kuh",
@@ -4257,7 +4965,9 @@
   "example": "Die Kuh steht auf der Wiese.",
   "example_ru": "Корова стоит на лугу.",
   "forms": "Pl. die Kühe",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "cow",
+  "example_en": "The cow is standing in the meadow."
  },
  {
   "en": "das Schwein",
@@ -4269,7 +4979,9 @@
   "example": "Das Schwein ist sehr dick.",
   "example_ru": "Свинья очень толстая.",
   "forms": "Pl. die Schweine",
-  "note_ru": "Разговорное «Schwein haben» — «повезти»."
+  "note_ru": "Разговорное «Schwein haben» — «повезти».",
+  "gloss_en": "pig",
+  "example_en": "The pig is very fat."
  },
  {
   "en": "das Huhn",
@@ -4281,7 +4993,9 @@
   "example": "Das Huhn legt jeden Tag ein Ei.",
   "example_ru": "Курица каждый день несёт яйцо.",
   "forms": "Pl. die Hühner",
-  "note_ru": "Курица как блюдо — das Hähnchen; в Австрии — das Hendl."
+  "note_ru": "Курица как блюдо — das Hähnchen; в Австрии — das Hendl.",
+  "gloss_en": "chicken / hen",
+  "example_en": "The hen lays an egg every day."
  },
  {
   "en": "der Vogel",
@@ -4293,7 +5007,9 @@
   "example": "Der Vogel singt im Baum.",
   "example_ru": "Птица поёт на дереве.",
   "forms": "Pl. die Vögel",
-  "note_ru": "Разговорное «einen Vogel haben» — «быть с приветом»."
+  "note_ru": "Разговорное «einen Vogel haben» — «быть с приветом».",
+  "gloss_en": "bird",
+  "example_en": "The bird is singing in the tree."
  },
  {
   "en": "die Maus",
@@ -4305,7 +5021,9 @@
   "example": "Die Katze fängt eine Maus.",
   "example_ru": "Кошка ловит мышь.",
   "forms": "Pl. die Mäuse",
-  "note_ru": "Также компьютерная мышь."
+  "note_ru": "Также компьютерная мышь.",
+  "gloss_en": "mouse",
+  "example_en": "The cat catches a mouse."
  },
  {
   "en": "das Schaf",
@@ -4317,7 +5035,9 @@
   "example": "Auf dem Berg sind viele Schafe.",
   "example_ru": "На горе много овец.",
   "forms": "Pl. die Schafe",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "sheep",
+  "example_en": "There are lots of sheep on the mountain."
  },
  {
   "en": "die Ziege",
@@ -4329,7 +5049,9 @@
   "example": "Die Ziege frisst Gras.",
   "example_ru": "Коза ест траву.",
   "forms": "Pl. die Ziegen",
-  "note_ru": "О животных не «essen», а «fressen»."
+  "note_ru": "О животных не «essen», а «fressen».",
+  "gloss_en": "goat",
+  "example_en": "The goat is eating grass."
  },
  {
   "en": "der Hase",
@@ -4341,7 +5063,9 @@
   "example": "Der Hase läuft sehr schnell.",
   "example_ru": "Заяц бегает очень быстро.",
   "forms": "des Hasen, Pl. die Hasen",
-  "note_ru": "Слабое существительное; кролик — das Kaninchen."
+  "note_ru": "Слабое существительное; кролик — das Kaninchen.",
+  "gloss_en": "hare",
+  "example_en": "The hare runs very fast."
  },
  {
   "en": "der Bär",
@@ -4353,7 +5077,9 @@
   "example": "Im Wald lebt ein Bär.",
   "example_ru": "В лесу живёт медведь.",
   "forms": "des Bären, Pl. die Bären",
-  "note_ru": "Слабое существительное: den/dem Bären."
+  "note_ru": "Слабое существительное: den/dem Bären.",
+  "gloss_en": "bear",
+  "example_en": "A bear lives in the forest."
  },
  {
   "en": "der Wolf",
@@ -4365,7 +5091,9 @@
   "example": "Der Wolf ist grau.",
   "example_ru": "Волк серый.",
   "forms": "Pl. die Wölfe",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "wolf",
+  "example_en": "The wolf is grey."
  },
  {
   "en": "der Fuchs",
@@ -4377,7 +5105,9 @@
   "example": "Der Fuchs ist schlau.",
   "example_ru": "Лиса хитрая.",
   "forms": "Pl. die Füchse",
-  "note_ru": "Мужского рода, «лиса» — женского."
+  "note_ru": "Мужского рода, «лиса» — женского.",
+  "gloss_en": "fox",
+  "example_en": "The fox is clever."
  },
  {
   "en": "der Löwe",
@@ -4389,7 +5119,9 @@
   "example": "Der Löwe ist sehr stark.",
   "example_ru": "Лев очень сильный.",
   "forms": "des Löwen, Pl. die Löwen",
-  "note_ru": "Слабое существительное: den/dem/des Löwen."
+  "note_ru": "Слабое существительное: den/dem/des Löwen.",
+  "gloss_en": "lion",
+  "example_en": "The lion is very strong."
  },
  {
   "en": "der Elefant",
@@ -4401,7 +5133,9 @@
   "example": "Im Zoo gibt es zwei Elefanten.",
   "example_ru": "В зоопарке есть два слона.",
   "forms": "des Elefanten, Pl. die Elefanten",
-  "note_ru": "Слабое существительное: den/dem/des Elefanten."
+  "note_ru": "Слабое существительное: den/dem/des Elefanten.",
+  "gloss_en": "elephant",
+  "example_en": "There are two elephants at the zoo."
  },
  {
   "en": "der Affe",
@@ -4413,7 +5147,9 @@
   "example": "Der Affe frisst eine Banane.",
   "example_ru": "Обезьяна ест банан.",
   "forms": "des Affen, Pl. die Affen",
-  "note_ru": "Мужского рода и слабое: den/dem Affen."
+  "note_ru": "Мужского рода и слабое: den/dem Affen.",
+  "gloss_en": "monkey / ape",
+  "example_en": "The monkey is eating a banana."
  },
  {
   "en": "die Ente",
@@ -4425,7 +5161,9 @@
   "example": "Auf dem See schwimmen Enten.",
   "example_ru": "По озеру плавают утки.",
   "forms": "Pl. die Enten",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "duck",
+  "example_en": "Ducks are swimming on the lake."
  },
  {
   "en": "die Schlange",
@@ -4437,7 +5175,9 @@
   "example": "Die Schlange ist lang und grün.",
   "example_ru": "Змея длинная и зелёная.",
   "forms": "Pl. die Schlangen",
-  "note_ru": "Также «очередь»: Schlange stehen — стоять в очереди."
+  "note_ru": "Также «очередь»: Schlange stehen — стоять в очереди.",
+  "gloss_en": "snake / queue",
+  "example_en": "The snake is long and green."
  },
  {
   "en": "der Tiger",
@@ -4449,7 +5189,9 @@
   "example": "Der Tiger schläft im Zoo.",
   "example_ru": "Тигр спит в зоопарке.",
   "forms": "Pl. die Tiger",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "tiger",
+  "example_en": "The tiger is sleeping at the zoo."
  },
  {
   "en": "die Giraffe",
@@ -4461,7 +5203,9 @@
   "example": "Die Giraffe ist sehr groß.",
   "example_ru": "Жираф очень высокий.",
   "forms": "Pl. die Giraffen",
-  "note_ru": "Женского рода, «жираф» — мужского."
+  "note_ru": "Женского рода, «жираф» — мужского.",
+  "gloss_en": "giraffe",
+  "example_en": "The giraffe is very tall."
  },
  {
   "en": "das Haustier",
@@ -4473,7 +5217,9 @@
   "example": "Habt ihr ein Haustier?",
   "example_ru": "У вас есть домашнее животное?",
   "forms": "Pl. die Haustiere",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "pet",
+  "example_en": "Do you have a pet?"
  },
  {
   "en": "der Zoo",
@@ -4485,7 +5231,9 @@
   "example": "Am Sonntag gehen wir in den Zoo.",
   "example_ru": "В воскресенье мы идём в зоопарк.",
   "forms": "Pl. die Zoos",
-  "note_ru": "Произносится [tsoː], одним слогом."
+  "note_ru": "Произносится [tsoː], одним слогом.",
+  "gloss_en": "zoo",
+  "example_en": "On Sunday we're going to the zoo."
  },
  {
   "en": "füttern",
@@ -4497,7 +5245,9 @@
   "example": "Ich füttere die Katze am Morgen.",
   "example_ru": "Я кормлю кошку утром.",
   "forms": "füttert, fütterte, hat gefüttert",
-  "note_ru": null
+  "note_ru": null,
+  "gloss_en": "to feed (animals)",
+  "example_en": "I feed the cat in the morning."
  },
  {
   "en": "sein",
