@@ -13,7 +13,7 @@
 <link rel="icon" href="icons/icon-192.png">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}</style>
 <script src="https://js.sentry-cdn.com/584d2ee122ed93030699d97f4912c975.min.js" crossorigin="anonymous"></script>
-<script>window.sentryOnLoad=function(){Sentry.init({release:"biiwow-french-steps@1794429244152",environment:"production",sendDefaultPii:false});};</script>
+<script>window.sentryOnLoad=function(){Sentry.init({release:"biiwow-french-steps@1794432503417",environment:"production",sendDefaultPii:false});};</script>
 <title>biiwow French Steps</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap">
@@ -593,32 +593,32 @@ function openSettings(){const body=el("div",{class:"stack"},el("p",{class:"muted
 /* ---------- boot ---------- */
 
 /* ---------- level test: 20 questions from A1 up, recommended level + levels worth revising ---------- */
-Object.assign(T.en,{ptCardTitle:"Test my level",ptCardText:"20 questions from A1 upwards, about 5 minutes. You get a recommended level and a list of what to revise.",ptStart:"Start the test",ptRetake:"Take the test again",
+Object.assign(T.en,{ptCardTitle:"Test my level",ptCardText:"Questions from A1 upwards. You get a recommended level and a list of what to revise. Choose the length: the more questions you answer, the more precise our recommendation.",ptLen:n=>`${n} questions`,ptLenD:n=>n<=20?"~5 min · quick estimate":n<=50?"~12 min · more precise":"~25 min · most precise",ptBased:n=>`Based on ${n} questions.`,ptMorePrecise:"For a more precise recommendation, take the longer test:",ptChoose:"Choose the test length",ptStart:"Start the test",ptRetake:"Take the test again",
   ptLast:(l,d)=>`Last test: ${l} · ${d}`,ptQ:(i,n)=>`Question ${i} of ${n}`,ptWordQ:"What does this word mean?",ptGramQ:"Choose the correct answer",ptDontKnow:"I don't know",ptQuit:"Stop the test",
   ptNeedNet:"The test needs every level once. Connect to the internet and try again.",ptResultEyebrow:"Your level test",ptRec:(l,n)=>`Recommended level: ${l} · ${n}`,
   ptRecText:(l,below,rev)=>below?(rev?`Start studying at ${l}. You mostly know ${below}; revise the points below.`:`Start studying at ${l}. You already know ${below} well.`):`Start at ${l}: this is the right place to begin.`,ptTop:(l)=>`You passed every level. Keep polishing ${l}.`,
   ptPerLevel:"Result by level",ptRevise:"Worth revising",ptNoRevise:"No gaps in the levels below your recommended level.",ptReviseWords:"Words",ptReviseGrammar:"Grammar",ptOpen:"Open",
   ptGoLevel:l=>`Start studying at ${l}`,ptHome:"Back to home",ptCorrect:(c,n)=>`${c} of ${n}`,ptAbove:"You also got some higher-level questions right: a good sign for later."});
-Object.assign(T.ru,{ptCardTitle:"Проверить мой уровень",ptCardText:"20 вопросов от A1 и выше, около 5 минут. Вы получите рекомендованный уровень и список того, что стоит повторить.",ptStart:"Начать тест",ptRetake:"Пройти тест снова",
+Object.assign(T.ru,{ptCardTitle:"Проверить мой уровень",ptCardText:"Вопросы от A1 и выше. Вы получите рекомендованный уровень и список того, что стоит повторить. Выберите длину теста: чем больше вопросов, тем точнее наша рекомендация.",ptLen:n=>`${n} вопросов`,ptLenD:n=>n<=20?"~5 мин · быстрая оценка":n<=50?"~12 мин · точнее":"~25 мин · самая точная",ptBased:n=>`По результатам ${n} вопросов.`,ptMorePrecise:"Для более точной рекомендации пройдите тест подлиннее:",ptChoose:"Выберите длину теста",ptStart:"Начать тест",ptRetake:"Пройти тест снова",
   ptLast:(l,d)=>`Последний тест: ${l} · ${d}`,ptQ:(i,n)=>`Вопрос ${i} из ${n}`,ptWordQ:"Что значит это слово?",ptGramQ:"Выберите правильный ответ",ptDontKnow:"Не знаю",ptQuit:"Прервать тест",
   ptNeedNet:"Для теста нужны все уровни. Подключитесь к интернету и попробуйте снова.",ptResultEyebrow:"Тест уровня",ptRec:(l,n)=>`Рекомендуемый уровень: ${l} · ${n}`,
   ptRecText:(l,below,rev)=>below?(rev?`Начните заниматься с уровня ${l}. ${below} вы в основном знаете, но повторите пункты ниже.`:`Начните заниматься с уровня ${l}. ${below} вы уже знаете хорошо.`):`Начните с уровня ${l}: это правильная отправная точка.`,ptTop:(l)=>`Вы прошли все уровни. Продолжайте совершенствовать ${l}.`,
   ptPerLevel:"Результат по уровням",ptRevise:"Стоит повторить",ptNoRevise:"В уровнях ниже рекомендованного пробелов нет.",ptReviseWords:"Слова",ptReviseGrammar:"Грамматика",ptOpen:"Открыть",
   ptGoLevel:l=>`Заниматься с уровня ${l}`,ptHome:"На главную",ptCorrect:(c,n)=>`${c} из ${n}`,ptAbove:"Вы ответили правильно и на некоторые вопросы более высоких уровней: хороший знак на будущее."});
-const PT_N=20,hasCyr=s=>/[Ѐ-ӿ]/.test(String(s||""));
+const PT_SIZES=[20,50,100],hasCyr=s=>/[Ѐ-ӿ]/.test(String(s||""));
 const ptOpt=w=>UI==="en"&&LANG.code==="en"?(w.def||TR(w)):String(TR(w));
-function ptPlan(){const n=LEVELS.length,base=Math.floor(PT_N/n);const c=LEVELS.map(()=>base);let r=PT_N-base*n;const mid=[...LEVELS.keys()].sort((a,b)=>Math.abs(a-(n-1)/2)-Math.abs(b-(n-1)/2));for(const i of mid){if(!r)break;c[i]++;r--;}return c;}
+function ptPlan(N){const n=LEVELS.length,base=Math.floor(N/n);const c=LEVELS.map(()=>base);let r=N-base*n;const mid=[...LEVELS.keys()].sort((a,b)=>Math.abs(a-(n-1)/2)-Math.abs(b-(n-1)/2));for(const i of mid){if(!r)break;c[i]++;r--;}return c;}
 function ptWordQ(level,v,used){const pool=shuffle(v.filter(w=>w.pos!=="phrase"&&!used.has(w.id)&&ptOpt(w)));const w=pool[0];if(!w)return null;used.add(w.id);
   const key=x=>norm(ptOpt(x));let d=shuffle(v.filter(x=>x.id!==w.id&&x.pos===w.pos&&key(x)!==key(w)));if(d.length<3)d=d.concat(shuffle(v.filter(x=>x.id!==w.id&&x.pos!==w.pos&&key(x)!==key(w))));
   const opts=[w];for(const x of d){if(opts.length>=4)break;if(!opts.some(o=>key(o)===key(x)))opts.push(x);}const sh=shuffle(opts);
   return {level,kind:"w",item:w,options:sh.map(ptOpt),answer:sh.indexOf(w)};}
-function ptGramQ(level,g,used){const cands=[];for(const s of g.sections)for(const e of s.exercises)if(e.type==="mc"&&Array.isArray(e.options)&&e.options.length>=3&&!hasCyr(e.q)&&!e.options.some(hasCyr)&&!used.has(s.id))cands.push({s,e});
-  const pick=shuffle(cands)[0];if(!pick)return null;used.add(pick.s.id);return {level,kind:"g",sec:pick.s,ex:pick.e,q:pick.e.q,options:pick.e.options.map(String),answer:pick.e.answer};}
-async function ptBuild(){const [vs,gs]=await Promise.all([Promise.all(LEVELS.map(vocabFor)),Promise.all(LEVELS.map(grammarFor))]);if(vs.some(x=>!x)||gs.some(x=>!x))return null;
-  const plan=ptPlan(),qs=[];LEVELS.forEach((L,i)=>{const k=plan[i],ng=Math.floor(k/2),nw=k-ng,uw=new Set(),ug=new Set();const lv=[];
+function ptGramQ(level,g,used){const all=[];for(const s of g.sections)for(const e of s.exercises)if(e.type==="mc"&&Array.isArray(e.options)&&e.options.length>=3&&!hasCyr(e.q)&&!e.options.some(hasCyr)&&!used.has(e))all.push({s,e});
+  const fresh=all.filter(c=>!used.has(c.s.id));const pick=shuffle(fresh.length?fresh:all)[0];if(!pick)return null;used.add(pick.s.id);used.add(pick.e);return {level,kind:"g",sec:pick.s,ex:pick.e,q:pick.e.q,options:pick.e.options.map(String),answer:pick.e.answer};}
+async function ptBuild(N){const [vs,gs]=await Promise.all([Promise.all(LEVELS.map(vocabFor)),Promise.all(LEVELS.map(grammarFor))]);if(vs.some(x=>!x)||gs.some(x=>!x))return null;
+  const plan=ptPlan(N),qs=[];LEVELS.forEach((L,i)=>{const k=plan[i],ng=Math.floor(k/2),nw=k-ng,uw=new Set(),ug=new Set();const lv=[];
     for(let j=0;j<ng;j++){const q=ptGramQ(L,gs[i],ug);if(q)lv.push(q);}while(lv.length<k){const q=ptWordQ(L,vs[i],uw);if(!q)break;lv.push(q);}
     qs.push(...shuffle(lv));});return qs;}
-async function ptStart(){if(S.round||S.test)return;S.pt={loading:true};go("ptest");const qs=await ptBuild();if(!S.pt)return;if(!qs||!qs.length){S.pt=null;toast(t("ptNeedNet"),4000);go("home");return;}S.pt={qs,i:0,answers:[]};render();}
+async function ptStart(N){N=PT_SIZES.includes(N)?N:20;if(S.round||S.test)return;S.pt={loading:true};go("ptest");const qs=await ptBuild(N);if(!S.pt)return;if(!qs||!qs.length){S.pt=null;toast(t("ptNeedNet"),4000);go("home");return;}S.pt={qs,i:0,answers:[]};render();}
 function viewPTest(w){const P=S.pt;if(!P){go("home");return;}if(P.loading){w.append(el("p",{class:"muted"},t("loading")));return;}
   const q=P.qs[P.i],n=P.qs.length;
   w.append(el("div",{class:"row between",style:"align-items:center"},el("span",{class:"small",style:"font-weight:700"},t("ptQ",P.i+1,n)),el("button",{class:"btn ghost",style:"padding:6px 10px",onclick:()=>{S.pt=null;go("home");}},t("ptQuit"))));
@@ -633,7 +633,7 @@ function viewPTest(w){const P=S.pt;if(!P){go("home");return;}if(P.loading){w.app
 function ptScore(answers){const by={};for(const L of LEVELS)by[L]={c:0,n:0};for(const a of answers){by[a.level].n++;if(a.ok)by[a.level].c++;}
   const pass=L=>by[L].n&&by[L].c/by[L].n>=0.66;let rec=LEVELS.find(L=>!pass(L))||null;return {by,rec,top:!rec};}
 function ptFinish(){const P=S.pt;const sc=ptScore(P.answers);const rec=sc.rec||LEVELS[LEVELS.length-1];
-  S.doc.placement={at:Date.now(),level:rec,top:sc.top,by:sc.by,miss:P.answers.filter(a=>!a.ok).map(a=>a.kind==="w"?{level:a.level,kind:"w",id:a.item.id,en:a.item.en,tr:ptOpt(a.item)}:{level:a.level,kind:"g",sid:a.sec.id,title_en:a.sec.title_en,title_ru:a.sec.title_ru})};
+  S.doc.placement={at:Date.now(),n:P.qs.length,level:rec,top:sc.top,by:sc.by,miss:P.answers.filter(a=>!a.ok).map(a=>a.kind==="w"?{level:a.level,kind:"w",id:a.item.id,en:a.item.en,tr:ptOpt(a.item)}:{level:a.level,kind:"g",sid:a.sec.id,title_en:a.sec.title_en,title_ru:a.sec.title_ru})};
   touch();S.pt=null;go("ptresult");}
 function viewPTResult(w){const R=S.doc.placement;if(!R){go("home");return;}const rec=R.level,ri=LEVELS.indexOf(rec);
   const below=LEVELS.slice(0,R.top?LEVELS.length:ri);const belowTxt=below.length?(below.length>1?below[0]+"–"+below[below.length-1]:below[0]):"";
@@ -650,11 +650,13 @@ function viewPTResult(w){const R=S.doc.placement;if(!R){go("home");return;}const
     if(gs.length)card.append(el("div",{},el("p",{class:"eyebrow"},t("ptReviseGrammar")),...gs.map(m=>el("div",{class:"row between",style:"gap:8px"},el("span",{class:"small"},UI==="ru"?m.title_ru:m.title_en),el("button",{class:"btn ghost",onclick:()=>{S.level=L;touch();go("gsection",{sid:m.sid});}},t("ptOpen"))))));
     rev.append(card);}
   w.append(section(t("ptRevise"),rev));
+  w.append(section(t("ptRetake"),el("div",{class:"stack",style:"gap:6px"},el("p",{class:"muted small"},(R.n?t("ptBased",R.n)+" ":"")+((R.n||20)<100?t("ptMorePrecise"):"")),ptSizeButtons(false))));
   const above=LEVELS.slice(ri+1).some(L=>R.by[L]&&R.by[L].c>0);if(!R.top&&above)w.append(el("p",{class:"muted small"},t("ptAbove")));
-  w.append(el("div",{class:"row",style:"gap:8px;flex-wrap:wrap;margin-top:8px"},el("button",{class:"btn primary",onclick:()=>{S.level=rec;touch();go("home");}},t("ptGoLevel",rec)),el("button",{class:"btn",onclick:ptStart},t("ptRetake")),el("button",{class:"btn ghost",onclick:()=>go("home")},t("ptHome"))));}
+  w.append(el("div",{class:"row",style:"gap:8px;flex-wrap:wrap;margin-top:8px"},el("button",{class:"btn primary",onclick:()=>{S.level=rec;touch();go("home");}},t("ptGoLevel",rec)),el("button",{class:"btn ghost",onclick:()=>go("home")},t("ptHome"))));}
+function ptSizeButtons(primary){return el("div",{class:"grid2",style:"gap:8px"},...PT_SIZES.map(n=>el("button",{class:"btn"+(primary&&n===20?" primary":""),style:"flex-direction:column;align-items:flex-start;text-align:left;padding:10px 14px;height:auto",onclick:()=>ptStart(n)},el("b",{},t("ptLen",n)),el("span",{class:"small",style:"opacity:.8;font-weight:600"},t("ptLenD",n)))));}
 function ptHomeCard(){const R=S.doc&&S.doc.placement;const d=R?new Date(R.at).toLocaleDateString(UI==="ru"?"ru-RU":"en-GB"):"";
   return el("div",{class:"card stack",style:R?"":"border:2px solid var(--accent)"},el("div",{class:"row between"},el("h3",{},t("ptCardTitle")),R?el("span",{class:"tag"},t("ptLast",R.level,d)):null),el("p",{class:"muted small"},t("ptCardText")),
-    el("div",{class:"row",style:"gap:8px;flex-wrap:wrap"},el("button",{class:"btn primary",onclick:ptStart},R?t("ptRetake"):t("ptStart")),R?el("button",{class:"btn ghost",onclick:()=>go("ptresult")},t("ptRec",R.level,t("level"+R.level))):null));}
+    ptSizeButtons(!R),R?el("button",{class:"btn ghost",style:"align-self:flex-start",onclick:()=>go("ptresult")},t("ptRec",R.level,t("level"+R.level))):null);}
 const EXTRA_VIEWS={ptest:viewPTest,ptresult:viewPTResult};
 {const _go=go;go=function(v,e){if(v!=="ptest"&&S.pt&&!S.pt.loading)S.pt=null;_go(v,e);};}
 {const _home=viewHome;viewHome=function(w){const r=_home(w);const R=S.doc&&S.doc.placement;const c=ptHomeCard();const qs=w.querySelector(".quick");const sec=qs&&qs.closest("section");if(sec){if(R)sec.after(c);else sec.before(c);}else w.append(c);return r;};}
