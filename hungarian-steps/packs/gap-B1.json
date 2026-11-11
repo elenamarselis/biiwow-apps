@@ -520,5 +520,607 @@
   "explain_en": "'Having a … feature' is adjective + noun + -ú/-ű: kék szemű.",
   "explain_ru": "«Обладающий признаком» — прилагательное + существительное + -ú/-ű: kék szemű.",
   "id": "g040"
+ },
+ {
+  "kind": "word",
+  "text": "Ő nem a barátom, csak egy ___ a munkahelyemről.",
+  "answer": [
+   "ismerős"
+  ],
+  "ref": "ismerős",
+  "clue_en": "acquaintance",
+  "clue_ru": "знакомый",
+  "tr_en": "He's not my friend, just an acquaintance from work.",
+  "tr_ru": "Он мне не друг, просто знакомый с работы.",
+  "explain_en": "Someone you merely know is an ismerős; barát is a real friend.",
+  "explain_ru": "Просто знакомый — ismerős, а barát — настоящий друг.",
+  "id": "g041"
+ },
+ {
+  "kind": "word",
+  "text": "Tegnap ___ a barátnőmmel, de ma már kibékültünk.",
+  "answer": [
+   "összevesztem"
+  ],
+  "ref": "összeveszik",
+  "clue_en": "quarrel",
+  "clue_ru": "поссориться",
+  "tr_en": "Yesterday I fell out with my girlfriend, but today we've already made up.",
+  "tr_ru": "Вчера я поссорился с девушкой, но сегодня мы уже помирились.",
+  "explain_en": "Falling out is összeveszik (+ -val/-vel); past 1sg összevesztem.",
+  "explain_ru": "Поссориться — összeveszik (+ -val/-vel); прошедшее 1-го лица: összevesztem.",
+  "id": "g042"
+ },
+ {
+  "kind": "word",
+  "text": "Két hét hallgatás után Anna végre ___ a testvérével.",
+  "answer": [
+   "kibékült"
+  ],
+  "ref": "kibékül",
+  "clue_en": "make up, reconcile",
+  "clue_ru": "помириться",
+  "tr_en": "After two weeks of silence, Anna finally made up with her sister.",
+  "tr_ru": "После двух недель молчания Анна наконец помирилась с сестрой.",
+  "explain_en": "Reconciling is kibékül + -val/-vel; past 3sg kibékült.",
+  "explain_ru": "Помириться — kibékül + -val/-vel; прошедшее: kibékült.",
+  "id": "g043"
+ },
+ {
+  "kind": "word",
+  "text": "A szüleim tíz évvel ezelőtt ___, de jóban maradtak.",
+  "answer": [
+   "elváltak"
+  ],
+  "ref": "elválik",
+  "clue_en": "divorce",
+  "clue_ru": "разводиться",
+  "tr_en": "My parents divorced ten years ago, but they stayed on good terms.",
+  "tr_ru": "Мои родители развелись десять лет назад, но остались в хороших отношениях.",
+  "explain_en": "Divorcing is elválik; past 3pl elváltak.",
+  "explain_ru": "Развестись — elválik; прошедшее 3-го лица мн. числа: elváltak.",
+  "id": "g044"
+ },
+ {
+  "kind": "word",
+  "text": "Ne légy ___ a testvéredre, neked is van új biciklid!",
+  "answer": [
+   "irigy"
+  ],
+  "ref": "irigy",
+  "clue_en": "envious",
+  "clue_ru": "завистливый",
+  "tr_en": "Don't be envious of your brother, you have a new bike too!",
+  "tr_ru": "Не завидуй брату, у тебя тоже есть новый велосипед!",
+  "explain_en": "Envy of someone's things is irigy (+ -ra/-re); féltékeny is jealousy in love.",
+  "explain_ru": "Зависть к чужому — irigy (+ -ra/-re); féltékeny — ревнивый.",
+  "id": "g045"
+ },
+ {
+  "kind": "word",
+  "text": "A főnököm nagyon ___, még a borravalót is sajnálja.",
+  "answer": [
+   "fukar"
+  ],
+  "ref": "fukar",
+  "clue_en": "stingy",
+  "clue_ru": "скупой",
+  "tr_en": "My boss is very stingy, he even begrudges the tip.",
+  "tr_ru": "Мой начальник очень скупой, ему даже чаевых жалко.",
+  "explain_en": "Not wanting to spend money is fukar.",
+  "explain_ru": "Нежелание тратить деньги — fukar «скупой».",
+  "id": "g046"
+ },
+ {
+  "kind": "word",
+  "text": "Hiába lett híres, nagyon ___ ember maradt.",
+  "answer": [
+   "szerény"
+  ],
+  "ref": "szerény",
+  "clue_en": "modest",
+  "clue_ru": "скромный",
+  "tr_en": "Although he became famous, he remained a very modest person.",
+  "tr_ru": "Хотя он стал знаменитым, он остался очень скромным человеком.",
+  "explain_en": "Not boasting about success is szerény (the opposite is nagyképű).",
+  "explain_ru": "Не хвастаться успехом — szerény (противоположность — nagyképű).",
+  "id": "g047"
+ },
+ {
+  "kind": "word",
+  "text": "Anna ___, mert nem hívtuk meg a buliba.",
+  "answer": [
+   "megsértődött"
+  ],
+  "ref": "megsértődik",
+  "clue_en": "take offence",
+  "clue_ru": "обидеться",
+  "tr_en": "Anna took offence because we didn't invite her to the party.",
+  "tr_ru": "Анна обиделась, потому что мы не пригласили её на вечеринку.",
+  "explain_en": "Taking offence oneself is megsértődik; megsért is offending someone else.",
+  "explain_ru": "Обидеться — megsértődik, а megsért — обидеть кого-то.",
+  "id": "g048"
+ },
+ {
+  "kind": "word",
+  "text": "Az orvos nyugodt szavai ___ a beteget.",
+  "answer": [
+   "megnyugtatták"
+  ],
+  "ref": "megnyugtat",
+  "clue_en": "calm (someone)",
+  "clue_ru": "успокоить (кого-л.)",
+  "tr_en": "The doctor's calm words reassured the patient.",
+  "tr_ru": "Спокойные слова врача успокоили больного.",
+  "explain_en": "Calming someone else is megnyugtat; plural subject, definite object: megnyugtatták.",
+  "explain_ru": "Успокоить кого-то — megnyugtat; подлежащее во мн. числе, дополнение определённое: megnyugtatták.",
+  "id": "g049"
+ },
+ {
+  "kind": "word",
+  "text": "Az anya végre ___, amikor meghallotta, hogy a fia jól van.",
+  "answer": [
+   "megnyugodott"
+  ],
+  "ref": "megnyugszik",
+  "clue_en": "calm down",
+  "clue_ru": "успокоиться",
+  "tr_en": "The mother finally calmed down when she heard her son was fine.",
+  "tr_ru": "Мать наконец успокоилась, когда услышала, что с сыном всё в порядке.",
+  "explain_en": "Calming down oneself is megnyugszik, with the irregular past stem megnyugod-: megnyugodott.",
+  "explain_ru": "Успокоиться самому — megnyugszik, неправильная основа прошедшего megnyugod-: megnyugodott.",
+  "id": "g050"
+ },
+ {
+  "kind": "word",
+  "text": "Nagyon ___ vagyok a segítségedért.",
+  "answer": [
+   "hálás"
+  ],
+  "ref": "hálás",
+  "clue_en": "grateful",
+  "clue_ru": "благодарный",
+  "tr_en": "I'm very grateful for your help.",
+  "tr_ru": "Я очень благодарен тебе за помощь.",
+  "explain_en": "'Grateful for' is hálás + -ért.",
+  "explain_ru": "«Благодарен за» — hálás + -ért.",
+  "id": "g051"
+ },
+ {
+  "kind": "word",
+  "text": "A csap egész éjjel ___, nem tudtam aludni.",
+  "answer": [
+   "csöpögött"
+  ],
+  "ref": "csöpög",
+  "clue_en": "drip",
+  "clue_ru": "капать",
+  "tr_en": "The tap dripped all night, I couldn't sleep.",
+  "tr_ru": "Кран всю ночь капал, я не мог уснуть.",
+  "explain_en": "A leaking tap csöpög; past 3sg csöpögött.",
+  "explain_ru": "Протекающий кран csöpög; прошедшее: csöpögött.",
+  "id": "g052"
+ },
+ {
+  "kind": "word",
+  "text": "Kiégett az izzó a konyhában, holnap ___.",
+  "answer": [
+   "kicserélem"
+  ],
+  "ref": "kicserél",
+  "clue_en": "replace",
+  "clue_ru": "заменить",
+  "tr_en": "The bulb in the kitchen has burnt out, I'll replace it tomorrow.",
+  "tr_ru": "Лампочка на кухне перегорела, завтра я её заменю.",
+  "explain_en": "Replacing is kicserél; the dropped object 'it' is definite: kicserélem.",
+  "explain_ru": "Заменить — kicserél; опущенное «её» — определённое дополнение: kicserélem.",
+  "id": "g053"
+ },
+ {
+  "kind": "word",
+  "text": "A régi házat teljesen ___, most olyan, mint az új.",
+  "answer": [
+   "felújították"
+  ],
+  "ref": "felújít",
+  "clue_en": "renovate",
+  "clue_ru": "отремонтировать",
+  "tr_en": "The old house has been completely renovated, now it's like new.",
+  "tr_ru": "Старый дом полностью отремонтировали, теперь он как новый.",
+  "explain_en": "Renovating is felújít; the impersonal 3pl replaces a passive: felújították.",
+  "explain_ru": "Капитально отремонтировать — felújít; безличное 3-е лицо мн. числа вместо пассива: felújították.",
+  "id": "g054"
+ },
+ {
+  "kind": "word",
+  "text": "Két hónapja diétázom, és már öt kilót ___.",
+  "answer": [
+   "fogytam"
+  ],
+  "ref": "fogy",
+  "clue_en": "lose weight",
+  "clue_ru": "худеть",
+  "tr_en": "I've been on a diet for two months and I've already lost five kilos.",
+  "tr_ru": "Я на диете два месяца и уже похудел на пять килограммов.",
+  "explain_en": "Losing weight is fogy, with the amount as an object: öt kilót fogytam.",
+  "explain_ru": "Похудеть — fogy, количество — винительный: öt kilót fogytam (рус. «на пять кило»).",
+  "id": "g055"
+ },
+ {
+  "kind": "word",
+  "text": "Ne idd meg a tejet, már ___ a szavatossága!",
+  "answer": [
+   "lejárt"
+  ],
+  "ref": "lejár",
+  "clue_en": "expire",
+  "clue_ru": "истекать (о сроке)",
+  "tr_en": "Don't drink the milk, it's past its use-by date!",
+  "tr_ru": "Не пей молоко, у него уже истёк срок годности!",
+  "explain_en": "A date that has run out lejárt.",
+  "explain_ru": "Истёкший срок — lejárt.",
+  "id": "g056"
+ },
+ {
+  "kind": "word",
+  "text": "Péter tavaly ___ a dohányzásról, és azóta jobban érzi magát.",
+  "answer": [
+   "leszokott"
+  ],
+  "ref": "leszokik",
+  "clue_en": "give up (a habit)",
+  "clue_ru": "бросить (привычку)",
+  "tr_en": "Peter gave up smoking last year and has felt better since.",
+  "tr_ru": "Петер в прошлом году бросил курить и с тех пор чувствует себя лучше.",
+  "explain_en": "Quitting a habit is leszokik + -ról/-ről; past leszokott.",
+  "explain_ru": "Бросить привычку — leszokik + -ról/-ről; прошедшее leszokott.",
+  "id": "g057"
+ },
+ {
+  "kind": "word",
+  "text": "Hétvégén végre ___ magam, tíz órán át pihentem az ágyban.",
+  "answer": [
+   "kialudtam"
+  ],
+  "ref": "kialussza magát",
+  "clue_en": "get enough sleep",
+  "clue_ru": "выспаться",
+  "tr_en": "At the weekend I finally got a good night's sleep, I rested in bed for ten hours.",
+  "tr_ru": "В выходные я наконец выспался, десять часов провалялся в постели.",
+  "explain_en": "kialussza magát 'sleep one's fill'; past 1sg with magam: kialudtam magam.",
+  "explain_ru": "kialussza magát «выспаться»; прошедшее 1-го лица с magam: kialudtam magam.",
+  "id": "g058"
+ },
+ {
+  "kind": "word",
+  "text": "A szobánkból gyönyörű ___ nyílik a tengerre.",
+  "answer": [
+   "kilátás"
+  ],
+  "ref": "kilátás",
+  "clue_en": "view",
+  "clue_ru": "вид (из окна)",
+  "tr_en": "Our room has a beautiful view of the sea.",
+  "tr_ru": "Из нашего номера открывается великолепный вид на море.",
+  "explain_en": "A view from a window is kilátás; 'opens onto' is nyílik -ra/-re.",
+  "explain_ru": "Вид из окна — kilátás; «открывается на» — nyílik -ra/-re.",
+  "id": "g059"
+ },
+ {
+  "kind": "word",
+  "text": "A sofőr hirtelen ___, mert egy kutya szaladt az útra.",
+  "answer": [
+   "fékezett"
+  ],
+  "ref": "fékez",
+  "clue_en": "brake",
+  "clue_ru": "тормозить",
+  "tr_en": "The driver braked suddenly because a dog ran onto the road.",
+  "tr_ru": "Водитель резко затормозил, потому что на дорогу выбежала собака.",
+  "explain_en": "Braking is fékez; past 3sg fékezett.",
+  "explain_ru": "Тормозить — fékez; прошедшее: fékezett.",
+  "id": "g060"
+ },
+ {
+  "kind": "word",
+  "text": "Óvatosan ___, mert mögötted egy oszlop van!",
+  "answer": [
+   "tolass"
+  ],
+  "ref": "tolat",
+  "clue_en": "reverse (a car)",
+  "clue_ru": "сдавать назад",
+  "tr_en": "Reverse carefully, there's a post behind you!",
+  "tr_ru": "Осторожно сдавай назад, сзади столб!",
+  "explain_en": "Imperative of tolat: vowel + t + j becomes ss: tolass.",
+  "explain_ru": "Повелительное от tolat: t + j после гласной даёт ss: tolass.",
+  "id": "g061"
+ },
+ {
+  "kind": "word",
+  "text": "Péter nagyon jól dolgozott, ezért a főnöke ___.",
+  "answer": [
+   "előléptette"
+  ],
+  "ref": "előléptet",
+  "clue_en": "promote",
+  "clue_ru": "повысить (в должности)",
+  "tr_en": "Peter worked very well, so his boss promoted him.",
+  "tr_ru": "Петер очень хорошо работал, поэтому начальник повысил его в должности.",
+  "explain_en": "Promoting is előléptet; the dropped 3rd person object is definite: előléptette.",
+  "explain_ru": "Повысить — előléptet; опущенное «его» — определённое дополнение: előléptette.",
+  "id": "g062"
+ },
+ {
+  "kind": "word",
+  "text": "A férjem egy hétig ___ van Németországban.",
+  "answer": [
+   "kiküldetésben"
+  ],
+  "ref": "kiküldetés",
+  "clue_en": "business trip",
+  "clue_ru": "командировка",
+  "tr_en": "My husband is on a business trip in Germany for a week.",
+  "tr_ru": "Мой муж на неделю в командировке в Германии.",
+  "explain_en": "'Be on a business trip' is kiküldetésben van.",
+  "explain_ru": "«Быть в командировке» — kiküldetésben van.",
+  "id": "g063"
+ },
+ {
+  "kind": "word",
+  "text": "Ez a bank öt százalék ___ fizet a megtakarításokra.",
+  "answer": [
+   "kamatot"
+  ],
+  "ref": "kamat",
+  "clue_en": "interest (on money)",
+  "clue_ru": "процент (по вкладу)",
+  "tr_en": "This bank pays five per cent interest on savings.",
+  "tr_ru": "Этот банк платит пять процентов годовых по вкладам.",
+  "explain_en": "Interest is kamat; object of fizet: kamatot.",
+  "explain_ru": "Проценты по вкладу — kamat; дополнение к fizet: kamatot.",
+  "id": "g064"
+ },
+ {
+  "kind": "word",
+  "text": "Tessék, és tartsa meg a ___!",
+  "answer": [
+   "visszajárót"
+  ],
+  "ref": "visszajáró",
+  "clue_en": "change (money back)",
+  "clue_ru": "сдача",
+  "tr_en": "Here you are, and keep the change!",
+  "tr_ru": "Вот, возьмите, сдачи не надо!",
+  "explain_en": "Money given back is visszajáró; object of tartsa meg: visszajárót.",
+  "explain_ru": "Сдача — visszajáró; дополнение к tartsa meg: visszajárót.",
+  "id": "g065"
+ },
+ {
+  "kind": "word",
+  "text": "Drága volt a jegy, de a koncert ___ az árát.",
+  "answer": [
+   "megérte"
+  ],
+  "ref": "megér",
+  "clue_en": "be worth",
+  "clue_ru": "стоить (того)",
+  "tr_en": "The ticket was expensive, but the concert was worth the price.",
+  "tr_ru": "Билет был дорогой, но концерт того стоил.",
+  "explain_en": "'Be worth' is megér + definite object: megérte az árát.",
+  "explain_ru": "«Стоить того» — megér + определённое дополнение: megérte az árát.",
+  "id": "g066"
+ },
+ {
+  "kind": "word",
+  "text": "Sajnos ___ a matekvizsgán, jövő hónapban újra kell vizsgáznom.",
+  "answer": [
+   "megbuktam"
+  ],
+  "ref": "megbukik",
+  "clue_en": "fail (an exam)",
+  "clue_ru": "провалиться (на экзамене)",
+  "tr_en": "Unfortunately I failed the maths exam, I have to retake it next month.",
+  "tr_ru": "К сожалению, я провалил экзамен по математике, в следующем месяце пересдаю.",
+  "explain_en": "Failing is megbukik + -n/-on; past 1sg megbuktam.",
+  "explain_ru": "Провалиться — megbukik + -n; прошедшее 1-го лица: megbuktam.",
+  "id": "g067"
+ },
+ {
+  "kind": "word",
+  "text": "Képzeld, ___ a vizsgán, pedig alig tanultam!",
+  "answer": [
+   "átmentem"
+  ],
+  "ref": "átmegy",
+  "clue_en": "pass (an exam)",
+  "clue_ru": "сдать (экзамен)",
+  "tr_en": "Guess what, I passed the exam, although I hardly studied!",
+  "tr_ru": "Представляешь, я сдал экзамен, хотя почти не готовился!",
+  "explain_en": "Passing an exam is átmegy a vizsgán; past 1sg átmentem.",
+  "explain_ru": "Сдать экзамен — átmegy a vizsgán («пройти через»); прошедшее: átmentem.",
+  "id": "g068"
+ },
+ {
+  "kind": "word",
+  "text": "A verset ___ kell megtanulnotok holnapra.",
+  "answer": [
+   "kívülről"
+  ],
+  "ref": "kívülről",
+  "clue_en": "by heart",
+  "clue_ru": "наизусть",
+  "tr_en": "You have to learn the poem by heart for tomorrow.",
+  "tr_ru": "Стихотворение вы должны выучить наизусть к завтрашнему дню.",
+  "explain_en": "'By heart' is kívülről, literally 'from outside'.",
+  "explain_ru": "«Наизусть» — kívülről, буквально «снаружи».",
+  "id": "g069"
+ },
+ {
+  "kind": "word",
+  "text": "A dinoszauruszok sok millió évvel ezelőtt ___.",
+  "answer": [
+   "kihaltak"
+  ],
+  "ref": "kihal",
+  "clue_en": "die out",
+  "clue_ru": "вымирать",
+  "tr_en": "The dinosaurs died out many millions of years ago.",
+  "tr_ru": "Динозавры вымерли много миллионов лет назад.",
+  "explain_en": "A species dying out is kihal; past 3pl kihaltak.",
+  "explain_ru": "Вымирание вида — kihal; прошедшее 3-го лица мн. числа: kihaltak.",
+  "id": "g070"
+ },
+ {
+  "kind": "word",
+  "text": "A számítógépem megint ___, újra kell indítanom.",
+  "answer": [
+   "lefagyott"
+  ],
+  "ref": "lefagy",
+  "clue_en": "freeze (computer)",
+  "clue_ru": "зависнуть",
+  "tr_en": "My computer has frozen again, I have to restart it.",
+  "tr_ru": "Мой компьютер опять завис, придётся перезагрузить.",
+  "explain_en": "A computer that hangs lefagy ('freezes'); past lefagyott.",
+  "explain_ru": "Компьютер «замерзает» — lefagy; прошедшее lefagyott (рус. «завис»).",
+  "id": "g071"
+ },
+ {
+  "kind": "word",
+  "text": "A hackerek ___ a bank rendszerét, és adatokat loptak.",
+  "answer": [
+   "feltörték"
+  ],
+  "ref": "feltör",
+  "clue_en": "hack, break into",
+  "clue_ru": "взломать",
+  "tr_en": "The hackers broke into the bank's system and stole data.",
+  "tr_ru": "Хакеры взломали систему банка и украли данные.",
+  "explain_en": "Hacking is feltör; definite object, 3pl past: feltörték.",
+  "explain_ru": "Взломать — feltör; определённое дополнение, 3-е лицо мн. числа: feltörték.",
+  "id": "g072"
+ },
+ {
+  "kind": "word",
+  "text": "Gyorshajtásért húszezer forint ___ kellett fizetnem.",
+  "answer": [
+   "bírságot"
+  ],
+  "ref": "bírság",
+  "clue_en": "fine (penalty)",
+  "clue_ru": "штраф",
+  "tr_en": "I had to pay a twenty-thousand-forint fine for speeding.",
+  "tr_ru": "За превышение скорости мне пришлось заплатить штраф в двадцать тысяч форинтов.",
+  "explain_en": "A money penalty is bírság (büntetés is punishment in general); object: bírságot.",
+  "explain_ru": "Денежный штраф — bírság (büntetés — наказание вообще); дополнение: bírságot.",
+  "id": "g073"
+ },
+ {
+  "kind": "word",
+  "text": "A gyanúsított mindent ___, azt mondja, ártatlan.",
+  "answer": [
+   "tagad"
+  ],
+  "ref": "tagad",
+  "clue_en": "deny",
+  "clue_ru": "отрицать",
+  "tr_en": "The suspect denies everything, he says he's innocent.",
+  "tr_ru": "Подозреваемый всё отрицает, говорит, что невиновен.",
+  "explain_en": "Denying is tagad; mindent is an indefinite object, so tagad (not tagadja).",
+  "explain_ru": "Отрицать — tagad; mindent требует неопределённого спряжения: tagad (не tagadja).",
+  "id": "g074"
+ },
+ {
+  "kind": "word",
+  "text": "Végül a kisfiú ___, hogy ő törte el a vázát.",
+  "answer": [
+   "beismerte",
+   "elismerte"
+  ],
+  "ref": "beismer",
+  "clue_en": "admit, confess",
+  "clue_ru": "признаться",
+  "tr_en": "In the end the little boy admitted that he had broken the vase.",
+  "tr_ru": "В конце концов мальчик признался, что это он разбил вазу.",
+  "explain_en": "Confessing a wrongdoing is beismer; the hogy-clause makes it definite: beismerte.",
+  "explain_ru": "Признаться в проступке — beismer; придаточное с hogy делает спряжение определённым: beismerte.",
+  "id": "g075"
+ },
+ {
+  "kind": "word",
+  "text": "Az eső miatt egy héttel ___ a meccset.",
+  "answer": [
+   "elhalasztották"
+  ],
+  "ref": "elhalaszt",
+  "clue_en": "postpone",
+  "clue_ru": "отложить",
+  "tr_en": "Because of the rain the match was postponed by a week.",
+  "tr_ru": "Из-за дождя матч перенесли на неделю.",
+  "explain_en": "Postponing is elhalaszt; impersonal 3pl instead of a passive: elhalasztották.",
+  "explain_ru": "Отложить — elhalaszt; безличное 3-е лицо мн. числа вместо пассива: elhalasztották.",
+  "id": "g076"
+ },
+ {
+  "kind": "word",
+  "text": "Ilyen lehetőséget nem szabad ___!",
+  "answer": [
+   "kihagyni"
+  ],
+  "ref": "kihagy",
+  "clue_en": "miss, pass up",
+  "clue_ru": "пропустить",
+  "tr_en": "You mustn't miss an opportunity like this!",
+  "tr_ru": "Такую возможность нельзя упускать!",
+  "explain_en": "Passing up a chance is kihagy; after nem szabad the infinitive: kihagyni.",
+  "explain_ru": "Упустить шанс — kihagy; после nem szabad — инфинитив: kihagyni.",
+  "id": "g077"
+ },
+ {
+  "kind": "word",
+  "text": "Később ___, hogy neked volt igazad.",
+  "answer": [
+   "kiderült"
+  ],
+  "ref": "kiderül",
+  "clue_en": "turn out",
+  "clue_ru": "выясниться",
+  "tr_en": "Later it turned out that you were right.",
+  "tr_ru": "Позже выяснилось, что ты был прав.",
+  "explain_en": "'It turned out that' is kiderült, hogy …",
+  "explain_ru": "«Выяснилось, что» — kiderült, hogy …",
+  "id": "g078"
+ },
+ {
+  "kind": "word",
+  "text": "A film olyan ___ volt, hogy a közepén elaludtam.",
+  "answer": [
+   "unalmas"
+  ],
+  "ref": "unalmas",
+  "clue_en": "boring",
+  "clue_ru": "скучный",
+  "tr_en": "The film was so boring that I fell asleep in the middle.",
+  "tr_ru": "Фильм был такой скучный, что я уснул на середине.",
+  "explain_en": "Falling asleep shows it was unalmas 'boring'.",
+  "explain_ru": "Уснул — значит, фильм был unalmas «скучный».",
+  "id": "g079"
+ },
+ {
+  "kind": "word",
+  "text": "___ sietni, a vonat úgyis húsz percet késik.",
+  "answer": [
+   "Fölösleges",
+   "Felesleges"
+  ],
+  "ref": "fölösleges",
+  "clue_en": "unnecessary",
+  "clue_ru": "лишний, ненужный",
+  "tr_en": "There's no need to hurry, the train is twenty minutes late anyway.",
+  "tr_ru": "Незачем спешить, поезд всё равно опаздывает на двадцать минут.",
+  "explain_en": "'It is pointless to …' is fölösleges (felesleges) + infinitive.",
+  "explain_ru": "«Незачем, нет смысла» — fölösleges (felesleges) + инфинитив.",
+  "id": "g080"
  }
 ]

@@ -1119,5 +1119,532 @@
   "explain_en": "Zich vergissen in = to be wrong about; no ge-: vergist.",
   "explain_ru": "Zich vergissen in — «ошибиться в»; без ge-: vergist. Ошибиться = «ошибить себя»: возвратный глагол.",
   "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "section": "er-all-uses",
+  "text": "Hoeveel kinderen hebben jullie? – We hebben ___ drie.",
+  "answer": [
+   "er"
+  ],
+  "tr_en": "How many children do you have? – We have three.",
+  "tr_ru": "Сколько у вас детей? – Трое.",
+  "explain_en": "With a number and no noun, Dutch needs er (quantitative er): we hebben er drie.",
+  "explain_ru": "При числительном без существительного нужно er (количественное er): we hebben er drie. В русском ничего не добавляется.",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "section": "er-all-uses",
+  "text": "___ wordt in Nederland ontzettend veel gefietst.",
+  "answer": [
+   "Er"
+  ],
+  "tr_en": "People cycle an awful lot in the Netherlands.",
+  "tr_ru": "В Нидерландах ужасно много ездят на велосипеде.",
+  "explain_en": "Impersonal passive without a subject starts with er: er wordt ... gefietst.",
+  "explain_ru": "Безличный пассив без подлежащего начинается с er: er wordt gefietst — как русское неопределённо-личное «ездят».",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "section": "er-all-uses",
+  "text": "Vergeet je de afspraak bij de tandarts niet? – Nee hoor, ik denk ___.",
+  "answer": [
+   "eraan",
+   "daaraan"
+  ],
+  "tr_en": "You won't forget the dentist appointment? – No, I'll remember.",
+  "tr_ru": "Не забудешь про запись к стоматологу? – Нет, я помню.",
+  "explain_en": "Denken aan + thing → er + aan = eraan (never aan het).",
+  "explain_ru": "Denken aan + предмет → er + aan = eraan (никогда не aan het). В русском просто «помню об этом».",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "section": "er-all-uses",
+  "text": "Weet jij iets van die reorganisatie? – Nee, ik weet ___ helemaal niets van.",
+  "answer": [
+   "er",
+   "daar"
+  ],
+  "tr_en": "Do you know anything about that reorganisation? – No, I know nothing at all about it.",
+  "tr_ru": "Ты что-нибудь знаешь об этой реорганизации? – Нет, ничего не знаю.",
+  "explain_en": "Split pronominal adverb: er ... van (= daarvan), with the preposition at the end.",
+  "explain_ru": "Разорванное местоимённое наречие: er ... van (= «об этом»), предлог уходит в конец.",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "section": "relative-clauses",
+  "text": "Het boek ___ ik nu lees, is erg spannend.",
+  "answer": [
+   "dat"
+  ],
+  "tr_en": "The book I'm reading now is very exciting.",
+  "tr_ru": "Книга, которую я сейчас читаю, очень увлекательная.",
+  "explain_en": "Relative pronoun for a singular het-word: dat.",
+  "explain_ru": "Относительное местоимение для het-слова в ед. ч.: dat (для de-слов и мн. ч. — die). Пропускать его, как в английском, нельзя.",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "section": "relative-clauses",
+  "text": "Alles ___ hij gisteren heeft gezegd, was gelogen.",
+  "answer": [
+   "wat"
+  ],
+  "tr_en": "Everything he said yesterday was a lie.",
+  "tr_ru": "Всё, что он вчера сказал, было ложью.",
+  "explain_en": "After alles, iets, niets the relative pronoun is wat.",
+  "explain_ru": "После alles, iets, niets относительное местоимение — wat (как русское «всё, что»).",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "section": "relative-clauses",
+  "text": "De collega met ___ ik samenwerk, is deze week ziek.",
+  "answer": [
+   "wie"
+  ],
+  "tr_en": "The colleague I work with is ill this week.",
+  "tr_ru": "Коллега, с которым я работаю, на этой неделе болеет.",
+  "explain_en": "After a preposition, a person is referred to with wie: met wie.",
+  "explain_ru": "После предлога о человеке говорят wie: met wie («с которым»). Для предметов — waarmee.",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "section": "relative-clauses",
+  "text": "Mijn beste vriend is iemand ___ ik altijd op kan rekenen.",
+  "answer": [
+   "waar"
+  ],
+  "tr_en": "My best friend is someone I can always count on.",
+  "tr_ru": "Мой лучший друг — человек, на которого я всегда могу рассчитывать.",
+  "explain_en": "Preposition op is split off to the end: waar ... op (= op wie).",
+  "explain_ru": "Предлог op отрывается и уходит в конец: waar ... op (= op wie, «на которого»).",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "section": "passive-voice",
+  "text": "Het nieuwe ziekenhuis ___ volgend jaar door de koning geopend.",
+  "answer": [
+   "wordt"
+  ],
+  "tr_en": "The new hospital will be opened by the king next year.",
+  "tr_ru": "Новую больницу в следующем году откроет король.",
+  "explain_en": "Passive in the present (with future meaning): wordt + participle.",
+  "explain_ru": "Пассив в настоящем времени (со значением будущего): wordt + причастие.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "section": "passive-voice",
+  "text": "De inbreker is gisteren ___ de politie gearresteerd.",
+  "answer": [
+   "door"
+  ],
+  "tr_en": "The burglar was arrested by the police yesterday.",
+  "tr_ru": "Взломщика вчера арестовала полиция.",
+  "explain_en": "The agent in a passive sentence is introduced by door (by).",
+  "explain_ru": "Исполнитель действия в пассиве вводится предлогом door; в русском — творительный падеж («полицией»).",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "section": "passive-voice",
+  "text": "Er ___ op dit moment hard aan de nieuwe weg gewerkt.",
+  "answer": [
+   "wordt"
+  ],
+  "tr_en": "Work is currently being done hard on the new road.",
+  "tr_ru": "Сейчас идут активные работы на новой дороге.",
+  "explain_en": "Impersonal passive: er wordt + participle (always singular).",
+  "explain_ru": "Безличный пассив: er wordt + причастие (всегда ед. ч.).",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "section": "passive-voice",
+  "text": "De ramen van ons kantoor ___ elk voorjaar gewassen.",
+  "answer": [
+   "worden"
+  ],
+  "tr_en": "The windows of our office are washed every spring.",
+  "tr_ru": "Окна нашего офиса моют каждую весну.",
+  "explain_en": "Plural subject, repeated action → worden + participle.",
+  "explain_ru": "Подлежащее во мн. ч., повторяющееся действие → worden + причастие. По-русски часто неопределённо-личное «моют».",
+  "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "section": "zou-conditional",
+  "text": "Als ik jou ___, zou ik die baan meteen aannemen.",
+  "answer": [
+   "was",
+   "waren"
+  ],
+  "tr_en": "If I were you, I would take that job straight away.",
+  "tr_ru": "На твоём месте я бы сразу согласился на эту работу.",
+  "explain_en": "Unreal condition: als ik jou was (or waren).",
+  "explain_ru": "Нереальное условие: als ik jou was (или waren) — «если бы я был тобой» = «на твоём месте».",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "section": "zou-conditional",
+  "text": "___ u het raam even dicht willen doen? Het tocht hier.",
+  "answer": [
+   "Zou"
+  ],
+  "tr_en": "Would you mind closing the window? There's a draught here.",
+  "tr_ru": "Не могли бы вы закрыть окно? Здесь сквозит.",
+  "explain_en": "Polite request with u: zou u ... willen.",
+  "explain_ru": "Вежливая просьба с u: zou u ... willen («не могли бы вы»).",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "section": "zou-conditional",
+  "text": "Je ___ eens met je huisarts moeten praten over die hoofdpijn.",
+  "answer": [
+   "zou"
+  ],
+  "tr_en": "You ought to talk to your GP about that headache.",
+  "tr_ru": "Тебе стоило бы поговорить с врачом об этой головной боли.",
+  "explain_en": "Advice: je zou ... moeten (you should).",
+  "explain_ru": "Совет: je zou ... moeten — «тебе следовало бы».",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "section": "zou-conditional",
+  "text": "Als ik meer tijd ___, zou ik vaker sporten.",
+  "answer": [
+   "had"
+  ],
+  "tr_en": "If I had more time, I would exercise more often.",
+  "tr_ru": "Если бы у меня было больше времени, я бы чаще занимался спортом.",
+  "explain_en": "In the als-clause the past tense is used: als ik ... had.",
+  "explain_ru": "В придаточном с als — прошедшее время: als ik ... had («если бы у меня было»).",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "section": "plusquamperfectum",
+  "text": "Toen we eindelijk bij de bioscoop aankwamen, ___ de film al begonnen.",
+  "answer": [
+   "was"
+  ],
+  "tr_en": "When we finally arrived at the cinema, the film had already started.",
+  "tr_ru": "Когда мы наконец добрались до кинотеатра, фильм уже начался.",
+  "explain_en": "Beginnen takes zijn → plusquamperfectum was begonnen.",
+  "explain_ru": "Beginnen — с zijn → плюсквамперфект was begonnen.",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "section": "plusquamperfectum",
+  "text": "Ze was doodmoe, want ze ___ de hele nacht niet geslapen.",
+  "answer": [
+   "had"
+  ],
+  "tr_en": "She was dead tired, because she hadn't slept all night.",
+  "tr_ru": "Она была смертельно уставшей, потому что не спала всю ночь.",
+  "explain_en": "Earlier action → had + participle; slapen takes hebben.",
+  "explain_ru": "Более раннее действие → had + причастие; slapen — с hebben.",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "section": "plusquamperfectum",
+  "text": "Nadat hij ___ gegeten, ging hij meteen naar bed.",
+  "answer": [
+   "had"
+  ],
+  "tr_en": "After he had eaten, he went straight to bed.",
+  "tr_ru": "Поев, он сразу лёг спать.",
+  "explain_en": "Nadat + plusquamperfectum for the earlier action: nadat hij had gegeten.",
+  "explain_ru": "Nadat + плюсквамперфект для более раннего действия; в русском часто деепричастие «поев».",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "section": "plusquamperfectum",
+  "text": "Toen de politie eindelijk kwam, ___ de dieven al lang gevlucht.",
+  "answer": [
+   "waren"
+  ],
+  "tr_en": "When the police finally arrived, the thieves had long since fled.",
+  "tr_ru": "Когда полиция наконец приехала, воры давно сбежали.",
+  "explain_en": "Vluchten takes zijn; plural → waren gevlucht.",
+  "explain_ru": "Vluchten — с zijn; мн. ч. → waren gevlucht.",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "section": "verb-clusters",
+  "text": "Ik heb gisteren tot tien uur 's avonds ___ werken, want de deadline was vandaag.",
+  "answer": [
+   "moeten"
+  ],
+  "tr_en": "Yesterday I had to work until ten at night, because the deadline was today.",
+  "tr_ru": "Вчера мне пришлось работать до десяти вечера, потому что дедлайн был сегодня.",
+  "explain_en": "A modal with another infinitive in the perfect uses the infinitive, not the participle: heb moeten werken (not gemoeten).",
+  "explain_ru": "Модальный глагол с другим инфинитивом в перфекте стоит в форме инфинитива, а не причастия: heb moeten werken (не gemoeten).",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "section": "verb-clusters",
+  "text": "Hij zegt dat hij door de file de trein niet heeft ___ halen.",
+  "answer": [
+   "kunnen"
+  ],
+  "tr_en": "He says that because of the traffic jam he couldn't catch the train.",
+  "tr_ru": "Он говорит, что из-за пробки не успел на поезд.",
+  "explain_en": "Infinitivus pro participio: heeft kunnen halen (ability prevented by the jam).",
+  "explain_ru": "Инфинитив вместо причастия: heeft kunnen halen («не смог успеть» из-за пробки).",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "section": "verb-clusters",
+  "text": "Ik heb gisteren mijn haar ___ knippen bij een nieuwe kapper.",
+  "answer": [
+   "laten"
+  ],
+  "tr_en": "Yesterday I had my hair cut at a new hairdresser's.",
+  "tr_ru": "Вчера я подстригся у нового парикмахера.",
+  "explain_en": "Having something done = laten + infinitive; in the perfect: heb laten knippen.",
+  "explain_ru": "«Сделать что-то не самому» = laten + инфинитив; в перфекте heb laten knippen. По-русски просто «подстригся».",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "section": "verb-clusters",
+  "text": "Ik ben gisteren met mijn zus in het meer ___ zwemmen.",
+  "answer": [
+   "gaan",
+   "wezen"
+  ],
+  "tr_en": "Yesterday I went swimming in the lake with my sister.",
+  "tr_ru": "Вчера мы с сестрой ходили купаться в озере.",
+  "explain_en": "Gaan + infinitive in the perfect: ben gaan zwemmen (infinitive gaan, not gegaan); colloquially ben wezen zwemmen.",
+  "explain_ru": "Gaan + инфинитив в перфекте: ben gaan zwemmen (инфинитив gaan, а не gegaan); разговорно ben wezen zwemmen.",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "section": "verbs-fixed-prepositions",
+  "text": "Ik interesseer me al sinds mijn jeugd ___ geschiedenis.",
+  "answer": [
+   "voor"
+  ],
+  "tr_en": "I've been interested in history since my childhood.",
+  "tr_ru": "Я с детства интересуюсь историей.",
+  "explain_en": "Zich interesseren voor = to be interested in.",
+  "explain_ru": "Zich interesseren voor — «интересоваться чем» (в русском творительный падеж без предлога).",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "section": "verbs-fixed-prepositions",
+  "text": "Mijn moeder lijdt al jaren ___ migraine.",
+  "answer": [
+   "aan"
+  ],
+  "tr_en": "My mother has been suffering from migraine for years.",
+  "tr_ru": "Моя мама уже много лет страдает мигренью.",
+  "explain_en": "Lijden aan = to suffer from (an illness).",
+  "explain_ru": "Lijden aan — «страдать (болезнью)»; в русском творительный падеж.",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "section": "verbs-fixed-prepositions",
+  "text": "Dit gerecht bestaat ___ rijst, groente en kip.",
+  "answer": [
+   "uit"
+  ],
+  "tr_en": "This dish consists of rice, vegetables and chicken.",
+  "tr_ru": "Это блюдо состоит из риса, овощей и курицы.",
+  "explain_en": "Bestaan uit = to consist of.",
+  "explain_ru": "Bestaan uit — «состоять из» (uit = «из», как в русском).",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "section": "verbs-fixed-prepositions",
+  "text": "Of we morgen gaan wandelen, hangt ___ het weer af.",
+  "answer": [
+   "van"
+  ],
+  "tr_en": "Whether we go walking tomorrow depends on the weather.",
+  "tr_ru": "Пойдём ли мы завтра гулять, зависит от погоды.",
+  "explain_en": "Afhangen van = to depend on; the separable af goes to the end.",
+  "explain_ru": "Afhangen van — «зависеть от»; отделяемая приставка af уходит в конец.",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "section": "om-te-infinitive",
+  "text": "Ik ga naar de bibliotheek ___ rustig te studeren.",
+  "answer": [
+   "om"
+  ],
+  "tr_en": "I'm going to the library to study in peace.",
+  "tr_ru": "Я иду в библиотеку, чтобы спокойно позаниматься.",
+  "explain_en": "Purpose ('in order to') = om ... te + infinitive.",
+  "explain_ru": "Цель («чтобы») = om ... te + инфинитив.",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "section": "om-te-infinitive",
+  "text": "Hij vertrok ___ iets te zeggen; niemand wist waar hij heen ging.",
+  "answer": [
+   "zonder"
+  ],
+  "tr_en": "He left without saying anything; nobody knew where he was going.",
+  "tr_ru": "Он ушёл, ничего не сказав: никто не знал, куда он идёт.",
+  "explain_en": "'Without doing' = zonder ... te + infinitive.",
+  "explain_ru": "«Не делая, без того чтобы» = zonder ... te + инфинитив; в русском — деепричастие «не сказав».",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "section": "om-te-infinitive",
+  "text": "___ plaats van steeds te klagen, kun je beter zelf iets doen.",
+  "answer": [
+   "In"
+  ],
+  "tr_en": "Instead of complaining all the time, you'd better do something yourself.",
+  "tr_ru": "Вместо того чтобы всё время жаловаться, лучше сам что-нибудь сделай.",
+  "explain_en": "'Instead of doing' = in plaats van ... te + infinitive.",
+  "explain_ru": "«Вместо того чтобы» = in plaats van ... te + инфинитив.",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "section": "om-te-infinitive",
+  "text": "In plaats ___ de bus te nemen, ging ze lopen.",
+  "answer": [
+   "van"
+  ],
+  "tr_en": "Instead of taking the bus, she walked.",
+  "tr_ru": "Вместо того чтобы сесть на автобус, она пошла пешком.",
+  "explain_en": "The fixed combination is in plaats van ... te.",
+  "explain_ru": "Устойчивое сочетание — in plaats van ... te.",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "section": "indirect-speech",
+  "text": "Hij vroeg ___ ik morgen tijd had om te helpen.",
+  "answer": [
+   "of"
+  ],
+  "tr_en": "He asked whether I had time to help tomorrow.",
+  "tr_ru": "Он спросил, есть ли у меня завтра время помочь.",
+  "explain_en": "Reported yes/no question: vragen of (whether).",
+  "explain_ru": "Косвенный общий вопрос: vragen of («спросить, ... ли»).",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "section": "indirect-speech",
+  "text": "Weet jij ___ laat de winkel morgen opengaat?",
+  "answer": [
+   "hoe"
+  ],
+  "tr_en": "Do you know what time the shop opens tomorrow?",
+  "tr_ru": "Ты не знаешь, во сколько завтра открывается магазин?",
+  "explain_en": "'What time' = hoe laat (literally 'how late'), verb at the end in the indirect question.",
+  "explain_ru": "«Во сколько» = hoe laat (букв. «как поздно»); в косвенном вопросе глагол в конце.",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "section": "indirect-speech",
+  "text": "Mijn moeder zei: 'Ik ben moe.' Ze zei dus dat ___ moe was.",
+  "answer": [
+   "ze",
+   "zij"
+  ],
+  "tr_en": "My mother said: 'I'm tired.' So she said that she was tired.",
+  "tr_ru": "Мама сказала: «Я устала». То есть она сказала, что она устала.",
+  "explain_en": "In reported speech ik becomes ze (she), and ben becomes was.",
+  "explain_ru": "В косвенной речи ik становится ze («она»), а ben — was (согласование времён, которого нет в русском).",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "section": "indirect-speech",
+  "text": "Kunt u me misschien vertellen ___ het station is?",
+  "answer": [
+   "waar"
+  ],
+  "tr_en": "Could you perhaps tell me where the station is?",
+  "tr_ru": "Не подскажете, где вокзал?",
+  "explain_en": "Indirect question with a question word: waar + verb at the end.",
+  "explain_ru": "Косвенный вопрос с вопросительным словом: waar + глагол в конце.",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "section": "diminutives",
+  "text": "Zie je ___ hondje bij de deur? Van wie zou hij zijn?",
+  "answer": [
+   "dat",
+   "het"
+  ],
+  "tr_en": "Do you see that little dog by the door? Whose could it be?",
+  "tr_ru": "Видишь ту собачку у двери? Интересно, чья она?",
+  "explain_en": "Diminutives are always het-words, so dat (or het), not die, even though hond is a de-word.",
+  "explain_ru": "Уменьшительные всегда het-слова, поэтому dat (или het), а не die, хотя hond — de-слово.",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "section": "diminutives",
+  "text": "Dat meisje met de rode jas? ___ heet Sanne.",
+  "answer": [
+   "Ze",
+   "Zij"
+  ],
+  "tr_en": "That girl in the red coat? She's called Sanne.",
+  "tr_ru": "Та девочка в красной куртке? Её зовут Санне.",
+  "explain_en": "Meisje is grammatically het, but a person is referred to by natural gender: ze.",
+  "explain_ru": "Meisje грамматически het, но о человеке говорят по естественному полу: ze («она»).",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "section": "diminutives",
+  "text": "Kijk eens naar dat konijntje met ___ lange, zachte oortjes!",
+  "answer": [
+   "zijn"
+  ],
+  "tr_en": "Look at that little rabbit with its long, soft ears!",
+  "tr_ru": "Посмотри на этого крольчонка с длинными мягкими ушками!",
+  "explain_en": "The possessive for a het-word is zijn: het konijntje → zijn oortjes (not haar).",
+  "explain_ru": "Притяжательное для het-слова — zijn: het konijntje → zijn oortjes (не haar). В русском здесь было бы «своими» или ничего.",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "section": "diminutives",
+  "text": "Mijn broertje is ziek, dus ik moet vandaag op ___ passen.",
+  "answer": [
+   "hem"
+  ],
+  "tr_en": "My little brother is ill, so I have to look after him today.",
+  "tr_ru": "Мой младший брат заболел, так что сегодня я должен за ним присматривать.",
+  "explain_en": "Broertje is a het-word, but it refers to a boy, so the object pronoun is hem.",
+  "explain_ru": "Broertje — het-слово, но обозначает мальчика, поэтому местоимение hem («его»).",
+  "id": "g120"
  }
 ]
