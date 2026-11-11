@@ -1,0 +1,1653 @@
+[
+ {
+  "kind": "form",
+  "text": "___ jij al lang in Utrecht, Sanne?",
+  "answer": [
+   "Woon"
+  ],
+  "lemma": "wonen",
+  "tr_en": "Have you lived in Utrecht for a long time, Sanne?",
+  "tr_ru": "Ты давно живёшь в Утрехте, Санне?",
+  "explain_en": "When jij comes after the verb (inversion), the -t ending is dropped: jij woont, but woon jij?",
+  "explain_ru": "Если jij стоит после глагола (вопрос, инверсия), окончание -t отпадает: jij woont, но woon jij? В русском форма глагола от порядка слов не зависит.",
+  "id": "g001"
+ },
+ {
+  "kind": "form",
+  "text": "___ jij morgen thuis, of moet je werken?",
+  "answer": [
+   "Ben"
+  ],
+  "lemma": "zijn",
+  "tr_en": "Are you at home tomorrow, or do you have to work?",
+  "tr_ru": "Ты завтра дома или тебе надо работать?",
+  "explain_en": "Zijn is irregular: jij bent, and with inversion the -t disappears: ben jij?",
+  "explain_ru": "Zijn — неправильный глагол: jij bent, а при инверсии -t отпадает: ben jij? В русском связка «есть» в настоящем времени вообще опускается.",
+  "id": "g002"
+ },
+ {
+  "kind": "form",
+  "text": "___ je me morgen helpen met mijn huiswerk?",
+  "answer": [
+   "Kun",
+   "Kan"
+  ],
+  "lemma": "kunnen",
+  "tr_en": "Can you help me with my homework tomorrow?",
+  "tr_ru": "Ты можешь завтра помочь мне с домашним заданием?",
+  "explain_en": "Kunnen with je/jij: jij kunt or jij kan; in inversion kun je? (or kan je?).",
+  "explain_ru": "Kunnen с je/jij: jij kunt или jij kan; при инверсии — kun je? (или kan je?), -t отпадает.",
+  "id": "g003"
+ },
+ {
+  "kind": "form",
+  "text": "Tom is ziek en ___ vandaag niets eten.",
+  "answer": [
+   "wil"
+  ],
+  "lemma": "willen",
+  "tr_en": "Tom is ill and doesn't want to eat anything today.",
+  "tr_ru": "Том болен и сегодня ничего не хочет есть.",
+  "explain_en": "Willen is irregular in the singular: ik wil, hij wil — no -t for hij.",
+  "explain_ru": "Willen неправильный в единственном числе: ik wil, hij wil — без -t у hij, в отличие от обычных глаголов.",
+  "id": "g004"
+ },
+ {
+  "kind": "form",
+  "text": "Het kind ___ vanavond tot negen uur tv kijken.",
+  "answer": [
+   "mag"
+  ],
+  "lemma": "mogen",
+  "tr_en": "The child is allowed to watch TV until nine tonight.",
+  "tr_ru": "Ребёнку сегодня вечером можно смотреть телевизор до девяти.",
+  "explain_en": "Mogen has a different stem in the singular: ik/jij/hij mag, without -t.",
+  "explain_ru": "У mogen в единственном числе другая основа: ik/jij/hij mag, без -t. По-русски тут безличное «можно», а в нидерландском — личный глагол.",
+  "id": "g005"
+ },
+ {
+  "kind": "form",
+  "text": "Amsterdam en Rotterdam zijn twee grote ___.",
+  "answer": [
+   "steden"
+  ],
+  "lemma": "de stad",
+  "tr_en": "Amsterdam and Rotterdam are two big cities.",
+  "tr_ru": "Амстердам и Роттердам — два больших города.",
+  "explain_en": "Stad has an irregular plural with a vowel change: de stad – de steden.",
+  "explain_ru": "У stad неправильное множественное число со сменой гласной: de stad – de steden.",
+  "id": "g006"
+ },
+ {
+  "kind": "form",
+  "text": "Onze buren hebben drie ___: twee jongens en een meisje.",
+  "answer": [
+   "kinderen"
+  ],
+  "lemma": "het kind",
+  "tr_en": "Our neighbours have three children: two boys and a girl.",
+  "tr_ru": "У наших соседей трое детей: два мальчика и девочка.",
+  "explain_en": "Kind takes the old plural ending -eren: het kind – de kinderen.",
+  "explain_ru": "Kind образует множественное число на -eren: het kind – de kinderen (ср. русское «ребёнок – дети», тоже нерегулярно).",
+  "id": "g007"
+ },
+ {
+  "kind": "form",
+  "text": "Voor deze taart heb ik zes ___ nodig.",
+  "answer": [
+   "eieren"
+  ],
+  "lemma": "het ei",
+  "tr_en": "I need six eggs for this cake.",
+  "tr_ru": "Для этого торта мне нужно шесть яиц.",
+  "explain_en": "Ei also takes -eren in the plural: het ei – de eieren.",
+  "explain_ru": "Ei тоже образует множественное число на -eren: het ei – de eieren. После числительного в нидерландском просто множественное число, без родительного падежа, как в русском «шесть яиц».",
+  "id": "g008"
+ },
+ {
+  "kind": "form",
+  "text": "De baby heeft grote blauwe ___.",
+  "answer": [
+   "ogen"
+  ],
+  "lemma": "het oog",
+  "tr_en": "The baby has big blue eyes.",
+  "tr_ru": "У малыша большие голубые глаза.",
+  "explain_en": "Oog has an open syllable in the plural, so one o is written: oog – ogen.",
+  "explain_ru": "Во множественном числе слог открытый, поэтому пишется одна o: oog – ogen.",
+  "id": "g009"
+ },
+ {
+  "kind": "form",
+  "text": "In onze straat staan oude ___ met kleine tuinen.",
+  "answer": [
+   "huizen"
+  ],
+  "lemma": "het huis",
+  "tr_en": "In our street there are old houses with small gardens.",
+  "tr_ru": "На нашей улице стоят старые дома с маленькими садами.",
+  "explain_en": "Plural -en; the s between vowels becomes z: huis – huizen.",
+  "explain_ru": "Множественное на -en; s между гласными становится z: huis – huizen.",
+  "id": "g010"
+ },
+ {
+  "kind": "form",
+  "text": "Mijn oom heeft twee ___ en geen dochters.",
+  "answer": [
+   "zonen",
+   "zoons"
+  ],
+  "lemma": "de zoon",
+  "tr_en": "My uncle has two sons and no daughters.",
+  "tr_ru": "У моего дяди два сына и нет дочерей.",
+  "explain_en": "Zoon has two plurals: zonen (one o, open syllable) and zoons.",
+  "explain_ru": "У zoon два множественных числа: zonen (одна o в открытом слоге) и zoons.",
+  "id": "g011"
+ },
+ {
+  "kind": "form",
+  "text": "Op vakantie maak ik altijd heel veel ___.",
+  "answer": [
+   "foto's"
+  ],
+  "lemma": "de foto",
+  "tr_en": "On holiday I always take lots of photos.",
+  "tr_ru": "В отпуске я всегда делаю очень много фотографий.",
+  "explain_en": "Nouns ending in a long vowel -o, -a, -u, -i, -y take 's: foto – foto's.",
+  "explain_ru": "Существительные на долгую гласную -o, -a, -u, -i, -y получают 's с апострофом: foto – foto's. Обратите внимание: «фотографировать» = foto's maken (делать фото).",
+  "id": "g012"
+ },
+ {
+  "kind": "form",
+  "text": "Op dinsdag hebben we drie ___ Nederlands.",
+  "answer": [
+   "lessen"
+  ],
+  "lemma": "de les",
+  "tr_en": "On Tuesday we have three Dutch lessons.",
+  "tr_ru": "Во вторник у нас три урока нидерландского.",
+  "explain_en": "Short vowel + one consonant: the consonant doubles before -en: les – lessen.",
+  "explain_ru": "После краткой гласной согласная удваивается перед -en: les – lessen, иначе читалось бы как долгое e.",
+  "id": "g013"
+ },
+ {
+  "kind": "form",
+  "text": "In het gras staan tien witte ___.",
+  "answer": [
+   "schapen"
+  ],
+  "lemma": "het schaap",
+  "tr_en": "Ten white sheep are standing in the grass.",
+  "tr_ru": "На траве стоят десять белых овец.",
+  "explain_en": "Long aa in a closed syllable becomes a in the open syllable: schaap – schapen.",
+  "explain_ru": "Долгое aa в закрытом слоге пишется одной a в открытом: schaap – schapen. В отличие от английского sheep, в нидерландском есть форма множественного числа.",
+  "id": "g014"
+ },
+ {
+  "kind": "form",
+  "text": "Vandaag draag ik mijn ___ jurk naar het feest.",
+  "answer": [
+   "rode"
+  ],
+  "lemma": "rood",
+  "tr_en": "Today I'm wearing my red dress to the party.",
+  "tr_ru": "Сегодня я надеваю на праздник своё красное платье.",
+  "explain_en": "After mijn the adjective takes -e; rood loses one o in the open syllable: rode.",
+  "explain_ru": "После mijn прилагательное получает -e; в открытом слоге пишется одна o: rood – rode.",
+  "id": "g015"
+ },
+ {
+  "kind": "form",
+  "text": "Het ___ overhemd ligt nog in de kast.",
+  "answer": [
+   "witte"
+  ],
+  "lemma": "wit",
+  "tr_en": "The white shirt is still in the wardrobe.",
+  "tr_ru": "Белая рубашка всё ещё лежит в шкафу.",
+  "explain_en": "After het the adjective takes -e; after a short vowel the t doubles: wit – witte.",
+  "explain_ru": "После het прилагательное получает -e; после краткой гласной t удваивается: wit – witte. (een wit overhemd — без -e!)",
+  "id": "g016"
+ },
+ {
+  "kind": "form",
+  "text": "Zie je die ___ muis onder de stoel?",
+  "answer": [
+   "grijze"
+  ],
+  "lemma": "grijs",
+  "tr_en": "Do you see that grey mouse under the chair?",
+  "tr_ru": "Видишь ту серую мышь под стулом?",
+  "explain_en": "After die the adjective takes -e, and s becomes z between vowels: grijs – grijze.",
+  "explain_ru": "После die прилагательное получает -e, а s между гласными становится z: grijs – grijze.",
+  "id": "g017"
+ },
+ {
+  "kind": "form",
+  "text": "Doe die ___ sokken niet in de kast!",
+  "answer": [
+   "vieze"
+  ],
+  "lemma": "vies",
+  "tr_en": "Don't put those dirty socks in the wardrobe!",
+  "tr_ru": "Не клади эти грязные носки в шкаф!",
+  "explain_en": "Plural noun → -e; ie stays, s becomes z: vies – vieze.",
+  "explain_ru": "Перед существительным во множественном числе — -e; s превращается в z: vies – vieze.",
+  "id": "g018"
+ },
+ {
+  "kind": "form",
+  "text": "Wat een ___ hond! Hoe heet hij?",
+  "answer": [
+   "lieve"
+  ],
+  "lemma": "lief",
+  "tr_en": "What a sweet dog! What's his name?",
+  "tr_ru": "Какая милая собака! Как его зовут?",
+  "explain_en": "Hond is a de-word, so een + adjective takes -e; f becomes v: lief – lieve.",
+  "explain_ru": "Hond — de-слово, поэтому после een прилагательное с -e; f превращается в v: lief – lieve.",
+  "id": "g019"
+ },
+ {
+  "kind": "form",
+  "text": "Dit is het ___ restaurant van de stad: één menu kost honderd euro.",
+  "answer": [
+   "duurste"
+  ],
+  "lemma": "duur",
+  "tr_en": "This is the most expensive restaurant in the city: one menu costs a hundred euros.",
+  "tr_ru": "Это самый дорогой ресторан в городе: одно меню стоит сто евро.",
+  "explain_en": "Superlative: duur + -st, plus -e after het: het duurste restaurant.",
+  "explain_ru": "Превосходная степень: duur + -st + -e после het: het duurste restaurant. Русскому «самый» соответствует суффикс -st.",
+  "id": "g020"
+ },
+ {
+  "kind": "form",
+  "text": "Ik wil graag een ___ kilo kaas, alstublieft.",
+  "answer": [
+   "halve"
+  ],
+  "lemma": "half",
+  "tr_en": "I'd like half a kilo of cheese, please.",
+  "tr_ru": "Мне, пожалуйста, полкило сыра.",
+  "explain_en": "Kilo is a de-word, so half takes -e and f becomes v: een halve kilo.",
+  "explain_ru": "Kilo — de-слово, поэтому half получает -e, а f меняется на v: een halve kilo. По-русски одно слово «полкило», а здесь прилагательное.",
+  "id": "g021"
+ },
+ {
+  "kind": "form",
+  "text": "Mijn zus spreekt ___ Engels dan ik.",
+  "answer": [
+   "beter"
+  ],
+  "lemma": "goed",
+  "tr_en": "My sister speaks better English than I do.",
+  "tr_ru": "Моя сестра говорит по-английски лучше, чем я.",
+  "explain_en": "Goed has an irregular comparative: goed – beter – best.",
+  "explain_ru": "У goed неправильная сравнительная степень: goed – beter – best (как «хорошо – лучше»).",
+  "id": "g022"
+ },
+ {
+  "kind": "form",
+  "text": "Jan heeft ___ boeken dan zijn broer.",
+  "answer": [
+   "meer"
+  ],
+  "lemma": "veel",
+  "tr_en": "Jan has more books than his brother.",
+  "tr_ru": "У Яна больше книг, чем у его брата.",
+  "explain_en": "Veel has an irregular comparative: veel – meer – meest.",
+  "explain_ru": "Veel — неправильное сравнение: veel – meer – meest («много – больше»).",
+  "id": "g023"
+ },
+ {
+  "kind": "form",
+  "text": "Deze week heb ik ___ tijd dan vorige week.",
+  "answer": [
+   "minder"
+  ],
+  "lemma": "weinig",
+  "tr_en": "This week I have less time than last week.",
+  "tr_ru": "На этой неделе у меня меньше времени, чем на прошлой.",
+  "explain_en": "Weinig has an irregular comparative: weinig – minder – minst.",
+  "explain_ru": "Weinig — неправильное сравнение: weinig – minder – minst («мало – меньше»).",
+  "id": "g024"
+ },
+ {
+  "kind": "form",
+  "text": "Ik drink ___ thee dan koffie.",
+  "answer": [
+   "liever"
+  ],
+  "lemma": "graag",
+  "tr_en": "I prefer tea to coffee.",
+  "tr_ru": "Я больше люблю чай, чем кофе.",
+  "explain_en": "Graag (gladly) has the comparative liever: graag – liever – het liefst.",
+  "explain_ru": "Graag («охотно») имеет сравнительную степень liever: graag – liever – het liefst. В русском тут просто «больше люблю».",
+  "id": "g025"
+ },
+ {
+  "kind": "form",
+  "text": "Voor de lunch eet ik meestal een ___ met kaas.",
+  "answer": [
+   "broodje"
+  ],
+  "lemma": "het brood",
+  "tr_en": "For lunch I usually eat a roll with cheese.",
+  "tr_ru": "На обед я обычно ем булочку с сыром.",
+  "explain_en": "Een broodje (diminutive) is a bread roll or sandwich; een brood would be a whole loaf.",
+  "explain_ru": "Een broodje (уменьшительное) — булочка или бутерброд; een brood — целая буханка. Уменьшительная форма здесь меняет значение.",
+  "id": "g026"
+ },
+ {
+  "kind": "form",
+  "text": "In het café zitten we aan een klein ___ bij het raam.",
+  "answer": [
+   "tafeltje"
+  ],
+  "lemma": "de tafel",
+  "tr_en": "In the café we sit at a little table by the window.",
+  "tr_ru": "В кафе мы сидим за маленьким столиком у окна.",
+  "explain_en": "Klein without -e after een shows a het-word: the diminutive tafeltje is always het.",
+  "explain_ru": "Klein без -e после een указывает на het-слово: уменьшительное tafeltje всегда het (de tafel → het tafeltje), как русское «столик».",
+  "id": "g027"
+ },
+ {
+  "kind": "form",
+  "text": "Ze geeft haar moeder een mooi ___ voor haar verjaardag.",
+  "answer": [
+   "bloemetje"
+  ],
+  "lemma": "de bloem",
+  "tr_en": "She gives her mother a nice bunch of flowers for her birthday.",
+  "tr_ru": "Она дарит маме красивый букетик на день рождения.",
+  "explain_en": "Mooi without -e means a het-word: the diminutive bloemetje (after m: -etje) is het.",
+  "explain_ru": "Mooi без -e — значит het-слово: уменьшительное bloemetje (после m — суффикс -etje) всегда het.",
+  "id": "g028"
+ },
+ {
+  "kind": "form",
+  "text": "Ken jij Peter? Ik zie ___ elke dag in de bus.",
+  "answer": [
+   "hem"
+  ],
+  "lemma": "hij",
+  "tr_en": "Do you know Peter? I see him every day on the bus.",
+  "tr_ru": "Ты знаешь Петера? Я вижу его каждый день в автобусе.",
+  "explain_en": "As a direct object hij becomes hem.",
+  "explain_ru": "В роли дополнения hij становится hem (как «он – его»).",
+  "id": "g029"
+ },
+ {
+  "kind": "form",
+  "text": "Kom binnen! Dit is ___ nieuwe huis.",
+  "answer": [
+   "ons"
+  ],
+  "lemma": "wij",
+  "tr_en": "Come in! This is our new house.",
+  "tr_ru": "Заходи! Это наш новый дом.",
+  "explain_en": "Huis is a het-word, so 'our' is ons (not onze), even with an adjective after it.",
+  "explain_ru": "Huis — het-слово, поэтому «наш» = ons, а не onze, даже если дальше стоит прилагательное.",
+  "id": "g030"
+ },
+ {
+  "kind": "form",
+  "text": "___ kinderen gaan naar dezelfde school als jullie dochter.",
+  "answer": [
+   "Onze"
+  ],
+  "lemma": "wij",
+  "tr_en": "Our children go to the same school as your daughter.",
+  "tr_ru": "Наши дети ходят в ту же школу, что и ваша дочь.",
+  "explain_en": "In the plural every noun is a de-word, so 'our' is onze — even though kind is a het-word.",
+  "explain_ru": "Во множественном числе все существительные — de-слова, поэтому onze, хотя kind — het-слово (ons kind, но onze kinderen).",
+  "id": "g031"
+ },
+ {
+  "kind": "form",
+  "text": "Ik bedoel niet Peter, ik bedoel ___!",
+  "answer": [
+   "jou"
+  ],
+  "lemma": "jij",
+  "tr_en": "I don't mean Peter, I mean you!",
+  "tr_ru": "Я имею в виду не Петера, а тебя!",
+  "explain_en": "Stressed object form of jij is jou (unstressed: je).",
+  "explain_ru": "Ударная форма дополнения от jij — jou (безударная — je). Здесь логическое ударение, поэтому только jou.",
+  "id": "g032"
+ },
+ {
+  "kind": "form",
+  "text": "Ik ___ elke dag om zeven uur op.",
+  "answer": [
+   "sta"
+  ],
+  "lemma": "opstaan",
+  "tr_en": "I get up at seven every day.",
+  "tr_ru": "Я встаю каждый день в семь.",
+  "explain_en": "Separable verb: in a main clause the prefix op goes to the end; ik + stem: sta.",
+  "explain_ru": "Отделяемый глагол: в главном предложении приставка op уходит в конец; ik + основа: sta. В русском приставка от глагола не отрывается.",
+  "id": "g033"
+ },
+ {
+  "kind": "form",
+  "text": "___ je paraplu mee, het gaat zo regenen!",
+  "answer": [
+   "Neem"
+  ],
+  "lemma": "meenemen",
+  "tr_en": "Take your umbrella with you, it's going to rain soon!",
+  "tr_ru": "Возьми с собой зонт, скоро пойдёт дождь!",
+  "explain_en": "Imperative = stem: neem; the separable prefix mee goes to the end.",
+  "explain_ru": "Повелительное наклонение = основа глагола: neem; отделяемая приставка mee уходит в конец.",
+  "id": "g034"
+ },
+ {
+  "kind": "form",
+  "text": "Wat ___ jij meestal op zondag?",
+  "answer": [
+   "doe"
+  ],
+  "lemma": "doen",
+  "tr_en": "What do you usually do on Sundays?",
+  "tr_ru": "Что ты обычно делаешь по воскресеньям?",
+  "explain_en": "Jij doet, but in inversion the -t drops: doe jij?",
+  "explain_ru": "Jij doet, но при инверсии -t отпадает: wat doe jij?",
+  "id": "g035"
+ },
+ {
+  "kind": "form",
+  "text": "___ u mevrouw De Vries? Welkom!",
+  "answer": [
+   "Bent"
+  ],
+  "lemma": "zijn",
+  "tr_en": "Are you Mrs De Vries? Welcome!",
+  "tr_ru": "Вы госпожа Де Врис? Добро пожаловать!",
+  "explain_en": "With u, zijn is bent — and the -t stays even in inversion (unlike jij).",
+  "explain_ru": "С u глагол zijn — bent, и -t сохраняется даже при инверсии (в отличие от jij). Вежливое u — грамматически единственное число, а не «вы» во множественном.",
+  "id": "g036"
+ },
+ {
+  "kind": "form",
+  "text": "___ u een pinpas, of betaalt u contant?",
+  "answer": [
+   "Hebt",
+   "Heeft"
+  ],
+  "lemma": "hebben",
+  "tr_en": "Do you have a bank card, or are you paying cash?",
+  "tr_ru": "У вас есть банковская карта или вы платите наличными?",
+  "explain_en": "With u both hebt and heeft are correct; the t stays in inversion.",
+  "explain_ru": "С u правильны обе формы — hebt и heeft; t при инверсии не отпадает. Русское «у вас есть» передаётся глаголом hebben.",
+  "id": "g037"
+ },
+ {
+  "kind": "form",
+  "text": "Mijn vader ___ elke ochtend de krant.",
+  "answer": [
+   "leest"
+  ],
+  "lemma": "lezen",
+  "tr_en": "My father reads the newspaper every morning.",
+  "tr_ru": "Мой отец каждое утро читает газету.",
+  "explain_en": "Stem of lezen is lees (z → s at the end, long ee in a closed syllable) + t: leest.",
+  "explain_ru": "Основа lezen — lees (z на конце становится s, долгое ee пишется двумя буквами) + t: leest.",
+  "id": "g038"
+ },
+ {
+  "kind": "form",
+  "text": "Hij ___ elke zaterdag in de zee, ook in de winter.",
+  "answer": [
+   "zwemt"
+  ],
+  "lemma": "zwemmen",
+  "tr_en": "He swims in the sea every Saturday, even in winter.",
+  "tr_ru": "Он плавает в море каждую субботу, даже зимой.",
+  "explain_en": "The double m is only needed in the infinitive; stem zwem + t: zwemt.",
+  "explain_ru": "Двойная m нужна только в инфинитиве; основа zwem + t: zwemt.",
+  "id": "g039"
+ },
+ {
+  "kind": "form",
+  "text": "Waar ___ jij vandaan? Uit Rusland?",
+  "answer": [
+   "kom"
+  ],
+  "lemma": "komen",
+  "tr_en": "Where are you from? From Russia?",
+  "tr_ru": "Откуда ты? Из России?",
+  "explain_en": "Jij komt, but after the verb jij: kom jij? (no -t).",
+  "explain_ru": "Jij komt, но если jij стоит после глагола — kom jij? (без -t).",
+  "id": "g040"
+ },
+ {
+  "kind": "word",
+  "text": "Ik ___ zijn broer niet, maar zijn zus wel.",
+  "answer": [
+   "ken"
+  ],
+  "ref": "kennen",
+  "clue_en": "to know (a person)",
+  "clue_ru": "знать (человека)",
+  "tr_en": "I don't know his brother, but I do know his sister.",
+  "tr_ru": "Я не знаю его брата, а его сестру знаю.",
+  "explain_en": "People and places you are familiar with: kennen. Weten is for facts.",
+  "explain_ru": "Знакомых людей и места — kennen; факты и информацию — weten. В русском в обоих случаях «знать».",
+  "id": "g041"
+ },
+ {
+  "kind": "word",
+  "text": "___ jij hoe laat de winkel dichtgaat?",
+  "answer": [
+   "Weet"
+  ],
+  "ref": "weten",
+  "clue_en": "to know (a fact)",
+  "clue_ru": "знать (факт)",
+  "tr_en": "Do you know what time the shop closes?",
+  "tr_ru": "Ты знаешь, во сколько закрывается магазин?",
+  "explain_en": "Knowing a fact or answer (a clause follows) is weten; jij weet, inverted: weet jij.",
+  "explain_ru": "Знать факт (дальше идёт придаточное) — weten, не kennen; jij weet, при инверсии weet jij.",
+  "id": "g042"
+ },
+ {
+  "kind": "word",
+  "text": "'s Avonds ___ we vaak samen naar een film op tv.",
+  "answer": [
+   "kijken"
+  ],
+  "ref": "kijken",
+  "clue_en": "to watch",
+  "clue_ru": "смотреть",
+  "tr_en": "In the evening we often watch a film on TV together.",
+  "tr_ru": "По вечерам мы часто вместе смотрим фильм по телевизору.",
+  "explain_en": "Watching on purpose is kijken (naar); zien is just perceiving with your eyes.",
+  "explain_ru": "Целенаправленно смотреть — kijken (naar), а zien — просто видеть. Русское «смотреть фильм» = naar een film kijken.",
+  "id": "g043"
+ },
+ {
+  "kind": "word",
+  "text": "Zonder bril ___ ik bijna niets.",
+  "answer": [
+   "zie"
+  ],
+  "ref": "zien",
+  "clue_en": "to see",
+  "clue_ru": "видеть",
+  "tr_en": "Without glasses I can see almost nothing.",
+  "tr_ru": "Без очков я почти ничего не вижу.",
+  "explain_en": "The ability to perceive with your eyes is zien; ik zie.",
+  "explain_ru": "Способность видеть — zien (не kijken); ik zie. Обратите внимание: «я почти ничего не вижу» — без отдельного отрицания niet, его заменяет niets.",
+  "id": "g044"
+ },
+ {
+  "kind": "word",
+  "text": "Ons ___ bestaat uit vier personen: mijn ouders, mijn zus en ik.",
+  "answer": [
+   "gezin"
+  ],
+  "ref": "het gezin",
+  "clue_en": "family (household)",
+  "clue_ru": "семья (родители и дети)",
+  "tr_en": "Our family consists of four people: my parents, my sister and me.",
+  "tr_ru": "Наша семья состоит из четырёх человек: родители, сестра и я.",
+  "explain_en": "Het gezin is parents and children under one roof; ons (not onze) also shows a het-word.",
+  "explain_ru": "Het gezin — родители и дети, живущие вместе; ons (а не onze) тоже указывает на het-слово. De familie — все родственники.",
+  "id": "g045"
+ },
+ {
+  "kind": "word",
+  "text": "Met Kerst komt de hele ___ bij oma: ooms, tantes, neven en nichten.",
+  "answer": [
+   "familie"
+  ],
+  "ref": "de familie",
+  "clue_en": "relatives",
+  "clue_ru": "родственники, родня",
+  "tr_en": "At Christmas the whole family comes to grandma's: uncles, aunts, cousins.",
+  "tr_ru": "На Рождество вся родня собирается у бабушки: дяди, тёти, двоюродные братья и сёстры.",
+  "explain_en": "All relatives together are de familie, not het gezin.",
+  "explain_ru": "Вся родня — de familie, а не het gezin. Ложный друг: familie — это не «фамилия» (фамилия = de achternaam).",
+  "id": "g046"
+ },
+ {
+  "kind": "word",
+  "text": "Op de basisschool ___ kinderen lezen en schrijven.",
+  "answer": [
+   "leren"
+  ],
+  "ref": "leren",
+  "clue_en": "to learn",
+  "clue_ru": "учиться, учить",
+  "tr_en": "At primary school children learn to read and write.",
+  "tr_ru": "В начальной школе дети учатся читать и писать.",
+  "explain_en": "Learning a skill is leren; studeren is only for university studies.",
+  "explain_ru": "Учиться навыку — leren; studeren — только об учёбе в вузе. Русское «учиться» покрывает оба.",
+  "id": "g047"
+ },
+ {
+  "kind": "word",
+  "text": "Mijn broer ___ medicijnen aan de universiteit van Leiden.",
+  "answer": [
+   "studeert"
+  ],
+  "ref": "studeren",
+  "clue_en": "to study (at university)",
+  "clue_ru": "учиться в вузе",
+  "tr_en": "My brother studies medicine at Leiden University.",
+  "tr_ru": "Мой брат учится на медицинском в Лейденском университете.",
+  "explain_en": "Studying a subject at university is studeren: hij studeert.",
+  "explain_ru": "Изучать предмет в университете — studeren: hij studeert. Medicijnen здесь — «медицина» как специальность.",
+  "id": "g048"
+ },
+ {
+  "kind": "word",
+  "text": "Wat ___ je? Ik hoor je niet, het is zo druk hier.",
+  "answer": [
+   "zeg"
+  ],
+  "ref": "zeggen",
+  "clue_en": "to say",
+  "clue_ru": "говорить, сказать",
+  "tr_en": "What are you saying? I can't hear you, it's so noisy here.",
+  "tr_ru": "Что ты говоришь? Я тебя не слышу, тут так шумно.",
+  "explain_en": "Saying words or content is zeggen; with inversion: zeg je.",
+  "explain_ru": "Сказать что-то (содержание) — zeggen; при инверсии zeg je. Spreken — «говорить» как умение или на языке.",
+  "id": "g049"
+ },
+ {
+  "kind": "word",
+  "text": "___ u Engels, of alleen Nederlands?",
+  "answer": [
+   "Spreekt"
+  ],
+  "ref": "spreken",
+  "clue_en": "to speak (a language)",
+  "clue_ru": "говорить (на языке)",
+  "tr_en": "Do you speak English, or only Dutch?",
+  "tr_ru": "Вы говорите по-английски или только по-нидерландски?",
+  "explain_en": "Speaking a language is spreken; with u the -t stays: spreekt u.",
+  "explain_ru": "Говорить на языке — spreken; с u окончание -t сохраняется: spreekt u. Язык идёт без предлога, в отличие от русского «на английском».",
+  "id": "g050"
+ },
+ {
+  "kind": "word",
+  "text": "Mijn vader heeft sinds kort een nieuwe ___ bij een bank.",
+  "answer": [
+   "baan"
+  ],
+  "ref": "de baan",
+  "clue_en": "job",
+  "clue_ru": "работа, место работы",
+  "tr_en": "My father recently got a new job at a bank.",
+  "tr_ru": "У моего отца недавно новая работа в банке.",
+  "explain_en": "A job/position is de baan (countable); het werk is work in general and doesn't take een nieuwe.",
+  "explain_ru": "Должность, место работы — de baan (исчисляемое); het werk — работа вообще, с een nieuwe не сочетается.",
+  "id": "g051"
+ },
+ {
+  "kind": "word",
+  "text": "Op de aarde wonen meer dan acht miljard ___.",
+  "answer": [
+   "mensen"
+  ],
+  "ref": "de mens",
+  "clue_en": "human being",
+  "clue_ru": "человек",
+  "tr_en": "More than eight billion people live on Earth.",
+  "tr_ru": "На Земле живёт больше восьми миллиардов человек.",
+  "explain_en": "De mens = human being, plural mensen; de man is only 'man/husband'.",
+  "explain_ru": "De mens — человек вообще, мн. ч. mensen; de man — мужчина или муж. Не путайте!",
+  "id": "g052"
+ },
+ {
+  "kind": "word",
+  "text": "De zoon van mijn tante is mijn ___.",
+  "answer": [
+   "neef"
+  ],
+  "ref": "de neef",
+  "clue_en": "male cousin",
+  "clue_ru": "двоюродный брат",
+  "tr_en": "My aunt's son is my cousin.",
+  "tr_ru": "Сын моей тёти — мой двоюродный брат.",
+  "explain_en": "Neef means both male cousin and nephew.",
+  "explain_ru": "Neef — и двоюродный брат, и племянник; в русском это разные слова.",
+  "id": "g053"
+ },
+ {
+  "kind": "word",
+  "text": "De dochter van mijn broer is mijn ___.",
+  "answer": [
+   "nicht"
+  ],
+  "ref": "de nicht",
+  "clue_en": "niece",
+  "clue_ru": "племянница",
+  "tr_en": "My brother's daughter is my niece.",
+  "tr_ru": "Дочь моего брата — моя племянница.",
+  "explain_en": "Nicht means both niece and female cousin.",
+  "explain_ru": "Nicht — и племянница, и двоюродная сестра. Не путать с niet («не»).",
+  "id": "g054"
+ },
+ {
+  "kind": "word",
+  "text": "Bij welke ___ moet ik uitstappen voor het museum?",
+  "answer": [
+   "halte"
+  ],
+  "ref": "de halte",
+  "clue_en": "stop (bus, tram)",
+  "clue_ru": "остановка",
+  "tr_en": "At which stop do I have to get off for the museum?",
+  "tr_ru": "На какой остановке мне выходить к музею?",
+  "explain_en": "A bus or tram stop is de halte; welke (with -e) also needs a de-word, so not het station.",
+  "explain_ru": "Остановка автобуса или трамвая — de halte; welke с -e требует de-слова, поэтому не het station.",
+  "id": "g055"
+ },
+ {
+  "kind": "word",
+  "text": "Een ___ voor de tram kost drie euro.",
+  "answer": [
+   "kaartje"
+  ],
+  "ref": "het kaartje",
+  "clue_en": "ticket",
+  "clue_ru": "билет",
+  "tr_en": "A tram ticket costs three euros.",
+  "tr_ru": "Билет на трамвай стоит три евро.",
+  "explain_en": "A ticket for transport or the cinema is een kaartje.",
+  "explain_ru": "Билет на транспорт или в кино — een kaartje (буквально «карточка»).",
+  "id": "g056"
+ },
+ {
+  "kind": "word",
+  "text": "Op zaterdag is het altijd erg ___ in de supermarkt: overal mensen.",
+  "answer": [
+   "druk"
+  ],
+  "ref": "druk",
+  "clue_en": "crowded",
+  "clue_ru": "людно, оживлённо",
+  "tr_en": "On Saturdays it's always very crowded in the supermarket: people everywhere.",
+  "tr_ru": "По субботам в супермаркете всегда очень людно: везде люди.",
+  "explain_en": "Druk = busy, crowded (places or people with a lot to do).",
+  "explain_ru": "Druk — «людно, оживлённо» о месте, а также «занят» о человеке. Ложный друг немцам: не «давление».",
+  "id": "g057"
+ },
+ {
+  "kind": "word",
+  "text": "'s Nachts is het hier heel ___: je hoort geen enkele auto.",
+  "answer": [
+   "rustig"
+  ],
+  "ref": "rustig",
+  "clue_en": "quiet, peaceful",
+  "clue_ru": "тихо, спокойно",
+  "tr_en": "At night it's very quiet here: you can't hear a single car.",
+  "tr_ru": "Ночью здесь очень тихо: не слышно ни одной машины.",
+  "explain_en": "Rustig = calm, quiet, the opposite of druk.",
+  "explain_ru": "Rustig — «спокойно, тихо», противоположность druk.",
+  "id": "g058"
+ },
+ {
+  "kind": "word",
+  "text": "Sorry dat ik zo ___ ben, de bus kwam niet.",
+  "answer": [
+   "laat"
+  ],
+  "ref": "laat",
+  "clue_en": "late",
+  "clue_ru": "поздно, с опозданием",
+  "tr_en": "Sorry I'm so late, the bus didn't come.",
+  "tr_ru": "Извини, что я так опоздал: автобус не пришёл.",
+  "explain_en": "To be late = laat zijn (te laat zijn).",
+  "explain_ru": "«Опоздать» по-нидерландски — (te) laat zijn, «быть поздно», отдельного глагола нет.",
+  "id": "g059"
+ },
+ {
+  "kind": "word",
+  "text": "Dit hotel is te ___ voor ons; één nacht kost driehonderd euro.",
+  "answer": [
+   "duur"
+  ],
+  "ref": "duur",
+  "clue_en": "expensive",
+  "clue_ru": "дорогой",
+  "tr_en": "This hotel is too expensive for us; one night costs three hundred euros.",
+  "tr_ru": "Этот отель слишком дорогой для нас: одна ночь стоит триста евро.",
+  "explain_en": "Duur = expensive (opposite: goedkoop).",
+  "explain_ru": "Duur — «дорогой» (о цене), противоположность goedkoop. «Дорогой» в смысле «милый» — lief.",
+  "id": "g060"
+ },
+ {
+  "kind": "word",
+  "text": "De apotheek is op zondag ___, dus je moet tot maandag wachten.",
+  "answer": [
+   "dicht"
+  ],
+  "ref": "dicht",
+  "clue_en": "closed",
+  "clue_ru": "закрыт",
+  "tr_en": "The pharmacy is closed on Sunday, so you have to wait until Monday.",
+  "tr_ru": "Аптека в воскресенье закрыта, так что придётся ждать до понедельника.",
+  "explain_en": "Dicht = closed (shop, door); opposite of open.",
+  "explain_ru": "Dicht — «закрыт» (магазин, дверь), противоположность open.",
+  "id": "g061"
+ },
+ {
+  "kind": "word",
+  "text": "Hoeveel ___ deze schoenen? Ik zie geen prijs.",
+  "answer": [
+   "kosten"
+  ],
+  "ref": "kosten",
+  "clue_en": "to cost",
+  "clue_ru": "стоить",
+  "tr_en": "How much do these shoes cost? I can't see a price.",
+  "tr_ru": "Сколько стоят эти туфли? Я не вижу цены.",
+  "explain_en": "Plural subject (schoenen), so the plural form kosten.",
+  "explain_ru": "Подлежащее во множественном числе (schoenen), поэтому форма kosten.",
+  "id": "g062"
+ },
+ {
+  "kind": "word",
+  "text": "Heeft u contant geld, of wilt u ___?",
+  "answer": [
+   "pinnen"
+  ],
+  "ref": "pinnen",
+  "clue_en": "to pay by card",
+  "clue_ru": "платить картой",
+  "tr_en": "Do you have cash, or would you like to pay by card?",
+  "tr_ru": "У вас наличные или вы хотите расплатиться картой?",
+  "explain_en": "Pinnen is the everyday Dutch verb for paying with a bank card (also: withdrawing cash).",
+  "explain_ru": "Pinnen — разговорный глагол «платить банковской картой» (или снимать наличные), от PIN-код.",
+  "id": "g063"
+ },
+ {
+  "kind": "word",
+  "text": "Op kantoor ___ mijn vader altijd een overhemd en een das.",
+  "answer": [
+   "draagt"
+  ],
+  "ref": "dragen",
+  "clue_en": "to wear",
+  "clue_ru": "носить (одежду)",
+  "tr_en": "At the office my father always wears a shirt and tie.",
+  "tr_ru": "В офисе мой отец всегда носит рубашку и галстук.",
+  "explain_en": "Wearing clothes regularly is dragen: hij draagt.",
+  "explain_ru": "Носить одежду — dragen: hij draagt. Aantrekken — «надевать» (действие).",
+  "id": "g064"
+ },
+ {
+  "kind": "word",
+  "text": "Het is koud buiten: ___ je jas aan!",
+  "answer": [
+   "trek"
+  ],
+  "ref": "aantrekken",
+  "clue_en": "to put on (clothes)",
+  "clue_ru": "надевать",
+  "tr_en": "It's cold outside: put your coat on!",
+  "tr_ru": "На улице холодно: надень куртку!",
+  "explain_en": "Aantrekken is separable; in the imperative the stem trek comes first and aan goes to the end.",
+  "explain_ru": "Aantrekken — отделяемый глагол: в повелительном наклонении основа trek в начале, aan — в конце.",
+  "id": "g065"
+ },
+ {
+  "kind": "word",
+  "text": "Mijn ___ gaat elke ochtend om zes uur, maar ik sta pas om half zeven op.",
+  "answer": [
+   "wekker"
+  ],
+  "ref": "de wekker",
+  "clue_en": "alarm clock",
+  "clue_ru": "будильник",
+  "tr_en": "My alarm goes off every morning at six, but I don't get up until half past six.",
+  "tr_ru": "Мой будильник звонит каждое утро в шесть, но я встаю только в половине седьмого.",
+  "explain_en": "De wekker is the alarm clock (from wekken, to wake).",
+  "explain_ru": "De wekker — будильник (от wekken «будить»). Будильник «идёт» (gaat), а не «звонит».",
+  "id": "g066"
+ },
+ {
+  "kind": "word",
+  "text": "Hoe ___ je nieuwe vriendin eigenlijk?",
+  "answer": [
+   "heet"
+  ],
+  "ref": "heten",
+  "clue_en": "to be called",
+  "clue_ru": "зваться",
+  "tr_en": "What is your new girlfriend's name, actually?",
+  "tr_ru": "А как зовут твою новую девушку?",
+  "explain_en": "Hoe heet ... ? = what is ... called? The subject is vriendin, so heet.",
+  "explain_ru": "Hoe heet ...? — «как зовут ...?»; подлежащее — vriendin (она сама «зовётся»), а не «её зовут», как в русском.",
+  "id": "g067"
+ },
+ {
+  "kind": "word",
+  "text": "Wij ___ op de derde verdieping van een oud gebouw.",
+  "answer": [
+   "wonen"
+  ],
+  "ref": "wonen",
+  "clue_en": "to live (reside)",
+  "clue_ru": "жить (проживать)",
+  "tr_en": "We live on the third floor of an old building.",
+  "tr_ru": "Мы живём на четвёртом этаже старого здания.",
+  "explain_en": "Living somewhere (address) is wonen; leven is 'to be alive'.",
+  "explain_ru": "Жить где-то (адрес) — wonen; leven — «жить» в смысле «существовать». Derde verdieping — по-русски «четвёртый этаж», т.к. первый этаж = begane grond.",
+  "id": "g068"
+ },
+ {
+  "kind": "word",
+  "text": "Voor mijn verjaardag ___ ik altijd boeken van mijn oma.",
+  "answer": [
+   "krijg"
+  ],
+  "ref": "krijgen",
+  "clue_en": "to receive",
+  "clue_ru": "получать",
+  "tr_en": "For my birthday I always get books from my grandma.",
+  "tr_ru": "На день рождения я всегда получаю от бабушки книги.",
+  "explain_en": "Receiving a present is krijgen: ik krijg.",
+  "explain_ru": "Получать подарок — krijgen: ik krijg. Русское «мне дарят» здесь переводится как «я получаю».",
+  "id": "g069"
+ },
+ {
+  "kind": "word",
+  "text": "Ik ___ elke dag de trein van kwart over acht naar Amsterdam.",
+  "answer": [
+   "neem"
+  ],
+  "ref": "nemen",
+  "clue_en": "to take",
+  "clue_ru": "брать; садиться (на поезд)",
+  "tr_en": "Every day I take the quarter past eight train to Amsterdam.",
+  "tr_ru": "Каждый день я сажусь на поезд в четверть девятого до Амстердама.",
+  "explain_en": "Taking a means of transport: de trein nemen; ik neem.",
+  "explain_ru": "«Ехать поездом, садиться на поезд» — de trein nemen («брать поезд»); ik neem.",
+  "id": "g070"
+ },
+ {
+  "kind": "word",
+  "text": "Wat ___ jij je moeder voor Moederdag?",
+  "answer": [
+   "geef"
+  ],
+  "ref": "geven",
+  "clue_en": "to give",
+  "clue_ru": "дарить, давать",
+  "tr_en": "What are you giving your mother for Mother's Day?",
+  "tr_ru": "Что ты даришь маме на День матери?",
+  "explain_en": "Geven + indirect object without a preposition; inverted jij: geef jij.",
+  "explain_ru": "Geven + косвенное дополнение без предлога (je moeder = «маме»); при инверсии geef jij. «Дарить» и «давать» — одно слово geven.",
+  "id": "g071"
+ },
+ {
+  "kind": "word",
+  "text": "Mag ik een plastic ___ voor mijn boodschappen?",
+  "answer": [
+   "tas",
+   "tasje"
+  ],
+  "ref": "de tas",
+  "clue_en": "bag",
+  "clue_ru": "сумка, пакет",
+  "tr_en": "Can I have a plastic bag for my groceries?",
+  "tr_ru": "Можно мне пакет для покупок?",
+  "explain_en": "A (plastic) bag is een tas or een tasje.",
+  "explain_ru": "Пакет или сумка — een tas, часто уменьшительное een (plastic) tasje.",
+  "id": "g072"
+ },
+ {
+  "kind": "word",
+  "text": "Bewaar de ___, dan kun je de broek later terugbrengen.",
+  "answer": [
+   "bon",
+   "bonnetje"
+  ],
+  "ref": "de bon",
+  "clue_en": "receipt",
+  "clue_ru": "чек",
+  "tr_en": "Keep the receipt, then you can bring the trousers back later.",
+  "tr_ru": "Сохрани чек, тогда сможешь потом вернуть брюки.",
+  "explain_en": "A till receipt is de bon or het bonnetje.",
+  "explain_ru": "Кассовый чек — de bon или het bonnetje. Ложный друг: bon — не «бонус».",
+  "id": "g073"
+ },
+ {
+  "kind": "word",
+  "text": "Met deze kaart krijgt u tien procent ___ op alle kleren.",
+  "answer": [
+   "korting"
+  ],
+  "ref": "de korting",
+  "clue_en": "discount",
+  "clue_ru": "скидка",
+  "tr_en": "With this card you get ten percent off all clothes.",
+  "tr_ru": "С этой картой вы получаете скидку десять процентов на всю одежду.",
+  "explain_en": "A price reduction is korting; note: korting op iets.",
+  "explain_ru": "Скидка — korting, с предлогом op: korting op alle kleren («скидка на»).",
+  "id": "g074"
+ },
+ {
+  "kind": "word",
+  "text": "Schiphol is het grootste ___ van Nederland.",
+  "answer": [
+   "vliegveld"
+  ],
+  "ref": "het vliegveld",
+  "clue_en": "airport",
+  "clue_ru": "аэропорт",
+  "tr_en": "Schiphol is the biggest airport in the Netherlands.",
+  "tr_ru": "Схипхол — самый большой аэропорт Нидерландов.",
+  "explain_en": "Vliegveld (literally 'fly field') is a het-word, matching het grootste.",
+  "explain_ru": "Vliegveld (букв. «лётное поле») — het-слово, что согласуется с het grootste.",
+  "id": "g075"
+ },
+ {
+  "kind": "word",
+  "text": "In Amsterdam varen veel boten door de ___.",
+  "answer": [
+   "grachten",
+   "gracht"
+  ],
+  "ref": "de gracht",
+  "clue_en": "canal",
+  "clue_ru": "канал (в городе)",
+  "tr_en": "In Amsterdam many boats sail through the canals.",
+  "tr_ru": "В Амстердаме по каналам плавает много лодок.",
+  "explain_en": "A city canal is de gracht, plural grachten.",
+  "explain_ru": "Городской канал — de gracht, мн. ч. grachten (het kanaal — большой судоходный канал).",
+  "id": "g076"
+ },
+ {
+  "kind": "word",
+  "text": "Achter ons huis hebben we een kleine ___ met bloemen en een appelboom.",
+  "answer": [
+   "tuin"
+  ],
+  "ref": "de tuin",
+  "clue_en": "garden",
+  "clue_ru": "сад, двор",
+  "tr_en": "Behind our house we have a small garden with flowers and an apple tree.",
+  "tr_ru": "За нашим домом у нас маленький сад с цветами и яблоней.",
+  "explain_en": "De tuin = garden or yard; kleine with -e matches a de-word.",
+  "explain_ru": "De tuin — сад или двор при доме; kleine с -e согласуется с de-словом.",
+  "id": "g077"
+ },
+ {
+  "kind": "word",
+  "text": "Doe het ___ even open, het is zo warm hier!",
+  "answer": [
+   "raam"
+  ],
+  "ref": "het raam",
+  "clue_en": "window",
+  "clue_ru": "окно",
+  "tr_en": "Open the window for a moment, it's so warm in here!",
+  "tr_ru": "Открой окно, здесь так жарко!",
+  "explain_en": "Het raam = window; het rules out de deur.",
+  "explain_ru": "Het raam — окно; артикль het исключает de deur («дверь»).",
+  "id": "g078"
+ },
+ {
+  "kind": "word",
+  "text": "Deze oefening is erg ___: ik begrijp er niets van.",
+  "answer": [
+   "moeilijk"
+  ],
+  "ref": "moeilijk",
+  "clue_en": "difficult",
+  "clue_ru": "трудный",
+  "tr_en": "This exercise is very difficult: I don't understand a thing.",
+  "tr_ru": "Это упражнение очень трудное: я ничего не понимаю.",
+  "explain_en": "Moeilijk = difficult (opposite: makkelijk).",
+  "explain_ru": "Moeilijk — «трудный», противоположность makkelijk.",
+  "id": "g079"
+ },
+ {
+  "kind": "word",
+  "text": "Het ___ zo hard vandaag dat mijn paraplu kapot is.",
+  "answer": [
+   "waait"
+  ],
+  "ref": "waaien",
+  "clue_en": "to blow (of wind)",
+  "clue_ru": "дуть (о ветре)",
+  "tr_en": "It's so windy today that my umbrella is broken.",
+  "tr_ru": "Сегодня так сильно дует, что мой зонт сломался.",
+  "explain_en": "Dutch says het waait (it blows) for 'it is windy'.",
+  "explain_ru": "«Ветрено» по-нидерландски — het waait (безличное «дует»), как и het regent «идёт дождь».",
+  "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-de-het",
+  "text": "___ weer is vandaag heel slecht: regen en wind.",
+  "answer": [
+   "Het"
+  ],
+  "tr_en": "The weather is very bad today: rain and wind.",
+  "tr_ru": "Погода сегодня очень плохая: дождь и ветер.",
+  "explain_en": "Weer is a het-word; it has to be learned with its article.",
+  "explain_ru": "Weer — het-слово; род нужно запоминать вместе с артиклем, по русскому роду («погода» — ж. р.) его не угадать.",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-de-het",
+  "text": "___ Nederlands is een moeilijke taal voor veel Russen.",
+  "answer": [
+   "Het"
+  ],
+  "tr_en": "Dutch is a difficult language for many Russians.",
+  "tr_ru": "Нидерландский — трудный язык для многих русских.",
+  "explain_en": "Names of languages used as nouns are het-words: het Nederlands, het Russisch.",
+  "explain_ru": "Названия языков как существительные — het-слова: het Nederlands, het Russisch, хотя de taal — de-слово.",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-de-het",
+  "text": "In Nederland gaan ___ meeste kinderen op de fiets naar school.",
+  "answer": [
+   "de"
+  ],
+  "tr_en": "In the Netherlands most children go to school by bike.",
+  "tr_ru": "В Нидерландах большинство детей ездит в школу на велосипеде.",
+  "explain_en": "Plural nouns always take de, even if the singular is het (het kind – de kinderen); de meeste = most.",
+  "explain_ru": "Во множественном числе всегда de, даже если в единственном het (het kind – de kinderen); de meeste — «большинство».",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-de-het",
+  "text": "Ik heb ___ broer en twee zussen.",
+  "answer": [
+   "een",
+   "één"
+  ],
+  "tr_en": "I have one brother and two sisters.",
+  "tr_ru": "У меня один брат и две сестры.",
+  "explain_en": "Een is both 'a' and 'one'; when stressed it is written één.",
+  "explain_ru": "Een — и неопределённый артикль, и числительное «один»; под ударением пишется één. В русском артикля нет.",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-de-het",
+  "text": "___ zon schijnt en het is lekker warm.",
+  "answer": [
+   "De"
+  ],
+  "tr_en": "The sun is shining and it's nice and warm.",
+  "tr_ru": "Светит солнце, и очень тепло.",
+  "explain_en": "Zon is a de-word; unique things like the sun take the definite article.",
+  "explain_ru": "Zon — de-слово; единственные в своём роде предметы (солнце) получают определённый артикль. Род не совпадает с русским «солнце» (ср. р.).",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-zijn-hebben",
+  "text": "Lisa komt vandaag niet; ___ heeft koorts.",
+  "answer": [
+   "ze",
+   "zij"
+  ],
+  "tr_en": "Lisa isn't coming today; she has a fever.",
+  "tr_ru": "Лиза сегодня не придёт: у неё температура.",
+  "explain_en": "Heeft (singular) + Lisa → she: ze (unstressed) or zij (stressed).",
+  "explain_ru": "Heeft (ед. ч.) и Лиза → «она»: ze (безударное) или zij (ударное). «У неё температура» = «она имеет температуру».",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-zijn-hebben",
+  "text": "___ jij en je zus een tweeling?",
+  "answer": [
+   "Zijn"
+  ],
+  "tr_en": "Are you and your sister twins?",
+  "tr_ru": "Вы с сестрой близнецы?",
+  "explain_en": "Jij en je zus is a plural subject, so the plural verb zijn, not ben.",
+  "explain_ru": "Jij en je zus — подлежащее во множественном числе, поэтому zijn, а не ben (ср. русское «вы с сестрой»).",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-zijn-hebben",
+  "text": "Peter en ik ___ een hond en twee katten.",
+  "answer": [
+   "hebben"
+  ],
+  "tr_en": "Peter and I have a dog and two cats.",
+  "tr_ru": "У нас с Петером собака и две кошки.",
+  "explain_en": "Peter en ik = wij, so the plural form hebben, not heb.",
+  "explain_ru": "Peter en ik = wij, поэтому форма hebben, а не heb. По-русски «у нас с Петером есть».",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronouns-zijn-hebben",
+  "text": "Waar zijn mijn sleutels? – ___ liggen op de keukentafel.",
+  "answer": [
+   "Ze",
+   "Zij"
+  ],
+  "tr_en": "Where are my keys? – They're on the kitchen table.",
+  "tr_ru": "Где мои ключи? – Они лежат на кухонном столе.",
+  "explain_en": "For plural things the normal pronoun is unstressed ze ('they').",
+  "explain_ru": "Для предметов во множественном числе обычно безударное ze («они»). Обратите внимание: ключи «лежат» (liggen), как и в русском.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-tense",
+  "text": "Kom ___ morgen ook naar het feest?",
+  "answer": [
+   "je",
+   "jij"
+  ],
+  "tr_en": "Are you coming to the party tomorrow too?",
+  "tr_ru": "Ты тоже придёшь завтра на праздник?",
+  "explain_en": "Kom without -t before the subject only fits je/jij (u, hij would need komt).",
+  "explain_ru": "Kom без -t перед подлежащим подходит только к je/jij (с u или hij было бы komt).",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-tense",
+  "text": "Wat drink ___? Koffie of thee?",
+  "answer": [
+   "je",
+   "jij"
+  ],
+  "tr_en": "What are you drinking? Coffee or tea?",
+  "tr_ru": "Что ты будешь пить? Кофе или чай?",
+  "explain_en": "The bare stem drink after a question word means the subject is je/jij (inversion drops -t).",
+  "explain_ru": "Голая основа drink после вопросительного слова указывает на je/jij: при инверсии -t отпадает.",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-tense",
+  "text": "___ werken allebei bij een bank, toch, Tom en Eva?",
+  "answer": [
+   "Jullie"
+  ],
+  "tr_en": "You both work at a bank, don't you, Tom and Eva?",
+  "tr_ru": "Вы оба работаете в банке, да, Том и Эва?",
+  "explain_en": "Addressing two people informally: jullie, with the plural verb werken.",
+  "explain_ru": "Обращение к двум людям на «ты» — jullie, глагол во множественном числе werken. Jullie — только множественное «вы», не вежливое.",
+  "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-tense",
+  "text": "Woont ___ hier al lang, mevrouw?",
+  "answer": [
+   "u"
+  ],
+  "tr_en": "Have you lived here long, madam?",
+  "tr_ru": "Вы давно здесь живёте?",
+  "explain_en": "Mevrouw calls for polite u; with u the -t stays after the verb: woont u.",
+  "explain_ru": "Обращение mevrouw требует вежливого u; с u окончание -t остаётся и при инверсии: woont u. В русском — «вы» во множественном числе, а u — единственное.",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-order-questions",
+  "text": "___ heet je zus? – Emma.",
+  "answer": [
+   "Hoe"
+  ],
+  "tr_en": "What's your sister's name? – Emma.",
+  "tr_ru": "Как зовут твою сестру? – Эмма.",
+  "explain_en": "Dutch asks Hoe heet ...? (literally 'how is ... called'), never Wat heet.",
+  "explain_ru": "По-нидерландски спрашивают Hoe heet ...? (букв. «как называется»), как и в русском «как зовут», но не Wat.",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-order-questions",
+  "text": "___ kom je niet mee? – Omdat ik ziek ben.",
+  "answer": [
+   "Waarom"
+  ],
+  "tr_en": "Why aren't you coming along? – Because I'm ill.",
+  "tr_ru": "Почему ты не идёшь с нами? – Потому что я болен.",
+  "explain_en": "The answer starts with omdat (because), so the question word is waarom (why).",
+  "explain_ru": "Ответ начинается с omdat («потому что»), значит вопрос — waarom («почему»).",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-order-questions",
+  "text": "___ kinderen heeft je broer? – Drie.",
+  "answer": [
+   "Hoeveel"
+  ],
+  "tr_en": "How many children does your brother have? – Three.",
+  "tr_ru": "Сколько детей у твоего брата? – Трое.",
+  "explain_en": "A number in the answer → hoeveel (how many), followed directly by the noun.",
+  "explain_ru": "В ответе число → hoeveel («сколько»), сразу за ним существительное во мн. ч. без падежа (в русском — род. падеж «детей»).",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-order-questions",
+  "text": "___ boek lees je nu? – Een boek van Annie M.G. Schmidt.",
+  "answer": [
+   "Welk"
+  ],
+  "tr_en": "Which book are you reading now? – A book by Annie M.G. Schmidt.",
+  "tr_ru": "Какую книгу ты сейчас читаешь? – Книгу Анни М. Г. Шмидт.",
+  "explain_en": "Which + singular het-word = welk (no -e): welk boek.",
+  "explain_ru": "«Какой/который» + het-слово в ед. ч. = welk без -e: welk boek. С de-словами — welke.",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-order-questions",
+  "text": "___ jas is van jou, de rode of de blauwe?",
+  "answer": [
+   "Welke"
+  ],
+  "tr_en": "Which coat is yours, the red one or the blue one?",
+  "tr_ru": "Какая куртка твоя, красная или синяя?",
+  "explain_en": "Choice between options + de-word jas → welke.",
+  "explain_ru": "Выбор из вариантов + de-слово jas → welke (с -e).",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "section": "negation-niet-geen",
+  "text": "Wij hebben ___ auto; we fietsen overal naartoe.",
+  "answer": [
+   "geen"
+  ],
+  "tr_en": "We don't have a car; we cycle everywhere.",
+  "tr_ru": "У нас нет машины: мы везде ездим на велосипеде.",
+  "explain_en": "Negating a noun with een (een auto) → geen.",
+  "explain_ru": "Отрицание существительного с een (een auto) → geen («никакой»). В русском просто «нет машины».",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "section": "negation-niet-geen",
+  "text": "Dit is ___ mijn fiets; die van mij is rood.",
+  "answer": [
+   "niet"
+  ],
+  "tr_en": "This isn't my bike; mine is red.",
+  "tr_ru": "Это не мой велосипед: мой красный.",
+  "explain_en": "A noun with a possessive (mijn fiets) is negated with niet, not geen.",
+  "explain_ru": "Существительное с притяжательным местоимением (mijn fiets) отрицается через niet, а не geen.",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "section": "negation-niet-geen",
+  "text": "Hij is ___ leraar, hij is nog student.",
+  "answer": [
+   "geen"
+  ],
+  "tr_en": "He isn't a teacher, he's still a student.",
+  "tr_ru": "Он не учитель, он ещё студент.",
+  "explain_en": "A profession after zijn has no article, and such a bare noun is negated with geen.",
+  "explain_ru": "Профессия после zijn стоит без артикля, а такое существительное отрицается через geen.",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "section": "negation-niet-geen",
+  "text": "Ik drink de koffie ___, want hij is helemaal koud.",
+  "answer": [
+   "niet"
+  ],
+  "tr_en": "I'm not drinking the coffee, because it's completely cold.",
+  "tr_ru": "Я не буду пить этот кофе: он совсем холодный.",
+  "explain_en": "A noun with de/het is negated with niet, which goes after the object.",
+  "explain_ru": "Существительное с de/het отрицается через niet, и niet стоит после дополнения — в русском «не» стоит перед глаголом.",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "section": "negation-niet-geen",
+  "text": "Er is ___ melk meer in de koelkast.",
+  "answer": [
+   "geen"
+  ],
+  "tr_en": "There's no more milk in the fridge.",
+  "tr_ru": "В холодильнике больше нет молока.",
+  "explain_en": "An uncountable noun without article (melk) is negated with geen; geen ... meer = no more.",
+  "explain_ru": "Неисчисляемое существительное без артикля (melk) отрицается через geen; geen ... meer — «больше нет».",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "section": "possessive-pronouns",
+  "text": "Anna en ___ man wonen in Delft.",
+  "answer": [
+   "haar"
+  ],
+  "tr_en": "Anna and her husband live in Delft.",
+  "tr_ru": "Анна и её муж живут в Делфте.",
+  "explain_en": "Her = haar (possessive of zij/ze).",
+  "explain_ru": "«Её» = haar. В русском было бы «Анна со своим мужем»; в нидерландском нет аналога «свой», всегда haar/zijn и т. д.",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "section": "possessive-pronouns",
+  "text": "Tom en Eva, is dit ___ hond?",
+  "answer": [
+   "jullie"
+  ],
+  "tr_en": "Tom and Eva, is this your dog?",
+  "tr_ru": "Том и Эва, это ваша собака?",
+  "explain_en": "Addressing two people informally: 'your' = jullie (same form as the subject pronoun).",
+  "explain_ru": "Обращение к двоим на «ты»: «ваш» = jullie (та же форма, что и личное местоимение).",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "section": "possessive-pronouns",
+  "text": "De kinderen spelen met ___ vrienden in het park.",
+  "answer": [
+   "hun"
+  ],
+  "tr_en": "The children are playing with their friends in the park.",
+  "tr_ru": "Дети играют со своими друзьями в парке.",
+  "explain_en": "Their = hun.",
+  "explain_ru": "«Их/свои» (о них) = hun. Русское «свой» переводится по лицу: hun для «они».",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "section": "possessive-pronouns",
+  "text": "Pardon mevrouw, is dit ___ tas?",
+  "answer": [
+   "uw"
+  ],
+  "tr_en": "Excuse me madam, is this your bag?",
+  "tr_ru": "Простите, это ваша сумка?",
+  "explain_en": "Polite 'your' (for u) = uw.",
+  "explain_ru": "Вежливое «ваш» (к u) = uw.",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "section": "possessive-pronouns",
+  "text": "Wij gaan in de zomer met ___ ouders naar Frankrijk.",
+  "answer": [
+   "onze"
+  ],
+  "tr_en": "In the summer we're going to France with our parents.",
+  "tr_ru": "Летом мы едем во Францию с нашими родителями.",
+  "explain_en": "Our + de-word or plural = onze (ons only with singular het-words).",
+  "explain_ru": "«Наш» + de-слово или мн. ч. = onze (ons — только с het-словами в ед. ч.).",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "section": "modal-verbs",
+  "text": "Ik ___ niet zwemmen; ik heb het nooit geleerd.",
+  "answer": [
+   "kan"
+  ],
+  "tr_en": "I can't swim; I never learned.",
+  "tr_ru": "Я не умею плавать: я никогда этому не учился.",
+  "explain_en": "Ability (learned skill) = kunnen: ik kan.",
+  "explain_ru": "Умение = kunnen: ik kan. В русском различают «мочь» и «уметь», в нидерландском оба — kunnen.",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "section": "modal-verbs",
+  "text": "Je ___ hier niet fietsen; dat is verboden.",
+  "answer": [
+   "mag"
+  ],
+  "tr_en": "You're not allowed to cycle here; it's forbidden.",
+  "tr_ru": "Здесь нельзя ездить на велосипеде: это запрещено.",
+  "explain_en": "Permission/prohibition = mogen: je mag niet = you're not allowed.",
+  "explain_ru": "Разрешение/запрет = mogen: je mag niet — «нельзя». Русское безличное «нельзя» передаётся личной формой.",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "section": "modal-verbs",
+  "text": "Kinderen onder de zestien ___ deze film niet zien.",
+  "answer": [
+   "mogen"
+  ],
+  "tr_en": "Children under sixteen are not allowed to see this film.",
+  "tr_ru": "Детям до шестнадцати этот фильм смотреть нельзя.",
+  "explain_en": "Prohibition by a rule = mogen; plural subject: mogen.",
+  "explain_ru": "Запрет по правилам = mogen; подлежащее во мн. ч. — mogen. В русском «детям нельзя» — дательный падеж, здесь kinderen — подлежащее.",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "section": "modal-verbs",
+  "text": "Ik ben ziek, dus ik ___ van de dokter drie dagen in bed blijven.",
+  "answer": [
+   "moet"
+  ],
+  "tr_en": "I'm ill, so the doctor says I have to stay in bed for three days.",
+  "tr_ru": "Я болен, так что врач велел мне три дня лежать в постели.",
+  "explain_en": "Van de dokter = on the doctor's orders → obligation: moeten, ik moet.",
+  "explain_ru": "Van de dokter — «по указанию врача» → обязанность: moeten, ik moet. Инфинитив blijven — в конце.",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "section": "separable-verbs-imperative",
+  "text": "Hoe laat sta je morgen ___?",
+  "answer": [
+   "op"
+  ],
+  "tr_en": "What time are you getting up tomorrow?",
+  "tr_ru": "Во сколько ты завтра встаёшь?",
+  "explain_en": "Opstaan is separable: the prefix op goes to the end of the main clause.",
+  "explain_ru": "Opstaan — отделяемый глагол: приставка op уходит в конец предложения.",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "section": "separable-verbs-imperative",
+  "text": "Neem je zwemspullen ___, we gaan naar het strand!",
+  "answer": [
+   "mee"
+  ],
+  "tr_en": "Bring your swimming things, we're going to the beach!",
+  "tr_ru": "Возьми с собой купальные вещи, мы идём на пляж!",
+  "explain_en": "Meenemen (take along) splits in the imperative: neem ... mee.",
+  "explain_ru": "Meenemen («брать с собой») разделяется в повелительном наклонении: neem ... mee.",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "section": "separable-verbs-imperative",
+  "text": "Kleed je snel ___, we moeten over vijf minuten weg!",
+  "answer": [
+   "aan"
+  ],
+  "tr_en": "Get dressed quickly, we have to leave in five minutes!",
+  "tr_ru": "Быстро одевайся, нам через пять минут выходить!",
+  "explain_en": "Zich aankleden: imperative kleed je ... aan (reflexive je + separable aan).",
+  "explain_ru": "Zich aankleden: повелительное kleed je ... aan (возвратное je + отделяемое aan). В русском «одевайся» — одно слово.",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "section": "separable-verbs-imperative",
+  "text": "Was jij vandaag ___? Ik heb gisteren al gekookt.",
+  "answer": [
+   "af"
+  ],
+  "tr_en": "Will you do the dishes today? I already cooked yesterday.",
+  "tr_ru": "Помоешь сегодня посуду? Я вчера уже готовил.",
+  "explain_en": "Afwassen (do the dishes) is separable: was ... af.",
+  "explain_ru": "Afwassen («мыть посуду») — отделяемый: was ... af. Без af глагол wassen значит просто «мыть, стирать».",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "section": "numbers-time-er-adjectives",
+  "text": "___ zijn drie supermarkten in ons dorp.",
+  "answer": [
+   "Er"
+  ],
+  "tr_en": "There are three supermarkets in our village.",
+  "tr_ru": "В нашей деревне три супермаркета.",
+  "explain_en": "'There is/are' with an indefinite subject = er is / er zijn.",
+  "explain_ru": "«Есть, имеется» с неопределённым подлежащим = er is / er zijn. В русском такой конструкции нет.",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "section": "numbers-time-er-adjectives",
+  "text": "Het is kwart ___ drie; over vijftien minuten begint de les.",
+  "answer": [
+   "voor"
+  ],
+  "tr_en": "It's a quarter to three; the lesson starts in fifteen minutes.",
+  "tr_ru": "Без четверти три; через пятнадцать минут начинается урок.",
+  "explain_en": "Kwart voor drie = 2:45 (a quarter before three).",
+  "explain_ru": "Kwart voor drie = 2:45 («четверть до трёх», по-русски «без четверти три»).",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "section": "numbers-time-er-adjectives",
+  "text": "Het is nu 15.30, dus het is half ___.",
+  "answer": [
+   "vier"
+  ],
+  "tr_en": "It's 15:30 now, so it's half past three.",
+  "tr_ru": "Сейчас 15:30, то есть половина четвёртого.",
+  "explain_en": "Half + the NEXT hour: 15.30 = half vier (half to four).",
+  "explain_ru": "Half + СЛЕДУЮЩИЙ час: 15:30 = half vier — точно как русское «половина четвёртого», а не английское half past three.",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "section": "numbers-time-er-adjectives",
+  "text": "___ de winter is het in Nederland vaak grijs en nat.",
+  "answer": [
+   "In"
+  ],
+  "tr_en": "In winter it is often grey and wet in the Netherlands.",
+  "tr_ru": "Зимой в Нидерландах часто серо и сыро.",
+  "explain_en": "Seasons take in: in de winter, in de zomer.",
+  "explain_ru": "Времена года — с предлогом in: in de winter. В русском просто наречие «зимой».",
+  "id": "g120"
+ }
+]

@@ -1,0 +1,1642 @@
+[
+ {
+  "kind": "form",
+  "text": "Gestern hat mir die Ärztin gegen den Husten ein Medikament ___.",
+  "answer": [
+   "verschrieben"
+  ],
+  "lemma": "verschreiben",
+  "tr_en": "Yesterday the doctor prescribed me a medicine for my cough.",
+  "tr_ru": "Вчера врач выписала мне лекарство от кашля.",
+  "explain_en": "Verbs with the prefix ver- take no ge-; schreiben is strong: verschrieben.",
+  "explain_ru": "Глаголы с приставкой ver- не получают ge-; schreiben сильный: verschrieben.",
+  "id": "g001"
+ },
+ {
+  "kind": "form",
+  "text": "In Frankfurt sind wir in einen anderen Zug ___.",
+  "answer": [
+   "umgestiegen"
+  ],
+  "lemma": "umsteigen",
+  "tr_en": "In Frankfurt we changed to another train.",
+  "tr_ru": "Во Франкфурте мы пересели на другой поезд.",
+  "explain_en": "Separable verb: ge- goes between prefix and stem (um-ge-stiegen); a change of place takes sein.",
+  "explain_ru": "Отделяемый глагол: ge- встаёт между приставкой и основой (um-ge-stiegen); перемещение — с sein.",
+  "id": "g002"
+ },
+ {
+  "kind": "form",
+  "text": "Ist dein Bruder wirklich durch die Fahrprüfung ___?",
+  "answer": [
+   "durchgefallen"
+  ],
+  "lemma": "durchfallen",
+  "tr_en": "Did your brother really fail his driving test?",
+  "tr_ru": "Твой брат правда провалил экзамен по вождению?",
+  "explain_en": "durchfallen is separable and takes sein: ist durchgefallen.",
+  "explain_ru": "durchfallen отделяемый и спрягается с sein: ist durchgefallen. По-русски «провалил» — переходный глагол, по-немецки — durch die Prüfung fallen.",
+  "id": "g003"
+ },
+ {
+  "kind": "form",
+  "text": "Hast du die Prüfung ___? – Ja, sogar mit einer Eins!",
+  "answer": [
+   "bestanden"
+  ],
+  "lemma": "bestehen",
+  "tr_en": "Did you pass the exam? – Yes, even with top marks!",
+  "tr_ru": "Ты сдал экзамен? – Да, даже на отлично!",
+  "explain_en": "be- is an inseparable prefix, so no ge-; stehen → standen: bestanden.",
+  "explain_ru": "be- — неотделяемая приставка, поэтому без ge-; stehen → standen: bestanden. Внимание: «сдавать» (процесс) = eine Prüfung machen, «сдать» = bestehen.",
+  "id": "g004"
+ },
+ {
+  "kind": "form",
+  "text": "Unser Sohn ist in einem Jahr zehn Zentimeter ___!",
+  "answer": [
+   "gewachsen"
+  ],
+  "lemma": "wachsen",
+  "tr_en": "Our son has grown ten centimetres in one year!",
+  "tr_ru": "Наш сын вырос за год на десять сантиметров!",
+  "explain_en": "wachsen is strong and, as a change of state, takes sein: ist gewachsen.",
+  "explain_ru": "wachsen сильный и как изменение состояния спрягается с sein: ist gewachsen.",
+  "id": "g005"
+ },
+ {
+  "kind": "form",
+  "text": "Was ist denn hier ___? Überall liegt Glas!",
+  "answer": [
+   "passiert"
+  ],
+  "lemma": "passieren",
+  "tr_en": "What happened here? There's glass everywhere!",
+  "tr_ru": "Что здесь случилось? Повсюду стекло!",
+  "explain_en": "Verbs in -ieren take no ge-: passiert; passieren uses sein.",
+  "explain_ru": "Глаголы на -ieren не получают ge-: passiert; passieren спрягается с sein.",
+  "id": "g006"
+ },
+ {
+  "kind": "form",
+  "text": "Ich habe das neue Bild gestern über das Sofa ___.",
+  "answer": [
+   "gehängt"
+  ],
+  "lemma": "hängen",
+  "tr_en": "Yesterday I hung the new picture above the sofa.",
+  "tr_ru": "Вчера я повесил новую картину над диваном.",
+  "explain_en": "Transitive hängen (to hang something somewhere, wohin? + Akk.) is weak: gehängt.",
+  "explain_ru": "Переходное hängen «вешать» (куда? + аккузатив) — слабый глагол: gehängt.",
+  "id": "g007"
+ },
+ {
+  "kind": "form",
+  "text": "Dieses Bild hat fünfzig Jahre in unserem Wohnzimmer ___.",
+  "answer": [
+   "gehangen"
+  ],
+  "lemma": "hängen",
+  "tr_en": "This picture hung in our living room for fifty years.",
+  "tr_ru": "Эта картина пятьдесят лет висела у нас в гостиной.",
+  "explain_en": "Intransitive hängen (to be hanging, wo? + Dat.) is strong: gehangen.",
+  "explain_ru": "Непереходное hängen «висеть» (где? + датив) — сильный глагол: gehangen.",
+  "id": "g008"
+ },
+ {
+  "kind": "form",
+  "text": "Der Kellner hat uns den Fisch ___, und er war wirklich lecker.",
+  "answer": [
+   "empfohlen"
+  ],
+  "lemma": "empfehlen",
+  "tr_en": "The waiter recommended the fish to us, and it was really delicious.",
+  "tr_ru": "Официант порекомендовал нам рыбу, и она была очень вкусной.",
+  "explain_en": "emp- is inseparable (no ge-), and the vowel changes e → o: empfohlen.",
+  "explain_ru": "emp- неотделяемая (без ge-), гласная меняется e → o: empfohlen.",
+  "id": "g009"
+ },
+ {
+  "kind": "form",
+  "text": "Du hast mir ___, pünktlich zu sein – und jetzt ist es schon neun!",
+  "answer": [
+   "versprochen"
+  ],
+  "lemma": "versprechen",
+  "tr_en": "You promised me you'd be on time – and now it's already nine!",
+  "tr_ru": "Ты обещал мне быть вовремя — а уже девять!",
+  "explain_en": "ver- + strong sprechen: versprochen (no ge-).",
+  "explain_ru": "ver- + сильный sprechen: versprochen (без ge-).",
+  "id": "g010"
+ },
+ {
+  "kind": "form",
+  "text": "Die Lehrerin hat uns die Regel schon zweimal ___.",
+  "answer": [
+   "erklärt"
+  ],
+  "lemma": "erklären",
+  "tr_en": "The teacher has already explained the rule to us twice.",
+  "tr_ru": "Учительница уже дважды объяснила нам правило.",
+  "explain_en": "er- is inseparable, so the weak participle has no ge-: erklärt.",
+  "explain_ru": "er- неотделяемая, поэтому слабое причастие без ge-: erklärt.",
+  "id": "g011"
+ },
+ {
+  "kind": "form",
+  "text": "Das Kind hat ___: Es war gar nicht krank, es wollte nur nicht in die Schule.",
+  "answer": [
+   "gelogen"
+  ],
+  "lemma": "lügen",
+  "tr_en": "The child lied: it wasn't ill at all, it just didn't want to go to school.",
+  "tr_ru": "Ребёнок соврал: он вовсе не был болен, просто не хотел идти в школу.",
+  "explain_en": "lügen is strong with a vowel change ü → o: gelogen.",
+  "explain_ru": "lügen сильный, гласная ü → o: gelogen.",
+  "id": "g012"
+ },
+ {
+  "kind": "form",
+  "text": "Ich habe mir das Geld von meinem Bruder ___ und muss es bald zurückgeben.",
+  "answer": [
+   "geliehen"
+  ],
+  "lemma": "leihen",
+  "tr_en": "I borrowed the money from my brother and have to pay it back soon.",
+  "tr_ru": "Я занял деньги у брата и скоро должен их вернуть.",
+  "explain_en": "leihen is strong: geliehen. sich etwas leihen = to borrow, jemandem etwas leihen = to lend.",
+  "explain_ru": "leihen сильный: geliehen. sich etwas leihen = занять, jemandem etwas leihen = одолжить кому-то.",
+  "id": "g013"
+ },
+ {
+  "kind": "form",
+  "text": "Ich habe die App gestern ___, aber sie funktioniert nicht.",
+  "answer": [
+   "heruntergeladen"
+  ],
+  "lemma": "herunterladen",
+  "tr_en": "I downloaded the app yesterday, but it doesn't work.",
+  "tr_ru": "Я вчера скачал приложение, но оно не работает.",
+  "explain_en": "Separable herunter- + ge- + laden: heruntergeladen (laden is strong, participle ends in -en).",
+  "explain_ru": "Отделяемое herunter- + ge- + laden: heruntergeladen (laden сильный, причастие на -en).",
+  "id": "g014"
+ },
+ {
+  "kind": "form",
+  "text": "Das Baby hat die ganze Nacht ___, wir sind total müde.",
+  "answer": [
+   "geschrien"
+  ],
+  "lemma": "schreien",
+  "tr_en": "The baby screamed all night; we're completely exhausted.",
+  "tr_ru": "Малыш кричал всю ночь, мы совершенно вымотаны.",
+  "explain_en": "schreien is strong: geschrien (ie, no e before n).",
+  "explain_ru": "schreien сильный: geschrien (ie и без лишнего e).",
+  "id": "g015"
+ },
+ {
+  "kind": "form",
+  "text": "Letztes Jahr sind wir von Köln nach Hamburg ___.",
+  "answer": [
+   "umgezogen"
+  ],
+  "lemma": "umziehen",
+  "tr_en": "Last year we moved from Cologne to Hamburg.",
+  "tr_ru": "В прошлом году мы переехали из Кёльна в Гамбург.",
+  "explain_en": "umziehen (to move house) is separable, strong and takes sein: umgezogen.",
+  "explain_ru": "umziehen «переезжать» отделяемый, сильный, с sein: umgezogen.",
+  "id": "g016"
+ },
+ {
+  "kind": "form",
+  "text": "An der Kreuzung ist der Bus nach links ___.",
+  "answer": [
+   "abgebogen"
+  ],
+  "lemma": "abbiegen",
+  "tr_en": "At the crossroads the bus turned left.",
+  "tr_ru": "На перекрёстке автобус повернул налево.",
+  "explain_en": "abbiegen: separable, ie → o, with sein: abgebogen.",
+  "explain_ru": "abbiegen: отделяемый, ie → o, с sein: abgebogen.",
+  "id": "g017"
+ },
+ {
+  "kind": "form",
+  "text": "Als Kind ___ ich große Angst vor Hunden.",
+  "answer": [
+   "hatte"
+  ],
+  "lemma": "haben",
+  "tr_en": "As a child I was very afraid of dogs.",
+  "tr_ru": "В детстве я очень боялся собак.",
+  "explain_en": "haben is normally used in the Präteritum: ich hatte.",
+  "explain_ru": "haben в прошедшем обычно употребляется в претерите: ich hatte.",
+  "id": "g018"
+ },
+ {
+  "kind": "form",
+  "text": "Wo ___ ihr gestern Abend? Wir haben euch überall gesucht.",
+  "answer": [
+   "wart"
+  ],
+  "lemma": "sein",
+  "tr_en": "Where were you yesterday evening? We looked for you everywhere.",
+  "tr_ru": "Где вы были вчера вечером? Мы вас везде искали.",
+  "explain_en": "Präteritum of sein with ihr: ihr wart (no e).",
+  "explain_ru": "Претерит sein с ihr: ihr wart (без e).",
+  "id": "g019"
+ },
+ {
+  "kind": "form",
+  "text": "Gestern ___ wir leider nicht kommen, unser Auto war kaputt.",
+  "answer": [
+   "konnten"
+  ],
+  "lemma": "können",
+  "tr_en": "Unfortunately we couldn't come yesterday; our car had broken down.",
+  "tr_ru": "Вчера мы, к сожалению, не смогли прийти, у нас сломалась машина.",
+  "explain_en": "Modals in the Präteritum lose the umlaut: können → konnten.",
+  "explain_ru": "Модальные глаголы в претерите теряют умлаут: können → konnten.",
+  "id": "g020"
+ },
+ {
+  "kind": "form",
+  "text": "Früher ___ man in Restaurants noch rauchen, heute ist es verboten.",
+  "answer": [
+   "durfte"
+  ],
+  "lemma": "dürfen",
+  "tr_en": "In the past you were still allowed to smoke in restaurants; today it's forbidden.",
+  "tr_ru": "Раньше в ресторанах ещё можно было курить, сейчас это запрещено.",
+  "explain_en": "dürfen → durfte (no umlaut in the Präteritum, no ending for man).",
+  "explain_ru": "dürfen → durfte (без умлаута в претерите, без окончания для man).",
+  "id": "g021"
+ },
+ {
+  "kind": "form",
+  "text": "Mein Bruder ___ als Kind immer Pilot werden.",
+  "answer": [
+   "wollte"
+  ],
+  "lemma": "wollen",
+  "tr_en": "As a child my brother always wanted to be a pilot.",
+  "tr_ru": "В детстве мой брат всегда хотел стать пилотом.",
+  "explain_en": "wollen → wollte in the Präteritum.",
+  "explain_ru": "wollen → wollte в претерите.",
+  "id": "g022"
+ },
+ {
+  "kind": "form",
+  "text": "Letzte Woche ___ ich jeden Tag Überstunden machen.",
+  "answer": [
+   "musste"
+  ],
+  "lemma": "müssen",
+  "tr_en": "Last week I had to do overtime every day.",
+  "tr_ru": "На прошлой неделе мне приходилось каждый день работать сверхурочно.",
+  "explain_en": "müssen → musste: no umlaut, ss, and no ending for ich.",
+  "explain_ru": "müssen → musste: без умлаута, ss, без окончания у ich.",
+  "id": "g023"
+ },
+ {
+  "kind": "form",
+  "text": "Sag mal, ___ du gestern auch so viel Arbeit?",
+  "answer": [
+   "hattest"
+  ],
+  "lemma": "haben",
+  "tr_en": "Tell me, did you have so much work yesterday too?",
+  "tr_ru": "Скажи, у тебя вчера тоже было столько работы?",
+  "explain_en": "Präteritum of haben with du: hattest.",
+  "explain_ru": "Претерит haben с du: hattest.",
+  "id": "g024"
+ },
+ {
+  "kind": "form",
+  "text": "Die Jacke steht ___ sehr gut, Anna – kauf sie doch!",
+  "answer": [
+   "dir"
+  ],
+  "lemma": "du",
+  "tr_en": "The jacket really suits you, Anna – go on, buy it!",
+  "tr_ru": "Куртка тебе очень идёт, Анна — купи её!",
+  "explain_en": "jemandem stehen (to suit someone) takes the dative: dir.",
+  "explain_ru": "jemandem stehen «идти кому-то» требует датива: dir, как и в русском «тебе».",
+  "id": "g025"
+ },
+ {
+  "kind": "form",
+  "text": "Meine Eltern wohnen weit weg, deshalb schreibe ich ___ jede Woche eine Mail.",
+  "answer": [
+   "ihnen"
+  ],
+  "lemma": "sie (they)",
+  "tr_en": "My parents live far away, so I write them an email every week.",
+  "tr_ru": "Мои родители живут далеко, поэтому я каждую неделю пишу им письмо.",
+  "explain_en": "The receiver is in the dative; the dative of sie (they) is ihnen.",
+  "explain_ru": "Адресат стоит в дативе; датив от sie («они») — ihnen.",
+  "id": "g026"
+ },
+ {
+  "kind": "form",
+  "text": "Paul hat morgen Geburtstag, ich schenke ___ ein Buch.",
+  "answer": [
+   "ihm"
+  ],
+  "lemma": "er",
+  "tr_en": "It's Paul's birthday tomorrow; I'm giving him a book.",
+  "tr_ru": "У Пауля завтра день рождения, я подарю ему книгу.",
+  "explain_en": "schenken: the person is dative (ihm), the thing accusative.",
+  "explain_ru": "schenken: человек в дативе (ihm), вещь в аккузативе.",
+  "id": "g027"
+ },
+ {
+  "kind": "form",
+  "text": "Wie geht es ___, Frau Weber?",
+  "answer": [
+   "Ihnen"
+  ],
+  "lemma": "Sie",
+  "tr_en": "How are you, Mrs Weber?",
+  "tr_ru": "Как ваши дела, госпожа Вебер?",
+  "explain_en": "Es geht + dative: formal Sie becomes Ihnen (capital I).",
+  "explain_ru": "Es geht + датив: вежливое Sie → Ihnen (с большой буквы).",
+  "id": "g028"
+ },
+ {
+  "kind": "form",
+  "text": "Ich wasche ___ vor dem Essen immer die Hände.",
+  "answer": [
+   "mir"
+  ],
+  "lemma": "ich",
+  "tr_en": "I always wash my hands before eating.",
+  "tr_ru": "Я всегда мою руки перед едой.",
+  "explain_en": "When there is an accusative object (die Hände), the reflexive pronoun is dative: mir.",
+  "explain_ru": "Если есть прямое дополнение (die Hände), возвратное местоимение стоит в дативе: mir. В русском — просто «мою руки».",
+  "id": "g029"
+ },
+ {
+  "kind": "form",
+  "text": "Hast du ___ schon die Zähne geputzt? Es ist spät!",
+  "answer": [
+   "dir"
+  ],
+  "lemma": "du",
+  "tr_en": "Have you brushed your teeth yet? It's late!",
+  "tr_ru": "Ты уже почистил зубы? Уже поздно!",
+  "explain_en": "Body parts as objects: reflexive dative dir + die Zähne.",
+  "explain_ru": "С частями тела: возвратный датив dir + die Zähne; притяжательное «свои» не нужно.",
+  "id": "g030"
+ },
+ {
+  "kind": "form",
+  "text": "Wie findest du meinen ___ Mantel? Ich habe ihn gestern gekauft.",
+  "answer": [
+   "neuen"
+  ],
+  "lemma": "neu",
+  "tr_en": "What do you think of my new coat? I bought it yesterday.",
+  "tr_ru": "Как тебе моё новое пальто? Я купил его вчера.",
+  "explain_en": "Masculine accusative after meinen: the adjective ends in -en.",
+  "explain_ru": "Мужской род в аккузативе после meinen: прилагательное на -en. Внимание: der Mantel мужского рода, а «пальто» — среднего.",
+  "id": "g031"
+ },
+ {
+  "kind": "form",
+  "text": "Zum Geburtstag hat sie ein ___ Kleid bekommen.",
+  "answer": [
+   "rotes"
+  ],
+  "lemma": "rot",
+  "tr_en": "She got a red dress for her birthday.",
+  "tr_ru": "На день рождения ей подарили красное платье.",
+  "explain_en": "Neuter accusative after ein: the adjective shows the gender with -es.",
+  "explain_ru": "Средний род в аккузативе после ein: прилагательное показывает род окончанием -es.",
+  "id": "g032"
+ },
+ {
+  "kind": "form",
+  "text": "Er hat sich einen sehr ___ Sportwagen gekauft.",
+  "answer": [
+   "teuren"
+  ],
+  "lemma": "teuer",
+  "tr_en": "He has bought himself a very expensive sports car.",
+  "tr_ru": "Он купил себе очень дорогую спортивную машину.",
+  "explain_en": "Adjectives in -er drop the e before an ending: teuer → teuren (masc. acc.).",
+  "explain_ru": "Прилагательные на -er теряют e перед окончанием: teuer → teuren (муж. род, аккузатив).",
+  "id": "g033"
+ },
+ {
+  "kind": "form",
+  "text": "Ich mag die ___ Farbe von deinem Auto nicht, sie ist zu traurig.",
+  "answer": [
+   "dunkle"
+  ],
+  "lemma": "dunkel",
+  "tr_en": "I don't like the dark colour of your car; it's too gloomy.",
+  "tr_ru": "Мне не нравится тёмный цвет твоей машины, он слишком мрачный.",
+  "explain_en": "Adjectives in -el drop the e: dunkel → dunkle; feminine accusative after die ends in -e.",
+  "explain_ru": "Прилагательные на -el теряют e: dunkel → dunkle; женский род после die — окончание -e. Внимание: «цвет» мужского рода, die Farbe — женского.",
+  "id": "g034"
+ },
+ {
+  "kind": "form",
+  "text": "Mein Bruder spricht viel ___ Englisch als ich.",
+  "answer": [
+   "besser"
+  ],
+  "lemma": "gut",
+  "tr_en": "My brother speaks much better English than I do.",
+  "tr_ru": "Мой брат говорит по-английски гораздо лучше, чем я.",
+  "explain_en": "gut has an irregular comparative: besser.",
+  "explain_ru": "У gut неправильная сравнительная степень: besser.",
+  "id": "g035"
+ },
+ {
+  "kind": "form",
+  "text": "Die Zugspitze ist ___ als jeder andere Berg in Deutschland.",
+  "answer": [
+   "höher"
+  ],
+  "lemma": "hoch",
+  "tr_en": "The Zugspitze is higher than any other mountain in Germany.",
+  "tr_ru": "Цугшпитце выше любой другой горы в Германии.",
+  "explain_en": "hoch loses the c and takes an umlaut: höher.",
+  "explain_ru": "hoch теряет c и получает умлаут: höher.",
+  "id": "g036"
+ },
+ {
+  "kind": "form",
+  "text": "Im Winter essen wir viel ___ Suppe als im Sommer.",
+  "answer": [
+   "mehr"
+  ],
+  "lemma": "viel",
+  "tr_en": "In winter we eat much more soup than in summer.",
+  "tr_ru": "Зимой мы едим гораздо больше супа, чем летом.",
+  "explain_en": "viel – mehr – am meisten; mehr takes no ending.",
+  "explain_ru": "viel – mehr – am meisten; mehr не склоняется.",
+  "id": "g037"
+ },
+ {
+  "kind": "form",
+  "text": "Ich trinke gern Tee, aber am ___ trinke ich Kaffee.",
+  "answer": [
+   "liebsten"
+  ],
+  "lemma": "gern",
+  "tr_en": "I like drinking tea, but most of all I like drinking coffee.",
+  "tr_ru": "Я люблю чай, но больше всего люблю кофе.",
+  "explain_en": "gern – lieber – am liebsten (irregular).",
+  "explain_ru": "gern – lieber – am liebsten (неправильные формы).",
+  "id": "g038"
+ },
+ {
+  "kind": "form",
+  "text": "Welcher Supermarkt ist von hier am ___?",
+  "answer": [
+   "nächsten"
+  ],
+  "lemma": "nah",
+  "tr_en": "Which supermarket is nearest to here?",
+  "tr_ru": "Какой супермаркет ближе всего отсюда?",
+  "explain_en": "nah – näher – am nächsten: the superlative gets a ch.",
+  "explain_ru": "nah – näher – am nächsten: в превосходной степени появляется ch.",
+  "id": "g039"
+ },
+ {
+  "kind": "form",
+  "text": "Berlin ist die ___ Stadt Deutschlands.",
+  "answer": [
+   "größte"
+  ],
+  "lemma": "groß",
+  "tr_en": "Berlin is the biggest city in Germany.",
+  "tr_ru": "Берлин — самый большой город Германии.",
+  "explain_en": "Superlative of groß: größt- (only -t, not -est), feminine nominative after die: größte.",
+  "explain_ru": "Превосходная степень groß — größt- (только -t), женский род после die: größte. Внимание: «город» мужского рода, die Stadt — женского.",
+  "id": "g040"
+ },
+ {
+  "kind": "word",
+  "text": "Als Ingenieurin bekommt sie ein sehr gutes monatliches ___.",
+  "answer": [
+   "Gehalt"
+  ],
+  "ref": "das Gehalt",
+  "clue_en": "salary",
+  "clue_ru": "зарплата (оклад)",
+  "tr_en": "As an engineer she gets a very good monthly salary.",
+  "tr_ru": "Как инженер она получает очень хорошую ежемесячную зарплату.",
+  "explain_en": "A fixed monthly salary is das Gehalt (neuter, hence gutes); der Lohn is a wage, often paid by the hour.",
+  "explain_ru": "Фиксированный месячный оклад — das Gehalt (средний род, отсюда gutes); der Lohn — заработная плата рабочих, часто почасовая.",
+  "id": "g041"
+ },
+ {
+  "kind": "word",
+  "text": "In deutschen Restaurants gibt man meistens etwa zehn Prozent ___.",
+  "answer": [
+   "Trinkgeld"
+  ],
+  "ref": "das Trinkgeld",
+  "clue_en": "tip (for service)",
+  "clue_ru": "чаевые",
+  "tr_en": "In German restaurants people usually give about a ten per cent tip.",
+  "tr_ru": "В немецких ресторанах обычно оставляют около десяти процентов чаевых.",
+  "explain_en": "A tip is das Trinkgeld (literally 'drink money'), used without an article here.",
+  "explain_ru": "Чаевые — das Trinkgeld (букв. «деньги на выпивку»), здесь без артикля и в единственном числе.",
+  "id": "g042"
+ },
+ {
+  "kind": "word",
+  "text": "Können Sie mir bitte eine ___ für die Taxifahrt geben? Meine Firma zahlt das.",
+  "answer": [
+   "Quittung"
+  ],
+  "ref": "die Quittung",
+  "clue_en": "receipt",
+  "clue_ru": "квитанция, чек",
+  "tr_en": "Could you give me a receipt for the taxi ride, please? My company is paying.",
+  "tr_ru": "Можете дать мне квитанцию за поездку на такси? Моя фирма это оплачивает.",
+  "explain_en": "Proof that you have paid = die Quittung; die Rechnung is the bill you still have to pay.",
+  "explain_ru": "Подтверждение оплаты — die Quittung; die Rechnung — счёт, который ещё надо оплатить.",
+  "id": "g043"
+ },
+ {
+  "kind": "word",
+  "text": "Der Zug aus Köln hat heute leider vierzig Minuten ___.",
+  "answer": [
+   "Verspätung"
+  ],
+  "ref": "die Verspätung",
+  "clue_en": "delay",
+  "clue_ru": "опоздание, задержка",
+  "tr_en": "Unfortunately the train from Cologne is forty minutes late today.",
+  "tr_ru": "Поезд из Кёльна сегодня, к сожалению, опаздывает на сорок минут.",
+  "explain_en": "Verspätung haben = to be late (trains, buses), without an article.",
+  "explain_ru": "Verspätung haben = опаздывать (о транспорте), без артикля; буквально «иметь опоздание».",
+  "id": "g044"
+ },
+ {
+  "kind": "word",
+  "text": "Wegen der Verspätung habe ich meinen ___ nach München verpasst.",
+  "answer": [
+   "Anschluss"
+  ],
+  "ref": "der Anschluss",
+  "clue_en": "connecting train",
+  "clue_ru": "пересадка, стыковка",
+  "tr_en": "Because of the delay I missed my connection to Munich.",
+  "tr_ru": "Из-за опоздания я пропустил свою стыковку на Мюнхен.",
+  "explain_en": "The next train you planned to change to is der Anschluss (masculine: meinen).",
+  "explain_ru": "Поезд, на который надо пересесть, — der Anschluss (мужской род: meinen).",
+  "id": "g045"
+ },
+ {
+  "kind": "word",
+  "text": "Auf der Autobahn war ein langer ___, wir standen zwei Stunden.",
+  "answer": [
+   "Stau"
+  ],
+  "ref": "der Stau",
+  "clue_en": "traffic jam",
+  "clue_ru": "пробка",
+  "tr_en": "There was a long traffic jam on the motorway; we were stuck for two hours.",
+  "tr_ru": "На автобане была длинная пробка, мы стояли два часа.",
+  "explain_en": "A traffic jam is der Stau (ein langer → masculine).",
+  "explain_ru": "Пробка на дороге — der Stau (ein langer → мужской род).",
+  "id": "g046"
+ },
+ {
+  "kind": "word",
+  "text": "In Deutschland darf man mit 17 schon den ___ machen.",
+  "answer": [
+   "Führerschein"
+  ],
+  "ref": "der Führerschein",
+  "clue_en": "driving licence",
+  "clue_ru": "водительские права",
+  "tr_en": "In Germany you can already take your driving test at 17.",
+  "tr_ru": "В Германии можно получать права уже в 17 лет.",
+  "explain_en": "den Führerschein machen = to learn to drive and pass the test.",
+  "explain_ru": "den Führerschein machen = учиться на права и сдавать экзамен; в русском «права» — мн. ч., в немецком — ед. ч.",
+  "id": "g047"
+ },
+ {
+  "kind": "word",
+  "text": "Wir haben kaum noch Benzin, wir müssen sofort zur ___.",
+  "answer": [
+   "Tankstelle"
+  ],
+  "ref": "die Tankstelle",
+  "clue_en": "petrol station",
+  "clue_ru": "заправка",
+  "tr_en": "We've hardly got any petrol left; we need to go to a petrol station right away.",
+  "tr_ru": "У нас почти не осталось бензина, нам срочно нужно на заправку.",
+  "explain_en": "zur = zu der, so a feminine noun is needed: die Tankstelle.",
+  "explain_ru": "zur = zu der, значит нужно существительное женского рода: die Tankstelle.",
+  "id": "g048"
+ },
+ {
+  "kind": "word",
+  "text": "Die Kaltmiete beträgt 700 Euro, dazu kommen 150 Euro ___ für Heizung und Wasser.",
+  "answer": [
+   "Nebenkosten"
+  ],
+  "ref": "die Nebenkosten",
+  "clue_en": "utility charges",
+  "clue_ru": "коммунальные платежи",
+  "tr_en": "The basic rent is 700 euros, plus 150 euros in utility charges for heating and water.",
+  "tr_ru": "Аренда без коммуналки — 700 евро, плюс 150 евро коммунальных платежей за отопление и воду.",
+  "explain_en": "Extra costs for heating, water, rubbish etc. are die Nebenkosten (plural only).",
+  "explain_ru": "Доп. расходы на отопление, воду, мусор — die Nebenkosten (только мн. ч.).",
+  "id": "g049"
+ },
+ {
+  "kind": "word",
+  "text": "Beim Einzug zahlt man dem Vermieter oft drei Monatsmieten als ___.",
+  "answer": [
+   "Kaution"
+  ],
+  "ref": "die Kaution",
+  "clue_en": "deposit",
+  "clue_ru": "залог",
+  "tr_en": "When moving in you often pay the landlord three months' rent as a deposit.",
+  "tr_ru": "При въезде арендодателю часто платят залог в размере трёх месячных арендных плат.",
+  "explain_en": "Money you get back when you move out is die Kaution.",
+  "explain_ru": "Деньги, которые возвращают при выезде, — die Kaution (залог).",
+  "id": "g050"
+ },
+ {
+  "kind": "word",
+  "text": "Die Heizung in meiner Wohnung ist kaputt, ich rufe sofort meinen ___ an.",
+  "answer": [
+   "Vermieter"
+  ],
+  "ref": "der Vermieter",
+  "clue_en": "landlord",
+  "clue_ru": "арендодатель",
+  "tr_en": "The heating in my flat is broken; I'm going to ring my landlord straight away.",
+  "tr_ru": "В моей квартире сломалось отопление, я сейчас же позвоню арендодателю.",
+  "explain_en": "The owner who rents out the flat is der Vermieter; der Mieter is the tenant.",
+  "explain_ru": "Тот, кто сдаёт квартиру, — der Vermieter; der Mieter — арендатор (жилец). Приставка ver- меняет смысл.",
+  "id": "g051"
+ },
+ {
+  "kind": "word",
+  "text": "Mir ist so kalt – gibst du mir bitte noch eine warme ___?",
+  "answer": [
+   "Decke"
+  ],
+  "ref": "die Decke",
+  "clue_en": "blanket",
+  "clue_ru": "одеяло, плед",
+  "tr_en": "I'm so cold – could you give me another warm blanket?",
+  "tr_ru": "Мне так холодно — дай мне, пожалуйста, ещё одно тёплое одеяло.",
+  "explain_en": "die Decke = blanket (and also ceiling).",
+  "explain_ru": "die Decke = одеяло, плед (а также «потолок»).",
+  "id": "g052"
+ },
+ {
+  "kind": "word",
+  "text": "Wir wohnen im vierten ___, und leider gibt es keinen Aufzug.",
+  "answer": [
+   "Stock"
+  ],
+  "ref": "der Stock",
+  "clue_en": "floor (storey)",
+  "clue_ru": "этаж",
+  "tr_en": "We live on the fourth floor, and unfortunately there's no lift.",
+  "tr_ru": "Мы живём на пятом этаже, и, к сожалению, лифта нет.",
+  "explain_en": "im … Stock = on the … floor; Germans count from the Erdgeschoss, so the 4th Stock is the Russian 5th floor.",
+  "explain_ru": "im … Stock = на … этаже; немцы считают от Erdgeschoss (первый этаж), поэтому vierter Stock — это русский пятый этаж.",
+  "id": "g053"
+ },
+ {
+  "kind": "word",
+  "text": "Ich wohne jetzt in Spanien und ___ meine Familie sehr.",
+  "answer": [
+   "vermisse"
+  ],
+  "ref": "vermissen",
+  "clue_en": "to miss (a person)",
+  "clue_ru": "скучать",
+  "tr_en": "I live in Spain now and miss my family very much.",
+  "tr_ru": "Теперь я живу в Испании и очень скучаю по семье.",
+  "explain_en": "vermissen takes a direct accusative object: meine Familie vermissen.",
+  "explain_ru": "vermissen требует прямого дополнения: meine Familie vermissen — без предлога, в отличие от «скучать по».",
+  "id": "g054"
+ },
+ {
+  "kind": "word",
+  "text": "Was ist los mit dir? Du hast heute so schlechte ___.",
+  "answer": [
+   "Laune"
+  ],
+  "ref": "die Laune",
+  "clue_en": "mood",
+  "clue_ru": "настроение",
+  "tr_en": "What's up with you? You're in such a bad mood today.",
+  "tr_ru": "Что с тобой? У тебя сегодня такое плохое настроение.",
+  "explain_en": "gute/schlechte Laune haben = to be in a good/bad mood (no article).",
+  "explain_ru": "gute/schlechte Laune haben = быть в хорошем/плохом настроении (без артикля).",
+  "id": "g055"
+ },
+ {
+  "kind": "word",
+  "text": "Er wird sofort ___, wenn seine Freundin mit anderen Männern tanzt.",
+  "answer": [
+   "eifersüchtig"
+  ],
+  "ref": "eifersüchtig",
+  "clue_en": "jealous",
+  "clue_ru": "ревнивый",
+  "tr_en": "He gets jealous straight away when his girlfriend dances with other men.",
+  "tr_ru": "Он сразу начинает ревновать, когда его девушка танцует с другими мужчинами.",
+  "explain_en": "Jealousy in a relationship is eifersüchtig; neidisch means envious.",
+  "explain_ru": "Ревность в отношениях — eifersüchtig; neidisch — «завистливый».",
+  "id": "g056"
+ },
+ {
+  "kind": "word",
+  "text": "Die Eltern sind sehr ___ auf ihre Tochter: Sie hat das beste Abitur der Schule.",
+  "answer": [
+   "stolz"
+  ],
+  "ref": "stolz",
+  "clue_en": "proud",
+  "clue_ru": "гордый",
+  "tr_en": "The parents are very proud of their daughter: she has the best school-leaving results in the school.",
+  "tr_ru": "Родители очень гордятся дочерью: у неё лучший аттестат в школе.",
+  "explain_en": "stolz sein auf + Akk. = to be proud of.",
+  "explain_ru": "stolz sein auf + аккузатив = гордиться кем-то/чем-то.",
+  "id": "g057"
+ },
+ {
+  "kind": "word",
+  "text": "Unser Sohn ist sehr ___ und spricht kaum mit fremden Menschen.",
+  "answer": [
+   "schüchtern"
+  ],
+  "ref": "schüchtern",
+  "clue_en": "shy",
+  "clue_ru": "застенчивый",
+  "tr_en": "Our son is very shy and hardly talks to strangers.",
+  "tr_ru": "Наш сын очень застенчивый и почти не разговаривает с незнакомыми людьми.",
+  "explain_en": "Not daring to talk to people = schüchtern.",
+  "explain_ru": "Стесняться людей — schüchtern.",
+  "id": "g058"
+ },
+ {
+  "kind": "word",
+  "text": "Auf Maria kann man sich immer verlassen, sie ist sehr ___.",
+  "answer": [
+   "zuverlässig"
+  ],
+  "ref": "zuverlässig",
+  "clue_en": "dependable",
+  "clue_ru": "надёжный",
+  "tr_en": "You can always rely on Maria; she's very reliable.",
+  "tr_ru": "На Марию всегда можно положиться, она очень надёжная.",
+  "explain_en": "Someone you can rely on (sich verlassen auf) is zuverlässig.",
+  "explain_ru": "Тот, на кого можно положиться (sich verlassen auf), — zuverlässig.",
+  "id": "g059"
+ },
+ {
+  "kind": "word",
+  "text": "Er ist nicht geizig, nur ___: Er kauft nichts, was er nicht wirklich braucht.",
+  "answer": [
+   "sparsam"
+  ],
+  "ref": "sparsam",
+  "clue_en": "thrifty",
+  "clue_ru": "экономный",
+  "tr_en": "He isn't stingy, just thrifty: he doesn't buy anything he doesn't really need.",
+  "tr_ru": "Он не жадный, а просто экономный: не покупает ничего, что ему действительно не нужно.",
+  "explain_en": "sparsam is the positive word for careful with money; geizig is negative.",
+  "explain_ru": "sparsam — положительное «бережливый»; geizig — отрицательное «скупой».",
+  "id": "g060"
+ },
+ {
+  "kind": "word",
+  "text": "Danke, keinen Nachtisch mehr, ich bin wirklich ___.",
+  "answer": [
+   "satt"
+  ],
+  "ref": "satt",
+  "clue_en": "full (after eating)",
+  "clue_ru": "сытый",
+  "tr_en": "Thanks, no more dessert, I'm really full.",
+  "tr_ru": "Спасибо, десерта больше не надо, я правда сыт.",
+  "explain_en": "Having eaten enough = satt; voll is about containers and is impolite for people.",
+  "explain_ru": "Наесться — satt; voll о человеке звучит как «пьяный» или невежливо.",
+  "id": "g061"
+ },
+ {
+  "kind": "word",
+  "text": "Die Suppe ist mir zu ___, da ist viel zu viel Chili drin.",
+  "answer": [
+   "scharf"
+  ],
+  "ref": "scharf",
+  "clue_en": "spicy",
+  "clue_ru": "острый",
+  "tr_en": "The soup is too spicy for me; there's far too much chilli in it.",
+  "tr_ru": "Суп для меня слишком острый, в нём слишком много чили.",
+  "explain_en": "Spicy food is scharf (also: sharp knife).",
+  "explain_ru": "Острая еда — scharf (также «острый нож»).",
+  "id": "g062"
+ },
+ {
+  "kind": "word",
+  "text": "Als ___ gibt es heute Eis mit frischen Erdbeeren.",
+  "answer": [
+   "Nachtisch"
+  ],
+  "ref": "der Nachtisch",
+  "clue_en": "dessert",
+  "clue_ru": "десерт",
+  "tr_en": "Today there's ice cream with fresh strawberries for dessert.",
+  "tr_ru": "Сегодня на десерт мороженое со свежей клубникой.",
+  "explain_en": "The sweet course after the meal is der Nachtisch.",
+  "explain_ru": "Сладкое после еды — der Nachtisch (букв. «после стола»).",
+  "id": "g063"
+ },
+ {
+  "kind": "word",
+  "text": "In Deutschland ist die ___ 1 die beste und die 6 die schlechteste.",
+  "answer": [
+   "Note"
+  ],
+  "ref": "die Note",
+  "clue_en": "school mark",
+  "clue_ru": "оценка",
+  "tr_en": "In Germany a 1 is the best mark and a 6 the worst.",
+  "tr_ru": "В Германии оценка 1 — лучшая, а 6 — худшая.",
+  "explain_en": "A school mark is die Note; the German scale runs the other way from the Russian one.",
+  "explain_ru": "Школьная оценка — die Note; немецкая шкала обратна русской: 1 — отлично.",
+  "id": "g064"
+ },
+ {
+  "kind": "word",
+  "text": "Welches ___ hast du in der Schule am liebsten? – Mathe!",
+  "answer": [
+   "Fach"
+  ],
+  "ref": "das Fach",
+  "clue_en": "school subject",
+  "clue_ru": "предмет",
+  "tr_en": "Which subject do you like best at school? – Maths!",
+  "tr_ru": "Какой предмет ты больше всего любишь в школе? – Математику!",
+  "explain_en": "A school subject is das Fach (welches → neuter).",
+  "explain_ru": "Школьный предмет — das Fach (welches → средний род).",
+  "id": "g065"
+ },
+ {
+  "kind": "word",
+  "text": "Am Ende des Schuljahres bekommen alle Schüler ihr ___.",
+  "answer": [
+   "Zeugnis"
+  ],
+  "ref": "das Zeugnis",
+  "clue_en": "school report",
+  "clue_ru": "табель, аттестат",
+  "tr_en": "At the end of the school year all pupils get their school report.",
+  "tr_ru": "В конце учебного года все ученики получают табель.",
+  "explain_en": "The document with all your marks is das Zeugnis.",
+  "explain_ru": "Документ со всеми оценками — das Zeugnis.",
+  "id": "g066"
+ },
+ {
+  "kind": "word",
+  "text": "Mein Handy geht gleich aus, der ___ ist fast leer.",
+  "answer": [
+   "Akku"
+  ],
+  "ref": "der Akku",
+  "clue_en": "rechargeable battery",
+  "clue_ru": "аккумулятор",
+  "tr_en": "My phone is about to die; the battery is almost flat.",
+  "tr_ru": "Мой телефон сейчас выключится, аккумулятор почти сел.",
+  "explain_en": "A phone battery is der Akku (short for Akkumulator).",
+  "explain_ru": "Батарея телефона — der Akku (сокращение от Akkumulator).",
+  "id": "g067"
+ },
+ {
+  "kind": "word",
+  "text": "Hier oben in den Bergen habe ich leider keinen ___.",
+  "answer": [
+   "Empfang"
+  ],
+  "ref": "der Empfang",
+  "clue_en": "mobile signal",
+  "clue_ru": "сигнал, приём",
+  "tr_en": "Up here in the mountains I unfortunately have no signal.",
+  "tr_ru": "Здесь в горах у меня, к сожалению, нет сигнала.",
+  "explain_en": "keinen shows a masculine noun: der Empfang (das Netz would need kein).",
+  "explain_ru": "keinen указывает на мужской род: der Empfang (для das Netz было бы kein).",
+  "id": "g068"
+ },
+ {
+  "kind": "word",
+  "text": "Ich kann mich nicht einloggen, ich habe mein ___ vergessen.",
+  "answer": [
+   "Passwort"
+  ],
+  "ref": "das Passwort",
+  "clue_en": "password",
+  "clue_ru": "пароль",
+  "tr_en": "I can't log in; I've forgotten my password.",
+  "tr_ru": "Я не могу войти, я забыл пароль.",
+  "explain_en": "das Passwort (neuter: mein).",
+  "explain_ru": "das Passwort (средний род: mein); в русском «пароль» мужского рода.",
+  "id": "g069"
+ },
+ {
+  "kind": "word",
+  "text": "Für einen neuen Reisepass zahlt man eine ___ von etwa 70 Euro.",
+  "answer": [
+   "Gebühr"
+  ],
+  "ref": "die Gebühr",
+  "clue_en": "official fee",
+  "clue_ru": "пошлина, сбор",
+  "tr_en": "For a new passport you pay a fee of about 70 euros.",
+  "tr_ru": "За новый паспорт платят пошлину около 70 евро.",
+  "explain_en": "Money paid to an office for a service is die Gebühr.",
+  "explain_ru": "Плата учреждению за услугу — die Gebühr.",
+  "id": "g070"
+ },
+ {
+  "kind": "word",
+  "text": "Der ___ hat das Tor nicht gegeben, die Fans waren wütend.",
+  "answer": [
+   "Schiedsrichter"
+  ],
+  "ref": "der Schiedsrichter",
+  "clue_en": "referee",
+  "clue_ru": "судья (в спорте)",
+  "tr_en": "The referee disallowed the goal, and the fans were furious.",
+  "tr_ru": "Судья не засчитал гол, болельщики были в ярости.",
+  "explain_en": "A referee in sport is der Schiedsrichter; der Richter is a judge in court.",
+  "explain_ru": "Спортивный судья — der Schiedsrichter; der Richter — судья в суде.",
+  "id": "g071"
+ },
+ {
+  "kind": "word",
+  "text": "Das Spiel endete 2:2, es war also ___.",
+  "answer": [
+   "unentschieden"
+  ],
+  "ref": "unentschieden",
+  "clue_en": "a draw",
+  "clue_ru": "вничью",
+  "tr_en": "The game ended 2–2, so it was a draw.",
+  "tr_ru": "Игра закончилась 2:2, то есть вничью.",
+  "explain_en": "A draw in sport = unentschieden ('undecided').",
+  "explain_ru": "Ничья — unentschieden («нерешённый»).",
+  "id": "g072"
+ },
+ {
+  "kind": "word",
+  "text": "Abends sitzen wir gern am ___ des Sees und schauen aufs Wasser.",
+  "answer": [
+   "Ufer"
+  ],
+  "ref": "das Ufer",
+  "clue_en": "shore",
+  "clue_ru": "берег",
+  "tr_en": "In the evenings we like to sit on the shore of the lake and look at the water.",
+  "tr_ru": "По вечерам мы любим сидеть на берегу озера и смотреть на воду.",
+  "explain_en": "The edge of a lake or river is das Ufer; die Küste is the sea coast.",
+  "explain_ru": "Берег озера или реки — das Ufer; die Küste — морское побережье.",
+  "id": "g073"
+ },
+ {
+  "kind": "word",
+  "text": "Nach vier Stunden waren wir endlich oben auf dem ___.",
+  "answer": [
+   "Gipfel"
+  ],
+  "ref": "der Gipfel",
+  "clue_en": "summit",
+  "clue_ru": "вершина",
+  "tr_en": "After four hours we were finally up on the summit.",
+  "tr_ru": "Через четыре часа мы наконец были на вершине.",
+  "explain_en": "The top of a mountain is der Gipfel (dem → masc./neuter).",
+  "explain_ru": "Вершина горы — der Gipfel (dem → мужской/средний род).",
+  "id": "g074"
+ },
+ {
+  "kind": "word",
+  "text": "Der ___ ins Museum ist am ersten Sonntag im Monat frei.",
+  "answer": [
+   "Eintritt"
+  ],
+  "ref": "der Eintritt",
+  "clue_en": "admission",
+  "clue_ru": "вход (плата)",
+  "tr_en": "Admission to the museum is free on the first Sunday of the month.",
+  "tr_ru": "Вход в музей бесплатный в первое воскресенье месяца.",
+  "explain_en": "The entrance fee is der Eintritt; der Eingang is the door you go through.",
+  "explain_ru": "Плата за вход — der Eintritt; der Eingang — сам вход (дверь).",
+  "id": "g075"
+ },
+ {
+  "kind": "word",
+  "text": "Der Krimi war so ___, dass ich bis drei Uhr nachts gelesen habe.",
+  "answer": [
+   "spannend"
+  ],
+  "ref": "spannend",
+  "clue_en": "gripping",
+  "clue_ru": "захватывающий",
+  "tr_en": "The crime novel was so gripping that I read until three in the morning.",
+  "tr_ru": "Детектив был настолько захватывающим, что я читал до трёх ночи.",
+  "explain_en": "A gripping book or film is spannend; interessant is weaker.",
+  "explain_ru": "Захватывающая книга или фильм — spannend; interessant слабее.",
+  "id": "g076"
+ },
+ {
+  "kind": "word",
+  "text": "Sag mir bitte ___, wenn du gut angekommen bist.",
+  "answer": [
+   "Bescheid"
+  ],
+  "ref": "Bescheid sagen",
+  "clue_en": "word, notice",
+  "clue_ru": "известие",
+  "tr_en": "Please let me know when you've arrived safely.",
+  "tr_ru": "Дай мне знать, пожалуйста, когда доберёшься.",
+  "explain_en": "jemandem Bescheid sagen = to let someone know.",
+  "explain_ru": "jemandem Bescheid sagen = сообщить, дать знать.",
+  "id": "g077"
+ },
+ {
+  "kind": "word",
+  "text": "Du hast morgen die Prüfung? Ich drücke dir die ___!",
+  "answer": [
+   "Daumen"
+  ],
+  "ref": "Ich drücke dir die Daumen.",
+  "clue_en": "thumbs",
+  "clue_ru": "большие пальцы",
+  "tr_en": "You've got your exam tomorrow? I'll keep my fingers crossed for you!",
+  "tr_ru": "У тебя завтра экзамен? Держу за тебя кулаки!",
+  "explain_en": "Germans press their thumbs for luck: jemandem die Daumen drücken.",
+  "explain_ru": "Немцы «жмут большие пальцы»: jemandem die Daumen drücken = держать кулаки.",
+  "id": "g078"
+ },
+ {
+  "kind": "word",
+  "text": "Wie viel Geld ___ du im Monat für Kleidung aus?",
+  "answer": [
+   "gibst"
+  ],
+  "ref": "ausgeben",
+  "clue_en": "to spend (money)",
+  "clue_ru": "тратить",
+  "tr_en": "How much money do you spend on clothes a month?",
+  "tr_ru": "Сколько денег ты тратишь в месяц на одежду?",
+  "explain_en": "ausgeben is separable and changes e → i: du gibst … aus.",
+  "explain_ru": "ausgeben отделяемый, со сменой e → i: du gibst … aus.",
+  "id": "g079"
+ },
+ {
+  "kind": "word",
+  "text": "Diese lange Telefonnummer kann ich mir einfach nicht ___.",
+  "answer": [
+   "merken"
+  ],
+  "ref": "sich merken",
+  "clue_en": "to memorise",
+  "clue_ru": "запомнить",
+  "tr_en": "I just can't remember this long phone number.",
+  "tr_ru": "Этот длинный номер телефона я никак не могу запомнить.",
+  "explain_en": "sich etwas merken = to keep in memory; sich erinnern an = to recall something past.",
+  "explain_ru": "sich (Dat.) etwas merken = запомнить; sich erinnern an = вспоминать прошлое.",
+  "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "section": "perfekt",
+  "text": "Letzten Sommer ___ ich zum ersten Mal mit dem Flugzeug geflogen.",
+  "answer": [
+   "bin"
+  ],
+  "tr_en": "Last summer I flew in a plane for the first time.",
+  "tr_ru": "Прошлым летом я впервые летал на самолёте.",
+  "explain_en": "fliegen (to travel by plane) is a verb of movement and takes sein: ich bin geflogen.",
+  "explain_ru": "fliegen «лететь» — глагол перемещения, спрягается с sein: ich bin geflogen.",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "section": "perfekt",
+  "text": "Sag mal, ___ du schon mal in Italien gewesen?",
+  "answer": [
+   "bist"
+  ],
+  "tr_en": "Tell me, have you ever been to Italy?",
+  "tr_ru": "Скажи, ты когда-нибудь был в Италии?",
+  "explain_en": "sein forms its Perfekt with sein: du bist gewesen.",
+  "explain_ru": "Глагол sein образует перфект с sein: du bist gewesen.",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "section": "perfekt",
+  "text": "Ich ___ gestern das Auto von meinem Vater in die Garage gefahren.",
+  "answer": [
+   "habe"
+  ],
+  "tr_en": "Yesterday I drove my father's car into the garage.",
+  "tr_ru": "Вчера я загнал машину отца в гараж.",
+  "explain_en": "With a direct object (das Auto) fahren is transitive and takes haben.",
+  "explain_ru": "С прямым дополнением (das Auto) fahren переходный и спрягается с haben, а не с sein.",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "section": "praeteritum-sein-haben-modals",
+  "text": "Letztes Jahr ___ wir zwei Wochen in Spanien.",
+  "answer": [
+   "waren"
+  ],
+  "tr_en": "Last year we were in Spain for two weeks.",
+  "tr_ru": "В прошлом году мы были в Испании две недели.",
+  "explain_en": "In the past, sein is usually used in the Präteritum: wir waren.",
+  "explain_ru": "В прошедшем времени sein обычно стоит в претерите: wir waren.",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "section": "praeteritum-sein-haben-modals",
+  "text": "Leider ___ ich gestern keine Zeit, ich musste lange arbeiten.",
+  "answer": [
+   "hatte"
+  ],
+  "tr_en": "Unfortunately I had no time yesterday; I had to work late.",
+  "tr_ru": "Вчера у меня, к сожалению, не было времени, мне пришлось долго работать.",
+  "explain_en": "Präteritum of haben: ich hatte.",
+  "explain_ru": "Претерит haben: ich hatte. «У меня не было» = ich hatte kein(e).",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "section": "praeteritum-sein-haben-modals",
+  "text": "Als Kind ___ ich nie lange aufbleiben, meine Eltern waren sehr streng.",
+  "answer": [
+   "durfte"
+  ],
+  "tr_en": "As a child I was never allowed to stay up late; my parents were very strict.",
+  "tr_ru": "В детстве мне никогда не разрешали поздно ложиться, родители были очень строгими.",
+  "explain_en": "Permission in the past = durfte (dürfen without umlaut).",
+  "explain_ru": "Разрешение в прошлом — durfte (dürfen без умлаута). Русское безличное «мне не разрешали» = ich durfte nicht.",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "section": "praeteritum-sein-haben-modals",
+  "text": "Früher ___ ich keinen Fisch, heute esse ich ihn sehr gern.",
+  "answer": [
+   "mochte"
+  ],
+  "tr_en": "I used to dislike fish; today I really like eating it.",
+  "tr_ru": "Раньше я не любил рыбу, а сейчас очень люблю.",
+  "explain_en": "mochte (from mögen) = liked; wollte is the past of 'want'.",
+  "explain_ru": "mochte (от mögen) = «любил, нравилось»; не путать с wollte «хотел».",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "section": "dative-case",
+  "text": "Ich gebe ___ Kindern jeden Tag einen Apfel mit in die Schule.",
+  "answer": [
+   "den"
+  ],
+  "tr_en": "Every day I give the children an apple to take to school.",
+  "tr_ru": "Каждый день я даю детям с собой в школу яблоко.",
+  "explain_en": "Dative plural: den + noun with -n (den Kindern).",
+  "explain_ru": "Датив множественного числа: den + существительное на -n (den Kindern).",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "section": "dative-case",
+  "text": "Das rote Fahrrad gehört ___ Nachbarin von oben, nicht uns.",
+  "answer": [
+   "der"
+  ],
+  "tr_en": "The red bike belongs to the neighbour from upstairs, not to us.",
+  "tr_ru": "Красный велосипед принадлежит соседке сверху, а не нам.",
+  "explain_en": "gehören takes the dative; feminine dative article: der.",
+  "explain_ru": "gehören требует датива; женский род в дативе — der.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "section": "dative-case",
+  "text": "Wie gefällt ___ die neue Wohnung, Herr Schulz?",
+  "answer": [
+   "Ihnen"
+  ],
+  "tr_en": "How do you like the new flat, Mr Schulz?",
+  "tr_ru": "Как вам новая квартира, господин Шульц?",
+  "explain_en": "gefallen: the person who likes is in the dative; formal: Ihnen.",
+  "explain_ru": "gefallen: тот, кому нравится, стоит в дативе (как «вам нравится»); вежливо — Ihnen.",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "section": "dative-two-way-prepositions",
+  "text": "Ich fahre jeden Morgen ___ dem Bus zur Arbeit.",
+  "answer": [
+   "mit"
+  ],
+  "tr_en": "I take the bus to work every morning.",
+  "tr_ru": "Каждое утро я езжу на работу на автобусе.",
+  "explain_en": "Means of transport: mit + dative (mit dem Bus).",
+  "explain_ru": "Транспорт: mit + датив (mit dem Bus), а не «на» как в русском.",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "section": "dative-two-way-prepositions",
+  "text": "Nach der Arbeit gehe ich noch schnell ___ Bäcker und kaufe Brötchen.",
+  "answer": [
+   "zum"
+  ],
+  "tr_en": "After work I quickly go to the baker's and buy rolls.",
+  "tr_ru": "После работы я ещё быстро захожу в пекарню и покупаю булочки.",
+  "explain_en": "Going to a person or shop = zu + dative; zu dem → zum.",
+  "explain_ru": "Идти к человеку или в магазин по профессии = zu + датив; zu dem → zum.",
+  "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "section": "dative-two-way-prepositions",
+  "text": "Die Katze springt ___ das Sofa und legt sich gemütlich hin.",
+  "answer": [
+   "auf"
+  ],
+  "tr_en": "The cat jumps onto the sofa and lies down comfortably.",
+  "tr_ru": "Кошка запрыгивает на диван и уютно укладывается.",
+  "explain_en": "Movement onto a surface (wohin?) = auf + accusative: auf das Sofa.",
+  "explain_ru": "Движение на поверхность (куда?) = auf + аккузатив: auf das Sofa.",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "section": "dative-two-way-prepositions",
+  "text": "Mit 25 wohne ich immer noch ___ meinen Eltern.",
+  "answer": [
+   "bei"
+  ],
+  "tr_en": "At 25 I still live with my parents.",
+  "tr_ru": "В 25 лет я всё ещё живу у родителей.",
+  "explain_en": "Living at someone's place = bei + dative; mit would mean 'together with'.",
+  "explain_ru": "Жить у кого-то = bei + датив (русское «у»); mit значит «вместе с».",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "section": "dative-two-way-prepositions",
+  "text": "Im Sommer fahren wir mit dem Auto ___ Österreich.",
+  "answer": [
+   "nach"
+  ],
+  "tr_en": "In summer we're driving to Austria.",
+  "tr_ru": "Летом мы едем на машине в Австрию.",
+  "explain_en": "Countries and cities without an article take nach: nach Österreich.",
+  "explain_ru": "Страны и города без артикля — с nach: nach Österreich (но in die Schweiz).",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "section": "dative-two-way-prepositions",
+  "text": "Stell die Milch bitte wieder in ___ Kühlschrank!",
+  "answer": [
+   "den"
+  ],
+  "tr_en": "Please put the milk back in the fridge!",
+  "tr_ru": "Поставь, пожалуйста, молоко обратно в холодильник!",
+  "explain_en": "stellen answers wohin?, so in takes the accusative: in den Kühlschrank.",
+  "explain_ru": "stellen отвечает на вопрос «куда?», поэтому in + аккузатив: in den Kühlschrank.",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "section": "dative-two-way-prepositions",
+  "text": "Die Lampe hängt direkt ___ dem Esstisch.",
+  "answer": [
+   "über"
+  ],
+  "tr_en": "The lamp hangs directly above the dining table.",
+  "tr_ru": "Лампа висит прямо над обеденным столом.",
+  "explain_en": "über + dative (wo?) = above.",
+  "explain_ru": "über + датив (где?) = над.",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "section": "reflexive-verbs",
+  "text": "Wir freuen ___ schon sehr auf die Sommerferien.",
+  "answer": [
+   "uns"
+  ],
+  "tr_en": "We're already really looking forward to the summer holidays.",
+  "tr_ru": "Мы уже очень ждём летних каникул.",
+  "explain_en": "Reflexive pronoun for wir: uns; sich freuen auf = to look forward to.",
+  "explain_ru": "Возвратное местоимение для wir — uns (в русском одно «-ся» для всех лиц); sich freuen auf = ждать с радостью.",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "section": "reflexive-verbs",
+  "text": "Beeil ___, der Bus kommt in zwei Minuten!",
+  "answer": [
+   "dich"
+  ],
+  "tr_en": "Hurry up, the bus is coming in two minutes!",
+  "tr_ru": "Поторопись, автобус придёт через две минуты!",
+  "explain_en": "In the du imperative the reflexive pronoun is dich.",
+  "explain_ru": "В повелительном наклонении для du возвратное местоимение — dich.",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "section": "reflexive-verbs",
+  "text": "Kämm ___ bitte die Haare, bevor wir zur Oma fahren!",
+  "answer": [
+   "dir"
+  ],
+  "tr_en": "Please comb your hair before we go to Grandma's!",
+  "tr_ru": "Причешись, пожалуйста, перед тем как мы поедем к бабушке!",
+  "explain_en": "With an accusative object (die Haare), the reflexive pronoun is dative: dir.",
+  "explain_ru": "При прямом дополнении (die Haare) возвратное местоимение в дативе: dir.",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "section": "reflexive-verbs",
+  "text": "Hast du ___ schon für den Deutschkurs angemeldet?",
+  "answer": [
+   "dich"
+  ],
+  "tr_en": "Have you signed up for the German course yet?",
+  "tr_ru": "Ты уже записался на курс немецкого?",
+  "explain_en": "sich anmelden: accusative reflexive dich; in the Perfekt it stays after the auxiliary.",
+  "explain_ru": "sich anmelden: возвратное dich в аккузативе; в перфекте стоит после вспомогательного глагола.",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjective-endings-1",
+  "text": "Heute ist wirklich ___ schöner Tag!",
+  "answer": [
+   "ein"
+  ],
+  "tr_en": "It's a really beautiful day today!",
+  "tr_ru": "Сегодня действительно прекрасный день!",
+  "explain_en": "The strong ending -er appears when the article (ein) shows no gender; after der it would be schöne.",
+  "explain_ru": "Сильное окончание -er появляется, когда артикль (ein) не показывает род; после der было бы schöne.",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjective-endings-1",
+  "text": "Ich habe mir ___ altes Fahrrad gekauft, es war ganz billig.",
+  "answer": [
+   "ein"
+  ],
+  "tr_en": "I bought myself an old bike; it was really cheap.",
+  "tr_ru": "Я купил себе старый велосипед, он был совсем дешёвый.",
+  "explain_en": "altes carries the neuter signal -es, so the article is ein (with das it would be alte).",
+  "explain_ru": "altes несёт сигнал среднего рода -es, значит артикль ein (с das было бы alte).",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjective-endings-1",
+  "text": "Ich finde ___ neue Haus von Anna wirklich schön.",
+  "answer": [
+   "das"
+  ],
+  "tr_en": "I think Anna's new house is really nice.",
+  "tr_ru": "Мне очень нравится новый дом Анны.",
+  "explain_en": "neue with -e only after das in the neuter; with ein it would be neues.",
+  "explain_ru": "neue с окончанием -e в среднем роде только после das; с ein было бы neues.",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "section": "comparative-superlative",
+  "text": "Mein Bruder ist zwei Jahre älter ___ ich.",
+  "answer": [
+   "als"
+  ],
+  "tr_en": "My brother is two years older than me.",
+  "tr_ru": "Мой брат на два года старше меня.",
+  "explain_en": "After a comparative: als; the second person stays in the nominative (ich).",
+  "explain_ru": "После сравнительной степени — als «чем»; второе лицо в номинативе (ich), а не «меня».",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "section": "comparative-superlative",
+  "text": "Anna ist genauso groß ___ ihre Mutter.",
+  "answer": [
+   "wie"
+  ],
+  "tr_en": "Anna is just as tall as her mother.",
+  "tr_ru": "Анна такого же роста, как её мама.",
+  "explain_en": "Equality: (genau)so … wie; als is only for comparatives.",
+  "explain_ru": "Равенство: (genau)so … wie; als — только после сравнительной степени.",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "section": "comparative-superlative",
+  "text": "Im Juni sind die Tage ___ längsten.",
+  "answer": [
+   "am"
+  ],
+  "tr_en": "In June the days are longest.",
+  "tr_ru": "В июне дни самые длинные.",
+  "explain_en": "Predicative superlative: am + -sten.",
+  "explain_ru": "Превосходная степень в роли сказуемого: am + -sten.",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "section": "comparative-superlative",
+  "text": "Es ist schon Oktober und es wird ___ kälter.",
+  "answer": [
+   "immer"
+  ],
+  "tr_en": "It's already October and it's getting colder and colder.",
+  "tr_ru": "Уже октябрь, и становится всё холоднее.",
+  "explain_en": "immer + comparative = more and more (colder and colder).",
+  "explain_ru": "immer + сравнительная степень = «всё более» (всё холоднее).",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "section": "subordinate-clauses",
+  "text": "Ich bleibe heute zu Hause, ___ ich Fieber habe.",
+  "answer": [
+   "weil"
+  ],
+  "tr_en": "I'm staying at home today because I have a temperature.",
+  "tr_ru": "Я сегодня остаюсь дома, потому что у меня температура.",
+  "explain_en": "The verb at the end (habe) shows a subordinate clause: weil; denn would need ich habe Fieber.",
+  "explain_ru": "Глагол в конце (habe) показывает придаточное: weil; с denn был бы прямой порядок слов.",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "section": "subordinate-clauses",
+  "text": "Weißt du, ___ Peter heute Abend kommt? – Ich glaube, ja.",
+  "answer": [
+   "ob"
+  ],
+  "tr_en": "Do you know whether Peter is coming tonight? – I think so.",
+  "tr_ru": "Ты не знаешь, придёт ли Петер сегодня вечером? – Думаю, да.",
+  "explain_en": "An indirect yes/no question is introduced by ob.",
+  "explain_ru": "Косвенный вопрос без вопросительного слова вводится ob (русское «ли»); wenn здесь невозможно.",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "section": "subordinate-clauses",
+  "text": "Ich hoffe, ___ das Wetter am Wochenende schön ist.",
+  "answer": [
+   "dass"
+  ],
+  "tr_en": "I hope the weather will be nice at the weekend.",
+  "tr_ru": "Надеюсь, что погода на выходных будет хорошей.",
+  "explain_en": "A content clause after hoffen is introduced by dass.",
+  "explain_ru": "Придаточное после hoffen вводится союзом dass «что».",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "section": "subordinate-clauses",
+  "text": "Immer ___ es regnet, fahre ich mit dem Bus zur Arbeit.",
+  "answer": [
+   "wenn"
+  ],
+  "tr_en": "Whenever it rains, I take the bus to work.",
+  "tr_ru": "Каждый раз, когда идёт дождь, я езжу на работу на автобусе.",
+  "explain_en": "Repeated events: (immer) wenn = whenever.",
+  "explain_ru": "Повторяющиеся события: (immer) wenn = «каждый раз, когда».",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "section": "conjunctions-connecting-adverbs",
+  "text": "Ich komme heute nicht mit, ___ ich habe keine Zeit.",
+  "answer": [
+   "denn"
+  ],
+  "tr_en": "I'm not coming along today, because I don't have time.",
+  "tr_ru": "Я сегодня не пойду, потому что у меня нет времени.",
+  "explain_en": "Normal word order (ich habe) after the conjunction means denn; weil would send the verb to the end.",
+  "explain_ru": "Прямой порядок (ich habe) после союза — значит denn; с weil глагол ушёл бы в конец.",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "section": "conjunctions-connecting-adverbs",
+  "text": "Das ist nicht mein Handy, ___ das von meiner Schwester.",
+  "answer": [
+   "sondern"
+  ],
+  "tr_en": "That's not my phone, it's my sister's.",
+  "tr_ru": "Это не мой телефон, а телефон моей сестры.",
+  "explain_en": "After a negation, the correction is introduced by sondern.",
+  "explain_ru": "После отрицания исправление вводится sondern (русское «а»).",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "section": "conjunctions-connecting-adverbs",
+  "text": "Ich bin krank, ___ gehe ich heute nicht zur Arbeit.",
+  "answer": [
+   "deshalb"
+  ],
+  "tr_en": "I'm ill, so I'm not going to work today.",
+  "tr_ru": "Я болен, поэтому сегодня не иду на работу.",
+  "explain_en": "deshalb occupies position 1, so the verb follows immediately (gehe ich).",
+  "explain_ru": "deshalb занимает первое место, поэтому сразу за ним глагол (gehe ich).",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "section": "conjunctions-connecting-adverbs",
+  "text": "Es regnet stark, ___ gehen wir spazieren.",
+  "answer": [
+   "trotzdem"
+  ],
+  "tr_en": "It's raining hard, but we're going for a walk anyway.",
+  "tr_ru": "Идёт сильный дождь, но мы всё равно идём гулять.",
+  "explain_en": "trotzdem (nevertheless) is an adverb in position 1, followed by the verb.",
+  "explain_ru": "trotzdem («всё равно») — наречие на первом месте, за ним глагол.",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "section": "time-prepositions-es-gibt-werden",
+  "text": "Ich wohne schon ___ drei Jahren in Berlin.",
+  "answer": [
+   "seit"
+  ],
+  "tr_en": "I've been living in Berlin for three years.",
+  "tr_ru": "Я живу в Берлине уже три года.",
+  "explain_en": "seit + dative with the present tense for something still going on.",
+  "explain_ru": "seit + датив с настоящим временем для того, что продолжается до сих пор (как русское «уже три года живу»).",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "section": "time-prepositions-es-gibt-werden",
+  "text": "Wir sind erst ___ zwei Tagen aus dem Urlaub zurückgekommen.",
+  "answer": [
+   "vor"
+  ],
+  "tr_en": "We only got back from holiday two days ago.",
+  "tr_ru": "Мы вернулись из отпуска только два дня назад.",
+  "explain_en": "'Ago' = vor + dative, placed before the time phrase.",
+  "explain_ru": "«Назад» = vor + датив, стоит перед обозначением времени.",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "section": "time-prepositions-es-gibt-werden",
+  "text": "Im Kühlschrank ___ es leider keine Milch mehr.",
+  "answer": [
+   "gibt"
+  ],
+  "tr_en": "Unfortunately there's no more milk in the fridge.",
+  "tr_ru": "В холодильнике, к сожалению, больше нет молока.",
+  "explain_en": "'There is/are' = es gibt + accusative.",
+  "explain_ru": "«Есть, имеется» = es gibt + аккузатив.",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "section": "time-prepositions-es-gibt-werden",
+  "text": "Meine Tochter studiert Medizin, sie ___ Ärztin.",
+  "answer": [
+   "wird"
+  ],
+  "tr_en": "My daughter is studying medicine; she's going to be a doctor.",
+  "tr_ru": "Моя дочь учится на медика, она станет врачом.",
+  "explain_en": "werden as a full verb = to become: sie wird Ärztin (no article).",
+  "explain_ru": "werden как самостоятельный глагол = «становиться»: sie wird Ärztin (без артикля, без творительного падежа).",
+  "id": "g120"
+ }
+]

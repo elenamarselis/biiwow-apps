@@ -1,0 +1,1643 @@
+[
+ {
+  "kind": "form",
+  "text": "Desculpe, eu não ___ onde fica a estação de comboios.",
+  "answer": [
+   "sei"
+  ],
+  "lemma": "saber",
+  "tr_en": "Sorry, I don't know where the train station is.",
+  "tr_ru": "Извините, я не знаю, где находится железнодорожный вокзал.",
+  "explain_en": "Saber is irregular only in the eu-form of the present: eu sei (tu sabes, ele sabe).",
+  "explain_ru": "Saber неправилен в форме eu настоящего времени: eu sei (но tu sabes, ele sabe).",
+  "id": "g001"
+ },
+ {
+  "kind": "form",
+  "text": "Ao sábado sou eu que ___ o jantar para toda a família.",
+  "answer": [
+   "faço"
+  ],
+  "lemma": "fazer",
+  "tr_en": "On Saturdays I'm the one who makes dinner for the whole family.",
+  "tr_ru": "По субботам ужин для всей семьи готовлю я.",
+  "explain_en": "In 'sou eu que…' the verb agrees with eu: fazer → eu faço (irregular, with ç).",
+  "explain_ru": "В конструкции «sou eu que…» глагол согласуется с eu: fazer → eu faço (неправильная форма с ç), как в русском «это я готовлю».",
+  "id": "g002"
+ },
+ {
+  "kind": "form",
+  "text": "Tu ___ sempre a mesma coisa, mas nunca fazes nada!",
+  "answer": [
+   "dizes"
+  ],
+  "lemma": "dizer",
+  "tr_en": "You always say the same thing, but you never do anything!",
+  "tr_ru": "Ты всегда говоришь одно и то же, но ничего не делаешь!",
+  "explain_en": "Dizer is irregular in the eu-form (digo) and the 3rd person (diz), but the tu-form is regular: dizes.",
+  "explain_ru": "У dizer неправильны формы eu digo и ele diz, а форма tu правильная: dizes.",
+  "id": "g003"
+ },
+ {
+  "kind": "form",
+  "text": "Todos os dias eu ___ do trabalho a pé, porque o escritório é perto.",
+  "answer": [
+   "venho"
+  ],
+  "lemma": "vir",
+  "tr_en": "Every day I come back from work on foot, because the office is close.",
+  "tr_ru": "Каждый день я возвращаюсь с работы пешком, потому что офис близко.",
+  "explain_en": "Vir in the present: eu venho, tu vens, ele vem. 'do trabalho' (from) points to vir, not ir.",
+  "explain_ru": "Vir в настоящем: eu venho, tu vens, ele vem. Предлог «do trabalho» (откуда) требует именно vir «приходить».",
+  "id": "g004"
+ },
+ {
+  "kind": "form",
+  "text": "Os meus vizinhos ___ três carros, mas só uma garagem.",
+  "answer": [
+   "têm"
+  ],
+  "lemma": "ter",
+  "tr_en": "My neighbours have three cars but only one garage.",
+  "tr_ru": "У моих соседей три машины, но только один гараж.",
+  "explain_en": "Plural subject: eles têm, with a circumflex that distinguishes it from singular ele tem.",
+  "explain_ru": "Подлежащее во множественном числе: eles têm — с циркумфлексом, в отличие от ед. ч. ele tem. В русском здесь «у них есть», а в португальском — глагол «иметь».",
+  "id": "g005"
+ },
+ {
+  "kind": "form",
+  "text": "Vocês ___ televisão todas as noites ou preferem ler?",
+  "answer": [
+   "veem"
+  ],
+  "lemma": "ver",
+  "tr_en": "Do you (all) watch TV every night or do you prefer to read?",
+  "tr_ru": "Вы смотрите телевизор каждый вечер или предпочитаете читать?",
+  "explain_en": "Vocês takes the 3rd person plural: eles/vocês veem (written without a circumflex since the 1990 spelling agreement).",
+  "explain_ru": "Vocês требует 3-го лица мн. ч.: veem (по реформе 1990 года без циркумфлекса). Хотя vocês переводится «вы», глагол стоит в форме «они».",
+  "id": "g006"
+ },
+ {
+  "kind": "form",
+  "text": "Antes do jantar, eu ___ a mesa e o meu marido cozinha.",
+  "answer": [
+   "ponho"
+  ],
+  "lemma": "pôr",
+  "tr_en": "Before dinner I set the table and my husband cooks.",
+  "tr_ru": "Перед ужином я накрываю на стол, а мой муж готовит.",
+  "explain_en": "Pôr is very irregular: eu ponho, tu pões, ele põe. 'Pôr a mesa' = to set the table.",
+  "explain_ru": "Pôr очень неправильный: eu ponho, tu pões, ele põe. «Pôr a mesa» — «накрывать на стол».",
+  "id": "g007"
+ },
+ {
+  "kind": "form",
+  "text": "De manhã, quando está frio, eu ___ uma camisola de lã.",
+  "answer": [
+   "visto"
+  ],
+  "lemma": "vestir",
+  "tr_en": "In the morning, when it's cold, I put on a wool jumper.",
+  "tr_ru": "Утром, когда холодно, я надеваю шерстяной свитер.",
+  "explain_en": "Vestir changes e → i in the eu-form only: eu visto, but tu vestes, ele veste.",
+  "explain_ru": "В vestir гласная e меняется на i только в форме eu: eu visto, но tu vestes, ele veste.",
+  "id": "g008"
+ },
+ {
+  "kind": "form",
+  "text": "Eu ___ muito mal quando há barulho na rua.",
+  "answer": [
+   "durmo"
+  ],
+  "lemma": "dormir",
+  "tr_en": "I sleep very badly when there is noise in the street.",
+  "tr_ru": "Я очень плохо сплю, когда на улице шумно.",
+  "explain_en": "Dormir changes o → u in the eu-form: eu durmo, but tu dormes, ele dorme.",
+  "explain_ru": "В dormir o меняется на u только в форме eu: eu durmo, но tu dormes, ele dorme.",
+  "id": "g009"
+ },
+ {
+  "kind": "form",
+  "text": "Fala mais alto, por favor, eu não ___ nada daqui!",
+  "answer": [
+   "ouço",
+   "oiço"
+  ],
+  "lemma": "ouvir",
+  "tr_en": "Speak louder, please, I can't hear anything from here!",
+  "tr_ru": "Говори громче, пожалуйста, я отсюда ничего не слышу!",
+  "explain_en": "Ouvir is irregular in the eu-form: eu ouço (in Portugal also oiço); tu ouves is regular.",
+  "explain_ru": "У ouvir неправильная форма eu: ouço (в Португалии также oiço). Русское «не слышу» часто без «могу», и в португальском тоже не нужно poder.",
+  "id": "g010"
+ },
+ {
+  "kind": "form",
+  "text": "Durante a semana eu ___ de casa às sete e meia.",
+  "answer": [
+   "saio"
+  ],
+  "lemma": "sair",
+  "tr_en": "During the week I leave home at half past seven.",
+  "tr_ru": "В будние дни я выхожу из дома в половине восьмого.",
+  "explain_en": "Sair in the present: eu saio, tu sais, ele sai, nós saímos.",
+  "explain_ru": "Sair в настоящем: eu saio, tu sais, ele sai, nós saímos. «Sair de casa» — «выходить из дома».",
+  "id": "g011"
+ },
+ {
+  "kind": "form",
+  "text": "Hoje não ___ ir à festa contigo, tenho um exame amanhã.",
+  "answer": [
+   "posso"
+  ],
+  "lemma": "poder",
+  "tr_en": "I can't go to the party with you today, I have an exam tomorrow.",
+  "tr_ru": "Сегодня я не могу пойти с тобой на вечеринку, у меня завтра экзамен.",
+  "explain_en": "The subject is eu (tenho): poder → eu posso (irregular), ele pode.",
+  "explain_ru": "Подлежащее — eu (ср. tenho): poder → eu posso (неправильная форма), ele pode.",
+  "id": "g012"
+ },
+ {
+  "kind": "form",
+  "text": "O que é que tu ___ fazer no fim de semana: praia ou campo?",
+  "answer": [
+   "queres"
+  ],
+  "lemma": "querer",
+  "tr_en": "What do you want to do at the weekend: beach or countryside?",
+  "tr_ru": "Что ты хочешь делать на выходных: пляж или деревня?",
+  "explain_en": "Querer with tu: queres. Only the 3rd person singular is shortened (ele quer).",
+  "explain_ru": "Querer с tu: queres. Укорочена только форма 3-го лица ед. ч.: ele quer.",
+  "id": "g013"
+ },
+ {
+  "kind": "form",
+  "text": "Nós ___ russos, mas moramos em Lisboa há cinco anos.",
+  "answer": [
+   "somos"
+  ],
+  "lemma": "ser",
+  "tr_en": "We are Russian, but we've been living in Lisbon for five years.",
+  "tr_ru": "Мы русские, но живём в Лиссабоне уже пять лет.",
+  "explain_en": "Nationality is permanent, so ser: nós somos.",
+  "explain_ru": "Национальность — постоянный признак, поэтому ser: nós somos. В русском связка «есть» опускается, в португальском обязательна.",
+  "id": "g014"
+ },
+ {
+  "kind": "form",
+  "text": "Depois da escola os miúdos ___ sempre muito cansados.",
+  "answer": [
+   "estão"
+  ],
+  "lemma": "estar",
+  "tr_en": "After school the kids are always very tired.",
+  "tr_ru": "После школы дети всегда очень устают (бывают очень усталыми).",
+  "explain_en": "Tiredness is a temporary state → estar, 3rd plural: estão (even with 'sempre').",
+  "explain_ru": "Усталость — временное состояние → estar, 3-е лицо мн. ч.: estão (даже со словом sempre).",
+  "id": "g015"
+ },
+ {
+  "kind": "form",
+  "text": "Todos os domingos os meus pais ___ à missa na igreja da praça.",
+  "answer": [
+   "vão"
+  ],
+  "lemma": "ir",
+  "tr_en": "Every Sunday my parents go to Mass in the church on the square.",
+  "tr_ru": "Каждое воскресенье мои родители ходят на мессу в церковь на площади.",
+  "explain_en": "Ir is fully irregular: eu vou, ele vai, eles vão.",
+  "explain_ru": "Ir полностью неправильный: eu vou, ele vai, eles vão. Один глагол ir соответствует русским «идти/ходить/ехать».",
+  "id": "g016"
+ },
+ {
+  "kind": "form",
+  "text": "No Natal os avós ___ sempre dinheiro aos netos.",
+  "answer": [
+   "dão"
+  ],
+  "lemma": "dar",
+  "tr_en": "At Christmas grandparents always give money to their grandchildren.",
+  "tr_ru": "На Рождество бабушки и дедушки всегда дарят внукам деньги.",
+  "explain_en": "Dar: eu dou, ele dá, eles dão.",
+  "explain_ru": "Dar: eu dou, ele dá, eles dão. Португальское dar покрывает и «давать», и «дарить».",
+  "id": "g017"
+ },
+ {
+  "kind": "form",
+  "text": "A minha vizinha tem três ___ e dois gatos.",
+  "answer": [
+   "cães"
+  ],
+  "lemma": "o cão",
+  "tr_en": "My neighbour has three dogs and two cats.",
+  "tr_ru": "У моей соседки три собаки и две кошки.",
+  "explain_en": "Cão belongs to the small group -ão → -ães: o cão, os cães (like pão → pães).",
+  "explain_ru": "Cão относится к небольшой группе -ão → -ães: o cão, os cães (как pão → pães).",
+  "id": "g018"
+ },
+ {
+  "kind": "form",
+  "text": "No jardim zoológico de Lisboa há dois ___ africanos.",
+  "answer": [
+   "leões"
+  ],
+  "lemma": "o leão",
+  "tr_en": "In the Lisbon zoo there are two African lions.",
+  "tr_ru": "В лиссабонском зоопарке есть два африканских льва.",
+  "explain_en": "Most nouns in -ão take -ões: o leão → os leões.",
+  "explain_ru": "Большинство существительных на -ão образуют мн. ч. на -ões: o leão → os leões.",
+  "id": "g019"
+ },
+ {
+  "kind": "form",
+  "text": "A Ana tem uma irmã e dois ___ mais novos.",
+  "answer": [
+   "irmãos"
+  ],
+  "lemma": "o irmão",
+  "tr_en": "Ana has one sister and two younger brothers.",
+  "tr_ru": "У Аны одна сестра и два младших брата.",
+  "explain_en": "Irmão is one of the few -ão nouns that just add -s: os irmãos (like a mão → as mãos).",
+  "explain_ru": "Irmão — одно из немногих слов на -ão, которые просто добавляют -s: os irmãos (как a mão → as mãos).",
+  "id": "g020"
+ },
+ {
+  "kind": "form",
+  "text": "Lava bem as ___ antes de comer!",
+  "answer": [
+   "mãos"
+  ],
+  "lemma": "a mão",
+  "tr_en": "Wash your hands well before eating!",
+  "tr_ru": "Хорошо вымой руки перед едой!",
+  "explain_en": "A mão is feminine and its plural is simply mãos, not *mões.",
+  "explain_ru": "A mão — женского рода, мн. ч. просто mãos, а не *mões.",
+  "id": "g021"
+ },
+ {
+  "kind": "form",
+  "text": "Deste aeroporto saem mais de vinte ___ por hora.",
+  "answer": [
+   "aviões"
+  ],
+  "lemma": "o avião",
+  "tr_en": "More than twenty planes leave this airport every hour.",
+  "tr_ru": "Из этого аэропорта вылетает больше двадцати самолётов в час.",
+  "explain_en": "O avião follows the most common pattern -ão → -ões: os aviões.",
+  "explain_ru": "O avião следует самой частой модели -ão → -ões: os aviões.",
+  "id": "g022"
+ },
+ {
+  "kind": "form",
+  "text": "Nesta cidade há três ___ públicos e uma clínica privada.",
+  "answer": [
+   "hospitais"
+  ],
+  "lemma": "o hospital",
+  "tr_en": "In this city there are three public hospitals and one private clinic.",
+  "tr_ru": "В этом городе три государственные больницы и одна частная клиника.",
+  "explain_en": "Nouns in -al form the plural in -ais: hospital → hospitais.",
+  "explain_ru": "Существительные на -al образуют мн. ч. на -ais: hospital → hospitais.",
+  "id": "g023"
+ },
+ {
+  "kind": "form",
+  "text": "Vou ficar em Portugal seis ___ e depois volto para Moscovo.",
+  "answer": [
+   "meses"
+  ],
+  "lemma": "o mês",
+  "tr_en": "I'm going to stay in Portugal for six months and then I'll go back to Moscow.",
+  "tr_ru": "Я пробуду в Португалии шесть месяцев, а потом вернусь в Москву.",
+  "explain_en": "Nouns ending in a consonant like -s add -es, and the accent disappears: mês → meses.",
+  "explain_ru": "Слова на согласную (здесь -s) получают -es, а ударение уходит, поэтому значок исчезает: mês → meses.",
+  "id": "g024"
+ },
+ {
+  "kind": "form",
+  "text": "Os exames de matemática deste ano são muito ___.",
+  "answer": [
+   "difíceis"
+  ],
+  "lemma": "difícil",
+  "tr_en": "This year's maths exams are very difficult.",
+  "tr_ru": "Экзамены по математике в этом году очень трудные.",
+  "explain_en": "Unstressed -il becomes -eis in the plural: difícil → difíceis (keeping the accent).",
+  "explain_ru": "Безударное -il во мн. ч. превращается в -eis: difícil → difíceis (знак ударения сохраняется).",
+  "id": "g025"
+ },
+ {
+  "kind": "form",
+  "text": "A bebé da Joana tem uns olhos ___ lindos, como o mar.",
+  "answer": [
+   "azuis"
+  ],
+  "lemma": "azul",
+  "tr_en": "Joana's baby girl has lovely blue eyes, like the sea.",
+  "tr_ru": "У малышки Жоаны чудесные голубые глаза, как море.",
+  "explain_en": "Adjectives in -ul take -uis in the plural: azul → azuis; the form is the same for both genders.",
+  "explain_ru": "Прилагательные на -ul образуют мн. ч. на -uis: azul → azuis; по родам не меняется.",
+  "id": "g026"
+ },
+ {
+  "kind": "form",
+  "text": "As crianças estão muito ___ porque amanhã começam as férias.",
+  "answer": [
+   "felizes"
+  ],
+  "lemma": "feliz",
+  "tr_en": "The children are very happy because the holidays start tomorrow.",
+  "tr_ru": "Дети очень счастливы, потому что завтра начинаются каникулы.",
+  "explain_en": "Adjectives ending in -z add -es: feliz → felizes.",
+  "explain_ru": "Прилагательные на -z добавляют -es: feliz → felizes.",
+  "id": "g027"
+ },
+ {
+  "kind": "form",
+  "text": "A sopa da tua avó é sempre muito ___!",
+  "answer": [
+   "boa"
+  ],
+  "lemma": "bom",
+  "tr_en": "Your grandmother's soup is always very tasty!",
+  "tr_ru": "Суп твоей бабушки всегда очень вкусный!",
+  "explain_en": "Bom has an irregular feminine: boa (agreeing with a sopa).",
+  "explain_ru": "У bom неправильная форма женского рода: boa (согласуется с a sopa). Bom о еде значит «вкусный».",
+  "id": "g028"
+ },
+ {
+  "kind": "form",
+  "text": "Hoje a comida da cantina está mesmo ___, não consigo comer.",
+  "answer": [
+   "má"
+  ],
+  "lemma": "mau",
+  "tr_en": "Today the canteen food is really bad, I can't eat it.",
+  "tr_ru": "Сегодня еда в столовой просто ужасная, я не могу её есть.",
+  "explain_en": "Mau has an irregular feminine: má (a comida is feminine).",
+  "explain_ru": "У mau неправильная форма женского рода: má (a comida — женского рода).",
+  "id": "g029"
+ },
+ {
+  "kind": "form",
+  "text": "Mãe, onde estão as ___ chaves? Não as encontro!",
+  "answer": [
+   "minhas"
+  ],
+  "lemma": "meu",
+  "tr_en": "Mum, where are my keys? I can't find them!",
+  "tr_ru": "Мама, где мои ключи? Я не могу их найти!",
+  "explain_en": "The possessive agrees with the thing owned (as chaves, fem. pl.), not with the owner: as minhas.",
+  "explain_ru": "Притяжательное местоимение согласуется с предметом (as chaves, ж. р. мн. ч.), а не с владельцем: as minhas — как в русском «мои».",
+  "id": "g030"
+ },
+ {
+  "kind": "form",
+  "text": "A ___ casa fica perto do rio; vivemos lá desde 2010.",
+  "answer": [
+   "nossa"
+  ],
+  "lemma": "nosso",
+  "tr_en": "Our house is near the river; we've lived there since 2010.",
+  "tr_ru": "Наш дом находится у реки; мы живём там с 2010 года.",
+  "explain_en": "'Vivemos' shows the owners are 'we'; the form agrees with a casa (feminine): a nossa.",
+  "explain_ru": "По vivemos видно, что владельцы — «мы»; форма согласуется с a casa (ж. р.): a nossa. Обратите внимание: «дом» в русском мужского рода, а casa — женского.",
+  "id": "g031"
+ },
+ {
+  "kind": "form",
+  "text": "É a ___ vez que estou em Portugal e já adoro o país.",
+  "answer": [
+   "primeira"
+  ],
+  "lemma": "primeiro",
+  "tr_en": "It's the first time I've been in Portugal and I already love the country.",
+  "tr_ru": "Я в Португалии впервые и уже обожаю эту страну.",
+  "explain_en": "The ordinal agrees with a vez (feminine): primeira.",
+  "explain_ru": "Порядковое числительное согласуется с a vez (ж. р.): primeira.",
+  "id": "g032"
+ },
+ {
+  "kind": "form",
+  "text": "Tenho ___ irmãs mais velhas e nenhum irmão.",
+  "answer": [
+   "duas"
+  ],
+  "lemma": "dois",
+  "tr_en": "I have two older sisters and no brothers.",
+  "tr_ru": "У меня две старшие сестры и ни одного брата.",
+  "explain_en": "The numbers one and two have feminine forms: dois → duas before a feminine noun.",
+  "explain_ru": "Числительные «один» и «два» имеют женский род: dois → duas, как в русском «два/две».",
+  "id": "g033"
+ },
+ {
+  "kind": "form",
+  "text": "O bilhete para o concerto custa ___ e vinte euros.",
+  "answer": [
+   "cento"
+  ],
+  "lemma": "cem",
+  "tr_en": "The concert ticket costs a hundred and twenty euros.",
+  "tr_ru": "Билет на концерт стоит сто двадцать евро.",
+  "explain_en": "Cem is used only for exactly 100; followed by 'e + number' it becomes cento: cento e vinte.",
+  "explain_ru": "Cem — только ровно 100; если дальше идёт «e + число», говорят cento: cento e vinte.",
+  "id": "g034"
+ },
+ {
+  "kind": "form",
+  "text": "Os meus filhos ___ muitos livros nas férias.",
+  "answer": [
+   "leem"
+  ],
+  "lemma": "ler",
+  "tr_en": "My children read a lot of books during the holidays.",
+  "tr_ru": "Мои дети много читают на каникулах.",
+  "explain_en": "Ler: eu leio, ele lê, eles leem (no circumflex since the 1990 agreement).",
+  "explain_ru": "Ler: eu leio, ele lê, eles leem (по реформе 1990 года без циркумфлекса).",
+  "id": "g035"
+ },
+ {
+  "kind": "form",
+  "text": "Depois do jogo de futebol ___-me as pernas.",
+  "answer": [
+   "doem"
+  ],
+  "lemma": "doer",
+  "tr_en": "After the football match my legs hurt.",
+  "tr_ru": "После футбольного матча у меня болят ноги.",
+  "explain_en": "Doer agrees with the thing that hurts (as pernas, plural), which comes after the verb: doem-me. Compare dói-me a cabeça.",
+  "explain_ru": "Doer согласуется с тем, что болит (as pernas, мн. ч.), как в русском «болят ноги»: doem-me. Ср. dói-me a cabeça.",
+  "id": "g036"
+ },
+ {
+  "kind": "form",
+  "text": "Cheguei ontem, por isso ainda não ___ bem esta cidade.",
+  "answer": [
+   "conheço"
+  ],
+  "lemma": "conhecer",
+  "tr_en": "I arrived yesterday, so I don't know this city well yet.",
+  "tr_ru": "Я приехал вчера, поэтому ещё плохо знаю этот город.",
+  "explain_en": "Before -o the c is written ç to keep the [s] sound: eu conheço.",
+  "explain_ru": "Перед -o буква c пишется как ç, чтобы сохранить звук [с]: eu conheço.",
+  "id": "g037"
+ },
+ {
+  "kind": "form",
+  "text": "No inverno ___ muito no Norte de Portugal.",
+  "answer": [
+   "chove"
+  ],
+  "lemma": "chover",
+  "tr_en": "In winter it rains a lot in the north of Portugal.",
+  "tr_ru": "Зимой на севере Португалии часто идут дожди.",
+  "explain_en": "Chover is impersonal, used only in the 3rd person singular without a subject: chove.",
+  "explain_ru": "Chover — безличный глагол, только 3-е лицо ед. ч. без подлежащего: chove (в русском «идёт дождь»).",
+  "id": "g038"
+ },
+ {
+  "kind": "form",
+  "text": "— Quem traz o vinho para o jantar de amanhã? — ___ eu!",
+  "answer": [
+   "Trago"
+  ],
+  "lemma": "trazer",
+  "tr_en": "— Who's bringing the wine for tomorrow's dinner? — I'll bring it!",
+  "tr_ru": "— Кто принесёт вино на завтрашний ужин? — Я принесу!",
+  "explain_en": "Trazer has an irregular eu-form: trago. The present is used here for a near future.",
+  "explain_ru": "У trazer неправильная форма eu: trago. Настоящее время здесь выражает ближайшее будущее, как в русском «я несу/принесу».",
+  "id": "g039"
+ },
+ {
+  "kind": "form",
+  "text": "Os gatos e os cavalos são os meus ___ preferidos.",
+  "answer": [
+   "animais"
+  ],
+  "lemma": "o animal",
+  "tr_en": "Cats and horses are my favourite animals.",
+  "tr_ru": "Кошки и лошади — мои любимые животные.",
+  "explain_en": "Nouns in -al form the plural in -ais: o animal, os animais.",
+  "explain_ru": "Существительные на -al образуют мн. ч. на -ais: o animal → os animais.",
+  "id": "g040"
+ },
+ {
+  "kind": "word",
+  "text": "Tu ___ o meu irmão? Ele trabalha contigo no banco.",
+  "answer": [
+   "conheces"
+  ],
+  "ref": "conhecer",
+  "clue_en": "to be acquainted with",
+  "clue_ru": "быть знакомым",
+  "tr_en": "Do you know my brother? He works with you at the bank.",
+  "tr_ru": "Ты знаешь моего брата? Он работает с тобой в банке.",
+  "explain_en": "Knowing a person (being acquainted) is conhecer; saber is for facts and skills.",
+  "explain_ru": "Знать человека (быть знакомым) — conhecer; saber — знать факты и уметь. В русском одно слово «знать», в португальском два.",
+  "id": "g041"
+ },
+ {
+  "kind": "word",
+  "text": "A tua filha já ___ nadar? Só tem quatro anos!",
+  "answer": [
+   "sabe"
+  ],
+  "ref": "saber",
+  "clue_en": "to know how",
+  "clue_ru": "уметь",
+  "tr_en": "Can your daughter swim already? She's only four!",
+  "tr_ru": "Твоя дочь уже умеет плавать? Ей всего четыре года!",
+  "explain_en": "A learned skill is expressed with saber + infinitive (eu sei, ela sabe), not poder.",
+  "explain_ru": "Навык («уметь») передаётся saber + инфинитив, а не poder («мочь, иметь возможность»).",
+  "id": "g042"
+ },
+ {
+  "kind": "word",
+  "text": "O meu primo ___ guitarra numa banda de rock.",
+  "answer": [
+   "toca"
+  ],
+  "ref": "tocar",
+  "clue_en": "to play (an instrument)",
+  "clue_ru": "играть (на инструменте)",
+  "tr_en": "My cousin plays guitar in a rock band.",
+  "tr_ru": "Мой двоюродный брат играет на гитаре в рок-группе.",
+  "explain_en": "Instruments take tocar; jogar is only for games and sports. Note: no preposition before guitarra.",
+  "explain_ru": "Для инструментов — tocar, jogar — только для игр и спорта. И без предлога: tocar guitarra, а не «на гитаре».",
+  "id": "g043"
+ },
+ {
+  "kind": "word",
+  "text": "Aos domingos nós ___ futebol no parque com os vizinhos.",
+  "answer": [
+   "jogamos"
+  ],
+  "ref": "jogar",
+  "clue_en": "to play (a game)",
+  "clue_ru": "играть (в игру)",
+  "tr_en": "On Sundays we play football in the park with the neighbours.",
+  "tr_ru": "По воскресеньям мы играем в футбол в парке с соседями.",
+  "explain_en": "Sports and games take jogar (nós jogamos); tocar is for instruments.",
+  "explain_ru": "Спорт и игры — jogar (nós jogamos), без предлога: jogar futebol («в футбол»). Tocar — для инструментов.",
+  "id": "g044"
+ },
+ {
+  "kind": "word",
+  "text": "Chamo-me João e o meu ___ é Ferreira, como o do meu pai.",
+  "answer": [
+   "apelido"
+  ],
+  "ref": "o apelido",
+  "clue_en": "surname",
+  "clue_ru": "фамилия",
+  "tr_en": "My name is João and my surname is Ferreira, like my father's.",
+  "tr_ru": "Меня зовут Жуан, а моя фамилия — Феррейра, как у отца.",
+  "explain_en": "In Portugal o apelido is the surname (in Brazil: sobrenome); it does not mean 'nickname'.",
+  "explain_ru": "В Португалии apelido — «фамилия» (в Бразилии: sobrenome, а apelido там — «прозвище»).",
+  "id": "g045"
+ },
+ {
+  "kind": "word",
+  "text": "A ___ de cabelo comprido ao lado daquele rapaz é a minha prima.",
+  "answer": [
+   "rapariga"
+  ],
+  "ref": "a rapariga",
+  "clue_en": "girl, young woman",
+  "clue_ru": "девушка",
+  "tr_en": "The long-haired girl next to that boy is my cousin.",
+  "tr_ru": "Девушка с длинными волосами рядом с тем парнем — моя двоюродная сестра.",
+  "explain_en": "In Portugal a rapariga is the neutral word for a girl, the pair of o rapaz. In Brazil it is offensive (there: moça, garota).",
+  "explain_ru": "В Португалии rapariga — нейтральное «девушка», пара к rapaz. В Бразилии это слово грубое (там говорят moça, garota).",
+  "id": "g046"
+ },
+ {
+  "kind": "word",
+  "text": "Para ir à praia, apanho o ___ 714 na paragem em frente de casa.",
+  "answer": [
+   "autocarro"
+  ],
+  "ref": "o autocarro",
+  "clue_en": "bus",
+  "clue_ru": "автобус",
+  "tr_en": "To go to the beach I take the number 714 bus at the stop opposite my house.",
+  "tr_ru": "Чтобы поехать на пляж, я сажусь на автобус 714 на остановке напротив дома.",
+  "explain_en": "The European Portuguese word for bus is o autocarro (in Brazil: ônibus).",
+  "explain_ru": "В Португалии автобус — o autocarro (в Бразилии: ônibus).",
+  "id": "g047"
+ },
+ {
+  "kind": "word",
+  "text": "O ___ para o Porto sai da estação de Santa Apolónia às nove.",
+  "answer": [
+   "comboio"
+  ],
+  "ref": "o comboio",
+  "clue_en": "train",
+  "clue_ru": "поезд",
+  "tr_en": "The train to Porto leaves Santa Apolónia station at nine.",
+  "tr_ru": "Поезд в Порту отправляется с вокзала Санта-Аполония в девять.",
+  "explain_en": "In Portugal a train is o comboio (in Brazil: trem).",
+  "explain_ru": "В Португалии поезд — o comboio (в Бразилии: trem).",
+  "id": "g048"
+ },
+ {
+  "kind": "word",
+  "text": "Ao ___ como sempre pão com manteiga e bebo um café.",
+  "answer": [
+   "pequeno-almoço"
+  ],
+  "ref": "o pequeno-almoço",
+  "clue_en": "breakfast",
+  "clue_ru": "завтрак",
+  "tr_en": "For breakfast I always have bread and butter and drink a coffee.",
+  "tr_ru": "На завтрак я всегда ем хлеб с маслом и пью кофе.",
+  "explain_en": "Breakfast in Portugal is o pequeno-almoço, literally 'small lunch' (Brazil: café da manhã).",
+  "explain_ru": "Завтрак в Португалии — o pequeno-almoço, буквально «маленький обед» (в Бразилии: café da manhã).",
+  "id": "g049"
+ },
+ {
+  "kind": "word",
+  "text": "Põe o leite no ___, senão estraga-se com este calor.",
+  "answer": [
+   "frigorífico"
+  ],
+  "ref": "o frigorífico",
+  "clue_en": "fridge",
+  "clue_ru": "холодильник",
+  "tr_en": "Put the milk in the fridge, otherwise it will go off in this heat.",
+  "tr_ru": "Поставь молоко в холодильник, иначе оно испортится в такую жару.",
+  "explain_en": "The Portuguese word is o frigorífico (Brazil: geladeira).",
+  "explain_ru": "В Португалии холодильник — o frigorífico (в Бразилии: geladeira).",
+  "id": "g050"
+ },
+ {
+  "kind": "word",
+  "text": "Desculpe, onde fica a ___? — Ao fundo do corredor, à direita.",
+  "answer": [
+   "casa de banho"
+  ],
+  "ref": "a casa de banho",
+  "clue_en": "toilet, bathroom",
+  "clue_ru": "туалет, ванная",
+  "tr_en": "Excuse me, where is the toilet? — At the end of the corridor, on the right.",
+  "tr_ru": "Извините, где туалет? — В конце коридора, справа.",
+  "explain_en": "In Portugal the polite word for toilet/bathroom is a casa de banho (Brazil: banheiro).",
+  "explain_ru": "В Португалии туалет и ванная — a casa de banho (в Бразилии: banheiro).",
+  "id": "g051"
+ },
+ {
+  "kind": "word",
+  "text": "Para correr no parque, uso umas ___ leves e confortáveis.",
+  "answer": [
+   "sapatilhas"
+  ],
+  "ref": "as sapatilhas",
+  "clue_en": "trainers, sneakers",
+  "clue_ru": "кроссовки",
+  "tr_en": "To run in the park I wear light, comfortable trainers.",
+  "tr_ru": "Для бега в парке я ношу лёгкие удобные кроссовки.",
+  "explain_en": "Sports shoes in Portugal are as sapatilhas (Brazil: tênis); the plural matches umas … leves.",
+  "explain_ru": "Кроссовки в Португалии — as sapatilhas (в Бразилии: tênis); множественное число согласовано с umas … leves.",
+  "id": "g052"
+ },
+ {
+  "kind": "word",
+  "text": "Ela tem os olhos ___, iguais aos do pai.",
+  "answer": [
+   "castanhos"
+  ],
+  "ref": "castanho",
+  "clue_en": "brown",
+  "clue_ru": "карий, коричневый",
+  "tr_en": "She has brown eyes, just like her father's.",
+  "tr_ru": "У неё карие глаза, точно как у отца.",
+  "explain_en": "Brown for eyes and hair is castanho, agreeing with os olhos: castanhos (Brazil often: marrom).",
+  "explain_ru": "Для глаз и волос — castanho, согласование с os olhos: castanhos (в Бразилии часто marrom).",
+  "id": "g053"
+ },
+ {
+  "kind": "word",
+  "text": "O céu está ___ desde manhã; vem aí chuva.",
+  "answer": [
+   "cinzento"
+  ],
+  "ref": "cinzento",
+  "clue_en": "grey",
+  "clue_ru": "серый",
+  "tr_en": "The sky has been grey since the morning; rain is on its way.",
+  "tr_ru": "Небо с утра серое — скоро пойдёт дождь.",
+  "explain_en": "In Portugal grey is cinzento (Brazil: cinza), agreeing with o céu.",
+  "explain_ru": "В Португалии «серый» — cinzento (в Бразилии: cinza), согласование с o céu.",
+  "id": "g054"
+ },
+ {
+  "kind": "word",
+  "text": "Pago com uma nota de vinte euros e o empregado dá-me o ___.",
+  "answer": [
+   "troco"
+  ],
+  "ref": "o troco",
+  "clue_en": "change (money back)",
+  "clue_ru": "сдача",
+  "tr_en": "I pay with a twenty-euro note and the waiter gives me the change.",
+  "tr_ru": "Я плачу купюрой в двадцать евро, и официант даёт мне сдачу.",
+  "explain_en": "Money given back is o troco; 'small change' as coins is also trocos.",
+  "explain_ru": "Сдача — o troco; не путайте с dinheiro («деньги») и a conta («счёт»).",
+  "id": "g055"
+ },
+ {
+  "kind": "word",
+  "text": "Pode trazer-nos a ___, por favor? Queremos pagar.",
+  "answer": [
+   "conta"
+  ],
+  "ref": "a conta",
+  "clue_en": "bill (in a restaurant)",
+  "clue_ru": "счёт",
+  "tr_en": "Could you bring us the bill, please? We'd like to pay.",
+  "tr_ru": "Принесите нам, пожалуйста, счёт. Мы хотим расплатиться.",
+  "explain_en": "The restaurant bill is a conta (the same word means a bank account).",
+  "explain_ru": "Счёт в ресторане — a conta (это же слово значит «банковский счёт»).",
+  "id": "g056"
+ },
+ {
+  "kind": "word",
+  "text": "Este restaurante é demasiado ___ para nós; vamos a outro mais barato.",
+  "answer": [
+   "caro"
+  ],
+  "ref": "caro",
+  "clue_en": "expensive",
+  "clue_ru": "дорогой",
+  "tr_en": "This restaurant is too expensive for us; let's go to a cheaper one.",
+  "tr_ru": "Этот ресторан для нас слишком дорогой; пойдём в другой, подешевле.",
+  "explain_en": "The opposite of barato is caro, agreeing with o restaurante.",
+  "explain_ru": "Антоним barato — caro «дорогой» (о цене); «дорогой» в смысле «милый» — тоже caro или querido.",
+  "id": "g057"
+ },
+ {
+  "kind": "word",
+  "text": "A Marta ___ quase todo o salário em roupa e sapatos.",
+  "answer": [
+   "gasta"
+  ],
+  "ref": "gastar",
+  "clue_en": "to spend (money)",
+  "clue_ru": "тратить",
+  "tr_en": "Marta spends almost all her salary on clothes and shoes.",
+  "tr_ru": "Марта тратит почти всю зарплату на одежду и обувь.",
+  "explain_en": "Spending money is gastar + em (on); passar is for spending time.",
+  "explain_ru": "Тратить деньги — gastar em (на что); проводить время — passar.",
+  "id": "g058"
+ },
+ {
+  "kind": "word",
+  "text": "Ao domingo à tarde gosto de ___ com o cão à beira-rio.",
+  "answer": [
+   "passear"
+  ],
+  "ref": "passear",
+  "clue_en": "to stroll, go for a walk",
+  "clue_ru": "гулять",
+  "tr_en": "On Sunday afternoons I like to go for a walk with the dog along the river.",
+  "tr_ru": "По воскресеньям днём я люблю гулять с собакой вдоль реки.",
+  "explain_en": "Walking for pleasure is passear; andar just means 'to walk/move'. After gostar de the infinitive is used.",
+  "explain_ru": "Гулять для удовольствия — passear; andar — просто «ходить». После gostar de — инфинитив.",
+  "id": "g059"
+ },
+ {
+  "kind": "word",
+  "text": "Para chegar ao aeroporto a tempo, tens de ___ um táxi já.",
+  "answer": [
+   "apanhar"
+  ],
+  "ref": "apanhar",
+  "clue_en": "to catch, take (a vehicle)",
+  "clue_ru": "сесть на (транспорт)",
+  "tr_en": "To get to the airport on time, you have to take a taxi right now.",
+  "tr_ru": "Чтобы успеть в аэропорт, тебе нужно сейчас же взять такси.",
+  "explain_en": "In Portugal you apanhar a bus, train or taxi (Brazil: pegar). Ter de is followed by the infinitive.",
+  "explain_ru": "В Португалии транспорт «ловят»: apanhar o autocarro, um táxi (в Бразилии: pegar). После ter de — инфинитив.",
+  "id": "g060"
+ },
+ {
+  "kind": "word",
+  "text": "Desculpe, não ___. Pode repetir mais devagar?",
+  "answer": [
+   "percebo"
+  ],
+  "ref": "perceber",
+  "clue_en": "to understand",
+  "clue_ru": "понимать",
+  "tr_en": "Sorry, I don't understand. Could you repeat more slowly?",
+  "tr_ru": "Извините, я не понимаю. Можете повторить помедленнее?",
+  "explain_en": "In Portugal 'to understand' is usually perceber (Brazil: entender): eu percebo.",
+  "explain_ru": "В Португалии «понимать» — обычно perceber (в Бразилии: entender): eu percebo.",
+  "id": "g061"
+ },
+ {
+  "kind": "word",
+  "text": "— Onde ___ o Museu do Azulejo? — Não muito longe daqui, em Xabregas.",
+  "answer": [
+   "fica"
+  ],
+  "ref": "ficar",
+  "clue_en": "to be located",
+  "clue_ru": "находиться",
+  "tr_en": "— Where is the Tile Museum? — Not far from here, in Xabregas.",
+  "tr_ru": "— Где находится Музей азулежу? — Недалеко отсюда, в Шабрегаше.",
+  "explain_en": "For the location of fixed places (buildings, towns) Portuguese prefers ficar: onde fica…?",
+  "explain_ru": "Для местоположения зданий и городов португальцы предпочитают ficar: Onde fica…? — «Где находится…?».",
+  "id": "g062"
+ },
+ {
+  "kind": "word",
+  "text": "Temos de nos ___, o comboio sai daqui a cinco minutos!",
+  "answer": [
+   "despachar"
+  ],
+  "ref": "despachar-se",
+  "clue_en": "to hurry up",
+  "clue_ru": "торопиться",
+  "tr_en": "We have to hurry up, the train leaves in five minutes!",
+  "tr_ru": "Нам надо поторопиться, поезд отходит через пять минут!",
+  "explain_en": "Despachar-se (to hurry) is reflexive; here the pronoun nos stands before the infinitive after ter de.",
+  "explain_ru": "Despachar-se «торопиться» — возвратный глагол (как русское «-ся»); здесь местоимение nos стоит перед инфинитивом после ter de.",
+  "id": "g063"
+ },
+ {
+  "kind": "word",
+  "text": "Eu ___ às sete, mas só me levanto às sete e meia.",
+  "answer": [
+   "acordo"
+  ],
+  "ref": "acordar",
+  "clue_en": "to wake up",
+  "clue_ru": "просыпаться",
+  "tr_en": "I wake up at seven, but I only get up at half past seven.",
+  "tr_ru": "Я просыпаюсь в семь, но встаю только в половине восьмого.",
+  "explain_en": "Acordar = to wake up (open your eyes); levantar-se = to get out of bed. Acordar is not reflexive.",
+  "explain_ru": "Acordar — «просыпаться», levantar-se — «вставать». В отличие от русского «просыпаться», acordar не возвратный.",
+  "id": "g064"
+ },
+ {
+  "kind": "word",
+  "text": "Durante a semana as crianças ___ às nove e meia.",
+  "answer": [
+   "deitam-se"
+  ],
+  "ref": "deitar-se",
+  "clue_en": "to go to bed",
+  "clue_ru": "ложиться спать",
+  "tr_en": "During the week the children go to bed at half past nine.",
+  "tr_ru": "В будни дети ложатся спать в половине десятого.",
+  "explain_en": "Deitar-se is reflexive; in affirmative main clauses Portugal puts the pronoun after the verb: deitam-se.",
+  "explain_ru": "Deitar-se — возвратный глагол; в утвердительном предложении в Португалии местоимение ставится после глагола: deitam-se.",
+  "id": "g065"
+ },
+ {
+  "kind": "word",
+  "text": "Vou ao médico porque me ___ muito a cabeça.",
+  "answer": [
+   "dói"
+  ],
+  "ref": "doer",
+  "clue_en": "to hurt, ache",
+  "clue_ru": "болеть",
+  "tr_en": "I'm going to the doctor because my head hurts a lot.",
+  "tr_ru": "Я иду к врачу, потому что у меня сильно болит голова.",
+  "explain_en": "Doer agrees with the painful part (a cabeça, singular): dói; the person is the indirect object me.",
+  "explain_ru": "Doer согласуется с тем, что болит (a cabeça): dói; человек выражен местоимением me — как русское «у меня болит».",
+  "id": "g066"
+ },
+ {
+  "kind": "word",
+  "text": "O bebé tem ___: o termómetro marca 39 graus.",
+  "answer": [
+   "febre"
+  ],
+  "ref": "a febre",
+  "clue_en": "fever, high temperature",
+  "clue_ru": "температура, жар",
+  "tr_en": "The baby has a fever: the thermometer shows 39 degrees.",
+  "tr_ru": "У малыша температура: градусник показывает 39.",
+  "explain_en": "'To have a temperature' is ter febre, not *ter temperatura.",
+  "explain_ru": "Русское «у него температура» — ter febre, а не *ter temperatura.",
+  "id": "g067"
+ },
+ {
+  "kind": "word",
+  "text": "Moro em Paris há dois anos, mas tenho muitas ___ de Lisboa.",
+  "answer": [
+   "saudades"
+  ],
+  "ref": "ter saudades",
+  "clue_en": "longing, missing",
+  "clue_ru": "тоска (по ком-то)",
+  "tr_en": "I've lived in Paris for two years, but I miss Lisbon a lot.",
+  "tr_ru": "Я живу в Париже два года, но очень скучаю по Лиссабону.",
+  "explain_en": "'To miss' is ter saudades de (usually plural); there is no single verb for it.",
+  "explain_ru": "«Скучать по» — ter saudades de (обычно во мн. ч.); отдельного глагола нет.",
+  "id": "g068"
+ },
+ {
+  "kind": "word",
+  "text": "___ amanhã chove; leva o guarda-chuva.",
+  "answer": [
+   "Se calhar"
+  ],
+  "ref": "se calhar",
+  "clue_en": "maybe, perhaps",
+  "clue_ru": "может быть",
+  "tr_en": "Maybe it'll rain tomorrow; take the umbrella.",
+  "tr_ru": "Может быть, завтра будет дождь; возьми зонт.",
+  "explain_en": "The verb chove is indicative, so the colloquial se calhar fits; talvez would need the subjunctive (talvez chova).",
+  "explain_ru": "Глагол chove стоит в изъявительном наклонении, поэтому подходит разговорное se calhar; после talvez нужен конъюнктив (talvez chova).",
+  "id": "g069"
+ },
+ {
+  "kind": "word",
+  "text": "— Queres chá ou café? — ___, gosto dos dois.",
+  "answer": [
+   "Tanto faz"
+  ],
+  "ref": "tanto faz",
+  "clue_en": "I don't mind",
+  "clue_ru": "всё равно",
+  "tr_en": "— Do you want tea or coffee? — I don't mind, I like both.",
+  "tr_ru": "— Хочешь чай или кофе? — Всё равно, мне нравится и то и другое.",
+  "explain_en": "Tanto faz means 'it makes no difference to me'.",
+  "explain_ru": "Tanto faz — «мне всё равно, без разницы».",
+  "id": "g070"
+ },
+ {
+  "kind": "word",
+  "text": "Agora não posso falar contigo, tenho muita ___.",
+  "answer": [
+   "pressa"
+  ],
+  "ref": "ter pressa",
+  "clue_en": "hurry, rush",
+  "clue_ru": "спешка",
+  "tr_en": "I can't talk to you now, I'm in a big hurry.",
+  "tr_ru": "Сейчас не могу с тобой говорить, я очень спешу.",
+  "explain_en": "'To be in a hurry' is ter pressa (literally 'have hurry'), intensified with muita.",
+  "explain_ru": "«Спешить» — ter pressa (букв. «иметь спешку»); muita согласуется с pressa (ж. р.).",
+  "id": "g071"
+ },
+ {
+  "kind": "word",
+  "text": "Estou na paragem há meia hora a ___ pelo autocarro.",
+  "answer": [
+   "esperar"
+  ],
+  "ref": "esperar por",
+  "clue_en": "to wait",
+  "clue_ru": "ждать",
+  "tr_en": "I've been at the stop for half an hour waiting for the bus.",
+  "tr_ru": "Я уже полчаса стою на остановке и жду автобус.",
+  "explain_en": "Esperar por = to wait for; after estar a comes the infinitive (European Portuguese).",
+  "explain_ru": "Esperar por — «ждать (кого/что)»; после estar a — инфинитив (европейский вариант).",
+  "id": "g072"
+ },
+ {
+  "kind": "word",
+  "text": "Porque é que estás a ___ para mim assim? Tenho alguma coisa na cara?",
+  "answer": [
+   "olhar"
+  ],
+  "ref": "olhar para",
+  "clue_en": "to look (at)",
+  "clue_ru": "смотреть (на)",
+  "tr_en": "Why are you looking at me like that? Have I got something on my face?",
+  "tr_ru": "Почему ты так на меня смотришь? У меня что-то на лице?",
+  "explain_en": "Olhar para = to look at (direct your eyes); ver = to see. Only olhar combines with para.",
+  "explain_ru": "Olhar para — «смотреть на», ver — «видеть». С предлогом para сочетается только olhar.",
+  "id": "g073"
+ },
+ {
+  "kind": "word",
+  "text": "Não me ___ do nome dele; como é que ele se chama?",
+  "answer": [
+   "lembro"
+  ],
+  "ref": "lembrar-se de",
+  "clue_en": "to remember",
+  "clue_ru": "помнить",
+  "tr_en": "I can't remember his name; what's he called?",
+  "tr_ru": "Я не помню, как его зовут; как его имя?",
+  "explain_en": "Lembrar-se de is reflexive; after não the pronoun goes before the verb: não me lembro.",
+  "explain_ru": "Lembrar-se de — возвратный; после não местоимение стоит перед глаголом: não me lembro.",
+  "id": "g074"
+ },
+ {
+  "kind": "word",
+  "text": "O meu marido ___ sempre das chaves em casa.",
+  "answer": [
+   "esquece-se"
+  ],
+  "ref": "esquecer-se de",
+  "clue_en": "to forget",
+  "clue_ru": "забывать",
+  "tr_en": "My husband always forgets his keys at home.",
+  "tr_ru": "Мой муж всегда забывает ключи дома.",
+  "explain_en": "Esquecer-se de is reflexive and takes de; affirmative clause, so the pronoun follows the verb: esquece-se.",
+  "explain_ru": "Esquecer-se de — возвратный, с предлогом de; в утвердительном предложении: esquece-se.",
+  "id": "g075"
+ },
+ {
+  "kind": "word",
+  "text": "A minha avó só ___ óculos para ler.",
+  "answer": [
+   "usa"
+  ],
+  "ref": "usar",
+  "clue_en": "to wear",
+  "clue_ru": "носить (одежду, очки)",
+  "tr_en": "My grandmother only wears glasses for reading.",
+  "tr_ru": "Моя бабушка носит очки только для чтения.",
+  "explain_en": "Wearing clothes or glasses is usar (also 'to use'); levar means 'to carry, take'.",
+  "explain_ru": "Носить одежду или очки — usar (а также «использовать»); levar — «нести, брать с собой».",
+  "id": "g076"
+ },
+ {
+  "kind": "word",
+  "text": "Todas as noites o avô ___ uma história aos netos.",
+  "answer": [
+   "conta"
+  ],
+  "ref": "contar",
+  "clue_en": "to tell (a story)",
+  "clue_ru": "рассказывать",
+  "tr_en": "Every night grandpa tells his grandchildren a story.",
+  "tr_ru": "Каждый вечер дедушка рассказывает внукам сказку.",
+  "explain_en": "Contar means both 'to count' and 'to tell (a story)'; dizer is used for short statements.",
+  "explain_ru": "Contar — и «считать», и «рассказывать»; dizer — «сказать» (коротко).",
+  "id": "g077"
+ },
+ {
+  "kind": "word",
+  "text": "Antes de sair, tens de ___ o teu quarto: está uma confusão!",
+  "answer": [
+   "arrumar"
+  ],
+  "ref": "arrumar",
+  "clue_en": "to tidy (up)",
+  "clue_ru": "убирать (наводить порядок)",
+  "tr_en": "Before you go out you have to tidy your room: it's a mess!",
+  "tr_ru": "Прежде чем уйти, ты должен убрать свою комнату: там бардак!",
+  "explain_en": "Putting things in order is arrumar; limpar is cleaning dirt.",
+  "explain_ru": "Наводить порядок — arrumar; limpar — «чистить, мыть» (убирать грязь).",
+  "id": "g078"
+ },
+ {
+  "kind": "word",
+  "text": "Não sei ___, por isso vou sempre de comboio ou de autocarro.",
+  "answer": [
+   "conduzir"
+  ],
+  "ref": "conduzir",
+  "clue_en": "to drive",
+  "clue_ru": "водить (машину)",
+  "tr_en": "I can't drive, so I always go by train or by bus.",
+  "tr_ru": "Я не умею водить, поэтому всегда езжу поездом или автобусом.",
+  "explain_en": "In Portugal 'to drive' is conduzir (Brazil: dirigir); saber + infinitive = can (skill).",
+  "explain_ru": "В Португалии «водить машину» — conduzir (в Бразилии: dirigir); saber + инфинитив = «уметь».",
+  "id": "g079"
+ },
+ {
+  "kind": "word",
+  "text": "Os meus ___ estão casados há trinta anos.",
+  "answer": [
+   "pais"
+  ],
+  "ref": "os pais",
+  "clue_en": "parents",
+  "clue_ru": "родители",
+  "tr_en": "My parents have been married for thirty years.",
+  "tr_ru": "Мои родители женаты тридцать лет.",
+  "explain_en": "Os pais = parents (mother and father). Beware: os parentes means 'relatives'.",
+  "explain_ru": "Os pais — «родители». Ложный друг: os parentes — «родственники», а не «родители».",
+  "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "section": "gostar-estar-a",
+  "text": "Os meus filhos não gostam nada ___ chuva.",
+  "answer": [
+   "da"
+  ],
+  "tr_en": "My children don't like rain at all.",
+  "tr_ru": "Мои дети совсем не любят дождь.",
+  "explain_en": "Gostar always takes de, which merges with the article: de + a chuva = da chuva.",
+  "explain_ru": "Gostar всегда требует de, который сливается с артиклем: de + a = da. В русском «любить» — без предлога.",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "section": "gostar-estar-a",
+  "text": "Neste momento o bebé está ___ dormir; fala baixinho.",
+  "answer": [
+   "a"
+  ],
+  "tr_en": "The baby is sleeping right now; speak quietly.",
+  "tr_ru": "Малыш сейчас спит; говори тихо.",
+  "explain_en": "European Portuguese expresses an action in progress with estar a + infinitive (Brazil: está dormindo).",
+  "explain_ru": "В Португалии длительное действие — estar a + инфинитив (в Бразилии: está dormindo). В русском это просто настоящее время.",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "section": "gostar-estar-a",
+  "text": "— O que é que estás ___ fazer aí na cozinha? — Um bolo de chocolate.",
+  "answer": [
+   "a"
+  ],
+  "tr_en": "— What are you doing there in the kitchen? — A chocolate cake.",
+  "tr_ru": "— Что ты там делаешь на кухне? — Шоколадный торт.",
+  "explain_en": "Estar a + infinitive = an action happening now (European Portuguese).",
+  "explain_ru": "Estar a + инфинитив — действие, происходящее сейчас (европейский португальский).",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "section": "gostar-estar-a",
+  "text": "Gosto muito ___ praias do Algarve, mas a água é fria.",
+  "answer": [
+   "das"
+  ],
+  "tr_en": "I really like the beaches of the Algarve, but the water is cold.",
+  "tr_ru": "Мне очень нравятся пляжи Алгарве, но вода холодная.",
+  "explain_en": "Gostar de + as praias = das praias: the preposition contracts with the plural article.",
+  "explain_ru": "Gostar de + as praias = das praias: предлог сливается с артиклем мн. ч.",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-plural-articles",
+  "text": "Ponho sempre um pouco de açúcar ___ leite.",
+  "answer": [
+   "no"
+  ],
+  "tr_en": "I always put a little sugar in the milk.",
+  "tr_ru": "Я всегда кладу немного сахара в молоко.",
+  "explain_en": "O leite is masculine (unlike Spanish la leche), so em + o = no.",
+  "explain_ru": "O leite — мужского рода (в отличие от испанского la leche и русского среднего рода «молоко»), поэтому em + o = no.",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-plural-articles",
+  "text": "Tenho uma pequena ferida ___ mão esquerda.",
+  "answer": [
+   "na"
+  ],
+  "tr_en": "I have a small wound on my left hand.",
+  "tr_ru": "У меня небольшая рана на левой руке.",
+  "explain_en": "A mão is feminine despite its -ão ending: em + a = na.",
+  "explain_ru": "A mão — женского рода, хотя оканчивается на -ão: em + a = na.",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-plural-articles",
+  "text": "Não consigo encontrar a vila de Óbidos ___ mapa.",
+  "answer": [
+   "no"
+  ],
+  "tr_en": "I can't find the town of Óbidos on the map.",
+  "tr_ru": "Я не могу найти городок Обидуш на карте.",
+  "explain_en": "O mapa is masculine although it ends in -a: em + o = no.",
+  "explain_ru": "O mapa — мужского рода, хотя оканчивается на -a (в отличие от русского «карта»): em + o = no.",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-plural-articles",
+  "text": "A minha avó tem dores fortes ___ costas.",
+  "answer": [
+   "nas"
+  ],
+  "tr_en": "My grandmother has a bad pain in her back.",
+  "tr_ru": "У моей бабушки сильно болит спина.",
+  "explain_en": "As costas (back) is always plural, so em + as = nas.",
+  "explain_ru": "As costas «спина» всегда во множественном числе, поэтому em + as = nas, хотя в русском «спина» — ед. ч.",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-plural-articles",
+  "text": "Os teus óculos estão em cima ___ sofá da sala.",
+  "answer": [
+   "do"
+  ],
+  "tr_en": "Your glasses are on the living-room sofa.",
+  "tr_ru": "Твои очки лежат на диване в гостиной.",
+  "explain_en": "O sofá is masculine: em cima de + o = em cima do.",
+  "explain_ru": "O sofá — мужского рода: em cima de + o = do.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositions-contractions",
+  "text": "O meu tio mora ___ Porto, não em Lisboa.",
+  "answer": [
+   "no"
+  ],
+  "tr_en": "My uncle lives in Porto, not in Lisbon.",
+  "tr_ru": "Мой дядя живёт в Порту, а не в Лиссабоне.",
+  "explain_en": "Porto is used with the article (o Porto), so em + o = no; Lisboa has no article (em Lisboa).",
+  "explain_ru": "Porto употребляется с артиклем (o Porto), поэтому em + o = no; Lisboa — без артикля (em Lisboa).",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositions-contractions",
+  "text": "Esta noite vamos ___ cinema ver um filme francês.",
+  "answer": [
+   "ao"
+  ],
+  "tr_en": "Tonight we're going to the cinema to see a French film.",
+  "tr_ru": "Сегодня вечером мы идём в кино смотреть французский фильм.",
+  "explain_en": "Ir a for a short visit: a + o = ao.",
+  "explain_ru": "Ir a — «сходить ненадолго»: a + o = ao. «Ir para» — уехать надолго.",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositions-contractions",
+  "text": "Este comboio passa ___ centro da cidade sem parar.",
+  "answer": [
+   "pelo"
+  ],
+  "tr_en": "This train passes through the city centre without stopping.",
+  "tr_ru": "Этот поезд проходит через центр города без остановок.",
+  "explain_en": "Movement through a place is por; por + o = pelo.",
+  "explain_ru": "Движение «через, по» — por; por + o = pelo.",
+  "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositions-contractions",
+  "text": "Telefono ___ minha mãe todos os domingos à noite.",
+  "answer": [
+   "à"
+  ],
+  "tr_en": "I phone my mother every Sunday evening.",
+  "tr_ru": "Я звоню маме каждое воскресенье вечером.",
+  "explain_en": "Telefonar a + a minha mãe = à minha mãe (the article is kept before possessives in Portugal).",
+  "explain_ru": "Telefonar a + a minha mãe = à minha mãe (в Португалии перед притяжательным артикль сохраняется). В русском «звонить кому» — дательный падеж.",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositions-contractions",
+  "text": "Amanhã chegamos ___ aeroporto às dez da manhã.",
+  "answer": [
+   "ao"
+  ],
+  "tr_en": "Tomorrow we arrive at the airport at ten in the morning.",
+  "tr_ru": "Завтра мы прилетаем в аэропорт в десять утра.",
+  "explain_en": "Chegar takes a (not em in standard European Portuguese): a + o aeroporto = ao.",
+  "explain_ru": "Chegar требует предлога a (а не em): a + o = ao. Русское «приехать в» — не em!",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "section": "ser-estar-haver",
+  "text": "A festa de anos da Rita ___ em casa dos avós.",
+  "answer": [
+   "é"
+  ],
+  "tr_en": "Rita's birthday party is at her grandparents' house.",
+  "tr_ru": "День рождения Риты будет у её бабушки с дедушкой.",
+  "explain_en": "The place where an event takes place is given with ser, not estar.",
+  "explain_ru": "Место проведения события выражается глаголом ser, а не estar (estar — местонахождение предметов и людей).",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "section": "ser-estar-haver",
+  "text": "A minha irmã ___ grávida do segundo filho.",
+  "answer": [
+   "está"
+  ],
+  "tr_en": "My sister is pregnant with her second child.",
+  "tr_ru": "Моя сестра беременна вторым ребёнком.",
+  "explain_en": "Pregnancy is a temporary state: estar grávida.",
+  "explain_ru": "Беременность — временное состояние: estar grávida.",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "section": "ser-estar-haver",
+  "text": "Na minha rua ___ uma farmácia e duas padarias.",
+  "answer": [
+   "há"
+  ],
+  "tr_en": "On my street there is a pharmacy and two bakeries.",
+  "tr_ru": "На моей улице есть аптека и две булочные.",
+  "explain_en": "'There is / there are' is the invariable há (from haver), singular even before plurals.",
+  "explain_ru": "«Есть, имеется» — неизменяемое há (от haver), даже перед множественным числом.",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "section": "ser-estar-haver",
+  "text": "Estudo português ___ cinco anos e ainda faço erros.",
+  "answer": [
+   "há"
+  ],
+  "tr_en": "I've been studying Portuguese for five years and I still make mistakes.",
+  "tr_ru": "Я изучаю португальский уже пять лет и всё ещё делаю ошибки.",
+  "explain_en": "Há + period = 'for/since' with a present-tense verb (an action still going on).",
+  "explain_ru": "Há + срок = «уже … (лет)» при глаголе в настоящем времени: действие продолжается, как в русском «изучаю уже пять лет».",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "section": "ser-estar-haver",
+  "text": "A sopa ___ fria; vou aquecê-la um pouco.",
+  "answer": [
+   "está"
+  ],
+  "tr_en": "The soup is cold; I'm going to heat it up a bit.",
+  "tr_ru": "Суп остыл; я его немного подогрею.",
+  "explain_en": "A changeable state of the soup → estar.",
+  "explain_ru": "Изменчивое состояние супа → estar (в русском здесь «остыл»).",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "section": "ser-estar-haver",
+  "text": "Os meus avós ___ de Braga, mas vivem no Algarve.",
+  "answer": [
+   "são"
+  ],
+  "tr_en": "My grandparents are from Braga, but they live in the Algarve.",
+  "tr_ru": "Мои бабушка и дедушка родом из Браги, но живут в Алгарве.",
+  "explain_en": "Origin is permanent: ser de; plural subject → são.",
+  "explain_ru": "Происхождение — постоянный признак: ser de; подлежащее во мн. ч. → são.",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "section": "ser-estar-haver",
+  "text": "Hoje o banco ___ fechado porque é feriado.",
+  "answer": [
+   "está"
+  ],
+  "tr_en": "Today the bank is closed because it's a public holiday.",
+  "tr_ru": "Сегодня банк закрыт, потому что праздник.",
+  "explain_en": "Being open or closed is a state: estar fechado.",
+  "explain_ru": "«Открыт/закрыт» — состояние: estar fechado.",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "— ___ é que vocês chegam? — Amanhã à noite.",
+  "answer": [
+   "Quando"
+  ],
+  "tr_en": "— When are you arriving? — Tomorrow evening.",
+  "tr_ru": "— Когда вы приезжаете? — Завтра вечером.",
+  "explain_en": "The answer gives a time, so the question word is quando; é que is the typical European Portuguese question frame.",
+  "explain_ru": "В ответе — время, значит вопрос quando; «é que» — типичная португальская вопросительная рамка.",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "— ___ custa este casaco? — Trinta e cinco euros.",
+  "answer": [
+   "Quanto"
+  ],
+  "tr_en": "— How much is this coat? — Thirty-five euros.",
+  "tr_ru": "— Сколько стоит это пальто? — Тридцать пять евро.",
+  "explain_en": "Asking about price: quanto custa…?",
+  "explain_ru": "Вопрос о цене: Quanto custa…? — «Сколько стоит…?»",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "— ___ é aquela senhora de chapéu? — É a minha avó.",
+  "answer": [
+   "Quem"
+  ],
+  "tr_en": "— Who is that lady in the hat? — She's my grandmother.",
+  "tr_ru": "— Кто та дама в шляпе? — Это моя бабушка.",
+  "explain_en": "Asking about a person: quem.",
+  "explain_ru": "Вопрос о человеке: quem «кто».",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "— ___ é que não vens à festa? — Estou doente.",
+  "answer": [
+   "Porque"
+  ],
+  "tr_en": "— Why aren't you coming to the party? — I'm ill.",
+  "tr_ru": "— Почему ты не придёшь на вечеринку? — Я болею.",
+  "explain_en": "In Portugal 'why' is written porque (in Brazil por que in questions).",
+  "explain_ru": "В Португалии «почему» пишется porque (в Бразилии в вопросе: por que).",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "Não bebo café ___ chá à noite; só água.",
+  "answer": [
+   "nem"
+  ],
+  "tr_en": "I don't drink coffee or tea in the evening; only water.",
+  "tr_ru": "Вечером я не пью ни кофе, ни чай — только воду.",
+  "explain_en": "After a negative, 'or' becomes nem (neither … nor).",
+  "explain_ru": "После отрицания «или» превращается в nem — как русское «ни … ни».",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "Toco à campainha, mas não está ___ em casa.",
+  "answer": [
+   "ninguém"
+  ],
+  "tr_en": "I ring the bell, but there's nobody at home.",
+  "tr_ru": "Я звоню в дверь, но дома никого нет.",
+  "explain_en": "Portuguese has double negation like Russian: não … ninguém.",
+  "explain_ru": "В португальском, как и в русском, двойное отрицание: não … ninguém — «никого нет».",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "section": "questions-negation",
+  "text": "Ele não come ___ ao pequeno-almoço, só bebe um café.",
+  "answer": [
+   "nada"
+  ],
+  "tr_en": "He doesn't eat anything for breakfast, he only has a coffee.",
+  "tr_ru": "Он ничего не ест на завтрак, только пьёт кофе.",
+  "explain_en": "Double negation: não … nada = nothing / not anything.",
+  "explain_ru": "Двойное отрицание: não … nada — «ничего не», как в русском.",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjectives-possessives",
+  "text": "___ minha mãe é professora de música numa escola do Porto.",
+  "answer": [
+   "A"
+  ],
+  "tr_en": "My mother is a music teacher at a school in Porto.",
+  "tr_ru": "Моя мама — учительница музыки в одной из школ Порту.",
+  "explain_en": "In European Portuguese possessives normally come with the definite article: a minha mãe (Brazil often drops it).",
+  "explain_ru": "В Португалии перед притяжательным местоимением обычно стоит артикль: a minha mãe (в Бразилии его часто опускают).",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjectives-possessives",
+  "text": "O Paulo e a Inês vão vender a casa ___ porque é demasiado grande.",
+  "answer": [
+   "deles"
+  ],
+  "tr_en": "Paulo and Inês are going to sell their house because it's too big.",
+  "tr_ru": "Паулу и Инеш собираются продать свой дом, потому что он слишком большой.",
+  "explain_en": "For 'their' after the noun Portuguese uses de + eles = deles, which shows the owners clearly.",
+  "explain_ru": "«Их» после существительного — deles (de + eles), это однозначно указывает на владельцев. Русское «свой» здесь не переводится как seu.",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "section": "adjectives-possessives",
+  "text": "A Sofia não encontra o telemóvel ___ em lado nenhum.",
+  "answer": [
+   "dela"
+  ],
+  "tr_en": "Sofia can't find her mobile phone anywhere.",
+  "tr_ru": "София нигде не может найти свой телефон.",
+  "explain_en": "Her = dela (de + ela), placed after the noun; it agrees with the owner, not the object.",
+  "explain_ru": "«Её» — dela (de + ela) после существительного; согласуется с владельцем (ela), а не с предметом.",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "section": "numbers-time-dates-future",
+  "text": "Despacha-te! O filme começa ___ nove e meia.",
+  "answer": [
+   "às"
+  ],
+  "tr_en": "Hurry up! The film starts at half past nine.",
+  "tr_ru": "Поторопись! Фильм начинается в половине десятого.",
+  "explain_en": "Clock times take a + as (horas): às nove e meia.",
+  "explain_ru": "Время по часам: a + as (horas) = às. Обратите внимание: «девять с половиной», а не «половина десятого».",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "section": "numbers-time-dates-future",
+  "text": "— Que horas tens? — ___ três e um quarto.",
+  "answer": [
+   "São"
+  ],
+  "tr_en": "— What time do you have? — It's a quarter past three.",
+  "tr_ru": "— Сколько у тебя времени? — Четверть четвёртого.",
+  "explain_en": "With hours from two upwards the verb is plural: são três (horas).",
+  "explain_ru": "Начиная с двух часов глагол во мн. ч.: são três (horas).",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "section": "numbers-time-dates-future",
+  "text": "— Já está na hora de almoço? — Sim, ___ uma e meia.",
+  "answer": [
+   "É"
+  ],
+  "tr_en": "— Is it lunchtime already? — Yes, it's half past one.",
+  "tr_ru": "— Уже время обеда? — Да, половина второго.",
+  "explain_en": "With uma (one o'clock) the verb stays singular: é uma (hora).",
+  "explain_ru": "С uma (час) глагол остаётся в ед. ч.: é uma e meia.",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "section": "numbers-time-dates-future",
+  "text": "Amanhã de manhã eu ___ jogar ténis com o Pedro; queres vir?",
+  "answer": [
+   "vou"
+  ],
+  "tr_en": "Tomorrow morning I'm going to play tennis with Pedro; do you want to come?",
+  "tr_ru": "Завтра утром я буду играть в теннис с Педру; хочешь со мной?",
+  "explain_en": "The near future is ir + infinitive: eu vou jogar.",
+  "explain_ru": "Ближайшее будущее — ir + инфинитив: eu vou jogar («я буду играть»).",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "section": "numbers-time-dates-future",
+  "text": "No próximo verão nós ___ viajar pelo Brasil durante um mês.",
+  "answer": [
+   "vamos"
+  ],
+  "tr_en": "Next summer we're going to travel around Brazil for a month.",
+  "tr_ru": "Следующим летом мы будем месяц путешествовать по Бразилии.",
+  "explain_en": "Ir + infinitive for the future; nós → vamos.",
+  "explain_ru": "Будущее: ir + инфинитив; nós → vamos.",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "section": "irregular-verbs-present",
+  "text": "Hoje eu ___ de ir ao banco antes das três.",
+  "answer": [
+   "tenho"
+  ],
+  "tr_en": "Today I have to go to the bank before three.",
+  "tr_ru": "Сегодня мне нужно сходить в банк до трёх.",
+  "explain_en": "Obligation is ter de + infinitive; ter is irregular: eu tenho.",
+  "explain_ru": "Долженствование — ter de + инфинитив (русское «мне нужно»); eu tenho.",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-regular-address",
+  "text": "Olá! Eu sou a Marta. E tu, como ___ chamas?",
+  "answer": [
+   "te"
+  ],
+  "tr_en": "Hi! I'm Marta. And you, what's your name?",
+  "tr_ru": "Привет! Я Марта. А тебя как зовут?",
+  "explain_en": "Chamar-se is reflexive; with tu the pronoun is te, placed before the verb in questions with como.",
+  "explain_ru": "Chamar-se — возвратный; с tu местоимение te, в вопросе с como оно стоит перед глаголом. Буквально «как ты себя называешь?».",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "section": "present-regular-address",
+  "text": "Desculpe, a senhora ___ falar mais devagar, por favor?",
+  "answer": [
+   "pode"
+  ],
+  "tr_en": "Excuse me, could you speak more slowly, please?",
+  "tr_ru": "Извините, вы не могли бы говорить помедленнее?",
+  "explain_en": "Polite address with a senhora uses the 3rd person singular: pode.",
+  "explain_ru": "Вежливое обращение a senhora требует 3-го лица ед. ч.: pode — в отличие от русского «вы можете» во мн. ч.",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "section": "nouns-gender-plural-articles",
+  "text": "Para chegar ao castelo, atravessamos o rio ___ ponte velha.",
+  "answer": [
+   "pela"
+  ],
+  "tr_en": "To get to the castle we cross the river by the old bridge.",
+  "tr_ru": "Чтобы добраться до замка, мы переходим реку по старому мосту.",
+  "explain_en": "A ponte is feminine (unlike Spanish el puente): por + a = pela.",
+  "explain_ru": "A ponte — женского рода (в отличие от русского «мост» и испанского el puente): por + a = pela.",
+  "id": "g120"
+ }
+]
