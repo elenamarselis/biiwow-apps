@@ -1121,5 +1121,525 @@
   "explain_en": "Abiurare is transitive (abiurare qualcosa), whereas Russian needs a preposition (to renounce from something).",
   "explain_ru": "Abiurare — переходный глагол (abiurare qualcosa), тогда как по-русски «отречься от чего-то».",
   "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "section": "literary-tenses",
+  "text": "Come l'___ vista entrare nel salone, il conte si alzò in piedi.",
+  "answer": [
+   "ebbe"
+  ],
+  "tr_en": "As soon as he had seen her enter the drawing room, the count stood up.",
+  "tr_ru": "Едва увидев, как она вошла в гостиную, граф поднялся.",
+  "explain_en": "Trapassato remoto (ebbe + participle) after 'come' (= as soon as) with a passato remoto main clause.",
+  "explain_ru": "Trapassato remoto (ebbe + причастие) после «come» («как только») при главном в passato remoto.",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "section": "literary-tenses",
+  "text": "Allorché ___ giunti in cima al colle, scorgemmo finalmente il mare.",
+  "answer": [
+   "fummo"
+  ],
+  "tr_en": "When we had reached the top of the hill, we finally caught sight of the sea.",
+  "tr_ru": "Когда мы добрались до вершины холма, мы наконец увидели море.",
+  "explain_en": "Trapassato remoto with essere, 1st person plural (cf. 'scorgemmo'): fummo giunti.",
+  "explain_ru": "Trapassato remoto с essere, 1 л. мн. ч. (ср. «scorgemmo»): fummo giunti.",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "section": "literary-tenses",
+  "text": "Appena se ne ___ andato il medico, la febbre risalì.",
+  "answer": [
+   "fu"
+  ],
+  "tr_en": "No sooner had the doctor left than the fever rose again.",
+  "tr_ru": "Едва врач ушёл, температура снова поднялась.",
+  "explain_en": "Trapassato remoto of andarsene: se ne fu andato (essere).",
+  "explain_ru": "Trapassato remoto от andarsene: se ne fu andato (с essere).",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "section": "literary-tenses",
+  "text": "Quand'ebbero cenato, i viandanti ___ misero a giocare a carte accanto al fuoco.",
+  "answer": [
+   "si"
+  ],
+  "tr_en": "When they had had supper, the travellers began playing cards by the fire.",
+  "tr_ru": "Поужинав, путники уселись играть в карты у огня.",
+  "explain_en": "Mettersi a + infinitive in the passato remoto: si misero a giocare.",
+  "explain_ru": "Mettersi a + инфинитив в passato remoto: si misero a giocare («принялись играть»).",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "section": "congiuntivo-fixed-formulas",
+  "text": "Sia ___ sia, la decisione ormai è presa e non si torna indietro.",
+  "answer": [
+   "come"
+  ],
+  "tr_en": "Be that as it may, the decision has been made and there's no going back.",
+  "tr_ru": "Как бы то ни было, решение принято, и пути назад нет.",
+  "explain_en": "Fixed concessive formula 'sia come sia' (be that as it may).",
+  "explain_ru": "Устойчивая уступительная формула «sia come sia» — «как бы то ни было».",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "section": "congiuntivo-fixed-formulas",
+  "text": "Costi quel ___ costi, arriveremo in vetta prima del tramonto.",
+  "answer": [
+   "che"
+  ],
+  "tr_en": "Whatever it takes, we'll reach the summit before sunset.",
+  "tr_ru": "Чего бы это ни стоило, мы доберёмся до вершины до заката.",
+  "explain_en": "Fixed formula 'costi quel che costi' (at all costs), with the congiuntivo of costare.",
+  "explain_ru": "Формула «costi quel che costi» — «чего бы это ни стоило», с congiuntivo от costare.",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "section": "congiuntivo-fixed-formulas",
+  "text": "Venga ___ vuole: la porta di casa nostra è sempre aperta.",
+  "answer": [
+   "chi"
+  ],
+  "tr_en": "Let whoever wants to come: the door of our house is always open.",
+  "tr_ru": "Пусть приходит кто хочет: двери нашего дома всегда открыты.",
+  "explain_en": "Formula 'venga chi vuole' (congiuntivo + relative chi = whoever).",
+  "explain_ru": "Формула «venga chi vuole» — congiuntivo + относительное chi («кто угодно»).",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "section": "congiuntivo-fixed-formulas",
+  "text": "Piaccia ___ non piaccia, la legge è questa e va rispettata.",
+  "answer": [
+   "o"
+  ],
+  "tr_en": "Like it or not, this is the law and it must be respected.",
+  "tr_ru": "Нравится или нет, закон таков, и его надо соблюдать.",
+  "explain_en": "Fixed alternative formula 'piaccia o non piaccia' with the congiuntivo.",
+  "explain_ru": "Формула «piaccia o non piaccia» с congiuntivo — «нравится или нет».",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "section": "modality-evidentiality",
+  "text": "Stando ___ voci di corridoio, il direttore sarebbe in procinto di lasciare l'azienda.",
+  "answer": [
+   "alle"
+  ],
+  "tr_en": "According to rumours in the corridors, the director is about to leave the company.",
+  "tr_ru": "Если верить слухам в коридорах, директор вот-вот покинет компанию.",
+  "explain_en": "Stare a + source = 'according to'; a + le voci → alle; the conditional marks hearsay.",
+  "explain_ru": "Stando a + источник — «если верить»; a + le → alle; кондиционал показывает, что информация с чужих слов.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "section": "modality-evidentiality",
+  "text": "Pare ___ il ministro abbia già firmato il decreto, ma manca la conferma ufficiale.",
+  "answer": [
+   "che"
+  ],
+  "tr_en": "It seems the minister has already signed the decree, but official confirmation is lacking.",
+  "tr_ru": "Похоже, министр уже подписал декрет, но официального подтверждения нет.",
+  "explain_en": "Pare che + congiuntivo expresses indirect evidence.",
+  "explain_ru": "Pare che + congiuntivo — косвенное свидетельство («похоже, что»).",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "section": "modality-evidentiality",
+  "text": "A detta ___ testimoni, l'auto viaggiava a una velocità folle.",
+  "answer": [
+   "dei"
+  ],
+  "tr_en": "According to witnesses, the car was travelling at insane speed.",
+  "tr_ru": "По словам свидетелей, машина ехала с бешеной скоростью.",
+  "explain_en": "Evidential 'a detta di' (according to) + article: dei testimoni.",
+  "explain_ru": "Оборот «a detta di» («по словам») + артикль: dei testimoni.",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "section": "modality-evidentiality",
+  "text": "Sono già le nove: il treno dovrebbe ___ partito da un pezzo.",
+  "answer": [
+   "essere"
+  ],
+  "tr_en": "It's already nine: the train ought to have left a while ago.",
+  "tr_ru": "Уже девять: поезд, по идее, давно ушёл.",
+  "explain_en": "Epistemic dovrebbe + past infinitive; partire takes essere: dovrebbe essere partito.",
+  "explain_ru": "Эпистемическое dovrebbe + инфинитив прошедшего; partire с essere: dovrebbe essere partito.",
+  "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "section": "complex-sentences-correlatives",
+  "text": "È molto più furbo di quanto tu ___ creda.",
+  "answer": [
+   "non"
+  ],
+  "tr_en": "He's much craftier than you think.",
+  "tr_ru": "Он гораздо хитрее, чем ты думаешь.",
+  "explain_en": "In comparative clauses with di quanto + congiuntivo, Italian often adds an expletive non with no negative meaning.",
+  "explain_ru": "В сравнительных придаточных с di quanto + congiuntivo часто ставится «плеонастическое» non без отрицательного смысла.",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "section": "complex-sentences-correlatives",
+  "text": "Quanto più ti allenerai, ___ più facilmente vincerai la gara.",
+  "answer": [
+   "tanto"
+  ],
+  "tr_en": "The more you train, the more easily you'll win the race.",
+  "tr_ru": "Чем больше ты будешь тренироваться, тем легче выиграешь гонку.",
+  "explain_en": "Correlative 'quanto più... tanto più' = the more... the more.",
+  "explain_ru": "Парная конструкция «quanto più... tanto più» — «чем больше..., тем...».",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "section": "complex-sentences-correlatives",
+  "text": "Il nuovo allenatore non è così bravo ___ dicono i giornali.",
+  "answer": [
+   "come"
+  ],
+  "tr_en": "The new coach isn't as good as the papers say.",
+  "tr_ru": "Новый тренер не так хорош, как пишут газеты.",
+  "explain_en": "Comparison of equality: così... come (tanto... quanto).",
+  "explain_ru": "Сравнение равенства: così... come (tanto... quanto) — «так..., как».",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "section": "complex-sentences-correlatives",
+  "text": "Era così esausto ___ si addormentò sul divano con le scarpe ai piedi.",
+  "answer": [
+   "che"
+  ],
+  "tr_en": "He was so exhausted that he fell asleep on the sofa with his shoes on.",
+  "tr_ru": "Он так вымотался, что заснул на диване прямо в ботинках.",
+  "explain_en": "Consecutive clause: così + adjective + che.",
+  "explain_ru": "Придаточное следствия: così + прилагательное + che («так..., что»).",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronominal-syntax",
+  "text": "Non ___ la prendere, stavo solo scherzando!",
+  "answer": [
+   "te"
+  ],
+  "tr_en": "Don't take it badly, I was only joking!",
+  "tr_ru": "Не обижайся, я просто шутил!",
+  "explain_en": "Negative imperative of prendersela: non te la prendere (ti becomes te before la).",
+  "explain_ru": "Отрицательное повелительное от prendersela: non te la prendere (ti → te перед la).",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronominal-syntax",
+  "text": "Me ___ sono accorto troppo tardi che il portafoglio non c'era più.",
+  "answer": [
+   "ne"
+  ],
+  "tr_en": "I realised too late that my wallet was gone.",
+  "tr_ru": "Я слишком поздно заметил, что бумажника больше нет.",
+  "explain_en": "Accorgersene: mi + ne → me ne, with ne anticipating the che-clause.",
+  "explain_ru": "Accorgersene: mi + ne → me ne; ne предвосхищает придаточное с che.",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronominal-syntax",
+  "text": "Del trasferimento a Milano? ___ ho parlato ieri, ma lui non mi ha ancora risposto.",
+  "answer": [
+   "Gliene"
+  ],
+  "tr_en": "About the move to Milan? I talked to him about it yesterday, but he still hasn't answered me.",
+  "tr_ru": "О переезде в Милан? Я говорил ему об этом вчера, но он мне ещё не ответил.",
+  "explain_en": "Gli (to him) + ne (about it) merge into one word: gliene.",
+  "explain_ru": "Gli («ему») + ne («об этом») сливаются в одно слово: gliene.",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "section": "pronominal-syntax",
+  "text": "La torta della nonna? ___ la siamo mangiata tutta in dieci minuti.",
+  "answer": [
+   "Ce"
+  ],
+  "tr_en": "Grandma's cake? We polished off the whole thing in ten minutes.",
+  "tr_ru": "Бабушкин пирог? Мы умяли его целиком за десять минут.",
+  "explain_en": "Aspectual reflexive mangiarsi with noi: ci + la → ce la siamo mangiata.",
+  "explain_ru": "Аспектуальное mangiarsi с noi: ci + la → ce la siamo mangiata.",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-formation",
+  "text": "Il libro mi è piaciuto così tanto che l'ho ___letto tre volte in un mese.",
+  "answer": [
+   "ri"
+  ],
+  "tr_en": "I liked the book so much that I reread it three times in a month.",
+  "tr_ru": "Книга мне так понравилась, что я перечитал её три раза за месяц.",
+  "explain_en": "The prefix ri- expresses repetition: rileggere = to read again.",
+  "explain_ru": "Приставка ri- выражает повтор: rileggere — «перечитать» (ср. русское пере-).",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-formation",
+  "text": "Quel cassiere si è rivelato ___onesto: ha rubato per anni dalla cassa.",
+  "answer": [
+   "dis"
+  ],
+  "tr_en": "That cashier turned out to be dishonest: he stole from the till for years.",
+  "tr_ru": "Тот кассир оказался нечестным: он годами воровал из кассы.",
+  "explain_en": "Onesto is negated with dis- (disonesto), not in-.",
+  "explain_ru": "Onesto отрицается приставкой dis- (disonesto), а не in-; ср. русское «не-».",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-formation",
+  "text": "Questo vino ha un sapore strano: si sarà ___acidito per il caldo.",
+  "answer": [
+   "in"
+  ],
+  "tr_en": "This wine tastes odd: it must have gone sour because of the heat.",
+  "tr_ru": "У этого вина странный вкус: наверное, оно скисло от жары.",
+  "explain_en": "Parasynthetic verb in- + acido + -ire = inacidire (to turn sour).",
+  "explain_ru": "Парасинтетический глагол: in- + acido + -ire = inacidire («скисать»); ср. русское с-кис-ать.",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "section": "word-formation",
+  "text": "Dopo tre estati al sole, le tende del salotto si sono tutte ___colorite.",
+  "answer": [
+   "s"
+  ],
+  "tr_en": "After three summers in the sun, the living-room curtains have all faded.",
+  "tr_ru": "За три лета на солнце шторы в гостиной совсем выцвели.",
+  "explain_en": "The privative prefix s- reverses the base: colorire → scolorire (to fade).",
+  "explain_ru": "Приставка s- с отрицательным значением: colorire → scolorire («выцветать»).",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "section": "orthography-punctuation",
+  "text": "Mi versi un ___ d'acqua, per favore? Ho la gola secca.",
+  "answer": [
+   "po'"
+  ],
+  "tr_en": "Could you pour me a little water, please? My throat is dry.",
+  "tr_ru": "Нальёшь мне немного воды, пожалуйста? У меня пересохло в горле.",
+  "explain_en": "Po' is a truncation of poco and takes an apostrophe, never an accent (*pò).",
+  "explain_ru": "Po' — усечённое poco, пишется с апострофом, а не с ударением (*pò).",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "section": "orthography-punctuation",
+  "text": "___ è il motivo per cui hai rinunciato alla borsa di studio?",
+  "answer": [
+   "Qual"
+  ],
+  "tr_en": "What is the reason you gave up the scholarship?",
+  "tr_ru": "Какова причина, по которой ты отказался от стипендии?",
+  "explain_en": "Qual è is a truncation, not an elision, so it has no apostrophe (*qual'è).",
+  "explain_ru": "Qual è — усечение, а не элизия, поэтому без апострофа (*qual'è — ошибка).",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "section": "orthography-punctuation",
+  "text": "Io ___ Elena siamo arrivati insieme alla stazione.",
+  "answer": [
+   "ed"
+  ],
+  "tr_en": "Elena and I arrived at the station together.",
+  "tr_ru": "Мы с Еленой вместе приехали на вокзал.",
+  "explain_en": "Euphonic d: e becomes ed before a word beginning with e.",
+  "explain_ru": "Эвфоническое d: союз e превращается в ed перед словом на e.",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "section": "orthography-punctuation",
+  "text": "I ragazzi sono partiti, ma Anna ___ rimasta a casa con la nonna.",
+  "answer": [
+   "è"
+  ],
+  "tr_en": "The boys have left, but Anna stayed at home with her grandmother.",
+  "tr_ru": "Ребята уехали, а Анна осталась дома с бабушкой.",
+  "explain_en": "The verb è needs a grave accent to distinguish it from the conjunction e.",
+  "explain_ru": "Глагол è пишется с ударением, чтобы отличить его от союза e.",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositional-regime",
+  "text": "Il problema del progetto consiste ___ una cronica mancanza di fondi.",
+  "answer": [
+   "in"
+  ],
+  "tr_en": "The project's problem consists in a chronic lack of funds.",
+  "tr_ru": "Проблема проекта заключается в хронической нехватке средств.",
+  "explain_en": "Consistere in = to consist in / of.",
+  "explain_ru": "Consistere in — «заключаться в, состоять в».",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositional-regime",
+  "text": "Bada ___ fatti tuoi e lascia stare la mia vita privata!",
+  "answer": [
+   "ai"
+  ],
+  "tr_en": "Mind your own business and leave my private life alone!",
+  "tr_ru": "Занимайся своими делами и оставь мою личную жизнь в покое!",
+  "explain_en": "Badare a + article: badare ai fatti propri = to mind one's own business.",
+  "explain_ru": "Badare a + артикль: «badare ai fatti propri» — «не лезть в чужие дела».",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "section": "discourse-pragmatics",
+  "text": "Scusi, ___ saprebbe dire dov'è la fermata del tram?",
+  "answer": [
+   "mi"
+  ],
+  "tr_en": "Excuse me, could you tell me where the tram stop is?",
+  "tr_ru": "Простите, не подскажете, где трамвайная остановка?",
+  "explain_en": "Polite mitigation with the conditional: mi saprebbe dire (could you tell me).",
+  "explain_ru": "Вежливое смягчение кондиционалом: mi saprebbe dire — «не подскажете ли мне».",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "section": "discourse-pragmatics",
+  "text": "Bravo, ___ fatto! Adesso per colpa tua abbiamo perso il treno.",
+  "answer": [
+   "ben"
+  ],
+  "tr_en": "Well done, great job! Now thanks to you we've missed the train.",
+  "tr_ru": "Молодец, отлично сработал! Теперь из-за тебя мы опоздали на поезд.",
+  "explain_en": "Ironic praise: 'bravo, ben fatto' said to mean the opposite.",
+  "explain_ru": "Ироничная похвала: «bravo, ben fatto» в значении противоположного; ср. русское «молодец, ничего не скажешь».",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "section": "discourse-pragmatics",
+  "text": "Il nuovo vicino è, come ___, un tipo un po' particolare.",
+  "answer": [
+   "dire"
+  ],
+  "tr_en": "The new neighbour is, how shall I put it, a bit of an odd type.",
+  "tr_ru": "Новый сосед, как бы это сказать, немного своеобразный.",
+  "explain_en": "Hedging marker 'come dire' softens a delicate judgement.",
+  "explain_ru": "Маркер смягчения «come dire» — «как бы это сказать».",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "section": "discourse-pragmatics",
+  "text": "Signora, ___ posso offrire qualcosa da bere mentre aspetta?",
+  "answer": [
+   "Le"
+  ],
+  "tr_en": "Madam, may I offer you something to drink while you wait?",
+  "tr_ru": "Синьора, могу я предложить вам что-нибудь выпить, пока вы ждёте?",
+  "explain_en": "Formal address uses Lei; the indirect object is Le (to you), often capitalised.",
+  "explain_ru": "Вежливое обращение на Lei; косвенное дополнение — Le («вам»), часто с заглавной буквы.",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "section": "variation-advanced-errors",
+  "text": "Ho incontrato Laura in centro e ___ ho detto tutta la verità.",
+  "answer": [
+   "le"
+  ],
+  "tr_en": "I met Laura in town and told her the whole truth.",
+  "tr_ru": "Я встретил Лауру в центре и сказал ей всю правду.",
+  "explain_en": "Standard Italian uses le for 'to her'; using gli for a woman is a colloquial error.",
+  "explain_ru": "В норме «ей» — le; употребление gli по отношению к женщине — разговорная ошибка.",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "section": "variation-advanced-errors",
+  "text": "Se ___ più tempo libero, verrei volentieri in montagna con voi.",
+  "answer": [
+   "avessi"
+  ],
+  "tr_en": "If I had more free time, I'd gladly come to the mountains with you.",
+  "tr_ru": "Если бы у меня было больше свободного времени, я бы с удовольствием поехал с вами в горы.",
+  "explain_en": "Se + congiuntivo imperfetto; the regional 'se avrei' is a typical error.",
+  "explain_ru": "Se + congiuntivo imperfetto; региональное «se avrei» — типичная ошибка.",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "section": "variation-advanced-errors",
+  "text": "Ai ragazzi ___ ho già spiegato tutto ieri pomeriggio.",
+  "answer": [
+   "gli"
+  ],
+  "tr_en": "I already explained everything to the boys yesterday afternoon.",
+  "tr_ru": "Ребятам я всё объяснил ещё вчера днём.",
+  "explain_en": "Gli is accepted in standard Italian for 'to them' (instead of the formal loro after the verb).",
+  "explain_ru": "Gli в значении «им» принято в современной норме (вместо книжного loro после глагола).",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositional-regime",
+  "text": "Se partiremo o no non dipende ___ me, ma dal meteo.",
+  "answer": [
+   "da"
+  ],
+  "tr_en": "Whether we leave or not doesn't depend on me, but on the weather.",
+  "tr_ru": "Уедем мы или нет, зависит не от меня, а от погоды.",
+  "explain_en": "Dipendere da (cf. 'dal meteo'); unlike English 'depend on', Italian uses da.",
+  "explain_ru": "Dipendere da (ср. «dal meteo»); русское «зависеть от».",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "section": "prepositional-regime",
+  "text": "Ha rinunciato ___ sua parte di eredità a favore del fratello minore.",
+  "answer": [
+   "alla"
+  ],
+  "tr_en": "He gave up his share of the inheritance in favour of his younger brother.",
+  "tr_ru": "Он отказался от своей доли наследства в пользу младшего брата.",
+  "explain_en": "Rinunciare a + article (alla sua parte); English says 'give up' with a direct object.",
+  "explain_ru": "Rinunciare a + артикль (alla sua parte); в русском «отказаться от».",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "section": "variation-advanced-errors",
+  "text": "Stamattina ___ andato al mare con gli amici e adesso ho una fame da lupi.",
+  "answer": [
+   "sono"
+  ],
+  "tr_en": "This morning I went to the seaside with friends and now I'm starving.",
+  "tr_ru": "Сегодня утром я ездил с друзьями на море, и теперь я голоден как волк.",
+  "explain_en": "An action today, connected to the present, takes the passato prossimo in standard Italian (not the southern 'andai').",
+  "explain_ru": "Действие сегодня, связанное с настоящим, — passato prossimo по норме (не южное «andai»).",
+  "id": "g120"
  }
 ]
