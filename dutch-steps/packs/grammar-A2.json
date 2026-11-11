@@ -16,15 +16,18 @@
      "examples": [
       {
        "en": "Ik heb gisteren gewerkt.",
-       "ru": "Я вчера работал."
+       "ru": "Я вчера работал.",
+       "tr_en": "I worked yesterday."
       },
       {
        "en": "Wij hebben de hele avond gepraat.",
-       "ru": "Мы весь вечер разговаривали."
+       "ru": "Мы весь вечер разговаривали.",
+       "tr_en": "We talked all evening."
       },
       {
        "en": "Zij is vorig jaar verhuisd.",
-       "ru": "Она переехала в прошлом году."
+       "ru": "Она переехала в прошлом году.",
+       "tr_en": "She moved last year."
       }
      ]
     },
@@ -36,15 +39,18 @@
      "examples": [
       {
        "en": "Ik heb het eten gemaakt.",
-       "ru": "Я приготовил еду."
+       "ru": "Я приготовил еду.",
+       "tr_en": "I've made the food."
       },
       {
        "en": "Wij hebben in Leiden gewoond.",
-       "ru": "Мы жили в Лейдене."
+       "ru": "Мы жили в Лейдене.",
+       "tr_en": "We lived in Leiden."
       },
       {
        "en": "Heb je dat gehoord?",
-       "ru": "Ты это слышал?"
+       "ru": "Ты это слышал?",
+       "tr_en": "Did you hear that?"
       }
      ]
     },
@@ -56,15 +62,18 @@
      "examples": [
       {
        "en": "Ik heb vandaag gefietst.",
-       "ru": "Я сегодня катался на велосипеде."
+       "ru": "Я сегодня катался на велосипеде.",
+       "tr_en": "I went cycling today."
       },
       {
        "en": "Hij heeft zijn moeder gebeld.",
-       "ru": "Он позвонил маме."
+       "ru": "Он позвонил маме.",
+       "tr_en": "He called his mother."
       },
       {
        "en": "Wij hebben veel gereisd.",
-       "ru": "Мы много путешествовали."
+       "ru": "Мы много путешествовали.",
+       "tr_en": "We've travelled a lot."
       }
      ]
     },
@@ -76,15 +85,18 @@
      "examples": [
       {
        "en": "We hebben lang gewacht.",
-       "ru": "Мы долго ждали."
+       "ru": "Мы долго ждали.",
+       "tr_en": "We waited a long time."
       },
       {
        "en": "Het vliegtuig is geland.",
-       "ru": "Самолёт приземлился."
+       "ru": "Самолёт приземлился.",
+       "tr_en": "The plane has landed."
       },
       {
        "en": "Hij heeft niet geantwoord.",
-       "ru": "Он не ответил."
+       "ru": "Он не ответил.",
+       "tr_en": "He didn't answer."
       }
      ]
     },
@@ -96,15 +108,18 @@
      "examples": [
       {
        "en": "Ik heb de rekening betaald.",
-       "ru": "Я оплатил счёт."
+       "ru": "Я оплатил счёт.",
+       "tr_en": "I've paid the bill."
       },
       {
        "en": "Wat is er gebeurd?",
-       "ru": "Что случилось?"
+       "ru": "Что случилось?",
+       "tr_en": "What happened?"
       },
       {
        "en": "Heb je je kamer opgeruimd?",
-       "ru": "Ты убрал свою комнату?"
+       "ru": "Ты убрал свою комнату?",
+       "tr_en": "Have you tidied your room?"
       }
      ]
     },
@@ -116,11 +131,13 @@
      "examples": [
       {
        "en": "Ik heb pasta gekookt.",
-       "ru": "Я сварил пасту."
+       "ru": "Я сварил пасту.",
+       "tr_en": "I cooked pasta."
       },
       {
        "en": "Jullie hebben goed gedanst.",
-       "ru": "Вы хорошо танцевали."
+       "ru": "Вы хорошо танцевали.",
+       "tr_en": "You danced well."
       }
      ]
     },
@@ -132,15 +149,18 @@
      "examples": [
       {
        "en": "Mijn ouders zijn in 1990 getrouwd.",
-       "ru": "Мои родители поженились в 1990 году."
+       "ru": "Мои родители поженились в 1990 году.",
+       "tr_en": "My parents got married in 1990."
       },
       {
        "en": "Ik heb een uur gefietst.",
-       "ru": "Я час катался на велосипеде."
+       "ru": "Я час катался на велосипеде.",
+       "tr_en": "I cycled for an hour."
       },
       {
        "en": "Ik ben naar mijn werk gefietst.",
-       "ru": "Я приехал на работу на велосипеде."
+       "ru": "Я приехал на работу на велосипеде.",
+       "tr_en": "I cycled to work."
       }
      ]
     },
@@ -152,15 +172,18 @@
      "examples": [
       {
        "en": "Gisteren heb ik mijn moeder gebeld.",
-       "ru": "Вчера я позвонил маме."
+       "ru": "Вчера я позвонил маме.",
+       "tr_en": "Yesterday I called my mother."
       },
       {
        "en": "Heb je al betaald?",
-       "ru": "Ты уже заплатил?"
+       "ru": "Ты уже заплатил?",
+       "tr_en": "Have you paid yet?"
       },
       {
        "en": "Ik heb het nog niet gemaakt.",
-       "ru": "Я это ещё не сделал."
+       "ru": "Я это ещё не сделал.",
+       "tr_en": "I haven't done it yet."
       }
      ]
     }
@@ -394,7 +417,8 @@
       "gisteren"
      ],
      "answer": "Ik heb gisteren gewerkt.",
-     "ru": "Я вчера работал."
+     "ru": "Я вчера работал.",
+     "tr_en": "I worked yesterday."
     },
     {
      "id": "e20",
@@ -406,7 +430,8 @@
       "Anna"
      ],
      "answer": "Heb je Anna gebeld?",
-     "ru": "Ты позвонил Анне?"
+     "ru": "Ты позвонил Анне?",
+     "tr_en": "Did you call Anna?"
     },
     {
      "id": "e21",
@@ -419,7 +444,8 @@
       "naar"
      ],
      "answer": "Wij zijn naar Amsterdam verhuisd.",
-     "ru": "Мы переехали в Амстердам."
+     "ru": "Мы переехали в Амстердам.",
+     "tr_en": "We've moved to Amsterdam."
     },
     {
      "id": "e22",
@@ -433,7 +459,8 @@
       "jaar"
      ],
      "answer": "Vorig jaar heb ik Spaans gestudeerd.",
-     "ru": "В прошлом году я изучал испанский."
+     "ru": "В прошлом году я изучал испанский.",
+     "tr_en": "Last year I studied Spanish."
     },
     {
      "id": "e23",
@@ -550,15 +577,18 @@
      "examples": [
       {
        "en": "Ik heb al gegeten.",
-       "ru": "Я уже поел."
+       "ru": "Я уже поел.",
+       "tr_en": "I've already eaten."
       },
       {
        "en": "Heb je dat boek gelezen?",
-       "ru": "Ты прочитал эту книгу?"
+       "ru": "Ты прочитал эту книгу?",
+       "tr_en": "Have you read that book?"
       },
       {
        "en": "Ik heb slecht geslapen.",
-       "ru": "Я плохо спал."
+       "ru": "Я плохо спал.",
+       "tr_en": "I slept badly."
       }
      ]
     },
@@ -570,15 +600,18 @@
      "examples": [
       {
        "en": "Ze heeft een brief geschreven.",
-       "ru": "Она написала письмо."
+       "ru": "Она написала письмо.",
+       "tr_en": "She wrote a letter."
       },
       {
        "en": "We hebben tv gekeken.",
-       "ru": "Мы смотрели телевизор."
+       "ru": "Мы смотрели телевизор.",
+       "tr_en": "We watched TV."
       },
       {
        "en": "Ik heb een cadeau gekregen.",
-       "ru": "Я получил подарок."
+       "ru": "Я получил подарок.",
+       "tr_en": "I got a present."
       }
      ]
     },
@@ -590,15 +623,18 @@
      "examples": [
       {
        "en": "Wij hebben wijn gedronken.",
-       "ru": "Мы пили вино."
+       "ru": "Мы пили вино.",
+       "tr_en": "We drank wine."
       },
       {
        "en": "Ik heb mijn sleutels gevonden.",
-       "ru": "Я нашёл свои ключи."
+       "ru": "Я нашёл свои ключи.",
+       "tr_en": "I've found my keys."
       },
       {
        "en": "Hij heeft de deur gesloten.",
-       "ru": "Он закрыл дверь."
+       "ru": "Он закрыл дверь.",
+       "tr_en": "He closed the door."
       }
      ]
     },
@@ -610,15 +646,18 @@
      "examples": [
       {
        "en": "Ik ben nooit in Brugge geweest.",
-       "ru": "Я никогда не был в Брюгге."
+       "ru": "Я никогда не был в Брюгге.",
+       "tr_en": "I've never been to Bruges."
       },
       {
        "en": "Wat heb je gedaan?",
-       "ru": "Что ты сделал?"
+       "ru": "Что ты сделал?",
+       "tr_en": "What did you do?"
       },
       {
        "en": "Ik heb brood gekocht.",
-       "ru": "Я купил хлеб."
+       "ru": "Я купил хлеб.",
+       "tr_en": "I bought bread."
       }
      ]
     },
@@ -630,15 +669,18 @@
      "examples": [
       {
        "en": "Oma heeft een taart gebakken.",
-       "ru": "Бабушка испекла торт."
+       "ru": "Бабушка испекла торт.",
+       "tr_en": "Grandma baked a cake."
       },
       {
        "en": "Wat heb je gezegd?",
-       "ru": "Что ты сказал?"
+       "ru": "Что ты сказал?",
+       "tr_en": "What did you say?"
       },
       {
        "en": "Hij heeft me iets gevraagd.",
-       "ru": "Он меня кое о чём спросил."
+       "ru": "Он меня кое о чём спросил.",
+       "tr_en": "He asked me something."
       }
      ]
     },
@@ -650,15 +692,18 @@
      "examples": [
       {
        "en": "Hij is ziek geworden.",
-       "ru": "Он заболел."
+       "ru": "Он заболел.",
+       "tr_en": "He has fallen ill."
       },
       {
        "en": "Ik ben thuis gebleven.",
-       "ru": "Я остался дома."
+       "ru": "Я остался дома.",
+       "tr_en": "I stayed at home."
       },
       {
        "en": "De les is om negen uur begonnen.",
-       "ru": "Урок начался в девять часов."
+       "ru": "Урок начался в девять часов.",
+       "tr_en": "The lesson started at nine o'clock."
       }
      ]
     },
@@ -670,15 +715,18 @@
      "examples": [
       {
        "en": "Wij hebben in de zee gezwommen.",
-       "ru": "Мы плавали в море."
+       "ru": "Мы плавали в море.",
+       "tr_en": "We swam in the sea."
       },
       {
        "en": "Ik ben naar huis gelopen.",
-       "ru": "Я дошёл до дома пешком."
+       "ru": "Я дошёл до дома пешком.",
+       "tr_en": "I walked home."
       },
       {
        "en": "Ze zijn naar Spanje gevlogen.",
-       "ru": "Они улетели в Испанию."
+       "ru": "Они улетели в Испанию.",
+       "tr_en": "They flew to Spain."
       }
      ]
     },
@@ -690,15 +738,18 @@
      "examples": [
       {
        "en": "Ik heb het niet begrepen.",
-       "ru": "Я этого не понял."
+       "ru": "Я этого не понял.",
+       "tr_en": "I didn't understand it."
       },
       {
        "en": "Ik ben om zeven uur opgestaan.",
-       "ru": "Я встал в семь часов."
+       "ru": "Я встал в семь часов.",
+       "tr_en": "I got up at seven o'clock."
       },
       {
        "en": "Heb je een paraplu meegenomen?",
-       "ru": "Ты взял с собой зонтик?"
+       "ru": "Ты взял с собой зонтик?",
+       "tr_en": "Did you bring an umbrella?"
       }
      ]
     }
@@ -932,7 +983,8 @@
       "een"
      ],
      "answer": "Ik heb een boek gelezen.",
-     "ru": "Я прочитал книгу."
+     "ru": "Я прочитал книгу.",
+     "tr_en": "I've read a book."
     },
     {
      "id": "e20",
@@ -944,7 +996,8 @@
       "gebleven."
      ],
      "answer": "Hij is thuis gebleven.",
-     "ru": "Он остался дома."
+     "ru": "Он остался дома.",
+     "tr_en": "He stayed at home."
     },
     {
      "id": "e21",
@@ -956,7 +1009,8 @@
       "heb"
      ],
      "answer": "Wat heb je gezegd?",
-     "ru": "Что ты сказал?"
+     "ru": "Что ты сказал?",
+     "tr_en": "What did you say?"
     },
     {
      "id": "e22",
@@ -971,7 +1025,8 @@
       "naar"
      ],
      "answer": "Gisteren zijn we naar de bioscoop gegaan.",
-     "ru": "Вчера мы ходили в кино."
+     "ru": "Вчера мы ходили в кино.",
+     "tr_en": "Yesterday we went to the cinema."
     },
     {
      "id": "e23",
@@ -1088,15 +1143,18 @@
      "examples": [
       {
        "en": "Ik werkte in een winkel.",
-       "ru": "Я работал в магазине."
+       "ru": "Я работал в магазине.",
+       "tr_en": "I worked in a shop."
       },
       {
        "en": "Wij woonden in Den Haag.",
-       "ru": "Мы жили в Гааге."
+       "ru": "Мы жили в Гааге.",
+       "tr_en": "We lived in The Hague."
       },
       {
        "en": "Hij fietste elke dag naar school.",
-       "ru": "Он каждый день ездил в школу на велосипеде."
+       "ru": "Он каждый день ездил в школу на велосипеде.",
+       "tr_en": "He cycled to school every day."
       }
      ]
     },
@@ -1108,11 +1166,13 @@
      "examples": [
       {
        "en": "Jij werkte toen in Gent.",
-       "ru": "Ты тогда работал в Генте."
+       "ru": "Ты тогда работал в Генте.",
+       "tr_en": "You were working in Ghent at the time."
       },
       {
        "en": "Zij werkte, maar haar broers werkten niet.",
-       "ru": "Она работала, а её братья — нет."
+       "ru": "Она работала, а её братья — нет.",
+       "tr_en": "She worked, but her brothers didn't."
       }
      ]
     },
@@ -1124,15 +1184,18 @@
      "examples": [
       {
        "en": "Ze praatten de hele avond.",
-       "ru": "Они проговорили весь вечер."
+       "ru": "Они проговорили весь вечер.",
+       "tr_en": "They talked all evening."
       },
       {
        "en": "Mijn opa leefde in een klein dorp.",
-       "ru": "Мой дедушка жил в маленькой деревне."
+       "ru": "Мой дедушка жил в маленькой деревне.",
+       "tr_en": "My grandpa lived in a small village."
       },
       {
        "en": "Hij antwoordde niet.",
-       "ru": "Он не ответил."
+       "ru": "Он не ответил.",
+       "tr_en": "He didn't answer."
       }
      ]
     },
@@ -1144,15 +1207,18 @@
      "examples": [
       {
        "en": "Ik liep naar het station.",
-       "ru": "Я шёл к вокзалу."
+       "ru": "Я шёл к вокзалу.",
+       "tr_en": "I walked to the station."
       },
       {
        "en": "Wij lazen veel boeken.",
-       "ru": "Мы читали много книг."
+       "ru": "Мы читали много книг.",
+       "tr_en": "We read a lot of books."
       },
       {
        "en": "Ze kwam te laat.",
-       "ru": "Она пришла слишком поздно."
+       "ru": "Она пришла слишком поздно.",
+       "tr_en": "She came too late."
       }
      ]
     },
@@ -1164,15 +1230,18 @@
      "examples": [
       {
        "en": "Ik was gisteren ziek.",
-       "ru": "Вчера я был болен."
+       "ru": "Вчера я был болен.",
+       "tr_en": "I was ill yesterday."
       },
       {
        "en": "We hadden geen tijd.",
-       "ru": "У нас не было времени."
+       "ru": "У нас не было времени.",
+       "tr_en": "We had no time."
       },
       {
        "en": "Ik kon niet komen.",
-       "ru": "Я не смог прийти."
+       "ru": "Я не смог прийти.",
+       "tr_en": "I couldn't come."
       }
      ]
     },
@@ -1184,15 +1253,18 @@
      "examples": [
       {
        "en": "Vroeger rookte mijn vader veel.",
-       "ru": "Раньше мой отец много курил."
+       "ru": "Раньше мой отец много курил.",
+       "tr_en": "My father used to smoke a lot."
       },
       {
        "en": "Toen ik klein was, woonde ik in Kiev.",
-       "ru": "Когда я был маленьким, я жил в Киеве."
+       "ru": "Когда я был маленьким, я жил в Киеве.",
+       "tr_en": "When I was little, I lived in Kyiv."
       },
       {
        "en": "Het regende en het was koud.",
-       "ru": "Шёл дождь, и было холодно."
+       "ru": "Шёл дождь, и было холодно.",
+       "tr_en": "It was raining and it was cold."
       }
      ]
     },
@@ -1204,15 +1276,18 @@
      "examples": [
       {
        "en": "Ik ben naar Parijs geweest. Het was prachtig.",
-       "ru": "Я съездил в Париж. Было чудесно."
+       "ru": "Я съездил в Париж. Было чудесно.",
+       "tr_en": "I've been to Paris. It was wonderful."
       },
       {
        "en": "Ik kon niet komen, ik moest werken.",
-       "ru": "Я не мог прийти, мне надо было работать."
+       "ru": "Я не мог прийти, мне надо было работать.",
+       "tr_en": "I couldn't come, I had to work."
       },
       {
        "en": "Heb je de film gezien? – Ja, hij was goed.",
-       "ru": "Ты видел фильм? – Да, он был хороший."
+       "ru": "Ты видел фильм? – Да, он был хороший.",
+       "tr_en": "Have you seen the film? – Yes, it was good."
       }
      ]
     }
@@ -1448,7 +1523,8 @@
       "gisteren"
      ],
      "answer": "Ik was gisteren moe.",
-     "ru": "Вчера я был уставшим."
+     "ru": "Вчера я был уставшим.",
+     "tr_en": "I was tired yesterday."
     },
     {
      "id": "e20",
@@ -1464,7 +1540,8 @@
       "in"
      ],
      "answer": "Toen ik klein was, woonde ik in Kiev.",
-     "ru": "Когда я был маленьким, я жил в Киеве."
+     "ru": "Когда я был маленьким, я жил в Киеве.",
+     "tr_en": "When I was little, I lived in Kyiv."
     },
     {
      "id": "e21",
@@ -1477,7 +1554,8 @@
       "de"
      ],
      "answer": "Het regende de hele dag.",
-     "ru": "Весь день шёл дождь."
+     "ru": "Весь день шёл дождь.",
+     "tr_en": "It rained all day."
     },
     {
      "id": "e22",
@@ -1490,7 +1568,8 @@
       "veel."
      ],
      "answer": "Vroeger rookte mijn vader veel.",
-     "ru": "Раньше мой отец много курил."
+     "ru": "Раньше мой отец много курил.",
+     "tr_en": "My father used to smoke a lot."
     },
     {
      "id": "e23",
@@ -1611,11 +1690,13 @@
      "examples": [
       {
        "en": "een grote tafel – een groot huis",
-       "ru": "большой стол – большой дом"
+       "ru": "большой стол – большой дом",
+       "tr_en": "a big table – a big house"
       },
       {
        "en": "het grote huis – de grote huizen",
-       "ru": "этот большой дом – эти большие дома"
+       "ru": "этот большой дом – эти большие дома",
+       "tr_en": "the big house – the big houses"
       }
      ]
     },
@@ -1627,15 +1708,18 @@
      "examples": [
       {
        "en": "Mijn oude huis stond in Zwolle.",
-       "ru": "Мой старый дом стоял в Зволле."
+       "ru": "Мой старый дом стоял в Зволле.",
+       "tr_en": "My old house was in Zwolle."
       },
       {
        "en": "Dit kleine dorp is heel mooi.",
-       "ru": "Эта маленькая деревня очень красивая."
+       "ru": "Эта маленькая деревня очень красивая.",
+       "tr_en": "This small village is very beautiful."
       },
       {
        "en": "Ons nieuwe appartement heeft een balkon.",
-       "ru": "В нашей новой квартире есть балкон."
+       "ru": "В нашей новой квартире есть балкон.",
+       "tr_en": "Our new apartment has a balcony."
       }
      ]
     },
@@ -1647,15 +1731,18 @@
      "examples": [
       {
        "en": "Elk klein kind krijgt een ijsje.",
-       "ru": "Каждый маленький ребёнок получает мороженое."
+       "ru": "Каждый маленький ребёнок получает мороженое.",
+       "tr_en": "Every small child gets an ice cream."
       },
       {
        "en": "Wat een mooi weer! Zo'n mooi weer hebben we zelden.",
-       "ru": "Какая хорошая погода! Такая хорошая погода у нас редко бывает."
+       "ru": "Какая хорошая погода! Такая хорошая погода у нас редко бывает.",
+       "tr_en": "What lovely weather! We rarely have such lovely weather."
       },
       {
        "en": "We hebben geen vers brood meer.",
-       "ru": "У нас больше нет свежего хлеба."
+       "ru": "У нас больше нет свежего хлеба.",
+       "tr_en": "We're out of fresh bread."
       }
      ]
     },
@@ -1667,15 +1754,18 @@
      "examples": [
       {
        "en": "Ik drink graag koud water.",
-       "ru": "Я люблю пить холодную воду."
+       "ru": "Я люблю пить холодную воду.",
+       "tr_en": "I like drinking cold water."
       },
       {
        "en": "Wil je warme melk?",
-       "ru": "Хочешь тёплого молока?"
+       "ru": "Хочешь тёплого молока?",
+       "tr_en": "Would you like some warm milk?"
       },
       {
        "en": "Ik heb nieuwe schoenen nodig.",
-       "ru": "Мне нужны новые туфли."
+       "ru": "Мне нужны новые туфли.",
+       "tr_en": "I need new shoes."
       }
      ]
     },
@@ -1687,15 +1777,18 @@
      "examples": [
       {
        "en": "We hebben een houten tafel gekocht.",
-       "ru": "Мы купили деревянный стол."
+       "ru": "Мы купили деревянный стол.",
+       "tr_en": "We've bought a wooden table."
       },
       {
        "en": "Ze draagt een gouden ring.",
-       "ru": "Она носит золотое кольцо."
+       "ru": "Она носит золотое кольцо.",
+       "tr_en": "She wears a gold ring."
       },
       {
        "en": "De gestolen fiets is terug.",
-       "ru": "Украденный велосипед нашёлся."
+       "ru": "Украденный велосипед нашёлся.",
+       "tr_en": "The stolen bike is back."
       }
      ]
     },
@@ -1707,11 +1800,13 @@
      "examples": [
       {
        "en": "Welke jas neem je? – De zwarte.",
-       "ru": "Какую куртку ты берёшь? – Чёрную."
+       "ru": "Какую куртку ты берёшь? – Чёрную.",
+       "tr_en": "Which coat are you taking? – The black one."
       },
       {
        "en": "Wil je een groot of een klein biertje?",
-       "ru": "Тебе большое или маленькое пиво?"
+       "ru": "Тебе большое или маленькое пиво?",
+       "tr_en": "Would you like a large or a small beer?"
       }
      ]
     },
@@ -1723,15 +1818,18 @@
      "examples": [
       {
        "en": "Ik heb iets lekkers voor je.",
-       "ru": "У меня для тебя есть кое-что вкусное."
+       "ru": "У меня для тебя есть кое-что вкусное.",
+       "tr_en": "I have something tasty for you."
       },
       {
        "en": "Er is niets bijzonders gebeurd.",
-       "ru": "Ничего особенного не случилось."
+       "ru": "Ничего особенного не случилось.",
+       "tr_en": "Nothing special happened."
       },
       {
        "en": "Weet je iets nieuws?",
-       "ru": "Знаешь что-нибудь новое?"
+       "ru": "Знаешь что-нибудь новое?",
+       "tr_en": "Do you know anything new?"
       }
      ]
     },
@@ -1743,15 +1841,18 @@
      "examples": [
       {
        "en": "Het kind heeft vieze handen.",
-       "ru": "У ребёнка грязные руки."
+       "ru": "У ребёнка грязные руки.",
+       "tr_en": "The child has dirty hands."
       },
       {
        "en": "Ze is een boze buurvrouw.",
-       "ru": "Она злая соседка."
+       "ru": "Она злая соседка.",
+       "tr_en": "She's an angry neighbour."
       },
       {
        "en": "Hij zingt heel mooi.",
-       "ru": "Он поёт очень красиво."
+       "ru": "Он поёт очень красиво.",
+       "tr_en": "He sings very beautifully."
       }
      ]
     }
@@ -1985,7 +2086,8 @@
       "huis."
      ],
      "answer": "Zij heeft een mooi huis.",
-     "ru": "У неё красивый дом."
+     "ru": "У неё красивый дом.",
+     "tr_en": "She has a beautiful house."
     },
     {
      "id": "e20",
@@ -1998,7 +2100,8 @@
       "is"
      ],
      "answer": "Mijn oude fiets is kapot.",
-     "ru": "Мой старый велосипед сломан."
+     "ru": "Мой старый велосипед сломан.",
+     "tr_en": "My old bike is broken."
     },
     {
      "id": "e21",
@@ -2011,7 +2114,8 @@
       "warms"
      ],
      "answer": "Wil je iets warms drinken?",
-     "ru": "Хочешь выпить чего-нибудь горячего?"
+     "ru": "Хочешь выпить чего-нибудь горячего?",
+     "tr_en": "Would you like something warm to drink?"
     },
     {
      "id": "e22",
@@ -2024,7 +2128,8 @@
       "appartement."
      ],
      "answer": "We zoeken een nieuw appartement.",
-     "ru": "Мы ищем новую квартиру."
+     "ru": "Мы ищем новую квартиру.",
+     "tr_en": "We're looking for a new apartment."
     },
     {
      "id": "e23",
@@ -2145,15 +2250,18 @@
      "examples": [
       {
        "en": "Mijn kamer is kleiner.",
-       "ru": "Моя комната меньше."
+       "ru": "Моя комната меньше.",
+       "tr_en": "My room is smaller."
       },
       {
        "en": "Dit boek is interessanter.",
-       "ru": "Эта книга интереснее."
+       "ru": "Эта книга интереснее.",
+       "tr_en": "This book is more interesting."
       },
       {
        "en": "Het is vandaag warmer.",
-       "ru": "Сегодня теплее."
+       "ru": "Сегодня теплее.",
+       "tr_en": "It's warmer today."
       }
      ]
     },
@@ -2165,11 +2273,13 @@
      "examples": [
       {
        "en": "Deze jas is duurder.",
-       "ru": "Эта куртка дороже."
+       "ru": "Эта куртка дороже.",
+       "tr_en": "This coat is more expensive."
       },
       {
        "en": "Hij woont verder weg.",
-       "ru": "Он живёт дальше."
+       "ru": "Он живёт дальше.",
+       "tr_en": "He lives further away."
       }
      ]
     },
@@ -2181,15 +2291,18 @@
      "examples": [
       {
        "en": "Anna is ouder dan Piet.",
-       "ru": "Анна старше Пита."
+       "ru": "Анна старше Пита.",
+       "tr_en": "Anna is older than Piet."
       },
       {
        "en": "Ik ben even groot als mijn broer.",
-       "ru": "Я такого же роста, как мой брат."
+       "ru": "Я такого же роста, как мой брат.",
+       "tr_en": "I'm as tall as my brother."
       },
       {
        "en": "Het is niet zo koud als gisteren.",
-       "ru": "Не так холодно, как вчера."
+       "ru": "Не так холодно, как вчера.",
+       "tr_en": "It's not as cold as yesterday."
       }
      ]
     },
@@ -2201,15 +2314,18 @@
      "examples": [
       {
        "en": "We zoeken een groter huis.",
-       "ru": "Мы ищем дом побольше."
+       "ru": "Мы ищем дом побольше.",
+       "tr_en": "We're looking for a bigger house."
       },
       {
        "en": "Ik wil een snellere computer.",
-       "ru": "Я хочу компьютер побыстрее."
+       "ru": "Я хочу компьютер побыстрее.",
+       "tr_en": "I want a faster computer."
       },
       {
        "en": "Heb je een beter idee?",
-       "ru": "У тебя есть идея получше?"
+       "ru": "У тебя есть идея получше?",
+       "tr_en": "Do you have a better idea?"
       }
      ]
     },
@@ -2221,15 +2337,18 @@
      "examples": [
       {
        "en": "Amsterdam is de grootste stad van Nederland.",
-       "ru": "Амстердам — самый большой город Нидерландов."
+       "ru": "Амстердам — самый большой город Нидерландов.",
+       "tr_en": "Amsterdam is the biggest city in the Netherlands."
       },
       {
        "en": "Welke jas is het goedkoopst?",
-       "ru": "Какая куртка самая дешёвая?"
+       "ru": "Какая куртка самая дешёвая?",
+       "tr_en": "Which coat is the cheapest?"
       },
       {
        "en": "Dit is het duurste restaurant van de stad.",
-       "ru": "Это самый дорогой ресторан в городе."
+       "ru": "Это самый дорогой ресторан в городе.",
+       "tr_en": "This is the most expensive restaurant in town."
       }
      ]
     },
@@ -2241,15 +2360,18 @@
      "examples": [
       {
        "en": "Zij spreekt beter Nederlands dan ik.",
-       "ru": "Она говорит по-нидерландски лучше, чем я."
+       "ru": "Она говорит по-нидерландски лучше, чем я.",
+       "tr_en": "She speaks Dutch better than I do."
       },
       {
        "en": "Ik drink liever thee dan koffie.",
-       "ru": "Я больше люблю чай, чем кофе."
+       "ru": "Я больше люблю чай, чем кофе.",
+       "tr_en": "I prefer tea to coffee."
       },
       {
        "en": "Wie heeft de meeste punten?",
-       "ru": "У кого больше всего очков?"
+       "ru": "У кого больше всего очков?",
+       "tr_en": "Who has the most points?"
       }
      ]
     },
@@ -2261,11 +2383,13 @@
      "examples": [
       {
        "en": "Dit zijn de meest gebruikte woorden.",
-       "ru": "Это самые употребительные слова."
+       "ru": "Это самые употребительные слова.",
+       "tr_en": "These are the most frequently used words."
       },
       {
        "en": "Hij is het meest geïnteresseerd in sport.",
-       "ru": "Больше всего он интересуется спортом."
+       "ru": "Больше всего он интересуется спортом.",
+       "tr_en": "He is most interested in sport."
       }
      ]
     },
@@ -2277,15 +2401,18 @@
      "examples": [
       {
        "en": "Het wordt steeds kouder.",
-       "ru": "Становится всё холоднее."
+       "ru": "Становится всё холоднее.",
+       "tr_en": "It's getting colder and colder."
       },
       {
        "en": "Hoe meer je oefent, hoe beter je spreekt.",
-       "ru": "Чем больше ты занимаешься, тем лучше говоришь."
+       "ru": "Чем больше ты занимаешься, тем лучше говоришь.",
+       "tr_en": "The more you practise, the better you speak."
       },
       {
        "en": "Hoe eerder, hoe beter.",
-       "ru": "Чем раньше, тем лучше."
+       "ru": "Чем раньше, тем лучше.",
+       "tr_en": "The sooner, the better."
       }
      ]
     }
@@ -2520,7 +2647,8 @@
       "ouder"
      ],
      "answer": "Peter is ouder dan Anna.",
-     "ru": "Петер старше Анны."
+     "ru": "Петер старше Анны.",
+     "tr_en": "Peter is older than Anna."
     },
     {
      "id": "e20",
@@ -2533,7 +2661,8 @@
       "restaurant."
      ],
      "answer": "Dit is het beste restaurant.",
-     "ru": "Это лучший ресторан."
+     "ru": "Это лучший ресторан.",
+     "tr_en": "This is the best restaurant."
     },
     {
      "id": "e21",
@@ -2548,7 +2677,8 @@
       "broer."
      ],
      "answer": "Ik ben even groot als mijn broer.",
-     "ru": "Я такого же роста, как мой брат."
+     "ru": "Я такого же роста, как мой брат.",
+     "tr_en": "I'm as tall as my brother."
     },
     {
      "id": "e22",
@@ -2560,7 +2690,8 @@
       "eerder,"
      ],
      "answer": "Hoe eerder, hoe beter.",
-     "ru": "Чем раньше, тем лучше."
+     "ru": "Чем раньше, тем лучше.",
+     "tr_en": "The sooner, the better."
     },
     {
      "id": "e23",
@@ -2677,15 +2808,18 @@
      "examples": [
       {
        "en": "Hij ziet mij.",
-       "ru": "Он видит меня."
+       "ru": "Он видит меня.",
+       "tr_en": "He sees me."
       },
       {
        "en": "Hij geeft mij een boek.",
-       "ru": "Он даёт мне книгу."
+       "ru": "Он даёт мне книгу.",
+       "tr_en": "He gives me a book."
       },
       {
        "en": "Ik bel hem morgen.",
-       "ru": "Я позвоню ему завтра."
+       "ru": "Я позвоню ему завтра.",
+       "tr_en": "I'll call him tomorrow."
       }
      ]
     },
@@ -2697,15 +2831,18 @@
      "examples": [
       {
        "en": "Ze kent mij, niet jou.",
-       "ru": "Она знает меня, а не тебя."
+       "ru": "Она знает меня, а не тебя.",
+       "tr_en": "She knows me, not you."
       },
       {
        "en": "Kom je met me mee?",
-       "ru": "Пойдёшь со мной?"
+       "ru": "Пойдёшь со мной?",
+       "tr_en": "Are you coming with me?"
       },
       {
        "en": "Dit cadeau is voor jou.",
-       "ru": "Этот подарок для тебя."
+       "ru": "Этот подарок для тебя.",
+       "tr_en": "This present is for you."
       }
      ]
     },
@@ -2717,15 +2854,18 @@
      "examples": [
       {
        "en": "Ik heb hen gisteren gezien.",
-       "ru": "Я видел их вчера."
+       "ru": "Я видел их вчера.",
+       "tr_en": "I saw them yesterday."
       },
       {
        "en": "We hebben hun een kaart gestuurd.",
-       "ru": "Мы отправили им открытку."
+       "ru": "Мы отправили им открытку.",
+       "tr_en": "We sent them a card."
       },
       {
        "en": "Ik bel ze vanavond.",
-       "ru": "Я позвоню им вечером."
+       "ru": "Я позвоню им вечером.",
+       "tr_en": "I'll call them tonight."
       }
      ]
     },
@@ -2737,15 +2877,18 @@
      "examples": [
       {
        "en": "De sleutel? Ik heb hem niet.",
-       "ru": "Ключ? У меня его нет."
+       "ru": "Ключ? У меня его нет.",
+       "tr_en": "The key? I don't have it."
       },
       {
        "en": "Het boek? Ik heb het al gelezen.",
-       "ru": "Книга? Я её уже прочитал."
+       "ru": "Книга? Я её уже прочитал.",
+       "tr_en": "The book? I've already read it."
       },
       {
        "en": "De schoenen? Ik heb ze gisteren gekocht.",
-       "ru": "Туфли? Я купил их вчера."
+       "ru": "Туфли? Я купил их вчера.",
+       "tr_en": "The shoes? I bought them yesterday."
       }
      ]
     },
@@ -2757,15 +2900,18 @@
      "examples": [
       {
        "en": "Morgen zie ik hem.",
-       "ru": "Завтра я его увижу."
+       "ru": "Завтра я его увижу.",
+       "tr_en": "Tomorrow I'll see him."
       },
       {
        "en": "Ik ken haar niet.",
-       "ru": "Я её не знаю."
+       "ru": "Я её не знаю.",
+       "tr_en": "I don't know her."
       },
       {
        "en": "Ik geef hem het boek.",
-       "ru": "Я даю ему книгу."
+       "ru": "Я даю ему книгу.",
+       "tr_en": "I give him the book."
       }
      ]
     },
@@ -2777,15 +2923,18 @@
      "examples": [
       {
        "en": "Ik was me elke ochtend.",
-       "ru": "Я умываюсь каждое утро."
+       "ru": "Я умываюсь каждое утро.",
+       "tr_en": "I wash every morning."
       },
       {
        "en": "Wij vervelen ons.",
-       "ru": "Нам скучно."
+       "ru": "Нам скучно.",
+       "tr_en": "We're bored."
       },
       {
        "en": "Hij scheert zich niet.",
-       "ru": "Он не бреется."
+       "ru": "Он не бреется.",
+       "tr_en": "He doesn't shave."
       }
      ]
     },
@@ -2797,15 +2946,18 @@
      "examples": [
       {
        "en": "Ik herinner me die dag nog goed.",
-       "ru": "Я до сих пор хорошо помню тот день."
+       "ru": "Я до сих пор хорошо помню тот день.",
+       "tr_en": "I still remember that day well."
       },
       {
        "en": "De film begint om acht uur.",
-       "ru": "Фильм начинается в восемь."
+       "ru": "Фильм начинается в восемь.",
+       "tr_en": "The film starts at eight o'clock."
       },
       {
        "en": "Sorry, ik heb me vergist.",
-       "ru": "Извините, я ошибся."
+       "ru": "Извините, я ошибся.",
+       "tr_en": "Sorry, I was mistaken."
       }
      ]
     },
@@ -2817,15 +2969,18 @@
      "examples": [
       {
        "en": "Voel je je goed?",
-       "ru": "Ты хорошо себя чувствуешь?"
+       "ru": "Ты хорошо себя чувствуешь?",
+       "tr_en": "Do you feel well?"
       },
       {
        "en": "Ik heb me verslapen.",
-       "ru": "Я проспал."
+       "ru": "Я проспал.",
+       "tr_en": "I overslept."
       },
       {
        "en": "De kinderen kleden zich aan.",
-       "ru": "Дети одеваются."
+       "ru": "Дети одеваются.",
+       "tr_en": "The children are getting dressed."
       }
      ]
     }
@@ -3064,7 +3219,8 @@
       "hem"
      ],
      "answer": "Ik zie hem morgen.",
-     "ru": "Я увижу его завтра."
+     "ru": "Я увижу его завтра.",
+     "tr_en": "I'll see him tomorrow."
     },
     {
      "id": "e20",
@@ -3076,7 +3232,8 @@
       "je"
      ],
      "answer": "Voel je je goed?",
-     "ru": "Ты хорошо себя чувствуешь?"
+     "ru": "Ты хорошо себя чувствуешь?",
+     "tr_en": "Do you feel well?"
     },
     {
      "id": "e21",
@@ -3088,7 +3245,8 @@
       "haar"
      ],
      "answer": "Ik ken haar niet.",
-     "ru": "Я её не знаю."
+     "ru": "Я её не знаю.",
+     "tr_en": "I don't know her."
     },
     {
      "id": "e22",
@@ -3100,7 +3258,8 @@
       "vergist."
      ],
      "answer": "Ik heb me vergist.",
-     "ru": "Я ошибся."
+     "ru": "Я ошибся.",
+     "tr_en": "I was mistaken."
     },
     {
      "id": "e23",
@@ -3221,15 +3380,18 @@
      "examples": [
       {
        "en": "Ik blijf thuis, omdat ik ziek ben.",
-       "ru": "Я остаюсь дома, потому что я болен."
+       "ru": "Я остаюсь дома, потому что я болен.",
+       "tr_en": "I'm staying at home because I'm ill."
       },
       {
        "en": "Hij zegt dat hij geen tijd heeft.",
-       "ru": "Он говорит, что у него нет времени."
+       "ru": "Он говорит, что у него нет времени.",
+       "tr_en": "He says he doesn't have time."
       },
       {
        "en": "Ik weet dat je moe bent.",
-       "ru": "Я знаю, что ты устал."
+       "ru": "Я знаю, что ты устал.",
+       "tr_en": "I know you're tired."
       }
      ]
     },
@@ -3241,15 +3403,18 @@
      "examples": [
       {
        "en": "Ik kom niet, omdat ik morgen moet werken.",
-       "ru": "Я не приду, потому что завтра мне надо работать."
+       "ru": "Я не приду, потому что завтра мне надо работать.",
+       "tr_en": "I'm not coming because I have to work tomorrow."
       },
       {
        "en": "Ze zegt dat ze het al gezien heeft.",
-       "ru": "Она говорит, что уже это видела."
+       "ru": "Она говорит, что уже это видела.",
+       "tr_en": "She says she has already seen it."
       },
       {
        "en": "Ik hoop dat je me morgen opbelt.",
-       "ru": "Надеюсь, что ты позвонишь мне завтра."
+       "ru": "Надеюсь, что ты позвонишь мне завтра.",
+       "tr_en": "I hope you'll call me tomorrow."
       }
      ]
     },
@@ -3261,15 +3426,18 @@
      "examples": [
       {
        "en": "Als het regent, blijf ik thuis.",
-       "ru": "Если идёт дождь, я остаюсь дома."
+       "ru": "Если идёт дождь, я остаюсь дома.",
+       "tr_en": "If it rains, I'll stay at home."
       },
       {
        "en": "Omdat ik ziek ben, kom ik niet.",
-       "ru": "Так как я болен, я не приду."
+       "ru": "Так как я болен, я не приду.",
+       "tr_en": "Because I'm ill, I'm not coming."
       },
       {
        "en": "Toen we in Gent waren, regende het.",
-       "ru": "Когда мы были в Генте, шёл дождь."
+       "ru": "Когда мы были в Генте, шёл дождь.",
+       "tr_en": "When we were in Ghent, it rained."
       }
      ]
     },
@@ -3281,11 +3449,13 @@
      "examples": [
       {
        "en": "Ik denk dat hij gelijk heeft.",
-       "ru": "Я думаю, что он прав."
+       "ru": "Я думаю, что он прав.",
+       "tr_en": "I think he's right."
       },
       {
        "en": "Ik hoop dat het morgen mooi weer is.",
-       "ru": "Надеюсь, что завтра будет хорошая погода."
+       "ru": "Надеюсь, что завтра будет хорошая погода.",
+       "tr_en": "I hope the weather will be nice tomorrow."
       }
      ]
     },
@@ -3297,15 +3467,18 @@
      "examples": [
       {
        "en": "Ik weet niet of hij komt.",
-       "ru": "Я не знаю, придёт ли он."
+       "ru": "Я не знаю, придёт ли он.",
+       "tr_en": "I don't know if he's coming."
       },
       {
        "en": "Weet jij of de winkel open is?",
-       "ru": "Ты не знаешь, открыт ли магазин?"
+       "ru": "Ты не знаешь, открыт ли магазин?",
+       "tr_en": "Do you know if the shop is open?"
       },
       {
        "en": "Ik vraag me af of dat klopt.",
-       "ru": "Интересно, правда ли это."
+       "ru": "Интересно, правда ли это.",
+       "tr_en": "I wonder if that's right."
       }
      ]
     },
@@ -3317,11 +3490,13 @@
      "examples": [
       {
        "en": "Ik ga met de bus, omdat mijn fiets kapot is.",
-       "ru": "Я еду на автобусе, потому что мой велосипед сломан."
+       "ru": "Я еду на автобусе, потому что мой велосипед сломан.",
+       "tr_en": "I'm taking the bus because my bike is broken."
       },
       {
        "en": "Waarom lach je? – Omdat het grappig is.",
-       "ru": "Почему ты смеёшься? – Потому что это смешно."
+       "ru": "Почему ты смеёшься? – Потому что это смешно.",
+       "tr_en": "Why are you laughing? – Because it's funny."
       }
      ]
     },
@@ -3333,15 +3508,18 @@
      "examples": [
       {
        "en": "Als het mooi weer is, gaan we naar het strand.",
-       "ru": "Если будет хорошая погода, мы пойдём на пляж."
+       "ru": "Если будет хорошая погода, мы пойдём на пляж.",
+       "tr_en": "If the weather's nice, we'll go to the beach."
       },
       {
        "en": "Als ik in Utrecht ben, bezoek ik mijn tante.",
-       "ru": "Когда я бываю в Утрехте, я навещаю тётю."
+       "ru": "Когда я бываю в Утрехте, я навещаю тётю.",
+       "tr_en": "When I'm in Utrecht, I visit my aunt."
       },
       {
        "en": "Wanneer de zon schijnt, is iedereen vrolijk.",
-       "ru": "Когда светит солнце, все веселы."
+       "ru": "Когда светит солнце, все веселы.",
+       "tr_en": "When the sun shines, everyone is cheerful."
       }
      ]
     },
@@ -3353,15 +3531,18 @@
      "examples": [
       {
        "en": "Toen ik in Gent woonde, fietste ik veel.",
-       "ru": "Когда я жил в Генте, я много ездил на велосипеде."
+       "ru": "Когда я жил в Генте, я много ездил на велосипеде.",
+       "tr_en": "When I lived in Ghent, I cycled a lot."
       },
       {
        "en": "Toen hij thuiskwam, was het al laat.",
-       "ru": "Когда он пришёл домой, было уже поздно."
+       "ru": "Когда он пришёл домой, было уже поздно.",
+       "tr_en": "When he came home, it was already late."
       },
       {
        "en": "Als het regende, bleven we binnen.",
-       "ru": "Когда шёл дождь, мы оставались дома."
+       "ru": "Когда шёл дождь, мы оставались дома.",
+       "tr_en": "When it rained, we stayed inside."
       }
      ]
     }
@@ -3599,7 +3780,8 @@
       "is."
      ],
      "answer": "Ik denk dat het goed is.",
-     "ru": "Я думаю, что это хорошо."
+     "ru": "Я думаю, что это хорошо.",
+     "tr_en": "I think it's good."
     },
     {
      "id": "e20",
@@ -3614,7 +3796,8 @@
       "ben."
      ],
      "answer": "Ik blijf thuis, omdat ik ziek ben.",
-     "ru": "Я остаюсь дома, потому что я болен."
+     "ru": "Я остаюсь дома, потому что я болен.",
+     "tr_en": "I'm staying at home because I'm ill."
     },
     {
      "id": "e21",
@@ -3628,7 +3811,8 @@
       "blijf"
      ],
      "answer": "Als het regent, blijf ik thuis.",
-     "ru": "Если идёт дождь, я остаюсь дома."
+     "ru": "Если идёт дождь, я остаюсь дома.",
+     "tr_en": "If it rains, I'll stay at home."
     },
     {
      "id": "e22",
@@ -3643,7 +3827,8 @@
       "morgen"
      ],
      "answer": "Ik weet niet of hij morgen komt.",
-     "ru": "Я не знаю, придёт ли он завтра."
+     "ru": "Я не знаю, придёт ли он завтра.",
+     "tr_en": "I don't know if he's coming tomorrow."
     },
     {
      "id": "e23",
@@ -3760,15 +3945,18 @@
      "examples": [
       {
        "en": "Ik ben moe, maar ik ga mee.",
-       "ru": "Я устал, но пойду с вами."
+       "ru": "Я устал, но пойду с вами.",
+       "tr_en": "I'm tired, but I'll come along."
       },
       {
        "en": "Ik blijf thuis, want ik ben ziek.",
-       "ru": "Я остаюсь дома, потому что я болен."
+       "ru": "Я остаюсь дома, потому что я болен.",
+       "tr_en": "I'm staying at home, because I'm ill."
       },
       {
        "en": "Ze werkt en haar man studeert.",
-       "ru": "Она работает, а её муж учится."
+       "ru": "Она работает, а её муж учится.",
+       "tr_en": "She works and her husband studies."
       }
      ]
     },
@@ -3780,15 +3968,18 @@
      "examples": [
       {
        "en": "Ik woon in Utrecht en mijn broer woont in Gent.",
-       "ru": "Я живу в Утрехте, а мой брат — в Генте."
+       "ru": "Я живу в Утрехте, а мой брат — в Генте.",
+       "tr_en": "I live in Utrecht and my brother lives in Ghent."
       },
       {
        "en": "Hij is rijk, maar hij is niet gelukkig.",
-       "ru": "Он богат, но не счастлив."
+       "ru": "Он богат, но не счастлив.",
+       "tr_en": "He's rich, but he isn't happy."
       },
       {
        "en": "Ik ga naar huis en kook.",
-       "ru": "Я иду домой и готовлю."
+       "ru": "Я иду домой и готовлю.",
+       "tr_en": "I go home and cook."
       }
      ]
     },
@@ -3800,11 +3991,13 @@
      "examples": [
       {
        "en": "Wil je thee of koffie?",
-       "ru": "Хочешь чай или кофе?"
+       "ru": "Хочешь чай или кофе?",
+       "tr_en": "Would you like tea or coffee?"
       },
       {
        "en": "Ga je mee, of blijf je thuis?",
-       "ru": "Ты пойдёшь с нами или останешься дома?"
+       "ru": "Ты пойдёшь с нами или останешься дома?",
+       "tr_en": "Are you coming along, or are you staying at home?"
       }
      ]
     },
@@ -3816,11 +4009,13 @@
      "examples": [
       {
        "en": "Ik kom niet, want ik heb geen tijd.",
-       "ru": "Я не приду, потому что у меня нет времени."
+       "ru": "Я не приду, потому что у меня нет времени.",
+       "tr_en": "I'm not coming, because I don't have time."
       },
       {
        "en": "Ik kom niet, omdat ik geen tijd heb.",
-       "ru": "Я не приду, потому что у меня нет времени."
+       "ru": "Я не приду, потому что у меня нет времени.",
+       "tr_en": "I'm not coming because I don't have time."
       }
      ]
     },
@@ -3832,15 +4027,18 @@
      "examples": [
       {
        "en": "Het regent, dus ik neem de bus.",
-       "ru": "Идёт дождь, так что я поеду на автобусе."
+       "ru": "Идёт дождь, так что я поеду на автобусе.",
+       "tr_en": "It's raining, so I'll take the bus."
       },
       {
        "en": "Ik heb geen auto, dus ga ik met de trein.",
-       "ru": "У меня нет машины, так что я поеду на поезде."
+       "ru": "У меня нет машины, так что я поеду на поезде.",
+       "tr_en": "I don't have a car, so I'm going by train."
       },
       {
        "en": "Je komt dus niet?",
-       "ru": "Значит, ты не придёшь?"
+       "ru": "Значит, ты не придёшь?",
+       "tr_en": "So you're not coming?"
       }
      ]
     },
@@ -3852,15 +4050,18 @@
      "examples": [
       {
        "en": "Ik ben ziek, daarom blijf ik thuis.",
-       "ru": "Я болен, поэтому остаюсь дома."
+       "ru": "Я болен, поэтому остаюсь дома.",
+       "tr_en": "I'm ill, so I'm staying at home."
       },
       {
        "en": "Het regende. Toch gingen we wandelen.",
-       "ru": "Шёл дождь. Всё-таки мы пошли гулять."
+       "ru": "Шёл дождь. Всё-таки мы пошли гулять.",
+       "tr_en": "It was raining. Still, we went for a walk."
       },
       {
        "en": "Hij was ziek, maar hij kwam toch.",
-       "ru": "Он был болен, но всё-таки пришёл."
+       "ru": "Он был болен, но всё-таки пришёл.",
+       "tr_en": "He was ill, but he came anyway."
       }
      ]
     },
@@ -3872,15 +4073,18 @@
      "examples": [
       {
        "en": "Eerst eet ik, dan ga ik werken.",
-       "ru": "Сначала я поем, потом пойду работать."
+       "ru": "Сначала я поем, потом пойду работать.",
+       "tr_en": "First I'll eat, then I'll go to work."
       },
       {
        "en": "We aten pizza, daarna gingen we naar huis.",
-       "ru": "Мы поели пиццы, а потом пошли домой."
+       "ru": "Мы поели пиццы, а потом пошли домой.",
+       "tr_en": "We ate pizza, and afterwards we went home."
       },
       {
        "en": "Ik kwam binnen en toen zag ik hem.",
-       "ru": "Я вошёл, и тут я увидел его."
+       "ru": "Я вошёл, и тут я увидел его.",
+       "tr_en": "I came in and then I saw him."
       }
      ]
     },
@@ -3892,11 +4096,13 @@
      "examples": [
       {
        "en": "Neem een jas mee, anders krijg je het koud.",
-       "ru": "Возьми куртку, иначе замёрзнешь."
+       "ru": "Возьми куртку, иначе замёрзнешь.",
+       "tr_en": "Take a coat, otherwise you'll get cold."
       },
       {
        "en": "Schiet op, anders missen we de trein.",
-       "ru": "Поторопись, иначе мы опоздаем на поезд."
+       "ru": "Поторопись, иначе мы опоздаем на поезд.",
+       "tr_en": "Hurry up, otherwise we'll miss the train."
       }
      ]
     }
@@ -4133,7 +4339,8 @@
       "ga"
      ],
      "answer": "Ik ben moe, maar ik ga mee.",
-     "ru": "Я устал, но пойду с вами."
+     "ru": "Я устал, но пойду с вами.",
+     "tr_en": "I'm tired, but I'll come along."
     },
     {
      "id": "e20",
@@ -4148,7 +4355,8 @@
       "thuis."
      ],
      "answer": "Ik ben ziek, daarom blijf ik thuis.",
-     "ru": "Я болен, поэтому остаюсь дома."
+     "ru": "Я болен, поэтому остаюсь дома.",
+     "tr_en": "I'm ill, so I'm staying at home."
     },
     {
      "id": "e21",
@@ -4163,7 +4371,8 @@
       "ziek."
      ],
      "answer": "Ik blijf thuis, want ik ben ziek.",
-     "ru": "Я остаюсь дома, потому что я болен."
+     "ru": "Я остаюсь дома, потому что я болен.",
+     "tr_en": "I'm staying at home, because I'm ill."
     },
     {
      "id": "e22",
@@ -4178,7 +4387,8 @@
       "kook"
      ],
      "answer": "Eerst doe ik boodschappen, dan kook ik.",
-     "ru": "Сначала я схожу за покупками, потом приготовлю еду."
+     "ru": "Сначала я схожу за покупками, потом приготовлю еду.",
+     "tr_en": "First I'll do the shopping, then I'll cook."
     },
     {
      "id": "e23",
@@ -4299,11 +4509,13 @@
      "examples": [
       {
        "en": "Ik bel je morgen.",
-       "ru": "Я позвоню тебе завтра."
+       "ru": "Я позвоню тебе завтра.",
+       "tr_en": "I'll call you tomorrow."
       },
       {
        "en": "Volgende week vliegen we naar Rome.",
-       "ru": "На следующей неделе мы летим в Рим."
+       "ru": "На следующей неделе мы летим в Рим.",
+       "tr_en": "Next week we're flying to Rome."
       }
      ]
     },
@@ -4315,15 +4527,18 @@
      "examples": [
       {
        "en": "Ik ga vanavond koken.",
-       "ru": "Сегодня вечером я буду готовить."
+       "ru": "Сегодня вечером я буду готовить.",
+       "tr_en": "I'm going to cook tonight."
       },
       {
        "en": "Wij gaan volgend jaar verhuizen.",
-       "ru": "В следующем году мы собираемся переехать."
+       "ru": "В следующем году мы собираемся переехать.",
+       "tr_en": "We're going to move next year."
       },
       {
        "en": "Wat ga je in het weekend doen?",
-       "ru": "Что ты будешь делать в выходные?"
+       "ru": "Что ты будешь делать в выходные?",
+       "tr_en": "What are you going to do at the weekend?"
       }
      ]
     },
@@ -4335,15 +4550,18 @@
      "examples": [
       {
        "en": "Ik zal je helpen, dat beloof ik.",
-       "ru": "Я тебе помогу, обещаю."
+       "ru": "Я тебе помогу, обещаю.",
+       "tr_en": "I'll help you, I promise."
       },
       {
        "en": "Morgen zal het regenen.",
-       "ru": "Завтра будет дождь."
+       "ru": "Завтра будет дождь.",
+       "tr_en": "It will rain tomorrow."
       },
       {
        "en": "De trein zal tien minuten later vertrekken.",
-       "ru": "Поезд отправится на десять минут позже."
+       "ru": "Поезд отправится на десять минут позже.",
+       "tr_en": "The train will leave ten minutes later."
       }
      ]
     },
@@ -4355,15 +4573,18 @@
      "examples": [
       {
        "en": "Zal ik het raam openmaken?",
-       "ru": "Мне открыть окно?"
+       "ru": "Мне открыть окно?",
+       "tr_en": "Shall I open the window?"
       },
       {
        "en": "Zullen we een kopje koffie drinken?",
-       "ru": "Давай выпьем по чашке кофе?"
+       "ru": "Давай выпьем по чашке кофе?",
+       "tr_en": "Shall we have a cup of coffee?"
       },
       {
        "en": "Zal ik je even helpen?",
-       "ru": "Тебе помочь?"
+       "ru": "Тебе помочь?",
+       "tr_en": "Shall I give you a hand?"
       }
      ]
     },
@@ -4375,15 +4596,18 @@
      "examples": [
       {
        "en": "Ik ga je morgen opbellen.",
-       "ru": "Я позвоню тебе завтра."
+       "ru": "Я позвоню тебе завтра.",
+       "tr_en": "I'm going to call you tomorrow."
       },
       {
        "en": "Ik denk dat het morgen gaat regenen.",
-       "ru": "Думаю, что завтра будет дождь."
+       "ru": "Думаю, что завтра будет дождь.",
+       "tr_en": "I think it's going to rain tomorrow."
       },
       {
        "en": "Morgen gaan we de stad bekijken.",
-       "ru": "Завтра мы будем осматривать город."
+       "ru": "Завтра мы будем осматривать город.",
+       "tr_en": "Tomorrow we're going to look around the city."
       }
      ]
     },
@@ -4395,15 +4619,18 @@
      "examples": [
       {
        "en": "Ik probeer Nederlands te spreken.",
-       "ru": "Я пытаюсь говорить по-нидерландски."
+       "ru": "Я пытаюсь говорить по-нидерландски.",
+       "tr_en": "I try to speak Dutch."
       },
       {
        "en": "Het begint te regenen.",
-       "ru": "Начинается дождь."
+       "ru": "Начинается дождь.",
+       "tr_en": "It's starting to rain."
       },
       {
        "en": "Hij heeft besloten te stoppen met roken.",
-       "ru": "Он решил бросить курить."
+       "ru": "Он решил бросить курить.",
+       "tr_en": "He has decided to stop smoking."
       }
      ]
     },
@@ -4415,15 +4642,18 @@
      "examples": [
       {
        "en": "Ik probeer het boek te lezen.",
-       "ru": "Я пытаюсь читать эту книгу."
+       "ru": "Я пытаюсь читать эту книгу.",
+       "tr_en": "I'm trying to read the book."
       },
       {
        "en": "Vergeet niet je moeder op te bellen!",
-       "ru": "Не забудь позвонить маме!"
+       "ru": "Не забудь позвонить маме!",
+       "tr_en": "Don't forget to call your mother!"
       },
       {
        "en": "Ik probeer vroeg op te staan.",
-       "ru": "Я стараюсь вставать рано."
+       "ru": "Я стараюсь вставать рано.",
+       "tr_en": "I try to get up early."
       }
      ]
     },
@@ -4435,15 +4665,18 @@
      "examples": [
       {
        "en": "Ik wil slapen.",
-       "ru": "Я хочу спать."
+       "ru": "Я хочу спать.",
+       "tr_en": "I want to sleep."
       },
       {
        "en": "Hij komt vanavond bij ons eten.",
-       "ru": "Он придёт к нам сегодня ужинать."
+       "ru": "Он придёт к нам сегодня ужинать.",
+       "tr_en": "He's coming to eat with us tonight."
       },
       {
        "en": "Je hoeft niet te komen.",
-       "ru": "Тебе не нужно приходить."
+       "ru": "Тебе не нужно приходить.",
+       "tr_en": "You don't have to come."
       }
      ]
     }
@@ -4677,7 +4910,8 @@
       "vanavond"
      ],
      "answer": "Ik ga vanavond koken.",
-     "ru": "Сегодня вечером я буду готовить."
+     "ru": "Сегодня вечером я буду готовить.",
+     "tr_en": "I'm going to cook tonight."
     },
     {
      "id": "e20",
@@ -4689,7 +4923,8 @@
       "gaan"
      ],
      "answer": "Zullen we gaan wandelen?",
-     "ru": "Пойдём погуляем?"
+     "ru": "Пойдём погуляем?",
+     "tr_en": "Shall we go for a walk?"
     },
     {
      "id": "e21",
@@ -4702,7 +4937,8 @@
       "spreken."
      ],
      "answer": "Ik probeer Nederlands te spreken.",
-     "ru": "Я пытаюсь говорить по-нидерландски."
+     "ru": "Я пытаюсь говорить по-нидерландски.",
+     "tr_en": "I try to speak Dutch."
     },
     {
      "id": "e22",
@@ -4715,7 +4951,8 @@
       "plotseling"
      ],
      "answer": "Het begon plotseling te regenen.",
-     "ru": "Вдруг начался дождь."
+     "ru": "Вдруг начался дождь.",
+     "tr_en": "It suddenly started to rain."
     },
     {
      "id": "e23",
@@ -4832,15 +5069,18 @@
      "examples": [
       {
        "en": "Ben je in Parijs geweest? – Ja, ik ben er twee keer geweest.",
-       "ru": "Ты был в Париже? – Да, я был там два раза."
+       "ru": "Ты был в Париже? – Да, я был там два раза.",
+       "tr_en": "Have you been to Paris? – Yes, I've been there twice."
       },
       {
        "en": "Ken je Utrecht? Ik woon er al tien jaar.",
-       "ru": "Ты знаешь Утрехт? Я живу там уже десять лет."
+       "ru": "Ты знаешь Утрехт? Я живу там уже десять лет.",
+       "tr_en": "Do you know Utrecht? I've lived there for ten years."
       },
       {
        "en": "Zie je dat huis? Daar woon ik.",
-       "ru": "Видишь тот дом? Вот там я живу."
+       "ru": "Видишь тот дом? Вот там я живу.",
+       "tr_en": "Do you see that house? That's where I live."
       }
      ]
     },
@@ -4852,15 +5092,18 @@
      "examples": [
       {
        "en": "Er waren veel mensen op het feest.",
-       "ru": "На празднике было много людей."
+       "ru": "На празднике было много людей.",
+       "tr_en": "There were a lot of people at the party."
       },
       {
        "en": "Er is een ongeluk gebeurd.",
-       "ru": "Произошла авария."
+       "ru": "Произошла авария.",
+       "tr_en": "There's been an accident."
       },
       {
        "en": "Er was eens een koning.",
-       "ru": "Жил-был король."
+       "ru": "Жил-был король.",
+       "tr_en": "Once upon a time there was a king."
       }
      ]
     },
@@ -4872,15 +5115,18 @@
      "examples": [
       {
        "en": "Er staat een vaas op de tafel.",
-       "ru": "На столе стоит ваза."
+       "ru": "На столе стоит ваза.",
+       "tr_en": "There's a vase on the table."
       },
       {
        "en": "Er ligt een boek op het bed.",
-       "ru": "На кровати лежит книга."
+       "ru": "На кровати лежит книга.",
+       "tr_en": "There's a book on the bed."
       },
       {
        "en": "Er zit geen melk meer in de koelkast.",
-       "ru": "В холодильнике больше нет молока."
+       "ru": "В холодильнике больше нет молока.",
+       "tr_en": "There's no more milk in the fridge."
       }
      ]
     },
@@ -4892,15 +5138,18 @@
      "examples": [
       {
        "en": "De kat slaapt onder het bed.",
-       "ru": "Кошка спит под кроватью."
+       "ru": "Кошка спит под кроватью.",
+       "tr_en": "The cat is sleeping under the bed."
       },
       {
        "en": "De bank is tegenover het station.",
-       "ru": "Банк находится напротив вокзала."
+       "ru": "Банк находится напротив вокзала.",
+       "tr_en": "The bank is opposite the station."
       },
       {
        "en": "Ik zit tussen Anna en Peter.",
-       "ru": "Я сижу между Анной и Петером."
+       "ru": "Я сижу между Анной и Петером.",
+       "tr_en": "I'm sitting between Anna and Peter."
       }
      ]
     },
@@ -4912,15 +5161,18 @@
      "examples": [
       {
        "en": "Mijn dochter zit op school.",
-       "ru": "Моя дочь в школе (учится в школе)."
+       "ru": "Моя дочь в школе (учится в школе).",
+       "tr_en": "My daughter is at school."
       },
       {
        "en": "Het schilderij hangt aan de muur.",
-       "ru": "Картина висит на стене."
+       "ru": "Картина висит на стене.",
+       "tr_en": "The painting is hanging on the wall."
       },
       {
        "en": "We wonen in een dorp aan zee.",
-       "ru": "Мы живём в деревне у моря."
+       "ru": "Мы живём в деревне у моря.",
+       "tr_en": "We live in a village by the sea."
       }
      ]
     },
@@ -4932,15 +5184,18 @@
      "examples": [
       {
        "en": "Ik ga morgen naar de dokter.",
-       "ru": "Завтра я иду к врачу."
+       "ru": "Завтра я иду к врачу.",
+       "tr_en": "I'm going to the doctor tomorrow."
       },
       {
        "en": "Ik ben vanavond bij mijn moeder.",
-       "ru": "Сегодня вечером я у мамы."
+       "ru": "Сегодня вечером я у мамы.",
+       "tr_en": "I'm at my mother's tonight."
       },
       {
        "en": "Ik kom uit Rusland, maar ik woon in Nederland.",
-       "ru": "Я из России, но живу в Нидерландах."
+       "ru": "Я из России, но живу в Нидерландах.",
+       "tr_en": "I'm from Russia, but I live in the Netherlands."
       }
      ]
     },
@@ -4952,15 +5207,18 @@
      "examples": [
       {
        "en": "De les begint om negen uur.",
-       "ru": "Урок начинается в девять часов."
+       "ru": "Урок начинается в девять часов.",
+       "tr_en": "The lesson starts at nine o'clock."
       },
       {
        "en": "Ik ben over een week terug.",
-       "ru": "Я вернусь через неделю."
+       "ru": "Я вернусь через неделю.",
+       "tr_en": "I'll be back in a week."
       },
       {
        "en": "Hij is twee jaar geleden verhuisd.",
-       "ru": "Он переехал два года назад."
+       "ru": "Он переехал два года назад.",
+       "tr_en": "He moved two years ago."
       }
      ]
     },
@@ -4972,15 +5230,18 @@
      "examples": [
       {
        "en": "Volgende week ga ik naar Gent.",
-       "ru": "На следующей неделе я поеду в Гент."
+       "ru": "На следующей неделе я поеду в Гент.",
+       "tr_en": "Next week I'm going to Ghent."
       },
       {
        "en": "'s Avonds kijk ik tv.",
-       "ru": "Вечером я смотрю телевизор."
+       "ru": "Вечером я смотрю телевизор.",
+       "tr_en": "In the evening I watch TV."
       },
       {
        "en": "Vorig jaar woonde ik nog in Moskou.",
-       "ru": "В прошлом году я ещё жил в Москве."
+       "ru": "В прошлом году я ещё жил в Москве.",
+       "tr_en": "Last year I was still living in Moscow."
       }
      ]
     }
@@ -5217,7 +5478,8 @@
       "nooit"
      ],
      "answer": "Ik ben er nooit geweest.",
-     "ru": "Я никогда там не был."
+     "ru": "Я никогда там не был.",
+     "tr_en": "I've never been there."
     },
     {
      "id": "e20",
@@ -5232,7 +5494,8 @@
       "tafel."
      ],
      "answer": "Er staat een vaas op de tafel.",
-     "ru": "На столе стоит ваза."
+     "ru": "На столе стоит ваза.",
+     "tr_en": "There's a vase on the table."
     },
     {
      "id": "e21",
@@ -5246,7 +5509,8 @@
       "Gent."
      ],
      "answer": "Ik ga volgende week naar Gent.",
-     "ru": "На следующей неделе я поеду в Гент."
+     "ru": "На следующей неделе я поеду в Гент.",
+     "tr_en": "I'm going to Ghent next week."
     },
     {
      "id": "e22",
@@ -5260,7 +5524,8 @@
       "is"
      ],
      "answer": "Hij is twee jaar geleden verhuisd.",
-     "ru": "Он переехал два года назад."
+     "ru": "Он переехал два года назад.",
+     "tr_en": "He moved two years ago."
     },
     {
      "id": "e23",
