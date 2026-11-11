@@ -1,0 +1,516 @@
+[
+ {
+  "kind": "form",
+  "text": "Espero que mañana ___ buen tiempo para la excursión a la sierra.",
+  "answer": [
+   "haga"
+  ],
+  "lemma": "hacer",
+  "tr_en": "I hope the weather is good tomorrow for the trip to the mountains.",
+  "tr_ru": "Надеюсь, завтра будет хорошая погода для поездки в горы.",
+  "explain_en": "Esperar que + subjunctive; hacer builds it on yo hago: haga.",
+  "explain_ru": "Esperar que + subjuntivo; hacer образует его от yo hago: haga. В русском — изъявительное «будет».",
+  "id": "g001"
+ },
+ {
+  "kind": "form",
+  "text": "Quiero que tú ___ conmigo al médico; no me apetece ir sola.",
+  "answer": [
+   "vengas"
+  ],
+  "lemma": "venir",
+  "tr_en": "I want you to come with me to the doctor's; I don't feel like going alone.",
+  "tr_ru": "Я хочу, чтобы ты пошёл со мной к врачу: не хочется идти одной.",
+  "explain_en": "Different subjects after querer → que + subjunctive: vengo → vengas.",
+  "explain_ru": "Разные подлежащие после querer → que + subjuntivo: vengo → vengas (ср. «чтобы ты пошёл»).",
+  "id": "g002"
+ },
+ {
+  "kind": "form",
+  "text": "Mis padres no soportan que yo ___ de fiesta entre semana.",
+  "answer": [
+   "salga"
+  ],
+  "lemma": "salir",
+  "tr_en": "My parents can't stand me going out partying on weekdays.",
+  "tr_ru": "Мои родители терпеть не могут, когда я хожу на вечеринки по будням.",
+  "explain_en": "Emotional reaction (no soportar que) + subjunctive: salgo → salga.",
+  "explain_ru": "Эмоциональная реакция (no soportar que) + subjuntivo: salgo → salga.",
+  "id": "g003"
+ },
+ {
+  "kind": "form",
+  "text": "Te deseo de corazón que ___ ese trabajo; te lo mereces.",
+  "answer": [
+   "consigas"
+  ],
+  "lemma": "conseguir",
+  "tr_en": "I sincerely hope you get that job; you deserve it.",
+  "tr_ru": "От всей души желаю тебе получить эту работу: ты её заслуживаешь.",
+  "explain_en": "Desear que + subjunctive; conseguir has e > i and gu > g before a: consigas.",
+  "explain_ru": "Desear que + subjuntivo; у conseguir e > i и gu > g перед a: consigas.",
+  "id": "g004"
+ },
+ {
+  "kind": "form",
+  "text": "El pediatra dice que es importante que los niños ___ al menos nueve horas.",
+  "answer": [
+   "duerman"
+  ],
+  "lemma": "dormir",
+  "tr_en": "The paediatrician says it's important that children sleep at least nine hours.",
+  "tr_ru": "Педиатр говорит, что детям важно спать не меньше девяти часов.",
+  "explain_en": "Es importante que + subjunctive; dormir: o > ue in stressed forms → duerman.",
+  "explain_ru": "Es importante que + subjuntivo; dormir: o > ue под ударением → duerman.",
+  "id": "g005"
+ },
+ {
+  "kind": "form",
+  "text": "No creo que los políticos ___ siempre la verdad en campaña.",
+  "answer": [
+   "digan"
+  ],
+  "lemma": "decir",
+  "tr_en": "I don't think politicians always tell the truth during a campaign.",
+  "tr_ru": "Не думаю, что политики всегда говорят правду во время кампании.",
+  "explain_en": "No creer que (doubt) + subjunctive: digo → digan. Affirmative creo que would take the indicative.",
+  "explain_ru": "No creer que (сомнение) + subjuntivo: digo → digan. Утвердительное creo que — с индикативом.",
+  "id": "g006"
+ },
+ {
+  "kind": "form",
+  "text": "Espero que mi hermano y yo ___ suerte en el sorteo de mañana.",
+  "answer": [
+   "tengamos"
+  ],
+  "lemma": "tener",
+  "tr_en": "I hope my brother and I are lucky in tomorrow's draw.",
+  "tr_ru": "Надеюсь, нам с братом повезёт в завтрашнем розыгрыше.",
+  "explain_en": "Esperar que + present subjunctive for a future hope: tengo → tengamos.",
+  "explain_ru": "Esperar que + presente de subjuntivo — надежда на будущее: tengo → tengamos.",
+  "id": "g007"
+ },
+ {
+  "kind": "form",
+  "text": "Te mando un mensaje en cuanto ___ a Madrid, no te preocupes.",
+  "answer": [
+   "llegue"
+  ],
+  "lemma": "llegar",
+  "tr_en": "I'll send you a message as soon as I get to Madrid, don't worry.",
+  "tr_ru": "Напишу тебе, как только доберусь до Мадрида, не волнуйся.",
+  "explain_en": "En cuanto + future reference → subjunctive; -gar verbs add u: llegue.",
+  "explain_ru": "En cuanto о будущем → subjuntivo; у глаголов на -gar добавляется u: llegue. В русском здесь будущее время.",
+  "id": "g008"
+ },
+ {
+  "kind": "form",
+  "text": "Cuando mi hijo ___ mayor, quiere ser piloto de aviones.",
+  "answer": [
+   "sea"
+  ],
+  "lemma": "ser",
+  "tr_en": "When my son grows up, he wants to be an airline pilot.",
+  "tr_ru": "Когда мой сын вырастет, он хочет стать пилотом.",
+  "explain_en": "Cuando referring to the future takes the subjunctive: sea (never será after cuando).",
+  "explain_ru": "Cuando о будущем требует subjuntivo: sea (никогда не será после cuando).",
+  "id": "g009"
+ },
+ {
+  "kind": "form",
+  "text": "Os lo explico otra vez para que lo ___ bien, chicos.",
+  "answer": [
+   "entendáis"
+  ],
+  "lemma": "entender",
+  "tr_en": "I'll explain it again so that you understand it properly, guys.",
+  "tr_ru": "Объясню ещё раз, чтобы вы как следует поняли, ребята.",
+  "explain_en": "Para que + subjunctive; the vosotros form has no stem change: entendáis.",
+  "explain_ru": "Para que + subjuntivo; в форме vosotros нет чередования: entendáis.",
+  "id": "g010"
+ },
+ {
+  "kind": "form",
+  "text": "Tenemos que limpiar el salón antes de que ___ los invitados.",
+  "answer": [
+   "lleguen"
+  ],
+  "lemma": "llegar",
+  "tr_en": "We have to clean the living room before the guests arrive.",
+  "tr_ru": "Нам нужно убрать гостиную до прихода гостей.",
+  "explain_en": "Antes de que always takes the subjunctive: lleguen (g > gu).",
+  "explain_ru": "Antes de que всегда требует subjuntivo: lleguen (g > gu).",
+  "id": "g011"
+ },
+ {
+  "kind": "form",
+  "text": "Dudo mucho que el jefe nos ___ el aumento este año.",
+  "answer": [
+   "dé"
+  ],
+  "lemma": "dar",
+  "tr_en": "I really doubt the boss will give us the rise this year.",
+  "tr_ru": "Очень сомневаюсь, что начальник даст нам прибавку в этом году.",
+  "explain_en": "Dudar que + subjunctive; dar: dé, with an accent to distinguish it from the preposition de.",
+  "explain_ru": "Dudar que + subjuntivo; dar: dé — с ударением, чтобы отличить от предлога de.",
+  "id": "g012"
+ },
+ {
+  "kind": "form",
+  "text": "Es posible que mi familia y yo ___ a Roma en Semana Santa.",
+  "answer": [
+   "vayamos"
+  ],
+  "lemma": "ir",
+  "tr_en": "It's possible that my family and I will go to Rome at Easter.",
+  "tr_ru": "Возможно, мы с семьёй поедем в Рим на Пасху.",
+  "explain_en": "Es posible que + subjunctive; ir is fully irregular: vaya, vayamos.",
+  "explain_ru": "Es posible que + subjuntivo; ir полностью неправильный: vaya, vayamos.",
+  "id": "g013"
+ },
+ {
+  "kind": "form",
+  "text": "Buscamos un piso que ___ terraza y esté cerca del metro.",
+  "answer": [
+   "tenga"
+  ],
+  "lemma": "tener",
+  "tr_en": "We're looking for a flat that has a terrace and is near the metro.",
+  "tr_ru": "Мы ищем квартиру с террасой рядом с метро.",
+  "explain_en": "A wanted, not yet known thing → subjunctive in the relative clause: tenga.",
+  "explain_ru": "Искомый, ещё не известный предмет → subjuntivo в придаточном: tenga.",
+  "id": "g014"
+ },
+ {
+  "kind": "form",
+  "text": "En esta oficina no hay nadie que ___ hablar chino.",
+  "answer": [
+   "sepa"
+  ],
+  "lemma": "saber",
+  "tr_en": "There's nobody in this office who can speak Chinese.",
+  "tr_ru": "В этом офисе нет никого, кто говорит по-китайски.",
+  "explain_en": "A non-existent antecedent (no hay nadie que) → subjunctive; saber: sepa.",
+  "explain_ru": "Несуществующий антецедент (no hay nadie que) → subjuntivo; saber: sepa.",
+  "id": "g015"
+ },
+ {
+  "kind": "form",
+  "text": "Esta vez prefiero que vosotros ___ el restaurante; yo siempre me equivoco.",
+  "answer": [
+   "elijáis"
+  ],
+  "lemma": "elegir",
+  "tr_en": "This time I'd rather you chose the restaurant; I always get it wrong.",
+  "tr_ru": "На этот раз пусть ресторан выберете вы: я всегда ошибаюсь.",
+  "explain_en": "Preferir que + subjunctive; elegir: e > i in every form and g > j: elijáis.",
+  "explain_ru": "Preferir que + subjuntivo; elegir: e > i во всех формах и g > j: elijáis.",
+  "id": "g016"
+ },
+ {
+  "kind": "form",
+  "text": "Odio que la gente me ___ a la cara.",
+  "answer": [
+   "mienta"
+  ],
+  "lemma": "mentir",
+  "tr_en": "I hate it when people lie to my face.",
+  "tr_ru": "Ненавижу, когда люди врут мне в лицо.",
+  "explain_en": "Odiar que + subjunctive; mentir: e > ie → mienta; la gente is singular.",
+  "explain_ru": "Odiar que + subjuntivo; mentir: e > ie → mienta; la gente — ед. ч.",
+  "id": "g017"
+ },
+ {
+  "kind": "form",
+  "text": "Mi vecina me pidió ayer que le ___ un favor enorme.",
+  "answer": [
+   "hiciera",
+   "hiciese"
+  ],
+  "lemma": "hacer",
+  "tr_en": "Yesterday my neighbour asked me to do her a huge favour.",
+  "tr_ru": "Вчера соседка попросила меня сделать ей огромное одолжение.",
+  "explain_en": "A past request (pidió que) → imperfect subjunctive, from hicieron: hiciera / hiciese.",
+  "explain_ru": "Просьба в прошлом (pidió que) → imperfecto de subjuntivo от hicieron: hiciera / hiciese.",
+  "id": "g018"
+ },
+ {
+  "kind": "form",
+  "text": "Si yo ___ más dinero, me compraría una casa en la costa.",
+  "answer": [
+   "tuviera",
+   "tuviese"
+  ],
+  "lemma": "tener",
+  "tr_en": "If I had more money, I'd buy a house on the coast.",
+  "tr_ru": "Если бы у меня было больше денег, я бы купил дом на побережье.",
+  "explain_en": "Unreal condition: si + imperfect subjunctive + conditional: tuviera / tuviese (from tuvieron).",
+  "explain_ru": "Нереальное условие: si + imperfecto de subjuntivo + condicional: tuviera / tuviese (от tuvieron).",
+  "id": "g019"
+ },
+ {
+  "kind": "form",
+  "text": "Si mañana ___, la excursión al lago se suspende.",
+  "answer": [
+   "llueve"
+  ],
+  "lemma": "llover",
+  "tr_en": "If it rains tomorrow, the trip to the lake will be called off.",
+  "tr_ru": "Если завтра пойдёт дождь, поездку на озеро отменят.",
+  "explain_en": "A real condition: si + present indicative, never present subjunctive: si llueve.",
+  "explain_ru": "Реальное условие: si + presente de indicativo, никогда не subjuntivo: si llueve. В русском — будущее.",
+  "id": "g020"
+ },
+ {
+  "kind": "form",
+  "text": "Si tú ___ en mi lugar, ¿qué harías con tanto trabajo?",
+  "answer": [
+   "estuvieras",
+   "estuvieses"
+  ],
+  "lemma": "estar",
+  "tr_en": "If you were in my place, what would you do with so much work?",
+  "tr_ru": "Если бы ты был на моём месте, что бы ты делал со всей этой работой?",
+  "explain_en": "Hypothesis with harías → si + imperfect subjunctive: estuvieras / estuvieses.",
+  "explain_ru": "Гипотеза с harías → si + imperfecto de subjuntivo: estuvieras / estuvieses.",
+  "id": "g021"
+ },
+ {
+  "kind": "form",
+  "text": "Mi cuñado habla de política como si lo ___ todo.",
+  "answer": [
+   "supiera",
+   "supiese"
+  ],
+  "lemma": "saber",
+  "tr_en": "My brother-in-law talks about politics as if he knew everything.",
+  "tr_ru": "Мой шурин говорит о политике так, будто знает всё.",
+  "explain_en": "Como si always takes the imperfect (or pluperfect) subjunctive: supiera / supiese.",
+  "explain_ru": "Como si всегда требует imperfecto (или pluscuamperfecto) de subjuntivo: supiera / supiese.",
+  "id": "g022"
+ },
+ {
+  "kind": "form",
+  "text": "Ojalá mis amigos de Lima ___ aquí ahora; los echo mucho de menos.",
+  "answer": [
+   "estuvieran",
+   "estuviesen"
+  ],
+  "lemma": "estar",
+  "tr_en": "I wish my friends from Lima were here now; I miss them a lot.",
+  "tr_ru": "Как жаль, что мои друзья из Лимы сейчас не здесь: я очень по ним скучаю.",
+  "explain_en": "Ojalá + imperfect subjunctive for an unreal wish about the present.",
+  "explain_ru": "Ojalá + imperfecto de subjuntivo — нереальное желание о настоящем («если бы…»).",
+  "id": "g023"
+ },
+ {
+  "kind": "form",
+  "text": "Cuando llegamos al cine, los demás ya ___ entrado y la película había empezado.",
+  "answer": [
+   "habían"
+  ],
+  "lemma": "haber",
+  "tr_en": "When we got to the cinema, the others had already gone in and the film had started.",
+  "tr_ru": "Когда мы пришли в кино, остальные уже вошли в зал, и фильм начался.",
+  "explain_en": "An action before another past action → pluscuamperfecto: imperfect of haber (habían) + participle.",
+  "explain_ru": "Действие раньше другого прошедшего → pluscuamperfecto: haber в imperfecto (habían) + причастие.",
+  "id": "g024"
+ },
+ {
+  "kind": "form",
+  "text": "Nunca había ___ un atardecer tan bonito como el de aquella isla.",
+  "answer": [
+   "visto"
+  ],
+  "lemma": "ver",
+  "tr_en": "I had never seen such a beautiful sunset as the one on that island.",
+  "tr_ru": "Я никогда не видел такого красивого заката, как на том острове.",
+  "explain_en": "Pluscuamperfecto with the irregular participle of ver: visto.",
+  "explain_ru": "Pluscuamperfecto с неправильным причастием от ver: visto.",
+  "id": "g025"
+ },
+ {
+  "kind": "form",
+  "text": "Cuando volvió del viaje, se dio cuenta de que alguien le había ___ la puerta del garaje.",
+  "answer": [
+   "abierto"
+  ],
+  "lemma": "abrir",
+  "tr_en": "When he came back from the trip, he realised someone had opened his garage door.",
+  "tr_ru": "Вернувшись из поездки, он обнаружил, что кто-то открыл его гараж.",
+  "explain_en": "Pluscuamperfecto: había + irregular participle abierto.",
+  "explain_ru": "Pluscuamperfecto: había + неправильное причастие abierto.",
+  "id": "g026"
+ },
+ {
+  "kind": "form",
+  "text": "Ana me dijo ayer que ___ muy cansada y que se iba a dormir.",
+  "answer": [
+   "estaba"
+  ],
+  "lemma": "estar",
+  "tr_en": "Ana told me yesterday that she was very tired and was going to bed.",
+  "tr_ru": "Вчера Ана сказала мне, что очень устала и идёт спать.",
+  "explain_en": "Reported speech after a past verb: present (estoy) → imperfecto (estaba). Russian keeps the present.",
+  "explain_ru": "Косвенная речь после глагола в прошедшем: presente (estoy) → imperfecto (estaba). В русском время не меняется.",
+  "id": "g027"
+ },
+ {
+  "kind": "form",
+  "text": "El médico me aseguró que con ese tratamiento me ___ en una semana.",
+  "answer": [
+   "curaría"
+  ],
+  "lemma": "curarse",
+  "tr_en": "The doctor assured me that with that treatment I would get better in a week.",
+  "tr_ru": "Врач заверил меня, что с этим лечением я поправлюсь за неделю.",
+  "explain_en": "Reported future after a past verb: te curarás → me curaría (conditional).",
+  "explain_ru": "Будущее в косвенной речи после прошедшего: te curarás → me curaría (condicional).",
+  "id": "g028"
+ },
+ {
+  "kind": "form",
+  "text": "El profesor nos dijo que ___ el capítulo tres para el lunes.",
+  "answer": [
+   "leyéramos",
+   "leyésemos"
+  ],
+  "lemma": "leer",
+  "tr_en": "The teacher told us to read chapter three for Monday.",
+  "tr_ru": "Преподаватель велел нам прочитать третью главу к понедельнику.",
+  "explain_en": "A reported command after a past verb → imperfect subjunctive: leed → que leyéramos / leyésemos.",
+  "explain_ru": "Переданный приказ после прошедшего → imperfecto de subjuntivo: leed → que leyéramos / leyésemos.",
+  "id": "g029"
+ },
+ {
+  "kind": "form",
+  "text": "Mis padres siempre me pedían que ___ a verlos más a menudo.",
+  "answer": [
+   "fuera",
+   "fuese"
+  ],
+  "lemma": "ir",
+  "tr_en": "My parents always asked me to go and see them more often.",
+  "tr_ru": "Родители всегда просили меня почаще к ним приезжать.",
+  "explain_en": "Pedían que (past) + imperfect subjunctive: ir → fuera / fuese (from fueron).",
+  "explain_ru": "Pedían que (прошедшее) + imperfecto de subjuntivo: ir → fuera / fuese (от fueron).",
+  "id": "g030"
+ },
+ {
+  "kind": "form",
+  "text": "Yo que tú no le ___ nada a tu madre hasta estar seguro.",
+  "answer": [
+   "diría"
+  ],
+  "lemma": "decir",
+  "tr_en": "If I were you, I wouldn't say anything to your mother until you're sure.",
+  "tr_ru": "На твоём месте я бы ничего не говорил маме, пока не будешь уверен.",
+  "explain_en": "Advice with 'yo que tú' + conditional; decir has the stem dir-: diría.",
+  "explain_ru": "Совет с «yo que tú» + condicional; у decir основа dir-: diría.",
+  "id": "g031"
+ },
+ {
+  "kind": "form",
+  "text": "En tu lugar, yo ___ más cuidado con lo que publicas en las redes.",
+  "answer": [
+   "tendría"
+  ],
+  "lemma": "tener",
+  "tr_en": "In your place, I'd be more careful about what you post on social media.",
+  "tr_ru": "На твоём месте я был бы осторожнее с тем, что ты публикуешь в соцсетях.",
+  "explain_en": "Conditional for advice; tener → tendría (stem tendr-).",
+  "explain_ru": "Condicional для совета; tener → tendría (основа tendr-).",
+  "id": "g032"
+ },
+ {
+  "kind": "form",
+  "text": "—¿A qué hora volvió anoche tu hijo? —No lo sé; ___ las tres o las cuatro.",
+  "answer": [
+   "serían"
+  ],
+  "lemma": "ser",
+  "tr_en": "—What time did your son get back last night? —I don't know; it must have been three or four.",
+  "tr_ru": "— Во сколько вчера вернулся твой сын? — Не знаю; наверное, было часа три или четыре.",
+  "explain_en": "A guess about the past → conditional of probability: serían las tres.",
+  "explain_ru": "Предположение о прошлом → condicional de probabilidad: serían las tres (≈ «наверное, было»).",
+  "id": "g033"
+ },
+ {
+  "kind": "form",
+  "text": "—¿Dónde está Luis? No contesta al móvil. —No sé, ___ todavía en la reunión.",
+  "answer": [
+   "estará"
+  ],
+  "lemma": "estar",
+  "tr_en": "—Where's Luis? He isn't answering his mobile. —I don't know, he must still be in the meeting.",
+  "tr_ru": "— Где Луис? Не отвечает на мобильный. — Не знаю, наверное, ещё на совещании.",
+  "explain_en": "A guess about the present → futuro de probabilidad: estará.",
+  "explain_ru": "Догадка о настоящем → futuro de probabilidad: estará (≈ «наверное, он…»).",
+  "id": "g034"
+ },
+ {
+  "kind": "form",
+  "text": "Estas casas fueron ___ en 1920 por un arquitecto catalán.",
+  "answer": [
+   "construidas"
+  ],
+  "lemma": "construir",
+  "tr_en": "These houses were built in 1920 by a Catalan architect.",
+  "tr_ru": "Эти дома были построены в 1920 году каталонским архитектором.",
+  "explain_en": "In the ser passive the participle agrees with the subject: casas → construidas.",
+  "explain_ru": "В пассиве с ser причастие согласуется с подлежащим: casas → construidas.",
+  "id": "g035"
+ },
+ {
+  "kind": "form",
+  "text": "Los dos ladrones fueron ___ por la policía a la salida del banco.",
+  "answer": [
+   "detenidos"
+  ],
+  "lemma": "detener",
+  "tr_en": "The two thieves were arrested by the police as they left the bank.",
+  "tr_ru": "Двое воров были задержаны полицией на выходе из банка.",
+  "explain_en": "Ser + participle agreeing with los ladrones: detenidos.",
+  "explain_ru": "Ser + причастие, согласованное с los ladrones: detenidos.",
+  "id": "g036"
+ },
+ {
+  "kind": "form",
+  "text": "No podemos entrar: la puerta del museo está ___ por obras.",
+  "answer": [
+   "cerrada"
+  ],
+  "lemma": "cerrar",
+  "tr_en": "We can't go in: the museum door is closed for building work.",
+  "tr_ru": "Мы не можем войти: дверь музея закрыта на ремонт.",
+  "explain_en": "Estar + participle describes a resulting state and agrees with the noun: cerrada.",
+  "explain_ru": "Estar + причастие — результат, согласуется с существительным: cerrada.",
+  "id": "g037"
+ },
+ {
+  "kind": "form",
+  "text": "En esa tienda de la esquina se ___ bicicletas de segunda mano.",
+  "answer": [
+   "venden"
+  ],
+  "lemma": "vender",
+  "tr_en": "Second-hand bikes are sold in that shop on the corner.",
+  "tr_ru": "В том магазине на углу продаются подержанные велосипеды.",
+  "explain_en": "Se pasivo: the verb agrees with the thing (bicicletas, plural): se venden.",
+  "explain_ru": "Se pasivo: глагол согласуется с предметом (bicicletas, мн. ч.): se venden, как русское «продаются».",
+  "id": "g038"
+ },
+ {
+  "kind": "form",
+  "text": "Es un escritor ___ novelas se traducen a treinta idiomas.",
+  "answer": [
+   "cuyas"
+  ],
+  "lemma": "cuyo",
+  "tr_en": "He is a writer whose novels are translated into thirty languages.",
+  "tr_ru": "Это писатель, чьи романы переводятся на тридцать языков.",
+  "explain_en": "Cuyo agrees with the thing possessed (novelas), not with the owner: cuyas.",
+  "explain_ru": "Cuyo согласуется с тем, чем владеют (novelas), а не с владельцем: cuyas — как русское «чьи».",
+  "id": "g039"
+ }
+]
