@@ -157,32 +157,6 @@
  },
  {
   "kind": "form",
-  "text": "Je veux que tu me ___ toute la vérité, maintenant.",
-  "answer": [
-   "dises"
-  ],
-  "lemma": "dire",
-  "tr_en": "I want you to tell me the whole truth, now.",
-  "tr_ru": "Я хочу, чтобы ты сказал мне всю правду, сейчас же.",
-  "explain_en": "Dire in the subjunctive: que tu dises (not *disses).",
-  "explain_ru": "Dire в subjonctif: que tu dises.",
-  "id": "g013"
- },
- {
-  "kind": "form",
-  "text": "Le dossier est long : il faut que vous ___ un peu de patience.",
-  "answer": [
-   "ayez"
-  ],
-  "lemma": "avoir",
-  "tr_en": "The file is long: you need to have a little patience.",
-  "tr_ru": "Дело долгое: вам нужно немного потерпеть.",
-  "explain_en": "Avoir in the subjunctive: que vous ayez (no i after y).",
-  "explain_ru": "Avoir в subjonctif: que vous ayez (без i после y).",
-  "id": "g014"
- },
- {
-  "kind": "form",
   "text": "Quand je suis arrivé à la gare, mon train était déjà ___.",
   "answer": [
    "parti"
@@ -192,7 +166,7 @@
   "tr_ru": "Когда я приехал на вокзал, мой поезд уже ушёл.",
   "explain_en": "Plus-que-parfait (était + participle) for the earlier action; partir uses être.",
   "explain_ru": "Plus-que-parfait (était + причастие) — более раннее действие; partir — с être.",
-  "id": "g015"
+  "id": "g013"
  },
  {
   "kind": "form",
@@ -205,7 +179,7 @@
   "tr_ru": "Когда приехала полиция, грабители уже сбежали.",
   "explain_en": "Plus-que-parfait of a pronominal verb; participle enfui agrees with cambrioleurs: enfuis.",
   "explain_ru": "Plus-que-parfait возвратного глагола; причастие enfui согласуется с cambrioleurs: enfuis.",
-  "id": "g016"
+  "id": "g014"
  },
  {
   "kind": "form",
@@ -218,7 +192,7 @@
   "tr_ru": "На твоём месте я бы этого не делал: это слишком опасно.",
   "explain_en": "À ta place (= if I were you) calls for the conditional: je ferais.",
   "explain_ru": "À ta place («на твоём месте») требует conditionnel: je ferais.",
-  "id": "g017"
+  "id": "g015"
  },
  {
   "kind": "form",
@@ -231,7 +205,7 @@
   "tr_ru": "Если бы мы жили в Париже, мы бы ходили в театр гораздо чаще.",
   "explain_en": "Conditional of aller uses the future stem ir-: nous irions.",
   "explain_ru": "Conditionnel от aller строится на основе будущего ir-: nous irions.",
-  "id": "g018"
+  "id": "g016"
  },
  {
   "kind": "form",
@@ -244,7 +218,7 @@
   "tr_ru": "Если бы ты меня предупредил, я бы приехал за тобой на вокзал.",
   "explain_en": "Si + plus-que-parfait → conditionnel passé; venir uses être: je serais venu.",
   "explain_ru": "Si + plus-que-parfait → conditionnel passé; venir — с être: je serais venu.",
-  "id": "g019"
+  "id": "g017"
  },
  {
   "kind": "form",
@@ -257,7 +231,7 @@
   "tr_ru": "Тебе следовало сказать мне раньше: теперь уже поздно!",
   "explain_en": "Aurais dû + infinitive = should have (reproach).",
   "explain_ru": "Aurais dû + инфинитив — «следовало бы» (упрёк).",
-  "id": "g020"
+  "id": "g018"
  },
  {
   "kind": "form",
@@ -270,7 +244,7 @@
   "tr_ru": "Я бы хотел прийти на твой праздник, но у меня была температура сорок.",
   "explain_en": "Conditionnel passé of vouloir: j'aurais voulu (a regret).",
   "explain_ru": "Conditionnel passé от vouloir: j'aurais voulu (сожаление).",
-  "id": "g021"
+  "id": "g019"
  },
  {
   "kind": "form",
@@ -283,7 +257,7 @@
   "tr_ru": "Если бы ты занимался регулярнее, у тебя были бы оценки получше.",
   "explain_en": "Si + imparfait (never conditional after si) → conditionnel in the main clause.",
   "explain_ru": "После si — imparfait (никогда conditionnel), в главном — conditionnel. В русском «бы» в обеих частях.",
-  "id": "g022"
+  "id": "g020"
  },
  {
   "kind": "form",
@@ -296,7 +270,7 @@
   "tr_ru": "Если завтра будет хорошая погода, мы поедем на пикник к озеру.",
   "explain_en": "Real condition: si + présent → futur. Never the future after si.",
   "explain_ru": "Реальное условие: si + présent → futur; после si будущее время не ставится (в русском — «будет»).",
-  "id": "g023"
+  "id": "g021"
  },
  {
   "kind": "form",
@@ -309,7 +283,7 @@
   "tr_ru": "Вчера Поль сказал мне, что слишком устал, чтобы куда-то идти.",
   "explain_en": "Reported speech after a past verb: present becomes imparfait (il était).",
   "explain_ru": "Косвенная речь после глагола в прошедшем: présent → imparfait (il était). В русском время не меняется.",
-  "id": "g024"
+  "id": "g022"
  },
  {
   "kind": "form",
@@ -322,7 +296,7 @@
   "tr_ru": "Она спросила, смогу ли я помочь ей с переездом на следующий день.",
   "explain_en": "Indirect question in the past: present → imparfait (je pouvais).",
   "explain_ru": "Косвенный вопрос в прошлом: présent → imparfait (je pouvais), хотя по-русски «смогу».",
-  "id": "g025"
+  "id": "g023"
  },
  {
   "kind": "form",
@@ -335,7 +309,7 @@
   "tr_ru": "Он обещал, что вернётся на следующий день, но больше его никто не видел.",
   "explain_en": "Future in the past = conditionnel: il reviendrait.",
   "explain_ru": "Будущее в прошлом = conditionnel: il reviendrait (по-русски «вернётся»).",
-  "id": "g026"
+  "id": "g024"
  },
  {
   "kind": "form",
@@ -348,7 +322,7 @@
   "tr_ru": "Этот дом был построен в 1850 году моим прадедом.",
   "explain_en": "Passive: être + participle agreeing with the subject (maison, feminine): construite.",
   "explain_ru": "Пассив: être + причастие, согласованное с подлежащим (maison, ж. р.): construite.",
-  "id": "g027"
+  "id": "g025"
  },
  {
   "kind": "form",
@@ -361,20 +335,7 @@
   "tr_ru": "Двое подозреваемых были задержаны вчера вечером возле вокзала.",
   "explain_en": "Passive participle agrees with the plural subject: interpellés.",
   "explain_ru": "Причастие в пассиве согласуется с подлежащим во мн. ч.: interpellés.",
-  "id": "g028"
- },
- {
-  "kind": "form",
-  "text": "Ces lettres d'amour ont été ___ par Victor Hugo à Juliette Drouet.",
-  "answer": [
-   "écrites"
-  ],
-  "lemma": "écrire",
-  "tr_en": "These love letters were written by Victor Hugo to Juliette Drouet.",
-  "tr_ru": "Эти любовные письма были написаны Виктором Гюго Жюльетте Друэ.",
-  "explain_en": "Passive with écrire: écrit + es to agree with lettres.",
-  "explain_ru": "Пассив от écrire: écrit + es (согласование с lettres).",
-  "id": "g029"
+  "id": "g026"
  },
  {
   "kind": "form",
@@ -387,7 +348,7 @@
   "tr_ru": "Он сломал ногу, катаясь на лыжах в Альпах.",
   "explain_en": "Gérondif = en + present participle; faire → faisant (from nous faisons).",
   "explain_ru": "Gérondif = en + participe présent; faire → faisant (от nous faisons); по-русски деепричастие.",
-  "id": "g030"
+  "id": "g027"
  },
  {
   "kind": "form",
@@ -400,7 +361,7 @@
   "tr_ru": "Вчера вечером я случайно встретил его, выходя из офиса.",
   "explain_en": "Gérondif of sortir: en sortant (from nous sortons).",
   "explain_ru": "Gérondif от sortir: en sortant (от nous sortons).",
-  "id": "g031"
+  "id": "g028"
  },
  {
   "kind": "form",
@@ -413,7 +374,7 @@
   "tr_ru": "Не разговаривай с набитым ртом, это очень невежливо!",
   "explain_en": "Gérondif of manger keeps the e before -ant: mangeant.",
   "explain_ru": "Gérondif от manger сохраняет e перед -ant: mangeant.",
-  "id": "g032"
+  "id": "g029"
  },
  {
   "kind": "form",
@@ -426,7 +387,7 @@
   "tr_ru": "Будучи больным, он не пришёл на совещание в понедельник.",
   "explain_en": "The present participle of être is irregular: étant (expresses cause).",
   "explain_ru": "Participe présent от être неправильный: étant (выражает причину, «будучи»).",
-  "id": "g033"
+  "id": "g030"
  },
  {
   "kind": "form",
@@ -439,7 +400,7 @@
   "tr_ru": "Пассажиры, имеющие электронный билет, могут проходить на посадку сразу.",
   "explain_en": "Present participle of avoir: ayant; it replaces qui ont.",
   "explain_ru": "Participe présent от avoir: ayant (= qui ont, «имеющие»).",
-  "id": "g034"
+  "id": "g031"
  },
  {
   "kind": "form",
@@ -452,7 +413,7 @@
   "tr_ru": "Вот причина, по которой я уволился.",
   "explain_en": "After a preposition, lequel agrees with the antecedent: raison is feminine → laquelle.",
   "explain_ru": "После предлога lequel согласуется с антецедентом: raison — ж. р. → laquelle.",
-  "id": "g035"
+  "id": "g032"
  },
  {
   "kind": "form",
@@ -465,7 +426,7 @@
   "tr_ru": "Друзья, с которыми я еду в отпуск, очень весёлые.",
   "explain_en": "Avec + lequel agreeing with amis (masculine plural): lesquels.",
   "explain_ru": "Avec + lequel, согласование с amis (м. р. мн. ч.): lesquels.",
-  "id": "g036"
+  "id": "g033"
  },
  {
   "kind": "form",
@@ -478,7 +439,7 @@
   "tr_ru": "Это проект, которым я очень дорожу.",
   "explain_en": "Tenir à: à + lequel contracts to auquel.",
   "explain_ru": "Tenir à: à + lequel сливается в auquel.",
-  "id": "g037"
+  "id": "g034"
  },
  {
   "kind": "form",
@@ -491,20 +452,7 @@
   "tr_ru": "Решения, которые принял директор, очень смелые.",
   "explain_en": "The participle agrees with the preceding direct object que (= décisions, feminine plural): prises.",
   "explain_ru": "Причастие согласуется с предшествующим прямым дополнением que (= décisions, ж. р. мн. ч.): prises.",
-  "id": "g038"
- },
- {
-  "kind": "form",
-  "text": "Il faudrait que nous ___ plus tôt demain pour éviter les bouchons.",
-  "answer": [
-   "partions"
-  ],
-  "lemma": "partir",
-  "tr_en": "We ought to leave earlier tomorrow to avoid the traffic jams.",
-  "tr_ru": "Нам надо бы выехать завтра пораньше, чтобы избежать пробок.",
-  "explain_en": "Il faudrait que + subjunctive: que nous partions.",
-  "explain_ru": "После il faudrait que нужен subjonctif: que nous partions («чтобы мы выехали»).",
-  "id": "g039"
+  "id": "g035"
  },
  {
   "kind": "form",
@@ -517,7 +465,7 @@
   "tr_ru": "Возьми зонт: возможно, днём пойдёт дождь.",
   "explain_en": "Il est possible que + subjunctive; pleuvoir: qu'il pleuve.",
   "explain_ru": "После il est possible que нужен subjonctif; от pleuvoir — qu'il pleuve, хотя по-русски «возможно, пойдёт».",
-  "id": "g040"
+  "id": "g036"
  },
  {
   "kind": "form",
@@ -530,7 +478,7 @@
   "tr_ru": "Я боюсь, что она не сдаст экзамен: она ничего не повторяла.",
   "explain_en": "Avoir peur que + subjunctive; réussir: qu'elle réussisse.",
   "explain_ru": "После avoir peur que нужен subjonctif: qu'elle réussisse; по-русски «боюсь, что не сдаст».",
-  "id": "g041"
+  "id": "g037"
  },
  {
   "kind": "form",
@@ -543,7 +491,7 @@
   "tr_ru": "Если бы у меня было больше свободного времени, я бы научился играть на пианино.",
   "explain_en": "Si + imparfait → conditionnel présent: j'apprendrais.",
   "explain_ru": "Схема «si + imparfait → conditionnel présent»: j'apprendrais («я бы научился»).",
-  "id": "g042"
+  "id": "g038"
  },
  {
   "kind": "form",
@@ -556,7 +504,7 @@
   "tr_ru": "Мы ждём уже несколько месяцев: пора принять решение.",
   "explain_en": "Il est temps que + subjunctive: que nous prenions.",
   "explain_ru": "После il est temps que («пора») нужен subjonctif: que nous prenions.",
-  "id": "g043"
+  "id": "g039"
  },
  {
   "kind": "form",
@@ -569,7 +517,7 @@
   "tr_ru": "Мне очень жаль, что вы не сможете прийти на нашу свадьбу.",
   "explain_en": "Regretter que + subjunctive; pouvoir: que vous puissiez.",
   "explain_ru": "Сожаление (regretter que) требует subjonctif: que vous puissiez.",
-  "id": "g044"
+  "id": "g040"
  },
  {
   "kind": "word",
@@ -584,7 +532,7 @@
   "tr_ru": "После бурной ссоры Жюли порвала со своим парнем: между ними всё кончено.",
   "explain_en": "Rompre avec quelqu'un = end a relationship; irregular participle rompu.",
   "explain_ru": "Rompre avec — «порвать с кем-то»; причастие rompu.",
-  "id": "g045"
+  "id": "g041"
  },
  {
   "kind": "word",
@@ -599,7 +547,7 @@
   "tr_ru": "Через два года молчания братья наконец помирились.",
   "explain_en": "Se réconcilier = make peace; participle agrees with frères: réconciliés.",
   "explain_ru": "Se réconcilier — «помириться»; причастие согласуется с frères: réconciliés.",
-  "id": "g046"
+  "id": "g042"
  },
  {
   "kind": "word",
@@ -614,7 +562,7 @@
   "tr_ru": "Он никогда не забывает обид и ничего не прощает: он очень злопамятный.",
   "explain_en": "Rancunier (from rancune, grudge) = resentful.",
   "explain_ru": "Rancunier (от rancune, «обида») — «злопамятный».",
-  "id": "g047"
+  "id": "g043"
  },
  {
   "kind": "word",
@@ -629,7 +577,7 @@
   "tr_ru": "Он всем рассказывает, что он лучший игрок клуба: ну и хвастун!",
   "explain_en": "Vantard (from se vanter) = boaster.",
   "explain_ru": "Vantard (от se vanter) — «хвастун».",
-  "id": "g048"
+  "id": "g044"
  },
  {
   "kind": "word",
@@ -644,7 +592,7 @@
   "tr_ru": "Она всегда находит выход, даже без денег и помощи: она очень находчивая.",
   "explain_en": "Débrouillard (from se débrouiller, manage) = resourceful; feminine débrouillarde.",
   "explain_ru": "Débrouillard (от se débrouiller, «выкручиваться») — «находчивый»; ж. р. débrouillarde.",
-  "id": "g049"
+  "id": "g045"
  },
  {
   "kind": "word",
@@ -659,52 +607,7 @@
   "tr_ru": "Он всегда говорит, что думает, даже если это ранит: он очень прямолинейный.",
   "explain_en": "Franc = frank; feminine franche.",
   "explain_ru": "Franc — «откровенный, прямой»; ж. р. franche.",
-  "id": "g050"
- },
- {
-  "kind": "word",
-  "text": "Il fait tomber tout ce qu'il touche : il est vraiment ___.",
-  "answer": [
-   "maladroit"
-  ],
-  "ref": "maladroit",
-  "clue_en": "clumsy",
-  "clue_ru": "неуклюжий",
-  "tr_en": "He drops everything he touches: he's really clumsy.",
-  "tr_ru": "Он роняет всё, к чему прикасается: он ужасно неуклюжий.",
-  "explain_en": "Maladroit = clumsy (the opposite of adroit).",
-  "explain_ru": "Maladroit — «неуклюжий, неловкий».",
-  "id": "g051"
- },
- {
-  "kind": "word",
-  "text": "Mon voisin est très ___ : il m'aide toujours à monter mes courses.",
-  "answer": [
-   "serviable"
-  ],
-  "ref": "serviable",
-  "clue_en": "helpful, obliging",
-  "clue_ru": "услужливый",
-  "tr_en": "My neighbour is very helpful: he always helps me carry my shopping upstairs.",
-  "tr_ru": "Мой сосед очень услужливый: всегда помогает мне донести покупки наверх.",
-  "explain_en": "Serviable = always ready to help (from service).",
-  "explain_ru": "Serviable — «услужливый, отзывчивый».",
-  "id": "g052"
- },
- {
-  "kind": "word",
-  "text": "En revoyant les photos de son enfance, elle a ressenti une grande ___.",
-  "answer": [
-   "nostalgie"
-  ],
-  "ref": "la nostalgie",
-  "clue_en": "longing for the past",
-  "clue_ru": "тоска по прошлому",
-  "tr_en": "Looking at her childhood photos again, she felt great nostalgia.",
-  "tr_ru": "Пересматривая детские фотографии, она почувствовала сильную ностальгию.",
-  "explain_en": "La nostalgie = longing for the past.",
-  "explain_ru": "La nostalgie — «тоска по прошлому».",
-  "id": "g053"
+  "id": "g046"
  },
  {
   "kind": "word",
@@ -719,7 +622,7 @@
   "tr_ru": "Услышав шутку, он расхохотался посреди совещания.",
   "explain_en": "Éclater de rire = burst out laughing; participle éclaté.",
   "explain_ru": "Éclater de rire — «расхохотаться»; причастие éclaté.",
-  "id": "g054"
+  "id": "g047"
  },
  {
   "kind": "word",
@@ -734,7 +637,7 @@
   "tr_ru": "Она покраснела до ушей, когда он сделал ей комплимент при всех.",
   "explain_en": "Rougir (from rouge) = blush; participle rougi.",
   "explain_ru": "Rougir (от rouge) — «краснеть»; причастие rougi.",
-  "id": "g055"
+  "id": "g048"
  },
  {
   "kind": "word",
@@ -749,7 +652,7 @@
   "tr_ru": "Его постоянные замечания начинают меня всерьёз раздражать.",
   "explain_en": "Agacer = irritate; infinitive after commencer à.",
   "explain_ru": "Agacer — «раздражать»; инфинитив после commencer à.",
-  "id": "g056"
+  "id": "g049"
  },
  {
   "kind": "word",
@@ -764,22 +667,7 @@
   "tr_ru": "Под раковиной протечка: по всей кухне вода!",
   "explain_en": "La fuite = leak (also escape).",
   "explain_ru": "La fuite — «протечка» (а также «бегство»).",
-  "id": "g057"
- },
- {
-  "kind": "word",
-  "text": "Pour accrocher ce tableau, passe-moi le marteau et un ___.",
-  "answer": [
-   "clou"
-  ],
-  "ref": "le clou",
-  "clue_en": "nail",
-  "clue_ru": "гвоздь",
-  "tr_en": "To hang this picture, pass me the hammer and a nail.",
-  "tr_ru": "Чтобы повесить эту картину, подай мне молоток и гвоздь.",
-  "explain_en": "With a hammer you use un clou; une vis needs a screwdriver.",
-  "explain_ru": "Молоток — для гвоздя (le clou); для шурупа (la vis) нужен tournevis.",
-  "id": "g058"
+  "id": "g050"
  },
  {
   "kind": "word",
@@ -794,7 +682,7 @@
   "tr_ru": "Хозяин держит залог в размере двухмесячной платы до моего отъезда.",
   "explain_en": "La caution = rental deposit (false friend with English 'caution').",
   "explain_ru": "La caution — «залог» при аренде.",
-  "id": "g059"
+  "id": "g051"
  },
  {
   "kind": "word",
@@ -809,22 +697,7 @@
   "tr_ru": "Между едой я ничего не ем, кроме вечера: у телевизора тянет что-нибудь пожевать.",
   "explain_en": "Grignoter = eat small amounts between meals.",
   "explain_ru": "Grignoter — «перекусывать, жевать понемногу».",
-  "id": "g060"
- },
- {
-  "kind": "word",
-  "text": "Ne mange pas ce yaourt : la date est passée depuis une semaine, il est ___.",
-  "answer": [
-   "périmé"
-  ],
-  "ref": "périmé",
-  "clue_en": "out of date",
-  "clue_ru": "просроченный",
-  "tr_en": "Don't eat that yoghurt: the date passed a week ago, it's out of date.",
-  "tr_ru": "Не ешь этот йогурт: срок вышел неделю назад, он просрочен.",
-  "explain_en": "Périmé = past its use-by date.",
-  "explain_ru": "Périmé — «просроченный».",
-  "id": "g061"
+  "id": "g052"
  },
  {
   "kind": "word",
@@ -839,7 +712,7 @@
   "tr_ru": "Я на диете с января: без сахара, без белого хлеба.",
   "explain_en": "Être au régime = be on a diet (le régime also means a political regime).",
   "explain_ru": "Être au régime — «сидеть на диете» (régime — также «режим»).",
-  "id": "g062"
+  "id": "g053"
  },
  {
   "kind": "word",
@@ -854,7 +727,7 @@
   "tr_ru": "Это кассуле очень сытное: после него я не голоден до вечера.",
   "explain_en": "Copieux = generous in quantity (a copious meal).",
   "explain_ru": "Copieux — «обильный, сытный».",
-  "id": "g063"
+  "id": "g054"
  },
  {
   "kind": "word",
@@ -869,7 +742,7 @@
   "tr_ru": "Он весь день работает сидя и не занимается спортом: его образ жизни слишком малоподвижный.",
   "explain_en": "Sédentaire = with little physical activity.",
   "explain_ru": "Sédentaire — «малоподвижный, сидячий».",
-  "id": "g064"
+  "id": "g055"
  },
  {
   "kind": "word",
@@ -884,7 +757,7 @@
   "tr_ru": "Сейчас я сплю по два-три часа: у меня бессонница.",
   "explain_en": "L'insomnie = inability to sleep; souffrir de + noun without article.",
   "explain_ru": "L'insomnie — «бессонница»; souffrir d' + существительное без артикля.",
-  "id": "g065"
+  "id": "g056"
  },
  {
   "kind": "word",
@@ -899,7 +772,7 @@
   "tr_ru": "После гриппа ему понадобился месяц, чтобы полностью поправиться.",
   "explain_en": "Se remettre (de) = recover from illness or a shock.",
   "explain_ru": "Se remettre (de) — «оправиться, поправиться».",
-  "id": "g066"
+  "id": "g057"
  },
  {
   "kind": "word",
@@ -914,7 +787,7 @@
   "tr_ru": "Я совсем не соображаю из-за смены часовых поясов: для меня сейчас три часа ночи.",
   "explain_en": "Le décalage horaire = time difference and the jet lag it causes.",
   "explain_ru": "Le décalage horaire — «разница во времени, джетлаг».",
-  "id": "g067"
+  "id": "g058"
  },
  {
   "kind": "word",
@@ -929,7 +802,7 @@
   "tr_ru": "В июле и августе высокий сезон: цены на отели удваиваются.",
   "explain_en": "La haute saison = the busiest, most expensive period.",
   "explain_ru": "La haute saison — «высокий сезон».",
-  "id": "g068"
+  "id": "g059"
  },
  {
   "kind": "word",
@@ -944,7 +817,7 @@
   "tr_ru": "Мон-Сен-Мишель — место, которое нельзя пропустить: невозможно побывать в Нормандии и не увидеть его.",
   "explain_en": "Incontournable (literally 'impossible to go around') = essential, must-see.",
   "explain_ru": "Incontournable (букв. «который нельзя обойти») — «обязательный, непременный».",
-  "id": "g069"
+  "id": "g060"
  },
  {
   "kind": "word",
@@ -959,7 +832,7 @@
   "tr_ru": "Грузовик ехал слишком медленно, и я обогнал его на автостраде.",
   "explain_en": "Doubler on the road = overtake (not 'double').",
   "explain_ru": "Doubler на дороге — «обгонять» (а не «удваивать»).",
-  "id": "g070"
+  "id": "g061"
  },
  {
   "kind": "word",
@@ -974,7 +847,7 @@
   "tr_ru": "Машина передо мной резко остановилась, и мне пришлось сильно затормозить.",
   "explain_en": "Freiner = brake (from le frein).",
   "explain_ru": "Freiner — «тормозить» (от le frein).",
-  "id": "g071"
+  "id": "g062"
  },
  {
   "kind": "word",
@@ -989,7 +862,7 @@
   "tr_ru": "Он ехал по городу со скоростью 150 км/ч: получил штраф в 300 евро.",
   "explain_en": "L'amende = a fine (feminine).",
   "explain_ru": "L'amende — «штраф» (ж. р., в русском — м. р.).",
-  "id": "g072"
+  "id": "g063"
  },
  {
   "kind": "word",
@@ -1004,7 +877,7 @@
   "tr_ru": "Его никто не увольнял: он сам ушёл, чтобы уехать жить в Канаду.",
   "explain_en": "Démissionner = leave one's job voluntarily; licencier = dismiss someone.",
   "explain_ru": "Démissionner — «уволиться самому»; licencier — «уволить кого-то». Русское «уволиться» покрывает оба.",
-  "id": "g073"
+  "id": "g064"
  },
  {
   "kind": "word",
@@ -1019,7 +892,7 @@
   "tr_ru": "Из-за кризиса завод уволит двести сотрудников.",
   "explain_en": "Licencier = the employer ends the contract; démissionner is the employee's decision.",
   "explain_ru": "Licencier — увольняет работодатель; démissionner — решение самого работника.",
-  "id": "g074"
+  "id": "g065"
  },
  {
   "kind": "word",
@@ -1034,7 +907,7 @@
   "tr_ru": "После пандемии я два дня в неделю работаю на удалёнке, с кухни.",
   "explain_en": "Le télétravail = working remotely.",
   "explain_ru": "Le télétravail — «удалённая работа».",
-  "id": "g075"
+  "id": "g066"
  },
  {
   "kind": "word",
@@ -1049,7 +922,7 @@
   "tr_ru": "Я потратил больше, чем было: на счёте минус двести евро.",
   "explain_en": "Être à découvert = be overdrawn.",
   "explain_ru": "Être à découvert — «уйти в минус по счёту».",
-  "id": "g076"
+  "id": "g067"
  },
  {
   "kind": "word",
@@ -1064,7 +937,7 @@
   "tr_ru": "Чтобы оплатить аренду, я каждое первое число делаю перевод хозяину.",
   "explain_en": "Le virement = bank transfer; le prélèvement is a direct debit taken by the creditor.",
   "explain_ru": "Le virement — «перевод» (делаю я); le prélèvement — автосписание.",
-  "id": "g077"
+  "id": "g068"
  },
  {
   "kind": "word",
@@ -1079,22 +952,7 @@
   "tr_ru": "Брат одолжил мне тысячу евро, и я должен вернуть ему долг до конца года.",
   "explain_en": "Rembourser quelqu'un = pay someone back.",
   "explain_ru": "Rembourser — «вернуть деньги, возместить».",
-  "id": "g078"
- },
- {
-  "kind": "word",
-  "text": "Il a copié trois pages d'internet dans son mémoire sans les citer : c'est du ___.",
-  "answer": [
-   "plagiat"
-  ],
-  "ref": "le plagiat",
-  "clue_en": "plagiarism",
-  "clue_ru": "плагиат",
-  "tr_en": "He copied three pages from the internet into his dissertation without citing them: that's plagiarism.",
-  "tr_ru": "Он скопировал три страницы из интернета в свою дипломную, не ссылаясь: это плагиат.",
-  "explain_en": "Le plagiat = copying someone else's work.",
-  "explain_ru": "Le plagiat — «плагиат».",
-  "id": "g079"
+  "id": "g069"
  },
  {
   "kind": "word",
@@ -1109,7 +967,7 @@
   "tr_ru": "В этом году он не набрал средний балл: ему придётся остаться на второй год в десятом классе.",
   "explain_en": "Redoubler = repeat a school year.",
   "explain_ru": "Redoubler — «остаться на второй год».",
-  "id": "g080"
+  "id": "g070"
  },
  {
   "kind": "word",
@@ -1124,7 +982,7 @@
   "tr_ru": "Дождя не было три месяца: засуха угрожает всему урожаю.",
   "explain_en": "La sécheresse (from sec) = drought.",
   "explain_ru": "La sécheresse (от sec) — «засуха».",
-  "id": "g081"
+  "id": "g071"
  },
  {
   "kind": "word",
@@ -1139,22 +997,7 @@
   "tr_ru": "Мой компьютер опять завис посреди работы: я всё потерял!",
   "explain_en": "Planter (informal) = crash, of a computer or program.",
   "explain_ru": "Planter (разг.) — «зависнуть, упасть» о компьютере.",
-  "id": "g082"
- },
- {
-  "kind": "word",
-  "text": "N'oublie pas de ___ ton document avant d'éteindre l'ordinateur.",
-  "answer": [
-   "sauvegarder"
-  ],
-  "ref": "sauvegarder",
-  "clue_en": "save (a file)",
-  "clue_ru": "сохранять",
-  "tr_en": "Don't forget to save your document before switching off the computer.",
-  "tr_ru": "Не забудь сохранить документ, прежде чем выключить компьютер.",
-  "explain_en": "Sauvegarder = save a file (not 'garder').",
-  "explain_ru": "Sauvegarder — «сохранить» файл.",
-  "id": "g083"
+  "id": "g072"
  },
  {
   "kind": "word",
@@ -1169,22 +1012,7 @@
   "tr_ru": "Во время отпуска к нам залезли воры: это вторая кража со взломом за год.",
   "explain_en": "Le cambriolage = breaking into a home.",
   "explain_ru": "Le cambriolage — «кража со взломом».",
-  "id": "g084"
- },
- {
-  "kind": "word",
-  "text": "Le seul ___ de l'accident est un cycliste qui a tout vu.",
-  "answer": [
-   "témoin"
-  ],
-  "ref": "le témoin",
-  "clue_en": "witness",
-  "clue_ru": "свидетель",
-  "tr_en": "The only witness to the accident is a cyclist who saw everything.",
-  "tr_ru": "Единственный свидетель аварии — велосипедист, который всё видел.",
-  "explain_en": "Le témoin = witness (masculine even for a woman).",
-  "explain_ru": "Le témoin — «свидетель» (м. р. и для женщины).",
-  "id": "g085"
+  "id": "g073"
  },
  {
   "kind": "word",
@@ -1199,7 +1027,7 @@
   "tr_ru": "Извини, не могу пойти вечером: у меня работы невпроворот с этим проектом.",
   "explain_en": "Avoir du pain sur la planche (bread on the board) = have a lot of work ahead.",
   "explain_ru": "Avoir du pain sur la planche (букв. «хлеб на доске») — «работы невпроворот».",
-  "id": "g086"
+  "id": "g074"
  },
  {
   "kind": "word",
@@ -1214,7 +1042,7 @@
   "tr_ru": "Перед каждым концертом, даже после двадцати лет карьеры, у неё мандраж.",
   "explain_en": "Avoir le trac = suffer from stage nerves.",
   "explain_ru": "Avoir le trac — «волноваться перед выступлением».",
-  "id": "g087"
+  "id": "g075"
  },
  {
   "kind": "word",
@@ -1229,7 +1057,7 @@
   "tr_ru": "Не вмешивайся в мои дела: это моя жизнь, а не твоя!",
   "explain_en": "Se mêler de = interfere in; negative imperative: ne te mêle pas.",
   "explain_ru": "Se mêler de — «вмешиваться»; отрицательное повелительное: ne te mêle pas.",
-  "id": "g088"
+  "id": "g076"
  },
  {
   "kind": "word",
@@ -1244,7 +1072,7 @@
   "tr_ru": "Он часто врёт, поэтому я не доверяю его красивым обещаниям.",
   "explain_en": "Se méfier de = be suspicious of.",
   "explain_ru": "Se méfier de — «остерегаться, не доверять».",
-  "id": "g089"
+  "id": "g077"
  },
  {
   "kind": "word",
@@ -1259,7 +1087,7 @@
   "tr_ru": "Я совсем не ожидал от него такой бурной реакции.",
   "explain_en": "S'attendre à = expect (imparfait: je ne m'attendais pas).",
   "explain_ru": "S'attendre à — «ожидать»; в imparfait: je ne m'attendais pas.",
-  "id": "g090"
+  "id": "g078"
  },
  {
   "kind": "word",
@@ -1274,7 +1102,7 @@
   "tr_ru": "Этот фильм меня сильно разочаровал: после всех восторженных отзывов я ждал большего.",
   "explain_en": "Décevant = disappointing (décevoir is not 'deceive').",
   "explain_ru": "Décevant — «разочаровывающий» (décevoir — не «обманывать»).",
-  "id": "g091"
+  "id": "g079"
  },
  {
   "kind": "word",
@@ -1289,6 +1117,530 @@
   "tr_ru": "Этот свитер с оленями совсем старомодный: такое больше никто не носит!",
   "explain_en": "Ringard (informal) = outdated, uncool.",
   "explain_ru": "Ringard (разг.) — «старомодный, отстойный».",
+  "id": "g080"
+ },
+ {
+  "kind": "grammar",
+  "text": "Je suis sûr qu'il ___ raison, mais il ne veut pas l'admettre.",
+  "answer": [
+   "a"
+  ],
+  "section": "subjonctif-will-emotion-doubt",
+  "tr_en": "I'm sure he is right, but he won't admit it.",
+  "tr_ru": "Я уверен, что он прав, но он не хочет этого признать.",
+  "explain_en": "Certainty (je suis sûr que) takes the indicative: il a raison.",
+  "explain_ru": "Уверенность (je suis sûr que) требует изъявительного наклонения: il a raison.",
+  "id": "g081"
+ },
+ {
+  "kind": "grammar",
+  "text": "Je ne suis pas sûr qu'il ___ raison : vérifions encore une fois.",
+  "answer": [
+   "ait"
+  ],
+  "section": "subjonctif-will-emotion-doubt",
+  "tr_en": "I'm not sure he's right: let's check once more.",
+  "tr_ru": "Я не уверен, что он прав: давай проверим ещё раз.",
+  "explain_en": "Negated certainty expresses doubt and takes the subjunctive: qu'il ait.",
+  "explain_ru": "Отрицание уверенности выражает сомнение и требует subjonctif: qu'il ait.",
+  "id": "g082"
+ },
+ {
+  "kind": "grammar",
+  "text": "Je suis certaine que c'___ la bonne solution, crois-moi.",
+  "answer": [
+   "est"
+  ],
+  "section": "subjonctif-will-emotion-doubt",
+  "tr_en": "I'm certain it's the right solution, believe me.",
+  "tr_ru": "Я уверена, что это правильное решение, поверь мне.",
+  "explain_en": "Certainty → indicative: c'est (not soit).",
+  "explain_ru": "Уверенность → изъявительное наклонение: c'est (а не soit).",
+  "id": "g083"
+ },
+ {
+  "kind": "grammar",
+  "text": "Nous voulons que vous ___ prêts à partir à huit heures précises.",
+  "answer": [
+   "soyez"
+  ],
+  "section": "subjonctif-present-forms",
+  "tr_en": "We want you to be ready to leave at eight o'clock sharp.",
+  "tr_ru": "Мы хотим, чтобы вы были готовы выехать ровно в восемь.",
+  "explain_en": "Vouloir que + subjunctive of être: que vous soyez.",
+  "explain_ru": "Vouloir que + subjonctif от être: que vous soyez.",
+  "id": "g084"
+ },
+ {
+  "kind": "grammar",
+  "text": "Il faut que tu ___ ton passeport avec toi à la douane.",
+  "answer": [
+   "aies"
+  ],
+  "section": "subjonctif-present-forms",
+  "tr_en": "You must have your passport with you at customs.",
+  "tr_ru": "На таможне у тебя обязательно должен быть с собой паспорт.",
+  "explain_en": "Avoir in the subjunctive: que tu aies (with -s).",
+  "explain_ru": "Avoir в subjonctif: que tu aies (с -s).",
+  "id": "g085"
+ },
+ {
+  "kind": "grammar",
+  "text": "Je suis ravie que vous ___ pu venir malgré la grève.",
+  "answer": [
+   "ayez"
+  ],
+  "section": "subjonctif-will-emotion-doubt",
+  "tr_en": "I'm delighted that you were able to come despite the strike.",
+  "tr_ru": "Я очень рада, что вы смогли прийти, несмотря на забастовку.",
+  "explain_en": "Emotion + subjunctive; the auxiliary avoir in the subjunctive: que vous ayez pu.",
+  "explain_ru": "Эмоция + subjonctif; вспомогательный avoir в subjonctif: que vous ayez pu.",
+  "id": "g086"
+ },
+ {
+  "kind": "grammar",
+  "text": "Je t'explique encore une fois ___ tu comprennes bien.",
+  "answer": [
+   "pour que",
+   "afin que"
+  ],
+  "section": "subjonctif-conjunctions",
+  "tr_en": "I'll explain it once more so that you understand properly.",
+  "tr_ru": "Я объясню ещё раз, чтобы ты хорошо понял.",
+  "explain_en": "Purpose with a different subject: pour que / afin que + subjunctive.",
+  "explain_ru": "Цель при разных подлежащих: pour que / afin que + subjonctif («чтобы»).",
+  "id": "g087"
+ },
+ {
+  "kind": "grammar",
+  "text": "Rentrons vite ___ il pleuve !",
+  "answer": [
+   "avant qu'"
+  ],
+  "section": "subjonctif-conjunctions",
+  "tr_en": "Let's go home quickly before it rains!",
+  "tr_ru": "Скорее пойдём домой, пока не пошёл дождь!",
+  "explain_en": "Avant que + subjunctive; que elides before il.",
+  "explain_ru": "Avant que + subjonctif; que перед il → qu'. Русское «пока не» — с отрицанием.",
+  "id": "g088"
+ },
+ {
+  "kind": "grammar",
+  "text": "Je te prête ma voiture ___ tu me la rendes demain avec le plein.",
+  "answer": [
+   "à condition que"
+  ],
+  "section": "subjonctif-conjunctions",
+  "tr_en": "I'll lend you my car on condition that you give it back tomorrow with a full tank.",
+  "tr_ru": "Я одолжу тебе машину при условии, что ты вернёшь её завтра с полным баком.",
+  "explain_en": "À condition que + subjunctive (tu rendes).",
+  "explain_ru": "À condition que («при условии, что») + subjonctif.",
+  "id": "g089"
+ },
+ {
+  "kind": "grammar",
+  "text": "___ il soit très malade, il est venu travailler ce matin.",
+  "answer": [
+   "Bien qu'",
+   "Quoiqu'"
+  ],
+  "section": "subjonctif-conjunctions",
+  "tr_en": "Although he is very ill, he came to work this morning.",
+  "tr_ru": "Хотя он очень болен, он пришёл на работу сегодня утром.",
+  "explain_en": "Concession with the subjunctive (soit): bien que / quoique.",
+  "explain_ru": "Уступка с subjonctif (soit): bien que / quoique («хотя»).",
+  "id": "g090"
+ },
+ {
+  "kind": "grammar",
+  "text": "Je resterai ici ___ tu reviennes, même si ça prend des heures.",
+  "answer": [
+   "jusqu'à ce que"
+  ],
+  "section": "subjonctif-conjunctions",
+  "tr_en": "I'll stay here until you come back, even if it takes hours.",
+  "tr_ru": "Я останусь здесь, пока ты не вернёшься, даже если это займёт несколько часов.",
+  "explain_en": "Jusqu'à ce que (until) + subjunctive.",
+  "explain_ru": "Jusqu'à ce que («пока не, до тех пор пока») + subjonctif.",
+  "id": "g091"
+ },
+ {
+  "kind": "grammar",
+  "text": "Il est parti ___ je puisse lui dire au revoir.",
+  "answer": [
+   "sans que"
+  ],
+  "section": "subjonctif-conjunctions",
+  "tr_en": "He left without my being able to say goodbye to him.",
+  "tr_ru": "Он ушёл, а я даже не успел с ним попрощаться.",
+  "explain_en": "Sans que + subjunctive when the subjects differ.",
+  "explain_ru": "Sans que + subjonctif при разных подлежащих; в русском — другая конструкция.",
   "id": "g092"
+ },
+ {
+  "kind": "grammar",
+  "text": "Elle pleurait parce que son chat ___ mort la veille.",
+  "answer": [
+   "était"
+  ],
+  "section": "plus-que-parfait-narration",
+  "tr_en": "She was crying because her cat had died the day before.",
+  "tr_ru": "Она плакала, потому что накануне умер её кот.",
+  "explain_en": "Mourir takes être, so its plus-que-parfait is était mort.",
+  "explain_ru": "Mourir спрягается с être, отсюда plus-que-parfait était mort.",
+  "id": "g093"
+ },
+ {
+  "kind": "grammar",
+  "text": "Il m'a enfin rendu le livre que je lui ___ prêté en janvier.",
+  "answer": [
+   "avais"
+  ],
+  "section": "plus-que-parfait-narration",
+  "tr_en": "He finally gave me back the book I had lent him in January.",
+  "tr_ru": "Он наконец вернул мне книгу, которую я одолжил ему в январе.",
+  "explain_en": "The lending came before the returning: plus-que-parfait j'avais prêté.",
+  "explain_ru": "Одалживание было раньше возвращения: plus-que-parfait j'avais prêté.",
+  "id": "g094"
+ },
+ {
+  "kind": "grammar",
+  "text": "Nous ___ à peine sortis qu'il s'est mis à pleuvoir.",
+  "answer": [
+   "étions"
+  ],
+  "section": "plus-que-parfait-narration",
+  "tr_en": "We had barely gone out when it started to rain.",
+  "tr_ru": "Не успели мы выйти, как пошёл дождь.",
+  "explain_en": "À peine + plus-que-parfait; sortir uses être: nous étions sortis.",
+  "explain_ru": "À peine + plus-que-parfait; sortir — с être: nous étions sortis.",
+  "id": "g095"
+ },
+ {
+  "kind": "grammar",
+  "text": "Ils se ___ rencontrés à Rome deux ans plus tôt.",
+  "answer": [
+   "étaient"
+  ],
+  "section": "plus-que-parfait-narration",
+  "tr_en": "They had met in Rome two years earlier.",
+  "tr_ru": "Они познакомились в Риме двумя годами раньше.",
+  "explain_en": "Pronominal verbs use être: ils s'étaient rencontrés.",
+  "explain_ru": "Возвратные глаголы — с être: ils s'étaient rencontrés.",
+  "id": "g096"
+ },
+ {
+  "kind": "grammar",
+  "text": "Nous ___ aimé venir à ton mariage, mais nous étions à l'étranger.",
+  "answer": [
+   "aurions"
+  ],
+  "section": "conditionnel-present-passe",
+  "tr_en": "We would have liked to come to your wedding, but we were abroad.",
+  "tr_ru": "Мы бы с удовольствием пришли на твою свадьбу, но были за границей.",
+  "explain_en": "Conditionnel passé of aimer with nous: nous aurions aimé.",
+  "explain_ru": "Conditionnel passé от aimer с nous: nous aurions aimé.",
+  "id": "g097"
+ },
+ {
+  "kind": "grammar",
+  "text": "À ta place, je me ___ excusé tout de suite.",
+  "answer": [
+   "serais"
+  ],
+  "section": "conditionnel-present-passe",
+  "tr_en": "If I were you, I would have apologised straight away.",
+  "tr_ru": "На твоём месте я бы сразу извинился.",
+  "explain_en": "Pronominal verbs form the conditionnel passé with être: je me serais excusé.",
+  "explain_ru": "Возвратные глаголы образуют conditionnel passé с être: je me serais excusé.",
+  "id": "g098"
+ },
+ {
+  "kind": "grammar",
+  "text": "S'il n'___ pas plu tout le week-end, nous aurions pu camper.",
+  "answer": [
+   "avait"
+  ],
+  "section": "hypothesis-si",
+  "tr_en": "If it hadn't rained all weekend, we could have gone camping.",
+  "tr_ru": "Если бы не шёл дождь все выходные, мы могли бы пойти в поход.",
+  "explain_en": "Unreal past: si + plus-que-parfait (avait plu) → conditionnel passé.",
+  "explain_ru": "Нереальное прошлое: si + plus-que-parfait (avait plu) → conditionnel passé.",
+  "id": "g099"
+ },
+ {
+  "kind": "grammar",
+  "text": "Je sortirai ___ il pleut : j'ai besoin de prendre l'air.",
+  "answer": [
+   "même s'"
+  ],
+  "section": "hypothesis-si",
+  "tr_en": "I'll go out even if it rains: I need some fresh air.",
+  "tr_ru": "Я выйду, даже если пойдёт дождь: мне нужно подышать воздухом.",
+  "explain_en": "Même si = even if, followed by the indicative (present here).",
+  "explain_ru": "Même si — «даже если», с изъявительным наклонением (здесь présent).",
+  "id": "g100"
+ },
+ {
+  "kind": "grammar",
+  "text": "Prends mon numéro, au cas ___ tu aurais besoin d'aide.",
+  "answer": [
+   "où"
+  ],
+  "section": "hypothesis-si",
+  "tr_en": "Take my number, in case you need help.",
+  "tr_ru": "Возьми мой номер, на случай, если тебе понадобится помощь.",
+  "explain_en": "Au cas où + conditional.",
+  "explain_ru": "Au cas où («на случай, если») + conditionnel.",
+  "id": "g101"
+ },
+ {
+  "kind": "grammar",
+  "text": "Il m'a demandé ___ je faisais ce week-end.",
+  "answer": [
+   "ce que"
+  ],
+  "section": "discours-indirect",
+  "tr_en": "He asked me what I was doing this weekend.",
+  "tr_ru": "Он спросил меня, что я делаю в эти выходные.",
+  "explain_en": "Indirect question: qu'est-ce que becomes ce que.",
+  "explain_ru": "Косвенный вопрос: qu'est-ce que → ce que.",
+  "id": "g102"
+ },
+ {
+  "kind": "grammar",
+  "text": "Je ne sais pas ___ s'est passé hier soir : personne ne m'a rien dit.",
+  "answer": [
+   "ce qui"
+  ],
+  "section": "discours-indirect",
+  "tr_en": "I don't know what happened last night: nobody told me anything.",
+  "tr_ru": "Не знаю, что произошло вчера вечером: мне никто ничего не сказал.",
+  "explain_en": "Qu'est-ce qui (subject) becomes ce qui in indirect questions.",
+  "explain_ru": "Qu'est-ce qui (подлежащее) в косвенном вопросе → ce qui.",
+  "id": "g103"
+ },
+ {
+  "kind": "grammar",
+  "text": "Elle veut savoir ___ tu viens à la fête samedi.",
+  "answer": [
+   "si"
+  ],
+  "section": "discours-indirect",
+  "tr_en": "She wants to know whether you're coming to the party on Saturday.",
+  "tr_ru": "Она хочет знать, придёшь ли ты на праздник в субботу.",
+  "explain_en": "A yes/no question becomes si in indirect speech.",
+  "explain_ru": "Общий вопрос в косвенной речи вводится si («ли»).",
+  "id": "g104"
+ },
+ {
+  "kind": "grammar",
+  "text": "Le professeur nous a dit ___ fermer nos livres.",
+  "answer": [
+   "de"
+  ],
+  "section": "discours-indirect",
+  "tr_en": "The teacher told us to close our books.",
+  "tr_ru": "Учитель сказал нам закрыть книги.",
+  "explain_en": "An indirect command is dire de + infinitive.",
+  "explain_ru": "Косвенный приказ: dire de + инфинитив.",
+  "id": "g105"
+ },
+ {
+  "kind": "grammar",
+  "text": "Il m'a dit au téléphone qu'il viendrait le ___.",
+  "answer": [
+   "lendemain"
+  ],
+  "section": "discours-indirect",
+  "tr_en": "He told me on the phone that he would come the next day.",
+  "tr_ru": "Он сказал мне по телефону, что приедет на следующий день.",
+  "explain_en": "In reported speech demain becomes le lendemain.",
+  "explain_ru": "В косвенной речи demain → le lendemain.",
+  "id": "g106"
+ },
+ {
+  "kind": "grammar",
+  "text": "Elle m'a expliqué qu'elle avait vu le film la ___.",
+  "answer": [
+   "veille"
+  ],
+  "section": "discours-indirect",
+  "tr_en": "She explained to me that she had seen the film the day before.",
+  "tr_ru": "Она объяснила мне, что посмотрела фильм накануне.",
+  "explain_en": "In reported speech hier becomes la veille.",
+  "explain_ru": "В косвенной речи hier → la veille («накануне»).",
+  "id": "g107"
+ },
+ {
+  "kind": "grammar",
+  "text": "C'est le livre ___ je t'ai parlé hier soir.",
+  "answer": [
+   "dont"
+  ],
+  "section": "relative-pronouns",
+  "tr_en": "It's the book I told you about last night.",
+  "tr_ru": "Это книга, о которой я тебе говорил вчера вечером.",
+  "explain_en": "Parler de → the relative pronoun dont replaces de + noun.",
+  "explain_ru": "Parler de → dont заменяет de + существительное («о которой»).",
+  "id": "g108"
+ },
+ {
+  "kind": "grammar",
+  "text": "Le jour ___ je l'ai rencontrée, il pleuvait à verse.",
+  "answer": [
+   "où"
+  ],
+  "section": "relative-pronouns",
+  "tr_en": "The day I met her, it was pouring with rain.",
+  "tr_ru": "В тот день, когда я её встретил, лил дождь.",
+  "explain_en": "Où also replaces a time (le jour où), never quand.",
+  "explain_ru": "Où заменяет и время (le jour où), а не quand.",
+  "id": "g109"
+ },
+ {
+  "kind": "grammar",
+  "text": "___ m'énerve, c'est qu'il arrive toujours en retard.",
+  "answer": [
+   "Ce qui"
+  ],
+  "section": "relative-pronouns",
+  "tr_en": "What annoys me is that he's always late.",
+  "tr_ru": "Меня раздражает то, что он всегда опаздывает.",
+  "explain_en": "Ce qui = what (subject of m'énerve).",
+  "explain_ru": "Ce qui — «то, что» (подлежащее при m'énerve).",
+  "id": "g110"
+ },
+ {
+  "kind": "grammar",
+  "text": "Dis-moi ___ tu veux pour ton anniversaire.",
+  "answer": [
+   "ce que"
+  ],
+  "section": "relative-pronouns",
+  "tr_en": "Tell me what you want for your birthday.",
+  "tr_ru": "Скажи мне, что ты хочешь на день рождения.",
+  "explain_en": "Ce que = what (object of veux).",
+  "explain_ru": "Ce que — «то, что» (дополнение при veux).",
+  "id": "g111"
+ },
+ {
+  "kind": "grammar",
+  "text": "C'est un ami ___ je suis très fier.",
+  "answer": [
+   "dont"
+  ],
+  "section": "relative-pronouns",
+  "tr_en": "He's a friend I'm very proud of.",
+  "tr_ru": "Это друг, которым я очень горжусь.",
+  "explain_en": "Être fier de → dont.",
+  "explain_ru": "Être fier de → dont («которым»).",
+  "id": "g112"
+ },
+ {
+  "kind": "grammar",
+  "text": "Ce tableau a été peint ___ Claude Monet en 1872.",
+  "answer": [
+   "par"
+  ],
+  "section": "passive-alternatives",
+  "tr_en": "This painting was painted by Claude Monet in 1872.",
+  "tr_ru": "Эта картина была написана Клодом Моне в 1872 году.",
+  "explain_en": "The agent of an action in the passive is introduced by par.",
+  "explain_ru": "Деятель в пассиве вводится предлогом par (в русском — творительный падеж).",
+  "id": "g113"
+ },
+ {
+  "kind": "grammar",
+  "text": "Ce vin blanc ___ boit très frais, à huit degrés.",
+  "answer": [
+   "se"
+  ],
+  "section": "passive-alternatives",
+  "tr_en": "This white wine is drunk very cold, at eight degrees.",
+  "tr_ru": "Это белое вино пьют очень холодным, при восьми градусах.",
+  "explain_en": "Pronominal passive: se boire = to be drunk (as a rule).",
+  "explain_ru": "Возвратный пассив: se boire — «пьётся»; как русское «-ся».",
+  "id": "g114"
+ },
+ {
+  "kind": "grammar",
+  "text": "Il s'est ___ voler son portefeuille dans le métro.",
+  "answer": [
+   "fait"
+  ],
+  "section": "passive-alternatives",
+  "tr_en": "He had his wallet stolen on the metro.",
+  "tr_ru": "У него украли кошелёк в метро.",
+  "explain_en": "Se faire + infinitive = something happens to the subject; fait stays invariable.",
+  "explain_ru": "Se faire + инфинитив — «с ним что-то сделали»; fait не согласуется.",
+  "id": "g115"
+ },
+ {
+  "kind": "grammar",
+  "text": "La réunion de demain ___ annulée à cause de la grève.",
+  "answer": [
+   "sera"
+  ],
+  "section": "passive-alternatives",
+  "tr_en": "Tomorrow's meeting will be cancelled because of the strike.",
+  "tr_ru": "Завтрашнее совещание будет отменено из-за забастовки.",
+  "explain_en": "Future passive: être in the future (sera) + participle.",
+  "explain_ru": "Пассив в будущем: sera + причастие.",
+  "id": "g116"
+ },
+ {
+  "kind": "grammar",
+  "text": "Il écoute toujours la radio ___ conduisant.",
+  "answer": [
+   "en"
+  ],
+  "section": "gerondif-participe-connectors",
+  "tr_en": "He always listens to the radio while driving.",
+  "tr_ru": "Он всегда слушает радио за рулём.",
+  "explain_en": "Gérondif = en + present participle, for simultaneous actions.",
+  "explain_ru": "Gérondif = en + participe présent — одновременные действия (по-русски деепричастие).",
+  "id": "g117"
+ },
+ {
+  "kind": "grammar",
+  "text": "Il a raté son avion à ___ des embouteillages.",
+  "answer": [
+   "cause"
+  ],
+  "section": "gerondif-participe-connectors",
+  "tr_en": "He missed his plane because of the traffic jams.",
+  "tr_ru": "Он опоздал на самолёт из-за пробок.",
+  "explain_en": "À cause de introduces a negative cause; grâce à a positive one.",
+  "explain_ru": "À cause de — причина с плохим результатом; grâce à — с хорошим.",
+  "id": "g118"
+ },
+ {
+  "kind": "grammar",
+  "text": "J'ai réussi mon examen ___ à tes conseils : merci !",
+  "answer": [
+   "grâce"
+  ],
+  "section": "gerondif-participe-connectors",
+  "tr_en": "I passed my exam thanks to your advice: thank you!",
+  "tr_ru": "Я сдал экзамен благодаря твоим советам: спасибо!",
+  "explain_en": "Grâce à = thanks to (positive cause).",
+  "explain_ru": "Grâce à — «благодаря» (положительная причина).",
+  "id": "g119"
+ },
+ {
+  "kind": "grammar",
+  "text": "Il travaille du matin au soir ; ___, il ne gagne presque rien.",
+  "answer": [
+   "pourtant",
+   "cependant",
+   "toutefois"
+  ],
+  "section": "gerondif-participe-connectors",
+  "tr_en": "He works from morning to night; yet he earns almost nothing.",
+  "tr_ru": "Он работает с утра до вечера, и всё же почти ничего не зарабатывает.",
+  "explain_en": "Pourtant / cependant mark a contrast with what precedes.",
+  "explain_ru": "Pourtant / cependant — «однако, тем не менее».",
+  "id": "g120"
  }
 ]
