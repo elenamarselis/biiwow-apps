@@ -80,7 +80,7 @@
     {
      "title_en": "Wishes about the past",
      "title_ru": "Желания, относящиеся к прошлому",
-     "body_en": "A wish about something that can no longer change uses the past Konjunktiv II with doch, nur or doch nur. Two patterns are common: Wenn ich doch nur früher aufgestanden wäre! (verb at the end) and Wäre ich doch nur früher aufgestanden! (verb first). Both express regret, like Russian 'если бы только …' or 'зря я не …'.",
+     "body_en": "A wish about something that can no longer change uses the past Konjunktiv II with doch, nur or doch nur. Two patterns are common: Wenn ich doch nur früher aufgestanden wäre! (verb at the end) and Wäre ich doch nur früher aufgestanden! (verb first). Both express regret, like English 'if only …' or 'I wish I had …'.",
      "body_ru": "Желание о том, чего уже не изменить, выражают прошедшим конъюнктивом II с doch, nur или doch nur. Есть две модели: Wenn ich doch nur früher aufgestanden wäre! (глагол в конце) и Wäre ich doch nur früher aufgestanden! (глагол на первом месте). Обе выражают сожаление, как русское «если бы только …» или «жаль, что я не …». Частицы doch и nur здесь обязательны для естественного звучания.",
      "examples": [
       {
@@ -481,7 +481,12 @@
      "q": "„Wenn ich Zeit gehabt hätte, würde ich gekommen.“ is correct.",
      "answer": false,
      "explain_en": "würde + Partizip II is not a form. Correct: wäre ich gekommen.",
-     "explain_ru": "würde + Partizip II — такой формы нет. Правильно: wäre ich gekommen."
+     "explain_ru": "würde + Partizip II — такой формы нет. Правильно: wäre ich gekommen.",
+     "ui": {
+      "ru": {
+       "q": "Предложение „Wenn ich Zeit gehabt hätte, würde ich gekommen.“ правильное."
+      }
+     }
     },
     {
      "id": "e24",
@@ -489,7 +494,12 @@
      "q": "In the past Konjunktiv II you choose hätte or wäre the same way as haben or sein in the Perfekt.",
      "answer": true,
      "explain_en": "ich bin gegangen → ich wäre gegangen; ich habe gegessen → ich hätte gegessen.",
-     "explain_ru": "Верно: ich bin gegangen → ich wäre gegangen; ich habe gegessen → ich hätte gegessen."
+     "explain_ru": "Верно: ich bin gegangen → ich wäre gegangen; ich habe gegessen → ich hätte gegessen.",
+     "ui": {
+      "ru": {
+       "q": "В прошедшем Konjunktiv II hätte или wäre выбирают так же, как haben или sein в Perfekt."
+      }
+     }
     },
     {
      "id": "e25",
@@ -497,7 +507,12 @@
      "q": "„Er tut so, als ob er krank wäre“ and „Er tut so, als wäre er krank“ have different meanings.",
      "answer": false,
      "explain_en": "They mean the same; only the word order differs (als + verb directly).",
-     "explain_ru": "Значение одинаковое; различается только порядок слов (после als глагол сразу)."
+     "explain_ru": "Значение одинаковое; различается только порядок слов (после als глагол сразу).",
+     "ui": {
+      "ru": {
+       "q": "„Er tut so, als ob er krank wäre“ и „Er tut so, als wäre er krank“ имеют разное значение."
+      }
+     }
     },
     {
      "id": "e26",
@@ -545,7 +560,33 @@
        "Als ob ich es gewusst hätte!",
        "Как будто я это знал!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ich hätte es gewusst.",
+         "I would have known it."
+        ],
+        [
+         "Ich wäre gekommen.",
+         "I would have come."
+        ],
+        [
+         "Ich hätte kommen können.",
+         "I could have come."
+        ],
+        [
+         "Ich hätte kommen sollen.",
+         "I should have come."
+        ],
+        [
+         "Als ob ich es gewusst hätte!",
+         "As if I had known it!"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -673,7 +714,7 @@
     {
      "title_en": "Alternative 1: man",
      "title_ru": "Альтернатива 1: man",
-     "body_en": "In speech, the active sentence with man is often more natural than the passive: Man spricht hier Deutsch = Hier wird Deutsch gesprochen. man is always singular (verb in the er-form) and has the accusative einen and dative einem. It corresponds to the Russian indefinite-personal sentence without a subject: говорят, здесь курят.",
+     "body_en": "In speech, the active sentence with man is often more natural than the passive: Man spricht hier Deutsch = Hier wird Deutsch gesprochen. man is always singular (verb in the er-form) and has the accusative einen and dative einem. It corresponds to the Russian subjectless sentence with a 'they'-verb ('govoryat' – they say) and to English 'one' or 'people'.",
      "body_ru": "В устной речи активное предложение с man часто естественнее пассива: Man spricht hier Deutsch = Hier wird Deutsch gesprochen. man всегда в единственном числе (глагол в форме er), в аккузативе — einen, в дативе — einem. Это прямой аналог русского неопределённо-личного предложения без подлежащего: «здесь говорят по-немецки», «у нас так не делают». Только в немецком подлежащее man обязательно.",
      "examples": [
       {
@@ -874,7 +915,12 @@
      ],
      "answer": 3,
      "explain_en": "sein + Partizip II = Zustandspassiv (state).",
-     "explain_ru": "sein + Partizip II — пассив состояния."
+     "explain_ru": "sein + Partizip II — пассив состояния.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение описывает состояние, а не действие?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -902,7 +948,12 @@
      ],
      "answer": 1,
      "explain_en": "Here sein + zu expresses possibility: kann bedient werden.",
-     "explain_ru": "Здесь sein + zu выражает возможность: kann bedient werden."
+     "explain_ru": "Здесь sein + zu выражает возможность: kann bedient werden.",
+     "ui": {
+      "ru": {
+       "q": "„Das Gerät ist leicht zu bedienen“ означает:"
+      }
+     }
     },
     {
      "id": "e11",
@@ -1050,7 +1101,12 @@
      "q": "„Das Auto ist repariert geworden.“ is correct.",
      "answer": false,
      "explain_en": "Passive Perfekt uses worden: Das Auto ist repariert worden.",
-     "explain_ru": "В пассивном перфекте нужно worden: Das Auto ist repariert worden."
+     "explain_ru": "В пассивном перфекте нужно worden: Das Auto ist repariert worden.",
+     "ui": {
+      "ru": {
+       "q": "Предложение „Das Auto ist repariert geworden.“ правильное."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1058,7 +1114,12 @@
      "q": "„Die Bank ist geschlossen“ describes a state, not an action.",
      "answer": true,
      "explain_en": "sein + Partizip II is the Zustandspassiv.",
-     "explain_ru": "Верно: sein + Partizip II — пассив состояния."
+     "explain_ru": "Верно: sein + Partizip II — пассив состояния.",
+     "ui": {
+      "ru": {
+       "q": "„Die Bank ist geschlossen“ описывает состояние, а не действие."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1066,7 +1127,12 @@
      "q": "„Der Text lässt sich übersetzen“ means the same as „Der Text kann übersetzt werden“.",
      "answer": true,
      "explain_en": "sich lassen + infinitive = können + passive.",
-     "explain_ru": "Верно: sich lassen + инфинитив = können + пассив."
+     "explain_ru": "Верно: sich lassen + инфинитив = können + пассив.",
+     "ui": {
+      "ru": {
+       "q": "„Der Text lässt sich übersetzen“ означает то же, что „Der Text kann übersetzt werden“."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1088,7 +1154,29 @@
        "Die Tür lässt sich öffnen.",
        "Дверь можно открыть."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Die Tür wird geöffnet.",
+         "The door is being opened."
+        ],
+        [
+         "Die Tür ist geöffnet.",
+         "The door is open."
+        ],
+        [
+         "Die Tür ist geöffnet worden.",
+         "The door has been opened (by someone)."
+        ],
+        [
+         "Die Tür lässt sich öffnen.",
+         "The door can be opened."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1471,7 +1559,12 @@
      ],
      "answer": 0,
      "explain_en": "Infinitive stem könn- + -e = könne (könnte is Konjunktiv II).",
-     "explain_ru": "Основа könn- + -e = könne (könnte — это конъюнктив II)."
+     "explain_ru": "Основа könn- + -e = könne (könnte — это конъюнктив II).",
+     "ui": {
+      "ru": {
+       "q": "Какая форма — Konjunktiv I глагола „können“ для „er“?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -1620,7 +1713,12 @@
      "q": "In everyday spoken German, indirect speech is often expressed with dass + indicative.",
      "answer": true,
      "explain_en": "Er hat gesagt, dass er krank ist – normal in speech.",
-     "explain_ru": "Верно: Er hat gesagt, dass er krank ist — нормально для устной речи."
+     "explain_ru": "Верно: Er hat gesagt, dass er krank ist — нормально для устной речи.",
+     "ui": {
+      "ru": {
+       "q": "В разговорном немецком косвенную речь часто передают через dass + индикатив."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1628,7 +1726,12 @@
      "q": "„Er sagt, er sei müde“ means the speaker confirms that he is tired.",
      "answer": false,
      "explain_en": "Konjunktiv I only reports; the speaker does not confirm it.",
-     "explain_ru": "Конъюнктив I только передаёт слова; говорящий их не подтверждает."
+     "explain_ru": "Конъюнктив I только передаёт слова; говорящий их не подтверждает.",
+     "ui": {
+      "ru": {
+       "q": "„Er sagt, er sei müde“ означает, что говорящий подтверждает: он устал."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1636,7 +1739,12 @@
      "q": "The Konjunktiv I of „sein“ for „sie“ (they) is „seien“.",
      "answer": true,
      "explain_en": "sie seien – it differs from the indicative sie sind.",
-     "explain_ru": "Верно: sie seien — отличается от индикатива sie sind."
+     "explain_ru": "Верно: sie seien — отличается от индикатива sie sind.",
+     "ui": {
+      "ru": {
+       "q": "Konjunktiv I глагола „sein“ для „sie“ (они) — „seien“."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2013,7 +2121,12 @@
      ],
      "answer": 3,
      "explain_en": "Futur II (gewesen sein) = guess about the past.",
-     "explain_ru": "Futur II (gewesen sein) — догадка о прошлом."
+     "explain_ru": "Futur II (gewesen sein) — догадка о прошлом.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение выражает предположение о ПРОШЛОМ?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -2187,7 +2300,12 @@
      "q": "„Ich fahre morgen nach Berlin“ is correct even without werden.",
      "answer": true,
      "explain_en": "With a time word, the present tense is normal for the future.",
-     "explain_ru": "Верно: со словом времени настоящее время — нормальный способ выразить будущее."
+     "explain_ru": "Верно: со словом времени настоящее время — нормальный способ выразить будущее.",
+     "ui": {
+      "ru": {
+       "q": "„Ich fahre morgen nach Berlin“ правильно и без werden."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2195,7 +2313,12 @@
      "q": "„Er wird schon nach Hause gegangen haben.“ is correct.",
      "answer": false,
      "explain_en": "gehen takes sein: Er wird schon nach Hause gegangen sein.",
-     "explain_ru": "gehen образует перфект с sein: … gegangen sein."
+     "explain_ru": "gehen образует перфект с sein: … gegangen sein.",
+     "ui": {
+      "ru": {
+       "q": "Предложение „Er wird schon nach Hause gegangen haben.“ правильное."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2203,7 +2326,12 @@
      "q": "„Sie wird jetzt im Büro sein“ can express an assumption about the present.",
      "answer": true,
      "explain_en": "Futur I with jetzt = a guess about now.",
-     "explain_ru": "Верно: Futur I с jetzt — догадка о настоящем."
+     "explain_ru": "Верно: Futur I с jetzt — догадка о настоящем.",
+     "ui": {
+      "ru": {
+       "q": "„Sie wird jetzt im Büro sein“ может выражать предположение о настоящем."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2251,7 +2379,29 @@
        "Er wird müde.",
        "Он устаёт."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Er wird wohl schlafen.",
+         "He's probably sleeping."
+        ],
+        [
+         "Er wird wohl geschlafen haben.",
+         "He was probably sleeping."
+        ],
+        [
+         "Er wird morgen lange schlafen.",
+         "He will sleep late tomorrow."
+        ],
+        [
+         "Er wird müde.",
+         "He is getting tired."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2281,7 +2431,7 @@
    "id": "two-part-conjunctions",
    "title_en": "Two-part conjunctions",
    "title_ru": "Парные союзы",
-   "summary_en": "Two-part conjunctions link words or clauses in pairs: sowohl … als auch, weder … noch, entweder … oder, nicht nur … sondern auch, zwar … aber, je … desto. Most of them correspond closely to Russian pairs like как … так и, ни … ни, чем … тем.",
+   "summary_en": "Two-part conjunctions link words or clauses in pairs: sowohl … als auch, weder … noch, entweder … oder, nicht nur … sondern auch, zwar … aber, je … desto. Most of them correspond closely to English pairs like both … and, neither … nor, the more … the more.",
    "summary_ru": "Парные союзы соединяют слова или предложения попарно: sowohl … als auch, weder … noch, entweder … oder, nicht nur … sondern auch, zwar … aber, je … desto. Большинство из них близко соответствует русским парам «как … так и», «ни … ни», «чем … тем».",
    "rules": [
     {
@@ -2310,7 +2460,7 @@
     {
      "title_en": "weder … noch: neither … nor",
      "title_ru": "weder … noch: ни … ни",
-     "body_en": "weder … noch negates both elements. It already contains the negation, so do not add nicht or kein: Ich habe weder Zeit noch Geld (not 'keine Zeit'). This is a key difference from Russian, where 'ни … ни' goes together with 'не': у меня нет ни времени, ни денег. If weder starts the sentence, the verb follows directly: Weder habe ich Zeit noch Lust.",
+     "body_en": "weder … noch negates both elements. It already contains the negation, so do not add nicht or kein: Ich habe weder Zeit noch Geld (not 'keine Zeit'). This is a key difference from Russian, where 'ni … ni' is combined with an extra negation 'ne' (a double negative). It works like English neither … nor. If weder starts the sentence, the verb follows directly: Weder habe ich Zeit noch Lust.",
      "body_ru": "weder … noch отрицает оба элемента. Отрицание уже содержится в союзе, поэтому nicht или kein добавлять нельзя: Ich habe weder Zeit noch Geld (а не «keine Zeit»). Это главное отличие от русского, где «ни … ни» сочетается с «не»: «у меня нет ни времени, ни денег». В немецком двойное отрицание — ошибка. Если weder стоит в начале, глагол идёт сразу за ним: Weder habe ich Zeit noch Lust.",
      "examples": [
       {
@@ -2765,7 +2915,12 @@
      "q": "„Ich habe weder Hunger noch keinen Durst.“ is correct.",
      "answer": false,
      "explain_en": "weder … noch already negates; no kein: weder Hunger noch Durst.",
-     "explain_ru": "weder … noch уже содержит отрицание; kein не нужен: weder Hunger noch Durst."
+     "explain_ru": "weder … noch уже содержит отрицание; kein не нужен: weder Hunger noch Durst.",
+     "ui": {
+      "ru": {
+       "q": "Предложение „Ich habe weder Hunger noch keinen Durst.“ правильное."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2773,7 +2928,12 @@
      "q": "After „desto“ + comparative, the conjugated verb comes next.",
      "answer": true,
      "explain_en": "desto besser verstehe ich – verb before the subject.",
-     "explain_ru": "Верно: desto besser verstehe ich — глагол перед подлежащим."
+     "explain_ru": "Верно: desto besser verstehe ich — глагол перед подлежащим.",
+     "ui": {
+      "ru": {
+       "q": "После „desto“ + сравнительная степень сразу идёт спрягаемый глагол."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2781,7 +2941,12 @@
      "q": "„sowohl … als auch“ means 'either … or'.",
      "answer": false,
      "explain_en": "It means 'both … and'; 'either … or' is entweder … oder.",
-     "explain_ru": "Это «как … так и»; «или … или» — entweder … oder."
+     "explain_ru": "Это «как … так и»; «или … или» — entweder … oder.",
+     "ui": {
+      "ru": {
+       "q": "„sowohl … als auch“ означает «или … или»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2837,7 +3002,33 @@
        "je … desto",
        "чем … тем"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "sowohl … als auch",
+         "both … and"
+        ],
+        [
+         "weder … noch",
+         "neither … nor"
+        ],
+        [
+         "entweder … oder",
+         "either … or"
+        ],
+        [
+         "nicht nur … sondern auch",
+         "not only … but also"
+        ],
+        [
+         "je … desto",
+         "the more … the more"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2919,7 +3110,7 @@
     {
      "title_en": "indem: by doing",
      "title_ru": "indem: тем, что; путём",
-     "body_en": "indem describes the means or method: it answers wie? (how?). Man spart Energie, indem man das Licht ausschaltet. Both clauses usually have the same subject. Russian often uses a verbal adverb (деепричастие) here: 'выключая свет'. An alternative is dadurch, dass: Man spart Energie dadurch, dass man …",
+     "body_en": "indem describes the means or method: it answers wie? (how?). Man spart Energie, indem man das Licht ausschaltet. Both clauses usually have the same subject. English often uses 'by …-ing' here: 'by switching off the light' (Russian uses a verbal adverb). An alternative is dadurch, dass: Man spart Energie dadurch, dass man …",
      "body_ru": "indem описывает способ или средство и отвечает на вопрос wie? (как?): Man spart Energie, indem man das Licht ausschaltet — «экономят энергию, выключая свет». Подлежащее в обеих частях обычно одно. В русском здесь часто используется деепричастие: «выключая», «занимаясь». Альтернатива — dadurch, dass: Man spart Energie dadurch, dass man … Не путайте indem с während (в то время как).",
      "examples": [
       {
@@ -3011,7 +3202,7 @@
     {
      "title_en": "solange and bis",
      "title_ru": "solange и bis",
-     "body_en": "solange means 'as long as': both actions last the same time. Du kannst bleiben, solange du willst. It can also express a condition: Solange du Fieber hast, bleibst du zu Hause. bis means 'until': the main action ends when the other begins. Russian 'пока' covers both, but 'пока не' corresponds to bis without any negation in German.",
+     "body_en": "solange means 'as long as': both actions last the same time. Du kannst bleiben, solange du willst. It can also express a condition: Solange du Fieber hast, bleibst du zu Hause. bis means 'until': the main action ends when the other begins. Russian uses one word ('poka') for both, and 'poka ne' (literally 'while not') corresponds to bis – with no negation in German.",
      "body_ru": "solange значит «пока, до тех пор, пока; столько, сколько»: оба действия длятся одинаково. Du kannst bleiben, solange du willst. Может выражать и условие: Solange du Fieber hast, bleibst du zu Hause. bis значит «пока не, до тех пор, пока не»: главное действие заканчивается, когда начинается другое. Внимание: русское «пока не» передаётся через bis БЕЗ отрицания: Warte, bis ich komme — «подожди, пока я не приду».",
      "examples": [
       {
@@ -3255,7 +3446,12 @@
       "Sobald"
      ],
      "explain_en": "as soon as = sobald.",
-     "explain_ru": "«как только» = sobald."
+     "explain_ru": "«как только» = sobald.",
+     "ui": {
+      "en": {
+       "q": "___ ich Zeit habe, helfe ich dir. (= as soon as)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -3265,7 +3461,12 @@
       "solange"
      ],
      "explain_en": "as long as = solange.",
-     "explain_ru": "«столько, сколько; пока» = solange."
+     "explain_ru": "«столько, сколько; пока» = solange.",
+     "ui": {
+      "en": {
+       "q": "Du kannst hier wohnen, ___ du willst. (= as long as you like)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -3275,7 +3476,12 @@
       "falls"
      ],
      "explain_en": "in case = falls.",
-     "explain_ru": "«на случай, если» = falls."
+     "explain_ru": "«на случай, если» = falls.",
+     "ui": {
+      "en": {
+       "q": "Nimm einen Schirm mit, ___ es regnet. (= in case)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -3351,7 +3557,12 @@
      "q": "„Ich lerne viel, um die Prüfung bestehe.“ is correct.",
      "answer": false,
      "explain_en": "um needs zu + infinitive: um die Prüfung zu bestehen.",
-     "explain_ru": "После um нужен zu + инфинитив: um die Prüfung zu bestehen."
+     "explain_ru": "После um нужен zu + инфинитив: um die Prüfung zu bestehen.",
+     "ui": {
+      "ru": {
+       "q": "Предложение „Ich lerne viel, um die Prüfung bestehe.“ правильное."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3359,7 +3570,12 @@
      "q": "um … zu is used when both clauses have the same subject.",
      "answer": true,
      "explain_en": "With different subjects, use damit.",
-     "explain_ru": "Верно; при разных подлежащих нужен damit."
+     "explain_ru": "Верно; при разных подлежащих нужен damit.",
+     "ui": {
+      "ru": {
+       "q": "um … zu употребляется, когда у обеих частей одно и то же подлежащее."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3367,7 +3583,15 @@
      "q": "„Warte, bis ich nicht komme“ is the correct way to say 'подожди, пока я не приду'.",
      "answer": false,
      "explain_en": "bis has no negation: Warte, bis ich komme.",
-     "explain_ru": "После bis отрицание не нужно: Warte, bis ich komme."
+     "explain_ru": "После bis отрицание не нужно: Warte, bis ich komme.",
+     "ui": {
+      "en": {
+       "q": "„Warte, bis ich nicht komme“ is the correct way to say 'wait until I come'."
+      },
+      "ru": {
+       "q": "„Warte, bis ich nicht komme“ — правильный способ сказать «подожди, пока я не приду»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3397,7 +3621,37 @@
        "sobald",
        "как только"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "obwohl",
+         "although"
+        ],
+        [
+         "damit",
+         "so that (different subject)"
+        ],
+        [
+         "indem",
+         "by (doing)"
+        ],
+        [
+         "sodass",
+         "so that (result)"
+        ],
+        [
+         "falls",
+         "in case"
+        ],
+        [
+         "sobald",
+         "as soon as"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3455,7 +3709,7 @@
     {
      "title_en": "Partizip I: infinitive + -d",
      "title_ru": "Partizip I: инфинитив + -d",
-     "body_en": "Partizip I is formed by adding -d to the infinitive: lachen → lachend, schlafen → schlafend, singen → singend. Only sein and tun are special: seiend, tuend (rare). It has an active meaning and describes an action happening at the same time: das schlafende Kind = the child that is sleeping. It corresponds to the Russian present active participle in -ущий/-ящий.",
+     "body_en": "Partizip I is formed by adding -d to the infinitive: lachen → lachend, schlafen → schlafend, singen → singend. Only sein and tun are special: seiend, tuend (rare). It has an active meaning and describes an action happening at the same time: das schlafende Kind = the child that is sleeping. It corresponds to the English -ing form used before a noun (the sleeping child).",
      "body_ru": "Partizip I образуется добавлением -d к инфинитиву: lachen → lachend, schlafen → schlafend, singen → singend. Особые формы только у sein и tun: seiend, tuend (редко). У него активное значение, и он описывает одновременное действие: das schlafende Kind — «спящий ребёнок». Это соответствует русскому действительному причастию настоящего времени на -ущий/-ящий: «смеющийся», «поющий».",
      "examples": [
       {
@@ -3501,7 +3755,7 @@
     {
      "title_en": "Partizip II: passive or completed",
      "title_ru": "Partizip II: пассивное или завершённое действие",
-     "body_en": "Partizip II of transitive verbs (verbs with an accusative object) has a passive meaning: das gekaufte Auto = the car that was bought. With verbs that take sein in the Perfekt, it has an active, completed meaning: der angekommene Zug = the train that has arrived, die verstorbene Großmutter. This matches Russian 'купленный' vs 'прибывший'.",
+     "body_en": "Partizip II of transitive verbs (verbs with an accusative object) has a passive meaning: das gekaufte Auto = the car that was bought. With verbs that take sein in the Perfekt, it has an active, completed meaning: der angekommene Zug = the train that has arrived, die verstorbene Großmutter. Compare English 'the bought car' (passive) vs 'the newly arrived train' (active).",
      "body_ru": "Partizip II переходных глаголов (с прямым дополнением в аккузативе) имеет пассивное значение: das gekaufte Auto — «купленная машина». У глаголов, образующих перфект с sein, оно имеет активное завершённое значение: der angekommene Zug — «прибывший поезд», die verstorbene Großmutter — «покойная бабушка». Это соответствует русским формам «купленный» (страдательное) и «прибывший» (действительное прошедшего времени).",
      "examples": [
       {
@@ -3547,7 +3801,7 @@
     {
      "title_en": "Extended attributes",
      "title_ru": "Распространённые определения",
-     "body_en": "A participle can have its own objects and adverbs, which stand BETWEEN the article and the participle: das gestern gekaufte Auto, der seit Jahren in Berlin lebende Autor. These extended attributes are typical of written German: newspapers, official and academic texts. Russian has the same construction but usually puts the extra words after the noun: «автор, живущий в Берлине».",
+     "body_en": "A participle can have its own objects and adverbs, which stand BETWEEN the article and the participle: das gestern gekaufte Auto, der seit Jahren in Berlin lebende Autor. These extended attributes are typical of written German: newspapers, official and academic texts. English usually puts the extra words after the noun instead: 'the author living in Berlin for years'.",
      "body_ru": "У причастия могут быть свои дополнения и обстоятельства, которые стоят МЕЖДУ артиклем и причастием: das gestern gekaufte Auto, der seit Jahren in Berlin lebende Autor. Такие распространённые определения типичны для письменного немецкого: газет, официальных и научных текстов. В русском есть похожая конструкция («вчера купленная машина»), но чаще мы ставим причастный оборот после существительного: «автор, много лет живущий в Берлине». В немецком так нельзя.",
      "examples": [
       {
@@ -3616,7 +3870,7 @@
     {
      "title_en": "Participles as nouns and adverbs",
      "title_ru": "Причастия как существительные и наречия",
-     "body_en": "Participles can become nouns with adjective endings: der/die Reisende (traveller), ein Reisender, die Angestellten (employees), der Verletzte, die Vorsitzende. As adverbs they describe how something happens and have no ending: Lachend kam sie herein. Er hörte schweigend zu. Russian often uses a verbal adverb (деепричастие) here: «смеясь», «молча».",
+     "body_en": "Participles can become nouns with adjective endings: der/die Reisende (traveller), ein Reisender, die Angestellten (employees), der Verletzte, die Vorsitzende. As adverbs they describe how something happens and have no ending: Lachend kam sie herein. Er hörte schweigend zu. English often uses an -ing form here: 'laughing, she came in', 'he listened in silence'.",
      "body_ru": "Причастия могут становиться существительными с окончаниями прилагательных: der/die Reisende (путешественник/-ца), ein Reisender, die Angestellten (служащие), der Verletzte (раненый), die Vorsitzende (председатель). В роли наречия они описывают, как что-то происходит, и не имеют окончания: Lachend kam sie herein. Er hörte schweigend zu. В русском здесь обычно деепричастие или наречие: «смеясь», «молча».",
      "examples": [
       {
@@ -3762,7 +4016,12 @@
      ],
      "answer": 1,
      "explain_en": "Partizip I = active, simultaneous: die spielen.",
-     "explain_ru": "Partizip I — активное одновременное действие: die spielen."
+     "explain_ru": "Partizip I — активное одновременное действие: die spielen.",
+     "ui": {
+      "ru": {
+       "q": "„Die im Garten spielenden Kinder“ означает:"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3929,7 +4188,12 @@
      "q": "„Der Film ist sehr gespannt.“ is correct when you mean the film is exciting.",
      "answer": false,
      "explain_en": "The film is spannend; people are gespannt.",
-     "explain_ru": "Фильм — spannend; gespannt бывает человек."
+     "explain_ru": "Фильм — spannend; gespannt бывает человек.",
+     "ui": {
+      "ru": {
+       "q": "Предложение „Der Film ist sehr gespannt.“ правильное, если имеется в виду, что фильм захватывающий."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3937,7 +4201,12 @@
      "q": "Partizip I (lachend) describes a simultaneous action; Partizip II (gekauft) usually describes a completed or passive action.",
      "answer": true,
      "explain_en": "der lachende Mann – das gekaufte Auto.",
-     "explain_ru": "Верно: der lachende Mann – das gekaufte Auto."
+     "explain_ru": "Верно: der lachende Mann – das gekaufte Auto.",
+     "ui": {
+      "ru": {
+       "q": "Partizip I (lachend) описывает одновременное действие; Partizip II (gekauft) обычно — завершённое или пассивное."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3945,7 +4214,12 @@
      "q": "In an extended attribute, the participle stands at the end, directly before the noun.",
      "answer": true,
      "explain_en": "das gestern gekaufte Auto.",
-     "explain_ru": "Верно: das gestern gekaufte Auto."
+     "explain_ru": "Верно: das gestern gekaufte Auto.",
+     "ui": {
+      "ru": {
+       "q": "В распространённом определении причастие стоит в конце, прямо перед существительным."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3971,7 +4245,33 @@
        "die geschlossene Tür",
        "закрытая дверь"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "der lachende Mann",
+         "the laughing man"
+        ],
+        [
+         "das gekaufte Auto",
+         "the bought car"
+        ],
+        [
+         "der angekommene Zug",
+         "the arrived train"
+        ],
+        [
+         "das schlafende Kind",
+         "the sleeping child"
+        ],
+        [
+         "die geschlossene Tür",
+         "the closed door"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4001,7 +4301,37 @@
        "überrascht",
        "удивлённый"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "spannend",
+         "exciting, gripping"
+        ],
+        [
+         "gespannt",
+         "eager, curious"
+        ],
+        [
+         "aufregend",
+         "thrilling"
+        ],
+        [
+         "aufgeregt",
+         "excited, nervous"
+        ],
+        [
+         "überraschend",
+         "surprising"
+        ],
+        [
+         "überrascht",
+         "surprised"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4060,7 +4390,7 @@
     {
      "title_en": "müssen: almost certain",
      "title_ru": "müssen: почти уверен",
-     "body_en": "Subjective müssen expresses a logical conclusion based on evidence: the speaker is almost certain. Das Licht ist an, er muss zu Hause sein. Russian equivalents: должно быть, наверняка, явно. The negative is not 'muss nicht' (= need not) but kann nicht: Er kann nicht zu Hause sein (it's impossible).",
+     "body_en": "Subjective müssen expresses a logical conclusion based on evidence: the speaker is almost certain. Das Licht ist an, er muss zu Hause sein. English equivalents: must be, surely, obviously. The negative is not 'muss nicht' (= need not) but kann nicht: Er kann nicht zu Hause sein (it's impossible).",
      "body_ru": "Субъективный müssen выражает логический вывод на основе фактов — говорящий почти уверен: Das Licht ist an, er muss zu Hause sein — «свет горит, он, должно быть, дома». Русские соответствия: «должно быть», «наверняка», «явно». Отрицание здесь не «muss nicht» (это «не обязательно»), а kann nicht: Er kann nicht zu Hause sein — «не может быть, что он дома».",
      "examples": [
       {
@@ -4106,7 +4436,7 @@
     {
      "title_en": "sollen: hearsay",
      "title_ru": "sollen: говорят, по слухам",
-     "body_en": "Subjective sollen means the information comes from others (rumour, the media): Er soll sehr reich sein = People say he is very rich. The speaker does not guarantee the truth. Russian: говорят, якобы, по слухам, по сообщениям. It is frequent in news reports: Der Täter soll 30 Jahre alt sein.",
+     "body_en": "Subjective sollen means the information comes from others (rumour, the media): Er soll sehr reich sein = People say he is very rich. The speaker does not guarantee the truth. English: they say, allegedly, reportedly, is said to. It is frequent in news reports: Der Täter soll 30 Jahre alt sein.",
      "body_ru": "Субъективный sollen означает, что информация получена от других (слухи, СМИ): Er soll sehr reich sein — «говорят, он очень богат». Говорящий не ручается за правдивость. По-русски: «говорят», «якобы», «по слухам», «по сообщениям». Часто встречается в новостях: Der Täter soll 30 Jahre alt sein — «преступнику, по данным, 30 лет». Не путайте с объективным sollen: Du sollst kommen — «тебе велели прийти».",
      "examples": [
       {
@@ -4129,7 +4459,7 @@
     {
      "title_en": "wollen: the subject's own claim",
      "title_ru": "wollen: утверждение самого подлежащего",
-     "body_en": "Subjective wollen means the subject claims something about himself, and the speaker doubts it: Er will Arzt sein = He claims to be a doctor (I'm not sure). Compare: Er soll Arzt sein (others say so) – Er will Arzt sein (he says so himself). Russian: он утверждает, что …; якобы.",
+     "body_en": "Subjective wollen means the subject claims something about himself, and the speaker doubts it: Er will Arzt sein = He claims to be a doctor (I'm not sure). Compare: Er soll Arzt sein (others say so) – Er will Arzt sein (he says so himself). English: he claims that …; supposedly.",
      "body_ru": "Субъективный wollen означает, что подлежащее само утверждает что-то о себе, а говорящий в этом сомневается: Er will Arzt sein — «он утверждает, что он врач (но я не уверен)». Сравните: Er soll Arzt sein (так говорят другие) – Er will Arzt sein (так говорит он сам). По-русски: «он утверждает, что …», «якобы». Это значение почти всегда содержит оттенок недоверия.",
      "examples": [
       {
@@ -4344,7 +4674,12 @@
      ],
      "answer": 1,
      "explain_en": "Hearsay about the past: soll + gewesen sein.",
-     "explain_ru": "Слухи о прошлом: soll + gewesen sein."
+     "explain_ru": "Слухи о прошлом: soll + gewesen sein.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение означает «Говорят, он сидел в тюрьме»?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -4368,7 +4703,12 @@
       "muss"
      ],
      "explain_en": "Almost certain: muss.",
-     "explain_ru": "Почти уверен: muss."
+     "explain_ru": "Почти уверен: muss.",
+     "ui": {
+      "en": {
+       "q": "Ihr Auto steht vor der Tür. Sie ___ also da sein. (almost certain)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -4378,7 +4718,12 @@
       "soll"
      ],
      "explain_en": "Information from the media: soll.",
-     "explain_ru": "Информация из СМИ: soll."
+     "explain_ru": "Информация из СМИ: soll.",
+     "ui": {
+      "en": {
+       "q": "In der Zeitung steht, der Minister ___ bald zurücktreten. (reportedly)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -4438,7 +4783,12 @@
       "muss"
      ],
      "explain_en": "Conclusion from evidence: muss.",
-     "explain_ru": "Вывод из фактов: muss."
+     "explain_ru": "Вывод из фактов: muss.",
+     "ui": {
+      "en": {
+       "q": "Er spricht perfekt Russisch. Er ___ lange in Moskau gelebt haben. (almost certain)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -4503,7 +4853,12 @@
      "q": "„Er soll krank sein“ can mean 'People say he is ill'.",
      "answer": true,
      "explain_en": "Subjective sollen = hearsay.",
-     "explain_ru": "Верно: субъективный sollen передаёт слухи."
+     "explain_ru": "Верно: субъективный sollen передаёт слухи.",
+     "ui": {
+      "ru": {
+       "q": "„Er soll krank sein“ может означать «Говорят, он болен»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4511,7 +4866,12 @@
      "q": "„Er will das Geld gefunden haben“ means the speaker is sure he found the money.",
      "answer": false,
      "explain_en": "wollen = he claims it; the speaker doubts it.",
-     "explain_ru": "wollen — это его утверждение, говорящий сомневается."
+     "explain_ru": "wollen — это его утверждение, говорящий сомневается.",
+     "ui": {
+      "ru": {
+       "q": "„Er will das Geld gefunden haben“ означает, что говорящий уверен: он нашёл деньги."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4519,7 +4879,12 @@
      "q": "„Er muss gearbeitet haben“ and „Er musste arbeiten“ mean the same.",
      "answer": false,
      "explain_en": "The first is an assumption, the second a past obligation.",
-     "explain_ru": "Первое — предположение, второе — обязанность в прошлом."
+     "explain_ru": "Первое — предположение, второе — обязанность в прошлом.",
+     "ui": {
+      "ru": {
+       "q": "„Er muss gearbeitet haben“ и „Er musste arbeiten“ значат одно и то же."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4545,7 +4910,33 @@
        "Er kann nicht krank sein.",
        "Не может быть, что он болен."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Er muss krank sein.",
+         "He must be ill."
+        ],
+        [
+         "Er könnte krank sein.",
+         "He might be ill."
+        ],
+        [
+         "Er soll krank sein.",
+         "They say he is ill."
+        ],
+        [
+         "Er will krank sein.",
+         "He claims to be ill."
+        ],
+        [
+         "Er kann nicht krank sein.",
+         "He can't possibly be ill."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4567,7 +4958,29 @@
        "Er will das Buch gelesen haben.",
        "Он утверждает, что прочитал книгу."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Er musste lange arbeiten.",
+         "He had to work for a long time."
+        ],
+        [
+         "Er muss lange gearbeitet haben.",
+         "He must have worked for a long time."
+        ],
+        [
+         "Er wollte das Buch lesen.",
+         "He wanted to read the book."
+        ],
+        [
+         "Er will das Buch gelesen haben.",
+         "He claims to have read the book."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4589,7 +5002,29 @@
        "kann nicht",
        "исключено"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "muss",
+         "almost certain"
+        ],
+        [
+         "dürfte",
+         "probably"
+        ],
+        [
+         "kann / könnte",
+         "possibly"
+        ],
+        [
+         "kann nicht",
+         "ruled out"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5075,7 +5510,12 @@
      "q": "All nouns ending in -ung are feminine.",
      "answer": true,
      "explain_en": "die Zeitung, die Wohnung, die Entscheidung.",
-     "explain_ru": "Верно: die Zeitung, die Wohnung, die Entscheidung."
+     "explain_ru": "Верно: die Zeitung, die Wohnung, die Entscheidung.",
+     "ui": {
+      "ru": {
+       "q": "Все существительные на -ung женского рода."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5083,7 +5523,12 @@
      "q": "Infinitives used as nouns (das Lesen, das Schwimmen) are masculine.",
      "answer": false,
      "explain_en": "They are always neuter: das Lesen.",
-     "explain_ru": "Они всегда среднего рода: das Lesen."
+     "explain_ru": "Они всегда среднего рода: das Lesen.",
+     "ui": {
+      "ru": {
+       "q": "Инфинитивы в роли существительных (das Lesen, das Schwimmen) мужского рода."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5091,7 +5536,12 @@
      "q": "The nominal style is typical of everyday spoken conversation.",
      "answer": false,
      "explain_en": "It is typical of written, official and academic texts.",
-     "explain_ru": "Он типичен для письменных, официальных и научных текстов."
+     "explain_ru": "Он типичен для письменных, официальных и научных текстов.",
+     "ui": {
+      "ru": {
+       "q": "Номинальный стиль типичен для повседневной разговорной речи."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5419,7 +5869,12 @@
      ],
      "answer": 3,
      "explain_en": "nicht after the object, before the closing Partizip.",
-     "explain_ru": "nicht после дополнения, перед причастием в конце."
+     "explain_ru": "nicht после дополнения, перед причастием в конце.",
+     "ui": {
+      "ru": {
+       "q": "Общее отрицание — какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e05",
@@ -5503,7 +5958,12 @@
      ],
      "answer": 2,
      "explain_en": "als du comes after the closing Partizip gegessen.",
-     "explain_ru": "als du стоит после закрывающего причастия gegessen."
+     "explain_ru": "als du стоит после закрывающего причастия gegessen.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении есть элемент в Nachfeld?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -5654,7 +6114,12 @@
      "q": "A pronoun object usually comes before a noun object: „Ich gebe ihm das Buch.“",
      "answer": true,
      "explain_en": "Short pronouns come early in the Mittelfeld.",
-     "explain_ru": "Верно: короткие местоимения стоят в начале середины предложения."
+     "explain_ru": "Верно: короткие местоимения стоят в начале середины предложения.",
+     "ui": {
+      "ru": {
+       "q": "Дополнение-местоимение обычно стоит перед дополнением-существительным: „Ich gebe ihm das Buch.“"
+      }
+     }
     },
     {
      "id": "e24",
@@ -5662,7 +6127,12 @@
      "q": "„Ich gebe ihm es.“ shows the normal order of two pronouns.",
      "answer": false,
      "explain_en": "Accusative before dative: Ich gebe es ihm.",
-     "explain_ru": "Аккузатив перед дативом: Ich gebe es ihm."
+     "explain_ru": "Аккузатив перед дативом: Ich gebe es ihm.",
+     "ui": {
+      "ru": {
+       "q": "„Ich gebe ihm es.“ показывает обычный порядок двух местоимений."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5670,7 +6140,12 @@
      "q": "Only the subject can stand in position 1 (the Vorfeld).",
      "answer": false,
      "explain_en": "Any one element can: Den Film habe ich gesehen.",
-     "explain_ru": "Там может стоять любой один член предложения: Den Film habe ich gesehen."
+     "explain_ru": "Там может стоять любой один член предложения: Den Film habe ich gesehen.",
+     "ui": {
+      "ru": {
+       "q": "На первом месте (в Vorfeld) может стоять только подлежащее."
+      }
+     }
     },
     {
      "id": "e26",

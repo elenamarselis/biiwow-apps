@@ -31,7 +31,7 @@
     {
      "title_en": "Meaning: an unreal past",
      "title_ru": "Значение: нереальное прошлое",
-     "body_en": "The third conditional describes a past situation that did not happen and imagines a different result. It is often used for regret, criticism or relief. In Russian the same 'бы' form covers both present and past hypotheticals, but English clearly separates the second conditional (now or future) from the third (past).",
+     "body_en": "The third conditional describes a past situation that did not happen and imagines a different result. It is often used for regret, criticism or relief. In Russian the same 'by' form covers both present and past hypotheticals, but English clearly separates the second conditional (now or future) from the third (past).",
      "body_ru": "Третий тип описывает ситуацию в прошлом, которой не было, и представляет другой результат. Его часто используют для сожаления, упрёка или облегчения. Важное отличие от русского: у нас «если бы я знал» может относиться и к настоящему, и к прошлому, а в английском второй тип (If I knew) — это сейчас или будущее, а третий (If I had known) — только прошлое.",
      "examples": [
       {
@@ -222,7 +222,12 @@
      "q": "In the third conditional, the if-clause uses the past perfect.",
      "answer": true,
      "explain_en": "Yes: if + had + past participle, with 'would have' in the result.",
-     "explain_ru": "Верно: if + had + третья форма, а в главной части would have."
+     "explain_ru": "Верно: if + had + третья форма, а в главной части would have.",
+     "ui": {
+      "ru": {
+       "q": "В третьем условном предложении в придаточном с if используется Past Perfect."
+      }
+     }
     },
     {
      "id": "e05",
@@ -302,7 +307,12 @@
      "q": "'If I would have known, I would have told you' is correct in standard English.",
      "answer": false,
      "explain_en": "'Would' does not go in the if-clause: If I had known, I would have told you.",
-     "explain_ru": "Would не ставится в условную часть: правильно If I had known, I would have told you."
+     "explain_ru": "Would не ставится в условную часть: правильно If I had known, I would have told you.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'If I would have known, I would have told you' правильно в стандартном английском."
+      }
+     }
     },
     {
      "id": "e11",
@@ -387,7 +397,12 @@
      "q": "'Provided that' means roughly the same as 'only if'.",
      "answer": true,
      "explain_en": "Yes, 'provided that', 'providing' and 'as long as' all mean 'only if'.",
-     "explain_ru": "Да, provided that, providing и as long as означают «только если»."
+     "explain_ru": "Да, provided that, providing и as long as означают «только если».",
+     "ui": {
+      "ru": {
+       "q": "'Provided that' означает примерно то же, что 'only if'."
+      }
+     }
     },
     {
      "id": "e17",
@@ -450,7 +465,12 @@
      "q": "In a mixed conditional, the condition and the result can refer to different times.",
      "answer": true,
      "explain_en": "That is exactly what makes it 'mixed': for example a past condition with a present result.",
-     "explain_ru": "Именно это и делает его «смешанным»: например, условие в прошлом, результат в настоящем."
+     "explain_ru": "Именно это и делает его «смешанным»: например, условие в прошлом, результат в настоящем.",
+     "ui": {
+      "ru": {
+       "q": "В смешанном условном предложении условие и результат могут относиться к разному времени."
+      }
+     }
     },
     {
      "id": "e22",
@@ -476,7 +496,33 @@
        "as long as",
        "пока / только если"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "provided that",
+         "on condition that"
+        ],
+        [
+         "otherwise",
+         "if not; or else"
+        ],
+        [
+         "supposing",
+         "imagine that; what if"
+        ],
+        [
+         "but for",
+         "if it were not for"
+        ],
+        [
+         "as long as",
+         "only if; on condition that"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e23",
@@ -514,7 +560,12 @@
      ],
      "answer": 1,
      "explain_en": "A past condition (had studied) with a present result (would be now) is a mixed conditional.",
-     "explain_ru": "Условие в прошлом (had studied) и результат в настоящем (would be now) — смешанный тип."
+     "explain_ru": "Условие в прошлом (had studied) и результат в настоящем (would be now) — смешанный тип.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение является смешанным условным?"
+      }
+     }
     },
     {
      "id": "e26",
@@ -538,7 +589,12 @@
      "q": "'Supposing' can start a question about an imaginary situation.",
      "answer": true,
      "explain_en": "Yes: 'Supposing you won the lottery, what would you buy?'",
-     "explain_ru": "Да: Supposing you won the lottery, what would you buy? — «Предположим, ты выиграл в лотерею…»."
+     "explain_ru": "Да: Supposing you won the lottery, what would you buy? — «Предположим, ты выиграл в лотерею…».",
+     "ui": {
+      "ru": {
+       "q": "Словом 'Supposing' можно начать вопрос о воображаемой ситуации."
+      }
+     }
     },
     {
      "id": "e28",
@@ -787,7 +843,12 @@
      "q": "'I wish I have more money' is correct.",
      "answer": false,
      "explain_en": "After 'wish' we use the past simple for the present: I wish I had more money.",
-     "explain_ru": "После wish для настоящего используется past simple: I wish I had more money."
+     "explain_ru": "После wish для настоящего используется past simple: I wish I had more money.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I wish I have more money' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -848,7 +909,12 @@
      "q": "'I wish I would be taller' is correct.",
      "answer": false,
      "explain_en": "'Wish + would' is not used with the same subject or for states: I wish I were taller.",
-     "explain_ru": "Wish + would не используется с тем же подлежащим и для состояний: I wish I were taller."
+     "explain_ru": "Wish + would не используется с тем же подлежащим и для состояний: I wish I were taller.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I wish I would be taller' правильное."
+      }
+     }
     },
     {
      "id": "e10",
@@ -942,7 +1008,12 @@
      "q": "After 'it's high time', we use the past simple to talk about the present.",
      "answer": true,
      "explain_en": "Yes: 'It's high time you found a job' refers to now.",
-     "explain_ru": "Верно: It's high time you found a job относится к настоящему."
+     "explain_ru": "Верно: It's high time you found a job относится к настоящему.",
+     "ui": {
+      "ru": {
+       "q": "После 'it's high time' используется Past Simple, чтобы говорить о настоящем."
+      }
+     }
     },
     {
      "id": "e17",
@@ -1005,7 +1076,12 @@
      "q": "'I wish I were' and 'I wish I was' are both used in modern English.",
      "answer": true,
      "explain_en": "'Were' is slightly more formal; 'was' is common in speech.",
-     "explain_ru": "Were чуть формальнее, was часто встречается в разговорной речи."
+     "explain_ru": "Were чуть формальнее, was часто встречается в разговорной речи.",
+     "ui": {
+      "ru": {
+       "q": "В современном английском употребляются и 'I wish I were', и 'I wish I was'."
+      }
+     }
     },
     {
      "id": "e22",
@@ -1027,7 +1103,29 @@
        "It's time we left.",
        "Нам пора уходить."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "I wish I knew.",
+         "It's a pity I don't know."
+        ],
+        [
+         "I wish I had known.",
+         "It's a pity I didn't know."
+        ],
+        [
+         "I wish he would listen.",
+         "If only he listened."
+        ],
+        [
+         "It's time we left.",
+         "We should leave now."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e23",
@@ -1082,7 +1180,12 @@
      ],
      "answer": 1,
      "explain_en": "'I wish I'd taken' = I wish I had taken: a past regret.",
-     "explain_ru": "I wish I'd taken = I wish I had taken — сожаление о прошлом."
+     "explain_ru": "I wish I'd taken = I wish I had taken — сожаление о прошлом.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение выражает сожаление о прошлом?"
+      }
+     }
     },
     {
      "id": "e27",
@@ -1090,7 +1193,12 @@
      "q": "'Wish + would' is normally used to talk about your own actions.",
      "answer": false,
      "explain_en": "It is used about other people or things, not about yourself.",
-     "explain_ru": "Эта форма используется о других людях или вещах, а не о себе."
+     "explain_ru": "Эта форма используется о других людях или вещах, а не о себе.",
+     "ui": {
+      "ru": {
+       "q": "'Wish + would' обычно используется, чтобы говорить о собственных действиях."
+      }
+     }
     },
     {
      "id": "e28",
@@ -1336,7 +1444,12 @@
      "q": "The past perfect is used for an action that happened before another past action.",
      "answer": true,
      "explain_en": "Yes, it shows the earlier of two past events.",
-     "explain_ru": "Верно: оно показывает более раннее из двух событий в прошлом."
+     "explain_ru": "Верно: оно показывает более раннее из двух событий в прошлом.",
+     "ui": {
+      "ru": {
+       "q": "Past Perfect используется для действия, которое произошло раньше другого действия в прошлом."
+      }
+     }
     },
     {
      "id": "e06",
@@ -1401,7 +1514,12 @@
      "q": "'I had been knowing him for years' is correct.",
      "answer": false,
      "explain_en": "'Know' is a state verb and is not used in continuous forms: I had known him.",
-     "explain_ru": "Know — глагол состояния, в продолженных формах не используется: I had known him."
+     "explain_ru": "Know — глагол состояния, в продолженных формах не используется: I had known him.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I had been knowing him for years' правильное."
+      }
+     }
     },
     {
      "id": "e11",
@@ -1488,7 +1606,12 @@
      "q": "After 'after' and 'before', the past perfect is optional when the order of events is clear.",
      "answer": true,
      "explain_en": "Yes: 'After we ate, we left' is fine without the past perfect.",
-     "explain_ru": "Верно: After we ate, we left звучит нормально и без past perfect."
+     "explain_ru": "Верно: After we ate, we left звучит нормально и без past perfect.",
+     "ui": {
+      "ru": {
+       "q": "После 'after' и 'before' Past Perfect не обязателен, если порядок событий ясен."
+      }
+     }
     },
     {
      "id": "e17",
@@ -1543,7 +1666,12 @@
      ],
      "answer": 0,
      "explain_en": "Two past continuous forms with 'while' show parallel actions.",
-     "explain_ru": "Два past continuous с while показывают параллельные действия."
+     "explain_ru": "Два past continuous с while показывают параллельные действия.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение описывает два действия, происходящие одновременно?"
+      }
+     }
     },
     {
      "id": "e21",
@@ -1551,7 +1679,12 @@
      "q": "In 'I was reading when she called', the past continuous describes the longer action.",
      "answer": true,
      "explain_en": "Reading was in progress; the call was the short interrupting event.",
-     "explain_ru": "Чтение было в процессе; звонок — короткое прерывающее событие."
+     "explain_ru": "Чтение было в процессе; звонок — короткое прерывающее событие.",
+     "ui": {
+      "ru": {
+       "q": "В предложении 'I was reading when she called' Past Continuous описывает более длительное действие."
+      }
+     }
     },
     {
      "id": "e22",
@@ -1573,7 +1706,29 @@
        "I read the book last week.",
        "Я прочитал книгу на прошлой неделе."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "I had read the book before the film.",
+         "The reading came first, then the film."
+        ],
+        [
+         "I was reading when he came.",
+         "The reading was in progress when he arrived."
+        ],
+        [
+         "I had been reading for an hour.",
+         "The reading had lasted an hour up to that point."
+        ],
+        [
+         "I read the book last week.",
+         "A finished action at a stated past time."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e23",
@@ -1584,7 +1739,12 @@
       "had studied"
      ],
      "explain_en": "Five years before a past event: past perfect continuous (or simple).",
-     "explain_ru": "Пять лет до события в прошлом: past perfect continuous (или простой)."
+     "explain_ru": "Пять лет до события в прошлом: past perfect continuous (или простой).",
+     "ui": {
+      "ru": {
+       "q": "Поставьте глагол в нужную форму: She ___ (study) English for five years before she moved to London."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1606,7 +1766,12 @@
      "q": "'Would' can describe repeated past actions but not past states.",
      "answer": true,
      "explain_en": "'We would play outside' is fine, but 'I would have a dog' is not; use 'used to have'.",
-     "explain_ru": "We would play outside — верно, а I would have a dog — нет; нужно used to have."
+     "explain_ru": "We would play outside — верно, а I would have a dog — нет; нужно used to have.",
+     "ui": {
+      "ru": {
+       "q": "'Would' может описывать повторяющиеся действия в прошлом, но не состояния."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1663,7 +1828,33 @@
        "the moment",
        "в тот момент, когда"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "by the time",
+         "not later than the moment when"
+        ],
+        [
+         "as soon as",
+         "immediately after"
+        ],
+        [
+         "while",
+         "during the time that"
+        ],
+        [
+         "meanwhile",
+         "at the same time, elsewhere"
+        ],
+        [
+         "the moment",
+         "exactly when"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1677,7 +1868,7 @@
     {
      "title_en": "Future continuous: in progress at a future time",
      "title_ru": "Future continuous: действие в процессе в будущем",
-     "body_en": "'Will be + -ing' describes an action that will be in progress at a particular moment in the future. It often appears with 'this time tomorrow', 'at 8 o'clock' or 'when you arrive'. Russian uses the imperfective future ('буду делать') in a similar way.",
+     "body_en": "'Will be + -ing' describes an action that will be in progress at a particular moment in the future. It often appears with 'this time tomorrow', 'at 8 o'clock' or 'when you arrive'. Russian uses the imperfective future ('budu delat') in a similar way.",
      "body_ru": "Will be + -ing описывает действие, которое будет происходить в определённый момент будущего. Часто встречается с this time tomorrow, at 8 o'clock, when you arrive. По смыслу близко к русскому будущему несовершенного вида: «завтра в это время я буду лететь в Париж».",
      "examples": [
       {
@@ -1713,7 +1904,7 @@
     {
      "title_en": "Future perfect: completed before a future time",
      "title_ru": "Future perfect: завершится к моменту в будущем",
-     "body_en": "'Will have + past participle' says that an action will be completed before a certain point in the future. Typical signals are 'by', 'by the time', 'by then' and 'in two years' time'. Russian has no separate form; it uses the perfective future with 'уже' or 'к тому времени'.",
+     "body_en": "'Will have + past participle' says that an action will be completed before a certain point in the future. Typical signals are 'by', 'by the time', 'by then' and 'in two years' time'. Russian has no separate form; it uses the perfective future with 'uzhe' (already) or 'k tomu vremeni' (by that time).",
      "body_ru": "Will have + третья форма означает, что действие завершится до определённого момента в будущем. Типичные подсказки: by, by the time, by then, in two years' time. В русском отдельной формы нет — используем будущее совершенного вида с «уже» или «к тому времени»: «к пятнице я уже закончу».",
      "examples": [
       {
@@ -1876,7 +2067,12 @@
      "q": "We use the future continuous for an action in progress at a particular time in the future.",
      "answer": true,
      "explain_en": "Yes: 'At 9 I'll be driving to work.'",
-     "explain_ru": "Верно: At 9 I'll be driving to work — «в девять я буду ехать на работу»."
+     "explain_ru": "Верно: At 9 I'll be driving to work — «в девять я буду ехать на работу».",
+     "ui": {
+      "ru": {
+       "q": "Future Continuous используется для действия, которое будет происходить в определённый момент в будущем."
+      }
+     }
     },
     {
      "id": "e06",
@@ -1940,7 +2136,12 @@
      "q": "'By the time you will arrive, I will have left' is correct.",
      "answer": false,
      "explain_en": "After 'by the time' use the present: By the time you arrive, I will have left.",
-     "explain_ru": "После by the time используется настоящее: By the time you arrive, I will have left."
+     "explain_ru": "После by the time используется настоящее: By the time you arrive, I will have left.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'By the time you will arrive, I will have left' правильное."
+      }
+     }
     },
     {
      "id": "e11",
@@ -2023,7 +2224,12 @@
      "q": "The future perfect is often used with 'by' and 'by the time'.",
      "answer": true,
      "explain_en": "Yes, these expressions set the deadline before which the action is complete.",
-     "explain_ru": "Верно: эти выражения задают срок, к которому действие завершится."
+     "explain_ru": "Верно: эти выражения задают срок, к которому действие завершится.",
+     "ui": {
+      "ru": {
+       "q": "Future Perfect часто употребляется с 'by' и 'by the time'."
+      }
+     }
     },
     {
      "id": "e17",
@@ -2087,7 +2293,12 @@
      "q": "'They'll have arrived by now' can express a guess about the present.",
      "answer": true,
      "explain_en": "Yes, 'will have done' with 'by now' means 'I'm sure they have already arrived'.",
-     "explain_ru": "Верно: will have done с by now значит «я уверен, что они уже приехали»."
+     "explain_ru": "Верно: will have done с by now значит «я уверен, что они уже приехали».",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'They'll have arrived by now' может выражать предположение о настоящем."
+      }
+     }
     },
     {
      "id": "e22",
@@ -2109,7 +2320,29 @@
        "I'm about to leave.",
        "Я вот-вот уйду."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "I'll be working.",
+         "The work will be in progress then."
+        ],
+        [
+         "I'll have finished.",
+         "The work will be complete by then."
+        ],
+        [
+         "I'll have been working for a year.",
+         "By then the work will have lasted a year."
+        ],
+        [
+         "I'm about to leave.",
+         "I'm going to leave very soon."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e23",
@@ -2150,7 +2383,12 @@
      ],
      "answer": 1,
      "explain_en": "Present tense in the time clause, 'will' in the main clause.",
-     "explain_ru": "Настоящее время в придаточном времени, will в главном."
+     "explain_ru": "Настоящее время в придаточном времени, will в главном.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e26",
@@ -2175,7 +2413,12 @@
      "q": "'Will you be coming to the party?' is a neutral question about plans.",
      "answer": true,
      "explain_en": "The future continuous asks about plans without pressure or a request.",
-     "explain_ru": "Future continuous спрашивает о планах без давления и без просьбы."
+     "explain_ru": "Future continuous спрашивает о планах без давления и без просьбы.",
+     "ui": {
+      "ru": {
+       "q": "'Will you be coming to the party?' — нейтральный вопрос о планах."
+      }
+     }
     },
     {
      "id": "e28",
@@ -2197,7 +2440,29 @@
        "from now on",
        "отныне"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "by the time",
+         "not later than the moment when"
+        ],
+        [
+         "in two years' time",
+         "two years from now"
+        ],
+        [
+         "by then",
+         "not later than that moment"
+        ],
+        [
+         "from now on",
+         "starting now and continuing"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2424,7 +2689,12 @@
      "q": "'She is said to be very rich' means that people say she is very rich.",
      "answer": true,
      "explain_en": "Yes, 'is said to' reports what people generally say.",
-     "explain_ru": "Верно: is said to передаёт то, что говорят люди."
+     "explain_ru": "Верно: is said to передаёт то, что говорят люди.",
+     "ui": {
+      "ru": {
+       "q": "'She is said to be very rich' означает, что о ней говорят, будто она очень богата."
+      }
+     }
     },
     {
      "id": "e06",
@@ -2487,7 +2757,12 @@
      "q": "'The accident was happened at night' is correct.",
      "answer": false,
      "explain_en": "'Happen' has no object, so it cannot be passive: The accident happened.",
-     "explain_ru": "У happen нет дополнения, поэтому пассив невозможен: The accident happened."
+     "explain_ru": "У happen нет дополнения, поэтому пассив невозможен: The accident happened.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'The accident was happened at night' правильное."
+      }
+     }
     },
     {
      "id": "e11",
@@ -2570,7 +2845,12 @@
      "q": "The get-passive is more common in informal speech than in formal writing.",
      "answer": true,
      "explain_en": "Yes, 'got fired' is conversational; formal texts prefer 'was dismissed'.",
-     "explain_ru": "Верно: got fired — разговорный вариант; в официальных текстах скорее was dismissed."
+     "explain_ru": "Верно: got fired — разговорный вариант; в официальных текстах скорее was dismissed.",
+     "ui": {
+      "ru": {
+       "q": "Пассив с get чаще встречается в неформальной речи, чем в официальных текстах."
+      }
+     }
     },
     {
      "id": "e17",
@@ -2622,7 +2902,12 @@
      ],
      "answer": 1,
      "explain_en": "'Happen' is intransitive and has no passive form.",
-     "explain_ru": "Happen — непереходный глагол, у него нет пассива."
+     "explain_ru": "Happen — непереходный глагол, у него нет пассива.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение НЕВОЗМОЖНО?"
+      }
+     }
     },
     {
      "id": "e21",
@@ -2655,7 +2940,29 @@
        "I had it done.",
        "Мне это сделали (по моей просьбе)."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "It is said that...",
+         "People say that..."
+        ],
+        [
+         "He is known to...",
+         "Everyone knows that he..."
+        ],
+        [
+         "She got fired.",
+         "Her employer dismissed her."
+        ],
+        [
+         "I had it done.",
+         "Someone did it for me (because I arranged it)."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e23",
@@ -2677,7 +2984,12 @@
      "q": "In 'I had my phone stolen', I arranged for someone to steal my phone.",
      "answer": false,
      "explain_en": "Here 'have something done' describes something bad that happened to me.",
-     "explain_ru": "Здесь have something done описывает неприятность, которая со мной случилась."
+     "explain_ru": "Здесь have something done описывает неприятность, которая со мной случилась.",
+     "ui": {
+      "ru": {
+       "q": "В предложении 'I had my phone stolen' я сам договорился, чтобы кто-то украл мой телефон."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2725,7 +3037,12 @@
      "q": "A passive sentence always has to name the agent with 'by'.",
      "answer": false,
      "explain_en": "Most passive sentences do not mention the agent at all.",
-     "explain_ru": "В большинстве пассивных предложений деятель вообще не упоминается."
+     "explain_ru": "В большинстве пассивных предложений деятель вообще не упоминается.",
+     "ui": {
+      "ru": {
+       "q": "В пассивном предложении всегда нужно называть исполнителя действия с помощью 'by'."
+      }
+     }
     },
     {
      "id": "e29",
@@ -2979,7 +3296,12 @@
      "q": "'He suggested me to leave' is correct.",
      "answer": false,
      "explain_en": "'Suggest' does not take object + infinitive: He suggested that I leave / suggested leaving.",
-     "explain_ru": "Suggest не сочетается с дополнением + инфинитив: He suggested that I leave / suggested leaving."
+     "explain_ru": "Suggest не сочетается с дополнением + инфинитив: He suggested that I leave / suggested leaving.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'He suggested me to leave' правильное."
+      }
+     }
     },
     {
      "id": "e06",
@@ -3042,7 +3364,12 @@
      "q": "After 'say', we need an object pronoun, as in 'He said me'.",
      "answer": false,
      "explain_en": "'Say' takes no object; use 'tell me' or 'say to me'.",
-     "explain_ru": "Say не принимает дополнения-лица: нужно tell me или say to me."
+     "explain_ru": "Say не принимает дополнения-лица: нужно tell me или say to me.",
+     "ui": {
+      "ru": {
+       "q": "После 'say' нужно местоимение-дополнение, как в 'He said me'."
+      }
+     }
     },
     {
      "id": "e11",
@@ -3126,7 +3453,12 @@
      "q": "When the reported statement is still true, backshift is optional.",
      "answer": true,
      "explain_en": "Yes: 'He said he lives / lived in Rome' are both possible if he still lives there.",
-     "explain_ru": "Верно: He said he lives / lived in Rome — оба варианта возможны, если он всё ещё там живёт."
+     "explain_ru": "Верно: He said he lives / lived in Rome — оба варианта возможны, если он всё ещё там живёт.",
+     "ui": {
+      "ru": {
+       "q": "Если передаваемое утверждение всё ещё верно, согласование времён не обязательно."
+      }
+     }
     },
     {
      "id": "e17",
@@ -3187,7 +3519,12 @@
      "q": "'She told that she was tired' is correct.",
      "answer": false,
      "explain_en": "'Tell' needs an object: She told me that she was tired.",
-     "explain_ru": "Tell требует дополнения: She told me that she was tired."
+     "explain_ru": "Tell требует дополнения: She told me that she was tired.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'She told that she was tired' правильное."
+      }
+     }
     },
     {
      "id": "e22",
@@ -3209,7 +3546,29 @@
        "He threatened to leave.",
        "Он пригрозил уйти."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "He denied stealing it.",
+         "He said he had not stolen it."
+        ],
+        [
+         "He refused to go.",
+         "He said he would not go."
+        ],
+        [
+         "He insisted on paying.",
+         "He firmly demanded to be the one who paid."
+        ],
+        [
+         "He threatened to leave.",
+         "He warned that he would leave."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e23",
@@ -3269,7 +3628,12 @@
      "q": "'Tomorrow' usually becomes 'the next day' in reported speech.",
      "answer": true,
      "explain_en": "Yes, when the report is made on a different day.",
-     "explain_ru": "Верно, если слова передаются в другой день."
+     "explain_ru": "Верно, если слова передаются в другой день.",
+     "ui": {
+      "ru": {
+       "q": "В косвенной речи 'tomorrow' обычно превращается в 'the next day'."
+      }
+     }
     },
     {
      "id": "e28",
@@ -3315,7 +3679,7 @@
     {
      "title_en": "Must have: certain it happened",
      "title_ru": "Must have: уверенность, что это произошло",
-     "body_en": "'Must have + past participle' expresses a logical conclusion about the past: the speaker is almost sure, based on evidence. It corresponds to Russian 'должно быть', 'наверняка'. It is not used for obligation in the past; that is 'had to'.",
+     "body_en": "'Must have + past participle' expresses a logical conclusion about the past: the speaker is almost sure, based on evidence. It corresponds to Russian 'dolzhno byt' or 'navernyaka' (surely, probably). It is not used for obligation in the past; that is 'had to'.",
      "body_ru": "Must have + третья форма выражает логический вывод о прошлом: говорящий почти уверен на основании фактов. По-русски — «должно быть», «наверняка», «скорее всего». Не путайте с обязанностью в прошлом: «мне пришлось» — это had to, а не must have.",
      "examples": [
       {
@@ -3512,7 +3876,12 @@
      "q": "'Mustn't have' is the normal opposite of 'must have' in deduction.",
      "answer": false,
      "explain_en": "The opposite of 'must have' (certainly did) is 'can't have' (certainly didn't).",
-     "explain_ru": "Противоположность must have (точно было) — can't have (точно не было)."
+     "explain_ru": "Противоположность must have (точно было) — can't have (точно не было).",
+     "ui": {
+      "ru": {
+       "q": "При умозаключениях 'mustn't have' — обычная противоположность 'must have'."
+      }
+     }
     },
     {
      "id": "e06",
@@ -3574,7 +3943,12 @@
      "q": "'Needn't have done' means the action was done but was unnecessary.",
      "answer": true,
      "explain_en": "Yes: 'You needn't have come' = you came, but it wasn't necessary.",
-     "explain_ru": "Верно: You needn't have come — ты пришёл, хотя это было не нужно."
+     "explain_ru": "Верно: You needn't have come — ты пришёл, хотя это было не нужно.",
+     "ui": {
+      "ru": {
+       "q": "'Needn't have done' означает, что действие было выполнено, но в нём не было необходимости."
+      }
+     }
     },
     {
      "id": "e11",
@@ -3661,7 +4035,12 @@
      "q": "'He could have won' means he won.",
      "answer": false,
      "explain_en": "It means winning was possible, but he didn't win.",
-     "explain_ru": "Это значит, что победа была возможна, но он не выиграл."
+     "explain_ru": "Это значит, что победа была возможна, но он не выиграл.",
+     "ui": {
+      "ru": {
+       "q": "'He could have won' означает, что он выиграл."
+      }
+     }
     },
     {
      "id": "e17",
@@ -3721,7 +4100,12 @@
      "q": "'Might not have' and 'couldn't have' mean the same.",
      "answer": false,
      "explain_en": "'Might not have' = possibly didn't; 'couldn't have' = impossible.",
-     "explain_ru": "Might not have — «возможно, не»; couldn't have — «невозможно»."
+     "explain_ru": "Might not have — «возможно, не»; couldn't have — «невозможно».",
+     "ui": {
+      "ru": {
+       "q": "'Might not have' и 'couldn't have' означают одно и то же."
+      }
+     }
     },
     {
      "id": "e22",
@@ -3743,7 +4127,29 @@
        "He needn't have left.",
        "Ему не нужно было уходить (а он ушёл)."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "He must have left.",
+         "I'm almost sure he left."
+        ],
+        [
+         "He can't have left.",
+         "It's impossible that he left."
+        ],
+        [
+         "He might have left.",
+         "Perhaps he left."
+        ],
+        [
+         "He needn't have left.",
+         "He left, but it wasn't necessary."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e23",
@@ -3781,7 +4187,12 @@
      ],
      "answer": 0,
      "explain_en": "'Should have' criticises what someone failed to do; the others are deductions.",
-     "explain_ru": "Should have — упрёк за несделанное; остальные варианты — выводы."
+     "explain_ru": "Should have — упрёк за несделанное; остальные варианты — выводы.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение выражает критику?"
+      }
+     }
     },
     {
      "id": "e26",
@@ -3804,7 +4215,12 @@
      "q": "'Could have' can describe a past ability that was not used.",
      "answer": true,
      "explain_en": "Yes: 'I could have gone to university, but I chose to work.'",
-     "explain_ru": "Верно: I could have gone to university, but I chose to work — «мог бы, но не стал»."
+     "explain_ru": "Верно: I could have gone to university, but I chose to work — «мог бы, но не стал».",
+     "ui": {
+      "ru": {
+       "q": "'Could have' может описывать способность в прошлом, которой не воспользовались."
+      }
+     }
     },
     {
      "id": "e28",
@@ -4052,7 +4468,12 @@
      "q": "In a non-defining relative clause, we can use 'that' instead of 'which'.",
      "answer": false,
      "explain_en": "'That' is only used in defining clauses, never after a comma.",
-     "explain_ru": "That используется только в определительных придаточных, никогда после запятой."
+     "explain_ru": "That используется только в определительных придаточных, никогда после запятой.",
+     "ui": {
+      "ru": {
+       "q": "В неопределительном придаточном можно использовать 'that' вместо 'which'."
+      }
+     }
     },
     {
      "id": "e06",
@@ -4113,7 +4534,12 @@
      "q": "'The man that I spoke to' is correct informal English.",
      "answer": true,
      "explain_en": "Yes: in a defining clause 'that' is fine and the preposition goes at the end.",
-     "explain_ru": "Верно: в определительном придаточном that допустимо, а предлог стоит в конце."
+     "explain_ru": "Верно: в определительном придаточном that допустимо, а предлог стоит в конце.",
+     "ui": {
+      "ru": {
+       "q": "'The man that I spoke to' — правильный неформальный английский."
+      }
+     }
     },
     {
      "id": "e11",
@@ -4200,7 +4626,12 @@
      "q": "'Walking down the street, a car nearly hit me' is a correct sentence.",
      "answer": false,
      "explain_en": "The participle's subject must be the same as the main subject: the car wasn't walking.",
-     "explain_ru": "Подлежащее причастия должно совпадать с главным: машина не шла по улице."
+     "explain_ru": "Подлежащее причастия должно совпадать с главным: машина не шла по улице.",
+     "ui": {
+      "ru": {
+       "q": "'Walking down the street, a car nearly hit me' — правильное предложение."
+      }
+     }
     },
     {
      "id": "e17",
@@ -4255,7 +4686,12 @@
      ],
      "answer": 0,
      "explain_en": "'Which' is the object of 'saw' in a defining clause, so it can be omitted.",
-     "explain_ru": "Which — дополнение глагола saw в определительном придаточном, его можно опустить."
+     "explain_ru": "Which — дополнение глагола saw в определительном придаточном, его можно опустить.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении можно опустить относительное местоимение?"
+      }
+     }
     },
     {
      "id": "e21",
@@ -4263,7 +4699,12 @@
      "q": "'Whom' is used mainly in formal English, especially after prepositions.",
      "answer": true,
      "explain_en": "Yes, in everyday speech 'who' or 'that' is more common.",
-     "explain_ru": "Верно, в повседневной речи чаще who или that."
+     "explain_ru": "Верно, в повседневной речи чаще who или that.",
+     "ui": {
+      "ru": {
+       "q": "'Whom' употребляется в основном в официальном английском, особенно после предлогов."
+      }
+     }
     },
     {
      "id": "e22",
@@ -4285,7 +4726,29 @@
        "the people living here",
        "люди, живущие здесь"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "the man whose car...",
+         "the man who owns the car..."
+        ],
+        [
+         "the man to whom I wrote",
+         "the man I sent a letter to"
+        ],
+        [
+         "the house built in 1900",
+         "the house that was built in 1900"
+        ],
+        [
+         "the people living here",
+         "the people who live here"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e23",
@@ -4347,7 +4810,12 @@
      "q": "A participle clause must have the same subject as the main clause.",
      "answer": true,
      "explain_en": "Otherwise the sentence is unclear or wrong (a 'dangling participle').",
-     "explain_ru": "Иначе предложение становится неясным или неправильным («висячее причастие»)."
+     "explain_ru": "Иначе предложение становится неясным или неправильным («висячее причастие»).",
+     "ui": {
+      "ru": {
+       "q": "Причастный оборот должен иметь то же подлежащее, что и главное предложение."
+      }
+     }
     },
     {
      "id": "e28",
@@ -4607,7 +5075,12 @@
      "q": "'Few' has a negative meaning (not enough), while 'a few' is more positive (some).",
      "answer": true,
      "explain_en": "Yes: 'few friends' sounds sad, 'a few friends' sounds fine.",
-     "explain_ru": "Верно: few friends звучит грустно («мало друзей»), a few friends — нормально («несколько»)."
+     "explain_ru": "Верно: few friends звучит грустно («мало друзей»), a few friends — нормально («несколько»).",
+     "ui": {
+      "ru": {
+       "q": "'Few' имеет отрицательное значение (недостаточно), а 'a few' — более положительное (несколько)."
+      }
+     }
     },
     {
      "id": "e06",
@@ -4669,7 +5142,12 @@
      "q": "We say 'the Japan' and 'the France'.",
      "answer": false,
      "explain_en": "Most country names take no article; exceptions are plurals like 'the Netherlands'.",
-     "explain_ru": "Большинство названий стран идут без артикля; исключения — множественное число, например the Netherlands."
+     "explain_ru": "Большинство названий стран идут без артикля; исключения — множественное число, например the Netherlands.",
+     "ui": {
+      "ru": {
+       "q": "Мы говорим 'the Japan' и 'the France'."
+      }
+     }
     },
     {
      "id": "e11",
@@ -4756,7 +5234,12 @@
      "q": "'All the day' is the normal way to say 'the whole day'.",
      "answer": false,
      "explain_en": "Say 'all day' or 'the whole day'; 'all the day' is wrong.",
-     "explain_ru": "Правильно all day или the whole day; all the day — ошибка."
+     "explain_ru": "Правильно all day или the whole day; all the day — ошибка.",
+     "ui": {
+      "ru": {
+       "q": "'All the day' — обычный способ сказать 'the whole day'."
+      }
+     }
     },
     {
      "id": "e17",
@@ -4770,7 +5253,12 @@
      ],
      "answer": 0,
      "explain_en": "'Either of' = one or the other; it takes a singular verb.",
-     "explain_ru": "Either of — «любой из двух»; глагол в единственном числе."
+     "explain_ru": "Either of — «любой из двух»; глагол в единственном числе.",
+     "ui": {
+      "ru": {
+       "q": "Выберите слово: ___ of the two options is acceptable; choose whichever you like."
+      }
+     }
     },
     {
      "id": "e18",
@@ -4819,7 +5307,12 @@
      "q": "'A tiger is a dangerous animal' can be a general statement about all tigers.",
      "answer": true,
      "explain_en": "Yes, 'a + singular noun' can represent the whole class.",
-     "explain_ru": "Верно: a + существительное в единственном числе может обозначать весь класс."
+     "explain_ru": "Верно: a + существительное в единственном числе может обозначать весь класс.",
+     "ui": {
+      "ru": {
+       "q": "'A tiger is a dangerous animal' может быть общим утверждением обо всех тиграх."
+      }
+     }
     },
     {
      "id": "e22",
@@ -4841,7 +5334,29 @@
        "none of them",
        "никто из них"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "the unemployed",
+         "people without a job"
+        ],
+        [
+         "twice a week",
+         "two times every week"
+        ],
+        [
+         "a few",
+         "a small number"
+        ],
+        [
+         "none of them",
+         "not one of them"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e23",
@@ -4865,7 +5380,12 @@
       "None"
      ],
      "explain_en": "Before 'of' we use 'none', not 'no'.",
-     "explain_ru": "Перед of используется none, а не no."
+     "explain_ru": "Перед of используется none, а не no.",
+     "ui": {
+      "ru": {
+       "q": "Вставьте нужное слово: ___ (none / no) of the answers were correct."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4901,7 +5421,12 @@
      "q": "'Any' can be used in affirmative sentences meaning 'it doesn't matter which'.",
      "answer": true,
      "explain_en": "Yes: 'Take any seat you like.'",
-     "explain_ru": "Верно: Take any seat you like — «садись на любое место»."
+     "explain_ru": "Верно: Take any seat you like — «садись на любое место».",
+     "ui": {
+      "ru": {
+       "q": "'Any' может употребляться в утвердительных предложениях в значении «неважно какой»."
+      }
+     }
     },
     {
      "id": "e28",
@@ -4925,7 +5450,12 @@
      ],
      "answer": 0,
      "explain_en": "'No' goes directly before a noun; 'none' cannot.",
-     "explain_ru": "No стоит прямо перед существительным; none так не используется."
+     "explain_ru": "No стоит прямо перед существительным; none так не используется.",
+     "ui": {
+      "ru": {
+       "q": "Выберите слово: I have ___ idea what you mean."
+      }
+     }
     },
     {
      "id": "e30",
@@ -5174,7 +5704,12 @@
      "q": "'Despite of the rain' is correct.",
      "answer": false,
      "explain_en": "'Despite' takes no 'of': despite the rain / in spite of the rain.",
-     "explain_ru": "Despite не требует of: despite the rain / in spite of the rain."
+     "explain_ru": "Despite не требует of: despite the rain / in spite of the rain.",
+     "ui": {
+      "ru": {
+       "q": "Выражение 'Despite of the rain' правильное."
+      }
+     }
     },
     {
      "id": "e06",
@@ -5240,7 +5775,12 @@
      "q": "After 'Not only' at the beginning of a sentence, the subject and auxiliary are inverted.",
      "answer": true,
      "explain_en": "Yes: Not only did she sing, she also danced.",
-     "explain_ru": "Верно: Not only did she sing, she also danced."
+     "explain_ru": "Верно: Not only did she sing, she also danced.",
+     "ui": {
+      "ru": {
+       "q": "После 'Not only' в начале предложения подлежащее и вспомогательный глагол меняются местами."
+      }
+     }
     },
     {
      "id": "e11",
@@ -5276,7 +5816,12 @@
      ],
      "answer": 0,
      "explain_en": "A what-cleft: What I need is...",
-     "explain_ru": "Расщеплённое предложение с what: What I need is… — «что мне нужно, так это…»."
+     "explain_ru": "Расщеплённое предложение с what: What I need is… — «что мне нужно, так это…».",
+     "ui": {
+      "ru": {
+       "q": "Выберите слово: ___ I need right now is a holiday."
+      }
+     }
     },
     {
      "id": "e13",
@@ -5322,7 +5867,12 @@
      "q": "'However' can join two clauses in the same way as 'although'.",
      "answer": false,
      "explain_en": "'However' is an adverb and normally starts a new sentence; 'although' is a conjunction.",
-     "explain_ru": "However — наречие и обычно начинает новое предложение; although — союз."
+     "explain_ru": "However — наречие и обычно начинает новое предложение; although — союз.",
+     "ui": {
+      "ru": {
+       "q": "'However' может соединять два предложения так же, как 'although'."
+      }
+     }
     },
     {
      "id": "e17",
@@ -5385,7 +5935,12 @@
      "q": "'So' is followed by an adjective or adverb, 'such' by a noun phrase.",
      "answer": true,
      "explain_en": "Yes: so cold, so quickly; such a cold day, such nice people.",
-     "explain_ru": "Верно: so cold, so quickly; such a cold day, such nice people."
+     "explain_ru": "Верно: so cold, so quickly; such a cold day, such nice people.",
+     "ui": {
+      "ru": {
+       "q": "После 'so' идёт прилагательное или наречие, а после 'such' — группа существительного."
+      }
+     }
     },
     {
      "id": "e22",
@@ -5411,7 +5966,33 @@
        "so as to",
        "чтобы"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "in spite of",
+         "regardless of; despite"
+        ],
+        [
+         "whereas",
+         "while, in contrast"
+        ],
+        [
+         "therefore",
+         "for that reason"
+        ],
+        [
+         "nevertheless",
+         "even so; in spite of that"
+        ],
+        [
+         "so as to",
+         "in order to"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e23",
@@ -5425,7 +6006,12 @@
      ],
      "answer": 0,
      "explain_en": "'Despite + -ing' is correct; 'despite' cannot be followed directly by a clause.",
-     "explain_ru": "Despite + -ing верно; после despite нельзя сразу ставить предложение."
+     "explain_ru": "Despite + -ing верно; после despite нельзя сразу ставить предложение.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e24",
@@ -5476,7 +6062,12 @@
      "q": "'It was in Paris that we met' emphasises the place.",
      "answer": true,
      "explain_en": "Yes, the cleft sentence highlights 'in Paris'.",
-     "explain_ru": "Верно, расщеплённое предложение выделяет in Paris."
+     "explain_ru": "Верно, расщеплённое предложение выделяет in Paris.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'It was in Paris that we met' выделяет место."
+      }
+     }
     },
     {
      "id": "e28",

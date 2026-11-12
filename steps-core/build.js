@@ -8,7 +8,7 @@ const head=read("head.html").replace("<title>biiwow English Steps</title>","<tit
 const body=read("body.html").replace("__APPNAME__",cfg.appName);
 const sentryTag=cfg.sentryDsn?'<script src="https://js.sentry-cdn.com/'+cfg.sentryDsn.split('//')[1].split('@')[0]+'.min.js" crossorigin="anonymous"></script>\n<script>window.sentryOnLoad=function(){Sentry.init({release:"'+cfg.slug+'@'+VERSION+'",environment:"production",sendDefaultPii:false});};</script>\n':'';
 const conf='<script>window.STEPS='+JSON.stringify({code:cfg.code,bcp:cfg.bcp,appName:cfg.appName,levels:cfg.levels,en:cfg.en,ru:cfg.ru,hideSubtitle:!!cfg.hideSubtitle})+';</script>\n';
-const js=conf+read("app1.js")+(a2=>{const k=a2.lastIndexOf("(async()=>{");return a2.slice(0,k)+read("app3.js")+read("app4.js")+a2.slice(k);})(read("app2.js"));
+const js=conf+read("app1.js")+(a2=>{const k=a2.lastIndexOf("(async()=>{");return a2.slice(0,k)+read("app3.js")+read("app4.js")+read("app5.js")+a2.slice(k);})(read("app2.js"));
 const inner=head+body+js;
 fs.writeFileSync(path.join(app,"preview.html"),inner);
 const site=path.join(app,"site");fs.mkdirSync(path.join(site,"packs"),{recursive:true});fs.mkdirSync(path.join(site,"icons"),{recursive:true});

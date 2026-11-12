@@ -508,7 +508,12 @@
      "q": "In modern French, after a past main verb (Je voulais que…) you normally use the imparfait du subjonctif.",
      "answer": false,
      "explain_en": "Modern French uses only the subjonctif présent or passé; the imparfait du subjonctif is literary.",
-     "explain_ru": "В современном языке используются только subjonctif présent и passé; imparfait du subjonctif — книжная форма."
+     "explain_ru": "В современном языке используются только subjonctif présent и passé; imparfait du subjonctif — книжная форма.",
+     "ui": {
+      "ru": {
+       "q": "В современном французском после главного глагола в прошедшем времени (Je voulais que…) обычно употребляется imparfait du subjonctif."
+      }
+     }
     },
     {
      "id": "e24",
@@ -516,7 +521,12 @@
      "q": "'Je suis content d'avoir fini' is preferred to 'Je suis content que j'aie fini'.",
      "answer": true,
      "explain_en": "Same subject → de + infinitif passé.",
-     "explain_ru": "Одно подлежащее → de + прошедший инфинитив."
+     "explain_ru": "Одно подлежащее → de + прошедший инфинитив.",
+     "ui": {
+      "ru": {
+       "q": "«Je suis content d'avoir fini» предпочтительнее, чем «Je suis content que j'aie fini»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -524,7 +534,12 @@
      "q": "In 'Je suis heureux qu'elle soit venue', the participle agrees with 'elle'.",
      "answer": true,
      "explain_en": "With être the participle agrees with the subject: venue.",
-     "explain_ru": "С être причастие согласуется с подлежащим: venue."
+     "explain_ru": "С être причастие согласуется с подлежащим: venue.",
+     "ui": {
+      "ru": {
+       "q": "В «Je suis heureux qu'elle soit venue» причастие согласуется с «elle»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -572,7 +587,29 @@
        "Je suis content de venir.",
        "Я рад прийти."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Je suis content que tu sois venu.",
+         "I'm glad you came."
+        ],
+        [
+         "Je suis content que tu viennes.",
+         "I'm glad you're coming."
+        ],
+        [
+         "Je suis content d'être venu.",
+         "I'm glad I came."
+        ],
+        [
+         "Je suis content de venir.",
+         "I'm glad to come."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1091,7 +1128,12 @@
      "q": "'Si j'aurais su' is correct standard French.",
      "answer": false,
      "explain_en": "After conditional si the conditional is impossible: si j'avais su.",
-     "explain_ru": "После условного si conditionnel невозможен: si j'avais su."
+     "explain_ru": "После условного si conditionnel невозможен: si j'avais su.",
+     "ui": {
+      "ru": {
+       "q": "«Si j'aurais su» — правильный нормативный французский."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1099,7 +1141,12 @@
      "q": "In 'Si j'avais pris mon parapluie, je ne serais pas mouillé', the result is in the conditionnel présent because it concerns the present.",
      "answer": true,
      "explain_en": "Past condition + present result → conditionnel présent.",
-     "explain_ru": "Условие в прошлом + результат в настоящем → conditionnel présent."
+     "explain_ru": "Условие в прошлом + результат в настоящем → conditionnel présent.",
+     "ui": {
+      "ru": {
+       "q": "В «Si j'avais pris mon parapluie, je ne serais pas mouillé» следствие стоит в conditionnel présent, потому что относится к настоящему."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1107,7 +1154,12 @@
      "q": "'Je me demande s'il aurait accepté' is correct because here si means 'whether'.",
      "answer": true,
      "explain_en": "In indirect questions si = 'whether' and the conditional is allowed.",
-     "explain_ru": "В косвенном вопросе si = «ли», и conditionnel допустим."
+     "explain_ru": "В косвенном вопросе si = «ли», и conditionnel допустим.",
+     "ui": {
+      "ru": {
+       "q": "«Je me demande s'il aurait accepté» правильно, потому что здесь si значит «ли»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1151,7 +1203,29 @@
        "Je serais parti.",
        "Я бы ушёл."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "J'aurais dû partir.",
+         "I should have left."
+        ],
+        [
+         "J'aurais pu partir.",
+         "I could have left."
+        ],
+        [
+         "J'aurais voulu partir.",
+         "I would have liked to leave."
+        ],
+        [
+         "Je serais parti.",
+         "I would have left."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1173,7 +1247,29 @@
        "Si tu étais sérieux, tu réussirais.",
        "условие сейчас → результат сейчас"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Si tu avais travaillé, tu aurais réussi.",
+         "past condition → past result"
+        ],
+        [
+         "Si tu avais travaillé, tu serais diplômé.",
+         "past condition → present result"
+        ],
+        [
+         "Si tu étais sérieux, tu aurais réussi.",
+         "permanent condition → past result"
+        ],
+        [
+         "Si tu étais sérieux, tu réussirais.",
+         "present condition → present result"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1674,7 +1770,12 @@
      "q": "'Comme si' can be followed by the conditional: 'comme s'il serait malade'.",
      "answer": false,
      "explain_en": "Comme si takes only the imparfait or the plus-que-parfait: comme s'il était malade.",
-     "explain_ru": "После comme si — только imparfait или plus-que-parfait: comme s'il était malade."
+     "explain_ru": "После comme si — только imparfait или plus-que-parfait: comme s'il était malade.",
+     "ui": {
+      "ru": {
+       "q": "После «comme si» может стоять условное наклонение: «comme s'il serait malade»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1682,7 +1783,12 @@
      "q": "'Même si' is followed by the indicative, not the subjunctive.",
      "answer": true,
      "explain_en": "Même si + indicatif: même si tu as raison.",
-     "explain_ru": "Même si + изъявительное наклонение: même si tu as raison."
+     "explain_ru": "Même si + изъявительное наклонение: même si tu as raison.",
+     "ui": {
+      "ru": {
+       "q": "После «même si» употребляется изъявительное наклонение, а не subjonctif."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1690,7 +1796,12 @@
      "q": "With the same subject, 'sans que' is replaced by 'sans' + infinitive: 'Il est parti sans dire au revoir'.",
      "answer": true,
      "explain_en": "Same subject → sans + infinitive.",
-     "explain_ru": "Одно подлежащее → sans + инфинитив."
+     "explain_ru": "Одно подлежащее → sans + инфинитив.",
+     "ui": {
+      "ru": {
+       "q": "При одном и том же подлежащем «sans que» заменяется на «sans» + инфинитив: «Il est parti sans dire au revoir»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1746,7 +1857,37 @@
        "au cas où",
        "на случай, если"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "pourvu que",
+         "provided that; as long as"
+        ],
+        [
+         "à moins que",
+         "unless"
+        ],
+        [
+         "sans que",
+         "without (someone doing something)"
+        ],
+        [
+         "quoique",
+         "although"
+        ],
+        [
+         "comme si",
+         "as if"
+        ],
+        [
+         "au cas où",
+         "in case"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2265,7 +2406,12 @@
      "q": "In 'J'ai trouvé un hôtel qui est calme', the indicative is used because the hotel really exists.",
      "answer": true,
      "explain_en": "A real, found antecedent → indicative.",
-     "explain_ru": "Реальный, найденный предмет → изъявительное наклонение."
+     "explain_ru": "Реальный, найденный предмет → изъявительное наклонение.",
+     "ui": {
+      "ru": {
+       "q": "В «J'ai trouvé un hôtel qui est calme» употребляется изъявительное наклонение, потому что отель действительно существует."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2273,7 +2419,12 @@
      "q": "After a superlative (le plus…, le meilleur…), the relative clause usually takes the subjunctive in careful French.",
      "answer": true,
      "explain_en": "C'est le meilleur film que j'aie vu.",
-     "explain_ru": "Норма: C'est le meilleur film que j'aie vu — после превосходной степени subjonctif."
+     "explain_ru": "Норма: C'est le meilleur film que j'aie vu — после превосходной степени subjonctif.",
+     "ui": {
+      "ru": {
+       "q": "После превосходной степени (le plus…, le meilleur…) в тщательной речи в придаточном определительном обычно стоит subjonctif."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2281,7 +2432,12 @@
      "q": "'Je cherche la clé qui ouvre cette porte' must take the subjunctive.",
      "answer": false,
      "explain_en": "La clé is definite and known to exist → indicative is correct.",
-     "explain_ru": "La clé — определённый, существующий предмет → изъявительное наклонение правильно."
+     "explain_ru": "La clé — определённый, существующий предмет → изъявительное наклонение правильно.",
+     "ui": {
+      "ru": {
+       "q": "В «Je cherche la clé qui ouvre cette porte» обязательно нужен subjonctif."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2303,7 +2459,29 @@
        "personne qui veuille",
        "никого, кто захотел бы"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "le seul qui puisse",
+         "the only one who can"
+        ],
+        [
+         "le meilleur que j'aie vu",
+         "the best I have seen"
+        ],
+        [
+         "quelqu'un qui sache",
+         "someone who would know"
+        ],
+        [
+         "personne qui veuille",
+         "nobody who would want"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2355,7 +2533,33 @@
        "реальный факт",
        "J'ai un ami qui me comprend."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "superlative",
+         "C'est le plus grand pays que je connaisse."
+        ],
+        [
+         "uniqueness",
+         "C'est le seul qui me comprenne."
+        ],
+        [
+         "search",
+         "Je cherche un ami qui me comprenne."
+        ],
+        [
+         "denial of existence",
+         "Il n'y a personne qui me comprenne."
+        ],
+        [
+         "real fact",
+         "J'ai un ami qui me comprend."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2855,7 +3059,12 @@
      "q": "'Sans doute' means 'without any doubt, certainly' in modern French.",
      "answer": false,
      "explain_en": "Today sans doute means 'probably'; 'certainly' is sans aucun doute.",
-     "explain_ru": "Сегодня sans doute значит «вероятно»; «несомненно» — sans aucun doute."
+     "explain_ru": "Сегодня sans doute значит «вероятно»; «несомненно» — sans aucun doute.",
+     "ui": {
+      "ru": {
+       "q": "В современном французском «sans doute» значит «без всякого сомнения, несомненно»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2863,7 +3072,12 @@
      "q": "'Se douter que' (to suspect) is followed by the indicative.",
      "answer": true,
      "explain_en": "Je me doute qu'il est fâché.",
-     "explain_ru": "Je me doute qu'il est fâché — после se douter que индикатив."
+     "explain_ru": "Je me doute qu'il est fâché — после se douter que индикатив.",
+     "ui": {
+      "ru": {
+       "q": "После «se douter que» (догадываться) употребляется изъявительное наклонение."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2871,7 +3085,12 @@
      "q": "'Je pense qu'il soit malade' is correct French.",
      "answer": false,
      "explain_en": "Affirmative penser que → indicative: je pense qu'il est malade.",
-     "explain_ru": "Утвердительное penser que → индикатив: je pense qu'il est malade."
+     "explain_ru": "Утвердительное penser que → индикатив: je pense qu'il est malade.",
+     "ui": {
+      "ru": {
+       "q": "«Je pense qu'il soit malade» — правильный французский."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2893,7 +3112,29 @@
        "Il aurait dû venir.",
        "Ему следовало прийти."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Il doit être malade.",
+         "He must be ill."
+        ],
+        [
+         "Il a dû être malade.",
+         "He must have been ill."
+        ],
+        [
+         "Il devrait arriver bientôt.",
+         "He should arrive soon."
+        ],
+        [
+         "Il aurait dû venir.",
+         "He should have come."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2919,7 +3160,33 @@
        "je doute que",
        "я сомневаюсь, что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "il se peut que",
+         "it may be that"
+        ],
+        [
+         "il est probable que",
+         "it is likely that"
+        ],
+        [
+         "il est peu probable que",
+         "it is unlikely that"
+        ],
+        [
+         "je me doute que",
+         "I suspect that"
+        ],
+        [
+         "je doute que",
+         "I doubt that"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3214,7 +3481,12 @@
      ],
      "answer": 0,
      "explain_en": "Naquit is the passé simple of naître → elle est née.",
-     "explain_ru": "Naquit — passé simple от naître → elle est née."
+     "explain_ru": "Naquit — passé simple от naître → elle est née.",
+     "ui": {
+      "ru": {
+       "q": "« Elle naquit à Lyon » означает:"
+      }
+     }
     },
     {
      "id": "e06",
@@ -3256,7 +3528,12 @@
      ],
      "answer": 2,
      "explain_en": "The passé simple (entra) carries the event; the imparfait (pleuvait) is the background.",
-     "explain_ru": "Passé simple (entra) передаёт событие, imparfait (pleuvait) — фон."
+     "explain_ru": "Passé simple (entra) передаёт событие, imparfait (pleuvait) — фон.",
+     "ui": {
+      "ru": {
+       "q": "Какой глагол в « Il pleuvait quand il entra » выражает событие?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -3284,7 +3561,12 @@
      ],
      "answer": 3,
      "explain_en": "Durent is the passé simple of devoir → elles ont dû.",
-     "explain_ru": "Durent — passé simple глагола devoir → elles ont dû."
+     "explain_ru": "Durent — passé simple глагола devoir → elles ont dû.",
+     "ui": {
+      "ru": {
+       "q": "« Elles durent partir » означает:"
+      }
+     }
     },
     {
      "id": "e11",
@@ -3432,7 +3714,12 @@
      "q": "The passé simple is the normal past tense in everyday spoken French.",
      "answer": false,
      "explain_en": "In speech the passé composé is used; the passé simple belongs to written narration.",
-     "explain_ru": "В устной речи используется passé composé; passé simple — время письменного повествования."
+     "explain_ru": "В устной речи используется passé composé; passé simple — время письменного повествования.",
+     "ui": {
+      "ru": {
+       "q": "Passé simple — обычное прошедшее время в повседневной разговорной речи."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3440,7 +3727,12 @@
      "q": "'Il finit' can be either the present or the passé simple.",
      "answer": true,
      "explain_en": "For -ir verbs like finir, the il form is the same in both tenses.",
-     "explain_ru": "У глаголов типа finir форма il совпадает в обоих временах."
+     "explain_ru": "У глаголов типа finir форма il совпадает в обоих временах.",
+     "ui": {
+      "ru": {
+       "q": "«Il finit» может быть и настоящим временем, и passé simple."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3448,7 +3740,12 @@
      "q": "'Il eut' is the passé simple of être.",
      "answer": false,
      "explain_en": "Il eut comes from avoir; être gives il fut.",
-     "explain_ru": "Il eut — от avoir; от être — il fut."
+     "explain_ru": "Il eut — от avoir; от être — il fut.",
+     "ui": {
+      "ru": {
+       "q": "«Il eut» — это passé simple глагола être."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4032,7 +4329,12 @@
      "q": "With pronominal verbs like s'adresser à, a person is replaced by à + stressed pronoun: 'Je m'adresse à lui'.",
      "answer": true,
      "explain_en": "Pronominal verbs do not accept lui/leur before the verb: je m'adresse à lui.",
-     "explain_ru": "Возвратные глаголы не допускают lui/leur перед глаголом: je m'adresse à lui."
+     "explain_ru": "Возвратные глаголы не допускают lui/leur перед глаголом: je m'adresse à lui.",
+     "ui": {
+      "ru": {
+       "q": "У местоименных глаголов вроде s'adresser à лицо заменяется на à + ударное местоимение: «Je m'adresse à lui»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4040,7 +4342,12 @@
      "q": "'Ne t'en fais pas' means 'Don't worry'.",
      "answer": true,
      "explain_en": "S'en faire = to worry.",
-     "explain_ru": "S'en faire — «переживать», значит «не переживай»."
+     "explain_ru": "S'en faire — «переживать», значит «не переживай».",
+     "ui": {
+      "ru": {
+       "q": "«Ne t'en fais pas» значит «Не переживай»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4048,7 +4355,12 @@
      "q": "'Va-t-en !' with two hyphens is the standard spelling.",
      "answer": false,
      "explain_en": "T' is the elided pronoun te, so the spelling is va-t'en.",
-     "explain_ru": "T' — усечённое местоимение te, поэтому правильно va-t'en."
+     "explain_ru": "T' — усечённое местоимение te, поэтому правильно va-t'en.",
+     "ui": {
+      "ru": {
+       "q": "Написание «Va-t-en !» с двумя дефисами — нормативное."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4078,7 +4390,37 @@
        "ne pas en revenir",
        "не мочь поверить"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "s'en aller",
+         "to go away, leave"
+        ],
+        [
+         "en vouloir à qqn",
+         "to hold a grudge against someone"
+        ],
+        [
+         "s'y prendre",
+         "to go about it"
+        ],
+        [
+         "s'en sortir",
+         "to cope, manage"
+        ],
+        [
+         "s'y faire",
+         "to get used to it"
+        ],
+        [
+         "ne pas en revenir",
+         "to be unable to believe it"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4104,7 +4446,33 @@
        "Je n'en reviens pas.",
        "Глазам своим не верю."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ne t'en fais pas.",
+         "Don't worry."
+        ],
+        [
+         "J'en ai marre.",
+         "I'm fed up."
+        ],
+        [
+         "On s'y fait.",
+         "You get used to it."
+        ],
+        [
+         "Il y va de ta santé.",
+         "Your health is at stake."
+        ],
+        [
+         "Je n'en reviens pas.",
+         "I can't believe it."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4636,7 +5004,12 @@
      "q": "In 'Ils se sont parlé', the participle is invariable because se is an indirect object (parler à).",
      "answer": true,
      "explain_en": "Parler à quelqu'un → no agreement.",
-     "explain_ru": "Parler à quelqu'un → согласования нет."
+     "explain_ru": "Parler à quelqu'un → согласования нет.",
+     "ui": {
+      "ru": {
+       "q": "В «Ils se sont parlé» причастие не изменяется, потому что se — косвенное дополнение (parler à)."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4644,7 +5017,12 @@
      "q": "'Elle a sortie la poubelle' is correct because the participle agrees with the subject.",
      "answer": false,
      "explain_en": "With avoir there is no agreement with the subject: elle a sorti la poubelle.",
-     "explain_ru": "С avoir согласования с подлежащим нет: elle a sorti la poubelle."
+     "explain_ru": "С avoir согласования с подлежащим нет: elle a sorti la poubelle.",
+     "ui": {
+      "ru": {
+       "q": "«Elle a sortie la poubelle» правильно, потому что причастие согласуется с подлежащим."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4652,7 +5030,12 @@
      "q": "'Vu les circonstances' is correct: vu before a noun is invariable.",
      "answer": true,
      "explain_en": "Before a noun, vu works as a preposition.",
-     "explain_ru": "Перед существительным vu работает как предлог и не меняется."
+     "explain_ru": "Перед существительным vu работает как предлог и не меняется.",
+     "ui": {
+      "ru": {
+       "q": "«Vu les circonstances» правильно: vu перед существительным не изменяется."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4674,7 +5057,29 @@
        "Elles se sont souvenues.",
        "только возвратный глагол: согласование с подлежащим"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Elle s'est lavée.",
+         "se is the direct object: agreement"
+        ],
+        [
+         "Elle s'est lavé les mains.",
+         "object after the verb: no agreement"
+        ],
+        [
+         "Ils se sont téléphoné.",
+         "se is the indirect object: no agreement"
+        ],
+        [
+         "Elles se sont souvenues.",
+         "inherently reflexive verb: agrees with the subject"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5073,7 +5478,20 @@
      ],
      "answer": 2,
      "explain_en": "Prétendre = to claim (with some doubt), a false friend of 'претендовать'.",
-     "explain_ru": "Prétendre — «утверждать» (с оттенком сомнения), ложный друг слова «претендовать»."
+     "explain_ru": "Prétendre — «утверждать» (с оттенком сомнения), ложный друг слова «претендовать».",
+     "ui": {
+      "en": {
+       "options": [
+        "He lays claim to an illness.",
+        "He wants to get ill.",
+        "He claims he is ill.",
+        "He pretends to be ill."
+       ]
+      },
+      "ru": {
+       "q": "« Il prétend être malade » означает:"
+      }
+     }
     },
     {
      "id": "e11",
@@ -5226,7 +5644,12 @@
      "q": "When the reporting verb is in the past, an imparfait in the direct speech stays an imparfait.",
      "answer": true,
      "explain_en": "The imparfait, plus-que-parfait and conditional do not shift.",
-     "explain_ru": "Imparfait, plus-que-parfait и conditionnel не сдвигаются."
+     "explain_ru": "Imparfait, plus-que-parfait и conditionnel не сдвигаются.",
+     "ui": {
+      "ru": {
+       "q": "Когда вводящий глагол стоит в прошедшем времени, imparfait прямой речи остаётся imparfait."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5234,7 +5657,12 @@
      "q": "In French, as in Russian, the tense of the direct speech never changes after 'il a dit que'.",
      "answer": false,
      "explain_en": "French shifts tenses after a past reporting verb: il a dit qu'il était malade.",
-     "explain_ru": "Во французском после глагола речи в прошлом времена сдвигаются: il a dit qu'il était malade."
+     "explain_ru": "Во французском после глагола речи в прошлом времена сдвигаются: il a dit qu'il était malade.",
+     "ui": {
+      "ru": {
+       "q": "Во французском, как и в русском, время прямой речи никогда не меняется после «il a dit que»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5242,7 +5670,12 @@
      "q": "'Il m'a demandé qu'est-ce que je voulais' is correct in careful French.",
      "answer": false,
      "explain_en": "In indirect questions use ce que: il m'a demandé ce que je voulais.",
-     "explain_ru": "В косвенном вопросе нужно ce que: il m'a demandé ce que je voulais."
+     "explain_ru": "В косвенном вопросе нужно ce que: il m'a demandé ce que je voulais.",
+     "ui": {
+      "ru": {
+       "q": "«Il m'a demandé qu'est-ce que je voulais» правильно в тщательной речи."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5328,7 +5761,37 @@
        "ajouter",
        "добавить"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "prétendre",
+         "to claim (doubtfully)"
+        ],
+        [
+         "avouer",
+         "to admit, confess"
+        ],
+        [
+         "nier",
+         "to deny"
+        ],
+        [
+         "menacer de",
+         "to threaten to"
+        ],
+        [
+         "se plaindre que",
+         "to complain that"
+        ],
+        [
+         "ajouter",
+         "to add"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5639,7 +6102,12 @@
      ],
      "answer": 0,
      "explain_en": "Short adverbs go between the auxiliary and the participle: j'ai bien compris.",
-     "explain_ru": "Короткие наречия стоят между вспомогательным глаголом и причастием: j'ai bien compris."
+     "explain_ru": "Короткие наречия стоят между вспомогательным глаголом и причастием: j'ai bien compris.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e08",
@@ -5667,7 +6135,12 @@
      ],
      "answer": 1,
      "explain_en": "After the noun, grand has its literal meaning: tall.",
-     "explain_ru": "После существительного grand имеет прямой смысл — «высокий»."
+     "explain_ru": "После существительного grand имеет прямой смысл — «высокий».",
+     "ui": {
+      "ru": {
+       "q": "« Un homme grand » означает:"
+      }
+     }
     },
     {
      "id": "e10",
@@ -5834,7 +6307,12 @@
      "q": "At the start of a clause, 'aussi' can mean 'therefore' and is followed by inversion: 'Aussi a-t-il décidé de partir'.",
      "answer": true,
      "explain_en": "Initial aussi = therefore, with inversion.",
-     "explain_ru": "Aussi в начале предложения значит «поэтому» и требует инверсии."
+     "explain_ru": "Aussi в начале предложения значит «поэтому» и требует инверсии.",
+     "ui": {
+      "ru": {
+       "q": "В начале предложения «aussi» может значить «поэтому», и после него идёт инверсия: «Aussi a-t-il décidé de partir»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5842,7 +6320,12 @@
      "q": "'En effet' is used to contradict what was said before.",
      "answer": false,
      "explain_en": "En effet confirms or explains; to contradict use au contraire or pourtant.",
-     "explain_ru": "En effet подтверждает или объясняет; для возражения — au contraire или pourtant."
+     "explain_ru": "En effet подтверждает или объясняет; для возражения — au contraire или pourtant.",
+     "ui": {
+      "ru": {
+       "q": "«En effet» используется, чтобы возразить на сказанное ранее."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5850,7 +6333,12 @@
      "q": "'Un ancien château' and 'un château ancien' mean the same thing.",
      "answer": false,
      "explain_en": "Un ancien château = a former castle; un château ancien = an old castle.",
-     "explain_ru": "Un ancien château — бывший замок; un château ancien — старинный замок."
+     "explain_ru": "Un ancien château — бывший замок; un château ancien — старинный замок.",
+     "ui": {
+      "ru": {
+       "q": "«Un ancien château» и «un château ancien» означают одно и то же."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5880,7 +6368,37 @@
        "en conclusion",
        "вывод"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "d'abord",
+         "sequence"
+        ],
+        [
+         "de plus",
+         "addition"
+        ],
+        [
+         "cependant",
+         "contrast"
+        ],
+        [
+         "puisque",
+         "cause"
+        ],
+        [
+         "par conséquent",
+         "consequence"
+        ],
+        [
+         "en conclusion",
+         "conclusion"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5910,7 +6428,37 @@
        "un homme pauvre",
        "небогатый человек"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "un ancien élève",
+         "a former pupil"
+        ],
+        [
+         "un bâtiment ancien",
+         "an old (historic) building"
+        ],
+        [
+         "ma propre voiture",
+         "my own car"
+        ],
+        [
+         "une voiture propre",
+         "a clean car"
+        ],
+        [
+         "un pauvre homme",
+         "an unfortunate man"
+        ],
+        [
+         "un homme pauvre",
+         "a poor (not rich) man"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5940,7 +6488,37 @@
        "notamment",
        "в частности"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "or",
+         "yet, now (in an argument)"
+        ],
+        [
+         "en revanche",
+         "on the other hand"
+        ],
+        [
+         "en effet",
+         "indeed, in fact"
+        ],
+        [
+         "d'où",
+         "hence"
+        ],
+        [
+         "faute de",
+         "for lack of"
+        ],
+        [
+         "notamment",
+         "in particular, notably"
+        ]
+       ]
+      }
+     }
     }
    ]
   }

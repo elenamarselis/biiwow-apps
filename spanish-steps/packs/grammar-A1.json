@@ -90,7 +90,7 @@
     {
      "title_en": "The letter ñ",
      "title_ru": "Буква ñ",
-     "body_en": "Ñ is a separate letter of the alphabet. It sounds like the soft Russian 'нь' as in 'няня'. Do not confuse it with n: 'año' (year) and 'ano' (anus) are different words. Capital form: Ñ.",
+     "body_en": "Ñ is a separate letter of the alphabet. It sounds like the 'ny' in 'canyon' (the soft Russian 'n'' as in 'nyanya'). Do not confuse it with n: 'año' (year) and 'ano' (anus) are different words. Capital form: Ñ.",
      "body_ru": "Ñ — отдельная буква алфавита. Произносится как мягкое русское 'нь' в слове 'няня'. Не путайте её с n: 'año' (год) и 'ano' (анус) — разные слова. Заглавная форма: Ñ.",
      "examples": [
       {
@@ -113,7 +113,7 @@
     {
      "title_en": "ll and y",
      "title_ru": "Буквы ll и y",
-     "body_en": "In most of Spain, 'll' and 'y' before a vowel are pronounced the same, like Russian 'й' (some speakers say something closer to 'ль'). 'Calle' sounds roughly like [ка-йе]. At the end of a word or alone, 'y' is the vowel [i]: 'y' (and), 'hoy' (today).",
+     "body_en": "In most of Spain, 'll' and 'y' before a vowel are pronounced the same, like the English 'y' in 'yes' (some speakers say something closer to 'ly'). 'Calle' sounds roughly like [ka-ye]. At the end of a word or alone, 'y' is the vowel [i]: 'y' (and), 'hoy' (today).",
      "body_ru": "В большей части Испании 'll' и 'y' перед гласной произносятся одинаково — как русское 'й' (у некоторых говорящих ближе к 'ль'). 'Calle' звучит примерно как [ка-йе]. В конце слова или отдельно 'y' — это гласный [и]: 'y' (и), 'hoy' (сегодня).",
      "examples": [
       {
@@ -164,7 +164,7 @@
     {
      "title_en": "g, j and gu",
      "title_ru": "Буквы g, j и gu",
-     "body_en": "Before a, o, u the letter g is [g]: gato, gorro, gustar. Before e, i it has a strong [x] sound like Russian 'х': gente, gimnasio. The letter j is always that [x] sound: jamón, Juan. To write [g] before e or i, Spanish uses gu with a silent u: guitarra, guerra. If the u must be heard, it gets a diaeresis: pingüino.",
+     "body_en": "Before a, o, u the letter g is [g]: gato, gorro, gustar. Before e, i it has a strong [x] sound like the 'ch' in Scottish 'loch' (Russian 'kh'): gente, gimnasio. The letter j is always that [x] sound: jamón, Juan. To write [g] before e or i, Spanish uses gu with a silent u: guitarra, guerra. If the u must be heard, it gets a diaeresis: pingüino.",
      "body_ru": "Перед a, o, u буква g читается как [г]: gato, gorro, gustar. Перед e, i она даёт жёсткий звук [х], как русское 'х': gente, gimnasio. Буква j всегда читается как [х]: jamón, Juan. Чтобы написать [г] перед e или i, используют gu с немой u: guitarra, guerra. Если u должна читаться, над ней ставятся две точки: pingüino.",
      "examples": [
       {
@@ -192,7 +192,7 @@
     {
      "title_en": "Silent h, b = v, r and rr",
      "title_ru": "Немая h, b = v, r и rr",
-     "body_en": "The letter h is never pronounced: hola [o-la], hora [o-ra]. The exception is the pair ch, which sounds like Russian 'ч': chico. The letters b and v represent the same sound, close to Russian 'б': vaso and beso start the same way. A single r between vowels is a quick tap; rr and r at the start of a word are rolled strongly: pero (but) vs perro (dog).",
+     "body_en": "The letter h is never pronounced: hola [o-la], hora [o-ra]. The exception is the pair ch, which sounds like English 'ch' in 'church': chico. The letters b and v represent the same sound, close to English 'b': vaso and beso start the same way. A single r between vowels is a quick tap; rr and r at the start of a word are rolled strongly: pero (but) vs perro (dog).",
      "body_ru": "Буква h никогда не произносится: hola [о-ла], hora [о-ра]. Исключение — сочетание ch, которое читается как русское 'ч': chico. Буквы b и v обозначают один и тот же звук, близкий к русскому 'б': vaso и beso начинаются одинаково. Одиночная r между гласными — короткий удар языка; rr и r в начале слова — раскатистый звук: pero (но) и perro (собака) различаются именно этим.",
      "examples": [
       {
@@ -310,7 +310,17 @@
      ],
      "answer": 0,
      "explain_en": "The letter h is always silent in Spanish: 'hola' sounds like [o-la].",
-     "explain_ru": "Буква h в испанском всегда немая: 'hola' звучит как [о-ла]. Не читайте её как русское 'х'."
+     "explain_ru": "Буква h в испанском всегда немая: 'hola' звучит как [о-ла]. Не читайте её как русское 'х'.",
+     "ui": {
+      "en": {
+       "options": [
+        "No se pronuncia",
+        "Como la j de «jamón»",
+        "Como la g de «gato»",
+        "Como la k de «kilo»"
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -520,8 +530,16 @@
      "type": "tf",
      "q": "In European Spanish the letter z in 'zapato' is pronounced like Russian 'з'.",
      "answer": false,
-     "explain_en": "In Spain z is the voiceless interdental [θ], like English 'th' in 'think'. It is never voiced like Russian 'з'.",
-     "explain_ru": "В Испании z — глухой межзубный звук [θ], как английское 'th' в 'think'. Он никогда не звонкий, как русское 'з'."
+     "explain_en": "In Spain z is the voiceless interdental [θ], like English 'th' in 'think'. It is never voiced like English 'z' (Russian 'z').",
+     "explain_ru": "В Испании z — глухой межзубный звук [θ], как английское 'th' в 'think'. Он никогда не звонкий, как русское 'з'.",
+     "ui": {
+      "en": {
+       "q": "In European Spanish the letter z in 'zapato' is pronounced like the English 'z' in 'zoo'."
+      },
+      "ru": {
+       "q": "В европейском испанском буква z в слове 'zapato' произносится как русское «з»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -529,15 +547,25 @@
      "q": "The word 'camión' needs a written accent.",
      "answer": true,
      "explain_en": "'Camión' ends in -n but is stressed on the last syllable, which breaks the rule, so it needs the accent.",
-     "explain_ru": "'Camión' оканчивается на -n, но ударение на последнем слоге — правило нарушено, поэтому нужен знак ударения."
+     "explain_ru": "'Camión' оканчивается на -n, но ударение на последнем слоге — правило нарушено, поэтому нужен знак ударения.",
+     "ui": {
+      "ru": {
+       "q": "Слову 'camión' нужен письменный знак ударения."
+      }
+     }
     },
     {
      "id": "e25",
      "type": "tf",
      "q": "In Spanish the letter h is always silent, except in the combination ch.",
      "answer": true,
-     "explain_en": "H is never pronounced on its own; only ch has a sound, like Russian 'ч'.",
-     "explain_ru": "Отдельная h никогда не произносится; звук есть только у сочетания ch — как русское 'ч'."
+     "explain_en": "H is never pronounced on its own; only ch has a sound, like English 'ch' in 'church'.",
+     "explain_ru": "Отдельная h никогда не произносится; звук есть только у сочетания ch — как русское 'ч'.",
+     "ui": {
+      "ru": {
+       "q": "В испанском буква h всегда немая, кроме сочетания ch."
+      }
+     }
     },
     {
      "id": "e26",
@@ -559,7 +587,29 @@
        "h",
        "не произносится"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ñ",
+         "ny (as in 'canyon')"
+        ],
+        [
+         "ll",
+         "y (as in 'yes')"
+        ],
+        [
+         "j",
+         "kh (as in Scottish 'loch')"
+        ],
+        [
+         "h",
+         "silent"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -603,7 +653,29 @@
        "que",
        "что, который"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "sí",
+         "yes"
+        ],
+        [
+         "si",
+         "if"
+        ],
+        [
+         "qué",
+         "what? (question)"
+        ],
+        [
+         "que",
+         "that, which"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1098,7 +1170,12 @@
      "q": "'La problema' is correct.",
      "answer": false,
      "explain_en": "'Problema' is masculine despite the -a ending: el problema.",
-     "explain_ru": "'Problema' — мужского рода, несмотря на окончание -a: el problema."
+     "explain_ru": "'Problema' — мужского рода, несмотря на окончание -a: el problema.",
+     "ui": {
+      "ru": {
+       "q": "'La problema' — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1106,7 +1183,12 @@
      "q": "'La mano' is correct.",
      "answer": true,
      "explain_en": "'Mano' is one of the few -o nouns that are feminine.",
-     "explain_ru": "'Mano' — одно из немногих слов на -o женского рода."
+     "explain_ru": "'Mano' — одно из немногих слов на -o женского рода.",
+     "ui": {
+      "ru": {
+       "q": "'La mano' — правильно."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1114,7 +1196,15 @@
      "q": "In Spanish 'leche' (milk) is feminine, although 'молоко' is neuter in Russian.",
      "answer": true,
      "explain_en": "Spanish has no neuter; 'leche' is feminine: la leche.",
-     "explain_ru": "В испанском нет среднего рода; 'leche' — женского рода: la leche. Род нужно учить для каждого слова, не опираясь на русский."
+     "explain_ru": "В испанском нет среднего рода; 'leche' — женского рода: la leche. Род нужно учить для каждого слова, не опираясь на русский.",
+     "ui": {
+      "en": {
+       "q": "In Spanish 'leche' (milk) is feminine."
+      },
+      "ru": {
+       "q": "В испанском 'leche' (молоко) женского рода, хотя «молоко» в русском среднего рода."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1180,7 +1270,29 @@
        "la leche",
        "молоко"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "el sol",
+         "sun"
+        ],
+        [
+         "la luna",
+         "moon"
+        ],
+        [
+         "el agua",
+         "water"
+        ],
+        [
+         "la leche",
+         "milk"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1194,7 +1306,7 @@
     {
      "title_en": "'To be' is never omitted",
      "title_ru": "Глагол 'быть' не опускается",
-     "body_en": "In Russian you say 'Я студент' without a verb. In Spanish the verb must always be present: Yo soy estudiante. Spanish has two verbs that both translate as 'to be': ser and estar. They are not interchangeable, so you must choose the right one every time.",
+     "body_en": "In Russian you can say 'Ya student' (I student) without a verb. In Spanish the verb must always be present: Yo soy estudiante. Spanish has two verbs that both translate as 'to be': ser and estar. They are not interchangeable, so you must choose the right one every time.",
      "body_ru": "По-русски мы говорим 'Я студент' без глагола. В испанском глагол обязателен всегда: Yo soy estudiante. При этом в испанском два глагола со значением 'быть': ser и estar. Они не взаимозаменяемы, каждый раз нужно выбирать правильный.",
      "examples": [
       {
@@ -1319,7 +1431,7 @@
     {
      "title_en": "Ser + de: origin, material, possession",
      "title_ru": "Ser + de: происхождение, материал, принадлежность",
-     "body_en": "Ser followed by 'de' has three common meanings: origin (Soy de Moscú), material (El reloj es de oro) and possession (El coche es de Juan). Russian uses 'из' for the first two and the genitive for the third; Spanish uses one structure for all.",
+     "body_en": "Ser followed by 'de' has three common meanings: origin (Soy de Moscú), material (El reloj es de oro) and possession (El coche es de Juan). Russian uses the preposition 'iz' for the first two and the genitive case for the third; Spanish uses one structure for all.",
      "body_ru": "Ser с предлогом 'de' имеет три частых значения: происхождение (Soy de Moscú — я из Москвы), материал (El reloj es de oro — часы из золота) и принадлежность (El coche es de Juan — машина Хуана). В русском для первых двух нужен предлог 'из', а для третьего — родительный падеж; в испанском одна конструкция на всё.",
      "examples": [
       {
@@ -1672,7 +1784,12 @@
      "q": "'Yo estoy ruso' is correct.",
      "answer": false,
      "explain_en": "Nationality is a permanent characteristic and needs ser: Yo soy ruso.",
-     "explain_ru": "Национальность — постоянный признак, нужен ser: Yo soy ruso."
+     "explain_ru": "Национальность — постоянный признак, нужен ser: Yo soy ruso.",
+     "ui": {
+      "ru": {
+       "q": "'Yo estoy ruso' — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1680,7 +1797,12 @@
      "q": "'El café está caliente' is correct for coffee that is hot right now.",
      "answer": true,
      "explain_en": "A current, temporary condition takes estar: está caliente.",
-     "explain_ru": "Текущее, временное состояние — с estar: está caliente."
+     "explain_ru": "Текущее, временное состояние — с estar: está caliente.",
+     "ui": {
+      "ru": {
+       "q": "'El café está caliente' — правильно о кофе, который горячий прямо сейчас."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1688,7 +1810,15 @@
      "q": "In Spanish the verb 'to be' can be left out in the present tense, as in Russian 'Я студент'.",
      "answer": false,
      "explain_en": "Spanish always needs the verb: Yo soy estudiante. Omitting it is a typical Russian-speaker mistake.",
-     "explain_ru": "В испанском глагол обязателен: Yo soy estudiante. Пропуск глагола — типичная ошибка русскоговорящих."
+     "explain_ru": "В испанском глагол обязателен: Yo soy estudiante. Пропуск глагола — типичная ошибка русскоговорящих.",
+     "ui": {
+      "en": {
+       "q": "In Spanish the verb 'to be' can be left out in the present tense, as in Russian 'Ya student' (I [am a] student)."
+      },
+      "ru": {
+       "q": "В испанском глагол «быть» можно опускать в настоящем времени, как в русском «Я студент»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1762,7 +1892,29 @@
        "estar cansado",
        "временное состояние"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ser de Madrid",
+         "origin"
+        ],
+        [
+         "estar en Madrid",
+         "location"
+        ],
+        [
+         "ser médico",
+         "profession"
+        ],
+        [
+         "estar cansado",
+         "temporary state"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1906,7 +2058,7 @@
     {
      "title_en": "Tú, usted, vosotros, ustedes",
      "title_ru": "Tú, usted, vosotros, ustedes",
-     "body_en": "Tú is informal 'you' (one person), usted is formal 'you' (one person) and uses the third person form: usted habla. In Spain, vosotros/vosotras is the informal plural (you all) with its own ending: vosotros habláis. Ustedes is the formal plural and uses the ellos form: ustedes hablan. Russian 'вы' covers both usted and vosotros.",
+     "body_en": "Tú is informal 'you' (one person), usted is formal 'you' (one person) and uses the third person form: usted habla. In Spain, vosotros/vosotras is the informal plural (you all) with its own ending: vosotros habláis. Ustedes is the formal plural and uses the ellos form: ustedes hablan. Russian 'vy' covers both usted and vosotros.",
      "body_ru": "Tú — неформальное 'ты', usted — вежливое 'вы' к одному человеку, оно употребляется с формой третьего лица: usted habla. В Испании vosotros/vosotras — неформальное 'вы' к нескольким людям со своим окончанием: vosotros habláis. Ustedes — вежливое 'вы' к нескольким людям, с формой ellos: ustedes hablan. Русское 'вы' покрывает и usted, и vosotros.",
      "examples": [
       {
@@ -1929,7 +2081,7 @@
     {
      "title_en": "What the present tense expresses",
      "title_ru": "Что выражает настоящее время",
-     "body_en": "The Spanish present covers actions happening now (Ahora como), habits and routines (Estudio español todos los días), general truths (Los españoles comen tarde) and even planned near-future events (Mañana trabajo). One Spanish form corresponds to both Russian 'я ем' and 'я обедаю каждый день'.",
+     "body_en": "The Spanish present covers actions happening now (Ahora como), habits and routines (Estudio español todos los días), general truths (Los españoles comen tarde) and even planned near-future events (Mañana trabajo). One Spanish form corresponds to both 'I am eating' and 'I have lunch every day'.",
      "body_ru": "Испанское настоящее время обозначает действие сейчас (Ahora como), привычки и распорядок (Estudio español todos los días), общие истины (Los españoles comen tarde) и даже запланированные события ближайшего будущего (Mañana trabajo). Одна испанская форма соответствует и русскому 'я ем', и 'я обедаю каждый день'.",
      "examples": [
       {
@@ -2251,7 +2403,12 @@
      "q": "'Nosotros comemos' is correct.",
      "answer": true,
      "explain_en": "The nosotros ending for -er verbs is -emos: comemos.",
-     "explain_ru": "Окончание nosotros у глаголов на -er — -emos: comemos."
+     "explain_ru": "Окончание nosotros у глаголов на -er — -emos: comemos.",
+     "ui": {
+      "ru": {
+       "q": "'Nosotros comemos' — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2259,7 +2416,12 @@
      "q": "'Yo hablas español' is correct.",
      "answer": false,
      "explain_en": "The yo form is 'hablo'; 'hablas' is for tú.",
-     "explain_ru": "Форма yo — 'hablo'; 'hablas' — форма для tú."
+     "explain_ru": "Форма yo — 'hablo'; 'hablas' — форма для tú.",
+     "ui": {
+      "ru": {
+       "q": "'Yo hablas español' — правильно."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2267,7 +2429,12 @@
      "q": "In Spain 'vosotros' is used to address a group of friends informally.",
      "answer": true,
      "explain_en": "Vosotros is the informal plural 'you' in European Spanish; ustedes is formal.",
-     "explain_ru": "Vosotros — неформальное 'вы' к группе людей в европейском испанском; ustedes — вежливая форма."
+     "explain_ru": "Vosotros — неформальное 'вы' к группе людей в европейском испанском; ustedes — вежливая форма.",
+     "ui": {
+      "ru": {
+       "q": "В Испании 'vosotros' используют, чтобы неформально обратиться к группе друзей."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2363,7 +2530,7 @@
     {
      "title_en": "Tener (to have)",
      "title_ru": "Tener (иметь)",
-     "body_en": "Tener: yo tengo, tú tienes, él tiene, nosotros tenemos, vosotros tenéis, ellos tienen. The yo form adds -g-, and e becomes ie in the stressed forms. Russian says 'у меня есть'; Spanish uses tener directly: Tengo un coche. Age is also expressed with tener: Tengo veinte años (I am twenty). Tener que + infinitive means 'to have to': Tengo que estudiar.",
+     "body_en": "Tener: yo tengo, tú tienes, él tiene, nosotros tenemos, vosotros tenéis, ellos tienen. The yo form adds -g-, and e becomes ie in the stressed forms. Russian says 'u menya est'' (by me there is); Spanish uses tener directly: Tengo un coche. Age is also expressed with tener: Tengo veinte años (I am twenty). Tener que + infinitive means 'to have to': Tengo que estudiar.",
      "body_ru": "Tener: yo tengo, tú tienes, él tiene, nosotros tenemos, vosotros tenéis, ellos tienen. В форме yo появляется -g-, а e переходит в ie в ударных формах. По-русски мы говорим 'у меня есть', по-испански — просто tener: Tengo un coche. Возраст тоже выражается через tener: Tengo veinte años (мне двадцать лет). Tener que + инфинитив — 'быть должным': Tengo que estudiar.",
      "examples": [
       {
@@ -2386,7 +2553,7 @@
     {
      "title_en": "Ir (to go)",
      "title_ru": "Ir (идти, ехать)",
-     "body_en": "Ir is totally irregular: yo voy, tú vas, él va, nosotros vamos, vosotros vais, ellos van. It is always followed by 'a' for a destination: Voy a Madrid, vamos al cine. Unlike Russian, Spanish does not distinguish going on foot from going by vehicle: ir covers both 'идти' and 'ехать'. 'Vamos' alone means 'let's go'.",
+     "body_en": "Ir is totally irregular: yo voy, tú vas, él va, nosotros vamos, vosotros vais, ellos van. It is always followed by 'a' for a destination: Voy a Madrid, vamos al cine. Unlike Russian, Spanish does not distinguish going on foot from going by vehicle: ir covers both. 'Vamos' alone means 'let's go'.",
      "body_ru": "Ir спрягается совершенно неправильно: yo voy, tú vas, él va, nosotros vamos, vosotros vais, ellos van. С направлением всегда стоит предлог 'a': Voy a Madrid, vamos al cine. В отличие от русского, испанский не различает 'идти' и 'ехать' — ir покрывает оба. 'Vamos' само по себе значит 'пойдём'.",
      "examples": [
       {
@@ -2432,7 +2599,7 @@
     {
      "title_en": "Poder (can, to be able)",
      "title_ru": "Poder (мочь)",
-     "body_en": "Poder changes o to ue in all forms except nosotros and vosotros: yo puedo, tú puedes, él puede, nosotros podemos, vosotros podéis, ellos pueden. It is followed directly by an infinitive: Puedo hablar español. ¿Puedes ayudarme? is a polite request, like Russian 'можешь помочь?'.",
+     "body_en": "Poder changes o to ue in all forms except nosotros and vosotros: yo puedo, tú puedes, él puede, nosotros podemos, vosotros podéis, ellos pueden. It is followed directly by an infinitive: Puedo hablar español. ¿Puedes ayudarme? is a polite request, like English 'can you help me?'.",
      "body_ru": "В poder o переходит в ue во всех формах, кроме nosotros и vosotros: yo puedo, tú puedes, él puede, nosotros podemos, vosotros podéis, ellos pueden. После него сразу идёт инфинитив: Puedo hablar español. ¿Puedes ayudarme? — вежливая просьба, как русское 'можешь помочь?'.",
      "examples": [
       {
@@ -2823,7 +2990,12 @@
      "q": "'Yo teno veinte años' is correct.",
      "answer": false,
      "explain_en": "The yo form of tener is 'tengo', with -g-.",
-     "explain_ru": "Форма yo глагола tener — 'tengo', с -g-."
+     "explain_ru": "Форма yo глагола tener — 'tengo', с -g-.",
+     "ui": {
+      "ru": {
+       "q": "'Yo teno veinte años' — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2831,7 +3003,12 @@
      "q": "The verb 'ir' means 'to go', and its forms are 'yo voy, tú vas, él va'.",
      "answer": true,
      "explain_en": "Ir is completely irregular: voy, vas, va, vamos, vais, van.",
-     "explain_ru": "Ir спрягается полностью неправильно: voy, vas, va, vamos, vais, van. Он обозначает и 'идти', и 'ехать'."
+     "explain_ru": "Ir спрягается полностью неправильно: voy, vas, va, vamos, vais, van. Он обозначает и 'идти', и 'ехать'.",
+     "ui": {
+      "ru": {
+       "q": "Глагол 'ir' значит «идти», и его формы — 'yo voy, tú vas, él va'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2839,7 +3016,12 @@
      "q": "'Nosotros podemos' is correct.",
      "answer": true,
      "explain_en": "The o → ue change does not happen in nosotros and vosotros: podemos, podéis.",
-     "explain_ru": "Переход o → ue не происходит в формах nosotros и vosotros: podemos, podéis."
+     "explain_ru": "Переход o → ue не происходит в формах nosotros и vosotros: podemos, podéis.",
+     "ui": {
+      "ru": {
+       "q": "'Nosotros podemos' — правильно."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3009,7 +3191,7 @@
     {
      "title_en": "Position: after the noun",
      "title_ru": "Место: после существительного",
-     "body_en": "Unlike Russian, a Spanish descriptive adjective normally follows the noun: el libro rojo (красная книга), una ciudad bonita, un hombre alto. Putting the adjective first sounds poetic or changes the emphasis. Quantity words go before: muchos libros, pocas casas, otro día.",
+     "body_en": "Unlike Russian (and English), a Spanish descriptive adjective normally follows the noun: el libro rojo (the red book), una ciudad bonita, un hombre alto. Putting the adjective first sounds poetic or changes the emphasis. Quantity words go before: muchos libros, pocas casas, otro día.",
      "body_ru": "В отличие от русского, испанское описательное прилагательное обычно стоит после существительного: el libro rojo (красная книга), una ciudad bonita, un hombre alto. Если поставить прилагательное перед существительным, это звучит поэтично или меняет акцент. Слова количества стоят перед существительным: muchos libros, pocas casas, otro día.",
      "examples": [
       {
@@ -3111,7 +3293,7 @@
     {
      "title_en": "Possessives agree with the thing, not the owner",
      "title_ru": "Притяжательные согласуются с предметом, а не с владельцем",
-     "body_en": "Su means his, her, their or your (formal); the form depends only on the noun that follows: su libro (his/her/their book), sus libros. Spanish has no equivalent of Russian 'свой'; use mi, tu, su as normal: Yo leo mi libro. If 'su' is unclear, add 'de él', 'de ella', 'de ellos': el libro de ella.",
+     "body_en": "Su means his, her, their or your (formal); the form depends only on the noun that follows: su libro (his/her/their book), sus libros. Spanish has no equivalent of the Russian reflexive possessive 'svoy'; use mi, tu, su as normal: Yo leo mi libro. If 'su' is unclear, add 'de él', 'de ella', 'de ellos': el libro de ella.",
      "body_ru": "Su значит его, её, их или Ваш; форма зависит только от следующего существительного: su libro (его/её/их книга), sus libros. В испанском нет аналога русского 'свой' — используются обычные mi, tu, su: Yo leo mi libro (я читаю свою книгу). Если 'su' непонятно, добавляют 'de él', 'de ella', 'de ellos': el libro de ella.",
      "examples": [
       {
@@ -3413,7 +3595,12 @@
      "q": "'La casa blanco' is correct.",
      "answer": false,
      "explain_en": "The adjective must agree with the feminine noun: la casa blanca.",
-     "explain_ru": "Прилагательное должно согласоваться с существительным женского рода: la casa blanca."
+     "explain_ru": "Прилагательное должно согласоваться с существительным женского рода: la casa blanca.",
+     "ui": {
+      "ru": {
+       "q": "'La casa blanco' — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3421,7 +3608,12 @@
      "q": "In Spanish the adjective usually comes after the noun ('el libro rojo'), unlike Russian.",
      "answer": true,
      "explain_en": "Descriptive adjectives normally follow the noun in Spanish.",
-     "explain_ru": "Описательные прилагательные в испанском обычно стоят после существительного, в русском — перед."
+     "explain_ru": "Описательные прилагательные в испанском обычно стоят после существительного, в русском — перед.",
+     "ui": {
+      "ru": {
+       "q": "В испанском прилагательное обычно стоит после существительного ('el libro rojo'), в отличие от русского."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3429,7 +3621,12 @@
      "q": "'Mi' changes to 'mis' in the plural: 'mis libros'.",
      "answer": true,
      "explain_en": "Mi, tu, su add -s when the noun is plural.",
-     "explain_ru": "Mi, tu, su получают -s, когда существительное во множественном числе."
+     "explain_ru": "Mi, tu, su получают -s, когда существительное во множественном числе.",
+     "ui": {
+      "ru": {
+       "q": "Во множественном числе 'mi' меняется на 'mis': 'mis libros'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3513,7 +3710,7 @@
     {
      "title_en": "Yes/no questions",
      "title_ru": "Общие вопросы",
-     "body_en": "A yes/no question can have the same word order as a statement; only the intonation and the marks ¿…? change: ¿Hablas español? ¿Vives en Madrid? You may also put the verb first: ¿Es Juan médico? Spanish has no particle like Russian 'ли'. Answer with sí or no: Sí, hablo español. No, no vivo en Madrid.",
+     "body_en": "A yes/no question can have the same word order as a statement; only the intonation and the marks ¿…? change: ¿Hablas español? ¿Vives en Madrid? You may also put the verb first: ¿Es Juan médico? Spanish has no question particle like Russian 'li'. Answer with sí or no: Sí, hablo español. No, no vivo en Madrid.",
      "body_ru": "Общий вопрос может иметь тот же порядок слов, что и утверждение; меняются только интонация и знаки ¿…?: ¿Hablas español? ¿Vives en Madrid? Можно также поставить глагол на первое место: ¿Es Juan médico? В испанском нет частицы, похожей на русское 'ли'. Ответ — sí или no: Sí, hablo español. No, no vivo en Madrid.",
      "examples": [
       {
@@ -3610,7 +3807,7 @@
     {
      "title_en": "Negation with no",
      "title_ru": "Отрицание с no",
-     "body_en": "To make a sentence negative, put 'no' directly before the verb: No hablo francés. No tengo coche. Nothing goes between 'no' and the verb except object pronouns (No me gusta). In a negative answer 'no' appears twice: ¿Hablas francés? — No, no hablo francés. Spanish has no word like Russian 'нет' for 'there is no…'; use no hay / no tengo.",
+     "body_en": "To make a sentence negative, put 'no' directly before the verb: No hablo francés. No tengo coche. Nothing goes between 'no' and the verb except object pronouns (No me gusta). In a negative answer 'no' appears twice: ¿Hablas francés? — No, no hablo francés. Spanish has no special word for 'there is no…' (like Russian 'net'); use no hay / no tengo.",
      "body_ru": "Чтобы сделать предложение отрицательным, поставьте 'no' прямо перед глаголом: No hablo francés. No tengo coche. Между 'no' и глаголом ничего не стоит, кроме местоимений-дополнений (No me gusta). В отрицательном ответе 'no' повторяется дважды: ¿Hablas francés? — No, no hablo francés. Русскому 'у меня нет машины' соответствует no tengo coche.",
      "examples": [
       {
@@ -3679,7 +3876,7 @@
     {
      "title_en": "Prepositions go in front of the question word",
      "title_ru": "Предлог ставится перед вопросительным словом",
-     "body_en": "When a question needs a preposition, it goes before the question word, never at the end: ¿De dónde eres? (Where are you from?), ¿Con quién vives? (Who do you live with?), ¿A qué hora? (At what time?), ¿Para qué? (What for?). This matches Russian word order: откуда, с кем, во сколько.",
+     "body_en": "When a question needs a preposition, it goes before the question word, never at the end: ¿De dónde eres? (Where are you from?), ¿Con quién vives? (Who do you live with?), ¿A qué hora? (At what time?), ¿Para qué? (What for?). This matches Russian word order, where the preposition also comes first.",
      "body_ru": "Если в вопросе нужен предлог, он ставится перед вопросительным словом, а не в конце: ¿De dónde eres? (Откуда ты?), ¿Con quién vives? (С кем ты живёшь?), ¿A qué hora? (Во сколько?), ¿Para qué? (Для чего?). Это совпадает с русским порядком слов: откуда, с кем, во сколько.",
      "examples": [
       {
@@ -3810,7 +4007,7 @@
       "nadie"
      ],
      "answer": 3,
-     "explain_en": "After 'no' we use the negative word nadie (nobody), as in Russian 'никого нет'.",
+     "explain_en": "After 'no' we use the negative word nadie (nobody); Spanish, like Russian, uses a double negative here.",
      "explain_ru": "После 'no' используется отрицательное слово nadie (никто), как в русском 'никого нет'."
     },
     {
@@ -3889,7 +4086,12 @@
       "nadie"
      ],
      "explain_en": "Nobody = nadie; 'no' stays before the verb.",
-     "explain_ru": "Никого = nadie; 'no' остаётся перед глаголом — двойное отрицание, как в русском."
+     "explain_ru": "Никого = nadie; 'no' остаётся перед глаголом — двойное отрицание, как в русском.",
+     "ui": {
+      "en": {
+       "q": "No veo a ___. (nobody)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -3909,7 +4111,12 @@
       "nada"
      ],
      "explain_en": "Nothing = nada. With 'nunca' before the verb, no extra 'no' is needed.",
-     "explain_ru": "Ничего = nada. Если 'nunca' стоит перед глаголом, дополнительное 'no' не нужно."
+     "explain_ru": "Ничего = nada. Если 'nunca' стоит перед глаголом, дополнительное 'no' не нужно.",
+     "ui": {
+      "en": {
+       "q": "Nunca como ___. (nothing)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -3978,7 +4185,12 @@
      "q": "'Dónde vives?' with only the closing question mark is correct in Spanish.",
      "answer": false,
      "explain_en": "Spanish questions need the opening ¿ as well: ¿Dónde vives?",
-     "explain_ru": "В испанском вопросе нужен и открывающий знак ¿: ¿Dónde vives? В русском такого знака нет."
+     "explain_ru": "В испанском вопросе нужен и открывающий знак ¿: ¿Dónde vives? В русском такого знака нет.",
+     "ui": {
+      "ru": {
+       "q": "'Dónde vives?' только с закрывающим вопросительным знаком — правильно по-испански."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3986,15 +4198,25 @@
      "q": "Question words like 'qué' and 'dónde' always carry a written accent.",
      "answer": true,
      "explain_en": "The accent distinguishes question words from the conjunction 'que' and the relative 'donde'.",
-     "explain_ru": "Знак ударения отличает вопросительные слова от союза 'que' и относительного 'donde'."
+     "explain_ru": "Знак ударения отличает вопросительные слова от союза 'que' и относительного 'donde'.",
+     "ui": {
+      "ru": {
+       "q": "Вопросительные слова вроде 'qué' и 'dónde' всегда пишутся со знаком ударения."
+      }
+     }
     },
     {
      "id": "e25",
      "type": "tf",
      "q": "'No tengo nada' is incorrect because it uses two negatives.",
      "answer": false,
-     "explain_en": "Double negation is normal in Spanish, as in Russian: No tengo nada = 'У меня ничего нет'.",
-     "explain_ru": "Двойное отрицание в испанском нормально, как и в русском: No tengo nada = 'У меня ничего нет'."
+     "explain_en": "Double negation is normal in Spanish, as in Russian: No tengo nada = 'I don't have anything' (lit. 'I don't have nothing').",
+     "explain_ru": "Двойное отрицание в испанском нормально, как и в русском: No tengo nada = 'У меня ничего нет'.",
+     "ui": {
+      "ru": {
+       "q": "'No tengo nada' — неправильно, потому что здесь два отрицания."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4020,7 +4242,33 @@
        "cómo",
        "как"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "qué",
+         "what"
+        ],
+        [
+         "dónde",
+         "where"
+        ],
+        [
+         "cuándo",
+         "when"
+        ],
+        [
+         "quién",
+         "who"
+        ],
+        [
+         "cómo",
+         "how"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4078,7 +4326,7 @@
     {
      "title_en": "Hay: there is / there are",
      "title_ru": "Hay: есть, имеется",
-     "body_en": "Hay is a special form of the verb haber meaning 'there is' or 'there are'. It never changes: hay un libro, hay dos libros, hay muchos coches. It is followed by an indefinite article, a number, a quantity word or no article at all, never by el/la: Hay un banco en la plaza. No hay leche. Russian 'есть' or simply 'в комнате стол' corresponds to hay.",
+     "body_en": "Hay is a special form of the verb haber meaning 'there is' or 'there are'. It never changes: hay un libro, hay dos libros, hay muchos coches. It is followed by an indefinite article, a number, a quantity word or no article at all, never by el/la: Hay un banco en la plaza. No hay leche. Russian 'est'' or a verbless sentence like 'there [is] a table in the room' corresponds to hay.",
      "body_ru": "Hay — особая форма глагола haber со значением 'есть, имеется'. Она никогда не меняется: hay un libro, hay dos libros, hay muchos coches. После hay стоит неопределённый артикль, число, слово количества или вообще ничего, но никогда el/la: Hay un banco en la plaza. No hay leche. Русскому 'есть' или просто 'в комнате стол' соответствует hay.",
      "examples": [
       {
@@ -4124,7 +4372,7 @@
     {
      "title_en": "Basic prepositions of place: en, sobre, entre",
      "title_ru": "Основные предлоги места: en, sobre, entre",
-     "body_en": "En means in, on or at: en la mesa (on the table), en Madrid (in Madrid), en casa (at home). Spanish does not distinguish 'в' and 'на' here; en covers both. Sobre or encima de = on top of; entre = between: entre el banco y el hotel.",
+     "body_en": "En means in, on or at: en la mesa (on the table), en Madrid (in Madrid), en casa (at home). Spanish does not distinguish 'in' and 'on' here; en covers both. Sobre or encima de = on top of; entre = between: entre el banco y el hotel.",
      "body_ru": "En значит 'в', 'на' или 'у': en la mesa (на столе), en Madrid (в Мадриде), en casa (дома). Испанский здесь не различает 'в' и 'на' — en покрывает оба. Sobre или encima de — на, поверх; entre — между: entre el banco y el hotel.",
      "examples": [
       {
@@ -4198,7 +4446,7 @@
     {
      "title_en": "Demonstratives: este, ese, aquel",
      "title_ru": "Указательные слова: este, ese, aquel",
-     "body_en": "Spanish has three distances, matching aquí/ahí/allí: este (this, near me), ese (that, near you), aquel (that over there). They agree with the noun: este libro, esta casa, estos libros, estas casas; ese / esa / esos / esas; aquel / aquella / aquellos / aquellas. Russian has only two (этот/тот), so ese and aquel both translate as 'тот'.",
+     "body_en": "Spanish has three distances, matching aquí/ahí/allí: este (this, near me), ese (that, near you), aquel (that over there). They agree with the noun: este libro, esta casa, estos libros, estas casas; ese / esa / esos / esas; aquel / aquella / aquellos / aquellas. Russian has only two (this/that), so ese and aquel both translate as 'that'.",
      "body_ru": "В испанском три степени удалённости, как aquí/ahí/allí: este (этот, рядом со мной), ese (тот, рядом с тобой), aquel (тот, вон там). Они согласуются с существительным: este libro, esta casa, estos libros, estas casas; ese / esa / esos / esas; aquel / aquella / aquellos / aquellas. В русском только два слова (этот/тот), поэтому и ese, и aquel переводятся как 'тот'.",
      "examples": [
       {
@@ -4306,7 +4554,12 @@
      ],
      "answer": 0,
      "explain_en": "'En' covers both 'in' and 'on': en la mesa.",
-     "explain_ru": "'En' значит и 'в', и 'на': en la mesa."
+     "explain_ru": "'En' значит и 'в', и 'на': en la mesa.",
+     "ui": {
+      "en": {
+       "q": "El libro está ___ la mesa. (on)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -4320,7 +4573,12 @@
      ],
      "answer": 1,
      "explain_en": "Under = debajo de.",
-     "explain_ru": "Под = debajo de."
+     "explain_ru": "Под = debajo de.",
+     "ui": {
+      "en": {
+       "q": "El gato está ___ de la mesa. (under)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -4334,7 +4592,12 @@
      ],
      "answer": 2,
      "explain_en": "Near the speaker and masculine singular: este libro.",
-     "explain_ru": "Рядом с говорящим, мужской род единственного числа: este libro."
+     "explain_ru": "Рядом с говорящим, мужской род единственного числа: este libro.",
+     "ui": {
+      "en": {
+       "q": "___ libro es interesante. (this, near me)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -4348,7 +4611,12 @@
      ],
      "answer": 3,
      "explain_en": "Far away and feminine plural: aquellas casas.",
-     "explain_ru": "Далеко, женский род множественного числа: aquellas casas."
+     "explain_ru": "Далеко, женский род множественного числа: aquellas casas.",
+     "ui": {
+      "en": {
+       "q": "___ casas son grandes. (those, over there)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -4362,7 +4630,12 @@
      ],
      "answer": 0,
      "explain_en": "For an unknown object use the neuter 'esto'.",
-     "explain_ru": "Для неизвестного предмета используется форма среднего рода 'esto'."
+     "explain_ru": "Для неизвестного предмета используется форма среднего рода 'esto'.",
+     "ui": {
+      "en": {
+       "q": "¿Qué es ___? (an unknown object)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -4376,7 +4649,12 @@
      ],
      "answer": 1,
      "explain_en": "Next to = al lado de.",
-     "explain_ru": "Рядом с = al lado de."
+     "explain_ru": "Рядом с = al lado de.",
+     "ui": {
+      "en": {
+       "q": "El banco está ___ del hotel. (next to)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -4414,7 +4692,12 @@
       "Hay"
      ],
      "explain_en": "Existence of something new: Hay un parque.",
-     "explain_ru": "Наличие чего-то нового: Hay un parque."
+     "explain_ru": "Наличие чего-то нового: Hay un parque.",
+     "ui": {
+      "en": {
+       "q": "___ (there is) un parque cerca de aquí."
+      }
+     }
     },
     {
      "id": "e12",
@@ -4434,7 +4717,12 @@
       "Esta"
      ],
      "explain_en": "Feminine singular, near the speaker: esta.",
-     "explain_ru": "Женский род единственного числа, рядом с говорящим: esta."
+     "explain_ru": "Женский род единственного числа, рядом с говорящим: esta.",
+     "ui": {
+      "en": {
+       "q": "___ (this) chica es mi hermana."
+      }
+     }
     },
     {
      "id": "e14",
@@ -4444,7 +4732,12 @@
       "Aquellas"
      ],
      "explain_en": "Far away, feminine plural: aquellas.",
-     "explain_ru": "Далеко, женский род множественного числа: aquellas."
+     "explain_ru": "Далеко, женский род множественного числа: aquellas.",
+     "ui": {
+      "en": {
+       "q": "___ (those, over there) montañas son altas."
+      }
+     }
     },
     {
      "id": "e15",
@@ -4454,7 +4747,12 @@
       "detrás"
      ],
      "explain_en": "Behind = detrás de.",
-     "explain_ru": "За = detrás de."
+     "explain_ru": "За = detrás de.",
+     "ui": {
+      "en": {
+       "q": "El perro está ___ (behind) de la puerta."
+      }
+     }
     },
     {
      "id": "e16",
@@ -4474,7 +4772,12 @@
       "Este"
      ],
      "explain_en": "Masculine singular, near the speaker: este.",
-     "explain_ru": "Мужской род единственного числа, рядом с говорящим: este."
+     "explain_ru": "Мужской род единственного числа, рядом с говорящим: este.",
+     "ui": {
+      "en": {
+       "q": "___ (this) chico es ruso."
+      }
+     }
     },
     {
      "id": "e18",
@@ -4484,7 +4787,12 @@
       "encima"
      ],
      "explain_en": "On top of / above = encima de.",
-     "explain_ru": "Над / на = encima de."
+     "explain_ru": "Над / на = encima de.",
+     "ui": {
+      "en": {
+       "q": "La lámpara está ___ (above) de la mesa."
+      }
+     }
     },
     {
      "id": "e19",
@@ -4551,7 +4859,12 @@
      "q": "'Hay' has only one form in the present and does not change for the plural ('hay dos libros').",
      "answer": true,
      "explain_en": "Hay is invariable: hay un libro, hay dos libros.",
-     "explain_ru": "Hay не меняется: hay un libro, hay dos libros."
+     "explain_ru": "Hay не меняется: hay un libro, hay dos libros.",
+     "ui": {
+      "ru": {
+       "q": "'Hay' имеет в настоящем времени только одну форму и не меняется во множественном числе ('hay dos libros')."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4559,7 +4872,12 @@
      "q": "'Está un hotel en la plaza' is correct.",
      "answer": false,
      "explain_en": "Something new with 'un' needs hay: Hay un hotel en la plaza.",
-     "explain_ru": "Новый предмет с 'un' требует hay: Hay un hotel en la plaza."
+     "explain_ru": "Новый предмет с 'un' требует hay: Hay un hotel en la plaza.",
+     "ui": {
+      "ru": {
+       "q": "'Está un hotel en la plaza' — правильно."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4567,7 +4885,12 @@
      "q": "'Este' refers to something close to the speaker and 'aquel' to something far away.",
      "answer": true,
      "explain_en": "Este = near me, ese = near you, aquel = far from both.",
-     "explain_ru": "Este — рядом со мной, ese — рядом с тобой, aquel — далеко от обоих. В русском оба последних — 'тот'."
+     "explain_ru": "Este — рядом со мной, ese — рядом с тобой, aquel — далеко от обоих. В русском оба последних — 'тот'.",
+     "ui": {
+      "ru": {
+       "q": "'Este' указывает на что-то близкое к говорящему, а 'aquel' — на что-то далёкое."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4593,7 +4916,33 @@
        "entre",
        "между"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "debajo de",
+         "under"
+        ],
+        [
+         "encima de",
+         "on, above"
+        ],
+        [
+         "delante de",
+         "in front of"
+        ],
+        [
+         "detrás de",
+         "behind"
+        ],
+        [
+         "entre",
+         "between"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4641,13 +4990,13 @@
    "id": "gustar-and-similar-verbs",
    "title_en": "Gustar and similar verbs; me, te, le",
    "title_ru": "Gustar и похожие глаголы; me, te, le",
-   "summary_en": "To say you like something, Spanish says 'it pleases me': me gusta el café. The structure is very close to Russian 'мне нравится', which makes it easier for Russian speakers.",
+   "summary_en": "To say you like something, Spanish says 'it pleases me': me gusta el café. The structure is very close to Russian 'mne nravitsya' (it is pleasing to me), which makes it easier for Russian speakers.",
    "summary_ru": "Чтобы сказать, что вам что-то нравится, испанский говорит 'оно нравится мне': me gusta el café. Структура очень похожа на русское 'мне нравится', что облегчает задачу.",
    "rules": [
     {
      "title_en": "Me gusta + singular noun or infinitive",
      "title_ru": "Me gusta + существительное в единственном числе или инфинитив",
-     "body_en": "Gustar works like Russian 'нравиться': the thing liked is the subject, and the person is an indirect object. Me gusta el café = 'мне нравится кофе'. Use gusta (singular) with one thing or with an infinitive: Me gusta el chocolate. Me gusta bailar. Me gusta leer y escribir (infinitives always take singular).",
+     "body_en": "Gustar works like the Russian verb 'nravitsya' (to be pleasing): the thing liked is the subject, and the person is an indirect object. Me gusta el café = 'coffee is pleasing to me' (I like coffee). Use gusta (singular) with one thing or with an infinitive: Me gusta el chocolate. Me gusta bailar. Me gusta leer y escribir (infinitives always take singular).",
      "body_ru": "Gustar работает как русское 'нравиться': то, что нравится, — подлежащее, а человек — косвенное дополнение. Me gusta el café = 'мне нравится кофе'. Gusta (единственное число) используется с одним предметом или с инфинитивом: Me gusta el chocolate. Me gusta bailar. Me gusta leer y escribir (с инфинитивами всегда единственное число).",
      "examples": [
       {
@@ -4670,7 +5019,7 @@
     {
      "title_en": "Me gustan + plural noun",
      "title_ru": "Me gustan + существительное во множественном числе",
-     "body_en": "When the thing liked is plural, the verb is plural too: Me gustan los perros (мне нравятся собаки). Me gustan las películas españolas. The verb agrees with the thing, never with the person: Me gustan (I like them), Nos gusta (we like it). Note that the definite article is needed: me gusta el café, not 'me gusta café'.",
+     "body_en": "When the thing liked is plural, the verb is plural too: Me gustan los perros (I like dogs). Me gustan las películas españolas. The verb agrees with the thing, never with the person: Me gustan (I like them), Nos gusta (we like it). Note that the definite article is needed: me gusta el café, not 'me gusta café'.",
      "body_ru": "Если то, что нравится, во множественном числе, глагол тоже во множественном: Me gustan los perros (мне нравятся собаки). Me gustan las películas españolas. Глагол согласуется с предметом, а не с человеком: Me gustan (мне нравятся они), Nos gusta (нам нравится оно). Обратите внимание: нужен определённый артикль — me gusta el café, а не 'me gusta café'.",
      "examples": [
       {
@@ -4693,7 +5042,7 @@
     {
      "title_en": "The pronouns me, te, le, nos, os, les",
      "title_ru": "Местоимения me, te, le, nos, os, les",
-     "body_en": "The person who likes is shown by an indirect object pronoun placed before the verb: me (to me), te (to you), le (to him, to her, to you formal), nos (to us), os (to you plural, Spain), les (to them, to you formal plural). Me gusta, te gusta, le gusta, nos gusta, os gusta, les gusta. These pronouns correspond to Russian dative: мне, тебе, ему/ей, нам, вам, им.",
+     "body_en": "The person who likes is shown by an indirect object pronoun placed before the verb: me (to me), te (to you), le (to him, to her, to you formal), nos (to us), os (to you plural, Spain), les (to them, to you formal plural). Me gusta, te gusta, le gusta, nos gusta, os gusta, les gusta. These pronouns correspond to the Russian dative case: mne, tebe, yemu/yey, nam, vam, im.",
      "body_ru": "Тот, кому нравится, выражается местоимением косвенного дополнения перед глаголом: me (мне), te (тебе), le (ему, ей, Вам), nos (нам), os (вам, к нескольким, в Испании), les (им, Вам к нескольким). Me gusta, te gusta, le gusta, nos gusta, os gusta, les gusta. Эти местоимения соответствуют русскому дательному падежу: мне, тебе, ему/ей, нам, вам, им.",
      "examples": [
       {
@@ -4880,7 +5229,12 @@
      ],
      "answer": 2,
      "explain_en": "To you (informal) = te.",
-     "explain_ru": "Тебе = te."
+     "explain_ru": "Тебе = te.",
+     "ui": {
+      "en": {
+       "q": "¿___ gusta la música? (to you)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -4908,7 +5262,12 @@
      ],
      "answer": 0,
      "explain_en": "To us = nos. Encantar works like gustar.",
-     "explain_ru": "Нам = nos. Encantar работает как gustar."
+     "explain_ru": "Нам = nos. Encantar работает как gustar.",
+     "ui": {
+      "en": {
+       "q": "___ encanta viajar. (to us)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -5123,7 +5482,12 @@
      "q": "'Me gustan el fútbol' is correct.",
      "answer": false,
      "explain_en": "'El fútbol' is singular, so it must be 'me gusta el fútbol'.",
-     "explain_ru": "'El fútbol' в единственном числе, поэтому правильно 'me gusta el fútbol'."
+     "explain_ru": "'El fútbol' в единственном числе, поэтому правильно 'me gusta el fútbol'.",
+     "ui": {
+      "ru": {
+       "q": "'Me gustan el fútbol' — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5131,7 +5495,15 @@
      "q": "In 'me gusta' the verb agrees with the thing that is liked, as in Russian 'мне нравится'.",
      "answer": true,
      "explain_en": "The thing liked is the grammatical subject: me gusta el libro, me gustan los libros.",
-     "explain_ru": "То, что нравится, — грамматическое подлежащее: me gusta el libro, me gustan los libros, точно как 'мне нравится книга / нравятся книги'."
+     "explain_ru": "То, что нравится, — грамматическое подлежащее: me gusta el libro, me gustan los libros, точно как 'мне нравится книга / нравятся книги'.",
+     "ui": {
+      "en": {
+       "q": "In 'me gusta' the verb agrees with the thing that is liked, as in Russian 'mne nravitsya'."
+      },
+      "ru": {
+       "q": "В 'me gusta' глагол согласуется с тем, что нравится, как в русском «мне нравится»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5139,7 +5511,12 @@
      "q": "'A mí también' means 'me too'.",
      "answer": true,
      "explain_en": "With gustar, agreement is expressed with 'a mí también' (and 'a mí tampoco' for negatives).",
-     "explain_ru": "С gustar согласие выражается 'a mí también' (а при отрицании — 'a mí tampoco')."
+     "explain_ru": "С gustar согласие выражается 'a mí también' (а при отрицании — 'a mí tampoco').",
+     "ui": {
+      "ru": {
+       "q": "'A mí también' значит «мне тоже»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5213,7 +5590,29 @@
        "interesar",
        "интересовать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "gustar",
+         "to like (be pleasing)"
+        ],
+        [
+         "encantar",
+         "to love, really like"
+        ],
+        [
+         "doler",
+         "to hurt"
+        ],
+        [
+         "interesar",
+         "to interest"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5324,7 +5723,7 @@
     {
      "title_en": "Ir a + infinitive: the near future",
      "title_ru": "Ir a + инфинитив: ближайшее будущее",
-     "body_en": "To talk about plans and intentions, use the present of ir + a + infinitive: Voy a estudiar (I am going to study), vas a comer, va a llover, vamos a viajar, vais a ver, van a venir. It corresponds to Russian 'я собираюсь / я буду…'. Time words: mañana, esta tarde, este fin de semana, el año que viene.",
+     "body_en": "To talk about plans and intentions, use the present of ir + a + infinitive: Voy a estudiar (I am going to study), vas a comer, va a llover, vamos a viajar, vais a ver, van a venir. It corresponds to English 'I'm going to…'. Time words: mañana, esta tarde, este fin de semana, el año que viene.",
      "body_ru": "Чтобы говорить о планах и намерениях, используйте настоящее время ir + a + инфинитив: Voy a estudiar (я буду учиться / собираюсь учиться), vas a comer, va a llover, vamos a viajar, vais a ver, van a venir. Это соответствует русскому 'я собираюсь / я буду…'. Слова времени: mañana, esta tarde, este fin de semana, el año que viene.",
      "examples": [
       {
@@ -5347,7 +5746,7 @@
     {
      "title_en": "Reflexive verbs: llamarse, levantarse",
      "title_ru": "Возвратные глаголы: llamarse, levantarse",
-     "body_en": "Reflexive verbs end in -se in the infinitive and need a reflexive pronoun that matches the subject: me, te, se, nos, os, se. Llamarse: me llamo, te llamas, se llama, nos llamamos, os llamáis, se llaman. Levantarse: me levanto, te levantas, se levanta… Many daily-routine verbs are reflexive: ducharse, acostarse (o → ue), despertarse (e → ie), vestirse, lavarse. Russian uses the single ending -ся; Spanish changes the pronoun for each person.",
+     "body_en": "Reflexive verbs end in -se in the infinitive and need a reflexive pronoun that matches the subject: me, te, se, nos, os, se. Llamarse: me llamo, te llamas, se llama, nos llamamos, os llamáis, se llaman. Levantarse: me levanto, te levantas, se levanta… Many daily-routine verbs are reflexive: ducharse, acostarse (o → ue), despertarse (e → ie), vestirse, lavarse. Russian uses the single ending -sya; Spanish changes the pronoun for each person.",
      "body_ru": "Возвратные глаголы в инфинитиве оканчиваются на -se и требуют возвратного местоимения, согласованного с подлежащим: me, te, se, nos, os, se. Llamarse: me llamo, te llamas, se llama, nos llamamos, os llamáis, se llaman. Levantarse: me levanto, te levantas, se levanta… Многие глаголы распорядка дня возвратные: ducharse, acostarse (o → ue), despertarse (e → ie), vestirse, lavarse. В русском одно окончание -ся на все лица, в испанском местоимение меняется.",
      "examples": [
       {
@@ -5724,7 +6123,12 @@
      "q": "'Son la una' is correct.",
      "answer": false,
      "explain_en": "One o'clock takes the singular: Es la una.",
-     "explain_ru": "Час — в единственном числе: Es la una."
+     "explain_ru": "Час — в единственном числе: Es la una.",
+     "ui": {
+      "ru": {
+       "q": "'Son la una' — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5732,7 +6136,12 @@
      "q": "'Dieciséis' needs a written accent.",
      "answer": true,
      "explain_en": "Dieciséis is stressed on the last syllable but ends in -s, so it needs the accent.",
-     "explain_ru": "У dieciséis ударение на последнем слоге, но слово оканчивается на -s, поэтому нужен знак ударения."
+     "explain_ru": "У dieciséis ударение на последнем слоге, но слово оканчивается на -s, поэтому нужен знак ударения.",
+     "ui": {
+      "ru": {
+       "q": "Слову 'dieciséis' нужен письменный знак ударения."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5740,7 +6149,15 @@
      "q": "'Ir a + infinitive' expresses a planned or near-future action, like Russian 'я собираюсь / я буду'.",
      "answer": true,
      "explain_en": "Voy a estudiar = I am going to study.",
-     "explain_ru": "Voy a estudiar = я собираюсь / буду учиться."
+     "explain_ru": "Voy a estudiar = я собираюсь / буду учиться.",
+     "ui": {
+      "en": {
+       "q": "'Ir a + infinitive' expresses a planned or near-future action, like English 'I'm going to'."
+      },
+      "ru": {
+       "q": "'Ir a + инфинитив' выражает запланированное или ближайшее будущее действие, как русское «я собираюсь / я буду»."
+      }
+     }
     },
     {
      "id": "e26",

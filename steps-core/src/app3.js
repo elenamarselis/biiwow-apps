@@ -19,8 +19,8 @@ function ptWordQ(level,v,used){const pool=shuffle(v.filter(w=>w.pos!=="phrase"&&
   const key=x=>norm(ptOpt(x));let d=shuffle(v.filter(x=>x.id!==w.id&&x.pos===w.pos&&key(x)!==key(w)));if(d.length<3)d=d.concat(shuffle(v.filter(x=>x.id!==w.id&&x.pos!==w.pos&&key(x)!==key(w))));
   const opts=[w];for(const x of d){if(opts.length>=4)break;if(!opts.some(o=>key(o)===key(x)))opts.push(x);}const sh=shuffle(opts);
   return {level,kind:"w",item:w,options:sh.map(ptOpt),answer:sh.indexOf(w)};}
-function ptGramQ(level,g,used){const all=[];for(const s of g.sections)for(const e of s.exercises)if(e.type==="mc"&&Array.isArray(e.options)&&e.options.length>=3&&!hasCyr(e.q)&&!e.options.some(hasCyr)&&!used.has(e))all.push({s,e});
-  const fresh=all.filter(c=>!used.has(c.s.id));const pick=shuffle(fresh.length?fresh:all)[0];if(!pick)return null;used.add(pick.s.id);used.add(pick.e);return {level,kind:"g",sec:pick.s,ex:pick.e,q:pick.e.q,options:pick.e.options.map(String),answer:pick.e.answer};}
+function ptGramQ(level,g,used){const all=[];for(const s of g.sections)for(const e0 of s.exercises){const e=EXO(e0);if(e.type==="mc"&&Array.isArray(e.options)&&e.options.length>=3&&(UI==="ru"||(!hasCyr(e.q)&&!e.options.some(hasCyr)))&&!used.has(e0))all.push({s,e,e0});}
+  const fresh=all.filter(c=>!used.has(c.s.id));const pick=shuffle(fresh.length?fresh:all)[0];if(!pick)return null;used.add(pick.s.id);used.add(pick.e0);return {level,kind:"g",sec:pick.s,ex:pick.e,q:pick.e.q,options:pick.e.options.map(String),answer:pick.e.answer};}
 async function ptBuild(N){const [vs,gs]=await Promise.all([Promise.all(LEVELS.map(vocabFor)),Promise.all(LEVELS.map(grammarFor))]);if(vs.some(x=>!x)||gs.some(x=>!x))return null;
   const plan=ptPlan(N),qs=[];LEVELS.forEach((L,i)=>{const k=plan[i],ng=Math.floor(k/2),nw=k-ng,uw=new Set(),ug=new Set();const lv=[];
     for(let j=0;j<ng;j++){const q=ptGramQ(L,gs[i],ug);if(q)lv.push(q);}while(lv.length<k){const q=ptWordQ(L,vs[i],uw);if(!q)break;lv.push(q);}
