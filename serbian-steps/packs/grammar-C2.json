@@ -238,7 +238,12 @@
      "q": "In 'I reče Bog: neka bude svetlost. I bi svetlost.' the form 'bi' is the aorist of biti ('there came to be'), not the conditional auxiliary.",
      "answer": true,
      "explain_en": "True. Bi is followed by a noun, not an l-participle, so it is the aorist: 'and there was light'.",
-     "explain_ru": "Верно. После bi стоит существительное, а не l-причастие, значит, это аорист: «и стал свет» (ср. церковнославянское «и бысть свет»)."
+     "explain_ru": "Верно. После bi стоит существительное, а не l-причастие, значит, это аорист: «и стал свет» (ср. церковнославянское «и бысть свет»).",
+     "ui": {
+      "ru": {
+       "q": "В 'I reče Bog: neka bude svetlost. I bi svetlost.' форма 'bi' — аорист глагола biti («стало, появилось»), а не вспомогательный глагол условного наклонения."
+      }
+     }
     },
     {
      "id": "e05",
@@ -337,7 +342,15 @@
      "q": "Like Russian 'очи, уши', Serbian 'oči, uši' go back to old dual forms.",
      "answer": true,
      "explain_en": "True. Both languages inherited these pair-forms from the Common Slavic dual.",
-     "explain_ru": "Верно. Оба языка унаследовали эти формы для парных предметов от общеславянского двойственного числа."
+     "explain_ru": "Верно. Оба языка унаследовали эти формы для парных предметов от общеславянского двойственного числа.",
+     "ui": {
+      "en": {
+       "q": "Like Russian 'ochi, ushi' (eyes, ears), Serbian 'oči, uši' go back to old dual forms."
+      },
+      "ru": {
+       "q": "Как и русские «очи, уши», сербские 'oči, uši' восходят к древним формам двойственного числа."
+      }
+     }
     },
     {
      "id": "e12",
@@ -400,7 +413,18 @@
      ],
      "answer": 2,
      "explain_en": "With oni the form must be plural; the imperfekat 3rd plural would be gledahu, so gledaše is the aorist 3rd plural.",
-     "explain_ru": "С oni форма должна быть множественного числа; имперфект 3 л. мн. ч. — gledahu, значит, gledaše здесь — аорист 3 л. мн. ч."
+     "explain_ru": "С oni форма должна быть множественного числа; имперфект 3 л. мн. ч. — gledahu, значит, gledaše здесь — аорист 3 л. мн. ч.",
+     "ui": {
+      "ru": {
+       "q": "В 'Gledaše oni dugo u more' форма 'gledaše' — это:",
+       "options": [
+        "имперфект, 3-е лицо ед. ч.",
+        "имперфект, 3-е лицо мн. ч.",
+        "аорист, 3-е лицо мн. ч.",
+        "перфект"
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -421,7 +445,12 @@
      "q": "In 'Kako se beše zove tvoj profesor?', 'beše' moves the action into the distant past (a pluperfect).",
      "answer": false,
      "explain_en": "False. Here beše only signals that the speaker has forgotten the name; the professor is still called that today.",
-     "explain_ru": "Неверно. Здесь beše лишь показывает, что говорящий забыл имя («как там зовут»); профессора зовут так и сейчас."
+     "explain_ru": "Неверно. Здесь beše лишь показывает, что говорящий забыл имя («как там зовут»); профессора зовут так и сейчас.",
+     "ui": {
+      "ru": {
+       "q": "В 'Kako se beše zove tvoj profesor?' слово 'beše' переносит действие в давнее прошлое (плюсквамперфект)."
+      }
+     }
     },
     {
      "id": "e19",
@@ -457,7 +486,33 @@
        "rekoh",
        "аорист, 1 л. ед. ч."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "rekoše",
+         "aorist, 3rd person pl."
+        ],
+        [
+         "govorahu",
+         "imperfect, 3rd person pl."
+        ],
+        [
+         "reče",
+         "aorist, 2nd/3rd person sg."
+        ],
+        [
+         "govoraše",
+         "imperfect, 2nd/3rd person sg."
+        ],
+        [
+         "rekoh",
+         "aorist, 1st person sg."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e21",
@@ -534,7 +589,12 @@
      ],
      "answer": 2,
      "explain_en": "The antithesis asks a question and offers guesses that will be rejected before the truth is told.",
-     "explain_ru": "Антитеза задаёт вопрос и предлагает догадки, которые затем отвергаются, прежде чем сказана правда. Ср. русское «Не белы снеги во поле забелелися...»."
+     "explain_ru": "Антитеза задаёт вопрос и предлагает догадки, которые затем отвергаются, прежде чем сказана правда. Ср. русское «Не белы снеги во поле забелелися...».",
+     "ui": {
+      "ru": {
+       "q": "В какой строке есть славянская антитеза?"
+      }
+     }
     },
     {
      "id": "e27",
@@ -784,7 +844,12 @@
      ],
      "answer": 1,
      "explain_en": "The jat syllable is long, so ijekavian has ije: mlijeko.",
-     "explain_ru": "Слог с ятем долгий, поэтому в иекавском ije: mlijeko. Mliko — икавская (диалектная) форма."
+     "explain_ru": "Слог с ятем долгий, поэтому в иекавском ije: mlijeko. Mliko — икавская (диалектная) форма.",
+     "ui": {
+      "ru": {
+       "q": "Иекавская форма слова 'mleko':"
+      }
+     }
     },
     {
      "id": "e02",
@@ -808,7 +873,12 @@
      ],
      "answer": 2,
      "explain_en": "The syllable is short, so jat gives je: vjera.",
-     "explain_ru": "Слог краткий, поэтому ять даёт je: vjera («вера»)."
+     "explain_ru": "Слог краткий, поэтому ять даёт je: vjera («вера»).",
+     "ui": {
+      "ru": {
+       "q": "Иекавская форма слова 'vera':"
+      }
+     }
     },
     {
      "id": "e04",
@@ -816,7 +886,12 @@
      "q": "In ijekavian the past participle of 'videti' is 'vidio' in the masculine and 'vidjela' in the feminine.",
      "answer": true,
      "explain_en": "True. Before o (from l) jat becomes i: vidio; in the feminine there is no o, so je returns: vidjela.",
-     "explain_ru": "Верно. Перед o (из l) ять становится i: vidio; в женском роде o нет, поэтому возвращается je: vidjela."
+     "explain_ru": "Верно. Перед o (из l) ять становится i: vidio; в женском роде o нет, поэтому возвращается je: vidjela.",
+     "ui": {
+      "ru": {
+       "q": "В иекавском варианте прошедшее причастие от 'videti' — 'vidio' в мужском роде и 'vidjela' в женском."
+      }
+     }
     },
     {
      "id": "e05",
@@ -866,7 +941,12 @@
      ],
      "answer": 0,
      "explain_en": "Sestra never had a jat; the others become snijeg, cvijet, ljeto.",
-     "explain_ru": "В sestra ятя не было (ср. русское «сестра», без «ѣ»); остальные дают snijeg, cvijet, ljeto."
+     "explain_ru": "В sestra ятя не было (ср. русское «сестра», без «ѣ»); остальные дают snijeg, cvijet, ljeto.",
+     "ui": {
+      "ru": {
+       "q": "Какое слово одинаково в экавском и иекавском вариантах (в нём нет ятя)?"
+      }
+     }
     },
     {
      "id": "e08",
@@ -890,7 +970,12 @@
      ],
      "answer": 1,
      "explain_en": "Petak has no jat, so *pjetak is a hypercorrection; correct is petak.",
-     "explain_ru": "В petak ятя нет (ср. русское «пятница»), поэтому *pjetak — гиперкоррекция; правильно petak."
+     "explain_ru": "В petak ятя нет (ср. русское «пятница»), поэтому *pjetak — гиперкоррекция; правильно petak.",
+     "ui": {
+      "ru": {
+       "q": "Какая иекавская форма НЕправильна (гиперкоррекция)?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -921,7 +1006,12 @@
      "q": "Ijekavian 'rječnik' has 'je' because its syllable is short, although 'riječ' has 'ije'.",
      "answer": true,
      "explain_en": "True. Length changes within the word family, so ije alternates with je.",
-     "explain_ru": "Верно. Долгота меняется внутри гнезда, поэтому ije чередуется с je: riječ – rječnik."
+     "explain_ru": "Верно. Долгота меняется внутри гнезда, поэтому ije чередуется с je: riječ – rječnik.",
+     "ui": {
+      "ru": {
+       "q": "В иекавском 'rječnik' пишется 'je', потому что слог краткий, хотя в 'riječ' — 'ije'."
+      }
+     }
     },
     {
      "id": "e13",
@@ -935,7 +1025,12 @@
      ],
      "answer": 2,
      "explain_en": "The syllable is long: uvijek. *Uvjek is one of the most frequent spelling mistakes.",
-     "explain_ru": "Слог долгий: uvijek. *Uvjek — одна из самых частых ошибок."
+     "explain_ru": "Слог долгий: uvijek. *Uvjek — одна из самых частых ошибок.",
+     "ui": {
+      "ru": {
+       "q": "Иекавская форма слова 'uvek':"
+      }
+     }
     },
     {
      "id": "e14",
@@ -993,7 +1088,12 @@
      "q": "Croatian 'kruh' and ijekavian Serbian 'hljeb' differ only in the reflex of jat.",
      "answer": false,
      "explain_en": "False. They are different words (a lexical difference); the jat reflex is seen in hleb vs hljeb.",
-     "explain_ru": "Неверно. Это разные слова (лексическое различие); рефлекс ятя виден в паре hleb – hljeb."
+     "explain_ru": "Неверно. Это разные слова (лексическое различие); рефлекс ятя виден в паре hleb – hljeb.",
+     "ui": {
+      "ru": {
+       "q": "Хорватское 'kruh' и иекавское сербское 'hljeb' различаются только рефлексом ятя."
+      }
+     }
     },
     {
      "id": "e18",
@@ -1023,7 +1123,12 @@
      ],
      "answer": 2,
      "explain_en": "Tko and što are Croatian; ko and šta are Serbian; sjutra is Montenegrin.",
-     "explain_ru": "Tko и što — хорватские формы; ko и šta — сербские; sjutra — черногорская."
+     "explain_ru": "Tko и što — хорватские формы; ko и šta — сербские; sjutra — черногорская.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение соответствует хорватскому стандарту?"
+      }
+     }
     },
     {
      "id": "e20",
@@ -1085,7 +1190,12 @@
      ],
      "answer": 3,
      "explain_en": "Both dijete and lijepu are ijekavian with long ije; ljepu is wrong because the positive degree is long.",
-     "explain_ru": "И dijete, и lijepu — иекавские формы с долгим ije; ljepu неверно, потому что в положительной степени слог долгий."
+     "explain_ru": "И dijete, и lijepu — иекавские формы с долгим ije; ljepu неверно, потому что в положительной степени слог долгий.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение последовательно иекавское?"
+      }
+     }
     },
     {
      "id": "e25",
@@ -1145,7 +1255,29 @@
        "ko, hiljada, voz, uopšte",
        "сербский стандарт"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "tko, tisuća, vlak",
+         "Croatian standard"
+        ],
+        [
+         "kahva, lahko, historija",
+         "Bosnian standard"
+        ],
+        [
+         "śutra, đe, śekira",
+         "Montenegrin speech"
+        ],
+        [
+         "ko, hiljada, voz, uopšte",
+         "Serbian standard"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1357,7 +1489,12 @@
      "q": "In standard Serbian falling accents can stand only on the first syllable of a word.",
      "answer": true,
      "explain_en": "True. That is why falling accents move to prefixes and proclitics as described in this section.",
-     "explain_ru": "Верно. Именно поэтому нисходящие ударения переходят на приставки и проклитики."
+     "explain_ru": "Верно. Именно поэтому нисходящие ударения переходят на приставки и проклитики.",
+     "ui": {
+      "ru": {
+       "q": "В литературном сербском нисходящие ударения могут стоять только на первом слоге слова."
+      }
+     }
     },
     {
      "id": "e03",
@@ -1421,7 +1558,12 @@
      ],
      "answer": 3,
      "explain_en": "Vȍdu has a short falling accent, so the preposition takes it: nȁ vodu.",
-     "explain_ru": "У vȍdu краткое нисходящее, поэтому предлог берёт ударение: nȁ vodu (ср. русское «на́ воду»)."
+     "explain_ru": "У vȍdu краткое нисходящее, поэтому предлог берёт ударение: nȁ vodu (ср. русское «на́ воду»).",
+     "ui": {
+      "ru": {
+       "q": "В каком сочетании показан нормативный перенос ударения на предлог?"
+      }
+     }
     },
     {
      "id": "e07",
@@ -1445,7 +1587,20 @@
      ],
      "answer": 1,
      "explain_en": "Kȕpiti means 'collect, pick up'; kúpiti (long rising) means 'buy'.",
-     "explain_ru": "Kȕpiti значит «собирать», а kúpiti (долгое восходящее) — «купить». Различие только в ударении."
+     "explain_ru": "Kȕpiti значит «собирать», а kúpiti (долгое восходящее) — «купить». Различие только в ударении.",
+     "ui": {
+      "en": {
+       "options": [
+        "to buy",
+        "to gather, to collect",
+        "to save up",
+        "to bathe"
+       ]
+      },
+      "ru": {
+       "q": "'Kȕpiti' (краткое нисходящее ударение) значит:"
+      }
+     }
     },
     {
      "id": "e09",
@@ -1483,7 +1638,12 @@
      ],
      "answer": 2,
      "explain_en": "Rádīm has a long rising accent, which never moves to a proclitic.",
-     "explain_ru": "У rádīm долгое восходящее ударение, а восходящие на проклитику не переходят."
+     "explain_ru": "У rádīm долгое восходящее ударение, а восходящие на проклитику не переходят.",
+     "ui": {
+      "ru": {
+       "q": "В каком сочетании ударение НЕ переходит на 'ne', потому что у глагола восходящее ударение?"
+      }
+     }
     },
     {
      "id": "e12",
@@ -1491,7 +1651,12 @@
      "q": "In 'ne čìtām' the accent moves to 'ne'.",
      "answer": false,
      "explain_en": "False. Čìtām has a rising accent, so there is no shift.",
-     "explain_ru": "Неверно. У čìtām восходящее ударение, поэтому переноса нет."
+     "explain_ru": "Неверно. У čìtām восходящее ударение, поэтому переноса нет.",
+     "ui": {
+      "ru": {
+       "q": "В 'ne čìtām' ударение переходит на 'ne'."
+      }
+     }
     },
     {
      "id": "e13",
@@ -1530,7 +1695,12 @@
      ],
      "answer": 2,
      "explain_en": "The definite form has a long falling accent and a long ending: nȏvī.",
-     "explain_ru": "Определённая форма имеет долгое нисходящее ударение и долгое окончание: nȏvī. В русском определённость так не выражается."
+     "explain_ru": "Определённая форма имеет долгое нисходящее ударение и долгое окончание: nȏvī. В русском определённость так не выражается.",
+     "ui": {
+      "ru": {
+       "q": "Определённая форма прилагательного nȍv («этот / тот новый»):"
+      }
+     }
     },
     {
      "id": "e16",
@@ -1560,7 +1730,37 @@
        "lȕk",
        "лук (оружие), арка"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "grȃd",
+         "city"
+        ],
+        [
+         "grȁd",
+         "hail"
+        ],
+        [
+         "pȁs",
+         "dog"
+        ],
+        [
+         "pȃs",
+         "belt"
+        ],
+        [
+         "lȗk",
+         "onion"
+        ],
+        [
+         "lȕk",
+         "bow (weapon), arch"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -1629,7 +1829,12 @@
      "q": "In contemporary Belgrade speech many people say 'u grȃd' where the standard has 'ȕ grād'.",
      "answer": true,
      "explain_en": "True. Shifts onto proclitics are weakening in urban speech, though the standard keeps them.",
-     "explain_ru": "Верно. В городской речи перенос на проклитики ослабевает, хотя норма его сохраняет."
+     "explain_ru": "Верно. В городской речи перенос на проклитики ослабевает, хотя норма его сохраняет.",
+     "ui": {
+      "ru": {
+       "q": "В современной белградской речи многие говорят 'u grȃd' там, где по норме 'ȕ grād'."
+      }
+     }
     },
     {
      "id": "e23",
@@ -1922,7 +2127,12 @@
      ],
      "answer": 1,
      "explain_en": "No comma before a da-clause that follows the main clause.",
-     "explain_ru": "Перед придаточным с da, стоящим после главного, запятая не ставится — в отличие от русского «Я думаю, что...»."
+     "explain_ru": "Перед придаточным с da, стоящим после главного, запятая не ставится — в отличие от русского «Я думаю, что...».",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении правильная пунктуация?"
+      }
+     }
     },
     {
      "id": "e02",
@@ -1930,7 +2140,12 @@
      "q": "Like Russian, Serbian always puts a comma before 'da' and 'što' introducing a subordinate clause.",
      "answer": false,
      "explain_en": "False. After the main clause Serbian writes no comma before da or causal/object što.",
-     "explain_ru": "Неверно. После главного предложения в сербском перед da и изъяснительным или причинным što запятая не ставится."
+     "explain_ru": "Неверно. После главного предложения в сербском перед da и изъяснительным или причинным što запятая не ставится.",
+     "ui": {
+      "ru": {
+       "q": "Как и в русском, в сербском всегда ставится запятая перед 'da' и 'što', вводящими придаточное предложение."
+      }
+     }
     },
     {
      "id": "e03",
@@ -1955,7 +2170,12 @@
      ],
      "answer": 2,
      "explain_en": "Causal što after the main clause takes no comma.",
-     "explain_ru": "Перед što со значением причины после главного предложения запятой нет (по-русски: «Жаль, что ты не пришёл»)."
+     "explain_ru": "Перед što со значением причины после главного предложения запятой нет (по-русски: «Жаль, что ты не пришёл»).",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильную пунктуацию:"
+      }
+     }
     },
     {
      "id": "e05",
@@ -1981,7 +2201,33 @@
        "dakle",
        "итак, следовательно"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "naime",
+         "the thing is; namely"
+        ],
+        [
+         "doduše",
+         "admittedly (concession)"
+        ],
+        [
+         "uostalom",
+         "after all, anyway"
+        ],
+        [
+         "međutim",
+         "however"
+        ],
+        [
+         "dakle",
+         "so, therefore"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -2005,7 +2251,12 @@
      ],
      "answer": 3,
      "explain_en": "The clause only adds information about an already identified person, so it is non-restrictive and set off on both sides.",
-     "explain_ru": "Придаточное лишь добавляет сведения об уже определённом лице, значит, оно распространительное и выделяется запятыми с двух сторон."
+     "explain_ru": "Придаточное лишь добавляет сведения об уже определённом лице, значит, оно распространительное и выделяется запятыми с двух сторон.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильное предложение (у говорящего один отец):"
+      }
+     }
     },
     {
      "id": "e08",
@@ -2030,7 +2281,12 @@
      "q": "A non-restrictive relative clause with 'koji' is set off by commas on both sides.",
      "answer": true,
      "explain_en": "True. Only restrictive clauses go without commas.",
-     "explain_ru": "Верно. Без запятых пишутся только ограничительные придаточные."
+     "explain_ru": "Верно. Без запятых пишутся только ограничительные придаточные.",
+     "ui": {
+      "ru": {
+       "q": "Распространительное относительное придаточное с 'koji' выделяется запятыми с обеих сторон."
+      }
+     }
     },
     {
      "id": "e10",
@@ -2044,7 +2300,12 @@
      ],
      "answer": 2,
      "explain_en": "Only in the third sentence is the reader also the subject of the main verb.",
-     "explain_ru": "Только в третьем предложении тот, кто читает, — подлежащее главного глагола. Остальные — ошибки типа «Подъезжая к станции, у меня слетела шляпа»."
+     "explain_ru": "Только в третьем предложении тот, кто читает, — подлежащее главного глагола. Остальные — ошибки типа «Подъезжая к станции, у меня слетела шляпа».",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении деепричастие употреблено правильно?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -2101,7 +2362,29 @@
        "Студенты, сдавшие экзамен, свободны.",
        "Studenti koji su položili ispit slobodni su."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "I think he's right.",
+         "Mislim da je u pravu."
+        ],
+        [
+         "I'm glad you came.",
+         "Drago mi je što si došao."
+        ],
+        [
+         "He came to help.",
+         "Došao je da pomogne."
+        ],
+        [
+         "The students who have passed the exam may leave.",
+         "Studenti koji su položili ispit slobodni su."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e15",
@@ -2115,7 +2398,12 @@
      ],
      "answer": 3,
      "explain_en": "The što-part comes first, so a comma separates it from the to-part.",
-     "explain_ru": "Часть со što стоит впереди, поэтому запятая отделяет её от части с to («Чем скорее, тем лучше»)."
+     "explain_ru": "Часть со što стоит впереди, поэтому запятая отделяет её от части с to («Чем скорее, тем лучше»).",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильную пунктуацию в корреляции 'što... to':"
+      }
+     }
     },
     {
      "id": "e16",
@@ -2157,7 +2445,12 @@
      ],
      "answer": 0,
      "explain_en": "The conditional clause comes first (inversion), so it is followed by a comma.",
-     "explain_ru": "Условное придаточное стоит впереди (инверсия), поэтому после него ставится запятая."
+     "explain_ru": "Условное придаточное стоит впереди (инверсия), поэтому после него ставится запятая.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильную пунктуацию:"
+      }
+     }
     },
     {
      "id": "e19",
@@ -2181,7 +2474,12 @@
      ],
      "answer": 2,
      "explain_en": "The adversative a always takes a comma before it.",
-     "explain_ru": "Перед противительным a запятая ставится всегда — как и в русском."
+     "explain_ru": "Перед противительным a запятая ставится всегда — как и в русском.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильную пунктуацию:"
+      }
+     }
     },
     {
      "id": "e21",
@@ -2189,7 +2487,12 @@
      "q": "In Serbian a comma is normally not written before 'i', 'pa', 'ni' and 'ili' joining two clauses.",
      "answer": true,
      "explain_en": "True. Coordinating conjunctions of this type do not take a comma unless there is an insertion.",
-     "explain_ru": "Верно. Перед такими соединительными союзами запятая не ставится, если нет вставки. В русском перед «и» между простыми предложениями запятая нужна."
+     "explain_ru": "Верно. Перед такими соединительными союзами запятая не ставится, если нет вставки. В русском перед «и» между простыми предложениями запятая нужна.",
+     "ui": {
+      "ru": {
+       "q": "В сербском запятая обычно не ставится перед 'i', 'pa', 'ni' и 'ili', соединяющими два предложения."
+      }
+     }
     },
     {
      "id": "e22",
@@ -2213,7 +2516,12 @@
      ],
      "answer": 3,
      "explain_en": "A parenthetical word is set off by commas on both sides.",
-     "explain_ru": "Вводное слово выделяется запятыми с обеих сторон."
+     "explain_ru": "Вводное слово выделяется запятыми с обеих сторон.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильную пунктуацию при вводном слове:"
+      }
+     }
     },
     {
      "id": "e24",
@@ -2526,7 +2834,12 @@
      ],
      "answer": 0,
      "explain_en": "Loanwords in -ovati are usually bi-aspectual; the others belong to one aspect.",
-     "explain_ru": "Заимствования на -ovati обычно двувидовые (как русское «организовать»); остальные глаголы — одного вида."
+     "explain_ru": "Заимствования на -ovati обычно двувидовые (как русское «организовать»); остальные глаголы — одного вида.",
+     "ui": {
+      "ru": {
+       "q": "Какой глагол двувидовой?"
+      }
+     }
     },
     {
      "id": "e04",
@@ -2534,7 +2847,12 @@
      "q": "'Ne otvori prozor!' is the normal way to forbid someone to open the window.",
      "answer": false,
      "explain_en": "False. A prohibition needs the imperfective: Ne otvaraj prozor! The perfective is only for warnings.",
-     "explain_ru": "Неверно. Для запрета нужен несовершенный вид: Ne otvaraj prozor! Совершенный — только для предостережений."
+     "explain_ru": "Неверно. Для запрета нужен несовершенный вид: Ne otvaraj prozor! Совершенный — только для предостережений.",
+     "ui": {
+      "ru": {
+       "q": "'Ne otvori prozor!' — обычный способ запретить кому-то открывать окно."
+      }
+     }
     },
     {
      "id": "e05",
@@ -2556,7 +2874,29 @@
        "Не плачь!",
        "Nemoj da plačeš!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Don't forget!",
+         "Ne zaboravi!"
+        ],
+        [
+         "Don't open it!",
+         "Ne otvaraj!"
+        ],
+        [
+         "Don't fall!",
+         "Ne padni!"
+        ],
+        [
+         "Don't cry!",
+         "Nemoj da plačeš!"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -2617,7 +2957,12 @@
      ],
      "answer": 2,
      "explain_en": "A one-off offer: da + perfective present pomognem.",
-     "explain_ru": "Разовое предложение помощи: da + настоящее совершенного вида pomognem («Помочь тебе с сумкой?»). Форма с ću после da невозможна."
+     "explain_ru": "Разовое предложение помощи: da + настоящее совершенного вида pomognem («Помочь тебе с сумкой?»). Форма с ću после da невозможна.",
+     "ui": {
+      "ru": {
+       "q": "Hoćeš da ti ___ s tom torbom? (pomoći, прямо сейчас)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -2625,7 +2970,12 @@
      "q": "In 'Kad god dođe, donese cveće' the perfective present describes a repeated action.",
      "answer": true,
      "explain_en": "True. Each visit is a completed event, repeated over time.",
-     "explain_ru": "Верно. Каждый приход — завершённое событие, повторяющееся во времени (ср. «придёт, бывало, и принесёт цветы»)."
+     "explain_ru": "Верно. Каждый приход — завершённое событие, повторяющееся во времени (ср. «придёт, бывало, и принесёт цветы»).",
+     "ui": {
+      "ru": {
+       "q": "В 'Kad god dođe, donese cveće' настоящее время совершенного вида описывает повторяющееся действие."
+      }
+     }
     },
     {
      "id": "e12",
@@ -2639,7 +2989,12 @@
      ],
      "answer": 1,
      "explain_en": "A future in a main clause needs ću: Doći ću sutra.",
-     "explain_ru": "Будущее в главном предложении требует ću: Doći ću sutra. Русское «приду» нельзя передать простым dođem."
+     "explain_ru": "Будущее в главном предложении требует ću: Doći ću sutra. Русское «приду» нельзя передать простым dođem.",
+     "ui": {
+      "en": {
+       "q": "'I'll come tomorrow' in standard Serbian:"
+      }
+     }
     },
     {
      "id": "e13",
@@ -2699,7 +3054,33 @@
        "čim dođe",
        "как только придёт"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "dok ne dođe",
+         "until he comes"
+        ],
+        [
+         "da ne zakasni",
+         "so that he isn't late"
+        ],
+        [
+         "zna da zakasni",
+         "he is sometimes late"
+        ],
+        [
+         "da ti pomognem?",
+         "shall I help you?"
+        ],
+        [
+         "čim dođe",
+         "as soon as he comes"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -2759,7 +3140,12 @@
      "q": "With 'nemoj da' both aspects are possible: imperfective for a general prohibition (Nemoj da plačeš), perfective for one specific act (Nemoj da zaboraviš).",
      "answer": true,
      "explain_en": "True. Unlike ne + imperative, nemoj da freely combines with the perfective.",
-     "explain_ru": "Верно. В отличие от ne + повелительное, nemoj da свободно сочетается с совершенным видом."
+     "explain_ru": "Верно. В отличие от ne + повелительное, nemoj da свободно сочетается с совершенным видом.",
+     "ui": {
+      "ru": {
+       "q": "С 'nemoj da' возможны оба вида: несовершенный — для общего запрета (Nemoj da plačeš), совершенный — для одного конкретного действия (Nemoj da zaboraviš)."
+      }
+     }
     },
     {
      "id": "e22",
@@ -2783,7 +3169,18 @@
      ],
      "answer": 1,
      "explain_en": "Svaki dan signals repetition, so ručati is imperfective here.",
-     "explain_ru": "Svaki dan указывает на повторение, значит, ručati здесь несовершенного вида («обедаю»)."
+     "explain_ru": "Svaki dan указывает на повторение, значит, ručati здесь несовершенного вида («обедаю»).",
+     "ui": {
+      "ru": {
+       "q": "В 'Ručam svaki dan u podne' двувидовой глагол 'ručati' употреблён как:",
+       "options": [
+        "совершенный вид (один результат)",
+        "несовершенный вид (повторяющееся действие)",
+        "будущее совершенного вида",
+        "отглагольное существительное"
+       ]
+      }
+     }
     },
     {
      "id": "e24",
@@ -2821,7 +3218,12 @@
      ],
      "answer": 2,
      "explain_en": "Nemoj + infinitive: Nemoj zaboraviti! (or Nemoj da zaboraviš).",
-     "explain_ru": "Nemoj + инфинитив: Nemoj zaboraviti! (или Nemoj da zaboraviš). «Da zaboravi» — неверное лицо."
+     "explain_ru": "Nemoj + инфинитив: Nemoj zaboraviti! (или Nemoj da zaboraviš). «Da zaboravi» — неверное лицо.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильную конструкцию с инфинитивом: 'Nemoj ___!'"
+      }
+     }
     },
     {
      "id": "e27",
@@ -3096,7 +3498,20 @@
      ],
      "answer": 1,
      "explain_en": "It is an exclamation of surprise or mild reproach, not a literal statement.",
-     "explain_ru": "Это восклицание удивления или лёгкого упрёка, а не буквальное утверждение."
+     "explain_ru": "Это восклицание удивления или лёгкого упрёка, а не буквальное утверждение.",
+     "ui": {
+      "en": {
+       "options": [
+        "God keep you!",
+        "Well, I never! / Good heavens!",
+        "God saw you.",
+        "Goodbye!"
+       ]
+      },
+      "ru": {
+       "q": "'Bog te video!' примерно значит:"
+      }
+     }
     },
     {
      "id": "e04",
@@ -3104,7 +3519,12 @@
      "q": "'Živela!' is said to a woman or about a feminine noun such as 'Srbija'.",
      "answer": true,
      "explain_en": "True. The feminine singular participle ends in -a: živela.",
-     "explain_ru": "Верно. Причастие женского рода ед. ч. оканчивается на -a: živela."
+     "explain_ru": "Верно. Причастие женского рода ед. ч. оканчивается на -a: živela.",
+     "ui": {
+      "ru": {
+       "q": "'Živela!' говорят женщине или о существительном женского рода, например 'Srbija'."
+      }
+     }
     },
     {
      "id": "e05",
@@ -3130,7 +3550,33 @@
        "Biće da je tako.",
        "Видимо, так и есть."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Živeli!",
+         "Cheers!"
+        ],
+        [
+         "Neka, hvala.",
+         "No, thanks, I'm fine."
+        ],
+        [
+         "Bog te video!",
+         "Well, I never!"
+        ],
+        [
+         "Kamo sreće!",
+         "If only!"
+        ],
+        [
+         "Biće da je tako.",
+         "That must be so."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -3154,7 +3600,20 @@
      ],
      "answer": 3,
      "explain_en": "Kamo sreće introduces an unreal wish: 'If only it were so!'",
-     "explain_ru": "Kamo sreće вводит нереальное желание: «Если бы так!»."
+     "explain_ru": "Kamo sreće вводит нереальное желание: «Если бы так!».",
+     "ui": {
+      "en": {
+       "options": [
+        "Where has happiness gone?",
+        "That's how it is!",
+        "Where there's happiness, there I am.",
+        "If only it were so!"
+       ]
+      },
+      "ru": {
+       "q": "'Kamo sreće da je tako!' значит:"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3193,7 +3652,18 @@
      ],
      "answer": 1,
      "explain_en": "Neka, hvala is the standard polite 'no, thank you'.",
-     "explain_ru": "Neka, hvala — стандартный вежливый отказ: «Не надо, спасибо»."
+     "explain_ru": "Neka, hvala — стандартный вежливый отказ: «Не надо, спасибо».",
+     "ui": {
+      "ru": {
+       "q": "Хозяин предлагает ещё еды, а вы отвечаете 'Neka, hvala.' Это:",
+       "options": [
+        "восторженное «да»",
+        "вежливый отказ",
+        "угроза",
+        "просьба повторить"
+       ]
+      }
+     }
     },
     {
      "id": "e11",
@@ -3201,7 +3671,12 @@
      "q": "'Bog te video!' literally states that God has seen the person.",
      "answer": false,
      "explain_en": "False. Historically an optative, today it is an exclamation of surprise.",
-     "explain_ru": "Неверно. Исторически это оптатив, а сегодня восклицание удивления."
+     "explain_ru": "Неверно. Исторически это оптатив, а сегодня восклицание удивления.",
+     "ui": {
+      "ru": {
+       "q": "'Bog te video!' буквально утверждает, что Бог видел этого человека."
+      }
+     }
     },
     {
      "id": "e12",
@@ -3276,7 +3751,33 @@
        "Mora da je kod kuće.",
        "предположение"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Srećan put!",
+         "wish"
+        ],
+        [
+         "Grom te ubio!",
+         "curse"
+        ],
+        [
+         "Baš bi ti to uradio!",
+         "irony"
+        ],
+        [
+         "Da li biste mi pomogli?",
+         "polite request"
+        ],
+        [
+         "Mora da je kod kuće.",
+         "assumption"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -3330,7 +3831,20 @@
      ],
      "answer": 0,
      "explain_en": "Epistemic mora da expresses a confident guess.",
-     "explain_ru": "Эпистемическое mora da выражает уверенное предположение: «должно быть»."
+     "explain_ru": "Эпистемическое mora da выражает уверенное предположение: «должно быть».",
+     "ui": {
+      "en": {
+       "options": [
+        "He must be tired.",
+        "He is obliged to get tired.",
+        "He has to rest.",
+        "He will get tired."
+       ]
+      },
+      "ru": {
+       "q": "'Mora da je umoran.' значит:"
+      }
+     }
     },
     {
      "id": "e21",
@@ -3338,7 +3852,15 @@
      "q": "'Svako veče bi sedeo i čitao' describes a repeated past action, roughly Russian 'бывало, сидел и читал'.",
      "answer": true,
      "explain_en": "True. The conditional is used for past habits in narration.",
-     "explain_ru": "Верно. Условное наклонение в повествовании описывает прошлые привычки."
+     "explain_ru": "Верно. Условное наклонение в повествовании описывает прошлые привычки.",
+     "ui": {
+      "en": {
+       "q": "'Svako veče bi sedeo i čitao' describes a repeated past action, roughly English 'every evening he would sit and read' (Russian 'byvalo, sidel i chital')."
+      },
+      "ru": {
+       "q": "'Svako veče bi sedeo i čitao' описывает повторяющееся действие в прошлом, примерно как русское «бывало, сидел и читал»."
+      }
+     }
     },
     {
      "id": "e22",
@@ -3402,7 +3924,12 @@
      ],
      "answer": 3,
      "explain_en": "Grom te ubio! is a curse ('may thunder kill you'); the others are wishes.",
-     "explain_ru": "Grom te ubio! — проклятие («чтоб тебя гром убил»); остальные — пожелания."
+     "explain_ru": "Grom te ubio! — проклятие («чтоб тебя гром убил»); остальные — пожелания.",
+     "ui": {
+      "ru": {
+       "q": "Что из этого — проклятие?"
+      }
+     }
     },
     {
      "id": "e27",
@@ -3442,7 +3969,33 @@
        "Živele!",
        "мн. ч., ж. р."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Živeo!",
+         "sg., masculine"
+        ],
+        [
+         "Živela!",
+         "sg., feminine"
+        ],
+        [
+         "Živelo!",
+         "sg., neuter"
+        ],
+        [
+         "Živeli!",
+         "pl., masculine or mixed group"
+        ],
+        [
+         "Živele!",
+         "pl., feminine"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3683,7 +4236,12 @@
      "q": "In modern Serbian the accusative is normal after a negated transitive verb ('Nisam video taj film'); the genitive here sounds literary.",
      "answer": true,
      "explain_en": "True. The genitive of negation survives mainly after nema and in emphatic ni-phrases.",
-     "explain_ru": "Верно. Родительный отрицания сохраняется в основном после nema и в эмфатических оборотах с ni, в отличие от русского «не видел фильма»."
+     "explain_ru": "Верно. Родительный отрицания сохраняется в основном после nema и в эмфатических оборотах с ni, в отличие от русского «не видел фильма».",
+     "ui": {
+      "ru": {
+       "q": "В современном сербском после переходного глагола с отрицанием нормален винительный падеж ('Nisam video taj film'); родительный здесь звучит книжно."
+      }
+     }
     },
     {
      "id": "e05",
@@ -3709,7 +4267,33 @@
        "vozom",
        "поездом"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "noću",
+         "at night"
+        ],
+        [
+         "nedeljom",
+         "on Sundays"
+        ],
+        [
+         "godinama",
+         "for years"
+        ],
+        [
+         "šumom",
+         "through the forest"
+        ],
+        [
+         "vozom",
+         "by train"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -3779,7 +4363,12 @@
      "q": "'Pišem sa olovkom' is the normative way to say 'I write with a pencil'.",
      "answer": false,
      "explain_en": "False. The norm is Pišem olovkom; sa olovkom is a frequent colloquial error.",
-     "explain_ru": "Неверно. Норма — Pišem olovkom; sa olovkom — частая разговорная ошибка."
+     "explain_ru": "Неверно. Норма — Pišem olovkom; sa olovkom — частая разговорная ошибка.",
+     "ui": {
+      "ru": {
+       "q": "'Pišem sa olovkom' — нормативный способ сказать «я пишу карандашом»."
+      }
+     }
     },
     {
      "id": "e12",
@@ -3849,7 +4438,29 @@
        "Najeo se hleba.",
        "Он наелся хлеба."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Daj mi hleba.",
+         "Give me some bread."
+        ],
+        [
+         "Daj mi hleb.",
+         "Give me the bread."
+        ],
+        [
+         "Nema hleba.",
+         "There's no bread."
+        ],
+        [
+         "Najeo se hleba.",
+         "He ate his fill of bread."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -3910,7 +4521,12 @@
      "q": "In 'Šta mi radiš, sine?' the dative 'mi' marks the speaker's emotional involvement (ethical dative).",
      "answer": true,
      "explain_en": "True. Nothing is done to the speaker; mi expresses affection or concern.",
-     "explain_ru": "Верно. С говорящим ничего не делают; mi выражает нежность или беспокойство."
+     "explain_ru": "Верно. С говорящим ничего не делают; mi выражает нежность или беспокойство.",
+     "ui": {
+      "ru": {
+       "q": "В 'Šta mi radiš, sine?' дательный 'mi' выражает эмоциональную вовлечённость говорящего (этический датив)."
+      }
+     }
     },
     {
      "id": "e22",
@@ -3972,7 +4588,12 @@
      ],
      "answer": 2,
      "explain_en": "Mnogo + genitive plural, verb in the neuter singular: Došlo je mnogo ljudi.",
-     "explain_ru": "Mnogo + родительный мн. ч., глагол в среднем роде ед. ч.: Došlo je mnogo ljudi («Пришло много людей»)."
+     "explain_ru": "Mnogo + родительный мн. ч., глагол в среднем роде ед. ч.: Došlo je mnogo ljudi («Пришло много людей»).",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильное предложение (квантор + родительный падеж):"
+      }
+     }
     },
     {
      "id": "e27",
@@ -4008,7 +4629,29 @@
        "Idem ka gradu.",
        "датив направления"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Brat mi je lekar.",
+         "possessive dative"
+        ],
+        [
+         "Pazi mi se!",
+         "ethical dative"
+        ],
+        [
+         "Dao sam mu knjigu.",
+         "dative of the recipient"
+        ],
+        [
+         "Idem ka gradu.",
+         "dative of direction"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4240,7 +4883,18 @@
      ],
      "answer": 0,
      "explain_en": "The nationality noun Rus is capitalised; the language ruski is not.",
-     "explain_ru": "Существительное Rus пишется с прописной, название языка ruski — со строчной. В русском «русский» — со строчной в обоих случаях."
+     "explain_ru": "Существительное Rus пишется с прописной, название языка ruski — со строчной. В русском «русский» — со строчной в обоих случаях.",
+     "ui": {
+      "ru": {
+       "q": "Какое слово в 'ja sam rus i govorim ruski', кроме первого, нужно писать с заглавной буквы?",
+       "options": [
+        "rus",
+        "ruski",
+        "govorim",
+        "ни одно из них"
+       ]
+      }
+     }
     },
     {
      "id": "e02",
@@ -4248,7 +4902,12 @@
      "q": "In Serbian the names of months and days are written with a small letter, as in Russian.",
      "answer": true,
      "explain_en": "True: januar, ponedeljak.",
-     "explain_ru": "Верно: januar, ponedeljak — как «январь», «понедельник»."
+     "explain_ru": "Верно: januar, ponedeljak — как «январь», «понедельник».",
+     "ui": {
+      "ru": {
+       "q": "В сербском названия месяцев и дней недели пишутся со строчной буквы, как в русском."
+      }
+     }
     },
     {
      "id": "e03",
@@ -4262,7 +4921,12 @@
      ],
      "answer": 1,
      "explain_en": "The preposition splits the pronoun: ni od koga.",
-     "explain_ru": "Предлог разделяет местоимение: ni od koga, как «ни от кого»."
+     "explain_ru": "Предлог разделяет местоимение: ni od koga, как «ни от кого».",
+     "ui": {
+      "ru": {
+       "q": "Правильное написание «ни от кого»:"
+      }
+     }
     },
     {
      "id": "e04",
@@ -4299,7 +4963,33 @@
        "Лермонтов",
        "Ljermontov"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Chekhov",
+         "Čehov"
+        ],
+        [
+         "Turgenev",
+         "Turgenjev"
+        ],
+        [
+         "Khrushchev",
+         "Hruščov"
+        ],
+        [
+         "Tchaikovsky",
+         "Čajkovski"
+        ],
+        [
+         "Lermontov",
+         "Ljermontov"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -4352,7 +5042,12 @@
      ],
      "answer": 2,
      "explain_en": "е after a vowel → je, -ский → -ski: Dostojevski.",
-     "explain_ru": "е после гласной → je, -ский → -ski: Dostojevski."
+     "explain_ru": "е после гласной → je, -ский → -ski: Dostojevski.",
+     "ui": {
+      "en": {
+       "q": "Dostoevsky in Serbian:"
+      }
+     }
     },
     {
      "id": "e10",
@@ -4370,7 +5065,12 @@
      "q": "The noun 'Srbin' is written with a capital letter, while the adjective 'srpski' is lowercase.",
      "answer": true,
      "explain_en": "True. Nationality nouns are capitalised, adjectives are not.",
-     "explain_ru": "Верно. Существительные-этнонимы пишутся с прописной, прилагательные — со строчной."
+     "explain_ru": "Верно. Существительные-этнонимы пишутся с прописной, прилагательные — со строчной.",
+     "ui": {
+      "ru": {
+       "q": "Существительное 'Srbin' пишется с заглавной буквы, а прилагательное 'srpski' — со строчной."
+      }
+     }
     },
     {
      "id": "e12",
@@ -4384,7 +5084,12 @@
      ],
      "answer": 2,
      "explain_en": "There is no verb *dostajati in this meaning, so nedostajati is one word.",
-     "explain_ru": "Глагола *dostajati в этом значении нет, поэтому nedostajati пишется слитно, как русское «ненавидеть»."
+     "explain_ru": "Глагола *dostajati в этом значении нет, поэтому nedostajati пишется слитно, как русское «ненавидеть».",
+     "ui": {
+      "ru": {
+       "q": "Какой глагол пишется слитно с 'ne', потому что без него не существует?"
+      }
+     }
     },
     {
      "id": "e13",
@@ -4440,7 +5145,10 @@
        "Ljubljana",
        "Љубљана"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {}
+     }
     },
     {
      "id": "e17",
@@ -4470,7 +5178,18 @@
      ],
      "answer": 3,
      "explain_en": "In institution names only the first word and proper names are capitalised: Filozofski fakultet u Beogradu.",
-     "explain_ru": "В названиях учреждений с прописной пишутся только первое слово и имена собственные: Filozofski fakultet u Beogradu."
+     "explain_ru": "В названиях учреждений с прописной пишутся только первое слово и имена собственные: Filozofski fakultet u Beogradu.",
+     "ui": {
+      "ru": {
+       "q": "Какие слова в официальном названии 'filozofski fakultet u beogradu' пишутся с заглавной буквы?",
+       "options": [
+        "все слова",
+        "только Beogradu",
+        "только Filozofski",
+        "Filozofski и Beogradu"
+       ]
+      }
+     }
     },
     {
      "id": "e19",
@@ -4480,7 +5199,12 @@
       "Čehov"
      ],
      "explain_en": "Ч → Č, х → h: Čehov.",
-     "explain_ru": "Ч → Č, х → h: Čehov."
+     "explain_ru": "Ч → Č, х → h: Čehov.",
+     "ui": {
+      "en": {
+       "q": "Anton ___ (Chekhov) napisao je „Tri sestre“."
+      }
+     }
     },
     {
      "id": "e20",
@@ -4502,7 +5226,12 @@
      "q": "'Ne znam' is written as one word, like 'neću'.",
      "answer": false,
      "explain_en": "False. Ne is separate from verbs; only neću, nemam, nisam, nemoj and a few verbs are fused.",
-     "explain_ru": "Неверно. Ne с глаголами пишется раздельно; слитно только neću, nemam, nisam, nemoj и немногие глаголы."
+     "explain_ru": "Неверно. Ne с глаголами пишется раздельно; слитно только neću, nemam, nisam, nemoj и немногие глаголы.",
+     "ui": {
+      "ru": {
+       "q": "'Ne znam' пишется слитно, как 'neću'."
+      }
+     }
     },
     {
      "id": "e22",
@@ -4564,7 +5293,12 @@
      ],
      "answer": 1,
      "explain_en": "Verbs in -ći are written apart from ću: ići ću.",
-     "explain_ru": "Глаголы на -ći пишутся раздельно с ću: ići ću."
+     "explain_ru": "Глаголы на -ći пишутся раздельно с ću: ići ću.",
+     "ui": {
+      "ru": {
+       "q": "Какой вариант написан правильно?"
+      }
+     }
     },
     {
      "id": "e27",
@@ -4838,7 +5572,12 @@
      ],
      "answer": 2,
      "explain_en": "Tisuća is Croatian; Serbian has hiljada.",
-     "explain_ru": "Tisuća — хорватское слово; в сербском hiljada («тысяча»)."
+     "explain_ru": "Tisuća — хорватское слово; в сербском hiljada («тысяча»).",
+     "ui": {
+      "ru": {
+       "q": "Какое слово относится к хорватскому, а не к сербскому стандарту?"
+      }
+     }
     },
     {
      "id": "e04",
@@ -4846,7 +5585,12 @@
      "q": "Serbian, Croatian, Bosnian and Montenegrin are mutually intelligible to a very high degree.",
      "answer": true,
      "explain_en": "True. They share one Štokavian base; differences are mostly lexical and orthographic.",
-     "explain_ru": "Верно. У них одна штокавская основа; различия в основном лексические и орфографические."
+     "explain_ru": "Верно. У них одна штокавская основа; различия в основном лексические и орфографические.",
+     "ui": {
+      "ru": {
+       "q": "Сербский, хорватский, боснийский и черногорский в очень высокой степени взаимопонятны."
+      }
+     }
     },
     {
      "id": "e05",
@@ -4900,7 +5644,12 @@
      ],
      "answer": 3,
      "explain_en": "Bosnian restores h in Turkisms: kahva. Kafa is Serbian, kava Croatian, kofa means 'bucket'.",
-     "explain_ru": "Боснийский восстанавливает h в тюркизмах: kahva. Kafa — сербское, kava — хорватское, kofa значит «ведро»."
+     "explain_ru": "Боснийский восстанавливает h в тюркизмах: kahva. Kafa — сербское, kava — хорватское, kofa значит «ведро».",
+     "ui": {
+      "ru": {
+       "q": "Какая форма характерна для боснийского стандарта (а не для сербского или хорватского)?"
+      }
+     }
     },
     {
      "id": "e08",
@@ -4938,7 +5687,12 @@
      ],
      "answer": 0,
      "explain_en": "Montenegrin adds ś and ź (śekira, iźesti); ć and đ are common to all standards.",
-     "explain_ru": "Черногорский добавляет ś и ź (śekira, iźesti); ć и đ есть во всех стандартах."
+     "explain_ru": "Черногорский добавляет ś и ź (śekira, iźesti); ć и đ есть во всех стандартах.",
+     "ui": {
+      "ru": {
+       "q": "Какие две буквы черногорский стандарт добавляет к алфавиту?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -4946,7 +5700,12 @@
      "q": "The Croatian standard is officially ekavian.",
      "answer": false,
      "explain_en": "False. Croatian is ijekavian; only Serbian has an ekavian standard pronunciation.",
-     "explain_ru": "Неверно. Хорватский — иекавский; экавский стандартный выговор есть только в сербском."
+     "explain_ru": "Неверно. Хорватский — иекавский; экавский стандартный выговор есть только в сербском.",
+     "ui": {
+      "ru": {
+       "q": "Хорватский стандарт официально экавский."
+      }
+     }
     },
     {
      "id": "e12",
@@ -5050,7 +5809,20 @@
      ],
      "answer": 1,
      "explain_en": "Ćale is 'dad'; keva is 'mom', lova is 'money'.",
-     "explain_ru": "Ćale — «батя, папа»; keva — «мама», lova — «деньги»."
+     "explain_ru": "Ćale — «батя, папа»; keva — «мама», lova — «деньги».",
+     "ui": {
+      "en": {
+       "options": [
+        "mother",
+        "father",
+        "friend",
+        "money"
+       ]
+      },
+      "ru": {
+       "q": "Белградское сленговое 'ćale' значит:"
+      }
+     }
     },
     {
      "id": "e19",
@@ -5074,7 +5846,12 @@
      ],
      "answer": 2,
      "explain_en": "Komšija comes from Turkish komşu; the others are Slavic.",
-     "explain_ru": "Komšija — из турецкого komşu; остальные слова славянские."
+     "explain_ru": "Komšija — из турецкого komşu; остальные слова славянские.",
+     "ui": {
+      "ru": {
+       "q": "Какое слово — турцизм?"
+      }
+     }
     },
     {
      "id": "e21",
@@ -5082,7 +5859,12 @@
      "q": "The Serbian standard allows both Cyrillic and Latin script and both ekavian and ijekavian pronunciation.",
      "answer": true,
      "explain_en": "True, though Cyrillic is the official script in state use.",
-     "explain_ru": "Верно, хотя в официальном государственном употреблении основная азбука — кириллица."
+     "explain_ru": "Верно, хотя в официальном государственном употреблении основная азбука — кириллица.",
+     "ui": {
+      "ru": {
+       "q": "Сербский стандарт допускает и кириллицу, и латиницу, и экавское, и иекавское произношение."
+      }
+     }
     },
     {
      "id": "e22",
@@ -5106,7 +5888,20 @@
      ],
      "answer": 2,
      "explain_en": "Frajer is a cool guy or show-off; the Russian meaning 'sucker' is a false friend.",
-     "explain_ru": "Frajer — крутой парень или пижон; русское блатное значение «простак» — ложный друг переводчика."
+     "explain_ru": "Frajer — крутой парень или пижон; русское блатное значение «простак» — ложный друг переводчика.",
+     "ui": {
+      "en": {
+       "options": [
+        "a sucker, a dupe (as in Russian criminal slang 'fraer')",
+        "a farmer",
+        "a cool guy, a show-off",
+        "a free man"
+       ]
+      },
+      "ru": {
+       "q": "Сербское 'frajer' обычно значит:"
+      }
+     }
     },
     {
      "id": "e24",
@@ -5144,7 +5939,18 @@
      ],
      "answer": 3,
      "explain_en": "Šatrovački swaps syllables: bra-te → te-bra.",
-     "explain_ru": "Šatrovački переставляет слоги: bra-te → te-bra."
+     "explain_ru": "Šatrovački переставляет слоги: bra-te → te-bra.",
+     "ui": {
+      "ru": {
+       "q": "Сленговое слово 'tebra' образовано:",
+       "options": [
+        "заимствованием из английского",
+        "заимствованием из турецкого",
+        "усечением слова 'tebe'",
+        "перестановкой слогов слова 'brate' (šatrovački)"
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5184,7 +5990,33 @@
        "klopa",
        "еда, «жрачка»"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "keva",
+         "mum"
+        ],
+        [
+         "ćale",
+         "dad"
+        ],
+        [
+         "lova",
+         "money, 'dough'"
+        ],
+        [
+         "gajba",
+         "flat, 'pad'"
+        ],
+        [
+         "klopa",
+         "food, 'grub'"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5393,7 +6225,12 @@
      ],
      "answer": 1,
      "explain_en": "The experiencer is in the accusative: Boli ga glava.",
-     "explain_ru": "Испытывающий боль стоит в винительном: Boli ga glava. Kod njega — калька с «у него»."
+     "explain_ru": "Испытывающий боль стоит в винительном: Boli ga glava. Kod njega — калька с «у него».",
+     "ui": {
+      "en": {
+       "q": "'He has a headache.'"
+      }
+     }
     },
     {
      "id": "e02",
@@ -5403,7 +6240,12 @@
       "Imam"
      ],
      "explain_en": "Age is expressed with imati: Imam 30 godina.",
-     "explain_ru": "Возраст выражается глаголом imati: Imam 30 godina («имею 30 лет»)."
+     "explain_ru": "Возраст выражается глаголом imati: Imam 30 godina («имею 30 лет»).",
+     "ui": {
+      "en": {
+       "q": "'I am 30 years old.' → ___ 30 godina."
+      }
+     }
     },
     {
      "id": "e03",
@@ -5417,7 +6259,12 @@
      ],
      "answer": 2,
      "explain_en": "Serbian has no active present participle; use a relative clause.",
-     "explain_ru": "Действительного причастия настоящего времени в сербском нет; используйте придаточное с koji."
+     "explain_ru": "Действительного причастия настоящего времени в сербском нет; используйте придаточное с koji.",
+     "ui": {
+      "en": {
+       "q": "'a student reading a book'"
+      }
+     }
     },
     {
      "id": "e04",
@@ -5425,7 +6272,15 @@
      "q": "'Zvao me je juče' (imperfective) can translate 'Он позвонил мне вчера'.",
      "answer": true,
      "explain_en": "True. Serbian often uses imperfective zvati for a single completed call.",
-     "explain_ru": "Верно. В сербском для однократного звонка часто употребляется несовершенный глагол zvati."
+     "explain_ru": "Верно. В сербском для однократного звонка часто употребляется несовершенный глагол zvati.",
+     "ui": {
+      "en": {
+       "q": "'Zvao me je juče' (imperfective) can translate 'He called me yesterday' (Russian perfective 'pozvonil')."
+      },
+      "ru": {
+       "q": "'Zvao me je juče' (несовершенный вид) может переводить «Он позвонил мне вчера»."
+      }
+     }
     },
     {
      "id": "e05",
@@ -5455,7 +6310,37 @@
        "неделю назад",
        "pre nedelju dana"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "at the doctor's",
+         "kod lekara"
+        ],
+        [
+         "at the post office",
+         "u pošti"
+        ],
+        [
+         "in the kitchen",
+         "u kuhinji"
+        ],
+        [
+         "at university",
+         "na fakultetu"
+        ],
+        [
+         "in a week's time",
+         "za nedelju dana"
+        ],
+        [
+         "a week ago",
+         "pre nedelju dana"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -5465,7 +6350,12 @@
       "zoveš"
      ],
      "explain_en": "Serbian uses the reflexive zvati se: Kako se zoveš?",
-     "explain_ru": "В сербском возвратный глагол zvati se: Kako se zoveš? («как ты называешься»)."
+     "explain_ru": "В сербском возвратный глагол zvati se: Kako se zoveš? («как ты называешься»).",
+     "ui": {
+      "en": {
+       "q": "'What's your name?' → Kako se ___?"
+      }
+     }
     },
     {
      "id": "e07",
@@ -5479,7 +6369,12 @@
      ],
      "answer": 3,
      "explain_en": "Clitics in second position, auxiliary before the pronoun: Juče sam ga video.",
-     "explain_ru": "Клитики на втором месте, вспомогательный глагол перед местоимением: Juče sam ga video."
+     "explain_ru": "Клитики на втором месте, вспомогательный глагол перед местоимением: Juče sam ga video.",
+     "ui": {
+      "en": {
+       "q": "'I saw him yesterday.'"
+      }
+     }
     },
     {
      "id": "e08",
@@ -5501,7 +6396,12 @@
       "srpski"
      ],
      "explain_en": "Languages after govoriti: govorim srpski (or na srpskom).",
-     "explain_ru": "После govoriti — название языка: govorim srpski (или na srpskom); «по-» не калькируется."
+     "explain_ru": "После govoriti — название языка: govorim srpski (или na srpskom); «по-» не калькируется.",
+     "ui": {
+      "en": {
+       "q": "'I speak Serbian.' → Govorim ___."
+      }
+     }
     },
     {
      "id": "e10",
@@ -5515,7 +6415,12 @@
      ],
      "answer": 1,
      "explain_en": "The norm is hvala na + locative.",
-     "explain_ru": "Норма — hvala na + местный падеж: Hvala na pomoći."
+     "explain_ru": "Норма — hvala na + местный падеж: Hvala na pomoći.",
+     "ui": {
+      "en": {
+       "q": "'Thanks for the help!' (normative)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -5523,7 +6428,15 @@
      "q": "'Uvideo sam ga' is the normal translation of 'Я увидел его'.",
      "answer": false,
      "explain_en": "False. Uvideti means 'realise'; 'I saw him' is Video sam ga.",
-     "explain_ru": "Неверно. Uvideti значит «осознать»; «Я увидел его» — Video sam ga."
+     "explain_ru": "Неверно. Uvideti значит «осознать»; «Я увидел его» — Video sam ga.",
+     "ui": {
+      "en": {
+       "q": "'Uvideo sam ga' is the normal translation of 'I saw him' (Russian 'Ya uvidel ego')."
+      },
+      "ru": {
+       "q": "'Uvideo sam ga' — обычный перевод фразы «Я увидел его»."
+      }
+     }
     },
     {
      "id": "e12",
@@ -5537,7 +6450,12 @@
      ],
      "answer": 2,
      "explain_en": "A point in the future: za nedelju dana. Preko nedelje means 'during the week'.",
-     "explain_ru": "Момент в будущем: za nedelju dana. Preko nedelje значит «в течение рабочей недели»."
+     "explain_ru": "Момент в будущем: za nedelju dana. Preko nedelje значит «в течение рабочей недели».",
+     "ui": {
+      "en": {
+       "q": "'in a week's time'"
+      }
+     }
     },
     {
      "id": "e13",
@@ -5547,7 +6465,12 @@
       "ulicom"
      ],
      "explain_en": "Instrumental of path: ulicom.",
-     "explain_ru": "Творительный пути: ulicom (не *po ulici в значении маршрута)."
+     "explain_ru": "Творительный пути: ulicom (не *po ulici в значении маршрута).",
+     "ui": {
+      "en": {
+       "q": "'We walked along the street.' → Išli smo ___ (ulica)."
+      }
+     }
     },
     {
      "id": "e14",
@@ -5561,7 +6484,12 @@
      ],
      "answer": 0,
      "explain_en": "At a person's place: kod + genitive.",
-     "explain_ru": "«У кого-то» — kod + родительный: kod lekara."
+     "explain_ru": "«У кого-то» — kod + родительный: kod lekara.",
+     "ui": {
+      "en": {
+       "q": "'I was at the doctor's.'"
+      }
+     }
     },
     {
      "id": "e15",
@@ -5571,7 +6499,12 @@
       "telefonom"
      ],
      "explain_en": "The means of communication is in the instrumental: telefonom.",
-     "explain_ru": "Средство связи — в творительном: telefonom («по телефону»)."
+     "explain_ru": "Средство связи — в творительном: telefonom («по телефону»).",
+     "ui": {
+      "en": {
+       "q": "'I talked to him on the phone.' → Razgovarao sam s njim ___ (telefon)."
+      }
+     }
     },
     {
      "id": "e16",
@@ -5593,7 +6526,29 @@
        "ведущий (специалист)",
        "vodeći"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "reading (who reads)",
+         "koji čita"
+        ],
+        [
+         "who has written",
+         "koji je napisao"
+        ],
+        [
+         "written",
+         "napisan"
+        ],
+        [
+         "leading (specialist)",
+         "vodeći"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -5622,7 +6577,12 @@
      ],
      "answer": 3,
      "explain_en": "Serbian uses kao + nominative, not the instrumental.",
-     "explain_ru": "В сербском kao + именительный, а не творительный, как в русском «работает учителем»."
+     "explain_ru": "В сербском kao + именительный, а не творительный, как в русском «работает учителем».",
+     "ui": {
+      "en": {
+       "q": "'He works as a teacher.'"
+      }
+     }
     },
     {
      "id": "e19",
@@ -5632,7 +6592,12 @@
       "pre"
      ],
      "explain_en": "Pre + accusative for 'ago': pre nedelju dana.",
-     "explain_ru": "«Назад» — pre + винительный: pre nedelju dana."
+     "explain_ru": "«Назад» — pre + винительный: pre nedelju dana.",
+     "ui": {
+      "en": {
+       "q": "'a week ago' → ___ nedelju dana"
+      }
+     }
     },
     {
      "id": "e20",
@@ -5646,7 +6611,12 @@
      ],
      "answer": 1,
      "explain_en": "For a woman: udati se za + accusative.",
-     "explain_ru": "О женщине: udati se za + винительный. Oženiti se — о мужчине; izaći za — калька."
+     "explain_ru": "О женщине: udati se za + винительный. Oženiti se — о мужчине; izaći za — калька.",
+     "ui": {
+      "en": {
+       "q": "'She married Marko.'"
+      }
+     }
     },
     {
      "id": "e21",
@@ -5654,7 +6624,12 @@
      "q": "In standard Serbian 'kod mene' (not 'u mene') means 'at my place'.",
      "answer": true,
      "explain_en": "True. U mene is regional; the standard uses kod.",
-     "explain_ru": "Верно. U mene — региональное; в норме kod mene."
+     "explain_ru": "Верно. U mene — региональное; в норме kod mene.",
+     "ui": {
+      "ru": {
+       "q": "В литературном сербском 'kod mene' (а не 'u mene') значит «у меня дома»."
+      }
+     }
     },
     {
      "id": "e22",
@@ -5664,7 +6639,12 @@
       "Marijom"
      ],
      "explain_en": "Oženiti se takes the instrumental: Marijom.",
-     "explain_ru": "Oženiti se требует творительного: Marijom (без предлога «на»)."
+     "explain_ru": "Oženiti se требует творительного: Marijom (без предлога «на»).",
+     "ui": {
+      "en": {
+       "q": "'He married Marija.' → Oženio se ___ (Marija)."
+      }
+     }
     },
     {
      "id": "e23",
@@ -5678,7 +6658,12 @@
      ],
      "answer": 2,
      "explain_en": "Serbian uses u for kuhinja.",
-     "explain_ru": "С kuhinja в сербском употребляется u: U kuhinji sam."
+     "explain_ru": "С kuhinja в сербском употребляется u: U kuhinji sam.",
+     "ui": {
+      "en": {
+       "q": "'I'm in the kitchen.'"
+      }
+     }
     },
     {
      "id": "e24",
@@ -5702,7 +6687,12 @@
       "u toku"
      ],
      "explain_en": "Tokom (or u toku) + genitive: tokom godine.",
-     "explain_ru": "Tokom (или u toku) + родительный: tokom godine."
+     "explain_ru": "Tokom (или u toku) + родительный: tokom godine.",
+     "ui": {
+      "en": {
+       "q": "'during the year' → ___ godine"
+      }
+     }
     },
     {
      "id": "e26",
@@ -5716,7 +6706,12 @@
      ],
      "answer": 3,
      "explain_en": "Studirati na fakultetu: na, and the verb studirati, not učiti.",
-     "explain_ru": "Studirati na fakultetu: предлог na и глагол studirati, а не učiti."
+     "explain_ru": "Studirati na fakultetu: предлог na и глагол studirati, а не učiti.",
+     "ui": {
+      "en": {
+       "q": "'He studies at university.'"
+      }
+     }
     },
     {
      "id": "e27",
@@ -5751,7 +6746,29 @@
        "обедать/пообедать",
        "ručati (dvovidski)"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "to see (impf./pf.)",
+         "videti (dvovidski)"
+        ],
+        [
+         "to marry (of a man)",
+         "ženiti se / oženiti se"
+        ],
+        [
+         "to call, to phone (impf./pf.)",
+         "zvati / pozvati"
+        ],
+        [
+         "to have lunch (impf./pf.)",
+         "ručati (dvovidski)"
+        ]
+       ]
+      }
+     }
     }
    ]
   }
