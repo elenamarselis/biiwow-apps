@@ -417,7 +417,12 @@
       "discussie"
      ],
      "explain_en": "Ter discussie stellen = call into question.",
-     "explain_ru": "Ter discussie stellen — «ставить под сомнение, выносить на обсуждение»."
+     "explain_ru": "Ter discussie stellen — «ставить под сомнение, выносить на обсуждение».",
+     "ui": {
+      "en": {
+       "q": "De oppositie stelt het beleid van de minister ter ___. (calls into question)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -488,7 +493,12 @@
      "q": "Instead of 'rekening houden met' you can also say 'de rekening houden met'.",
      "answer": false,
      "explain_en": "The noun in a fixed combination has no article: rekening houden met.",
-     "explain_ru": "Существительное в устойчивом сочетании стоит без артикля: rekening houden met. «De rekening» — это «счёт» в ресторане."
+     "explain_ru": "Существительное в устойчивом сочетании стоит без артикля: rekening houden met. «De rekening» — это «счёт» в ресторане.",
+     "ui": {
+      "ru": {
+       "q": "Вместо 'rekening houden met' можно сказать и 'de rekening houden met'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -496,7 +506,12 @@
      "q": "'Het akkoord kwam tot stand' means that the agreement was reached.",
      "answer": true,
      "explain_en": "Tot stand komen = come about, be reached.",
-     "explain_ru": "Tot stand komen — «состояться, быть достигнутым»: соглашение достигнуто."
+     "explain_ru": "Tot stand komen — «состояться, быть достигнутым»: соглашение достигнуто.",
+     "ui": {
+      "ru": {
+       "q": "'Het akkoord kwam tot stand' значит, что соглашение было достигнуто."
+      }
+     }
     },
     {
      "id": "e25",
@@ -504,7 +519,12 @@
      "q": "'Hij komt geen in aanmerking' is correct Dutch.",
      "answer": false,
      "explain_en": "Inside a prepositional group the negation is niet: Hij komt niet in aanmerking.",
-     "explain_ru": "Внутри предложной группы отрицание — niet: Hij komt niet in aanmerking."
+     "explain_ru": "Внутри предложной группы отрицание — niet: Hij komt niet in aanmerking.",
+     "ui": {
+      "ru": {
+       "q": "'Hij komt geen in aanmerking' — правильное нидерландское предложение."
+      }
+     }
     },
     {
      "id": "e26",
@@ -530,7 +550,33 @@
        "tot stand komen",
        "быть достигнутым"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "rekening houden met",
+         "to take into account"
+        ],
+        [
+         "in aanmerking komen voor",
+         "to be eligible for"
+        ],
+        [
+         "ter sprake brengen",
+         "to raise (a subject)"
+        ],
+        [
+         "in overweging nemen",
+         "to take into consideration"
+        ],
+        [
+         "tot stand komen",
+         "to be achieved, come about"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -814,7 +860,12 @@
      ],
      "answer": 1,
      "explain_en": "Maar in an imperative gives permission and encouragement.",
-     "explain_ru": "Maar в повелительном наклонении выражает разрешение и поощрение: «заходите, не стесняйтесь»."
+     "explain_ru": "Maar в повелительном наклонении выражает разрешение и поощрение: «заходите, не стесняйтесь».",
+     "ui": {
+      "en": {
+       "q": "Kom ___ binnen, de deur is open! (do come in, go ahead)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -842,7 +893,12 @@
      ],
      "answer": 2,
      "explain_en": "Toch reminds the listener of something they should know.",
-     "explain_ru": "Toch напоминает собеседнику о том, что он должен знать: «я же говорил»."
+     "explain_ru": "Toch напоминает собеседнику о том, что он должен знать: «я же говорил».",
+     "ui": {
+      "en": {
+       "q": "Dat heb ik je ___ al gezegd! (I told you already, didn't I!)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -870,7 +926,12 @@
      ],
      "answer": 1,
      "explain_en": "Zeg at the start of a sentence draws attention.",
-     "explain_ru": "Zeg в начале предложения привлекает внимание, как русское «слушай»."
+     "explain_ru": "Zeg в начале предложения привлекает внимание, как русское «слушай».",
+     "ui": {
+      "en": {
+       "q": "___, heb jij mijn sleutels ergens gezien? (say, listen)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -884,7 +945,12 @@
      ],
      "answer": 0,
      "explain_en": "Eens invites someone to look or try, like English 'have a look', 'give it a go'.",
-     "explain_ru": "Eens приглашает посмотреть или попробовать, как русское «-ка»."
+     "explain_ru": "Eens приглашает посмотреть или попробовать, как русское «-ка».",
+     "ui": {
+      "en": {
+       "q": "Kijk ___, wat een mooie vogel! (just look)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -912,7 +978,12 @@
      ],
      "answer": 2,
      "explain_en": "The fixed order is toch maar: 'after all, I'd better'.",
-     "explain_ru": "Порядок фиксирован: toch maar — «ладно, всё-таки». «Maar toch» внутри предложения так не стоит."
+     "explain_ru": "Порядок фиксирован: toch maar — «ладно, всё-таки». «Maar toch» внутри предложения так не стоит.",
+     "ui": {
+      "en": {
+       "q": "Ik wilde eigenlijk niet, maar ik ga ___ mee. (oh well, I'll come after all)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -926,7 +997,12 @@
      ],
      "answer": 1,
      "explain_en": "Nou eens expresses irritation and impatience.",
-     "explain_ru": "Nou eens выражает раздражение и нетерпение: «да веди же ты себя нормально»."
+     "explain_ru": "Nou eens выражает раздражение и нетерпение: «да веди же ты себя нормально».",
+     "ui": {
+      "en": {
+       "q": "Doe ___ eens normaal! (come on, behave yourself!)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -950,7 +1026,12 @@
       "maar"
      ],
      "explain_en": "Maar in an imperative = permission, 'go ahead'.",
-     "explain_ru": "Maar в повелительном наклонении — разрешение: «садитесь, пожалуйста»."
+     "explain_ru": "Maar в повелительном наклонении — разрешение: «садитесь, пожалуйста».",
+     "ui": {
+      "en": {
+       "q": "Ga ___ zitten, ik kom zo. (permission, encouragement)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -960,7 +1041,12 @@
       "even"
      ],
      "explain_en": "Even = just a moment.",
-     "explain_ru": "Even — «минутку, секундочку»."
+     "explain_ru": "Even — «минутку, секундочку».",
+     "ui": {
+      "en": {
+       "q": "Wacht ___, ik moet nog mijn jas pakken. (just a sec)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -970,7 +1056,12 @@
       "eens"
      ],
      "explain_en": "Eens invites the listener to try.",
-     "explain_ru": "Eens — «-ка»: приглашение попробовать."
+     "explain_ru": "Eens — «-ка»: приглашение попробовать.",
+     "ui": {
+      "en": {
+       "q": "Probeer het ___, misschien lukt het nu. (give it a try)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -980,7 +1071,12 @@
       "toch"
      ],
      "explain_en": "Toch in a question asks for confirmation.",
-     "explain_ru": "Toch в вопросе просит подтверждения: «ведь»."
+     "explain_ru": "Toch в вопросе просит подтверждения: «ведь».",
+     "ui": {
+      "en": {
+       "q": "Jij bent ___ ook uitgenodigd? (you're invited too, aren't you?)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -990,7 +1086,12 @@
       "zeg"
      ],
      "explain_en": "Zeg at the end of an exclamation adds emphasis.",
-     "explain_ru": "Zeg в конце восклицания усиливает его: «ну и дом!»."
+     "explain_ru": "Zeg в конце восклицания усиливает его: «ну и дом!».",
+     "ui": {
+      "en": {
+       "q": "Wat een prachtig huis, ___! (what a house!)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -1000,7 +1101,12 @@
       "hoor"
      ],
      "explain_en": "Hoor makes the thanks warmer.",
-     "explain_ru": "Hoor делает благодарность теплее."
+     "explain_ru": "Hoor делает благодарность теплее.",
+     "ui": {
+      "en": {
+       "q": "Dank je wel, ___! (friendly emphasis at the end of the sentence)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -1010,7 +1116,12 @@
       "wel"
      ],
      "explain_en": "Wel concedes a point before maar.",
-     "explain_ru": "Wel признаёт факт перед maar: «дорого, конечно, но…»."
+     "explain_ru": "Wel признаёт факт перед maar: «дорого, конечно, но…».",
+     "ui": {
+      "en": {
+       "q": "Het is ___ duur, maar het is de prijs waard. (it is expensive, admittedly, but…)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -1020,7 +1131,12 @@
       "nou"
      ],
      "explain_en": "Kom nou! shows impatience.",
-     "explain_ru": "Kom nou! — нетерпение: «ну давай же!»."
+     "explain_ru": "Kom nou! — нетерпение: «ну давай же!».",
+     "ui": {
+      "en": {
+       "q": "Kom ___! We komen te laat. (come on! – impatience)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -1083,7 +1199,12 @@
      "q": "Modal particles like toch and maar are normally stressed.",
      "answer": false,
      "explain_en": "Modal particles are unstressed; stressed TOCH or WEL has a different meaning.",
-     "explain_ru": "Модальные частицы безударны; ударные TOCH или WEL имеют другое значение."
+     "explain_ru": "Модальные частицы безударны; ударные TOCH или WEL имеют другое значение.",
+     "ui": {
+      "ru": {
+       "q": "Модальные частицы вроде toch и maar обычно стоят под ударением."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1091,7 +1212,15 @@
      "q": "In 'Het is goed, hoor.' the word hoor is a form of the verb horen ('слышать').",
      "answer": false,
      "explain_en": "Here hoor is a particle that reassures; it is not a verb.",
-     "explain_ru": "Здесь hoor — частица, которая успокаивает; это не глагол."
+     "explain_ru": "Здесь hoor — частица, которая успокаивает; это не глагол.",
+     "ui": {
+      "en": {
+       "q": "In 'Het is goed, hoor.' the word hoor is a form of the verb horen ('to hear')."
+      },
+      "ru": {
+       "q": "В 'Het is goed, hoor.' слово hoor — форма глагола horen («слышать»)."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1099,7 +1228,12 @@
      "q": "'Kun je even komen?' sounds lighter and more casual than 'Kun je komen?'",
      "answer": true,
      "explain_en": "Even makes the request sound small and friendly.",
-     "explain_ru": "Even делает просьбу «маленькой» и дружелюбной."
+     "explain_ru": "Even делает просьбу «маленькой» и дружелюбной.",
+     "ui": {
+      "ru": {
+       "q": "'Kun je even komen?' звучит легче и непринуждённее, чем 'Kun je komen?'"
+      }
+     }
     },
     {
      "id": "e26",
@@ -1125,7 +1259,33 @@
        "nou",
        "ну"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "toch",
+         "after all, surely"
+        ],
+        [
+         "eens",
+         "just (have a go)"
+        ],
+        [
+         "even",
+         "for a moment"
+        ],
+        [
+         "zeg",
+         "say, listen"
+        ],
+        [
+         "nou",
+         "well, come on"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1151,7 +1311,33 @@
        "Kom nou!",
        "нетерпение"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Kom maar binnen.",
+         "permission"
+        ],
+        [
+         "Je komt toch ook?",
+         "expecting agreement"
+        ],
+        [
+         "Wacht even.",
+         "softening a request"
+        ],
+        [
+         "Het is niet erg, hoor.",
+         "reassurance"
+        ],
+        [
+         "Kom nou!",
+         "impatience"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1177,7 +1363,33 @@
        "Садитесь, пожалуйста.",
        "Ga maar zitten."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Have a look!",
+         "Kijk eens!"
+        ],
+        [
+         "Wait a second.",
+         "Wacht even."
+        ],
+        [
+         "You know that, don't you.",
+         "Je weet het toch."
+        ],
+        [
+         "It'll be fine.",
+         "Het komt wel goed."
+        ],
+        [
+         "Do sit down.",
+         "Ga maar zitten."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1423,7 +1635,12 @@
      ],
      "answer": 3,
      "explain_en": "Article – extension – participle – noun. The participle stands right before the noun.",
-     "explain_ru": "Артикль – распространение – причастие – существительное. Причастие стоит прямо перед существительным."
+     "explain_ru": "Артикль – распространение – причастие – существительное. Причастие стоит прямо перед существительным.",
+     "ui": {
+      "ru": {
+       "q": "Какое словосочетание правильное?"
+      }
+     }
     },
     {
      "id": "e05",
@@ -1660,7 +1877,12 @@
      "q": "As in Russian, Dutch can put the participle phrase after the noun: 'de maatregel voorgestelde door de minister'.",
      "answer": false,
      "explain_en": "Dutch puts the extended phrase before the noun or uses a relative clause.",
-     "explain_ru": "В нидерландском оборот стоит только перед существительным; иначе нужно придаточное: de maatregel die door de minister is voorgesteld."
+     "explain_ru": "В нидерландском оборот стоит только перед существительным; иначе нужно придаточное: de maatregel die door de minister is voorgesteld.",
+     "ui": {
+      "ru": {
+       "q": "Как и в русском, в нидерландском причастный оборот можно поставить после существительного: 'de maatregel voorgestelde door de minister'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1668,7 +1890,12 @@
      "q": "'De te verwachten kosten' means 'the costs that are to be expected'.",
      "answer": true,
      "explain_en": "Te + infinitive before a noun = something that is to be done or expected.",
-     "explain_ru": "Te + инфинитив перед существительным — то, что предстоит или следует ожидать: «ожидаемые расходы»."
+     "explain_ru": "Te + инфинитив перед существительным — то, что предстоит или следует ожидать: «ожидаемые расходы».",
+     "ui": {
+      "ru": {
+       "q": "'De te verwachten kosten' значит «расходы, которых следует ожидать»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1676,7 +1903,12 @@
      "q": "Extended adjective phrases are typical of informal spoken Dutch.",
      "answer": false,
      "explain_en": "They are typical of formal written Dutch; in speech relative clauses are used.",
-     "explain_ru": "Они типичны для официального письменного языка; в разговоре используют придаточные."
+     "explain_ru": "Они типичны для официального письменного языка; в разговоре используют придаточные.",
+     "ui": {
+      "ru": {
+       "q": "Распространённые определения типичны для неформальной устной речи."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1724,7 +1956,33 @@
        "de door velen bewonderde schrijver",
        "почитаемый многими писатель"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "een voor iedereen begrijpelijke uitleg",
+         "an explanation everyone can understand"
+        ],
+        [
+         "de in 2010 verschenen roman",
+         "the novel published in 2010"
+        ],
+        [
+         "een niet te onderschatten risico",
+         "a risk not to be underestimated"
+        ],
+        [
+         "de op te lossen problemen",
+         "the problems to be solved"
+        ],
+        [
+         "de door velen bewonderde schrijver",
+         "the writer admired by many"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2094,7 +2352,12 @@
      ],
      "answer": 3,
      "explain_en": "The fixed form is ten aanzien van.",
-     "explain_ru": "Устойчивая форма — ten aanzien van; ten/ter и второй предлог менять нельзя."
+     "explain_ru": "Устойчивая форма — ten aanzien van; ten/ter и второй предлог менять нельзя.",
+     "ui": {
+      "ru": {
+       "q": "Какое сочетание правильное?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -2124,7 +2387,12 @@
       "behoeve"
      ],
      "explain_en": "Ten behoeve van = for the benefit of.",
-     "explain_ru": "Ten behoeve van — «в интересах, для»."
+     "explain_ru": "Ten behoeve van — «в интересах, для».",
+     "ui": {
+      "en": {
+       "q": "De subsidie is bedoeld ten ___ van kinderen uit arme gezinnen. (for the benefit of)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -2134,7 +2402,12 @@
       "opzichte"
      ],
      "explain_en": "Ten opzichte van = compared with.",
-     "explain_ru": "Ten opzichte van — «по сравнению с»."
+     "explain_ru": "Ten opzichte van — «по сравнению с».",
+     "ui": {
+      "en": {
+       "q": "De prijzen zijn gestegen ten ___ van vorig jaar. (compared with)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -2144,7 +2417,12 @@
       "middel"
      ],
      "explain_en": "Door middel van = by means of.",
-     "explain_ru": "Door middel van — «посредством»."
+     "explain_ru": "Door middel van — «посредством».",
+     "ui": {
+      "en": {
+       "q": "De gegevens worden verzameld door ___ van een enquête. (by means of)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -2154,7 +2432,12 @@
       "kader"
      ],
      "explain_en": "In het kader van = within the framework of.",
-     "explain_ru": "In het kader van — «в рамках»."
+     "explain_ru": "In het kader van — «в рамках».",
+     "ui": {
+      "en": {
+       "q": "De maatregel wordt genomen in het ___ van het nieuwe klimaatbeleid. (as part of, within the framework of)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -2164,7 +2447,12 @@
       "ondanks"
      ],
      "explain_en": "Ondanks + noun phrase = despite.",
-     "explain_ru": "Ondanks + именная группа — «несмотря на»."
+     "explain_ru": "Ondanks + именная группа — «несмотря на».",
+     "ui": {
+      "en": {
+       "q": "Hij werkte door, ___ zijn ziekte. (despite)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -2174,7 +2462,12 @@
       "koste"
      ],
      "explain_en": "Ten koste van = at the expense of.",
-     "explain_ru": "Ten koste van — «за счёт, в ущерб»."
+     "explain_ru": "Ten koste van — «за счёт, в ущерб».",
+     "ui": {
+      "en": {
+       "q": "Hij werd rijk ten ___ van anderen. (at the expense of)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -2246,7 +2539,12 @@
      "q": "Dankzij is used for positive causes; for negative causes Dutch uses wegens, door or als gevolg van.",
      "answer": true,
      "explain_en": "Like English 'thanks to' (positive) vs 'because of, due to' (neutral or negative).",
-     "explain_ru": "Как русские «благодаря» и «из-за»: dankzij — только о хорошем."
+     "explain_ru": "Как русские «благодаря» и «из-за»: dankzij — только о хорошем.",
+     "ui": {
+      "ru": {
+       "q": "Dankzij употребляется для положительных причин; для отрицательных в нидерландском используют wegens, door или als gevolg van."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2254,7 +2552,12 @@
      "q": "Krachtens is common in everyday conversation.",
      "answer": false,
      "explain_en": "Krachtens belongs to legal and official language.",
-     "explain_ru": "Krachtens относится к языку законов и официальных документов, в разговоре его не используют."
+     "explain_ru": "Krachtens относится к языку законов и официальных документов, в разговоре его не используют.",
+     "ui": {
+      "ru": {
+       "q": "Krachtens часто употребляется в повседневном разговоре."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2262,7 +2565,12 @@
      "q": "Ondanks is followed by a noun phrase; before a whole clause you use hoewel or ondanks het feit dat.",
      "answer": true,
      "explain_en": "Ondanks is a preposition, hoewel a conjunction.",
-     "explain_ru": "Ondanks — предлог, hoewel — союз. Перед предложением нужно hoewel или ondanks het feit dat."
+     "explain_ru": "Ondanks — предлог, hoewel — союз. Перед предложением нужно hoewel или ondanks het feit dat.",
+     "ui": {
+      "ru": {
+       "q": "После ondanks идёт именная группа; перед целым придаточным используют hoewel или ondanks het feit dat."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2314,7 +2622,33 @@
        "krachtens",
        "в силу (закона)"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "op grond van",
+         "on the basis of"
+        ],
+        [
+         "naar aanleiding van",
+         "in response to"
+        ],
+        [
+         "ongeacht",
+         "regardless of"
+        ],
+        [
+         "namens",
+         "on behalf of"
+        ],
+        [
+         "krachtens",
+         "by virtue of (a law)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2340,7 +2674,33 @@
        "ter gelegenheid van",
        "по случаю"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ten koste van",
+         "at the expense of"
+        ],
+        [
+         "met het oog op",
+         "with a view to"
+        ],
+        [
+         "in het kader van",
+         "within the framework of"
+        ],
+        [
+         "ten opzichte van",
+         "compared with"
+        ],
+        [
+         "ter gelegenheid van",
+         "on the occasion of"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2577,7 +2937,12 @@
      ],
      "answer": 2,
      "explain_en": "Laten + infinitive: someone else repairs it.",
-     "explain_ru": "Laten + инфинитив: ремонтирует кто-то другой."
+     "explain_ru": "Laten + инфинитив: ремонтирует кто-то другой.",
+     "ui": {
+      "en": {
+       "q": "Ik ___ mijn auto volgende week repareren. (I'm having it repaired)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -2591,7 +2956,12 @@
      ],
      "answer": 3,
      "explain_en": "Zich laten + infinitive = can be (explained).",
-     "explain_ru": "Zich laten + инфинитив — «поддаётся (объяснению)»."
+     "explain_ru": "Zich laten + инфинитив — «поддаётся (объяснению)».",
+     "ui": {
+      "en": {
+       "q": "Dat ___ zich makkelijk verklaren. (is easily explained)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -2619,7 +2989,12 @@
      ],
      "answer": 1,
      "explain_en": "The fixed phrase is dat valt nog te bezien.",
-     "explain_ru": "Устойчивое выражение — dat valt nog te bezien («это ещё вопрос»)."
+     "explain_ru": "Устойчивое выражение — dat valt nog te bezien («это ещё вопрос»).",
+     "ui": {
+      "en": {
+       "q": "Of dat plan werkt, valt nog te ___. (that remains to be seen)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -2633,7 +3008,12 @@
      ],
      "answer": 2,
      "explain_en": "Te wensen overlaten: the separable part over goes to the end.",
-     "explain_ru": "Te wensen overlaten: отделяемая часть over уходит в конец."
+     "explain_ru": "Te wensen overlaten: отделяемая часть over уходит в конец.",
+     "ui": {
+      "en": {
+       "q": "Zijn werk laat te wensen ___. (leaves much to be desired)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -2661,7 +3041,12 @@
      ],
      "answer": 1,
      "explain_en": "In the perfect laten stays an infinitive: heb … laten knippen.",
-     "explain_ru": "В перфекте laten остаётся инфинитивом: heb … laten knippen."
+     "explain_ru": "В перфекте laten остаётся инфинитивом: heb … laten knippen.",
+     "ui": {
+      "en": {
+       "q": "Ik heb mijn haar ___. (I had my hair cut)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -2685,7 +3070,12 @@
       "aan"
      ],
      "explain_en": "Er is niets aan te doen = nothing can be done about it.",
-     "explain_ru": "Er is niets aan te doen — «ничего не поделаешь»."
+     "explain_ru": "Er is niets aan te doen — «ничего не поделаешь».",
+     "ui": {
+      "en": {
+       "q": "Er is niets ___ te doen. (nothing can be done about it)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -2695,7 +3085,12 @@
       "ontkennen"
      ],
      "explain_en": "Het valt niet te ontkennen = it cannot be denied.",
-     "explain_ru": "Het valt niet te ontkennen — «нельзя отрицать»."
+     "explain_ru": "Het valt niet te ontkennen — «нельзя отрицать».",
+     "ui": {
+      "en": {
+       "q": "Het valt niet te ___ dat de situatie ernstig is. (deny)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -2705,7 +3100,12 @@
       "zaak"
      ],
      "explain_en": "Het is zaak om … = it is essential to …",
-     "explain_ru": "Het is zaak om … — «необходимо, крайне важно»."
+     "explain_ru": "Het is zaak om … — «необходимо, крайне важно».",
+     "ui": {
+      "en": {
+       "q": "Het is ___ om snel te handelen. (it is essential; formal)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -2715,7 +3115,12 @@
       "verdient"
      ],
      "explain_en": "Het verdient aanbeveling = it is recommended.",
-     "explain_ru": "Het verdient aanbeveling — «рекомендуется»."
+     "explain_ru": "Het verdient aanbeveling — «рекомендуется».",
+     "ui": {
+      "en": {
+       "q": "Het ___ aanbeveling om vooraf te reserveren. (it is recommended)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -2735,7 +3140,12 @@
       "raden"
      ],
      "explain_en": "Het laat zich raden = it is easy to guess.",
-     "explain_ru": "Het laat zich raden — «нетрудно догадаться»."
+     "explain_ru": "Het laat zich raden — «нетрудно догадаться».",
+     "ui": {
+      "en": {
+       "q": "Het resultaat laat zich ___. (is easy to guess)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -2745,7 +3155,12 @@
       "hand"
      ],
      "explain_en": "Het ligt voor de hand = it is obvious.",
-     "explain_ru": "Het ligt voor de hand — «очевидно, напрашивается»."
+     "explain_ru": "Het ligt voor de hand — «очевидно, напрашивается».",
+     "ui": {
+      "en": {
+       "q": "Het ligt voor de ___ dat hij boos is. (it is obvious)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -2755,7 +3170,12 @@
       "roken"
      ],
      "explain_en": "Signs use a bare infinitive: Niet roken.",
-     "explain_ru": "В надписях используют голый инфинитив: Niet roken — как русское «Не курить»."
+     "explain_ru": "В надписях используют голый инфинитив: Niet roken — как русское «Не курить».",
+     "ui": {
+      "en": {
+       "q": "Niet ___! (sign: 'No smoking!')"
+      }
+     }
     },
     {
      "id": "e19",
@@ -2821,7 +3241,12 @@
      "q": "'Ik heb mijn auto laten repareren' means that I repaired the car myself.",
      "answer": false,
      "explain_en": "Laten means that someone else did the repair.",
-     "explain_ru": "Laten означает, что ремонтировал кто-то другой."
+     "explain_ru": "Laten означает, что ремонтировал кто-то другой.",
+     "ui": {
+      "ru": {
+       "q": "'Ik heb mijn auto laten repareren' значит, что я починил машину сам."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2829,7 +3254,15 @@
      "q": "'Er is niets aan te doen' corresponds to Russian 'ничего не поделаешь'.",
      "answer": true,
      "explain_en": "Yes: nothing can be done about it.",
-     "explain_ru": "Да: «ничего не поделаешь»."
+     "explain_ru": "Да: «ничего не поделаешь».",
+     "ui": {
+      "en": {
+       "q": "'Er is niets aan te doen' corresponds to English 'nothing can be done about it'."
+      },
+      "ru": {
+       "q": "'Er is niets aan te doen' соответствует русскому «ничего не поделаешь»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2837,7 +3270,12 @@
      "q": "In 'Dat laat zich verklaren' you can leave out zich without changing the meaning.",
      "answer": false,
      "explain_en": "Without zich the sentence is incomplete; zich gives the passive meaning.",
-     "explain_ru": "Без zich предложение неполное: именно zich даёт пассивное значение «поддаётся объяснению»."
+     "explain_ru": "Без zich предложение неполное: именно zich даёт пассивное значение «поддаётся объяснению».",
+     "ui": {
+      "ru": {
+       "q": "В 'Dat laat zich verklaren' можно опустить zich без изменения смысла."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2863,7 +3301,33 @@
        "Het ligt voor de hand dat …",
        "Очевидно, что…"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Het is te hopen dat …",
+         "It is to be hoped that…"
+        ],
+        [
+         "Het valt te verwachten dat …",
+         "It is to be expected that…"
+        ],
+        [
+         "Het spreekt vanzelf dat …",
+         "It goes without saying that…"
+        ],
+        [
+         "Het staat vast dat …",
+         "It is certain that…"
+        ],
+        [
+         "Het ligt voor de hand dat …",
+         "It is obvious that…"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2889,7 +3353,33 @@
        "Te koop.",
        "Продаётся."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Er is niets aan te doen.",
+         "Nothing can be done about it."
+        ],
+        [
+         "Dat valt nog te bezien.",
+         "That remains to be seen."
+        ],
+        [
+         "Het laat te wensen over.",
+         "It leaves much to be desired."
+        ],
+        [
+         "Niet te geloven!",
+         "Unbelievable!"
+        ],
+        [
+         "Te koop.",
+         "For sale."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3170,7 +3660,12 @@
      ],
      "answer": 2,
      "explain_en": "-heid makes abstract nouns from adjectives.",
-     "explain_ru": "-heid образует абстрактные существительные от прилагательных, как русское -ость."
+     "explain_ru": "-heid образует абстрактные существительные от прилагательных, как русское -ость.",
+     "ui": {
+      "en": {
+       "q": "vrij → de ___ (freedom)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -3254,7 +3749,12 @@
      ],
      "answer": 3,
      "explain_en": "Kinderachtig = childish (negative); kinderlijk = childlike.",
-     "explain_ru": "Kinderachtig — «ребяческий» (неодобрительно); kinderlijk — «детский, наивный»."
+     "explain_ru": "Kinderachtig — «ребяческий» (неодобрительно); kinderlijk — «детский, наивный».",
+     "ui": {
+      "en": {
+       "q": "Hij is dertig, maar gedraagt zich als een kleuter. Zijn gedrag is ___. (negative)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3268,7 +3768,12 @@
      ],
      "answer": 0,
      "explain_en": "Lang → de lengte, with a vowel change.",
-     "explain_ru": "Lang → de lengte, с изменением гласной."
+     "explain_ru": "Lang → de lengte, с изменением гласной.",
+     "ui": {
+      "en": {
+       "q": "lang → de ___ (length)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -3278,7 +3783,12 @@
       "gezondheid"
      ],
      "explain_en": "Adjective + -heid.",
-     "explain_ru": "Прилагательное + -heid."
+     "explain_ru": "Прилагательное + -heid.",
+     "ui": {
+      "en": {
+       "q": "gezond → de ___ (health)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -3288,7 +3798,12 @@
       "zichtbaar"
      ],
      "explain_en": "Zicht + -baar = visible.",
-     "explain_ru": "Zicht + -baar — «видимый»."
+     "explain_ru": "Zicht + -baar — «видимый».",
+     "ui": {
+      "en": {
+       "q": "Iets wat je kunt zien, is ___. (visible)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -3308,7 +3823,12 @@
       "veiligheidsgordel"
      ],
      "explain_en": "After -heid: linking -s-.",
-     "explain_ru": "После -heid ставится соединительное -s-."
+     "explain_ru": "После -heid ставится соединительное -s-.",
+     "ui": {
+      "en": {
+       "q": "de veiligheid + de gordel → de ___ (seat belt)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -3318,7 +3838,12 @@
       "pannenkoek"
      ],
      "explain_en": "Pan has the plural pannen, so -en-.",
-     "explain_ru": "У pan множественное число pannen, поэтому -en-."
+     "explain_ru": "У pan множественное число pannen, поэтому -en-.",
+     "ui": {
+      "en": {
+       "q": "de pan + de koek → de ___ (pancake)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -3328,7 +3853,12 @@
       "onbetaalbaar"
      ],
      "explain_en": "On- + betaal + -baar = unaffordable.",
-     "explain_ru": "On- + betaal + -baar — «непомерно дорогой»."
+     "explain_ru": "On- + betaal + -baar — «непомерно дорогой».",
+     "ui": {
+      "en": {
+       "q": "Dit huis kan bijna niemand betalen; het is ___. (unaffordable)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -3411,7 +3941,12 @@
      "q": "In a Dutch compound the first part decides the gender: de school + het gebouw = de schoolgebouw.",
      "answer": false,
      "explain_en": "The last part decides: het schoolgebouw.",
-     "explain_ru": "Решает последняя часть: het schoolgebouw."
+     "explain_ru": "Решает последняя часть: het schoolgebouw.",
+     "ui": {
+      "ru": {
+       "q": "В нидерландском сложном слове род определяет первая часть: de school + het gebouw = de schoolgebouw."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3419,7 +3954,12 @@
      "q": "Nouns in -heid are always de-words.",
      "answer": true,
      "explain_en": "Yes: de vrijheid, de gezondheid.",
-     "explain_ru": "Да: de vrijheid, de gezondheid."
+     "explain_ru": "Да: de vrijheid, de gezondheid.",
+     "ui": {
+      "ru": {
+       "q": "Существительные на -heid — всегда de-слова."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3427,7 +3967,12 @@
      "q": "All nouns in -schap are het-words.",
      "answer": false,
      "explain_en": "Most are de-words (de vriendschap); only some are het-words (het landschap).",
-     "explain_ru": "Большинство — de-слова (de vriendschap); лишь некоторые — het-слова (het landschap)."
+     "explain_ru": "Большинство — de-слова (de vriendschap); лишь некоторые — het-слова (het landschap).",
+     "ui": {
+      "ru": {
+       "q": "Все существительные на -schap — het-слова."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3479,7 +4024,33 @@
        "-erij",
        "место или занятие"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "-baar",
+         "can be done (-able)"
+        ],
+        [
+         "-loos",
+         "without (-less)"
+        ],
+        [
+         "-vol",
+         "full of (-ful)"
+        ],
+        [
+         "-achtig",
+         "like, -ish"
+        ],
+        [
+         "-erij",
+         "place or activity"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3505,7 +4076,33 @@
        "het lidmaatschap",
        "членство"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "de arbeidsmarkt",
+         "labour market"
+        ],
+        [
+         "de boekenkast",
+         "bookcase"
+        ],
+        [
+         "het verkeersbord",
+         "road sign"
+        ],
+        [
+         "de zonnebloem",
+         "sunflower"
+        ],
+        [
+         "het lidmaatschap",
+         "membership"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3718,7 +4315,12 @@
      ],
      "answer": 2,
      "explain_en": "The subjunctive of zijn is zij: Het zij zo.",
-     "explain_ru": "Сослагательная форма от zijn — zij: Het zij zo."
+     "explain_ru": "Сослагательная форма от zijn — zij: Het zij zo.",
+     "ui": {
+      "en": {
+       "q": "Het ___ zo. (so be it)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -3732,7 +4334,12 @@
      ],
      "answer": 3,
      "explain_en": "Men + subjunctive: men neme.",
-     "explain_ru": "Men + сослагательное: men neme («возьмите»)."
+     "explain_ru": "Men + сослагательное: men neme («возьмите»).",
+     "ui": {
+      "en": {
+       "q": "Men ___ 200 gram bloem en twee eieren. (old-fashioned recipe, subjunctive)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -3746,7 +4353,12 @@
      ],
      "answer": 0,
      "explain_en": "Zij het = albeit.",
-     "explain_ru": "Zij het — «хотя и»."
+     "explain_ru": "Zij het — «хотя и».",
+     "ui": {
+      "en": {
+       "q": "Het was een verbetering, ___ het een kleine. (albeit)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -3760,7 +4372,17 @@
      ],
      "answer": 2,
      "explain_en": "Als het ware = as it were, so to speak.",
-     "explain_ru": "Als het ware — «как бы, так сказать»."
+     "explain_ru": "Als het ware — «как бы, так сказать».",
+     "ui": {
+      "en": {
+       "options": [
+        "as if it were true",
+        "if it were true",
+        "so to speak",
+        "as always"
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -3816,7 +4438,12 @@
      ],
      "answer": 0,
      "explain_en": "Subjunctive of hebben: hebbe.",
-     "explain_ru": "Сослагательная форма от hebben — hebbe."
+     "explain_ru": "Сослагательная форма от hebben — hebbe.",
+     "ui": {
+      "en": {
+       "q": "God ___ zijn ziel. (God rest his soul)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3840,7 +4467,12 @@
       "leve"
      ],
      "explain_en": "Lang leve … = long live …",
-     "explain_ru": "Lang leve … — «да здравствует…»."
+     "explain_ru": "Lang leve … — «да здравствует…».",
+     "ui": {
+      "en": {
+       "q": "Lang ___ de koningin! (long live)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -3850,7 +4482,12 @@
       "zij"
      ],
      "explain_en": "God zij dank = thank God.",
-     "explain_ru": "God zij dank — «слава Богу»."
+     "explain_ru": "God zij dank — «слава Богу».",
+     "ui": {
+      "en": {
+       "q": "God ___ dank! (thank God)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -3860,7 +4497,12 @@
       "ga"
      ],
      "explain_en": "Subjunctive of gaan: ga.",
-     "explain_ru": "Сослагательная форма от gaan — ga."
+     "explain_ru": "Сослагательная форма от gaan — ga.",
+     "ui": {
+      "en": {
+       "q": "Het ___ je goed! (all the best – a farewell; gaan)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -3870,7 +4512,12 @@
       "kome"
      ],
      "explain_en": "Stem + -e: kome.",
-     "explain_ru": "Основа + -e: kome."
+     "explain_ru": "Основа + -e: kome.",
+     "ui": {
+      "en": {
+       "q": "Uw koninkrijk ___. (Thy kingdom come; komen)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -3880,7 +4527,12 @@
       "lette"
      ],
      "explain_en": "Men + subjunctive: lette.",
-     "explain_ru": "Men + сослагательное: lette."
+     "explain_ru": "Men + сослагательное: lette.",
+     "ui": {
+      "en": {
+       "q": "Men ___ op de volgende punten. (letten; 'note the following')"
+      }
+     }
     },
     {
      "id": "e16",
@@ -3890,7 +4542,12 @@
       "het"
      ],
      "explain_en": "Zij het = albeit.",
-     "explain_ru": "Zij het — «хотя и»."
+     "explain_ru": "Zij het — «хотя и».",
+     "ui": {
+      "en": {
+       "q": "Ze kwam, zij ___ wat te laat. (albeit)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -3900,7 +4557,12 @@
       "ware"
      ],
      "explain_en": "Ware het niet dat = if it had not been for.",
-     "explain_ru": "Ware het niet dat — «если бы не»."
+     "explain_ru": "Ware het niet dat — «если бы не».",
+     "ui": {
+      "en": {
+       "q": "Ik was gekomen, ___ het niet dat mijn trein uitviel. (were it not for)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -3910,7 +4572,12 @@
       "zij"
      ],
      "explain_en": "Dat zij verre = God forbid.",
-     "explain_ru": "Dat zij verre — «Боже упаси»."
+     "explain_ru": "Dat zij verre — «Боже упаси».",
+     "ui": {
+      "en": {
+       "q": "Oorlog? Dat ___ verre! (God forbid!)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -3973,7 +4640,12 @@
      "q": "Forms like leve and kome can be used freely in modern Dutch for any wish: 'Hij kome morgen.'",
      "answer": false,
      "explain_en": "They are frozen; modern Dutch says Ik hoop dat hij morgen komt.",
-     "explain_ru": "Эти формы застыли; сегодня говорят Ik hoop dat hij morgen komt."
+     "explain_ru": "Эти формы застыли; сегодня говорят Ik hoop dat hij morgen komt.",
+     "ui": {
+      "ru": {
+       "q": "Формы вроде leve и kome можно свободно использовать в современном нидерландском для любого пожелания: 'Hij kome morgen.'"
+      }
+     }
     },
     {
      "id": "e24",
@@ -3981,7 +4653,12 @@
      "q": "'Het zij zo' means 'so be it'.",
      "answer": true,
      "explain_en": "Yes: so be it.",
-     "explain_ru": "Да: «да будет так, так тому и быть»."
+     "explain_ru": "Да: «да будет так, так тому и быть».",
+     "ui": {
+      "ru": {
+       "q": "'Het zij zo' значит «да будет так»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3989,7 +4666,12 @@
      "q": "In 'koste wat het kost' both verbs are subjunctive forms.",
      "answer": false,
      "explain_en": "Only koste is a subjunctive; kost is an ordinary present.",
-     "explain_ru": "Сослагательное только koste; kost — обычное настоящее время."
+     "explain_ru": "Сослагательное только koste; kost — обычное настоящее время.",
+     "ui": {
+      "ru": {
+       "q": "В 'koste wat het kost' оба глагола стоят в сослагательном наклонении."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4015,7 +4697,33 @@
        "Uw wil geschiede.",
        "Да будет воля Твоя."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Leve de koning!",
+         "Long live the king!"
+        ],
+        [
+         "Het zij zo.",
+         "So be it."
+        ],
+        [
+         "God zij dank.",
+         "Thank God."
+        ],
+        [
+         "Dat zij verre!",
+         "God forbid!"
+        ],
+        [
+         "Uw wil geschiede.",
+         "Thy will be done."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4312,7 +5020,12 @@
      ],
      "answer": 1,
      "explain_en": "Immers gives a known reason.",
-     "explain_ru": "Immers приводит известную причину: «ведь»."
+     "explain_ru": "Immers приводит известную причину: «ведь».",
+     "ui": {
+      "en": {
+       "q": "Je hoeft je geen zorgen te maken; hij heeft ___ jaren ervaring. (after all, as you know)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -4340,7 +5053,12 @@
      ],
      "answer": 1,
      "explain_en": "Niettemin = nevertheless.",
-     "explain_ru": "Niettemin — «тем не менее»."
+     "explain_ru": "Niettemin — «тем не менее».",
+     "ui": {
+      "en": {
+       "q": "Het regende hard. ___ ging de wedstrijd door. (nevertheless)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -4354,7 +5072,12 @@
      ],
      "answer": 2,
      "explain_en": "Indien is the formal equivalent of als ('if').",
-     "explain_ru": "Indien — книжный вариант als («если»)."
+     "explain_ru": "Indien — книжный вариант als («если»).",
+     "ui": {
+      "en": {
+       "q": "___ u vragen heeft, kunt u contact met ons opnemen. (formal 'if')"
+      }
+     }
     },
     {
      "id": "e07",
@@ -4368,7 +5091,12 @@
      ],
      "answer": 0,
      "explain_en": "Respectievelijk matches the lists in order.",
-     "explain_ru": "Respectievelijk сопоставляет перечни по порядку — «соответственно»."
+     "explain_ru": "Respectievelijk сопоставляет перечни по порядку — «соответственно».",
+     "ui": {
+      "en": {
+       "q": "Piet en Klaas zijn ___ 20 en 25 jaar oud. (respectively)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -4396,7 +5124,12 @@
      ],
      "answer": 1,
      "explain_en": "Blijken uit: hieruit blijkt / is gebleken.",
-     "explain_ru": "Blijken uit: hieruit blijkt / is gebleken («из этого следует»)."
+     "explain_ru": "Blijken uit: hieruit blijkt / is gebleken («из этого следует»).",
+     "ui": {
+      "en": {
+       "q": "___ is gebleken dat de maatregel werkt. (from this)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -4420,7 +5153,12 @@
       "Hierbij"
      ],
      "explain_en": "Hierbij = herewith, a standard letter opening.",
-     "explain_ru": "Hierbij — «настоящим», стандартное начало официального письма."
+     "explain_ru": "Hierbij — «настоящим», стандартное начало официального письма.",
+     "ui": {
+      "en": {
+       "q": "___ stuur ik u de gevraagde documenten. (herewith; opening of a letter)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -4430,7 +5168,12 @@
       "althans"
      ],
      "explain_en": "Althans limits the statement: at least.",
-     "explain_ru": "Althans ограничивает сказанное: «по крайней мере»."
+     "explain_ru": "Althans ограничивает сказанное: «по крайней мере».",
+     "ui": {
+      "en": {
+       "q": "Ik kom morgen, ___ als het niet regent. (at least)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -4440,7 +5183,12 @@
       "Nu"
      ],
      "explain_en": "Nu as a conjunction = now that.",
-     "explain_ru": "Nu как союз — «теперь, когда»."
+     "explain_ru": "Nu как союз — «теперь, когда».",
+     "ui": {
+      "en": {
+       "q": "___ de crisis voorbij is, kunnen we weer investeren. (now that)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -4451,7 +5199,12 @@
       "Zodoende"
      ],
      "explain_en": "Dientengevolge = consequently; inversion follows.",
-     "explain_ru": "Dientengevolge — «вследствие этого»; после него инверсия."
+     "explain_ru": "Dientengevolge — «вследствие этого»; после него инверсия.",
+     "ui": {
+      "en": {
+       "q": "Hij was ziek. ___ kon hij niet komen. (consequently; very formal)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -4461,7 +5214,12 @@
       "dient"
      ],
      "explain_en": "Dienen te = formal moeten.",
-     "explain_ru": "Dienen te — официальный вариант moeten («следует»)."
+     "explain_ru": "Dienen te — официальный вариант moeten («следует»).",
+     "ui": {
+      "en": {
+       "q": "U ___ het formulier vóór 1 mei in te leveren. (formal 'moet')"
+      }
+     }
     },
     {
      "id": "e16",
@@ -4471,7 +5229,12 @@
       "trachten"
      ],
      "explain_en": "Trachten te = formal proberen te.",
-     "explain_ru": "Trachten te — официальный вариант proberen te («стараться»)."
+     "explain_ru": "Trachten te — официальный вариант proberen te («стараться»).",
+     "ui": {
+      "en": {
+       "q": "Wij ___ u zo spoedig mogelijk te antwoorden. (formal 'proberen')"
+      }
+     }
     },
     {
      "id": "e17",
@@ -4481,7 +5244,12 @@
       "volgende"
      ],
      "explain_en": "Het volgende = the following.",
-     "explain_ru": "Het volgende — «следующее»."
+     "explain_ru": "Het volgende — «следующее».",
+     "ui": {
+      "en": {
+       "q": "Wij willen u het ___ meedelen. (the following)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -4492,7 +5260,12 @@
       "daar"
      ],
      "explain_en": "Aangezien or daar = since; verb at the end.",
-     "explain_ru": "Aangezien или daar — «поскольку»; глагол в конце."
+     "explain_ru": "Aangezien или daar — «поскольку»; глагол в конце.",
+     "ui": {
+      "en": {
+       "q": "Hij was laat, ___ hij de trein had gemist. (since; formal)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -4558,7 +5331,12 @@
      "q": "In formal writing deze can refer to the last-mentioned person to avoid confusion.",
      "answer": true,
      "explain_en": "Yes: De minister sprak met de burgemeester. Deze …",
-     "explain_ru": "Да: De minister sprak met de burgemeester. Deze … — «тот», то есть бургомистр."
+     "explain_ru": "Да: De minister sprak met de burgemeester. Deze … — «тот», то есть бургомистр.",
+     "ui": {
+      "ru": {
+       "q": "В официальном письменном языке deze может указывать на последнее названное лицо, чтобы избежать путаницы."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4566,7 +5344,12 @@
      "q": "Immers introduces a new, surprising reason that the reader does not know yet.",
      "answer": false,
      "explain_en": "Immers presents a reason the reader already knows or accepts.",
-     "explain_ru": "Immers вводит причину, которую читатель уже знает или признаёт, как русское «ведь»."
+     "explain_ru": "Immers вводит причину, которую читатель уже знает или признаёт, как русское «ведь».",
+     "ui": {
+      "ru": {
+       "q": "Immers вводит новую, неожиданную причину, которую читатель ещё не знает."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4574,7 +5357,15 @@
      "q": "Indien is a formal synonym of als ('если').",
      "answer": true,
      "explain_en": "Yes, indien = als in formal texts.",
-     "explain_ru": "Да, indien = als в официальных текстах."
+     "explain_ru": "Да, indien = als в официальных текстах.",
+     "ui": {
+      "en": {
+       "q": "Indien is a formal synonym of als ('if')."
+      },
+      "ru": {
+       "q": "Indien — официальный синоним als («если»)."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4626,7 +5417,33 @@
        "niettemin",
        "тем не менее"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "immers",
+         "after all"
+        ],
+        [
+         "weliswaar … maar",
+         "admittedly…, but"
+        ],
+        [
+         "althans",
+         "at least"
+        ],
+        [
+         "overigens",
+         "by the way, incidentally"
+        ],
+        [
+         "niettemin",
+         "nevertheless"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4652,7 +5469,33 @@
        "het volgende",
        "следующее"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "laatstgenoemde",
+         "the latter"
+        ],
+        [
+         "eerstgenoemde",
+         "the former"
+        ],
+        [
+         "respectievelijk",
+         "respectively"
+        ],
+        [
+         "een en ander",
+         "all this"
+        ],
+        [
+         "het volgende",
+         "the following"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4855,7 +5698,12 @@
      ],
      "answer": 1,
      "explain_en": "Het bal = a dance; de bal = a ball you play with.",
-     "explain_ru": "Het bal — «бал»; de bal — «мяч»."
+     "explain_ru": "Het bal — «бал»; de bal — «мяч».",
+     "ui": {
+      "en": {
+       "q": "Ze dansten de hele nacht op ___ bal. (ball, dance party)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -4869,7 +5717,12 @@
      ],
      "answer": 1,
      "explain_en": "Het stof = dust; de stof = fabric or substance.",
-     "explain_ru": "Het stof — «пыль»; de stof — «ткань, вещество»."
+     "explain_ru": "Het stof — «пыль»; de stof — «ткань, вещество».",
+     "ui": {
+      "en": {
+       "q": "___ stof op de kast moet weg. (dust)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -4882,7 +5735,12 @@
      ],
      "answer": 0,
      "explain_en": "Het blik = tin, can; de blik = look.",
-     "explain_ru": "Het blik — «банка, жесть»; de blik — «взгляд»."
+     "explain_ru": "Het blik — «банка, жесть»; de blik — «взгляд».",
+     "ui": {
+      "en": {
+       "q": "Ze opende ___ blik met tomaten. (tin, can)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -4910,7 +5768,12 @@
      ],
      "answer": 2,
      "explain_en": "Regering is a singular, originally feminine de-word: haar. Hun is plural.",
-     "explain_ru": "Regering — de-слово в единственном числе, исторически женского рода: haar. Hun — множественное число."
+     "explain_ru": "Regering — de-слово в единственном числе, исторически женского рода: haar. Hun — множественное число.",
+     "ui": {
+      "en": {
+       "q": "De regering heeft ___ standpunt bekendgemaakt. (formal written style)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -4980,7 +5843,12 @@
      ],
      "answer": 0,
      "explain_en": "Leaves of a tree: bladeren; bladen are magazines or sheets.",
-     "explain_ru": "Листья дерева — bladeren; bladen — «журналы, листы»."
+     "explain_ru": "Листья дерева — bladeren; bladen — «журналы, листы».",
+     "ui": {
+      "en": {
+       "q": "In de herfst vallen de ___ van de bomen. (leaves)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -4990,7 +5858,12 @@
       "Het"
      ],
      "explain_en": "Languages are het-words.",
-     "explain_ru": "Названия языков — het-слова."
+     "explain_ru": "Названия языков — het-слова.",
+     "ui": {
+      "en": {
+       "q": "___ Nederlands is een Germaanse taal. (article)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -5000,7 +5873,12 @@
       "het"
      ],
      "explain_en": "Colours used as nouns are het-words.",
-     "explain_ru": "Цвета в роли существительных — het-слова."
+     "explain_ru": "Цвета в роли существительных — het-слова.",
+     "ui": {
+      "en": {
+       "q": "Ik vind ___ rood van die jurk mooi. (article)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -5011,7 +5889,12 @@
       "zij"
      ],
      "explain_en": "Natural gender: ze/zij.",
-     "explain_ru": "Естественный род: ze/zij."
+     "explain_ru": "Естественный род: ze/zij.",
+     "ui": {
+      "en": {
+       "q": "Het meisje zei dat ___ moe was. (pronoun)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -5021,7 +5904,12 @@
       "het"
      ],
      "explain_en": "Het voorstel is a het-word: het.",
-     "explain_ru": "Het voorstel — het-слово, поэтому het."
+     "explain_ru": "Het voorstel — het-слово, поэтому het.",
+     "ui": {
+      "en": {
+       "q": "Het voorstel is goed; ik steun ___ volledig. (pronoun)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -5031,7 +5919,12 @@
       "De"
      ],
      "explain_en": "De blik = look.",
-     "explain_ru": "De blik — «взгляд»."
+     "explain_ru": "De blik — «взгляд».",
+     "ui": {
+      "en": {
+       "q": "___ blik waarmee hij me aankeek, was vriendelijk. (look, glance)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -5041,7 +5934,12 @@
       "zijn"
      ],
      "explain_en": "Het bedrijf is a het-word: zijn.",
-     "explain_ru": "Het bedrijf — het-слово: zijn."
+     "explain_ru": "Het bedrijf — het-слово: zijn.",
+     "ui": {
+      "en": {
+       "q": "Dit bedrijf heeft ___ winst verdubbeld. (possessive pronoun)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -5051,7 +5949,12 @@
       "benen"
      ],
      "explain_en": "Legs: benen.",
-     "explain_ru": "Ноги — benen."
+     "explain_ru": "Ноги — benen.",
+     "ui": {
+      "en": {
+       "q": "Hij brak twee ___ bij het ongeluk. (legs; het been)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -5061,7 +5964,12 @@
       "beenderen"
      ],
      "explain_en": "Bones: beenderen.",
-     "explain_ru": "Кости — beenderen."
+     "explain_ru": "Кости — beenderen.",
+     "ui": {
+      "en": {
+       "q": "In de vitrine liggen oude ___ van dinosaurussen. (bones; het been)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -5128,7 +6036,12 @@
      "q": "'De stof' and 'het stof' mean the same thing.",
      "answer": false,
      "explain_en": "De stof = fabric, substance; het stof = dust.",
-     "explain_ru": "De stof — «ткань, вещество»; het stof — «пыль»."
+     "explain_ru": "De stof — «ткань, вещество»; het stof — «пыль».",
+     "ui": {
+      "ru": {
+       "q": "'De stof' и 'het stof' значат одно и то же."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5136,7 +6049,12 @@
      "q": "Both 'het idee' and 'de idee' are accepted in standard Dutch.",
      "answer": true,
      "explain_en": "Yes; het idee is more usual in the Netherlands.",
-     "explain_ru": "Да; в Нидерландах обычнее het idee."
+     "explain_ru": "Да; в Нидерландах обычнее het idee.",
+     "ui": {
+      "ru": {
+       "q": "В стандартном нидерландском допустимы и 'het idee', и 'de idee'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5144,7 +6062,12 @@
      "q": "Collective nouns like 'de politie' take a plural verb: 'De politie hebben …'",
      "answer": false,
      "explain_en": "They take a singular verb: de politie heeft.",
-     "explain_ru": "Глагол в единственном числе: de politie heeft — как и по-русски «полиция задержала»."
+     "explain_ru": "Глагол в единственном числе: de politie heeft — как и по-русски «полиция задержала».",
+     "ui": {
+      "ru": {
+       "q": "Собирательные существительные вроде 'de politie' употребляются с глаголом во множественном числе: 'De politie hebben …'"
+      }
+     }
     },
     {
      "id": "e26",
@@ -5174,7 +6097,37 @@
        "het blik",
        "консервная банка"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "de bal",
+         "ball (to play with)"
+        ],
+        [
+         "het bal",
+         "ball (dance)"
+        ],
+        [
+         "de stof",
+         "fabric, substance"
+        ],
+        [
+         "het stof",
+         "dust"
+        ],
+        [
+         "de blik",
+         "look, glance"
+        ],
+        [
+         "het blik",
+         "tin, can"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5490,7 +6443,12 @@
      ],
      "answer": 3,
      "explain_en": "The object stands before aan het.",
-     "explain_ru": "Дополнение стоит перед aan het."
+     "explain_ru": "Дополнение стоит перед aan het.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильно на стандартном нидерландском?"
+      }
+     }
     },
     {
      "id": "e05",
@@ -5504,7 +6462,12 @@
      ],
      "answer": 0,
      "explain_en": "Goesting = zin (desire).",
-     "explain_ru": "Goesting = zin («охота, желание»)."
+     "explain_ru": "Goesting = zin («охота, желание»).",
+     "ui": {
+      "en": {
+       "q": "Een Vlaming zegt: 'Ik heb geen ___ om te gaan.' (= zin, desire)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -5546,7 +6509,12 @@
      ],
      "answer": 0,
      "explain_en": "After the verb, hij is often reduced to ie.",
-     "explain_ru": "После глагола hij в речи часто превращается в ie."
+     "explain_ru": "После глагола hij в речи часто превращается в ie.",
+     "ui": {
+      "en": {
+       "q": "Komt ___ ook? (colloquial hij after the verb)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -5585,7 +6553,12 @@
       "Gij"
      ],
      "explain_en": "Ge or stressed gij goes with zijt.",
-     "explain_ru": "С zijt употребляется ge или ударное gij."
+     "explain_ru": "С zijt употребляется ge или ударное gij.",
+     "ui": {
+      "en": {
+       "q": "Vlaams: '___ zijt een schat!' (you're a treasure)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -5595,7 +6568,12 @@
       "m'n"
      ],
      "explain_en": "M'n is the reduced form of mijn.",
-     "explain_ru": "M'n — сокращённая форма mijn."
+     "explain_ru": "M'n — сокращённая форма mijn.",
+     "ui": {
+      "en": {
+       "q": "Spreektaal: 'Ik heb ___ fiets verloren.' (mijn, shortened)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -5606,7 +6584,12 @@
       "ff"
      ],
      "explain_en": "Effe (in chats ff) = even.",
-     "explain_ru": "Effe (в чатах ff) = even."
+     "explain_ru": "Effe (в чатах ff) = even.",
+     "ui": {
+      "en": {
+       "q": "Spreektaal: 'Wacht ___!' (even, colloquial)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -5616,7 +6599,12 @@
       "aan"
      ],
      "explain_en": "Aan het + infinitive: an ongoing process.",
-     "explain_ru": "Aan het + инфинитив — процесс, который идёт сейчас."
+     "explain_ru": "Aan het + инфинитив — процесс, который идёт сейчас.",
+     "ui": {
+      "en": {
+       "q": "Het is ___ het regenen. (it is raining – in progress)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -5626,7 +6614,12 @@
       "beenhouwer"
      ],
      "explain_en": "Beenhouwer is the Flemish word for slager.",
-     "explain_ru": "Beenhouwer — фламандское слово для slager."
+     "explain_ru": "Beenhouwer — фламандское слово для slager.",
+     "ui": {
+      "en": {
+       "q": "Vlaams: de ___ = de slager (butcher)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -5636,7 +6629,12 @@
       "gsm"
      ],
      "explain_en": "In Belgium a mobile phone is a gsm.",
-     "explain_ru": "В Бельгии мобильный телефон — gsm."
+     "explain_ru": "В Бельгии мобильный телефон — gsm.",
+     "ui": {
+      "en": {
+       "q": "Vlaams: 'Bel me op mijn ___.' (mobile phone)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -5724,7 +6722,12 @@
      "q": "In the Netherlands 'gij' is part of normal everyday speech.",
      "answer": false,
      "explain_en": "In the Netherlands gij is archaic; it lives on in Flemish speech.",
-     "explain_ru": "В Нидерландах gij устарело; оно живёт во фламандской разговорной речи."
+     "explain_ru": "В Нидерландах gij устарело; оно живёт во фламандской разговорной речи.",
+     "ui": {
+      "ru": {
+       "q": "В Нидерландах 'gij' — часть обычной повседневной речи."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5732,7 +6735,12 @@
      "q": "In Flanders 'alstublieft' can also answer 'dank u', meaning 'you're welcome'.",
      "answer": true,
      "explain_en": "Yes: Dank u. — Alstublieft.",
-     "explain_ru": "Да: Dank u. — Alstublieft («Не за что»)."
+     "explain_ru": "Да: Dank u. — Alstublieft («Не за что»).",
+     "ui": {
+      "ru": {
+       "q": "Во Фландрии 'alstublieft' может также быть ответом на 'dank u' в значении «пожалуйста, не за что»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5740,7 +6748,12 @@
      "q": "Forms like m'n, z'n and ie are suitable for formal letters.",
      "answer": false,
      "explain_en": "They belong to speech and informal writing.",
-     "explain_ru": "Эти формы относятся к устной речи и неофициальной переписке."
+     "explain_ru": "Эти формы относятся к устной речи и неофициальной переписке.",
+     "ui": {
+      "ru": {
+       "q": "Формы вроде m'n, z'n и ie подходят для официальных писем."
+      }
+     }
     },
     {
      "id": "e26",

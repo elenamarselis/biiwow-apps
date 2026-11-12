@@ -225,7 +225,12 @@
      ],
      "answer": 2,
      "explain_en": "Ser with vós → sois. São and estão belong to eles/vocês.",
-     "explain_ru": "Ser с vós → sois. São и estão — формы eles/vocês."
+     "explain_ru": "Ser с vós → sois. São и estão — формы eles/vocês.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении форма vós употреблена правильно?"
+      }
+     }
     },
     {
      "id": "e03",
@@ -295,7 +300,18 @@
      ],
      "answer": 3,
      "explain_en": "Algures = somewhere; alhures = elsewhere; nenhures = nowhere.",
-     "explain_ru": "Algures — «где-то», alhures — «в другом месте», nenhures — «нигде»."
+     "explain_ru": "Algures — «где-то», alhures — «в другом месте», nenhures — «нигде».",
+     "ui": {
+      "ru": {
+       "q": "Что означает «Vive algures no Alentejo»?",
+       "options": [
+        "Он нигде в Алентежу не живёт.",
+        "Раньше он жил в Алентежу.",
+        "Он живёт в другом месте, не в Алентежу.",
+        "Он живёт где-то в Алентежу."
+       ]
+      }
+     }
     },
     {
      "id": "e08",
@@ -484,7 +500,12 @@
      "q": "'Havia chegado' and 'tinha chegado' mean the same; havia is more literary.",
      "answer": true,
      "explain_en": "Haver as an auxiliary changes only the register, not the meaning.",
-     "explain_ru": "Haver как вспомогательный глагол меняет только стиль, а не смысл."
+     "explain_ru": "Haver как вспомогательный глагол меняет только стиль, а не смысл.",
+     "ui": {
+      "ru": {
+       "q": "«Havia chegado» и «tinha chegado» означают одно и то же; havia — более литературный вариант."
+      }
+     }
     },
     {
      "id": "e24",
@@ -492,7 +513,15 @@
      "q": "Vós is the normal polite form of address in modern Portugal, like Russian 'вы'.",
      "answer": false,
      "explain_en": "Vós survives in church language, literature and some dialects; polite address uses o senhor / a senhora.",
-     "explain_ru": "Vós сохранилось в церковном языке, литературе и некоторых говорах; вежливо обращаются через o senhor / a senhora."
+     "explain_ru": "Vós сохранилось в церковном языке, литературе и некоторых говорах; вежливо обращаются через o senhor / a senhora.",
+     "ui": {
+      "en": {
+       "q": "Vós is the normal polite form of address in modern Portugal, like the Russian polite 'vy'."
+      },
+      "ru": {
+       "q": "Vós — обычная вежливая форма обращения в современной Португалии, как русское «вы»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -500,7 +529,12 @@
      "q": "In 'Se eu soubera, não viera', the verbs can be read as modern 'se eu soubesse, não teria vindo'.",
      "answer": true,
      "explain_en": "Classical -ra forms replace the imperfeito do conjuntivo and the condicional.",
-     "explain_ru": "Классические формы на -ra заменяют imperfeito do conjuntivo и condicional."
+     "explain_ru": "Классические формы на -ra заменяют imperfeito do conjuntivo и condicional.",
+     "ui": {
+      "ru": {
+       "q": "Глаголы в «Se eu soubera, não viera» можно понимать как современное «se eu soubesse, não teria vindo»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -574,7 +608,29 @@
        "ver-nos-emos",
        "мы увидимся"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "dar-to-ei",
+         "I'll give it to you"
+        ],
+        [
+         "dir-lho-íamos",
+         "we would tell him that"
+        ],
+        [
+         "far-se-á",
+         "it will be done"
+        ],
+        [
+         "ver-nos-emos",
+         "we'll see each other"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -900,7 +956,12 @@
      ],
      "answer": 0,
      "explain_en": "The fixed formula uses the conjuntivo: diga-se de passagem.",
-     "explain_ru": "Устойчивая формула строится с conjuntivo: diga-se de passagem — «к слову сказать»."
+     "explain_ru": "Устойчивая формула строится с conjuntivo: diga-se de passagem — «к слову сказать».",
+     "ui": {
+      "ru": {
+       "q": "Какая формула означает «кстати, к слову» в формальной письменной речи?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -1066,7 +1127,12 @@
      "q": "'Custe o que custar' combines the presente do conjuntivo and the futuro do conjuntivo of the same verb.",
      "answer": true,
      "explain_en": "Custe = presente do conjuntivo, custar = futuro do conjuntivo.",
-     "explain_ru": "Custe — это presente do conjuntivo, а custar — futuro do conjuntivo того же глагола."
+     "explain_ru": "Custe — это presente do conjuntivo, а custar — futuro do conjuntivo того же глагола.",
+     "ui": {
+      "ru": {
+       "q": "В «Custe o que custar» сочетаются presente do conjuntivo и futuro do conjuntivo одного и того же глагола."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1074,7 +1140,12 @@
      "q": "'Que eu sei' is an acceptable variant of 'que eu saiba'.",
      "answer": false,
      "explain_en": "The formula requires the conjuntivo; with the indicative say tanto quanto sei or pelo que sei.",
-     "explain_ru": "Формула требует conjuntivo; с изъявительным наклонением говорят tanto quanto sei или pelo que sei."
+     "explain_ru": "Формула требует conjuntivo; с изъявительным наклонением говорят tanto quanto sei или pelo que sei.",
+     "ui": {
+      "ru": {
+       "q": "«Que eu sei» — допустимый вариант «que eu saiba»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1082,7 +1153,12 @@
      "q": "In a past narrative, 'aconteça o que acontecer' becomes 'acontecesse o que acontecesse'.",
      "answer": true,
      "explain_en": "The futuro do conjuntivo has no past form; both verbs move to the imperfeito do conjuntivo.",
-     "explain_ru": "У futuro do conjuntivo нет прошедшей формы, поэтому оба глагола переходят в imperfeito do conjuntivo."
+     "explain_ru": "У futuro do conjuntivo нет прошедшей формы, поэтому оба глагола переходят в imperfeito do conjuntivo.",
+     "ui": {
+      "ru": {
+       "q": "В повествовании о прошлом «aconteça o que acontecer» превращается в «acontecesse o que acontecesse»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1108,7 +1184,33 @@
        "Deus me livre!",
        "Боже упаси!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "custe o que custar",
+         "whatever it takes"
+        ],
+        [
+         "seja como for",
+         "be that as it may"
+        ],
+        [
+         "que eu saiba",
+         "as far as I know"
+        ],
+        [
+         "haja o que houver",
+         "come what may"
+        ],
+        [
+         "Deus me livre!",
+         "God forbid!"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1160,7 +1262,33 @@
        "Bem haja!",
        "Храни вас Бог, спасибо!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "diga-se de passagem",
+         "incidentally"
+        ],
+        [
+         "convenhamos",
+         "let's face it"
+        ],
+        [
+         "quanto mais não seja",
+         "if only for that reason"
+        ],
+        [
+         "Não seja por isso!",
+         "No problem!"
+        ],
+        [
+         "Bem haja!",
+         "Bless you, thank you!"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1420,7 +1548,12 @@
      ],
      "answer": 3,
      "explain_en": "Podia ter morrido = he could have died (but he didn't). Pode ter morrido would mean we don't know.",
-     "explain_ru": "Podia ter morrido — «он мог погибнуть (но не погиб)». Pode ter morrido означало бы, что мы не знаем."
+     "explain_ru": "Podia ter morrido — «он мог погибнуть (но не погиб)». Pode ter morrido означало бы, что мы не знаем.",
+     "ui": {
+      "ru": {
+       "q": "Водитель пережил аварию без единой царапины. Какой комментарий подходит?"
+      }
+     }
     },
     {
      "id": "e04",
@@ -1448,7 +1581,15 @@
      ],
      "answer": 0,
      "explain_en": "Alegadamente = allegedly. The other adverbs express certainty.",
-     "explain_ru": "Alegadamente — «якобы». Остальные наречия выражают уверенность."
+     "explain_ru": "Alegadamente — «якобы». Остальные наречия выражают уверенность.",
+     "ui": {
+      "en": {
+       "q": "Which word, like English 'allegedly', distances a journalist from an unproven claim?"
+      },
+      "ru": {
+       "q": "Какое слово, подобно русскому «якобы», позволяет журналисту дистанцироваться от недоказанного утверждения?"
+      }
+     }
     },
     {
      "id": "e06",
@@ -1667,7 +1808,12 @@
      "q": "'Ele deve estar em casa' can express probability, not only obligation.",
      "answer": true,
      "explain_en": "Dever + infinitive often means 'probably'.",
-     "explain_ru": "Dever + инфинитив часто означает «вероятно, должно быть»."
+     "explain_ru": "Dever + инфинитив часто означает «вероятно, должно быть».",
+     "ui": {
+      "ru": {
+       "q": "«Ele deve estar em casa» может выражать вероятность, а не только обязанность."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1675,7 +1821,12 @@
      "q": "Under the 1990 spelling agreement, 'hei-de' is written with a hyphen.",
      "answer": false,
      "explain_en": "Since 1990: hei de, hás de, há de — without a hyphen.",
-     "explain_ru": "С 1990 года: hei de, hás de, há de — без дефиса."
+     "explain_ru": "С 1990 года: hei de, hás de, há de — без дефиса.",
+     "ui": {
+      "ru": {
+       "q": "По орфографическому соглашению 1990 года «hei-de» пишется через дефис."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1683,7 +1834,12 @@
      "q": "'É capaz de chover' in Portugal means 'it might rain'.",
      "answer": true,
      "explain_en": "Colloquial ser capaz de expresses probability.",
-     "explain_ru": "Разговорное ser capaz de выражает вероятность."
+     "explain_ru": "Разговорное ser capaz de выражает вероятность.",
+     "ui": {
+      "ru": {
+       "q": "«É capaz de chover» в Португалии означает «может пойти дождь»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1709,7 +1865,33 @@
        "há de sair",
        "обязательно уйдёт"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "deve ter saído",
+         "he must have left"
+        ],
+        [
+         "devia ter saído",
+         "he should have left"
+        ],
+        [
+         "pode ter saído",
+         "he may have left"
+        ],
+        [
+         "podia ter saído",
+         "he could have left (but didn't)"
+        ],
+        [
+         "há de sair",
+         "he will certainly leave"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1735,7 +1917,33 @@
        "com certeza",
        "конечно"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "pelos vistos",
+         "apparently"
+        ],
+        [
+         "segundo consta",
+         "reportedly"
+        ],
+        [
+         "alegadamente",
+         "allegedly"
+        ],
+        [
+         "decerto",
+         "surely"
+        ],
+        [
+         "com certeza",
+         "of course"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1757,7 +1965,29 @@
        "Tens de descansar.",
        "Тебе надо отдохнуть."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "É capaz de chover.",
+         "It might rain."
+        ],
+        [
+         "Há que agir.",
+         "We need to act."
+        ],
+        [
+         "Hás de ver!",
+         "You'll see!"
+        ],
+        [
+         "Tens de descansar.",
+         "You need to rest."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2139,7 +2369,12 @@
       "mal"
      ],
      "explain_en": "Mal + verb = as soon as, hardly.",
-     "explain_ru": "Mal + глагол — «едва, как только»."
+     "explain_ru": "Mal + глагол — «едва, как только».",
+     "ui": {
+      "ru": {
+       "q": "___ cheguei a casa, começou a chover. (как только, одно слово)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -2246,7 +2481,15 @@
      "q": "'Quanto mais estudo, mais aprendo' corresponds to Russian 'Чем больше учусь, тем больше узнаю'.",
      "answer": true,
      "explain_en": "Quanto mais … mais is the Portuguese proportional correlative.",
-     "explain_ru": "Quanto mais … mais — португальский аналог «чем больше…, тем больше»."
+     "explain_ru": "Quanto mais … mais — португальский аналог «чем больше…, тем больше».",
+     "ui": {
+      "en": {
+       "q": "'Quanto mais estudo, mais aprendo' corresponds to English 'The more I study, the more I learn'."
+      },
+      "ru": {
+       "q": "«Quanto mais estudo, mais aprendo» соответствует русскому «Чем больше учусь, тем больше узнаю»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2254,7 +2497,12 @@
      "q": "'À medida em que' is the standard form of the conjunction meaning 'as (gradually)'.",
      "answer": false,
      "explain_en": "The standard form is à medida que; na medida em que means 'insofar as'.",
-     "explain_ru": "Норма — à medida que; na medida em que значит «в той мере, в какой»."
+     "explain_ru": "Норма — à medida que; na medida em que значит «в той мере, в какой».",
+     "ui": {
+      "ru": {
+       "q": "«À medida em que» — нормативная форма союза со значением «по мере того как»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2262,7 +2510,12 @@
      "q": "In 'Fala devagar, de modo que todos percebam', the conjuntivo shows purpose, not result.",
      "answer": true,
      "explain_en": "De modo que + conjuntivo = so that (purpose).",
-     "explain_ru": "De modo que + conjuntivo — «чтобы» (цель)."
+     "explain_ru": "De modo que + conjuntivo — «чтобы» (цель).",
+     "ui": {
+      "ru": {
+       "q": "В «Fala devagar, de modo que todos percebam» conjuntivo выражает цель, а не результат."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2288,7 +2541,33 @@
        "não … senão",
        "только, не что иное, как"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "quanto mais … mais",
+         "the more … the more"
+        ],
+        [
+         "tão … que",
+         "so … that"
+        ],
+        [
+         "nem … nem",
+         "neither … nor"
+        ],
+        [
+         "ora … ora",
+         "now … now"
+        ],
+        [
+         "não … senão",
+         "only, nothing but"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2310,7 +2589,29 @@
        "tanto mais que",
        "тем более что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "à medida que",
+         "as (gradually)"
+        ],
+        [
+         "na medida em que",
+         "insofar as"
+        ],
+        [
+         "mal",
+         "as soon as, barely"
+        ],
+        [
+         "tanto mais que",
+         "all the more so because"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2564,7 +2865,12 @@
      ],
      "answer": 2,
      "explain_en": "A loose pronoun between two verbs without a hyphen is Brazilian; Portugal attaches it to one of the verbs.",
-     "explain_ru": "Местоимение между глаголами без дефиса — бразильский вариант; в Португалии оно присоединяется к одному из глаголов."
+     "explain_ru": "Местоимение между глаголами без дефиса — бразильский вариант; в Португалии оно присоединяется к одному из глаголов.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение НЕПРАВИЛЬНО в европейском португальском?"
+      }
+     }
     },
     {
      "id": "e02",
@@ -2578,7 +2884,12 @@
      ],
      "answer": 0,
      "explain_en": "Não triggers proclisis and the pronoun climbs: Não o consigo convencer (or Não consigo convencê-lo).",
-     "explain_ru": "Não вызывает проклизу, и местоимение «поднимается»: Não o consigo convencer (или Não consigo convencê-lo)."
+     "explain_ru": "Não вызывает проклизу, и местоимение «поднимается»: Não o consigo convencer (или Não consigo convencê-lo).",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильное предложение (Португалия):"
+      }
+     }
     },
     {
      "id": "e03",
@@ -2592,7 +2903,12 @@
      ],
      "answer": 1,
      "explain_en": "In compound tenses the pronoun attaches to the auxiliary: tinham-me contado.",
-     "explain_ru": "В сложных временах местоимение присоединяется к вспомогательному глаголу: tinham-me contado."
+     "explain_ru": "В сложных временах местоимение присоединяется к вспомогательному глаголу: tinham-me contado.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильное предложение:"
+      }
+     }
     },
     {
      "id": "e04",
@@ -2690,7 +3006,12 @@
      ],
      "answer": 3,
      "explain_en": "After the infinitive in -r, o becomes lo and the r drops: fazê-lo. 'A o fazer' is not used.",
-     "explain_ru": "После инфинитива на -r o превращается в lo, а r выпадает: fazê-lo. «A o fazer» не употребляется."
+     "explain_ru": "После инфинитива на -r o превращается в lo, а r выпадает: fazê-lo. «A o fazer» не употребляется.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильно в европейском португальском?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -2831,7 +3152,12 @@
      "q": "In European Portuguese a pronoun can never follow a past participle: 'tinha visto-o' is wrong.",
      "answer": true,
      "explain_en": "The pronoun attaches to ter/haver: tinha-o visto.",
-     "explain_ru": "Местоимение присоединяется к ter/haver: tinha-o visto."
+     "explain_ru": "Местоимение присоединяется к ter/haver: tinha-o visto.",
+     "ui": {
+      "ru": {
+       "q": "В европейском португальском местоимение никогда не ставится после причастия прошедшего времени: «tinha visto-o» — ошибка."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2839,7 +3165,12 @@
      "q": "Agradecer takes a direct object pronoun: 'agradeci-o' (= I thanked the teacher).",
      "answer": false,
      "explain_en": "Agradecer a alguém → agradeci-lhe.",
-     "explain_ru": "Agradecer требует косвенного дополнения: agradecer a alguém → agradeci-lhe."
+     "explain_ru": "Agradecer требует косвенного дополнения: agradecer a alguém → agradeci-lhe.",
+     "ui": {
+      "ru": {
+       "q": "Agradecer управляет прямым дополнением: «agradeci-o» (= я поблагодарил учителя)."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2847,7 +3178,12 @@
      "q": "In 'Quero-lho dar' both pronouns climbed together; 'Quero-lhe dá-lo' is not standard.",
      "answer": true,
      "explain_en": "A contracted cluster moves as a single unit.",
-     "explain_ru": "Слитная группа местоимений перемещается как единое целое."
+     "explain_ru": "Слитная группа местоимений перемещается как единое целое.",
+     "ui": {
+      "ru": {
+       "q": "В «Quero-lho dar» оба местоимения поднялись вместе; «Quero-lhe dá-lo» не соответствует норме."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2869,7 +3205,29 @@
        "Morreu-lhe o pai.",
        "У него умер отец."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Doem-me os pés.",
+         "My feet hurt."
+        ],
+        [
+         "Roubaram-lhe o carro.",
+         "His car was stolen."
+        ],
+        [
+         "Beijou-lhe a mão.",
+         "He kissed her hand."
+        ],
+        [
+         "Morreu-lhe o pai.",
+         "His father died."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2917,7 +3275,33 @@
        "слушаться его",
        "obedecer-lhe"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "to help him",
+         "ajudá-lo"
+        ],
+        [
+         "to thank him",
+         "agradecer-lhe"
+        ],
+        [
+         "to forgive him",
+         "perdoar-lhe"
+        ],
+        [
+         "to phone him",
+         "telefonar-lhe"
+        ],
+        [
+         "to obey him",
+         "obedecer-lhe"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3149,7 +3533,12 @@
      ],
      "answer": 2,
      "explain_en": "Entristecer = en- + triste + -ecer; neither *entriste nor *tristecer exists.",
-     "explain_ru": "Entristecer = en- + triste + -ecer; ни *entriste, ни *tristecer не существует."
+     "explain_ru": "Entristecer = en- + triste + -ecer; ни *entriste, ни *tristecer не существует.",
+     "ui": {
+      "ru": {
+       "q": "Какой глагол образован путём парасинтеза?"
+      }
+     }
     },
     {
      "id": "e02",
@@ -3261,7 +3650,12 @@
      ],
      "answer": 1,
      "explain_en": "Abotoar (a- + botão + -ar) is an old parasynthetic verb.",
-     "explain_ru": "Abotoar (a- + botão + -ar) — старый парасинтетический глагол."
+     "explain_ru": "Abotoar (a- + botão + -ar) — старый парасинтетический глагол.",
+     "ui": {
+      "ru": {
+       "q": "Какое слово НЕ является неологизмом, заимствованным из английского?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3275,7 +3669,12 @@
      ],
      "answer": 2,
      "explain_en": "The acronym takes the gender of its head noun: a Organização → a ONU.",
-     "explain_ru": "Аббревиатура получает род главного слова: a Organização → a ONU."
+     "explain_ru": "Аббревиатура получает род главного слова: a Organização → a ONU.",
+     "ui": {
+      "ru": {
+       "q": "Правильная форма для «ООН»:"
+      }
+     }
     },
     {
      "id": "e11",
@@ -3420,7 +3819,12 @@
      "q": "'Infelizmente' is parasynthetic because it has both a prefix and a suffix.",
      "answer": false,
      "explain_en": "Infeliz and felizmente both exist, so the word was formed in two steps.",
-     "explain_ru": "Infeliz и felizmente существуют, значит, слово образовано в два шага."
+     "explain_ru": "Infeliz и felizmente существуют, значит, слово образовано в два шага.",
+     "ui": {
+      "ru": {
+       "q": "«Infelizmente» — парасинтетическое слово, потому что в нём есть и приставка, и суффикс."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3428,7 +3832,12 @@
      "q": "New verbs borrowed from English, like 'googlar', are conjugated as regular -ar verbs.",
      "answer": true,
      "explain_en": "All new verbs join the productive -ar conjugation.",
-     "explain_ru": "Все новые глаголы попадают в продуктивное спряжение на -ar."
+     "explain_ru": "Все новые глаголы попадают в продуктивное спряжение на -ar.",
+     "ui": {
+      "ru": {
+       "q": "Новые глаголы, заимствованные из английского, например «googlar», спрягаются как правильные глаголы на -ar."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3436,7 +3845,12 @@
      "q": "'Fluvial' refers to rain and 'pluvial' to rivers.",
      "answer": false,
      "explain_en": "It is the other way round: fluvial = of rivers, pluvial = of rain.",
-     "explain_ru": "Наоборот: fluvial — «речной», pluvial — «дождевой»."
+     "explain_ru": "Наоборот: fluvial — «речной», pluvial — «дождевой».",
+     "ui": {
+      "ru": {
+       "q": "«Fluvial» относится к дождю, а «pluvial» — к рекам."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3746,7 +4160,12 @@
      ],
      "answer": 1,
      "explain_en": "The silent c was dropped: ação.",
-     "explain_ru": "Немое c убрано: ação."
+     "explain_ru": "Немое c убрано: ação.",
+     "ui": {
+      "ru": {
+       "q": "Правильное написание после соглашения 1990 года:"
+      }
+     }
     },
     {
      "id": "e02",
@@ -3774,7 +4193,12 @@
      ],
      "answer": 0,
      "explain_en": "Portugal: económico (acute, open o). Brazil: econômico.",
-     "explain_ru": "Португалия: económico (акут, открытое o). Бразилия: econômico."
+     "explain_ru": "Португалия: económico (акут, открытое o). Бразилия: econômico.",
+     "ui": {
+      "ru": {
+       "q": "Какое написание принято в европейском португальском?"
+      }
+     }
     },
     {
      "id": "e04",
@@ -3816,7 +4240,12 @@
      ],
      "answer": 3,
      "explain_en": "No crase before a verb: começou a chover.",
-     "explain_ru": "Перед глаголом слияния нет: começou a chover."
+     "explain_ru": "Перед глаголом слияния нет: começou a chover.",
+     "ui": {
+      "ru": {
+       "q": "Какой вариант правильный?"
+      }
+     }
     },
     {
      "id": "e07",
@@ -3830,7 +4259,12 @@
      ],
      "answer": 1,
      "explain_en": "Same vowel at the junction (o + o) → hyphen: micro-ondas.",
-     "explain_ru": "Одинаковые гласные на стыке (o + o) → дефис: micro-ondas."
+     "explain_ru": "Одинаковые гласные на стыке (o + o) → дефис: micro-ondas.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильное написание:"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3844,7 +4278,12 @@
      ],
      "answer": 2,
      "explain_en": "Prefix ending in a vowel + s → join and double s: antissocial.",
-     "explain_ru": "Приставка на гласную + s → слитно с удвоением: antissocial."
+     "explain_ru": "Приставка на гласную + s → слитно с удвоением: antissocial.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильное написание:"
+      }
+     }
     },
     {
      "id": "e09",
@@ -3858,7 +4297,12 @@
      ],
      "answer": 3,
      "explain_en": "No comma before que integrante or between subject and verb; a comma before mas.",
-     "explain_ru": "Нет запятой перед изъяснительным que и между подлежащим и сказуемым; перед mas — запятая."
+     "explain_ru": "Нет запятой перед изъяснительным que и между подлежащим и сказуемым; перед mas — запятая.",
+     "ui": {
+      "ru": {
+       "q": "Где запятые расставлены правильно?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3872,7 +4316,12 @@
      ],
      "answer": 1,
      "explain_en": "Cor-de-rosa is one of the listed exceptions; the others are written without hyphens.",
-     "explain_ru": "Cor-de-rosa — одно из исключений; остальные пишутся без дефисов."
+     "explain_ru": "Cor-de-rosa — одно из исключений; остальные пишутся без дефисов.",
+     "ui": {
+      "ru": {
+       "q": "Какое сложное слово сохранило дефисы после 1990 года?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -4016,7 +4465,12 @@
      "q": "After the 1990 agreement, months are written with a lowercase letter: 'janeiro'.",
      "answer": true,
      "explain_en": "Months and seasons are lowercase.",
-     "explain_ru": "Месяцы и времена года пишутся со строчной буквы."
+     "explain_ru": "Месяцы и времена года пишутся со строчной буквы.",
+     "ui": {
+      "ru": {
+       "q": "После соглашения 1990 года названия месяцев пишутся со строчной буквы: «janeiro»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4024,7 +4478,12 @@
      "q": "As in Russian, a comma goes before every 'que' that introduces a clause: 'Ele disse, que vinha'.",
      "answer": false,
      "explain_en": "Portuguese does not separate a complement clause with a comma.",
-     "explain_ru": "В португальском изъяснительное придаточное запятой не отделяется."
+     "explain_ru": "В португальском изъяснительное придаточное запятой не отделяется.",
+     "ui": {
+      "ru": {
+       "q": "Как и в русском, запятая ставится перед каждым «que», вводящим придаточное: «Ele disse, que vinha»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4032,7 +4491,12 @@
      "q": "In Portugal 'o fato' means 'a suit', while 'o facto' means 'a fact'.",
      "answer": true,
      "explain_en": "A classic Portugal–Brazil trap: in Brazil fato = fact.",
-     "explain_ru": "Классическая ловушка: в Бразилии fato — «факт»."
+     "explain_ru": "Классическая ловушка: в Бразилии fato — «факт».",
+     "ui": {
+      "ru": {
+       "q": "В Португалии «o fato» означает «костюм», а «o facto» — «факт»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4616,7 +5080,12 @@
      "q": "'Prefiro mais o cinema do que o teatro' is correct in the written norm.",
      "answer": false,
      "explain_en": "The norm is Prefiro o cinema ao teatro: no mais, and a instead of do que.",
-     "explain_ru": "Норма — Prefiro o cinema ao teatro: без mais и с a вместо do que."
+     "explain_ru": "Норма — Prefiro o cinema ao teatro: без mais и с a вместо do que.",
+     "ui": {
+      "ru": {
+       "q": "«Prefiro mais o cinema do que o teatro» — правильно с точки зрения письменной нормы."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4624,7 +5093,12 @@
      "q": "'Aspirar o pó' (to vacuum) and 'aspirar a um cargo' (to aspire to a post) use different constructions.",
      "answer": true,
      "explain_en": "Without a preposition: inhale/vacuum; with a: aspire to.",
-     "explain_ru": "Без предлога — «вдыхать, пылесосить»; с a — «стремиться к»."
+     "explain_ru": "Без предлога — «вдыхать, пылесосить»; с a — «стремиться к».",
+     "ui": {
+      "ru": {
+       "q": "«Aspirar o pó» (пылесосить) и «aspirar a um cargo» (стремиться к должности) — разные конструкции."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4632,7 +5106,12 @@
      "q": "'Ela simpatiza-se com todos' is the correct reflexive form.",
      "answer": false,
      "explain_en": "Simpatizar is not reflexive: Ela simpatiza com todos.",
-     "explain_ru": "Simpatizar — не возвратный глагол: Ela simpatiza com todos."
+     "explain_ru": "Simpatizar — не возвратный глагол: Ela simpatiza com todos.",
+     "ui": {
+      "ru": {
+       "q": "«Ela simpatiza-se com todos» — правильная возвратная форма."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4684,7 +5163,33 @@
        "carecer de",
        "испытывать нехватку"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "responder a",
+         "to reply to"
+        ],
+        [
+         "responder por",
+         "to answer for"
+        ],
+        [
+         "suceder a",
+         "to succeed (someone)"
+        ],
+        [
+         "querer bem a",
+         "to wish well, to love"
+        ],
+        [
+         "carecer de",
+         "to lack"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4710,7 +5215,33 @@
        "oriundo de",
        "родом из"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "alheio a",
+         "indifferent to"
+        ],
+        [
+         "avesso a",
+         "averse to"
+        ],
+        [
+         "propenso a",
+         "prone to"
+        ],
+        [
+         "imune a",
+         "immune to"
+        ],
+        [
+         "oriundo de",
+         "originally from"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4970,7 +5501,12 @@
      ],
      "answer": 3,
      "explain_en": "After a negative statement Portugal uses pois não?; né is Brazilian.",
-     "explain_ru": "После отрицательного высказывания в Португалии говорят pois não?; né — бразильский вариант."
+     "explain_ru": "После отрицательного высказывания в Португалии говорят pois não?; né — бразильский вариант.",
+     "ui": {
+      "ru": {
+       "q": "Какой «хвостик» типичен для Португалии после отрицательного высказывания? «Não vens à festa, ___?»"
+      }
+     }
     },
     {
      "id": "e04",
@@ -4998,7 +5534,18 @@
      ],
      "answer": 1,
      "explain_en": "Brazilian Pois não? = How can I help you?",
-     "explain_ru": "Бразильское Pois não? — «Чем могу помочь?»."
+     "explain_ru": "Бразильское Pois não? — «Чем могу помочь?».",
+     "ui": {
+      "ru": {
+       "q": "В бразильском магазине продавец говорит «Pois não?». Это означает:",
+       "options": [
+        "Конечно, нет!",
+        "Чем могу помочь?",
+        "Не входите!",
+        "Не так ли?"
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -5026,7 +5573,18 @@
      ],
      "answer": 1,
      "explain_en": "Litotes: denying 'bad' means 'rather good'.",
-     "explain_ru": "Литота: отрицание «плохого» значит «весьма хороший»."
+     "explain_ru": "Литота: отрицание «плохого» значит «весьма хороший».",
+     "ui": {
+      "ru": {
+       "q": "«O filme não é nada mau» означает, что фильм:",
+       "options": [
+        "очень плохой",
+        "вполне хороший",
+        "не закончен",
+        "больше не идёт в кино"
+       ]
+      }
+     }
     },
     {
      "id": "e08",
@@ -5068,7 +5626,12 @@
      ],
      "answer": 3,
      "explain_en": "Pois, pois… with a sceptical tone = yeah, right.",
-     "explain_ru": "Pois, pois… со скептической интонацией — «Ну да, конечно…»."
+     "explain_ru": "Pois, pois… со скептической интонацией — «Ну да, конечно…».",
+     "ui": {
+      "ru": {
+       "q": "— Amanhã começo a dieta. — ___ (Португалия, недоверие: «ну-ну, как же»)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -5216,7 +5779,12 @@
      "q": "In Portugal 'Queria um café' (imperfeito) is a normal polite request about the present.",
      "answer": true,
      "explain_en": "The imperfeito of politeness refers to the present moment.",
-     "explain_ru": "Вежливый imperfeito относится к настоящему моменту."
+     "explain_ru": "Вежливый imperfeito относится к настоящему моменту.",
+     "ui": {
+      "ru": {
+       "q": "В Португалии «Queria um café» (imperfeito) — обычная вежливая просьба, относящаяся к настоящему."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5224,7 +5792,12 @@
      "q": "In Brazil, 'Pois não?' said by a shop assistant is a refusal.",
      "answer": false,
      "explain_en": "It is an offer of help: How can I help you?",
-     "explain_ru": "Это предложение помощи: «Чем могу помочь?»."
+     "explain_ru": "Это предложение помощи: «Чем могу помочь?».",
+     "ui": {
+      "ru": {
+       "q": "В Бразилии «Pois não?», сказанное продавцом, — это отказ."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5232,7 +5805,12 @@
      "q": "'Obrigadinho!' in Portugal can sound ironic.",
      "answer": true,
      "explain_en": "Depending on tone, obrigadinho can mean 'thanks a lot (for nothing)'.",
-     "explain_ru": "В зависимости от интонации obrigadinho может значить «ну спасибо тебе большое» (иронично)."
+     "explain_ru": "В зависимости от интонации obrigadinho может значить «ну спасибо тебе большое» (иронично).",
+     "ui": {
+      "ru": {
+       "q": "«Obrigadinho!» в Португалии может звучать иронично."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5258,7 +5836,33 @@
        "Ora essa!",
        "Да что вы, не стоит!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Era o que faltava!",
+         "That's all we needed!"
+        ],
+        [
+         "Pois, pois…",
+         "Yeah, right…"
+        ],
+        [
+         "Bonito serviço!",
+         "A fine mess!"
+        ],
+        [
+         "Não é nada mau.",
+         "It's actually pretty good."
+        ],
+        [
+         "Ora essa!",
+         "Not at all, don't mention it!"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5534,7 +6138,12 @@
      ],
      "answer": 1,
      "explain_en": "A gente takes the 3rd person singular: a gente vai.",
-     "explain_ru": "A gente требует 3-го лица ед. ч.: a gente vai."
+     "explain_ru": "A gente требует 3-го лица ед. ч.: a gente vai.",
+     "ui": {
+      "ru": {
+       "q": "Какая форма нормативна?"
+      }
+     }
     },
     {
      "id": "e02",
@@ -5590,7 +6199,12 @@
      ],
      "answer": 3,
      "explain_en": "Existential ter is typical of Brazilian speech.",
-     "explain_ru": "Ter в значении «имеется» типично для бразильской речи."
+     "explain_ru": "Ter в значении «имеется» типично для бразильской речи.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение звучит для португальского уха по-бразильски (разговорно)?"
+      }
+     }
     },
     {
      "id": "e06",
@@ -5604,7 +6218,12 @@
      ],
      "answer": 2,
      "explain_en": "No sentence starts with an unstressed pronoun in Portugal: Diz-me.",
-     "explain_ru": "В Португалии предложение не начинается с безударного местоимения: Diz-me."
+     "explain_ru": "В Португалии предложение не начинается с безударного местоимения: Diz-me.",
+     "ui": {
+      "ru": {
+       "q": "Какой вариант правильный в европейском португальском?"
+      }
+     }
     },
     {
      "id": "e07",
@@ -5809,7 +6428,12 @@
      "q": "'Houveram problemas' is correct because problemas is plural.",
      "answer": false,
      "explain_en": "Existential haver is impersonal: houve problemas.",
-     "explain_ru": "Haver в значении «иметься» безличен: houve problemas."
+     "explain_ru": "Haver в значении «иметься» безличен: houve problemas.",
+     "ui": {
+      "ru": {
+       "q": "«Houveram problemas» — правильно, потому что problemas стоит во множественном числе."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5817,7 +6441,12 @@
      "q": "In Brazil direct questions use 'Por que…?' in two words, while Portugal writes 'Porque…?'.",
      "answer": true,
      "explain_en": "Brazil: Por que você não vem? Portugal: Porque não vens?",
-     "explain_ru": "Бразилия: Por que você não vem? Португалия: Porque não vens?"
+     "explain_ru": "Бразилия: Por que você não vem? Португалия: Porque não vens?",
+     "ui": {
+      "ru": {
+       "q": "В Бразилии в прямых вопросах пишут «Por que…?» раздельно, а в Португалии — «Porque…?»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5825,7 +6454,12 @@
      "q": "'De encontro a' means 'in agreement with'.",
      "answer": false,
      "explain_en": "De encontro a = against; 'in agreement with' is ao encontro de.",
-     "explain_ru": "De encontro a — «вопреки, против»; «в соответствии с» — ao encontro de."
+     "explain_ru": "De encontro a — «вопреки, против»; «в соответствии с» — ao encontro de.",
+     "ui": {
+      "ru": {
+       "q": "«De encontro a» означает «в соответствии с»."
+      }
+     }
     },
     {
      "id": "e26",

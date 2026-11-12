@@ -480,7 +480,12 @@
      "q": "In the congiuntivo presente, 'parlare' has the same form for io, tu and lui/lei: parli.",
      "answer": true,
      "explain_en": "Yes: che io parli, che tu parli, che lui parli.",
-     "explain_ru": "Да: che io parli, che tu parli, che lui parli — поэтому местоимение часто сохраняют."
+     "explain_ru": "Да: che io parli, che tu parli, che lui parli — поэтому местоимение часто сохраняют.",
+     "ui": {
+      "ru": {
+       "q": "В congiuntivo presente у 'parlare' одна и та же форма для io, tu и lui/lei: parli."
+      }
+     }
     },
     {
      "id": "e24",
@@ -488,7 +493,12 @@
      "q": "'Che loro finiscono' is the correct congiuntivo of finire.",
      "answer": false,
      "explain_en": "Finiscono is the indicative; the congiuntivo is finiscano.",
-     "explain_ru": "Finiscono — индикатив; в congiuntivo — finiscano."
+     "explain_ru": "Finiscono — индикатив; в congiuntivo — finiscano.",
+     "ui": {
+      "ru": {
+       "q": "'Che loro finiscono' — правильная форма congiuntivo глагола finire."
+      }
+     }
     },
     {
      "id": "e25",
@@ -496,7 +506,12 @@
      "q": "The noi form of the congiuntivo presente is always identical to the noi form of the present indicative.",
      "answer": true,
      "explain_en": "Siamo, abbiamo, facciamo, andiamo: always the same.",
-     "explain_ru": "Siamo, abbiamo, facciamo, andiamo — всегда совпадают."
+     "explain_ru": "Siamo, abbiamo, facciamo, andiamo — всегда совпадают.",
+     "ui": {
+      "ru": {
+       "q": "Форма noi в congiuntivo presente всегда совпадает с формой noi в настоящем времени изъявительного наклонения."
+      }
+     }
     },
     {
      "id": "e26",
@@ -913,7 +928,12 @@
      ],
      "answer": 2,
      "explain_en": "Same subject → di + infinitive: sono convinto di avere ragione.",
-     "explain_ru": "Одно подлежащее → di + инфинитив: sono convinto di avere ragione."
+     "explain_ru": "Одно подлежащее → di + инфинитив: sono convinto di avere ragione.",
+     "ui": {
+      "ru": {
+       "q": "Sono convinto ___ ragione. (прав именно я)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -1059,7 +1079,12 @@
      "q": "'Voglio che io parta domani' is correct Italian.",
      "answer": false,
      "explain_en": "Same subject → infinitive: Voglio partire domani.",
-     "explain_ru": "Одно подлежащее → инфинитив: Voglio partire domani."
+     "explain_ru": "Одно подлежащее → инфинитив: Voglio partire domani.",
+     "ui": {
+      "ru": {
+       "q": "'Voglio che io parta domani' — правильная итальянская фраза."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1067,7 +1092,12 @@
      "q": "After 'so che' and 'sono sicuro che' Italian uses the indicative.",
      "answer": true,
      "explain_en": "They present the information as a fact.",
-     "explain_ru": "Они подают информацию как факт, поэтому нужен индикатив."
+     "explain_ru": "Они подают информацию как факт, поэтому нужен индикатив.",
+     "ui": {
+      "ru": {
+       "q": "После 'so che' и 'sono sicuro che' в итальянском употребляется изъявительное наклонение."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1075,7 +1105,12 @@
      "q": "'Mi dispiace che tu sei malato' is correct standard Italian.",
      "answer": false,
      "explain_en": "Emotion → congiuntivo: Mi dispiace che tu sia malato.",
-     "explain_ru": "Эмоция → congiuntivo: Mi dispiace che tu sia malato."
+     "explain_ru": "Эмоция → congiuntivo: Mi dispiace che tu sia malato.",
+     "ui": {
+      "ru": {
+       "q": "'Mi dispiace che tu sei malato' — правильно с точки зрения литературного итальянского."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1101,7 +1136,33 @@
        "Ho paura che piova.",
        "Боюсь, что пойдёт дождь."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Penso che sia vero.",
+         "I think it's true."
+        ],
+        [
+         "So che è vero.",
+         "I know it's true."
+        ],
+        [
+         "Voglio che tu venga.",
+         "I want you to come."
+        ],
+        [
+         "Spero di venire.",
+         "I hope to come."
+        ],
+        [
+         "Ho paura che piova.",
+         "I'm afraid it will rain."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1127,7 +1188,33 @@
        "aspettarsi che",
        "ожидать, что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "dubitare che",
+         "to doubt that"
+        ],
+        [
+         "sperare che",
+         "to hope that"
+        ],
+        [
+         "temere che",
+         "to fear that"
+        ],
+        [
+         "pretendere che",
+         "to demand that"
+        ],
+        [
+         "aspettarsi che",
+         "to expect that"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1149,7 +1236,29 @@
        "Voglio che tu parta.",
        "Я хочу, чтобы ты уехал."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Credo di sbagliare.",
+         "I think I'm wrong."
+        ],
+        [
+         "Credo che tu sbagli.",
+         "I think you're wrong."
+        ],
+        [
+         "Voglio partire.",
+         "I want to leave."
+        ],
+        [
+         "Voglio che tu parta.",
+         "I want you to leave."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1630,7 +1739,12 @@
      "q": "'Perché' + indicative gives a reason; 'perché' + congiuntivo expresses a purpose.",
      "answer": true,
      "explain_en": "Non vengo perché sono stanco (reason) vs Lo dico perché tu lo sappia (purpose).",
-     "explain_ru": "Non vengo perché sono stanco (причина) и Lo dico perché tu lo sappia (цель)."
+     "explain_ru": "Non vengo perché sono stanco (причина) и Lo dico perché tu lo sappia (цель).",
+     "ui": {
+      "ru": {
+       "q": "'Perché' + изъявительное наклонение выражает причину, а 'perché' + congiuntivo — цель."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1638,7 +1752,12 @@
      "q": "'Anche se' is normally followed by the congiuntivo.",
      "answer": false,
      "explain_en": "Anche se takes the indicative; benché and nonostante take the congiuntivo.",
-     "explain_ru": "Anche se требует индикатива; congiuntivo нужен после benché и nonostante."
+     "explain_ru": "Anche se требует индикатива; congiuntivo нужен после benché и nonostante.",
+     "ui": {
+      "ru": {
+       "q": "После 'anche se' обычно употребляется congiuntivo."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1646,7 +1765,12 @@
      "q": "'Mangio prima che io esca' is the correct way to say 'I eat before I go out'.",
      "answer": false,
      "explain_en": "Same subject → prima di + infinitive: Mangio prima di uscire.",
-     "explain_ru": "Одно подлежащее → prima di + инфинитив: Mangio prima di uscire."
+     "explain_ru": "Одно подлежащее → prima di + инфинитив: Mangio prima di uscire.",
+     "ui": {
+      "ru": {
+       "q": "'Mangio prima che io esca' — правильный способ сказать «Я ем перед тем, как выйти»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1672,7 +1796,33 @@
        "dopo che",
        "после того как"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "affinché",
+         "so that"
+        ],
+        [
+         "benché",
+         "although"
+        ],
+        [
+         "prima che",
+         "before"
+        ],
+        [
+         "anche se",
+         "even if"
+        ],
+        [
+         "dopo che",
+         "after"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1698,7 +1848,33 @@
        "può darsi che",
        "может быть, что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "è necessario che",
+         "it is necessary that"
+        ],
+        [
+         "è possibile che",
+         "it is possible that"
+        ],
+        [
+         "è un peccato che",
+         "it's a pity that"
+        ],
+        [
+         "è chiaro che",
+         "it is clear that"
+        ],
+        [
+         "può darsi che",
+         "it may be that"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1720,7 +1896,29 @@
        "Esco prima che piova.",
        "Я выйду, пока не пошёл дождь."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Te lo dico perché tu lo sappia.",
+         "I'm telling you so that you know."
+        ],
+        [
+         "Te lo dico perché lo so.",
+         "I'm telling you because I know."
+        ],
+        [
+         "Esco anche se piove.",
+         "I'm going out even if it's raining."
+        ],
+        [
+         "Esco prima che piova.",
+         "I'm going out before it rains."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2204,7 +2402,12 @@
      "q": "The trapassato prossimo is formed with the imperfetto of avere or essere + past participle.",
      "answer": true,
      "explain_en": "Avevo fatto, ero andato.",
-     "explain_ru": "Да: avevo fatto, ero andato."
+     "explain_ru": "Да: avevo fatto, ero andato.",
+     "ui": {
+      "ru": {
+       "q": "Trapassato prossimo образуется из imperfetto глагола avere или essere + причастие прошедшего времени."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2212,7 +2415,12 @@
      "q": "In 'Quando siamo arrivati, Marco era già uscito', Marco left after we arrived.",
      "answer": false,
      "explain_en": "Era uscito shows that he had left before we arrived.",
-     "explain_ru": "Era uscito показывает, что он ушёл до нашего прихода."
+     "explain_ru": "Era uscito показывает, что он ушёл до нашего прихода.",
+     "ui": {
+      "ru": {
+       "q": "В 'Quando siamo arrivati, Marco era già uscito' Марко ушёл после того, как мы пришли."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2220,7 +2428,12 @@
      "q": "Russian has a separate tense that corresponds to the trapassato prossimo.",
      "answer": false,
      "explain_en": "Russian uses the ordinary past, often with «уже».",
-     "explain_ru": "В русском используется обычное прошедшее время, часто со словом «уже»."
+     "explain_ru": "В русском используется обычное прошедшее время, часто со словом «уже».",
+     "ui": {
+      "ru": {
+       "q": "В русском есть отдельное время, соответствующее trapassato prossimo."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2268,7 +2481,29 @@
        "stavo + gerundio",
        "действие в процессе"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "imperfetto",
+         "background, description, habit"
+        ],
+        [
+         "passato prossimo",
+         "an event in the past"
+        ],
+        [
+         "trapassato prossimo",
+         "an action before another past action"
+        ],
+        [
+         "stavo + gerundio",
+         "an action in progress"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2286,7 +2521,25 @@
        "Quando è arrivato, mangiavo.",
        "Когда он пришёл, я ел."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Quando è arrivato, ho mangiato.",
+         "When he arrived, I ate."
+        ],
+        [
+         "Quando è arrivato, avevo già mangiato.",
+         "When he arrived, I had already eaten."
+        ],
+        [
+         "Quando è arrivato, mangiavo.",
+         "When he arrived, I was eating."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2767,7 +3020,12 @@
      "q": "'Ha detto che verrebbe' is the standard way to express the future in the past.",
      "answer": false,
      "explain_en": "Standard Italian uses the condizionale passato: Ha detto che sarebbe venuto.",
-     "explain_ru": "В нормативном итальянском нужен condizionale passato: Ha detto che sarebbe venuto."
+     "explain_ru": "В нормативном итальянском нужен condizionale passato: Ha detto che sarebbe venuto.",
+     "ui": {
+      "ru": {
+       "q": "'Ha detto che verrebbe' — стандартный способ выразить будущее в прошедшем."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2775,7 +3033,15 @@
      "q": "Russian «я бы хотел» can correspond to both 'vorrei' and 'avrei voluto'.",
      "answer": true,
      "explain_en": "Russian does not distinguish present and past here; Italian does.",
-     "explain_ru": "Русский здесь не различает настоящее и прошедшее, а итальянский различает."
+     "explain_ru": "Русский здесь не различает настоящее и прошедшее, а итальянский различает.",
+     "ui": {
+      "en": {
+       "q": "A single Russian phrase meaning 'I would like' can correspond to both 'vorrei' and 'avrei voluto'."
+      },
+      "ru": {
+       "q": "Русское «я бы хотел» может соответствовать и 'vorrei', и 'avrei voluto'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2783,7 +3049,12 @@
      "q": "The condizionale passato of andare for 'lei' is 'avrebbe andato'.",
      "answer": false,
      "explain_en": "Andare takes essere: sarebbe andata.",
-     "explain_ru": "Andare спрягается с essere: sarebbe andata."
+     "explain_ru": "Andare спрягается с essere: sarebbe andata.",
+     "ui": {
+      "ru": {
+       "q": "Condizionale passato глагола andare для 'lei' — 'avrebbe andato'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2835,7 +3106,29 @@
        "Avresti dovuto riposare.",
        "Тебе следовало отдохнуть."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Vorrei venire.",
+         "I'd like to come (now)."
+        ],
+        [
+         "Avrei voluto venire.",
+         "I wanted to come, but I didn't."
+        ],
+        [
+         "Dovresti riposare.",
+         "You should rest."
+        ],
+        [
+         "Avresti dovuto riposare.",
+         "You should have rested."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2857,7 +3150,29 @@
        "Sarebbe venuto volentieri.",
        "Он бы с радостью пришёл тогда."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Dice che verrà.",
+         "He says he will come."
+        ],
+        [
+         "Ha detto che sarebbe venuto.",
+         "He said he would come."
+        ],
+        [
+         "Verrebbe volentieri.",
+         "He would gladly come."
+        ],
+        [
+         "Sarebbe venuto volentieri.",
+         "He would gladly have come."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3340,7 +3655,12 @@
      "q": "'Se avrei tempo, verrei' is correct Italian.",
      "answer": false,
      "explain_en": "No condizionale after se: Se avessi tempo, verrei.",
-     "explain_ru": "После se condizionale не ставится: Se avessi tempo, verrei."
+     "explain_ru": "После se condizionale не ставится: Se avessi tempo, verrei.",
+     "ui": {
+      "ru": {
+       "q": "'Se avrei tempo, verrei' — правильная итальянская фраза."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3348,7 +3668,12 @@
      "q": "In the second type, the se-clause takes the congiuntivo imperfetto and the main clause the condizionale presente.",
      "answer": true,
      "explain_en": "Se potessi, ti aiuterei.",
-     "explain_ru": "Да: Se potessi, ti aiuterei."
+     "explain_ru": "Да: Se potessi, ti aiuterei.",
+     "ui": {
+      "ru": {
+       "q": "Во втором типе в придаточном с se стоит congiuntivo imperfetto, а в главном — condizionale presente."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3356,7 +3681,12 @@
      "q": "The main clause may come first: 'Verrei, se potessi.'",
      "answer": true,
      "explain_en": "The order of the two clauses is free.",
-     "explain_ru": "Порядок частей свободный."
+     "explain_ru": "Порядок частей свободный.",
+     "ui": {
+      "ru": {
+       "q": "Главное предложение может стоять первым: 'Verrei, se potessi.'"
+      }
+     }
     },
     {
      "id": "e26",
@@ -3430,7 +3760,29 @@
        "Se studi, passerai l'esame.",
        "Если будешь заниматься, сдашь экзамен."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Se ho tempo, vengo.",
+         "If I have time, I'll come."
+        ],
+        [
+         "Se avessi tempo, verrei.",
+         "If I had time, I would come."
+        ],
+        [
+         "Se fossi in te, studierei.",
+         "If I were you, I would study."
+        ],
+        [
+         "Se studi, passerai l'esame.",
+         "If you study, you'll pass the exam."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3937,7 +4289,12 @@
      "q": "After 'ha detto', the present 'sono' in direct speech normally becomes 'ero' or 'era'.",
      "answer": true,
      "explain_en": "Past reporting verb → presente becomes imperfetto.",
-     "explain_ru": "После вводящего глагола в прошедшем presente превращается в imperfetto."
+     "explain_ru": "После вводящего глагола в прошедшем presente превращается в imperfetto.",
+     "ui": {
+      "ru": {
+       "q": "После 'ha detto' настоящее время 'sono' из прямой речи обычно превращается в 'ero' или 'era'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3945,7 +4302,12 @@
      "q": "An imperfetto in direct speech ('Ero malato') changes to the trapassato in reported speech.",
      "answer": false,
      "explain_en": "The imperfetto does not change: Ha detto che era malato.",
-     "explain_ru": "Imperfetto не меняется: Ha detto che era malato."
+     "explain_ru": "Imperfetto не меняется: Ha detto che era malato.",
+     "ui": {
+      "ru": {
+       "q": "Imperfetto в прямой речи ('Ero malato') в косвенной речи меняется на trapassato."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3953,7 +4315,15 @@
      "q": "Reported yes/no questions are introduced by 'se', which corresponds to Russian «ли».",
      "answer": true,
      "explain_en": "Mi ha chiesto se ero pronto = «спросил, готов ли я».",
-     "explain_ru": "Mi ha chiesto se ero pronto = «спросил, готов ли я»."
+     "explain_ru": "Mi ha chiesto se ero pronto = «спросил, готов ли я».",
+     "ui": {
+      "en": {
+       "q": "Reported yes/no questions are introduced by 'se', which corresponds to English 'if / whether'."
+      },
+      "ru": {
+       "q": "Косвенные общие вопросы вводятся словом 'se', которое соответствует русскому «ли»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4023,7 +4393,33 @@
        "spiegare che",
        "объяснить, что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "dire di",
+         "to tell (someone) to do"
+        ],
+        [
+         "chiedere se",
+         "to ask whether"
+        ],
+        [
+         "rispondere che",
+         "to answer that"
+        ],
+        [
+         "promettere di",
+         "to promise to"
+        ],
+        [
+         "spiegare che",
+         "to explain that"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4516,7 +4912,12 @@
      "q": "'Che' can follow a preposition: 'la persona con che parlo'.",
      "answer": false,
      "explain_en": "After a preposition use cui: la persona con cui parlo.",
-     "explain_ru": "После предлога нужно cui: la persona con cui parlo."
+     "explain_ru": "После предлога нужно cui: la persona con cui parlo.",
+     "ui": {
+      "ru": {
+       "q": "'Che' может стоять после предлога: 'la persona con che parlo'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4524,7 +4925,12 @@
      "q": "'Chi' takes a singular verb: 'Chi vuole venire, alzi la mano.'",
      "answer": true,
      "explain_en": "Chi always takes the third person singular.",
-     "explain_ru": "Chi всегда требует третьего лица единственного числа."
+     "explain_ru": "Chi всегда требует третьего лица единственного числа.",
+     "ui": {
+      "ru": {
+       "q": "'Chi' употребляется с глаголом в единственном числе: 'Chi vuole venire, alzi la mano.'"
+      }
+     }
     },
     {
      "id": "e25",
@@ -4532,7 +4938,12 @@
      "q": "In 'la ragazza il cui padre è medico', the article 'il' agrees with 'padre'.",
      "answer": true,
      "explain_en": "The article agrees with the thing possessed.",
-     "explain_ru": "Артикль согласуется с тем, чем владеют, — с padre."
+     "explain_ru": "Артикль согласуется с тем, чем владеют, — с padre.",
+     "ui": {
+      "ru": {
+       "q": "В 'la ragazza il cui padre è medico' артикль 'il' согласуется с 'padre'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4562,7 +4973,37 @@
        "da cui",
        "от которого"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "di cui",
+         "about / of which (whom)"
+        ],
+        [
+         "a cui",
+         "to which (whom)"
+        ],
+        [
+         "con cui",
+         "with which (whom)"
+        ],
+        [
+         "in cui",
+         "in which"
+        ],
+        [
+         "per cui",
+         "for which, because of which"
+        ],
+        [
+         "da cui",
+         "from which (whom)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4610,7 +5051,33 @@
        "dove",
        "где"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "che",
+         "who, which, that"
+        ],
+        [
+         "chi",
+         "the one who, whoever"
+        ],
+        [
+         "quello che",
+         "what, the thing that"
+        ],
+        [
+         "il cui",
+         "whose"
+        ],
+        [
+         "dove",
+         "where"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5095,7 +5562,12 @@
      "q": "'Venire' can form the passive in compound tenses: 'La casa è venuta venduta.'",
      "answer": false,
      "explain_en": "Only essere in compound tenses: La casa è stata venduta.",
-     "explain_ru": "В сложных временах только essere: La casa è stata venduta."
+     "explain_ru": "В сложных временах только essere: La casa è stata venduta.",
+     "ui": {
+      "ru": {
+       "q": "'Venire' может образовывать пассив в сложных временах: 'La casa è venuta venduta.'"
+      }
+     }
     },
     {
      "id": "e24",
@@ -5103,7 +5575,12 @@
      "q": "In 'Si vendono case' the verb is plural because it agrees with 'case'.",
      "answer": true,
      "explain_en": "Si passivante agrees with the noun, like the Russian «продаются дома».",
-     "explain_ru": "Si passivante согласуется с существительным, как в русском «продаются дома»."
+     "explain_ru": "Si passivante согласуется с существительным, как в русском «продаются дома».",
+     "ui": {
+      "ru": {
+       "q": "В 'Si vendono case' глагол стоит во множественном числе, потому что согласуется с 'case'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5111,7 +5588,12 @@
      "q": "'Questo lavoro va fatto subito' means 'This job must be done immediately'.",
      "answer": true,
      "explain_en": "Andare + participle = necessity.",
-     "explain_ru": "Andare + причастие = необходимость: «эту работу нужно сделать сразу»."
+     "explain_ru": "Andare + причастие = необходимость: «эту работу нужно сделать сразу».",
+     "ui": {
+      "ru": {
+       "q": "'Questo lavoro va fatto subito' означает «Эту работу нужно сделать немедленно»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5159,7 +5641,33 @@
        "si impersonale",
        "обобщённо-личное: «у нас едят»"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "essere + participio",
+         "the passive voice"
+        ],
+        [
+         "venire + participio",
+         "passive of process (simple tenses)"
+        ],
+        [
+         "andare + participio",
+         "must be done"
+        ],
+        [
+         "si passivante",
+         "passive with si: 'houses are sold'"
+        ],
+        [
+         "si impersonale",
+         "impersonal si: 'people eat', 'one eats'"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5181,7 +5689,29 @@
        "Quando si è giovani...",
        "Когда ты молод…"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Si parla italiano.",
+         "Italian is spoken here."
+        ],
+        [
+         "Si vendono biciclette.",
+         "Bicycles for sale."
+        ],
+        [
+         "Ci si diverte.",
+         "It's fun here."
+        ],
+        [
+         "Quando si è giovani...",
+         "When you're young..."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5691,7 +6221,12 @@
      "q": "'Uscendo di casa, ha cominciato a piovere' is correct, because the gerundio may have a different subject from the main verb.",
      "answer": false,
      "explain_en": "The gerundio needs the same subject, as the Russian деепричастие does: Mentre uscivo di casa, ha cominciato a piovere.",
-     "explain_ru": "У gerundio должно быть то же подлежащее, как у русского деепричастия: Mentre uscivo di casa, ha cominciato a piovere."
+     "explain_ru": "У gerundio должно быть то же подлежащее, как у русского деепричастия: Mentre uscivo di casa, ha cominciato a piovere.",
+     "ui": {
+      "ru": {
+       "q": "'Uscendo di casa, ha cominciato a piovere' — правильно, потому что у gerundio может быть другое подлежащее, чем у главного глагола."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5699,7 +6234,12 @@
      "q": "'Siccome' normally comes at the beginning of the sentence.",
      "answer": true,
      "explain_en": "Siccome piove, resto a casa; with the reason after the main clause use perché.",
-     "explain_ru": "Siccome piove, resto a casa; если причина стоит после главного предложения — perché."
+     "explain_ru": "Siccome piove, resto a casa; если причина стоит после главного предложения — perché.",
+     "ui": {
+      "ru": {
+       "q": "'Siccome' обычно стоит в начале предложения."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5707,7 +6247,15 @@
      "q": "'Infatti' means the same as Russian «фактически».",
      "answer": false,
      "explain_en": "Infatti confirms what was said: 'indeed, and in fact' = «и действительно».",
-     "explain_ru": "Infatti подтверждает сказанное: «и действительно, ведь». Это ложный друг."
+     "explain_ru": "Infatti подтверждает сказанное: «и действительно, ведь». Это ложный друг.",
+     "ui": {
+      "en": {
+       "q": "'Infatti' means the same as English 'actually' (= in reality, contrary to what was said)."
+      },
+      "ru": {
+       "q": "'Infatti' означает то же, что русское «фактически»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5737,7 +6285,37 @@
        "mentre",
        "в то время как"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "quindi",
+         "so, therefore"
+        ],
+        [
+         "però",
+         "however, but"
+        ],
+        [
+         "invece",
+         "instead, on the other hand"
+        ],
+        [
+         "infatti",
+         "indeed, in fact"
+        ],
+        [
+         "siccome",
+         "since, as"
+        ],
+        [
+         "mentre",
+         "while, whereas"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5763,7 +6341,33 @@
        "per partire",
        "чтобы уехать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "prima di partire",
+         "before leaving"
+        ],
+        [
+         "dopo essere partito",
+         "after leaving"
+        ],
+        [
+         "senza partire",
+         "without leaving"
+        ],
+        [
+         "invece di partire",
+         "instead of leaving"
+        ],
+        [
+         "per partire",
+         "in order to leave"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5785,7 +6389,29 @@
        "Sbagliando si impara.",
        "На ошибках учатся."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Leggendo, imparo.",
+         "By reading, I learn."
+        ],
+        [
+         "Essendo malato, non esco.",
+         "Since I'm ill, I'm not going out."
+        ],
+        [
+         "Tornando a casa, ho visto Anna.",
+         "On my way home, I saw Anna."
+        ],
+        [
+         "Sbagliando si impara.",
+         "You learn from your mistakes."
+        ]
+       ]
+      }
+     }
     }
    ]
   }

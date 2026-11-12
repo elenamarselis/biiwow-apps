@@ -480,7 +480,12 @@
      "q": "'Il plut' can be the passé simple of both pleuvoir and plaire.",
      "answer": true,
      "explain_en": "True: il plut = it rained / he (it) pleased; context decides.",
-     "explain_ru": "Верно: il plut — «пошёл дождь» или «понравился»; решает контекст."
+     "explain_ru": "Верно: il plut — «пошёл дождь» или «понравился»; решает контекст.",
+     "ui": {
+      "ru": {
+       "q": "«Il plut» может быть passé simple и от pleuvoir, и от plaire."
+      }
+     }
     },
     {
      "id": "e24",
@@ -488,7 +493,12 @@
      "q": "'Qu'il fut' (without a circumflex) is the imperfect subjunctive of être.",
      "answer": false,
      "explain_en": "False: the subjunctive is qu'il fût; il fut is the passé simple.",
-     "explain_ru": "Неверно: сослагательное — qu'il fût; il fut — это passé simple."
+     "explain_ru": "Неверно: сослагательное — qu'il fût; il fut — это passé simple.",
+     "ui": {
+      "ru": {
+       "q": "«Qu'il fut» (без циркумфлекса) — это imparfait du subjonctif глагола être."
+      }
+     }
     },
     {
      "id": "e25",
@@ -496,7 +506,12 @@
      "q": "In everyday modern French, 'Il fallait que tu viennes' is normal, while 'que tu vinsses' sounds pedantic or comic.",
      "answer": true,
      "explain_en": "True: the present subjunctive has replaced the imperfect subjunctive in speech.",
-     "explain_ru": "Верно: в речи subjonctif présent вытеснил imparfait du subjonctif."
+     "explain_ru": "Верно: в речи subjonctif présent вытеснил imparfait du subjonctif.",
+     "ui": {
+      "ru": {
+       "q": "В повседневном современном французском «Il fallait que tu viennes» звучит нормально, а «que tu vinsses» — педантично или комично."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1054,7 +1069,12 @@
      "q": "In 'advienne que pourra', both verbs are in the subjunctive.",
      "answer": false,
      "explain_en": "False: advienne is a subjunctive, pourra is a future.",
-     "explain_ru": "Неверно: advienne — subjonctif, а pourra — будущее время."
+     "explain_ru": "Неверно: advienne — subjonctif, а pourra — будущее время.",
+     "ui": {
+      "ru": {
+       "q": "В «advienne que pourra» оба глагола стоят в subjonctif."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1062,7 +1082,12 @@
      "q": "'Soit !' meaning 'all right, so be it' is pronounced with the final t: [swat].",
      "answer": true,
      "explain_en": "True: in this use the t is pronounced.",
-     "explain_ru": "Верно: в этом значении t произносится."
+     "explain_ru": "Верно: в этом значении t произносится.",
+     "ui": {
+      "ru": {
+       "q": "«Soit !» в значении «ладно, так и быть» произносится с конечным t: [swat]."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1070,7 +1095,12 @@
      "q": "'Que je sache' is mostly used in negative or interrogative contexts.",
      "answer": true,
      "explain_en": "True: Il n'est pas là, que je sache / Pas que je sache.",
-     "explain_ru": "Верно: Il n'est pas là, que je sache / Pas que je sache."
+     "explain_ru": "Верно: Il n'est pas là, que je sache / Pas que je sache.",
+     "ui": {
+      "ru": {
+       "q": "«Que je sache» употребляется в основном в отрицательных или вопросительных контекстах."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1096,7 +1126,33 @@
        "grand bien vous fasse",
        "на здоровье (иронично)"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "coûte que coûte",
+         "at all costs"
+        ],
+        [
+         "vaille que vaille",
+         "somehow or other, after a fashion"
+        ],
+        [
+         "qu'à cela ne tienne",
+         "no problem, never mind that"
+        ],
+        [
+         "advienne que pourra",
+         "come what may"
+        ],
+        [
+         "grand bien vous fasse",
+         "much good may it do you (ironic)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1391,7 +1447,12 @@
      ],
      "answer": 1,
      "explain_en": "Conditional of conjecture in a question.",
-     "explain_ru": "Conditionnel предположения в вопросе."
+     "explain_ru": "Conditionnel предположения в вопросе.",
+     "ui": {
+      "en": {
+       "q": "Il ne répond pas. ___-il malade ? (= Could he really be ill?)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -1626,7 +1687,12 @@
      "q": "'On dirait que' is normally followed by the indicative.",
      "answer": true,
      "explain_en": "True: on dirait qu'il va pleuvoir.",
-     "explain_ru": "Верно: on dirait qu'il va pleuvoir."
+     "explain_ru": "Верно: on dirait qu'il va pleuvoir.",
+     "ui": {
+      "ru": {
+       "q": "После «on dirait que» обычно употребляется изъявительное наклонение."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1634,7 +1700,12 @@
      "q": "'Il a pu se tromper' and 'Il aurait pu se tromper' always mean the same thing.",
      "answer": false,
      "explain_en": "False: a pu = maybe he did; aurait pu = he could have, but did not.",
-     "explain_ru": "Неверно: a pu — «возможно, ошибся»; aurait pu — «мог ошибиться, но не ошибся»."
+     "explain_ru": "Неверно: a pu — «возможно, ошибся»; aurait pu — «мог ошибиться, но не ошибся».",
+     "ui": {
+      "ru": {
+       "q": "«Il a pu se tromper» и «Il aurait pu se tromper» всегда означают одно и то же."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1642,7 +1713,12 @@
      "q": "'Il prétend qu'il est malade' means 'he claims he is ill', with some doubt implied.",
      "answer": true,
      "explain_en": "True: prétendre que = to claim; «претендовать» is prétendre à.",
-     "explain_ru": "Верно: prétendre que — «утверждать»; «претендовать» — prétendre à."
+     "explain_ru": "Верно: prétendre que — «утверждать»; «претендовать» — prétendre à.",
+     "ui": {
+      "ru": {
+       "q": "«Il prétend qu'il est malade» значит «он утверждает, что болен», с оттенком сомнения."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1668,7 +1744,33 @@
        "de l'aveu même de",
        "по признанию самого"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "tout porte à croire que",
+         "everything suggests that"
+        ],
+        [
+         "il y a fort à parier que",
+         "it's a safe bet that"
+        ],
+        [
+         "selon toute vraisemblance",
+         "in all likelihood"
+        ],
+        [
+         "à l'en croire",
+         "if he is to be believed"
+        ],
+        [
+         "de l'aveu même de",
+         "by the admission of … himself"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1694,7 +1796,33 @@
        "Je voudrais un café.",
        "вежливость"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Le ministre serait malade.",
+         "unverified information"
+        ],
+        [
+         "Aurait-il oublié ?",
+         "tentative supposition"
+        ],
+        [
+         "Moi, je l'aurais trahi ?",
+         "indignant denial"
+        ],
+        [
+         "Il a dit qu'il viendrait.",
+         "future in the past"
+        ],
+        [
+         "Je voudrais un café.",
+         "politeness"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1720,7 +1848,33 @@
        "présumé",
        "предполагаемый"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "prétendre que",
+         "to claim (doubtfully)"
+        ],
+        [
+         "prétendre à",
+         "to aspire to, lay claim to"
+        ],
+        [
+         "soutenir que",
+         "to maintain that"
+        ],
+        [
+         "alléguer",
+         "to plead, cite as an excuse"
+        ],
+        [
+         "présumé",
+         "alleged, presumed"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2211,7 +2365,12 @@
      "q": "In correlatives, French uses no article: 'Plus il lit, plus il apprend'.",
      "answer": true,
      "explain_en": "True: *Le plus il lit… is wrong.",
-     "explain_ru": "Верно: *Le plus il lit… — ошибка."
+     "explain_ru": "Верно: *Le plus il lit… — ошибка.",
+     "ui": {
+      "ru": {
+       "q": "В соотносительных конструкциях французский обходится без артикля: «Plus il lit, plus il apprend»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2219,7 +2378,12 @@
      "q": "'De sorte que' always takes the subjunctive.",
      "answer": false,
      "explain_en": "False: indicative for a result, subjunctive for a purpose.",
-     "explain_ru": "Неверно: indicatif для следствия, subjonctif для цели."
+     "explain_ru": "Неверно: indicatif для следствия, subjonctif для цели.",
+     "ui": {
+      "ru": {
+       "q": "После «de sorte que» всегда употребляется subjonctif."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2227,7 +2391,12 @@
      "q": "'Si tant est que' is followed by the subjunctive.",
      "answer": true,
      "explain_en": "True: si tant est qu'il vienne…",
-     "explain_ru": "Верно: si tant est qu'il vienne…"
+     "explain_ru": "Верно: si tant est qu'il vienne…",
+     "ui": {
+      "ru": {
+       "q": "После «si tant est que» употребляется subjonctif."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2253,7 +2422,33 @@
        "d'autant plus que",
        "тем более что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "si bien que",
+         "so that, with the result that"
+        ],
+        [
+         "pour peu que",
+         "if only, provided … at all"
+        ],
+        [
+         "si tant est que",
+         "if indeed, assuming that"
+        ],
+        [
+         "non que",
+         "not that"
+        ],
+        [
+         "d'autant plus que",
+         "all the more so since"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2572,7 +2767,12 @@
      ],
      "answer": 1,
      "explain_en": "Fear → subjunctive with optional ne explétif, which is not negative.",
-     "explain_ru": "Страх → subjonctif с факультативным ne explétif, который не отрицает."
+     "explain_ru": "Страх → subjonctif с факультативным ne explétif, который не отрицает.",
+     "ui": {
+      "en": {
+       "q": "Je crains qu'il ___ trop tard. (= I'm afraid it's already too late.)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -2777,7 +2977,12 @@
      "q": "In 'Je crains qu'il ne vienne', ne makes the clause negative.",
      "answer": false,
      "explain_en": "False: it is ne explétif; the meaning is 'I fear he will come'.",
-     "explain_ru": "Неверно: это ne explétif; смысл — «боюсь, что он придёт»."
+     "explain_ru": "Неверно: это ne explétif; смысл — «боюсь, что он придёт».",
+     "ui": {
+      "ru": {
+       "q": "В «Je crains qu'il ne vienne» ne делает придаточное отрицательным."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2785,7 +2990,12 @@
      "q": "'Vas-y' takes an -s because y follows directly.",
      "answer": true,
      "explain_en": "True: euphonic -s before y and en.",
-     "explain_ru": "Верно: благозвучное -s перед y и en."
+     "explain_ru": "Верно: благозвучное -s перед y и en.",
+     "ui": {
+      "ru": {
+       "q": "«Vas-y» пишется с -s, потому что сразу за ним следует y."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2793,7 +3003,12 @@
      "q": "'Donnez-moi-le' is the standard written order.",
      "answer": false,
      "explain_en": "False: the standard order is donnez-le-moi.",
-     "explain_ru": "Неверно: нормативный порядок — donnez-le-moi."
+     "explain_ru": "Неверно: нормативный порядок — donnez-le-moi.",
+     "ui": {
+      "ru": {
+       "q": "«Donnez-moi-le» — нормативный письменный порядок слов."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2845,7 +3060,33 @@
        "c'en est fait de",
        "покончено с"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "s'en tenir à",
+         "to stick to"
+        ],
+        [
+         "il n'en est rien",
+         "nothing of the kind"
+        ],
+        [
+         "s'en remettre à",
+         "to rely on, leave it to"
+        ],
+        [
+         "en venir aux mains",
+         "to come to blows"
+        ],
+        [
+         "c'en est fait de",
+         "it's all over for"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2867,7 +3108,29 @@
        "Je ne saurais le dire.",
        "Не могу сказать."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Je te l'avais dit.",
+         "I told you so."
+        ],
+        [
+         "Elle est plus âgée qu'elle ne le paraît.",
+         "She is older than she looks."
+        ],
+        [
+         "Heureux ? Je le suis.",
+         "Happy? Yes, I am."
+        ],
+        [
+         "Je ne saurais le dire.",
+         "I couldn't say."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3197,7 +3460,12 @@
      ],
      "answer": 3,
      "explain_en": "Attenuating suffix -oter: toussoter.",
-     "explain_ru": "Суффикс ослабления -oter: toussoter."
+     "explain_ru": "Суффикс ослабления -oter: toussoter.",
+     "ui": {
+      "en": {
+       "q": "Le vieil homme ___ dans son coin. (was coughing quietly)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -3372,7 +3640,12 @@
      "q": "Nouns in -age are always masculine.",
      "answer": false,
      "explain_en": "False: la page, la plage, la cage, l'image, la rage, la nage.",
-     "explain_ru": "Неверно: la page, la plage, la cage, l'image, la rage, la nage."
+     "explain_ru": "Неверно: la page, la plage, la cage, l'image, la rage, la nage.",
+     "ui": {
+      "ru": {
+       "q": "Существительные на -age всегда мужского рода."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3380,7 +3653,12 @@
      "q": "'Rougeâtre' simply means 'red' with no nuance.",
      "answer": false,
      "explain_en": "False: -âtre means 'approximately, unpleasantly' (reddish).",
-     "explain_ru": "Неверно: -âtre значит «неопределённо, неприятно» («красноватый»)."
+     "explain_ru": "Неверно: -âtre значит «неопределённо, неприятно» («красноватый»).",
+     "ui": {
+      "ru": {
+       "q": "«Rougeâtre» просто значит «красный», без всякого оттенка."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3388,7 +3666,12 @@
      "q": "'Digital' traditionally refers to fingers in French; 'numérique' is preferred for digital technology.",
      "answer": true,
      "explain_en": "True: empreintes digitales, but la télévision numérique.",
-     "explain_ru": "Верно: empreintes digitales, но la télévision numérique."
+     "explain_ru": "Верно: empreintes digitales, но la télévision numérique.",
+     "ui": {
+      "ru": {
+       "q": "Во французском «digital» традиционно относится к пальцам; для цифровых технологий предпочтительно «numérique»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3981,7 +4264,12 @@
      "q": "In standard French the nationality noun takes a capital but the language name does not: 'un Français parle français'.",
      "answer": true,
      "explain_en": "True: Français (person), français (language, adjective).",
-     "explain_ru": "Верно: Français — человек, français — язык и прилагательное."
+     "explain_ru": "Верно: Français — человек, français — язык и прилагательное.",
+     "ui": {
+      "ru": {
+       "q": "В нормативном французском существительное-название национальности пишется с заглавной, а название языка — со строчной: «un Français parle français»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3989,7 +4277,12 @@
      "q": "'Une tout autre question' and 'toute autre question' mean the same thing.",
      "answer": false,
      "explain_en": "False: tout autre (adverb) = entirely different; toute autre (adjective) = any other.",
-     "explain_ru": "Неверно: tout autre (наречие) — «совсем другой»; toute autre (прилагательное) — «любой другой»."
+     "explain_ru": "Неверно: tout autre (наречие) — «совсем другой»; toute autre (прилагательное) — «любой другой».",
+     "ui": {
+      "ru": {
+       "q": "«Une tout autre question» и «toute autre question» означают одно и то же."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3997,7 +4290,12 @@
      "q": "Since 1990 'il connait' is accepted, but 'qu'il fût' keeps its circumflex.",
      "answer": true,
      "explain_en": "True: the circumflex stays when it distinguishes verb forms.",
-     "explain_ru": "Верно: циркумфлекс сохраняется там, где различает формы глагола."
+     "explain_ru": "Верно: циркумфлекс сохраняется там, где различает формы глагола.",
+     "ui": {
+      "ru": {
+       "q": "С 1990 года допускается «il connait», но «qu'il fût» сохраняет циркумфлекс."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4563,7 +4861,12 @@
      "q": "'Pallier à un problème' is the standard construction.",
      "answer": false,
      "explain_en": "False: pallier un problème (direct); remédier à un problème.",
-     "explain_ru": "Неверно: pallier un problème (прямое дополнение); remédier à un problème."
+     "explain_ru": "Неверно: pallier un problème (прямое дополнение); remédier à un problème.",
+     "ui": {
+      "ru": {
+       "q": "«Pallier à un problème» — нормативная конструкция."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4571,7 +4874,12 @@
      "q": "'Dans le Var' is the usual way to say 'in the Var department'.",
      "answer": true,
      "explain_en": "True: masculine departments take dans le: dans le Var, dans le Nord.",
-     "explain_ru": "Верно: с департаментами мужского рода — dans le: dans le Var, dans le Nord."
+     "explain_ru": "Верно: с департаментами мужского рода — dans le: dans le Var, dans le Nord.",
+     "ui": {
+      "ru": {
+       "q": "«Dans le Var» — обычный способ сказать «в департаменте Вар»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4579,7 +4887,12 @@
      "q": "'Il aime et se souvient de son enfance' is correct because both verbs share the complement.",
      "answer": false,
      "explain_en": "False: the verbs have different constructions; say Il aime son enfance et s'en souvient.",
-     "explain_ru": "Неверно: у глаголов разное управление; нужно Il aime son enfance et s'en souvient."
+     "explain_ru": "Неверно: у глаголов разное управление; нужно Il aime son enfance et s'en souvient.",
+     "ui": {
+      "ru": {
+       "q": "«Il aime et se souvient de son enfance» правильно, потому что у обоих глаголов общее дополнение."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4605,7 +4918,33 @@
        "parer à toute éventualité",
        "подготовиться ко всему"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "pallier qqch",
+         "to make up for something"
+        ],
+        [
+         "remédier à qqch",
+         "to remedy something"
+        ],
+        [
+         "obvier à qqch",
+         "to obviate, prevent something"
+        ],
+        [
+         "parer un coup",
+         "to parry a blow"
+        ],
+        [
+         "parer à toute éventualité",
+         "to be prepared for any eventuality"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5164,7 +5503,12 @@
      "q": "'Je voulais vous demander…' refers only to a wish in the past.",
      "answer": false,
      "explain_en": "False: it is an imperfect of politeness for a present request.",
-     "explain_ru": "Неверно: это imparfait вежливости для нынешней просьбы."
+     "explain_ru": "Неверно: это imparfait вежливости для нынешней просьбы.",
+     "ui": {
+      "ru": {
+       "q": "«Je voulais vous demander…» выражает только желание в прошлом."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5172,7 +5516,12 @@
      "q": "'Ce n'est pas bête' is a litotes that usually means 'that's a good idea'.",
      "answer": true,
      "explain_en": "True: negating the opposite strengthens the praise.",
-     "explain_ru": "Верно: отрицание противоположного усиливает похвалу."
+     "explain_ru": "Верно: отрицание противоположного усиливает похвалу.",
+     "ui": {
+      "ru": {
+       "q": "«Ce n'est pas bête» — литота, которая обычно значит «это хорошая идея»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5180,7 +5529,12 @@
      "q": "'Voire' introduces a stronger term, like 'and even'.",
      "answer": true,
      "explain_en": "True: difficile, voire impossible.",
-     "explain_ru": "Верно: difficile, voire impossible."
+     "explain_ru": "Верно: difficile, voire impossible.",
+     "ui": {
+      "ru": {
+       "q": "«Voire» вводит более сильный термин, как «и даже»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5206,7 +5560,33 @@
        "somme toute",
        "в конечном счёте"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "autrement dit",
+         "in other words"
+        ],
+        [
+         "bref",
+         "in short"
+        ],
+        [
+         "voire",
+         "or even"
+        ],
+        [
+         "du moins",
+         "at least"
+        ],
+        [
+         "somme toute",
+         "all things considered"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5250,7 +5630,29 @@
        "Je vous saurais gré de",
        "Буду признателен, если"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Je me permets de vous relancer",
+         "May I kindly remind you"
+        ],
+        [
+         "Dans l'attente de votre réponse",
+         "Looking forward to your reply"
+        ],
+        [
+         "Je reste à votre disposition",
+         "I remain at your disposal"
+        ],
+        [
+         "Je vous saurais gré de",
+         "I would be grateful if you would"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5760,7 +6162,12 @@
      "q": "In Belgium, 'Je ne sais pas venir' can mean 'I can't come'.",
      "answer": true,
      "explain_en": "True: Belgian savoir = pouvoir.",
-     "explain_ru": "Верно: в Бельгии savoir употребляется в значении pouvoir."
+     "explain_ru": "Верно: в Бельгии savoir употребляется в значении pouvoir.",
+     "ui": {
+      "ru": {
+       "q": "В Бельгии «Je ne sais pas venir» может значить «Я не могу прийти»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5768,7 +6175,12 @@
      "q": "'Malgré que' is the recommended conjunction in careful written French.",
      "answer": false,
      "explain_en": "False: use bien que or quoique.",
-     "explain_ru": "Неверно: следует использовать bien que или quoique."
+     "explain_ru": "Неверно: следует использовать bien que или quoique.",
+     "ui": {
+      "ru": {
+       "q": "«Malgré que» — рекомендуемый союз в тщательной письменной речи."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5776,7 +6188,12 @@
      "q": "In Switzerland and Belgium, 'le dîner' traditionally means the midday meal.",
      "answer": true,
      "explain_en": "True: déjeuner – dîner – souper.",
-     "explain_ru": "Верно: déjeuner – dîner – souper (завтрак – обед – ужин)."
+     "explain_ru": "Верно: déjeuner – dîner – souper (завтрак – обед – ужин).",
+     "ui": {
+      "ru": {
+       "q": "В Швейцарии и Бельгии «le dîner» традиционно означает обед (дневной приём пищи)."
+      }
+     }
     },
     {
      "id": "e26",
