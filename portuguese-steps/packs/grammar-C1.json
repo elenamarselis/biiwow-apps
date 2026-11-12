@@ -11,7 +11,7 @@
     {
      "title_en": "Past before the past",
      "title_ru": "Прошедшее раньше прошедшего",
-     "body_en": "The mais-que-perfeito simples means the same as the compound form tinha + participle: it places one past event before another. Quando cheguei, ele já saíra = Quando cheguei, ele já tinha saído. Russian has no special tense for this and uses an ordinary past verb, often with уже or до этого; Portuguese marks the earlier action in the verb itself.",
+     "body_en": "The mais-que-perfeito simples means the same as the compound form tinha + participle: it places one past event before another. Quando cheguei, ele já saíra = Quando cheguei, ele já tinha saído. Russian has no special tense for this and uses an ordinary past verb, often with 'already' or 'before that'; Portuguese marks the earlier action in the verb itself.",
      "body_ru": "Простой плюсквамперфект значит то же, что составная форма tinha + причастие: он показывает, что одно прошедшее событие произошло раньше другого. Quando cheguei, ele já saíra = Quando cheguei, ele já tinha saído — Когда я пришёл, он уже ушёл. В русском особого времени для этого нет: мы используем обычное прошедшее, часто со словами «уже», «до этого». В португальском более раннее действие отмечено самой формой глагола.",
      "examples": [
       {
@@ -220,7 +220,12 @@
      ],
      "answer": 1,
      "explain_en": "From the perfeito stem fiz- (fizeram) → fizera. Fizesse is the imperfeito do conjuntivo, faria the condicional.",
-     "explain_ru": "От основы perfeito fiz- (fizeram) → fizera. Fizesse — imperfeito do conjuntivo, faria — condicional."
+     "explain_ru": "От основы perfeito fiz- (fizeram) → fizera. Fizesse — imperfeito do conjuntivo, faria — condicional.",
+     "ui": {
+      "ru": {
+       "q": "Какая форма — mais-que-perfeito simples глагола fazer (eu)?"
+      }
+     }
     },
     {
      "id": "e03",
@@ -262,7 +267,12 @@
      ],
      "answer": 3,
      "explain_en": "In speech the compound form tinha saído is normal; saíra is correct but bookish.",
-     "explain_ru": "В разговоре нормальна составная форма tinha saído; saíra правильно, но звучит книжно."
+     "explain_ru": "В разговоре нормальна составная форма tinha saído; saíra правильно, но звучит книжно.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение звучит естественнее всего в повседневной речи?"
+      }
+     }
     },
     {
      "id": "e06",
@@ -290,7 +300,18 @@
      ],
      "answer": 2,
      "explain_en": "Fora + participle = tinha sido + participle: 'had been built'.",
-     "explain_ru": "Fora + причастие = tinha sido + причастие: «был построен (раньше)»."
+     "explain_ru": "Fora + причастие = tinha sido + причастие: «был построен (раньше)».",
+     "ui": {
+      "ru": {
+       "q": "Что означает «O edifício fora construído no século XVIII»?",
+       "options": [
+        "Здание было снаружи, построено в XVIII веке.",
+        "Здание будет построено в XVIII веке.",
+        "Здание было построено в XVIII веке (ещё раньше).",
+        "Здание строится в стиле XVIII века."
+       ]
+      }
+     }
     },
     {
      "id": "e08",
@@ -318,7 +339,18 @@
      ],
      "answer": 1,
      "explain_en": "Portuguese fizera is indicative = tinha feito. The Spanish subjunctive hiciera corresponds to Portuguese fizesse.",
-     "explain_ru": "Португальское fizera — изъявительное наклонение = tinha feito. Испанскому hiciera соответствует португальское fizesse."
+     "explain_ru": "Португальское fizera — изъявительное наклонение = tinha feito. Испанскому hiciera соответствует португальское fizesse.",
+     "ui": {
+      "ru": {
+       "q": "В отличие от испанского «hiciera», португальское «fizera» означает:",
+       "options": [
+        "я бы сделал (сослагательное наклонение)",
+        "я сделал (раньше другого события в прошлом)",
+        "я сделаю (к какому-то моменту)",
+        "я делал"
+       ]
+      }
+     }
     },
     {
      "id": "e10",
@@ -476,7 +508,12 @@
      "q": "'Fizera' and 'tinha feito' have the same meaning.",
      "answer": true,
      "explain_en": "Both are the pluperfect; fizera is simply the written, more formal form.",
-     "explain_ru": "Обе формы — плюсквамперфект; fizera — просто письменная, более книжная форма."
+     "explain_ru": "Обе формы — плюсквамперфект; fizera — просто письменная, более книжная форма.",
+     "ui": {
+      "ru": {
+       "q": "«Fizera» и «tinha feito» имеют одинаковое значение."
+      }
+     }
     },
     {
      "id": "e24",
@@ -484,7 +521,12 @@
      "q": "The nós form of falar in the mais-que-perfeito simples is written 'falaramos', without an accent.",
      "answer": false,
      "explain_en": "It is faláramos: the nós and vós forms always carry an accent.",
-     "explain_ru": "Правильно faláramos: формы nós и vós всегда пишутся со знаком ударения."
+     "explain_ru": "Правильно faláramos: формы nós и vós всегда пишутся со знаком ударения.",
+     "ui": {
+      "ru": {
+       "q": "Форма nós глагола falar в mais-que-perfeito simples пишется «falaramos», без ударения."
+      }
+     }
     },
     {
      "id": "e25",
@@ -492,7 +534,12 @@
      "q": "In everyday conversation in Portugal people mostly say 'fizera' rather than 'tinha feito'.",
      "answer": false,
      "explain_en": "In speech tinha feito dominates; fizera is typical of writing.",
-     "explain_ru": "В речи преобладает tinha feito; fizera типично для письменных текстов."
+     "explain_ru": "В речи преобладает tinha feito; fizera типично для письменных текстов.",
+     "ui": {
+      "ru": {
+       "q": "В повседневной речи в Португалии обычно говорят «fizera», а не «tinha feito»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -566,7 +613,29 @@
        "como sempre fizera",
        "как делал всегда"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Pudera!",
+         "No wonder!"
+        ],
+        [
+         "Tomara que sim!",
+         "I really hope so!"
+        ],
+        [
+         "Mais valera…",
+         "It would have been better…"
+        ],
+        [
+         "como sempre fizera",
+         "as he had always done"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -580,7 +649,7 @@
     {
      "title_en": "Dizer, escrever, insistir: information or instruction",
      "title_ru": "Dizer, escrever, insistir: сообщение или указание",
-     "body_en": "Verbs of saying take the indicative when they report information and the conjuntivo when they report an instruction. Disse-lhe que vinha = I told him I was coming; Disse-lhe que viesse = I told him to come. The same applies to escrever, gritar, avisar and insistir: Ele insiste que não fez nada (claims) vs Insisto que venhas (demand). Russian marks the instruction with чтобы; Portuguese with the conjuntivo.",
+     "body_en": "Verbs of saying take the indicative when they report information and the conjuntivo when they report an instruction. Disse-lhe que vinha = I told him I was coming; Disse-lhe que viesse = I told him to come. The same applies to escrever, gritar, avisar and insistir: Ele insiste que não fez nada (claims) vs Insisto que venhas (demand). Russian marks the instruction with the conjunction 'chtoby'; Portuguese with the conjuntivo.",
      "body_ru": "Глаголы речи требуют изъявительного наклонения, когда передают информацию, и conjuntivo, когда передают указание. Disse-lhe que vinha — Я сказал ему, что приду; Disse-lhe que viesse — Я сказал ему, чтобы он пришёл. Так же ведут себя escrever, gritar, avisar и insistir: Ele insiste que não fez nada (утверждает) — Insisto que venhas (требую). В русском указание отмечает союз «чтобы», в португальском — conjuntivo.",
      "examples": [
       {
@@ -649,7 +718,7 @@
     {
      "title_en": "Supor: assumption or hypothesis",
      "title_ru": "Supor: предположение или допущение",
-     "body_en": "Supor que + indicative states what you assume is true: Suponho que já sabes a notícia. The imperative suponhamos (let us suppose) or vamos supor introduces a hypothesis and takes the conjuntivo: Suponhamos que o plano falhe. Russian distinguishes similarly between полагаю, что… and допустим, что…",
+     "body_en": "Supor que + indicative states what you assume is true: Suponho que já sabes a notícia. The imperative suponhamos (let us suppose) or vamos supor introduces a hypothesis and takes the conjuntivo: Suponhamos que o plano falhe. English makes a similar distinction between 'I suppose that…' and 'let's suppose that…'.",
      "body_ru": "Supor que + изъявительное выражает то, что вы считаете вероятной правдой: Suponho que já sabes a notícia — Полагаю, ты уже знаешь новость. Повелительная форма suponhamos («предположим») или vamos supor вводит гипотезу и требует conjuntivo: Suponhamos que o plano falhe — Допустим, план провалится. В русском похоже различаются «полагаю, что…» и «допустим, что…».",
      "examples": [
       {
@@ -718,7 +787,7 @@
     {
      "title_en": "Oxalá: three degrees of a wish",
      "title_ru": "Oxalá: три степени желания",
-     "body_en": "Oxalá (from Arabic 'if God wills') always takes the conjuntivo. Present: a realistic wish (Oxalá chova!). Imperfeito: an unlikely or contrary-to-fact wish (Oxalá ele estivesse aqui!). Mais-que-perfeito: regret about the past (Oxalá eu tivesse sabido!). Oxalá que… also exists. Russian uses хоть бы / если бы with a past form; Portuguese changes the tense instead.",
+     "body_en": "Oxalá (from Arabic 'if God wills') always takes the conjuntivo. Present: a realistic wish (Oxalá chova!). Imperfeito: an unlikely or contrary-to-fact wish (Oxalá ele estivesse aqui!). Mais-que-perfeito: regret about the past (Oxalá eu tivesse sabido!). Oxalá que… also exists. Russian uses 'khot' by' / 'esli by' (if only) with a past form; Portuguese changes the tense instead.",
      "body_ru": "Oxalá (из арабского «если пожелает Бог») всегда требует conjuntivo. Настоящее — реальное желание (Oxalá chova! — Хоть бы пошёл дождь!). Imperfeito — маловероятное или нереальное (Oxalá ele estivesse aqui! — Вот бы он был здесь!). Mais-que-perfeito — сожаление о прошлом (Oxalá eu tivesse sabido! — Если бы я знал!). Встречается и oxalá que… В русском «хоть бы / если бы» + прошедшее, а в португальском меняется время.",
      "examples": [
       {
@@ -1073,8 +1142,13 @@
      "type": "tf",
      "q": "'Disse-lhe que viesse' reports an instruction, while 'Disse-lhe que vinha' reports information.",
      "answer": true,
-     "explain_en": "Conjuntivo = instruction (чтобы), indicative = information (что).",
-     "explain_ru": "Conjuntivo — указание («чтобы»), изъявительное — информация («что»)."
+     "explain_en": "Conjuntivo = instruction (to do something), indicative = information (that something is so).",
+     "explain_ru": "Conjuntivo — указание («чтобы»), изъявительное — информация («что»).",
+     "ui": {
+      "ru": {
+       "q": "«Disse-lhe que viesse» передаёт указание, а «Disse-lhe que vinha» — информацию."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1082,7 +1156,12 @@
      "q": "After 'se calhar' the conjuntivo is used: 'Se calhar ele venha.'",
      "answer": false,
      "explain_en": "Se calhar takes the indicative: Se calhar ele vem.",
-     "explain_ru": "После se calhar ставится изъявительное: Se calhar ele vem."
+     "explain_ru": "После se calhar ставится изъявительное: Se calhar ele vem.",
+     "ui": {
+      "ru": {
+       "q": "После «se calhar» употребляется conjuntivo: «Se calhar ele venha.»"
+      }
+     }
     },
     {
      "id": "e25",
@@ -1090,7 +1169,12 @@
      "q": "'Oxalá' with the imperfeito do conjuntivo expresses a wish that is unlikely or contrary to fact.",
      "answer": true,
      "explain_en": "Oxalá estivesse aqui = I wish he were here (but he isn't).",
-     "explain_ru": "Oxalá estivesse aqui — Вот бы он был здесь (но его нет)."
+     "explain_ru": "Oxalá estivesse aqui — Вот бы он был здесь (но его нет).",
+     "ui": {
+      "ru": {
+       "q": "«Oxalá» с imperfeito do conjuntivo выражает маловероятное или нереальное желание."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1112,7 +1196,29 @@
        "Disse-lhe que viesse.",
        "Я сказал ему, чтобы он пришёл."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Sinto que estás triste.",
+         "I can tell you're sad."
+        ],
+        [
+         "Sinto muito que estejas triste.",
+         "I'm so sorry you're sad."
+        ],
+        [
+         "Disse-lhe que vinha.",
+         "I told him I would come."
+        ],
+        [
+         "Disse-lhe que viesse.",
+         "I told him to come."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1130,7 +1236,25 @@
        "Oxalá tivesse vindo!",
        "сожаление о прошлом"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Oxalá venha!",
+         "a real wish about the future"
+        ],
+        [
+         "Oxalá viesse!",
+         "an unlikely or unreal wish"
+        ],
+        [
+         "Oxalá tivesse vindo!",
+         "regret about the past"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1152,7 +1276,29 @@
        "Suponhamos que ele não venha.",
        "Допустим, он не придёт."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Admito que errei.",
+         "I admit I was wrong."
+        ],
+        [
+         "Não admito que me mintas.",
+         "I won't let you lie to me."
+        ],
+        [
+         "Suponho que já sabes.",
+         "I suppose you already know."
+        ],
+        [
+         "Suponhamos que ele não venha.",
+         "Let's suppose he doesn't come."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1212,7 +1358,7 @@
     {
      "title_en": "3rd person plural with no subject",
      "title_ru": "3-е лицо мн. ч. без подлежащего",
-     "body_en": "As in Russian (Говорят…, У меня украли…), Portuguese uses the 3rd person plural without a subject for an unknown or unimportant agent: Dizem que vai chover. Roubaram-me a carteira. Estão a bater à porta. It is neutral and very frequent in speech. It excludes the speaker: Dizem que… means 'people say', not 'we say'.",
+     "body_en": "As in Russian ('They say…', 'They stole my…' with no subject), Portuguese uses the 3rd person plural without a subject for an unknown or unimportant agent: Dizem que vai chover. Roubaram-me a carteira. Estão a bater à porta. It is neutral and very frequent in speech. It excludes the speaker: Dizem que… means 'people say', not 'we say'.",
      "body_ru": "Как и в русском («Говорят…», «У меня украли…»), португальский использует 3-е лицо множественного числа без подлежащего, когда деятель неизвестен или не важен: Dizem que vai chover — Говорят, будет дождь. Roubaram-me a carteira — У меня украли кошелёк. Estão a bater à porta — Стучат в дверь. Это нейтральный и очень частый в речи способ. Говорящий в него не входит: Dizem que… — «говорят», а не «мы говорим».",
      "examples": [
       {
@@ -1258,7 +1404,7 @@
     {
      "title_en": "Uma pessoa and generic tu",
      "title_ru": "Uma pessoa и обобщённое tu",
-     "body_en": "Uma pessoa (or a pessoa) means 'one, a person' and usually includes the speaker, often with a complaining tone: Uma pessoa esforça-se e ninguém agradece. In informal speech generic tu works like the Russian generic 2nd person (едешь, видишь…): Quando vais a Lisboa, vês logo o rio. In formal writing both are replaced by se.",
+     "body_en": "Uma pessoa (or a pessoa) means 'one, a person' and usually includes the speaker, often with a complaining tone: Uma pessoa esforça-se e ninguém agradece. In informal speech generic tu works like the generic 'you' in English (and the generic 2nd person in Russian): Quando vais a Lisboa, vês logo o rio. In formal writing both are replaced by se.",
      "body_ru": "Uma pessoa (или a pessoa) значит «человек» и обычно включает самого говорящего, часто с оттенком жалобы: Uma pessoa esforça-se e ninguém agradece — Стараешься-стараешься, а никто спасибо не скажет. В неформальной речи обобщённое tu работает как русское обобщённое 2-е лицо («едешь, видишь…»): Quando vais a Lisboa, vês logo o rio. В официальном письме оба варианта заменяются на se.",
      "examples": [
       {
@@ -1281,7 +1427,7 @@
     {
      "title_en": "Reflexive verbs: no double se",
      "title_ru": "Возвратные глаголы: двойного se не бывает",
-     "body_en": "A reflexive verb already contains se, so it cannot take an indeterminate se as well: 'levanta-se-se' is impossible. To say 'one gets up early', use as pessoas, a gente or uma pessoa: Aqui as pessoas levantam-se cedo. Russian has no such clash because it uses -ся and the 3rd person plural (встают рано).",
+     "body_en": "A reflexive verb already contains se, so it cannot take an indeterminate se as well: 'levanta-se-se' is impossible. To say 'one gets up early', use as pessoas, a gente or uma pessoa: Aqui as pessoas levantam-se cedo. Russian has no such clash because it uses the reflexive suffix and the 3rd person plural ('they get up early').",
      "body_ru": "В возвратном глаголе уже есть se, поэтому добавить к нему ещё неопределённое se нельзя: «levanta-se-se» невозможно. Чтобы сказать «здесь встают рано», используйте as pessoas, a gente или uma pessoa: Aqui as pessoas levantam-se cedo. В русском такого конфликта нет: там -ся и 3-е лицо мн. ч. («встают рано»).",
      "examples": [
       {
@@ -1327,7 +1473,7 @@
     {
      "title_en": "Formal impersonal formulas",
      "title_ru": "Официальные безличные формулы",
-     "body_en": "Academic and official texts avoid personal subjects with formulas such as: sabe-se que, considera-se que, verifica-se (um aumento), constata-se, é sabido que, convém + infinitive, importa sublinhar, há que + infinitive (one must). Há que ter cuidado is typical of Portugal. Russian equivalents are известно, что…, наблюдается…, следует…",
+     "body_en": "Academic and official texts avoid personal subjects with formulas such as: sabe-se que, considera-se que, verifica-se (um aumento), constata-se, é sabido que, convém + infinitive, importa sublinhar, há que + infinitive (one must). Há que ter cuidado is typical of Portugal. English equivalents are 'it is known that…', 'there is…', 'one should…'.",
      "body_ru": "Научные и официальные тексты избегают личного подлежащего с помощью формул: sabe-se que — известно, что; considera-se que — считается, что; verifica-se (um aumento) — наблюдается (рост); constata-se — констатируется; é sabido que — общеизвестно, что; convém + инфинитив — следует; importa sublinhar — важно подчеркнуть; há que + инфинитив — нужно. Há que ter cuidado особенно типично для Португалии.",
      "examples": [
       {
@@ -1388,7 +1534,7 @@
       "roubaram"
      ],
      "answer": 3,
-     "explain_en": "Unknown agent → 3rd person plural without a subject: roubaram (like Russian 'угнали').",
+     "explain_en": "Unknown agent → 3rd person plural without a subject: roubaram (as in Russian, 'they stole' with no subject).",
      "explain_ru": "Неизвестный деятель → 3-е лицо мн. ч. без подлежащего: roubaram (как русское «угнали»)."
     },
     {
@@ -1403,7 +1549,12 @@
      ],
      "answer": 2,
      "explain_en": "Either indeterminate se (diz-se) or the 3rd person plural (dizem) — not both.",
-     "explain_ru": "Либо неопределённое se (diz-se), либо 3-е лицо мн. ч. (dizem) — но не одновременно."
+     "explain_ru": "Либо неопределённое se (diz-se), либо 3-е лицо мн. ч. (dizem) — но не одновременно.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение НЕДОПУСТИМО?"
+      }
+     }
     },
     {
      "id": "e05",
@@ -1473,7 +1624,12 @@
      ],
      "answer": 2,
      "explain_en": "Transitive verb + object without preposition → passive se with agreement: vendem-se.",
-     "explain_ru": "Переходный глагол + дополнение без предлога → пассивное se с согласованием: vendem-se."
+     "explain_ru": "Переходный глагол + дополнение без предлога → пассивное se с согласованием: vendem-se.",
+     "ui": {
+      "ru": {
+       "q": "Выберите предложение, соответствующее литературной норме:"
+      }
+     }
     },
     {
      "id": "e10",
@@ -1560,7 +1716,7 @@
      "answer": [
       "telefonaram"
      ],
-     "explain_en": "Unknown caller → 3rd person plural: telefonaram (Russian 'звонили').",
+     "explain_en": "Unknown caller → 3rd person plural: telefonaram (as in Russian, 'they called' with no subject).",
      "explain_ru": "Неизвестно, кто звонил → 3-е лицо мн. ч.: telefonaram («звонили»)."
     },
     {
@@ -1633,7 +1789,12 @@
      "q": "'Precisam-se de empregados' is correct because 'empregados' is plural.",
      "answer": false,
      "explain_en": "After a preposition the noun is not the subject: Precisa-se de empregados.",
-     "explain_ru": "После предлога существительное не подлежащее: Precisa-se de empregados."
+     "explain_ru": "После предлога существительное не подлежащее: Precisa-se de empregados.",
+     "ui": {
+      "ru": {
+       "q": "«Precisam-se de empregados» — правильно, потому что «empregados» стоит во множественном числе."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1641,7 +1802,15 @@
      "q": "Portuguese 'Dizem que…' without a subject corresponds to Russian 'Говорят, что…'.",
      "answer": true,
      "explain_en": "Both languages use the 3rd person plural for an indefinite agent.",
-     "explain_ru": "Оба языка используют 3-е лицо мн. ч. для неопределённого деятеля."
+     "explain_ru": "Оба языка используют 3-е лицо мн. ч. для неопределённого деятеля.",
+     "ui": {
+      "en": {
+       "q": "Portuguese 'Dizem que…' without a subject corresponds to Russian 'Govoryat, chto…' (They say that…)."
+      },
+      "ru": {
+       "q": "Португальское «Dizem que…» без подлежащего соответствует русскому «Говорят, что…»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1649,7 +1818,12 @@
      "q": "In standard Portuguese 'a gente' takes a 1st person plural verb: 'a gente vamos'.",
      "answer": false,
      "explain_en": "A gente takes the 3rd person singular: a gente vai.",
-     "explain_ru": "При a gente глагол в 3-м лице ед. ч.: a gente vai."
+     "explain_ru": "При a gente глагол в 3-м лице ед. ч.: a gente vai.",
+     "ui": {
+      "ru": {
+       "q": "В литературном португальском «a gente» сочетается с глаголом в 1-м лице множественного числа: «a gente vamos»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1675,7 +1849,33 @@
        "Não se pode fumar.",
        "Курить нельзя."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Vive-se bem aqui.",
+         "Life is good here."
+        ],
+        [
+         "Dizem que vai chover.",
+         "They say it's going to rain."
+        ],
+        [
+         "Roubaram-me o telemóvel.",
+         "My phone was stolen."
+        ],
+        [
+         "A pessoa habitua-se.",
+         "You get used to anything."
+        ],
+        [
+         "Não se pode fumar.",
+         "Smoking is not allowed."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1701,7 +1901,33 @@
        "convém",
        "следует, желательно"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "chove",
+         "it's raining"
+        ],
+        [
+         "há",
+         "there is, there are"
+        ],
+        [
+         "faz dois anos",
+         "two years have passed"
+        ],
+        [
+         "basta",
+         "it's enough"
+        ],
+        [
+         "convém",
+         "it's advisable"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1737,7 +1963,7 @@
     {
      "title_en": "The preposition changes the meaning",
      "title_ru": "Предлог меняет значение",
-     "body_en": "Assistir a = to attend, watch: Assisti a um concerto. Assistir + direct object = to help, care for: O médico assistiu o doente. Proceder a = to carry out (formal): proceder a uma investigação; proceder de = to come from. Contar algo = to tell or count; contar com = to rely on. Learn the verb together with its preposition, as in Russian (рассчитывать на, зависеть от).",
+     "body_en": "Assistir a = to attend, watch: Assisti a um concerto. Assistir + direct object = to help, care for: O médico assistiu o doente. Proceder a = to carry out (formal): proceder a uma investigação; proceder de = to come from. Contar algo = to tell or count; contar com = to rely on. Learn the verb together with its preposition, as in English (rely on, depend on).",
      "body_ru": "Assistir a — присутствовать, смотреть: Assisti a um concerto — Я был на концерте. Assistir + прямое дополнение — помогать, ухаживать: O médico assistiu o doente — Врач оказывал помощь больному. Proceder a — проводить (официально): proceder a uma investigação; proceder de — происходить из. Contar algo — рассказывать или считать; contar com — рассчитывать на. Учите глагол сразу с предлогом, как в русском (рассчитывать на, зависеть от).",
      "examples": [
       {
@@ -1760,7 +1986,7 @@
     {
      "title_en": "Implicar: no preposition for 'entail'",
      "title_ru": "Implicar: без предлога в значении «влечь за собой»",
-     "body_en": "Implicar meaning 'to imply, entail' takes a direct object: Esta decisão implica custos. 'Implicar em' is common in Brazil but is considered non-standard. Implicar com alguém is a different verb: to pick on, to nag someone, typical of Portugal: Está sempre a implicar comigo. Russian влечь за собой / придираться к are likewise two separate verbs.",
+     "body_en": "Implicar meaning 'to imply, entail' takes a direct object: Esta decisão implica custos. 'Implicar em' is common in Brazil but is considered non-standard. Implicar com alguém is a different verb: to pick on, to nag someone, typical of Portugal: Está sempre a implicar comigo. In English, too, 'to entail' and 'to pick on' are two separate verbs.",
      "body_ru": "Implicar в значении «подразумевать, влечь за собой» требует прямого дополнения: Esta decisão implica custos — Это решение влечёт расходы. «Implicar em» часто встречается в Бразилии, но считается ненормативным. Implicar com alguém — другой глагол: придираться к кому-то, типичный для Португалии: Está sempre a implicar comigo — Он вечно ко мне придирается. В русском это тоже два разных глагола.",
      "examples": [
       {
@@ -1783,7 +2009,7 @@
     {
      "title_en": "Relationships: namorar, casar, apaixonar-se",
      "title_ru": "Отношения: namorar, casar, apaixonar-se",
-     "body_en": "In Portugal namorar com alguém (to go out with someone) is very common, alongside namorar alguém; in Brazil the norm is namorar alguém without a preposition. Casar com covers both Russian жениться на and выйти замуж за. Note also apaixonar-se por (fall in love with), separar-se de and divorciar-se de.",
+     "body_en": "In Portugal namorar com alguém (to go out with someone) is very common, alongside namorar alguém; in Brazil the norm is namorar alguém without a preposition. Casar com covers both 'to marry' for a man and for a woman (Russian uses two different verbs). Note also apaixonar-se por (fall in love with), separar-se de and divorciar-se de.",
      "body_ru": "В Португалии очень распространено namorar com alguém («встречаться с кем-то»), наряду с namorar alguém; в Бразилии норма — namorar alguém без предлога. Casar com передаёт и «жениться на», и «выйти замуж за» — русского разделения по полу нет. Запомните также apaixonar-se por (влюбиться в), separar-se de и divorciar-se de (расстаться, развестись с).",
      "examples": [
       {
@@ -1829,7 +2055,7 @@
     {
      "title_en": "Prepositions unlike Russian",
      "title_ru": "Предлоги, не совпадающие с русскими",
-     "body_en": "Watch verbs whose preposition differs from Russian: pensar em (думать о), sonhar com (мечтать о / видеть во сне), confiar em (доверять + dative), desconfiar de, depender de, insistir em (настаивать на), consistir em (заключаться в), interessar-se por, preocupar-se com. With pronouns: com + mim/ti/si/nós → comigo, contigo, consigo, connosco (Brazil: conosco).",
+     "body_en": "Watch verbs whose preposition differs from what you might expect: pensar em (think about), sonhar com (dream of / about), confiar em (trust), desconfiar de, depender de, insistir em (insist on), consistir em (consist in), interessar-se por, preocupar-se com. With pronouns: com + mim/ti/si/nós → comigo, contigo, consigo, connosco (Brazil: conosco).",
      "body_ru": "Следите за глаголами, у которых предлог не совпадает с русским: pensar em (думать о), sonhar com (мечтать о / видеть во сне), confiar em (доверять кому), desconfiar de (не доверять), depender de (зависеть от), insistir em (настаивать на), consistir em (заключаться в), interessar-se por (интересоваться), preocupar-se com (волноваться за). С местоимениями: com + mim/ti/si/nós → comigo, contigo, consigo, connosco (в Бразилии: conosco).",
      "examples": [
       {
@@ -1898,7 +2124,7 @@
     {
      "title_en": "Preposition before the relative pronoun",
      "title_ru": "Предлог перед относительным местоимением",
-     "body_en": "If the verb in a relative clause needs a preposition, it goes before que, quem or o qual: o filme a que assisti, a pessoa de quem te falei, o projeto em que trabalho, o rapaz com quem ela namora. Colloquial 'o filme que assisti' drops it and is considered incorrect in writing. Russian also keeps the preposition: девушка, с которой он встречается.",
+     "body_en": "If the verb in a relative clause needs a preposition, it goes before que, quem or o qual: o filme a que assisti, a pessoa de quem te falei, o projeto em que trabalho, o rapaz com quem ela namora. Colloquial 'o filme que assisti' drops it and is considered incorrect in writing. Formal English also keeps the preposition before the pronoun: the boy with whom she is going out.",
      "body_ru": "Если глагол в относительном придаточном требует предлога, предлог ставится перед que, quem или o qual: o filme a que assisti — фильм, который я смотрел; a pessoa de quem te falei — человек, о котором я тебе говорил; o projeto em que trabalho; o rapaz com quem ela namora. Разговорное «o filme que assisti» теряет предлог и на письме считается ошибкой. В русском предлог тоже сохраняется: «девушка, с которой он встречается».",
      "examples": [
       {
@@ -1921,7 +2147,7 @@
     {
      "title_en": "Formal complex prepositions",
      "title_ru": "Официальные составные предлоги",
-     "body_en": "Formal texts use prepositions such as perante (before, in the face of), mediante (by means of, on presentation of), face a (in view of), relativamente a / em relação a (regarding), no âmbito de (within the framework of), ao abrigo de (under a law), à luz de (in the light of), aquando de (at the time of, typical of Portugal). They match Russian бюрократические предлоги like в рамках, в связи с, согласно.",
+     "body_en": "Formal texts use prepositions such as perante (before, in the face of), mediante (by means of, on presentation of), face a (in view of), relativamente a / em relação a (regarding), no âmbito de (within the framework of), ao abrigo de (under a law), à luz de (in the light of), aquando de (at the time of, typical of Portugal). They match English officialese like 'within the framework of', 'in connection with', 'pursuant to'.",
      "body_ru": "В официальных текстах используются предлоги perante (перед, перед лицом), mediante (посредством, при предъявлении), face a (ввиду, с учётом), relativamente a / em relação a (относительно), no âmbito de (в рамках), ao abrigo de (на основании закона), à luz de (в свете), aquando de (во время, при; типично для Португалии). Они соответствуют русским официальным предлогам вроде «в рамках», «в связи с», «согласно».",
      "examples": [
       {
@@ -2010,7 +2236,7 @@
       "a"
      ],
      "answer": 2,
-     "explain_en": "Pensar em = to think about (Russian думать о).",
+     "explain_en": "Pensar em = to think about.",
      "explain_ru": "Pensar em — думать о."
     },
     {
@@ -2024,7 +2250,7 @@
       "de"
      ],
      "answer": 0,
-     "explain_en": "Contar com = to rely on (рассчитывать на).",
+     "explain_en": "Contar com = to rely on, count on.",
      "explain_ru": "Contar com — рассчитывать на."
     },
     {
@@ -2067,7 +2293,12 @@
      ],
      "answer": 1,
      "explain_en": "Assistir a → the preposition a goes before the relative: o filme a que assisti.",
-     "explain_ru": "Assistir a → предлог a ставится перед относительным местоимением: o filme a que assisti."
+     "explain_ru": "Assistir a → предлог a ставится перед относительным местоимением: o filme a que assisti.",
+     "ui": {
+      "ru": {
+       "q": "Выберите вариант, рекомендуемый в тщательной письменной речи:"
+      }
+     }
     },
     {
      "id": "e10",
@@ -2104,7 +2335,7 @@
      "answer": [
       "em"
      ],
-     "explain_en": "Consistir em = to consist in (заключаться в).",
+     "explain_en": "Consistir em = to consist in.",
      "explain_ru": "Consistir em — заключаться в."
     },
     {
@@ -2233,7 +2464,12 @@
      "q": "In standard European Portuguese 'implicar em' is required: 'Isto implica em custos'.",
      "answer": false,
      "explain_en": "The standard form has no preposition: Isto implica custos.",
-     "explain_ru": "В норме предлога нет: Isto implica custos."
+     "explain_ru": "В норме предлога нет: Isto implica custos.",
+     "ui": {
+      "ru": {
+       "q": "В литературном европейском португальском обязательно «implicar em»: «Isto implica em custos»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2241,7 +2477,12 @@
      "q": "'Assistir a um filme' means to watch a film; 'assistir um doente' means to help or treat a patient.",
      "answer": true,
      "explain_en": "The preposition changes the meaning of assistir.",
-     "explain_ru": "Предлог меняет значение глагола assistir."
+     "explain_ru": "Предлог меняет значение глагола assistir.",
+     "ui": {
+      "ru": {
+       "q": "«Assistir a um filme» значит «смотреть фильм», а «assistir um doente» — «помогать больному, лечить его»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2249,7 +2490,12 @@
      "q": "'Cheguei em casa' is the standard form in Portugal.",
      "answer": false,
      "explain_en": "In Portugal: Cheguei a casa. Chegar em is colloquial Brazilian.",
-     "explain_ru": "В Португалии: Cheguei a casa. Chegar em — разговорный бразильский вариант."
+     "explain_ru": "В Португалии: Cheguei a casa. Chegar em — разговорный бразильский вариант.",
+     "ui": {
+      "ru": {
+       "q": "«Cheguei em casa» — нормативная форма в Португалии."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2275,7 +2521,33 @@
        "interessar-se",
        "por"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "pensar",
+         "em"
+        ],
+        [
+         "depender",
+         "de"
+        ],
+        [
+         "contar (to rely on)",
+         "com"
+        ],
+        [
+         "assistir (to watch)",
+         "a"
+        ],
+        [
+         "interessar-se",
+         "por"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2297,7 +2569,29 @@
        "dar para",
        "получаться, хватать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "dar com",
+         "to come across, bump into"
+        ],
+        [
+         "dar por",
+         "to notice"
+        ],
+        [
+         "dar-se com",
+         "to get on with"
+        ],
+        [
+         "dar para",
+         "to be possible, be enough"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2327,13 +2621,13 @@
    "id": "emphasis-focus",
    "title_en": "Emphasis and focus (é que, foi … que, o que … é)",
    "title_ru": "Выделение и логическое ударение (é que, foi … que, o que … é)",
-   "summary_en": "Where Russian highlights a word with intonation, word order or именно, Portuguese often uses special constructions: clefts (foi o João que…), pseudo-clefts (o que eu quero é…), inverted subjects (pago eu) and emphatic particles (é que, lá, cá, mesmo).",
+   "summary_en": "Where Russian highlights a word with intonation, word order or a particle meaning 'exactly, precisely', Portuguese often uses special constructions: clefts (foi o João que…), pseudo-clefts (o que eu quero é…), inverted subjects (pago eu) and emphatic particles (é que, lá, cá, mesmo).",
    "summary_ru": "Там, где русский выделяет слово интонацией, порядком слов или словом «именно», португальский часто использует особые конструкции: расщеплённые фразы (foi o João que…), псевдорасщеплённые (o que eu quero é…), подлежащее после глагола (pago eu) и усилительные частицы (é que, lá, cá, mesmo).",
    "rules": [
     {
      "title_en": "Cleft sentences: ser … que",
      "title_ru": "Расщеплённая фраза: ser … que",
-     "body_en": "To focus one element, put it between a form of ser and que: Foi o João que partiu a janela (It was João who broke the window). Ser usually matches the tense of the main verb (foi … partiu, é … chega, era … fazia) and agrees with a plural focus in careful style: Foram os vizinhos que chamaram a polícia. Russian simply says Окно разбил именно Жоан.",
+     "body_en": "To focus one element, put it between a form of ser and que: Foi o João que partiu a janela (It was João who broke the window). Ser usually matches the tense of the main verb (foi … partiu, é … chega, era … fazia) and agrees with a plural focus in careful style: Foram os vizinhos que chamaram a polícia. Russian simply changes the word order and adds a particle meaning 'exactly'.",
      "body_ru": "Чтобы выделить один элемент, его ставят между формой ser и que: Foi o João que partiu a janela — Именно Жоан разбил окно. Ser обычно стоит в том же времени, что и основной глагол (foi … partiu, é … chega, era … fazia), а в аккуратном стиле согласуется с выделенным словом во множественном числе: Foram os vizinhos que chamaram a polícia. По-русски достаточно сказать: «Окно разбил именно Жоан».",
      "examples": [
       {
@@ -2402,7 +2696,7 @@
     {
      "title_en": "Pseudo-clefts: o que … é …",
      "title_ru": "Псевдорасщеплённые фразы: o que … é …",
-     "body_en": "O que + clause + ser + focus puts the new information at the end: O que eu quero é descansar. O que me preocupa é o preço. If the focus is plural, ser agrees with it in the norm: O que me preocupa são os preços. With people use quem: Quem decide é o diretor. Russian uses a similar pattern: Чего я хочу — так это отдохнуть.",
+     "body_en": "O que + clause + ser + focus puts the new information at the end: O que eu quero é descansar. O que me preocupa é o preço. If the focus is plural, ser agrees with it in the norm: O que me preocupa são os preços. With people use quem: Quem decide é o diretor. English uses a similar pattern: What I want is to rest.",
      "body_ru": "O que + придаточное + ser + выделенное слово ставит новую информацию в конец: O que eu quero é descansar — Чего я хочу, так это отдохнуть. O que me preocupa é o preço — Меня беспокоит именно цена. Если выделено существительное во множественном числе, ser по норме согласуется с ним: O que me preocupa são os preços. О людях — quem: Quem decide é o diretor — Решает директор. В русском есть похожая модель: «Чего я хочу — так это…».",
      "examples": [
       {
@@ -2425,7 +2719,7 @@
     {
      "title_en": "Subject after the verb: Pago eu!",
      "title_ru": "Подлежащее после глагола: Pago eu!",
-     "body_en": "Placing the subject pronoun after the verb gives it contrastive focus, very natural in speech: Pago eu! (I'll pay — not you), Faço eu isso, Abres tu a porta? Russian achieves this with stress on the pronoun (Я заплачу!). Without inversion, Eu pago is neutral.",
+     "body_en": "Placing the subject pronoun after the verb gives it contrastive focus, very natural in speech: Pago eu! (I'll pay — not you), Faço eu isso, Abres tu a porta? English and Russian achieve this with stress on the pronoun ('I'll pay!'). Without inversion, Eu pago is neutral.",
      "body_ru": "Местоимение-подлежащее после глагола получает контрастное выделение — это очень естественно в речи: Pago eu! — Я заплачу! (а не ты), Faço eu isso — Это сделаю я, Abres tu a porta? — Дверь откроешь ты? В русском того же добиваются ударением на местоимении. Без инверсии Eu pago звучит нейтрально.",
      "examples": [
       {
@@ -2448,7 +2742,7 @@
     {
      "title_en": "Fronting with a resumptive pronoun",
      "title_ru": "Вынос в начало с повторным местоимением",
-     "body_en": "An object can be moved to the start as the topic, separated by a comma; Portuguese then usually repeats it with a pronoun: Esse livro, já o li. A mim, ninguém me disse nada. Ao teu irmão, nunca lhe pedi dinheiro. Russian fronts objects freely without a pronoun (Эту книгу я уже читал), so learners tend to forget it.",
+     "body_en": "An object can be moved to the start as the topic, separated by a comma; Portuguese then usually repeats it with a pronoun: Esse livro, já o li. A mim, ninguém me disse nada. Ao teu irmão, nunca lhe pedi dinheiro. Russian fronts objects freely without a pronoun ('This book I've already read'), so learners tend to forget it.",
      "body_ru": "Дополнение можно вынести в начало как тему, отделив запятой; тогда португальский обычно повторяет его местоимением: Esse livro, já o li — Эту книгу я уже читал. A mim, ninguém me disse nada — Мне никто ничего не сказал. Ao teu irmão, nunca lhe pedi dinheiro. В русском дополнение выносится свободно, без местоимения, поэтому учащиеся часто его забывают.",
      "examples": [
       {
@@ -2677,7 +2971,12 @@
      ],
      "answer": 2,
      "explain_en": "É … que isolates and highlights amanhã.",
-     "explain_ru": "Конструкция É … que выделяет amanhã."
+     "explain_ru": "Конструкция É … que выделяет amanhã.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении логическое ударение падает на «amanhã»?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -2826,7 +3125,12 @@
      "q": "In 'Foram eles que pagaram', ser agrees with the plural focused element.",
      "answer": true,
      "explain_en": "Careful style: ser agrees in number with the focus.",
-     "explain_ru": "В аккуратном стиле ser согласуется в числе с выделенным словом."
+     "explain_ru": "В аккуратном стиле ser согласуется в числе с выделенным словом.",
+     "ui": {
+      "ru": {
+       "q": "В «Foram eles que pagaram» глагол ser согласуется с выделенным элементом во множественном числе."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2834,7 +3138,12 @@
      "q": "'Pago eu!', with the subject after the verb, is incorrect in Portuguese.",
      "answer": false,
      "explain_en": "It is correct and very natural: inversion gives contrastive focus.",
-     "explain_ru": "Это правильно и очень естественно: инверсия выделяет подлежащее."
+     "explain_ru": "Это правильно и очень естественно: инверсия выделяет подлежащее.",
+     "ui": {
+      "ru": {
+       "q": "«Pago eu!» с подлежащим после глагола — неправильно в португальском."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2842,7 +3151,12 @@
      "q": "'Não é que…' is followed by the indicative: 'Não é que não quero'.",
      "answer": false,
      "explain_en": "It takes the conjuntivo: Não é que não queira.",
-     "explain_ru": "После него ставится conjuntivo: Não é que não queira."
+     "explain_ru": "После него ставится conjuntivo: Não é que não queira.",
+     "ui": {
+      "ru": {
+       "q": "После «Não é que…» употребляется изъявительное наклонение: «Não é que não quero»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2890,7 +3204,33 @@
        "Sei lá!",
        "Откуда мне знать!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "É que não tenho tempo.",
+         "The thing is, I don't have time."
+        ],
+        [
+         "Foi mesmo ele.",
+         "It really was him."
+        ],
+        [
+         "Isso é que não!",
+         "No way!"
+        ],
+        [
+         "Eu cá não vou.",
+         "Well, I'm not going."
+        ],
+        [
+         "Sei lá!",
+         "How should I know!"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2912,7 +3252,29 @@
        "Era assim que…",
        "Именно так…"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Foi ontem que…",
+         "It was yesterday that…"
+        ],
+        [
+         "Foram eles que…",
+         "It was they who…"
+        ],
+        [
+         "É aqui que…",
+         "It's here that…"
+        ],
+        [
+         "Era assim que…",
+         "That's how…"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2926,7 +3288,7 @@
     {
      "title_en": "From verb to noun",
      "title_ru": "От глагола к существительному",
-     "body_en": "Formal texts prefer nouns to verbs: O governo decidiu aumentar os impostos → A decisão do governo de aumentar os impostos; Os preços subiram → A subida dos preços. Russian официальный стиль does exactly the same (повышение налогов, принятие решения), so the logic is familiar; what you must learn is the right noun for each verb.",
+     "body_en": "Formal texts prefer nouns to verbs: O governo decidiu aumentar os impostos → A decisão do governo de aumentar os impostos; Os preços subiram → A subida dos preços. Russian official style does exactly the same ('the raising of taxes', 'the taking of a decision'), so the logic is familiar; what you must learn is the right noun for each verb.",
      "body_ru": "Официальные тексты предпочитают существительные глаголам: O governo decidiu aumentar os impostos → A decisão do governo de aumentar os impostos (решение правительства повысить налоги); Os preços subiram → A subida dos preços (рост цен). Русский официальный стиль делает то же самое («повышение налогов», «принятие решения»), так что логика знакома; учить нужно правильное существительное для каждого глагола.",
      "examples": [
       {
@@ -2972,7 +3334,7 @@
     {
      "title_en": "What happens to subjects and objects",
      "title_ru": "Что происходит с подлежащим и дополнением",
-     "body_en": "After nominalisation, the old object and subject are linked with de, like the Russian genitive: reduzir o desemprego → a redução do desemprego (снижение безработицы). If both are present, the agent is introduced with por or por parte de: a aprovação da lei por parte do parlamento. Avoid long chains of de; split them or use an adjective.",
+     "body_en": "After nominalisation, the old object and subject are linked with de, like the Russian genitive or English 'of': reduzir o desemprego → a redução do desemprego (the reduction of unemployment). If both are present, the agent is introduced with por or por parte de: a aprovação da lei por parte do parlamento. Avoid long chains of de; split them or use an adjective.",
      "body_ru": "После номинализации бывшее дополнение и подлежащее присоединяются через de, как русский родительный падеж: reduzir o desemprego → a redução do desemprego (снижение безработицы). Если есть и то и другое, деятель вводится через por или por parte de: a aprovação da lei por parte do parlamento — принятие закона парламентом. Избегайте длинных цепочек с de: разбивайте их или используйте прилагательное.",
      "examples": [
       {
@@ -2995,7 +3357,7 @@
     {
      "title_en": "Light verbs: efetuar, proceder a, dar início a",
      "title_ru": "«Пустые» глаголы: efetuar, proceder a, dar início a",
-     "body_en": "Official language replaces a simple verb by a 'light' verb + noun: pagar → efetuar o pagamento, analisar → proceder à análise, começar → dar início a, terminar → pôr termo a, decidir → tomar uma decisão, realizar → levar a cabo. Russian has the same habit: осуществить оплату, провести анализ. Use them in formal letters, but not in conversation.",
+     "body_en": "Official language replaces a simple verb by a 'light' verb + noun: pagar → efetuar o pagamento, analisar → proceder à análise, começar → dar início a, terminar → pôr termo a, decidir → tomar uma decisão, realizar → levar a cabo. Russian and English have the same habit: 'make a payment', 'carry out an analysis'. Use them in formal letters, but not in conversation.",
      "body_ru": "Официальный язык заменяет простой глагол сочетанием «пустой глагол + существительное»: pagar → efetuar o pagamento (осуществить оплату), analisar → proceder à análise (провести анализ), começar → dar início a (положить начало), terminar → pôr termo a (положить конец), decidir → tomar uma decisão, realizar → levar a cabo (осуществить). В русском та же привычка. Используйте это в официальных письмах, но не в разговоре.",
      "examples": [
       {
@@ -3018,7 +3380,7 @@
     {
      "title_en": "The infinitive with an article",
      "title_ru": "Инфинитив с артиклем",
-     "body_en": "Any infinitive can become a masculine noun with the article o: O fumar prejudica a saúde. O saber não ocupa lugar (a proverb: knowledge takes up no space). With a possessive or an adjective it describes a manner: o seu falar pausado, o andar dela. Russian has no article and uses a verbal noun (курение) or то, что…",
+     "body_en": "Any infinitive can become a masculine noun with the article o: O fumar prejudica a saúde. O saber não ocupa lugar (a proverb: knowledge takes up no space). With a possessive or an adjective it describes a manner: o seu falar pausado, o andar dela. Russian has no article and uses a verbal noun ('smoking') or a clause ('the fact that…').",
      "body_ru": "Любой инфинитив может стать существительным мужского рода с артиклем o: O fumar prejudica a saúde — Курение вредит здоровью. O saber não ocupa lugar — Знание за плечами не носить (пословица). С притяжательным словом или прилагательным он описывает манеру: o seu falar pausado — его неторопливая речь, o andar dela — её походка. В русском артикля нет, и используется отглагольное существительное (курение) или «то, что…».",
      "examples": [
       {
@@ -3219,7 +3581,12 @@
      ],
      "answer": 2,
      "explain_en": "Portugal: económico (open o); Brazil: econômico.",
-     "explain_ru": "В Португалии: económico (открытое o); в Бразилии: econômico."
+     "explain_ru": "В Португалии: económico (открытое o); в Бразилии: econômico.",
+     "ui": {
+      "ru": {
+       "q": "Какое написание нормативно в Португалии?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -3395,7 +3762,12 @@
      "q": "An infinitive used as a noun takes the feminine article: 'a fumar faz mal'.",
      "answer": false,
      "explain_en": "It is masculine: o fumar.",
-     "explain_ru": "Он мужского рода: o fumar."
+     "explain_ru": "Он мужского рода: o fumar.",
+     "ui": {
+      "ru": {
+       "q": "Инфинитив в роли существительного употребляется с артиклем женского рода: «a fumar faz mal»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3403,7 +3775,12 @@
      "q": "'Efetuar o pagamento' is a formal equivalent of 'pagar'.",
      "answer": true,
      "explain_en": "Light verb + noun is typical of official style.",
-     "explain_ru": "Сочетание «пустой глагол + существительное» типично для официального стиля."
+     "explain_ru": "Сочетание «пустой глагол + существительное» типично для официального стиля.",
+     "ui": {
+      "ru": {
+       "q": "«Efetuar o pagamento» — формальный эквивалент «pagar»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3411,7 +3788,12 @@
      "q": "In Portugal 'académico' is written with an acute accent, while Brazil writes 'acadêmico'.",
      "answer": true,
      "explain_en": "Portugal pronounces an open vowel (é), Brazil a closed one (ê).",
-     "explain_ru": "В Португалии гласный открытый (é), в Бразилии — закрытый (ê)."
+     "explain_ru": "В Португалии гласный открытый (é), в Бразилии — закрытый (ê).",
+     "ui": {
+      "ru": {
+       "q": "В Португалии «académico» пишется с острым ударением, а в Бразилии — «acadêmico»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3489,7 +3871,33 @@
        "o amanhecer",
        "рассвет"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "o jantar",
+         "dinner"
+        ],
+        [
+         "o poder",
+         "power"
+        ],
+        [
+         "o olhar",
+         "gaze, look"
+        ],
+        [
+         "o parecer",
+         "expert opinion"
+        ],
+        [
+         "o amanhecer",
+         "dawn"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3503,7 +3911,7 @@
     {
      "title_en": "The contracted forms",
      "title_ru": "Слитные формы",
-     "body_en": "The indirect pronoun comes first and merges with o, a, os, as: me + o = mo (ma, mos, mas); te + o = to (ta, tos, tas); lhe or lhes + o = lho (lha, lhos, lhas); nos + o = no-lo (no-la, no-los, no-las); vos + o = vo-lo (vo-la…). Russian keeps two separate words (дал его мне); Portuguese makes one.",
+     "body_en": "The indirect pronoun comes first and merges with o, a, os, as: me + o = mo (ma, mos, mas); te + o = to (ta, tos, tas); lhe or lhes + o = lho (lha, lhos, lhas); nos + o = no-lo (no-la, no-los, no-las); vos + o = vo-lo (vo-la…). English and Russian keep two separate words ('gave it to me'); Portuguese makes one.",
      "body_ru": "Косвенное местоимение стоит первым и сливается с o, a, os, as: me + o = mo (ma, mos, mas); te + o = to (ta, tos, tas); lhe или lhes + o = lho (lha, lhos, lhas); nos + o = no-lo (no-la, no-los, no-las); vos + o = vo-lo (vo-la…). В русском это два отдельных слова («дал его мне»), а в португальском — одно.",
      "examples": [
       {
@@ -3526,7 +3934,7 @@
     {
      "title_en": "Agreement with the thing, not the person",
      "title_ru": "Согласование с предметом, а не с лицом",
-     "body_en": "The second element (o, a, os, as) agrees with the thing given, shown or said, not with the person: A carta? Entreguei-lha (a carta = feminine). Os bilhetes? Dou-tos amanhã (masculine plural). Note that Portuguese gender may differ from Russian: a chave is feminine (ключ is masculine), so 'give it to me' is Dá-ma.",
+     "body_en": "The second element (o, a, os, as) agrees with the thing given, shown or said, not with the person: A carta? Entreguei-lha (a carta = feminine). Os bilhetes? Dou-tos amanhã (masculine plural). Note that Portuguese gender may differ from Russian: a chave is feminine (the Russian word for key is masculine), so 'give it to me' is Dá-ma.",
      "body_ru": "Второй элемент (o, a, os, as) согласуется с предметом, который дают, показывают или говорят, а не с лицом: A carta? Entreguei-lha (a carta — женский род). Os bilhetes? Dou-tos amanhã (мужской род, мн. ч.). Помните, что род в португальском может не совпадать с русским: a chave — женского рода (а «ключ» — мужского), поэтому «дай мне его» — Dá-ma.",
      "examples": [
       {
@@ -3572,7 +3980,7 @@
     {
      "title_en": "Lho is ambiguous",
      "title_ru": "Lho многозначно",
-     "body_en": "Because lhe and lhes both give lho, Dei-lho can mean 'I gave it to him / to her / to you (você) / to them'. Context usually decides; if not, add a + pronoun: Dei-lho a eles. Russian always distinguishes ему / ей / им, so this ambiguity often surprises learners.",
+     "body_en": "Because lhe and lhes both give lho, Dei-lho can mean 'I gave it to him / to her / to you (você) / to them'. Context usually decides; if not, add a + pronoun: Dei-lho a eles. English and Russian always distinguish him / her / them, so this ambiguity often surprises learners.",
      "body_ru": "Поскольку и lhe, и lhes дают lho, Dei-lho может значить «я дал это ему / ей / вам (você) / им». Обычно смысл ясен из контекста; если нет, добавляют a + местоимение: Dei-lho a eles — Я дал это им. В русском «ему / ей / им» всегда различаются, поэтому такая многозначность часто удивляет учащихся.",
      "examples": [
       {
@@ -3967,7 +4375,12 @@
      "q": "'Lho' can mean 'it to him', 'it to her' or 'it to them'.",
      "answer": true,
      "explain_en": "Both lhe and lhes contract with o to lho.",
-     "explain_ru": "И lhe, и lhes сливаются с o в lho."
+     "explain_ru": "И lhe, и lhes сливаются с o в lho.",
+     "ui": {
+      "ru": {
+       "q": "«Lho» может означать «его/это ему», «это ей» или «это им»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3975,7 +4388,12 @@
      "q": "In a contraction the direct object comes first: 'o-lhe'.",
      "answer": false,
      "explain_en": "The indirect pronoun comes first: lhe + o = lho.",
-     "explain_ru": "Первым идёт косвенное местоимение: lhe + o = lho."
+     "explain_ru": "Первым идёт косвенное местоимение: lhe + o = lho.",
+     "ui": {
+      "ru": {
+       "q": "При слиянии местоимений прямое дополнение идёт первым: «o-lhe»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3983,7 +4401,12 @@
      "q": "Contractions like 'mo' and 'lho' are very common in everyday Brazilian speech.",
      "answer": false,
      "explain_en": "They are typical of Portugal; Brazilians avoid them.",
-     "explain_ru": "Они типичны для Португалии; бразильцы их избегают."
+     "explain_ru": "Они типичны для Португалии; бразильцы их избегают.",
+     "ui": {
+      "ru": {
+       "q": "Слияния вроде «mo» и «lho» очень распространены в повседневной бразильской речи."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4031,7 +4454,29 @@
        "Ele no-lo disse.",
        "Он нам это сказал."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Dá-mo!",
+         "Give it to me!"
+        ],
+        [
+         "Não to digo.",
+         "I won't tell you that."
+        ],
+        [
+         "Dei-lha.",
+         "I gave it (her) to him."
+        ],
+        [
+         "Ele no-lo disse.",
+         "He told us that."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4063,7 +4508,7 @@
     {
      "title_en": "-inho/-inha: forms and spelling",
      "title_ru": "-inho/-inha: образование и написание",
-     "body_en": "Words ending in unstressed -o, -a or -e drop the vowel and add -inho/-inha, keeping the gender: livro → livrinho, casa → casinha, gato → gatinho. Spelling adapts to keep the sound: pouco → pouquinho, faca → faquinha, amigo → amiguinho, moça → mocinha. Like Russian домик or кошечка, the suffix is extremely productive.",
+     "body_en": "Words ending in unstressed -o, -a or -e drop the vowel and add -inho/-inha, keeping the gender: livro → livrinho, casa → casinha, gato → gatinho. Spelling adapts to keep the sound: pouco → pouquinho, faca → faquinha, amigo → amiguinho, moça → mocinha. As with Russian diminutives ('little house', 'kitty'), the suffix is extremely productive.",
      "body_ru": "Слова на безударные -o, -a или -e теряют гласный и получают -inho/-inha, сохраняя род: livro → livrinho, casa → casinha, gato → gatinho. Написание меняется, чтобы сохранить звучание: pouco → pouquinho, faca → faquinha, amigo → amiguinho, moça → mocinha. Как и русские «домик» или «кошечка», этот суффикс чрезвычайно продуктивен.",
      "examples": [
       {
@@ -4178,7 +4623,7 @@
     {
      "title_en": "Augmentatives: -ão, -ona, -arrão",
      "title_ru": "Увеличительные: -ão, -ona, -arrão",
-     "body_en": "-ão adds the idea of large size, often with admiration or exaggeration: carro → carrão, gato → gatão, golo → golão. For people the feminine is -ona: mulher → mulherona. Some words take extended forms: casa → casarão, homem → homenzarrão, rapaz → rapagão. Russian has similar forms (домище, ручища), but they are rarer and more expressive.",
+     "body_en": "-ão adds the idea of large size, often with admiration or exaggeration: carro → carrão, gato → gatão, golo → golão. For people the feminine is -ona: mulher → mulherona. Some words take extended forms: casa → casarão, homem → homenzarrão, rapaz → rapagão. Russian has similar augmentative forms, but they are rarer and more expressive.",
      "body_ru": "-ão добавляет значение большого размера, часто с восхищением или преувеличением: carro → carrão (шикарная машина), gato → gatão, golo → golão (классный гол). Для людей женская форма — -ona: mulher → mulherona. Некоторые слова получают расширенные суффиксы: casa → casarão (громадный дом), homem → homenzarrão (здоровяк), rapaz → rapagão (рослый парень). В русском похожие формы есть («домище», «ручища»), но они реже и экспрессивнее.",
      "examples": [
       {
@@ -4328,7 +4773,12 @@
      ],
      "answer": 2,
      "explain_en": "O vizinho means 'neighbour'; it only looks like a diminutive.",
-     "explain_ru": "O vizinho — «сосед»; это слово лишь похоже на уменьшительное."
+     "explain_ru": "O vizinho — «сосед»; это слово лишь похоже на уменьшительное.",
+     "ui": {
+      "ru": {
+       "q": "Какое слово НЕ является уменьшительным?"
+      }
+     }
     },
     {
      "id": "e07",
@@ -4356,7 +4806,21 @@
      ],
      "answer": 1,
      "explain_en": "O portão is an established word: 'gate'. Note the change of gender (a porta → o portão).",
-     "explain_ru": "O portão — самостоятельное слово: «ворота». Обратите внимание на смену рода (a porta → o portão)."
+     "explain_ru": "O portão — самостоятельное слово: «ворота». Обратите внимание на смену рода (a porta → o portão).",
+     "ui": {
+      "en": {
+       "q": "What does 'o portão' mean?",
+       "options": [
+        "a small door",
+        "a gate",
+        "a doorbell",
+        "a doorman"
+       ]
+      },
+      "ru": {
+       "q": "Что означает «o portão»?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -4528,7 +4992,12 @@
      "q": "Adding -ão to a feminine noun often makes it masculine: a porta → o portão.",
      "answer": true,
      "explain_en": "Augmentatives in -ão are masculine: o portão, o salão, o cartão.",
-     "explain_ru": "Увеличительные на -ão мужского рода: o portão, o salão, o cartão."
+     "explain_ru": "Увеличительные на -ão мужского рода: o portão, o salão, o cartão.",
+     "ui": {
+      "ru": {
+       "q": "Суффикс -ão часто делает существительное женского рода мужским: a porta → o portão."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4536,7 +5005,12 @@
      "q": "'Carinho' is the diminutive of 'caro' and means 'a little expensive'.",
      "answer": false,
      "explain_en": "O carinho is an independent word meaning 'affection, tenderness'.",
-     "explain_ru": "O carinho — самостоятельное слово со значением «нежность, ласка»."
+     "explain_ru": "O carinho — самостоятельное слово со значением «нежность, ласка».",
+     "ui": {
+      "ru": {
+       "q": "«Carinho» — уменьшительное от «caro» и означает «немного дорогой»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4544,7 +5018,12 @@
      "q": "Words ending in a stressed vowel, such as café or avó, take -zinho: cafezinho, avozinha.",
      "answer": true,
      "explain_en": "Correct; the written accent disappears.",
-     "explain_ru": "Верно; знак ударения при этом исчезает."
+     "explain_ru": "Верно; знак ударения при этом исчезает.",
+     "ui": {
+      "ru": {
+       "q": "Слова, оканчивающиеся на ударный гласный, как café или avó, принимают -zinho: cafezinho, avozinha."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4596,7 +5075,33 @@
        "a mãezinha",
        "мамочка"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "cedinho",
+         "very early"
+        ],
+        [
+         "devagarinho",
+         "nice and slowly"
+        ],
+        [
+         "sozinho",
+         "all alone"
+        ],
+        [
+         "um bocadinho",
+         "a tiny bit"
+        ],
+        [
+         "a mãezinha",
+         "mummy"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4622,7 +5127,33 @@
        "o casarão",
        "громадный дом"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "o portão",
+         "gate"
+        ],
+        [
+         "o salão",
+         "hall"
+        ],
+        [
+         "o caixão",
+         "coffin"
+        ],
+        [
+         "o cartão",
+         "card"
+        ],
+        [
+         "o casarão",
+         "huge house"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4636,7 +5167,7 @@
     {
      "title_en": "Negative prefixes: in-, des-, a-",
      "title_ru": "Отрицательные приставки: in-, des-, a-",
-     "body_en": "In- negates adjectives and becomes im- before p and b (impossível, imbatível) and i- before l, m, r (ilegal, imortal, irregular); before r the r doubles: irresponsável. Des- reverses actions or qualities: desfazer, desconhecido, desagradável. A-/an- means 'without': atípico, analfabeto. Russian uses не-, без-/бес- and раз- in similar ways.",
+     "body_en": "In- negates adjectives and becomes im- before p and b (impossível, imbatível) and i- before l, m, r (ilegal, imortal, irregular); before r the r doubles: irresponsável. Des- reverses actions or qualities: desfazer, desconhecido, desagradável. A-/an- means 'without': atípico, analfabeto. English un-, in-, dis- and a- work in similar ways.",
      "body_ru": "In- отрицает прилагательные и превращается в im- перед p и b (impossível, imbatível), в i- перед l, m, r (ilegal, imortal, irregular); перед r буква r удваивается: irresponsável. Des- обозначает отмену действия или противоположное качество: desfazer (переделать, разобрать), desconhecido (неизвестный), desagradável (неприятный). A-/an- значит «без»: atípico, analfabeto. В русском похожую роль играют не-, без-/бес- и раз-.",
      "examples": [
       {
@@ -4705,7 +5236,7 @@
     {
      "title_en": "Suffixes for people and places",
      "title_ru": "Суффиксы для людей и жителей",
-     "body_en": "-dor/-dora forms agents (trabalhador, vendedora), -ista professions and supporters (jornalista, dentista: one form for both genders), -eiro/-eira trades (padeiro, cabeleireira). Demonyms vary and must be learnt: portuense (Porto), lisboeta (Lisboa), alentejano, madeirense, brasileiro, português. Russian has the same variety (москвич, петербуржец).",
+     "body_en": "-dor/-dora forms agents (trabalhador, vendedora), -ista professions and supporters (jornalista, dentista: one form for both genders), -eiro/-eira trades (padeiro, cabeleireira). Demonyms vary and must be learnt: portuense (Porto), lisboeta (Lisboa), alentejano, madeirense, brasileiro, português. English has the same variety (Londoner, Parisian, Muscovite).",
      "body_ru": "-dor/-dora образует названия деятелей (trabalhador — работник, vendedora — продавщица), -ista — профессии и сторонников (jornalista, dentista: одна форма для обоих родов), -eiro/-eira — ремёсла (padeiro — пекарь, cabeleireira — парикмахер). Названия жителей разнообразны, их нужно заучивать: portuense (Порту), lisboeta (Лиссабон), alentejano, madeirense, brasileiro, português. В русском такое же разнообразие (москвич, петербуржец).",
      "examples": [
       {
@@ -4751,7 +5282,7 @@
     {
      "title_en": "Types of compounds",
      "title_ru": "Типы сложных слов",
-     "body_en": "Portuguese has several compound patterns: verb + noun (guarda-chuva, abre-latas, porta-voz, tira-nódoas), noun + noun (couve-flor, decreto-lei), noun + adjective (obra-prima, cachorro-quente), adverb + participle (mal-entendido, recém-nascido). Russian rarely builds nouns from a verb + noun (сорвиголова, перекати-поле), so this very productive pattern is new for Russian speakers.",
+     "body_en": "Portuguese has several compound patterns: verb + noun (guarda-chuva, abre-latas, porta-voz, tira-nódoas), noun + noun (couve-flor, decreto-lei), noun + adjective (obra-prima, cachorro-quente), adverb + participle (mal-entendido, recém-nascido). Russian rarely builds nouns from a verb + noun (English examples are pickpocket, scarecrow), so this very productive pattern is new for Russian speakers.",
      "body_ru": "В португальском несколько моделей сложных слов: глагол + существительное (guarda-chuva — зонт, «храни-дождь»; abre-latas — консервный нож; porta-voz — пресс-секретарь; tira-nódoas — пятновыводитель), существительное + существительное (couve-flor — цветная капуста, decreto-lei — декрет-закон), существительное + прилагательное (obra-prima — шедевр, cachorro-quente — хот-дог), наречие + причастие (mal-entendido — недоразумение, recém-nascido — новорождённый). В русском модель «глагол + существительное» редка (сорвиголова, перекати-поле), поэтому для русскоговорящих она непривычна.",
      "examples": [
       {
@@ -4797,7 +5328,7 @@
     {
      "title_en": "Plural: noun + noun, noun + adjective",
      "title_ru": "Множественное число: существительное + существительное / прилагательное",
-     "body_en": "When both parts are variable words (noun + adjective, adjective + noun, noun + noun), both normally take the plural: obras-primas, cachorros-quentes, couves-flores, amores-perfeitos. With adverb + participle only the second part changes: mal-entendidos, recém-nascidos. Russian also inflects both parts of similar compounds (платья-рубашки).",
+     "body_en": "When both parts are variable words (noun + adjective, adjective + noun, noun + noun), both normally take the plural: obras-primas, cachorros-quentes, couves-flores, amores-perfeitos. With adverb + participle only the second part changes: mal-entendidos, recém-nascidos. Russian also inflects both parts of similar hyphenated compounds.",
      "body_ru": "Если обе части изменяемые (существительное + прилагательное, прилагательное + существительное, существительное + существительное), обычно во мн. ч. ставятся обе: obras-primas, cachorros-quentes, couves-flores, amores-perfeitos. В модели «наречие + причастие» меняется только вторая часть: mal-entendidos, recém-nascidos. В русском в подобных словах тоже изменяются обе части (платья-рубашки).",
      "examples": [
       {
@@ -4952,7 +5483,12 @@
      ],
      "answer": 3,
      "explain_en": "Same vowel (i + i) → hyphen: anti-inflamatório.",
-     "explain_ru": "Одинаковые гласные (i + i) → дефис: anti-inflamatório."
+     "explain_ru": "Одинаковые гласные (i + i) → дефис: anti-inflamatório.",
+     "ui": {
+      "ru": {
+       "q": "Какое написание соответствует соглашению 1990 года?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -4966,7 +5502,12 @@
      ],
      "answer": 0,
      "explain_en": "Different vowels (o + e) → written together: autoestrada.",
-     "explain_ru": "Разные гласные (o + e) → слитно: autoestrada."
+     "explain_ru": "Разные гласные (o + e) → слитно: autoestrada.",
+     "ui": {
+      "ru": {
+       "q": "Какое написание соответствует соглашению 1990 года?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -4994,7 +5535,12 @@
      ],
      "answer": 1,
      "explain_en": "Vowel-final prefix + r → the r doubles: contrarrelógio.",
-     "explain_ru": "Приставка на гласный + r → r удваивается: contrarrelógio."
+     "explain_ru": "Приставка на гласный + r → r удваивается: contrarrelógio.",
+     "ui": {
+      "ru": {
+       "q": "Какое написание соответствует соглашению 1990 года?"
+      }
+     }
     },
     {
      "id": "e12",
@@ -5124,7 +5670,12 @@
      "q": "In 'os guarda-chuvas', guarda does not take -s because it is a verb.",
      "answer": true,
      "explain_en": "Guarda comes from guardar; verbs have no plural.",
-     "explain_ru": "Guarda — от глагола guardar; у глаголов нет мн. ч."
+     "explain_ru": "Guarda — от глагола guardar; у глаголов нет мн. ч.",
+     "ui": {
+      "ru": {
+       "q": "В «os guarda-chuvas» часть guarda не получает -s, потому что это глагол."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5132,7 +5683,12 @@
      "q": "After the 1990 agreement, 'fim-de-semana' is written with hyphens.",
      "answer": false,
      "explain_en": "Compounds with a preposition lost their hyphens: fim de semana.",
-     "explain_ru": "Сложные слова с предлогом потеряли дефисы: fim de semana."
+     "explain_ru": "Сложные слова с предлогом потеряли дефисы: fim de semana.",
+     "ui": {
+      "ru": {
+       "q": "По соглашению 1990 года «fim-de-semana» пишется через дефисы."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5140,7 +5696,12 @@
      "q": "The stressed prefixes pré-, pós- and the prefix ex- ('former') are always followed by a hyphen.",
      "answer": true,
      "explain_en": "Pré-história, pós-guerra, ex-marido.",
-     "explain_ru": "Pré-história, pós-guerra, ex-marido — всегда через дефис."
+     "explain_ru": "Pré-história, pós-guerra, ex-marido — всегда через дефис.",
+     "ui": {
+      "ru": {
+       "q": "После ударных приставок pré-, pós- и приставки ex- («бывший») всегда ставится дефис."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5166,7 +5727,33 @@
        "o quebra-cabeças",
        "головоломка"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "o abre-latas",
+         "tin opener"
+        ],
+        [
+         "o guarda-roupa",
+         "wardrobe"
+        ],
+        [
+         "o tira-nódoas",
+         "stain remover"
+        ],
+        [
+         "o porta-voz",
+         "spokesperson"
+        ],
+        [
+         "o quebra-cabeças",
+         "puzzle"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5218,7 +5805,33 @@
        "ex-",
        "бывший"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "des-",
+         "undoing, opposite"
+        ],
+        [
+         "re-",
+         "repetition"
+        ],
+        [
+         "pré-",
+         "before, pre-"
+        ],
+        [
+         "pós-",
+         "after"
+        ],
+        [
+         "ex-",
+         "former"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5232,7 +5845,7 @@
     {
      "title_en": "Addressing people in Portugal",
      "title_ru": "Обращение к людям в Португалии",
-     "body_en": "Tu is used with family, friends, children and peers. For politeness Portugal prefers o senhor / a senhora, often with a title (o senhor doutor, a senhora engenheira, a Dona Maria), or simply the verb in the 3rd person without any pronoun: Quer um café? Addressing someone by name in the 3rd person is also polite: A Ana quer vir connosco? Russian simply chooses between ты and вы.",
+     "body_en": "Tu is used with family, friends, children and peers. For politeness Portugal prefers o senhor / a senhora, often with a title (o senhor doutor, a senhora engenheira, a Dona Maria), or simply the verb in the 3rd person without any pronoun: Quer um café? Addressing someone by name in the 3rd person is also polite: A Ana quer vir connosco? Russian simply chooses between the informal 'ty' and the polite 'vy'.",
      "body_ru": "Tu используют с семьёй, друзьями, детьми и ровесниками. Для вежливости в Португалии предпочитают o senhor / a senhora, часто с титулом (o senhor doutor, a senhora engenheira, a Dona Maria), или просто глагол в 3-м лице без местоимения: Quer um café? — Хотите кофе? Вежливо и обращение по имени в 3-м лице: A Ana quer vir connosco? — Ана, хотите пойти с нами? В русском выбор проще: «ты» или «вы».",
      "examples": [
       {
@@ -5450,7 +6063,12 @@
      ],
      "answer": 2,
      "explain_en": "O senhor + 3rd person is polite and safe; você can sound rude in Portugal.",
-     "explain_ru": "O senhor + 3-е лицо — вежливо и безопасно; você в Португалии может звучать грубо."
+     "explain_ru": "O senhor + 3-е лицо — вежливо и безопасно; você в Португалии может звучать грубо.",
+     "ui": {
+      "ru": {
+       "q": "Как в Португалии надёжнее всего вежливо предложить кофе незнакомому пожилому человеку?"
+      }
+     }
     },
     {
      "id": "e02",
@@ -5534,7 +6152,12 @@
      ],
      "answer": 1,
      "explain_en": "Fixe is Portuguese slang; legal, beleza and cara are Brazilian.",
-     "explain_ru": "Fixe — португальский сленг; legal, beleza и cara — бразильские."
+     "explain_ru": "Fixe — португальский сленг; legal, beleza и cara — бразильские.",
+     "ui": {
+      "ru": {
+       "q": "Какое восклицание типично для разговорной речи Португалии, а не Бразилии?"
+      }
+     }
     },
     {
      "id": "e08",
@@ -5562,7 +6185,12 @@
      ],
      "answer": 3,
      "explain_en": "Omitting the article before the possessive is typical of Brazil.",
-     "explain_ru": "Отсутствие артикля перед притяжательным словом типично для Бразилии."
+     "explain_ru": "Отсутствие артикля перед притяжательным словом типично для Бразилии.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение звучит типично по-бразильски?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -5590,7 +6218,18 @@
      ],
      "answer": 0,
      "explain_en": "Portuguese speakers often avoid você and use the bare verb or o senhor.",
-     "explain_ru": "Португальцы часто избегают você и используют глагол без местоимения или o senhor."
+     "explain_ru": "Португальцы часто избегают você и используют глагол без местоимения или o senhor.",
+     "ui": {
+      "ru": {
+       "q": "Какое утверждение о «você» в Португалии верно?",
+       "options": [
+        "Оно может звучать отстранённо и даже грубо, поэтому его часто опускают.",
+        "Это обычная тёплая форма обращения между близкими друзьями.",
+        "Оно используется только на письме.",
+        "Оно используется точно так же, как в Бразилии."
+       ]
+      }
+     }
     },
     {
      "id": "e12",
@@ -5723,7 +6362,12 @@
      "q": "In Brazil 'propina' means a bribe, while in Portugal 'propinas' are tuition fees.",
      "answer": true,
      "explain_en": "A classic false friend between the two varieties.",
-     "explain_ru": "Классический «ложный друг» между двумя вариантами языка."
+     "explain_ru": "Классический «ложный друг» между двумя вариантами языка.",
+     "ui": {
+      "ru": {
+       "q": "В Бразилии «propina» означает взятку, а в Португалии «propinas» — плата за обучение."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5731,7 +6375,12 @@
      "q": "In Portugal 'você' is the normal, warm way to address close friends.",
      "answer": false,
      "explain_en": "Close friends use tu; você can sound distant in Portugal.",
-     "explain_ru": "К близким друзьям обращаются на tu; você в Португалии может звучать отстранённо."
+     "explain_ru": "К близким друзьям обращаются на tu; você в Португалии может звучать отстранённо.",
+     "ui": {
+      "ru": {
+       "q": "В Португалии «você» — обычный, тёплый способ обращения к близким друзьям."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5739,7 +6388,12 @@
      "q": "'Vós' is still the everyday plural 'you' in standard Portuguese.",
      "answer": false,
      "explain_en": "The everyday plural is vocês; vós survives in church language and some dialects.",
-     "explain_ru": "В обиходе используется vocês; vós сохранилось в церковном языке и некоторых диалектах."
+     "explain_ru": "В обиходе используется vocês; vós сохранилось в церковном языке и некоторых диалектах.",
+     "ui": {
+      "ru": {
+       "q": "«Vós» по-прежнему обычное «вы» (мн. ч.) в повседневном литературном португальском."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5791,7 +6445,33 @@
        "o puto",
        "пацан"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "fixe",
+         "cool"
+        ],
+        [
+         "bué",
+         "very, a lot"
+        ],
+        [
+         "pronto",
+         "right, that's it"
+        ],
+        [
+         "pois",
+         "yes, of course"
+        ],
+        [
+         "o puto",
+         "kid"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5813,7 +6493,29 @@
        "tu",
        "обращение к близким и ровесникам"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Exmo. Senhor",
+         "formal salutation in a letter"
+        ],
+        [
+         "Com os melhores cumprimentos",
+         "formal closing of a letter"
+        ],
+        [
+         "o senhor doutor",
+         "polite address with a title"
+        ],
+        [
+         "tu",
+         "address for close friends and peers"
+        ]
+       ]
+      }
+     }
     }
    ]
   }

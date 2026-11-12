@@ -172,7 +172,7 @@
     {
      "title_en": "One Perfekt for both aspects",
      "title_ru": "Один перфект для обоих видов",
-     "body_en": "German has no verbal aspect: Ich habe das Buch gelesen means both 'я читал книгу' and 'я прочитал книгу'. Context and words like schon (already), noch nie (never yet), gestern or letzte Woche make the meaning clear. In negation nicht usually stands before the participle: Ich habe das nicht gewusst.",
+     "body_en": "German has no verbal aspect: Ich habe das Buch gelesen means both 'I was reading the book' and 'I have read (finished) the book' – Russian needs two different verbs here. Context and words like schon (already), noch nie (never yet), gestern or letzte Woche make the meaning clear. In negation nicht usually stands before the participle: Ich habe das nicht gewusst.",
      "body_ru": "В немецком нет видов глагола: Ich habe das Buch gelesen значит и «я читал книгу», и «я прочитал книгу». Смысл уточняют контекст и слова schon (уже), noch nie (ещё никогда), gestern, letzte Woche. При отрицании nicht обычно стоит перед причастием: Ich habe das nicht gewusst. Не ищите в немецком отдельную форму для «сделал» — её нет.",
      "examples": [
       {
@@ -474,7 +474,12 @@
      "q": "Verbs of movement such as gehen and fahren (without an object) form the Perfekt with sein.",
      "answer": true,
      "explain_en": "Ich bin gegangen, ich bin gefahren.",
-     "explain_ru": "Да: ich bin gegangen, ich bin gefahren."
+     "explain_ru": "Да: ich bin gegangen, ich bin gefahren.",
+     "ui": {
+      "ru": {
+       "q": "Глаголы движения, такие как gehen и fahren (без дополнения), образуют Perfekt с sein."
+      }
+     }
     },
     {
      "id": "e24",
@@ -482,7 +487,12 @@
      "q": "„Ich habe Deutsch gestudiert.“ is correct.",
      "answer": false,
      "explain_en": "Verbs in -ieren have no ge-: studiert.",
-     "explain_ru": "Глаголы на -ieren без ge-: Ich habe Deutsch studiert."
+     "explain_ru": "Глаголы на -ieren без ge-: Ich habe Deutsch studiert.",
+     "ui": {
+      "ru": {
+       "q": "„Ich habe Deutsch gestudiert.“ — правильно."
+      }
+     }
     },
     {
      "id": "e25",
@@ -490,7 +500,15 @@
      "q": "„Ich habe das Buch gelesen“ can mean both „я читал“ and „я прочитал“.",
      "answer": true,
      "explain_en": "German has no aspect; the Perfekt covers both.",
-     "explain_ru": "В немецком нет вида глагола; перфект передаёт оба значения."
+     "explain_ru": "В немецком нет вида глагола; перфект передаёт оба значения.",
+     "ui": {
+      "en": {
+       "q": "„Ich habe das Buch gelesen“ can mean both 'I was reading the book' and 'I read the book (to the end)'."
+      },
+      "ru": {
+       "q": "„Ich habe das Buch gelesen“ может значить и «я читал», и «я прочитал»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -628,7 +646,7 @@
     {
      "title_en": "haben: hatte",
      "title_ru": "haben: hatte",
-     "body_en": "The Präteritum of haben: ich hatte, du hattest, er/sie/es hatte, wir hatten, ihr hattet, sie/Sie hatten. Ich hatte corresponds to Russian 'у меня был / была / было / были'. As in the present, the owner is the subject: Ich hatte einen Hund.",
+     "body_en": "The Präteritum of haben: ich hatte, du hattest, er/sie/es hatte, wir hatten, ihr hattet, sie/Sie hatten. Ich hatte means 'I had' (Russian says 'by me there was'). As in the present, the owner is the subject: Ich hatte einen Hund.",
      "body_ru": "Претерит глагола haben: ich hatte, du hattest, er/sie/es hatte, wir hatten, ihr hattet, sie/Sie hatten. Ich hatte соответствует русскому «у меня был / была / было / были». Как и в настоящем времени, владелец — подлежащее: Ich hatte einen Hund (у меня была собака), а предмет стоит в аккузативе.",
      "examples": [
       {
@@ -847,7 +865,12 @@
      ],
      "answer": 2,
      "explain_en": "Past of mögen: mochte (liked).",
-     "explain_ru": "Прошедшее от mögen: mochte — «любил, нравилось»."
+     "explain_ru": "Прошедшее от mögen: mochte — «любил, нравилось».",
+     "ui": {
+      "en": {
+       "q": "Als Kind ___ ich Spinat nicht. (didn't like)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -943,7 +966,12 @@
       "konnte"
      ],
      "explain_en": "sie (she) konnte.",
-     "explain_ru": "sie (она) konnte."
+     "explain_ru": "sie (она) konnte.",
+     "ui": {
+      "en": {
+       "q": "Sie ___ als Kind sehr gut singen. (können, she)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -983,7 +1011,12 @@
       "wollte"
      ],
      "explain_en": "möchte has no past; use wollte.",
-     "explain_ru": "У möchte нет прошедшего времени — используем wollte."
+     "explain_ru": "У möchte нет прошедшего времени — используем wollte.",
+     "ui": {
+      "en": {
+       "q": "Heute möchte ich Pizza essen. Gestern ___ ich auch schon Pizza essen. (wanted)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -1044,7 +1077,12 @@
      "q": "In the Präteritum, ich and er/sie/es have the same form: ich war, er war.",
      "answer": true,
      "explain_en": "Both have no ending: ich hatte, er hatte.",
-     "explain_ru": "Обе формы без окончания: ich hatte, er hatte."
+     "explain_ru": "Обе формы без окончания: ich hatte, er hatte.",
+     "ui": {
+      "ru": {
+       "q": "В Präteritum формы ich и er/sie/es совпадают: ich war, er war."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1052,15 +1090,31 @@
      "q": "The modal verbs keep their umlaut in the Präteritum: „ich könnte“ = „я мог“.",
      "answer": false,
      "explain_en": "The Präteritum has no umlaut: ich konnte. könnte = 'could' (hypothetical).",
-     "explain_ru": "В претерите умлаута нет: ich konnte. könnte — «мог бы»."
+     "explain_ru": "В претерите умлаута нет: ich konnte. könnte — «мог бы».",
+     "ui": {
+      "en": {
+       "q": "The modal verbs keep their umlaut in the Präteritum: „ich könnte“ = 'I could (was able to)'."
+      },
+      "ru": {
+       "q": "Модальные глаголы сохраняют умлаут в Präteritum: „ich könnte“ = «я мог»."
+      }
+     }
     },
     {
      "id": "e25",
      "type": "tf",
      "q": "„Ich hatte einen Hund“ corresponds to Russian „у меня была собака“.",
      "answer": true,
-     "explain_en": "haben in the past = 'у меня был/была'.",
-     "explain_ru": "Да, hatte = «у меня был/была/было»."
+     "explain_en": "haben in the past = 'I had': ich hatte.",
+     "explain_ru": "Да, hatte = «у меня был/была/было».",
+     "ui": {
+      "en": {
+       "q": "„Ich hatte einen Hund“ means 'I had a dog'."
+      },
+      "ru": {
+       "q": "„Ich hatte einen Hund“ соответствует русскому «у меня была собака»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1134,7 +1188,33 @@
        "ich konnte",
        "я мог"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ich hatte",
+         "I had"
+        ],
+        [
+         "ich musste",
+         "I had to"
+        ],
+        [
+         "ich durfte",
+         "I was allowed to"
+        ],
+        [
+         "ich wollte",
+         "I wanted to"
+        ],
+        [
+         "ich konnte",
+         "I could"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1148,7 +1228,7 @@
     {
      "title_en": "What the dative is",
      "title_ru": "Что такое датив",
-     "body_en": "The dative is the case of the indirect object, usually a person who receives something. It answers wem? (to whom): Ich gebe dem Kind ein Buch. It largely matches the Russian дательный падеж ('даю ребёнку книгу'), so many verbs feel familiar: geben, schenken, zeigen, schreiben, erklären.",
+     "body_en": "The dative is the case of the indirect object, usually a person who receives something. It answers wem? (to whom): Ich gebe dem Kind ein Buch. It largely matches the Russian dative case, so many verbs feel familiar: geben, schenken, zeigen, schreiben, erklären.",
      "body_ru": "Датив — падеж косвенного дополнения, обычно это человек, который что-то получает. Он отвечает на вопрос wem? (кому?): Ich gebe dem Kind ein Buch. Во многом он совпадает с русским дательным падежом («даю ребёнку книгу»), поэтому многие глаголы покажутся знакомыми: geben, schenken, zeigen, schreiben, erklären.",
      "examples": [
       {
@@ -1240,7 +1320,7 @@
     {
      "title_en": "Verbs with only a dative object",
      "title_ru": "Глаголы только с дативом",
-     "body_en": "Some verbs take only a dative object: helfen, danken, antworten, gratulieren, gefallen, gehören, schmecken, passen, glauben (a person), zuhören. Several differ from Russian: danken + dative (благодарить кого), gratulieren + dative (поздравлять кого), but helfen and antworten match Russian.",
+     "body_en": "Some verbs take only a dative object: helfen, danken, antworten, gratulieren, gefallen, gehören, schmecken, passen, glauben (a person), zuhören. Several differ from Russian: danken + dative and gratulieren + dative take the accusative in Russian, but helfen and antworten match Russian.",
      "body_ru": "Некоторые глаголы требуют только датива: helfen, danken, antworten, gratulieren, gefallen, gehören, schmecken, passen, glauben (кому-то), zuhören. Часть из них не совпадает с русским: danken + датив («благодарить кого»), gratulieren + датив («поздравлять кого»): Ich danke dir, Ich gratuliere ihm. А helfen (помогать кому) и antworten (отвечать кому) совпадают с русским.",
      "examples": [
       {
@@ -1263,7 +1343,7 @@
     {
      "title_en": "gefallen, gehören, schmecken, passen",
      "title_ru": "gefallen, gehören, schmecken, passen",
-     "body_en": "With gefallen (to please), gehören (to belong), schmecken (to taste good) and passen (to fit, suit) the thing is the subject and the person is in the dative: Das Kleid gefällt mir. This works exactly like Russian 'мне нравится платье'. The verb agrees with the thing: Die Schuhe gefallen mir.",
+     "body_en": "With gefallen (to please), gehören (to belong), schmecken (to taste good) and passen (to fit, suit) the thing is the subject and the person is in the dative: Das Kleid gefällt mir ('the dress pleases me'). This works exactly like the Russian verb for 'to like'. The verb agrees with the thing: Die Schuhe gefallen mir.",
      "body_ru": "У gefallen (нравиться), gehören (принадлежать), schmecken (быть вкусным) и passen (подходить) подлежащее — предмет, а человек стоит в дативе: Das Kleid gefällt mir. Это точно как в русском: «мне нравится платье». Глагол согласуется с предметом: Die Schuhe gefallen mir (мне нравятся туфли). Gehört das dir? = Это твоё?",
      "examples": [
       {
@@ -1286,7 +1366,7 @@
     {
      "title_en": "Dative in fixed expressions",
      "title_ru": "Датив в устойчивых выражениях",
-     "body_en": "Many everyday phrases use the dative for the person: Wie geht es dir? Mir ist kalt. Mir ist schlecht. Es tut mir leid. Das ist mir egal. Like Russian 'мне холодно', German says Mir ist kalt – Ich bin kalt would mean 'I am a cold person'.",
+     "body_en": "Many everyday phrases use the dative for the person: Wie geht es dir? Mir ist kalt. Mir ist schlecht. Es tut mir leid. Das ist mir egal. As in Russian, German says Mir ist kalt ('to me it is cold') – Ich bin kalt would mean 'I am a cold person'.",
      "body_ru": "Многие повседневные фразы ставят человека в датив: Wie geht es dir? Mir ist kalt. Mir ist schlecht. Es tut mir leid. Das ist mir egal. Как и по-русски «мне холодно», по-немецки говорят Mir ist kalt — фраза Ich bin kalt значила бы «я холодный (бесчувственный) человек». Здесь русская интуиция помогает.",
      "examples": [
       {
@@ -1371,7 +1451,12 @@
      ],
      "answer": 2,
      "explain_en": "gehören + dative: mir.",
-     "explain_ru": "gehören + датив: mir."
+     "explain_ru": "gehören + датив: mir.",
+     "ui": {
+      "en": {
+       "q": "Das Buch gehört ___. (to me)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -1385,7 +1470,12 @@
      ],
      "answer": 3,
      "explain_en": "gefallen + dative: dir.",
-     "explain_ru": "gefallen + датив: dir (тебе)."
+     "explain_ru": "gefallen + датив: dir (тебе).",
+     "ui": {
+      "en": {
+       "q": "Gefällt ___ das Kleid? (you, informal)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -1455,7 +1545,12 @@
      ],
      "answer": 1,
      "explain_en": "gratulieren + dative: ihm.",
-     "explain_ru": "gratulieren + датив, хотя по-русски «поздравляю его»: ihm."
+     "explain_ru": "gratulieren + датив, хотя по-русски «поздравляю его»: ihm.",
+     "ui": {
+      "en": {
+       "q": "Ich gratuliere ___ zum Geburtstag. (him)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -1469,7 +1564,12 @@
      ],
      "answer": 2,
      "explain_en": "Dative masculine: meinem.",
-     "explain_ru": "Датив мужского рода: meinem Bruder."
+     "explain_ru": "Датив мужского рода: meinem Bruder.",
+     "ui": {
+      "en": {
+       "q": "Ich zeige ___ die Stadt. (my brother)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -1529,7 +1629,7 @@
       "Mir",
       "mir"
      ],
-     "explain_en": "Mir ist kalt = 'мне холодно'.",
+     "explain_en": "Mir ist kalt = 'I'm cold'.",
      "explain_ru": "Как по-русски: Mir ist kalt — мне холодно."
     },
     {
@@ -1550,7 +1650,12 @@
       "euch"
      ],
      "explain_en": "Dative of ihr: euch.",
-     "explain_ru": "Датив от ihr: euch."
+     "explain_ru": "Датив от ihr: euch.",
+     "ui": {
+      "en": {
+       "q": "Ich danke ___ für die Hilfe. (ihr = you, plural)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -1612,7 +1717,15 @@
      "q": "„danken“ takes the dative in German, although Russian „благодарить“ takes the accusative.",
      "answer": true,
      "explain_en": "Ich danke dir.",
-     "explain_ru": "Да: Ich danke dir — «благодарю тебя»."
+     "explain_ru": "Да: Ich danke dir — «благодарю тебя».",
+     "ui": {
+      "en": {
+       "q": "„danken“ takes the dative in German, although its Russian equivalent takes the accusative."
+      },
+      "ru": {
+       "q": "„danken“ в немецком требует дательного падежа, хотя русское «благодарить» — винительного."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1620,7 +1733,15 @@
      "q": "„Ich bin kalt“ is the normal way to say „мне холодно“.",
      "answer": false,
      "explain_en": "Use the dative: Mir ist kalt.",
-     "explain_ru": "Нужен датив: Mir ist kalt."
+     "explain_ru": "Нужен датив: Mir ist kalt.",
+     "ui": {
+      "en": {
+       "q": "„Ich bin kalt“ is the normal way to say 'I'm cold'."
+      },
+      "ru": {
+       "q": "„Ich bin kalt“ — обычный способ сказать «мне холодно»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1628,7 +1749,12 @@
      "q": "In the dative plural, nouns add -n unless they already end in -n or -s: den Kindern, den Autos.",
      "answer": true,
      "explain_en": "den Kindern, but den Frauen, den Autos.",
-     "explain_ru": "den Kindern, но den Frauen, den Autos."
+     "explain_ru": "den Kindern, но den Frauen, den Autos.",
+     "ui": {
+      "ru": {
+       "q": "В дательном падеже множественного числа существительные получают -n, если они уже не оканчиваются на -n или -s: den Kindern, den Autos."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1658,7 +1784,37 @@
        "sie (они)",
        "ihnen"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ich",
+         "mir"
+        ],
+        [
+         "du",
+         "dir"
+        ],
+        [
+         "er",
+         "ihm"
+        ],
+        [
+         "sie (she)",
+         "ihr"
+        ],
+        [
+         "wir",
+         "uns"
+        ],
+        [
+         "sie (they)",
+         "ihnen"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1706,7 +1862,33 @@
        "gratulieren",
        "поздравлять"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "helfen",
+         "to help (someone)"
+        ],
+        [
+         "danken",
+         "to thank (someone)"
+        ],
+        [
+         "gefallen",
+         "to please, be liked"
+        ],
+        [
+         "gehören",
+         "to belong to"
+        ],
+        [
+         "gratulieren",
+         "to congratulate"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1766,7 +1948,7 @@
     {
      "title_en": "Tricky meanings compared to Russian",
      "title_ru": "Трудные значения по сравнению с русским",
-     "body_en": "Transport uses mit, not 'auf': mit dem Zug (на поезде). bei = at someone's place (bei meiner Oma = у бабушки) or at work (bei Siemens). nach is used for cities and countries without an article and in nach Hause (homewards); zu Hause means 'at home'. aus = from a place of origin, von = from a person or a starting point.",
+     "body_en": "Transport uses mit, not 'auf': mit dem Zug (by train). bei = at someone's place (bei meiner Oma = at grandma's) or at work (bei Siemens). nach is used for cities and countries without an article and in nach Hause (homewards); zu Hause means 'at home'. aus = from a place of origin, von = from a person or a starting point.",
      "body_ru": "Для транспорта — mit, а не «auf»: mit dem Zug (на поезде), mit dem Auto (на машине). bei — «у кого-то» (bei meiner Oma — у бабушки) или место работы (bei Siemens). nach — для городов и стран без артикля и в nach Hause (домой); zu Hause — «дома». aus — откуда родом или изнутри чего-то, von — от человека или от какого-то места: ein Brief von meiner Mutter.",
      "examples": [
       {
@@ -1789,7 +1971,7 @@
     {
      "title_en": "Two-way prepositions: wo? or wohin?",
      "title_ru": "Предлоги двойного управления: wo? или wohin?",
-     "body_en": "an, auf, hinter, in, neben, über, unter, vor, zwischen take the dative when they describe a location (Wo? – Das Buch liegt auf dem Tisch) and the accusative for a direction or movement to a new place (Wohin? – Ich lege das Buch auf den Tisch). Russian works the same way: в комнате (где?) vs в комнату (куда?).",
+     "body_en": "an, auf, hinter, in, neben, über, unter, vor, zwischen take the dative when they describe a location (Wo? – Das Buch liegt auf dem Tisch) and the accusative for a direction or movement to a new place (Wohin? – Ich lege das Buch auf den Tisch). Russian works the same way: 'in the room' (where?) takes a different case from 'into the room' (where to?).",
      "body_ru": "an, auf, hinter, in, neben, über, unter, vor, zwischen требуют датива, когда обозначают место (Wo? — Das Buch liegt auf dem Tisch), и аккузатива, когда обозначают направление, перемещение в новое место (Wohin? — Ich lege das Buch auf den Tisch). В русском то же самое: «в комнате» (где?) и «в комнату» (куда?), «на столе» и «на стол». Задавайте себе вопрос «где?» или «куда?».",
      "examples": [
       {
@@ -1835,7 +2017,7 @@
     {
      "title_en": "liegen/legen, stehen/stellen, sitzen/setzen, hängen",
      "title_ru": "liegen/legen, stehen/stellen, sitzen/setzen, hängen",
-     "body_en": "Position verbs come in pairs. liegen, stehen, sitzen, hängen (hing, gehangen) describe a position and take the dative: Das Glas steht auf dem Tisch. legen, stellen, setzen, hängen (hängte, gehängt) describe putting something somewhere and take the accusative: Ich stelle das Glas auf den Tisch. Russian has the same pairs: лежать/класть, стоять/ставить, сидеть/сажать.",
+     "body_en": "Position verbs come in pairs. liegen, stehen, sitzen, hängen (hing, gehangen) describe a position and take the dative: Das Glas steht auf dem Tisch. legen, stellen, setzen, hängen (hängte, gehängt) describe putting something somewhere and take the accusative: Ich stelle das Glas auf den Tisch. Russian has the same pairs: lie/lay, stand/put upright, sit/seat.",
      "body_ru": "Глаголы положения идут парами. liegen, stehen, sitzen, hängen (hing, gehangen) описывают положение и требуют датива: Das Glas steht auf dem Tisch. legen, stellen, setzen, hängen (hängte, gehängt) описывают действие «положить, поставить, посадить, повесить» и требуют аккузатива: Ich stelle das Glas auf den Tisch. В русском такие же пары: лежать/класть, стоять/ставить, сидеть/сажать, висеть/вешать. Немцы различают «стоит» и «лежит» строже: бутылка steht, а книга на столе liegt.",
      "examples": [
       {
@@ -1858,7 +2040,7 @@
     {
      "title_en": "an, auf or in?",
      "title_ru": "an, auf или in?",
-     "body_en": "in = inside something: im Zimmer, in der Stadt. auf = on a horizontal surface: auf dem Tisch, auf dem Boden; also auf dem Markt, auf der Party. an = on a vertical surface or at an edge: an der Wand, am Fenster, an der Tür; also at water: am Meer, am See. Russian 'на' can be auf or an.",
+     "body_en": "in = inside something: im Zimmer, in der Stadt. auf = on a horizontal surface: auf dem Tisch, auf dem Boden; also auf dem Markt, auf der Party. an = on a vertical surface or at an edge: an der Wand, am Fenster, an der Tür; also at water: am Meer, am See. English 'on' can be auf or an.",
      "body_ru": "in — внутри чего-то: im Zimmer, in der Stadt. auf — на горизонтальной поверхности: auf dem Tisch, auf dem Boden; также auf dem Markt, auf der Party. an — на вертикальной поверхности или у края: an der Wand, am Fenster, an der Tür; а также у воды: am Meer, am See. Русское «на» может быть и auf, и an: «на столе» — auf dem Tisch, «на стене» — an der Wand.",
      "examples": [
       {
@@ -1985,7 +2167,12 @@
      ],
      "answer": 2,
      "explain_en": "bei = at someone's place.",
-     "explain_ru": "bei — «у кого-то»: bei meiner Oma."
+     "explain_ru": "bei — «у кого-то»: bei meiner Oma.",
+     "ui": {
+      "en": {
+       "q": "Heute schlafe ich ___ meiner Oma. (at grandma's)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -2111,7 +2298,12 @@
       "stellt"
      ],
      "explain_en": "Putting upright + accusative: stellen.",
-     "explain_ru": "«Ставить» + аккузатив: er stellt."
+     "explain_ru": "«Ставить» + аккузатив: er stellt.",
+     "ui": {
+      "en": {
+       "q": "Er ___ das Glas auf den Tisch. (puts, sets upright)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -2121,7 +2313,12 @@
       "steht"
      ],
      "explain_en": "Position + dative: stehen.",
-     "explain_ru": "«Стоять» + датив: es steht."
+     "explain_ru": "«Стоять» + датив: es steht.",
+     "ui": {
+      "en": {
+       "q": "Das Glas ___ auf dem Tisch. (stands)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -2186,7 +2383,12 @@
      "q": "With two-way prepositions, „Wohin?“ (direction) requires the accusative and „Wo?“ (location) the dative.",
      "answer": true,
      "explain_en": "Ich gehe ins Kino (Akk.) – Ich bin im Kino (Dat.).",
-     "explain_ru": "Да: Ich gehe ins Kino (Akk.) — Ich bin im Kino (Dat.)."
+     "explain_ru": "Да: Ich gehe ins Kino (Akk.) — Ich bin im Kino (Dat.).",
+     "ui": {
+      "ru": {
+       "q": "С предлогами двойного управления „Wohin?“ (направление) требует винительного падежа, а „Wo?“ (место) — дательного."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2194,7 +2396,12 @@
      "q": "After „mit“ you use the accusative if there is movement: „mit den Bus“.",
      "answer": false,
      "explain_en": "mit always takes the dative: mit dem Bus.",
-     "explain_ru": "mit всегда требует датива: mit dem Bus."
+     "explain_ru": "mit всегда требует датива: mit dem Bus.",
+     "ui": {
+      "ru": {
+       "q": "После „mit“ ставится винительный падеж, если есть движение: „mit den Bus“."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2202,7 +2409,15 @@
      "q": "„Ich bin zu Hause“ means „я дома“, and „Ich gehe nach Hause“ means „я иду домой“.",
      "answer": true,
      "explain_en": "zu Hause = at home, nach Hause = home (direction).",
-     "explain_ru": "zu Hause — где? (дома), nach Hause — куда? (домой)."
+     "explain_ru": "zu Hause — где? (дома), nach Hause — куда? (домой).",
+     "ui": {
+      "en": {
+       "q": "„Ich bin zu Hause“ means 'I'm at home', and „Ich gehe nach Hause“ means 'I'm going home'."
+      },
+      "ru": {
+       "q": "„Ich bin zu Hause“ значит «я дома», а „Ich gehe nach Hause“ — «я иду домой»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2262,7 +2477,37 @@
        "setzen",
        "сажать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "liegen",
+         "to lie (be lying)"
+        ],
+        [
+         "legen",
+         "to lay, put down flat"
+        ],
+        [
+         "stehen",
+         "to stand"
+        ],
+        [
+         "stellen",
+         "to stand, put upright"
+        ],
+        [
+         "sitzen",
+         "to sit (be sitting)"
+        ],
+        [
+         "setzen",
+         "to seat, sit someone down"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2292,7 +2537,37 @@
        "von",
        "от"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "aus",
+         "out of, from"
+        ],
+        [
+         "bei",
+         "at, near, with"
+        ],
+        [
+         "mit",
+         "with; by (transport)"
+        ],
+        [
+         "nach",
+         "to (a city); after"
+        ],
+        [
+         "seit",
+         "since, for (time)"
+        ],
+        [
+         "von",
+         "from, of"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2300,13 +2575,13 @@
    "id": "reflexive-verbs",
    "title_en": "Reflexive verbs",
    "title_ru": "Возвратные глаголы",
-   "summary_en": "Reflexive verbs use a pronoun (mich, dich, sich …) that refers back to the subject, like Russian -ся or себя. With a second object the pronoun is in the dative: Ich wasche mir die Hände.",
+   "summary_en": "Reflexive verbs use a pronoun (mich, dich, sich …) that refers back to the subject, like English 'myself, yourself'. With a second object the pronoun is in the dative: Ich wasche mir die Hände.",
    "summary_ru": "Возвратные глаголы употребляются с местоимением (mich, dich, sich …), которое относится к подлежащему, — как русское -ся или «себя». Если есть второе дополнение, местоимение стоит в дативе: Ich wasche mir die Hände.",
    "rules": [
     {
      "title_en": "What reflexive verbs are",
      "title_ru": "Что такое возвратные глаголы",
-     "body_en": "A reflexive verb has a pronoun that refers to the subject: Ich wasche mich (I wash myself). Russian expresses this with -ся: я моюсь. In German the pronoun is a separate word and changes with the person. Many verbs exist both ways: Ich wasche das Auto – Ich wasche mich.",
+     "body_en": "A reflexive verb has a pronoun that refers to the subject: Ich wasche mich (I wash myself). Russian expresses this with the verb suffix -sya. In German the pronoun is a separate word and changes with the person. Many verbs exist both ways: Ich wasche das Auto – Ich wasche mich.",
      "body_ru": "У возвратного глагола есть местоимение, которое относится к подлежащему: Ich wasche mich (я моюсь, моюсь сам). По-русски это выражает частица -ся. В немецком местоимение — отдельное слово, и оно меняется по лицам. Многие глаголы бывают и возвратными, и нет: Ich wasche das Auto (мою машину) — Ich wasche mich (моюсь).",
      "examples": [
       {
@@ -2398,7 +2673,7 @@
     {
      "title_en": "Body parts and clothes: no possessive",
      "title_ru": "Части тела и одежда: без притяжательного местоимения",
-     "body_en": "With body parts and clothes German uses the dative reflexive and the definite article, not a possessive: Ich putze mir die Zähne (not 'meine Zähne'). Er wäscht sich das Gesicht. This is close to Russian, which also says 'чищу зубы' without 'мои'.",
+     "body_en": "With body parts and clothes German uses the dative reflexive and the definite article, not a possessive: Ich putze mir die Zähne (not 'meine Zähne'). Er wäscht sich das Gesicht. English uses a possessive here ('I brush my teeth'), German does not.",
      "body_ru": "С частями тела и одеждой в немецком используют возвратное местоимение в дативе и определённый артикль, а не притяжательное местоимение: Ich putze mir die Zähne (а не «meine Zähne»). Er wäscht sich das Gesicht. Это похоже на русский, где тоже говорят «чищу зубы», а не «чищу мои зубы».",
      "examples": [
       {
@@ -2467,7 +2742,7 @@
     {
      "title_en": "Not the same as Russian; 'each other'",
      "title_ru": "Не так, как в русском; «друг друга»",
-     "body_en": "Some Russian -ся verbs are not reflexive in German: lernen (учиться), lachen (смеяться), beginnen/anfangen (начинаться), bleiben (оставаться). Some German reflexives are not -ся in Russian: sich erinnern (вспоминать), sich ausruhen (отдыхать). In the plural uns, euch, sich can mean 'each other': Wir kennen uns.",
+     "body_en": "Some verbs that are reflexive in Russian are not reflexive in German: lernen (to study), lachen (to laugh), beginnen/anfangen (to begin), bleiben (to stay). Some German reflexives are not reflexive in Russian or English: sich erinnern (to remember), sich ausruhen (to rest). In the plural uns, euch, sich can mean 'each other': Wir kennen uns.",
      "body_ru": "Некоторые русские глаголы на -ся в немецком не возвратные: lernen (учиться), lachen (смеяться), beginnen/anfangen (начинаться): Der Film beginnt, bleiben (оставаться). И наоборот, некоторые немецкие возвратные глаголы в русском без -ся: sich erinnern (вспоминать), sich ausruhen (отдыхать). Во множественном числе uns, euch, sich могут значить «друг друга»: Wir kennen uns (мы знакомы). Wir sehen uns! — «Увидимся!»",
      "examples": [
       {
@@ -2599,7 +2874,12 @@
      ],
      "answer": 3,
      "explain_en": "Looking forward to something in the future: auf.",
-     "explain_ru": "Радость о будущем — auf."
+     "explain_ru": "Радость о будущем — auf.",
+     "ui": {
+      "en": {
+       "q": "Ich freue mich ___ das Wochenende. (look forward to)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -2771,7 +3051,12 @@
      "q": "With polite Sie, the reflexive pronoun is „sich“ with a small letter.",
      "answer": true,
      "explain_en": "Setzen Sie sich!",
-     "explain_ru": "Да: Setzen Sie sich!"
+     "explain_ru": "Да: Setzen Sie sich!",
+     "ui": {
+      "ru": {
+       "q": "С вежливым Sie возвратное местоимение — „sich“ с маленькой буквы."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2779,7 +3064,15 @@
      "q": "„Ich lerne mich Deutsch“ is correct because Russian „учиться“ is reflexive.",
      "answer": false,
      "explain_en": "lernen is not reflexive: Ich lerne Deutsch.",
-     "explain_ru": "lernen не возвратный: Ich lerne Deutsch."
+     "explain_ru": "lernen не возвратный: Ich lerne Deutsch.",
+     "ui": {
+      "en": {
+       "q": "„Ich lerne mich Deutsch“ is correct because the Russian verb for 'to study' is reflexive."
+      },
+      "ru": {
+       "q": "„Ich lerne mich Deutsch“ — правильно, потому что русское «учиться» — возвратный глагол."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2787,7 +3080,12 @@
      "q": "„sich freuen auf“ is about the future, „sich freuen über“ about something that has already happened or exists.",
      "answer": true,
      "explain_en": "auf den Urlaub (coming), über das Geschenk (received).",
-     "explain_ru": "auf den Urlaub (впереди), über das Geschenk (уже получили)."
+     "explain_ru": "auf den Urlaub (впереди), über das Geschenk (уже получили).",
+     "ui": {
+      "ru": {
+       "q": "„sich freuen auf“ — о будущем, „sich freuen über“ — о том, что уже произошло или уже есть."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2839,7 +3137,33 @@
        "sich erkälten",
        "простудиться"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "sich freuen",
+         "to be glad"
+        ],
+        [
+         "sich beeilen",
+         "to hurry"
+        ],
+        [
+         "sich erinnern",
+         "to remember"
+        ],
+        [
+         "sich setzen",
+         "to sit down"
+        ],
+        [
+         "sich erkälten",
+         "to catch a cold"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2861,7 +3185,29 @@
        "sich freuen (на будущее)",
        "auf"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "sich interessieren",
+         "für"
+        ],
+        [
+         "sich erinnern",
+         "an"
+        ],
+        [
+         "sich ärgern",
+         "über"
+        ],
+        [
+         "sich freuen (about the future)",
+         "auf"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2875,7 +3221,7 @@
     {
      "title_en": "Endings only before a noun",
      "title_ru": "Окончание только перед существительным",
-     "body_en": "After sein, werden or bleiben an adjective has no ending: Der Tisch ist neu. Die Lampe ist neu. Before a noun it always has an ending: der neue Tisch, die neue Lampe. Russian adjectives always agree ('стол новый', 'новый стол'), so remember: no ending after ist.",
+     "body_en": "After sein, werden or bleiben an adjective has no ending: Der Tisch ist neu. Die Lampe ist neu. Before a noun it always has an ending: der neue Tisch, die neue Lampe. Russian adjectives always agree, wherever they stand, so remember: no ending after ist.",
      "body_ru": "После sein, werden или bleiben прилагательное стоит без окончания: Der Tisch ist neu. Die Lampe ist neu. Перед существительным окончание есть всегда: der neue Tisch, die neue Lampe. В русском прилагательное согласуется всегда («стол новый», «новый стол»), а в немецком после ist окончания нет — это похоже на русскую краткую форму: «стол нов».",
      "examples": [
       {
@@ -3340,7 +3686,12 @@
      "q": "After „ist“ the adjective has no ending: „Der Tisch ist neu.“",
      "answer": true,
      "explain_en": "Endings only before a noun.",
-     "explain_ru": "Окончание бывает только перед существительным."
+     "explain_ru": "Окончание бывает только перед существительным.",
+     "ui": {
+      "ru": {
+       "q": "После „ist“ прилагательное не имеет окончания: „Der Tisch ist neu.“"
+      }
+     }
     },
     {
      "id": "e24",
@@ -3348,7 +3699,12 @@
      "q": "„ein neue Tisch“ is correct in the nominative.",
      "answer": false,
      "explain_en": "After ein the adjective shows the gender: ein neuer Tisch.",
-     "explain_ru": "После ein прилагательное показывает род: ein neuer Tisch."
+     "explain_ru": "После ein прилагательное показывает род: ein neuer Tisch.",
+     "ui": {
+      "ru": {
+       "q": "„ein neue Tisch“ — правильно в именительном падеже."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3356,7 +3712,12 @@
      "q": "Between nominative and accusative, only the masculine adjective ending changes: der neue → den neuen, ein neuer → einen neuen.",
      "answer": true,
      "explain_en": "Feminine, neuter and plural stay the same.",
-     "explain_ru": "Женский, средний род и множественное число не меняются."
+     "explain_ru": "Женский, средний род и множественное число не меняются.",
+     "ui": {
+      "ru": {
+       "q": "При переходе от именительного к винительному меняется только окончание прилагательного мужского рода: der neue → den neuen, ein neuer → einen neuen."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3436,7 +3797,7 @@
     {
      "title_en": "The comparative with als",
      "title_ru": "Сравнительная степень с als",
-     "body_en": "Add -er to the adjective: klein → kleiner, schnell → schneller, billig → billiger. The thing you compare with is introduced by als ('than') and stays in the nominative: Mein Bruder ist größer als ich. Russian can also use the genitive ('выше меня'), but German always needs als.",
+     "body_en": "Add -er to the adjective: klein → kleiner, schnell → schneller, billig → billiger. The thing you compare with is introduced by als ('than') and stays in the nominative: Mein Bruder ist größer als ich. Russian can also use the genitive without 'than', but German always needs als.",
      "body_ru": "К прилагательному добавляется -er: klein → kleiner, schnell → schneller, billig → billiger. Объект сравнения вводится словом als («чем») и стоит в именительном падеже: Mein Bruder ist größer als ich. В русском можно сказать и «выше меня» (родительный падеж), а в немецком als обязателен: größer als ich, а не «größer mich».",
      "examples": [
       {
@@ -3482,7 +3843,7 @@
     {
      "title_en": "Irregular forms",
      "title_ru": "Неправильные формы",
-     "body_en": "A few common words are irregular: gut – besser – am besten, viel – mehr – am meisten, gern – lieber – am liebsten, hoch – höher – am höchsten, nah – näher – am nächsten. Like Russian 'хороший – лучше', these have to be learnt by heart.",
+     "body_en": "A few common words are irregular: gut – besser – am besten, viel – mehr – am meisten, gern – lieber – am liebsten, hoch – höher – am höchsten, nah – näher – am nächsten. Like English 'good – better – best', these have to be learnt by heart.",
      "body_ru": "Несколько частых слов образуют степени неправильно: gut – besser – am besten, viel – mehr – am meisten, gern – lieber – am liebsten, hoch – höher – am höchsten, nah – näher – am nächsten. Как и русские «хороший – лучше – лучший», их нужно просто выучить.",
      "examples": [
       {
@@ -3528,7 +3889,7 @@
     {
      "title_en": "The superlative with am",
      "title_ru": "Превосходная степень с am",
-     "body_en": "After a verb the superlative is am + adjective + -sten: am schnellsten, am schönsten, am größten. After -d, -t, -s, -ß, -z, -sch an -e- is added: am ältesten, am kürzesten, am heißesten (but am größten). Russian uses 'быстрее всех' or 'самый быстрый'.",
+     "body_en": "After a verb the superlative is am + adjective + -sten: am schnellsten, am schönsten, am größten. After -d, -t, -s, -ß, -z, -sch an -e- is added: am ältesten, am kürzesten, am heißesten (but am größten). It corresponds to English '(the) fastest'.",
      "body_ru": "После глагола превосходная степень — это am + прилагательное + -sten: am schnellsten, am schönsten, am größten. После -d, -t, -s, -ß, -z, -sch добавляется -e-: am ältesten, am kürzesten, am heißesten (но am größten). По-русски это «быстрее всех» или «самый быстрый»: Wer läuft am schnellsten? — Кто бегает быстрее всех?",
      "examples": [
       {
@@ -3551,7 +3912,7 @@
     {
      "title_en": "Superlative before a noun",
      "title_ru": "Превосходная степень перед существительным",
-     "body_en": "Before a noun the superlative is der/die/das + adjective + -(e)ste + normal adjective ending: der schnellste Zug, die beste Freundin, das größte Haus, die ältesten Kinder. It corresponds to Russian 'самый …'.",
+     "body_en": "Before a noun the superlative is der/die/das + adjective + -(e)ste + normal adjective ending: der schnellste Zug, die beste Freundin, das größte Haus, die ältesten Kinder. It corresponds to English 'the fastest …, the best …'.",
      "body_ru": "Перед существительным превосходная степень — это der/die/das + прилагательное + -(e)st- + обычное окончание прилагательного: der schnellste Zug, die beste Freundin, das größte Haus, die ältesten Kinder. Это соответствует русскому «самый …»: самый быстрый поезд. Отдельного слова «самый» в немецком нет.",
      "examples": [
       {
@@ -3597,7 +3958,7 @@
     {
      "title_en": "lieber, am liebsten; viel and immer",
      "title_ru": "lieber, am liebsten; viel и immer",
-     "body_en": "gern – lieber – am liebsten expresses preference: Ich trinke lieber Tee (I prefer tea). Ich fahre am liebsten Fahrrad (I like cycling best). viel before a comparative means 'much': viel größer (гораздо больше). immer + comparative means 'more and more': Es wird immer kälter.",
+     "body_en": "gern – lieber – am liebsten expresses preference: Ich trinke lieber Tee (I prefer tea). Ich fahre am liebsten Fahrrad (I like cycling best). viel before a comparative means 'much': viel größer (much bigger). immer + comparative means 'more and more': Es wird immer kälter.",
      "body_ru": "gern – lieber – am liebsten выражает предпочтение: Ich trinke lieber Tee (я предпочитаю чай). Ich fahre am liebsten Fahrrad (больше всего люблю кататься на велосипеде). viel перед сравнительной степенью значит «гораздо»: viel größer (гораздо больше). immer + сравнительная степень значит «всё более»: Es wird immer kälter (становится всё холоднее).",
      "examples": [
       {
@@ -3817,7 +4178,12 @@
       "älterer"
      ],
      "explain_en": "älter + -er after mein (masculine nominative).",
-     "explain_ru": "älter + окончание -er после mein (мужской род, номинатив)."
+     "explain_ru": "älter + окончание -er после mein (мужской род, номинатив).",
+     "ui": {
+      "en": {
+       "q": "Das ist mein ___ Bruder. (alt, comparative)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -3827,7 +4193,12 @@
       "größere"
      ],
      "explain_en": "größer + -e after eine.",
-     "explain_ru": "größer + окончание -e после eine."
+     "explain_ru": "größer + окончание -e после eine.",
+     "ui": {
+      "en": {
+       "q": "Wir brauchen eine ___ Wohnung. (groß, comparative)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -3900,7 +4271,15 @@
      "q": "After a comparative German uses „als“; the Russian genitive construction („выше меня“) is not possible.",
      "answer": true,
      "explain_en": "größer als ich.",
-     "explain_ru": "Да: größer als ich."
+     "explain_ru": "Да: größer als ich.",
+     "ui": {
+      "en": {
+       "q": "After a comparative German uses „als“ ('than'); a case form alone, as in Russian, is not possible."
+      },
+      "ru": {
+       "q": "После сравнительной степени в немецком используется „als“; русская конструкция с родительным падежом («выше меня») невозможна."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3908,7 +4287,12 @@
      "q": "The superlative of „gut“ is „am gutesten“.",
      "answer": false,
      "explain_en": "gut – besser – am besten.",
-     "explain_ru": "Неправильная форма: am besten."
+     "explain_ru": "Неправильная форма: am besten.",
+     "ui": {
+      "ru": {
+       "q": "Превосходная степень от „gut“ — „am gutesten“."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3916,7 +4300,12 @@
      "q": "„mehr“ takes no adjective endings: „mehr Zeit“, „mehr Bücher“.",
      "answer": true,
      "explain_en": "mehr and weniger never change.",
-     "explain_ru": "mehr и weniger никогда не склоняются."
+     "explain_ru": "mehr и weniger никогда не склоняются.",
+     "ui": {
+      "ru": {
+       "q": "„mehr“ не принимает окончаний прилагательных: „mehr Zeit“, „mehr Bücher“."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3994,7 +4383,33 @@
        "viel größer",
        "гораздо больше"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "größer als",
+         "bigger than"
+        ],
+        [
+         "so groß wie",
+         "as big as"
+        ],
+        [
+         "nicht so groß wie",
+         "not as big as"
+        ],
+        [
+         "am größten",
+         "the biggest"
+        ],
+        [
+         "viel größer",
+         "much bigger"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4054,7 +4469,7 @@
     {
      "title_en": "dass: that",
      "title_ru": "dass: что",
-     "body_en": "dass introduces what someone says, thinks, knows, hopes or feels: Ich glaube, dass er recht hat. Typical verbs: sagen, denken, glauben, wissen, hoffen, finden, meinen. Do not confuse the conjunction dass with the question word was ('what'): Russian 'что' can be both. After glauben and denken dass can be left out, then main-clause order follows: Ich glaube, er hat recht.",
+     "body_en": "dass introduces what someone says, thinks, knows, hopes or feels: Ich glaube, dass er recht hat. Typical verbs: sagen, denken, glauben, wissen, hoffen, finden, meinen. Do not confuse the conjunction dass with the question word was ('what'): in Russian one word covers both. After glauben and denken dass can be left out, then main-clause order follows: Ich glaube, er hat recht.",
      "body_ru": "dass вводит то, что кто-то говорит, думает, знает, на что надеется: Ich glaube, dass er recht hat. Типичные глаголы: sagen, denken, glauben, wissen, hoffen, finden, meinen. Не путайте союз dass с вопросительным словом was: русское «что» может быть и тем, и другим. После glauben и denken dass можно опустить, тогда порядок слов как в главном предложении: Ich glaube, er hat recht.",
      "examples": [
       {
@@ -4077,7 +4492,7 @@
     {
      "title_en": "wenn: if, whenever",
      "title_ru": "wenn: если, когда",
-     "body_en": "wenn means 'if' (a condition) and also 'when, whenever' for repeated or future events: Wenn ich Zeit habe, komme ich. Wenn es regnet, nehme ich den Bus. So one German word covers Russian 'если' and often 'когда'.",
+     "body_en": "wenn means 'if' (a condition) and also 'when, whenever' for repeated or future events: Wenn ich Zeit habe, komme ich. Wenn es regnet, nehme ich den Bus. So one German word covers both 'if' and often 'when'.",
      "body_ru": "wenn значит «если» (условие), а также «когда» для повторяющихся или будущих событий: Wenn ich Zeit habe, komme ich (если у меня будет время, приду). Wenn es regnet, nehme ich den Bus (когда идёт дождь, я езжу на автобусе). Одно немецкое слово покрывает русское «если» и часто «когда». Будущее здесь обычно передаётся настоящим временем.",
      "examples": [
       {
@@ -4098,9 +4513,9 @@
      ]
     },
     {
-     "title_en": "ob: whether (ли)",
+     "title_en": "ob: whether",
      "title_ru": "ob: ли",
-     "body_en": "ob introduces an indirect yes/no question: Kommt er? → Ich weiß nicht, ob er kommt. It corresponds to Russian 'ли': 'не знаю, придёт ли он'. Never use wenn here – wenn means 'if' as a condition, not 'whether'.",
+     "body_en": "ob introduces an indirect yes/no question: Kommt er? → Ich weiß nicht, ob er kommt. It corresponds to English 'whether': 'I don't know whether he is coming'. Never use wenn here – wenn means 'if' as a condition, not 'whether'.",
      "body_ru": "ob вводит косвенный вопрос, на который можно ответить «да» или «нет»: Kommt er? → Ich weiß nicht, ob er kommt. Он соответствует русской частице «ли»: «не знаю, придёт ли он». Никогда не используйте здесь wenn: wenn — это «если» как условие, а не «ли». Ошибка «Ich weiß nicht, wenn er kommt» очень частая.",
      "examples": [
       {
@@ -4339,7 +4754,12 @@
       "weil"
      ],
      "explain_en": "Reason with the verb at the end: weil.",
-     "explain_ru": "Причина с глаголом в конце — weil."
+     "explain_ru": "Причина с глаголом в конце — weil.",
+     "ui": {
+      "en": {
+       "q": "Ich komme nicht, ___ ich keine Zeit habe. (because)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -4349,7 +4769,12 @@
       "dass"
      ],
      "explain_en": "hoffen, dass …",
-     "explain_ru": "hoffen, dass … — «надеяться, что»."
+     "explain_ru": "hoffen, dass … — «надеяться, что».",
+     "ui": {
+      "en": {
+       "q": "Ich hoffe, ___ du bald gesund bist. (that)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -4359,7 +4784,12 @@
       "ob"
      ],
      "explain_en": "Indirect yes/no question: ob.",
-     "explain_ru": "«ли» — ob."
+     "explain_ru": "«ли» — ob.",
+     "ui": {
+      "en": {
+       "q": "Kannst du mir sagen, ___ der Bus hier hält? (whether)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -4370,7 +4800,12 @@
       "wenn"
      ],
      "explain_en": "Condition: wenn.",
-     "explain_ru": "Условие — wenn."
+     "explain_ru": "Условие — wenn.",
+     "ui": {
+      "en": {
+       "q": "___ du Hunger hast, iss etwas! (if)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -4479,7 +4914,12 @@
      "q": "In a clause with weil, dass, wenn or ob the conjugated verb goes to the end.",
      "answer": true,
      "explain_en": "…, weil ich krank bin.",
-     "explain_ru": "Да: …, weil ich krank bin."
+     "explain_ru": "Да: …, weil ich krank bin.",
+     "ui": {
+      "ru": {
+       "q": "В придаточном предложении с weil, dass, wenn или ob спрягаемый глагол стоит в конце."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4487,7 +4927,15 @@
      "q": "Russian „ли“ („Я не знаю, придёт ли он“) is translated with „wenn“.",
      "answer": false,
      "explain_en": "Use ob: Ich weiß nicht, ob er kommt.",
-     "explain_ru": "«ли» — это ob: Ich weiß nicht, ob er kommt."
+     "explain_ru": "«ли» — это ob: Ich weiß nicht, ob er kommt.",
+     "ui": {
+      "en": {
+       "q": "'whether' ('I don't know whether he is coming') is translated with „wenn“."
+      },
+      "ru": {
+       "q": "Русское «ли» («Я не знаю, придёт ли он») переводится словом „wenn“."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4495,7 +4943,12 @@
      "q": "A comma always separates a main clause from a subordinate clause in German.",
      "answer": true,
      "explain_en": "Ich weiß, dass … – always with a comma.",
-     "explain_ru": "Ich weiß, dass … — запятая обязательна."
+     "explain_ru": "Ich weiß, dass … — запятая обязательна.",
+     "ui": {
+      "ru": {
+       "q": "В немецком главное и придаточное предложения всегда разделяются запятой."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4517,7 +4970,29 @@
        "ob",
        "ли"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "weil",
+         "because"
+        ],
+        [
+         "dass",
+         "that (conjunction)"
+        ],
+        [
+         "wenn",
+         "if; when"
+        ],
+        [
+         "ob",
+         "whether"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4598,7 +5073,7 @@
     {
      "title_en": "denn and weil",
      "title_ru": "denn и weil",
-     "body_en": "denn and weil both mean 'because', but the word order differs: …, denn ich bin krank (verb in second position) – …, weil ich krank bin (verb at the end). denn is rather written or formal and cannot start an answer to warum?; there you need weil. Russian 'так как, ведь' is close to denn.",
+     "body_en": "denn and weil both mean 'because', but the word order differs: …, denn ich bin krank (verb in second position) – …, weil ich krank bin (verb at the end). denn is rather written or formal and cannot start an answer to warum?; there you need weil. English 'for, since' is close to denn.",
      "body_ru": "denn и weil оба значат «потому что», но порядок слов разный: …, denn ich bin krank (глагол на втором месте) — …, weil ich krank bin (глагол в конце). denn чаще встречается в письменной речи и не может начинать ответ на вопрос warum? — там нужен weil. По смыслу denn близок к русскому «так как, ведь». Не путайте союз denn и частицу denn в вопросах (Was ist denn los?).",
      "examples": [
       {
@@ -4621,7 +5096,7 @@
     {
      "title_en": "aber or sondern?",
      "title_ru": "aber или sondern?",
-     "body_en": "aber means 'but' and adds a contrast: Das Auto ist alt, aber gut. sondern ('but rather') is only used after a negation to replace the wrong information with the right one: Das ist nicht mein Auto, sondern das Auto von meinem Bruder. Russian 'а' after a negation ('не …, а …') is sondern.",
+     "body_en": "aber means 'but' and adds a contrast: Das Auto ist alt, aber gut. sondern ('but rather') is only used after a negation to replace the wrong information with the right one: Das ist nicht mein Auto, sondern das Auto von meinem Bruder. The pattern 'not …, but …' is nicht …, sondern ….",
      "body_ru": "aber значит «но» и добавляет противопоставление: Das Auto ist alt, aber gut. sondern («а») употребляется только после отрицания, чтобы заменить неверную информацию правильной: Das ist nicht mein Auto, sondern das Auto von meinem Bruder. Русская схема «не …, а …» — это всегда nicht/kein …, sondern …. Русское «а» без отрицания часто передаётся через und или aber.",
      "examples": [
       {
@@ -4667,7 +5142,7 @@
     {
      "title_en": "deshalb: position 1, then the verb",
      "title_ru": "deshalb: первое место, затем глагол",
-     "body_en": "deshalb (therefore, that is why) is an adverb, not a conjunction. It takes position 1 itself, so the verb follows at once and the subject comes after the verb: Ich bin krank, deshalb bleibe ich zu Hause. deswegen and darum mean the same. In Russian 'поэтому я остаюсь' the order is free; in German 'deshalb ich bleibe' is wrong.",
+     "body_en": "deshalb (therefore, that is why) is an adverb, not a conjunction. It takes position 1 itself, so the verb follows at once and the subject comes after the verb: Ich bin krank, deshalb bleibe ich zu Hause. deswegen and darum mean the same. In English and Russian the subject comes first ('that's why I stay'); in German 'deshalb ich bleibe' is wrong.",
      "body_ru": "deshalb (поэтому) — это наречие, а не союз. Оно само занимает первое место, поэтому сразу за ним идёт глагол, а подлежащее — после глагола: Ich bin krank, deshalb bleibe ich zu Hause. deswegen и darum значат то же самое. По-русски «поэтому я остаюсь» — порядок свободный, а по-немецки «deshalb ich bleibe» — ошибка: нужна инверсия.",
      "examples": [
       {
@@ -4906,7 +5381,12 @@
       "denn"
      ],
      "explain_en": "denn keeps main-clause order.",
-     "explain_ru": "После denn порядок слов как в главном предложении."
+     "explain_ru": "После denn порядок слов как в главном предложении.",
+     "ui": {
+      "en": {
+       "q": "Ich bleibe zu Hause, ___ ich bin krank. (because; word order doesn't change)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -4916,7 +5396,12 @@
       "sondern"
      ],
      "explain_en": "nicht …, sondern …",
-     "explain_ru": "«не …, а …» — nicht …, sondern …"
+     "explain_ru": "«не …, а …» — nicht …, sondern …",
+     "ui": {
+      "en": {
+       "q": "Er wohnt nicht in Berlin, ___ in Hamburg. (but rather)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -4926,7 +5411,12 @@
       "trotzdem"
      ],
      "explain_en": "Nevertheless: trotzdem.",
-     "explain_ru": "«Всё равно, тем не менее» — trotzdem."
+     "explain_ru": "«Всё равно, тем не менее» — trotzdem.",
+     "ui": {
+      "en": {
+       "q": "Das Wetter ist schlecht, ___ fahren wir ans Meer. (anyway)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -4938,7 +5428,12 @@
       "darum"
      ],
      "explain_en": "deshalb / deswegen / darum + verb.",
-     "explain_ru": "«Поэтому» — deshalb / deswegen / darum, затем глагол."
+     "explain_ru": "«Поэтому» — deshalb / deswegen / darum, затем глагол.",
+     "ui": {
+      "en": {
+       "q": "Ich habe keine Zeit, ___ kann ich nicht kommen. (that's why)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -4969,7 +5464,12 @@
       "danach"
      ],
      "explain_en": "dann / danach = then, after that.",
-     "explain_ru": "«Потом» — dann или danach."
+     "explain_ru": "«Потом» — dann или danach.",
+     "ui": {
+      "en": {
+       "q": "Wir gehen zuerst einkaufen und ___ ins Kino. (then)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -5047,7 +5547,12 @@
      "q": "After „denn“ the verb stays in second position, as in a main clause.",
      "answer": true,
      "explain_en": "…, denn ich bin krank.",
-     "explain_ru": "Да: …, denn ich bin krank."
+     "explain_ru": "Да: …, denn ich bin krank.",
+     "ui": {
+      "ru": {
+       "q": "После „denn“ глагол остаётся на втором месте, как в главном предложении."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5055,15 +5560,28 @@
      "q": "After „deshalb“ at the start of a clause the subject comes before the verb: „deshalb ich bleibe“.",
      "answer": false,
      "explain_en": "deshalb takes position 1: deshalb bleibe ich.",
-     "explain_ru": "deshalb занимает первое место: deshalb bleibe ich."
+     "explain_ru": "deshalb занимает первое место: deshalb bleibe ich.",
+     "ui": {
+      "ru": {
+       "q": "После „deshalb“ в начале предложения подлежащее стоит перед глаголом: „deshalb ich bleibe“."
+      }
+     }
     },
     {
      "id": "e25",
      "type": "tf",
      "q": "German „also“ means „тоже“.",
      "answer": false,
-     "explain_en": "'тоже' is auch; also means 'so, therefore'.",
-     "explain_ru": "«Тоже» — это auch; also значит «итак, значит»."
+     "explain_en": "'too, also' is auch; German also means 'so, therefore'.",
+     "explain_ru": "«Тоже» — это auch; also значит «итак, значит».",
+     "ui": {
+      "en": {
+       "q": "German „also“ means 'also, too'."
+      },
+      "ru": {
+       "q": "Немецкое „also“ значит «тоже»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5089,7 +5607,33 @@
        "sondern",
        "а (после отрицания)"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "und",
+         "and"
+        ],
+        [
+         "aber",
+         "but"
+        ],
+        [
+         "oder",
+         "or"
+        ],
+        [
+         "denn",
+         "because, since"
+        ],
+        [
+         "sondern",
+         "but rather (after a negative)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5115,7 +5659,33 @@
        "zuerst",
        "сначала"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "deshalb",
+         "that's why"
+        ],
+        [
+         "trotzdem",
+         "anyway, nevertheless"
+        ],
+        [
+         "dann",
+         "then, after that"
+        ],
+        [
+         "also",
+         "so, therefore"
+        ],
+        [
+         "zuerst",
+         "first"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5151,7 +5721,7 @@
     {
      "title_en": "am, im, um",
      "title_ru": "am, im, um",
-     "body_en": "am for days, parts of the day, dates and the weekend: am Montag, am Abend, am 3. Mai, am Wochenende (but in der Nacht). im for months and seasons: im Juli, im Winter. um for clock times: um acht Uhr. Russian uses 'в' for all three: в понедельник, в июле, в восемь часов.",
+     "body_en": "am for days, parts of the day, dates and the weekend: am Montag, am Abend, am 3. Mai, am Wochenende (but in der Nacht). im for months and seasons: im Juli, im Winter. um for clock times: um acht Uhr. Compare English on Monday, in July, at eight o'clock.",
      "body_ru": "am — для дней недели, частей суток, дат и выходных: am Montag, am Abend, am 3. Mai, am Wochenende (но in der Nacht — ночью). im — для месяцев и времён года: im Juli, im Winter. um — для времени по часам: um acht Uhr. В русском во всех трёх случаях «в»: в понедельник, в июле, в восемь часов, а в немецком — три разных предлога. Русское «вечером, зимой» без предлога → am Abend, im Winter.",
      "examples": [
       {
@@ -5197,7 +5767,7 @@
     {
      "title_en": "vor and nach + dative",
      "title_ru": "vor и nach + датив",
-     "body_en": "vor + dative means 'before' (vor dem Essen) and, with a time span, 'ago': vor zwei Jahren (два года назад). Note that vor stands before the noun, while Russian 'назад' comes after it. nach + dative means 'after': nach dem Unterricht, nach der Arbeit.",
+     "body_en": "vor + dative means 'before' (vor dem Essen) and, with a time span, 'ago': vor zwei Jahren (two years ago). Note that vor stands before the noun, while English 'ago' comes after it. nach + dative means 'after': nach dem Unterricht, nach der Arbeit.",
      "body_ru": "vor + датив значит «перед, до» (vor dem Essen — перед едой), а с отрезком времени — «назад»: vor zwei Jahren (два года назад). Обратите внимание: vor стоит перед существительным, а русское «назад» — после. nach + датив значит «после»: nach dem Unterricht, nach der Arbeit. Во множественном числе датив: vor drei Tagen, vor zwei Wochen.",
      "examples": [
       {
@@ -5220,7 +5790,7 @@
     {
      "title_en": "seit + dative with the present tense",
      "title_ru": "seit + датив с настоящим временем",
-     "body_en": "seit + dative means 'since' or 'for' about something that started in the past and is still going on. German uses the present tense here: Ich wohne seit drei Jahren in Wien. Seit wann lernst du Deutsch? – Seit einem Jahr. Russian also uses the present: 'я живу здесь уже три года'.",
+     "body_en": "seit + dative means 'since' or 'for' about something that started in the past and is still going on. German uses the present tense here, where English uses the present perfect: Ich wohne seit drei Jahren in Wien (I have lived in Vienna for three years). Seit wann lernst du Deutsch? – Seit einem Jahr.",
      "body_ru": "seit + датив значит «с (какого-то момента)» или «уже (какое-то время)» о том, что началось в прошлом и продолжается сейчас. В немецком здесь настоящее время: Ich wohne seit drei Jahren in Wien. Seit wann lernst du Deutsch? – Seit einem Jahr. В русском тоже настоящее: «я живу здесь уже три года» — так что здесь русская логика помогает (в отличие от английского).",
      "examples": [
       {
@@ -5243,7 +5813,7 @@
     {
      "title_en": "bis, ab, von … bis, in",
      "title_ru": "bis, ab, von … bis, in",
-     "body_en": "bis = until: bis Freitag, bis morgen; with an article bis zum: bis zum Wochenende. ab = from (a point onwards): ab Montag. von … bis = from … to: von 9 bis 17 Uhr. in + dative for the future means 'in (time)': in einer Woche = через неделю – do not confuse it with vor einer Woche (неделю назад).",
+     "body_en": "bis = until: bis Freitag, bis morgen; with an article bis zum: bis zum Wochenende. ab = from (a point onwards): ab Montag. von … bis = from … to: von 9 bis 17 Uhr. in + dative for the future means 'in (time)': in einer Woche = in a week's time – do not confuse it with vor einer Woche (a week ago).",
      "body_ru": "bis — «до»: bis Freitag, bis morgen; с артиклем — bis zum: bis zum Wochenende. ab — «с (какого-то момента и дальше)»: ab Montag. von … bis — «с … до»: von 9 bis 17 Uhr. in + датив о будущем значит «через»: in einer Woche — через неделю; не путайте с vor einer Woche — неделю назад. Русское «через» о времени — это in, а не durch!",
      "examples": [
       {
@@ -5312,7 +5882,7 @@
     {
      "title_en": "Uses of werden",
      "title_ru": "Употребление werden",
-     "body_en": "werden + noun takes the nominative and, for jobs, no article: Er wird Lehrer (Russian uses the instrumental: 'станет учителем'). werden + adjective describes a change: Es wird kalt (холодает), Es wird dunkel (темнеет) – Russian often has one verb. With age: Ich werde morgen 30 (мне завтра исполнится 30).",
+     "body_en": "werden + noun takes the nominative and, for jobs, no article: Er wird Lehrer (he becomes a teacher; Russian uses the instrumental case here). werden + adjective describes a change: Es wird kalt (it's getting cold), Es wird dunkel (it's getting dark) – Russian often has one verb for this. With age: Ich werde morgen 30 (I'll turn 30 tomorrow).",
      "body_ru": "werden + существительное требует именительного падежа, а с профессиями — без артикля: Er wird Lehrer (по-русски — творительный падеж: «станет учителем»). werden + прилагательное описывает изменение: Es wird kalt (холодает), Es wird dunkel (темнеет) — в русском часто один глагол. О возрасте: Ich werde morgen 30 (мне завтра исполнится 30). Was willst du werden? — Кем ты хочешь стать?",
      "examples": [
       {
@@ -5402,7 +5972,12 @@
      ],
      "answer": 0,
      "explain_en": "'ago' = vor + dative.",
-     "explain_ru": "«Назад» — vor + датив, и vor стоит впереди."
+     "explain_ru": "«Назад» — vor + датив, и vor стоит впереди.",
+     "ui": {
+      "en": {
+       "q": "___ zwei Jahren war ich in Spanien. (two years ago)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -5503,7 +6078,12 @@
       "nach"
      ],
      "explain_en": "after = nach + dative.",
-     "explain_ru": "«После» — nach + датив."
+     "explain_ru": "«После» — nach + датив.",
+     "ui": {
+      "en": {
+       "q": "Wir essen ___ dem Kino eine Pizza. (after)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -5513,7 +6093,12 @@
       "geworden"
      ],
      "explain_en": "werden – wurde – ist geworden.",
-     "explain_ru": "Перфект с sein: werden – wurde – ist geworden."
+     "explain_ru": "Перфект с sein: werden – wurde – ist geworden.",
+     "ui": {
+      "en": {
+       "q": "Er ist letztes Jahr Vater ___. (werden, Perfekt)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -5543,7 +6128,12 @@
       "gab"
      ],
      "explain_en": "Past of es gibt: es gab.",
-     "explain_ru": "Прошедшее от es gibt — es gab."
+     "explain_ru": "Прошедшее от es gibt — es gab.",
+     "ui": {
+      "en": {
+       "q": "Früher ___ es hier ein Kino. (geben, Präteritum)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -5553,7 +6143,12 @@
       "bis"
      ],
      "explain_en": "until = bis.",
-     "explain_ru": "«До» — bis: bis Freitag."
+     "explain_ru": "«До» — bis: bis Freitag.",
+     "ui": {
+      "en": {
+       "q": "Ich bin ___ Freitag in Berlin. (until Friday)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -5617,7 +6212,15 @@
      "q": "„vor zwei Jahren“ means „два года назад“; vor stands before the noun and takes the dative.",
      "answer": true,
      "explain_en": "vor + dative plural: vor zwei Jahren.",
-     "explain_ru": "Да: vor + датив мн. ч. — vor zwei Jahren."
+     "explain_ru": "Да: vor + датив мн. ч. — vor zwei Jahren.",
+     "ui": {
+      "en": {
+       "q": "„vor zwei Jahren“ means 'two years ago'; vor stands before the noun and takes the dative."
+      },
+      "ru": {
+       "q": "„vor zwei Jahren“ значит «два года назад»; vor стоит перед существительным и требует дательного падежа."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5625,7 +6228,12 @@
      "q": "With a plural noun, „es gibt“ becomes „es geben“: „Es geben viele Museen.“",
      "answer": false,
      "explain_en": "es gibt is always singular: Es gibt viele Museen.",
-     "explain_ru": "es gibt всегда в ед. числе: Es gibt viele Museen."
+     "explain_ru": "es gibt всегда в ед. числе: Es gibt viele Museen.",
+     "ui": {
+      "ru": {
+       "q": "С существительным во множественном числе „es gibt“ превращается в „es geben“: „Es geben viele Museen.“"
+      }
+     }
     },
     {
      "id": "e25",
@@ -5633,7 +6241,15 @@
      "q": "„Er wird Lehrer“ has no article, while Russian uses the instrumental case: „он станет учителем“.",
      "answer": true,
      "explain_en": "werden + nominative, no article for jobs.",
-     "explain_ru": "werden + именительный падеж, профессии без артикля."
+     "explain_ru": "werden + именительный падеж, профессии без артикля.",
+     "ui": {
+      "en": {
+       "q": "„Er wird Lehrer“ has no article, while Russian puts the noun in the instrumental case here ('he will become a teacher')."
+      },
+      "ru": {
+       "q": "В „Er wird Lehrer“ нет артикля, а в русском используется творительный падеж: «он станет учителем»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5659,7 +6275,33 @@
        "am Abend",
        "вечером"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "am Montag",
+         "on Monday"
+        ],
+        [
+         "im Mai",
+         "in May"
+        ],
+        [
+         "um acht Uhr",
+         "at eight o'clock"
+        ],
+        [
+         "in der Nacht",
+         "at night"
+        ],
+        [
+         "am Abend",
+         "in the evening"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5685,7 +6327,33 @@
        "bis nächste Woche",
        "до следующей недели"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "vor einer Woche",
+         "a week ago"
+        ],
+        [
+         "in einer Woche",
+         "in a week's time"
+        ],
+        [
+         "seit einer Woche",
+         "for a week (now)"
+        ],
+        [
+         "nach einer Woche",
+         "after a week"
+        ],
+        [
+         "bis nächste Woche",
+         "until next week"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",

@@ -297,7 +297,12 @@
      ],
      "answer": 2,
      "explain_en": "Auxiliary in second place (inversion after gisteren), participle at the end.",
-     "explain_ru": "Вспомогательный глагол на втором месте (инверсия после gisteren), причастие в конце."
+     "explain_ru": "Вспомогательный глагол на втором месте (инверсия после gisteren), причастие в конце.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -468,7 +473,12 @@
      "q": "The participle of 'praten' is 'gepraat', without an extra -t.",
      "answer": true,
      "explain_en": "The stem praat already ends in -t, so nothing is added.",
-     "explain_ru": "Основа praat уже кончается на -t, поэтому ничего не добавляется."
+     "explain_ru": "Основа praat уже кончается на -t, поэтому ничего не добавляется.",
+     "ui": {
+      "ru": {
+       "q": "Причастие от 'praten' — 'gepraat', без дополнительного -t."
+      }
+     }
     },
     {
      "id": "e24",
@@ -476,7 +486,12 @@
      "q": "'Ik ben gewerkt' is the correct perfectum of werken.",
      "answer": false,
      "explain_en": "Werken takes hebben: Ik heb gewerkt.",
-     "explain_ru": "Werken спрягается с hebben: Ik heb gewerkt."
+     "explain_ru": "Werken спрягается с hebben: Ik heb gewerkt.",
+     "ui": {
+      "ru": {
+       "q": "'Ik ben gewerkt' — правильный perfectum глагола werken."
+      }
+     }
     },
     {
      "id": "e25",
@@ -484,7 +499,12 @@
      "q": "Verbs with the prefix ver- (vertellen, vertalen) get no ge- in the participle.",
      "answer": true,
      "explain_en": "verteld, vertaald — no ge-.",
-     "explain_ru": "verteld, vertaald — без ge-."
+     "explain_ru": "verteld, vertaald — без ge-.",
+     "ui": {
+      "ru": {
+       "q": "Глаголы с приставкой ver- (vertellen, vertalen) не получают ge- в причастии."
+      }
+     }
     },
     {
      "id": "e26",
@@ -558,7 +578,29 @@
        "Heb je al betaald?",
        "Ты уже заплатил?"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ik heb gewerkt.",
+         "I worked."
+        ],
+        [
+         "Ik ben verhuisd.",
+         "I moved house."
+        ],
+        [
+         "Wat is er gebeurd?",
+         "What happened?"
+        ],
+        [
+         "Heb je al betaald?",
+         "Have you paid yet?"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1034,7 +1076,12 @@
      "q": "The participle of 'kopen' is 'gekocht'.",
      "answer": true,
      "explain_en": "Kopen, zoeken, denken and brengen have participles in -cht.",
-     "explain_ru": "У kopen, zoeken, denken и brengen причастия на -cht."
+     "explain_ru": "У kopen, zoeken, denken и brengen причастия на -cht.",
+     "ui": {
+      "ru": {
+       "q": "Причастие от 'kopen' — 'gekocht'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1042,7 +1089,12 @@
      "q": "'Ik heb gekomen' is correct Dutch.",
      "answer": false,
      "explain_en": "Komen takes zijn: Ik ben gekomen.",
-     "explain_ru": "Komen спрягается с zijn: Ik ben gekomen."
+     "explain_ru": "Komen спрягается с zijn: Ik ben gekomen.",
+     "ui": {
+      "ru": {
+       "q": "'Ik heb gekomen' — правильный нидерландский."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1050,7 +1102,12 @@
      "q": "'Ik heb in de zee gezwommen' is correct: without a destination, zwemmen takes hebben.",
      "answer": true,
      "explain_en": "Only with a destination: Ik ben naar de kant gezwommen.",
-     "explain_ru": "Только при наличии цели — zijn: Ik ben naar de kant gezwommen."
+     "explain_ru": "Только при наличии цели — zijn: Ik ben naar de kant gezwommen.",
+     "ui": {
+      "ru": {
+       "q": "'Ik heb in de zee gezwommen' — правильно: без цели движения zwemmen употребляется с hebben."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1124,7 +1181,29 @@
        "Ik heb geslapen.",
        "Я спал."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ik ben gebleven.",
+         "I stayed."
+        ],
+        [
+         "Ik heb gegeten.",
+         "I have eaten."
+        ],
+        [
+         "Ik ben gevallen.",
+         "I fell."
+        ],
+        [
+         "Ik heb geslapen.",
+         "I slept."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1577,7 +1656,12 @@
      "q": "The imperfectum of 'leven' is 'leefde', not 'leefte'.",
      "answer": true,
      "explain_en": "The infinitive has v, which is not in 't kofschip: -de.",
-     "explain_ru": "В инфинитиве v, её нет в 't kofschip: -de."
+     "explain_ru": "В инфинитиве v, её нет в 't kofschip: -de.",
+     "ui": {
+      "ru": {
+       "q": "Imperfectum от 'leven' — 'leefde', а не 'leefte'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1585,7 +1669,12 @@
      "q": "In the imperfectum the jij-form gets an extra -t: 'jij werktet'.",
      "answer": false,
      "explain_en": "All singular forms are the same: jij werkte.",
-     "explain_ru": "Все формы единственного числа одинаковы: jij werkte."
+     "explain_ru": "Все формы единственного числа одинаковы: jij werkte.",
+     "ui": {
+      "ru": {
+       "q": "В imperfectum форма jij получает дополнительное -t: 'jij werktet'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1593,7 +1682,12 @@
      "q": "The plural of 'las' (lezen) is 'lazen'.",
      "answer": true,
      "explain_en": "s becomes z between vowels: lazen.",
-     "explain_ru": "Между гласными s переходит в z: lazen."
+     "explain_ru": "Между гласными s переходит в z: lazen.",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от 'las' (lezen) — 'lazen'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1671,7 +1765,33 @@
        "Ik kon niet slapen.",
        "Я не мог уснуть."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ik had geen tijd.",
+         "I had no time."
+        ],
+        [
+         "Het regende.",
+         "It was raining."
+        ],
+        [
+         "Ik wist het niet.",
+         "I didn't know that."
+        ],
+        [
+         "We gingen naar huis.",
+         "We went home."
+        ],
+        [
+         "Ik kon niet slapen.",
+         "I couldn't sleep."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1993,7 +2113,12 @@
      ],
      "answer": 2,
      "explain_en": "Een + het-word: both adjectives without -e.",
-     "explain_ru": "Een + слово с het: оба прилагательных без -e."
+     "explain_ru": "Een + слово с het: оба прилагательных без -e.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -2137,7 +2262,12 @@
      "q": "'een groot huis' and 'het grote huis' are both correct.",
      "answer": true,
      "explain_en": "Een + het-word: no -e; het + adjective: -e.",
-     "explain_ru": "Een + слово с het — без -e; после het — с -e."
+     "explain_ru": "Een + слово с het — без -e; после het — с -e.",
+     "ui": {
+      "ru": {
+       "q": "И 'een groot huis', и 'het grote huis' — правильные формы."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2145,7 +2275,12 @@
      "q": "After 'mijn' an adjective before a het-word has no -e: 'mijn oud huis'.",
      "answer": false,
      "explain_en": "After a possessive always -e: mijn oude huis.",
-     "explain_ru": "После притяжательного местоимения всегда -e: mijn oude huis."
+     "explain_ru": "После притяжательного местоимения всегда -e: mijn oude huis.",
+     "ui": {
+      "ru": {
+       "q": "После 'mijn' прилагательное перед het-словом не получает -e: 'mijn oud huis'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2153,7 +2288,12 @@
      "q": "'Iets lekkers' means 'something tasty'.",
      "answer": true,
      "explain_en": "iets + adjective + -s.",
-     "explain_ru": "iets + прилагательное + -s = «что-то вкусное»."
+     "explain_ru": "iets + прилагательное + -s = «что-то вкусное».",
+     "ui": {
+      "ru": {
+       "q": "'Iets lekkers' значит «что-то вкусное»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2231,7 +2371,33 @@
        "De zwarte.",
        "Чёрную (куртку)."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "iets lekkers",
+         "something tasty"
+        ],
+        [
+         "niets nieuws",
+         "nothing new"
+        ],
+        [
+         "een houten tafel",
+         "a wooden table"
+        ],
+        [
+         "zo'n mooi huis",
+         "such a beautiful house"
+        ],
+        [
+         "De zwarte.",
+         "The black one (jacket)."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2540,7 +2706,12 @@
      ],
      "answer": 1,
      "explain_en": "Comparative + dan; groter has one t.",
-     "explain_ru": "Сравнительная степень + dan; в groter одна t."
+     "explain_ru": "Сравнительная степень + dan; в groter одна t.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -2699,7 +2870,12 @@
      "q": "'Interessanter' is a correct comparative in Dutch.",
      "answer": true,
      "explain_en": "Dutch uses -er also with long adjectives, unlike English 'more interesting'.",
-     "explain_ru": "В нидерландском -er используется и с длинными прилагательными, в отличие от английского «more interesting»."
+     "explain_ru": "В нидерландском -er используется и с длинными прилагательными, в отличие от английского «more interesting».",
+     "ui": {
+      "ru": {
+       "q": "'Interessanter' — правильная сравнительная степень в нидерландском."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2707,7 +2883,12 @@
      "q": "'Groter als' is the standard way to say 'bigger than'.",
      "answer": false,
      "explain_en": "Standard Dutch: groter dan.",
-     "explain_ru": "В стандартном языке: groter dan."
+     "explain_ru": "В стандартном языке: groter dan.",
+     "ui": {
+      "ru": {
+       "q": "'Groter als' — нормативный способ сказать «больше, чем»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2715,7 +2896,12 @@
      "q": "The comparative of 'duur' is 'duurder'.",
      "answer": true,
      "explain_en": "Adjectives in -r add -der.",
-     "explain_ru": "Прилагательные на -r добавляют -der."
+     "explain_ru": "Прилагательные на -r добавляют -der.",
+     "ui": {
+      "ru": {
+       "q": "Сравнительная степень от 'duur' — 'duurder'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2789,7 +2975,33 @@
        "hoe groter, hoe beter",
        "чем больше, тем лучше"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "even groot als",
+         "as big as"
+        ],
+        [
+         "groter dan",
+         "bigger than"
+        ],
+        [
+         "het grootst",
+         "(the) biggest of all"
+        ],
+        [
+         "steeds groter",
+         "bigger and bigger"
+        ],
+        [
+         "hoe groter, hoe beter",
+         "the bigger, the better"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3124,7 +3336,12 @@
      ],
      "answer": 2,
      "explain_en": "Reflexive verbs take hebben; verslapen is strong.",
-     "explain_ru": "Возвратные глаголы спрягаются с hebben; verslapen — сильный глагол."
+     "explain_ru": "Возвратные глаголы спрягаются с hebben; verslapen — сильный глагол.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -3267,7 +3484,12 @@
      "q": "For a de-word thing like 'de tas' you use 'hem': 'Ik zie hem'.",
      "answer": true,
      "explain_en": "De-words get hem, het-words get het.",
-     "explain_ru": "Слова с de — hem, слова с het — het."
+     "explain_ru": "Слова с de — hem, слова с het — het.",
+     "ui": {
+      "ru": {
+       "q": "Для предмета, обозначенного de-словом, например 'de tas', используют 'hem': 'Ik zie hem'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3275,7 +3497,15 @@
      "q": "'Lachen' (смеяться) is a reflexive verb in Dutch: 'Ik lach me'.",
      "answer": false,
      "explain_en": "Lachen is not reflexive: Ik lach.",
-     "explain_ru": "Lachen не возвратный глагол: Ik lach — «я смеюсь»."
+     "explain_ru": "Lachen не возвратный глагол: Ik lach — «я смеюсь».",
+     "ui": {
+      "en": {
+       "q": "'Lachen' (to laugh) is a reflexive verb in Dutch: 'Ik lach me'."
+      },
+      "ru": {
+       "q": "'Lachen' (смеяться) — возвратный глагол в нидерландском: 'Ik lach me'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3283,7 +3513,12 @@
      "q": "In formal written Dutch 'hun' is used as an indirect object: 'Ik geef hun een boek'.",
      "answer": true,
      "explain_en": "Hun = to them, without a preposition.",
-     "explain_ru": "Hun = «им», без предлога."
+     "explain_ru": "Hun = «им», без предлога.",
+     "ui": {
+      "ru": {
+       "q": "В официальном письменном нидерландском 'hun' употребляется как косвенное дополнение: 'Ik geef hun een boek'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3313,7 +3548,37 @@
        "zij (мн. ч.)",
        "hen / hun / ze"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ik",
+         "me / mij"
+        ],
+        [
+         "jij",
+         "je / jou"
+        ],
+        [
+         "hij",
+         "hem"
+        ],
+        [
+         "zij (she)",
+         "haar"
+        ],
+        [
+         "wij",
+         "ons"
+        ],
+        [
+         "zij (they)",
+         "hen / hun / ze"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3361,7 +3626,33 @@
        "zich verslapen",
        "проспать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "zich vergissen",
+         "to be mistaken"
+        ],
+        [
+         "zich haasten",
+         "to hurry"
+        ],
+        [
+         "zich herinneren",
+         "to remember"
+        ],
+        [
+         "zich vervelen",
+         "to be bored"
+        ],
+        [
+         "zich verslapen",
+         "to oversleep"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3670,7 +3961,12 @@
      ],
      "answer": 0,
      "explain_en": "dat + subject … verb at the end.",
-     "explain_ru": "dat + подлежащее … глагол в конце."
+     "explain_ru": "dat + подлежащее … глагол в конце.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3836,7 +4132,12 @@
      "q": "In a clause with omdat, the finite verb goes to the end.",
      "answer": true,
      "explain_en": "…, omdat ik ziek ben.",
-     "explain_ru": "…, omdat ik ziek ben — глагол в конце."
+     "explain_ru": "…, omdat ik ziek ben — глагол в конце.",
+     "ui": {
+      "ru": {
+       "q": "В придаточном с omdat спрягаемый глагол уходит в конец."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3844,7 +4145,12 @@
      "q": "'Ik denk hij komt morgen' is correct Dutch: dat can be left out, as in English.",
      "answer": false,
      "explain_en": "Dat is required: Ik denk dat hij morgen komt.",
-     "explain_ru": "Dat обязателен: Ik denk dat hij morgen komt."
+     "explain_ru": "Dat обязателен: Ik denk dat hij morgen komt.",
+     "ui": {
+      "ru": {
+       "q": "'Ik denk hij komt morgen' — правильный нидерландский: dat можно опустить, как в английском."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3852,7 +4158,12 @@
      "q": "After a subordinate clause at the start, the main clause begins with the verb: 'Als ik tijd heb, kom ik.'",
      "answer": true,
      "explain_en": "The subordinate clause takes the first position.",
-     "explain_ru": "Придаточное занимает первое место, затем идёт глагол."
+     "explain_ru": "Придаточное занимает первое место, затем идёт глагол.",
+     "ui": {
+      "ru": {
+       "q": "Если предложение начинается с придаточного, главное начинается с глагола: 'Als ik tijd heb, kom ik.'"
+      }
+     }
     },
     {
      "id": "e26",
@@ -3878,7 +4189,33 @@
        "toen",
        "когда (один раз в прошлом)"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "omdat",
+         "because"
+        ],
+        [
+         "dat",
+         "that (conjunction)"
+        ],
+        [
+         "of",
+         "whether, if"
+        ],
+        [
+         "als",
+         "if; when"
+        ],
+        [
+         "toen",
+         "when (once, in the past)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3926,7 +4263,33 @@
        "toen ik student was",
        "когда я был студентом"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ik denk dat …",
+         "I think that …"
+        ],
+        [
+         "Ik weet niet of …",
+         "I don't know whether …"
+        ],
+        [
+         "omdat ik moe ben",
+         "because I am tired"
+        ],
+        [
+         "als ik tijd heb",
+         "if I have time"
+        ],
+        [
+         "toen ik student was",
+         "when I was a student"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4243,7 +4606,12 @@
      ],
      "answer": 2,
      "explain_en": "Daarom + verb + subject.",
-     "explain_ru": "Daarom + глагол + подлежащее."
+     "explain_ru": "Daarom + глагол + подлежащее.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -4293,7 +4661,12 @@
       "anders"
      ],
      "explain_en": "'Otherwise' = anders.",
-     "explain_ru": "«Иначе» = anders."
+     "explain_ru": "«Иначе» = anders.",
+     "ui": {
+      "ru": {
+       "q": "Neem een paraplu mee, ___ word je nat. (anders/daarom) — выберите подходящее слово."
+      }
+     }
     },
     {
      "id": "e16",
@@ -4396,7 +4769,12 @@
      "q": "'Want' and 'omdat' both mean 'because', but after want the word order stays normal.",
      "answer": true,
      "explain_en": "want ik ben ziek / omdat ik ziek ben.",
-     "explain_ru": "want ik ben ziek / omdat ik ziek ben — разный порядок слов."
+     "explain_ru": "want ik ben ziek / omdat ik ziek ben — разный порядок слов.",
+     "ui": {
+      "ru": {
+       "q": "'Want' и 'omdat' оба значат «потому что», но после want порядок слов остаётся обычным."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4404,7 +4782,12 @@
      "q": "After 'daarom' the subject comes before the verb: 'Daarom ik blijf thuis.'",
      "answer": false,
      "explain_en": "Daarom causes inversion: Daarom blijf ik thuis.",
-     "explain_ru": "Daarom вызывает инверсию: Daarom blijf ik thuis."
+     "explain_ru": "Daarom вызывает инверсию: Daarom blijf ik thuis.",
+     "ui": {
+      "ru": {
+       "q": "После 'daarom' подлежащее стоит перед глаголом: 'Daarom ik blijf thuis.'"
+      }
+     }
     },
     {
      "id": "e25",
@@ -4412,7 +4795,12 @@
      "q": "A sentence can begin with 'want': 'Want ik ben ziek, blijf ik thuis.'",
      "answer": false,
      "explain_en": "Only omdat can begin the sentence: Omdat ik ziek ben, blijf ik thuis.",
-     "explain_ru": "Начать предложение можно только с omdat: Omdat ik ziek ben, blijf ik thuis."
+     "explain_ru": "Начать предложение можно только с omdat: Omdat ik ziek ben, blijf ik thuis.",
+     "ui": {
+      "ru": {
+       "q": "Предложение может начинаться с 'want': 'Want ik ben ziek, blijf ik thuis.'"
+      }
+     }
     },
     {
      "id": "e26",
@@ -4442,7 +4830,37 @@
        "daarom",
        "поэтому"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "en",
+         "and"
+        ],
+        [
+         "maar",
+         "but"
+        ],
+        [
+         "of",
+         "or"
+        ],
+        [
+         "want",
+         "because, for"
+        ],
+        [
+         "dus",
+         "so"
+        ],
+        [
+         "daarom",
+         "therefore"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4490,7 +4908,33 @@
        "toen",
        "тогда (в прошлом)"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "toch",
+         "still, after all"
+        ],
+        [
+         "dan",
+         "then, next"
+        ],
+        [
+         "anders",
+         "otherwise"
+        ],
+        [
+         "daarna",
+         "after that"
+        ],
+        [
+         "toen",
+         "then (in the past)"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4817,7 +5261,12 @@
      ],
      "answer": 2,
      "explain_en": "Gaan in second place, infinitive at the end, no te.",
-     "explain_ru": "Gaan на втором месте, инфинитив в конце, без te."
+     "explain_ru": "Gaan на втором месте, инфинитив в конце, без te.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -4960,7 +5409,12 @@
      "q": "After modal verbs like willen and kunnen you use te: 'Ik wil te slapen'.",
      "answer": false,
      "explain_en": "No te after modals: Ik wil slapen.",
-     "explain_ru": "После модальных глаголов te нет: Ik wil slapen."
+     "explain_ru": "После модальных глаголов te нет: Ik wil slapen.",
+     "ui": {
+      "ru": {
+       "q": "После модальных глаголов, таких как willen и kunnen, используют te: 'Ik wil te slapen'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4968,7 +5422,15 @@
      "q": "'Zullen we …?' is a common way to make a suggestion, like Russian 'Давай …?'.",
      "answer": true,
      "explain_en": "Zullen we gaan? = Shall we go?",
-     "explain_ru": "Zullen we gaan? = «Пойдём?»"
+     "explain_ru": "Zullen we gaan? = «Пойдём?»",
+     "ui": {
+      "en": {
+       "q": "'Zullen we …?' is a common way to make a suggestion, like English 'Shall we …?'."
+      },
+      "ru": {
+       "q": "'Zullen we …?' — обычный способ что-то предложить, как русское «Давай …?»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4976,7 +5438,12 @@
      "q": "Dutch often uses the present tense for the future: 'Ik bel je morgen.'",
      "answer": true,
      "explain_en": "With a time word the present tense is very natural.",
-     "explain_ru": "Со словом, обозначающим время, настоящее время звучит очень естественно."
+     "explain_ru": "Со словом, обозначающим время, настоящее время звучит очень естественно.",
+     "ui": {
+      "ru": {
+       "q": "В нидерландском для будущего часто используют настоящее время: 'Ik bel je morgen.'"
+      }
+     }
     },
     {
      "id": "e26",
@@ -5002,7 +5469,33 @@
        "Ik probeer te slapen.",
        "Я пытаюсь уснуть."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ik ga koken.",
+         "I'm going to cook."
+        ],
+        [
+         "Ik zal je helpen.",
+         "I will help you (I promise)."
+        ],
+        [
+         "Zal ik helpen?",
+         "Shall I help?"
+        ],
+        [
+         "Zullen we gaan?",
+         "Shall we go?"
+        ],
+        [
+         "Ik probeer te slapen.",
+         "I'm trying to sleep."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5028,7 +5521,33 @@
        "van plan zijn te",
        "собираться"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "proberen te",
+         "to try to"
+        ],
+        [
+         "beginnen te",
+         "to begin to"
+        ],
+        [
+         "vergeten te",
+         "to forget to"
+        ],
+        [
+         "besluiten te",
+         "to decide to"
+        ],
+        [
+         "van plan zijn te",
+         "to plan to, to intend to"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5384,7 +5903,12 @@
      ],
      "answer": 2,
      "explain_en": "Er + verb + indefinite subject + place.",
-     "explain_ru": "Er + глагол + неопределённое подлежащее + место."
+     "explain_ru": "Er + глагол + неопределённое подлежащее + место.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -5445,7 +5969,12 @@
       "onder"
      ],
      "explain_en": "Under = onder.",
-     "explain_ru": "«Под» = onder."
+     "explain_ru": "«Под» = onder.",
+     "ui": {
+      "en": {
+       "q": "De kat slaapt ___ het bed. (onder/boven) – 'under the bed'"
+      }
+     }
     },
     {
      "id": "e17",
@@ -5533,7 +6062,15 @@
      "q": "'Op school' corresponds to Russian 'в школе'.",
      "answer": true,
      "explain_en": "Dutch uses op for school, work and the station.",
-     "explain_ru": "В нидерландском op употребляется со школой, работой и вокзалом."
+     "explain_ru": "В нидерландском op употребляется со школой, работой и вокзалом.",
+     "ui": {
+      "en": {
+       "q": "'Op school' means 'at school', although op usually means 'on'."
+      },
+      "ru": {
+       "q": "'Op school' соответствует русскому «в школе»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5541,7 +6078,12 @@
      "q": "'Geleden' comes before the time expression: 'geleden twee jaar'.",
      "answer": false,
      "explain_en": "It comes after: twee jaar geleden.",
-     "explain_ru": "Geleden стоит после: twee jaar geleden."
+     "explain_ru": "Geleden стоит после: twee jaar geleden.",
+     "ui": {
+      "ru": {
+       "q": "'Geleden' стоит перед обозначением времени: 'geleden twee jaar'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5549,7 +6091,15 @@
      "q": "'Over een week' means 'in a week from now', Russian 'через неделю'.",
      "answer": true,
      "explain_en": "Over + time = a point in the future.",
-     "explain_ru": "Over + время = момент в будущем."
+     "explain_ru": "Over + время = момент в будущем.",
+     "ui": {
+      "en": {
+       "q": "'Over een week' means 'in a week from now'."
+      },
+      "ru": {
+       "q": "'Over een week' значит «через неделю»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5579,7 +6129,37 @@
        "tussen de huizen",
        "между домами"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "in de kast",
+         "in the cupboard"
+        ],
+        [
+         "op de tafel",
+         "on the table"
+        ],
+        [
+         "aan de muur",
+         "on the wall"
+        ],
+        [
+         "onder het bed",
+         "under the bed"
+        ],
+        [
+         "naast de deur",
+         "next to the door"
+        ],
+        [
+         "tussen de huizen",
+         "between the houses"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5605,7 +6185,33 @@
        "tijdens de les",
        "во время урока"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "om acht uur",
+         "at eight o'clock"
+        ],
+        [
+         "over een uur",
+         "in an hour"
+        ],
+        [
+         "een uur geleden",
+         "an hour ago"
+        ],
+        [
+         "sinds maandag",
+         "since Monday"
+        ],
+        [
+         "tijdens de les",
+         "during the lesson"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5631,7 +6237,33 @@
        "Ik ben thuis.",
        "Я дома."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ik ga naar de dokter.",
+         "I'm going to the doctor."
+        ],
+        [
+         "Ik ben bij de dokter.",
+         "I'm at the doctor's."
+        ],
+        [
+         "Ik kom uit Rusland.",
+         "I'm from Russia."
+        ],
+        [
+         "Ik ga naar huis.",
+         "I'm going home."
+        ],
+        [
+         "Ik ben thuis.",
+         "I'm at home."
+        ]
+       ]
+      }
+     }
     }
    ]
   }

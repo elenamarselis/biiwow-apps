@@ -11,7 +11,7 @@
     {
      "title_en": "Formation and regular participles",
      "title_ru": "Образование и правильные причастия",
-     "body_en": "The passé composé has two parts: the present of avoir or être (the auxiliary) + the past participle. Regular participles: -er verbs → -é (parler → parlé), -ir verbs like finir → -i (fini, choisi), -re verbs → -u (attendre → attendu, vendre → vendu). Russian has one past form (говорил / поговорил); French always needs the auxiliary.",
+     "body_en": "The passé composé has two parts: the present of avoir or être (the auxiliary) + the past participle. Regular participles: -er verbs → -é (parler → parlé), -ir verbs like finir → -i (fini, choisi), -re verbs → -u (attendre → attendu, vendre → vendu). Russian has a single past form (imperfective 'govoril' / perfective 'pogovoril'); French always needs the auxiliary.",
      "body_ru": "Passé composé состоит из двух частей: настоящее время avoir или être (вспомогательный глагол) + причастие прошедшего времени. Правильные причастия: глаголы на -er → -é (parler → parlé), глаголы типа finir → -i (fini, choisi), глаголы на -re → -u (attendre → attendu, vendre → vendu). В русском прошедшее время — одно слово (говорил, поговорил), а во французском вспомогательный глагол обязателен.",
      "examples": [
       {
@@ -195,7 +195,7 @@
     {
      "title_en": "Meaning: completed actions",
      "title_ru": "Значение: завершённые действия",
-     "body_en": "The passé composé presents a past action as a completed event: something happened, at a given moment or within a limited period (hier, en 2019, pendant deux heures). It often matches a Russian perfective verb, but not always: j'ai travaillé pendant deux heures = я работал два часа.",
+     "body_en": "The passé composé presents a past action as a completed event: something happened, at a given moment or within a limited period (hier, en 2019, pendant deux heures). It often matches a Russian perfective verb, but not always: j'ai travaillé pendant deux heures = I worked for two hours (imperfective in Russian).",
      "body_ru": "Passé composé представляет прошлое действие как завершённое событие: что-то произошло в определённый момент или за ограниченный период (hier, en 2019, pendant deux heures). Часто ему соответствует русский совершенный вид, но не всегда: j'ai travaillé pendant deux heures = я работал два часа (несовершенный вид в русском, но действие ограничено во времени, поэтому passé composé).",
      "examples": [
       {
@@ -499,7 +499,12 @@
      "q": "'Elle a allé au cinéma' is correct French.",
      "answer": false,
      "explain_en": "Aller takes être: elle est allée au cinéma.",
-     "explain_ru": "Aller спрягается с être: elle est allée au cinéma."
+     "explain_ru": "Aller спрягается с être: elle est allée au cinéma.",
+     "ui": {
+      "ru": {
+       "q": "'Elle a allé au cinéma' — правильная французская фраза."
+      }
+     }
     },
     {
      "id": "e24",
@@ -507,7 +512,12 @@
      "q": "With avoir, the participle does not agree with the subject: 'elles ont mangé'.",
      "answer": true,
      "explain_en": "Correct: with avoir there is no agreement with the subject.",
-     "explain_ru": "Верно: с avoir причастие с подлежащим не согласуется."
+     "explain_ru": "Верно: с avoir причастие с подлежащим не согласуется.",
+     "ui": {
+      "ru": {
+       "q": "С avoir причастие не согласуется с подлежащим: 'elles ont mangé'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -515,7 +525,12 @@
      "q": "In 'Il a monté la valise', avoir is used because monter has a direct object.",
      "answer": true,
      "explain_en": "Monter + direct object → avoir (carry up); without an object → être (go up).",
-     "explain_ru": "Monter + прямое дополнение → avoir (занести наверх); без дополнения → être (подняться)."
+     "explain_ru": "Monter + прямое дополнение → avoir (занести наверх); без дополнения → être (подняться).",
+     "ui": {
+      "ru": {
+       "q": "В 'Il a monté la valise' используется avoir, потому что у monter есть прямое дополнение."
+      }
+     }
     },
     {
      "id": "e26",
@@ -589,7 +604,33 @@
        "devenir",
        "стать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "naître",
+         "to be born"
+        ],
+        [
+         "mourir",
+         "to die"
+        ],
+        [
+         "tomber",
+         "to fall"
+        ],
+        [
+         "rester",
+         "to stay"
+        ],
+        [
+         "devenir",
+         "to become"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -672,7 +713,7 @@
     {
      "title_en": "Été, né, mort",
      "title_ru": "Été, né, mort",
-     "body_en": "Être → été, and it takes avoir: j'ai été malade (never 'je suis été'). Naître → né and mourir → mort take être and agree: elle est née, il est mort, elle est morte. In Russian 'я был болен' has no auxiliary, so learners often forget avoir here.",
+     "body_en": "Être → été, and it takes avoir: j'ai été malade (never 'je suis été'). Naître → né and mourir → mort take être and agree: elle est née, il est mort, elle est morte. The Russian for 'I was ill' has no auxiliary, so learners often forget avoir here.",
      "body_ru": "Être → été, и спрягается он с avoir: j'ai été malade (никогда не «je suis été»). Naître → né и mourir → mort спрягаются с être и согласуются: elle est née, il est mort, elle est morte. В русском «я был болен» вспомогательного глагола нет, поэтому avoir здесь часто забывают.",
      "examples": [
       {
@@ -741,7 +782,7 @@
     {
      "title_en": "Pu, plu and other look-alikes",
      "title_ru": "Pu, plu и другие похожие формы",
-     "body_en": "Pouvoir → pu, but plaire and pleuvoir both → plu: il a plu (it rained), le film m'a plu (I liked the film). Note the Russian-like structure: le film m'a plu = фильм мне понравился. Also savoir → su, but être → été.",
+     "body_en": "Pouvoir → pu, but plaire and pleuvoir both → plu: il a plu (it rained), le film m'a plu (I liked the film). Note the structure, the same as in Russian: le film m'a plu = 'the film pleased me'. Also savoir → su, but être → été.",
      "body_ru": "Pouvoir → pu, а plaire и pleuvoir оба дают plu: il a plu (шёл дождь), le film m'a plu (фильм мне понравился). Конструкция с plaire устроена как в русском: подлежащее — то, что нравится, а человек — косвенное дополнение: le film m'a plu = фильм мне понравился. И не путайте: savoir → su, а être → été.",
      "examples": [
       {
@@ -1072,7 +1113,12 @@
      "q": "The past participle of 'prendre' is 'prendu'.",
      "answer": false,
      "explain_en": "Prendre → pris.",
-     "explain_ru": "Неверно: причастие от prendre — pris."
+     "explain_ru": "Неверно: причастие от prendre — pris.",
+     "ui": {
+      "ru": {
+       "q": "Причастие прошедшего времени от 'prendre' — 'prendu'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1080,7 +1126,12 @@
      "q": "'Il a plu' can mean 'it rained'.",
      "answer": true,
      "explain_en": "Pleuvoir → plu: il a plu = it rained.",
-     "explain_ru": "Pleuvoir → plu: il a plu = шёл дождь."
+     "explain_ru": "Pleuvoir → plu: il a plu = шёл дождь.",
+     "ui": {
+      "ru": {
+       "q": "'Il a plu' может значить «шёл дождь»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1088,7 +1139,12 @@
      "q": "'Je suis été malade' is correct French for 'I was ill'.",
      "answer": false,
      "explain_en": "Être takes avoir in the passé composé: j'ai été malade.",
-     "explain_ru": "Être в passé composé спрягается с avoir: j'ai été malade."
+     "explain_ru": "Être в passé composé спрягается с avoir: j'ai été malade.",
+     "ui": {
+      "ru": {
+       "q": "'Je suis été malade' — правильный перевод фразы «Я был болен»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1335,7 +1391,7 @@
     {
      "title_en": "Not the same as Russian aspect",
      "title_ru": "Это не то же самое, что русский вид",
-     "body_en": "The imparfait often matches a Russian imperfective verb, but not always. An action with a clear limit in time takes the passé composé even if Russian uses the imperfective: j'ai habité à Paris pendant cinq ans (я жил в Париже пять лет). An unlimited state uses the imparfait: j'habitais à Paris (я жил в Париже, тогда).",
+     "body_en": "The imparfait often matches a Russian imperfective verb, but not always. An action with a clear limit in time takes the passé composé even if Russian uses the imperfective: j'ai habité à Paris pendant cinq ans (I lived in Paris for five years). An unlimited state uses the imparfait: j'habitais à Paris (I was living in Paris at the time).",
      "body_ru": "Imparfait часто соответствует русскому несовершенному виду, но не всегда. Если у действия есть чёткие временные рамки, нужен passé composé, даже если по-русски несовершенный вид: j'ai habité à Paris pendant cinq ans (я жил в Париже пять лет — период закрыт). Неограниченное состояние — imparfait: j'habitais à Paris (я тогда жил в Париже). Решает не вид глагола, а взгляд на действие: целиком или изнутри.",
      "examples": [
       {
@@ -1656,15 +1712,28 @@
      "q": "The imparfait endings -ais, -ait and -aient are pronounced the same.",
      "answer": true,
      "explain_en": "All three are pronounced [ɛ].",
-     "explain_ru": "Все три произносятся как [ɛ]."
+     "explain_ru": "Все три произносятся как [ɛ].",
+     "ui": {
+      "ru": {
+       "q": "Окончания imparfait -ais, -ait и -aient произносятся одинаково."
+      }
+     }
     },
     {
      "id": "e24",
      "type": "tf",
      "q": "The French imparfait always corresponds to the Russian imperfective aspect (несовершенный вид).",
      "answer": false,
-     "explain_en": "No: 'j'ai travaillé pendant deux heures' = 'я работал два часа' (imperfective in Russian, passé composé in French).",
-     "explain_ru": "Нет: «j'ai travaillé pendant deux heures» = «я работал два часа» — в русском несовершенный вид, во французском passé composé."
+     "explain_en": "No: 'j'ai travaillé pendant deux heures' = 'I worked for two hours' (imperfective in Russian, passé composé in French).",
+     "explain_ru": "Нет: «j'ai travaillé pendant deux heures» = «я работал два часа» — в русском несовершенный вид, во французском passé composé.",
+     "ui": {
+      "en": {
+       "q": "The French imparfait always corresponds to the Russian imperfective aspect."
+      },
+      "ru": {
+       "q": "Французский imparfait всегда соответствует русскому несовершенному виду."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1672,7 +1741,12 @@
      "q": "In 'Il pleuvait quand je suis sorti', the rain is the background and going out is the event.",
      "answer": true,
      "explain_en": "Imparfait = background (il pleuvait), passé composé = event (je suis sorti).",
-     "explain_ru": "Imparfait — фон (il pleuvait), passé composé — событие (je suis sorti)."
+     "explain_ru": "Imparfait — фон (il pleuvait), passé composé — событие (je suis sorti).",
+     "ui": {
+      "ru": {
+       "q": "В 'Il pleuvait quand je suis sorti' дождь — это фон, а выход на улицу — событие."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1750,7 +1824,29 @@
        "J'avais faim.",
        "Я был голоден."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Il faisait beau.",
+         "The weather was nice."
+        ],
+        [
+         "Je dormais.",
+         "I was sleeping."
+        ],
+        [
+         "Le téléphone a sonné.",
+         "The phone rang."
+        ],
+        [
+         "J'avais faim.",
+         "I was hungry."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1851,7 +1947,7 @@
     {
      "title_en": "Quand, dès que + futur",
      "title_ru": "Quand, dès que + futur",
-     "body_en": "After quand, lorsque, dès que (as soon as) and après que, French uses the future when the action is in the future — just like Russian 'когда приеду', but unlike English 'when I arrive'. Quand je serai à Paris, je t'appellerai.",
+     "body_en": "After quand, lorsque, dès que (as soon as) and après que, French uses the future when the action is in the future — just as Russian does ('when I will arrive'), but unlike English 'when I arrive'. Quand je serai à Paris, je t'appellerai.",
      "body_ru": "После quand, lorsque (когда), dès que (как только) и après que французский употребляет будущее время, если действие относится к будущему — так же, как в русском «когда приеду», но не как в английском. Quand je serai à Paris, je t'appellerai — Когда буду в Париже, позвоню тебе. Настоящее время здесь — ошибка.",
      "examples": [
       {
@@ -1905,7 +2001,7 @@
     {
      "title_en": "Polite requests",
      "title_ru": "Вежливые просьбы",
-     "body_en": "The conditionnel softens requests and wishes: je voudrais (rather than je veux), j'aimerais, pourriez-vous… ?, auriez-vous… ?, est-ce que vous pourriez… ? In shops and with strangers, 'je veux' sounds rude, like a bare Russian 'хочу'.",
+     "body_en": "The conditionnel softens requests and wishes: je voudrais (rather than je veux), j'aimerais, pourriez-vous… ?, auriez-vous… ?, est-ce que vous pourriez… ? In shops and with strangers, 'je veux' sounds rude, like a bare 'I want'.",
      "body_ru": "Conditionnel смягчает просьбы и пожелания: je voudrais (вместо je veux), j'aimerais, pourriez-vous… ? (не могли бы вы…?), auriez-vous… ? (не найдётся ли у вас…?), est-ce que vous pourriez… ? В магазине и с незнакомыми людьми «je veux» звучит грубо — как голое русское «хочу».",
      "examples": [
       {
@@ -2234,8 +2330,13 @@
      "type": "tf",
      "q": "After 'quand' referring to the future, French uses the futur simple: 'Quand je serai riche…'.",
      "answer": true,
-     "explain_en": "Correct, like Russian 'когда разбогатею'.",
-     "explain_ru": "Верно, как в русском «когда разбогатею»."
+     "explain_en": "Correct, just as Russian also uses the future after 'when' ('when I will get rich').",
+     "explain_ru": "Верно, как в русском «когда разбогатею».",
+     "ui": {
+      "ru": {
+       "q": "После 'quand' о будущем во французском используется futur simple: 'Quand je serai riche…'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2243,7 +2344,12 @@
      "q": "'Si il pleuvra, je resterai à la maison' is correct.",
      "answer": false,
      "explain_en": "After si use the present, and si → s' before il: s'il pleut.",
-     "explain_ru": "После si нужно настоящее время, а si перед il → s': s'il pleut."
+     "explain_ru": "После si нужно настоящее время, а si перед il → s': s'il pleut.",
+     "ui": {
+      "ru": {
+       "q": "'Si il pleuvra, je resterai à la maison' — правильно."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2251,7 +2357,12 @@
      "q": "'Je voudrai' and 'je voudrais' mean the same thing.",
      "answer": false,
      "explain_en": "Je voudrai = I will want (futur); je voudrais = I would like (conditionnel).",
-     "explain_ru": "Je voudrai = я захочу (futur); je voudrais = я хотел бы (conditionnel)."
+     "explain_ru": "Je voudrai = я захочу (futur); je voudrais = я хотел бы (conditionnel).",
+     "ui": {
+      "ru": {
+       "q": "'Je voudrai' и 'je voudrais' значат одно и то же."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2303,7 +2414,29 @@
        "Il faudrait…",
        "Надо было бы…"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Je voudrais…",
+         "I would like…"
+        ],
+        [
+         "Pourriez-vous… ?",
+         "Could you… ?"
+        ],
+        [
+         "Tu devrais…",
+         "You should…"
+        ],
+        [
+         "Il faudrait…",
+         "It would be necessary to…"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2393,7 +2526,7 @@
     {
      "title_en": "Different from Russian cases",
      "title_ru": "Не так, как в русских падежах",
-     "body_en": "The French verb decides COD or COI, not the Russian case. COD in French: aider qn (помогать кому), écouter, attendre, chercher, remercier, appeler qn (позвать, позвонить). COI in French: téléphoner à, parler à, dire à, demander à, répondre à, ressembler à, conseiller à. So: je l'aide but je lui téléphone.",
+     "body_en": "The French verb decides COD or COI, not the Russian case. COD in French: aider qn (to help someone, a dative in Russian), écouter, attendre, chercher, remercier, appeler qn (to call someone). COI in French: téléphoner à, parler à, dire à, demander à, répondre à, ressembler à, conseiller à. So: je l'aide but je lui téléphone.",
      "body_ru": "COD или COI определяет французский глагол, а не русский падеж. Прямое дополнение во французском: aider qn (помогать кому — у нас дательный!), écouter, attendre, chercher, remercier, appeler qn (позвать, позвонить). Косвенное: téléphoner à, parler à, dire à, demander à (просить у кого), répondre à, ressembler à (быть похожим на), conseiller à. Поэтому: je l'aide (я ему помогаю), но je lui téléphone (я ему звоню).",
      "examples": [
       {
@@ -2498,7 +2631,7 @@
     {
      "title_en": "Neuter le",
      "title_ru": "Нейтральное le",
-     "body_en": "Le can replace a whole idea, a clause or an adjective; then it means 'it' or 'so' and does not change: Je le sais (I know it). Il est parti ? Je le pense. Tu es fatiguée ? Oui, je le suis. Russian often leaves this out: «Знаю».",
+     "body_en": "Le can replace a whole idea, a clause or an adjective; then it means 'it' or 'so' and does not change: Je le sais (I know it). Il est parti ? Je le pense. Tu es fatiguée ? Oui, je le suis. Russian often leaves this out and just says 'I know'.",
      "body_ru": "Le может заменять целую мысль, придаточное предложение или прилагательное; тогда оно значит «это» и не изменяется: Je le sais (я это знаю). Il est parti ? Je le pense (думаю, да). Tu es fatiguée ? Oui, je le suis (да, устала). В русском это местоимение часто опускают («Знаю»), а во французском оно нужно.",
      "examples": [
       {
@@ -2600,7 +2733,7 @@
       "leur"
      ],
      "answer": 2,
-     "explain_en": "Aider takes a direct object (unlike Russian помогать кому): la → l' before a vowel.",
+     "explain_en": "Aider takes a direct object (unlike the Russian verb for 'to help', which takes the dative): la → l' before a vowel.",
      "explain_ru": "Aider требует прямого дополнения (в отличие от русского «помогать кому»): la → l' перед гласной."
     },
     {
@@ -2814,7 +2947,12 @@
      "q": "'Lui' can replace both 'à Pierre' and 'à Marie'.",
      "answer": true,
      "explain_en": "Lui = to him or to her.",
-     "explain_ru": "Lui = и «ему», и «ей»."
+     "explain_ru": "Lui = и «ему», и «ей».",
+     "ui": {
+      "ru": {
+       "q": "'Lui' может заменять и 'à Pierre', и 'à Marie'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2822,7 +2960,15 @@
      "q": "With aider, French uses an indirect object, like Russian 'помогать кому': 'je lui aide'.",
      "answer": false,
      "explain_en": "Aider takes a direct object: je l'aide.",
-     "explain_ru": "Aider требует прямого дополнения: je l'aide."
+     "explain_ru": "Aider требует прямого дополнения: je l'aide.",
+     "ui": {
+      "en": {
+       "q": "With aider, French uses an indirect object, as Russian does with its verb for 'to help': 'je lui aide'."
+      },
+      "ru": {
+       "q": "С aider во французском, как в русском «помогать кому», используется косвенное дополнение: 'je lui aide'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2830,7 +2976,12 @@
      "q": "With avoir, the participle agrees with an indirect object pronoun: 'je leur ai parlés'.",
      "answer": false,
      "explain_en": "No agreement with a COI: je leur ai parlé.",
-     "explain_ru": "С косвенным дополнением согласования нет: je leur ai parlé."
+     "explain_ru": "С косвенным дополнением согласования нет: je leur ai parlé.",
+     "ui": {
+      "ru": {
+       "q": "С avoir причастие согласуется с местоимением — косвенным дополнением: 'je leur ai parlés'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2882,7 +3033,33 @@
        "demander à quelqu'un",
        "спрашивать у кого-то"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "aider quelqu'un",
+         "to help someone"
+        ],
+        [
+         "téléphoner à quelqu'un",
+         "to phone someone"
+        ],
+        [
+         "attendre quelqu'un",
+         "to wait for someone"
+        ],
+        [
+         "ressembler à quelqu'un",
+         "to look like someone"
+        ],
+        [
+         "demander à quelqu'un",
+         "to ask someone"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2908,7 +3085,33 @@
        "les",
        "их"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "me",
+         "me / to me"
+        ],
+        [
+         "te",
+         "you / to you"
+        ],
+        [
+         "lui",
+         "to him / to her"
+        ],
+        [
+         "leur",
+         "to them"
+        ],
+        [
+         "les",
+         "them"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2922,7 +3125,7 @@
     {
      "title_en": "Y for places",
      "title_ru": "Y вместо места",
-     "body_en": "Y replaces a place introduced by à, en, dans, chez, sur, sous: Tu vas à Paris ? Oui, j'y vais. Il habite en Suisse ? Oui, il y habite. It means 'there' (туда / там). Russian can often drop it ('Да, еду'), but French needs it after aller: 'Oui, je vais' is incomplete.",
+     "body_en": "Y replaces a place introduced by à, en, dans, chez, sur, sous: Tu vas à Paris ? Oui, j'y vais. Il habite en Suisse ? Oui, il y habite. It means 'there'. Russian can often drop it ('Yes, I'm going'), but French needs it after aller: 'Oui, je vais' is incomplete.",
      "body_ru": "Y заменяет место с предлогами à, en, dans, chez, sur, sous: Tu vas à Paris ? Oui, j'y vais. Il habite en Suisse ? Oui, il y habite. Оно значит «туда / там». По-русски его часто опускают («Да, еду»), а во французском после aller оно обязательно: «Oui, je vais» — незаконченная фраза.",
      "examples": [
       {
@@ -2981,7 +3184,7 @@
     {
      "title_en": "En with numbers and quantities",
      "title_ru": "En с числами и количеством",
-     "body_en": "With a number or a quantity word, en replaces the noun and the number stays after the verb: Tu as des enfants ? Oui, j'en ai deux. J'en ai beaucoup / un peu / trop / assez. You cannot just say 'j'ai deux' as in Russian 'у меня двое'.",
+     "body_en": "With a number or a quantity word, en replaces the noun and the number stays after the verb: Tu as des enfants ? Oui, j'en ai deux. J'en ai beaucoup / un peu / trop / assez. You cannot just say 'j'ai deux' as Russian does ('I have two').",
      "body_ru": "С числом или словом количества en заменяет существительное, а число остаётся после глагола: Tu as des enfants ? Oui, j'en ai deux (у меня их двое). J'en ai beaucoup / un peu / trop / assez. Нельзя сказать просто «j'ai deux», как по-русски «у меня двое»: en обязательно.",
      "examples": [
       {
@@ -3367,7 +3570,12 @@
      "q": "'Y' can replace 'à Paris' in 'Je vais à Paris'.",
      "answer": true,
      "explain_en": "A place with à → y: j'y vais.",
-     "explain_ru": "Место с à → y: j'y vais."
+     "explain_ru": "Место с à → y: j'y vais.",
+     "ui": {
+      "ru": {
+       "q": "'Y' может заменить 'à Paris' в 'Je vais à Paris'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3375,7 +3583,12 @@
      "q": "To answer 'Tu as des enfants ?' you can say 'Oui, j'ai deux', without en.",
      "answer": false,
      "explain_en": "En is required: oui, j'en ai deux.",
-     "explain_ru": "En обязательно: oui, j'en ai deux."
+     "explain_ru": "En обязательно: oui, j'en ai deux.",
+     "ui": {
+      "ru": {
+       "q": "На вопрос 'Tu as des enfants ?' можно ответить 'Oui, j'ai deux', без en."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3383,7 +3596,12 @@
      "q": "'Je lui pense' is correct for 'I think about him'.",
      "answer": false,
      "explain_en": "Penser à + person → je pense à lui.",
-     "explain_ru": "Penser à + человек → je pense à lui."
+     "explain_ru": "Penser à + человек → je pense à lui.",
+     "ui": {
+      "ru": {
+       "q": "'Je lui pense' — правильный перевод фразы «Я думаю о нём»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3431,7 +3649,33 @@
        "Je n'en peux plus.",
        "Я больше не могу."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Allons-y !",
+         "Let's go!"
+        ],
+        [
+         "Vas-y !",
+         "Go on!"
+        ],
+        [
+         "Ça y est !",
+         "Done! / That's it!"
+        ],
+        [
+         "Je m'en vais.",
+         "I'm leaving."
+        ],
+        [
+         "Je n'en peux plus.",
+         "I can't take any more."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3453,7 +3697,29 @@
        "J'en ai trop.",
        "У меня их слишком много."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "J'en ai un.",
+         "I have one (of them)."
+        ],
+        [
+         "J'en ai beaucoup.",
+         "I have a lot (of them)."
+        ],
+        [
+         "Je n'en ai pas.",
+         "I don't have any."
+        ],
+        [
+         "J'en ai trop.",
+         "I have too many (of them)."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3521,7 +3787,7 @@
     {
      "title_en": "Venir de + infinitive: the recent past",
      "title_ru": "Venir de + инфинитив: недавнее прошлое",
-     "body_en": "Venir (in the present) + de + infinitive means that something has just happened: Je viens de manger (I have just eaten). Russian uses 'только что' + past tense; French uses the present of venir.",
+     "body_en": "Venir (in the present) + de + infinitive means that something has just happened: Je viens de manger (I have just eaten). Russian uses 'just' + the past tense; French uses the present of venir.",
      "body_ru": "Venir (в настоящем времени) + de + инфинитив означает, что действие только что произошло: Je viens de manger — Я только что поел. В русском — «только что» + прошедшее время, а во французском — настоящее время глагола venir: je viens, tu viens, il vient, nous venons, vous venez, ils viennent.",
      "examples": [
       {
@@ -3621,7 +3887,7 @@
     {
      "title_en": "Commencer à, continuer à, finir de, arrêter de",
      "title_ru": "Commencer à, continuer à, finir de, arrêter de",
-     "body_en": "These verbs + infinitive show the phases of an action: commencer à (begin), continuer à (go on), finir de (finish), arrêter de (stop). Learn the preposition with each verb. Russian often uses prefixes instead: заговорить, договорить, перестать говорить.",
+     "body_en": "These verbs + infinitive show the phases of an action: commencer à (begin), continuer à (go on), finir de (finish), arrêter de (stop). Learn the preposition with each verb. Russian often uses verb prefixes for this instead.",
      "body_ru": "Эти глаголы + инфинитив показывают фазы действия: commencer à (начать), continuer à (продолжать), finir de (закончить), arrêter de (перестать). Предлог нужно запоминать вместе с глаголом. В русском фазы часто выражаются приставками: заговорить, договорить, перестать говорить.",
      "examples": [
       {
@@ -3930,7 +4196,12 @@
      "q": "'Je viens de manger' means 'I have just eaten'.",
      "answer": true,
      "explain_en": "Venir de + infinitive = recent past.",
-     "explain_ru": "Venir de + инфинитив = только что."
+     "explain_ru": "Venir de + инфинитив = только что.",
+     "ui": {
+      "ru": {
+       "q": "'Je viens de manger' значит «Я только что поел»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3938,7 +4209,12 @@
      "q": "'Je suis en train de savoir la réponse' is natural French.",
      "answer": false,
      "explain_en": "Savoir is a state verb: je sais la réponse.",
-     "explain_ru": "Savoir — глагол состояния: je sais la réponse."
+     "explain_ru": "Savoir — глагол состояния: je sais la réponse.",
+     "ui": {
+      "ru": {
+       "q": "'Je suis en train de savoir la réponse' — естественная французская фраза."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3946,7 +4222,12 @@
      "q": "'J'allais te téléphoner' means 'I was about to phone you'.",
      "answer": true,
      "explain_en": "Aller in the imparfait + infinitive = was about to.",
-     "explain_ru": "Aller в imparfait + инфинитив = собирался."
+     "explain_ru": "Aller в imparfait + инфинитив = собирался.",
+     "ui": {
+      "ru": {
+       "q": "'J'allais te téléphoner' значит «Я как раз собирался тебе позвонить»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3968,7 +4249,29 @@
        "J'allais manger.",
        "Я собирался поесть."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Je viens de manger.",
+         "I've just eaten."
+        ],
+        [
+         "Je suis en train de manger.",
+         "I'm eating right now."
+        ],
+        [
+         "Je vais manger.",
+         "I'm going to eat soon."
+        ],
+        [
+         "J'allais manger.",
+         "I was about to eat."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3986,7 +4289,25 @@
        "Je viens de dîner.",
        "Я только что поужинал."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Je viens de Lyon.",
+         "I'm from Lyon."
+        ],
+        [
+         "Je viens dîner ce soir.",
+         "I'm coming to dinner tonight."
+        ],
+        [
+         "Je viens de dîner.",
+         "I've just had dinner."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4008,7 +4329,29 @@
        "continuer à",
        "продолжать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "commencer à",
+         "to start"
+        ],
+        [
+         "finir de",
+         "to finish"
+        ],
+        [
+         "arrêter de",
+         "to stop"
+        ],
+        [
+         "continuer à",
+         "to continue"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4022,7 +4365,7 @@
     {
      "title_en": "Comparing adjectives",
      "title_ru": "Сравнение прилагательных",
-     "body_en": "French has no comparative ending like Russian -ее: use plus (more), moins (less) or aussi (as) + adjective + que. The adjective still agrees: Elle est plus grande que son frère. Ce film est moins intéressant que le livre. Il est aussi sympa que toi.",
+     "body_en": "French has no comparative ending like the Russian -ee (or English -er): use plus (more), moins (less) or aussi (as) + adjective + que. The adjective still agrees: Elle est plus grande que son frère. Ce film est moins intéressant que le livre. Il est aussi sympa que toi.",
      "body_ru": "Во французском нет окончания сравнительной степени, как русское -ее (выше, умнее): используются plus (более), moins (менее) или aussi (такой же) + прилагательное + que. Прилагательное по-прежнему согласуется: Elle est plus grande que son frère. Ce film est moins intéressant que le livre. Il est aussi sympa que toi.",
      "examples": [
       {
@@ -4099,7 +4442,7 @@
     {
      "title_en": "Que + stressed pronoun",
      "title_ru": "Que + ударное местоимение",
-     "body_en": "After que, use a stressed pronoun: moi, toi, lui, elle, nous, vous, eux, elles. Il est plus âgé que moi (not 'que je'). Russian uses the genitive here ('старше меня'); French keeps que + pronoun.",
+     "body_en": "After que, use a stressed pronoun: moi, toi, lui, elle, nous, vous, eux, elles. Il est plus âgé que moi (not 'que je'). Russian uses the genitive here ('older of me'); French keeps que + pronoun.",
      "body_ru": "После que используется ударное местоимение: moi, toi, lui, elle, nous, vous, eux, elles. Il est plus âgé que moi (не «que je»). В русском здесь родительный падеж без «чем» («старше меня»), а во французском que обязателен, а после него — ударное местоимение. Que перед гласной → qu': qu'elle, qu'eux.",
      "examples": [
       {
@@ -4117,7 +4460,7 @@
     {
      "title_en": "Bon → meilleur, bien → mieux",
      "title_ru": "Bon → meilleur, bien → mieux",
-     "body_en": "The adjective bon has the comparative meilleur (better), which agrees: meilleur, meilleure, meilleurs, meilleures. The adverb bien has mieux, which never changes. 'Plus bon' and 'plus bien' are wrong. Test: if you can say 'хороший', use meilleur; if 'хорошо', use mieux.",
+     "body_en": "The adjective bon has the comparative meilleur (better), which agrees: meilleur, meilleure, meilleurs, meilleures. The adverb bien has mieux, which never changes. 'Plus bon' and 'plus bien' are wrong. Test: if you mean 'good', use meilleur; if you mean 'well', use mieux.",
      "body_ru": "У прилагательного bon сравнительная степень meilleur (лучше, лучший), она согласуется: meilleur, meilleure, meilleurs, meilleures. У наречия bien — mieux, которое не меняется. «Plus bon» и «plus bien» — ошибки. Проверка: если по-русски можно сказать «хороший», нужен meilleur; если «хорошо» — mieux. Ce vin est meilleur (вино лучше — хорошее). Elle chante mieux (поёт лучше — хорошо).",
      "examples": [
       {
@@ -4265,7 +4608,7 @@
       "qu'à"
      ],
      "answer": 0,
-     "explain_en": "Aussi … que. 'Comme' is a calque of Russian 'как'.",
+     "explain_en": "Aussi … que. 'Comme' is a calque of the Russian 'kak' (as, like).",
      "explain_ru": "Aussi … que. «Comme» — калька с русского «как»."
     },
     {
@@ -4486,7 +4829,12 @@
      "q": "'Plus bon' is the normal comparative of 'bon'.",
      "answer": false,
      "explain_en": "The comparative of bon is meilleur.",
-     "explain_ru": "Сравнительная степень от bon — meilleur."
+     "explain_ru": "Сравнительная степень от bon — meilleur.",
+     "ui": {
+      "ru": {
+       "q": "'Plus bon' — обычная сравнительная степень от 'bon'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4494,7 +4842,12 @@
      "q": "In 'la ville la plus belle du pays', the article is repeated before plus.",
      "answer": true,
      "explain_en": "When the superlative follows the noun, the article is repeated.",
-     "explain_ru": "Когда превосходная степень стоит после существительного, артикль повторяется."
+     "explain_ru": "Когда превосходная степень стоит после существительного, артикль повторяется.",
+     "ui": {
+      "ru": {
+       "q": "В 'la ville la plus belle du pays' артикль повторяется перед plus."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4502,7 +4855,12 @@
      "q": "After a superlative, French uses 'dans' for 'in': 'le plus haut dans le monde'.",
      "answer": false,
      "explain_en": "Use de: le plus haut du monde.",
-     "explain_ru": "Нужно de: le plus haut du monde."
+     "explain_ru": "Нужно de: le plus haut du monde.",
+     "ui": {
+      "ru": {
+       "q": "После превосходной степени «в» передаётся через 'dans': 'le plus haut dans le monde'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4546,7 +4904,29 @@
        "autant de … que",
        "столько же … сколько"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "plus … que",
+         "more … than"
+        ],
+        [
+         "moins … que",
+         "less … than"
+        ],
+        [
+         "aussi … que",
+         "as … as"
+        ],
+        [
+         "autant de … que",
+         "as much / as many … as"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4568,7 +4948,29 @@
        "le moins cher",
        "самый дешёвый"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "le meilleur",
+         "the best"
+        ],
+        [
+         "le pire",
+         "the worst"
+        ],
+        [
+         "le plus grand",
+         "the biggest"
+        ],
+        [
+         "le moins cher",
+         "the cheapest"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4582,7 +4984,7 @@
     {
      "title_en": "Three forms, no subject",
      "title_ru": "Три формы без подлежащего",
-     "body_en": "The imperative has three forms, taken from the present without the subject pronoun: tu (Parle !), nous (Parlons ! = Let's speak) and vous (Parlez !). The nous form corresponds to Russian 'давай(те) + verb': Partons ! = Давайте уйдём!",
+     "body_en": "The imperative has three forms, taken from the present without the subject pronoun: tu (Parle !), nous (Parlons ! = Let's speak) and vous (Parlez !). The nous form corresponds to English 'let's + verb': Partons ! = Let's go!",
      "body_ru": "У повелительного наклонения три формы, они берутся из настоящего времени без местоимения-подлежащего: tu (Parle ! — Говори!), nous (Parlons ! — Давайте поговорим!) и vous (Parlez ! — Говорите!). Форма nous соответствует русскому «давай(те) + глагол»: Partons ! = Давайте уйдём! Пойдёмте!",
      "examples": [
       {
@@ -4651,7 +5053,7 @@
     {
      "title_en": "The negative imperative",
      "title_ru": "Отрицательная форма",
-     "body_en": "Put ne before the verb and pas (jamais, plus, rien…) after it: Ne parle pas ! Ne mangez pas trop ! N'oublie jamais ça ! Russian negative commands often use the imperfective aspect (не открывай), but French has only one form: N'ouvre pas !",
+     "body_en": "Put ne before the verb and pas (jamais, plus, rien…) after it: Ne parle pas ! Ne mangez pas trop ! N'oublie jamais ça ! Russian negative commands often switch to the imperfective aspect, but French has only one form: N'ouvre pas !",
      "body_ru": "Ne ставится перед глаголом, а pas (jamais, plus, rien…) — после него: Ne parle pas ! Ne mangez pas trop ! N'oublie jamais ça ! В русском отрицательные просьбы обычно с несовершенным видом (не открывай, а не «не открой»), а во французском форма одна: N'ouvre pas !",
      "examples": [
       {
@@ -4751,7 +5153,7 @@
     {
      "title_en": "Politeness and alternatives",
      "title_ru": "Вежливость и альтернативы",
-     "body_en": "A bare imperative can sound abrupt. Add s'il te plaît / s'il vous plaît, or ask a question in the conditionnel: Pourriez-vous fermer la porte ? Instructions, recipes and signs often use the infinitive: Ne pas fumer. Ajouter le sel. This is just like Russian 'Не курить'.",
+     "body_en": "A bare imperative can sound abrupt. Add s'il te plaît / s'il vous plaît, or ask a question in the conditionnel: Pourriez-vous fermer la porte ? Instructions, recipes and signs often use the infinitive: Ne pas fumer. Ajouter le sel. Russian signs use the infinitive in the same way ('Not to smoke').",
      "body_ru": "Голый императив может звучать резко. Добавьте s'il te plaît / s'il vous plaît или задайте вопрос в conditionnel: Pourriez-vous fermer la porte ? (Не могли бы вы закрыть дверь?) В инструкциях, рецептах и на табличках часто используют инфинитив: Ne pas fumer. Ajouter le sel. Это совсем как русское «Не курить», «Добавить соль».",
      "examples": [
       {
@@ -5050,7 +5452,12 @@
      "q": "In the imperative, 'tu parles' becomes 'Parle !' without -s.",
      "answer": true,
      "explain_en": "-er verbs drop the -s in the tu imperative.",
-     "explain_ru": "Глаголы на -er теряют -s в форме tu повелительного наклонения."
+     "explain_ru": "Глаголы на -er теряют -s в форме tu повелительного наклонения.",
+     "ui": {
+      "ru": {
+       "q": "В повелительном наклонении 'tu parles' превращается в 'Parle !' без -s."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5058,7 +5465,12 @@
      "q": "In the negative imperative, the pronoun goes after the verb: 'Ne regarde-le pas !'.",
      "answer": false,
      "explain_en": "In the negative the pronoun goes before the verb: Ne le regarde pas !",
-     "explain_ru": "В отрицании местоимение стоит перед глаголом: Ne le regarde pas !"
+     "explain_ru": "В отрицании местоимение стоит перед глаголом: Ne le regarde pas !",
+     "ui": {
+      "ru": {
+       "q": "В отрицательном повелительном наклонении местоимение стоит после глагола: 'Ne regarde-le pas !'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5066,7 +5478,12 @@
      "q": "'Sois' is the tu imperative of être.",
      "answer": true,
      "explain_en": "Être → sois, soyons, soyez.",
-     "explain_ru": "Верно: être в повелительном наклонении — sois, soyons, soyez."
+     "explain_ru": "Верно: être в повелительном наклонении — sois, soyons, soyez.",
+     "ui": {
+      "ru": {
+       "q": "'Sois' — форма повелительного наклонения глагола être для tu."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5136,7 +5553,29 @@
        "Entrez !",
        "Войдите!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ne pas fumer.",
+         "No smoking."
+        ],
+        [
+         "Ne quittez pas.",
+         "Hold the line."
+        ],
+        [
+         "Veuillez patienter.",
+         "Please wait."
+        ],
+        [
+         "Entrez !",
+         "Come in!"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5150,7 +5589,7 @@
     {
      "title_en": "Quelque(s), quelqu'un, quelque chose",
      "title_ru": "Quelque(s), quelqu'un, quelque chose",
-     "body_en": "Quelques + plural noun = a few, some (несколько): quelques amis. Quelqu'un = someone (кто-то, кто-нибудь), quelque chose = something (что-то), quelque part = somewhere (где-то, куда-то). Quelqu'un and quelque chose are masculine singular.",
+     "body_en": "Quelques + plural noun = a few, some: quelques amis. Quelqu'un = someone, anyone; quelque chose = something; quelque part = somewhere. Quelqu'un and quelque chose are masculine singular.",
      "body_ru": "Quelques + существительное во множественном числе = несколько: quelques amis (несколько друзей). Quelqu'un = кто-то, кто-нибудь; quelque chose = что-то, что-нибудь; quelque part = где-то, куда-то. Quelqu'un и quelque chose — мужского рода единственного числа. В русском различаются «-то» и «-нибудь», во французском форма одна.",
      "examples": [
       {
@@ -5237,7 +5676,7 @@
     {
      "title_en": "Ne…aucun(e)",
      "title_ru": "Ne…aucun(e)",
-     "body_en": "Aucun / aucune = not a single, no (ни один, никакой). It agrees in gender with the noun and is almost always singular: Je n'ai aucune idée. Aucun étudiant n'est venu. As a pronoun: Aucun n'est venu.",
+     "body_en": "Aucun / aucune = not a single, no. It agrees in gender with the noun and is almost always singular: Je n'ai aucune idée. Aucun étudiant n'est venu. As a pronoun: Aucun n'est venu.",
      "body_ru": "Aucun / aucune = ни один, никакой. Согласуется в роде с существительным и почти всегда стоит в единственном числе: Je n'ai aucune idée (понятия не имею). Aucun étudiant n'est venu (ни один студент не пришёл). Как местоимение: Aucun n'est venu. Pas вместе с aucun не употребляется.",
      "examples": [
       {
@@ -5255,7 +5694,7 @@
     {
      "title_en": "No pas with other negative words",
      "title_ru": "Pas не сочетается с другими отрицательными словами",
-     "body_en": "Russian piles up negatives with не: Никто ничего не сказал. French also combines negative words, but never with pas: Personne n'a rien dit. Je ne vois jamais personne. Il ne dit plus rien. 'Je ne vois pas personne' is a mistake.",
+     "body_en": "Russian piles up negatives with 'ne': literally 'Nobody nothing didn't say'. French also combines negative words, but never with pas: Personne n'a rien dit. Je ne vois jamais personne. Il ne dit plus rien. 'Je ne vois pas personne' is a mistake.",
      "body_ru": "В русском отрицания накапливаются вместе с «не»: Никто ничего не сказал. Во французском отрицательные слова тоже можно сочетать, но без pas: Personne n'a rien dit. Je ne vois jamais personne (я никогда никого не вижу). Il ne dit plus rien (он больше ничего не говорит). «Je ne vois pas personne» — ошибка: ne + одно или несколько отрицательных слов, но не pas.",
      "examples": [
       {
@@ -5296,7 +5735,7 @@
     {
      "title_en": "Déjà, pas encore, ne…plus",
      "title_ru": "Déjà, pas encore, ne…plus",
-     "body_en": "Déjà = already (уже); its negative is ne…pas encore = not yet (ещё не): Tu as déjà mangé ? – Non, pas encore. Ne…plus = no longer (больше не, уже не): Il ne fume plus. Do not confuse: pas encore (it hasn't started yet) vs ne…plus (it has stopped).",
+     "body_en": "Déjà = already; its negative is ne…pas encore = not yet: Tu as déjà mangé ? – Non, pas encore. Ne…plus = no longer, not any more: Il ne fume plus. Do not confuse: pas encore (it hasn't started yet) vs ne…plus (it has stopped).",
      "body_ru": "Déjà = уже; отрицание к нему — ne…pas encore = ещё не: Tu as déjà mangé ? – Non, pas encore (Ты уже поел? – Нет, ещё нет). Ne…plus = больше не, уже не: Il ne fume plus (он больше не курит). Не путайте: pas encore — действие ещё не началось, ne…plus — оно прекратилось. Русское «уже не» = ne…plus, а не «déjà pas».",
      "examples": [
       {
@@ -5621,7 +6060,12 @@
      "q": "'Personne n'est venu' is correct; you must not add pas.",
      "answer": true,
      "explain_en": "Personne already gives the negation; pas is not used with it.",
-     "explain_ru": "Personne уже выражает отрицание; pas с ним не употребляется."
+     "explain_ru": "Personne уже выражает отрицание; pas с ним не употребляется.",
+     "ui": {
+      "ru": {
+       "q": "'Personne n'est venu' — правильно; pas добавлять нельзя."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5629,7 +6073,12 @@
      "q": "'Je n'ai rien vu' and 'Je n'ai vu rien' are both correct.",
      "answer": false,
      "explain_en": "Rien goes before the participle: je n'ai rien vu.",
-     "explain_ru": "Rien стоит перед причастием: je n'ai rien vu."
+     "explain_ru": "Rien стоит перед причастием: je n'ai rien vu.",
+     "ui": {
+      "ru": {
+       "q": "'Je n'ai rien vu' и 'Je n'ai vu rien' — оба варианта правильные."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5637,7 +6086,12 @@
      "q": "'Tous' as a pronoun (Ils sont tous là) is pronounced with a final [s].",
      "answer": true,
      "explain_en": "Pronoun tous = [tus]; before a noun (tous les jours) = [tu].",
-     "explain_ru": "Местоимение tous = [тус]; перед существительным (tous les jours) = [ту]."
+     "explain_ru": "Местоимение tous = [тус]; перед существительным (tous les jours) = [ту].",
+     "ui": {
+      "ru": {
+       "q": "'Tous' как местоимение (Ils sont tous là) произносится с конечным [s]."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5663,7 +6117,33 @@
        "rien",
        "ничего"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "quelqu'un",
+         "someone"
+        ],
+        [
+         "quelque chose",
+         "something"
+        ],
+        [
+         "quelque part",
+         "somewhere"
+        ],
+        [
+         "personne",
+         "nobody"
+        ],
+        [
+         "rien",
+         "nothing"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5689,7 +6169,33 @@
        "jamais",
        "никогда"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "déjà",
+         "already"
+        ],
+        [
+         "pas encore",
+         "not yet"
+        ],
+        [
+         "ne … plus",
+         "no longer"
+        ],
+        [
+         "toujours",
+         "always"
+        ],
+        [
+         "jamais",
+         "never"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",

@@ -326,7 +326,12 @@
      "q": "'I goed to London last year' is correct English.",
      "answer": false,
      "explain_en": "'Go' is irregular. The correct form is 'went'.",
-     "explain_ru": "Go – неправильный глагол. Правильно: went."
+     "explain_ru": "Go – неправильный глагол. Правильно: went.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I goed to London last year' правильное."
+      }
+     }
     },
     {
      "id": "e16",
@@ -334,7 +339,12 @@
      "q": "In questions with 'did', the main verb is in the base form.",
      "answer": true,
      "explain_en": "Correct: Did you go? (not 'Did you went?').",
-     "explain_ru": "Верно: Did you go? (а не «Did you went?»)."
+     "explain_ru": "Верно: Did you go? (а не «Did you went?»).",
+     "ui": {
+      "ru": {
+       "q": "В вопросах с 'did' смысловой глагол стоит в начальной форме."
+      }
+     }
     },
     {
      "id": "e17",
@@ -342,7 +352,12 @@
      "q": "'She didn't saw the film' is correct English.",
      "answer": false,
      "explain_en": "After 'didn't' use the base form: She didn't see the film.",
-     "explain_ru": "После didn't нужна начальная форма: She didn't see the film."
+     "explain_ru": "После didn't нужна начальная форма: She didn't see the film.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'She didn't saw the film' правильное."
+      }
+     }
     },
     {
      "id": "e18",
@@ -350,7 +365,12 @@
      "q": "The past form of 'read' is spelled the same as the base form.",
      "answer": true,
      "explain_en": "Read – read. The spelling is the same, but the past is pronounced 'red'.",
-     "explain_ru": "Read – read. Пишется одинаково, но в прошедшем читается «ред»."
+     "explain_ru": "Read – read. Пишется одинаково, но в прошедшем читается «ред».",
+     "ui": {
+      "ru": {
+       "q": "Прошедшая форма глагола 'read' пишется так же, как начальная."
+      }
+     }
     },
     {
      "id": "e19",
@@ -358,7 +378,12 @@
      "q": "'Who called you?' is a correct question.",
      "answer": true,
      "explain_en": "'Who' is the subject, so we do not add 'did'.",
-     "explain_ru": "Who – подлежащее, поэтому did не добавляем."
+     "explain_ru": "Who – подлежащее, поэтому did не добавляем.",
+     "ui": {
+      "ru": {
+       "q": "'Who called you?' — правильно построенный вопрос."
+      }
+     }
     },
     {
      "id": "e20",
@@ -484,7 +509,29 @@
        "I said",
        "я сказал"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "I made",
+         "past of 'I make'"
+        ],
+        [
+         "I took",
+         "past of 'I take'"
+        ],
+        [
+         "I gave",
+         "past of 'I give'"
+        ],
+        [
+         "I said",
+         "past of 'I say'"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -733,7 +780,12 @@
      ],
      "answer": 0,
      "explain_en": "'Right now' = present continuous: What are you doing?",
-     "explain_ru": "Right now указывает на Present Continuous: What are you doing?"
+     "explain_ru": "Right now указывает на Present Continuous: What are you doing?",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильный вариант: What ___ you ___ right now?"
+      }
+     }
     },
     {
      "id": "e08",
@@ -811,7 +863,12 @@
       "knows"
      ],
      "explain_en": "'Know' is a state verb: present simple with -s.",
-     "explain_ru": "Know – глагол состояния: Present Simple с -s."
+     "explain_ru": "Know – глагол состояния: Present Simple с -s.",
+     "ui": {
+      "ru": {
+       "q": "Поставьте глагол в правильную форму: He ___ (know) the answer."
+      }
+     }
     },
     {
      "id": "e15",
@@ -819,7 +876,12 @@
      "q": "'I am wanting a new car' is correct English.",
      "answer": false,
      "explain_en": "'Want' is a state verb: I want a new car.",
-     "explain_ru": "Want – глагол состояния: I want a new car."
+     "explain_ru": "Want – глагол состояния: I want a new car.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I am wanting a new car' правильное."
+      }
+     }
     },
     {
      "id": "e16",
@@ -827,7 +889,12 @@
      "q": "We use the present continuous for actions happening now.",
      "answer": true,
      "explain_en": "Yes: I am reading now.",
-     "explain_ru": "Верно: I am reading now."
+     "explain_ru": "Верно: I am reading now.",
+     "ui": {
+      "ru": {
+       "q": "Present Continuous используется для действий, происходящих сейчас."
+      }
+     }
     },
     {
      "id": "e17",
@@ -835,7 +902,12 @@
      "q": "'She don't like tea' is correct English.",
      "answer": false,
      "explain_en": "With 'she' we use 'doesn't': She doesn't like tea.",
-     "explain_ru": "С she нужно doesn't: She doesn't like tea."
+     "explain_ru": "С she нужно doesn't: She doesn't like tea.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'She don't like tea' правильное."
+      }
+     }
     },
     {
      "id": "e18",
@@ -843,7 +915,12 @@
      "q": "'Make' becomes 'making' in the -ing form.",
      "answer": true,
      "explain_en": "Verbs ending in -e drop the e: making.",
-     "explain_ru": "У глаголов на -e эта буква убирается: making."
+     "explain_ru": "У глаголов на -e эта буква убирается: making.",
+     "ui": {
+      "ru": {
+       "q": "В форме на -ing 'make' превращается в 'making'."
+      }
+     }
     },
     {
      "id": "e19",
@@ -851,7 +928,12 @@
      "q": "'I'm having lunch' is correct English.",
      "answer": true,
      "explain_en": "'Have' means 'eat' here, so it is an action and can be continuous.",
-     "explain_ru": "Have здесь значит «есть» – это действие, Continuous возможен."
+     "explain_ru": "Have здесь значит «есть» – это действие, Continuous возможен.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I'm having lunch' правильное."
+      }
+     }
     },
     {
      "id": "e20",
@@ -976,7 +1058,29 @@
        "He sleeps a lot.",
        "Он много спит."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "I'm reading now.",
+         "an action at this moment"
+        ],
+        [
+         "I read every evening.",
+         "a regular habit"
+        ],
+        [
+         "He's sleeping.",
+         "asleep at the moment"
+        ],
+        [
+         "He sleeps a lot.",
+         "a general fact about him"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1143,7 +1247,12 @@
      ],
      "answer": 0,
      "explain_en": "A decision at the moment of speaking: will.",
-     "explain_ru": "Решение в момент речи: will."
+     "explain_ru": "Решение в момент речи: will.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильный вариант: The phone is ringing. – I ___ answer it."
+      }
+     }
     },
     {
      "id": "e03",
@@ -1300,7 +1409,12 @@
      "q": "'I will to go' is correct English.",
      "answer": false,
      "explain_en": "After 'will' use the base verb without 'to': I will go.",
-     "explain_ru": "После will – начальная форма без to: I will go."
+     "explain_ru": "После will – начальная форма без to: I will go.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I will to go' правильное."
+      }
+     }
     },
     {
      "id": "e16",
@@ -1308,7 +1422,12 @@
      "q": "We use 'going to' for plans we decided before.",
      "answer": true,
      "explain_en": "Yes: I'm going to buy a new phone (I decided already).",
-     "explain_ru": "Верно: I'm going to buy a new phone (решение уже принято)."
+     "explain_ru": "Верно: I'm going to buy a new phone (решение уже принято).",
+     "ui": {
+      "ru": {
+       "q": "'Going to' используется для планов, о которых решили заранее."
+      }
+     }
     },
     {
      "id": "e17",
@@ -1316,7 +1435,12 @@
      "q": "'She going to work tomorrow' is correct English.",
      "answer": false,
      "explain_en": "We need 'be': She is going to work tomorrow.",
-     "explain_ru": "Нужен глагол be: She is going to work tomorrow."
+     "explain_ru": "Нужен глагол be: She is going to work tomorrow.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'She going to work tomorrow' правильное."
+      }
+     }
     },
     {
      "id": "e18",
@@ -1324,7 +1448,12 @@
      "q": "'I'll' is the short form of 'I will'.",
      "answer": true,
      "explain_en": "I will = I'll, will not = won't.",
-     "explain_ru": "Сокращения: I will = I'll, will not = won't."
+     "explain_ru": "Сокращения: I will = I'll, will not = won't.",
+     "ui": {
+      "ru": {
+       "q": "'I'll' — краткая форма от 'I will'."
+      }
+     }
     },
     {
      "id": "e19",
@@ -1332,7 +1461,12 @@
      "q": "The present continuous can talk about future arrangements.",
      "answer": true,
      "explain_en": "Yes: I'm meeting Anna at six tomorrow.",
-     "explain_ru": "Верно: I'm meeting Anna at six tomorrow."
+     "explain_ru": "Верно: I'm meeting Anna at six tomorrow.",
+     "ui": {
+      "ru": {
+       "q": "Present Continuous может выражать договорённости на будущее."
+      }
+     }
     },
     {
      "id": "e20",
@@ -1453,7 +1587,29 @@
        "It won't work.",
        "Это не сработает."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "I'll do it.",
+         "a decision made now"
+        ],
+        [
+         "I'm going to do it.",
+         "an intention or plan"
+        ],
+        [
+         "I'm doing it tomorrow.",
+         "a fixed arrangement"
+        ],
+        [
+         "It won't work.",
+         "a prediction that it will fail"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1784,7 +1940,12 @@
      "q": "'An information' is correct English.",
      "answer": false,
      "explain_en": "Information is uncountable: some information, a piece of information.",
-     "explain_ru": "Information неисчисляемое: some information, a piece of information."
+     "explain_ru": "Information неисчисляемое: some information, a piece of information.",
+     "ui": {
+      "ru": {
+       "q": "Выражение 'An information' правильное."
+      }
+     }
     },
     {
      "id": "e16",
@@ -1792,7 +1953,12 @@
      "q": "'Money' is uncountable in English.",
      "answer": true,
      "explain_en": "Yes: How much money? The money is here.",
-     "explain_ru": "Верно: How much money? The money is here."
+     "explain_ru": "Верно: How much money? The money is here.",
+     "ui": {
+      "ru": {
+       "q": "В английском 'money' — неисчисляемое существительное."
+      }
+     }
     },
     {
      "id": "e17",
@@ -1800,7 +1966,12 @@
      "q": "We usually use 'many' with uncountable nouns.",
      "answer": false,
      "explain_en": "'Many' goes with countable plurals; 'much' goes with uncountable nouns.",
-     "explain_ru": "Many – с исчисляемыми во множественном числе, much – с неисчисляемыми."
+     "explain_ru": "Many – с исчисляемыми во множественном числе, much – с неисчисляемыми.",
+     "ui": {
+      "ru": {
+       "q": "С неисчисляемыми существительными обычно используют 'many'."
+      }
+     }
     },
     {
      "id": "e18",
@@ -1808,7 +1979,12 @@
      "q": "'A few' is used with countable nouns.",
      "answer": true,
      "explain_en": "Yes: a few friends, a few days.",
-     "explain_ru": "Верно: a few friends, a few days."
+     "explain_ru": "Верно: a few friends, a few days.",
+     "ui": {
+      "ru": {
+       "q": "'A few' употребляется с исчисляемыми существительными."
+      }
+     }
     },
     {
      "id": "e19",
@@ -1816,7 +1992,12 @@
      "q": "'Furnitures' is the plural of 'furniture'.",
      "answer": false,
      "explain_en": "Furniture is uncountable and has no plural.",
-     "explain_ru": "Furniture неисчисляемое, множественного числа нет."
+     "explain_ru": "Furniture неисчисляемое, множественного числа нет.",
+     "ui": {
+      "ru": {
+       "q": "'Furnitures' — множественное число от 'furniture'."
+      }
+     }
     },
     {
      "id": "e20",
@@ -1926,7 +2107,33 @@
        "luggage",
        "багаж"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "advice",
+         "a suggestion about what to do"
+        ],
+        [
+         "news",
+         "new information about events"
+        ],
+        [
+         "furniture",
+         "tables, chairs, beds"
+        ],
+        [
+         "information",
+         "facts about something"
+        ],
+        [
+         "luggage",
+         "bags and suitcases"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e26",
@@ -2151,7 +2358,12 @@
      ],
      "answer": 0,
      "explain_en": "'Good' is irregular: good – better – best.",
-     "explain_ru": "Good – неправильное: good – better – best."
+     "explain_ru": "Good – неправильное: good – better – best.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильную форму: Her English is ___ than mine."
+      }
+     }
     },
     {
      "id": "e05",
@@ -2276,7 +2488,12 @@
      "q": "'More better' is correct English.",
      "answer": false,
      "explain_en": "'Better' is already a comparative. Say 'much better'.",
-     "explain_ru": "Better – уже сравнительная степень. Говорите much better."
+     "explain_ru": "Better – уже сравнительная степень. Говорите much better.",
+     "ui": {
+      "ru": {
+       "q": "Выражение 'More better' правильное."
+      }
+     }
     },
     {
      "id": "e16",
@@ -2284,7 +2501,12 @@
      "q": "We use 'than' after a comparative.",
      "answer": true,
      "explain_en": "Yes: bigger than, more expensive than.",
-     "explain_ru": "Верно: bigger than, more expensive than."
+     "explain_ru": "Верно: bigger than, more expensive than.",
+     "ui": {
+      "ru": {
+       "q": "После сравнительной степени используется 'than'."
+      }
+     }
     },
     {
      "id": "e17",
@@ -2292,7 +2514,12 @@
      "q": "'Expensiver' is the comparative of 'expensive'.",
      "answer": false,
      "explain_en": "Long adjectives use 'more': more expensive.",
-     "explain_ru": "Длинные прилагательные используют more: more expensive."
+     "explain_ru": "Длинные прилагательные используют more: more expensive.",
+     "ui": {
+      "ru": {
+       "q": "'Expensiver' — сравнительная степень от 'expensive'."
+      }
+     }
     },
     {
      "id": "e18",
@@ -2300,7 +2527,12 @@
      "q": "'Worse' is the comparative of 'bad'.",
      "answer": true,
      "explain_en": "Yes: bad – worse – the worst.",
-     "explain_ru": "Верно: bad – worse – the worst."
+     "explain_ru": "Верно: bad – worse – the worst.",
+     "ui": {
+      "ru": {
+       "q": "'Worse' — сравнительная степень от 'bad'."
+      }
+     }
     },
     {
      "id": "e19",
@@ -2308,7 +2540,12 @@
      "q": "'As ... as' means two things are the same.",
      "answer": true,
      "explain_en": "Yes: She is as tall as me = we have the same height.",
-     "explain_ru": "Верно: She is as tall as me – мы одного роста."
+     "explain_ru": "Верно: She is as tall as me – мы одного роста.",
+     "ui": {
+      "ru": {
+       "q": "'As ... as' означает, что две вещи одинаковы."
+      }
+     }
     },
     {
      "id": "e20",
@@ -2448,7 +2685,29 @@
        "much cheaper",
        "намного дешевле"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "older than",
+         "having more years than"
+        ],
+        [
+         "the youngest",
+         "younger than all the others"
+        ],
+        [
+         "as big as",
+         "the same size as"
+        ],
+        [
+         "much cheaper",
+         "a lot less expensive"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2783,7 +3042,12 @@
      "q": "'You mustn't' and 'you don't have to' mean the same.",
      "answer": false,
      "explain_en": "Mustn't = not allowed; don't have to = not necessary.",
-     "explain_ru": "Mustn't – нельзя; don't have to – не обязательно."
+     "explain_ru": "Mustn't – нельзя; don't have to – не обязательно.",
+     "ui": {
+      "ru": {
+       "q": "'You mustn't' и 'you don't have to' значат одно и то же."
+      }
+     }
     },
     {
      "id": "e16",
@@ -2791,7 +3055,12 @@
      "q": "After 'must' we use the base verb without 'to'.",
      "answer": true,
      "explain_en": "Yes: You must go (not 'must to go').",
-     "explain_ru": "Верно: You must go (а не «must to go»)."
+     "explain_ru": "Верно: You must go (а не «must to go»).",
+     "ui": {
+      "ru": {
+       "q": "После 'must' глагол употребляется в начальной форме без 'to'."
+      }
+     }
     },
     {
      "id": "e17",
@@ -2799,7 +3068,12 @@
      "q": "'She must to go now' is correct English.",
      "answer": false,
      "explain_en": "No 'to' after must: She must go now.",
-     "explain_ru": "После must нет to: She must go now."
+     "explain_ru": "После must нет to: She must go now.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'She must to go now' правильное."
+      }
+     }
     },
     {
      "id": "e18",
@@ -2807,7 +3081,12 @@
      "q": "'Might' means something is possible but not certain.",
      "answer": true,
      "explain_en": "Yes: It might rain = maybe it will rain.",
-     "explain_ru": "Верно: It might rain = возможно, пойдёт дождь."
+     "explain_ru": "Верно: It might rain = возможно, пойдёт дождь.",
+     "ui": {
+      "ru": {
+       "q": "'Might' означает, что что-то возможно, но не наверняка."
+      }
+     }
     },
     {
      "id": "e19",
@@ -2815,7 +3094,12 @@
      "q": "'He have to go' is correct English.",
      "answer": false,
      "explain_en": "With he/she/it: has to.",
-     "explain_ru": "С he/she/it: has to."
+     "explain_ru": "С he/she/it: has to.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'He have to go' правильное."
+      }
+     }
     },
     {
      "id": "e20",
@@ -2895,7 +3179,33 @@
        "might",
        "возможно"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "must",
+         "it is necessary"
+        ],
+        [
+         "mustn't",
+         "it is not allowed"
+        ],
+        [
+         "don't have to",
+         "it is not necessary"
+        ],
+        [
+         "should",
+         "it is a good idea"
+        ],
+        [
+         "might",
+         "it is possible"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e25",
@@ -2939,7 +3249,29 @@
        "I should",
        "мне следует"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "I must",
+         "it is my duty"
+        ],
+        [
+         "I had to",
+         "it was necessary for me"
+        ],
+        [
+         "May I?",
+         "asking for permission"
+        ],
+        [
+         "I should",
+         "it is the right thing for me to do"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3276,7 +3608,12 @@
      "q": "'I have went to London' is correct English.",
      "answer": false,
      "explain_en": "Use the participle: I have gone / I have been to London.",
-     "explain_ru": "Нужна третья форма: I have gone / I have been to London."
+     "explain_ru": "Нужна третья форма: I have gone / I have been to London.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I have went to London' правильное."
+      }
+     }
     },
     {
      "id": "e16",
@@ -3284,7 +3621,12 @@
      "q": "'Yet' usually comes at the end of a negative sentence or question.",
      "answer": true,
      "explain_en": "Yes: I haven't finished yet. Have you finished yet?",
-     "explain_ru": "Верно: I haven't finished yet. Have you finished yet?"
+     "explain_ru": "Верно: I haven't finished yet. Have you finished yet?",
+     "ui": {
+      "ru": {
+       "q": "'Yet' обычно стоит в конце отрицательного предложения или вопроса."
+      }
+     }
     },
     {
      "id": "e17",
@@ -3292,7 +3634,12 @@
      "q": "'She has been to Paris' means she is in Paris now.",
      "answer": false,
      "explain_en": "'Has been' means she went and came back. 'Has gone' = she is there now.",
-     "explain_ru": "Has been – съездила и вернулась. Has gone – она сейчас там."
+     "explain_ru": "Has been – съездила и вернулась. Has gone – она сейчас там.",
+     "ui": {
+      "ru": {
+       "q": "'She has been to Paris' означает, что сейчас она в Париже."
+      }
+     }
     },
     {
      "id": "e18",
@@ -3300,7 +3647,12 @@
      "q": "We use 'ever' mainly in questions.",
      "answer": true,
      "explain_en": "Yes: Have you ever ...? In negatives we use 'never'.",
-     "explain_ru": "Верно: Have you ever ...? В отрицаниях – never."
+     "explain_ru": "Верно: Have you ever ...? В отрицаниях – never.",
+     "ui": {
+      "ru": {
+       "q": "'Ever' используется в основном в вопросах."
+      }
+     }
     },
     {
      "id": "e19",
@@ -3308,7 +3660,12 @@
      "q": "'I have seen him yesterday' is correct English.",
      "answer": false,
      "explain_en": "'Yesterday' needs the past simple: I saw him yesterday.",
-     "explain_ru": "С yesterday нужен Past Simple: I saw him yesterday."
+     "explain_ru": "С yesterday нужен Past Simple: I saw him yesterday.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I have seen him yesterday' правильное."
+      }
+     }
     },
     {
      "id": "e20",
@@ -3410,7 +3767,29 @@
        "I haven't eaten yet.",
        "Я ещё не ел."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "I've been to Rome.",
+         "I visited Rome and came back."
+        ],
+        [
+         "He's gone to Rome.",
+         "He went to Rome and is still there."
+        ],
+        [
+         "I've just eaten.",
+         "I ate a moment ago."
+        ],
+        [
+         "I haven't eaten yet.",
+         "I have not eaten so far."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e26",
@@ -3621,7 +4000,12 @@
      ],
      "answer": 0,
      "explain_en": "We need an adverb to describe 'speaks'. The adverb of good is well.",
-     "explain_ru": "Нужно наречие к глаголу speaks. Наречие от good – well."
+     "explain_ru": "Нужно наречие к глаголу speaks. Наречие от good – well.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильное слово: She speaks English very ___ ."
+      }
+     }
     },
     {
      "id": "e02",
@@ -3787,7 +4171,12 @@
      "q": "'She speaks well English' is correct word order.",
      "answer": false,
      "explain_en": "The adverb goes after the object: She speaks English well.",
-     "explain_ru": "Наречие стоит после дополнения: She speaks English well."
+     "explain_ru": "Наречие стоит после дополнения: She speaks English well.",
+     "ui": {
+      "ru": {
+       "q": "В 'She speaks well English' правильный порядок слов."
+      }
+     }
     },
     {
      "id": "e16",
@@ -3795,7 +4184,12 @@
      "q": "'Hard' and 'hardly' mean the same.",
      "answer": false,
      "explain_en": "Hard = with effort; hardly = almost not.",
-     "explain_ru": "Hard – усердно, тяжело; hardly – почти не."
+     "explain_ru": "Hard – усердно, тяжело; hardly – почти не.",
+     "ui": {
+      "ru": {
+       "q": "'Hard' и 'hardly' значат одно и то же."
+      }
+     }
     },
     {
      "id": "e17",
@@ -3803,7 +4197,12 @@
      "q": "'Enough' comes after an adjective: big enough.",
      "answer": true,
      "explain_en": "Yes: big enough, good enough. But: enough money.",
-     "explain_ru": "Верно: big enough, good enough. Но: enough money."
+     "explain_ru": "Верно: big enough, good enough. Но: enough money.",
+     "ui": {
+      "ru": {
+       "q": "'Enough' ставится после прилагательного: big enough."
+      }
+     }
     },
     {
      "id": "e18",
@@ -3811,7 +4210,12 @@
      "q": "The adverb of 'good' is 'well'.",
      "answer": true,
      "explain_en": "Yes: a good player plays well.",
-     "explain_ru": "Верно: a good player plays well."
+     "explain_ru": "Верно: a good player plays well.",
+     "ui": {
+      "ru": {
+       "q": "Наречие от 'good' — 'well'."
+      }
+     }
     },
     {
      "id": "e19",
@@ -3819,7 +4223,12 @@
      "q": "'I have too many work' is correct English.",
      "answer": false,
      "explain_en": "Work is uncountable: too much work.",
-     "explain_ru": "Work неисчисляемое: too much work."
+     "explain_ru": "Work неисчисляемое: too much work.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I have too many work' правильное."
+      }
+     }
     },
     {
      "id": "e20",
@@ -3919,7 +4328,29 @@
        "very",
        "очень"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "too",
+         "more than is good"
+        ],
+        [
+         "enough",
+         "as much as needed"
+        ],
+        [
+         "quite",
+         "fairly, rather"
+        ],
+        [
+         "very",
+         "to a high degree"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e26",
@@ -4180,7 +4611,12 @@
      ],
      "answer": 0,
      "explain_en": "'Know' is a state verb: no continuous form.",
-     "explain_ru": "Know – глагол состояния: без Continuous."
+     "explain_ru": "Know – глагол состояния: без Continuous.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильную форму: We ___ the answer."
+      }
+     }
     },
     {
      "id": "e07",
@@ -4278,7 +4714,12 @@
      "q": "The past continuous is formed with was/were + verb-ing.",
      "answer": true,
      "explain_en": "Yes: I was reading, they were playing.",
-     "explain_ru": "Верно: I was reading, they were playing."
+     "explain_ru": "Верно: I was reading, they were playing.",
+     "ui": {
+      "ru": {
+       "q": "Past Continuous образуется с помощью was/were + глагол с -ing."
+      }
+     }
     },
     {
      "id": "e16",
@@ -4286,7 +4727,12 @@
      "q": "'I was knowing him' is correct English.",
      "answer": false,
      "explain_en": "'Know' is a state verb: I knew him.",
-     "explain_ru": "Know – глагол состояния: I knew him."
+     "explain_ru": "Know – глагол состояния: I knew him.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I was knowing him' правильное."
+      }
+     }
     },
     {
      "id": "e17",
@@ -4294,7 +4740,12 @@
      "q": "'While' is usually followed by the past continuous.",
      "answer": true,
      "explain_en": "Yes: While I was cooking, ...",
-     "explain_ru": "Верно: While I was cooking, ..."
+     "explain_ru": "Верно: While I was cooking, ...",
+     "ui": {
+      "ru": {
+       "q": "После 'while' обычно используется Past Continuous."
+      }
+     }
     },
     {
      "id": "e18",
@@ -4302,7 +4753,12 @@
      "q": "'When the phone rang, I was having a shower' is correct.",
      "answer": true,
      "explain_en": "Short action (rang) + long action (was having).",
-     "explain_ru": "Короткое действие (rang) + длительное (was having)."
+     "explain_ru": "Короткое действие (rang) + длительное (was having).",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'When the phone rang, I was having a shower' правильное."
+      }
+     }
     },
     {
      "id": "e19",
@@ -4310,7 +4766,12 @@
      "q": "'They was watching TV' is correct English.",
      "answer": false,
      "explain_en": "With they use were: They were watching TV.",
-     "explain_ru": "С they нужно were: They were watching TV."
+     "explain_ru": "С they нужно were: They were watching TV.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'They was watching TV' правильное."
+      }
+     }
     },
     {
      "id": "e20",
@@ -4390,7 +4851,29 @@
        "it rained",
        "прошёл дождь"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "I was reading",
+         "an action in progress"
+        ],
+        [
+         "I read the book",
+         "a finished action"
+        ],
+        [
+         "it was raining",
+         "rain in progress at that time"
+        ],
+        [
+         "it rained",
+         "rain that started and ended"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e25",
@@ -4434,7 +4917,29 @@
        "suddenly",
        "вдруг"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "when",
+         "at the time that"
+        ],
+        [
+         "while",
+         "during the time that"
+        ],
+        [
+         "at that moment",
+         "exactly then"
+        ],
+        [
+         "suddenly",
+         "quickly and unexpectedly"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4789,7 +5294,12 @@
      "q": "'Turn off it' is correct English.",
      "answer": false,
      "explain_en": "A pronoun must go in the middle: turn it off.",
-     "explain_ru": "Местоимение должно стоять в середине: turn it off."
+     "explain_ru": "Местоимение должно стоять в середине: turn it off.",
+     "ui": {
+      "ru": {
+       "q": "Выражение 'Turn off it' правильное."
+      }
+     }
     },
     {
      "id": "e16",
@@ -4797,7 +5307,12 @@
      "q": "'I went to home' is correct English.",
      "answer": false,
      "explain_en": "No 'to' before home: I went home.",
-     "explain_ru": "Перед home нет to: I went home."
+     "explain_ru": "Перед home нет to: I went home.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I went to home' правильное."
+      }
+     }
     },
     {
      "id": "e17",
@@ -4805,7 +5320,12 @@
      "q": "In 'look for', the object cannot go between 'look' and 'for'.",
      "answer": true,
      "explain_en": "Look for is inseparable: look for it.",
-     "explain_ru": "Look for не разделяется: look for it."
+     "explain_ru": "Look for не разделяется: look for it.",
+     "ui": {
+      "ru": {
+       "q": "В 'look for' дополнение не может стоять между 'look' и 'for'."
+      }
+     }
     },
     {
      "id": "e18",
@@ -4813,7 +5333,12 @@
      "q": "'Through' means from one side of something to the other, inside it.",
      "answer": true,
      "explain_en": "Yes: through the tunnel, through the forest.",
-     "explain_ru": "Верно: through the tunnel, through the forest."
+     "explain_ru": "Верно: through the tunnel, through the forest.",
+     "ui": {
+      "ru": {
+       "q": "'Through' означает «с одной стороны на другую, внутри чего-то»."
+      }
+     }
     },
     {
      "id": "e19",
@@ -4821,7 +5346,12 @@
      "q": "'I like very much coffee' is correct word order.",
      "answer": false,
      "explain_en": "The object comes right after the verb: I like coffee very much.",
-     "explain_ru": "Дополнение идёт сразу после глагола: I like coffee very much."
+     "explain_ru": "Дополнение идёт сразу после глагола: I like coffee very much.",
+     "ui": {
+      "ru": {
+       "q": "В 'I like very much coffee' правильный порядок слов."
+      }
+     }
     },
     {
      "id": "e20",
@@ -4904,7 +5434,33 @@
        "find out",
        "узнавать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "get up",
+         "rise from bed"
+        ],
+        [
+         "turn off",
+         "stop a machine or light"
+        ],
+        [
+         "look for",
+         "try to find"
+        ],
+        [
+         "give up",
+         "stop doing something"
+        ],
+        [
+         "find out",
+         "discover information"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e25",
@@ -4956,7 +5512,33 @@
        "through",
        "сквозь"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "into",
+         "to the inside of"
+        ],
+        [
+         "out of",
+         "from the inside of"
+        ],
+        [
+         "across",
+         "from one side to the other (over)"
+        ],
+        [
+         "along",
+         "following the line of"
+        ],
+        [
+         "through",
+         "from one end to the other, inside"
+        ]
+       ]
+      }
+     }
     }
    ]
   }

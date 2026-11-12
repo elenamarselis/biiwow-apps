@@ -480,7 +480,12 @@
      "q": "In 'Il ministro avrebbe mentito', the writer states as a certain fact that the minister lied.",
      "answer": false,
      "explain_en": "The condizionale passato here reports an unconfirmed claim ('reportedly lied').",
-     "explain_ru": "Condizionale passato здесь передаёт неподтверждённое утверждение: «министр якобы солгал»."
+     "explain_ru": "Condizionale passato здесь передаёт неподтверждённое утверждение: «министр якобы солгал».",
+     "ui": {
+      "ru": {
+       "q": "В «Il ministro avrebbe mentito» автор утверждает как достоверный факт, что министр солгал."
+      }
+     }
     },
     {
      "id": "e24",
@@ -488,7 +493,12 @@
      "q": "'Sarò arrivato' is the futuro anteriore of 'arrivare'.",
      "answer": true,
      "explain_en": "Essere in the future + arrivato.",
-     "explain_ru": "Верно: essere в будущем + arrivato."
+     "explain_ru": "Верно: essere в будущем + arrivato.",
+     "ui": {
+      "ru": {
+       "q": "«Sarò arrivato» — это futuro anteriore глагола «arrivare»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -496,7 +506,12 @@
      "q": "In standard Italian, 'Disse che verrebbe' is the correct way to express the future in the past.",
      "answer": false,
      "explain_en": "Standard Italian requires the condizionale passato: Disse che sarebbe venuto.",
-     "explain_ru": "В литературном итальянском нужно condizionale passato: Disse che sarebbe venuto."
+     "explain_ru": "В литературном итальянском нужно condizionale passato: Disse che sarebbe venuto.",
+     "ui": {
+      "ru": {
+       "q": "В литературном итальянском «Disse che verrebbe» — правильный способ выразить будущее в прошедшем."
+      }
+     }
     },
     {
      "id": "e26",
@@ -548,7 +563,33 @@
        "Il ministro sarà stato arrestato.",
        "Министра, наверное, арестовали."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Il ministro sarebbe malato.",
+         "The minister is reportedly ill."
+        ],
+        [
+         "Il ministro sarebbe stato arrestato.",
+         "The minister has reportedly been arrested."
+        ],
+        [
+         "Il ministro è stato arrestato.",
+         "The minister has been arrested."
+        ],
+        [
+         "Il ministro sarà arrestato.",
+         "The minister will be arrested."
+        ],
+        [
+         "Il ministro sarà stato arrestato.",
+         "The minister has probably been arrested."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -895,7 +936,12 @@
      ],
      "answer": 0,
      "explain_en": "Negative congiuntivo trapassato as a strong regret.",
-     "explain_ru": "Отрицательный congiuntivo trapassato выражает сильное сожаление."
+     "explain_ru": "Отрицательный congiuntivo trapassato выражает сильное сожаление.",
+     "ui": {
+      "en": {
+       "q": "Non l'___ mai conosciuto! (= I wish I'd never met him)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -1056,7 +1102,12 @@
      "q": "In 'Magari viene anche Luca', magari means 'maybe' and takes the indicative.",
      "answer": true,
      "explain_en": "With the indicative, magari = forse.",
-     "explain_ru": "Верно: с индикативом magari = forse, «может быть»."
+     "explain_ru": "Верно: с индикативом magari = forse, «может быть».",
+     "ui": {
+      "ru": {
+       "q": "В «Magari viene anche Luca» magari значит «может быть» и употребляется с индикативом."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1064,7 +1115,12 @@
      "q": "In 'Magari fossi ricco!' the verb is in the congiuntivo presente.",
      "answer": false,
      "explain_en": "Fossi is the congiuntivo imperfetto.",
-     "explain_ru": "Fossi — это congiuntivo imperfetto, а не presente (presente было бы sia)."
+     "explain_ru": "Fossi — это congiuntivo imperfetto, а не presente (presente было бы sia).",
+     "ui": {
+      "ru": {
+       "q": "В «Magari fossi ricco!» глагол стоит в congiuntivo presente."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1072,7 +1128,12 @@
      "q": "'Che sia già arrivato?' is an order meaning 'He must arrive now!'.",
      "answer": false,
      "explain_en": "It is a doubtful question: 'Could he have arrived already?'",
-     "explain_ru": "Это вопрос-сомнение: «Неужели он уже приехал?»"
+     "explain_ru": "Это вопрос-сомнение: «Неужели он уже приехал?»",
+     "ui": {
+      "ru": {
+       "q": "«Che sia già arrivato?» — это приказ со значением «Пусть он придёт сейчас же!»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1098,7 +1159,33 @@
        "Dio voglia che guarisca.",
        "Дай бог, чтобы он поправился."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Magari fosse vero!",
+         "If only it were true!"
+        ],
+        [
+         "Che entri pure.",
+         "Let him come in."
+        ],
+        [
+         "Che sia malato?",
+         "Could he be ill?"
+        ],
+        [
+         "Non l'avessi mai fatto!",
+         "I wish I'd never done it!"
+        ],
+        [
+         "Dio voglia che guarisca.",
+         "God grant that he recovers."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1349,7 +1436,12 @@
      ],
      "answer": 2,
      "explain_en": "Capire = realise a fact → indicative.",
-     "explain_ru": "Capire в значении «осознать факт» → индикатив: c'era."
+     "explain_ru": "Capire в значении «осознать факт» → индикатив: c'era.",
+     "ui": {
+      "en": {
+       "q": "Ho capito subito che non ___ niente da fare. (= I realised)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -1363,7 +1455,12 @@
      ],
      "answer": 0,
      "explain_en": "Dire che + congiuntivo passes on an order.",
-     "explain_ru": "Dire che + congiuntivo передаёт приказ: «скажи, чтобы пришёл»."
+     "explain_ru": "Dire che + congiuntivo передаёт приказ: «скажи, чтобы пришёл».",
+     "ui": {
+      "en": {
+       "q": "Digli che ___ subito qui! (= tell him to come)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -1391,7 +1488,12 @@
      ],
      "answer": 1,
      "explain_en": "Ammettere = confess a fact → indicative.",
-     "explain_ru": "Ammettere в значении «признать факт» → индикатив: ho avuto."
+     "explain_ru": "Ammettere в значении «признать факт» → индикатив: ho avuto.",
+     "ui": {
+      "en": {
+       "q": "Ammetto che ___ torto: scusami. (= I admit)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -1405,7 +1507,12 @@
      ],
      "answer": 1,
      "explain_en": "Scrivere + congiuntivo = written order; past main verb → congiuntivo imperfetto.",
-     "explain_ru": "Scrivere + congiuntivo — письменная просьба; главный глагол в прошедшем → congiuntivo imperfetto: andassi."
+     "explain_ru": "Scrivere + congiuntivo — письменная просьба; главный глагол в прошедшем → congiuntivo imperfetto: andassi.",
+     "ui": {
+      "en": {
+       "q": "Mi ha scritto che ___ subito a Roma: c'era un'emergenza. (= wrote telling me to go)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -1419,7 +1526,12 @@
      ],
      "answer": 3,
      "explain_en": "Insistere che + action wanted → congiuntivo.",
-     "explain_ru": "Insistere che в значении «настаивать, чтобы» → congiuntivo: resti."
+     "explain_ru": "Insistere che в значении «настаивать, чтобы» → congiuntivo: resti.",
+     "ui": {
+      "en": {
+       "q": "Luca insiste che io ___ a cena da lui. (= insists that I stay)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -1447,7 +1559,12 @@
      ],
      "answer": 2,
      "explain_en": "Bada che + indicative draws attention to a fact.",
-     "explain_ru": "Bada che + индикатив обращает внимание на факт: «учти, что поздно»."
+     "explain_ru": "Bada che + индикатив обращает внимание на факт: «учти, что поздно».",
+     "ui": {
+      "en": {
+       "q": "Bada che ___ tardi: dobbiamo andare. (= mind you, note that)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -1485,7 +1602,12 @@
       "chiami"
      ],
      "explain_en": "Order passed on → congiuntivo presente: chiami.",
-     "explain_ru": "Передаваемая просьба → congiuntivo presente: chiami."
+     "explain_ru": "Передаваемая просьба → congiuntivo presente: chiami.",
+     "ui": {
+      "en": {
+       "q": "Di' a Marta che mi ___ (chiamare) appena può. (= tell her to call)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -1495,7 +1617,12 @@
       "è partita"
      ],
      "explain_en": "Reported fact → indicative; partire takes essere: è partita.",
-     "explain_ru": "Сообщаемый факт → индикатив; partire с essere: è partita."
+     "explain_ru": "Сообщаемый факт → индикатив; partire с essere: è partita.",
+     "ui": {
+      "en": {
+       "q": "Marta mi ha detto che ___ (partire – passato prossimo) ieri. (= she informed me)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -1515,7 +1642,12 @@
       "esca"
      ],
      "explain_en": "Ripetere + congiuntivo = repeated order.",
-     "explain_ru": "Ripetere + congiuntivo — повторный приказ: esca."
+     "explain_ru": "Ripetere + congiuntivo — повторный приказ: esca.",
+     "ui": {
+      "en": {
+       "q": "Ripeto che nessuno ___ (uscire) dall'aula prima delle dieci! (= I order)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -1620,7 +1752,12 @@
      "q": "'Mi ha detto che venga' and 'Mi ha detto che viene' mean the same thing.",
      "answer": false,
      "explain_en": "The congiuntivo version is an order ('told him to come'), the indicative a report ('said he is coming').",
-     "explain_ru": "С congiuntivo — приказ («сказал, чтобы пришёл»), с индикативом — сообщение («сказал, что придёт»)."
+     "explain_ru": "С congiuntivo — приказ («сказал, чтобы пришёл»), с индикативом — сообщение («сказал, что придёт»).",
+     "ui": {
+      "ru": {
+       "q": "«Mi ha detto che venga» и «Mi ha detto che viene» значат одно и то же."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1628,7 +1765,12 @@
      "q": "In 'Ammettiamo che sia vero', ammettere means 'to suppose for the sake of argument'.",
      "answer": true,
      "explain_en": "With the congiuntivo, ammettere = suppose, grant.",
-     "explain_ru": "Верно: с congiuntivo ammettere значит «допустить»."
+     "explain_ru": "Верно: с congiuntivo ammettere значит «допустить».",
+     "ui": {
+      "ru": {
+       "q": "В «Ammettiamo che sia vero» ammettere значит «допустить, предположить (ради рассуждения)»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1636,7 +1778,12 @@
      "q": "After 'accorgersi che' (to notice) Italian normally uses the congiuntivo.",
      "answer": false,
      "explain_en": "Accorgersi presents a fact and takes the indicative.",
-     "explain_ru": "Accorgersi подаёт факт и требует индикатива."
+     "explain_ru": "Accorgersi подаёт факт и требует индикатива.",
+     "ui": {
+      "ru": {
+       "q": "После «accorgersi che» (заметить) в итальянском обычно употребляется congiuntivo."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1662,7 +1809,33 @@
        "Bada che è tardi.",
        "Учти, что уже поздно."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Dice che viene.",
+         "He says he's coming."
+        ],
+        [
+         "Dice che venga.",
+         "He tells him to come."
+        ],
+        [
+         "Ammetto che ho sbagliato.",
+         "I admit I was wrong."
+        ],
+        [
+         "Ammettiamo che abbia sbagliato.",
+         "Let's suppose he was wrong."
+        ],
+        [
+         "Bada che è tardi.",
+         "Mind you, it's late."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1710,7 +1883,29 @@
        "Supponiamo che sia tardi.",
        "Предположим, что уже поздно."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Scrive che arrivate presto.",
+         "He writes that you'll arrive soon."
+        ],
+        [
+         "Scrive che arriviate presto.",
+         "He writes asking you to come soon."
+        ],
+        [
+         "Capisco che è tardi.",
+         "I understand it's late."
+        ],
+        [
+         "Supponiamo che sia tardi.",
+         "Let's suppose it's late."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2193,7 +2388,12 @@
      "q": "In 'Ho fatto riparare la macchina', the speaker repaired the car personally.",
      "answer": false,
      "explain_en": "Causative fare: someone else did the repair.",
-     "explain_ru": "Каузативный fare: ремонтировал кто-то другой, говорящий лишь «отдал в ремонт»."
+     "explain_ru": "Каузативный fare: ремонтировал кто-то другой, говорящий лишь «отдал в ремонт».",
+     "ui": {
+      "ru": {
+       "q": "В «Ho fatto riparare la macchina» говорящий сам починил машину."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2201,7 +2401,12 @@
      "q": "'Il sapere' and 'i doveri' are infinitives used as masculine nouns.",
      "answer": true,
      "explain_en": "They are lexicalised infinitives.",
-     "explain_ru": "Верно: это инфинитивы, ставшие существительными мужского рода."
+     "explain_ru": "Верно: это инфинитивы, ставшие существительными мужского рода.",
+     "ui": {
+      "ru": {
+       "q": "«Il sapere» и «i doveri» — это инфинитивы, употреблённые как существительные мужского рода."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2209,7 +2414,12 @@
      "q": "In 'Gli ho fatto leggere la lettera', gli refers to the person who reads.",
      "answer": true,
      "explain_en": "The infinitive has an object (la lettera), so the reader is an indirect object: gli.",
-     "explain_ru": "Верно: у инфинитива есть дополнение (la lettera), поэтому читающий выражен косвенным местоимением gli."
+     "explain_ru": "Верно: у инфинитива есть дополнение (la lettera), поэтому читающий выражен косвенным местоимением gli.",
+     "ui": {
+      "ru": {
+       "q": "В «Gli ho fatto leggere la lettera» gli обозначает того, кто читает."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2235,7 +2445,33 @@
        "farsi sentire",
        "дать о себе знать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "far vedere",
+         "to show"
+        ],
+        [
+         "far sapere",
+         "to let know"
+        ],
+        [
+         "lasciar perdere",
+         "to drop it, not bother"
+        ],
+        [
+         "far entrare",
+         "to let in"
+        ],
+        [
+         "farsi sentire",
+         "to get in touch"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2261,7 +2497,33 @@
        "il parere",
        "мнение"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "il sorgere del sole",
+         "sunrise"
+        ],
+        [
+         "il calar della notte",
+         "nightfall"
+        ],
+        [
+         "il saper vivere",
+         "savoir-vivre, the art of living"
+        ],
+        [
+         "il dovere",
+         "duty"
+        ],
+        [
+         "il parere",
+         "opinion"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2768,7 +3030,12 @@
      "q": "'Il libro va letto' means 'The book is being read'.",
      "answer": false,
      "explain_en": "It means 'The book must be read'.",
-     "explain_ru": "Это значит «книгу нужно прочитать», а не «книгу читают»."
+     "explain_ru": "Это значит «книгу нужно прочитать», а не «книгу читают».",
+     "ui": {
+      "ru": {
+       "q": "«Il libro va letto» значит «Книгу сейчас читают»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2776,7 +3043,12 @@
      "q": "'Mettersi a ridere' means 'to start laughing'.",
      "answer": true,
      "explain_en": "Mettersi a = start (suddenly).",
-     "explain_ru": "Верно: mettersi a — «начать», по-русски «засмеяться»."
+     "explain_ru": "Верно: mettersi a — «начать», по-русски «засмеяться».",
+     "ui": {
+      "ru": {
+       "q": "«Mettersi a ridere» значит «засмеяться, начать смеяться»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2784,7 +3056,12 @@
      "q": "'Finire di lavorare' and 'finire per lavorare' mean the same.",
      "answer": false,
      "explain_en": "Finire di = stop; finire per = end up doing.",
-     "explain_ru": "Finire di — «закончить», finire per — «в итоге сделать»."
+     "explain_ru": "Finire di — «закончить», finire per — «в итоге сделать».",
+     "ui": {
+      "ru": {
+       "q": "«Finire di lavorare» и «finire per lavorare» значат одно и то же."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2810,7 +3087,33 @@
        "smettere di",
        "перестать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "mettersi a",
+         "to start (suddenly)"
+        ],
+        [
+         "finire per",
+         "to end up doing"
+        ],
+        [
+         "tornare a",
+         "to do again"
+        ],
+        [
+         "stare a",
+         "to spend time doing"
+        ],
+        [
+         "smettere di",
+         "to stop doing"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2832,7 +3135,29 @@
        "La pratica sta per essere firmata.",
        "Документ вот-вот подпишут."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "La pratica va firmata.",
+         "The file must be signed."
+        ],
+        [
+         "La pratica viene firmata.",
+         "The file is being signed."
+        ],
+        [
+         "La pratica è andata persa.",
+         "The file got lost."
+        ],
+        [
+         "La pratica sta per essere firmata.",
+         "The file is about to be signed."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3342,7 +3667,12 @@
      "q": "'La mia madre' is the standard form in Italian.",
      "answer": false,
      "explain_en": "Standard is mia madre: no article with a singular unmodified family noun.",
-     "explain_ru": "Норма — mia madre: без артикля с названием родства в единственном числе."
+     "explain_ru": "Норма — mia madre: без артикля с названием родства в единственном числе.",
+     "ui": {
+      "ru": {
+       "q": "«La mia madre» — нормативная форма в итальянском."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3350,7 +3680,12 @@
      "q": "With 'loro', the article is always used, even with family nouns: 'la loro madre'.",
      "answer": true,
      "explain_en": "Loro never drops the article.",
-     "explain_ru": "Верно: с loro артикль не опускается никогда."
+     "explain_ru": "Верно: с loro артикль не опускается никогда.",
+     "ui": {
+      "ru": {
+       "q": "С «loro» артикль употребляется всегда, даже с названиями родственников: «la loro madre»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3358,7 +3693,12 @@
      "q": "'Vado in Italia' and 'Vado nell'Italia' are both standard for 'I'm going to Italy'.",
      "answer": false,
      "explain_en": "Only in Italia; nell'Italia needs a modifier (nell'Italia del Sud).",
-     "explain_ru": "Только in Italia; nell'Italia требует определения (nell'Italia del Sud)."
+     "explain_ru": "Только in Italia; nell'Italia требует определения (nell'Italia del Sud).",
+     "ui": {
+      "ru": {
+       "q": "«Vado in Italia» и «Vado nell'Italia» — оба нормативные варианты для «Я еду в Италию»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3410,7 +3750,33 @@
        "a casa mia",
        "у меня дома"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "mia sorella",
+         "my sister"
+        ],
+        [
+         "la mia sorellina",
+         "my little sister"
+        ],
+        [
+         "la loro madre",
+         "their mother"
+        ],
+        [
+         "i miei fratelli",
+         "my brothers"
+        ],
+        [
+         "a casa mia",
+         "at my place"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3436,7 +3802,33 @@
        "in treno",
        "на поезде"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "in ufficio",
+         "at the office"
+        ],
+        [
+         "a letto",
+         "in bed"
+        ],
+        [
+         "in centro",
+         "in the town centre"
+        ],
+        [
+         "a scuola",
+         "at school"
+        ],
+        [
+         "in treno",
+         "by train"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3921,7 +4313,12 @@
      "q": "'Una tazza di tè' and 'una tazza da tè' mean the same.",
      "answer": false,
      "explain_en": "Di tè = a cup with tea in it; da tè = a teacup.",
-     "explain_ru": "Di tè — «чашка чая», da tè — «чайная чашка»."
+     "explain_ru": "Di tè — «чашка чая», da tè — «чайная чашка».",
+     "ui": {
+      "ru": {
+       "q": "«Una tazza di tè» и «una tazza da tè» значат одно и то же."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3929,7 +4326,12 @@
      "q": "'Pensare a' means 'to think about', while 'pensare di + infinitive' means 'to intend to'.",
      "answer": true,
      "explain_en": "Penso a te / Penso di partire.",
-     "explain_ru": "Верно: Penso a te — «думаю о тебе», Penso di partire — «собираюсь уехать»."
+     "explain_ru": "Верно: Penso a te — «думаю о тебе», Penso di partire — «собираюсь уехать».",
+     "ui": {
+      "ru": {
+       "q": "«Pensare a» значит «думать о», а «pensare di + инфинитив» — «собираться (что-то сделать)»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3937,7 +4339,12 @@
      "q": "'Studio qui da due anni' means the speaker studied here in the past and then stopped.",
      "answer": false,
      "explain_en": "Present + da = still studying.",
-     "explain_ru": "Настоящее время + da — действие продолжается: «учусь здесь уже два года»."
+     "explain_ru": "Настоящее время + da — действие продолжается: «учусь здесь уже два года».",
+     "ui": {
+      "ru": {
+       "q": "«Studio qui da due anni» значит, что говорящий учился здесь в прошлом, а потом перестал."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3963,7 +4370,33 @@
        "pensare di partire",
        "собираться уехать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "credere a qualcuno",
+         "to believe someone"
+        ],
+        [
+         "credere in Dio",
+         "to believe in God"
+        ],
+        [
+         "tenere a qualcosa",
+         "to care about something"
+        ],
+        [
+         "tenere per una squadra",
+         "to support a team"
+        ],
+        [
+         "pensare di partire",
+         "to intend to leave"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3989,7 +4422,33 @@
        "assomigliare a",
        "быть похожим на"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "innamorarsi di",
+         "to fall in love with"
+        ],
+        [
+         "sposarsi con",
+         "to marry"
+        ],
+        [
+         "arrabbiarsi con",
+         "to get angry with"
+        ],
+        [
+         "ridere di",
+         "to laugh at"
+        ],
+        [
+         "assomigliare a",
+         "to look like"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4015,7 +4474,33 @@
        "francobollo da un euro",
        "марка за один евро"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "macchina da scrivere",
+         "typewriter"
+        ],
+        [
+         "occhiali da sole",
+         "sunglasses"
+        ],
+        [
+         "sala da pranzo",
+         "dining room"
+        ],
+        [
+         "cosa da pazzi",
+         "madness, crazy thing"
+        ],
+        [
+         "francobollo da un euro",
+         "one-euro stamp"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4443,7 +4928,12 @@
       "proprio"
      ],
      "explain_en": "Proprio = exactly, just.",
-     "explain_ru": "Proprio — «как раз»."
+     "explain_ru": "Proprio — «как раз».",
+     "ui": {
+      "en": {
+       "q": "Sei arrivato ___ in tempo! (= just)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -4519,7 +5009,12 @@
      "q": "In standard Italian, 'Marco ho visto ieri' (without a pronoun) is the normal way to put the object first.",
      "answer": false,
      "explain_en": "A fronted object topic needs a resumptive pronoun: Marco l'ho visto ieri.",
-     "explain_ru": "Вынесенное дополнение-тема требует местоимения-повтора: Marco l'ho visto ieri."
+     "explain_ru": "Вынесенное дополнение-тема требует местоимения-повтора: Marco l'ho visto ieri.",
+     "ui": {
+      "ru": {
+       "q": "В литературном итальянском «Marco ho visto ieri» (без местоимения) — обычный способ поставить дополнение в начало."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4527,7 +5022,12 @@
      "q": "'È stato Luca a vincere' and 'È stato Luca che ha vinto' have the same meaning.",
      "answer": true,
      "explain_en": "Implicit and explicit clefts are equivalent.",
-     "explain_ru": "Верно: неявная и явная расщеплённые конструкции равнозначны."
+     "explain_ru": "Верно: неявная и явная расщеплённые конструкции равнозначны.",
+     "ui": {
+      "ru": {
+       "q": "«È stato Luca a vincere» и «È stato Luca che ha vinto» имеют одинаковое значение."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4535,7 +5035,12 @@
      "q": "'Non è proprio vero' means 'It is absolutely true'.",
      "answer": false,
      "explain_en": "It means 'It is not quite true'.",
-     "explain_ru": "Это значит «не совсем правда»."
+     "explain_ru": "Это значит «не совсем правда».",
+     "ui": {
+      "ru": {
+       "q": "«Non è proprio vero» значит «Это абсолютная правда»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4561,7 +5066,33 @@
        "È lui che ha telefonato.",
        "Это он звонил."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Il pane l'ho comprato io.",
+         "I'm the one who bought the bread."
+        ],
+        [
+         "Al mare ci andiamo domani.",
+         "As for the seaside, we're going tomorrow."
+        ],
+        [
+         "Di soldi ne ho pochi.",
+         "Money, I have little of."
+        ],
+        [
+         "L'hai letta, la lettera?",
+         "Have you read it, the letter?"
+        ],
+        [
+         "È lui che ha telefonato.",
+         "It was him who called."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4609,7 +5140,33 @@
        "a proprie spese",
        "за свой счёт"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "proprio adesso",
+         "right now"
+        ],
+        [
+         "proprio lui",
+         "him exactly, the very man"
+        ],
+        [
+         "non proprio",
+         "not quite"
+        ],
+        [
+         "proprio bello",
+         "really beautiful"
+        ],
+        [
+         "a proprie spese",
+         "at one's own expense"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5091,7 +5648,12 @@
      "q": "'Ci si alza' is the impersonal form of 'alzarsi' ('one gets up').",
      "answer": true,
      "explain_en": "Si + si → ci si.",
-     "explain_ru": "Верно: si + si → ci si."
+     "explain_ru": "Верно: si + si → ci si.",
+     "ui": {
+      "ru": {
+       "q": "«Ci si alza» — безличная форма глагола «alzarsi» («встают»)."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5099,7 +5661,12 @@
      "q": "'Bisogna' can be used in the plural: 'Bisognano tre giorni'.",
      "answer": false,
      "explain_en": "Bisogna is only third person singular; use occorrono or ci vogliono.",
-     "explain_ru": "Bisogna употребляется только в третьем лице единственного числа; нужно occorrono или ci vogliono."
+     "explain_ru": "Bisogna употребляется только в третьем лице единственного числа; нужно occorrono или ci vogliono.",
+     "ui": {
+      "ru": {
+       "q": "«Bisogna» можно употреблять во множественном числе: «Bisognano tre giorni»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5107,7 +5674,12 @@
      "q": "In 'Si è partiti presto', the participle is plural even though the verb è is singular.",
      "answer": true,
      "explain_en": "With essere-verbs the participle after impersonal si is plural.",
-     "explain_ru": "Верно: у глаголов с essere причастие после безличного si стоит во множественном числе."
+     "explain_ru": "Верно: у глаголов с essere причастие после безличного si стоит во множественном числе.",
+     "ui": {
+      "ru": {
+       "q": "В «Si è partiti presto» причастие стоит во множественном числе, хотя глагол è — в единственном."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5159,7 +5731,33 @@
        "Non bisogna fumare qui.",
        "Здесь не следует курить."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Tocca a te.",
+         "It's your turn."
+        ],
+        [
+         "Basta così.",
+         "That's enough."
+        ],
+        [
+         "Ti conviene aspettare.",
+         "You'd better wait."
+        ],
+        [
+         "Occorrono due ore.",
+         "It takes two hours."
+        ],
+        [
+         "Non bisogna fumare qui.",
+         "You shouldn't smoke here."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5181,7 +5779,29 @@
        "Quando si è malati, si sta a casa.",
        "Когда болеешь, сидишь дома."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Uno non sa mai cosa fare.",
+         "You never know what to do."
+        ],
+        [
+         "Dicono che pioverà.",
+         "They say it's going to rain."
+        ],
+        [
+         "Ci si abitua a tutto.",
+         "You get used to everything."
+        ],
+        [
+         "Quando si è malati, si sta a casa.",
+         "When you're ill, you stay at home."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5544,7 +6164,12 @@
       "mica"
      ],
      "explain_en": "Mica in a question = by any chance.",
-     "explain_ru": "Mica в вопросе — «случайно»."
+     "explain_ru": "Mica в вопросе — «случайно».",
+     "ui": {
+      "en": {
+       "q": "Non hai ___ visto le mie chiavi? (= by any chance)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -5680,7 +6305,12 @@
      "q": "'Mica male!' means 'Not bad at all!'.",
      "answer": true,
      "explain_en": "Mica reinforces the negation: not bad at all.",
-     "explain_ru": "Верно: «Совсем неплохо!»"
+     "explain_ru": "Верно: «Совсем неплохо!»",
+     "ui": {
+      "ru": {
+       "q": "«Mica male!» значит «Совсем неплохо!»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5688,7 +6318,12 @@
      "q": "'Il giorno che ci siamo conosciuti' is unacceptable in every register.",
      "answer": false,
      "explain_en": "After time expressions, che for in cui is widely accepted.",
-     "explain_ru": "После выражений времени che вместо in cui широко принято."
+     "explain_ru": "После выражений времени che вместо in cui широко принято.",
+     "ui": {
+      "ru": {
+       "q": "«Il giorno che ci siamo conosciuti» недопустимо ни в каком регистре."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5696,7 +6331,12 @@
      "q": "'Burrone' is the augmentative of 'burro'.",
      "answer": false,
      "explain_en": "Burrone is a separate word meaning 'ravine'.",
-     "explain_ru": "Burrone — отдельное слово, «пропасть, овраг», а не «большое масло»."
+     "explain_ru": "Burrone — отдельное слово, «пропасть, овраг», а не «большое масло».",
+     "ui": {
+      "ru": {
+       "q": "«Burrone» — увеличительная форма от «burro»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5748,7 +6388,33 @@
        "Non è mica vero.",
        "Это вовсе не правда."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ma dai!",
+         "Come on! / No way!"
+        ],
+        [
+         "Mica male!",
+         "Not bad at all!"
+        ],
+        [
+         "Allora?",
+         "So?"
+        ],
+        [
+         "Dai, forza!",
+         "Come on, go!"
+        ],
+        [
+         "Non è mica vero.",
+         "It's not true at all."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5774,7 +6440,33 @@
        "mulino",
        "мельница"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "panino",
+         "sandwich, roll"
+        ],
+        [
+         "telefonino",
+         "mobile phone"
+        ],
+        [
+         "libretto",
+         "booklet, libretto"
+        ],
+        [
+         "burrone",
+         "ravine, gorge"
+        ],
+        [
+         "mulino",
+         "mill"
+        ]
+       ]
+      }
+     }
     }
    ]
   }
