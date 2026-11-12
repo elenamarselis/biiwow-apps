@@ -513,7 +513,12 @@
      "q": "The 1st person singular past form is the same in the indefinite and definite conjugation: 'tanultam'.",
      "answer": true,
      "explain_en": "tanultam serves both 'I studied' and 'I studied it'.",
-     "explain_ru": "tanultam значит и «я учился», и «я учил (это)»: в 1-м лице единственного числа формы совпадают."
+     "explain_ru": "tanultam значит и «я учился», и «я учил (это)»: в 1-м лице единственного числа формы совпадают.",
+     "ui": {
+      "ru": {
+       "q": "Форма 1-го лица ед. ч. прошедшего времени одинакова в неопределённом и определённом спряжении: «tanultam»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -521,7 +526,12 @@
      "q": "'Ő magyarul tanulta' is the correct way to say 'He studied Hungarian'.",
      "answer": false,
      "explain_en": "There is no definite object, so the indefinite form is needed: Ő magyarul tanult.",
-     "explain_ru": "Определённого объекта нет, поэтому нужна безобъектная форма: Ő magyarul tanult."
+     "explain_ru": "Определённого объекта нет, поэтому нужна безобъектная форма: Ő magyarul tanult.",
+     "ui": {
+      "ru": {
+       "q": "«Ő magyarul tanulta» — правильный способ сказать «Он учил венгерский»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -529,7 +539,12 @@
      "q": "The 3rd person singular past of 'eszik' is 'evett'.",
      "answer": true,
      "explain_en": "eszik is irregular: ettem, ettél, evett.",
-     "explain_ru": "eszik — неправильный глагол: ettem, ettél, evett."
+     "explain_ru": "eszik — неправильный глагол: ettem, ettél, evett.",
+     "ui": {
+      "ru": {
+       "q": "Форма 3-го лица ед. ч. прошедшего времени от «eszik» — «evett»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -611,7 +626,33 @@
        "tegnapelőtt",
        "позавчера"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "tegnap",
+         "yesterday"
+        ],
+        [
+         "múlt héten",
+         "last week"
+        ],
+        [
+         "régen",
+         "long ago"
+        ],
+        [
+         "tavaly",
+         "last year"
+        ],
+        [
+         "tegnapelőtt",
+         "the day before yesterday"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -920,7 +961,12 @@
      ],
      "answer": 2,
      "explain_en": "Present tense + holnap = future.",
-     "explain_ru": "Настоящее время + holnap = будущее."
+     "explain_ru": "Настоящее время + holnap = будущее.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение относится к будущему?"
+      }
+     }
     },
     {
      "id": "e07",
@@ -962,7 +1008,12 @@
      ],
      "answer": 1,
      "explain_en": "Stems in two consonants take -ani/-eni: mondani.",
-     "explain_ru": "Основы на два согласных получают -ani/-eni: mondani."
+     "explain_ru": "Основы на два согласных получают -ani/-eni: mondani.",
+     "ui": {
+      "ru": {
+       "q": "Инфинитив глагола «mond»:"
+      }
+     }
     },
     {
      "id": "e10",
@@ -1026,7 +1077,12 @@
       "meg"
      ],
      "explain_en": "In a neutral sentence the prefix is separated and stands before fog: meg fogják írni.",
-     "explain_ru": "В нейтральном предложении приставка отделяется и стоит перед fog: meg fogják írni."
+     "explain_ru": "В нейтральном предложении приставка отделяется и стоит перед fog: meg fogják írni.",
+     "ui": {
+      "ru": {
+       "q": "A gyerekek ___ fogják írni a házi feladatot. (приставка глагола megír)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -1036,7 +1092,12 @@
       "múlva"
      ],
      "explain_en": "X múlva = 'in X time'.",
-     "explain_ru": "X múlva = «через X»."
+     "explain_ru": "X múlva = «через X».",
+     "ui": {
+      "en": {
+       "q": "Két nap ___ hazamegyünk. (in two days)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -1046,7 +1107,12 @@
       "lesz"
      ],
      "explain_en": "Future of van, 3rd person singular: lesz.",
-     "explain_ru": "Будущее от van, 3-е лицо единственного числа: lesz."
+     "explain_ru": "Будущее от van, 3-е лицо единственного числа: lesz.",
+     "ui": {
+      "ru": {
+       "q": "Holnap biztosan szép idő ___. (van, будущее время)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -1056,7 +1122,12 @@
       "segíteni"
      ],
      "explain_en": "Verbs in -ít take -eni/-ani: segíteni.",
-     "explain_ru": "Глаголы на -ít получают -eni/-ani: segíteni."
+     "explain_ru": "Глаголы на -ít получают -eni/-ani: segíteni.",
+     "ui": {
+      "ru": {
+       "q": "Инфинитив: segít → ___"
+      }
+     }
     },
     {
      "id": "e19",
@@ -1115,7 +1186,12 @@
      "q": "Hungarian verbs have no special future ending; the present tense with a time word usually expresses the future.",
      "answer": true,
      "explain_en": "Holnap dolgozom = 'I will work tomorrow'.",
-     "explain_ru": "Holnap dolgozom = «Завтра я буду работать»; будущего окончания у глагола нет."
+     "explain_ru": "Holnap dolgozom = «Завтра я буду работать»; будущего окончания у глагола нет.",
+     "ui": {
+      "ru": {
+       "q": "У венгерских глаголов нет особого окончания будущего времени; будущее обычно выражается настоящим временем со словом времени."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1123,7 +1199,12 @@
      "q": "In 'Meg fogom csinálni' the prefix meg- is separated from the verb and stands before 'fogom'.",
      "answer": true,
      "explain_en": "In a neutral sentence the prefix takes the position before fog.",
-     "explain_ru": "В нейтральном предложении приставка занимает место перед fog."
+     "explain_ru": "В нейтральном предложении приставка занимает место перед fog.",
+     "ui": {
+      "ru": {
+       "q": "В «Meg fogom csinálni» приставка meg- отделяется от глагола и стоит перед «fogom»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1131,7 +1212,12 @@
      "q": "The future of 'van' is 'fog van'.",
      "answer": false,
      "explain_en": "The future of van is lesz: Holnap otthon leszek.",
-     "explain_ru": "Будущее от van — lesz: Holnap otthon leszek. Форма «fog van» не существует."
+     "explain_ru": "Будущее от van — lesz: Holnap otthon leszek. Форма «fog van» не существует.",
+     "ui": {
+      "ru": {
+       "q": "Будущее время от «van» — «fog van»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1213,7 +1299,33 @@
        "jövőre",
        "в следующем году"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "holnap",
+         "tomorrow"
+        ],
+        [
+         "jövő héten",
+         "next week"
+        ],
+        [
+         "holnapután",
+         "the day after tomorrow"
+        ],
+        [
+         "nemsokára",
+         "soon"
+        ],
+        [
+         "jövőre",
+         "next year"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1536,7 +1648,12 @@
      ],
      "answer": 2,
      "explain_en": "Neutral statement with a definite object: kinyitotta.",
-     "explain_ru": "Нейтральное утверждение с определённым объектом: kinyitotta."
+     "explain_ru": "Нейтральное утверждение с определённым объектом: kinyitotta.",
+     "ui": {
+      "ru": {
+       "q": "Anna ___ az ablakot. (kinyit, прош. вр.)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -1588,7 +1705,12 @@
      ],
      "answer": 1,
      "explain_en": "meg- adds completion/result, like the Russian perfective выучу.",
-     "explain_ru": "meg- добавляет завершённость/результат, как русское совершенное «выучу»."
+     "explain_ru": "meg- добавляет завершённость/результат, как русское совершенное «выучу».",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение значит «Я выучу слова (и буду их знать)»?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -1598,7 +1720,12 @@
       "elment"
      ],
      "explain_en": "Neutral statement, prefix attached: elment.",
-     "explain_ru": "Нейтральное утверждение, приставка присоединена: elment."
+     "explain_ru": "Нейтральное утверждение, приставка присоединена: elment.",
+     "ui": {
+      "ru": {
+       "q": "Péter ___ a boltba, és vett kenyeret. (elmegy, прош. вр.)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -1608,7 +1735,12 @@
       "tanultam"
      ],
      "explain_en": "The prefix meg is already placed after the verb; fill in the negated verb: Nem tanultam meg.",
-     "explain_ru": "Приставка meg уже стоит после глагола; вставьте отрицаемый глагол: Nem tanultam meg."
+     "explain_ru": "Приставка meg уже стоит после глагола; вставьте отрицаемый глагол: Nem tanultam meg.",
+     "ui": {
+      "ru": {
+       "q": "Nem ___ meg a leckét. (tanul, én, прош. вр.)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -1628,7 +1760,12 @@
       "felvette"
      ],
      "explain_en": "vesz → vette; definite object 'a telefont': felvette.",
-     "explain_ru": "vesz → vette; определённый объект «a telefont»: felvette."
+     "explain_ru": "vesz → vette; определённый объект «a telefont»: felvette.",
+     "ui": {
+      "ru": {
+       "q": "Anna ___ a telefont, és felhívta a barátját. (felvesz, прош. вр.)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -1658,7 +1795,12 @@
       "megitták"
      ],
      "explain_en": "iszik → itt-; definite 3rd plural: megitták.",
-     "explain_ru": "iszik → itt-; объектное 3-е лицо множественного числа: megitták."
+     "explain_ru": "iszik → itt-; объектное 3-е лицо множественного числа: megitták.",
+     "ui": {
+      "ru": {
+       "q": "A gyerekek ___ a tejet. (megiszik, прош. вр.)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -1668,7 +1810,12 @@
       "vissza"
      ],
      "explain_en": "The prefix vissza stands after the negated verb.",
-     "explain_ru": "Приставка vissza стоит после отрицаемого глагола."
+     "explain_ru": "Приставка vissza стоит после отрицаемого глагола.",
+     "ui": {
+      "en": {
+       "q": "Nem jöttek ___. (back)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -1729,7 +1876,12 @@
      "q": "In 'Nem olvastam el a könyvet' the prefix el- stands after the verb because of the negation.",
      "answer": true,
      "explain_en": "Negation takes the focus position and pushes the prefix behind the verb.",
-     "explain_ru": "Отрицание занимает позицию фокуса и отодвигает приставку за глагол."
+     "explain_ru": "Отрицание занимает позицию фокуса и отодвигает приставку за глагол.",
+     "ui": {
+      "ru": {
+       "q": "В «Nem olvastam el a könyvet» приставка el- стоит после глагола из-за отрицания."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1737,7 +1889,12 @@
      "q": "Hungarian verb prefixes always stay attached to the verb, like Russian prefixes.",
      "answer": false,
      "explain_en": "They separate in negation, after question words and with auxiliaries: Nem mentem el.",
-     "explain_ru": "Они отделяются при отрицании, после вопросительных слов и при вспомогательных глаголах: Nem mentem el."
+     "explain_ru": "Они отделяются при отрицании, после вопросительных слов и при вспомогательных глаголах: Nem mentem el.",
+     "ui": {
+      "ru": {
+       "q": "Венгерские глагольные приставки всегда остаются при глаголе, как русские приставки."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1745,7 +1902,12 @@
      "q": "The question 'Megcsináltad?' can be answered with just 'Meg.'",
      "answer": true,
      "explain_en": "The prefix alone is a normal 'yes' answer.",
-     "explain_ru": "Одна приставка — обычный утвердительный ответ."
+     "explain_ru": "Одна приставка — обычный утвердительный ответ.",
+     "ui": {
+      "ru": {
+       "q": "На вопрос «Megcsináltad?» можно ответить просто «Meg.»"
+      }
+     }
     },
     {
      "id": "e26",
@@ -1775,7 +1937,37 @@
        "el-",
        "прочь"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ki-",
+         "out"
+        ],
+        [
+         "be-",
+         "in"
+        ],
+        [
+         "fel-",
+         "up"
+        ],
+        [
+         "le-",
+         "down"
+        ],
+        [
+         "vissza-",
+         "back"
+        ],
+        [
+         "el-",
+         "away"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2159,7 +2351,12 @@
      ],
      "answer": 2,
      "explain_en": "szeretne 'would like', 2nd person singular: szeretnél.",
-     "explain_ru": "szeretne «хотел бы», 2-е лицо единственного числа: szeretnél."
+     "explain_ru": "szeretne «хотел бы», 2-е лицо единственного числа: szeretnél.",
+     "ui": {
+      "ru": {
+       "q": "___ egy kávét? (хотел бы, te)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -2172,7 +2369,17 @@
      ],
      "answer": 1,
      "explain_en": "-het = possibility/permission: 'May I come in?'",
-     "explain_ru": "-het = возможность/разрешение: «Можно войти?»"
+     "explain_ru": "-het = возможность/разрешение: «Можно войти?»",
+     "ui": {
+      "ru": {
+       "q": "«Bejöhetek?» значит:",
+       "options": [
+        "Я вошёл.",
+        "Можно войти?",
+        "Я вхожу."
+       ]
+      }
+     }
     },
     {
      "id": "e10",
@@ -2185,7 +2392,12 @@
      ],
      "answer": 2,
      "explain_en": "Irregular stem: eszik → ehet.",
-     "explain_ru": "Неправильная основа: eszik → ehet."
+     "explain_ru": "Неправильная основа: eszik → ehet.",
+     "ui": {
+      "ru": {
+       "q": "Форма на -hat/-het от «eszik», 3-е лицо ед. ч.:"
+      }
+     }
     },
     {
      "id": "e11",
@@ -2255,7 +2467,12 @@
       "tanulniuk"
      ],
      "explain_en": "3rd person plural personal infinitive: tanulniuk.",
-     "explain_ru": "Личный инфинитив 3-го лица множественного числа: tanulniuk."
+     "explain_ru": "Личный инфинитив 3-го лица множественного числа: tanulniuk.",
+     "ui": {
+      "ru": {
+       "q": "A gyerekeknek sokat kell ___. (tanul, личный инфинитив)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -2321,7 +2538,12 @@
      "q": "'kell' does not change for person; instead the infinitive takes personal endings (mennem kell, menned kell).",
      "answer": true,
      "explain_en": "kell is impersonal; the infinitive carries the person.",
-     "explain_ru": "kell безличный; лицо выражается в инфинитиве, в отличие от русского «мне нужно идти», где инфинитив не меняется."
+     "explain_ru": "kell безличный; лицо выражается в инфинитиве, в отличие от русского «мне нужно идти», где инфинитив не меняется.",
+     "ui": {
+      "ru": {
+       "q": "«kell» не изменяется по лицам; вместо этого личные окончания получает инфинитив (mennem kell, menned kell)."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2329,7 +2551,12 @@
      "q": "'Tudom úszni' is the correct way to say 'I can swim'.",
      "answer": false,
      "explain_en": "There is no definite object, so it must be Tudok úszni.",
-     "explain_ru": "Определённого объекта нет, поэтому нужно Tudok úszni."
+     "explain_ru": "Определённого объекта нет, поэтому нужно Tudok úszni.",
+     "ui": {
+      "ru": {
+       "q": "«Tudom úszni» — правильный способ сказать «Я умею плавать»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2337,7 +2564,12 @@
      "q": "The suffix -hat/-het expresses possibility or permission: 'mehetek' = 'I may go'.",
      "answer": true,
      "explain_en": "megy → mehet + -ek.",
-     "explain_ru": "megy → mehet + -ek; по-русски это «я могу идти / мне можно идти»."
+     "explain_ru": "megy → mehet + -ek; по-русски это «я могу идти / мне можно идти».",
+     "ui": {
+      "ru": {
+       "q": "Суффикс -hat/-het выражает возможность или разрешение: «mehetek» = «мне можно идти»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2419,7 +2651,33 @@
        "lehet",
        "можно, возможно"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "tud",
+         "can, be able to"
+        ],
+        [
+         "akar",
+         "to want"
+        ],
+        [
+         "kell",
+         "must, need to"
+        ],
+        [
+         "szeretne",
+         "would like"
+        ],
+        [
+         "lehet",
+         "it is possible, one may"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2677,7 +2935,12 @@
      ],
      "answer": 0,
      "explain_en": "'to me' = nekem.",
-     "explain_ru": "«мне» = nekem."
+     "explain_ru": "«мне» = nekem.",
+     "ui": {
+      "en": {
+       "q": "Péter ___ írt levelet. (to me)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -2733,7 +2996,12 @@
      ],
      "answer": 3,
      "explain_en": "Several books, 1st person: könyveim.",
-     "explain_ru": "Несколько книг, 1-е лицо: könyveim."
+     "explain_ru": "Несколько книг, 1-е лицо: könyveim.",
+     "ui": {
+      "ru": {
+       "q": "Ezek a ___. (мои книги)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -2747,7 +3015,12 @@
      ],
      "answer": 0,
      "explain_en": "szülő has the irregular possessive stem szülei-: szüleim.",
-     "explain_ru": "У szülő неправильная притяжательная основа szülei-: szüleim."
+     "explain_ru": "У szülő неправильная притяжательная основа szülei-: szüleim.",
+     "ui": {
+      "ru": {
+       "q": "A ___ Budapesten laknak. (мои родители)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -2775,7 +3048,12 @@
      ],
      "answer": 1,
      "explain_en": "tetszik takes the dative: neked.",
-     "explain_ru": "tetszik требует дательного падежа: neked, как русское «тебе нравится»."
+     "explain_ru": "tetszik требует дательного падежа: neked, как русское «тебе нравится».",
+     "ui": {
+      "en": {
+       "q": "Tetszik ___ a film? (to you)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -2798,7 +3076,12 @@
       "Imrének"
      ],
      "explain_en": "Final -e lengthens before -nek: Imrének.",
-     "explain_ru": "Конечное -e удлиняется перед -nek: Imrének."
+     "explain_ru": "Конечное -e удлиняется перед -nek: Imrének.",
+     "ui": {
+      "ru": {
+       "q": "___ adok egy ajándékot. (Imre + дательный падеж)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -2808,7 +3091,12 @@
       "Neki"
      ],
      "explain_en": "3rd person singular dative: neki.",
-     "explain_ru": "Дательный падеж 3-го лица единственного числа: neki."
+     "explain_ru": "Дательный падеж 3-го лица единственного числа: neki.",
+     "ui": {
+      "ru": {
+       "q": "___ van autója. (ő, местоимение в дательном падеже)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -2818,7 +3106,12 @@
       "tollad"
      ],
      "explain_en": "toll + 2nd person possessive -ad: tollad.",
-     "explain_ru": "toll + притяжательный суффикс 2-го лица -ad: tollad."
+     "explain_ru": "toll + притяжательный суффикс 2-го лица -ad: tollad.",
+     "ui": {
+      "ru": {
+       "q": "Van egy ___? (toll, твой)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -2828,7 +3121,12 @@
       "időm"
      ],
      "explain_en": "idő + -m: időm 'my time'.",
-     "explain_ru": "idő + -m: időm «моё время»; по-русски «у меня нет времени»."
+     "explain_ru": "idő + -m: időm «моё время»; по-русски «у меня нет времени».",
+     "ui": {
+      "ru": {
+       "q": "Nincs ___. (idő, мой)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -2838,7 +3136,12 @@
       "virágaim"
      ],
      "explain_en": "virága → virágai → virágaim.",
-     "explain_ru": "Цепочка: virága → virágai → virágaim «мои цветы»."
+     "explain_ru": "Цепочка: virága → virágai → virágaim «мои цветы».",
+     "ui": {
+      "ru": {
+       "q": "A ___ nagyon szépek. (virág, мой, мн. ч.)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -2848,7 +3151,12 @@
       "barátai"
      ],
      "explain_en": "barátja → plural possessive barátai.",
-     "explain_ru": "barátja → притяжательное множественное barátai."
+     "explain_ru": "barátja → притяжательное множественное barátai.",
+     "ui": {
+      "ru": {
+       "q": "A ___ külföldön élnek. (barát, его, мн. ч.)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -2858,7 +3166,12 @@
       "könyveimet"
      ],
      "explain_en": "könyveim + -et: könyveimet.",
-     "explain_ru": "Винительный падеж после притяжательного: könyveim + -et = könyveimet."
+     "explain_ru": "Винительный падеж после притяжательного: könyveim + -et = könyveimet.",
+     "ui": {
+      "ru": {
+       "q": "Szeretem a ___. (könyv, мой, мн. ч. + винительный падеж)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -2868,7 +3181,12 @@
       "volt"
      ],
      "explain_en": "Past possession: volt.",
-     "explain_ru": "Обладание в прошедшем: volt — «у меня была»."
+     "explain_ru": "Обладание в прошедшем: volt — «у меня была».",
+     "ui": {
+      "ru": {
+       "q": "Tegnap ___ egy jó ötletem. (van, прош. вр.)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -2927,7 +3245,12 @@
      "q": "Hungarian has no verb 'to have'; possession is expressed with the dative and van: 'Nekem van autóm'.",
      "answer": true,
      "explain_en": "Literally 'to me there is my car'.",
-     "explain_ru": "Буквально «мне есть моя машина» — как русское «у меня есть машина»."
+     "explain_ru": "Буквально «мне есть моя машина» — как русское «у меня есть машина».",
+     "ui": {
+      "ru": {
+       "q": "В венгерском нет глагола «иметь»; обладание выражается дательным падежом и van: «Nekem van autóm»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2935,7 +3258,12 @@
      "q": "'Annának három gyerekei van' is correct.",
      "answer": false,
      "explain_en": "After a numeral the noun is singular: Annának három gyereke van.",
-     "explain_ru": "После числительного существительное в единственном числе: Annának három gyereke van."
+     "explain_ru": "После числительного существительное в единственном числе: Annának három gyereke van.",
+     "ui": {
+      "ru": {
+       "q": "«Annának három gyerekei van» — правильно."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2943,7 +3271,12 @@
      "q": "'könyveim' means 'my books' (more than one book).",
      "answer": true,
      "explain_en": "The -i- marks plural possession: könyvem 'my book', könyveim 'my books'.",
-     "explain_ru": "-i- обозначает множественное число обладаемого: könyvem «моя книга», könyveim «мои книги»."
+     "explain_ru": "-i- обозначает множественное число обладаемого: könyvem «моя книга», könyveim «мои книги».",
+     "ui": {
+      "ru": {
+       "q": "«könyveim» значит «мои книги» (больше одной книги)."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3021,7 +3354,29 @@
        "Van egy ötletem.",
        "У меня есть идея."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Van autóm.",
+         "I have a car."
+        ],
+        [
+         "Nincs időm.",
+         "I have no time."
+        ],
+        [
+         "Volt egy kutyám.",
+         "I had a dog."
+        ],
+        [
+         "Van egy ötletem.",
+         "I have an idea."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3270,7 +3625,12 @@
      ],
      "answer": 1,
      "explain_en": "'with Anna' = -val with lengthened -á-: Annával.",
-     "explain_ru": "«с Анной» = -val с удлинением -á-: Annával."
+     "explain_ru": "«с Анной» = -val с удлинением -á-: Annával.",
+     "ui": {
+      "en": {
+       "q": "___ megyek moziba. (with Anna)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -3283,7 +3643,12 @@
      ],
      "answer": 1,
      "explain_en": "The v assimilates to sz: busszal.",
-     "explain_ru": "v уподобляется sz: busszal."
+     "explain_ru": "v уподобляется sz: busszal.",
+     "ui": {
+      "en": {
+       "q": "___ utazunk. (busz, by bus)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -3297,7 +3662,12 @@
      ],
      "answer": 0,
      "explain_en": "Purpose 'for bread' = -ért.",
-     "explain_ru": "Цель «за хлебом» = -ért."
+     "explain_ru": "Цель «за хлебом» = -ért.",
+     "ui": {
+      "en": {
+       "q": "Elmegyek a boltba ___. (for bread, to get bread)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -3311,7 +3681,12 @@
      ],
      "answer": 2,
      "explain_en": "'until five' = ötig.",
-     "explain_ru": "«до пяти» = ötig."
+     "explain_ru": "«до пяти» = ötig.",
+     "ui": {
+      "en": {
+       "q": "___ dolgozom. (until five)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -3325,7 +3700,12 @@
      ],
      "answer": 1,
      "explain_en": "'from Péter' = -től.",
-     "explain_ru": "«от Петера» = -től."
+     "explain_ru": "«от Петера» = -től.",
+     "ui": {
+      "en": {
+       "q": "Ezt a könyvet ___ kaptam. (from Péter)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -3353,7 +3733,12 @@
      ],
      "answer": 2,
      "explain_en": "'at Anna's place' = -nál.",
-     "explain_ru": "«у Анны» = -nál."
+     "explain_ru": "«у Анны» = -nál.",
+     "ui": {
+      "en": {
+       "q": "Tegnap ___ voltunk. (at Anna's place)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3367,7 +3752,12 @@
      ],
      "answer": 2,
      "explain_en": "'in front of' = előtt, placed after the noun.",
-     "explain_ru": "«перед» = előtt, стоит после существительного."
+     "explain_ru": "«перед» = előtt, стоит после существительного.",
+     "ui": {
+      "en": {
+       "q": "A busz az iskola ___ áll. (in front of)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -3381,7 +3771,12 @@
      ],
      "answer": 1,
      "explain_en": "'after' = után.",
-     "explain_ru": "«после» = után."
+     "explain_ru": "«после» = után.",
+     "ui": {
+      "en": {
+       "q": "Ebéd ___ sétálunk. (after lunch)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3395,7 +3790,12 @@
      ],
      "answer": 1,
      "explain_en": "'with me' = velem (-vel + possessive ending).",
-     "explain_ru": "«со мной» = velem (-vel + притяжательное окончание)."
+     "explain_ru": "«со мной» = velem (-vel + притяжательное окончание).",
+     "ui": {
+      "en": {
+       "q": "Gyere ___! (with me)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -3425,7 +3825,12 @@
       "Budapestig"
      ],
      "explain_en": "'as far as Budapest' = -ig.",
-     "explain_ru": "«до Будапешта» = -ig."
+     "explain_ru": "«до Будапешта» = -ig.",
+     "ui": {
+      "en": {
+       "q": "___ utazunk vonattal. (Budapest, as far as)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -3435,7 +3840,12 @@
       "Mennyiért"
      ],
      "explain_en": "Price = -ért: Mennyiért.",
-     "explain_ru": "Цена = -ért: Mennyiért."
+     "explain_ru": "Цена = -ért: Mennyiért.",
+     "ui": {
+      "en": {
+       "q": "___ vetted a cipőt? (mennyi + -ért, for how much)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -3445,7 +3855,12 @@
       "Nyolctól"
      ],
      "explain_en": "Starting point in time = -tól: nyolctól ötig.",
-     "explain_ru": "Начальная точка во времени = -tól: nyolctól ötig."
+     "explain_ru": "Начальная точка во времени = -tól: nyolctól ötig.",
+     "ui": {
+      "en": {
+       "q": "___ ötig dolgozom. (nyolc, from eight)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -3455,7 +3870,12 @@
       "alatt"
      ],
      "explain_en": "'under' = alatt, after the noun.",
-     "explain_ru": "«под» = alatt, после существительного."
+     "explain_ru": "«под» = alatt, после существительного.",
+     "ui": {
+      "en": {
+       "q": "A macska az asztal ___ alszik. (under)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -3465,7 +3885,12 @@
       "között"
      ],
      "explain_en": "'between/among' = között.",
-     "explain_ru": "«между/среди» = között."
+     "explain_ru": "«между/среди» = között.",
+     "ui": {
+      "en": {
+       "q": "A gyerekek a fák ___ játszanak. (between, among)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -3475,7 +3900,12 @@
       "tőled"
      ],
      "explain_en": "-től + 2nd person: tőled.",
-     "explain_ru": "-től + 2-е лицо: tőled."
+     "explain_ru": "-től + 2-е лицо: tőled.",
+     "ui": {
+      "en": {
+       "q": "Ez a levél ___ jött. (from you)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -3534,7 +3964,12 @@
      "q": "In -val/-vel the v assimilates to a preceding consonant: busz + val = busszal.",
      "answer": true,
      "explain_en": "After consonants the v becomes a copy of that consonant.",
-     "explain_ru": "После согласных v превращается в копию этого согласного."
+     "explain_ru": "После согласных v превращается в копию этого согласного.",
+     "ui": {
+      "ru": {
+       "q": "В -val/-vel звук v уподобляется предшествующему согласному: busz + val = busszal."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3542,7 +3977,12 @@
      "q": "Hungarian postpositions stand before the noun, like Russian prepositions: 'mellett a ház'.",
      "answer": false,
      "explain_en": "They follow the noun: a ház mellett.",
-     "explain_ru": "Они стоят после существительного: a ház mellett. Русское «рядом с домом» имеет обратный порядок."
+     "explain_ru": "Они стоят после существительного: a ház mellett. Русское «рядом с домом» имеет обратный порядок.",
+     "ui": {
+      "ru": {
+       "q": "Венгерские послелоги стоят перед существительным, как русские предлоги: «mellett a ház»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3550,7 +3990,12 @@
      "q": "'Pétertől' means 'from Péter' and 'Péternél' means 'at Péter's place'.",
      "answer": true,
      "explain_en": "-tól/-től 'from', -nál/-nél 'at'.",
-     "explain_ru": "-tól/-től «от», -nál/-nél «у»."
+     "explain_ru": "-tól/-től «от», -nál/-nél «у».",
+     "ui": {
+      "ru": {
+       "q": "«Pétertől» значит «от Петера», а «Péternél» — «у Петера (дома)»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3576,7 +4021,33 @@
        "velük",
        "с ними"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "velem",
+         "with me"
+        ],
+        [
+         "veled",
+         "with you"
+        ],
+        [
+         "vele",
+         "with him / with her"
+        ],
+        [
+         "velünk",
+         "with us"
+        ],
+        [
+         "velük",
+         "with them"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3606,7 +4077,37 @@
        "alatt",
        "под"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "mellett",
+         "next to"
+        ],
+        [
+         "előtt",
+         "in front of, before"
+        ],
+        [
+         "mögött",
+         "behind"
+        ],
+        [
+         "után",
+         "after"
+        ],
+        [
+         "között",
+         "between"
+        ],
+        [
+         "alatt",
+         "under"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3903,7 +4404,15 @@
      ],
      "answer": 1,
      "explain_en": "'than' with a suffix = -nál/-nél: Péternél.",
-     "explain_ru": "«чем» с суффиксом = -nál/-nél: Péternél (как русское «выше Петера»)."
+     "explain_ru": "«чем» с суффиксом = -nál/-nél: Péternél (как русское «выше Петера»).",
+     "ui": {
+      "en": {
+       "q": "Anna magasabb ___. (than Péter, with a suffix)"
+      },
+      "ru": {
+       "q": "Anna magasabb ___. (чем Петер, с помощью суффикса)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -3931,7 +4440,12 @@
      ],
      "answer": 0,
      "explain_en": "Back-vowel adjective + -an: gyorsan.",
-     "explain_ru": "Прилагательное заднего ряда + -an: gyorsan."
+     "explain_ru": "Прилагательное заднего ряда + -an: gyorsan.",
+     "ui": {
+      "ru": {
+       "q": "A vonat ___ megy. (gyors, наречие)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -3987,7 +4501,12 @@
      ],
      "answer": 2,
      "explain_en": "Comparative adverb: gyorsabb + -an = gyorsabban.",
-     "explain_ru": "Сравнительная степень наречия: gyorsabb + -an = gyorsabban."
+     "explain_ru": "Сравнительная степень наречия: gyorsabb + -an = gyorsabban.",
+     "ui": {
+      "ru": {
+       "q": "Te ___ futsz, mint én. (gyorsan, сравнительная степень)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -3998,7 +4517,12 @@
       "jól"
      ],
      "explain_en": "Irregular adverb: jó → jól.",
-     "explain_ru": "Неправильное наречие: jó → jól «хорошо»."
+     "explain_ru": "Неправильное наречие: jó → jól «хорошо».",
+     "ui": {
+      "ru": {
+       "q": "Hogy vagy? – ___. (jó, наречие)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -4018,7 +4542,12 @@
       "legokosabb"
      ],
      "explain_en": "leg- + okosabb.",
-     "explain_ru": "leg- + okosabb «самый умный»."
+     "explain_ru": "leg- + okosabb «самый умный».",
+     "ui": {
+      "ru": {
+       "q": "Ő a ___ diák az osztályban. (okos, превосходная степень)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -4028,7 +4557,12 @@
       "hangosan"
      ],
      "explain_en": "hangos + -an = hangosan 'loudly'.",
-     "explain_ru": "hangos + -an = hangosan «громко»."
+     "explain_ru": "hangos + -an = hangosan «громко».",
+     "ui": {
+      "ru": {
+       "q": "Anna ___ beszél. (hangos, наречие)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -4038,7 +4572,12 @@
       "gyorsan"
      ],
      "explain_en": "gyors → gyorsan.",
-     "explain_ru": "gyors → gyorsan «быстро»."
+     "explain_ru": "gyors → gyorsan «быстро».",
+     "ui": {
+      "ru": {
+       "q": "Nem értem, ha ___ beszélsz. (gyors, наречие)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -4048,7 +4587,12 @@
       "nehezebb"
      ],
      "explain_en": "Irregular stem: nehéz → nehezebb (the é shortens).",
-     "explain_ru": "Неправильная основа: nehéz → nehezebb (é сокращается)."
+     "explain_ru": "Неправильная основа: nehéz → nehezebb (é сокращается).",
+     "ui": {
+      "ru": {
+       "q": "Ez a feladat ___, mint az előző. (nehéz, сравнительная степень)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -4058,7 +4602,12 @@
       "szebben"
      ],
      "explain_en": "szép → szebb → szebben.",
-     "explain_ru": "szép → szebb → szebben «красивее»."
+     "explain_ru": "szép → szebb → szebben «красивее».",
+     "ui": {
+      "ru": {
+       "q": "Péter ___ énekel, mint Anna. (szép, наречие в сравнительной степени)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -4130,7 +4679,12 @@
      "q": "The comparative of 'jó' is 'jobb', not 'jóbb'.",
      "answer": true,
      "explain_en": "jó, jobb, legjobb is irregular.",
-     "explain_ru": "jó, jobb, legjobb — неправильная форма, как русское «хороший – лучше»."
+     "explain_ru": "jó, jobb, legjobb — неправильная форма, как русское «хороший – лучше».",
+     "ui": {
+      "ru": {
+       "q": "Сравнительная степень от «jó» — «jobb», а не «jóbb»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4138,7 +4692,12 @@
      "q": "'Than' can be expressed either with 'mint' or with the suffix -nál/-nél on the compared noun.",
      "answer": true,
      "explain_en": "Péter magasabb, mint Anna = Péter magasabb Annánál.",
-     "explain_ru": "Péter magasabb, mint Anna = Péter magasabb Annánál; как русское «чем Анна» / «Анны»."
+     "explain_ru": "Péter magasabb, mint Anna = Péter magasabb Annánál; как русское «чем Анна» / «Анны».",
+     "ui": {
+      "ru": {
+       "q": "«Чем» можно выразить словом «mint» или суффиксом -nál/-nél у сравниваемого существительного."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4146,7 +4705,12 @@
      "q": "'magyaran' is the correct adverb meaning 'in Hungarian'.",
      "answer": false,
      "explain_en": "Languages take -ul/-ül: magyarul.",
-     "explain_ru": "Названия языков получают -ul/-ül: magyarul."
+     "explain_ru": "Названия языков получают -ul/-ül: magyarul.",
+     "ui": {
+      "ru": {
+       "q": "«magyaran» — правильное наречие со значением «по-венгерски»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4224,7 +4788,29 @@
        "olyan magas, mint",
        "такой же высокий, как"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "a legjobb",
+         "the best"
+        ],
+        [
+         "sokkal nagyobb",
+         "much bigger"
+        ],
+        [
+         "egy kicsit drágább",
+         "a little more expensive"
+        ],
+        [
+         "olyan magas, mint",
+         "as tall as"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4458,7 +5044,12 @@
      ],
      "answer": 1,
      "explain_en": "Direct object 'me' = engem.",
-     "explain_ru": "Прямой объект «меня» = engem."
+     "explain_ru": "Прямой объект «меня» = engem.",
+     "ui": {
+      "en": {
+       "q": "Péter lát ___. (me)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -4472,7 +5063,12 @@
      ],
      "answer": 2,
      "explain_en": "én + téged → -lak: Látlak.",
-     "explain_ru": "Подлежащее én + объект téged → окончание -lak: Látlak «Я вижу тебя»."
+     "explain_ru": "Подлежащее én + объект téged → окончание -lak: Látlak «Я вижу тебя».",
+     "ui": {
+      "ru": {
+       "q": "«Я тебя вижу» по-венгерски:"
+      }
+     }
     },
     {
      "id": "e03",
@@ -4486,7 +5082,12 @@
      ],
      "answer": 3,
      "explain_en": "Accusative of ő is őt; ismerem is definite.",
-     "explain_ru": "Винительный падеж от ő — őt; ismerem — объектная форма."
+     "explain_ru": "Винительный падеж от ő — őt; ismerem — объектная форма.",
+     "ui": {
+      "en": {
+       "q": "Ismerem ___. (him)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -4542,7 +5143,18 @@
      ],
      "answer": 2,
      "explain_en": "-lek = I (subject) … you (object).",
-     "explain_ru": "-lek = я (подлежащее) … тебя (объект)."
+     "explain_ru": "-lek = я (подлежащее) … тебя (объект).",
+     "ui": {
+      "ru": {
+       "q": "«Szeretlek» значит:",
+       "options": [
+        "Ты любишь меня.",
+        "Я люблю его.",
+        "Я люблю тебя.",
+        "Они любят тебя."
+       ]
+      }
+     }
     },
     {
      "id": "e08",
@@ -4584,7 +5196,12 @@
      ],
      "answer": 3,
      "explain_en": "Polite object: Önt, with the definite várom.",
-     "explain_ru": "Вежливый объект: Önt, с объектной формой várom."
+     "explain_ru": "Вежливый объект: Önt, с объектной формой várom.",
+     "ui": {
+      "en": {
+       "q": "Várom ___. (you, polite, singular)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -4594,7 +5211,12 @@
       "engem"
      ],
      "explain_en": "'me' = engem; the verb is indefinite (szeret).",
-     "explain_ru": "«меня» = engem; глагол в безобъектной форме (szeret)."
+     "explain_ru": "«меня» = engem; глагол в безобъектной форме (szeret).",
+     "ui": {
+      "en": {
+       "q": "Anna szeret ___. (me)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -4614,7 +5236,12 @@
       "őket"
      ],
      "explain_en": "'them' = őket; látod is definite.",
-     "explain_ru": "«их» = őket; látod — объектная форма."
+     "explain_ru": "«их» = őket; látod — объектная форма.",
+     "ui": {
+      "en": {
+       "q": "Látod ___? (them)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -4644,7 +5271,12 @@
       "láttalak"
      ],
      "explain_en": "Past -lak form: lát + t + alak = láttalak.",
-     "explain_ru": "Форма -lak в прошедшем: lát + t + alak = láttalak."
+     "explain_ru": "Форма -lak в прошедшем: lát + t + alak = láttalak.",
+     "ui": {
+      "ru": {
+       "q": "Tegnap ___ a moziban. (lát + téged, прош. вр.)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -4722,7 +5354,12 @@
      "q": "With the objects engem, téged, minket, titeket the verb takes the indefinite conjugation.",
      "answer": true,
      "explain_en": "1st and 2nd person objects count as indefinite: Lát engem, Látsz minket.",
-     "explain_ru": "Объекты 1-го и 2-го лица считаются неопределёнными: Lát engem, Látsz minket. В русском такого различия нет."
+     "explain_ru": "Объекты 1-го и 2-го лица считаются неопределёнными: Lát engem, Látsz minket. В русском такого различия нет.",
+     "ui": {
+      "ru": {
+       "q": "С дополнениями engem, téged, minket, titeket глагол стоит в неопределённом спряжении."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4730,7 +5367,12 @@
      "q": "'Látom őt' and 'Látom' both mean 'I see him/her': the pronoun can be dropped.",
      "answer": true,
      "explain_en": "The definite ending already implies a 3rd person object.",
-     "explain_ru": "Объектное окончание уже подразумевает объект 3-го лица; по-русски местоимение обязательно."
+     "explain_ru": "Объектное окончание уже подразумевает объект 3-го лица; по-русски местоимение обязательно.",
+     "ui": {
+      "ru": {
+       "q": "«Látom őt» и «Látom» оба значат «Я вижу его/её»: местоимение можно опустить."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4738,7 +5380,12 @@
      "q": "'Szeretlek' can mean 'I love him'.",
      "answer": false,
      "explain_en": "-lak/-lek is only for 'I … you'; 'I love him' is Szeretem (őt).",
-     "explain_ru": "-lak/-lek только для «я … тебя/вас»; «я люблю его» — Szeretem (őt)."
+     "explain_ru": "-lak/-lek только для «я … тебя/вас»; «я люблю его» — Szeretem (őt).",
+     "ui": {
+      "ru": {
+       "q": "«Szeretlek» может значить «Я люблю его»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4820,7 +5467,33 @@
        "Lát engem.",
        "Он видит меня."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Látlak.",
+         "I see you."
+        ],
+        [
+         "Látom.",
+         "I see him/her/it."
+        ],
+        [
+         "Látsz.",
+         "You see (someone)."
+        ],
+        [
+         "Látod.",
+         "You see him/her/it."
+        ],
+        [
+         "Lát engem.",
+         "He/she sees me."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5106,7 +5779,12 @@
      ],
      "answer": 2,
      "explain_en": "Definite object, 2nd person short form: stem + d → olvasd.",
-     "explain_ru": "Определённый объект, краткая форма 2-го лица: основа + d → olvasd."
+     "explain_ru": "Определённый объект, краткая форма 2-го лица: основа + d → olvasd.",
+     "ui": {
+      "ru": {
+       "q": "___ el a könyvet! (olvas, te, определённое спряжение)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -5134,7 +5812,12 @@
      ],
      "answer": 2,
      "explain_en": "Polite 'please' with Ön is kérem.",
-     "explain_ru": "Вежливое «пожалуйста» при обращении на Ön — kérem."
+     "explain_ru": "Вежливое «пожалуйста» при обращении на Ön — kérem.",
+     "ui": {
+      "en": {
+       "q": "Üljön le, ___! (polite)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -5161,7 +5844,12 @@
      ],
      "answer": 1,
      "explain_en": "Negative commands use ne + the -j form.",
-     "explain_ru": "Запреты строятся с ne + форма на -j."
+     "explain_ru": "Запреты строятся с ne + форма на -j.",
+     "ui": {
+      "ru": {
+       "q": "Какой отрицательный приказ правильный?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -5175,7 +5863,12 @@
      ],
      "answer": 3,
      "explain_en": "1st person plural -j form = 'let's': menjünk.",
-     "explain_ru": "Форма 1-го лица множественного числа на -j = «давайте»: menjünk."
+     "explain_ru": "Форма 1-го лица множественного числа на -j = «давайте»: menjünk.",
+     "ui": {
+      "ru": {
+       "q": "___ moziba! (megy, mi, «давайте»)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -5239,7 +5932,12 @@
       "Nézzük"
      ],
      "explain_en": "Definite 1st person plural; z + j → zz: nézzük.",
-     "explain_ru": "Объектное 1-е лицо множественного числа; z + j → zz: nézzük."
+     "explain_ru": "Объектное 1-е лицо множественного числа; z + j → zz: nézzük.",
+     "ui": {
+      "ru": {
+       "q": "___ meg a filmet! (néz, mi, «давайте»)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -5269,7 +5967,12 @@
       "Add"
      ],
      "explain_en": "Definite short form: ad + d = add.",
-     "explain_ru": "Краткая объектная форма: ad + d = add «дай»."
+     "explain_ru": "Краткая объектная форма: ad + d = add «дай».",
+     "ui": {
+      "ru": {
+       "q": "___ ide a könyvet! (ad, te, определённое спряжение)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -5327,7 +6030,12 @@
      "q": "Negative commands use 'ne', not 'nem': 'Ne menj el!'",
      "answer": true,
      "explain_en": "nem negates statements, ne negates commands and wishes.",
-     "explain_ru": "nem отрицает утверждения, ne — команды и пожелания."
+     "explain_ru": "nem отрицает утверждения, ne — команды и пожелания.",
+     "ui": {
+      "ru": {
+       "q": "В отрицательных приказах используется «ne», а не «nem»: «Ne menj el!»"
+      }
+     }
     },
     {
      "id": "e24",
@@ -5335,7 +6043,12 @@
      "q": "In a direct command the verb prefix usually follows the verb: 'Ülj le!', 'Menj el!'",
      "answer": true,
      "explain_en": "The imperative verb is in focus, so the prefix moves behind it.",
-     "explain_ru": "Глагол в повелительном наклонении стоит в фокусе, поэтому приставка уходит за него."
+     "explain_ru": "Глагол в повелительном наклонении стоит в фокусе, поэтому приставка уходит за него.",
+     "ui": {
+      "ru": {
+       "q": "В прямом приказе глагольная приставка обычно стоит после глагола: «Ülj le!», «Menj el!»"
+      }
+     }
     },
     {
      "id": "e25",
@@ -5343,7 +6056,12 @@
      "q": "After 'azt akarom, hogy' the verb stays in the present indicative: 'Azt akarom, hogy itt maradsz.'",
      "answer": false,
      "explain_en": "It takes the -j form: Azt akarom, hogy itt maradj.",
-     "explain_ru": "Нужна форма на -j: Azt akarom, hogy itt maradj — как русское «чтобы ты остался»."
+     "explain_ru": "Нужна форма на -j: Azt akarom, hogy itt maradj — как русское «чтобы ты остался».",
+     "ui": {
+      "ru": {
+       "q": "После «azt akarom, hogy» глагол остаётся в изъявительном наклонении настоящего времени: «Azt akarom, hogy itt maradsz.»"
+      }
+     }
     },
     {
      "id": "e26",
@@ -5425,7 +6143,33 @@
        "Várj!",
        "Подожди!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ülj le!",
+         "Sit down!"
+        ],
+        [
+         "Gyere ide!",
+         "Come here!"
+        ],
+        [
+         "Ne félj!",
+         "Don't be afraid!"
+        ],
+        [
+         "Menjünk!",
+         "Let's go!"
+        ],
+        [
+         "Várj!",
+         "Wait!"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5671,7 +6415,12 @@
      ],
      "answer": 1,
      "explain_en": "The attached prefix (elment) marks a neutral sentence.",
-     "explain_ru": "Слитная приставка (elment) — признак нейтрального предложения."
+     "explain_ru": "Слитная приставка (elment) — признак нейтрального предложения.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение нейтральное, без особого выделения?"
+      }
+     }
     },
     {
      "id": "e02",
@@ -5684,7 +6433,12 @@
      ],
      "answer": 2,
      "explain_en": "The focused element stands right before the verb; the prefix is dropped or moved behind.",
-     "explain_ru": "Выделенный член стоит непосредственно перед глаголом; приставка опускается или уходит за глагол."
+     "explain_ru": "Выделенный член стоит непосредственно перед глаголом; приставка опускается или уходит за глагол.",
+     "ui": {
+      "ru": {
+       "q": "В каком ответе в фокусе «a boltba»?"
+      }
+     }
     },
     {
      "id": "e03",
@@ -5725,7 +6479,12 @@
      ],
      "answer": 1,
      "explain_en": "'also' = is, after the word it refers to; the prefix stays attached.",
-     "explain_ru": "«тоже» = is, после слова, к которому относится; приставка остаётся на глаголе."
+     "explain_ru": "«тоже» = is, после слова, к которому относится; приставка остаётся на глаголе.",
+     "ui": {
+      "en": {
+       "q": "Péter ___ elment. (too, also)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -5738,7 +6497,12 @@
      ],
      "answer": 2,
      "explain_en": "'not … either' = sem; no extra nem is needed.",
-     "explain_ru": "«тоже не» = sem; дополнительное nem не нужно."
+     "explain_ru": "«тоже не» = sem; дополнительное nem не нужно.",
+     "ui": {
+      "en": {
+       "q": "Én ___ kérek kávét. (I don't either)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -5780,7 +6544,12 @@
      ],
      "answer": 1,
      "explain_en": "'if' = ha.",
-     "explain_ru": "«если» = ha."
+     "explain_ru": "«если» = ha.",
+     "ui": {
+      "en": {
+       "q": "___ esik, otthon maradok. (if)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -5803,7 +6572,12 @@
       "is"
      ],
      "explain_en": "is follows the word it refers to.",
-     "explain_ru": "is стоит после слова, к которому относится."
+     "explain_ru": "is стоит после слова, к которому относится.",
+     "ui": {
+      "en": {
+       "q": "Péter ___ kér kávét. (too, also)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -5813,7 +6587,12 @@
       "sem"
      ],
      "explain_en": "sem = is + nem.",
-     "explain_ru": "sem = is + nem «тоже не»."
+     "explain_ru": "sem = is + nem «тоже не».",
+     "ui": {
+      "en": {
+       "q": "Én ___ kérek kávét. (not … either)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -5833,7 +6612,12 @@
       "ezért"
      ],
      "explain_en": "Consequence: ezért.",
-     "explain_ru": "Следствие: ezért «поэтому»."
+     "explain_ru": "Следствие: ezért «поэтому».",
+     "ui": {
+      "en": {
+       "q": "Beteg voltam, ___ nem mentem iskolába. (so, therefore)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -5843,7 +6627,12 @@
       "Amikor"
      ],
      "explain_en": "Time clause: amikor (not the question word mikor).",
-     "explain_ru": "Придаточное времени: amikor (а не вопросительное mikor)."
+     "explain_ru": "Придаточное времени: amikor (а не вопросительное mikor).",
+     "ui": {
+      "en": {
+       "q": "___ hazaértem, Anna már aludt. (when)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -5853,7 +6642,12 @@
       "hanem"
      ],
      "explain_en": "After nem the contrast 'but' is hanem.",
-     "explain_ru": "После nem противопоставление «а» — hanem."
+     "explain_ru": "После nem противопоставление «а» — hanem.",
+     "ui": {
+      "en": {
+       "q": "Nem Anna jött, ___ Péter. (but rather)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -5863,7 +6657,12 @@
       "Kivel"
      ],
      "explain_en": "The question word in focus matches the answer suffix: Kivel – Annával.",
-     "explain_ru": "Вопросительное слово в фокусе повторяет суффикс ответа: Kivel – Annával."
+     "explain_ru": "Вопросительное слово в фокусе повторяет суффикс ответа: Kivel – Annával.",
+     "ui": {
+      "en": {
+       "q": "___ beszélsz? – Annával. (with whom)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -5873,7 +6672,12 @@
       "mentünk"
      ],
      "explain_en": "Constituent negation: nem + focused place + verb: Nem Budapestre mentünk.",
-     "explain_ru": "Отрицание члена предложения: nem + выделенное место + глагол: Nem Budapestre mentünk."
+     "explain_ru": "Отрицание члена предложения: nem + выделенное место + глагол: Nem Budapestre mentünk.",
+     "ui": {
+      "ru": {
+       "q": "Nem Budapestre ___, hanem Bécsbe. (megy, mi, прош. вр.)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -5936,7 +6740,12 @@
      "q": "In Hungarian the element directly before the verb is the emphasized (focused) one.",
      "answer": true,
      "explain_en": "A boltba Péter ment el = 'It was Péter who went to the shop'.",
-     "explain_ru": "A boltba Péter ment el = «В магазин пошёл именно Петер»; в русском это передаётся интонацией."
+     "explain_ru": "A boltba Péter ment el = «В магазин пошёл именно Петер»; в русском это передаётся интонацией.",
+     "ui": {
+      "ru": {
+       "q": "В венгерском выделенным (в фокусе) является элемент, стоящий непосредственно перед глаголом."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5944,7 +6753,12 @@
      "q": "'is' (also) stands before the word it refers to: 'is Péter elment'.",
      "answer": false,
      "explain_en": "is follows its word: Péter is elment.",
-     "explain_ru": "is стоит после своего слова: Péter is elment."
+     "explain_ru": "is стоит после своего слова: Péter is elment.",
+     "ui": {
+      "ru": {
+       "q": "«is» (тоже) стоит перед словом, к которому относится: «is Péter elment»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5952,7 +6766,12 @@
      "q": "A comma is written before 'hogy': 'Tudom, hogy jön.'",
      "answer": true,
      "explain_en": "Hungarian always puts a comma before a subordinate clause.",
-     "explain_ru": "В венгерском перед придаточным всегда ставится запятая, как и в русском."
+     "explain_ru": "В венгерском перед придаточным всегда ставится запятая, как и в русском.",
+     "ui": {
+      "ru": {
+       "q": "Перед «hogy» ставится запятая: «Tudom, hogy jön.»"
+      }
+     }
     },
     {
      "id": "e26",
@@ -5982,7 +6801,37 @@
        "ezért",
        "поэтому"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "hogy",
+         "that, so that"
+        ],
+        [
+         "mert",
+         "because"
+        ],
+        [
+         "ha",
+         "if"
+        ],
+        [
+         "amikor",
+         "when"
+        ],
+        [
+         "hanem",
+         "but (rather), after a negative"
+        ],
+        [
+         "ezért",
+         "so, therefore"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -6030,7 +6879,33 @@
        "soha",
        "никогда"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "is",
+         "too, also"
+        ],
+        [
+         "sem",
+         "not … either"
+        ],
+        [
+         "senki",
+         "nobody"
+        ],
+        [
+         "semmi",
+         "nothing"
+        ],
+        [
+         "soha",
+         "never"
+        ]
+       ]
+      }
+     }
     }
    ]
   }
