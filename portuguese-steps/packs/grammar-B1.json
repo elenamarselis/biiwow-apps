@@ -483,7 +483,12 @@
      "q": "The conjuntivo of ter is built from the eu form tenho: tenha, tenhas, tenha…",
      "answer": true,
      "explain_en": "Correct: the irregular stem of tenho carries over to all persons.",
-     "explain_ru": "Верно: неправильная основа tenho сохраняется во всех лицах."
+     "explain_ru": "Верно: неправильная основа tenho сохраняется во всех лицах.",
+     "ui": {
+      "ru": {
+       "q": "Conjuntivo глагола ter образуется от формы eu — tenho: tenha, tenhas, tenha…"
+      }
+     }
     },
     {
      "id": "e24",
@@ -491,7 +496,12 @@
      "q": "After the 1990 spelling agreement, 'que eles dêem' is still written with an accent.",
      "answer": false,
      "explain_en": "Now it is deem, without an accent. Only dê keeps the circumflex.",
-     "explain_ru": "Теперь пишут deem без знака. «Домик» сохраняется только в dê."
+     "explain_ru": "Теперь пишут deem без знака. «Домик» сохраняется только в dê.",
+     "ui": {
+      "ru": {
+       "q": "После соглашения 1990 года 'que eles dêem' по-прежнему пишется со знаком ударения."
+      }
+     }
     },
     {
      "id": "e25",
@@ -499,7 +509,12 @@
      "q": "Ser forms its conjuntivo from the eu form sou.",
      "answer": false,
      "explain_en": "Ser is fully irregular: seja, sejas, seja, sejamos, sejam.",
-     "explain_ru": "Ser — полностью неправильный глагол: seja, sejas, seja, sejamos, sejam."
+     "explain_ru": "Ser — полностью неправильный глагол: seja, sejas, seja, sejamos, sejam.",
+     "ui": {
+      "ru": {
+       "q": "Ser образует conjuntivo от формы eu — sou."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1066,7 +1081,12 @@
      "q": "Acho que is followed by the indicative: 'Acho que ele vem.'",
      "answer": true,
      "explain_en": "Opinions take the indicative; only the negative form não acho que takes the conjuntivo.",
-     "explain_ru": "Мнение требует индикатива; conjuntivo нужен только после отрицательного não acho que."
+     "explain_ru": "Мнение требует индикатива; conjuntivo нужен только после отрицательного não acho que.",
+     "ui": {
+      "ru": {
+       "q": "После acho que ставится изъявительное наклонение: 'Acho que ele vem.'"
+      }
+     }
     },
     {
      "id": "e24",
@@ -1074,7 +1094,12 @@
      "q": "'Quero que eu saia mais cedo' is the correct way to say 'I want to leave earlier'.",
      "answer": false,
      "explain_en": "With the same subject use the infinitive: Quero sair mais cedo.",
-     "explain_ru": "При одном подлежащем нужен инфинитив: Quero sair mais cedo."
+     "explain_ru": "При одном подлежащем нужен инфинитив: Quero sair mais cedo.",
+     "ui": {
+      "ru": {
+       "q": "'Quero que eu saia mais cedo' — правильный способ сказать «Я хочу уйти пораньше»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1082,7 +1107,12 @@
      "q": "'Se calhar' is typical of Portugal and is followed by the indicative.",
      "answer": true,
      "explain_en": "Se calhar ele está doente. In Brazil people say talvez or pode ser que.",
-     "explain_ru": "Se calhar ele está doente. В Бразилии вместо этого говорят talvez или pode ser que."
+     "explain_ru": "Se calhar ele está doente. В Бразилии вместо этого говорят talvez или pode ser que.",
+     "ui": {
+      "ru": {
+       "q": "'Se calhar' типично для Португалии, и после него ставится изъявительное наклонение."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1108,7 +1138,33 @@
        "prefiro que",
        "я предпочитаю, чтобы"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "espero que",
+         "I hope that"
+        ],
+        [
+         "duvido que",
+         "I doubt that"
+        ],
+        [
+         "é pena que",
+         "it's a pity that"
+        ],
+        [
+         "tenho medo de que",
+         "I'm afraid that"
+        ],
+        [
+         "prefiro que",
+         "I'd rather (someone did)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1130,7 +1186,29 @@
        "Não acho que ele saia.",
        "Не думаю, что он выйдет."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Quero sair.",
+         "I want to go out."
+        ],
+        [
+         "Quero que saias.",
+         "I want you to go out."
+        ],
+        [
+         "Acho que ele sai.",
+         "I think he's going out."
+        ],
+        [
+         "Não acho que ele saia.",
+         "I don't think he'll go out."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1156,7 +1234,33 @@
        "tomara que",
        "хоть бы"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "talvez",
+         "maybe, perhaps"
+        ],
+        [
+         "se calhar",
+         "probably (in Portugal)"
+        ],
+        [
+         "é provável que",
+         "it's likely that"
+        ],
+        [
+         "é claro que",
+         "it's clear that"
+        ],
+        [
+         "tomara que",
+         "if only, let's hope"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1624,7 +1728,12 @@
      "q": "After embora the indicative is correct: 'Embora está a chover, vamos sair.'",
      "answer": false,
      "explain_en": "Embora always takes the conjuntivo: Embora esteja a chover.",
-     "explain_ru": "Embora всегда требует conjuntivo: Embora esteja a chover."
+     "explain_ru": "Embora всегда требует conjuntivo: Embora esteja a chover.",
+     "ui": {
+      "ru": {
+       "q": "После embora правильно изъявительное наклонение: 'Embora está a chover, vamos sair.'"
+      }
+     }
     },
     {
      "id": "e24",
@@ -1632,7 +1741,12 @@
      "q": "Porque is followed by the indicative.",
      "answer": true,
      "explain_en": "Porque introduces a real cause: Fico porque estou cansado.",
-     "explain_ru": "Porque вводит реальную причину: Fico porque estou cansado."
+     "explain_ru": "Porque вводит реальную причину: Fico porque estou cansado.",
+     "ui": {
+      "ru": {
+       "q": "После porque ставится изъявительное наклонение."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1640,7 +1754,12 @@
      "q": "'Estudo para que eu passe' is the natural way to say 'I study in order to pass'.",
      "answer": false,
      "explain_en": "With the same subject say Estudo para passar.",
-     "explain_ru": "При одном подлежащем говорят Estudo para passar."
+     "explain_ru": "При одном подлежащем говорят Estudo para passar.",
+     "ui": {
+      "ru": {
+       "q": "'Estudo para que eu passe' — естественный способ сказать «Я учусь, чтобы сдать экзамен»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1666,7 +1785,33 @@
        "por mais que",
        "как бы ни"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "para que",
+         "so that"
+        ],
+        [
+         "embora",
+         "although"
+        ],
+        [
+         "antes que",
+         "before"
+        ],
+        [
+         "a não ser que",
+         "unless"
+        ],
+        [
+         "por mais que",
+         "however much"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2049,7 +2194,12 @@
      ],
      "answer": 0,
      "explain_en": "In Portugal the pronoun goes after ter with a hyphen: Tenho-o visto.",
-     "explain_ru": "В Португалии местоимение ставится после ter через дефис: Tenho-o visto."
+     "explain_ru": "В Португалии местоимение ставится после ter через дефис: Tenho-o visto.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильно в Португалии? («В последнее время я часто его вижу.»)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -2196,7 +2346,12 @@
      "q": "'Tenho visto esse filme ontem' is correct.",
      "answer": false,
      "explain_en": "A single action yesterday needs the perfeito simples: Vi esse filme ontem.",
-     "explain_ru": "Однократное действие вчера требует perfeito simples: Vi esse filme ontem."
+     "explain_ru": "Однократное действие вчера требует perfeito simples: Vi esse filme ontem.",
+     "ui": {
+      "ru": {
+       "q": "'Tenho visto esse filme ontem' — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2204,7 +2359,12 @@
      "q": "With ter the participle does not change: 'Ela tem trabalhado', 'Elas têm trabalhado'.",
      "answer": true,
      "explain_en": "With ter the participle is invariable.",
-     "explain_ru": "С ter причастие не изменяется."
+     "explain_ru": "С ter причастие не изменяется.",
+     "ui": {
+      "ru": {
+       "q": "С ter причастие не изменяется: 'Ela tem trabalhado', 'Elas têm trabalhado'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2212,7 +2372,12 @@
      "q": "'Já tenho comido' is the normal way to say 'I have already eaten'.",
      "answer": false,
      "explain_en": "One finished action: Já comi.",
-     "explain_ru": "Это одно законченное действие: Já comi."
+     "explain_ru": "Это одно законченное действие: Já comi.",
+     "ui": {
+      "ru": {
+       "q": "'Já tenho comido' — обычный способ сказать «Я уже поел»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2264,7 +2429,29 @@
        "Vou comer.",
        "Я сейчас поем."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Comi bem.",
+         "I ate well."
+        ],
+        [
+         "Tenho comido bem.",
+         "I've been eating well lately."
+        ],
+        [
+         "Já tinha comido.",
+         "I had already eaten (by then)."
+        ],
+        [
+         "Vou comer.",
+         "I'm going to eat."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2290,7 +2477,33 @@
        "ainda não",
        "ещё не"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ultimamente",
+         "lately"
+        ],
+        [
+         "nos últimos meses",
+         "in the last few months"
+        ],
+        [
+         "ontem",
+         "yesterday"
+        ],
+        [
+         "já",
+         "already"
+        ],
+        [
+         "ainda não",
+         "not yet"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2763,7 +2976,12 @@
      "q": "The personal infinitive of ser for nós is 'formos'.",
      "answer": false,
      "explain_en": "It is sermos; formos is the futuro do conjuntivo.",
-     "explain_ru": "Правильно sermos; formos — это futuro do conjuntivo."
+     "explain_ru": "Правильно sermos; formos — это futuro do conjuntivo.",
+     "ui": {
+      "ru": {
+       "q": "Личный инфинитив глагола ser для nós — 'formos'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2771,7 +2989,12 @@
      "q": "In standard Portuguese 'Isto é para mim fazer' is correct.",
      "answer": false,
      "explain_en": "The subject must be eu: para eu fazer.",
-     "explain_ru": "Подлежащим должно быть eu: para eu fazer."
+     "explain_ru": "Подлежащим должно быть eu: para eu fazer.",
+     "ui": {
+      "ru": {
+       "q": "В стандартном португальском 'Isto é para mim fazer' — правильно."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2779,7 +3002,12 @@
      "q": "The eu and ele forms of the personal infinitive look exactly like the plain infinitive.",
      "answer": true,
      "explain_en": "Para eu fazer, para ele fazer: no ending.",
-     "explain_ru": "Para eu fazer, para ele fazer — без окончания."
+     "explain_ru": "Para eu fazer, para ele fazer — без окончания.",
+     "ui": {
+      "ru": {
+       "q": "Формы eu и ele личного инфинитива выглядят точно так же, как обычный инфинитив."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3320,7 +3548,12 @@
      "q": "The futuro do conjuntivo of ver is 'vir': 'quando eu vir o filme'.",
      "answer": true,
      "explain_en": "Ver: viram → vir. Do not confuse it with the verb vir (to come).",
-     "explain_ru": "Ver: viram → vir. Не путайте с глаголом vir (приходить)."
+     "explain_ru": "Ver: viram → vir. Не путайте с глаголом vir (приходить).",
+     "ui": {
+      "ru": {
+       "q": "Futuro do conjuntivo глагола ver — 'vir': 'quando eu vir o filme'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3328,7 +3561,12 @@
      "q": "'Quando eu sou grande, quero ser piloto' is correct.",
      "answer": false,
      "explain_en": "A future event: Quando eu for grande.",
-     "explain_ru": "Это будущее событие: Quando eu for grande."
+     "explain_ru": "Это будущее событие: Quando eu for grande.",
+     "ui": {
+      "ru": {
+       "q": "'Quando eu sou grande, quero ser piloto' — правильно."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3336,7 +3574,12 @@
      "q": "'Quando chove, fico em casa' describes a habit, so the present indicative is right.",
      "answer": true,
      "explain_en": "Habits and general facts take the present indicative.",
-     "explain_ru": "Привычки и общие факты требуют обычного настоящего времени."
+     "explain_ru": "Привычки и общие факты требуют обычного настоящего времени.",
+     "ui": {
+      "ru": {
+       "q": "'Quando chove, fico em casa' описывает привычку, поэтому здесь верно настоящее время изъявительного наклонения."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3418,7 +3661,33 @@
        "se",
        "если"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "quando",
+         "when"
+        ],
+        [
+         "assim que",
+         "as soon as"
+        ],
+        [
+         "enquanto",
+         "while, as long as"
+        ],
+        [
+         "sempre que",
+         "whenever"
+        ],
+        [
+         "se",
+         "if"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3889,7 +4158,12 @@
      "q": "'Se eu teria tempo, ia contigo' is correct.",
      "answer": false,
      "explain_en": "No condicional after se: Se eu tivesse tempo, ia contigo.",
-     "explain_ru": "После se condicional не ставится: Se eu tivesse tempo, ia contigo."
+     "explain_ru": "После se condicional не ставится: Se eu tivesse tempo, ia contigo.",
+     "ui": {
+      "ru": {
+       "q": "'Se eu teria tempo, ia contigo' — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3897,7 +4171,12 @@
      "q": "In everyday European Portuguese the result clause of an unreal condition often uses the imperfeito: 'Se pudesse, ia.'",
      "answer": true,
      "explain_en": "Ia instead of iria is very common in Portugal.",
-     "explain_ru": "Ia вместо iria очень распространено в Португалии."
+     "explain_ru": "Ia вместо iria очень распространено в Португалии.",
+     "ui": {
+      "ru": {
+       "q": "В повседневном европейском португальском в главной части нереального условия часто употребляется imperfeito: 'Se pudesse, ia.'"
+      }
+     }
     },
     {
      "id": "e25",
@@ -3905,7 +4184,12 @@
      "q": "'Senão' and 'se não' mean the same and can be swapped.",
      "answer": false,
      "explain_en": "Senão = otherwise; se não = if not.",
-     "explain_ru": "Senão — «иначе», se não — «если не»."
+     "explain_ru": "Senão — «иначе», se não — «если не».",
+     "ui": {
+      "ru": {
+       "q": "'Senão' и 'se não' значат одно и то же, и их можно менять местами."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3957,7 +4241,29 @@
        "Se não tiver tempo, não vou.",
        "Если не будет времени, не пойду."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Se tiver tempo, vou.",
+         "If I have time, I'll go."
+        ],
+        [
+         "Se tivesse tempo, ia.",
+         "If I had time, I would go."
+        ],
+        [
+         "Se tenho tempo, vou.",
+         "When I have time, I go."
+        ],
+        [
+         "Se não tiver tempo, não vou.",
+         "If I don't have time, I won't go."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3983,7 +4289,33 @@
        "caso contrário",
        "в противном случае"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "se",
+         "if"
+        ],
+        [
+         "se não",
+         "if not"
+        ],
+        [
+         "senão",
+         "otherwise"
+        ],
+        [
+         "se eu fosse a ti",
+         "if I were you"
+        ],
+        [
+         "caso contrário",
+         "or else, in that case not"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4472,7 +4804,12 @@
      "q": "In Portuguese the relative que can be left out, as in English 'the book I read'.",
      "answer": false,
      "explain_en": "Que is never omitted: o livro que li.",
-     "explain_ru": "Que никогда не опускается: o livro que li."
+     "explain_ru": "Que никогда не опускается: o livro que li.",
+     "ui": {
+      "ru": {
+       "q": "В португальском относительное que можно опустить, как в английском 'the book I read'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4480,7 +4817,12 @@
      "q": "Cujo agrees with the thing possessed: 'o vizinho cuja casa é azul'.",
      "answer": true,
      "explain_en": "Cuja agrees with casa, not with vizinho.",
-     "explain_ru": "Cuja согласуется с casa, а не с vizinho."
+     "explain_ru": "Cuja согласуется с casa, а не с vizinho.",
+     "ui": {
+      "ru": {
+       "q": "Cujo согласуется с тем, чем владеют: 'o vizinho cuja casa é azul'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4488,7 +4830,12 @@
      "q": "'O dia onde nos conhecemos' is the recommended form.",
      "answer": false,
      "explain_en": "For time use em que: o dia em que nos conhecemos.",
-     "explain_ru": "Для времени нужно em que: o dia em que nos conhecemos."
+     "explain_ru": "Для времени нужно em que: o dia em que nos conhecemos.",
+     "ui": {
+      "ru": {
+       "q": "'O dia onde nos conhecemos' — рекомендуемая форма."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4514,7 +4861,33 @@
        "o que",
        "что (о целой мысли)"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "que",
+         "that, which, who (people and things)"
+        ],
+        [
+         "quem",
+         "who, whom (people, after a preposition)"
+        ],
+        [
+         "onde",
+         "where"
+        ],
+        [
+         "cujo",
+         "whose"
+        ],
+        [
+         "o que",
+         "which, what (a whole idea)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4562,7 +4935,29 @@
        "o amigo com quem viajei",
        "друг, с которым я путешествовал"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "o livro que li",
+         "the book I read"
+        ],
+        [
+         "o livro de que gosto",
+         "the book I like"
+        ],
+        [
+         "a autora cujo livro li",
+         "the author whose book I read"
+        ],
+        [
+         "o amigo com quem viajei",
+         "the friend I travelled with"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5048,7 +5443,12 @@
      "q": "'Vende-se casas' is the normative form.",
      "answer": false,
      "explain_en": "Normatively the verb agrees with the noun: Vendem-se casas.",
-     "explain_ru": "По норме глагол согласуется с существительным: Vendem-se casas."
+     "explain_ru": "По норме глагол согласуется с существительным: Vendem-se casas.",
+     "ui": {
+      "ru": {
+       "q": "'Vende-se casas' — нормативная форма."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5056,7 +5456,12 @@
      "q": "In Portugal the passive of aceitar is 'foi aceite'; in Brazil it is 'foi aceito'.",
      "answer": true,
      "explain_en": "Aceite is European, aceito is Brazilian.",
-     "explain_ru": "Aceite — европейская форма, aceito — бразильская."
+     "explain_ru": "Aceite — европейская форма, aceito — бразильская.",
+     "ui": {
+      "ru": {
+       "q": "В Португалии пассив от aceitar — 'foi aceite', в Бразилии — 'foi aceito'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5064,7 +5469,12 @@
      "q": "'A porta está fechada' describes an action and 'A porta foi fechada' a state.",
      "answer": false,
      "explain_en": "It is the other way round: estar = state, ser = action.",
-     "explain_ru": "Наоборот: estar — состояние, ser — действие."
+     "explain_ru": "Наоборот: estar — состояние, ser — действие.",
+     "ui": {
+      "ru": {
+       "q": "'A porta está fechada' описывает действие, а 'A porta foi fechada' — состояние."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5116,7 +5526,29 @@
        "Venderam a casa.",
        "Дом продали."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "A casa foi vendida.",
+         "The house was sold."
+        ],
+        [
+         "A casa está vendida.",
+         "The house is (already) sold."
+        ],
+        [
+         "Vende-se a casa.",
+         "House for sale."
+        ],
+        [
+         "Venderam a casa.",
+         "They sold the house."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5142,7 +5574,33 @@
        "não se fuma",
        "не курят"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "fala-se",
+         "is spoken / people say"
+        ],
+        [
+         "precisa-se",
+         "wanted (needed)"
+        ],
+        [
+         "aluga-se",
+         "for rent"
+        ],
+        [
+         "vende-se",
+         "for sale"
+        ],
+        [
+         "não se fuma",
+         "no smoking"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5612,7 +6070,12 @@
      "q": "In Portuguese, as in Russian, the tense of the reported verb usually stays the same after a past reporting verb.",
      "answer": false,
      "explain_en": "Portuguese shifts tenses back: estou → estava.",
-     "explain_ru": "В португальском времена сдвигаются назад: estou → estava."
+     "explain_ru": "В португальском времена сдвигаются назад: estou → estava.",
+     "ui": {
+      "ru": {
+       "q": "В португальском, как и в русском, время пересказываемого глагола после глагола речи в прошедшем обычно не меняется."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5620,7 +6083,12 @@
      "q": "Yes/no questions are reported with se: 'Perguntou se eu vinha.'",
      "answer": true,
      "explain_en": "Se corresponds to Russian ли.",
-     "explain_ru": "Se соответствует русскому «ли»."
+     "explain_ru": "Se соответствует русскому «ли».",
+     "ui": {
+      "ru": {
+       "q": "Общие вопросы передаются с помощью se: 'Perguntou se eu vinha.'"
+      }
+     }
     },
     {
      "id": "e25",
@@ -5628,7 +6096,12 @@
      "q": "'Ela disse para eu esperar' is a common way to report a command in Portugal.",
      "answer": true,
      "explain_en": "Dizer / pedir para + infinitive is very frequent.",
-     "explain_ru": "Dizer / pedir para + инфинитив употребляется очень часто."
+     "explain_ru": "Dizer / pedir para + инфинитив употребляется очень часто.",
+     "ui": {
+      "ru": {
+       "q": "'Ela disse para eu esperar' — распространённый в Португалии способ передать приказ."
+      }
+     }
     },
     {
      "id": "e26",
