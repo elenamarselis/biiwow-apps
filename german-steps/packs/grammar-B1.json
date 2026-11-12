@@ -172,7 +172,7 @@
     {
      "title_en": "Narrating a story",
      "title_ru": "Как рассказывать историю",
-     "body_en": "A written story keeps one tense, usually the Präteritum, and moves forward with time words: zuerst, dann, danach, plötzlich, schließlich, am Ende. werden has the Präteritum wurde (er wurde Arzt), and es gibt becomes es gab. Because German has no verbal aspect, er las ein Buch can mean both 'читал' and 'прочитал'; context decides.",
+     "body_en": "A written story keeps one tense, usually the Präteritum, and moves forward with time words: zuerst, dann, danach, plötzlich, schließlich, am Ende. werden has the Präteritum wurde (er wurde Arzt), and es gibt becomes es gab. Because German has no verbal aspect, er las ein Buch can mean both 'he was reading a book' and 'he read the book (to the end)'; context decides.",
      "body_ru": "Письменный рассказ выдерживается в одном времени, обычно в претерите, и движется вперёд с помощью слов zuerst, dann, danach, plötzlich, schließlich, am Ende. У werden претерит wurde (er wurde Arzt), а es gibt превращается в es gab. Так как в немецком нет вида глагола, er las ein Buch может значить и «читал», и «прочитал» — решает контекст. Не нужно искать немецкий аналог совершенного вида.",
      "examples": [
       {
@@ -479,7 +479,12 @@
      "q": "In the Präteritum, the ich form and the er/sie/es form are the same (ich ging – er ging).",
      "answer": true,
      "explain_en": "Yes: ich ging, er ging; ich machte, er machte.",
-     "explain_ru": "Верно: ich ging, er ging; ich machte, er machte."
+     "explain_ru": "Верно: ich ging, er ging; ich machte, er machte.",
+     "ui": {
+      "ru": {
+       "q": "В Präteritum формы ich и er/sie/es совпадают (ich ging – er ging)."
+      }
+     }
     },
     {
      "id": "e24",
@@ -487,7 +492,12 @@
      "q": "„Er denkte oft an sie.“ is correct.",
      "answer": false,
      "explain_en": "denken is mixed: Er dachte oft an sie.",
-     "explain_ru": "denken — смешанный глагол: Er dachte oft an sie."
+     "explain_ru": "denken — смешанный глагол: Er dachte oft an sie.",
+     "ui": {
+      "ru": {
+       "q": "„Er denkte oft an sie.“ — правильно."
+      }
+     }
     },
     {
      "id": "e25",
@@ -495,7 +505,12 @@
      "q": "In everyday conversation in southern Germany and Austria, people prefer the Präteritum for most verbs.",
      "answer": false,
      "explain_en": "In speech, especially in the south, the Perfekt is preferred; the Präteritum is used mainly for sein, haben and modals.",
-     "explain_ru": "В устной речи, особенно на юге, предпочитают перфект; претерит — в основном для sein, haben и модальных глаголов."
+     "explain_ru": "В устной речи, особенно на юге, предпочитают перфект; претерит — в основном для sein, haben и модальных глаголов.",
+     "ui": {
+      "ru": {
+       "q": "В повседневной речи на юге Германии и в Австрии для большинства глаголов предпочитают Präteritum."
+      }
+     }
     },
     {
      "id": "e26",
@@ -573,7 +588,33 @@
        "verlor",
        "потерял"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "half",
+         "helped"
+        ],
+        [
+         "fiel",
+         "fell"
+        ],
+        [
+         "trank",
+         "drank"
+        ],
+        [
+         "lag",
+         "lay"
+        ],
+        [
+         "verlor",
+         "lost"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1060,7 +1101,12 @@
      "q": "„Als ich jung war, spielte ich Fußball.“ is correct.",
      "answer": true,
      "explain_en": "One period in the past: als.",
-     "explain_ru": "Один период в прошлом — als, всё верно."
+     "explain_ru": "Один период в прошлом — als, всё верно.",
+     "ui": {
+      "ru": {
+       "q": "„Als ich jung war, spielte ich Fußball.“ — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1068,7 +1114,12 @@
      "q": "In the past, wenn is used for a single event and als for repeated events.",
      "answer": false,
      "explain_en": "It is the other way round: als = once, wenn = repeatedly.",
-     "explain_ru": "Наоборот: als — один раз, wenn — повторяющиеся события."
+     "explain_ru": "Наоборот: als — один раз, wenn — повторяющиеся события.",
+     "ui": {
+      "ru": {
+       "q": "В прошлом wenn употребляется для однократного события, а als — для повторяющихся."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1076,7 +1127,12 @@
      "q": "After nachdem, the action in the subordinate clause happens before the action in the main clause.",
      "answer": true,
      "explain_en": "Yes, that is why the nachdem clause uses an 'earlier' tense.",
-     "explain_ru": "Да, поэтому в придаточном с nachdem стоит более «раннее» время."
+     "explain_ru": "Да, поэтому в придаточном с nachdem стоит более «раннее» время.",
+     "ui": {
+      "ru": {
+       "q": "После nachdem действие придаточного предложения происходит раньше действия главного."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1124,7 +1180,33 @@
        "vorher",
        "до этого"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "nachdem",
+         "after (conjunction)"
+        ],
+        [
+         "nach dem Essen",
+         "after the meal"
+        ],
+        [
+         "danach",
+         "after that"
+        ],
+        [
+         "bevor",
+         "before (conjunction)"
+        ],
+        [
+         "vorher",
+         "beforehand"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1164,7 +1246,7 @@
     {
      "title_en": "What Konjunktiv II does",
      "title_ru": "Для чего нужен конъюнктив II",
-     "body_en": "Konjunktiv II is the mood of the unreal: it shows that something is imagined, wished for or only possible. It corresponds to the Russian particle 'бы'. It is also the standard way to be polite in German: Könnten Sie …? sounds much friendlier than Können Sie …? In everyday life you need it for requests, wishes, advice and hypothetical situations.",
+     "body_en": "Konjunktiv II is the mood of the unreal: it shows that something is imagined, wished for or only possible. It corresponds to English 'would' and to the Russian particle 'by'. It is also the standard way to be polite in German: Könnten Sie …? sounds much friendlier than Können Sie …? In everyday life you need it for requests, wishes, advice and hypothetical situations.",
      "body_ru": "Конъюнктив II — наклонение нереального: он показывает, что что-то воображается, желается или лишь возможно. Ему соответствует русская частица «бы». Кроме того, это стандартный способ быть вежливым: Könnten Sie …? звучит гораздо мягче, чем Können Sie …? В русском «бы» — отдельное слово, которое добавляется к прошедшему времени, а в немецком меняется сама форма глагола: wäre, hätte, könnte.",
      "examples": [
       {
@@ -1632,7 +1714,12 @@
      "q": "„Ich würde gern Arzt sein.“ is more natural than „Ich wäre gern Arzt.“",
      "answer": false,
      "explain_en": "With sein, the one-word form wäre is preferred.",
-     "explain_ru": "С sein предпочтительна однословная форма wäre."
+     "explain_ru": "С sein предпочтительна однословная форма wäre.",
+     "ui": {
+      "ru": {
+       "q": "„Ich würde gern Arzt sein.“ звучит естественнее, чем „Ich wäre gern Arzt.“"
+      }
+     }
     },
     {
      "id": "e24",
@@ -1640,7 +1727,12 @@
      "q": "Konjunktiv II is used to make requests more polite: „Könnten Sie …?“",
      "answer": true,
      "explain_en": "Yes, Könnten Sie …? is softer than Können Sie …?",
-     "explain_ru": "Да, Könnten Sie …? мягче, чем Können Sie …?"
+     "explain_ru": "Да, Könnten Sie …? мягче, чем Können Sie …?",
+     "ui": {
+      "ru": {
+       "q": "Konjunktiv II используется, чтобы сделать просьбу вежливее: „Könnten Sie …?“"
+      }
+     }
     },
     {
      "id": "e25",
@@ -1648,7 +1740,12 @@
      "q": "The Konjunktiv II forms sollte and wollte look exactly like the Präteritum.",
      "answer": true,
      "explain_en": "sollen and wollen get no umlaut, so the forms are identical.",
-     "explain_ru": "sollen и wollen не получают умлаута, поэтому формы совпадают."
+     "explain_ru": "sollen и wollen не получают умлаута, поэтому формы совпадают.",
+     "ui": {
+      "ru": {
+       "q": "Формы Konjunktiv II sollte и wollte выглядят точно так же, как Präteritum."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1696,7 +1793,29 @@
        "заказ в кафе",
        "Ich hätte gern ein Wasser."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "polite request",
+         "Könnten Sie das Fenster öffnen?"
+        ],
+        [
+         "wish, dream",
+         "Ich wäre gern am Meer."
+        ],
+        [
+         "advice",
+         "Du solltest zum Arzt gehen."
+        ],
+        [
+         "ordering in a café",
+         "Ich hätte gern ein Wasser."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1759,7 +1878,7 @@
     {
      "title_en": "Present, not future, after wenn",
      "title_ru": "После wenn — настоящее, а не будущее",
-     "body_en": "Russian puts the future in both parts: 'Если у меня будет время, я приду.' German normally uses the present tense in the wenn clause and often in the main clause too: Wenn ich Zeit habe, komme ich. Futur I with werden is possible in the main clause but is not needed; it is never used in the wenn clause.",
+     "body_en": "Russian puts the future in both parts ('If I will have time, I will come'). German normally uses the present tense in the wenn clause and often in the main clause too: Wenn ich Zeit habe, komme ich. Futur I with werden is possible in the main clause but is not needed; it is never used in the wenn clause.",
      "body_ru": "В русском будущее время стоит в обеих частях: «Если у меня будет время, я приду». В немецком в придаточном с wenn обычно стоит настоящее время, и в главном часто тоже: Wenn ich Zeit habe, komme ich. Футур с werden в главном предложении возможен, но не нужен, а в придаточном с wenn не используется вообще. «Wenn ich Zeit haben werde» — типичная ошибка, калька с русского.",
      "examples": [
       {
@@ -1805,7 +1924,7 @@
     {
      "title_en": "Unreal conditions: Konjunktiv II in both clauses",
      "title_ru": "Нереальное условие: конъюнктив II в обеих частях",
-     "body_en": "An unreal condition describes an imagined situation that is not true now. Both clauses take Konjunktiv II: Wenn ich Zeit hätte, würde ich kommen (but I have no time). Wenn ich reich wäre, würde ich ein Haus am Meer kaufen. This matches Russian 'если бы …, то … бы'.",
+     "body_en": "An unreal condition describes an imagined situation that is not true now. Both clauses take Konjunktiv II: Wenn ich Zeit hätte, würde ich kommen (but I have no time). Wenn ich reich wäre, würde ich ein Haus am Meer kaufen. This matches English 'If I had …, I would …'.",
      "body_ru": "Нереальное условие описывает воображаемую ситуацию, которая сейчас не соответствует действительности. Обе части стоят в конъюнктиве II: Wenn ich Zeit hätte, würde ich kommen (но времени у меня нет). Wenn ich reich wäre, würde ich ein Haus am Meer kaufen. Это соответствует русскому «если бы …, то … бы». Но в русском «бы» ставится дважды как частица, а в немецком меняется форма глагола в обеих частях.",
      "examples": [
       {
@@ -2209,7 +2328,15 @@
      "q": "„Wenn ich Zeit haben werde, komme ich.“ is the normal German for „Если у меня будет время, я приду“.",
      "answer": false,
      "explain_en": "German uses the present after wenn: Wenn ich Zeit habe, komme ich.",
-     "explain_ru": "После wenn в немецком настоящее время: Wenn ich Zeit habe, komme ich."
+     "explain_ru": "После wenn в немецком настоящее время: Wenn ich Zeit habe, komme ich.",
+     "ui": {
+      "en": {
+       "q": "„Wenn ich Zeit haben werde, komme ich.“ is the normal German for 'If I have time, I'll come'."
+      },
+      "ru": {
+       "q": "„Wenn ich Zeit haben werde, komme ich.“ — обычный немецкий перевод фразы «Если у меня будет время, я приду»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2217,7 +2344,12 @@
      "q": "In „Wenn ich reich wäre, würde ich ein Haus kaufen“, the speaker is not rich.",
      "answer": true,
      "explain_en": "Konjunktiv II marks the condition as unreal.",
-     "explain_ru": "Конъюнктив II показывает, что условие нереально."
+     "explain_ru": "Конъюнктив II показывает, что условие нереально.",
+     "ui": {
+      "ru": {
+       "q": "В „Wenn ich reich wäre, würde ich ein Haus kaufen“ говорящий не богат."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2225,7 +2357,12 @@
      "q": "When a wenn clause comes first, the main clause starts with the verb (or with dann + verb).",
      "answer": true,
      "explain_en": "Wenn es regnet, bleiben wir … / dann bleiben wir …",
-     "explain_ru": "Верно: Wenn es regnet, bleiben wir … / dann bleiben wir …"
+     "explain_ru": "Верно: Wenn es regnet, bleiben wir … / dann bleiben wir …",
+     "ui": {
+      "ru": {
+       "q": "Если придаточное с wenn стоит первым, главное предложение начинается с глагола (или с dann + глагол)."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2273,7 +2410,29 @@
        "Wenn ich keine Zeit hätte, käme ich nicht.",
        "Если бы у меня не было времени, я бы не пришёл."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Wenn ich Zeit habe, komme ich.",
+         "If I have time, I'll come."
+        ],
+        [
+         "Wenn ich Zeit hätte, käme ich.",
+         "If I had time, I would come."
+        ],
+        [
+         "Wenn ich Zeit hatte, kam ich.",
+         "Whenever I had time, I came."
+        ],
+        [
+         "Wenn ich keine Zeit hätte, käme ich nicht.",
+         "If I had no time, I wouldn't come."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2299,7 +2458,33 @@
        "Wenn es regnet, …",
        "Если пойдёт дождь…"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Wenn ich du wäre, …",
+         "If I were you, …"
+        ],
+        [
+         "Was würdest du machen, wenn …?",
+         "What would you do if …?"
+        ],
+        [
+         "sonst",
+         "otherwise"
+        ],
+        [
+         "dann",
+         "then"
+        ],
+        [
+         "Wenn es regnet, …",
+         "If it rains, …"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2307,7 +2492,7 @@
    "id": "relative-clauses",
    "title_en": "Relative clauses in nominative, accusative and dative; was and wo",
    "title_ru": "Относительные придаточные в номинативе, аккузативе и дативе; was и wo",
-   "summary_en": "Relative clauses describe a noun, like Russian clauses with 'который'. The relative pronoun takes its gender and number from the noun and its case from its role in the relative clause; the verb goes to the end.",
+   "summary_en": "Relative clauses describe a noun, like English clauses with 'who, which, that'. The relative pronoun takes its gender and number from the noun and its case from its role in the relative clause; the verb goes to the end.",
    "summary_ru": "Относительные придаточные описывают существительное, как русские придаточные с «который». Относительное местоимение берёт род и число от существительного, а падеж — от своей роли в придаточном; глагол стоит в конце.",
    "rules": [
     {
@@ -2788,7 +2973,12 @@
      "q": "In a relative clause the conjugated verb stands at the end.",
      "answer": true,
      "explain_en": "Yes: …, der dort steht.",
-     "explain_ru": "Верно: …, der dort steht."
+     "explain_ru": "Верно: …, der dort steht.",
+     "ui": {
+      "ru": {
+       "q": "В относительном придаточном спрягаемый глагол стоит в конце."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2796,7 +2986,12 @@
      "q": "The dative plural relative pronoun is „den“: „die Kinder, den ich helfe“.",
      "answer": false,
      "explain_en": "It is denen: die Kinder, denen ich helfe.",
-     "explain_ru": "Правильно denen: die Kinder, denen ich helfe."
+     "explain_ru": "Правильно denen: die Kinder, denen ich helfe.",
+     "ui": {
+      "ru": {
+       "q": "Относительное местоимение в дательном падеже множественного числа — „den“: „die Kinder, den ich helfe“."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2804,7 +2999,12 @@
      "q": "As in English, the preposition can go to the end: „die Frau, der ich spreche mit“.",
      "answer": false,
      "explain_en": "The preposition always comes first: die Frau, mit der ich spreche.",
-     "explain_ru": "Предлог всегда стоит впереди: die Frau, mit der ich spreche."
+     "explain_ru": "Предлог всегда стоит впереди: die Frau, mit der ich spreche.",
+     "ui": {
+      "ru": {
+       "q": "Как в английском, предлог можно поставить в конец: „die Frau, der ich spreche mit“."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2874,7 +3074,29 @@
        "всё, что ты хочешь",
        "alles, was du willst"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "the person who helped me",
+         "der Mensch, der mir geholfen hat"
+        ],
+        [
+         "the woman (whom) I know",
+         "die Frau, die ich kenne"
+        ],
+        [
+         "the friend I live with",
+         "der Freund, mit dem ich wohne"
+        ],
+        [
+         "everything you want",
+         "alles, was du willst"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3353,7 +3575,12 @@
      "q": "In the passive, the accusative object of the active sentence becomes the subject.",
      "answer": true,
      "explain_en": "den Wagen → der Wagen wird repariert.",
-     "explain_ru": "Верно: den Wagen → der Wagen wird repariert."
+     "explain_ru": "Верно: den Wagen → der Wagen wird repariert.",
+     "ui": {
+      "ru": {
+       "q": "В пассиве прямое дополнение (Akkusativ) активного предложения становится подлежащим."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3361,7 +3588,12 @@
      "q": "„Das Auto wird von einen Mechaniker repariert.“ is correct.",
      "answer": false,
      "explain_en": "von takes the dative: von einem Mechaniker.",
-     "explain_ru": "von требует датива: von einem Mechaniker."
+     "explain_ru": "von требует датива: von einem Mechaniker.",
+     "ui": {
+      "ru": {
+       "q": "„Das Auto wird von einen Mechaniker repariert.“ — правильно."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3369,7 +3601,12 @@
      "q": "„Er wird Lehrer.“ is a passive sentence.",
      "answer": false,
      "explain_en": "werden + noun means 'become', not passive.",
-     "explain_ru": "werden + существительное значит «стать», это не пассив."
+     "explain_ru": "werden + существительное значит «стать», это не пассив.",
+     "ui": {
+      "ru": {
+       "q": "„Er wird Lehrer.“ — предложение в пассиве."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3439,7 +3676,29 @@
        "würde + Infinitiv",
        "конъюнктив II"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "werden + Partizip II",
+         "passive"
+        ],
+        [
+         "werden + Infinitiv",
+         "future tense"
+        ],
+        [
+         "werden + Nomen",
+         "to become (something)"
+        ],
+        [
+         "würde + Infinitiv",
+         "Konjunktiv II"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3453,7 +3712,7 @@
     {
      "title_en": "What the genitive expresses",
      "title_ru": "Что выражает генитив",
-     "body_en": "The genitive answers the question wessen? (whose?) and links two nouns: das Auto meines Vaters, die Farbe des Hauses, das Ende des Films. As in Russian, the genitive noun usually comes after the noun it describes: машина отца = das Auto des Vaters. It is typical of written and formal German.",
+     "body_en": "The genitive answers the question wessen? (whose?) and links two nouns: das Auto meines Vaters, die Farbe des Hauses, das Ende des Films. As with English 'of', the genitive noun usually comes after the noun it describes: the car of my father = das Auto des Vaters. It is typical of written and formal German.",
      "body_ru": "Генитив отвечает на вопрос wessen? (чей?) и связывает два существительных: das Auto meines Vaters, die Farbe des Hauses, das Ende des Films. Как и в русском, слово в генитиве обычно стоит после определяемого слова: «машина отца» = das Auto des Vaters. Это очень похоже на русский родительный падеж, но в немецком он используется в основном в письменной и официальной речи.",
      "examples": [
       {
@@ -3923,7 +4182,12 @@
      "q": "Feminine nouns add -s in the genitive: „die Tasche der Fraus“.",
      "answer": false,
      "explain_en": "Feminine nouns take no ending: der Frau.",
-     "explain_ru": "Существительные женского рода окончания не получают: der Frau."
+     "explain_ru": "Существительные женского рода окончания не получают: der Frau.",
+     "ui": {
+      "ru": {
+       "q": "Существительные женского рода получают -s в родительном падеже: „die Tasche der Fraus“."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3931,7 +4195,12 @@
      "q": "„Wegen dem Wetter“ is often heard in speech, but „wegen des Wetters“ is the standard written form.",
      "answer": true,
      "explain_en": "The dative after wegen is colloquial; the genitive is standard.",
-     "explain_ru": "Датив после wegen — разговорный, генитив — норма."
+     "explain_ru": "Датив после wegen — разговорный, генитив — норма.",
+     "ui": {
+      "ru": {
+       "q": "„Wegen dem Wetter“ часто слышно в устной речи, но „wegen des Wetters“ — нормативная письменная форма."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3939,7 +4208,12 @@
      "q": "In standard German „Peters Buch“ is normally written without an apostrophe.",
      "answer": true,
      "explain_en": "Names take a plain -s: Peters, Annas.",
-     "explain_ru": "Имена получают просто -s: Peters, Annas."
+     "explain_ru": "Имена получают просто -s: Peters, Annas.",
+     "ui": {
+      "ru": {
+       "q": "В литературном немецком „Peters Buch“ обычно пишется без апострофа."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3991,7 +4265,33 @@
        "außerhalb",
        "за пределами"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "wegen",
+         "because of"
+        ],
+        [
+         "trotz",
+         "despite"
+        ],
+        [
+         "während",
+         "during"
+        ],
+        [
+         "statt",
+         "instead of"
+        ],
+        [
+         "außerhalb",
+         "outside (of)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4165,7 +4465,7 @@
     {
      "title_en": "ohne … zu: without doing",
      "title_ru": "ohne … zu: не сделав",
-     "body_en": "ohne … zu says that an expected action does not happen: Er ging weg, ohne ein Wort zu sagen. Sie hat das Zimmer verlassen, ohne das Licht auszumachen. Russian often uses a negative adverbial participle here: 'не сказав ни слова', 'не выключив свет'.",
+     "body_en": "ohne … zu says that an expected action does not happen: Er ging weg, ohne ein Wort zu sagen. Sie hat das Zimmer verlassen, ohne das Licht auszumachen. English uses 'without + -ing' here: 'without saying a word', 'without switching off the light'.",
      "body_ru": "ohne … zu говорит о том, что ожидаемое действие не происходит: Er ging weg, ohne ein Wort zu sagen. Sie hat das Zimmer verlassen, ohne das Licht auszumachen. В русском здесь часто используется деепричастие с «не»: «не сказав ни слова», «не выключив свет». В немецком деепричастий нет, поэтому эта конструкция очень полезна.",
      "examples": [
       {
@@ -4499,7 +4799,12 @@
      "q": "After modal verbs such as können and müssen, the infinitive is used without zu.",
      "answer": true,
      "explain_en": "Ich kann schwimmen, ich muss gehen.",
-     "explain_ru": "Верно: Ich kann schwimmen, ich muss gehen."
+     "explain_ru": "Верно: Ich kann schwimmen, ich muss gehen.",
+     "ui": {
+      "ru": {
+       "q": "После модальных глаголов, таких как können и müssen, инфинитив употребляется без zu."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4507,7 +4812,12 @@
      "q": "With separable verbs zu goes before the whole verb: „Ich habe vergessen, zu anrufen.“",
      "answer": false,
      "explain_en": "zu goes inside: anzurufen.",
-     "explain_ru": "zu встаёт внутрь глагола: anzurufen."
+     "explain_ru": "zu встаёт внутрь глагола: anzurufen.",
+     "ui": {
+      "ru": {
+       "q": "У глаголов с отделяемой приставкой zu ставится перед всем глаголом: „Ich habe vergessen, zu anrufen.“"
+      }
+     }
     },
     {
      "id": "e25",
@@ -4515,7 +4825,12 @@
      "q": "„Ich hoffe, dass du kommst“ cannot be turned into a zu-infinitive, because the subjects are different.",
      "answer": true,
      "explain_en": "A zu-infinitive needs the same doer as the main clause.",
-     "explain_ru": "Инфинитиву с zu нужен тот же исполнитель, что и в главном предложении."
+     "explain_ru": "Инфинитиву с zu нужен тот же исполнитель, что и в главном предложении.",
+     "ui": {
+      "ru": {
+       "q": "„Ich hoffe, dass du kommst“ нельзя превратить в инфинитивный оборот с zu, потому что подлежащие разные."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4563,7 +4878,29 @@
        "dass",
        "что (союз)"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "um … zu",
+         "in order to"
+        ],
+        [
+         "ohne … zu",
+         "without doing"
+        ],
+        [
+         "statt … zu",
+         "instead of doing"
+        ],
+        [
+         "dass",
+         "that (conjunction)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4589,7 +4926,33 @@
        "Ich habe vergessen, …",
        "Я забыл…"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ich habe keine Lust, …",
+         "I don't feel like …"
+        ],
+        [
+         "Es ist verboten, …",
+         "It is forbidden to …"
+        ],
+        [
+         "Ich habe vor, …",
+         "I'm planning to …"
+        ],
+        [
+         "Hör auf, …!",
+         "Stop …!"
+        ],
+        [
+         "Ich habe vergessen, …",
+         "I forgot to …"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5067,7 +5430,12 @@
      "q": "In the dative, adjectives after an article always end in -en.",
      "answer": true,
      "explain_en": "dem alten, der alten, einem alten, den alten …",
-     "explain_ru": "Верно: dem alten, der alten, einem alten, den alten …"
+     "explain_ru": "Верно: dem alten, der alten, einem alten, den alten …",
+     "ui": {
+      "ru": {
+       "q": "В дательном падеже прилагательные после артикля всегда оканчиваются на -en."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5075,7 +5443,12 @@
      "q": "Without an article, the adjective shows the case itself: „mit frischem Brot“.",
      "answer": true,
      "explain_en": "-em = the signal of dem.",
-     "explain_ru": "Окончание -em — сигнал артикля dem."
+     "explain_ru": "Окончание -em — сигнал артикля dem.",
+     "ui": {
+      "ru": {
+       "q": "Без артикля падеж показывает само прилагательное: „mit frischem Brot“."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5083,7 +5456,12 @@
      "q": "„Er ist ein Deutsche.“ is correct for a German man.",
      "answer": false,
      "explain_en": "Like an adjective after ein: ein Deutscher.",
-     "explain_ru": "Как прилагательное после ein: ein Deutscher."
+     "explain_ru": "Как прилагательное после ein: ein Deutscher.",
+     "ui": {
+      "ru": {
+       "q": "„Er ist ein Deutsche.“ — правильно о мужчине-немце."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5157,7 +5535,33 @@
        "der Verwandte",
        "родственник"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "der Deutsche",
+         "German man"
+        ],
+        [
+         "die Kranke",
+         "sick woman, patient"
+        ],
+        [
+         "die Erwachsenen",
+         "adults"
+        ],
+        [
+         "der Bekannte",
+         "acquaintance"
+        ],
+        [
+         "der Verwandte",
+         "relative"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5171,7 +5575,7 @@
     {
      "title_en": "Fixed prepositions: learn them with the verb",
      "title_ru": "Устойчивые предлоги: учите их вместе с глаголом",
-     "body_en": "Many verbs, adjectives and nouns need a particular preposition, which often does not match Russian: warten auf (ждать кого/что), sich interessieren für (интересоваться чем), denken an (думать о), träumen von (мечтать о), Angst haben vor (бояться), teilnehmen an (участвовать в). The preposition here has lost its literal meaning, so learn each verb as a unit: warten auf + Akk.",
+     "body_en": "Many verbs, adjectives and nouns need a particular preposition, which often does not match English or Russian: warten auf (to wait for), sich interessieren für (to be interested in), denken an (to think of), träumen von (to dream of), Angst haben vor (to be afraid of), teilnehmen an (to take part in). The preposition here has lost its literal meaning, so learn each verb as a unit: warten auf + Akk.",
      "body_ru": "Многие глаголы, прилагательные и существительные требуют определённого предлога, который часто не совпадает с русским: warten auf (ждать кого/что), sich interessieren für (интересоваться чем), denken an (думать о), träumen von (мечтать о), Angst haben vor (бояться), teilnehmen an (участвовать в). Предлог здесь утратил своё прямое значение, поэтому учите глагол целым блоком: warten auf + Akk. Там, где в русском беспредложное управление («ждать автобус»), в немецком часто нужен предлог.",
      "examples": [
       {
@@ -5639,7 +6043,12 @@
      "q": "For people you use a preposition + pronoun (an ihn), not a da-word (daran).",
      "answer": true,
      "explain_en": "da-words refer to things and ideas.",
-     "explain_ru": "da-слова относятся к предметам и понятиям, а не к людям."
+     "explain_ru": "da-слова относятся к предметам и понятиям, а не к людям.",
+     "ui": {
+      "ru": {
+       "q": "О людях используют предлог + местоимение (an ihn), а не слово с da- (daran)."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5647,7 +6056,12 @@
      "q": "warten takes the preposition für: „Ich warte für dich.“",
      "answer": false,
      "explain_en": "warten auf: Ich warte auf dich.",
-     "explain_ru": "Правильно warten auf: Ich warte auf dich."
+     "explain_ru": "Правильно warten auf: Ich warte auf dich.",
+     "ui": {
+      "ru": {
+       "q": "warten употребляется с предлогом für: „Ich warte für dich.“"
+      }
+     }
     },
     {
      "id": "e25",
@@ -5655,7 +6069,12 @@
      "q": "„Worauf wartest du?“ asks about a thing, „Auf wen wartest du?“ about a person.",
      "answer": true,
      "explain_en": "wo(r)- for things, preposition + wen/wem for people.",
-     "explain_ru": "wo(r)- — о предметах, предлог + wen/wem — о людях."
+     "explain_ru": "wo(r)- — о предметах, предлог + wen/wem — о людях.",
+     "ui": {
+      "ru": {
+       "q": "„Worauf wartest du?“ — вопрос о предмете, „Auf wen wartest du?“ — о человеке."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5733,7 +6152,33 @@
        "bitten um",
        "просить о"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "sich freuen auf",
+         "to look forward to"
+        ],
+        [
+         "sich freuen über",
+         "to be glad about (something already there)"
+        ],
+        [
+         "denken an",
+         "to think of, remember"
+        ],
+        [
+         "sich kümmern um",
+         "to take care of"
+        ],
+        [
+         "bitten um",
+         "to ask for"
+        ]
+       ]
+      }
+     }
     }
    ]
   }

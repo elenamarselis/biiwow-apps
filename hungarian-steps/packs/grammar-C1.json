@@ -234,7 +234,12 @@
      ],
      "answer": 3,
      "explain_en": "Manner of the action, same subject: adverbial participle mosolyogva.",
-     "explain_ru": "Образ действия при том же подлежащем: деепричастие mosolyogva «улыбаясь»."
+     "explain_ru": "Образ действия при том же подлежащем: деепричастие mosolyogva «улыбаясь».",
+     "ui": {
+      "en": {
+       "q": "___ köszönt a vendégeknek. (smiling)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -248,7 +253,12 @@
      ],
      "answer": 1,
      "explain_en": "'To be paid' is -andó/-endő: fizetendő.",
-     "explain_ru": "«Подлежащий оплате» передаётся через -andó/-endő: fizetendő."
+     "explain_ru": "«Подлежащий оплате» передаётся через -andó/-endő: fizetendő.",
+     "ui": {
+      "en": {
+       "q": "A ___ összeg 25 000 forint. (the amount payable)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -262,7 +272,12 @@
      ],
      "answer": 2,
      "explain_en": "megérkezik is intransitive, so its -t/-tt participle is active: a megérkezett vendégek. The participle always precedes the noun.",
-     "explain_ru": "megérkezik — непереходный глагол, поэтому причастие на -t/-tt действительное: a megérkezett vendégek «прибывшие гости». Причастие всегда стоит перед существительным."
+     "explain_ru": "megérkezik — непереходный глагол, поэтому причастие на -t/-tt действительное: a megérkezett vendégek «прибывшие гости». Причастие всегда стоит перед существительным.",
+     "ui": {
+      "ru": {
+       "q": "Какое словосочетание заменяет «a vendégek, akik megérkeztek»?"
+      }
+     }
     },
     {
      "id": "e06",
@@ -276,7 +291,12 @@
      ],
      "answer": 2,
      "explain_en": "lévén 'being' gives the reason in literary style.",
-     "explain_ru": "lévén «будучи» выражает причину в книжном стиле."
+     "explain_ru": "lévén «будучи» выражает причину в книжном стиле.",
+     "ui": {
+      "en": {
+       "q": "Orvos ___ tudta, mit kell tenni. (being a doctor)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -304,7 +324,12 @@
      ],
      "answer": 1,
      "explain_en": "All complements stand before the participle, and the participle stands directly before the noun.",
-     "explain_ru": "Все зависимые слова стоят перед причастием, а причастие — непосредственно перед существительным."
+     "explain_ru": "Все зависимые слова стоят перед причастием, а причастие — непосредственно перед существительным.",
+     "ui": {
+      "ru": {
+       "q": "В каком причастном обороте правильный порядок слов?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -318,7 +343,12 @@
      ],
      "answer": 1,
      "explain_en": "With a prefixed participle nem goes between prefix and stem: be nem fizetett.",
-     "explain_ru": "При причастии с приставкой nem встаёт между приставкой и основой: be nem fizetett, тогда как в русском просто «не-»."
+     "explain_ru": "При причастии с приставкой nem встаёт между приставкой и основой: be nem fizetett, тогда как в русском просто «не-».",
+     "ui": {
+      "en": {
+       "q": "A ___ számlákat a hónap végéig rendezni kell. (unpaid)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -332,7 +362,20 @@
      ],
      "answer": 1,
      "explain_en": "-ván/-vén typically marks an action completed before the main one ('having arrived home').",
-     "explain_ru": "-ván/-vén обычно обозначает действие, завершённое до основного, как русское «вернувшись домой»."
+     "explain_ru": "-ván/-vén обычно обозначает действие, завершённое до основного, как русское «вернувшись домой».",
+     "ui": {
+      "en": {
+       "options": [
+        "a condition",
+        "an action preceding the main one",
+        "a purpose",
+        "a future obligation"
+       ]
+      },
+      "ru": {
+       "q": "Hazaérvén azonnal lefeküdt. Что выражает hazaérvén?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -480,7 +523,12 @@
      "q": "'A levelet írt diák' is correct Hungarian for 'the student who wrote the letter'.",
      "answer": false,
      "explain_en": "A transitive -t/-tt participle has a passive meaning (a megírt levél). For the doer use a clause: a diák, aki megírta a levelet.",
-     "explain_ru": "Переходное причастие на -t/-tt имеет страдательное значение (a megírt levél «написанное письмо»). Для исполнителя нужно придаточное: a diák, aki megírta a levelet «студент, написавший письмо»."
+     "explain_ru": "Переходное причастие на -t/-tt имеет страдательное значение (a megírt levél «написанное письмо»). Для исполнителя нужно придаточное: a diák, aki megírta a levelet «студент, написавший письмо».",
+     "ui": {
+      "ru": {
+       "q": "«A levelet írt diák» — правильный венгерский вариант для «студент, который написал письмо»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -488,7 +536,15 @@
      "q": "A Hungarian participle phrase always stands before the noun, unlike Russian 'студент, читающий книгу'.",
      "answer": true,
      "explain_en": "Correct: a könyvet olvasó diák. Postposed participle phrases do not exist in Hungarian.",
-     "explain_ru": "Верно: a könyvet olvasó diák. Причастного оборота после существительного в венгерском нет."
+     "explain_ru": "Верно: a könyvet olvasó diák. Причастного оборота после существительного в венгерском нет.",
+     "ui": {
+      "en": {
+       "q": "A Hungarian participle phrase always stands before the noun, unlike English 'the student reading a book', where it follows."
+      },
+      "ru": {
+       "q": "Венгерский причастный оборот всегда стоит перед существительным, в отличие от русского «студент, читающий книгу»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -496,7 +552,12 @@
      "q": "-ván/-vén forms such as 'hazaérvén' are typical of relaxed everyday conversation.",
      "answer": false,
      "explain_en": "They are literary and formal; in speech use miután hazaért or a -va/-ve form.",
-     "explain_ru": "Это книжные и официальные формы; в разговоре говорят miután hazaért «после того как пришёл домой»."
+     "explain_ru": "Это книжные и официальные формы; в разговоре говорят miután hazaért «после того как пришёл домой».",
+     "ui": {
+      "ru": {
+       "q": "Формы на -ván/-vén, такие как «hazaérvén», типичны для непринуждённого разговора."
+      }
+     }
     },
     {
      "id": "e26",
@@ -518,7 +579,29 @@
        "a jelenlévők",
        "присутствующие"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "az olvasó",
+         "the reader"
+        ],
+        [
+         "a résztvevők",
+         "the participants"
+        ],
+        [
+         "a sérültek",
+         "the injured"
+        ],
+        [
+         "a jelenlévők",
+         "those present"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -540,7 +623,29 @@
        "fizetve",
        "платя"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "fizetendő",
+         "payable, to be paid"
+        ],
+        [
+         "fizető",
+         "paying"
+        ],
+        [
+         "fizetett",
+         "paid"
+        ],
+        [
+         "fizetve",
+         "(while) paying / paid (state)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -808,7 +913,12 @@
      ],
      "answer": 2,
      "explain_en": "The 3rd person independent possessive is övé; övéi would refer to several pens.",
-     "explain_ru": "Самостоятельная форма 3-го лица — övé; övéi относилось бы к нескольким ручкам."
+     "explain_ru": "Самостоятельная форма 3-го лица — övé; övéi относилось бы к нескольким ручкам.",
+     "ui": {
+      "en": {
+       "q": "Ez a toll nem az enyém, hanem az ___. (his)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -836,7 +946,12 @@
      ],
      "answer": 2,
      "explain_en": "az egyik + singular possessed: az egyik barátom.",
-     "explain_ru": "az egyik + обладаемое в единственном числе: az egyik barátom «один из моих друзей»."
+     "explain_ru": "az egyik + обладаемое в единственном числе: az egyik barátom «один из моих друзей».",
+     "ui": {
+      "en": {
+       "q": "Az ___ barátom Debrecenben lakik. (one of my friends)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -850,7 +965,12 @@
      ],
      "answer": 0,
      "explain_en": "-ék 'the family' + -nál 'at someone's place': Kovácséknál.",
-     "explain_ru": "-ék «семья» + -nál «у кого-то»: Kovácséknál «у Ковачей»."
+     "explain_ru": "-ék «семья» + -nál «у кого-то»: Kovácséknál «у Ковачей».",
+     "ui": {
+      "en": {
+       "q": "Tegnap ___ voltunk vacsorán. (at the Kovácses')"
+      }
+     }
     },
     {
      "id": "e06",
@@ -892,7 +1012,15 @@
      ],
      "answer": 1,
      "explain_en": "In a chain, the inner possessor takes -nak/-nek: a szomszéd lányának a férje.",
-     "explain_ru": "В цепочке внутренний обладатель получает -nak/-nek: a szomszéd lányának a férje. Порядок обратный русскому."
+     "explain_ru": "В цепочке внутренний обладатель получает -nak/-nek: a szomszéd lányának a férje. Порядок обратный русскому.",
+     "ui": {
+      "en": {
+       "q": "Which is the standard form of 'the neighbour's daughter's husband'?"
+      },
+      "ru": {
+       "q": "Какая форма стандартна для «муж дочери соседа»?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -920,7 +1048,12 @@
      ],
      "answer": 3,
      "explain_en": "Several possessed items: -éi. Annáéi = 'Anna's (books)'.",
-     "explain_ru": "Несколько обладаемых предметов: -éi. Annáéi «Аннины (книги)»."
+     "explain_ru": "Несколько обладаемых предметов: -éi. Annáéi «Аннины (книги)».",
+     "ui": {
+      "en": {
+       "q": "A te könyveid itt vannak, de hol vannak ___? (Anna's books)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -1069,7 +1202,15 @@
      "q": "'Az egyik barátaim' is correct for 'один из моих друзей'.",
      "answer": false,
      "explain_en": "Hungarian uses the singular: az egyik barátom.",
-     "explain_ru": "В венгерском единственное число: az egyik barátom, в отличие от русского «из друзей»."
+     "explain_ru": "В венгерском единственное число: az egyik barátom, в отличие от русского «из друзей».",
+     "ui": {
+      "en": {
+       "q": "'Az egyik barátaim' is correct for 'one of my friends'."
+      },
+      "ru": {
+       "q": "«Az egyik barátaim» — правильный вариант для «один из моих друзей»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1077,7 +1218,12 @@
      "q": "In 'Kinek a könyve ez?' the possessor must take -nak/-nek because it is a question word.",
      "answer": true,
      "explain_en": "Question words and demonstratives as possessors require -nak/-nek.",
-     "explain_ru": "Вопросительные и указательные слова в роли обладателя требуют -nak/-nek."
+     "explain_ru": "Вопросительные и указательные слова в роли обладателя требуют -nak/-nek.",
+     "ui": {
+      "ru": {
+       "q": "В «Kinek a könyve ez?» обладатель должен иметь окончание -nak/-nek, потому что это вопросительное слово."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1085,7 +1231,12 @@
      "q": "'Péterék' means 'Peter's things'.",
      "answer": false,
      "explain_en": "Péterék means 'Peter and his family / group'. 'Peter's things' would be Péteréi.",
-     "explain_ru": "Péterék значит «Петер с семьёй / компанией». «Вещи Петера» — Péteréi."
+     "explain_ru": "Péterék значит «Петер с семьёй / компанией». «Вещи Петера» — Péteréi.",
+     "ui": {
+      "ru": {
+       "q": "«Péterék» означает «вещи Петера»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1111,7 +1262,33 @@
        "övék",
        "их"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "enyém",
+         "mine"
+        ],
+        [
+         "tiéd",
+         "yours (sg.)"
+        ],
+        [
+         "övé",
+         "his, hers"
+        ],
+        [
+         "mienk",
+         "ours"
+        ],
+        [
+         "övék",
+         "theirs"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1163,7 +1340,37 @@
        "anyós",
        "тёща, свекровь"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "báty",
+         "older brother"
+        ],
+        [
+         "öcs",
+         "younger brother"
+        ],
+        [
+         "nővér",
+         "older sister"
+        ],
+        [
+         "húg",
+         "younger sister"
+        ],
+        [
+         "após",
+         "father-in-law"
+        ],
+        [
+         "anyós",
+         "mother-in-law"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1395,7 +1602,12 @@
      ],
      "answer": 1,
      "explain_en": "Wish with different subjects: hogy + subjunctive eljöjj.",
-     "explain_ru": "Желание при разных подлежащих: hogy + наклонение на -j: eljöjj. Не прошедшее, как в русском «пришёл»."
+     "explain_ru": "Желание при разных подлежащих: hogy + наклонение на -j: eljöjj. Не прошедшее, как в русском «пришёл».",
+     "ui": {
+      "en": {
+       "q": "Azt akarom, hogy holnap ___. (for you to come)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -1423,7 +1635,12 @@
      ],
      "answer": 0,
      "explain_en": "hadd + 1st person subjunctive = 'let me'.",
-     "explain_ru": "hadd + 1-е лицо наклонения на -j = «дай(те) я …»."
+     "explain_ru": "hadd + 1-е лицо наклонения на -j = «дай(те) я …».",
+     "ui": {
+      "en": {
+       "q": "___ segítsek a csomagokkal! (let me help)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -1451,7 +1668,12 @@
      ],
      "answer": 3,
      "explain_en": "A reported command takes the subjunctive: várjak. Azt mondta, hogy várok would be a statement.",
-     "explain_ru": "Пересказанный приказ — наклонение на -j: várjak. Azt mondta, hogy várok было бы сообщением («сказал, что я жду»)."
+     "explain_ru": "Пересказанный приказ — наклонение на -j: várjak. Azt mondta, hogy várok было бы сообщением («сказал, что я жду»).",
+     "ui": {
+      "en": {
+       "q": "Azt mondta, hogy ___ rá a kapuban. (that I should wait)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -1493,7 +1715,15 @@
      ],
      "answer": 0,
      "explain_en": "Offers use the 1st person subjunctive: Segítsek?",
-     "explain_ru": "Предложение помощи выражается 1-м лицом наклонения на -j: Segítsek? В русском — инфинитив «Помочь?»."
+     "explain_ru": "Предложение помощи выражается 1-м лицом наклонения на -j: Segítsek? В русском — инфинитив «Помочь?».",
+     "ui": {
+      "en": {
+       "q": "The standard way to offer help ('Shall I help?') is:"
+      },
+      "ru": {
+       "q": "Стандартный способ предложить помощь («Мне помочь?»):"
+      }
+     }
     },
     {
      "id": "e09",
@@ -1507,7 +1737,12 @@
      ],
      "answer": 3,
      "explain_en": "enged, hogy + subjunctive: fizessek.",
-     "explain_ru": "enged, hogy + наклонение на -j: fizessek. По-русски «не дал мне заплатить»."
+     "explain_ru": "enged, hogy + наклонение на -j: fizessek. По-русски «не дал мне заплатить».",
+     "ui": {
+      "en": {
+       "q": "Nem engedte, hogy ___. (let me pay)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -1665,7 +1900,12 @@
      "q": "After a past main clause the subjunctive also goes into the past: 'Azt akartam, hogy eljöttél.'",
      "answer": false,
      "explain_en": "There is no tense shift: Azt akartam, hogy eljöjj.",
-     "explain_ru": "Сдвига времён нет: Azt akartam, hogy eljöjj, хотя по-русски «чтобы ты пришёл»."
+     "explain_ru": "Сдвига времён нет: Azt akartam, hogy eljöjj, хотя по-русски «чтобы ты пришёл».",
+     "ui": {
+      "ru": {
+       "q": "После главного предложения в прошедшем времени сослагательное наклонение тоже переходит в прошедшее: «Azt akartam, hogy eljöttél»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1673,7 +1913,12 @@
      "q": "'Azt mondta, hogy vár' and 'Azt mondta, hogy várjak' mean the same.",
      "answer": false,
      "explain_en": "The first reports a statement ('he would wait'), the second a command ('told me to wait').",
-     "explain_ru": "Первое — сообщение («сказал, что подождёт»), второе — приказ («сказал, чтобы я подождал»)."
+     "explain_ru": "Первое — сообщение («сказал, что подождёт»), второе — приказ («сказал, чтобы я подождал»).",
+     "ui": {
+      "ru": {
+       "q": "«Azt mondta, hogy vár» и «Azt mondta, hogy várjak» значат одно и то же."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1681,7 +1926,12 @@
      "q": "nehogy already contains a negation, so 'nehogy ne' reverses the meaning.",
      "answer": true,
      "explain_en": "Correct: Nehogy elfelejtsd = 'don't forget'; adding ne would mean 'so that you do not fail to…'.",
-     "explain_ru": "Верно: Nehogy elfelejtsd = «смотри не забудь»; добавление ne перевернуло бы смысл."
+     "explain_ru": "Верно: Nehogy elfelejtsd = «смотри не забудь»; добавление ne перевернуло бы смысл.",
+     "ui": {
+      "ru": {
+       "q": "nehogy уже содержит отрицание, поэтому «nehogy ne» меняет смысл на противоположный."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1755,7 +2005,29 @@
        "Нам нужно поговорить.",
        "Kell, hogy beszéljünk."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Let him come in!",
+         "Hadd jöjjön be!"
+        ],
+        [
+         "Mind you don't fall!",
+         "Nehogy elessél!"
+        ],
+        [
+         "Shall I help?",
+         "Segítsek?"
+        ],
+        [
+         "We need to talk.",
+         "Kell, hogy beszéljünk."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1987,7 +2259,12 @@
      ],
      "answer": 1,
      "explain_en": "Asking permission: -hat/-het, Bejöhetek?",
-     "explain_ru": "Просьба о разрешении — -hat/-het: Bejöhetek? Форма с tud спрашивает о возможности («смогу ли»)."
+     "explain_ru": "Просьба о разрешении — -hat/-het: Bejöhetek? Форма с tud спрашивает о возможности («смогу ли»).",
+     "ui": {
+      "en": {
+       "q": "___ – Persze, gyere csak! (May I come in?)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -2001,7 +2278,12 @@
      ],
      "answer": 0,
      "explain_en": "biztosan = a confident guess, 'наверняка'. Állítólag would imply hearsay.",
-     "explain_ru": "biztosan — уверенное предположение, «наверняка». Állítólag означало бы, что это слух."
+     "explain_ru": "biztosan — уверенное предположение, «наверняка». Állítólag означало бы, что это слух.",
+     "ui": {
+      "en": {
+       "q": "Nem veszi fel a telefont. ___ alszik. (surely, must be)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -2029,7 +2311,12 @@
      ],
      "answer": 0,
      "explain_en": "A guess about the past: -hatott/-hetett, lekéshette.",
-     "explain_ru": "Предположение о прошлом: -hatott/-hetett, lekéshette «должно быть, опоздал»."
+     "explain_ru": "Предположение о прошлом: -hatott/-hetett, lekéshette «должно быть, опоздал».",
+     "ui": {
+      "en": {
+       "q": "Péter még nincs itt. ___ a vonatot. (he must have missed)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -2043,7 +2330,12 @@
      ],
      "answer": 1,
      "explain_en": "Reproach about the past: -hatott + volna, mondhattad volna.",
-     "explain_ru": "Упрёк о прошлом: -hatott + volna, mondhattad volna «мог бы и сказать»."
+     "explain_ru": "Упрёк о прошлом: -hatott + volna, mondhattad volna «мог бы и сказать».",
+     "ui": {
+      "en": {
+       "q": "Ezt előbb is ___ volna! (you could have said it earlier)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -2071,7 +2363,12 @@
      ],
      "answer": 3,
      "explain_en": "Absence of necessity = nem kell.",
-     "explain_ru": "Отсутствие необходимости — nem kell «не нужно»."
+     "explain_ru": "Отсутствие необходимости — nem kell «не нужно».",
+     "ui": {
+      "en": {
+       "q": "Nem ___ eljönnöd, ha nem akarsz. (you don't have to)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -2113,7 +2410,15 @@
      ],
      "answer": 2,
      "explain_en": "Unfulfilled past obligation: kellett volna + personal infinitive.",
-     "explain_ru": "Невыполненная обязанность в прошлом: kellett volna + личный инфинитив. Fel kellett hívnod — «тебе пришлось позвонить»."
+     "explain_ru": "Невыполненная обязанность в прошлом: kellett volna + личный инфинитив. Fel kellett hívnod — «тебе пришлось позвонить».",
+     "ui": {
+      "en": {
+       "q": "Which sentence means 'You should have called him'?"
+      },
+      "ru": {
+       "q": "Какое предложение означает «Тебе надо было позвонить ему»?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -2123,7 +2428,12 @@
       "lehet"
      ],
      "explain_en": "An estimate: lehet 'he must be (about)'.",
-     "explain_ru": "Оценка возраста: lehet «должно быть, ему около…»."
+     "explain_ru": "Оценка возраста: lehet «должно быть, ему около…».",
+     "ui": {
+      "en": {
+       "q": "A tanár vagy hatvan éves ___ (van, assumption: 'must be')."
+      }
+     }
     },
     {
      "id": "e12",
@@ -2173,7 +2483,12 @@
       "Vajon"
      ],
      "explain_en": "vajon marks a question to oneself, 'I wonder'.",
-     "explain_ru": "vajon отмечает вопрос к себе — «интересно»."
+     "explain_ru": "vajon отмечает вопрос к себе — «интересно».",
+     "ui": {
+      "en": {
+       "q": "___ hol lehet most Anna? (I wonder where…)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -2193,7 +2508,12 @@
       "várhatok"
      ],
      "explain_en": "Ironic -hat/-het: 'now I get to wait'.",
-     "explain_ru": "Ироническое -hat/-het: «теперь мне ещё ждать»."
+     "explain_ru": "Ироническое -hat/-het: «теперь мне ещё ждать».",
+     "ui": {
+      "en": {
+       "q": "Most ___ (vár, én, -hat/-het) még egy órát a buszra! (irony)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -2257,7 +2577,15 @@
      "q": "'Biztosan elfelejtette' usually expresses a confident guess ('наверняка забыл'), not a verified fact.",
      "answer": true,
      "explain_en": "Correct. For certainty about a fact say Biztos vagyok benne, hogy elfelejtette.",
-     "explain_ru": "Верно. Для уверенности в факте говорят Biztos vagyok benne, hogy elfelejtette «Я уверен, что он забыл»."
+     "explain_ru": "Верно. Для уверенности в факте говорят Biztos vagyok benne, hogy elfelejtette «Я уверен, что он забыл».",
+     "ui": {
+      "en": {
+       "q": "'Biztosan elfelejtette' usually expresses a confident guess ('he must have forgotten'), not a verified fact."
+      },
+      "ru": {
+       "q": "«Biztosan elfelejtette» обычно выражает уверенное предположение («наверняка забыл»), а не проверенный факт."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2265,7 +2593,12 @@
      "q": "'Nem kell itt dohányozni' means 'smoking is forbidden here'.",
      "answer": false,
      "explain_en": "It means 'you don't have to smoke here'. Prohibition: Nem szabad itt dohányozni.",
-     "explain_ru": "Это значит «здесь не обязательно курить». Запрет: Nem szabad itt dohányozni."
+     "explain_ru": "Это значит «здесь не обязательно курить». Запрет: Nem szabad itt dohányozni.",
+     "ui": {
+      "ru": {
+       "q": "«Nem kell itt dohányozni» означает «здесь курить запрещено»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2273,7 +2606,12 @@
      "q": "In 'Nem jött el, elfelejthette' the form elfelejthette expresses a guess about the past.",
      "answer": true,
      "explain_en": "-hatott/-hetett in a statement about the past = 'he may/must have forgotten'.",
-     "explain_ru": "-hatott/-hetett в утверждении о прошлом = «наверное, забыл»."
+     "explain_ru": "-hatott/-hetett в утверждении о прошлом = «наверное, забыл».",
+     "ui": {
+      "ru": {
+       "q": "В «Nem jött el, elfelejthette» форма elfelejthette выражает предположение о прошлом."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2299,7 +2637,33 @@
        "kétségtelenül",
        "несомненно"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "állítólag",
+         "allegedly"
+        ],
+        [
+         "bizonyára",
+         "surely, must be"
+        ],
+        [
+         "talán",
+         "perhaps"
+        ],
+        [
+         "aligha",
+         "hardly, unlikely"
+        ],
+        [
+         "kétségtelenül",
+         "undoubtedly"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2321,7 +2685,29 @@
        "Be kellett volna jönnöm.",
        "Мне надо было войти."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Bejöhetek?",
+         "May I come in?"
+        ],
+        [
+         "Be tudok jönni?",
+         "Will I be able to get in?"
+        ],
+        [
+         "Bejöhettem volna.",
+         "I could have come in."
+        ],
+        [
+         "Be kellett volna jönnöm.",
+         "I should have come in."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2343,7 +2729,29 @@
        "azt mondják",
        "говорят"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "úgy tűnik",
+         "it seems"
+        ],
+        [
+         "úgy hallottam",
+         "I heard that"
+        ],
+        [
+         "úgy tudom",
+         "as far as I know"
+        ],
+        [
+         "azt mondják",
+         "they say"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2687,7 +3095,15 @@
      ],
      "answer": 0,
      "explain_en": "hiába = 'in vain, no matter how'.",
-     "explain_ru": "hiába — «напрасно, сколько ни»."
+     "explain_ru": "hiába — «напрасно, сколько ни».",
+     "ui": {
+      "en": {
+       "q": "Translate: 'However much he asked, she didn't come.'"
+      },
+      "ru": {
+       "q": "Переведите: «Сколько он ни просил, она не пришла»."
+      }
+     }
     },
     {
      "id": "e10",
@@ -2781,7 +3197,12 @@
       "ahonnan"
      ],
      "explain_en": "onnan … ahonnan 'from where'.",
-     "explain_ru": "onnan … ahonnan «оттуда, откуда»."
+     "explain_ru": "onnan … ahonnan «оттуда, откуда».",
+     "ui": {
+      "en": {
+       "q": "Onnan jöttem, ___ te is. (where you came from too)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -2848,7 +3269,12 @@
      "q": "In 'Arra gondolok, hogy…' the pointer arra can be dropped: 'Gondolok, hogy…'.",
      "answer": false,
      "explain_en": "Only the accusative azt is optional; a pointer in another case must stay.",
-     "explain_ru": "Опускать можно только винительное azt; указательное слово в другом падеже обязательно."
+     "explain_ru": "Опускать можно только винительное azt; указательное слово в другом падеже обязательно.",
+     "ui": {
+      "ru": {
+       "q": "В «Arra gondolok, hogy…» указательное слово arra можно опустить: «Gondolok, hogy…»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2856,7 +3282,12 @@
      "q": "In 'minél … annál' both parts normally contain a comparative.",
      "answer": true,
      "explain_en": "Minél többet …, annál jobban …",
-     "explain_ru": "Minél többet …, annál jobban … — как в русском «чем больше…, тем лучше»."
+     "explain_ru": "Minél többet …, annál jobban … — как в русском «чем больше…, тем лучше».",
+     "ui": {
+      "ru": {
+       "q": "В конструкции «minél … annál» обе части обычно содержат сравнительную степень."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2864,7 +3295,15 @@
      "q": "'Azért jöttem, hogy segítsek' expresses cause (потому что).",
      "answer": false,
      "explain_en": "azért … hogy + subjunctive expresses purpose (для того, чтобы).",
-     "explain_ru": "azért … hogy + наклонение на -j выражает цель («для того, чтобы»)."
+     "explain_ru": "azért … hogy + наклонение на -j выражает цель («для того, чтобы»).",
+     "ui": {
+      "en": {
+       "q": "'Azért jöttem, hogy segítsek' expresses cause ('because')."
+      },
+      "ru": {
+       "q": "«Azért jöttem, hogy segítsek» выражает причину («потому что»)."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2912,7 +3351,29 @@
        "hiába … mégsem",
        "сколько ни … всё равно не"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "azért … mert",
+         "for the reason … that (because)"
+        ],
+        [
+         "azért … hogy",
+         "in order … that (so that)"
+        ],
+        [
+         "annyira … hogy",
+         "so much … that"
+        ],
+        [
+         "hiába … mégsem",
+         "however much … still not"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3170,7 +3631,12 @@
      ],
      "answer": 0,
      "explain_en": "rájön valamire 'realise, figure out'.",
-     "explain_ru": "rájön valamire «догадаться о чём-то»."
+     "explain_ru": "rájön valamire «догадаться о чём-то».",
+     "ui": {
+      "en": {
+       "q": "Végre ___ a megoldásra. (worked out, figured out)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -3184,7 +3650,12 @@
      ],
      "answer": 2,
      "explain_en": "Towards the speaker: ide. Add oda would mean 'give it to him/her'.",
-     "explain_ru": "К говорящему — ide «сюда». Add oda значило бы «отдай ему/ей»."
+     "explain_ru": "К говорящему — ide «сюда». Add oda значило бы «отдай ему/ей».",
+     "ui": {
+      "en": {
+       "q": "Add ___ a sót, légy szíves! (pass it to me)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -3198,7 +3669,12 @@
      ],
      "answer": 1,
      "explain_en": "szétoszt 'distribute' = раздать.",
-     "explain_ru": "szétoszt «раздать, распределить» — как русское раз-."
+     "explain_ru": "szétoszt «раздать, распределить» — как русское раз-.",
+     "ui": {
+      "en": {
+       "q": "A tanár ___ a dolgozatokat. (handed out)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -3212,7 +3688,12 @@
      ],
      "answer": 2,
      "explain_en": "összeveszik valakivel 'quarrel'.",
-     "explain_ru": "összeveszik valakivel «поссориться с кем-то»."
+     "explain_ru": "összeveszik valakivel «поссориться с кем-то».",
+     "ui": {
+      "en": {
+       "q": "Tegnap ___ a lányommal, mert nem akart rendet rakni. (I fell out, quarrelled)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -3226,7 +3707,12 @@
      ],
      "answer": 1,
      "explain_en": "ráér 'have time'; after nem the prefix follows the verb: nem érek rá.",
-     "explain_ru": "ráér «иметь время»; после nem приставка встаёт за глаголом: nem érek rá."
+     "explain_ru": "ráér «иметь время»; после nem приставка встаёт за глаголом: nem érek rá.",
+     "ui": {
+      "en": {
+       "q": "Sajnos ma nem ___. (I have no time)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -3240,7 +3726,12 @@
      ],
      "answer": 3,
      "explain_en": "szétszed 'take apart', the opposite of összerak.",
-     "explain_ru": "szétszed «разобрать» — противоположность összerak «собрать»."
+     "explain_ru": "szétszed «разобрать» — противоположность összerak «собрать».",
+     "ui": {
+      "en": {
+       "q": "A gyerek ___ a játékot, és most nem tudja összerakni. (took apart)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -3254,7 +3745,12 @@
      ],
      "answer": 0,
      "explain_en": "végignéz 'watch to the end'.",
-     "explain_ru": "végignéz «досмотреть до конца»."
+     "explain_ru": "végignéz «досмотреть до конца».",
+     "ui": {
+      "en": {
+       "q": "___ az egész filmet, pedig unalmas volt. (I watched to the end)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3268,7 +3764,12 @@
      ],
      "answer": 1,
      "explain_en": "visszautasít 'refuse, reject'.",
-     "explain_ru": "visszautasít «отклонить, отказать»."
+     "explain_ru": "visszautasít «отклонить, отказать».",
+     "ui": {
+      "en": {
+       "q": "A bank ___ a hitelkérelmemet. (rejected)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -3282,7 +3783,12 @@
      ],
      "answer": 3,
      "explain_en": "A typical yes-answer repeats the prefix alone: Vissza.",
-     "explain_ru": "Типичный утвердительный ответ — одна приставка: Vissza. По-русски — «да» или «вернул»."
+     "explain_ru": "Типичный утвердительный ответ — одна приставка: Vissza. По-русски — «да» или «вернул».",
+     "ui": {
+      "en": {
+       "q": "Visszaadtad a könyvet? – ___ (Yes.)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3296,7 +3802,12 @@
      ],
      "answer": 2,
      "explain_en": "visszavon 'withdraw, revoke'.",
-     "explain_ru": "visszavon «отозвать, отменить»."
+     "explain_ru": "visszavon «отозвать, отменить».",
+     "ui": {
+      "en": {
+       "q": "A cég ___ a nyilatkozatát. (withdrew)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -3316,7 +3827,12 @@
       "át"
      ],
      "explain_en": "átnéz 'look over'; in the imperative the prefix follows.",
-     "explain_ru": "átnéz «просмотреть»; в повелительном наклонении приставка идёт после глагола."
+     "explain_ru": "átnéz «просмотреть»; в повелительном наклонении приставка идёт после глагола.",
+     "ui": {
+      "en": {
+       "q": "Mielőtt beadod, nézd ___ még egyszer a szöveget! (look over)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -3326,7 +3842,12 @@
       "vissza"
      ],
      "explain_en": "visszajön; imperative: gyere vissza.",
-     "explain_ru": "visszajön «вернуться»; повелительное: gyere vissza."
+     "explain_ru": "visszajön «вернуться»; повелительное: gyere vissza.",
+     "ui": {
+      "en": {
+       "q": "Gyere ___, elfelejtetted a kulcsodat! (come back)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -3346,7 +3867,12 @@
       "rá"
      ],
      "explain_en": "rájön with negation: nem jöttem rá.",
-     "explain_ru": "rájön с отрицанием: nem jöttem rá «не догадался»."
+     "explain_ru": "rájön с отрицанием: nem jöttem rá «не догадался».",
+     "ui": {
+      "en": {
+       "q": "Nem jöttem ___, hogy miért haragszik rám. (I didn't figure out)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -3377,7 +3903,12 @@
       "át"
      ],
      "explain_en": "Both végiggondol 'think through' and átgondol 'think over' fit.",
-     "explain_ru": "Подходят оба: végiggondol «продумать до конца» и átgondol «обдумать»."
+     "explain_ru": "Подходят оба: végiggondol «продумать до конца» и átgondol «обдумать».",
+     "ui": {
+      "en": {
+       "q": "Gondold ___ alaposan, mielőtt döntesz! (think it through)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -3441,7 +3972,12 @@
      "q": "'Rászokott a kávéra' means 'He gave up coffee'.",
      "answer": false,
      "explain_en": "rászokik = 'get into the habit of'. 'Give up' is leszokik.",
-     "explain_ru": "rászokik — «пристраститься, привыкнуть». «Бросить» — leszokik."
+     "explain_ru": "rászokik — «пристраститься, привыкнуть». «Бросить» — leszokik.",
+     "ui": {
+      "ru": {
+       "q": "«Rászokott a kávéra» означает «Он бросил пить кофе»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3449,7 +3985,12 @@
      "q": "In 'Nem adta vissza a pénzt' the prefix vissza follows the verb because of the negation.",
      "answer": true,
      "explain_en": "Negation before the verb pushes the prefix after it.",
-     "explain_ru": "Отрицание перед глаголом отодвигает приставку за глагол."
+     "explain_ru": "Отрицание перед глаголом отодвигает приставку за глагол.",
+     "ui": {
+      "ru": {
+       "q": "В «Nem adta vissza a pénzt» приставка vissza стоит после глагола из-за отрицания."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3457,7 +3998,12 @@
      "q": "Colloquial 'Átvertek' means 'They cheated me'.",
      "answer": true,
      "explain_en": "átver (colloquial) = 'cheat, con'.",
-     "explain_ru": "átver (разг.) — «обмануть, кинуть»."
+     "explain_ru": "átver (разг.) — «обмануть, кинуть».",
+     "ui": {
+      "ru": {
+       "q": "Разговорное «Átvertek» означает «Меня обманули»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3483,7 +4029,33 @@
        "végigolvas",
        "дочитывать до конца"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "szétszed",
+         "to take apart"
+        ],
+        [
+         "összerak",
+         "to put together, assemble"
+        ],
+        [
+         "átír",
+         "to rewrite"
+        ],
+        [
+         "visszaad",
+         "to give back"
+        ],
+        [
+         "végigolvas",
+         "to read to the end"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
