@@ -526,7 +526,18 @@
      ],
      "answer": 0,
      "explain_en": "In prayers da + present is a solemn wish: 'hallowed be thy name'.",
-     "explain_ru": "В молитве da + настоящее время — торжественное пожелание: «да святится имя Твоё». Русское «да» здесь — точная параллель."
+     "explain_ru": "В молитве da + настоящее время — торжественное пожелание: «да святится имя Твоё». Русское «да» здесь — точная параллель.",
+     "ui": {
+      "ru": {
+       "q": "В 'da se sveti ime tvoje' конструкция da + презенс выражает:",
+       "options": [
+        "пожелание (оптативное значение)",
+        "цель",
+        "условие",
+        "будущий факт"
+       ]
+      }
+     }
     },
     {
      "id": "e22",
@@ -565,7 +576,18 @@
      ],
      "answer": 3,
      "explain_en": "Nositi forms its imperfekat with s → š: nošah, nošaše, nošahu.",
-     "explain_ru": "Nositi образует имперфект с чередованием s → š: nošah, nošaše, nošahu («носил»)."
+     "explain_ru": "Nositi образует имперфект с чередованием s → š: nošah, nošaše, nošahu («носил»).",
+     "ui": {
+      "ru": {
+       "q": "'Nošaše' — это:",
+       "options": [
+        "аорист от nositi",
+        "деепричастие от nositi",
+        "имперфект от doneti",
+        "имперфект от nositi"
+       ]
+      }
+     }
     },
     {
      "id": "e25",
@@ -1481,7 +1503,18 @@
      ],
      "answer": 1,
      "explain_en": "Znȃm has a falling accent, so ne takes it: nȅ znām; the verb keeps only its length.",
-     "explain_ru": "У znȃm нисходящее ударение, поэтому ne берёт его на себя: nȅ znām; глагол сохраняет только долготу. Ср. русское «не́ был»."
+     "explain_ru": "У znȃm нисходящее ударение, поэтому ne берёт его на себя: nȅ znām; глагол сохраняет только долготу. Ср. русское «не́ был».",
+     "ui": {
+      "ru": {
+       "q": "Где ударение в 'ne znam' в стандартном произношении?",
+       "options": [
+        "на 'zna-'",
+        "на 'ne'",
+        "на '-m'",
+        "во фразе два равных ударения"
+       ]
+      }
+     }
     },
     {
      "id": "e02",
@@ -1670,7 +1703,12 @@
      ],
      "answer": 0,
      "explain_en": "Rising in the infinitive, falling in the present: nȍsīm.",
-     "explain_ru": "Восходящее в инфинитиве, нисходящее в настоящем времени: nȍsīm."
+     "explain_ru": "Восходящее в инфинитиве, нисходящее в настоящем времени: nȍsīm.",
+     "ui": {
+      "ru": {
+       "q": "Презенс (1-е лицо ед. ч.) от 'nòsiti':"
+      }
+     }
     },
     {
      "id": "e14",
@@ -1797,7 +1835,12 @@
      ],
      "answer": 2,
      "explain_en": "Pȉšēm has a short falling accent; with the prefix it moves left and becomes short rising: nàpišēm.",
-     "explain_ru": "У pȉšēm краткое нисходящее; с приставкой ударение сдвигается влево и становится кратким восходящим: nàpišēm (а в русском «напишу́»)."
+     "explain_ru": "У pȉšēm краткое нисходящее; с приставкой ударение сдвигается влево и становится кратким восходящим: nàpišēm (а в русском «напишу́»).",
+     "ui": {
+      "ru": {
+       "q": "Презенс от 'napisati' (1-е лицо ед. ч.) в стандартной акцентуации:"
+      }
+     }
     },
     {
      "id": "e20",
@@ -1848,7 +1891,18 @@
      ],
      "answer": 3,
      "explain_en": "Only falling accents move to proclitics; vòdi is rising, while the accusative vȍdu is falling (nȁ vodu).",
-     "explain_ru": "На проклитику переходят только нисходящие ударения; в vòdi — восходящее, а в винительном vȍdu — нисходящее (nȁ vodu)."
+     "explain_ru": "На проклитику переходят только нисходящие ударения; в vòdi — восходящее, а в винительном vȍdu — нисходящее (nȁ vodu).",
+     "ui": {
+      "ru": {
+       "q": "Почему в 'na vòdi' (локатив) нет переноса ударения?",
+       "options": [
+        "потому что 'na' никогда не берёт ударение",
+        "потому что локатив всегда безударный",
+        "потому что 'vòdi' здесь глагол",
+        "потому что в локативе 'vòdi' восходящее ударение"
+       ]
+      }
+     }
     },
     {
      "id": "e24",
@@ -2920,7 +2974,12 @@
      ],
      "answer": 3,
      "explain_en": "A warning against an accident takes the perfective: Ne zaboravi!",
-     "explain_ru": "Предостережение от нечаянного действия — совершенный вид: Ne zaboravi! (как «Не забудь!»)."
+     "explain_ru": "Предостережение от нечаянного действия — совершенный вид: Ne zaboravi! (как «Не забудь!»).",
+     "ui": {
+      "ru": {
+       "q": "Ne ___ ključeve! (предупреждение: не забудь их)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3132,7 +3191,12 @@
      ],
      "answer": 3,
      "explain_en": "Habitual zna da + perfective present: naljuti. With ljuti the sentence would mean 'he knows that he is angry'.",
-     "explain_ru": "Привычное zna da + настоящее совершенного вида: naljuti. С ljuti фраза значила бы «он знает, что сердится»."
+     "explain_ru": "Привычное zna da + настоящее совершенного вида: naljuti. С ljuti фраза значила бы «он знает, что сердится».",
+     "ui": {
+      "ru": {
+       "q": "Zna da se ___ bez razloga. (он иногда сердится)"
+      }
+     }
     },
     {
      "id": "e21",
@@ -3690,7 +3754,12 @@
      ],
      "answer": 3,
      "explain_en": "Polite vi requires biste.",
-     "explain_ru": "Вежливое «вы» требует biste: «Не передадите мне соль?»."
+     "explain_ru": "Вежливое «вы» требует biste: «Не передадите мне соль?».",
+     "ui": {
+      "ru": {
+       "q": "Da li ___ mi dodali so? (вежливая просьба к одному человеку)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -3714,7 +3783,12 @@
      ],
      "answer": 0,
      "explain_en": "Ti takes bi; the conditional here is ironic.",
-     "explain_ru": "С ti — bi; условное наклонение здесь ироничное («Так ты и сделал, как же!»)."
+     "explain_ru": "С ti — bi; условное наклонение здесь ироничное («Так ты и сделал, как же!»).",
+     "ui": {
+      "ru": {
+       "q": "Baš ___ ti to uradio! (иронично: как же, ты бы это сделал)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -3871,7 +3945,12 @@
       "Htela"
      ],
      "explain_en": "Hteo/htela bih is the polite 'I would like'.",
-     "explain_ru": "Hteo/htela bih — вежливое «я хотел(а) бы»."
+     "explain_ru": "Hteo/htela bih — вежливое «я хотел(а) бы».",
+     "ui": {
+      "ru": {
+       "q": "___ bih da razgovaram sa direktorom. (вежливо: я хотел бы)"
+      }
+     }
     },
     {
      "id": "e23",
@@ -4317,7 +4396,12 @@
      ],
      "answer": 0,
      "explain_en": "The bare instrumental marks the path: šumom.",
-     "explain_ru": "Творительный без предлога обозначает путь: šumom («лесом»)."
+     "explain_ru": "Творительный без предлога обозначает путь: šumom («лесом»).",
+     "ui": {
+      "ru": {
+       "q": "Idemo ___ do reke. (через лес)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -5113,7 +5197,18 @@
      ],
      "answer": 2,
      "explain_en": "Only the first word of a holiday name is capitalised: Nova godina.",
-     "explain_ru": "В названии праздника с прописной только первое слово: Nova godina, как «Новый год»."
+     "explain_ru": "В названии праздника с прописной только первое слово: Nova godina, как «Новый год».",
+     "ui": {
+      "ru": {
+       "q": "Как пишется праздник 1 января (nova godina) — какие слова с заглавной буквы?",
+       "options": [
+        "оба слова",
+        "только второе слово",
+        "только первое слово",
+        "ни одно слово"
+       ]
+      }
+     }
     },
     {
      "id": "e15",
@@ -5218,7 +5313,18 @@
      ],
      "answer": 1,
      "explain_en": "In all-caps writing both parts of a digraph are capitals: LJUBLJANA.",
-     "explain_ru": "При написании прописными обе части диграфа заглавные: LJUBLJANA."
+     "explain_ru": "При написании прописными обе части диграфа заглавные: LJUBLJANA.",
+     "ui": {
+      "ru": {
+       "q": "Когда 'Ljubljana' пишется заглавными буквами, начальный диграф lj пишется:",
+       "options": [
+        "заглавной только L",
+        "обе части заглавные",
+        "как один особый знак",
+        "с дефисом между L и J"
+       ]
+      }
+     }
     },
     {
      "id": "e21",

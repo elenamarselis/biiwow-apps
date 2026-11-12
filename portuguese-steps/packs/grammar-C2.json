@@ -1631,7 +1631,12 @@
      ],
      "answer": 3,
      "explain_en": "Há que + infinitive = one must; it is invariable.",
-     "explain_ru": "Há que + инфинитив — «необходимо»; не изменяется."
+     "explain_ru": "Há que + инфинитив — «необходимо»; не изменяется.",
+     "ui": {
+      "ru": {
+       "q": "___ tomar medidas urgentes. (формально, безлично: «необходимо»)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -1645,7 +1650,18 @@
      ],
      "answer": 1,
      "explain_en": "Pretenso = so-called, would-be: the speaker doubts the claim.",
-     "explain_ru": "Pretenso — «так называемый, мнимый»: говорящий сомневается."
+     "explain_ru": "Pretenso — «так называемый, мнимый»: говорящий сомневается.",
+     "ui": {
+      "ru": {
+       "q": "'O pretenso especialista' показывает, что говорящий:",
+       "options": [
+        "восхищается экспертом",
+        "сомневается, что он действительно эксперт",
+        "цитирует официальное звание",
+        "считает эксперта очень молодым"
+       ]
+      }
+     }
     },
     {
      "id": "e10",
@@ -2337,7 +2353,12 @@
       "menos"
      ],
      "explain_en": "Quanto mais … menos: inverse proportion.",
-     "explain_ru": "Quanto mais … menos — обратная пропорция."
+     "explain_ru": "Quanto mais … menos — обратная пропорция.",
+     "ui": {
+      "ru": {
+       "q": "Quanto mais trabalha, ___ ganha. (чем больше он работает, тем МЕНЬШЕ зарабатывает)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -3021,7 +3042,12 @@
       "me"
      ],
      "explain_en": "Ninguém triggers proclisis before the first verb: ninguém me quis ouvir.",
-     "explain_ru": "Ninguém вызывает проклизу перед первым глаголом: ninguém me quis ouvir."
+     "explain_ru": "Ninguém вызывает проклизу перед первым глаголом: ninguém me quis ouvir.",
+     "ui": {
+      "ru": {
+       "q": "Ninguém ___ quis ouvir. (a mim, местоимение переходит к первому глаголу)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -3714,7 +3740,12 @@
       "ataque"
      ],
      "explain_en": "Atacar → o ataque.",
-     "explain_ru": "Atacar → o ataque — «атака, штурм»: окончание глагола отсекается."
+     "explain_ru": "Atacar → o ataque — «атака, штурм»: окончание глагола отсекается.",
+     "ui": {
+      "ru": {
+       "q": "O ___ ao castelo começou de madrugada. (atacar → существительное)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -3724,7 +3755,12 @@
       "compreensão"
      ],
      "explain_en": "Compreender → compreensão (-ensão, from the Latin stem).",
-     "explain_ru": "Compreender → compreensão (-ensão, по латинской основе)."
+     "explain_ru": "Compreender → compreensão (-ensão, по латинской основе).",
+     "ui": {
+      "ru": {
+       "q": "Peço a sua ___. (compreender → существительное)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -3734,7 +3770,12 @@
       "prós"
      ],
      "explain_en": "Conversion: o pró → os prós.",
-     "explain_ru": "Конверсия: o pró → os prós."
+     "explain_ru": "Конверсия: o pró → os prós.",
+     "ui": {
+      "ru": {
+       "q": "Discutimos os ___ e os contras da proposta. (pró → существительное во мн. ч.)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -3744,7 +3785,12 @@
       "porquê"
      ],
      "explain_en": "As a noun, 'reason' is written o porquê, with an accent.",
-     "explain_ru": "Как существительное («причина») пишется o porquê, с ударением."
+     "explain_ru": "Как существительное («причина») пишется o porquê, с ударением.",
+     "ui": {
+      "ru": {
+       "q": "Ninguém percebeu o ___ da sua decisão. (porque → существительное)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -3754,7 +3800,12 @@
       "surdez"
      ],
      "explain_en": "Surdo → surdez (-ez for qualities).",
-     "explain_ru": "Surdo → surdez (-ez для качеств) — «глухота»."
+     "explain_ru": "Surdo → surdez (-ez для качеств) — «глухота».",
+     "ui": {
+      "ru": {
+       "q": "A ___ é muito comum entre os idosos. (surdo → существительное)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -5487,7 +5538,12 @@
      ],
      "answer": 0,
      "explain_en": "Importar-se de + infinitive; the imperfeito makes it polite: Importava-se de…?",
-     "explain_ru": "Importar-se de + инфинитив; imperfeito делает просьбу вежливой: Importava-se de…?"
+     "explain_ru": "Importar-se de + инфинитив; imperfeito делает просьбу вежливой: Importava-se de…?",
+     "ui": {
+      "ru": {
+       "q": "___ de fechar a janela? Está frio. (очень вежливо)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -5559,7 +5615,18 @@
      ],
      "answer": 2,
      "explain_en": "Era o que faltava! = That's all we need! / No way!",
-     "explain_ru": "Era o que faltava! — «Ещё чего не хватало!»."
+     "explain_ru": "Era o que faltava! — «Ещё чего не хватало!».",
+     "ui": {
+      "ru": {
+       "q": "'Pagar eu a conta de todos? Era o que faltava!' выражает:",
+       "options": [
+        "благодарность",
+        "вежливую просьбу",
+        "возмущённый отказ",
+        "извинение"
+       ]
+      }
+     }
     },
     {
      "id": "e07",
@@ -5598,7 +5665,12 @@
      ],
      "answer": 2,
      "explain_en": "The diminutive minutinho makes the wait sound shorter and the request softer.",
-     "explain_ru": "Уменьшительное minutinho делает ожидание «короче», а просьбу мягче."
+     "explain_ru": "Уменьшительное minutinho делает ожидание «короче», а просьбу мягче.",
+     "ui": {
+      "ru": {
+       "q": "Espere só ___, por favor. (вежливое смягчение)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -5641,7 +5713,12 @@
       "Podia"
      ],
      "explain_en": "Podia…? is the everyday polite request in Portugal.",
-     "explain_ru": "Podia…? — обычная вежливая просьба в Португалии."
+     "explain_ru": "Podia…? — обычная вежливая просьба в Португалии.",
+     "ui": {
+      "ru": {
+       "q": "___ dizer-me onde fica a estação? (poder, imperfeito, вежливо)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -6310,7 +6387,12 @@
       "meio"
      ],
      "explain_en": "Adverbial meio is invariable.",
-     "explain_ru": "Meio в роли наречия не изменяется."
+     "explain_ru": "Meio в роли наречия не изменяется.",
+     "ui": {
+      "ru": {
+       "q": "Ela ficou ___ cansada depois da viagem. (довольно, наречие)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -6360,7 +6442,12 @@
       "porque"
      ],
      "explain_en": "Portugal writes porque in questions: porque é que…",
-     "explain_ru": "В Португалии в вопросах пишут porque: porque é que…"
+     "explain_ru": "В Португалии в вопросах пишут porque: porque é que…",
+     "ui": {
+      "ru": {
+       "q": "Não sei ___ é que ele não veio. (Португалия, «почему»)"
+      }
+     }
     },
     {
      "id": "e19",

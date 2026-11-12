@@ -287,7 +287,12 @@
      ],
      "answer": 0,
      "explain_en": "The aorist ode expresses a sudden event that has just happened; the perfekat would need je (otišao je).",
-     "explain_ru": "Аорист ode выражает внезапное, только что случившееся событие; перфект требовал бы je (otišao je). По-русски: «Ну всё, поезд ушёл!»."
+     "explain_ru": "Аорист ode выражает внезапное, только что случившееся событие; перфект требовал бы je (otišao je). По-русски: «Ну всё, поезд ушёл!».",
+     "ui": {
+      "ru": {
+       "q": "Bogami ___ voz! (поезд только что ушёл — внезапное событие)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -1404,7 +1409,18 @@
      ],
      "answer": 1,
      "explain_en": "The pluskvamperfekat often marks a completed past state whose result no longer holds – I had forgotten, but then remembered.",
-     "explain_ru": "Плюсквамперфект часто обозначает завершённое прошлое состояние, результат которого уже не действует: «я было забыл, но потом вспомнил»."
+     "explain_ru": "Плюсквамперфект часто обозначает завершённое прошлое состояние, результат которого уже не действует: «я было забыл, но потом вспомнил».",
+     "ui": {
+      "ru": {
+       "q": "В 'Bio sam zaboravio na to, ali sam se setio na vreme' pluskvamperfekat указывает на то, что...",
+       "options": [
+        "я до сих пор не помню.",
+        "забывание отменено более поздним событием.",
+        "я снова забуду.",
+        "забыл кто-то другой."
+       ]
+      }
+     }
     },
     {
      "id": "e29",
@@ -2007,7 +2023,12 @@
      ],
      "answer": 1,
      "explain_en": "Asking about the activity, not the result: imperfective radio.",
-     "explain_ru": "Вопрос о занятии, а не о результате — несовершенный вид radio («что ты делал?»)."
+     "explain_ru": "Вопрос о занятии, а не о результате — несовершенный вид radio («что ты делал?»).",
+     "ui": {
+      "ru": {
+       "q": "Šta si ___ za vikend? – Ništa posebno. (вопрос о том, чем ты занимался)"
+      }
+     }
     },
     {
      "id": "e24",
@@ -2044,7 +2065,12 @@
      ],
      "answer": 1,
      "explain_en": "A negated habit needs the imperfective: nije kupovao.",
-     "explain_ru": "Отрицаемая привычка — несовершенный вид: nije kupovao («никогда не покупал»)."
+     "explain_ru": "Отрицаемая привычка — несовершенный вид: nije kupovao («никогда не покупал»).",
+     "ui": {
+      "ru": {
+       "q": "Nikada nije ___ novine. (привычка в прошлом, с отрицанием)"
+      }
+     }
     },
     {
      "id": "e27",
@@ -4023,7 +4049,12 @@
      ],
      "answer": 1,
      "explain_en": "Genitive ga before se; je is dropped after se: Plašila ga se.",
-     "explain_ru": "Генитив ga стоит перед se; je после se выпадает: Plašila ga se («она его боялась»)."
+     "explain_ru": "Генитив ga стоит перед se; je после se выпадает: Plašila ga se («она его боялась»).",
+     "ui": {
+      "ru": {
+       "q": "Plašila ___. (Она боялась его.)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -4060,7 +4091,12 @@
      ],
      "answer": 2,
      "explain_en": "Indirect question: da li će doći (or hoće li doći).",
-     "explain_ru": "Косвенный вопрос: da li će doći (или hoće li doći) – «придёт ли он»."
+     "explain_ru": "Косвенный вопрос: da li će doći (или hoće li doći) – «придёт ли он».",
+     "ui": {
+      "ru": {
+       "q": "Ne znam ___ doći. (придёт ли он)"
+      }
+     }
     },
     {
      "id": "e21",
@@ -4547,7 +4583,12 @@
       "Učenje"
      ],
      "explain_en": "Verbal noun of učiti: učenje; its object is in the genitive.",
-     "explain_ru": "Отглагольное существительное от učiti – učenje; объект стоит в родительном («изучение иностранных языков»)."
+     "explain_ru": "Отглагольное существительное от učiti – učenje; объект стоит в родительном («изучение иностранных языков»).",
+     "ui": {
+      "ru": {
+       "q": "___ (učiti – отглагольное существительное) stranih jezika je korisno."
+      }
+     }
     },
     {
      "id": "e07",
@@ -5392,7 +5433,12 @@
       "prijateljski"
      ],
      "explain_en": "Adverb in -ski without any prefix: prijateljski.",
-     "explain_ru": "Наречие на -ski без приставки: prijateljski («по-дружески»)."
+     "explain_ru": "Наречие на -ski без приставки: prijateljski («по-дружески»).",
+     "ui": {
+      "ru": {
+       "q": "Dočekali su nas ___. (prijatelj → наречие на -ski)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -6936,7 +6982,12 @@
       "Vas"
      ],
      "explain_en": "Accusative Vas, capitalized in letters.",
-     "explain_ru": "Винительный Vas, в письмах с большой буквы."
+     "explain_ru": "Винительный Vas, в письмах с большой буквы.",
+     "ui": {
+      "ru": {
+       "q": "Molimo ___ da nam pošaljete potvrdu. (вежливое «вы»)"
+      }
+     }
     },
     {
      "id": "e26",
@@ -6997,7 +7048,12 @@
       "Popravljamo"
      ],
      "explain_en": "Popravljati (imperfective) in the present: popravljamo.",
-     "explain_ru": "Popravljati (несов. вид) в настоящем времени: popravljamo («ремонтируем»)."
+     "explain_ru": "Popravljati (несов. вид) в настоящем времени: popravljamo («ремонтируем»).",
+     "ui": {
+      "ru": {
+       "q": "Vršimo popravku automobila. → ___ automobile. (глагольный стиль, 1-е лицо мн. ч.)"
+      }
+     }
     },
     {
      "id": "e30",

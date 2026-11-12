@@ -332,7 +332,17 @@
      ],
      "answer": 0,
      "explain_en": "Before a vowel the silent s of les is pronounced [z]: [lezami].",
-     "explain_ru": "Перед гласной немая s в les произносится как [з]: [лезами]. Это liaison."
+     "explain_ru": "Перед гласной немая s в les произносится как [з]: [лезами]. Это liaison.",
+     "ui": {
+      "ru": {
+       "q": "В 'les amis' буква s в 'les' произносится…",
+       "options": [
+        "[z] — из-за связывания (liaison)",
+        "[s]",
+        "никак"
+       ]
+      }
+     }
     },
     {
      "id": "e08",

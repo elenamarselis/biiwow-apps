@@ -881,7 +881,18 @@
      ],
      "answer": 0,
      "explain_en": "Auxiliary + participle (heb gedaan) is the red order; gedaan heb is the green order.",
-     "explain_ru": "Вспомогательный глагол + причастие (heb gedaan) — красный порядок; gedaan heb — зелёный."
+     "explain_ru": "Вспомогательный глагол + причастие (heb gedaan) — красный порядок; gedaan heb — зелёный.",
+     "ui": {
+      "ru": {
+       "q": "В 'dat ik het heb gedaan' порядок глаголов называется …",
+       "options": [
+        "«красный» порядок",
+        "«зелёный» порядок",
+        "инверсия",
+        "экстрапозиция"
+       ]
+      }
+     }
     },
     {
      "id": "e02",
@@ -6555,7 +6566,18 @@
      ],
      "answer": 3,
      "explain_en": "Polder Dutch lowers ei/ij towards aai.",
-     "explain_ru": "В «польдерском» нидерландском ei/ij звучит почти как aai."
+     "explain_ru": "В «польдерском» нидерландском ei/ij звучит почти как aai.",
+     "ui": {
+      "ru": {
+       "q": "Для Poldernederlands характерно …",
+       "options": [
+        "мягкое g, как в Лимбурге",
+        "много слов из сранан-тонго",
+        "употребление ge и gij",
+        "произношение ei/ij почти как aai (tijd ≈ taajd)"
+       ]
+      }
+     }
     },
     {
      "id": "e10",
