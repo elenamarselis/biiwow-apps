@@ -40,7 +40,7 @@ function viewPTest(w){const P=S.pt;if(!P){go("home");return;}if(P.loading){w.app
 function ptScore(answers){const by={};for(const L of LEVELS)by[L]={c:0,n:0};for(const a of answers){by[a.level].n++;if(a.ok)by[a.level].c++;}
   const pass=L=>by[L].n&&by[L].c/by[L].n>=0.66;let rec=LEVELS.find(L=>!pass(L))||null;return {by,rec,top:!rec};}
 function ptFinish(){const P=S.pt;const sc=ptScore(P.answers);const rec=sc.rec||LEVELS[LEVELS.length-1];
-  S.doc.placement={at:Date.now(),n:P.qs.length,level:rec,top:sc.top,by:sc.by,miss:P.answers.filter(a=>!a.ok).map(a=>a.kind==="w"?{level:a.level,kind:"w",id:a.item.id,en:a.item.en,tr:ptOpt(a.item)}:{level:a.level,kind:"g",sid:a.sec.id,title_en:a.sec.title_en,title_ru:a.sec.title_ru})};
+  S.doc.placement={app:LANG.code,at:Date.now(),n:P.qs.length,level:rec,top:sc.top,by:sc.by,miss:P.answers.filter(a=>!a.ok).map(a=>a.kind==="w"?{level:a.level,kind:"w",id:a.item.id,en:a.item.en,tr:ptOpt(a.item)}:{level:a.level,kind:"g",sid:a.sec.id,title_en:a.sec.title_en,title_ru:a.sec.title_ru})};
   touch();S.pt=null;go("ptresult");}
 function viewPTResult(w){const R=S.doc.placement;if(!R){go("home");return;}const rec=R.level,ri=LEVELS.indexOf(rec);
   const below=LEVELS.slice(0,R.top?LEVELS.length:ri);const belowTxt=below.length?(below.length>1?below[0]+"–"+below[below.length-1]:below[0]):"";

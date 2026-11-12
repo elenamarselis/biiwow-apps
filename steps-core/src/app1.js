@@ -83,7 +83,7 @@ const Voice={voices:[],unlocked:false,started:0,lastError:null,current:null,warn
 const S={doc:null,name:null,guest:false,secret:null,level:"A1",view:"welcome",setup:null,vocab:{},grammar:{},round:null,test:null,online:null,dirty:false,filter:{q:"",topic:""}};
 async function sha256(s){try{const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");}catch(e){let h=5381;for(const c of s)h=((h<<5)+h+c.charCodeAt(0))|0;return "h"+(h>>>0).toString(16);}}
 const isEmail=s=>/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(s||"").trim());
-const LSK="englishsteps.v1";
+const LSK_OLD="englishsteps.v1",LSK="biiwow.steps."+LANG.code+".v1";(()=>{try{if(!localStorage.getItem(LSK)){const o=localStorage.getItem(LSK_OLD);if(o)localStorage.setItem(LSK,o);}}catch(e){}})();
 function lsGet(){try{return JSON.parse(localStorage.getItem(LSK)||"{}");}catch(e){return {};}}
 function lsSet(o){try{localStorage.setItem(LSK,JSON.stringify(o));}catch(e){}}
 function lsPatch(fn){const o=lsGet();fn(o);lsSet(o);}

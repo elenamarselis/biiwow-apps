@@ -42,3 +42,19 @@ async function offPanel(box){box.innerHTML="";const rows=el("div",{class:"row",s
 {const _prog2=viewProgress;viewProgress=function(w){const r=_prog2(w);const box=el("div",{class:"card stack",style:"gap:8px"});const sec=section(t("offTitle"),box);const first=w.querySelectorAll("section")[1];if(first)first.before(sec);else w.append(sec);offPanel(box);return r;};}
 // save every level in the background shortly after the app starts (once per app version and device)
 setTimeout(()=>{try{const k="biiwow.offline."+(document.querySelector('script')?LANG.code:"")+"."+(navigator.serviceWorker&&navigator.serviceWorker.controller?"sw":"nosw");if(!navigator.onLine||(navigator.connection&&navigator.connection.saveData))return;offSaveAll();}catch(e){}},6000);
+/* ---------- each app keeps its own progress: clean a profile that was shared with other biiwow apps ---------- */
+async function appSanitize(doc){if(!doc||doc.app===LANG.code)return;const [vs,gs]=await Promise.all([Promise.all(LEVELS.map(vocabFor)),Promise.all(LEVELS.map(grammarFor))]);if(vs.some(x=>!x)||gs.some(x=>!x))return;
+  const wids=new Set(vs.flat().map(w=>w.id)),gids=new Set();LEVELS.forEach((L,i)=>gs[i].sections.forEach(s=>gids.add(L+":"+s.id)));
+  const words=doc.words||{},mixed=Object.keys(words).some(id=>!wids.has(id))||Object.keys(doc.grammar||{}).some(k=>!gids.has(k));
+  const keepW={};for(const[id,v]of Object.entries(words))if(wids.has(id))keepW[id]=v;doc.words=keepW;
+  const keepG={};for(const[k,v]of Object.entries(doc.grammar||{}))if(gids.has(k))keepG[k]=v;doc.grammar=keepG;
+  if(mixed){// keep only rounds that can be traced to this app's own words or grammar chapters, then recount points
+    const times=[];for(const v of Object.values(keepW))if(v&&v.last)times.push(v.last);for(const v of Object.values(keepG))if(v&&v.lastAt)times.push(v.lastAt);
+    const near=at=>times.some(x=>Math.abs(x-at)<5000);doc.sessions=(doc.sessions||[]).filter(s=>s.app===LANG.code||(!s.app&&(near(s.at)||(s.game==="gap"&&LEVELS.includes(s.level)))));
+    doc.points=doc.sessions.reduce((a,s)=>a+(s.points||0),0);doc.gapOk={};doc.best={};
+    const days=new Set(doc.sessions.map(s=>dayKey(new Date(s.at))));if(!days.size){doc.streakDays=0;doc.lastDay=null;}}
+  const pl=doc.placement;if(pl&&pl.app!==LANG.code){const ok=!pl.app&&LEVELS.includes(pl.level)&&(pl.miss||[]).length>0&&(pl.miss||[]).every(m=>m.kind==="w"?wids.has(m.id):gids.has(m.level+":"+m.sid));if(ok)pl.app=LANG.code;else delete doc.placement;}
+  for(const s of doc.sessions||[])if(!s.app)s.app=LANG.code;doc.app=LANG.code;
+  if(S.doc===doc){if(!LEVELS.includes(S.level))S.level=LEVELS[0];touch();render();}}
+{const _act=activate;activate=function(doc,key,opts){const r=_act(doc,key,opts);setTimeout(()=>appSanitize(S.doc),0);return r;};}
+{const _touch=touch;touch=function(){if(S.doc&&S.doc.app===LANG.code)for(const s of S.doc.sessions||[])if(!s.app)s.app=LANG.code;return _touch();};}

@@ -13,7 +13,7 @@
 <link rel="icon" href="icons/icon-192.png">
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}img{max-width:100%}</style>
 <script src="https://js.sentry-cdn.com/835e9ccc2ba373339738d349c725c85b.min.js" crossorigin="anonymous"></script>
-<script>window.sentryOnLoad=function(){Sentry.init({release:"biiwow-english-steps@1794511791877",environment:"production",sendDefaultPii:false});};</script>
+<script>window.sentryOnLoad=function(){Sentry.init({release:"biiwow-english-steps@1794512296231",environment:"production",sendDefaultPii:false});};</script>
 <title>biiwow English Steps</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400&display=swap">
@@ -352,7 +352,7 @@ const Voice={voices:[],unlocked:false,started:0,lastError:null,current:null,warn
 const S={doc:null,name:null,guest:false,secret:null,level:"A1",view:"welcome",setup:null,vocab:{},grammar:{},round:null,test:null,online:null,dirty:false,filter:{q:"",topic:""}};
 async function sha256(s){try{const b=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(s));return [...new Uint8Array(b)].map(x=>x.toString(16).padStart(2,"0")).join("");}catch(e){let h=5381;for(const c of s)h=((h<<5)+h+c.charCodeAt(0))|0;return "h"+(h>>>0).toString(16);}}
 const isEmail=s=>/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(s||"").trim());
-const LSK="englishsteps.v1";
+const LSK_OLD="englishsteps.v1",LSK="biiwow.steps."+LANG.code+".v1";(()=>{try{if(!localStorage.getItem(LSK)){const o=localStorage.getItem(LSK_OLD);if(o)localStorage.setItem(LSK,o);}}catch(e){}})();
 function lsGet(){try{return JSON.parse(localStorage.getItem(LSK)||"{}");}catch(e){return {};}}
 function lsSet(o){try{localStorage.setItem(LSK,JSON.stringify(o));}catch(e){}}
 function lsPatch(fn){const o=lsGet();fn(o);lsSet(o);}
@@ -633,7 +633,7 @@ function viewPTest(w){const P=S.pt;if(!P){go("home");return;}if(P.loading){w.app
 function ptScore(answers){const by={};for(const L of LEVELS)by[L]={c:0,n:0};for(const a of answers){by[a.level].n++;if(a.ok)by[a.level].c++;}
   const pass=L=>by[L].n&&by[L].c/by[L].n>=0.66;let rec=LEVELS.find(L=>!pass(L))||null;return {by,rec,top:!rec};}
 function ptFinish(){const P=S.pt;const sc=ptScore(P.answers);const rec=sc.rec||LEVELS[LEVELS.length-1];
-  S.doc.placement={at:Date.now(),n:P.qs.length,level:rec,top:sc.top,by:sc.by,miss:P.answers.filter(a=>!a.ok).map(a=>a.kind==="w"?{level:a.level,kind:"w",id:a.item.id,en:a.item.en,tr:ptOpt(a.item)}:{level:a.level,kind:"g",sid:a.sec.id,title_en:a.sec.title_en,title_ru:a.sec.title_ru})};
+  S.doc.placement={app:LANG.code,at:Date.now(),n:P.qs.length,level:rec,top:sc.top,by:sc.by,miss:P.answers.filter(a=>!a.ok).map(a=>a.kind==="w"?{level:a.level,kind:"w",id:a.item.id,en:a.item.en,tr:ptOpt(a.item)}:{level:a.level,kind:"g",sid:a.sec.id,title_en:a.sec.title_en,title_ru:a.sec.title_ru})};
   touch();S.pt=null;go("ptresult");}
 function viewPTResult(w){const R=S.doc.placement;if(!R){go("home");return;}const rec=R.level,ri=LEVELS.indexOf(rec);
   const below=LEVELS.slice(0,R.top?LEVELS.length:ri);const belowTxt=below.length?(below.length>1?below[0]+"–"+below[below.length-1]:below[0]):"";
@@ -761,6 +761,22 @@ async function offPanel(box){box.innerHTML="";const rows=el("div",{class:"row",s
 {const _prog2=viewProgress;viewProgress=function(w){const r=_prog2(w);const box=el("div",{class:"card stack",style:"gap:8px"});const sec=section(t("offTitle"),box);const first=w.querySelectorAll("section")[1];if(first)first.before(sec);else w.append(sec);offPanel(box);return r;};}
 // save every level in the background shortly after the app starts (once per app version and device)
 setTimeout(()=>{try{const k="biiwow.offline."+(document.querySelector('script')?LANG.code:"")+"."+(navigator.serviceWorker&&navigator.serviceWorker.controller?"sw":"nosw");if(!navigator.onLine||(navigator.connection&&navigator.connection.saveData))return;offSaveAll();}catch(e){}},6000);
+/* ---------- each app keeps its own progress: clean a profile that was shared with other biiwow apps ---------- */
+async function appSanitize(doc){if(!doc||doc.app===LANG.code)return;const [vs,gs]=await Promise.all([Promise.all(LEVELS.map(vocabFor)),Promise.all(LEVELS.map(grammarFor))]);if(vs.some(x=>!x)||gs.some(x=>!x))return;
+  const wids=new Set(vs.flat().map(w=>w.id)),gids=new Set();LEVELS.forEach((L,i)=>gs[i].sections.forEach(s=>gids.add(L+":"+s.id)));
+  const words=doc.words||{},mixed=Object.keys(words).some(id=>!wids.has(id))||Object.keys(doc.grammar||{}).some(k=>!gids.has(k));
+  const keepW={};for(const[id,v]of Object.entries(words))if(wids.has(id))keepW[id]=v;doc.words=keepW;
+  const keepG={};for(const[k,v]of Object.entries(doc.grammar||{}))if(gids.has(k))keepG[k]=v;doc.grammar=keepG;
+  if(mixed){// keep only rounds that can be traced to this app's own words or grammar chapters, then recount points
+    const times=[];for(const v of Object.values(keepW))if(v&&v.last)times.push(v.last);for(const v of Object.values(keepG))if(v&&v.lastAt)times.push(v.lastAt);
+    const near=at=>times.some(x=>Math.abs(x-at)<5000);doc.sessions=(doc.sessions||[]).filter(s=>s.app===LANG.code||(!s.app&&(near(s.at)||(s.game==="gap"&&LEVELS.includes(s.level)))));
+    doc.points=doc.sessions.reduce((a,s)=>a+(s.points||0),0);doc.gapOk={};doc.best={};
+    const days=new Set(doc.sessions.map(s=>dayKey(new Date(s.at))));if(!days.size){doc.streakDays=0;doc.lastDay=null;}}
+  const pl=doc.placement;if(pl&&pl.app!==LANG.code){const ok=!pl.app&&LEVELS.includes(pl.level)&&(pl.miss||[]).length>0&&(pl.miss||[]).every(m=>m.kind==="w"?wids.has(m.id):gids.has(m.level+":"+m.sid));if(ok)pl.app=LANG.code;else delete doc.placement;}
+  for(const s of doc.sessions||[])if(!s.app)s.app=LANG.code;doc.app=LANG.code;
+  if(S.doc===doc){if(!LEVELS.includes(S.level))S.level=LEVELS[0];touch();render();}}
+{const _act=activate;activate=function(doc,key,opts){const r=_act(doc,key,opts);setTimeout(()=>appSanitize(S.doc),0);return r;};}
+{const _touch=touch;touch=function(){if(S.doc&&S.doc.app===LANG.code)for(const s of S.doc.sessions||[])if(!s.app)s.app=LANG.code;return _touch();};}
 (async()=>{Voice.init();const ls=lsGet();UI=ls.ui||((navigator.language||"").toLowerCase().startsWith("ru")?"ru":"en");render();if(ls.profile)await reopenSaved(ls.profile);})();
 </script>
 
