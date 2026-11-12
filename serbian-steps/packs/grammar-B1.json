@@ -306,7 +306,12 @@
      "q": "The dative/locative singular of 'ruka' is 'ruki'.",
      "answer": false,
      "explain_en": "False. k changes to c before -i: ruci (u ruci, dao sam ruci).",
-     "explain_ru": "Неверно. Перед -i k переходит в c: ruci (u ruci). В русском такого чередования нет («в руке»)."
+     "explain_ru": "Неверно. Перед -i k переходит в c: ruci (u ruci). В русском такого чередования нет («в руке»).",
+     "ui": {
+      "ru": {
+       "q": "Дательный/местный падеж единственного числа от 'ruka' — 'ruki'."
+      }
+     }
     },
     {
      "id": "e05",
@@ -416,7 +421,12 @@
      "q": "The sentence 'Braća su došla' is correct: braća takes plural agreement.",
      "answer": true,
      "explain_en": "True. Braća declines like a feminine singular but agrees in the plural: su došla.",
-     "explain_ru": "Верно. Braća склоняется как женский род единственного числа, но согласуется во множественном: su došla. В русском «братья пришли» — обычное множественное."
+     "explain_ru": "Верно. Braća склоняется как женский род единственного числа, но согласуется во множественном: su došla. В русском «братья пришли» — обычное множественное.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'Braća su došla' правильное: braća согласуется во множественном числе."
+      }
+     }
     },
     {
      "id": "e13",
@@ -529,7 +539,12 @@
      "q": "'Noću' is the instrumental singular of 'noć'.",
      "answer": true,
      "explain_en": "True. Feminine nouns in a consonant have an instrumental in -i or -ju: noći / noću.",
-     "explain_ru": "Верно. У существительных женского рода на согласный творительный падеж на -i или -ju: noći / noću («ночью»)."
+     "explain_ru": "Верно. У существительных женского рода на согласный творительный падеж на -i или -ju: noći / noću («ночью»).",
+     "ui": {
+      "ru": {
+       "q": "'Noću' — творительный падеж единственного числа от 'noć'."
+      }
+     }
     },
     {
      "id": "e21",
@@ -665,7 +680,12 @@
      "q": "The plural of 'gospodin' is 'gospodini'.",
      "answer": false,
      "explain_en": "False. The plural is the collective gospoda: Dame i gospodo!",
-     "explain_ru": "Неверно. Множественное число — собирательное gospoda: Dame i gospodo! («Дамы и господа!»)."
+     "explain_ru": "Неверно. Множественное число — собирательное gospoda: Dame i gospodo! («Дамы и господа!»).",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от 'gospodin' — 'gospodini'."
+      }
+     }
     }
    ]
   },
@@ -974,7 +994,12 @@
      "q": "In 'Živim u Novom Sadu', 'Novom' is a definite adjective form.",
      "answer": true,
      "explain_en": "True. Place names use the definite form (Novi Sad), here in the locative: Novom Sadu.",
-     "explain_ru": "Верно. В названиях используется определённая форма (Novi Sad), здесь в местном падеже: Novom Sadu."
+     "explain_ru": "Верно. В названиях используется определённая форма (Novi Sad), здесь в местном падеже: Novom Sadu.",
+     "ui": {
+      "ru": {
+       "q": "В 'Živim u Novom Sadu' 'Novom' — определённая форма прилагательного."
+      }
+     }
     },
     {
      "id": "e05",
@@ -1086,7 +1111,12 @@
      "q": "Adjectives in -ski, like 'srpski', have both a definite and an indefinite form.",
      "answer": false,
      "explain_en": "False. Adjectives in -ski, -ji, -nji and comparatives have only the definite form.",
-     "explain_ru": "Неверно. Прилагательные на -ski, -ji, -nji и сравнительная степень имеют только определённую форму."
+     "explain_ru": "Неверно. Прилагательные на -ski, -ji, -nji и сравнительная степень имеют только определённую форму.",
+     "ui": {
+      "ru": {
+       "q": "У прилагательных на -ski, например 'srpski', есть и определённая, и неопределённая форма."
+      }
+     }
     },
     {
      "id": "e13",
@@ -1202,7 +1232,12 @@
      "q": "In 'To je moja sestra', the pronoun 'to' should be changed to 'ta' because sestra is feminine.",
      "answer": false,
      "explain_en": "False. The subject pronoun to/ovo/ono before a noun stays neuter, like Russian это: To je moja sestra.",
-     "explain_ru": "Неверно. Местоимение-подлежащее to/ovo/ono перед существительным остаётся в среднем роде, как русское «это»: To je moja sestra."
+     "explain_ru": "Неверно. Местоимение-подлежащее to/ovo/ono перед существительным остаётся в среднем роде, как русское «это»: To je moja sestra.",
+     "ui": {
+      "ru": {
+       "q": "В 'To je moja sestra' местоимение 'to' нужно заменить на 'ta', потому что sestra — женского рода."
+      }
+     }
     },
     {
      "id": "e21",
@@ -1339,7 +1374,12 @@
      "q": "'Kome si dao ključ?' uses the dative of 'ko'.",
      "answer": true,
      "explain_en": "True. Ko – koga – kome; the dative asks 'to whom'.",
-     "explain_ru": "Верно. Ko – koga – kome; дательный падеж отвечает на вопрос «кому»."
+     "explain_ru": "Верно. Ko – koga – kome; дательный падеж отвечает на вопрос «кому».",
+     "ui": {
+      "ru": {
+       "q": "В 'Kome si dao ključ?' употреблён дательный падеж от 'ko'."
+      }
+     }
     }
    ]
   },
@@ -1620,7 +1660,12 @@
      "q": "'Dva dobrih prijatelja' is the correct way to say 'two good friends'.",
      "answer": false,
      "explain_en": "False. The adjective also takes the paucal -a: dva dobra prijatelja.",
-     "explain_ru": "Неверно. Прилагательное тоже стоит в паукальной форме на -a: dva dobra prijatelja. Русская модель «два хороших друга» (род. мн.) в сербском не работает."
+     "explain_ru": "Неверно. Прилагательное тоже стоит в паукальной форме на -a: dva dobra prijatelja. Русская модель «два хороших друга» (род. мн.) в сербском не работает.",
+     "ui": {
+      "ru": {
+       "q": "'Dva dobrih prijatelja' — правильный способ сказать 'два хороших друга'."
+      }
+     }
     },
     {
      "id": "e05",
@@ -1731,7 +1776,15 @@
      "q": "In Serbian 'pet' changes form in oblique cases, as Russian пять does (пяти, пятью).",
      "answer": false,
      "explain_en": "False. Pet and higher numbers never decline: sa pet prijatelja, o pet knjiga.",
-     "explain_ru": "Неверно. Pet и выше никогда не склоняются: sa pet prijatelja, o pet knjiga. В русском «с пятью друзьями» — числительное меняется, в сербском нет."
+     "explain_ru": "Неверно. Pet и выше никогда не склоняются: sa pet prijatelja, o pet knjiga. В русском «с пятью друзьями» — числительное меняется, в сербском нет.",
+     "ui": {
+      "en": {
+       "q": "In Serbian 'pet' changes form in oblique cases, as the Russian numeral for 'five' does ('pyati, pyatyu')."
+      },
+      "ru": {
+       "q": "В сербском 'pet' изменяется в косвенных падежах, как русское пять (пяти, пятью)."
+      }
+     }
     },
     {
      "id": "e13",
@@ -1844,7 +1897,12 @@
      "q": "'Dvojica' is used for a group of two men.",
      "answer": true,
      "explain_en": "True. Dvojica, trojica, petorica + genitive plural refer to groups of males only.",
-     "explain_ru": "Верно. Dvojica, trojica, petorica + родительный множественного обозначают группы только из мужчин: dvojica momaka."
+     "explain_ru": "Верно. Dvojica, trojica, petorica + родительный множественного обозначают группы только из мужчин: dvojica momaka.",
+     "ui": {
+      "ru": {
+       "q": "'Dvojica' употребляется для группы из двух мужчин."
+      }
+     }
     },
     {
      "id": "e21",
@@ -1979,7 +2037,12 @@
      "q": "'Koliko godina imaš?' uses the genitive plural of 'godina'.",
      "answer": true,
      "explain_en": "True. Koliko + genitive plural; the form godina is written like the nominative singular.",
-     "explain_ru": "Верно. Koliko + родительный множественного; форма godina пишется так же, как именительный единственного, но с долгим -a."
+     "explain_ru": "Верно. Koliko + родительный множественного; форма godina пишется так же, как именительный единственного, но с долгим -a.",
+     "ui": {
+      "ru": {
+       "q": "В 'Koliko godina imaš?' употреблён родительный падеж множественного числа от 'godina'."
+      }
+     }
     }
    ]
   },
@@ -2228,7 +2291,12 @@
      ],
      "answer": 0,
      "explain_en": "A completed action in the past: perfective perfekat pročitao.",
-     "explain_ru": "Завершённое действие в прошлом — перфект совершенного вида: pročitao."
+     "explain_ru": "Завершённое действие в прошлом — перфект совершенного вида: pročitao.",
+     "ui": {
+      "en": {
+       "q": "Juče sam ___ ceo roman. (read through)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -2238,7 +2306,12 @@
       "plaćam"
      ],
      "explain_en": "A repeated action: imperfective plaćati – plaćam.",
-     "explain_ru": "Повторяющееся действие — несовершенный вид plaćati – plaćam («плачу»)."
+     "explain_ru": "Повторяющееся действие — несовершенный вид plaćati – plaćam («плачу»).",
+     "ui": {
+      "en": {
+       "q": "Svakog meseca ___ (to pay) račune na vreme."
+      }
+     }
     },
     {
      "id": "e03",
@@ -2252,7 +2325,12 @@
      ],
      "answer": 2,
      "explain_en": "In a kad clause about the future Serbian uses the perfective present, not futur I: kad napišem.",
-     "explain_ru": "В придаточном с kad о будущем — настоящее совершенного вида, а не futur I: kad napišem. Русское «когда напишу» формально похоже, но 'kad ću napisati' в сербском невозможно."
+     "explain_ru": "В придаточном с kad о будущем — настоящее совершенного вида, а не futur I: kad napišem. Русское «когда напишу» формально похоже, но 'kad ću napisati' в сербском невозможно.",
+     "ui": {
+      "en": {
+       "q": "Kad ___ pismo, poslaću ga. (I write, I've written)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -2260,7 +2338,12 @@
      "q": "'Napišem ti sutra' is a correct way to say 'I'll write to you tomorrow'.",
      "answer": false,
      "explain_en": "False. The perfective present is not a future in a main clause; say Napisaću ti sutra.",
-     "explain_ru": "Неверно. Настоящее совершенного вида в главном предложении не выражает будущее; нужно Napisaću ti sutra. Русское «напишу тебе завтра» здесь обманчиво."
+     "explain_ru": "Неверно. Настоящее совершенного вида в главном предложении не выражает будущее; нужно Napisaću ti sutra. Русское «напишу тебе завтра» здесь обманчиво.",
+     "ui": {
+      "ru": {
+       "q": "'Napišem ti sutra' — правильный способ сказать 'Я напишу тебе завтра'."
+      }
+     }
     },
     {
      "id": "e05",
@@ -2325,7 +2408,12 @@
       "Zatvori"
      ],
      "explain_en": "A single positive command: perfective imperative Zatvori!",
-     "explain_ru": "Однократная положительная команда — императив совершенного вида: Zatvori!"
+     "explain_ru": "Однократная положительная команда — императив совершенного вида: Zatvori!",
+     "ui": {
+      "en": {
+       "q": "___ (close) prozor, hladno je!"
+      }
+     }
     },
     {
      "id": "e09",
@@ -2351,7 +2439,12 @@
       "spremao/spremala"
      ],
      "explain_en": "Background process in the past: imperfective spremati – spremao/spremala.",
-     "explain_ru": "Фоновый процесс в прошлом — несовершенный вид spremati – spremao/spremala («готовил/готовила»)."
+     "explain_ru": "Фоновый процесс в прошлом — несовершенный вид spremati – spremao/spremala («готовил/готовила»).",
+     "ui": {
+      "en": {
+       "q": "Dok sam ___ (to prepare) večeru, deca su gledala crtani."
+      }
+     }
     },
     {
      "id": "e11",
@@ -2365,7 +2458,12 @@
      ],
      "answer": 0,
      "explain_en": "Duration (ceo dan) requires the imperfective infinitive: raditi.",
-     "explain_ru": "Длительность (ceo dan) требует инфинитива несовершенного вида: raditi («буду работать»)."
+     "explain_ru": "Длительность (ceo dan) требует инфинитива несовершенного вида: raditi («буду работать»).",
+     "ui": {
+      "en": {
+       "q": "Sutra ću ___ ceo dan. (I will be working)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -2373,7 +2471,12 @@
      "q": "The verb 'videti' can be used as both perfective and imperfective.",
      "answer": true,
      "explain_en": "True. Videti, čuti, ručati and most verbs in -irati/-ovati are biaspectual.",
-     "explain_ru": "Верно. Videti, čuti, ručati и большинство глаголов на -irati/-ovati двувидовые; в русском здесь пара «видеть – увидеть»."
+     "explain_ru": "Верно. Videti, čuti, ručati и большинство глаголов на -irati/-ovati двувидовые; в русском здесь пара «видеть – увидеть».",
+     "ui": {
+      "ru": {
+       "q": "Глагол 'videti' может употребляться и в совершенном, и в несовершенном виде."
+      }
+     }
     },
     {
      "id": "e13",
@@ -2402,7 +2505,12 @@
       "budeš učio/učila"
      ],
      "explain_en": "Futur II of the imperfective: ako budeš učio.",
-     "explain_ru": "Futur II несовершенного вида: ako budeš učio («если будешь учиться»). В русском — простое будущее «будешь учиться»."
+     "explain_ru": "Futur II несовершенного вида: ako budeš učio («если будешь учиться»). В русском — простое будущее «будешь учиться».",
+     "ui": {
+      "en": {
+       "q": "Ako ___ (you study, you will be studying), položićeš ispit."
+      }
+     }
     },
     {
      "id": "e15",
@@ -2453,7 +2561,12 @@
       "pokucao"
      ],
      "explain_en": "A single quick action: kucnuti – kucnuo (or pokucati – pokucao).",
-     "explain_ru": "Однократное быстрое действие: kucnuti – kucnuo (или pokucati – pokucao)."
+     "explain_ru": "Однократное быстрое действие: kucnuti – kucnuo (или pokucati – pokucao).",
+     "ui": {
+      "en": {
+       "q": "Neko je ___ (knocked) na vrata."
+      }
+     }
     },
     {
      "id": "e18",
@@ -2489,7 +2602,12 @@
      "q": "After 'početi' (to begin) you can use either aspect: 'Počeo je da napiše pismo' is fine.",
      "answer": false,
      "explain_en": "False. Phase verbs take only the imperfective: Počeo je da piše pismo.",
-     "explain_ru": "Неверно. Фазовые глаголы сочетаются только с несовершенным видом: Počeo je da piše pismo («начал писать»)."
+     "explain_ru": "Неверно. Фазовые глаголы сочетаются только с несовершенным видом: Počeo je da piše pismo («начал писать»).",
+     "ui": {
+      "ru": {
+       "q": "После 'početi' (начать) можно использовать любой вид: 'Počeo je da napiše pismo' — правильно."
+      }
+     }
     },
     {
      "id": "e21",
@@ -2501,7 +2619,12 @@
       "ustao/ustala"
      ],
      "explain_en": "A single past event: perfective ustati – ustao/ustala.",
-     "explain_ru": "Однократное событие в прошлом — совершенный вид ustati – ustao/ustala («встал/встала»)."
+     "explain_ru": "Однократное событие в прошлом — совершенный вид ustati – ustao/ustala («встал/встала»).",
+     "ui": {
+      "en": {
+       "q": "Ustajem rano, ali danas sam ___ (got up) u deset."
+      }
+     }
     },
     {
      "id": "e22",
@@ -2515,7 +2638,12 @@
      ],
      "answer": 3,
      "explain_en": "Pot- gives potpisati 'to sign'; prepisati = copy, opisati = describe, upisati = enrol.",
-     "explain_ru": "Pot- даёт potpisati «подписать»; prepisati — переписать, opisati — описать, upisati — записать/зачислить."
+     "explain_ru": "Pot- даёт potpisati «подписать»; prepisati — переписать, opisati — описать, upisati — записать/зачислить.",
+     "ui": {
+      "en": {
+       "q": "Pisati → ___ (to sign)"
+      }
+     }
     },
     {
      "id": "e23",
@@ -2525,7 +2653,12 @@
       "sačekali"
      ],
      "explain_en": "Konačno (finally) signals a completed result: perfective sačekali.",
-     "explain_ru": "Konačno («наконец») указывает на завершённый результат — совершенный вид sačekali."
+     "explain_ru": "Konačno («наконец») указывает на завершённый результат — совершенный вид sačekali.",
+     "ui": {
+      "en": {
+       "q": "Čekali smo autobus skoro sat vremena i konačno smo ___ (waited long enough for it to come, sačekati)."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2580,7 +2713,33 @@
        "popiti",
        "выпить"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "zaspati",
+         "to fall asleep"
+        ],
+        [
+         "odspavati",
+         "to have a nap"
+        ],
+        [
+         "prespavati",
+         "to sleep through, oversleep"
+        ],
+        [
+         "najesti se",
+         "to eat one's fill"
+        ],
+        [
+         "popiti",
+         "to drink up"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2594,7 +2753,12 @@
      ],
      "answer": 1,
      "explain_en": "General advice about a habit: imperfective imperative Pij!",
-     "explain_ru": "Общий совет о привычке — императив несовершенного вида: Pij! («пей»)."
+     "explain_ru": "Общий совет о привычке — императив несовершенного вида: Pij! («пей»).",
+     "ui": {
+      "en": {
+       "q": "___ više vode svaki dan! (drink)"
+      }
+     }
     },
     {
      "id": "e28",
@@ -2604,7 +2768,12 @@
       "najela"
      ],
      "explain_en": "Najesti se (eat one's fill): deca takes the plural participle in -a: najela.",
-     "explain_ru": "Najesti se («наесться»): при deca причастие множественного числа на -a: najela."
+     "explain_ru": "Najesti se («наесться»): при deca причастие множественного числа на -a: najela.",
+     "ui": {
+      "en": {
+       "q": "Deca su se ___ (ate their fill) kolača."
+      }
+     }
     },
     {
      "id": "e29",
@@ -2626,7 +2795,12 @@
      "q": "In 'Kad budem završio posao, zvaću te', the form 'budem završio' is futur II.",
      "answer": true,
      "explain_en": "True. Futur II (budem + radni pridev) is used in time and condition clauses; with perfectives the simple present (kad završim) is equally common.",
-     "explain_ru": "Верно. Futur II (budem + причастие) употребляется в придаточных времени и условия; с совершенным видом столь же часто простое настоящее (kad završim)."
+     "explain_ru": "Верно. Futur II (budem + причастие) употребляется в придаточных времени и условия; с совершенным видом столь же часто простое настоящее (kad završim).",
+     "ui": {
+      "ru": {
+       "q": "В 'Kad budem završio posao, zvaću te' форма 'budem završio' — это futur II."
+      }
+     }
     }
    ]
   },
@@ -2885,7 +3059,12 @@
       "bismo"
      ],
      "explain_en": "First person plural: bismo.",
-     "explain_ru": "Первое лицо множественного числа: bismo («мы бы»)."
+     "explain_ru": "Первое лицо множественного числа: bismo («мы бы»).",
+     "ui": {
+      "en": {
+       "q": "Mi ___ (would) ostali još malo."
+      }
+     }
     },
     {
      "id": "e03",
@@ -2907,7 +3086,12 @@
      "q": "In 'Kad bih imao vremena, putovao bih', 'kad' means 'when'.",
      "answer": false,
      "explain_en": "False. Kad bi + potencijal means 'if (hypothetically)', like Russian если бы.",
-     "explain_ru": "Неверно. Kad bi + potencijal значит «если бы», а не «когда»; это главный сербский эквивалент русского «если бы»."
+     "explain_ru": "Неверно. Kad bi + potencijal значит «если бы», а не «когда»; это главный сербский эквивалент русского «если бы».",
+     "ui": {
+      "ru": {
+       "q": "В 'Kad bih imao vremena, putovao bih' 'kad' значит 'когда'."
+      }
+     }
     },
     {
      "id": "e05",
@@ -2968,7 +3152,12 @@
       "biste"
      ],
      "explain_en": "Second person plural: biste; it follows li.",
-     "explain_ru": "Второе лицо множественного числа: biste; стоит после li."
+     "explain_ru": "Второе лицо множественного числа: biste; стоит после li.",
+     "ui": {
+      "en": {
+       "q": "Da li ___ (would, vi) mi pomogli oko prevoda?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -2992,7 +3181,12 @@
       "da bih"
      ],
      "explain_en": "Purpose with a conjugated particle: da bih (I).",
-     "explain_ru": "Цель с спрягаемой частицей: da bih («чтобы я»). Русское «чтобы» не меняется по лицам."
+     "explain_ru": "Цель с спрягаемой частицей: da bih («чтобы я»). Русское «чтобы» не меняется по лицам.",
+     "ui": {
+      "en": {
+       "q": "Učim srpski ___ (so that I) razumeo ljude."
+      }
+     }
     },
     {
      "id": "e11",
@@ -3014,7 +3208,12 @@
      "q": "'Ako će padati kiša, ostaćemo kući' is correct Serbian.",
      "answer": false,
      "explain_en": "False. Futur I is not used after ako; say Ako padne / Ako bude padala kiša.",
-     "explain_ru": "Неверно. После ako не употребляется futur I; нужно Ako padne / Ako bude padala kiša. Русское «если будет идти дождь» не калькируется."
+     "explain_ru": "Неверно. После ako не употребляется futur I; нужно Ako padne / Ako bude padala kiša. Русское «если будет идти дождь» не калькируется.",
+     "ui": {
+      "ru": {
+       "q": "'Ako će padati kiša, ostaćemo kući' — правильно по-сербски."
+      }
+     }
     },
     {
      "id": "e13",
@@ -3043,7 +3242,12 @@
       "Želeo bih"
      ],
      "explain_en": "Polite request: Hteo bih / Želeo bih + accusative.",
-     "explain_ru": "Вежливая просьба: Hteo bih / Želeo bih + винительный («я бы хотел»)."
+     "explain_ru": "Вежливая просьба: Hteo bih / Želeo bih + винительный («я бы хотел»).",
+     "ui": {
+      "en": {
+       "q": "___ (I would like, m.) jednu kafu, molim vas."
+      }
+     }
     },
     {
      "id": "e15",
@@ -3089,7 +3293,12 @@
       "padala"
      ],
      "explain_en": "Unreal past: da + perfekat (nije padala).",
-     "explain_ru": "Нереальное прошлое: da + перфект (nije padala — «если бы не шёл дождь»)."
+     "explain_ru": "Нереальное прошлое: da + перфект (nije padala — «если бы не шёл дождь»).",
+     "ui": {
+      "en": {
+       "q": "Da nije ___ (to fall, of rain) kiša, išli bismo na izlet."
+      }
+     }
     },
     {
      "id": "e18",
@@ -3128,7 +3337,12 @@
      "q": "'Da imam auto, vozio bih te na posao' means the speaker does not have a car.",
      "answer": true,
      "explain_en": "True. Da + present marks a counterfactual condition in the present.",
-     "explain_ru": "Верно. Da + настоящее обозначает условие, противоречащее факту сейчас: машины у говорящего нет."
+     "explain_ru": "Верно. Da + настоящее обозначает условие, противоречащее факту сейчас: машины у говорящего нет.",
+     "ui": {
+      "ru": {
+       "q": "'Da imam auto, vozio bih te na posao' значит, что у говорящего нет машины."
+      }
+     }
     },
     {
      "id": "e21",
@@ -3138,7 +3352,12 @@
       "bi"
      ],
      "explain_en": "Third person singular: bi, right after the conjunction da.",
-     "explain_ru": "Третье лицо единственного числа: bi, сразу после союза da."
+     "explain_ru": "Третье лицо единственного числа: bi, сразу после союза da.",
+     "ui": {
+      "en": {
+       "q": "Rekla je da ___ (would) rado došla."
+      }
+     }
     },
     {
      "id": "e22",
@@ -3162,7 +3381,12 @@
       "bismo"
      ],
      "explain_en": "Habitual past with the conditional: bismo išli (we used to go).",
-     "explain_ru": "Повторяющееся действие в прошлом с условным наклонением: bismo išli («бывало, ездили»)."
+     "explain_ru": "Повторяющееся действие в прошлом с условным наклонением: bismo išli («бывало, ездили»).",
+     "ui": {
+      "en": {
+       "q": "Svako leto ___ (would, mi) išli kod bake na selo."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3214,7 +3438,29 @@
        "Trebalo bi da odeš lekaru.",
        "совет"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Hteo bih kafu.",
+         "request"
+        ],
+        [
+         "Mogli bismo da odemo.",
+         "suggestion"
+        ],
+        [
+         "Rekao bih da je tako.",
+         "opinion"
+        ],
+        [
+         "Trebalo bi da odeš lekaru.",
+         "advice"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3238,7 +3484,12 @@
       "požurimo"
      ],
      "explain_en": "Real condition: ako + perfective present požurimo.",
-     "explain_ru": "Реальное условие: ako + настоящее совершенного вида požurimo («если не поторопимся»)."
+     "explain_ru": "Реальное условие: ako + настоящее совершенного вида požurimo («если не поторопимся»).",
+     "ui": {
+      "en": {
+       "q": "Ako ne ___ (we hurry), zakasnićemo na voz."
+      }
+     }
     },
     {
      "id": "e29",
@@ -3252,7 +3503,12 @@
      ],
      "answer": 3,
      "explain_en": "Da + perfekat (da sam znao) is the unreal past condition.",
-     "explain_ru": "Da + перфект (da sam znao) — нереальное условие в прошлом: «если бы я (тогда) знал». Русское «если бы знал» не различает время — сербское различает."
+     "explain_ru": "Da + перфект (da sam znao) — нереальное условие в прошлом: «если бы я (тогда) знал». Русское «если бы знал» не различает время — сербское различает.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении говорится, что говорящий НЕ знал (в прошлом)?"
+      }
+     }
     },
     {
      "id": "e30",
@@ -3260,7 +3516,12 @@
      "q": "In standard Serbian 'mi bi radili' is the correct first person plural conditional.",
      "answer": false,
      "explain_en": "False. The standard form is mi bismo radili; 'mi bi' is colloquial.",
-     "explain_ru": "Неверно. Нормативная форма — mi bismo radili; 'mi bi' — разговорный вариант."
+     "explain_ru": "Неверно. Нормативная форма — mi bismo radili; 'mi bi' — разговорный вариант.",
+     "ui": {
+      "ru": {
+       "q": "В литературном сербском 'mi bi radili' — правильная форма условного наклонения 1-го лица множественного числа."
+      }
+     }
     }
    ]
   },
@@ -3543,7 +3804,12 @@
      "q": "In 'čovek koji mi je pomogao', the clitics 'mi je' stand right after 'koji'.",
      "answer": true,
      "explain_en": "True. Clitics come immediately after the relative word in their fixed order.",
-     "explain_ru": "Верно. Клитики стоят сразу после относительного слова в фиксированном порядке; порядок русского «который мне помог» переносить нельзя."
+     "explain_ru": "Верно. Клитики стоят сразу после относительного слова в фиксированном порядке; порядок русского «который мне помог» переносить нельзя.",
+     "ui": {
+      "ru": {
+       "q": "В 'čovek koji mi je pomogao' энклитики 'mi je' стоят сразу после 'koji'."
+      }
+     }
     },
     {
      "id": "e05",
@@ -3610,7 +3876,12 @@
       "kad"
      ],
      "explain_en": "A relative clause about time: dan kada / kad.",
-     "explain_ru": "Относительное предложение о времени: dan kada / kad («день, когда»)."
+     "explain_ru": "Относительное предложение о времени: dan kada / kad («день, когда»).",
+     "ui": {
+      "en": {
+       "q": "Sećam se dana ___ smo se upoznali. (when)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -3634,7 +3905,12 @@
       "koju"
      ],
      "explain_en": "Feminine accusative: koju; the clitics sam ti follow it.",
-     "explain_ru": "Женский род, винительный: koju; клитики sam ti следуют за ним."
+     "explain_ru": "Женский род, винительный: koju; клитики sam ti следуют за ним.",
+     "ui": {
+      "en": {
+       "q": "Gde je knjiga ___ sam ti dao? (which, that)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -3656,7 +3932,12 @@
      "q": "'Sedeći čovek pored prozora je moj profesor' is the normal way to say 'the man sitting by the window'.",
      "answer": false,
      "explain_en": "False. Serbian uses a relative clause: čovek koji sedi pored prozora.",
-     "explain_ru": "Неверно. Сербский использует относительное предложение: čovek koji sedi pored prozora. Русское «сидящий человек» не переводится причастием."
+     "explain_ru": "Неверно. Сербский использует относительное предложение: čovek koji sedi pored prozora. Русское «сидящий человек» не переводится причастием.",
+     "ui": {
+      "ru": {
+       "q": "'Sedeći čovek pored prozora je moj profesor' — обычный способ сказать 'человек, сидящий у окна'."
+      }
+     }
     },
     {
      "id": "e13",
@@ -3684,7 +3965,12 @@
       "u kome"
      ],
      "explain_en": "Place: gde (or the more formal u kojem).",
-     "explain_ru": "Место: gde (или более официальное u kojem) — «город, где я родился»."
+     "explain_ru": "Место: gde (или более официальное u kojem) — «город, где я родился».",
+     "ui": {
+      "en": {
+       "q": "Ovo je grad ___ sam rođen. (where)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -3744,7 +4030,12 @@
      ],
      "answer": 2,
      "explain_en": "Clitic order after koji: accusative ga before je.",
-     "explain_ru": "Порядок клитик после koji: винительное ga перед je: koji ga je oduševio."
+     "explain_ru": "Порядок клитик после koji: винительное ga перед je: koji ga je oduševio.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильный порядок слов."
+      }
+     }
     },
     {
      "id": "e19",
@@ -3767,7 +4058,12 @@
      "q": "'Ono koje kažeš je tačno' is correct.",
      "answer": false,
      "explain_en": "False. After ono the relative word must be što: Ono što kažeš je tačno.",
-     "explain_ru": "Неверно. После ono относительное слово — только što: Ono što kažeš je tačno («то, что ты говоришь»)."
+     "explain_ru": "Неверно. После ono относительное слово — только što: Ono što kažeš je tačno («то, что ты говоришь»).",
+     "ui": {
+      "ru": {
+       "q": "'Ono koje kažeš je tačno' — правильно."
+      }
+     }
     },
     {
      "id": "e21",
@@ -3791,7 +4087,12 @@
      ],
      "answer": 1,
      "explain_en": "The Russian participle becomes a koji-clause: koji uče.",
-     "explain_ru": "Русское причастие «изучающие» передаётся koji-предложением: koji uče."
+     "explain_ru": "Русское причастие «изучающие» передаётся koji-предложением: koji uče.",
+     "ui": {
+      "en": {
+       "q": "Studenti ___ srpski dolaze iz cele Evrope. (who are learning)"
+      }
+     }
     },
     {
      "id": "e23",
@@ -3857,7 +4158,33 @@
        "kojeg",
        "которого"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "o kojem",
+         "about which / whom (m.)"
+        ],
+        [
+         "kojoj",
+         "to which / whom (f.)"
+        ],
+        [
+         "sa kojima",
+         "with which / whom (pl.)"
+        ],
+        [
+         "čiju",
+         "whose (f., accusative)"
+        ],
+        [
+         "kojeg",
+         "which / whom (m., accusative)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3883,7 +4210,12 @@
       "kom"
      ],
      "explain_en": "Pisati + dative: kojem / kome; the clitic ću follows it.",
-     "explain_ru": "Pisati + дательный: kojem / kome («которому»); клитика ću следует за ним."
+     "explain_ru": "Pisati + дательный: kojem / kome («которому»); клитика ću следует за ним.",
+     "ui": {
+      "en": {
+       "q": "Prijatelj ___ ću pisati živi u Kanadi. (to whom)"
+      }
+     }
     },
     {
      "id": "e29",
@@ -3897,7 +4229,12 @@
      ],
      "answer": 0,
      "explain_en": "Koju (object) + clitics in order sam – ti.",
-     "explain_ru": "Koju (дополнение) + клитики в порядке sam – ti: Knjiga koju sam ti dao."
+     "explain_ru": "Koju (дополнение) + клитики в порядке sam – ti: Knjiga koju sam ti dao.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильное предложение."
+      }
+     }
     },
     {
      "id": "e30",
@@ -3905,7 +4242,12 @@
      "q": "In 'selo odakle dolazi moja baka', 'odakle' introduces a relative clause of place.",
      "answer": true,
      "explain_en": "True. Gde, kuda, odakle introduce relative clauses about place.",
-     "explain_ru": "Верно. Gde, kuda, odakle вводят относительные предложения о месте («деревня, откуда…»)."
+     "explain_ru": "Верно. Gde, kuda, odakle вводят относительные предложения о месте («деревня, откуда…»).",
+     "ui": {
+      "ru": {
+       "q": "В 'selo odakle dolazi moja baka' 'odakle' вводит определительное придаточное места."
+      }
+     }
     }
    ]
   },
@@ -4164,7 +4506,12 @@
       "da li"
      ],
      "explain_en": "An indirect yes/no question: da li + statement order.",
-     "explain_ru": "Косвенный вопрос «да/нет»: da li + порядок слов утверждения. Русское «приду ли я» → 'da li dolazim'."
+     "explain_ru": "Косвенный вопрос «да/нет»: da li + порядок слов утверждения. Русское «приду ли я» → 'da li dolazim'.",
+     "ui": {
+      "en": {
+       "q": "'Dolaziš li na žurku?' → Pitao me je ___ dolazim na žurku. (whether)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -4186,7 +4533,12 @@
      "q": "'Rekla je da će doći sutra' correctly reports 'Doći ću sutra.'",
      "answer": true,
      "explain_en": "True. Serbian keeps the original tense: futur I stays futur I.",
-     "explain_ru": "Верно. Сербский сохраняет исходное время: futur I остаётся futur I, как и в русском («сказала, что придёт»)."
+     "explain_ru": "Верно. Сербский сохраняет исходное время: futur I остаётся futur I, как и в русском («сказала, что придёт»).",
+     "ui": {
+      "ru": {
+       "q": "'Rekla je da će doći sutra' правильно передаёт 'Doći ću sutra.'"
+      }
+     }
     },
     {
      "id": "e05",
@@ -4247,7 +4599,12 @@
       "šta"
      ],
      "explain_en": "An indirect wh-question keeps the question word: šta; the clitics mu je follow it.",
-     "explain_ru": "Косвенный вопрос сохраняет вопросительное слово šta; клитики mu je следуют за ним."
+     "explain_ru": "Косвенный вопрос сохраняет вопросительное слово šta; клитики mu je следуют за ним.",
+     "ui": {
+      "en": {
+       "q": "Ne znam ___ mu je rekla. (what)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -4261,7 +4618,12 @@
      ],
      "answer": 0,
      "explain_en": "Pitati takes the accusative: pitao sam ga.",
-     "explain_ru": "Pitati требует винительного падежа: pitao sam ga («спросил его»), не 'mu'."
+     "explain_ru": "Pitati требует винительного падежа: pitao sam ga («спросил его»), не 'mu'.",
+     "ui": {
+      "en": {
+       "q": "Pitao sam ___ gde je stanica. (him)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -4293,7 +4655,12 @@
      "q": "In Serbian reported speech the tense shifts back, as in English ('he said he was tired').",
      "answer": false,
      "explain_en": "False. There is no backshift: Rekao je da je umoran.",
-     "explain_ru": "Неверно. Сдвига времён нет: Rekao je da je umoran — как в русском «сказал, что устал»."
+     "explain_ru": "Неверно. Сдвига времён нет: Rekao je da je umoran — как в русском «сказал, что устал».",
+     "ui": {
+      "ru": {
+       "q": "В сербской косвенной речи время сдвигается в прошлое, как в английском языке."
+      }
+     }
     },
     {
      "id": "e13",
@@ -4318,7 +4685,12 @@
       "kako"
      ],
      "explain_en": "A perceived action after čuti: kako + present.",
-     "explain_ru": "Воспринимаемое действие после čuti: kako + настоящее («слышала, как он поёт»)."
+     "explain_ru": "Воспринимаемое действие после čuti: kako + настоящее («слышала, как он поёт»).",
+     "ui": {
+      "en": {
+       "q": "Čula sam ___ peva u kupatilu. (how - heard her singing)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -4368,7 +4740,12 @@
       "što"
      ],
      "explain_en": "Žao mi je + što for a fact.",
-     "explain_ru": "Žao mi je + što для факта («жаль, что опаздываю»)."
+     "explain_ru": "Žao mi je + što для факта («жаль, что опаздываю»).",
+     "ui": {
+      "en": {
+       "q": "Žao mi je ___ kasnim. (that)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -4382,7 +4759,12 @@
      ],
      "answer": 1,
      "explain_en": "The clitic ćeš comes straight after the question word kada.",
-     "explain_ru": "Клитика ćeš стоит сразу после вопросительного слова kada: kada ćeš doći."
+     "explain_ru": "Клитика ćeš стоит сразу после вопросительного слова kada: kada ćeš doći.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильный порядок слов."
+      }
+     }
     },
     {
      "id": "e19",
@@ -4407,7 +4789,12 @@
      "q": "'Pitao je ako dolazim' is a correct indirect question.",
      "answer": false,
      "explain_en": "False. Indirect questions use da li or verb + li, never ako: Pitao je da li dolazim.",
-     "explain_ru": "Неверно. Косвенные вопросы строятся с da li или глагол + li, никогда с ako: Pitao je da li dolazim."
+     "explain_ru": "Неверно. Косвенные вопросы строятся с da li или глагол + li, никогда с ako: Pitao je da li dolazim.",
+     "ui": {
+      "ru": {
+       "q": "'Pitao je ako dolazim' — правильный косвенный вопрос."
+      }
+     }
     },
     {
      "id": "e21",
@@ -4418,7 +4805,12 @@
       "kime"
      ],
      "explain_en": "The question word keeps its case: s kim.",
-     "explain_ru": "Вопросительное слово сохраняет падеж: s kim («с кем»)."
+     "explain_ru": "Вопросительное слово сохраняет падеж: s kim («с кем»).",
+     "ui": {
+      "en": {
+       "q": "Pitao je s ___ ideš na more. (whom)"
+      }
+     }
     },
     {
      "id": "e22",
@@ -4456,7 +4848,12 @@
      ],
      "answer": 1,
      "explain_en": "Da reports a fact; kako describes a perceived action.",
-     "explain_ru": "Da сообщает факт («слышу, что он придёт»); kako описывает воспринимаемое действие («слышу, как он идёт»)."
+     "explain_ru": "Da сообщает факт («слышу, что он придёт»); kako описывает воспринимаемое действие («слышу, как он идёт»).",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение значит 'Я слышал, что он приезжает' (как факт)?"
+      }
+     }
     },
     {
      "id": "e25",
@@ -4540,7 +4937,12 @@
      "q": "'Kažu da će zima biti hladna' expresses hearsay ('they say that…').",
      "answer": true,
      "explain_en": "True. Kažu da… reports what people say in general.",
-     "explain_ru": "Верно. Kažu da… передаёт молву, слух («говорят, что…»)."
+     "explain_ru": "Верно. Kažu da… передаёт молву, слух («говорят, что…»).",
+     "ui": {
+      "ru": {
+       "q": "'Kažu da će zima biti hladna' выражает пересказ с чужих слов ('говорят, что…')."
+      }
+     }
     }
    ]
   },
@@ -4789,7 +5191,12 @@
      ],
      "answer": 3,
      "explain_en": "Ići covers Russian идти, ходить and ездить: idem autobusom.",
-     "explain_ru": "Ići покрывает русские «идти, ходить, ездить»: idem autobusom. Hodati — только «ходить пешком» как действие."
+     "explain_ru": "Ići покрывает русские «идти, ходить, ездить»: idem autobusom. Hodati — только «ходить пешком» как действие.",
+     "ui": {
+      "en": {
+       "q": "Svaki dan ___ na posao autobusom. (I go)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -4799,7 +5206,12 @@
       "Doći ću"
      ],
      "explain_en": "Futur I: Doći ću; the perfective present dođem is not a future.",
-     "explain_ru": "Futur I: Doći ću; настоящее совершенного вида dođem не выражает будущее («приду» ≠ dođem)."
+     "explain_ru": "Futur I: Doći ću; настоящее совершенного вида dođem не выражает будущее («приду» ≠ dođem).",
+     "ui": {
+      "en": {
+       "q": "___ (to come, ja, future) sutra u deset."
+      }
+     }
     },
     {
      "id": "e03",
@@ -4821,7 +5233,15 @@
      "q": "'Prići' means 'to arrive, to come' like Russian прийти.",
      "answer": false,
      "explain_en": "False. Prići = approach (подойти); 'to come, arrive' is doći.",
-     "explain_ru": "Неверно. Prići — «подойти»; «прийти» — doći. Ложный друг для русскоязычных!"
+     "explain_ru": "Неверно. Prići — «подойти»; «прийти» — doći. Ложный друг для русскоязычных!",
+     "ui": {
+      "en": {
+       "q": "'Prići' means 'to arrive, to come', like the similar-looking Russian 'priyti'."
+      },
+      "ru": {
+       "q": "'Prići' значит 'прийти, приехать', как русское прийти."
+      }
+     }
     },
     {
      "id": "e05",
@@ -4878,7 +5298,12 @@
      ],
      "answer": 2,
      "explain_en": "To a person's place: kod + genitive (kod lekara). Russian к врачу uses the dative.",
-     "explain_ru": "К человеку: kod + родительный (kod lekara). Русское «к врачу» с дательным — не калькируйте через 'k lekaru'."
+     "explain_ru": "К человеку: kod + родительный (kod lekara). Русское «к врачу» с дательным — не калькируйте через 'k lekaru'.",
+     "ui": {
+      "en": {
+       "q": "Idem ___ lekara u tri. (to the doctor's)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -4888,7 +5313,12 @@
       "po"
      ],
      "explain_en": "To fetch something: po + accusative (po hleb).",
-     "explain_ru": "Пойти за чем-то: po + винительный (po hleb). Русское «за хлебом» — другой предлог и падеж."
+     "explain_ru": "Пойти за чем-то: po + винительный (po hleb). Русское «за хлебом» — другой предлог и падеж.",
+     "ui": {
+      "en": {
+       "q": "Idem ___ hleb, treba ti nešto? (to get, for)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -4912,7 +5342,12 @@
       "izlaze"
      ],
      "explain_en": "A habitual action: imperfective izlaziti – izlaze.",
-     "explain_ru": "Привычное действие — несовершенный вид izlaziti – izlaze («выходят»)."
+     "explain_ru": "Привычное действие — несовершенный вид izlaziti – izlaze («выходят»).",
+     "ui": {
+      "en": {
+       "q": "Deca ___ (come out) iz škole u dva."
+      }
+     }
     },
     {
      "id": "e11",
@@ -4934,7 +5369,15 @@
      "q": "In Serbian you use a different verb for going on foot (ići) and going by car, as in Russian идти / ехать.",
      "answer": false,
      "explain_en": "False. Ići is used for both: idem peške, idem kolima.",
-     "explain_ru": "Неверно. Ići употребляется в обоих случаях: idem peške, idem kolima. Различия «идти / ехать» в сербском нет."
+     "explain_ru": "Неверно. Ići употребляется в обоих случаях: idem peške, idem kolima. Различия «идти / ехать» в сербском нет.",
+     "ui": {
+      "en": {
+       "q": "In Serbian you use a different verb for going on foot (ići) and going by car, as Russian does ('idti' / 'yekhat')."
+      },
+      "ru": {
+       "q": "В сербском для движения пешком (ići) и на машине используются разные глаголы, как в русском идти / ехать."
+      }
+     }
     },
     {
      "id": "e13",
@@ -4960,7 +5403,12 @@
       "uđeš"
      ],
      "explain_en": "Ući, 2nd person present: uđeš.",
-     "explain_ru": "Ući, 2-е лицо настоящего времени: uđeš («когда войдёшь»)."
+     "explain_ru": "Ući, 2-е лицо настоящего времени: uđeš («когда войдёшь»).",
+     "ui": {
+      "en": {
+       "q": "Kad ___ (you come in), zatvori vrata."
+      }
+     }
     },
     {
      "id": "e15",
@@ -5000,7 +5448,33 @@
        "zaobići",
        "обойти стороной"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "doći",
+         "to come, arrive"
+        ],
+        [
+         "otići",
+         "to leave, go away"
+        ],
+        [
+         "prići",
+         "to approach, come up to"
+        ],
+        [
+         "sići",
+         "to go down, get off"
+        ],
+        [
+         "zaobići",
+         "to go around, bypass"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -5010,7 +5484,12 @@
       "Siđi"
      ],
      "explain_en": "Sići, imperative: siđi.",
-     "explain_ru": "Sići, императив: siđi («выходи, сойди»)."
+     "explain_ru": "Sići, императив: siđi («выходи, сойди»).",
+     "ui": {
+      "en": {
+       "q": "___ (get off, imperative) na sledećoj stanici."
+      }
+     }
     },
     {
      "id": "e18",
@@ -5048,7 +5527,12 @@
      "q": "'Dođem sutra' is the normal way to say 'I'll come tomorrow'.",
      "answer": false,
      "explain_en": "False. In a main clause the future must be Doći ću sutra; the perfective present is not a future.",
-     "explain_ru": "Неверно. В главном предложении будущее — только Doći ću sutra; настоящее совершенного вида не выражает будущего (русское «приду» здесь обманчиво)."
+     "explain_ru": "Неверно. В главном предложении будущее — только Doći ću sutra; настоящее совершенного вида не выражает будущего (русское «приду» здесь обманчиво).",
+     "ui": {
+      "ru": {
+       "q": "'Dođem sutra' — обычный способ сказать 'Я приду завтра'."
+      }
+     }
     },
     {
      "id": "e21",
@@ -5059,7 +5543,12 @@
       "dolazi"
      ],
      "explain_en": "Arrival of transport: stiže (or dolazi).",
-     "explain_ru": "Прибытие транспорта: stiže (или dolazi) — «прибывает»."
+     "explain_ru": "Прибытие транспорта: stiže (или dolazi) — «прибывает».",
+     "ui": {
+      "en": {
+       "q": "Voz ___ (arrives) u pet."
+      }
+     }
     },
     {
      "id": "e22",
@@ -5073,7 +5562,12 @@
      ],
      "answer": 1,
      "explain_en": "Bring = doneti (doneo); 'prineti' does not mean 'bring'.",
-     "explain_ru": "«Принести» = doneti (doneo); 'prineti' в этом значении не употребляется."
+     "explain_ru": "«Принести» = doneti (doneo); 'prineti' в этом значении не употребляется.",
+     "ui": {
+      "en": {
+       "q": "___ sam ti poklon iz Pariza. (I brought)"
+      }
+     }
     },
     {
      "id": "e23",
@@ -5083,7 +5577,12 @@
       "pre"
      ],
      "explain_en": "'Ago' is pre + genitive: pre dve godine.",
-     "explain_ru": "«Назад» — pre + родительный: pre dve godine («два года назад»)."
+     "explain_ru": "«Назад» — pre + родительный: pre dve godine («два года назад»).",
+     "ui": {
+      "en": {
+       "q": "Otišao je u Nemačku ___ dve godine. (ago)"
+      }
+     }
     },
     {
      "id": "e24",
@@ -5097,7 +5596,12 @@
      ],
      "answer": 0,
      "explain_en": "After kad: perfective present; se follows kad directly: kad se vratiš.",
-     "explain_ru": "После kad — настоящее совершенного вида; клитика se стоит сразу после kad: kad se vratiš."
+     "explain_ru": "После kad — настоящее совершенного вида; клитика se стоит сразу после kad: kad se vratiš.",
+     "ui": {
+      "en": {
+       "q": "Kad ___ sa posla, javi se. (you get back)"
+      }
+     }
     },
     {
      "id": "e25",
@@ -5152,7 +5656,12 @@
      ],
      "answer": 1,
      "explain_en": "Driving someone: odvesti (odvezem, odvezla); odvela = led on foot.",
-     "explain_ru": "Везти кого-то на машине: odvesti (odvezem, odvezla); odvela — «отвела» (пешком)."
+     "explain_ru": "Везти кого-то на машине: odvesti (odvezem, odvezla); odvela — «отвела» (пешком).",
+     "ui": {
+      "en": {
+       "q": "Ona me je ___ na aerodrom kolima. (drove, took by car)"
+      }
+     }
     },
     {
      "id": "e28",
@@ -5162,7 +5671,12 @@
       "prelazi"
      ],
      "explain_en": "Negative imperative: imperfective prelaziti – Ne prelazi!",
-     "explain_ru": "Отрицательный императив — несовершенный вид prelaziti: Ne prelazi! («не переходи»)."
+     "explain_ru": "Отрицательный императив — несовершенный вид prelaziti: Ne prelazi! («не переходи»).",
+     "ui": {
+      "en": {
+       "q": "Ne ___ (cross) ulicu na crveno!"
+      }
+     }
     },
     {
      "id": "e29",
@@ -5184,7 +5698,12 @@
      "q": "'Odem' is the present tense form of 'otići'.",
      "answer": true,
      "explain_en": "True. Otići has the irregular present odem, odeš, odu; past otišao.",
-     "explain_ru": "Верно. У otići неправильное настоящее odem, odeš, odu; прошедшее otišao."
+     "explain_ru": "Верно. У otići неправильное настоящее odem, odeš, odu; прошедшее otišao.",
+     "ui": {
+      "ru": {
+       "q": "'Odem' — форма настоящего времени от 'otići'."
+      }
+     }
     }
    ]
   },
@@ -5457,7 +5976,12 @@
      ],
      "answer": 3,
      "explain_en": "The se-passive: Ovde se govori srpski.",
-     "explain_ru": "Se-пассив: Ovde se govori srpski («здесь говорят по-сербски»). Русское «говорят» (3 л. мн.) по-сербски чаще через se."
+     "explain_ru": "Se-пассив: Ovde se govori srpski («здесь говорят по-сербски»). Русское «говорят» (3 л. мн.) по-сербски чаще через se.",
+     "ui": {
+      "en": {
+       "q": "Ovde ___ srpski. (is spoken)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -5465,7 +5989,12 @@
      "q": "The present gerund (e.g. 'čitajući') can be formed from perfective verbs like 'pročitati'.",
      "answer": false,
      "explain_en": "False. The -ći gerund is formed only from imperfective verbs; perfectives give the -vši gerund (pročitavši).",
-     "explain_ru": "Неверно. Деепричастие на -ći образуется только от несовершенных глаголов; совершенные дают форму на -vši (pročitavši), как в русском «читая / прочитав»."
+     "explain_ru": "Неверно. Деепричастие на -ći образуется только от несовершенных глаголов; совершенные дают форму на -vši (pročitavši), как в русском «читая / прочитав».",
+     "ui": {
+      "ru": {
+       "q": "Деепричастие настоящего времени (например, 'čitajući') можно образовать от глаголов совершенного вида, таких как 'pročitati'."
+      }
+     }
     },
     {
      "id": "e05",
@@ -5576,7 +6105,12 @@
      "q": "In spoken Serbian 'Pošto je završio posao, otišao je kući' is preferred to 'Završivši posao, otišao je kući'.",
      "answer": true,
      "explain_en": "True. The -vši gerund is rare in speech; a clause with pošto/kad + perfekat is normal.",
-     "explain_ru": "Верно. Деепричастие на -vši в речи редко; обычен оборот с pošto/kad + перфект."
+     "explain_ru": "Верно. Деепричастие на -vši в речи редко; обычен оборот с pošto/kad + перфект.",
+     "ui": {
+      "ru": {
+       "q": "В разговорном сербском 'Pošto je završio posao, otišao je kući' предпочтительнее, чем 'Završivši posao, otišao je kući'."
+      }
+     }
     },
     {
      "id": "e13",
@@ -5688,7 +6222,12 @@
      "q": "'Roman je napisao poznati pisac' is better style than 'Roman je napisan od strane poznatog pisca'.",
      "answer": true,
      "explain_en": "True. Od strane is bureaucratic; an active sentence is preferred when the agent is named.",
-     "explain_ru": "Верно. Od strane — канцеляризм; когда деятель назван, предпочтительна активная конструкция."
+     "explain_ru": "Верно. Od strane — канцеляризм; когда деятель назван, предпочтительна активная конструкция.",
+     "ui": {
+      "ru": {
+       "q": "'Roman je napisao poznati pisac' — стилистически лучше, чем 'Roman je napisan od strane poznatog pisca'."
+      }
+     }
     },
     {
      "id": "e21",
@@ -5712,7 +6251,12 @@
      ],
      "answer": 2,
      "explain_en": "Perfective stem + -avši: došavši (having come).",
-     "explain_ru": "Основа совершенного вида + -avši: došavši («придя»)."
+     "explain_ru": "Основа совершенного вида + -avši: došavši («придя»).",
+     "ui": {
+      "ru": {
+       "q": "Какая форма — деепричастие прошедшего времени от 'doći'?"
+      }
+     }
     },
     {
      "id": "e23",
@@ -5777,7 +6321,33 @@
        "čitao",
        "читал"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "čitajući",
+         "(while) reading"
+        ],
+        [
+         "pročitavši",
+         "having read"
+        ],
+        [
+         "pročitan",
+         "read (finished, passive participle)"
+        ],
+        [
+         "čitanje",
+         "reading (noun)"
+        ],
+        [
+         "čitao",
+         "was reading, read (past)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5823,7 +6393,12 @@
      "q": "'Deca su se vratila' is correct: deca takes the participle ending -a.",
      "answer": true,
      "explain_en": "True. Deca is a collective with plural agreement and the participle in -a.",
-     "explain_ru": "Верно. Deca — собирательное существительное с согласованием во множественном числе и причастием на -a."
+     "explain_ru": "Верно. Deca — собирательное существительное с согласованием во множественном числе и причастием на -a.",
+     "ui": {
+      "ru": {
+       "q": "'Deca su se vratila' — правильно: при deca причастие имеет окончание -a."
+      }
+     }
     }
    ]
   },
@@ -6072,7 +6647,12 @@
      ],
      "answer": 3,
      "explain_en": "Standard impersonal treba + da + present: Treba da učim.",
-     "explain_ru": "Нормативное безличное treba + da + настоящее: Treba da učim («мне надо учиться»); 'trebam da' — не норма."
+     "explain_ru": "Нормативное безличное treba + da + настоящее: Treba da učim («мне надо учиться»); 'trebam da' — не норма.",
+     "ui": {
+      "en": {
+       "q": "___ da učim za ispit. (it's necessary)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -6082,7 +6662,12 @@
       "me"
      ],
      "explain_en": "Boleti takes the accusative of the person: boli me.",
-     "explain_ru": "Boleti требует винительного падежа лица: boli me («у меня болит»). Русское «у меня» здесь — винительный me."
+     "explain_ru": "Boleti требует винительного падежа лица: boli me («у меня болит»). Русское «у меня» здесь — винительный me.",
+     "ui": {
+      "en": {
+       "q": "Boli ___ glava od jutros. (me - I have a headache)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -6096,7 +6681,12 @@
      ],
      "answer": 2,
      "explain_en": "Impersonal prohibition: se + ne sme + infinitive, with se after ovde: Ovde se ne sme pušiti.",
-     "explain_ru": "Безличный запрет: se + ne sme + инфинитив, причём se стоит на втором месте после ovde: Ovde se ne sme pušiti. Русское «нельзя» без возвратной частицы."
+     "explain_ru": "Безличный запрет: se + ne sme + инфинитив, причём se стоит на втором месте после ovde: Ovde se ne sme pušiti. Русское «нельзя» без возвратной частицы.",
+     "ui": {
+      "en": {
+       "q": "Ovde ___ pušiti. (it's not allowed)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -6104,7 +6694,12 @@
      "q": "'Učim se na fakultetu' is the correct way to say 'I study at university'.",
      "answer": false,
      "explain_en": "False. Učiti has no se in this meaning: Učim na fakultetu.",
-     "explain_ru": "Неверно. Učiti в этом значении без se: Učim na fakultetu («я учусь в университете») — не калькируйте русское «учусь»."
+     "explain_ru": "Неверно. Učiti в этом значении без se: Učim na fakultetu («я учусь в университете») — не калькируйте русское «учусь».",
+     "ui": {
+      "ru": {
+       "q": "'Učim se na fakultetu' — правильный способ сказать 'Я учусь в университете'."
+      }
+     }
     },
     {
      "id": "e05",
@@ -6169,7 +6764,12 @@
       "Trebaju"
      ],
      "explain_en": "With a noun, treba agrees with the thing needed: trebaju mi cipele.",
-     "explain_ru": "С существительным treba согласуется с нужным предметом: trebaju mi cipele («мне нужны туфли»)."
+     "explain_ru": "С существительным treba согласуется с нужным предметом: trebaju mi cipele («мне нужны туфли»).",
+     "ui": {
+      "en": {
+       "q": "___ (are needed) mi nove cipele."
+      }
+     }
     },
     {
      "id": "e09",
@@ -6193,7 +6793,12 @@
       "me"
      ],
      "explain_en": "Strah me je takes the accusative: me.",
-     "explain_ru": "Strah me je требует винительного: me («мне страшно, я боюсь»)."
+     "explain_ru": "Strah me je требует винительного: me («мне страшно, я боюсь»).",
+     "ui": {
+      "en": {
+       "q": "Strah ___ je od pasa. (I'm afraid)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -6207,7 +6812,12 @@
      ],
      "answer": 0,
      "explain_en": "Početi has no se: Film je počeo (Russian начался has -ся).",
-     "explain_ru": "Početi без se: Film je počeo; русское «начался» с -ся, сербское — нет."
+     "explain_ru": "Početi без se: Film je počeo; русское «начался» с -ся, сербское — нет.",
+     "ui": {
+      "en": {
+       "q": "Film ___ u osam. (started)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -6215,7 +6825,15 @@
      "q": "'Mladost' is formed from 'mlad' with the suffix -ost, like Russian молодость.",
      "answer": true,
      "explain_en": "True. -ost makes feminine abstract nouns from adjectives.",
-     "explain_ru": "Верно. -ost образует абстрактные существительные женского рода от прилагательных, как русское -ость."
+     "explain_ru": "Верно. -ost образует абстрактные существительные женского рода от прилагательных, как русское -ость.",
+     "ui": {
+      "en": {
+       "q": "'Mladost' is formed from 'mlad' with the suffix -ost, like the Russian word for 'youth' ('molodost')."
+      },
+      "ru": {
+       "q": "'Mladost' образовано от 'mlad' с помощью суффикса -ost, как русское молодость."
+      }
+     }
     },
     {
      "id": "e13",
@@ -6241,7 +6859,12 @@
       "se"
      ],
      "explain_en": "Raditi se o + locative: O čemu se radi?",
-     "explain_ru": "Raditi se o + местный: O čemu se radi? («о чём речь?»)."
+     "explain_ru": "Raditi se o + местный: O čemu se radi? («о чём речь?»).",
+     "ui": {
+      "en": {
+       "q": "O čemu ___ radi? (what is it about)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -6291,7 +6914,12 @@
       "Nema"
      ],
      "explain_en": "Non-existence: nema + genitive.",
-     "explain_ru": "Отсутствие: nema + родительный («нет времени»)."
+     "explain_ru": "Отсутствие: nema + родительный («нет времени»).",
+     "ui": {
+      "en": {
+       "q": "___ (there is no) vremena za odmor."
+      }
+     }
     },
     {
      "id": "e18",
@@ -6305,7 +6933,12 @@
      ],
      "answer": 1,
      "explain_en": "Advice with the conditional: Trebalo bi da…",
-     "explain_ru": "Совет с условным наклонением: Trebalo bi da… («тебе стоило бы»)."
+     "explain_ru": "Совет с условным наклонением: Trebalo bi da… («тебе стоило бы»).",
+     "ui": {
+      "en": {
+       "q": "Trebalo ___ da odeš lekaru. (you ought to)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -6328,7 +6961,15 @@
      "q": "In 'Boli me glava', 'me' is the dative, as in Russian 'мне больно'.",
      "answer": false,
      "explain_en": "False. Me here is the accusative (boli koga? – me).",
-     "explain_ru": "Неверно. Me здесь — винительный падеж (boli koga? — me), а не дательный."
+     "explain_ru": "Неверно. Me здесь — винительный падеж (boli koga? — me), а не дательный.",
+     "ui": {
+      "en": {
+       "q": "In 'Boli me glava', 'me' is the dative, as in the Russian 'mne bolno' (it hurts me)."
+      },
+      "ru": {
+       "q": "В 'Boli me glava' 'me' — дательный падеж, как в русском 'мне больно'."
+      }
+     }
     },
     {
      "id": "e21",
@@ -6338,7 +6979,12 @@
       "kaficu"
      ],
      "explain_en": "Diminutive kafica, accusative kaficu.",
-     "explain_ru": "Уменьшительное kafica, винительный kaficu («на кофеёк»)."
+     "explain_ru": "Уменьшительное kafica, винительный kaficu («на кофеёк»).",
+     "ui": {
+      "en": {
+       "q": "Hajde na jednu ___ (kafa, diminutive)!"
+      }
+     }
     },
     {
      "id": "e22",
@@ -6352,7 +6998,12 @@
      ],
      "answer": 1,
      "explain_en": "Igrati se (children playing) takes se; ostati, pokušati, početi do not.",
-     "explain_ru": "Igrati se («играть», о детях) с se; ostati, pokušati, početi — без se, хотя в русском «остался, пытался, начался»."
+     "explain_ru": "Igrati se («играть», о детях) с se; ostati, pokušati, početi — без se, хотя в русском «остался, пытался, начался».",
+     "ui": {
+      "ru": {
+       "q": "Выберите предложение, в котором se употреблено правильно."
+      }
+     }
     },
     {
      "id": "e23",
@@ -6362,7 +7013,12 @@
       "Čini"
      ],
      "explain_en": "Čini mi se da… = it seems to me that.",
-     "explain_ru": "Čini mi se da… («мне кажется, что»)."
+     "explain_ru": "Čini mi se da… («мне кажется, что»).",
+     "ui": {
+      "en": {
+       "q": "___ (it seems) mi se da je bio u pravu."
+      }
+     }
     },
     {
      "id": "e24",
@@ -6376,7 +7032,12 @@
      ],
      "answer": 1,
      "explain_en": "Augmentative -etina: kućetina.",
-     "explain_ru": "Увеличительное -etina: kućetina («домище»)."
+     "explain_ru": "Увеличительное -etina: kućetina («домище»).",
+     "ui": {
+      "en": {
+       "q": "Kakva ___! Ko tu živi? (huge house - augmentative)"
+      }
+     }
     },
     {
      "id": "e25",
@@ -6417,7 +7078,33 @@
        "Zanima me.",
        "Мне интересно."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Hladno mi je.",
+         "I'm cold."
+        ],
+        [
+         "Žao mi je.",
+         "I'm sorry."
+        ],
+        [
+         "Spava mi se.",
+         "I feel sleepy."
+        ],
+        [
+         "Briga me.",
+         "I don't care."
+        ],
+        [
+         "Zanima me.",
+         "I'm interested."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -6431,7 +7118,12 @@
      ],
      "answer": 2,
      "explain_en": "Feminine agent noun: pevač + -ica = pevačica.",
-     "explain_ru": "Женское название деятеля: pevač + -ica = pevačica («певица»)."
+     "explain_ru": "Женское название деятеля: pevač + -ica = pevačica («певица»).",
+     "ui": {
+      "en": {
+       "q": "Ona je poznata ___. (singer, female)"
+      }
+     }
     },
     {
      "id": "e28",
@@ -6441,7 +7133,12 @@
       "se igraju"
      ],
      "explain_en": "Children playing: igrati se – se igraju.",
-     "explain_ru": "Дети играют: igrati se – se igraju (в русском «играют» без -ся)."
+     "explain_ru": "Дети играют: igrati se – se igraju (в русском «играют» без -ся).",
+     "ui": {
+      "en": {
+       "q": "Deca ___ (are playing) u dvorištu."
+      }
+     }
     },
     {
      "id": "e29",
@@ -6455,7 +7152,12 @@
      ],
      "answer": 0,
      "explain_en": "Impersonal: neuter singular + se: Ispostavilo se da…",
-     "explain_ru": "Безличная конструкция: средний род единственного числа + se: Ispostavilo se da… («оказалось, что»)."
+     "explain_ru": "Безличная конструкция: средний род единственного числа + se: Ispostavilo se da… («оказалось, что»).",
+     "ui": {
+      "en": {
+       "q": "___ da je bio u pravu. (it turned out)"
+      }
+     }
     },
     {
      "id": "e30",
@@ -6463,7 +7165,12 @@
      "q": "'Treba mi tvoja pomoć' means 'I need your help'.",
      "answer": true,
      "explain_en": "True. Treba + dative experiencer + the thing needed in the nominative.",
-     "explain_ru": "Верно. Treba + дательный того, кому нужно, + нужный предмет в именительном: «мне нужна твоя помощь»."
+     "explain_ru": "Верно. Treba + дательный того, кому нужно, + нужный предмет в именительном: «мне нужна твоя помощь».",
+     "ui": {
+      "ru": {
+       "q": "'Treba mi tvoja pomoć' значит 'Мне нужна твоя помощь'."
+      }
+     }
     }
    ]
   }
