@@ -4077,7 +4077,29 @@
        "rábeszél",
        "уговорить"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "rájön",
+         "to figure out, realise"
+        ],
+        [
+         "ráér",
+         "to have time"
+        ],
+        [
+         "rászól",
+         "to tell off, reprimand"
+        ],
+        [
+         "rábeszél",
+         "to talk into, persuade"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4099,7 +4121,29 @@
        "összetör",
        "разбить вдребезги"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "összeveszik",
+         "to fall out, quarrel"
+        ],
+        [
+         "összejön",
+         "to work out; to get together"
+        ],
+        [
+         "összeesik",
+         "to collapse"
+        ],
+        [
+         "összetör",
+         "to smash to pieces"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4345,7 +4389,12 @@
      ],
      "answer": 3,
      "explain_en": "Washing oneself: mosakodik, 1st person mosakodom.",
-     "explain_ru": "Умываться — mosakodik, 1-е лицо mosakodom."
+     "explain_ru": "Умываться — mosakodik, 1-е лицо mosakodom.",
+     "ui": {
+      "en": {
+       "q": "Reggelente hideg vízzel ___. (I wash myself)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -4359,7 +4408,12 @@
      ],
      "answer": 0,
      "explain_en": "'Cannot be read' = -hatatlan. olvasatlan = 'not read yet'.",
-     "explain_ru": "«Невозможно прочитать» — -hatatlan. olvasatlan — «ещё не прочитанный»."
+     "explain_ru": "«Невозможно прочитать» — -hatatlan. olvasatlan — «ещё не прочитанный».",
+     "ui": {
+      "en": {
+       "q": "Ez a kézírás teljesen ___. (illegible)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -4373,7 +4427,12 @@
      ],
      "answer": 2,
      "explain_en": "Leisurely drinking: -gat/-get, iszogatok.",
-     "explain_ru": "Неспешное питьё — -gat/-get: iszogatok «попиваю»."
+     "explain_ru": "Неспешное питьё — -gat/-get: iszogatok «попиваю».",
+     "ui": {
+      "en": {
+       "q": "Esténként az erkélyen ___ egy pohár bort. (I sip)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -4387,7 +4446,12 @@
      ],
      "answer": 1,
      "explain_en": "Intransitive 'get better': javul.",
-     "explain_ru": "Непереходное «улучшаться» — javul."
+     "explain_ru": "Непереходное «улучшаться» — javul.",
+     "ui": {
+      "en": {
+       "q": "A helyzet egyre ___. (is improving)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -4401,7 +4465,12 @@
      ],
      "answer": 0,
      "explain_en": "'Inevitable' = elkerülhetetlen.",
-     "explain_ru": "«Неизбежный» — elkerülhetetlen."
+     "explain_ru": "«Неизбежный» — elkerülhetetlen.",
+     "ui": {
+      "en": {
+       "q": "A vita ___ volt, mindenki tudta, hogy egyszer kitör. (inevitable)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -4415,7 +4484,15 @@
      ],
      "answer": 1,
      "explain_en": "More than two parts and more than six syllables: hyphen at the main boundary.",
-     "explain_ru": "Больше двух частей и больше шести слогов — дефис на главной границе."
+     "explain_ru": "Больше двух частей и больше шести слогов — дефис на главной границе.",
+     "ui": {
+      "en": {
+       "q": "Correct spelling of 'football World Cup':"
+      },
+      "ru": {
+       "q": "Правильное написание «чемпионат мира по футболу»:"
+      }
+     }
     },
     {
      "id": "e08",
@@ -4429,7 +4506,12 @@
      ],
      "answer": 2,
      "explain_en": "Adjective + noun + -ú/-ű, written separately: kék szemű.",
-     "explain_ru": "Прилагательное + существительное + -ú/-ű, раздельно: kék szemű. В русском — одно слово."
+     "explain_ru": "Прилагательное + существительное + -ú/-ű, раздельно: kék szemű. В русском — одно слово.",
+     "ui": {
+      "en": {
+       "q": "Egy ___ lány ült mellettem a vonaton. (blue-eyed)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -4443,7 +4525,12 @@
      ],
      "answer": 0,
      "explain_en": "Reciprocal 'fight': verekedik.",
-     "explain_ru": "Взаимное действие «драться» — verekedik."
+     "explain_ru": "Взаимное действие «драться» — verekedik.",
+     "ui": {
+      "en": {
+       "q": "A gyerekek a szünetben ___. (are fighting)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -4457,7 +4544,12 @@
      ],
      "answer": 3,
      "explain_en": "tanít 'teach' – tanul 'learn'.",
-     "explain_ru": "tanít «учить кого-то» – tanul «учиться»."
+     "explain_ru": "tanít «учить кого-то» – tanul «учиться».",
+     "ui": {
+      "ru": {
+       "q": "В какой паре переходный глагол на -ít и непереходный на -ul/-ül?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -4604,7 +4696,15 @@
      "q": "Hungarian -ul/-ül verbs often correspond to Russian verbs in -ся (gyógyul ≈ лечиться, выздоравливать).",
      "answer": true,
      "explain_en": "Yes: -ít is transitive, -ul/-ül intransitive, like Russian verb vs verb + -ся.",
-     "explain_ru": "Да: -ít — переходный, -ul/-ül — непереходный, как русский глагол и глагол на -ся."
+     "explain_ru": "Да: -ít — переходный, -ul/-ül — непереходный, как русский глагол и глагол на -ся.",
+     "ui": {
+      "en": {
+       "q": "Hungarian -ul/-ül verbs often correspond to English intransitive or reflexive verbs (gyógyul ≈ to heal, get better; compare gyógyít 'to heal someone')."
+      },
+      "ru": {
+       "q": "Венгерские глаголы на -ul/-ül часто соответствуют русским глаголам на -ся (gyógyul ≈ лечиться, выздоравливать)."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4612,7 +4712,12 @@
      "q": "'Olvasatlan' and 'olvashatatlan' mean the same thing.",
      "answer": false,
      "explain_en": "olvasatlan = 'unread', olvashatatlan = 'illegible'.",
-     "explain_ru": "olvasatlan — «непрочитанный», olvashatatlan — «нечитаемый»."
+     "explain_ru": "olvasatlan — «непрочитанный», olvashatatlan — «нечитаемый».",
+     "ui": {
+      "ru": {
+       "q": "«Olvasatlan» и «olvashatatlan» значат одно и то же."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4620,7 +4725,12 @@
      "q": "Like German, Hungarian compounds use a linking element between the parts (e.g. -s-).",
      "answer": false,
      "explain_en": "Hungarian simply juxtaposes the parts: fogkefe, munkahely.",
-     "explain_ru": "Венгерский просто соединяет части без связки: fogkefe, munkahely."
+     "explain_ru": "Венгерский просто соединяет части без связки: fogkefe, munkahely.",
+     "ui": {
+      "ru": {
+       "q": "Как и в немецком, в венгерских сложных словах между частями есть соединительный элемент (например, -s-)."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4668,7 +4778,29 @@
        "iszogat",
        "попивать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "kérdezget",
+         "to keep asking"
+        ],
+        [
+         "nézeget",
+         "to keep looking at, browse"
+        ],
+        [
+         "énekelget",
+         "to hum, sing to oneself"
+        ],
+        [
+         "iszogat",
+         "to sip"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4690,7 +4822,29 @@
        "megbízhatatlan",
        "ненадёжный"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "elképzelhetetlen",
+         "unimaginable"
+        ],
+        [
+         "kibírhatatlan",
+         "unbearable"
+        ],
+        [
+         "fáradhatatlan",
+         "tireless"
+        ],
+        [
+         "megbízhatatlan",
+         "unreliable"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4936,7 +5090,12 @@
      ],
      "answer": 2,
      "explain_en": "Colloquial contrastive topic resumed with az: időm az nincs.",
-     "explain_ru": "Разговорная контрастная тема, подхваченная az: időm az nincs «времени-то нет»."
+     "explain_ru": "Разговорная контрастная тема, подхваченная az: időm az nincs «времени-то нет».",
+     "ui": {
+      "en": {
+       "q": "Pénzem van, de időm ___ nincs. (time, though, I don't have)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -4964,7 +5123,12 @@
      ],
      "answer": 0,
      "explain_en": "Emphatic affirmation: bizony.",
-     "explain_ru": "Эмфатическое утверждение — bizony «уж точно»."
+     "explain_ru": "Эмфатическое утверждение — bizony «уж точно».",
+     "ui": {
+      "en": {
+       "q": "Ez ___ nem könnyű feladat. (certainly, indeed)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -4992,7 +5156,12 @@
      ],
      "answer": 0,
      "explain_en": "Ironic épp before a pronoun: 'you of all people'.",
-     "explain_ru": "Ироническое épp перед местоимением: «и это говоришь ты»."
+     "explain_ru": "Ироническое épp перед местоимением: «и это говоришь ты».",
+     "ui": {
+      "en": {
+       "q": "___ te mondod, aki mindig késel? (And YOU are the one saying that?)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -5006,7 +5175,12 @@
      ],
      "answer": 2,
      "explain_en": "nem éppen 'not exactly' – an understatement.",
-     "explain_ru": "nem éppen «не то чтобы» — смягчение (на самом деле дорого)."
+     "explain_ru": "nem éppen «не то чтобы» — смягчение (на самом деле дорого).",
+     "ui": {
+      "en": {
+       "q": "Ez a lakás nem ___ olcsó. (not exactly cheap)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -5020,7 +5194,12 @@
      ],
      "answer": 0,
      "explain_en": "Emphatic, ironic aztán; azután/utána mean 'afterwards'.",
-     "explain_ru": "Усилительное ироническое aztán; azután и utána значат «потом»."
+     "explain_ru": "Усилительное ироническое aztán; azután и utána значат «потом».",
+     "ui": {
+      "en": {
+       "q": "Na, ez ___ jó ötlet volt! Most ázhatunk. (irony)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -5034,7 +5213,12 @@
      ],
      "answer": 3,
      "explain_en": "ugyan rejects: 'oh come on'.",
-     "explain_ru": "ugyan выражает отказ: «да брось»."
+     "explain_ru": "ugyan выражает отказ: «да брось».",
+     "ui": {
+      "en": {
+       "q": "___, hagyd már, nem olyan nagy baj! (Oh, come on!)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -5048,7 +5232,15 @@
      ],
      "answer": 1,
      "explain_en": "The focus stands right before the verb and the prefix moves after it: Anna hívott fel.",
-     "explain_ru": "Фокус стоит прямо перед глаголом, приставка уходит за него: Anna hívott fel."
+     "explain_ru": "Фокус стоит прямо перед глаголом, приставка уходит за него: Anna hívott fel.",
+     "ui": {
+      "en": {
+       "q": "Which sentence puts Anna in focus ('It was Anna who called')?"
+      },
+      "ru": {
+       "q": "В каком предложении в фокусе Анна («Позвонила именно Анна»)?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -5081,7 +5273,12 @@
       "Éppen"
      ],
      "explain_en": "épp/éppen 'just'.",
-     "explain_ru": "épp/éppen «как раз»."
+     "explain_ru": "épp/éppen «как раз».",
+     "ui": {
+      "en": {
+       "q": "___ most indultam el otthonról, kicsit késni fogok. (just now)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -5091,7 +5288,12 @@
       "ám"
      ],
      "explain_en": "ám expresses surprise.",
-     "explain_ru": "ám выражает удивление: «вот это да»."
+     "explain_ru": "ám выражает удивление: «вот это да».",
+     "ui": {
+      "en": {
+       "q": "Ez ___ a meglepetés! (now that's a surprise!)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -5102,7 +5304,12 @@
       "csak"
      ],
      "explain_en": "Exclusive focus: csakis (or csak).",
-     "explain_ru": "Исключающий фокус: csakis (или csak)."
+     "explain_ru": "Исключающий фокус: csakis (или csak).",
+     "ui": {
+      "en": {
+       "q": "Ezt ___ te tudhatod, senki más. (only you)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -5123,7 +5330,12 @@
       "kellene"
      ],
      "explain_en": "Fixed ironic phrase: Még csak az kéne / kellene!",
-     "explain_ru": "Устойчивое ироническое выражение: Még csak az kéne / kellene!"
+     "explain_ru": "Устойчивое ироническое выражение: Még csak az kéne / kellene!",
+     "ui": {
+      "en": {
+       "q": "Még csak az ___! (That's all we need!)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -5133,7 +5345,12 @@
       "Ugyan"
      ],
      "explain_en": "ugyan in a rhetorical, indignant question.",
-     "explain_ru": "ugyan в риторическом возмущённом вопросе: «да кто же…»."
+     "explain_ru": "ugyan в риторическом возмущённом вопросе: «да кто же…».",
+     "ui": {
+      "en": {
+       "q": "___ ki mondta neked ezt a butaságot? (indignant: who on earth…)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -5201,7 +5418,12 @@
      "q": "'Nem épp olcsó' is an understatement meaning 'rather expensive'.",
      "answer": true,
      "explain_en": "Yes, like Russian 'не то чтобы дешёвый'.",
-     "explain_ru": "Да, как русское «не то чтобы дешёвый»."
+     "explain_ru": "Да, как русское «не то чтобы дешёвый».",
+     "ui": {
+      "ru": {
+       "q": "«Nem épp olcsó» — преуменьшение, означающее «довольно дорогой»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5209,7 +5431,12 @@
      "q": "With csakis in focus, the prefix stays before the verb: 'Csakis holnap eljövök.'",
      "answer": false,
      "explain_en": "After a focus the prefix follows the verb: Csakis holnap jövök el.",
-     "explain_ru": "После фокуса приставка идёт за глаголом: Csakis holnap jövök el."
+     "explain_ru": "После фокуса приставка идёт за глаголом: Csakis holnap jövök el.",
+     "ui": {
+      "ru": {
+       "q": "Когда в фокусе csakis, приставка остаётся перед глаголом: «Csakis holnap eljövök»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5217,7 +5444,12 @@
      "q": "'Na, ez aztán szép munka!' can be ironic.",
      "answer": true,
      "explain_en": "aztán is an emphatic particle often used ironically.",
-     "explain_ru": "aztán — усилительная частица, часто ироничная: «ну и работа, нечего сказать»."
+     "explain_ru": "aztán — усилительная частица, часто ироничная: «ну и работа, нечего сказать».",
+     "ui": {
+      "ru": {
+       "q": "«Na, ez aztán szép munka!» может звучать иронично."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5243,7 +5475,33 @@
        "ám",
        "вот это да; же"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "bizony",
+         "indeed, certainly"
+        ],
+        [
+         "csakis",
+         "exclusively, only"
+        ],
+        [
+         "épp",
+         "just, exactly"
+        ],
+        [
+         "ugyan",
+         "oh come on, nonsense"
+        ],
+        [
+         "ám",
+         "wow; really (emphatic)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5265,7 +5523,29 @@
        "Gyere már!",
        "Ну иди же!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ez hiányzott!",
+         "That's all we needed!"
+        ],
+        [
+         "Te aztán értesz hozzá!",
+         "You're a real expert! (ironic)"
+        ],
+        [
+         "Hát persze!",
+         "Well, of course!"
+        ],
+        [
+         "Gyere már!",
+         "Come on, then!"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5287,7 +5567,29 @@
        "Nem Anna hívott fel.",
        "Позвонила не Анна."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Anna hívott fel.",
+         "It was Anna who called me."
+        ],
+        [
+         "Anna felhívott.",
+         "Anna called me."
+        ],
+        [
+         "Fel is hívott.",
+         "And he really did call."
+        ],
+        [
+         "Nem Anna hívott fel.",
+         "It wasn't Anna who called."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5519,7 +5821,12 @@
      ],
      "answer": 1,
      "explain_en": "ovi = óvoda; direction into: oviba.",
-     "explain_ru": "ovi = óvoda «садик»; направление внутрь — oviba."
+     "explain_ru": "ovi = óvoda «садик»; направление внутрь — oviba.",
+     "ui": {
+      "en": {
+       "q": "A fiam még ___ jár. (to nursery school, colloquial)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -5533,7 +5840,12 @@
      ],
      "answer": 3,
      "explain_en": "asszem = azt hiszem 'I think'.",
-     "explain_ru": "asszem = azt hiszem «кажется, по-моему»."
+     "explain_ru": "asszem = azt hiszem «кажется, по-моему».",
+     "ui": {
+      "ru": {
+       "q": "Какая разговорная форма у «azt hiszem»?"
+      }
+     }
     },
     {
      "id": "e03",
@@ -5547,7 +5859,12 @@
      ],
      "answer": 0,
      "explain_en": "csoki + -t → csokit.",
-     "explain_ru": "csoki + -t → csokit «шоколадку»."
+     "explain_ru": "csoki + -t → csokit «шоколадку».",
+     "ui": {
+      "en": {
+       "q": "Kérsz egy ___? (a chocolate)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -5561,7 +5878,15 @@
      ],
      "answer": 2,
      "explain_en": "amennyiben is the formal conditional conjunction.",
-     "explain_ru": "amennyiben — официальный союз условия, как русское «в случае если»."
+     "explain_ru": "amennyiben — официальный союз условия, как русское «в случае если».",
+     "ui": {
+      "en": {
+       "q": "In an official document, which is appropriate for 'if'?"
+      },
+      "ru": {
+       "q": "Что уместно в официальном документе в значении «если»?"
+      }
+     }
     },
     {
      "id": "e05",
@@ -5575,7 +5900,12 @@
      ],
      "answer": 1,
      "explain_en": "László → Laci; Pisti = István, Feri = Ferenc, Jancsi = János.",
-     "explain_ru": "László → Laci; Pisti — это István, Feri — Ferenc, Jancsi — János."
+     "explain_ru": "László → Laci; Pisti — это István, Feri — Ferenc, Jancsi — János.",
+     "ui": {
+      "ru": {
+       "q": "Какое обычное уменьшительное имя от «László»?"
+      }
+     }
     },
     {
      "id": "e06",
@@ -5589,7 +5919,12 @@
      ],
      "answer": 0,
      "explain_en": "Headlines are short and verb-first: Drágul a benzin.",
-     "explain_ru": "Заголовки короткие и начинаются с глагола: Drágul a benzin «Дорожает бензин»."
+     "explain_ru": "Заголовки короткие и начинаются с глагола: Drágul a benzin «Дорожает бензин».",
+     "ui": {
+      "ru": {
+       "q": "Что наиболее типично для заголовка венгерской газеты?"
+      }
+     }
     },
     {
      "id": "e07",
@@ -5631,7 +5966,20 @@
      ],
      "answer": 2,
      "explain_en": "Mizu (= Mi újság?) and haver are slang.",
-     "explain_ru": "Mizu (= Mi újság?) и haver — сленг: «чё как, братан?»."
+     "explain_ru": "Mizu (= Mi újság?) и haver — сленг: «чё как, братан?».",
+     "ui": {
+      "en": {
+       "options": [
+        "neutral written",
+        "official / business",
+        "colloquial slang",
+        "journalistic"
+       ]
+      },
+      "ru": {
+       "q": "К какому регистру относится «Mizu, haver?»?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -5655,7 +6003,12 @@
       "pulcsit"
      ],
      "explain_en": "pulóver → pulcsi; accusative pulcsit.",
-     "explain_ru": "pulóver → pulcsi; винительный pulcsit."
+     "explain_ru": "pulóver → pulcsi; винительный pulcsit.",
+     "ui": {
+      "en": {
+       "q": "Hideg van, vedd fel a ___! (jumper, colloquial -csi)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -5726,7 +6079,12 @@
       "Tehát"
      ],
      "explain_en": "Formal openers: nos or tehát.",
-     "explain_ru": "Официальное начало: nos или tehát «итак»."
+     "explain_ru": "Официальное начало: nos или tehát «итак».",
+     "ui": {
+      "en": {
+       "q": "___, kezdjük a megbeszélést! (So, formal)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -5796,7 +6154,12 @@
      "q": "'Tök jó' is appropriate in an official letter to a ministry.",
      "answer": false,
      "explain_en": "tök jó is slang; in a formal letter write kiváló or nagyon jó.",
-     "explain_ru": "tök jó — сленг; в официальном письме пишут kiváló или nagyon jó."
+     "explain_ru": "tök jó — сленг; в официальном письме пишут kiváló или nagyon jó.",
+     "ui": {
+      "ru": {
+       "q": "«Tök jó» уместно в официальном письме в министерство."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5804,7 +6167,15 @@
      "q": "Nicknames like Kati, Laci, Pisti are formed with -i (sometimes -csi/-ci), much like Russian Катя, Петя.",
      "answer": true,
      "explain_en": "Yes: Katalin → Kati, László → Laci, István → Pisti.",
-     "explain_ru": "Да: Katalin → Kati, László → Laci, István → Pisti."
+     "explain_ru": "Да: Katalin → Kati, László → Laci, István → Pisti.",
+     "ui": {
+      "en": {
+       "q": "Nicknames like Kati, Laci, Pisti are formed with -i (sometimes -csi/-ci), much like English Katie, Billy."
+      },
+      "ru": {
+       "q": "Уменьшительные имена вроде Kati, Laci, Pisti образуются с помощью -i (иногда -csi/-ci), примерно как русские Катя, Петя."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5812,7 +6183,12 @@
      "q": "'Fagyi' is a formal word for 'ice cream'.",
      "answer": false,
      "explain_en": "fagyi is colloquial; the neutral word is fagylalt.",
-     "explain_ru": "fagyi — разговорное «мороженка»; нейтральное слово — fagylalt."
+     "explain_ru": "fagyi — разговорное «мороженка»; нейтральное слово — fagylalt.",
+     "ui": {
+      "ru": {
+       "q": "«Fagyi» — официальное слово для «мороженого»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5890,7 +6266,33 @@
        "valamint",
        "а также"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "szóval",
+         "so, anyway (colloquial)"
+        ],
+        [
+         "nos",
+         "well, now then (formal)"
+        ],
+        [
+         "mindazonáltal",
+         "nevertheless"
+        ],
+        [
+         "izé",
+         "um, whatsit"
+        ],
+        [
+         "valamint",
+         "as well as"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -6136,7 +6538,12 @@
      ],
      "answer": 2,
      "explain_en": "minden + noun is indefinite: elolvasott.",
-     "explain_ru": "minden + существительное — неопределённое дополнение: elolvasott."
+     "explain_ru": "minden + существительное — неопределённое дополнение: elolvasott.",
+     "ui": {
+      "en": {
+       "q": "Péter minden levelet ___. (read)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -6150,7 +6557,12 @@
      ],
      "answer": 3,
      "explain_en": "At someone's place: -nál/-nél.",
-     "explain_ru": "«У кого-то» — -nál/-nél: a fogorvosnál."
+     "explain_ru": "«У кого-то» — -nál/-nél: a fogorvosnál.",
+     "ui": {
+      "en": {
+       "q": "Tegnap ___ voltam, mert fájt a fogam. (at the dentist's)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -6164,7 +6576,12 @@
      ],
      "answer": 1,
      "explain_en": "The question word is focus, so the prefix follows the verb: jössz haza.",
-     "explain_ru": "Вопросительное слово — фокус, поэтому приставка идёт за глаголом: jössz haza."
+     "explain_ru": "Вопросительное слово — фокус, поэтому приставка идёт за глаголом: jössz haza.",
+     "ui": {
+      "en": {
+       "q": "Mikor ___? (When are you coming home?)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -6178,7 +6595,12 @@
      ],
      "answer": 2,
      "explain_en": "Budapest takes -on/-ra: megérkeztünk Budapestre (direction).",
-     "explain_ru": "Budapest принимает -on/-ra: megérkeztünk Budapestre (направление), хотя по-русски «в Будапешт»."
+     "explain_ru": "Budapest принимает -on/-ra: megérkeztünk Budapestre (направление), хотя по-русски «в Будапешт».",
+     "ui": {
+      "en": {
+       "q": "Tegnap este megérkeztünk ___. (in Budapest)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -6192,7 +6614,12 @@
      ],
      "answer": 0,
      "explain_en": "férfi takes back-vowel suffixes: férfinak.",
-     "explain_ru": "férfi принимает суффиксы заднего ряда: férfinak."
+     "explain_ru": "férfi принимает суффиксы заднего ряда: férfinak.",
+     "ui": {
+      "en": {
+       "q": "Odaadtam a jegyeket a ___. (to the man)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -6220,7 +6647,12 @@
      ],
      "answer": 3,
      "explain_en": "-ik verbs: careful 1st person is dolgozom.",
-     "explain_ru": "У глаголов на -ik нормативная форма 1-го лица — dolgozom."
+     "explain_ru": "У глаголов на -ik нормативная форма 1-го лица — dolgozom.",
+     "ui": {
+      "en": {
+       "q": "Reggel nyolctól este hatig ___. (I work, standard form)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -6234,7 +6666,12 @@
      ],
      "answer": 1,
      "explain_en": "Location requires van: otthon van.",
-     "explain_ru": "Для местонахождения нужен van: otthon van, хотя по-русски связки нет."
+     "explain_ru": "Для местонахождения нужен van: otthon van, хотя по-русски связки нет.",
+     "ui": {
+      "en": {
+       "q": "Péter most ___. (at home)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -6248,7 +6685,12 @@
      ],
      "answer": 0,
      "explain_en": "gratulál valakinek: dative Annának.",
-     "explain_ru": "gratulál valakinek — дательный: Annának, хотя по-русски «поздравить Анну»."
+     "explain_ru": "gratulál valakinek — дательный: Annának, хотя по-русски «поздравить Анну».",
+     "ui": {
+      "en": {
+       "q": "Mindenki gratulált ___. (congratulated Anna)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -6308,7 +6750,12 @@
       "fel"
      ],
      "explain_en": "After the question word the prefix follows: Ki hívott fel?",
-     "explain_ru": "После вопросительного слова приставка идёт за глаголом: Ki hívott fel?"
+     "explain_ru": "После вопросительного слова приставка идёт за глаголом: Ki hívott fel?",
+     "ui": {
+      "en": {
+       "q": "Ki hívott ___ tegnap este? (called, phoned)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -6389,7 +6836,15 @@
      "q": "'Péter otthon.' is a correct full sentence meaning 'Петер дома'.",
      "answer": false,
      "explain_en": "Location requires van: Péter otthon van.",
-     "explain_ru": "Для местонахождения нужен van: Péter otthon van."
+     "explain_ru": "Для местонахождения нужен van: Péter otthon van.",
+     "ui": {
+      "en": {
+       "q": "'Péter otthon.' is a correct full sentence meaning 'Péter is at home'."
+      },
+      "ru": {
+       "q": "«Péter otthon.» — правильное полное предложение со значением «Петер дома»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -6397,7 +6852,12 @@
      "q": "'Látlak' means 'I see you' and uses the special -lak/-lek ending.",
      "answer": true,
      "explain_en": "-lak/-lek = 1st person subject, 2nd person object.",
-     "explain_ru": "-lak/-lek — подлежащее 1-го лица, дополнение 2-го лица: «я тебя вижу»."
+     "explain_ru": "-lak/-lek — подлежащее 1-го лица, дополнение 2-го лица: «я тебя вижу».",
+     "ui": {
+      "ru": {
+       "q": "«Látlak» означает «я вижу тебя» и использует особое окончание -lak/-lek."
+      }
+     }
     },
     {
      "id": "e25",
@@ -6405,7 +6865,12 @@
      "q": "The word 'cél' takes front-vowel suffixes: 'célek', 'célbe'.",
      "answer": false,
      "explain_en": "cél is an exception: célok, célba.",
-     "explain_ru": "cél — исключение: célok, célba."
+     "explain_ru": "cél — исключение: célok, célba.",
+     "ui": {
+      "ru": {
+       "q": "Слово «cél» принимает суффиксы с гласными переднего ряда: «célek», «célbe»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -6457,7 +6922,33 @@
        "telefonál valakinek",
        "звонить кому-то"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "vár valakit",
+         "to wait for someone"
+        ],
+        [
+         "gratulál valakinek",
+         "to congratulate someone"
+        ],
+        [
+         "fél valamitől",
+         "to be afraid of something"
+        ],
+        [
+         "emlékszik valamire",
+         "to remember something"
+        ],
+        [
+         "telefonál valakinek",
+         "to phone someone"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -6479,7 +6970,29 @@
        "nagyobb nálam",
        "больше меня"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "az orvosnál",
+         "at the doctor's"
+        ],
+        [
+         "az orvoshoz",
+         "to the doctor's"
+        ],
+        [
+         "az orvostól",
+         "from the doctor's"
+        ],
+        [
+         "nagyobb nálam",
+         "bigger than me"
+        ]
+       ]
+      }
+     }
     }
    ]
   }

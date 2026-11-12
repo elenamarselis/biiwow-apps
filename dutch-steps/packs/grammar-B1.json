@@ -290,7 +290,12 @@
      ],
      "answer": 3,
      "explain_en": "Er stays early, the preposition goes just before the participle.",
-     "explain_ru": "Er стоит ближе к началу, а предлог — прямо перед причастием."
+     "explain_ru": "Er стоит ближе к началу, а предлог — прямо перед причастием.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e08",
@@ -478,7 +483,12 @@
      "q": "'Ik heb twee.' is the normal answer to 'Hoeveel kinderen heb je?'",
      "answer": false,
      "explain_en": "Dutch needs er: Ik heb er twee.",
-     "explain_ru": "Нужно er: Ik heb er twee."
+     "explain_ru": "Нужно er: Ik heb er twee.",
+     "ui": {
+      "ru": {
+       "q": "'Ik heb twee.' — обычный ответ на вопрос 'Hoeveel kinderen heb je?'"
+      }
+     }
     },
     {
      "id": "e24",
@@ -486,7 +496,12 @@
      "q": "For people you use preposition + pronoun (aan hem), not er + preposition.",
      "answer": true,
      "explain_en": "Er + preposition is for things and ideas.",
-     "explain_ru": "Er + предлог используется для предметов и идей, а не для людей."
+     "explain_ru": "Er + предлог используется для предметов и идей, а не для людей.",
+     "ui": {
+      "ru": {
+       "q": "Для людей используют предлог + местоимение (aan hem), а не er + предлог."
+      }
+     }
     },
     {
      "id": "e25",
@@ -494,7 +509,12 @@
      "q": "'Ermet' is the correct form of er + met.",
      "answer": false,
      "explain_en": "Met becomes mee: ermee.",
-     "explain_ru": "Met превращается в mee: ermee."
+     "explain_ru": "Met превращается в mee: ermee.",
+     "ui": {
+      "ru": {
+       "q": "'Ermet' — правильная форма er + met."
+      }
+     }
     },
     {
      "id": "e26",
@@ -546,7 +566,33 @@
        "Ik kan er niets aan doen.",
        "Я ничего не могу поделать."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ik denk eraan.",
+         "I'll keep it in mind."
+        ],
+        [
+         "Ik wacht erop.",
+         "I'm waiting for it."
+        ],
+        [
+         "Ik ben ertegen.",
+         "I'm against it."
+        ],
+        [
+         "Ik heb er geen zin in.",
+         "I don't feel like it."
+        ],
+        [
+         "Ik kan er niets aan doen.",
+         "I can't help it."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -568,7 +614,29 @@
        "Ik praat erover.",
        "er + предлог"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ik woon er al jaren.",
+         "place"
+        ],
+        [
+         "Er is een probleem.",
+         "indefinite subject"
+        ],
+        [
+         "Ik heb er drie.",
+         "quantity"
+        ],
+        [
+         "Ik praat erover.",
+         "er + preposition"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -889,7 +957,12 @@
      ],
      "answer": 3,
      "explain_en": "De film → die, and all verbs at the end of the relative clause.",
-     "explain_ru": "De film → die, и все глаголы придаточного стоят в конце."
+     "explain_ru": "De film → die, и все глаголы придаточного стоят в конце.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -1056,7 +1129,12 @@
      "q": "'Het meisje die daar zit' is correct Dutch.",
      "answer": false,
      "explain_en": "Meisje is a het-word: het meisje dat daar zit.",
-     "explain_ru": "Meisje — слово с het: het meisje dat daar zit."
+     "explain_ru": "Meisje — слово с het: het meisje dat daar zit.",
+     "ui": {
+      "ru": {
+       "q": "'Het meisje die daar zit' — правильный нидерландский."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1064,7 +1142,12 @@
      "q": "Plural nouns always take die, also when the singular is a het-word.",
      "answer": true,
      "explain_en": "De huizen die …: in the plural every noun is a de-word.",
-     "explain_ru": "De huizen die …: во множественном числе все существительные — слова с de."
+     "explain_ru": "De huizen die …: во множественном числе все существительные — слова с de.",
+     "ui": {
+      "ru": {
+       "q": "Существительные во множественном числе всегда требуют die, даже если в единственном числе это het-слово."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1072,7 +1155,12 @@
      "q": "For a thing after a preposition you say 'de pen met die ik schrijf'.",
      "answer": false,
      "explain_en": "For things use waar + preposition: waarmee.",
-     "explain_ru": "Для предметов используется waar + предлог: waarmee."
+     "explain_ru": "Для предметов используется waar + предлог: waarmee.",
+     "ui": {
+      "ru": {
+       "q": "О предмете после предлога говорят 'de pen met die ik schrijf'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1150,7 +1238,33 @@
        "alles wat ik heb",
        "всё, что у меня есть"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "de vrouw die ik ken",
+         "the woman (whom) I know"
+        ],
+        [
+         "het huis dat ik koop",
+         "the house (that) I'm buying"
+        ],
+        [
+         "het bed waarin ik slaap",
+         "the bed I sleep in"
+        ],
+        [
+         "de man met wie ik praat",
+         "the man I'm talking to"
+        ],
+        [
+         "alles wat ik heb",
+         "everything I have"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1634,7 +1748,12 @@
      "q": "In the Netherlands the normal perfect passive is 'is gebouwd', without 'geworden'.",
      "answer": true,
      "explain_en": "Geworden is normally left out.",
-     "explain_ru": "Geworden обычно опускается."
+     "explain_ru": "Geworden обычно опускается.",
+     "ui": {
+      "ru": {
+       "q": "В Нидерландах обычный пассив в перфекте — 'is gebouwd', без 'geworden'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1642,7 +1761,12 @@
      "q": "'De deur wordt gesloten' describes a state: the door is closed.",
      "answer": false,
      "explain_en": "Wordt gesloten is a process; the state is 'is gesloten'.",
-     "explain_ru": "Wordt gesloten — процесс («закрывают»), состояние — «is gesloten»."
+     "explain_ru": "Wordt gesloten — процесс («закрывают»), состояние — «is gesloten».",
+     "ui": {
+      "ru": {
+       "q": "'De deur wordt gesloten' описывает состояние: дверь закрыта."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1650,7 +1774,12 @@
      "q": "In a Dutch passive the agent is introduced by 'van'.",
      "answer": false,
      "explain_en": "The agent takes door.",
-     "explain_ru": "Деятель вводится предлогом door, а не van."
+     "explain_ru": "Деятель вводится предлогом door, а не van.",
+     "ui": {
+      "ru": {
+       "q": "В нидерландском пассиве деятеля вводят предлогом 'van'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1672,7 +1801,29 @@
        "Het huis was al gebouwd.",
        "Дом уже был построен."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Het huis wordt gebouwd.",
+         "The house is being built."
+        ],
+        [
+         "Het huis werd gebouwd.",
+         "The house was being built (back then)."
+        ],
+        [
+         "Het huis is gebouwd.",
+         "The house has been built."
+        ],
+        [
+         "Het huis was al gebouwd.",
+         "The house had already been built."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2051,7 +2202,12 @@
      ],
      "answer": 3,
      "explain_en": "After the als-clause the main clause starts with the verb.",
-     "explain_ru": "После придаточного с als главное предложение начинается с глагола."
+     "explain_ru": "После придаточного с als главное предложение начинается с глагола.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -2202,7 +2358,12 @@
      "q": "In 'Als ik rijk was, zou ik reizen' the als-clause uses the imperfectum.",
      "answer": true,
      "explain_en": "Was is the imperfectum of zijn.",
-     "explain_ru": "Was — imperfectum от zijn."
+     "explain_ru": "Was — imperfectum от zijn.",
+     "ui": {
+      "ru": {
+       "q": "В 'Als ik rijk was, zou ik reizen' в придаточном с als употреблён imperfectum."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2210,7 +2371,12 @@
      "q": "'Wij zou' is the correct plural form.",
      "answer": false,
      "explain_en": "Plural: wij zouden.",
-     "explain_ru": "Во множественном числе: wij zouden."
+     "explain_ru": "Во множественном числе: wij zouden.",
+     "ui": {
+      "ru": {
+       "q": "'Wij zou' — правильная форма множественного числа."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2218,7 +2384,12 @@
      "q": "'Ik zou naar de dokter gaan' can be advice: 'If I were you, I would go to the doctor.'",
      "answer": true,
      "explain_en": "Saying what you would do is a common way to advise.",
-     "explain_ru": "Сказать, что бы вы сделали сами, — обычный способ дать совет."
+     "explain_ru": "Сказать, что бы вы сделали сами, — обычный способ дать совет.",
+     "ui": {
+      "ru": {
+       "q": "'Ik zou naar de dokter gaan' может быть советом: «На твоём месте я бы пошёл к врачу»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2240,7 +2411,29 @@
        "Als ik tijd had, zou ik komen.",
        "нереальное условие"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Zou je … willen …?",
+         "polite request"
+        ],
+        [
+         "Ik zou graag … willen.",
+         "wish"
+        ],
+        [
+         "Ik zou naar huis gaan.",
+         "advice"
+        ],
+        [
+         "Als ik tijd had, zou ik komen.",
+         "unreal condition"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2266,7 +2459,33 @@
        "We zouden gaan, maar …",
        "Мы собирались пойти, но …"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Zou je me kunnen helpen?",
+         "Could you help me?"
+        ],
+        [
+         "Ik zou graag thee willen.",
+         "I would like some tea."
+        ],
+        [
+         "Als ik jou was, …",
+         "If I were you, …"
+        ],
+        [
+         "Hij zei dat hij zou komen.",
+         "He said he would come."
+        ],
+        [
+         "We zouden gaan, maar …",
+         "We were going to go, but …"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2623,7 +2842,12 @@
      ],
      "answer": 0,
      "explain_en": "Inversion after the toen-clause, koken takes hebben, participle at the end.",
-     "explain_ru": "Инверсия после придаточного с toen, koken спрягается с hebben, причастие в конце."
+     "explain_ru": "Инверсия после придаточного с toen, koken спрягается с hebben, причастие в конце.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -2769,7 +2993,12 @@
      "q": "The plusquamperfectum uses the same choice of hebben or zijn as the perfectum.",
      "answer": true,
      "explain_en": "Heb → had, ben → was.",
-     "explain_ru": "Выбор тот же: heb → had, ben → was."
+     "explain_ru": "Выбор тот же: heb → had, ben → was.",
+     "ui": {
+      "ru": {
+       "q": "В plusquamperfectum hebben или zijn выбирают так же, как в perfectum."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2777,7 +3006,12 @@
      "q": "'Ik was het boek gelezen' is correct.",
      "answer": false,
      "explain_en": "Lezen takes hebben: Ik had het boek gelezen.",
-     "explain_ru": "Lezen спрягается с hebben: Ik had het boek gelezen."
+     "explain_ru": "Lezen спрягается с hebben: Ik had het boek gelezen.",
+     "ui": {
+      "ru": {
+       "q": "'Ik was het boek gelezen' — правильно."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2785,7 +3019,12 @@
      "q": "Russian has a separate verb tense that matches the Dutch plusquamperfectum.",
      "answer": false,
      "explain_en": "Russian uses the ordinary past, often with «уже».",
-     "explain_ru": "В русском используется обычное прошедшее время, часто с «уже»."
+     "explain_ru": "В русском используется обычное прошедшее время, часто с «уже».",
+     "ui": {
+      "ru": {
+       "q": "В русском есть отдельное время, соответствующее нидерландскому plusquamperfectum."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2855,7 +3094,29 @@
        "Nadat hij had betaald, ging hij weg.",
        "Заплатив, он ушёл."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "De trein was al vertrokken.",
+         "The train had already left."
+        ],
+        [
+         "Ik had het nog nooit gezien.",
+         "I had never seen it before."
+        ],
+        [
+         "Had ik het maar geweten!",
+         "If only I had known!"
+        ],
+        [
+         "Nadat hij had betaald, ging hij weg.",
+         "After he had paid, he left."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3148,7 +3409,12 @@
      ],
      "answer": 2,
      "explain_en": "Normal order: heeft moeten werken.",
-     "explain_ru": "Обычный порядок: heeft moeten werken."
+     "explain_ru": "Обычный порядок: heeft moeten werken.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3338,7 +3604,12 @@
      "q": "'Ik heb gemoeten werken' is correct Dutch.",
      "answer": false,
      "explain_en": "With another verb: Ik heb moeten werken.",
-     "explain_ru": "С другим глаголом: Ik heb moeten werken."
+     "explain_ru": "С другим глаголом: Ik heb moeten werken.",
+     "ui": {
+      "ru": {
+       "q": "'Ik heb gemoeten werken' — правильный нидерландский."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3346,7 +3617,12 @@
      "q": "Proberen + te keeps the participle: 'Ik heb geprobeerd te slapen.'",
      "answer": true,
      "explain_en": "Only verbs without te use the infinitive instead of the participle.",
-     "explain_ru": "Инфинитив вместо причастия используют только глаголы без te."
+     "explain_ru": "Инфинитив вместо причастия используют только глаголы без te.",
+     "ui": {
+      "ru": {
+       "q": "Proberen + te сохраняет причастие: 'Ik heb geprobeerd te slapen.'"
+      }
+     }
     },
     {
      "id": "e25",
@@ -3354,7 +3630,12 @@
      "q": "In a subordinate clause both 'dat ik heb gewerkt' and 'dat ik gewerkt heb' are correct.",
      "answer": true,
      "explain_en": "With two verbs (auxiliary + participle) both orders are fine.",
-     "explain_ru": "С двумя глаголами (вспомогательный + причастие) правильны оба порядка."
+     "explain_ru": "С двумя глаголами (вспомогательный + причастие) правильны оба порядка.",
+     "ui": {
+      "ru": {
+       "q": "В придаточном правильны оба варианта: 'dat ik heb gewerkt' и 'dat ik gewerkt heb'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3406,7 +3687,33 @@
        "Ik heb hem horen zingen.",
        "Я слышал, как он поёт."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ik heb moeten werken.",
+         "I had to work."
+        ],
+        [
+         "Ik heb niet kunnen slapen.",
+         "I couldn't sleep."
+        ],
+        [
+         "Ik ben gaan wandelen.",
+         "I went for a walk."
+        ],
+        [
+         "Ik heb mijn haar laten knippen.",
+         "I had my hair cut."
+        ],
+        [
+         "Ik heb hem horen zingen.",
+         "I heard him sing."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3763,7 +4070,12 @@
      ],
      "answer": 2,
      "explain_en": "Zich verheugen op: reflexive pronoun + op.",
-     "explain_ru": "Zich verheugen op: возвратное местоимение + op."
+     "explain_ru": "Zich verheugen op: возвратное местоимение + op.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -3906,7 +4218,15 @@
      "q": "Russian «ждать кого-то» has no preposition, but Dutch says 'wachten op'.",
      "answer": true,
      "explain_en": "Dutch needs op: wachten op iemand.",
-     "explain_ru": "В нидерландском нужен op: wachten op iemand."
+     "explain_ru": "В нидерландском нужен op: wachten op iemand.",
+     "ui": {
+      "en": {
+       "q": "Russian 'zhdat kogo-to' (to wait for someone) has no preposition, but Dutch says 'wachten op'."
+      },
+      "ru": {
+       "q": "Русское «ждать кого-то» — без предлога, а по-нидерландски говорят 'wachten op'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3914,7 +4234,12 @@
      "q": "'Ik denk over jou' is the usual way to say 'I'm thinking of you'.",
      "answer": false,
      "explain_en": "Thinking of someone: Ik denk aan jou.",
-     "explain_ru": "«Думаю о тебе» — Ik denk aan jou; denken over — «обдумывать»."
+     "explain_ru": "«Думаю о тебе» — Ik denk aan jou; denken over — «обдумывать».",
+     "ui": {
+      "ru": {
+       "q": "'Ik denk over jou' — обычный способ сказать «я думаю о тебе»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3922,7 +4247,12 @@
      "q": "'Zich herinneren' needs no preposition: 'Ik herinner me die dag.'",
      "answer": true,
      "explain_en": "Zich herinneren takes a direct object.",
-     "explain_ru": "Zich herinneren употребляется с прямым дополнением."
+     "explain_ru": "Zich herinneren употребляется с прямым дополнением.",
+     "ui": {
+      "ru": {
+       "q": "'Zich herinneren' не требует предлога: 'Ik herinner me die dag.'"
+      }
+     }
     },
     {
      "id": "e26",
@@ -3974,7 +4304,33 @@
        "boos zijn op",
        "сердиться на"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "trouwen met",
+         "to marry (someone)"
+        ],
+        [
+         "lijken op",
+         "to look like"
+        ],
+        [
+         "deelnemen aan",
+         "to take part in"
+        ],
+        [
+         "afhangen van",
+         "to depend on"
+        ],
+        [
+         "boos zijn op",
+         "to be angry with"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4219,7 +4575,12 @@
      ],
      "answer": 1,
      "explain_en": "Without doing: zonder … te.",
-     "explain_ru": "«Не сделав»: zonder … te."
+     "explain_ru": "«Не сделав»: zonder … te.",
+     "ui": {
+      "en": {
+       "q": "Hij vertrok ___ gedag te zeggen. (without saying goodbye)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -4233,7 +4594,12 @@
      ],
      "answer": 2,
      "explain_en": "Instead of: in plaats van … te.",
-     "explain_ru": "«Вместо того чтобы»: in plaats van … te."
+     "explain_ru": "«Вместо того чтобы»: in plaats van … te.",
+     "ui": {
+      "en": {
+       "q": "Hij kijkt tv ___ te studeren. (instead of)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -4247,7 +4613,12 @@
      ],
      "answer": 3,
      "explain_en": "By doing: door … te.",
-     "explain_ru": "Способ: door … te («благодаря тому, что»)."
+     "explain_ru": "Способ: door … te («благодаря тому, что»).",
+     "ui": {
+      "en": {
+       "q": "___ elke dag te oefenen, ben ik beter geworden. (by, thanks to)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -4317,7 +4688,12 @@
      ],
      "answer": 1,
      "explain_en": "Object between om and te; inversion after the group.",
-     "explain_ru": "Дополнение между om и te; после группы — инверсия."
+     "explain_ru": "Дополнение между om и te; после группы — инверсия.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -4485,7 +4861,12 @@
      "q": "'Om … te' is used only when both parts of the sentence have the same subject.",
      "answer": true,
      "explain_en": "With a different subject use zodat.",
-     "explain_ru": "При разных подлежащих нужен zodat."
+     "explain_ru": "При разных подлежащих нужен zodat.",
+     "ui": {
+      "ru": {
+       "q": "'Om … te' употребляют, только когда у обеих частей предложения одно и то же подлежащее."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4493,7 +4874,12 @@
      "q": "In 'om je op te bellen' the word te stands between the particle and the verb.",
      "answer": true,
      "explain_en": "Op + te + bellen.",
-     "explain_ru": "Op + te + bellen: te между приставкой и глаголом."
+     "explain_ru": "Op + te + bellen: te между приставкой и глаголом.",
+     "ui": {
+      "ru": {
+       "q": "В 'om je op te bellen' слово te стоит между частицей и глаголом."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4501,7 +4887,12 @@
      "q": "After 'zonder … te' you use a participle: 'zonder te betaald'.",
      "answer": false,
      "explain_en": "Always the infinitive: zonder te betalen.",
-     "explain_ru": "Всегда инфинитив: zonder te betalen."
+     "explain_ru": "Всегда инфинитив: zonder te betalen.",
+     "ui": {
+      "ru": {
+       "q": "После 'zonder … te' употребляют причастие: 'zonder te betaald'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4523,7 +4914,29 @@
        "door … te",
        "благодаря тому, что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "om … te",
+         "in order to"
+        ],
+        [
+         "zonder … te",
+         "without …ing"
+        ],
+        [
+         "in plaats van … te",
+         "instead of …ing"
+        ],
+        [
+         "door … te",
+         "by …ing"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4571,7 +4984,29 @@
        "Door te sporten, voel ik me beter.",
        "Благодаря спорту я чувствую себя лучше."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ik kom om je te helpen.",
+         "I've come to help you."
+        ],
+        [
+         "Hij ging weg zonder te groeten.",
+         "He left without saying goodbye."
+        ],
+        [
+         "In plaats van te praten, luisterde ze.",
+         "Instead of talking, she listened."
+        ],
+        [
+         "Door te sporten, voel ik me beter.",
+         "Doing sport makes me feel better."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4878,7 +5313,12 @@
      ],
      "answer": 0,
      "explain_en": "Question word + subject + verb at the end; no question mark.",
-     "explain_ru": "Вопросительное слово + подлежащее + глагол в конце; вопросительный знак не нужен."
+     "explain_ru": "Вопросительное слово + подлежащее + глагол в конце; вопросительный знак не нужен.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -5056,7 +5496,12 @@
      "q": "In an indirect question the verb goes to the end: 'Ik weet niet waar hij woont.'",
      "answer": true,
      "explain_en": "Indirect questions are subordinate clauses.",
-     "explain_ru": "Косвенные вопросы — придаточные предложения, глагол в конце."
+     "explain_ru": "Косвенные вопросы — придаточные предложения, глагол в конце.",
+     "ui": {
+      "ru": {
+       "q": "В косвенном вопросе глагол уходит в конец: 'Ik weet niet waar hij woont.'"
+      }
+     }
     },
     {
      "id": "e24",
@@ -5064,7 +5509,15 @@
      "q": "Russian «ли» in indirect questions corresponds to Dutch 'of'.",
      "answer": true,
      "explain_en": "Ze vraagt of ik wil = she asks whether I want.",
-     "explain_ru": "«Спрашивает, хочу ли я» = vraagt of ik wil."
+     "explain_ru": "«Спрашивает, хочу ли я» = vraagt of ik wil.",
+     "ui": {
+      "en": {
+       "q": "English 'whether' (or 'if') in indirect questions corresponds to Dutch 'of'."
+      },
+      "ru": {
+       "q": "Русское «ли» в косвенных вопросах соответствует нидерландскому 'of'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5072,7 +5525,12 @@
      "q": "In standard Dutch you say 'Ze vraagt als ik kom.'",
      "answer": false,
      "explain_en": "Indirect yes/no questions need of: Ze vraagt of ik kom.",
-     "explain_ru": "Нужен of: Ze vraagt of ik kom."
+     "explain_ru": "Нужен of: Ze vraagt of ik kom.",
+     "ui": {
+      "ru": {
+       "q": "В литературном нидерландском говорят 'Ze vraagt als ik kom.'"
+      }
+     }
     },
     {
      "id": "e26",
@@ -5120,7 +5578,33 @@
        "Weet u misschien …?",
        "Вы не знаете, …?"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Hij zegt dat …",
+         "He says that …"
+        ],
+        [
+         "Ze vraagt of …",
+         "She asks whether …"
+        ],
+        [
+         "Ik weet niet waar …",
+         "I don't know where …"
+        ],
+        [
+         "Ik vraag me af …",
+         "I wonder …"
+        ],
+        [
+         "Weet u misschien …?",
+         "Do you happen to know …?"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5621,7 +6105,12 @@
      "q": "All Dutch diminutives are het-words.",
      "answer": true,
      "explain_en": "De tafel → het tafeltje.",
-     "explain_ru": "Да: de tafel → het tafeltje."
+     "explain_ru": "Да: de tafel → het tafeltje.",
+     "ui": {
+      "ru": {
+       "q": "Все нидерландские уменьшительные формы — het-слова."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5629,7 +6118,12 @@
      "q": "The plural of 'het huisje' is 'de huisjen'.",
      "answer": false,
      "explain_en": "Diminutive plurals end in -s: de huisjes.",
-     "explain_ru": "Множественное число уменьшительных — на -s: de huisjes."
+     "explain_ru": "Множественное число уменьшительных — на -s: de huisjes.",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от 'het huisje' — 'de huisjen'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5637,7 +6131,12 @@
      "q": "In Flanders the diminutive ending -ke (as in 'manneke') is common in speech.",
      "answer": true,
      "explain_en": "Flemish speech often uses -ke/-ske.",
-     "explain_ru": "Во фламандской разговорной речи часто используются -ke/-ske."
+     "explain_ru": "Во фламандской разговорной речи часто используются -ke/-ske.",
+     "ui": {
+      "ru": {
+       "q": "Во Фландрии в разговорной речи распространено уменьшительное окончание -ke (как в 'manneke')."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5715,7 +6214,33 @@
        "het broodje",
        "булочка"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "het meisje",
+         "girl"
+        ],
+        [
+         "het sprookje",
+         "fairy tale"
+        ],
+        [
+         "het toetje",
+         "dessert"
+        ],
+        [
+         "het koekje",
+         "biscuit, cookie"
+        ],
+        [
+         "het broodje",
+         "bread roll"
+        ]
+       ]
+      }
+     }
     }
    ]
   }
