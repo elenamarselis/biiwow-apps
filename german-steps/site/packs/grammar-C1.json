@@ -2567,7 +2567,7 @@
     {
      "title_en": "Reflexive middle: Das Buch liest sich gut",
      "title_ru": "Возвратный медий: Das Buch liest sich gut",
-     "body_en": "Some transitive verbs can be used reflexively without any agent to describe a property or a spontaneous process: Das Buch liest sich leicht. Die Tür öffnet sich. Der Schlüssel hat sich gefunden. Fixed expressions: Die Frage stellt sich, ob … Das versteht sich von selbst. Here German behaves very much like Russian reflexive verbs in -sya, and like English 'the book reads easily'.",
+     "body_en": "Some transitive verbs can be used reflexively without any agent to describe a property or a spontaneous process: Das Buch liest sich leicht. Die Tür öffnet sich. Der Schlüssel hat sich gefunden. Fixed expressions: Die Frage stellt sich, ob … Das versteht sich von selbst. Here German behaves very much like English 'the book reads easily' or 'the door opens' – German simply adds sich.",
      "body_ru": "Некоторые переходные глаголы можно употребить возвратно, без деятеля, чтобы описать свойство или самопроизвольный процесс: Das Buch liest sich leicht («Книга легко читается»). Die Tür öffnet sich («Дверь открывается»). Der Schlüssel hat sich gefunden («Ключ нашёлся»). Устойчивые выражения: Die Frage stellt sich, ob … («Возникает вопрос, …»), Das versteht sich von selbst («Это само собой разумеется»). Здесь немецкий ведёт себя очень похоже на русские глаголы на -ся.",
      "examples": [
       {
@@ -2992,11 +2992,11 @@
      "type": "tf",
      "q": "„Das Buch liest sich gut“ works much like Russian «книга хорошо читается».",
      "answer": true,
-     "explain_en": "Both languages use a reflexive form without an agent to describe a property.",
+     "explain_en": "True: both describe a property of the book without naming an agent; German just adds the reflexive sich.",
      "explain_ru": "Верно: оба языка используют возвратную форму без деятеля, чтобы описать свойство.",
      "ui": {
       "en": {
-       "q": "„Das Buch liest sich gut“ works much like the Russian reflexive construction ('the book reads well')."
+       "q": "„Das Buch liest sich gut“ works much like English 'the book reads well'."
       },
       "ru": {
        "q": "„Das Buch liest sich gut“ устроено почти так же, как русское «книга хорошо читается»."

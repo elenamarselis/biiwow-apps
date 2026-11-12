@@ -377,7 +377,7 @@ function renderShell(){const hasDoc=!!S.doc;document.documentElement.lang=UI;$("
   const sw=$("#langsw");sw.innerHTML="";for(const l of["ru","en"])sw.append(el("button",{"aria-pressed":UI===l?"true":"false",onclick:()=>{UI=l;lsPatch(o=>{o.ui=l;});render();}},l==="ru"?"RU":"EN"));
   const who=$("#who");who.hidden=!hasDoc;if(hasDoc){who.textContent="👤 "+(S.doc.name||S.name)+(S.guest?" · "+t("guestTag"):"");who.onclick=()=>openSettings();}
   $("#pts").textContent=hasDoc?(S.doc.points||0):0;$("#streak").textContent=hasDoc?(S.doc.streakDays||0):0;
-  const lv=$("#levels");lv.innerHTML="";lv.hidden=!hasDoc;if(hasDoc)for(const L of LEVELS){const v=S.vocab[L];const m=v?v.filter(mastered).length:null;lv.append(el("button",{class:"lvl","aria-pressed":S.level===L?"true":"false",onclick:()=>{if(S.round||S.test||S.pt||S.gapR)return;S.level=L;touch();render();}},L,el("span",{class:"c"},t("level"+L)+(m!=null?" · "+m+"/"+v.length:""))));}
+  const lv=$("#levels");lv.innerHTML="";lv.hidden=!hasDoc;if(hasDoc)for(const L of LEVELS){const v=S.vocab[L];const m=v?v.filter(mastered).length:null;lv.append(el("button",{class:"lvl","aria-pressed":S.level===L?"true":"false",onclick:()=>{if((S.view==="play"&&S.round&&!S.round.ended)||(S.view==="gtest"&&S.test&&!S.test.summary)||(S.view==="ptest"&&S.pt)||(S.view==="gapplay"&&S.gapR))return;S.test=null;S.pt=null;S.gapR=null;S.level=L;touch();render();}},L,el("span",{class:"c"},t("level"+L)+(m!=null?" · "+m+"/"+v.length:""))));}
   const tabs=$("#tabs");tabs.innerHTML="";tabs.hidden=!hasDoc;if(hasDoc)for(const[k,label]of TABS)tabs.append(el("button",{"aria-current":S.view===k||(S.view==="setup"&&k==="games")||(["play","results"].includes(S.view)&&k==="games")||(["gsection","gtest","gresults"].includes(S.view)&&k==="grammar")||(S.view==="topic"&&k==="words")?"page":null,html:ICONS[k]+"<span>"+t(label)+"</span>",onclick:()=>{if(S.round&&S.view==="play")confirmQuit(()=>go(k));else if(S.test&&S.view==="gtest"){S.test.quitTo=k;finishTest(true);}else go(k);}}));}
 function render(){renderShell();const main=$("#main");main.innerHTML="";const wrap=el("div",{class:"wrap"});main.append(wrap);if(!S.doc){viewWelcome(wrap);return;}({home:viewHome,words:viewWords,topic:viewTopic,grammar:viewGrammar,gsection:viewGSection,gtest:viewGTest,gresults:viewGResults,games:viewGames,setup:()=>viewSetup(S.setup&&S.setup.game||"flash",S.setup),play:viewPlay,results:viewResults,progress:viewProgress}[S.view]||(typeof EXTRA_VIEWS!=="undefined"&&EXTRA_VIEWS[S.view])||viewHome)(wrap);}
 function modal(title,body,opts={}){const root=$("#modal-root");root.innerHTML="";const close=()=>{root.innerHTML="";};const m=el("div",{class:"modal",role:"dialog","aria-modal":"true"},el("header",{},el("h2",{},title),el("button",{class:"x","aria-label":"×",onclick:close},"×")),body);root.append(el("div",{class:"modal-bg",onclick:e=>{if(e.target.classList.contains("modal-bg")&&!opts.sticky)close();}},m));return close;}
@@ -600,7 +600,7 @@ async function ptBuild(N){const [vs,gs]=await Promise.all([Promise.all(LEVELS.ma
   const plan=ptPlan(N),qs=[];LEVELS.forEach((L,i)=>{const k=plan[i],ng=Math.floor(k/2),nw=k-ng,uw=new Set(),ug=new Set();const lv=[];
     for(let j=0;j<ng;j++){const q=ptGramQ(L,gs[i],ug);if(q)lv.push(q);}while(lv.length<k){const q=ptWordQ(L,vs[i],uw);if(!q)break;lv.push(q);}
     qs.push(...shuffle(lv));});return qs;}
-async function ptStart(N){N=PT_SIZES.includes(N)?N:20;if(S.round||S.test)return;S.pt={loading:true};go("ptest");const qs=await ptBuild(N);if(!S.pt)return;if(!qs||!qs.length){S.pt=null;toast(t("ptNeedNet"),4000);go("home");return;}S.pt={qs,i:0,answers:[]};render();}
+async function ptStart(N){N=PT_SIZES.includes(N)?N:20;if(S.view==="play"||S.view==="gtest")return;const tok={loading:true};S.pt=tok;go("ptest");const qs=await ptBuild(N);if(S.pt!==tok||S.view!=="ptest")return;if(!qs||!qs.length){S.pt=null;toast(t("ptNeedNet"),4000);go("home");return;}S.pt={qs,i:0,answers:[]};render();}
 function viewPTest(w){const P=S.pt;if(!P){go("home");return;}if(P.loading){w.append(el("p",{class:"muted"},t("loading")));return;}
   const q=P.qs[P.i],n=P.qs.length;
   w.append(el("div",{class:"row between",style:"align-items:center"},el("span",{class:"small",style:"font-weight:700"},t("ptQ",P.i+1,n)),el("button",{class:"btn ghost",style:"padding:6px 10px",onclick:()=>{S.pt=null;go("home");}},t("ptQuit"))));
@@ -640,7 +640,7 @@ function ptHomeCard(){const R=S.doc&&S.doc.placement;const d=R?new Date(R.at).to
   return el("div",{class:"card stack",style:R?"":"border:2px solid var(--accent)"},el("div",{class:"row between"},el("h3",{},t("ptCardTitle")),R?el("span",{class:"tag"},t("ptLast",R.level,d)):null),el("p",{class:"muted small"},t("ptCardText")),
     ptSizeButtons(!R),R?el("button",{class:"btn ghost",style:"align-self:flex-start",onclick:()=>go("ptresult")},t("ptRec",R.level,t("level"+R.level))):null);}
 const EXTRA_VIEWS={ptest:viewPTest,ptresult:viewPTResult};
-{const _go=go;go=function(v,e){if(v!=="ptest"&&S.pt&&!S.pt.loading)S.pt=null;_go(v,e);};}
+{const _go=go;go=function(v,e){if(v!=="ptest")S.pt=null;if(v!=="gtest"&&v!=="gresults"&&S.test&&!S.test.summary)S.test=null;_go(v,e);};}
 {const _home=viewHome;viewHome=function(w){const r=_home(w);const R=S.doc&&S.doc.placement;const c=ptHomeCard();const qs=w.querySelector(".quick");const sec=qs&&qs.closest("section");if(sec){if(R)sec.after(c);else sec.before(c);}else w.append(c);return r;};}
 
 /* ---------- fill the gap: type the missing word (word forms, vocabulary, grammar words) ---------- */
@@ -730,5 +730,18 @@ EXTRA_VIEWS.mywords=viewMyWords;
 {const _prog=viewProgress;viewProgress=function(w){const r=_prog(w);const box=el("div",{class:"stack",style:"gap:8px"});const sec=section(t("mwTitle"),box,el("button",{class:"btn ghost sm",onclick:()=>go("mywords")},t("mwOpen")));
   const first=w.querySelector("section");if(first)first.before(sec);else w.append(sec);mwSummary(box);return r;};}
 {const _words=viewWords;viewWords=function(w){const r=_words(w);const h=w.querySelector("h1");const b=el("button",{class:"btn ghost sm",style:"margin:4px 0 8px",onclick:()=>go("mywords")},"✓ "+t("mwTitle"));if(h&&h.parentNode)h.parentNode.append(b);else w.prepend(b);return r;};}
+/* ---------- offline: download every level automatically and show what is saved on this device ---------- */
+Object.assign(T.en,{offTitle:"Offline",offIntro:"Every level is saved on this device automatically when you are online, so words, grammar and all games work without internet.",offSaved:"saved",offNot:"not saved yet",offBtn:"Save all levels now",offDone:"All levels are saved on this device.",offWorking:"Saving…",offNoNet:"You are offline: connect once to save the remaining levels."});
+Object.assign(T.ru,{offTitle:"Без интернета",offIntro:"Все уровни автоматически сохраняются на этом устройстве, когда есть интернет, поэтому слова, грамматика и все игры работают без сети.",offSaved:"сохранён",offNot:"ещё не сохранён",offBtn:"Сохранить все уровни сейчас",offDone:"Все уровни сохранены на этом устройстве.",offWorking:"Сохраняем…",offNoNet:"Нет интернета: подключитесь один раз, чтобы сохранить остальные уровни."});
+const OFF_KINDS=["vocab","grammar","gap"];
+async function offHas(L){if(!("caches" in window))return null;try{for(const k of OFF_KINDS){const u=new URL("packs/"+k+"-"+L+".json",location.href).href;if(!(await caches.match(u)))return false;}return true;}catch(e){return null;}}
+async function offSaveAll(){if(!navigator.onLine)return false;for(const L of LEVELS)for(const k of OFF_KINDS){try{await fetch("packs/"+k+"-"+L+".json");}catch(e){}}return true;}
+async function offPanel(box){box.innerHTML="";const rows=el("div",{class:"row",style:"gap:8px;flex-wrap:wrap"});let all=true,unknown=false;
+  for(const L of LEVELS){const h=await offHas(L);if(h===null)unknown=true;if(!h)all=false;rows.append(el("span",{class:"tag "+(h?"good":"")},L+" · "+(h?"✓ "+t("offSaved"):t("offNot"))));}
+  const btn=el("button",{class:"btn"+(all?" ghost":" primary"),style:"align-self:flex-start",onclick:async()=>{btn.disabled=true;btn.textContent=t("offWorking");const ok=await offSaveAll();if(!ok)toast(t("offNoNet"),4000);offPanel(box);}},all?t("offDone"):t("offBtn"));
+  box.append(el("p",{class:"muted small"},t("offIntro")),rows,unknown?null:btn);}
+{const _prog2=viewProgress;viewProgress=function(w){const r=_prog2(w);const box=el("div",{class:"card stack",style:"gap:8px"});const sec=section(t("offTitle"),box);const first=w.querySelectorAll("section")[1];if(first)first.before(sec);else w.append(sec);offPanel(box);return r;};}
+// save every level in the background shortly after the app starts (once per app version and device)
+setTimeout(()=>{try{const k="biiwow.offline."+(document.querySelector('script')?LANG.code:"")+"."+(navigator.serviceWorker&&navigator.serviceWorker.controller?"sw":"nosw");if(!navigator.onLine||(navigator.connection&&navigator.connection.saveData))return;offSaveAll();}catch(e){}},6000);
 (async()=>{Voice.init();const ls=lsGet();UI=ls.ui||((navigator.language||"").toLowerCase().startsWith("ru")?"ru":"en");render();if(ls.profile)await reopenSaved(ls.profile);})();
 </script>

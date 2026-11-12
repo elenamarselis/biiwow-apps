@@ -24,7 +24,7 @@ function enPaths(){const out=[];const add=(p,v)=>{if(typeof v==="string"&&cyr(v)
     s.exercises.forEach((e,k)=>{add(`sections.${i}.exercises.${k}.explain_en`,e.explain_en);add(`sections.${i}.exercises.${k}.tr_en`,e.tr_en);});});
   V.forEach((x,i)=>{add(`vocab.${i}.gloss_en`,x.gloss_en);add(`vocab.${i}.example_en`,x.example_en);add(`vocab.${i}.note_en`,x.note_en);});return out;}
 const gpf=path.join(app,"packs","gap-"+lvl+".json");const GP=fs.existsSync(gpf)?JSON.parse(fs.readFileSync(gpf,"utf8")):null;
-function ruPaths(){const out=[];const add=(p,v)=>{if(typeof v==="string"&&RUREF.test(v))out.push([p,v]);};
+function ruPaths(){const out=[];const add=(p,v)=>{if(typeof v==="string"&&RUREF.test(v)&&!/(tr_en|example_en|gloss_en)$/.test(p))out.push([p,v]);};
   G.sections.forEach((s,i)=>{add(`sections.${i}.title_en`,s.title_en);add(`sections.${i}.summary_en`,s.summary_en);
     s.rules.forEach((r,j)=>{add(`sections.${i}.rules.${j}.title_en`,r.title_en);add(`sections.${i}.rules.${j}.body_en`,r.body_en);(r.examples||[]).forEach((x,k)=>add(`sections.${i}.rules.${j}.examples.${k}.tr_en`,x.tr_en));});
     s.exercises.forEach((e,k)=>{add(`sections.${i}.exercises.${k}.explain_en`,e.explain_en);const u=e.ui&&e.ui.en;const src=u||e;const base=u?`sections.${i}.exercises.${k}.ui.en`:`sections.${i}.exercises.${k}`;
@@ -45,7 +45,7 @@ else if(cmd==="merge"){const d=JSON.parse(fs.readFileSync(file,"utf8"));const ba
       if(L==="en"&&cyr(o))err.push("en overlay has Cyrillic");if(o.options&&(!Array.isArray(o.options)||o.options.length!==(ex.options||[]).length))err.push(L+": options length differs");
       if(o.pairs&&(!Array.isArray(o.pairs)||o.pairs.length!==(ex.pairs||[]).length))err.push(L+": pairs length differs");if(L==="ru"&&o.q!==undefined&&!cyr(o.q))err.push("ru q must be Russian");}
     if(err.length){bad.push("ex "+sid+"/"+id+": "+err.join("; "));continue;}ex.ui=Object.assign(ex.ui||{},ui);x++;}
-  for(const [p,txt] of d.entext||[]){if(!txt||cyr(txt)){bad.push("entext "+p+": empty or still Cyrillic");continue;}if(RUREF.test(txt)){bad.push("entext "+p+": still mentions Russian");continue;}try{setPath(p,String(txt).trim());e++;}catch(err){bad.push("entext bad path "+p);}}
+  for(const [p,txt] of d.entext||[]){if(!txt||cyr(txt)){bad.push("entext "+p+": empty or still Cyrillic");continue;}if(RUREF.test(txt)&&!/(tr_en|example_en|gloss_en)$/.test(p)){bad.push("entext "+p+": still mentions Russian");continue;}try{setPath(p,String(txt).trim());e++;}catch(err){bad.push("entext bad path "+p);}}
   fs.writeFileSync(vf,JSON.stringify(V,null,1));fs.writeFileSync(gf,JSON.stringify(G,null,1));if(GP)fs.writeFileSync(gpf,JSON.stringify(GP,null,1));
   console.log(`merged notes ${n}, topics ${t}, exercises ${x}, en texts ${e}`+(bad.length?"\nREJECTED:\n  "+bad.join("\n  "):""));}
 if(cmd==="check"||cmd==="merge"){const mn=V.filter(x=>x.note_ru&&!x.note_en).length,mt=new Set(V.filter(x=>!x.topic_ru).map(x=>x.topic)).size;

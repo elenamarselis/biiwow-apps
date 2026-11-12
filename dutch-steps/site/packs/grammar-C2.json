@@ -11,7 +11,7 @@
     {
      "title_en": "Frozen cases: what des, der and den once were",
      "title_ru": "Застывшие падежи: чем были des, der и den",
-     "body_en": "Middle Dutch declined articles like German: des (genitive masculine and neuter), der (genitive and dative feminine, genitive plural), den (dative masculine and neuter). Modern Dutch has only de and het, but these old forms are frozen inside set phrases and official names. Unlike in Russian, they are not productive: you cannot decline a new noun with them.",
+     "body_en": "Middle Dutch declined articles like German: des (genitive masculine and neuter), der (genitive and dative feminine, genitive plural), den (dative masculine and neuter). Modern Dutch has only de and het, but these old forms are frozen inside set phrases and official names. Unlike the case forms of German, they are not productive: you cannot decline a new noun with them.",
      "body_ru": "В средненидерландском артикли склонялись, как в немецком: des — родительный мужского и среднего рода, der — родительный и дательный женского рода и родительный множественного числа, den — дательный мужского и среднего рода. В современном языке остались только de и het, но старые формы застыли в устойчивых выражениях и официальных названиях. В отличие от русских падежей они непродуктивны: склонять с их помощью новое существительное нельзя.",
      "examples": [
       {
@@ -136,7 +136,7 @@
     {
      "title_en": "Wiens and wier: 'whose' in formal relative clauses",
      "title_ru": "Wiens и wier: «чей» в книжных относительных придаточных",
-     "body_en": "In formal writing 'whose' is wiens after a masculine (or neuter) person and wier after a female person or a plural: de man wiens auto …, de vrouw wier zoon …, de bewoners wier huizen … Spoken Dutch prefers van wie: de vrouw van wie de zoon … Russian uses one word ('chey') that agrees with the possessed noun; in Dutch the form depends on the owner.",
+     "body_en": "In formal writing 'whose' is wiens after a masculine (or neuter) person and wier after a female person or a plural: de man wiens auto …, de vrouw wier zoon …, de bewoners wier huizen … Spoken Dutch prefers van wie: de vrouw van wie de zoon … English uses one word, 'whose', for every owner; in Dutch the form depends on the owner.",
      "body_ru": "В книжном языке «чей» передаётся словом wiens, если владелец — мужчина (или существо среднего рода), и словом wier, если владелец — женщина или множественное число: de man wiens auto …, de vrouw wier zoon …, de bewoners wier huizen … В устной речи предпочитают van wie: de vrouw van wie de zoon … Русское «чей» согласуется с предметом обладания («чья машина», «чей сын»), а нидерландская форма зависит от владельца.",
      "examples": [
       {
@@ -508,7 +508,7 @@
     {
      "id": "e22",
      "type": "tf",
-     "q": "In modern Dutch, des and der can be used with any noun, like Russian case endings.",
+     "q": "In modern Dutch, des and der are productive case forms that can be used with any noun.",
      "answer": false,
      "explain_en": "They are frozen in set phrases and names; they are not productive.",
      "explain_ru": "Они застыли в устойчивых оборотах и названиях и непродуктивны, в отличие от русских падежей.",
@@ -801,7 +801,7 @@
     {
      "title_en": "What may follow the cluster",
      "title_ru": "Что может стоять после глагольной группы",
-     "body_en": "Normally the cluster closes the clause, but some elements may follow it (extraposition). Subordinate clauses and infinitive groups go after it: Hij heeft gezegd dat hij komt. Prepositional phrases and comparisons with dan or als may also follow: dat hij lang heeft gewacht op een antwoord. Direct objects, adjectives and particles may not: *dat hij heeft gekocht een auto is not standard Dutch. Russian word order is much freer here.",
+     "body_en": "Normally the cluster closes the clause, but some elements may follow it (extraposition). Subordinate clauses and infinitive groups go after it: Hij heeft gezegd dat hij komt. Prepositional phrases and comparisons with dan or als may also follow: dat hij lang heeft gewacht op een antwoord. Direct objects, adjectives and particles may not: *dat hij heeft gekocht een auto is not standard Dutch, even though English says 'that he has bought a car'.",
      "body_ru": "Обычно глагольная группа замыкает предложение, но некоторые элементы могут стоять после неё (экстрапозиция). Придаточные и инфинитивные группы идут после неё: Hij heeft gezegd dat hij komt. Предложные группы и сравнения с dan или als тоже могут следовать за ней: dat hij lang heeft gewacht op een antwoord. Прямое дополнение, прилагательное и отделяемая приставка — нет: *dat hij heeft gekocht een auto — ненормативно. В русском порядок слов здесь гораздо свободнее.",
      "examples": [
       {
@@ -824,7 +824,7 @@
     {
      "title_en": "Avoiding centre-embedding",
      "title_ru": "Как избежать «матрёшки» из придаточных",
-     "body_en": "Because the verb goes to the end, a clause inside a clause quickly becomes unreadable: De man die het boek dat ik las schreef, … Good Dutch moves the inner clause to the end: De man die het boek schreef dat ik las, … A relative clause may also follow the verbs of the main clause: Ik heb gisteren een vrouw ontmoet die zeven talen spreekt. Russian can nest more freely because its verb is not pushed to the end.",
+     "body_en": "Because the verb goes to the end, a clause inside a clause quickly becomes unreadable: De man die het boek dat ik las schreef, … Good Dutch moves the inner clause to the end: De man die het boek schreef dat ik las, … A relative clause may also follow the verbs of the main clause: Ik heb gisteren een vrouw ontmoet die zeven talen spreekt. English can nest more freely because its verb is not pushed to the end.",
      "body_ru": "Поскольку глагол уходит в конец, придаточное внутри придаточного быстро становится нечитаемым: De man die het boek dat ik las schreef, … В хорошем нидерландском внутреннее придаточное выносят в конец: De man die het boek schreef dat ik las, … Относительное придаточное может стоять и после глаголов главного предложения: Ik heb gisteren een vrouw ontmoet die zeven talen spreekt. В русском вложенность даётся легче, потому что глагол не отодвигается в конец.",
      "examples": [
       {
@@ -2763,13 +2763,13 @@
    "id": "prepositional-regime",
    "title_en": "Prepositional regime (zich beroepen op, afzien van, onderhevig aan)",
    "title_ru": "Предложное управление (zich beroepen op, afzien van, onderhevig aan)",
-   "summary_en": "Formal and specialist Dutch relies on verbs, adjectives and nouns with fixed prepositions that cannot be guessed from Russian. This section covers the formal register, verbs with an object and a preposition, and pairs where the preposition changes the meaning.",
+   "summary_en": "Formal and specialist Dutch relies on verbs, adjectives and nouns with fixed prepositions that cannot be guessed from English. This section covers the formal register, verbs with an object and a preposition, and pairs where the preposition changes the meaning.",
    "summary_ru": "Официальный и профессиональный нидерландский опирается на глаголы, прилагательные и существительные с закреплёнными предлогами, которые невозможно угадать по русскому. В разделе — книжные сочетания, глаголы с дополнением и предлогом и пары, где предлог меняет смысл.",
    "rules": [
     {
      "title_en": "Formal verbs with fixed prepositions",
      "title_ru": "Книжные глаголы с закреплёнными предлогами",
-     "body_en": "Official and legal texts use verbs such as zich beroepen op ('invoke'), afzien van ('refrain from, abandon'), aanspraak maken op ('lay claim to'), overgaan tot ('proceed to'), toezien op ('supervise'), voldoen aan ('comply with'), kennisnemen van ('take note of'), zich onthouden van ('abstain from') and getuigen van ('show, testify to'). Some match their English or Russian equivalents in structure, many do not.",
+     "body_en": "Official and legal texts use verbs such as zich beroepen op ('invoke'), afzien van ('refrain from, abandon'), aanspraak maken op ('lay claim to'), overgaan tot ('proceed to'), toezien op ('supervise'), voldoen aan ('comply with'), kennisnemen van ('take note of'), zich onthouden van ('abstain from') and getuigen van ('show, testify to'). Some match their English equivalents in structure, many do not.",
      "body_ru": "В официальных и юридических текстах встречаются глаголы zich beroepen op («ссылаться на»), afzien van («отказываться от»), aanspraak maken op («претендовать на»), overgaan tot («переходить к, приступать к»), toezien op («следить за»), voldoen aan («соответствовать, удовлетворять»), kennisnemen van («принимать к сведению»), zich onthouden van («воздерживаться от»), getuigen van («свидетельствовать о»). Некоторые совпадают с русскими (ссылаться на = zich beroepen op, отказаться от = afzien van), многие — нет.",
      "examples": [
       {
@@ -2797,7 +2797,7 @@
     {
      "title_en": "Adjectives with fixed prepositions",
      "title_ru": "Прилагательные с закреплёнными предлогами",
-     "body_en": "Formal adjectives also select a preposition: onderhevig aan ('subject to'), onderworpen aan, gespeend van ('devoid of'), bevreesd voor ('afraid of'), beducht voor ('wary of'), ontvankelijk voor ('receptive to'), gekant tegen ('opposed to'), aansprakelijk voor ('liable for'), gewaagd aan ('a match for'). Russian often uses a bare case where Dutch needs a preposition: 'subject to fluctuations' = onderhevig aan schommelingen.",
+     "body_en": "Formal adjectives also select a preposition: onderhevig aan ('subject to'), onderworpen aan, gespeend van ('devoid of'), bevreesd voor ('afraid of'), beducht voor ('wary of'), ontvankelijk voor ('receptive to'), gekant tegen ('opposed to'), aansprakelijk voor ('liable for'), gewaagd aan ('a match for'). The Dutch preposition often differs from the English one: 'afraid of' = bevreesd voor, 'subject to fluctuations' = onderhevig aan schommelingen.",
      "body_ru": "Книжные прилагательные тоже требуют определённого предлога: onderhevig aan («подверженный»), onderworpen aan («подчинённый»), gespeend van («лишённый»), bevreesd voor («опасающийся»), beducht voor («настороженный в отношении»), ontvankelijk voor («восприимчивый к»), gekant tegen («настроенный против»), aansprakelijk voor («несущий ответственность за»), gewaagd aan («равный по силе»). В русском часто стоит падеж без предлога, а в нидерландском нужен предлог: подверженный колебаниям = onderhevig aan schommelingen.",
      "examples": [
       {
@@ -2843,7 +2843,7 @@
     {
      "title_en": "Verb + object + preposition",
      "title_ru": "Глагол + дополнение + предлог",
-     "body_en": "Many verbs take a direct object and a prepositional object: iemand beschuldigen van ('accuse of'), verdenken van ('suspect of'), behoeden voor ('protect from'), vrijwaren van ('safeguard against'), belasten met ('charge with a task'), betrekken bij ('involve in'), attenderen op ('draw attention to'), iets toeschrijven aan ('attribute to'), iets afleiden uit ('deduce from'), iets ontlenen aan ('derive from'). Russian uses 'in' with 'accuse' and 'suspect'; Dutch uses van, like English 'of'.",
+     "body_en": "Many verbs take a direct object and a prepositional object: iemand beschuldigen van ('accuse of'), verdenken van ('suspect of'), behoeden voor ('protect from'), vrijwaren van ('safeguard against'), belasten met ('charge with a task'), betrekken bij ('involve in'), attenderen op ('draw attention to'), iets toeschrijven aan ('attribute to'), iets afleiden uit ('deduce from'), iets ontlenen aan ('derive from'). With 'accuse' and 'suspect' Dutch uses van, like English 'of' – not in or voor.",
      "body_ru": "Многие глаголы имеют прямое и предложное дополнение: iemand beschuldigen van («обвинять в»), verdenken van («подозревать в»), behoeden voor («уберечь от»), vrijwaren van («оградить от»), belasten met («поручить кому-то задачу»), betrekken bij («привлечь к»), attenderen op («обратить чьё-то внимание на»), iets toeschrijven aan («приписывать»), iets afleiden uit («делать вывод из»), iets ontlenen aan («заимствовать из»). Русское «обвинять в», «подозревать в» по-нидерландски — van, а не in.",
      "examples": [
       {
@@ -3030,7 +3030,7 @@
       "van"
      ],
      "answer": 3,
-     "explain_en": "Iemand beschuldigen van ('accuse of'), not in as in Russian.",
+     "explain_en": "Iemand beschuldigen van ('accuse of'), just like English 'of'.",
      "explain_ru": "Iemand beschuldigen van — а не in, как в русском «обвинять в»."
     },
     {
@@ -3256,7 +3256,7 @@
      "explain_ru": "Правильный предлог — van: iemand beschuldigen van diefstal.",
      "ui": {
       "en": {
-       "q": "'Iemand beschuldigen in diefstal' is correct Dutch, just as Russian uses 'in' with 'accuse'."
+       "q": "'Iemand beschuldigen in diefstal' is correct Dutch for 'to accuse someone of theft'."
       },
       "ru": {
        "q": "'Iemand beschuldigen in diefstal' — правильное нидерландское выражение, как русское «обвинять в краже»."
@@ -3527,7 +3527,7 @@
     {
      "title_en": "Conversion: a new word class without a suffix",
      "title_ru": "Конверсия: новая часть речи без суффикса",
-     "body_en": "Dutch can change the word class without adding anything. Verb stems become nouns: de val, de loop, de sprong, het besluit. Adjectives become nouns: het goede, de armen, het nieuwe eraan. Nouns become verbs: fietsen, hamsteren ('stockpile'), appen ('send a WhatsApp message'). Even function words can be nouns: het hoe en waarom, er is één maar ('there is one but'). English does the same (a fall, a jump, to text); Russian usually needs a suffix.",
+     "body_en": "Dutch can change the word class without adding anything. Verb stems become nouns: de val, de loop, de sprong, het besluit. Adjectives become nouns: het goede, de armen, het nieuwe eraan. Nouns become verbs: fietsen, hamsteren ('stockpile'), appen ('send a WhatsApp message'). Even function words can be nouns: het hoe en waarom, er is één maar ('there is one but'). English does the same (a fall, a jump, to text); many other languages need a suffix.",
      "body_ru": "В нидерландском часть речи может меняться без всяких суффиксов. Основы глаголов становятся существительными: de val («падение»), de loop («ход, бег»), de sprong («прыжок»), het besluit («решение»). Прилагательные — существительными: het goede («хорошее»), de armen («бедные»), het nieuwe eraan («новизна этого»). Существительные — глаголами: fietsen («кататься на велосипеде»), hamsteren («запасаться впрок», от hamster), appen («писать в WhatsApp»). Даже служебные слова становятся существительными: het hoe en waarom, er is één maar («есть одно „но“»). В русском обычно нужен суффикс: падать → падение.",
      "examples": [
       {
@@ -4119,7 +4119,7 @@
    "id": "orthography-punctuation",
    "title_en": "Orthography and punctuation: Groene Boekje, compounds and hyphens, tussen-n, apostrophes (auto's, 's)",
    "title_ru": "Орфография и пунктуация: Groene Boekje, сложные слова и дефис, соединительное -n-, апостроф (auto's, 's)",
-   "summary_en": "Dutch spelling is fixed officially by the Taalunie in the Groene Boekje. At C2 level you need to master the tricky points: writing compounds together, hyphens, the linking -en-, apostrophes, trema and accents, capitals and a punctuation system that differs a lot from Russian.",
+   "summary_en": "Dutch spelling is fixed officially by the Taalunie in the Groene Boekje. At C2 level you need to master the tricky points: writing compounds together, hyphens, the linking -en-, apostrophes, trema and accents, capitals and a punctuation system that differs in places from English.",
    "summary_ru": "Нидерландская орфография официально закреплена Нидерландским языковым союзом (Taalunie) в «Зелёной книжечке» (Groene Boekje). На уровне C2 нужно владеть трудными случаями: слитным написанием сложных слов, дефисом, соединительным -en-, апострофом, тремой и ударениями, прописными буквами и пунктуацией, которая сильно отличается от русской.",
    "rules": [
     {
@@ -4279,15 +4279,15 @@
      ]
     },
     {
-     "title_en": "Capital letters: different from Russian",
+     "title_en": "Capital letters: different from English",
      "title_ru": "Прописные буквы: не так, как в русском",
-     "body_en": "As in Russian, days, months and seasons are lower case: maandag, november, de winter. Unlike Russian, languages and adjectives of nationality and place are capitalised: Russisch, de Nederlandse taal, een Amsterdamse gracht, and so are the people: een Rus. Religious holidays are capitalised (Kerstmis, Pasen), names of religions and their followers are not (het christendom, een moslim). In titles of books only the first word is capitalised.",
+     "body_en": "Unlike English, Dutch writes days, months and seasons in lower case: maandag, november, de winter. As in English, languages and adjectives of nationality and place are capitalised: Russisch, de Nederlandse taal, een Amsterdamse gracht, and so are the people: een Rus. Religious holidays are capitalised (Kerstmis, Pasen), but unlike English, names of religions and their followers are not (het christendom, een moslim). In titles of books only the first word is capitalised.",
      "body_ru": "Как и в русском, дни недели, месяцы и времена года пишутся со строчной: maandag, november, de winter. В отличие от русского, названия языков и прилагательные от названий стран и мест пишутся с прописной: Russisch («русский язык»), de Nederlandse taal, een Amsterdamse gracht («амстердамский канал»), как и названия народов: een Rus. Религиозные праздники пишутся с прописной (Kerstmis, Pasen), а названия религий и их последователей — со строчной (het christendom, een moslim). В названиях книг с прописной пишется только первое слово.",
      "examples": [
       {
        "en": "Op maandag hebben we les Russisch.",
        "ru": "По понедельникам у нас урок русского языка.",
-       "tr_en": "On Mondays we have Russian class."
+       "tr_en": "On Mondays we have a Russian lesson."
       },
       {
        "en": "Met Kerstmis eten we bij mijn schoonouders in België.",
@@ -4299,7 +4299,7 @@
     {
      "title_en": "Commas and other punctuation",
      "title_ru": "Запятые и другие знаки препинания",
-     "body_en": "Dutch uses far fewer commas than Russian. There is no comma before dat, of or a restrictive relative clause: Ik weet dat hij komt; De man die daar staat, is mijn vader. A comma is put where two finite verbs meet and around non-restrictive clauses. After a colon the next word is lower case unless it starts a quotation. Numbers use a decimal comma and a thousands point: 3,5 procent, 10.000 inwoners; times are written 14.30 uur.",
+     "body_en": "Dutch uses far fewer commas than German. As in English, there is no comma before dat, of or a restrictive relative clause: Ik weet dat hij komt; De man die daar staat, is mijn vader. A comma is put where two finite verbs meet and around non-restrictive clauses. After a colon the next word is lower case unless it starts a quotation. Numbers use a decimal comma and a thousands point: 3,5 procent, 10.000 inwoners; times are written 14.30 uur.",
      "body_ru": "В нидерландском запятых гораздо меньше, чем в русском. Перед dat, of и ограничительным относительным придаточным запятая не ставится: Ik weet dat hij komt («Я знаю, что он придёт»); De man die daar staat, is mijn vader. Запятая ставится там, где встречаются два спрягаемых глагола, и вокруг распространительных придаточных. После двоеточия следующее слово пишется со строчной, если это не цитата. В числах — десятичная запятая и точка для тысяч: 3,5 procent, 10.000 inwoners; время пишут 14.30 uur.",
      "examples": [
       {
@@ -4455,7 +4455,7 @@
       "Ik weet dat hij morgen komt."
      ],
      "answer": 3,
-     "explain_en": "No comma before dat, unlike Russian, which always puts a comma before 'that'.",
+     "explain_en": "No comma before dat, just as English has no comma before 'that'.",
      "explain_ru": "Перед dat запятая не ставится — в отличие от русского «что».",
      "ui": {
       "ru": {
@@ -4666,7 +4666,7 @@
     {
      "id": "e22",
      "type": "tf",
-     "q": "In Dutch, as in Russian, a comma is required before every dat-clause.",
+     "q": "In Dutch, a comma is required before every dat-clause.",
      "answer": false,
      "explain_en": "Dutch puts no comma before dat: Ik weet dat hij komt.",
      "explain_ru": "В нидерландском перед dat запятая не ставится: Ik weet dat hij komt.",
@@ -4694,7 +4694,7 @@
      "type": "tf",
      "q": "Names of languages such as Russisch and Nederlands are written with a capital letter.",
      "answer": true,
-     "explain_en": "Unlike Russian, Dutch capitalises languages and nationality adjectives.",
+     "explain_en": "As in English, Dutch capitalises languages and nationality adjectives.",
      "explain_ru": "В отличие от русского, названия языков и прилагательные национальности пишутся с прописной.",
      "ui": {
       "ru": {
@@ -4794,13 +4794,13 @@
    "id": "aspect",
    "title_en": "Aspect: aan het + infinitive, zitten/staan/liggen/lopen te + infinitive",
    "title_ru": "Вид: aan het + инфинитив, zitten/staan/liggen/lopen te + инфинитив",
-   "summary_en": "Dutch has no grammatical aspect like Russian, but it expresses progress, completion, beginning, continuation and habit with particles and constructions. Choosing the right one, especially among the posture verbs, is a mark of near-native Dutch.",
+   "summary_en": "Dutch has no continuous tenses like English 'I am reading', but it expresses progress, completion, beginning, continuation and habit with particles and constructions. Choosing the right one, especially among the posture verbs, is a mark of near-native Dutch.",
    "summary_ru": "В нидерландском нет грамматической категории вида, как в русском, но длительность, завершённость, начало, продолжение и привычность действия выражаются приставками и конструкциями. Умение выбрать нужную, особенно среди глаголов положения, — признак почти родного владения языком.",
    "rules": [
     {
      "title_en": "No aspect pairs: one verb, context and tense",
      "title_ru": "Нет видовых пар: один глагол, контекст и время",
-     "body_en": "Russian has aspect pairs of verbs (imperfective 'chitat'' and perfective 'prochitat'', both 'to read'); Dutch has one verb, lezen. Completion is shown by the perfect tense, by context or by a particle: Ik heb het boek gelezen ('I have read / I read the book'). Ik las een boek can mean 'I was reading a book' or 'I read a book' depending on context. Do not look for a separate 'perfective verb' in Dutch; look for the construction that expresses the nuance.",
+     "body_en": "Some languages have aspect pairs of verbs (one verb for 'be reading' and another for 'finish reading'); Dutch, like English, has one verb, lezen. Completion is shown by the perfect tense, by context or by a particle: Ik heb het boek gelezen ('I have read / I read the book'). Ik las een boek can mean 'I was reading a book' or 'I read a book' depending on context. Do not look for a separate 'perfective verb' in Dutch; look for the construction that expresses the nuance.",
      "body_ru": "В русском есть пары вроде «читать/прочитать», а в нидерландском один глагол — lezen. Завершённость выражается перфектом, контекстом или приставкой: Ik heb het boek gelezen («Я прочитал книгу»). Ik las een boek — это может быть и «читал», и «прочитал», в зависимости от контекста. Не ищите в нидерландском отдельный «глагол совершенного вида» — ищите конструкцию, которая передаёт нужный оттенок.",
      "examples": [
       {
@@ -4841,7 +4841,7 @@
     {
      "title_en": "Aan het + infinitive: limits and uses",
      "title_ru": "Aan het + инфинитив: границы и употребление",
-     "body_en": "Zijn + aan het + infinitive presents an action as in progress. It is impossible with verbs of state: *Ik ben het antwoord aan het weten, *Hij is een auto aan het hebben. In narration it sets the background, like a Russian imperfective: Ik was aan het koken toen de bel ging. With zetten, brengen and raken it means 'cause/start to': Dat zette me aan het denken; Hij raakte aan het twijfelen.",
+     "body_en": "Zijn + aan het + infinitive presents an action as in progress. It is impossible with verbs of state: *Ik ben het antwoord aan het weten, *Hij is een auto aan het hebben. In narration it sets the background, like the English past continuous: Ik was aan het koken toen de bel ging ('I was cooking when the bell rang'). With zetten, brengen and raken it means 'cause/start to': Dat zette me aan het denken; Hij raakte aan het twijfelen.",
      "body_ru": "Zijn + aan het + инфинитив представляет действие как длящееся. С глаголами состояния это невозможно: *Ik ben het antwoord aan het weten, *Hij is een auto aan het hebben. В повествовании конструкция создаёт фон, как русский несовершенный вид: Ik was aan het koken toen de bel ging («Я готовил, когда позвонили в дверь»). С zetten, brengen и raken она значит «заставить/начать»: Dat zette me aan het denken («Это заставило меня задуматься»); Hij raakte aan het twijfelen («Он засомневался»).",
      "examples": [
       {
@@ -5344,7 +5344,7 @@
     {
      "id": "e22",
      "type": "tf",
-     "q": "Like Russian, Dutch has a separate perfective verb for most verbs (for example a perfective partner of lezen).",
+     "q": "Dutch has a separate 'completed action' verb for most verbs (for example a perfective partner of lezen).",
      "answer": false,
      "explain_en": "Dutch has no aspect pairs; it uses tense, particles and constructions.",
      "explain_ru": "В нидерландском нет видовых пар; используются времена, приставки и конструкции.",
@@ -5526,7 +5526,7 @@
     {
      "title_en": "U or je today",
      "title_ru": "U или je сегодня",
-     "body_en": "In the Netherlands je/jij has spread far: shops, banks and many companies address customers with je, and colleagues, even bosses, are usually addressed by first name and je. U remains normal for older strangers, in official contacts and in many service situations. The switch is often offered explicitly: Zeg maar je, or Zeg maar Peter. Flanders uses u more widely. Russian speakers tend to keep the formal 'you' too long; in Dutch that can sound distant.",
+     "body_en": "In the Netherlands je/jij has spread far: shops, banks and many companies address customers with je, and colleagues, even bosses, are usually addressed by first name and je. U remains normal for older strangers, in official contacts and in many service situations. The switch is often offered explicitly: Zeg maar je, or Zeg maar Peter. Flanders uses u more widely. Learners who are unsure tend to keep u too long; in Dutch that can sound distant.",
      "body_ru": "В Нидерландах je/jij распространилось очень широко: магазины, банки и многие компании обращаются к клиентам на je, а к коллегам и даже начальникам обычно обращаются по имени и на je. U остаётся нормой для пожилых незнакомых людей, в официальном общении и во многих ситуациях обслуживания. Переход на «ты» часто предлагают прямо: Zeg maar je («Давай на ты») или Zeg maar Peter («Зови меня Петер»). Во Фландрии u употребляется шире. Русскоязычные часто слишком долго держатся за «вы»; по-нидерландски это может звучать отстранённо.",
      "examples": [
       {
@@ -5572,7 +5572,7 @@
     {
      "title_en": "Names and titles",
      "title_ru": "Имена и титулы",
-     "body_en": "Dutch has no equivalent of the Russian first name + patronymic. Strangers are meneer or mevrouw + surname; colleagues use first names. Academic and professional titles appear in writing, on envelopes and in formal letters, but almost never in speech: dr., prof., mr. (meester in de rechten, a law graduate), ir. (engineer), drs. (doctorandus). Primary school children call their teacher juf or meester. Calling someone Dokter De Vries or Professor in conversation sounds odd.",
+     "body_en": "Dutch has no special respectful name forms. Strangers are meneer or mevrouw + surname (like Mr or Mrs + surname); colleagues use first names. Academic and professional titles appear in writing, on envelopes and in formal letters, but almost never in speech: dr., prof., mr. (meester in de rechten, a law graduate), ir. (engineer), drs. (doctorandus). Primary school children call their teacher juf or meester. Calling someone Dokter De Vries or Professor in conversation sounds odd.",
      "body_ru": "В нидерландском нет аналога имени-отчества. К незнакомым обращаются meneer или mevrouw + фамилия; коллеги называют друг друга по имени. Учёные и профессиональные титулы встречаются в письменном языке, на конвертах и в официальных письмах, но почти никогда — в устной речи: dr., prof., mr. (meester in de rechten — юрист с университетским дипломом), ir. (инженер), drs. (doctorandus — магистр). Школьники младших классов называют учителя juf или meester. Обращение «Dokter De Vries» или «Professor» в разговоре звучит странно.",
      "examples": [
       {
@@ -5687,7 +5687,7 @@
     {
      "title_en": "Refusing and disagreeing politely",
      "title_ru": "Вежливый отказ и несогласие",
-     "body_en": "Even direct speakers soften a refusal. Dat wordt lastig ('that will be difficult') usually means no. Ik zal kijken wat ik kan doen promises nothing. Daar moet ik even over nadenken buys time. Ik ben het niet helemaal met je eens ('I don't entirely agree') is a clear disagreement. Ja, maar … introduces an objection. A Russian speaker should read these as real refusals and objections.",
+     "body_en": "Even direct speakers soften a refusal. Dat wordt lastig ('that will be difficult') usually means no. Ik zal kijken wat ik kan doen promises nothing. Daar moet ik even over nadenken buys time. Ik ben het niet helemaal met je eens ('I don't entirely agree') is a clear disagreement. Ja, maar … introduces an objection. As with British understatement, read these as real refusals and objections.",
      "body_ru": "Даже прямолинейные люди смягчают отказ. Dat wordt lastig («Это будет сложно») обычно значит «нет». Ik zal kijken wat ik kan doen («Посмотрю, что можно сделать») ничего не обещает. Daar moet ik even over nadenken («Мне надо подумать») позволяет выиграть время. Ik ben het niet helemaal met je eens («Я не совсем с тобой согласен») — явное несогласие. Ja, maar … вводит возражение. Русскоязычному собеседнику стоит понимать эти фразы как настоящий отказ или возражение.",
      "examples": [
       {

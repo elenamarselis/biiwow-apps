@@ -5,7 +5,7 @@
    "id": "unreal-conditionals-past",
    "title_en": "Unreal conditionals in the past (als ik het had geweten, zou ik … hebben)",
    "title_ru": "Нереальное условие в прошлом (als ik het had geweten, zou ik … hebben)",
-   "summary_en": "To talk about something that did not happen, Dutch uses the pluperfect in the als-clause and zou + participle + hebben/zijn (or simply the pluperfect again) in the main clause. Unlike the Russian conditional particle 'by', Dutch clearly separates unreal present and unreal past.",
+   "summary_en": "To talk about something that did not happen, Dutch uses the pluperfect in the als-clause and zou + participle + hebben/zijn (or simply the pluperfect again) in the main clause. Like English ('if I knew' vs 'if I had known'), Dutch clearly separates unreal present and unreal past.",
    "summary_ru": "Чтобы говорить о том, чего не случилось, в придаточном с als используют плюсквамперфект, а в главном — zou + причастие + hebben/zijn (или снова плюсквамперфект). В отличие от русского «бы», нидерландский чётко различает нереальность в настоящем и в прошлом.",
    "rules": [
     {
@@ -170,9 +170,9 @@
      ]
     },
     {
-     "title_en": "Unreal present vs unreal past: a contrast with Russian",
+     "title_en": "Unreal present vs unreal past",
      "title_ru": "Нереальное настоящее и нереальное прошлое: отличие от русского",
-     "body_en": "The Russian sentence 'Yesli by ya znal, ya by skazal' (if I had known / if I knew, I would say) can refer both to now and to the past. Dutch must choose: 'Als ik het wist, zou ik het zeggen' (now: I don't know) vs 'Als ik het had geweten, had ik het gezegd' (then: I didn't know). Use the past forms whenever the situation is over.",
+     "body_en": "Dutch, like English, must choose between now and the past: 'Als ik het wist, zou ik het zeggen' (if I knew, I would say it – now: I don't know) vs 'Als ik het had geweten, had ik het gezegd' (if I had known, I would have said it – then: I didn't know). Use the past forms whenever the situation is over.",
      "body_ru": "Русское «Если бы я знал, я бы сказал» может относиться и к настоящему, и к прошлому. В нидерландском нужно выбрать: «Als ik het wist, zou ik het zeggen» — сейчас (я не знаю) или «Als ik het had geweten, had ik het gezegd» — тогда (я не знал). Если ситуация уже в прошлом, используйте формы с had/was.",
      "examples": [
       {
@@ -499,7 +499,7 @@
      "explain_ru": "Первое предложение — о настоящем, второе — о прошлом. В нидерландском эти значения различаются формой.",
      "ui": {
       "en": {
-       "q": "'Als ik tijd had, zou ik komen' and 'Als ik tijd had gehad, zou ik zijn gekomen' mean the same, just like the Russian conditional, which does not distinguish present and past."
+       "q": "'Als ik tijd had, zou ik komen' and 'Als ik tijd had gehad, zou ik zijn gekomen' mean the same: both are about the present."
       },
       "ru": {
        "q": "'Als ik tijd had, zou ik komen' и 'Als ik tijd had gehad, zou ik zijn gekomen' значат одно и то же, как и русское «если бы у меня было время, я бы пришёл»."
@@ -633,7 +633,7 @@
     {
      "title_en": "Passive with modal verbs: moet worden gedaan",
      "title_ru": "Пассив с модальными глаголами: moet worden gedaan",
-     "body_en": "A modal verb + passive is formed with the modal, the participle and the infinitive worden at the end: 'Dit moet worden gedaan' or 'Dit moet gedaan worden'. Both orders are correct. Russian uses a short passive participle ('dolzhno byt' sdelano' – must be done) or an impersonal 'nuzhno sdelat'' (it is necessary to do).",
+     "body_en": "A modal verb + passive is formed with the modal, the participle and the infinitive worden at the end: 'Dit moet worden gedaan' or 'Dit moet gedaan worden'. Both orders are correct. English uses modal + be + participle: 'This must be done'.",
      "body_ru": "Модальный глагол + пассив: модальный глагол, причастие и инфинитив worden в конце: «Dit moet worden gedaan» или «Dit moet gedaan worden» — оба порядка правильны. В русском — «должно быть сделано» или «нужно сделать».",
      "examples": [
       {
@@ -702,7 +702,7 @@
     {
      "title_en": "Impersonal passive: er wordt gedanst",
      "title_ru": "Безличный пассив: er wordt gedanst",
-     "body_en": "Dutch can make a passive from verbs without an object (dansen, werken, lachen, roken). There is no subject, so er fills the first position and the verb is always singular: 'Er wordt gedanst.' Russian uses a subjectless 'they'-sentence instead: 'Tantsuyut' (people are dancing), 'Zdes' ne kuryat' (no smoking here).",
+     "body_en": "Dutch can make a passive from verbs without an object (dansen, werken, lachen, roken). There is no subject, so er fills the first position and the verb is always singular: 'Er wordt gedanst.' English cannot do this and uses 'people', 'they' or a noun instead: 'People are dancing', 'No smoking here'.",
      "body_ru": "В нидерландском пассив можно образовать и от глаголов без дополнения (dansen, werken, lachen, roken). Подлежащего нет, поэтому первое место занимает er, а глагол всегда в единственном числе: «Er wordt gedanst» — танцуют. В русском здесь неопределённо-личное предложение: «Здесь не курят».",
      "examples": [
       {
@@ -1928,7 +1928,7 @@
     {
      "title_en": "Hoewel (ofschoon): although",
      "title_ru": "Hoewel (ofschoon): хотя",
-     "body_en": "Hoewel introduces a concession; ofschoon is a more formal synonym. If the hoewel-clause comes first, the main clause starts with the verb and does NOT begin with maar: 'Hoewel het regende, gingen we wandelen.' Russian often says 'although…, but…'; Dutch has no maar here (toch is possible: 'toch gingen we').",
+     "body_en": "Hoewel introduces a concession; ofschoon is a more formal synonym. If the hoewel-clause comes first, the main clause starts with the verb and does NOT begin with maar: 'Hoewel het regende, gingen we wandelen.' As in English ('Although it rained, we went for a walk' – not '…, but we went'), Dutch has no maar here (toch is possible: 'toch gingen we').",
      "body_ru": "Hoewel вводит уступку; ofschoon — более книжный синоним. Если предложение с hoewel стоит первым, главное начинается с глагола и НЕ начинается с maar: «Hoewel het regende, gingen we wandelen». В русском часто говорят «хотя…, но…»; в нидерландском maar здесь не ставят (возможно toch: «toch gingen we»).",
      "examples": [
       {
@@ -2020,7 +2020,7 @@
     {
      "title_en": "Zodra and totdat: as soon as, until",
      "title_ru": "Zodra и totdat: как только, пока не",
-     "body_en": "Zodra means 'as soon as': 'Zodra ik thuis ben, bel ik je.' Totdat (or tot) means 'until': 'Wacht hier totdat ik terug ben.' Note: after totdat Dutch has no niet, while Russian adds a negation here (literally 'until I do not come back').",
+     "body_en": "Zodra means 'as soon as': 'Zodra ik thuis ben, bel ik je.' Totdat (or tot) means 'until': 'Wacht hier totdat ik terug ben.' Note: after totdat Dutch has no niet, just as English says 'until I come back', not 'until I don't come back'.",
      "body_ru": "Zodra значит «как только»: «Zodra ik thuis ben, bel ik je» — как только буду дома, позвоню тебе. Totdat (или tot) значит «пока не, до тех пор пока»: «Wacht hier totdat ik terug ben» — жди здесь, пока я не вернусь. Обратите внимание: после totdat отрицания niet нет, хотя по-русски говорят «пока не».",
      "examples": [
       {
@@ -2453,7 +2453,7 @@
      "explain_ru": "Maar не ставится: «Hoewel het regende, gingen we wandelen».",
      "ui": {
       "en": {
-       "q": "After a hoewel-clause, Dutch normally starts the main clause with 'maar', like the Russian pattern 'although…, but…'."
+       "q": "After a hoewel-clause, Dutch normally starts the main clause with 'maar' (the pattern 'although…, but…')."
       },
       "ru": {
        "q": "После придаточного с hoewel главное предложение в нидерландском обычно начинается с 'maar', как в русском «хотя…, но…»."
@@ -3411,7 +3411,7 @@
     {
      "title_en": "Time – manner – place",
      "title_ru": "Время – способ – место",
-     "body_en": "In neutral order, adverbials come in the order time, manner, place (T-M-P): 'Ik ga morgen met de trein naar Utrecht.' Russian (and to some extent English) allows a much freer order; Dutch does not in neutral speech. One of them may move to position 1: 'Morgen ga ik met de trein naar Utrecht.'",
+     "body_en": "In neutral order, adverbials come in the order time, manner, place (T-M-P): 'Ik ga morgen met de trein naar Utrecht.' English prefers the opposite order (place before time: 'to Utrecht by train tomorrow'); Dutch does not allow that in neutral speech. One of them may move to position 1: 'Morgen ga ik met de trein naar Utrecht.'",
      "body_ru": "В нейтральном порядке обстоятельства идут так: время, способ, место (T-M-P): «Ik ga morgen met de trein naar Utrecht». В русском возможен почти любой порядок («в Утрехт завтра поездом»), в нидерландском в нейтральной речи — нет. Одно из обстоятельств можно вынести на первое место: «Morgen ga ik met de trein naar Utrecht».",
      "examples": [
       {
@@ -3434,7 +3434,7 @@
     {
      "title_en": "The position of niet",
      "title_ru": "Место niet",
-     "body_en": "Niet negating the whole sentence stands as late as possible: after a definite object and after time adverbs, but before adverbs of manner, prepositional phrases and the final verbs: 'Ik heb het boek niet gelezen', 'Ik kom morgen niet', 'Hij rijdt niet snel', 'Hij woont niet in Amsterdam.' In Russian the negation stands directly before the verb, and in English it comes right after the auxiliary.",
+     "body_en": "Niet negating the whole sentence stands as late as possible: after a definite object and after time adverbs, but before adverbs of manner, prepositional phrases and the final verbs: 'Ik heb het boek niet gelezen', 'Ik kom morgen niet', 'Hij rijdt niet snel', 'Hij woont niet in Amsterdam.' In English the negation comes right after the auxiliary ('I have not read the book').",
      "body_ru": "Niet, отрицающее всё предложение, стоит как можно дальше: после определённого дополнения и после наречий времени, но перед наречиями образа действия, предложными группами и глаголами в конце: «Ik heb het boek niet gelezen», «Ik kom morgen niet», «Hij rijdt niet snel», «Hij woont niet in Amsterdam». В русском «не» стоит прямо перед глаголом.",
      "examples": [
       {
@@ -3480,7 +3480,7 @@
     {
      "title_en": "Emphasis: the first position",
      "title_ru": "Выделение: первое место",
-     "body_en": "Russian highlights words by moving them freely; Dutch mainly uses position 1 (followed by the verb and then the subject) and stress: 'Die film heb ik al gezien.' 'Hem ken ik niet.' Fronted object pronouns must be the stressed forms (hem, mij, haar), and dat/die are often used: 'Dat weet ik niet.'",
+     "body_en": "English highlights words mainly by stress or by constructions like 'It is this film that…'; Dutch mainly uses position 1 (followed by the verb and then the subject) and stress: 'Die film heb ik al gezien.' 'Hem ken ik niet.' Fronted object pronouns must be the stressed forms (hem, mij, haar), and dat/die are often used: 'Dat weet ik niet.'",
      "body_ru": "В русском слова выделяют, свободно переставляя их; в нидерландском — в основном первым местом (за ним глагол, затем подлежащее) и ударением: «Die film heb ik al gezien» — этот фильм я уже видел. «Hem ken ik niet» — его я не знаю. На первом месте местоимения стоят в ударной форме (hem, mij, haar), часто используют dat/die: «Dat weet ik niet».",
      "examples": [
       {
@@ -3503,7 +3503,7 @@
     {
      "title_en": "Known information before new information",
      "title_ru": "Известная информация перед новой",
-     "body_en": "Definite, known elements tend to come early in the middle field; indefinite, new elements later, after the adverbs: 'Ik heb het boek gisteren gekocht' (the book is known) vs 'Ik heb gisteren een boek gekocht' (new). This is similar to Russian, where new information comes at the end.",
+     "body_en": "Definite, known elements tend to come early in the middle field; indefinite, new elements later, after the adverbs: 'Ik heb het boek gisteren gekocht' (the book is known) vs 'Ik heb gisteren een boek gekocht' (new). The general principle – new information comes at the end – also holds in English.",
      "body_ru": "Определённые, уже известные элементы стремятся в начало средней части, неопределённые, новые — дальше, после наречий: «Ik heb het boek gisteren gekocht» (книга уже известна) и «Ik heb gisteren een boek gekocht» (новая информация). Это похоже на русский язык, где новое тоже ставится в конец.",
      "examples": [
       {
@@ -4008,7 +4008,7 @@
     {
      "title_en": "Stress decides",
      "title_ru": "Всё решает ударение",
-     "body_en": "If the prefix is stressed, the verb is separable: OPbellen → ik bel op, opgebeld. If the stem is stressed, the verb is inseparable: voorKOMen → ik voorkom, voorkomen (no ge-). In dictionaries the stress is often marked. Russian prefixes never separate, but German has the same system (UMfahren vs umFAHren).",
+     "body_en": "If the prefix is stressed, the verb is separable: OPbellen → ik bel op, opgebeld. If the stem is stressed, the verb is inseparable: voorKOMen → ik voorkom, voorkomen (no ge-). In dictionaries the stress is often marked. English has a similar contrast between phrasal verbs ('to call up') and prefixed verbs ('to overcome'), and German has the same system (UMfahren vs umFAHren).",
      "body_ru": "Если ударение на приставке, глагол отделяемый: OPbellen → ik bel op, opgebeld. Если ударение на корне, глагол неотделяемый: voorKOMen → ik voorkom, voorkomen (без ge-). В словарях ударение часто указано. Русские приставки никогда не отделяются, но в немецком такая же система (UMfahren и umFAHren).",
      "examples": [
       {
@@ -4835,7 +4835,7 @@
     {
      "title_en": "Nominal style: when to use it",
      "title_ru": "Именной стиль: когда его использовать",
-     "body_en": "Nominal style is typical of official letters, reports and news ('Wij verzoeken u om betaling binnen 14 dagen'). Too much of it sounds stiff ('ambtelijk'). Spoken Dutch and modern plain-language texts prefer verbs: 'Wilt u binnen 14 dagen betalen?' Bureaucratic language in Russian and English ('the effecting of payment') has the same problem.",
+     "body_en": "Nominal style is typical of official letters, reports and news ('Wij verzoeken u om betaling binnen 14 dagen'). Too much of it sounds stiff ('ambtelijk'). Spoken Dutch and modern plain-language texts prefer verbs: 'Wilt u binnen 14 dagen betalen?' Bureaucratic English ('the effecting of payment') has the same problem.",
      "body_ru": "Именной стиль типичен для официальных писем, отчётов и новостей («Wij verzoeken u om betaling binnen 14 dagen»). Если его слишком много, текст звучит тяжеловесно, «канцелярски» (ambtelijk). Разговорный язык и современные тексты на простом языке предпочитают глаголы: «Wilt u binnen 14 dagen betalen?». В русском канцелярите («осуществление оплаты») та же проблема.",
      "examples": [
       {
@@ -5480,7 +5480,7 @@
     {
      "title_en": "Anticipating a clause: er + preposition + dat / om te",
      "title_ru": "Предварение придаточного: er + предлог + dat / om te",
-     "body_en": "If the object of a prepositional verb is a whole clause, er + preposition announces it: 'Ik reken erop dat je komt' (I count on you coming), 'Hij denkt erover om te verhuizen.' Russian uses a similar pointer word ('na to, chto' – literally 'on it, that'): 'I count on it that you'll come'.",
+     "body_en": "If the object of a prepositional verb is a whole clause, er + preposition announces it: 'Ik reken erop dat je komt' (I count on you coming), 'Hij denkt erover om te verhuizen.' Literally this is 'I count on it that you'll come'; English has a similar pointer 'it' in phrases like 'I'll see to it that…'.",
      "body_ru": "Если дополнением глагола с предлогом является целое придаточное, er + предлог заранее указывает на него: «Ik reken erop dat je komt» — я рассчитываю на то, что ты придёшь, «Hij denkt erover om te verhuizen» — он подумывает о переезде. В русском так же используется «то, что»: «рассчитываю на то, что…».",
      "examples": [
       {

@@ -25,7 +25,7 @@ async function ptBuild(N){const [vs,gs]=await Promise.all([Promise.all(LEVELS.ma
   const plan=ptPlan(N),qs=[];LEVELS.forEach((L,i)=>{const k=plan[i],ng=Math.floor(k/2),nw=k-ng,uw=new Set(),ug=new Set();const lv=[];
     for(let j=0;j<ng;j++){const q=ptGramQ(L,gs[i],ug);if(q)lv.push(q);}while(lv.length<k){const q=ptWordQ(L,vs[i],uw);if(!q)break;lv.push(q);}
     qs.push(...shuffle(lv));});return qs;}
-async function ptStart(N){N=PT_SIZES.includes(N)?N:20;if(S.round||S.test)return;S.pt={loading:true};go("ptest");const qs=await ptBuild(N);if(!S.pt)return;if(!qs||!qs.length){S.pt=null;toast(t("ptNeedNet"),4000);go("home");return;}S.pt={qs,i:0,answers:[]};render();}
+async function ptStart(N){N=PT_SIZES.includes(N)?N:20;if(S.view==="play"||S.view==="gtest")return;const tok={loading:true};S.pt=tok;go("ptest");const qs=await ptBuild(N);if(S.pt!==tok||S.view!=="ptest")return;if(!qs||!qs.length){S.pt=null;toast(t("ptNeedNet"),4000);go("home");return;}S.pt={qs,i:0,answers:[]};render();}
 function viewPTest(w){const P=S.pt;if(!P){go("home");return;}if(P.loading){w.append(el("p",{class:"muted"},t("loading")));return;}
   const q=P.qs[P.i],n=P.qs.length;
   w.append(el("div",{class:"row between",style:"align-items:center"},el("span",{class:"small",style:"font-weight:700"},t("ptQ",P.i+1,n)),el("button",{class:"btn ghost",style:"padding:6px 10px",onclick:()=>{S.pt=null;go("home");}},t("ptQuit"))));
@@ -65,5 +65,5 @@ function ptHomeCard(){const R=S.doc&&S.doc.placement;const d=R?new Date(R.at).to
   return el("div",{class:"card stack",style:R?"":"border:2px solid var(--accent)"},el("div",{class:"row between"},el("h3",{},t("ptCardTitle")),R?el("span",{class:"tag"},t("ptLast",R.level,d)):null),el("p",{class:"muted small"},t("ptCardText")),
     ptSizeButtons(!R),R?el("button",{class:"btn ghost",style:"align-self:flex-start",onclick:()=>go("ptresult")},t("ptRec",R.level,t("level"+R.level))):null);}
 const EXTRA_VIEWS={ptest:viewPTest,ptresult:viewPTResult};
-{const _go=go;go=function(v,e){if(v!=="ptest"&&S.pt&&!S.pt.loading)S.pt=null;_go(v,e);};}
+{const _go=go;go=function(v,e){if(v!=="ptest")S.pt=null;if(v!=="gtest"&&v!=="gresults"&&S.test&&!S.test.summary)S.test=null;_go(v,e);};}
 {const _home=viewHome;viewHome=function(w){const r=_home(w);const R=S.doc&&S.doc.placement;const c=ptHomeCard();const qs=w.querySelector(".quick");const sec=qs&&qs.closest("section");if(sec){if(R)sec.after(c);else sec.before(c);}else w.append(c);return r;};}

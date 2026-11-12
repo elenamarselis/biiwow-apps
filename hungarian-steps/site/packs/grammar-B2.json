@@ -5,13 +5,13 @@
    "id": "aspect-prefixes-suffixes",
    "title_en": "Aspect and Aktionsart: meg-, el-, -gat/-get, -odik",
    "title_ru": "Вид и способ действия: meg-, el-, -gat/-get, -odik",
-   "summary_en": "Hungarian has no grammatical aspect pairs like Russian chitat/prochitat (imperfective/perfective 'to read'), but verb prefixes (meg-, el-, ki-, fel-) and suffixes (-gat/-get, -odik/-edik/-ödik) express completion, repetition and the beginning of a state. The same tense form can be read as perfective or imperfective depending on the prefix.",
+   "summary_en": "Hungarian has no systematic grammatical aspect, but verb prefixes (meg-, el-, ki-, fel-) and suffixes (-gat/-get, -odik/-edik/-ödik) express completion, repetition and the beginning of a state, much as English uses particles and tenses (eat vs eat up, was reading vs read through). The same tense form can be read as perfective or imperfective depending on the prefix.",
    "summary_ru": "В венгерском нет видовых пар вроде читать/прочитать, но глагольные приставки (meg-, el-, ki-, fel-) и суффиксы (-gat/-get, -odik/-edik/-ödik) передают завершённость, повторяемость и начало состояния. Одна и та же форма времени читается как совершенная или несовершенная в зависимости от приставки.",
    "rules": [
     {
      "title_en": "meg- as a perfective marker",
      "title_ru": "meg- как показатель завершённости",
-     "body_en": "The prefix meg- usually adds no spatial meaning: it marks that the action reaches its end or result. ír 'to write' → megír 'to write (to the end)', tanul 'to study' → megtanul 'to learn (so that you know it)', eszik 'to eat' → megeszik 'to eat up'. This is the closest thing Hungarian has to the Russian perfective aspect (pisat → napisat, 'to write'), but meg- is a separable prefix, not a fixed part of the verb, and it moves in focus and negation.",
+     "body_en": "The prefix meg- usually adds no spatial meaning: it marks that the action reaches its end or result. ír 'to write' → megír 'to write (to the end)', tanul 'to study' → megtanul 'to learn (so that you know it)', eszik 'to eat' → megeszik 'to eat up'. It works rather like English completive particles (eat up, write down, finish reading), but meg- is a separable prefix, not a fixed part of the verb, and it moves in focus and negation.",
      "body_ru": "Приставка meg- обычно не имеет пространственного значения: она показывает, что действие доведено до конца или результата. ír «писать» → megír «написать», tanul «учить» → megtanul «выучить», eszik «есть» → megeszik «съесть». Это ближайший аналог русского совершенного вида (писать → написать), но meg- — отделяемая приставка, а не постоянная часть глагола: при фокусе и отрицании она отходит от глагола.",
      "examples": [
       {
@@ -39,7 +39,7 @@
     {
      "title_en": "el- as completion and 'away'",
      "title_ru": "el- как завершение и «прочь»",
-     "body_en": "el- has a spatial meaning 'away' (elmegy 'goes away', elutazik 'travels away') but very often it just marks completion of a process that takes time: elolvas 'to read through', elmond 'to tell (the whole thing)', elalszik 'to fall asleep', elkészít 'to prepare (fully)'. Compare olvas 'reads' and elolvas 'reads to the end': the second corresponds to the Russian perfective prochitat.",
+     "body_en": "el- has a spatial meaning 'away' (elmegy 'goes away', elutazik 'travels away') but very often it just marks completion of a process that takes time: elolvas 'to read through', elmond 'to tell (the whole thing)', elalszik 'to fall asleep', elkészít 'to prepare (fully)'. Compare olvas 'reads' and elolvas 'reads to the end': the second corresponds to English 'read through' or 'finish reading'.",
      "body_ru": "У el- есть пространственное значение «прочь» (elmegy «уходит», elutazik «уезжает»), но очень часто приставка просто обозначает завершение процесса, который требует времени: elolvas «прочитать», elmond «рассказать (целиком)», elalszik «заснуть», elkészít «приготовить (полностью)». Сравните olvas «читает» и elolvas «дочитывает»: второе соответствует русскому прочитать.",
      "examples": [
       {
@@ -67,7 +67,7 @@
     {
      "title_en": "-gat/-get: repeated or casual action",
      "title_ru": "-gat/-get: повторяющееся или неторопливое действие",
-     "body_en": "The suffix -gat/-get (after a vowel -ogat/-eget/-öget) makes a verb frequentative: the action is repeated, done little by little or without full attention. olvas → olvasgat 'reads a bit now and then', néz → nézeget 'keeps looking at', sétál → sétálgat 'strolls about', kérdez → kérdezget 'keeps asking'. Russian has a similar nuance in verbs like pochityvat ('read now and then'), posmatrivat ('glance at from time to time') and progulivatsya ('stroll about'). A -gat verb is never perfective.",
+     "body_en": "The suffix -gat/-get (after a vowel -ogat/-eget/-öget) makes a verb frequentative: the action is repeated, done little by little or without full attention. olvas → olvasgat 'reads a bit now and then', néz → nézeget 'keeps looking at', sétál → sétálgat 'strolls about', kérdez → kérdezget 'keeps asking'. English expresses a similar nuance with 'keep -ing', 'now and then' or verbs like 'browse', 'potter about', 'stroll about'. A -gat verb is never perfective.",
      "body_ru": "Суффикс -gat/-get (после согласного -ogat/-eget/-öget) делает глагол многократным: действие повторяется, совершается понемногу или без особого внимания. olvas → olvasgat «почитывать», néz → nézeget «посматривать, рассматривать», sétál → sétálgat «прогуливаться», kérdez → kérdezget «расспрашивать». В русском похожий оттенок у почитывать, посматривать, прогуливаться. Глагол с -gat никогда не бывает совершенного вида.",
      "examples": [
       {
@@ -95,7 +95,7 @@
     {
      "title_en": "Inchoative -odik/-edik/-ödik: becoming",
      "title_ru": "Инхоатив -odik/-edik/-ödik: становление",
-     "body_en": "Adding -odik/-edik/-ödik (or -sodik/-sedik/-södik) to an adjective produces a verb meaning 'to become X': piros → pirosodik 'turns red', sötét → sötétedik 'gets dark', meleg → melegedik 'gets warm', öreg → öregedik 'grows old', erős → erősödik 'gets stronger'. These verbs are intransitive -ik verbs and describe a gradual change of state. Russian uses single verbs such as krasnet ('turn red'), temnet ('get dark'), teplet ('get warm'), staret ('grow old'); the perfective counterpart often takes meg-: megöregedett 'has grown old'.",
+     "body_en": "Adding -odik/-edik/-ödik (or -sodik/-sedik/-södik) to an adjective produces a verb meaning 'to become X': piros → pirosodik 'turns red', sötét → sötétedik 'gets dark', meleg → melegedik 'gets warm', öreg → öregedik 'grows old', erős → erősödik 'gets stronger'. These verbs are intransitive -ik verbs and describe a gradual change of state. English uses 'get/grow/turn' + adjective or verbs in -en (redden, darken, warm up); the completed counterpart often takes meg-: megöregedett 'has grown old'.",
      "body_ru": "Если к прилагательному добавить -odik/-edik/-ödik (или -sodik/-sedik/-södik), получается глагол «становиться каким-то»: piros → pirosodik «краснеть», sötét → sötétedik «темнеть», meleg → melegedik «теплеть», öreg → öregedik «стареть», erős → erősödik «крепнуть». Это непереходные глаголы на -ik, обозначающие постепенное изменение состояния. В русском им соответствуют краснеть, темнеть, теплеть, стареть; совершенный вид часто даёт meg-: megöregedett «постарел».",
      "examples": [
       {
@@ -123,7 +123,7 @@
     {
      "title_en": "Perfective and imperfective readings in the past",
      "title_ru": "Совершенное и несовершенное прочтение в прошедшем времени",
-     "body_en": "Hungarian has one past tense, so the prefix decides the reading. Olvastam a könyvet 'I was reading / I read (for a while)' describes a process; Elolvastam a könyvet 'I read the book (to the end)' describes a result. Duration adverbs (sokáig, egész nap, két órát) go with the prefixless verb; result adverbs (már, végre, végül) go with the prefixed one. Where Russian chooses between chital and prochital, Hungarian chooses between olvastam and elolvastam.",
+     "body_en": "Hungarian has one past tense, so the prefix decides the reading. Olvastam a könyvet 'I was reading / I read (for a while)' describes a process; Elolvastam a könyvet 'I read the book (to the end)' describes a result. Duration adverbs (sokáig, egész nap, két órát) go with the prefixless verb; result adverbs (már, végre, végül) go with the prefixed one. Where English chooses between 'was reading' and 'read (to the end)', Hungarian chooses between olvastam and elolvastam.",
      "body_ru": "В венгерском одно прошедшее время, поэтому прочтение зависит от приставки. Olvastam a könyvet «я читал книгу» описывает процесс; Elolvastam a könyvet «я прочитал книгу» — результат. Обстоятельства длительности (sokáig «долго», egész nap «весь день», két órát «два часа») сочетаются с бесприставочным глаголом, а слова результата (már «уже», végre «наконец», végül «в итоге») — с приставочным. Там, где русский выбирает между читал и прочитал, венгерский выбирает между olvastam и elolvastam.",
      "examples": [
       {
@@ -151,7 +151,7 @@
     {
      "title_en": "Prefixed present = future; perfective vs imperfective future",
      "title_ru": "Приставочный глагол в настоящем = будущее; виды в будущем",
-     "body_en": "A prefixed verb in the present tense normally refers to a completed action in the future, exactly like a Russian perfective present: Megírom a levelet 'I will write the letter', Elolvasom holnap 'I will read it tomorrow'. The construction with fog is used for both readings: fogok olvasni 'I will be reading', el fogom olvasni 'I will read it through'. A prefixless present (olvasom) means an ongoing action now.",
+     "body_en": "A prefixed verb in the present tense normally refers to a completed action in the future, where English needs 'will': Megírom a levelet 'I will write the letter', Elolvasom holnap 'I will read it tomorrow'. The construction with fog is used for both readings: fogok olvasni 'I will be reading', el fogom olvasni 'I will read it through'. A prefixless present (olvasom) means an ongoing action now.",
      "body_ru": "Приставочный глагол в настоящем времени обычно обозначает завершённое действие в будущем — точно как русское «напишу», «прочитаю»: Megírom a levelet «Я напишу письмо», Elolvasom holnap «Я прочитаю это завтра». Конструкция с fog возможна для обоих прочтений: fogok olvasni «буду читать», el fogom olvasni «прочитаю». Бесприставочное настоящее (olvasom) означает действие, которое идёт сейчас.",
      "examples": [
       {
@@ -574,7 +574,7 @@
      "type": "tf",
      "q": "In 'Holnap megírom a levelet' the present tense form of a prefixed verb refers to the future.",
      "answer": true,
-     "explain_en": "Prefixed present forms are normally future in meaning, like the Russian perfective 'napishu' ('I will write').",
+     "explain_en": "Prefixed present forms are normally future in meaning: megírom 'I will write (it)'. English needs 'will' here.",
      "explain_ru": "Приставочные формы настоящего времени обычно имеют значение будущего, как русское «напишу».",
      "ui": {
       "ru": {
@@ -668,7 +668,7 @@
     {
      "title_en": "The neutral sentence",
      "title_ru": "Нейтральное предложение",
-     "body_en": "In a neutral sentence nothing is emphasized: the topic (what we talk about) comes first, then the verb with its prefix attached, then the rest. Péter elolvasta a könyvet 'Peter read the book'. Time and place expressions usually sit in the topic part too: Tegnap Péter elolvasta a könyvet. Unlike Russian, where word order changes are mostly stylistic, in Hungarian a different order usually changes the meaning.",
+     "body_en": "In a neutral sentence nothing is emphasized: the topic (what we talk about) comes first, then the verb with its prefix attached, then the rest. Péter elolvasta a könyvet 'Peter read the book'. Time and place expressions usually sit in the topic part too: Tegnap Péter elolvasta a könyvet. Unlike English, where word order mainly shows subject and object, in Hungarian a different order usually changes the meaning (what is emphasised).",
      "body_ru": "В нейтральном предложении ничего не выделяется: сначала топик (о чём говорим), затем глагол с присоединённой приставкой, затем остальное. Péter elolvasta a könyvet «Петер прочитал книгу». Обстоятельства времени и места обычно тоже стоят в топике: Tegnap Péter elolvasta a könyvet. В отличие от русского, где перестановка слов чаще стилистическая, в венгерском другой порядок, как правило, меняет смысл.",
      "examples": [
       {
@@ -691,7 +691,7 @@
     {
      "title_en": "Focus: the slot before the verb",
      "title_ru": "Фокус: позиция перед глаголом",
-     "body_en": "The element that carries the new or contrastive information is placed directly before the verb, and the verb prefix moves behind the verb. Péter a KÖNYVET olvasta el 'It was the book that Peter read'. A KÖNYVET Péter olvasta el 'It was Peter who read the book'. Russian conveys this by intonation or by moving the word to the end (Knigu prochital Peter, 'It was Peter who read the book'); Hungarian does it by the position before the verb and by detaching the prefix.",
+     "body_en": "The element that carries the new or contrastive information is placed directly before the verb, and the verb prefix moves behind the verb. Péter a KÖNYVET olvasta el 'It was the book that Peter read'. A KÖNYVET Péter olvasta el 'It was Peter who read the book'. English conveys this by stress or by a cleft sentence ('It was Peter who read the book'); Hungarian does it by the position before the verb and by detaching the prefix.",
      "body_ru": "Элемент, несущий новую или контрастную информацию, ставится непосредственно перед глаголом, а приставка переходит за глагол. Péter a KÖNYVET olvasta el «Петер прочитал именно книгу». A KÖNYVET Péter olvasta el «Книгу прочитал именно Петер». В русском это передаётся интонацией или выносом слова в конец (Книгу прочитал Петер); в венгерском — позицией перед глаголом и отрывом приставки.",
      "examples": [
       {
@@ -714,7 +714,7 @@
     {
      "title_en": "Question words are always in focus",
      "title_ru": "Вопросительные слова всегда в фокусе",
-     "body_en": "Question words (mit, ki, hol, mikor, miért, hová) always occupy the focus position, so the verb follows them immediately and the prefix is detached: Mit olvasott el Péter? Hová mentek el a gyerekek? Miért nem jött el? Only is cannot come between the question word and the verb. In Russian the question word also comes first, but the verb need not follow it directly.",
+     "body_en": "Question words (mit, ki, hol, mikor, miért, hová) always occupy the focus position, so the verb follows them immediately and the prefix is detached: Mit olvasott el Péter? Hová mentek el a gyerekek? Miért nem jött el? Only is cannot come between the question word and the verb. In English the question word also comes first, but it is usually followed by an auxiliary (What did Peter read?); in Hungarian the main verb itself must follow it directly.",
      "body_ru": "Вопросительные слова (mit, ki, hol, mikor, miért, hová) всегда занимают позицию фокуса, поэтому глагол следует сразу за ними, а приставка отрывается: Mit olvasott el Péter? Hová mentek el a gyerekek? Miért nem jött el? В русском вопросительное слово тоже стоит в начале, но глагол не обязан следовать сразу за ним.",
      "examples": [
       {
@@ -783,7 +783,7 @@
     {
      "title_en": "is 'also': after its word, never in focus",
      "title_ru": "is «тоже»: после своего слова, никогда не в фокусе",
-     "body_en": "is follows the word it refers to: Péter is 'Peter too', a könyvet is 'the book too'. A phrase with is cannot be in focus, so the prefix stays attached to the verb: Péter is elolvasta a könyvet. Anna a könyvet is elolvasta 'Anna read the book as well'. Russian tozhe/takzhe ('too, also') also follow the word, but i ('too, even') is placed before it; both correspond to Hungarian is after the word.",
+     "body_en": "is follows the word it refers to: Péter is 'Peter too', a könyvet is 'the book too'. A phrase with is cannot be in focus, so the prefix stays attached to the verb: Péter is elolvasta a könyvet. Anna a könyvet is elolvasta 'Anna read the book as well'. English 'too' and 'as well' also follow the word, but 'also' and 'even' usually come before it; Hungarian is always comes after the word.",
      "body_ru": "is ставится после слова, к которому относится: Péter is «и Петер / Петер тоже», a könyvet is «и книгу». Группа с is не может стоять в фокусе, поэтому приставка остаётся при глаголе: Péter is elolvasta a könyvet. Anna a könyvet is elolvasta «Анна прочитала и книгу». Русские тоже/также стоят после слова, а и — перед ним; и то и другое соответствует венгерскому is после слова.",
      "examples": [
       {
@@ -857,7 +857,7 @@
     {
      "title_en": "Progressive order: verb before prefix",
      "title_ru": "Прогрессивный порядок: глагол перед приставкой",
-     "body_en": "When nothing is in focus but the prefix still follows the verb, the sentence describes an action in progress, often interrupted by something: Éppen mentem ki a házból, amikor megszólalt a telefon 'I was just going out of the house when the phone rang'. Compare Kimentem a házból 'I went out of the house' (completed). This order corresponds to the Russian imperfective past (vykhodil 'was going out' vs vyshel 'went out').",
+     "body_en": "When nothing is in focus but the prefix still follows the verb, the sentence describes an action in progress, often interrupted by something: Éppen mentem ki a házból, amikor megszólalt a telefon 'I was just going out of the house when the phone rang'. Compare Kimentem a házból 'I went out of the house' (completed). This order corresponds to the English past continuous ('was going out' vs 'went out').",
      "body_ru": "Когда в фокусе ничего нет, но приставка всё же стоит после глагола, предложение описывает действие в процессе, часто прерванное чем-то: Éppen mentem ki a házból, amikor megszólalt a telefon «Я как раз выходил из дома, когда зазвонил телефон». Сравните Kimentem a házból «Я вышел из дома» (завершено). Этот порядок соответствует русскому несовершенному виду прошедшего времени (выходил, а не вышел).",
      "examples": [
       {
@@ -1355,7 +1355,7 @@
    "id": "definite-conjugation-special-cases",
    "title_en": "Definite conjugation: special cases",
    "title_ru": "Объектное спряжение: особые случаи",
-   "summary_en": "The choice between the indefinite and definite conjugation depends on the object. Beyond articles, several cases are tricky: objects with a possessive suffix, pronoun objects, -ik verbs, hogy-clauses as objects and the anticipatory azt/ezt. Russian has no such choice, so each case must be learned explicitly.",
+   "summary_en": "The choice between the indefinite and definite conjugation depends on the object. Beyond articles, several cases are tricky: objects with a possessive suffix, pronoun objects, -ik verbs, hogy-clauses as objects and the anticipatory azt/ezt. English has no such choice, so each case must be learned explicitly.",
    "summary_ru": "Выбор между безобъектным и объектным спряжением зависит от дополнения. Помимо артиклей, есть несколько сложных случаев: дополнения с притяжательным суффиксом, местоимения-дополнения, глаголы на -ik, придаточные с hogy в роли дополнения и предваряющие azt/ezt. В русском такого выбора нет, поэтому каждый случай нужно усвоить отдельно.",
    "rules": [
     {
@@ -1389,7 +1389,7 @@
     {
      "title_en": "Objects with a possessive suffix are definite",
      "title_ru": "Дополнение с притяжательным суффиксом — определённое",
-     "body_en": "A noun with a possessive suffix (-m, -d, -ja/-je, -nk, -tok/-tek, -juk/-jük) is always definite, with or without the article: Keresem a kulcsomat 'I am looking for my key', Szeretem anyámat 'I love my mother', Látod a házunkat? 'Do you see our house?'. In Russian the possessive (moy klyuch, 'my key') does not affect the verb at all; in Hungarian it forces the definite ending.",
+     "body_en": "A noun with a possessive suffix (-m, -d, -ja/-je, -nk, -tok/-tek, -juk/-jük) is always definite, with or without the article: Keresem a kulcsomat 'I am looking for my key', Szeretem anyámat 'I love my mother', Látod a házunkat? 'Do you see our house?'. In English the possessive (my key) does not affect the verb at all; in Hungarian it forces the definite ending.",
      "body_ru": "Существительное с притяжательным суффиксом (-m, -d, -ja/-je, -nk, -tok/-tek, -juk/-jük) всегда определённое, с артиклем или без него: Keresem a kulcsomat «Я ищу свой ключ», Szeretem anyámat «Я люблю маму», Látod a házunkat? «Ты видишь наш дом?». В русском притяжательное (мой ключ) никак не влияет на глагол; в венгерском оно требует объектного окончания.",
      "examples": [
       {
@@ -1473,7 +1473,7 @@
     {
      "title_en": "A hogy-clause as object: definite",
      "title_ru": "Придаточное с hogy как дополнение: объектное спряжение",
-     "body_en": "When the object of the verb is a whole subordinate clause introduced by hogy, the verb takes the definite conjugation: Tudom, hogy esik 'I know that it is raining', Látom, hogy fáradt vagy, Mondta, hogy jön. The clause counts as a definite object ('I know THAT'). Russian ya znayu, chto ('I know that') has no such marking, so Russian speakers often wrongly say *Tudok, hogy.",
+     "body_en": "When the object of the verb is a whole subordinate clause introduced by hogy, the verb takes the definite conjugation: Tudom, hogy esik 'I know that it is raining', Látom, hogy fáradt vagy, Mondta, hogy jön. The clause counts as a definite object ('I know THAT'). English 'I know that…' has no such marking, so learners often wrongly say *Tudok, hogy.",
      "body_ru": "Когда дополнением глагола является целое придаточное с hogy, глагол стоит в объектном спряжении: Tudom, hogy esik «Я знаю, что идёт дождь», Látom, hogy fáradt vagy, Mondta, hogy jön. Придаточное считается определённым дополнением («я знаю ЭТО»). В русском «я знаю, что» никак не маркируется, поэтому русскоязычные часто ошибочно говорят *Tudok, hogy.",
      "examples": [
       {
@@ -1501,7 +1501,7 @@
     {
      "title_en": "Anticipatory azt/ezt",
      "title_ru": "Предваряющие azt/ezt",
-     "body_en": "Hungarian often puts azt (or ezt) before the verb to anticipate the hogy-clause: Azt mondta, hogy jön. Azt hiszem, hogy igazad van. Azt akarom, hogy maradj. With some verbs (akar, kér, szeret) the azt is almost obligatory; with others (tud, lát, mond) it is optional and adds emphasis or fills the focus slot. The verb is definite in any case. Russian has a parallel only in colloquial on skazal to, chto ('he said the thing that').",
+     "body_en": "Hungarian often puts azt (or ezt) before the verb to anticipate the hogy-clause: Azt mondta, hogy jön. Azt hiszem, hogy igazad van. Azt akarom, hogy maradj. With some verbs (akar, kér, szeret) the azt is almost obligatory; with others (tud, lát, mond) it is optional and adds emphasis or fills the focus slot. The verb is definite in any case. English has only a loose parallel in an 'it' that anticipates a clause (I hate it that you're leaving).",
      "body_ru": "В венгерском перед глаголом часто ставится azt (или ezt), предваряющее придаточное с hogy: Azt mondta, hogy jön «Он сказал, что придёт». Azt hiszem, hogy igazad van «Я думаю, что ты прав». Azt akarom, hogy maradj «Я хочу, чтобы ты остался». С некоторыми глаголами (akar, kér, szeret) azt почти обязательно; с другими (tud, lát, mond) оно факультативно и добавляет выделение или заполняет позицию фокуса. Глагол в любом случае объектный. В русском аналог лишь в разговорном «он сказал то, что».",
      "examples": [
       {
@@ -1557,7 +1557,7 @@
     {
      "title_en": "Indefinite question words and quantifiers",
      "title_ru": "Неопределённые вопросительные слова и кванторы",
-     "body_en": "mit, kit, hányat, valamit, valakit, mindent, mindenkit, semmit, senkit are indefinite objects: Mit olvasol? Mindent értek. Nem látok semmit. Note that mindent 'everything' is indefinite even though it refers to a whole. Definite are melyiket, melyik könyvet, mindkettőt, mindegyiket, az összeset, valamennyit in the sense 'all of them': Melyiket kéred? Mindkettőt kérem. Russian vsyo, vse ('everything, everyone') give no hint, so these must be memorized.",
+     "body_en": "mit, kit, hányat, valamit, valakit, mindent, mindenkit, semmit, senkit are indefinite objects: Mit olvasol? Mindent értek. Nem látok semmit. Note that mindent 'everything' is indefinite even though it refers to a whole. Definite are melyiket, melyik könyvet, mindkettőt, mindegyiket, az összeset, valamennyit in the sense 'all of them': Melyiket kéred? Mindkettőt kérem. English 'everything, everyone' give no hint, so these must be memorized.",
      "body_ru": "mit, kit, hányat, valamit, valakit, mindent, mindenkit, semmit, senkit — неопределённые дополнения: Mit olvasol? Mindent értek. Nem látok semmit. Обратите внимание: mindent «всё» неопределённое, хотя обозначает целое. Определённые — melyiket, melyik könyvet, mindkettőt, mindegyiket, az összeset, valamennyit в значении «все они»: Melyiket kéred? Mindkettőt kérem. Русские всё, все ничего не подсказывают, поэтому это нужно запомнить.",
      "examples": [
       {
@@ -2000,13 +2000,13 @@
    "id": "passive-impersonal-constructions",
    "title_en": "Passive-like and impersonal constructions",
    "title_ru": "Пассивные и безличные конструкции",
-   "summary_en": "Hungarian has no living passive voice. Instead it uses the 3rd person plural without a subject, the potential adjective -ható/-hető, impersonal lehet, the generic az ember, the resultant state -va/-ve + van, the formal verb kerül and the habitual szokott. Russian has passive forms, so these substitutes need attention.",
+   "summary_en": "Hungarian has no living passive voice. Instead it uses the 3rd person plural without a subject, the potential adjective -ható/-hető, impersonal lehet, the generic az ember, the resultant state -va/-ve + van, the formal verb kerül and the habitual szokott. English uses the passive all the time (was stolen, is spoken), so these substitutes need attention.",
    "summary_ru": "В венгерском нет живого пассивного залога. Вместо него используются 3-е лицо множественного числа без подлежащего, прилагательное возможности на -ható/-hető, безличное lehet, обобщённое az ember, состояние-результат -va/-ve + van, официальный глагол kerül и привычное szokott. В русском пассив есть, поэтому эти замены требуют внимания.",
    "rules": [
     {
      "title_en": "The 3rd person plural instead of a passive",
      "title_ru": "3-е лицо множественного числа вместо пассива",
-     "body_en": "The most common way to leave the agent unnamed is the 3rd person plural without a subject: Ellopták a kocsimat 'My car was stolen' (literally 'they stole my car'), Megjavították a liftet 'The lift has been repaired', Itt magyarul beszélnek 'Hungarian is spoken here'. Russian does exactly the same (ukrali mashinu 'they stole the car', pochinili lift 'they fixed the lift'), so this construction is easy; just remember that there is no passive alternative like 'byl ukraden' ('was stolen') in everyday Hungarian.",
+     "body_en": "The most common way to leave the agent unnamed is the 3rd person plural without a subject: Ellopták a kocsimat 'My car was stolen' (literally 'they stole my car'), Megjavították a liftet 'The lift has been repaired', Itt magyarul beszélnek 'Hungarian is spoken here'. Informal English does the same ('they stole my car', 'they've fixed the lift'), so this construction is easy; just remember that there is no passive alternative like 'was stolen' in everyday Hungarian.",
      "body_ru": "Самый частый способ не называть деятеля — 3-е лицо множественного числа без подлежащего: Ellopták a kocsimat «Мою машину украли», Megjavították a liftet «Лифт починили», Itt magyarul beszélnek «Здесь говорят по-венгерски». Русский делает то же самое (украли машину, починили лифт), поэтому конструкция проста; нужно лишь помнить, что обиходной альтернативы вроде «был украден» в венгерском нет.",
      "examples": [
       {
@@ -2062,7 +2062,7 @@
     {
      "title_en": "Impersonal lehet + infinitive",
      "title_ru": "Безличное lehet + инфинитив",
-     "body_en": "lehet 'it is possible, one can' is used without a subject before an infinitive: Itt lehet parkolni 'One can park here', Nem lehet tudni 'One cannot know', Lehet kérdezni? 'May one ask?'. It changes for tense: lehetett, lehet majd / lehet lesz. The person may be added in -nak/-nek: Nekem nem lehet késni 'I must not be late'. This matches Russian mozhno / nelzya ('one can / one cannot') quite closely.",
+     "body_en": "lehet 'it is possible, one can' is used without a subject before an infinitive: Itt lehet parkolni 'One can park here', Nem lehet tudni 'One cannot know', Lehet kérdezni? 'May one ask?'. It changes for tense: lehetett, lehet majd / lehet lesz. The person may be added in -nak/-nek: Nekem nem lehet késni 'I must not be late'. This matches English 'one can / you can / you can't' quite closely.",
      "body_ru": "lehet «можно, возможно» употребляется без подлежащего перед инфинитивом: Itt lehet parkolni «Здесь можно парковаться», Nem lehet tudni «Нельзя знать», Lehet kérdezni? «Можно спросить?». Форма меняется по времени: lehetett, lehet majd. Лицо можно добавить в -nak/-nek: Nekem nem lehet késni «Мне нельзя опаздывать». Конструкция близко соответствует русским можно / нельзя.",
      "examples": [
       {
@@ -2090,7 +2090,7 @@
     {
      "title_en": "Generic az ember",
      "title_ru": "Обобщённое az ember",
-     "body_en": "az ember 'the person' is used as a generic subject meaning 'one, you, people in general': Az ember sosem tudja 'One never knows', Az ember könnyen hibázik 'One easily makes mistakes'. The verb is 3rd person singular. Russian uses the generic 2nd person (nikogda ne znayesh, 'you never know') or chelovek ('a person'); Hungarian strongly prefers az ember in this role.",
+     "body_en": "az ember 'the person' is used as a generic subject meaning 'one, you, people in general': Az ember sosem tudja 'One never knows', Az ember könnyen hibázik 'One easily makes mistakes'. The verb is 3rd person singular. English uses generic 'you' (you never know) or 'one'; Hungarian strongly prefers az ember in this role.",
      "body_ru": "az ember «человек» используется как обобщённое подлежащее в значении «человек вообще, ты, люди»: Az ember sosem tudja «Никогда не знаешь», Az ember könnyen hibázik «Человек легко ошибается». Глагол стоит в 3-м лице единственного числа. В русском в этой роли чаще обобщённое 2-е лицо («никогда не знаешь») или «человек»; венгерский явно предпочитает az ember.",
      "examples": [
       {
@@ -2113,7 +2113,7 @@
     {
      "title_en": "-va/-ve + van: the resultant state",
      "title_ru": "-va/-ve + van: состояние-результат",
-     "body_en": "The adverbial participle -va/-ve with van/vannak/volt/lesz describes the state resulting from an action: Az ajtó be van zárva 'The door is closed', Az asztal meg van terítve 'The table is set', A levelek meg vannak írva 'The letters are written'. The prefix separates and van stands between prefix and participle. Negation uses nincs/nincsenek: Az ajtó nincs bezárva. This corresponds to the Russian short passive participle (dver zakryta, 'the door is closed'), but only for states, never for actions.",
+     "body_en": "The adverbial participle -va/-ve with van/vannak/volt/lesz describes the state resulting from an action: Az ajtó be van zárva 'The door is closed', Az asztal meg van terítve 'The table is set', A levelek meg vannak írva 'The letters are written'. The prefix separates and van stands between prefix and participle. Negation uses nincs/nincsenek: Az ajtó nincs bezárva. This corresponds to English 'is closed / is set' describing a state, but only for states, never for actions ('is being closed').",
      "body_ru": "Деепричастие на -va/-ve с van/vannak/volt/lesz описывает состояние как результат действия: Az ajtó be van zárva «Дверь закрыта», Az asztal meg van terítve «Стол накрыт», A levelek meg vannak írva «Письма написаны». Приставка отделяется, и van стоит между приставкой и деепричастием. Отрицание — nincs/nincsenek: Az ajtó nincs bezárva. Это соответствует русскому краткому страдательному причастию (дверь закрыта), но только для состояний, а не для действий.",
      "examples": [
       {
@@ -2141,7 +2141,7 @@
     {
      "title_en": "kerül: formal passive substitute",
      "title_ru": "kerül: официальная замена пассива",
-     "body_en": "In official and written style, kerül 'gets into, ends up' with a noun in -ra/-re replaces the passive: eladásra kerül 'is sold', megrendezésre kerül 'is held / organised', sor kerül valamire 'something takes place', felhasználásra kerül 'is used'. The agent is not named. This style is typical of news and announcements and sounds bureaucratic in conversation; it matches Russian officialese such as 'budet osushchestvlyon' ('will be carried out') and 'podlezhit prodazhe' ('is subject to sale').",
+     "body_en": "In official and written style, kerül 'gets into, ends up' with a noun in -ra/-re replaces the passive: eladásra kerül 'is sold', megrendezésre kerül 'is held / organised', sor kerül valamire 'something takes place', felhasználásra kerül 'is used'. The agent is not named. This style is typical of news and announcements and sounds bureaucratic in conversation; it matches English officialese such as 'will be carried out' and 'is subject to sale'.",
      "body_ru": "В официальном и письменном стиле kerül «попадать, оказываться» с существительным на -ra/-re заменяет пассив: eladásra kerül «продаётся», megrendezésre kerül «проводится», sor kerül valamire «что-то имеет место», felhasználásra kerül «используется». Деятель не называется. Такой стиль типичен для новостей и объявлений, а в разговоре звучит канцелярски; он соответствует русскому официальному «будет осуществлён», «подлежит продаже».",
      "examples": [
       {
@@ -2164,7 +2164,7 @@
     {
      "title_en": "szokott: habitual action",
      "title_ru": "szokott: привычное действие",
-     "body_en": "szokott + infinitive expresses what someone usually does. Although it looks like a past tense, it refers to the present habit: Reggel kávét szokott inni 'He usually drinks coffee in the morning'. It conjugates fully: szoktam, szoktál, szokott, szoktunk, szoktatok, szoktak (indefinite) and szoktam, szoktad, szokta, szoktuk, szoktátok, szokták (definite). The definite form is used when the infinitive has a definite object: A híreket este szoktam nézni. Russian uses obychno ('usually') + present.",
+     "body_en": "szokott + infinitive expresses what someone usually does. Although it looks like a past tense, it refers to the present habit: Reggel kávét szokott inni 'He usually drinks coffee in the morning'. It conjugates fully: szoktam, szoktál, szokott, szoktunk, szoktatok, szoktak (indefinite) and szoktam, szoktad, szokta, szoktuk, szoktátok, szokták (definite). The definite form is used when the infinitive has a definite object: A híreket este szoktam nézni. English uses 'usually' + present; note that szokott does not mean 'used to'.",
      "body_ru": "szokott + инфинитив выражает то, что кто-то обычно делает. Хотя форма похожа на прошедшее время, она обозначает настоящую привычку: Reggel kávét szokott inni «По утрам он обычно пьёт кофе». Глагол спрягается: szoktam, szoktál, szokott, szoktunk, szoktatok, szoktak (безобъектно) и szoktam, szoktad, szokta, szoktuk, szoktátok, szokták (объектно). Объектная форма нужна, когда у инфинитива определённое дополнение: A híreket este szoktam nézni. В русском — «обычно» + настоящее время.",
      "examples": [
       {
@@ -2192,7 +2192,7 @@
     {
      "title_en": "Impersonal reporting: azt mondják, úgy tudni, állítólag",
      "title_ru": "Безличная передача информации: azt mondják, úgy tudni, állítólag",
-     "body_en": "To report information without a source, Hungarian uses azt mondják 'they say', úgy hírlik 'it is rumoured', úgy tudni 'it is understood' (an infinitive used impersonally), állítólag 'allegedly', or the formal -nak/-nek + mondják: Ezt a várost a Duna királynőjének mondják 'This city is called the queen of the Danube'. Russian says govoryat ('they say'), yakoby ('allegedly'), po slukham ('rumour has it').",
+     "body_en": "To report information without a source, Hungarian uses azt mondják 'they say', úgy hírlik 'it is rumoured', úgy tudni 'it is understood' (an infinitive used impersonally), állítólag 'allegedly', or the formal -nak/-nek + mondják: Ezt a várost a Duna királynőjének mondják 'This city is called the queen of the Danube'. English says 'they say', 'allegedly', 'rumour has it'.",
      "body_ru": "Чтобы передать информацию без источника, венгерский использует azt mondják «говорят», úgy hírlik «ходят слухи», úgy tudni «как известно» (инфинитив в безличном употреблении), állítólag «якобы», а также официальное -nak/-nek + mondják: Ezt a várost a Duna királynőjének mondják «Этот город называют королевой Дуная». В русском — говорят, якобы, по слухам.",
      "examples": [
       {
@@ -2314,7 +2314,7 @@
       "Они нашли мой велосипед."
      ],
      "answer": 0,
-     "explain_en": "3rd person plural without a subject = unnamed agent, like Russian 'ukrali' ('they stole').",
+     "explain_en": "3rd person plural without a subject = unnamed agent, like English 'they stole my bike'.",
      "explain_ru": "3-е лицо множественного числа без подлежащего — неназванный деятель, как русское «украли».",
      "ui": {
       "en": {
@@ -2544,7 +2544,7 @@
      "type": "tf",
      "q": "'Az ajtó be van zárva' describes a state, not an ongoing action.",
      "answer": true,
-     "explain_en": "-va/-ve + van expresses the resulting state, like Russian 'dver zakryta' ('the door is closed').",
+     "explain_en": "-va/-ve + van expresses the resulting state, like English 'the door is closed' (a state, not an action).",
      "explain_ru": "-va/-ve + van выражает состояние-результат, как русское «дверь закрыта».",
      "ui": {
       "ru": {
@@ -2570,7 +2570,7 @@
      "type": "tf",
      "q": "Hungarian normally expresses 'my car was stolen' with the 3rd person plural: 'Ellopták a kocsimat'.",
      "answer": true,
-     "explain_en": "There is no everyday passive; the 3rd person plural without a subject is used, as in Russian 'ukrali' ('they stole').",
+     "explain_en": "There is no everyday passive; the 3rd person plural without a subject is used, like informal English 'they stole my car'.",
      "explain_ru": "Обиходного пассива нет; используется 3-е лицо множественного числа без подлежащего, как в русском «украли».",
      "ui": {
       "ru": {
@@ -2686,7 +2686,7 @@
     {
      "title_en": "The infinitive after verbs",
      "title_ru": "Инфинитив после глаголов",
-     "body_en": "The infinitive ends in -ni (after some stems -ani/-eni): olvasni, tanulni, tanítani, mondani. Irregular infinitives: enni, inni, menni, jönni, tenni, venni, lenni, hinni, aludni. It is used after modals and verbs of wish, ability and beginning: akar, szeret, tud, kell, lehet, szabad, próbál, kezd, fog, szokott. Szeretek olvasni 'I like reading'. Russian uses the infinitive in the same positions.",
+     "body_en": "The infinitive ends in -ni (after some stems -ani/-eni): olvasni, tanulni, tanítani, mondani. Irregular infinitives: enni, inni, menni, jönni, tenni, venni, lenni, hinni, aludni. It is used after modals and verbs of wish, ability and beginning: akar, szeret, tud, kell, lehet, szabad, próbál, kezd, fog, szokott. Szeretek olvasni 'I like reading'. English uses the infinitive or the -ing form in the same positions.",
      "body_ru": "Инфинитив оканчивается на -ni (после некоторых основ -ani/-eni): olvasni, tanulni, tanítani, mondani. Неправильные инфинитивы: enni, inni, menni, jönni, tenni, venni, lenni, hinni, aludni. Он употребляется после модальных глаголов и глаголов желания, умения, начала: akar, szeret, tud, kell, lehet, szabad, próbál, kezd, fog, szokott. Szeretek olvasni «Я люблю читать». В русском инфинитив стоит в тех же позициях.",
      "examples": [
       {
@@ -2714,7 +2714,7 @@
     {
      "title_en": "The -ás/-és noun",
      "title_ru": "Существительное на -ás/-és",
-     "body_en": "Adding -ás/-és to a verb stem creates the noun of the action: olvas → olvasás 'reading', tanul → tanulás 'studying', úszik → úszás 'swimming', főz → főzés 'cooking', ír → írás 'writing', fut → futás 'running'. Like any noun it takes articles, plural, possessive and case endings: az olvasás, a tanulásban, az úszásom. Russian equivalents are nouns in -niye/-stvo or others: chteniye ('reading'), uchyoba ('studying'), plavaniye ('swimming').",
+     "body_en": "Adding -ás/-és to a verb stem creates the noun of the action: olvas → olvasás 'reading', tanul → tanulás 'studying', úszik → úszás 'swimming', főz → főzés 'cooking', ír → írás 'writing', fut → futás 'running'. Like any noun it takes articles, plural, possessive and case endings: az olvasás, a tanulásban, az úszásom. The English equivalents are usually -ing nouns: reading, studying, swimming.",
      "body_ru": "Суффикс -ás/-és, добавленный к основе глагола, образует существительное действия: olvas → olvasás «чтение», tanul → tanulás «учёба», úszik → úszás «плавание», főz → főzés «готовка», ír → írás «письмо», fut → futás «бег». Как любое существительное, оно принимает артикль, множественное число, притяжательные и падежные окончания: az olvasás, a tanulásban, az úszásom. Русские соответствия — существительные на -ние и другие: чтение, учёба, плавание.",
      "examples": [
       {
@@ -2737,7 +2737,7 @@
     {
      "title_en": "Infinitive or -ás/-és: where each is used",
      "title_ru": "Инфинитив или -ás/-és: где что употребляется",
-     "body_en": "The infinitive stands only after verbs and predicates (szeretek úszni, jó úszni). After postpositions, case endings and as a noun with an article, only -ás/-és is possible: úszás után 'after swimming', az úszásról 'about swimming', úszáshoz 'for swimming'. Russian often uses an infinitive where Hungarian needs the noun (vmesto togo chtoby plavat, 'instead of swimming'), so remember: no infinitive after a postposition or case ending.",
+     "body_en": "The infinitive stands only after verbs and predicates (szeretek úszni, jó úszni). After postpositions, case endings and as a noun with an article, only -ás/-és is possible: úszás után 'after swimming', az úszásról 'about swimming', úszáshoz 'for swimming'. English uses the -ing form after prepositions (instead of swimming), and Hungarian -ás/-és plays the same role, so remember: no infinitive after a postposition or case ending.",
      "body_ru": "Инфинитив стоит только после глаголов и предикативов (szeretek úszni, jó úszni). После послелогов, падежных окончаний и в роли существительного с артиклем возможен только -ás/-és: úszás után «после плавания», az úszásról «о плавании», úszáshoz «для плавания». Русский нередко использует инфинитив там, где венгерскому нужно существительное, поэтому запомните: после послелога или падежного окончания инфинитива не бывает.",
      "examples": [
       {
@@ -2783,7 +2783,7 @@
     {
      "title_en": "-ás/-és with possessive: 'Peter's arrival'",
      "title_ru": "-ás/-és с притяжательностью: «приезд Петера»",
-     "body_en": "The doer or the object of the action attaches to the -ás/-és noun as a possessor: Péter érkezése 'Peter's arrival', a gyerekek nevetése 'the children's laughter', a könyv olvasása 'the reading of the book', a ház építése 'the building of the house'. This corresponds to the Russian genitive after a verbal noun (priyezd Petera 'Peter's arrival', stroitelstvo doma 'the building of the house'). The whole phrase can then take any case: Péter érkezése után.",
+     "body_en": "The doer or the object of the action attaches to the -ás/-és noun as a possessor: Péter érkezése 'Peter's arrival', a gyerekek nevetése 'the children's laughter', a könyv olvasása 'the reading of the book', a ház építése 'the building of the house'. This corresponds to English 's or 'of' with a verbal noun (Peter's arrival, the building of the house). The whole phrase can then take any case: Péter érkezése után.",
      "body_ru": "Деятель или объект действия присоединяется к существительному на -ás/-és как обладатель: Péter érkezése «приезд Петера», a gyerekek nevetése «смех детей», a könyv olvasása «чтение книги», a ház építése «строительство дома». Это соответствует русскому родительному падежу при отглагольном существительном (приезд Петера, строительство дома). Вся группа затем может принимать любой падеж: Péter érkezése után.",
      "examples": [
       {
@@ -2806,7 +2806,7 @@
     {
      "title_en": "az, hogy as subject",
      "title_ru": "az, hogy в роли подлежащего",
-     "body_en": "A whole clause can be the subject. It is introduced by hogy, often anticipated by az: Az, hogy eljöttél, sokat jelent 'The fact that you came means a lot'. After a predicate the az is usually dropped: Jó, hogy eljöttél. Fontos, hogy időben érkezz. Kár, hogy nem láttad. Russian uses to, chto ('the fact that') in the same role (To, chto ty prishyol, mnogo znachit).",
+     "body_en": "A whole clause can be the subject. It is introduced by hogy, often anticipated by az: Az, hogy eljöttél, sokat jelent 'The fact that you came means a lot'. After a predicate the az is usually dropped: Jó, hogy eljöttél. Fontos, hogy időben érkezz. Kár, hogy nem láttad. English uses 'the fact that' or an anticipatory 'it' in the same role (It's good that you came).",
      "body_ru": "Подлежащим может быть целое придаточное. Оно вводится hogy и часто предваряется az: Az, hogy eljöttél, sokat jelent «То, что ты пришёл, много значит». После предикатива az обычно опускается: Jó, hogy eljöttél «Хорошо, что ты пришёл». Fontos, hogy időben érkezz «Важно, чтобы ты приехал вовремя». Kár, hogy nem láttad «Жаль, что ты не видел». В русском в той же роли — «то, что».",
      "examples": [
       {
@@ -2829,7 +2829,7 @@
     {
      "title_en": "azt, hogy and case-marked pronouns + hogy",
      "title_ru": "azt, hogy и местоимение в падеже + hogy",
-     "body_en": "When the clause depends on a verb that requires a case or postposition, the pronoun az takes that case and the clause follows: örül valaminek → Örülök annak, hogy jössz. beszél valamiről → Beszéltünk arról, hogy elutazunk. fél valamitől → Attól félek, hogy elkésünk. emlékszik valamire → Emlékszem arra, hogy… bízik valamiben → Bízom abban, hogy… Russian works identically: o tom, chto; ot togo, chto; v tom, chto.",
+     "body_en": "When the clause depends on a verb that requires a case or postposition, the pronoun az takes that case and the clause follows: örül valaminek → Örülök annak, hogy jössz. beszél valamiről → Beszéltünk arról, hogy elutazunk. fél valamitől → Attól félek, hogy elkésünk. emlékszik valamire → Emlékszem arra, hogy… bízik valamiben → Bízom abban, hogy… English simply drops the preposition before a that-clause (I'm glad that…, I'm afraid that…), so the case-marked az is easy to forget.",
      "body_ru": "Когда придаточное зависит от глагола, требующего падежа или послелога, местоимение az принимает этот падеж, а за ним следует придаточное: örül valaminek → Örülök annak, hogy jössz. beszél valamiről → Beszéltünk arról, hogy elutazunk. fél valamitől → Attól félek, hogy elkésünk. emlékszik valamire → Emlékszem arra, hogy… bízik valamiben → Bízom abban, hogy… Русский устроен так же: о том, что; от того, что; в том, что.",
      "examples": [
       {
@@ -2857,7 +2857,7 @@
     {
      "title_en": "Infinitive vs hogy-clause: same or different subject",
      "title_ru": "Инфинитив или придаточное с hogy: одно или разные подлежащие",
-     "body_en": "If the subject of both actions is the same, use the infinitive: Akarok menni 'I want to go', Szeretnék aludni. If the subjects differ, use azt, hogy + imperative/subjunctive: Azt akarom, hogy menj 'I want you to go', Azt szeretném, hogy maradjatok. This matches Russian khochu poyti ('I want to go') vs khochu, chtoby ty poshyol ('I want you to go'); note that Hungarian uses the imperative form where Russian uses chtoby + past tense.",
+     "body_en": "If the subject of both actions is the same, use the infinitive: Akarok menni 'I want to go', Szeretnék aludni. If the subjects differ, use azt, hogy + imperative/subjunctive: Azt akarom, hogy menj 'I want you to go', Azt szeretném, hogy maradjatok. This matches English 'I want to go' vs 'I want you to go'; note that Hungarian needs a full hogy-clause with the imperative form where English uses an object + infinitive.",
      "body_ru": "Если подлежащее обоих действий одно, используется инфинитив: Akarok menni «Я хочу пойти», Szeretnék aludni. Если подлежащие разные — azt, hogy + повелительная (сослагательная) форма: Azt akarom, hogy menj «Я хочу, чтобы ты пошёл», Azt szeretném, hogy maradjatok. Это соответствует русскому «хочу пойти» и «хочу, чтобы ты пошёл»; обратите внимание, что венгерский использует повелительную форму там, где русский — «чтобы» + прошедшее время.",
      "examples": [
       {
@@ -3343,7 +3343,7 @@
     {
      "title_en": "Purpose: azért, hogy + subjunctive",
      "title_ru": "Цель: azért, hogy + сослагательное наклонение",
-     "body_en": "A purpose clause is introduced by hogy, often announced by azért in the main clause, and its verb is in the imperative/subjunctive (-j form) even when the subject is the same: Azért tanulok, hogy jó állást kapjak 'I study in order to get a good job'. Elmentem a boltba, hogy kenyeret vegyek. Russian uses chtoby + infinitive for the same subject and chtoby + past for different subjects; Hungarian uses the -j form in both cases.",
+     "body_en": "A purpose clause is introduced by hogy, often announced by azért in the main clause, and its verb is in the imperative/subjunctive (-j form) even when the subject is the same: Azért tanulok, hogy jó állást kapjak 'I study in order to get a good job'. Elmentem a boltba, hogy kenyeret vegyek. English uses '(in order) to' + infinitive for the same subject and 'so that' + clause for different subjects; Hungarian uses the -j form in both cases.",
      "body_ru": "Придаточное цели вводится hogy, в главном предложении его часто предваряет azért, а глагол стоит в повелительной (сослагательной) форме на -j даже при одном подлежащем: Azért tanulok, hogy jó állást kapjak «Я учусь, чтобы получить хорошую работу». Elmentem a boltba, hogy kenyeret vegyek «Я пошёл в магазин, чтобы купить хлеб». В русском — «чтобы» + инфинитив при одном подлежащем и «чтобы» + прошедшее при разных; венгерский в обоих случаях использует форму на -j.",
      "examples": [
       {
@@ -3366,7 +3366,7 @@
     {
      "title_en": "Purpose with the infinitive and nehogy",
      "title_ru": "Цель с инфинитивом и nehogy",
-     "body_en": "After verbs of motion (megy, jön, indul, elmegy) a purpose with the same subject can be an infinitive: Elmentem kenyeret venni 'I went to buy bread'. Negative purpose 'so that … not' uses nehogy + subjunctive, with the prefix staying attached: Siess, nehogy elkéss! 'Hurry, so that you are not late'. Vigyázz, nehogy elessél! Russian: chtoby ne opozdat ('so as not to be late').",
+     "body_en": "After verbs of motion (megy, jön, indul, elmegy) a purpose with the same subject can be an infinitive: Elmentem kenyeret venni 'I went to buy bread'. Negative purpose 'so that … not' uses nehogy + subjunctive, with the prefix staying attached: Siess, nehogy elkéss! 'Hurry, so that you are not late'. Vigyázz, nehogy elessél! English: 'so as not to be late', 'mind you don't fall'.",
      "body_ru": "После глаголов движения (megy, jön, indul, elmegy) цель при том же подлежащем может выражаться инфинитивом: Elmentem kenyeret venni «Я пошёл купить хлеб». Отрицательная цель «чтобы не» выражается nehogy + сослагательная форма, при этом приставка остаётся при глаголе: Siess, nehogy elkéss! «Поторопись, чтобы не опоздать!» Vigyázz, nehogy elessél! «Осторожно, не упади!»",
      "examples": [
       {
@@ -3389,7 +3389,7 @@
     {
      "title_en": "Result: annyira / olyan / úgy …, hogy + indicative",
      "title_ru": "Следствие: annyira / olyan / úgy …, hogy + изъявительное",
-     "body_en": "A result clause states what actually happened as a consequence, so its verb is in the indicative: Annyira fáradt volt, hogy elaludt 'He was so tired that he fell asleep'. Olyan hangosan beszélt, hogy mindenki hallotta. Úgy esett, hogy otthon maradtunk. The degree word (annyira, olyan, úgy, akkora) stands in the main clause. Russian tak/takoy …, chto ('so/such … that') works the same way.",
+     "body_en": "A result clause states what actually happened as a consequence, so its verb is in the indicative: Annyira fáradt volt, hogy elaludt 'He was so tired that he fell asleep'. Olyan hangosan beszélt, hogy mindenki hallotta. Úgy esett, hogy otthon maradtunk. The degree word (annyira, olyan, úgy, akkora) stands in the main clause. English 'so/such … that' works the same way.",
      "body_ru": "Придаточное следствия сообщает, что действительно произошло в результате, поэтому глагол стоит в изъявительном наклонении: Annyira fáradt volt, hogy elaludt «Он так устал, что заснул». Olyan hangosan beszélt, hogy mindenki hallotta. Úgy esett, hogy otthon maradtunk. Слово степени (annyira, olyan, úgy, akkora) стоит в главном предложении. Русское «так/такой …, что» устроено так же.",
      "examples": [
       {
@@ -3458,7 +3458,7 @@
     {
      "title_en": "Cause: azért, mert vs purpose azért, hogy",
      "title_ru": "Причина: azért, mert и цель azért, hogy",
-     "body_en": "azért can announce both a cause and a purpose, and the conjunction decides: azért, mert 'because' takes the indicative (Azért nem jöttem, mert beteg voltam), azért, hogy 'in order to' takes the subjunctive (Azért jöttem, hogy segítsek). Other causal conjunctions: mivel, minthogy 'since' (usually at the start), ugyanis 'namely, because' (inside the second clause). Compare Russian potomu chto ('because') vs chtoby ('in order to').",
+     "body_en": "azért can announce both a cause and a purpose, and the conjunction decides: azért, mert 'because' takes the indicative (Azért nem jöttem, mert beteg voltam), azért, hogy 'in order to' takes the subjunctive (Azért jöttem, hogy segítsek). Other causal conjunctions: mivel, minthogy 'since' (usually at the start), ugyanis 'namely, because' (inside the second clause). Compare English 'because' vs 'so that / in order to'.",
      "body_ru": "azért может предварять и причину, и цель — решает союз: azért, mert «потому что» с изъявительным (Azért nem jöttem, mert beteg voltam «Я не пришёл, потому что болел»), azért, hogy «чтобы» с сослагательным (Azért jöttem, hogy segítsek «Я пришёл, чтобы помочь»). Другие причинные союзы: mivel, minthogy «поскольку» (обычно в начале), ugyanis «ведь, дело в том, что» (внутри второй части). Русские «потому что» и «чтобы».",
      "examples": [
       {
@@ -3486,7 +3486,7 @@
     {
      "title_en": "mintha + conditional",
      "title_ru": "mintha + условное наклонение",
-     "body_en": "mintha 'as if' is always followed by the conditional: Úgy beszél, mintha mindent tudna 'He talks as if he knew everything'. Úgy tesz, mintha nem hallana. For a past unreal comparison the past conditional is used: mintha nem hallotta volna. Russian kak budto ('as if') takes an ordinary indicative (kak budto vsyo znayet, 'as if he knows everything'), so remember to switch to the conditional in Hungarian.",
+     "body_en": "mintha 'as if' is always followed by the conditional: Úgy beszél, mintha mindent tudna 'He talks as if he knew everything'. Úgy tesz, mintha nem hallana. For a past unreal comparison the past conditional is used: mintha nem hallotta volna. Casual English often uses a plain present after 'as if' (as if he knows everything), so remember to switch to the conditional in Hungarian.",
      "body_ru": "После mintha «как будто» всегда стоит условное наклонение: Úgy beszél, mintha mindent tudna «Он говорит, как будто всё знает». Úgy tesz, mintha nem hallana «Он делает вид, что не слышит». Для нереального сравнения в прошлом используется условное прошедшее: mintha nem hallotta volna. Русское «как будто» сочетается с обычным временем (как будто всё знает), поэтому в венгерском нужно не забыть переключиться на условное наклонение.",
      "examples": [
       {
@@ -3509,7 +3509,7 @@
     {
      "title_en": "anélkül, hogy and ahelyett, hogy",
      "title_ru": "anélkül, hogy и ahelyett, hogy",
-     "body_en": "anélkül, hogy 'without …-ing' and ahelyett, hogy 'instead of …-ing' are followed by the conditional (or the subjunctive in speech): Elment anélkül, hogy elköszönt volna 'He left without saying goodbye'. Ahelyett, hogy tanulna, tévét néz 'Instead of studying he watches TV'. Russian expresses these with a gerund (ne poproshchavshis, 'without saying goodbye') or vmesto togo chtoby ('instead of') + infinitive; Hungarian needs a full clause.",
+     "body_en": "anélkül, hogy 'without …-ing' and ahelyett, hogy 'instead of …-ing' are followed by the conditional (or the subjunctive in speech): Elment anélkül, hogy elköszönt volna 'He left without saying goodbye'. Ahelyett, hogy tanulna, tévét néz 'Instead of studying he watches TV'. English expresses these with a preposition + -ing (without saying goodbye, instead of studying); Hungarian needs a full clause.",
      "body_ru": "После anélkül, hogy «без того чтобы, не …-я» и ahelyett, hogy «вместо того чтобы» стоит условное наклонение (в речи также сослагательное): Elment anélkül, hogy elköszönt volna «Он ушёл, не попрощавшись». Ahelyett, hogy tanulna, tévét néz «Вместо того чтобы учиться, он смотрит телевизор». Русский выражает это деепричастием (не попрощавшись) или «вместо того чтобы» + инфинитив; венгерскому нужно полное придаточное.",
      "examples": [
       {
@@ -3532,7 +3532,7 @@
     {
      "title_en": "Punctuation and word order in hogy-clauses",
      "title_ru": "Пунктуация и порядок слов в придаточных с hogy",
-     "body_en": "A comma always precedes hogy and the other conjunctions (mert, bár, mintha), unlike English but like Russian. The announcing pronoun (azért, annak ellenére, úgy, annyira) usually sits in focus or topic of the main clause. Inside the clause the usual word order rules apply: in a neutral subjunctive clause the prefix is attached (hogy megvegyem), under negation it detaches (hogy ne vegyem meg), and after nehogy it stays attached (nehogy megvegyem).",
+     "body_en": "A comma always precedes hogy and the other conjunctions (mert, bár, mintha), unlike English. The announcing pronoun (azért, annak ellenére, úgy, annyira) usually sits in focus or topic of the main clause. Inside the clause the usual word order rules apply: in a neutral subjunctive clause the prefix is attached (hogy megvegyem), under negation it detaches (hogy ne vegyem meg), and after nehogy it stays attached (nehogy megvegyem).",
      "body_ru": "Перед hogy и другими союзами (mert, bár, mintha) всегда ставится запятая — как в русском. Предваряющее местоимение (azért, annak ellenére, úgy, annyira) обычно стоит в фокусе или топике главного предложения. Внутри придаточного действуют обычные правила порядка слов: в нейтральном сослагательном придаточном приставка присоединена (hogy megvegyem), при отрицании отрывается (hogy ne vegyem meg), а после nehogy остаётся присоединённой (nehogy megvegyem).",
      "examples": [
       {
@@ -3897,7 +3897,7 @@
      "type": "tf",
      "q": "'Mintha' is followed by the conditional mood, as in 'mintha tudná'.",
      "answer": true,
-     "explain_en": "mintha always takes the conditional, unlike Russian 'kak budto' ('as if') + indicative.",
+     "explain_en": "mintha always takes the conditional, never the indicative (unlike casual English 'as if he knows').",
      "explain_ru": "После mintha всегда условное наклонение, в отличие от русского «как будто» + изъявительное.",
      "ui": {
       "ru": {
@@ -4007,13 +4007,13 @@
    "id": "advanced-pronouns",
    "title_en": "Advanced pronouns: reflexive, reciprocal, indefinite and negative",
    "title_ru": "Местоимения в деталях: возвратные, взаимные, неопределённые и отрицательные",
-   "summary_en": "The reflexive maga changes for person (magam, magad, maga…), the reciprocal egymás takes case endings, and saját marks 'own'. Indefinite (vala-), negative (se-/sem-) and free-choice (bár-/akár-) pronouns form full series, and negative pronouns require double negation, just as in Russian.",
+   "summary_en": "The reflexive maga changes for person (magam, magad, maga…), the reciprocal egymás takes case endings, and saját marks 'own'. Indefinite (vala-), negative (se-/sem-) and free-choice (bár-/akár-) pronouns form full series, and negative pronouns require double negation (literally 'nobody did not come'), unlike standard English.",
    "summary_ru": "Возвратное maga изменяется по лицам (magam, magad, maga…), взаимное egymás принимает падежные окончания, а saját означает «собственный». Неопределённые (vala-), отрицательные (se-/sem-) и «любые» (bár-/akár-) местоимения образуют целые ряды, а отрицательные требуют двойного отрицания — как и в русском.",
    "rules": [
     {
      "title_en": "Reflexive maga: forms and conjugation",
      "title_ru": "Возвратное maga: формы и спряжение",
-     "body_en": "The reflexive pronoun is maga plus possessive endings, so unlike Russian sebya ('oneself') it changes for person: magam, magad, maga, magunk, magatok, maguk. As a direct object it takes -t: magamat, magadat, magát, magunkat, magatokat, magukat; in the 1st and 2nd person singular the -t is often dropped (jól érzem magam). A reflexive object always triggers the definite conjugation: Látom magamat, Péter nem kíméli magát.",
+     "body_en": "The reflexive pronoun is maga plus possessive endings, so, like English myself/yourself/himself, it changes for person: magam, magad, maga, magunk, magatok, maguk. As a direct object it takes -t: magamat, magadat, magát, magunkat, magatokat, magukat; in the 1st and 2nd person singular the -t is often dropped (jól érzem magam). A reflexive object always triggers the definite conjugation: Látom magamat, Péter nem kíméli magát.",
      "body_ru": "Возвратное местоимение — это maga с притяжательными окончаниями, поэтому, в отличие от русского «себя», оно меняется по лицам: magam, magad, maga, magunk, magatok, maguk. В роли прямого дополнения оно получает -t: magamat, magadat, magát, magunkat, magatokat, magukat; в 1-м и 2-м лице единственного числа -t часто опускают (jól érzem magam «я хорошо себя чувствую»). Возвратное дополнение всегда требует определённого спряжения: Látom magamat, Péter nem kíméli magát.",
      "examples": [
       {
@@ -4036,7 +4036,7 @@
     {
      "title_en": "maga with case endings",
      "title_ru": "maga с падежными окончаниями",
-     "body_en": "Case endings are added to the person-marked stem: magamnak 'for myself', magaddal 'with you(rself)', magáról 'about himself', magunkhoz 'to ourselves', magukban 'in themselves'. Where Russian uses one form with a preposition (sebe, s soboy, o sebe), Hungarian combines person and case in one word: Vigyél magaddal esernyőt! Sokat beszélt magáról.",
+     "body_en": "Case endings are added to the person-marked stem: magamnak 'for myself', magaddal 'with you(rself)', magáról 'about himself', magunkhoz 'to ourselves', magukban 'in themselves'. Where English uses a preposition before the reflexive (for myself, with yourself, about himself), Hungarian combines person and case in one word: Vigyél magaddal esernyőt! Sokat beszélt magáról.",
      "body_ru": "Падежные окончания присоединяются к основе с личным окончанием: magamnak «себе (для себя)», magaddal «с собой (о тебе)», magáról «о себе (о нём)», magunkhoz «к себе (к нам)», magukban «в себе (в них)». Там, где в русском одна форма с предлогом (себе, с собой, о себе), венгерский объединяет лицо и падеж в одном слове: Vigyél magaddal esernyőt! «Возьми с собой зонт!» Sokat beszélt magáról «Он много говорил о себе».",
      "examples": [
       {
@@ -4059,7 +4059,7 @@
     {
      "title_en": "Reciprocal egymás",
      "title_ru": "Взаимное местоимение egymás",
-     "body_en": "egymás 'each other' does not change for person; it simply takes case endings: egymást, egymásnak, egymással, egymásról, egymásra, and postpositions: egymás mellett, egymás után. With egymást the verb is definite: Szeretik egymást. Russian splits the phrase and puts the preposition in the middle (drug s drugom 'with each other', drug o druge 'about each other'); Hungarian just adds the ending: egymással, egymásról.",
+     "body_en": "egymás 'each other' does not change for person; it simply takes case endings: egymást, egymásnak, egymással, egymásról, egymásra, and postpositions: egymás mellett, egymás után. With egymást the verb is definite: Szeretik egymást. English puts a preposition before the phrase (with each other, about each other); Hungarian just adds the ending: egymással, egymásról.",
      "body_ru": "egymás «друг друга» не изменяется по лицам, а просто принимает падежные окончания: egymást, egymásnak, egymással, egymásról, egymásra, а также послелоги: egymás mellett «рядом друг с другом», egymás után «друг за другом». С egymást глагол стоит в определённом спряжении: Szeretik egymást. Русский разрывает выражение и ставит предлог в середину (друг с другом, друг о друге); венгерский просто добавляет окончание: egymással, egymásról.",
      "examples": [
       {
@@ -4082,7 +4082,7 @@
     {
      "title_en": "Intensifying maga and magától",
      "title_ru": "Усилительное maga и magától",
-     "body_en": "maga also means 'himself, the very one': maga az igazgató 'the director himself'; with other persons: én magam 'I myself', mi magunk 'we ourselves'. magától (magamtól, magadtól…) means 'by itself, of one's own accord': Az ajtó magától kinyílt. Russian sam ('-self') changes for gender and number (sam, sama, sami); Hungarian maga changes for person only.",
+     "body_en": "maga also means 'himself, the very one': maga az igazgató 'the director himself'; with other persons: én magam 'I myself', mi magunk 'we ourselves'. magától (magamtól, magadtól…) means 'by itself, of one's own accord': Az ajtó magától kinyílt. English himself/herself/itself distinguishes gender; Hungarian maga changes for person only.",
      "body_ru": "maga также значит «сам, самый»: maga az igazgató «сам директор»; в других лицах: én magam «я сам», mi magunk «мы сами». magától (magamtól, magadtól…) значит «сам по себе, по собственной инициативе»: Az ajtó magától kinyílt «Дверь открылась сама». Русское «сам» меняется по роду и числу (сам, сама, сами), а венгерское maga — только по лицам.",
      "examples": [
       {
@@ -4105,7 +4105,7 @@
     {
      "title_en": "saját 'own' and the missing reflexive possessive",
      "title_ru": "saját «собственный» и отсутствие «свой»",
-     "body_en": "Hungarian has no equivalent of the Russian reflexive possessive svoy ('one's own'). The possessive suffix does the job: Elvettem a könyvemet 'I took my (own) book'. In the 3rd person the suffix can point to the subject or to someone else, so saját (invariable, used together with the suffix) makes clear that something belongs to the subject: Péter a saját autójával jött. saját is also used for emphasis: saját szememmel láttam.",
+     "body_en": "Like English, Hungarian has no special reflexive possessive: the possessive suffix does the job: Elvettem a könyvemet 'I took my (own) book'. In the 3rd person the suffix can point to the subject or to someone else (like English 'his'), so saját (invariable, used together with the suffix) makes clear that something belongs to the subject: Péter a saját autójával jött. saját is also used for emphasis: saját szememmel láttam.",
      "body_ru": "В венгерском нет аналога русского «свой». Его роль выполняет притяжательный суффикс: Elvettem a könyvemet «Я взял свою книгу». В 3-м лице суффикс может указывать и на подлежащее, и на другого человека, поэтому saját (неизменяемое слово, всегда вместе с суффиксом) уточняет, что вещь принадлежит именно подлежащему: Péter a saját autójával jött «Петер приехал на своей машине». saját служит и для усиления: saját szememmel láttam «я видел своими глазами».",
      "examples": [
       {
@@ -4128,7 +4128,7 @@
     {
      "title_en": "Indefinite pronouns with vala-",
      "title_ru": "Неопределённые местоимения с vala-",
-     "body_en": "vala- forms 'some-' words: valaki 'someone', valami 'something', valahol 'somewhere', valahova 'to somewhere', valamikor 'sometime', valahogy 'somehow', valamelyik 'one of them'. They take case endings like nouns: valakit, valakivel, valamiről. One Hungarian form covers both Russian kto-to and kto-nibud ('someone' and 'anyone'): Valaki keresett. Láttál valakit?",
+     "body_en": "vala- forms 'some-' words: valaki 'someone', valami 'something', valahol 'somewhere', valahova 'to somewhere', valamikor 'sometime', valahogy 'somehow', valamelyik 'one of them'. They take case endings like nouns: valakit, valakivel, valamiről. One Hungarian form covers both English 'someone' and 'anyone' (in questions): Valaki keresett. Láttál valakit?",
      "body_ru": "С приставкой vala- образуются слова «кто-то / что-то»: valaki «кто-то», valami «что-то», valahol «где-то», valahova «куда-то», valamikor «когда-то», valahogy «как-то», valamelyik «какой-то из них». Они принимают падежные окончания, как существительные: valakit, valakivel, valamiről. Одна венгерская форма покрывает и русское «кто-то», и «кто-нибудь»: Valaki keresett «Тебя кто-то искал». Láttál valakit? «Ты видел кого-нибудь?»",
      "examples": [
       {
@@ -4151,7 +4151,7 @@
     {
      "title_en": "Negative pronouns and double negation",
      "title_ru": "Отрицательные местоимения и двойное отрицание",
-     "body_en": "se-/sem- forms 'no-' words: senki, semmi, sehol, sehova, soha (sosem), sehogy, semelyik. As in Russian (nikto ne prishyol, 'nobody came') and unlike English, the verb must be negated too: Senki sem jött / Senki nem jött; Nem láttam senkit. Before the verb the pronoun is in focus and usually followed by sem or nem: Semmit sem értek. Several negatives can combine: Soha senkinek nem mondtam semmit.",
+     "body_en": "se-/sem- forms 'no-' words: senki, semmi, sehol, sehova, soha (sosem), sehogy, semelyik. Unlike standard English ('nobody came'), the verb must be negated too: Senki sem jött / Senki nem jött; Nem láttam senkit. Before the verb the pronoun is in focus and usually followed by sem or nem: Semmit sem értek. Several negatives can combine: Soha senkinek nem mondtam semmit.",
      "body_ru": "С se-/sem- образуются отрицательные слова: senki «никто», semmi «ничто», sehol «нигде», sehova «никуда», soha (sosem) «никогда», sehogy «никак», semelyik «ни один». Как и в русском («никто не пришёл») и в отличие от английского, глагол тоже должен иметь отрицание: Senki sem jött / Senki nem jött; Nem láttam senkit. Перед глаголом местоимение стоит в фокусе, и за ним обычно идёт sem или nem: Semmit sem értek «Я ничего не понимаю». Можно соединять несколько отрицаний: Soha senkinek nem mondtam semmit.",
      "examples": [
       {
@@ -4174,7 +4174,7 @@
     {
      "title_en": "Free-choice pronouns bár- and akár-",
      "title_ru": "Местоимения «любой»: bár- и akár-",
-     "body_en": "bár- and akár- mean 'any- at all, -ever': bárki, bármi, bárhol, bármikor, bármelyik; akárki, akármi, akárhol. They match Russian kto ugodno ('anyone at all'), lyuboy ('any'), gde ugodno ('anywhere at all'): Bárki megcsinálhatja. In concessive clauses they correspond to Russian kto by ni, chto by ni ('whoever, whatever'): Akármit mondasz, nem hiszek neked. Don't confuse them with vala-: Láttál valakit? 'Did you see anyone?' but Bárkit megkérdezhetsz 'You can ask anyone at all'.",
+     "body_en": "bár- and akár- mean 'any- at all, -ever': bárki, bármi, bárhol, bármikor, bármelyik; akárki, akármi, akárhol. They match English 'anyone at all', 'any', 'anywhere at all': Bárki megcsinálhatja. In concessive clauses they correspond to English 'whoever, whatever': Akármit mondasz, nem hiszek neked. Don't confuse them with vala-: Láttál valakit? 'Did you see anyone?' but Bárkit megkérdezhetsz 'You can ask anyone at all'.",
      "body_ru": "bár- и akár- означают «какой угодно, любой»: bárki, bármi, bárhol, bármikor, bármelyik; akárki, akármi, akárhol. Они соответствуют русским «кто угодно», «любой», «где угодно»: Bárki megcsinálhatja «Это может сделать кто угодно». В уступительных предложениях они передают «кто бы ни», «что бы ни»: Akármit mondasz, nem hiszek neked «Что бы ты ни говорил, я тебе не верю». Не путайте их с vala-: Láttál valakit? «Ты видел кого-нибудь?», но Bárkit megkérdezhetsz «Можешь спросить кого угодно».",
      "examples": [
       {
@@ -4263,7 +4263,7 @@
       "mindenhol"
      ],
      "answer": 2,
-     "explain_en": "With a negated verb Hungarian uses the negative series: nem … sehol 'nowhere', like Russian nigde ne ('nowhere … not').",
+     "explain_en": "With a negated verb Hungarian uses the negative series: nem … sehol, literally 'not … nowhere' (English 'not … anywhere').",
      "explain_ru": "При отрицании глагола нужен отрицательный ряд: nem … sehol, как русское «нигде не нахожу»."
     },
     {
@@ -4509,7 +4509,7 @@
      "explain_ru": "Неверно: в отличие от «себя», maga меняется по лицам (magam, magad, maga, magunk, magatok, maguk).",
      "ui": {
       "en": {
-       "q": "Hungarian 'maga' has a single form for all persons, just like the Russian reflexive 'sebya'."
+       "q": "Hungarian 'maga' has a single form for all persons, whereas English needs myself, yourself, himself, etc."
       },
       "ru": {
        "q": "У венгерского «maga» одна форма для всех лиц, как у русского «себя»."
@@ -4670,7 +4670,7 @@
     {
      "title_en": "Three directions: alatt / alá / alól",
      "title_ru": "Три направления: alatt / alá / alól",
-     "body_en": "Spatial postpositions come in sets for 'where?', 'where to?' and 'where from?': alatt/alá/alól (under), fölött/fölé/fölül (above), mögött/mögé/mögül (behind), előtt/elé/elől (in front of), mellett/mellé/mellől (beside), között/közé/közül (between, among). Russian changes the case and sometimes the preposition (pod stolom, pod stol, iz-pod stola); Hungarian changes only the ending of the postposition.",
+     "body_en": "Spatial postpositions come in sets for 'where?', 'where to?' and 'where from?': alatt/alá/alól (under), fölött/fölé/fölül (above), mögött/mögé/mögül (behind), előtt/elé/elől (in front of), mellett/mellé/mellől (beside), között/közé/közül (between, among). English often uses the same preposition for 'where' and 'where to' and adds 'from' for 'where from' (under the table, from under the table); Hungarian changes only the ending of the postposition.",
      "body_ru": "Пространственные послелоги образуют тройки для вопросов «где?», «куда?» и «откуда?»: alatt/alá/alól (под), fölött/fölé/fölül (над), mögött/mögé/mögül (за), előtt/elé/elől (перед), mellett/mellé/mellől (рядом), között/közé/közül (между, среди). Русский меняет падеж, а иногда и предлог (под столом, под стол, из-под стола); венгерский меняет только окончание самого послелога, а существительное остаётся без изменений.",
      "examples": [
       {
@@ -4726,7 +4726,7 @@
     {
      "title_en": "-n keresztül / -n át: through, via, for (time)",
      "title_ru": "-n keresztül / -n át: через, в течение",
-     "body_en": "keresztül and át require the superessive -n/-on/-en/-ön on the noun: az erdőn keresztül 'through the forest', a parkon át 'across the park'. They also mean 'via, through someone': a barátomon keresztül, and 'for a period': három napon keresztül 'for three days'. With pronouns: rajtam keresztül 'through me'. Russian uses cherez ('through') + accusative or v techeniye ('during') + genitive.",
+     "body_en": "keresztül and át require the superessive -n/-on/-en/-ön on the noun: az erdőn keresztül 'through the forest', a parkon át 'across the park'. They also mean 'via, through someone': a barátomon keresztül, and 'for a period': három napon keresztül 'for three days'. With pronouns: rajtam keresztül 'through me'. English uses 'through, across, via' or 'for' with a period of time.",
      "body_ru": "keresztül и át требуют от существительного окончания -n/-on/-en/-ön: az erdőn keresztül «через лес», a parkon át «через парк». Они значат также «через кого-то, при посредстве»: a barátomon keresztül «через моего друга», и «в течение»: három napon keresztül «в течение трёх дней». С местоимениями: rajtam keresztül «через меня». В русском здесь «через» + винительный падеж или «в течение» + родительный.",
      "examples": [
       {
@@ -4749,7 +4749,7 @@
     {
      "title_en": "-hoz képest and szerint",
      "title_ru": "-hoz képest и szerint",
-     "body_en": "képest 'compared to' requires the allative -hoz/-hez/-höz: tavalyhoz képest, hozzám képest 'compared to me'. szerint 'according to' takes the bare noun: a törvény szerint, a menetrend szerint; with personal endings it gives the very common szerintem 'in my opinion', szerinted, szerinte. Compare Russian po-moyemu ('in my opinion'), po raspisaniyu ('according to the timetable'), po sravneniyu s ('compared with').",
+     "body_en": "képest 'compared to' requires the allative -hoz/-hez/-höz: tavalyhoz képest, hozzám képest 'compared to me'. szerint 'according to' takes the bare noun: a törvény szerint, a menetrend szerint; with personal endings it gives the very common szerintem 'in my opinion', szerinted, szerinte. Compare English 'in my opinion', 'according to the timetable', 'compared with'.",
      "body_ru": "képest «по сравнению с» требует окончания -hoz/-hez/-höz: tavalyhoz képest «по сравнению с прошлым годом», hozzám képest «по сравнению со мной». szerint «согласно, по» присоединяется к существительному без падежа: a törvény szerint «по закону», a menetrend szerint «по расписанию»; с личными окончаниями получается очень частое szerintem «по-моему», szerinted «по-твоему», szerinte «по его мнению».",
      "examples": [
       {
@@ -4772,7 +4772,7 @@
     {
      "title_en": "miatt vs -ért",
      "title_ru": "miatt и -ért",
-     "body_en": "miatt 'because of' gives the cause, often an unwanted one: az eső miatt, miattam 'because of me'. The case ending -ért gives the purpose or beneficiary 'for, for the sake of': a családomért, the price 'for': ezer forintért, and the thing fetched: elmegyek a gyerekért. Compare Russian iz-za dozhdya 'because of the rain' (miatt) vs za tysyachu forintov 'for a thousand forints', radi semyi 'for the family's sake', skhozhu za rebyonkom 'I'll go and fetch the child' (-ért). Note értem 'for me' looks like értem 'I understand'.",
+     "body_en": "miatt 'because of' gives the cause, often an unwanted one: az eső miatt, miattam 'because of me'. The case ending -ért gives the purpose or beneficiary 'for, for the sake of': a családomért, the price 'for': ezer forintért, and the thing fetched: elmegyek a gyerekért. Compare English 'because of the rain' (miatt) vs 'for a thousand forints', 'for the family's sake', 'I'll go and fetch the child' (-ért). Note értem 'for me' looks like értem 'I understand'.",
      "body_ru": "miatt «из-за» указывает на причину, часто нежелательную: az eső miatt «из-за дождя», miattam «из-за меня». Падежное окончание -ért выражает цель или того, ради кого: a családomért «ради семьи», цену: ezer forintért «за тысячу форинтов», и то, за чем идут: elmegyek a gyerekért «схожу за ребёнком». Сравните русское «из-за» (miatt) и «за, ради» (-ért). Внимание: értem «ради меня» совпадает по форме с értem «я понимаю».",
      "examples": [
       {
@@ -4800,7 +4800,7 @@
     {
      "title_en": "helyett and nélkül",
      "title_ru": "helyett и nélkül",
-     "body_en": "helyett 'instead of' and nélkül 'without' follow the bare noun, where Russian needs the genitive (vmesto kofe 'instead of coffee', bez sakhara 'without sugar'): kávé helyett, cukor nélkül. With personal endings: helyettem 'instead of me', nélküled 'without you'. Both also introduce clauses: ahelyett, hogy…; anélkül, hogy….",
+     "body_en": "helyett 'instead of' and nélkül 'without' follow the bare noun, just as English prepositions take a plain noun (instead of coffee, without sugar): kávé helyett, cukor nélkül. With personal endings: helyettem 'instead of me', nélküled 'without you'. Both also introduce clauses: ahelyett, hogy…; anélkül, hogy….",
      "body_ru": "helyett «вместо» и nélkül «без» стоят после существительного без падежного окончания, тогда как в русском нужен родительный падеж (вместо кофе, без сахара): kávé helyett, cukor nélkül. С личными окончаниями: helyettem «вместо меня», nélküled «без тебя». Оба послелога вводят и придаточные: ahelyett, hogy… «вместо того чтобы»; anélkül, hogy… «не (сделав)».",
      "examples": [
       {
@@ -4823,7 +4823,7 @@
     {
      "title_en": "Time: óta, múlva, ezelőtt, alatt",
      "title_ru": "Время: óta, múlva, ezelőtt, alatt",
-     "body_en": "óta 'since' takes the present tense for a situation that still lasts, just like Russian: 2020 óta Budapesten lakom 'I have lived in Budapest since 2020'. múlva 'in, after (from now)': két hét múlva 'in two weeks' (Russian cherez dve nedeli). 'Ago' is -val/-vel ezelőtt: három évvel ezelőtt, or simply három éve. alatt with time means 'within, during': egy óra alatt 'in an hour' (Russian za chas).",
+     "body_en": "óta 'since' takes the present tense for a situation that still lasts, where English uses the present perfect: 2020 óta Budapesten lakom 'I have lived in Budapest since 2020'. múlva 'in, after (from now)': két hét múlva 'in two weeks'. 'Ago' is -val/-vel ezelőtt: három évvel ezelőtt, or simply három éve. alatt with time means 'within, during': egy óra alatt 'in an hour'.",
      "body_ru": "óta «с (какого-то момента)» употребляется с настоящим временем для ситуации, которая продолжается, — точно как в русском: 2020 óta Budapesten lakom «С 2020 года я живу в Будапеште». múlva «через»: két hét múlva «через две недели». «Тому назад» — -val/-vel ezelőtt: három évvel ezelőtt «три года назад», или просто három éve. alatt со временем значит «за, в течение»: egy óra alatt «за час».",
      "examples": [
       {
@@ -4874,7 +4874,7 @@
     {
      "title_en": "Adjectives from postpositions with -i",
      "title_ru": "Прилагательные от послелогов на -i",
-     "body_en": "A postpositional phrase cannot directly modify a noun; it first becomes an adjective with -i: a ház előtt → a ház előtti parkoló 'the car park in front of the house', a háború után → a háború utáni évek 'the post-war years'. Russian often keeps the prepositional phrase after the noun (parkovka pered domom, 'the car park in front of the house') or uses a prefix (poslevoyennye gody, 'the post-war years').",
+     "body_en": "A postpositional phrase cannot directly modify a noun; it first becomes an adjective with -i: a ház előtt → a ház előtti parkoló 'the car park in front of the house', a háború után → a háború utáni évek 'the post-war years'. English usually keeps the prepositional phrase after the noun (the car park in front of the house) or uses a prefix (the post-war years).",
      "body_ru": "Сочетание с послелогом не может прямо определять существительное: сначала оно превращается в прилагательное с помощью -i: a ház előtt → a ház előtti parkoló «парковка перед домом», a háború után → a háború utáni évek «послевоенные годы». В русском обычно предложное сочетание стоит после существительного (парковка перед домом) или используется приставка (послевоенный). В венгерском определение всегда стоит перед существительным.",
      "examples": [
       {
@@ -5182,7 +5182,7 @@
      "type": "tf",
      "q": "'2020 óta Budapesten lakom' uses the present tense, just like Russian 'с 2020 года я живу в Будапеште'.",
      "answer": true,
-     "explain_en": "True: with óta an ongoing situation is in the present tense, as in Russian.",
+     "explain_en": "True: with óta an ongoing situation is in the present tense, where English uses the present perfect ('I have lived').",
      "explain_ru": "Верно: с óta продолжающаяся ситуация выражается настоящим временем, как и в русском.",
      "ui": {
       "en": {
@@ -5345,7 +5345,7 @@
     {
      "title_en": "Singular after numerals and quantifiers",
      "title_ru": "Единственное число после числительных и слов количества",
-     "body_en": "After any number or quantity word (sok, kevés, néhány, pár, több, számos, rengeteg) the noun is singular and the verb agrees in the singular: három könyv, sok ember, Öt ember várt. Russian varies the case and number (dva yabloka 'two apples', pyat yablok 'five apples', mnogo lyudey 'many people'); Hungarian never does. The accusative or other case goes on the noun: Láttam öt embert.",
+     "body_en": "After any number or quantity word (sok, kevés, néhány, pár, több, számos, rengeteg) the noun is singular and the verb agrees in the singular: három könyv, sok ember, Öt ember várt. English uses the plural (two apples, five apples, many people); Hungarian never does. The accusative or other case goes on the noun: Láttam öt embert.",
      "body_ru": "После любого числительного или слова количества (sok, kevés, néhány, pár, több, számos, rengeteg) существительное стоит в единственном числе, и глагол тоже согласуется в единственном: három könyv, sok ember, Öt ember várt «Ждали пять человек». В русском меняются падеж и число (два яблока, пять яблок, много людей); в венгерском — никогда. Падежное окончание ставится на существительное: Láttam öt embert «Я видел пять человек».",
      "examples": [
       {
@@ -5368,7 +5368,7 @@
     {
      "title_en": "Measure constructions: két kiló alma",
      "title_ru": "Конструкции меры: két kiló alma",
-     "body_en": "A measure word is followed directly by the noun in the nominative singular, with no 'of' and no genitive: két kiló alma, egy pohár víz, egy csésze kávé, három szelet kenyér, egy doboz gyufa. Russian needs the genitive (dva kilo yablok 'two kilos of apples', stakan vody 'a glass of water'). When the whole phrase is an object, only the last noun takes -t: Kérek egy pohár vizet.",
+     "body_en": "A measure word is followed directly by the noun in the nominative singular, with no 'of': két kiló alma, egy pohár víz, egy csésze kávé, három szelet kenyér, egy doboz gyufa. English needs 'of' and often a plural (two kilos of apples, a glass of water). When the whole phrase is an object, only the last noun takes -t: Kérek egy pohár vizet.",
      "body_ru": "После слова меры существительное идёт сразу, в именительном падеже единственного числа, без какого-либо «родительного»: két kiló alma «два кило яблок», egy pohár víz «стакан воды», egy csésze kávé «чашка кофе», három szelet kenyér «три куска хлеба». В русском здесь нужен родительный падеж. Если всё сочетание — прямое дополнение, -t получает только последнее существительное: Kérek egy pohár vizet «Дайте, пожалуйста, стакан воды».",
      "examples": [
       {
@@ -5391,7 +5391,7 @@
     {
      "title_en": "-szor/-szer/-ször: how many times",
      "title_ru": "-szor/-szer/-ször: сколько раз",
-     "body_en": "The suffix -szor/-szer/-ször (vowel harmony) gives 'times': egyszer, kétszer, háromszor, négyszer, ötször, százszor; hányszor? 'how many times?', sokszor, többször. Added to ordinals it means 'for the first/second time' or 'firstly, secondly': először, másodszor, harmadszor. Russian uses the noun raz ('time': dva raza, pyat raz) and vpervye ('for the first time').",
+     "body_en": "The suffix -szor/-szer/-ször (vowel harmony) gives 'times': egyszer, kétszer, háromszor, négyszer, ötször, százszor; hányszor? 'how many times?', sokszor, többször. Added to ordinals it means 'for the first/second time' or 'firstly, secondly': először, másodszor, harmadszor. English uses 'once, twice, three times' and 'for the first time'.",
      "body_ru": "Суффикс -szor/-szer/-ször (по гармонии гласных) обозначает кратность: egyszer «один раз», kétszer «два раза», háromszor, négyszer, ötször, százszor; hányszor? «сколько раз?», sokszor «много раз», többször «несколько раз». С порядковыми числительными получается «в первый/второй раз» или «во-первых, во-вторых»: először, másodszor, harmadszor. В русском для этого служит существительное «раз» (два раза, пять раз) и наречие «впервые».",
      "examples": [
       {
@@ -5414,7 +5414,7 @@
     {
      "title_en": "-an/-en: how many people",
      "title_ru": "-an/-en: сколько человек",
-     "body_en": "-an/-en on a numeral tells how many people do something together: ketten, hárman, négyen, öten, hatan, heten, tízen; also sokan 'many people', kevesen 'few people', hányan? 'how many (people)?'. The verb agrees with the real subject: Hárman voltunk. It matches Russian vdvoyom ('the two of us'), vtroyom ('the three of us'), nas bylo pyatero ('there were five of us').",
+     "body_en": "-an/-en on a numeral tells how many people do something together: ketten, hárman, négyen, öten, hatan, heten, tízen; also sokan 'many people', kevesen 'few people', hányan? 'how many (people)?'. The verb agrees with the real subject: Hárman voltunk. It matches English 'the two of us', 'the three of us', 'there were five of us'.",
      "body_ru": "-an/-en на числительном показывает, сколько человек участвует в действии: ketten «вдвоём», hárman «втроём», négyen, öten, hatan, heten, tízen; а также sokan «многие», kevesen «немногие», hányan? «сколько (человек)?». Глагол согласуется с реальным подлежащим: Hárman voltunk «Нас было трое». Это соответствует русским «вдвоём, втроём, нас было пятеро».",
      "examples": [
       {
@@ -5437,7 +5437,7 @@
     {
      "title_en": "Fractions, másfél and clock times",
      "title_ru": "Дроби, másfél и время на часах",
-     "body_en": "Fractions add -d to the numeral: harmad, negyed, ötöd, tized, század; fél is 'half', másfél '1.5' (Russian poltora), két és fél '2.5'. A fraction of a group takes a possessive: a diákok kétharmada. Clock times count towards the next hour, exactly like Russian polovina tretyego ('half of the third hour' = 2:30): negyed három 2:15, fél három 2:30, háromnegyed három 2:45.",
+     "body_en": "Fractions add -d to the numeral: harmad, negyed, ötöd, tized, század; fél is 'half', másfél '1.5' ('one and a half'), két és fél '2.5'. A fraction of a group takes a possessive: a diákok kétharmada. Clock times count towards the next hour: negyed három 2:15, fél három 2:30 (half-way to three; not British 'half three', which is 3:30), háromnegyed három 2:45.",
      "body_ru": "Дроби образуются с помощью -d: harmad «треть», negyed «четверть», ötöd, tized, század; fél — «половина», másfél — «полтора», két és fél — «два с половиной». Часть группы выражается притяжательной формой: a diákok kétharmada «две трети студентов». Время отсчитывается к следующему часу — точно как русское «половина третьего»: negyed három 2:15, fél három 2:30, háromnegyed három 2:45.",
      "examples": [
       {
@@ -5460,7 +5460,7 @@
     {
      "title_en": "Ordinals and dates",
      "title_ru": "Порядковые числительные и даты",
-     "body_en": "Ordinals end in -dik: második, harmadik, ötödik, huszadik (but első 'first'); in writing a full stop follows the digit: 15. = tizenötödik, a 20. század. Dates go year–month–day: 2024. március 15. The day uses the -dika form, and 'on that day' adds -n: március 15-én = tizenötödikén, május elsején (1-jén). Russian uses the genitive (pyatnadtsatogo marta, 'on the fifteenth of March').",
+     "body_en": "Ordinals end in -dik: második, harmadik, ötödik, huszadik (but első 'first'); in writing a full stop follows the digit: 15. = tizenötödik, a 20. század. Dates go year–month–day: 2024. március 15. The day uses the -dika form, and 'on that day' adds -n: március 15-én = tizenötödikén, május elsején (1-jén). English says 'on the fifteenth of March' or 'on March 15th'.",
      "body_ru": "Порядковые числительные оканчиваются на -dik: második, harmadik, ötödik, huszadik (но első «первый»); на письме после цифры ставится точка: 15. = tizenötödik, a 20. század «XX век». Дата пишется в порядке год — месяц — день: 2024. március 15. День выражается формой на -dika, а «в этот день» — с окончанием -n: március 15-én = tizenötödikén «пятнадцатого марта», május elsején (1-jén) «первого мая». В русском здесь родительный падеж.",
      "examples": [
       {
@@ -5483,7 +5483,7 @@
     {
      "title_en": "mindkét, mindkettő, mindegyik, valamennyi",
      "title_ru": "mindkét, mindkettő, mindegyik, valamennyi",
-     "body_en": "mindkét 'both' stands before a singular noun, and the verb is singular: Mindkét testvérem Budapesten él. As a pronoun use mindkettő (things) or mindketten (people). mindegyik means 'each one (of a known group)': mindegyik diák, mindegyikünk. valamennyi in formal style means 'all': valamennyi résztvevő; in speech it can also mean 'some amount'. Compare Russian oba/obe ('both'), kazhdy ('each'), vse ('all').",
+     "body_en": "mindkét 'both' stands before a singular noun, and the verb is singular: Mindkét testvérem Budapesten él. As a pronoun use mindkettő (things) or mindketten (people). mindegyik means 'each one (of a known group)': mindegyik diák, mindegyikünk. valamennyi in formal style means 'all': valamennyi résztvevő; in speech it can also mean 'some amount'. Compare English 'both' (+ plural), 'each', 'all'.",
      "body_ru": "mindkét «оба» ставится перед существительным в единственном числе, и глагол тоже в единственном: Mindkét testvérem Budapesten él «Оба моих брата живут в Будапеште». Как местоимение используется mindkettő (о предметах) или mindketten (о людях). mindegyik — «каждый (из известной группы)»: mindegyik diák, mindegyikünk «каждый из нас». valamennyi в официальном стиле значит «все»: valamennyi résztvevő «все участники»; в разговоре может значить «некоторое количество». В русском — оба/обе, каждый, все.",
      "examples": [
       {
@@ -5511,7 +5511,7 @@
     {
      "title_en": "hány? vs mennyi?",
      "title_ru": "hány? и mennyi?",
-     "body_en": "'How many / how much' (Russian skolko) has two Hungarian equivalents. hány asks about countable things and is followed by a singular noun: Hány könyved van? mennyi asks about amounts of uncountable things (and also prices, time): Mennyi pénzed van? Mennyibe kerül? hányan asks 'how many people', hányszor 'how many times', hányadik 'which (in order)': Hányadik emeleten laksz?",
+     "body_en": "As in English, 'how many' and 'how much' are different words. hány asks about countable things and is followed by a singular noun: Hány könyved van? mennyi asks about amounts of uncountable things (and also prices, time): Mennyi pénzed van? Mennyibe kerül? hányan asks 'how many people', hányszor 'how many times', hányadik 'which (in order)': Hányadik emeleten laksz?",
      "body_ru": "Русскому «сколько» соответствуют два венгерских слова. hány спрашивает об исчисляемых предметах, за ним идёт существительное в единственном числе: Hány könyved van? «Сколько у тебя книг?» mennyi спрашивает о количестве неисчисляемого (а также о цене и времени): Mennyi pénzed van? «Сколько у тебя денег?», Mennyibe kerül? «Сколько стоит?». hányan — «сколько человек», hányszor — «сколько раз», hányadik — «который по счёту»: Hányadik emeleten laksz? «На каком этаже ты живёшь?»",
      "examples": [
       {
@@ -5534,7 +5534,7 @@
     {
      "title_en": "Number nouns with -s: a négyes villamos",
      "title_ru": "Числовые существительные на -s: a négyes villamos",
-     "body_en": "The suffix -s/-as/-es/-ös turns a numeral into a noun or adjective naming the number itself: egyes, kettes, hármas, négyes, ötös. It is used for bus and tram lines (a hatos villamos), school marks (ötöst kaptam 'I got a five'), room numbers and clothing sizes. Russian uses similar nouns for some of these (pyatyorka 'a five, a top mark', shestoy tramvay 'tram number six') but not systematically.",
+     "body_en": "The suffix -s/-as/-es/-ös turns a numeral into a noun or adjective naming the number itself: egyes, kettes, hármas, négyes, ötös. It is used for bus and tram lines (a hatos villamos), school marks (ötöst kaptam 'I got a five'), room numbers and clothing sizes. English uses phrases instead (the number six tram, a size ten, a top mark) and has no single suffix for this.",
      "body_ru": "Суффикс -s/-as/-es/-ös превращает числительное в существительное или прилагательное, обозначающее саму цифру: egyes, kettes, hármas, négyes, ötös. Так называют автобусы и трамваи (a hatos villamos «шестой трамвай»), школьные оценки (ötöst kaptam «я получил пятёрку»), номера комнат и размеры одежды. В русском похожие слова есть лишь для некоторых случаев (пятёрка, двойка), а венгерский образует их от любого числа.",
      "examples": [
       {
@@ -5623,7 +5623,7 @@
       "ketten"
      ],
      "answer": 2,
-     "explain_en": "másfél óra = 'an hour and a half' (Russian poltora chasa).",
+     "explain_en": "másfél óra = 'an hour and a half'.",
      "explain_ru": "másfél óra = «полтора часа»."
     },
     {
@@ -5856,7 +5856,7 @@
      "type": "tf",
      "q": "'Fél három' means 3:30.",
      "answer": false,
-     "explain_en": "False: fél három is 2:30 — half towards three, like Russian polovina tretyego.",
+     "explain_en": "False: fél három is 2:30 — half-way towards three (not British 'half three', which is 3:30).",
      "explain_ru": "Неверно: fél három — это 2:30, «половина третьего», как и в русском.",
      "ui": {
       "ru": {
@@ -6018,7 +6018,7 @@
     {
      "title_en": "Ön / Önök with the 3rd person",
      "title_ru": "Ön / Önök и 3-е лицо",
-     "body_en": "Formal 'you' is Ön (singular) and Önök (plural), always with a 3rd-person verb: Ön hol lakik? Önök honnan jönnek? The pronoun is often left out: Hogy van? Its cases and possessives are 3rd person too: Önnek, Önt, Önnel, az Ön autója. In writing it is capitalised. Russian polite Vy takes a 2nd-person plural verb (Vy zhivyote, 'you live'); Hungarian uses the singular 3rd person for one person.",
+     "body_en": "Formal 'you' is Ön (singular) and Önök (plural), always with a 3rd-person verb: Ön hol lakik? Önök honnan jönnek? The pronoun is often left out: Hogy van? Its cases and possessives are 3rd person too: Önnek, Önt, Önnel, az Ön autója. In writing it is capitalised. English has a single 'you' with the same verb for everyone; Hungarian uses the 3rd person singular for one person addressed formally.",
      "body_ru": "Вежливое «вы» — это Ön (ед. ч.) и Önök (мн. ч.), всегда с глаголом в 3-м лице: Ön hol lakik? «Где вы живёте?», Önök honnan jönnek? «Откуда вы приехали?». Местоимение часто опускают: Hogy van? «Как поживаете?». Падежные и притяжательные формы тоже 3-го лица: Önnek, Önt, Önnel, az Ön autója «ваша машина». На письме Ön пишется с заглавной буквы. Русское «Вы» требует глагола во 2-м лице множественного числа, а венгерское Ön к одному человеку — 3-го лица единственного.",
      "examples": [
       {
@@ -6041,7 +6041,7 @@
     {
      "title_en": "Formal imperative and maga",
      "title_ru": "Вежливое повелительное наклонение и maga",
-     "body_en": "Formal commands use the 3rd-person subjunctive: Jöjjön be! Üljön le! Foglaljon helyet! Várjon egy kicsit! Russian simply uses the plural (Vkhodite! Sadites! 'Come in! Sit down!'). In speech maga is also a formal 'you' with the same 3rd-person verb, but it is less official than Ön and in some contexts sounds distant or even rude: Maga mit keres itt?",
+     "body_en": "Formal commands use the 3rd-person subjunctive: Jöjjön be! Üljön le! Foglaljon helyet! Várjon egy kicsit! English simply uses the imperative, often softened with 'please' (Come in! Please sit down!). In speech maga is also a formal 'you' with the same 3rd-person verb, but it is less official than Ön and in some contexts sounds distant or even rude: Maga mit keres itt?",
      "body_ru": "Вежливые просьбы и приказы выражаются формой 3-го лица сослагательного (повелительного) наклонения: Jöjjön be! «Входите!», Üljön le! «Садитесь!», Foglaljon helyet! «Присаживайтесь!», Várjon egy kicsit! «Подождите немного!». В русском просто используется множественное число. В устной речи вежливым «вы» служит и maga с тем же глаголом в 3-м лице, но оно менее официально, чем Ön, и в некоторых ситуациях звучит холодно или даже грубо: Maga mit keres itt? «Вы что здесь ищете?»",
      "examples": [
       {
@@ -6064,7 +6064,7 @@
     {
      "title_en": "tetszik + infinitive",
      "title_ru": "tetszik + инфинитив",
-     "body_en": "A very polite form used by children to adults, by younger people to elderly ones and in shops: tetszik (plural tetszenek) + infinitive replaces the verb: Mit tetszik kérni? Hova tetszik menni? Tetszett hallani? The tense goes on tetszik, the meaning on the infinitive. Russian has no grammatical equivalent; it simply uses Vy (Chto zhelayete? 'What would you like?', Kuda Vy yedete? 'Where are you going?').",
+     "body_en": "A very polite form used by children to adults, by younger people to elderly ones and in shops: tetszik (plural tetszenek) + infinitive replaces the verb: Mit tetszik kérni? Hova tetszik menni? Tetszett hallani? The tense goes on tetszik, the meaning on the infinitive. English has no grammatical equivalent; it uses polite phrases (What would you like? Where are you going, madam?).",
      "body_ru": "Очень вежливая форма, которой пользуются дети по отношению к взрослым, молодые — к пожилым, продавцы — к покупателям: tetszik (мн. ч. tetszenek) + инфинитив заменяет обычный глагол: Mit tetszik kérni? «Что желаете?», Hova tetszik menni? «Куда Вы идёте?», Tetszett hallani? «Вы слышали?». Время выражается на tetszik, смысл — инфинитивом. В русском грамматического аналога нет — просто используется «Вы».",
      "examples": [
       {
@@ -6087,7 +6087,7 @@
     {
      "title_en": "szíveskedjék, legyen szíves, kérem",
      "title_ru": "szíveskedjék, legyen szíves, kérem",
-     "body_en": "Official requests often use szíveskedik + infinitive in the subjunctive: Szíveskedjék aláírni a nyomtatványt 'Kindly sign the form' (szíveskedjen is also used). In everyday polite speech: Legyen szíves, zárja be az ajtót! 'Be so kind…' Notices use kérjük: Kérjük, ne dohányozzon! Russian: Budte dobry ('Be so kind'), Prosim ne kurit ('Please do not smoke').",
+     "body_en": "Official requests often use szíveskedik + infinitive in the subjunctive: Szíveskedjék aláírni a nyomtatványt 'Kindly sign the form' (szíveskedjen is also used). In everyday polite speech: Legyen szíves, zárja be az ajtót! 'Be so kind…' Notices use kérjük: Kérjük, ne dohányozzon! English: 'Be so kind as to…', 'Please do not smoke'.",
      "body_ru": "В официальных просьбах часто используется szíveskedik + инфинитив в сослагательной форме: Szíveskedjék aláírni a nyomtatványt «Будьте добры подписать бланк» (употребляется и szíveskedjen). В обычной вежливой речи: Legyen szíves, zárja be az ajtót! «Будьте добры, закройте дверь!». В объявлениях — kérjük: Kérjük, ne dohányozzon! «Просим не курить!». По-русски: «Будьте добры», «Просим», «Извольте».",
      "examples": [
       {
@@ -6110,7 +6110,7 @@
     {
      "title_en": "Conditional politeness: nagyon örülnék, ha…",
      "title_ru": "Вежливость через условное наклонение: nagyon örülnék, ha…",
-     "body_en": "Requests are softened with the conditional: Szeretnék… 'I would like', Lenne szíves…? 'Would you be so kind', Megtenné, hogy…? A typical formula is nagyon örülnék, ha + conditional: Nagyon örülnék, ha válaszolna. As in Russian (ya byl by rad, yesli by vy otvetili, 'I would be glad if you replied'), both clauses are conditional.",
+     "body_en": "Requests are softened with the conditional: Szeretnék… 'I would like', Lenne szíves…? 'Would you be so kind', Megtenné, hogy…? A typical formula is nagyon örülnék, ha + conditional: Nagyon örülnék, ha válaszolna. Unlike English (I would be glad if you replied), both clauses are conditional.",
      "body_ru": "Просьбы смягчают условным наклонением: Szeretnék… «Я хотел бы», Lenne szíves…? «Не будете ли Вы так любезны», Megtenné, hogy…? «Не могли бы Вы…». Типичная формула — nagyon örülnék, ha + условное наклонение: Nagyon örülnék, ha válaszolna «Я был бы очень рад, если бы Вы ответили». Как и в русском («был бы рад, если бы»), обе части стоят в условном наклонении.",
      "examples": [
       {
@@ -6133,7 +6133,7 @@
     {
      "title_en": "Letter openings and names",
      "title_ru": "Начало письма и имена",
-     "body_en": "Formal letters open with Tisztelt …!: Tisztelt Kovács Úr! Tisztelt Nagy Éva Asszony! Tisztelt Hölgyem/Uram! Friendly ones with Kedves …! The salutation ends with an exclamation mark (a comma is common in emails) and the text starts with a capital. The family name comes first: Kovács Péter, and the title follows it: Kovács úr, dr. Kovács Péter. Russian: Uvazhayemy gospodin Kovach! ('Dear Mr Kovács').",
+     "body_en": "Formal letters open with Tisztelt …!: Tisztelt Kovács Úr! Tisztelt Nagy Éva Asszony! Tisztelt Hölgyem/Uram! Friendly ones with Kedves …! The salutation ends with an exclamation mark (a comma is common in emails) and the text starts with a capital. The family name comes first: Kovács Péter, and the title follows it: Kovács úr, dr. Kovács Péter. English: 'Dear Mr Kovács,'.",
      "body_ru": "Официальное письмо начинается с Tisztelt …!: Tisztelt Kovács Úr! «Уважаемый господин Ковач!», Tisztelt Nagy Éva Asszony!, Tisztelt Hölgyem/Uram! «Уважаемые дамы и господа!». Дружеское — с Kedves …! «Дорогой…!». После обращения ставится восклицательный знак (в электронных письмах часто запятая), а текст начинается с заглавной буквы. Фамилия стоит перед именем: Kovács Péter, а обращение — после фамилии: Kovács úr «господин Ковач», dr. Kovács Péter.",
      "examples": [
       {
@@ -6156,7 +6156,7 @@
     {
      "title_en": "Closings and stock phrases",
      "title_ru": "Завершение письма и устойчивые формулы",
-     "body_en": "Typical closings: Tisztelettel, Üdvözlettel, Szívélyes üdvözlettel, Köszönettel. Useful formulas: Előre is köszönöm 'Thank you in advance', Mellékelten küldöm 'Please find attached', Várom szíves válaszát 'I look forward to your reply', Az alábbiakban 'below', A fentiek alapján 'based on the above'. Russian: S uvazheniyem ('Yours sincerely'), Zaraneye spasibo ('Thanks in advance'), Vo vlozhenii otpravlyayu ('Attached please find').",
+     "body_en": "Typical closings: Tisztelettel, Üdvözlettel, Szívélyes üdvözlettel, Köszönettel. Useful formulas: Előre is köszönöm 'Thank you in advance', Mellékelten küldöm 'Please find attached', Várom szíves válaszát 'I look forward to your reply', Az alábbiakban 'below', A fentiek alapján 'based on the above'. English: 'Yours sincerely', 'Thanks in advance', 'Please find attached'.",
      "body_ru": "Типичные формулы прощания: Tisztelettel «С уважением», Üdvözlettel «С приветом», Szívélyes üdvözlettel «С сердечным приветом», Köszönettel «С благодарностью». Полезные выражения: Előre is köszönöm «Заранее спасибо», Mellékelten küldöm «Во вложении отправляю», Várom szíves válaszát «Жду Вашего ответа», Az alábbiakban «Ниже», A fentiek alapján «На основании вышеизложенного».",
      "examples": [
       {
@@ -6179,7 +6179,7 @@
     {
      "title_en": "Formal reporting verbs",
      "title_ru": "Официальные глаголы сообщения",
-     "body_en": "News and official texts prefer precise reporting verbs to mond: közöl 'announce', kijelent 'declare', hangsúlyoz 'emphasise', megjegyez 'remark', kifejt 'explain in detail', felhívja a figyelmet valamire 'draw attention to'. tájékoztat takes the person in the accusative and the topic in -ról/-ről: Tájékoztatjuk ügyfeleinket az új szabályokról. As in Russian, the reported clause keeps the original tense: A miniszter közölte, hogy a törvény januárban lép hatályba.",
+     "body_en": "News and official texts prefer precise reporting verbs to mond: közöl 'announce', kijelent 'declare', hangsúlyoz 'emphasise', megjegyez 'remark', kifejt 'explain in detail', felhívja a figyelmet valamire 'draw attention to'. tájékoztat takes the person in the accusative and the topic in -ról/-ről: Tájékoztatjuk ügyfeleinket az új szabályokról. Unlike English, there is no backshift: the reported clause keeps the original tense: A miniszter közölte, hogy a törvény januárban lép hatályba.",
      "body_ru": "В новостях и официальных текстах вместо mond используют более точные глаголы: közöl «сообщать», kijelent «заявлять», hangsúlyoz «подчёркивать», megjegyez «замечать», kifejt «излагать», felhívja a figyelmet valamire «обращать внимание на что-то». tájékoztat требует винительного падежа лица и -ról/-ről для темы: Tájékoztatjuk ügyfeleinket az új szabályokról «Информируем наших клиентов о новых правилах». Как и в русском, в косвенной речи время не сдвигается: A miniszter közölte, hogy a törvény januárban lép hatályba «Министр сообщил, что закон вступит в силу в январе».",
      "examples": [
       {
@@ -6202,7 +6202,7 @@
     {
      "title_en": "Nominal style in official texts",
      "title_ru": "Именной стиль официальных текстов",
-     "body_en": "Official Hungarian favours nouns and participles: a döntés meghozatala 'the making of the decision', a fent említett okok 'the above-mentioned reasons', a mellékelt dokumentum 'the attached document', and fixed connectors such as Tekintettel arra, hogy… 'Considering that…', Figyelembe véve… 'Taking into account…'. It resembles the Russian bureaucratic style (kantselyarit, 'officialese') with its participles and verbal nouns.",
+     "body_en": "Official Hungarian favours nouns and participles: a döntés meghozatala 'the making of the decision', a fent említett okok 'the above-mentioned reasons', a mellékelt dokumentum 'the attached document', and fixed connectors such as Tekintettel arra, hogy… 'Considering that…', Figyelembe véve… 'Taking into account…'. It resembles English officialese with its nominalisations and participles.",
      "body_ru": "Официальный венгерский предпочитает существительные и причастия: a döntés meghozatala «принятие решения», a fent említett okok «вышеупомянутые причины», a mellékelt dokumentum «прилагаемый документ», а также устойчивые связки: Tekintettel arra, hogy… «Учитывая, что…», Figyelembe véve… «Принимая во внимание…». Это похоже на русский канцелярский стиль с его причастными оборотами и отглагольными существительными.",
      "examples": [
       {
@@ -6525,11 +6525,11 @@
      "type": "tf",
      "q": "With 'Ön', the verb is in the 3rd person singular, unlike Russian 'Вы', which takes a plural verb.",
      "answer": true,
-     "explain_en": "True: Ön lakik (3rd person singular) vs Russian Vy zhivyote (2nd person plural).",
+     "explain_en": "True: Ön lakik uses the 3rd person singular (literally 'he/she lives'), even though Ön means 'you'.",
      "explain_ru": "Верно: Ön lakik, но «Вы живёте».",
      "ui": {
       "en": {
-       "q": "With 'Ön', the verb is in the 3rd person singular, unlike Russian polite 'Vy', which takes a plural verb."
+       "q": "With 'Ön', the verb is in the 3rd person singular, even though Ön means 'you'."
       },
       "ru": {
        "q": "С «Ön» глагол стоит в 3-м лице единственного числа, в отличие от русского «Вы», с которым глагол стоит во множественном числе."
