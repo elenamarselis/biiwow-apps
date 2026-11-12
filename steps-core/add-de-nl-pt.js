@@ -8,9 +8,9 @@ const card=(name,slug,desc)=>`  <article class="card">
     <a class="btn" href="https://biiwow.com/${slug.replace(/^biiwow-(.*)-steps$/,"language-$1")}/">Open ${name}</a>
   </article>
 `;
-const de=card("German Steps","biiwow-german-steps","German from A1 to C2: nouns with der/die/das and plural, verbs with their past forms and separable prefixes, verbs with prepositions and idioms in their own chapters, and grammar from cases and word order to Konjunktiv and modal particles, all with exercises and Russian explanations.");
-const nl=card("Dutch Steps","biiwow-dutch-steps","Dutch from A1 to C2: nouns with de/het, plural and diminutive, verbs with their past forms, verbs with prepositions and idioms in their own chapters, and grammar from word order and er to verb clusters and Flemish differences, all with exercises and Russian explanations.");
-const pt=card("Portuguese Steps","biiwow-portuguese-steps","European Portuguese from A1 to C2, with Brazilian differences marked: nouns with their article, irregular verbs with key forms, verbs with prepositions and idioms in their own chapters, and grammar from ser/estar to the conjuntivo and personal infinitive, all with exercises and Russian explanations.");
+const de=card("German Steps","biiwow-german-steps","German from A1 to C2: nouns with der/die/das and plural, verbs with their past forms and separable prefixes, verbs with prepositions and idioms in their own chapters, and grammar from cases and word order to Konjunktiv and modal particles, all with exercises and explanations in English or Russian.");
+const nl=card("Dutch Steps","biiwow-dutch-steps","Dutch from A1 to C2: nouns with de/het, plural and diminutive, verbs with their past forms, verbs with prepositions and idioms in their own chapters, and grammar from word order and er to verb clusters and Flemish differences, all with exercises and explanations in English or Russian.");
+const pt=card("Portuguese Steps","biiwow-portuguese-steps","European Portuguese from A1 to C2, with Brazilian differences marked: nouns with their article, irregular verbs with key forms, verbs with prepositions and idioms in their own chapters, and grammar from ser/estar to the conjuntivo and personal infinitive, all with exercises and explanations in English or Russian.");
 if(!s.includes("<h3>German Steps</h3>")){
   const anchor='  <article class="card">\n    <div class="top"><h3>Nine Scripts</h3>';
   if(!s.includes(anchor))throw new Error("Nine Scripts card anchor not found");

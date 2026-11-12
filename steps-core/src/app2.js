@@ -23,7 +23,7 @@ function selectItems(cfg){const v=S.vocab[S.level]||[];let pool=v.filter(x=>!cfg
   else if(cfg.pick==="new"){const fresh=pool.filter(x=>!wstat(x));pool=shuffle(fresh.length?fresh:pool);}
   else pool=shuffle(pool);return pool.slice(0,cfg.size);}
 async function startRound(cfg){await vocabFor(S.level);const items=selectItems(cfg);if(!items.length)return toast(t("noVocab"));S.round={cfg,items:shuffle(items),i:0,results:[],points:0,streak:0,t0:Date.now(),ended:false};go("play");}
-function dirFor(){const d=S.round.cfg.dir;return d==="mix"?(Math.random()<.5?"t2e":"e2t"):d;}
+function dirFor(){const d=S.round.cfg.dir;const r=d==="mix"?(Math.random()<.5?"t2e":"e2t"):d;return (LANG.code==="en"&&UI==="en"&&S.round.cfg.game==="type")?"e2t":r;}
 function award(base){const r=S.round;r.streak++;const bonus=Math.min(r.streak-1,5)*2;r.points+=base+bonus;}
 function record(item,ok,ms){const r=S.round;r.results.push({id:item.id,ok,ms:ms||0});if(ok)award(GAMES[r.cfg.game].base);else r.streak=0;}
 function next(){const r=S.round;r.i++;if(r.i>=r.items.length)finishRound();else{const w=$("#main .wrap");w.innerHTML="";viewPlay(w);}}

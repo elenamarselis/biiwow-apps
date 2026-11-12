@@ -9,8 +9,8 @@ const card=(name,slug,desc)=>`  <article class="card">
     <a class="btn" href="https://biiwow.com/${slug.replace(/^biiwow-(.*)-steps$/,"language-$1")}/">Open ${name}</a>
   </article>
 `;
-const it=card("Italian Steps","biiwow-italian-steps","Italian from A1 to C2: nouns with their article, verbs with their irregular forms and auxiliaries, verb + preposition patterns and idioms in their own chapters, and grammar from essere/avere to the congiuntivo and passato remoto, all with exercises and Russian explanations.");
-const fr=card("French Steps","biiwow-french-steps","French from A1 to C2: nouns with their article and gender, verbs with their irregular forms, verb + preposition patterns and idioms in their own chapters, and grammar from être/avoir to the subjonctif and passé simple, all with exercises and Russian explanations.");
+const it=card("Italian Steps","biiwow-italian-steps","Italian from A1 to C2: nouns with their article, verbs with their irregular forms and auxiliaries, verb + preposition patterns and idioms in their own chapters, and grammar from essere/avere to the congiuntivo and passato remoto, all with exercises and explanations in English or Russian.");
+const fr=card("French Steps","biiwow-french-steps","French from A1 to C2: nouns with their article and gender, verbs with their irregular forms, verb + preposition patterns and idioms in their own chapters, and grammar from être/avoir to the subjonctif and passé simple, all with exercises and explanations in English or Russian.");
 if(!s.includes("<h3>Italian Steps</h3>")){
   const anchor='  <article class="card">\n    <div class="top"><h3>Nine Scripts</h3>';
   if(!s.includes(anchor))throw new Error("Nine Scripts card anchor not found");
