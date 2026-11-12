@@ -387,7 +387,17 @@
      ],
      "answer": 1,
      "explain_en": "The verb ending -ent is never pronounced: [il paʁl].",
-     "explain_ru": "Глагольное окончание -ent никогда не читается: [иль парль]. Не путайте с наречиями вроде 'souvent', где -ent звучит как [ɑ̃]."
+     "explain_ru": "Глагольное окончание -ent никогда не читается: [иль парль]. Не путайте с наречиями вроде 'souvent', где -ent звучит как [ɑ̃].",
+     "ui": {
+      "ru": {
+       "q": "В 'ils parlent' окончание -ent…",
+       "options": [
+        "произносится [ɑ̃]",
+        "не произносится",
+        "произносится [ɑ̃t]"
+       ]
+      }
+     }
     },
     {
      "id": "e11",
@@ -972,7 +982,12 @@
      ],
      "answer": 3,
      "explain_en": "Nouns in -eau take -x in the plural: les gâteaux.",
-     "explain_ru": "Существительные на -eau во множественном числе получают -x: les gâteaux."
+     "explain_ru": "Существительные на -eau во множественном числе получают -x: les gâteaux.",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от 'le gâteau' —…"
+      }
+     }
     },
     {
      "id": "e09",
@@ -986,7 +1001,12 @@
      ],
      "answer": 0,
      "explain_en": "Most nouns in -al change to -aux: les journaux.",
-     "explain_ru": "Большинство слов на -al меняют окончание на -aux: les journaux."
+     "explain_ru": "Большинство слов на -al меняют окончание на -aux: les journaux.",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от 'le journal' —…"
+      }
+     }
     },
     {
      "id": "e10",
@@ -1000,7 +1020,12 @@
      ],
      "answer": 2,
      "explain_en": "Nouns in -teur often form the feminine in -trice: actrice.",
-     "explain_ru": "Существительные на -teur часто образуют женский род на -trice: actrice."
+     "explain_ru": "Существительные на -teur часто образуют женский род на -trice: actrice.",
+     "ui": {
+      "ru": {
+       "q": "Женский род от 'acteur' —…"
+      }
+     }
     },
     {
      "id": "e11",
@@ -4182,7 +4207,12 @@
      ],
      "answer": 3,
      "explain_en": "After a vowel before il, insert -t-: parle-t-il.",
-     "explain_ru": "Между гласной и il вставляется -t-: parle-t-il."
+     "explain_ru": "Между гласной и il вставляется -t-: parle-t-il.",
+     "ui": {
+      "ru": {
+       "q": "Инверсия от 'il parle' —…"
+      }
+     }
     },
     {
      "id": "e06",
@@ -6222,7 +6252,12 @@
      ],
      "answer": 2,
      "explain_en": "Ne…pas surrounds aller.",
-     "explain_ru": "Ne…pas окружает глагол aller."
+     "explain_ru": "Ne…pas окружает глагол aller.",
+     "ui": {
+      "ru": {
+       "q": "Отрицание от 'Je vais travailler' —…"
+      }
+     }
     },
     {
      "id": "e09",
@@ -6236,7 +6271,12 @@
      ],
      "answer": 3,
      "explain_en": "Ne goes before the pronoun, pas after the verb.",
-     "explain_ru": "Ne ставится перед местоимением, pas — после глагола."
+     "explain_ru": "Ne ставится перед местоимением, pas — после глагола.",
+     "ui": {
+      "ru": {
+       "q": "Отрицание от 'Il se lève tôt' —…"
+      }
+     }
     },
     {
      "id": "e10",

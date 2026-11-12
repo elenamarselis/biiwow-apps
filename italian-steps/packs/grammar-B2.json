@@ -2733,6 +2733,9 @@
      "ui": {
       "en": {
        "q": "Which sentence means 'He must have left'?"
+      },
+      "ru": {
+       "q": "Какое предложение значит «Он, должно быть, уехал»?"
       }
      }
     },
@@ -3321,7 +3324,12 @@
      ],
      "answer": 0,
      "explain_en": "Avere: ebbi, avesti, ebbe…; ebbero is the plural.",
-     "explain_ru": "Avere: ebbi, avesti, ebbe…; ebbero — форма множественного числа."
+     "explain_ru": "Avere: ebbi, avesti, ebbe…; ebbero — форма множественного числа.",
+     "ui": {
+      "ru": {
+       "q": "Passato remoto глагола avere, 3-е лицо ед. ч.:"
+      }
+     }
     },
     {
      "id": "e04",
@@ -5982,7 +5990,12 @@
      ],
      "answer": 1,
      "explain_en": "Quest'ultimo refers to the last person mentioned: il ministro.",
-     "explain_ru": "Quest'ultimo отсылает к последнему названному лицу: il ministro."
+     "explain_ru": "Quest'ultimo отсылает к последнему названному лицу: il ministro.",
+     "ui": {
+      "ru": {
+       "q": "Il direttore ha incontrato il ministro; quest'ultimo ha poi parlato con i giornalisti. Кто поговорил с журналистами?"
+      }
+     }
     },
     {
      "id": "e10",

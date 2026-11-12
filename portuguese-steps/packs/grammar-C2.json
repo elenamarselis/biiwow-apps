@@ -272,7 +272,18 @@
      ],
      "answer": 1,
      "explain_en": "Se me não engano is a classical interpolation still used by educated speakers in Portugal.",
-     "explain_ru": "Se me não engano — классическая интерполяция, которую до сих пор используют образованные португальцы."
+     "explain_ru": "Se me não engano — классическая интерполяция, которую до сих пор используют образованные португальцы.",
+     "ui": {
+      "ru": {
+       "q": "В 'Se me não engano, a sessão é às dez' позиция me — это:",
+       "options": [
+        "опечатка вместо 'se não me engano'",
+        "интерполяция, книжная европейская формула",
+        "типичное бразильское разговорное употребление",
+        "ошибка в любом варианте языка"
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -339,7 +350,12 @@
      ],
      "answer": 2,
      "explain_en": "Vinde is the vós imperative of vir; today the plural command is venham (vocês).",
-     "explain_ru": "Vinde — повелительное наклонение vós от vir; сегодня во множественном числе говорят venham (vocês)."
+     "explain_ru": "Vinde — повелительное наклонение vós от vir; сегодня во множественном числе говорят venham (vocês).",
+     "ui": {
+      "ru": {
+       "q": "Литературный императив 'Vinde!' соответствует современному:"
+      }
+     }
     },
     {
      "id": "e10",
@@ -2985,7 +3001,12 @@
      ],
      "answer": 3,
      "explain_en": "Formal Brazilian writing uses the direct object o before the verb: Eu o vi ontem.",
-     "explain_ru": "Официальный бразильский письменный язык использует прямое дополнение o перед глаголом: Eu o vi ontem."
+     "explain_ru": "Официальный бразильский письменный язык использует прямое дополнение o перед глаголом: Eu o vi ontem.",
+     "ui": {
+      "ru": {
+       "q": "Разговорному бразильскому 'Eu vi ele ontem' в официальном бразильском письме соответствует:"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3578,7 +3599,12 @@
      ],
      "answer": 0,
      "explain_en": "En- + rico + -ecer → enriquecer (c → qu before e).",
-     "explain_ru": "En- + rico + -ecer → enriquecer (c → qu перед e)."
+     "explain_ru": "En- + rico + -ecer → enriquecer (c → qu перед e).",
+     "ui": {
+      "ru": {
+       "q": "Глагол со значением «разбогатеть»:"
+      }
+     }
     },
     {
      "id": "e03",
@@ -3606,7 +3632,12 @@
      ],
      "answer": 3,
      "explain_en": "Perder → a perda: the ending is dropped and -a added.",
-     "explain_ru": "Perder → a perda: окончание отсекается и добавляется -a."
+     "explain_ru": "Perder → a perda: окончание отсекается и добавляется -a.",
+     "ui": {
+      "ru": {
+       "q": "Бессуффиксное (регрессивное) существительное со значением «потеря» от perder:"
+      }
+     }
     },
     {
      "id": "e05",
@@ -3620,7 +3651,12 @@
      ],
      "answer": 0,
      "explain_en": "Fluvial comes from Latin fluvius (river); pluvial refers to rain.",
-     "explain_ru": "Fluvial — от латинского fluvius («река»); pluvial относится к дождю."
+     "explain_ru": "Fluvial — от латинского fluvius («река»); pluvial относится к дождю.",
+     "ui": {
+      "ru": {
+       "q": "Прилагательное со значением «речной»:"
+      }
+     }
     },
     {
      "id": "e06",
@@ -3634,7 +3670,12 @@
      ],
      "answer": 2,
      "explain_en": "Admitir → admissão with -ssão, like permitir → permissão.",
-     "explain_ru": "Admitir → admissão с -ssão, как permitir → permissão."
+     "explain_ru": "Admitir → admissão с -ssão, как permitir → permissão.",
+     "ui": {
+      "ru": {
+       "q": "Существительное от 'admitir':"
+      }
+     }
     },
     {
      "id": "e07",
@@ -3648,7 +3689,12 @@
      ],
      "answer": 1,
      "explain_en": "The Latin stem feroc- reappears: ferocidade.",
-     "explain_ru": "Появляется латинская основа feroc-: ferocidade."
+     "explain_ru": "Появляется латинская основа feroc-: ferocidade.",
+     "ui": {
+      "ru": {
+       "q": "Существительное от 'feroz':"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3662,7 +3708,12 @@
      ],
      "answer": 3,
      "explain_en": "Portugal uses the Romance acronym a sida; Brazil uses a aids.",
-     "explain_ru": "В Португалии используют романскую аббревиатуру a sida, в Бразилии — a aids."
+     "explain_ru": "В Португалии используют романскую аббревиатуру a sida, в Бразилии — a aids.",
+     "ui": {
+      "ru": {
+       "q": "Как в Португалии называют болезнь СПИД?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -5524,7 +5575,12 @@
      ],
      "answer": 2,
      "explain_en": "The imperfeito queria is the everyday polite form in Portugal.",
-     "explain_ru": "Imperfeito queria — обычная вежливая форма в Португалии."
+     "explain_ru": "Imperfeito queria — обычная вежливая форма в Португалии.",
+     "ui": {
+      "ru": {
+       "q": "Самая естественная вежливая просьба в лиссабонском кафе:"
+      }
+     }
     },
     {
      "id": "e02",
