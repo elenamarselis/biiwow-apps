@@ -11,7 +11,7 @@
     {
      "title_en": "What the indefinido expresses",
      "title_ru": "Что выражает indefinido",
-     "body_en": "The pretérito indefinido presents a past action as finished and located at a definite moment or period: ayer, anoche, la semana pasada, el año pasado, en 2010, hace dos años. It is the tense of narration: one event after another. Russian usually renders it with a perfective past verb (сделал, пошёл), but a Spanish speaker chooses the indefinido because the time frame is closed, not because of aspect.",
+     "body_en": "The pretérito indefinido presents a past action as finished and located at a definite moment or period: ayer, anoche, la semana pasada, el año pasado, en 2010, hace dos años. It is the tense of narration: one event after another. Russian usually renders it with a perfective past verb (sdelal 'did', poshyol 'went'), but a Spanish speaker chooses the indefinido because the time frame is closed, not because of aspect.",
      "body_ru": "Pretérito indefinido представляет действие как завершённое и привязанное к конкретному моменту или периоду: ayer, anoche, la semana pasada, el año pasado, en 2010, hace dos años. Это время повествования: одно событие за другим. По-русски чаще всего передаётся совершенным видом (сделал, пошёл), но испанец выбирает indefinido потому, что временной отрезок закрыт, а не из-за вида глагола.",
      "examples": [
       {
@@ -200,7 +200,7 @@
     {
      "title_en": "Indefinido and the Russian past",
      "title_ru": "Indefinido и русское прошедшее время",
-     "body_en": "Russian marks aspect in the verb itself (читал / прочитал); Spanish marks it through the choice of tense. A bounded action with a closed time frame takes the indefinido even when Russian would use an imperfective verb: 'El concierto duró dos horas' (концерт длился два часа). Ask yourself: is the period finished and the action complete? Then use the indefinido.",
+     "body_en": "Russian marks aspect in the verb itself (chital / prochital, 'was reading / read through'); Spanish marks it through the choice of tense. A bounded action with a closed time frame takes the indefinido even when Russian would use an imperfective verb: 'El concierto duró dos horas' (the concert lasted two hours). Ask yourself: is the period finished and the action complete? Then use the indefinido.",
      "body_ru": "В русском вид заложен в самом глаголе (читал / прочитал); в испанском его передаёт выбор времени. Ограниченное действие в закрытом отрезке времени ставится в indefinido даже там, где по-русски стоит несовершенный вид: «El concierto duró dos horas» (концерт длился два часа). Задайте вопрос: период закончился, действие завершено? Тогда indefinido.",
      "examples": [
       {
@@ -295,7 +295,12 @@
      "q": "In 'Ayer hablo con Juan' the verb is in the pretérito indefinido.",
      "answer": false,
      "explain_en": "Hablo is the present tense; the past form is habló with an accent.",
-     "explain_ru": "Hablo — настоящее время; прошедшее — habló с ударением. Ударение здесь различает времена."
+     "explain_ru": "Hablo — настоящее время; прошедшее — habló с ударением. Ударение здесь различает времена.",
+     "ui": {
+      "ru": {
+       "q": "В 'Ayer hablo con Juan' глагол стоит в pretérito indefinido."
+      }
+     }
     },
     {
      "id": "e08",
@@ -392,7 +397,12 @@
      "q": "'Hizo' is the correct él/ella form of hacer in the pretérito indefinido.",
      "answer": true,
      "explain_en": "Hacer: hice, hiciste, hizo. The z keeps the soft sound before o.",
-     "explain_ru": "Hacer: hice, hiciste, hizo. Буква z сохраняет мягкий звук перед o."
+     "explain_ru": "Hacer: hice, hiciste, hizo. Буква z сохраняет мягкий звук перед o.",
+     "ui": {
+      "ru": {
+       "q": "'Hizo' — правильная форма él/ella глагола hacer в pretérito indefinido."
+      }
+     }
     },
     {
      "id": "e15",
@@ -481,7 +491,33 @@
        "supe",
        "я узнал"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "fui",
+         "I went / I was"
+        ],
+        [
+         "tuve",
+         "I had"
+        ],
+        [
+         "dije",
+         "I said"
+        ],
+        [
+         "vine",
+         "I came"
+        ],
+        [
+         "supe",
+         "I found out"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e21",
@@ -528,7 +564,12 @@
      "q": "'Nosotros hablamos' can be both present and pretérito indefinido.",
      "answer": true,
      "explain_en": "For -ar and -ir verbs the nosotros form is identical in both tenses; context decides.",
-     "explain_ru": "У глаголов на -ar и -ir форма nosotros одинакова в обоих временах; решает контекст."
+     "explain_ru": "У глаголов на -ar и -ir форма nosotros одинакова в обоих временах; решает контекст.",
+     "ui": {
+      "ru": {
+       "q": "'Nosotros hablamos' может быть и настоящим временем, и pretérito indefinido."
+      }
+     }
     },
     {
      "id": "e25",
@@ -787,7 +828,7 @@
     {
      "title_en": "Perfecto and Russian",
      "title_ru": "Perfecto и русский язык",
-     "body_en": "Russian has a single past tense, so both 'he visto' and 'vi' become видел/увидел. Russian aspect does not help you choose: 'Hoy he leído el libro' and 'Ayer leí el libro' both mean прочитал. Look only at the time frame: open (hoy, esta semana, alguna vez) → perfecto; closed (ayer, en 2010) → indefinido.",
+     "body_en": "Russian has a single past tense, so both 'he visto' and 'vi' become the same Russian past form (videl / uvidel). Russian aspect does not help you choose: 'Hoy he leído el libro' and 'Ayer leí el libro' both use the perfective 'prochital'. Look only at the time frame: open (hoy, esta semana, alguna vez) → perfecto; closed (ayer, en 2010) → indefinido.",
      "body_ru": "В русском одно прошедшее время, поэтому и «he visto», и «vi» переводятся как «видел/увидел». Вид глагола здесь не помогает: «Hoy he leído el libro» и «Ayer leí el libro» — оба «прочитал». Смотрите только на временной отрезок: открытый (hoy, esta semana, alguna vez) → perfecto; закрытый (ayer, en 2010) → indefinido.",
      "examples": [
       {
@@ -858,7 +899,12 @@
      "q": "'He escribido' is the correct pretérito perfecto of escribir.",
      "answer": false,
      "explain_en": "Escribir has an irregular participle: escrito. He escrito.",
-     "explain_ru": "У escribir неправильное причастие: escrito. Правильно: he escrito."
+     "explain_ru": "У escribir неправильное причастие: escrito. Правильно: he escrito.",
+     "ui": {
+      "ru": {
+       "q": "'He escribido' — правильная форма pretérito perfecto глагола escribir."
+      }
+     }
     },
     {
      "id": "e06",
@@ -974,7 +1020,12 @@
      "q": "In Spain, 'Hoy he comido con mis padres' is the normal way to say what you did today.",
      "answer": true,
      "explain_en": "European Spanish uses the perfecto for today; Latin America would say 'hoy comí'.",
-     "explain_ru": "В Испании для сегодняшнего дня используют perfecto; в Латинской Америке сказали бы «hoy comí»."
+     "explain_ru": "В Испании для сегодняшнего дня используют perfecto; в Латинской Америке сказали бы «hoy comí».",
+     "ui": {
+      "ru": {
+       "q": "В Испании 'Hoy he comido con mis padres' — обычный способ сказать, что вы делали сегодня."
+      }
+     }
     },
     {
      "id": "e14",
@@ -1077,7 +1128,33 @@
        "abierto",
        "открытый"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "hecho",
+         "done, made"
+        ],
+        [
+         "dicho",
+         "said"
+        ],
+        [
+         "visto",
+         "seen"
+        ],
+        [
+         "escrito",
+         "written"
+        ],
+        [
+         "abierto",
+         "opened, open"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e21",
@@ -1125,7 +1202,12 @@
      "q": "The participle changes form after haber: 'Ellas han llegadas'.",
      "answer": false,
      "explain_en": "After haber the participle is invariable: Ellas han llegado.",
-     "explain_ru": "После haber причастие неизменно: Ellas han llegado. Русское согласование (они пришли) здесь не нужно."
+     "explain_ru": "После haber причастие неизменно: Ellas han llegado. Русское согласование (они пришли) здесь не нужно.",
+     "ui": {
+      "ru": {
+       "q": "Причастие после haber меняет форму: 'Ellas han llegadas'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1300,7 +1382,7 @@
     {
      "title_en": "Habits and repeated actions",
      "title_ru": "Привычки и повторяющиеся действия",
-     "body_en": "The imperfecto describes what used to happen regularly: antes, siempre, todos los días, de niño, cada verano. 'De niño jugaba mucho al fútbol.' 'Mis abuelos iban al mercado todos los sábados.' In Russian this is the imperfective past (играл, ходили), sometimes with раньше or бывало.",
+     "body_en": "The imperfecto describes what used to happen regularly: antes, siempre, todos los días, de niño, cada verano. 'De niño jugaba mucho al fútbol.' 'Mis abuelos iban al mercado todos los sábados.' In Russian this is the imperfective past, sometimes with words like 'ran'she' (before) or 'byvalo' (it used to happen); in English, 'used to' or 'would'.",
      "body_ru": "Imperfecto описывает то, что происходило регулярно: antes, siempre, todos los días, de niño, cada verano. «De niño jugaba mucho al fútbol.» «Mis abuelos iban al mercado todos los sábados.» В русском это прошедшее несовершенного вида (играл, ходили), иногда с «раньше» или «бывало».",
      "examples": [
       {
@@ -1387,7 +1469,7 @@
     {
      "title_en": "Imperfecto, indefinido and Russian aspect",
      "title_ru": "Imperfecto, indefinido и русский вид",
-     "body_en": "Very often imperfecto = Russian imperfective (leía — читал) and indefinido = perfective (leí — прочитал). But the match is not perfect: a bounded period takes the indefinido even if Russian uses an imperfective verb ('Trabajó allí veinte años' — работал). Decide by function: habit, description or background → imperfecto; completed event → indefinido.",
+     "body_en": "Very often imperfecto = Russian imperfective (leía — 'chital', was reading) and indefinido = perfective (leí — 'prochital', read through). But the match is not perfect: a bounded period takes the indefinido even if Russian uses an imperfective verb ('Trabajó allí veinte años' — Russian 'rabotal'). Decide by function: habit, description or background → imperfecto; completed event → indefinido.",
      "body_ru": "Очень часто imperfecto = несовершенный вид (leía — читал), а indefinido = совершенный (leí — прочитал). Но соответствие неполное: ограниченный период требует indefinido, даже если по-русски несовершенный вид («Trabajó allí veinte años» — работал). Решайте по функции: привычка, описание, фон → imperfecto; завершённое событие → indefinido.",
      "examples": [
       {
@@ -1463,7 +1545,12 @@
      "q": "'Yo hablaba' means a habitual or ongoing action in the past.",
      "answer": true,
      "explain_en": "The imperfecto expresses habits and ongoing background actions.",
-     "explain_ru": "Imperfecto выражает привычки и длящиеся фоновые действия: hablaba — я говорил (обычно / в тот момент)."
+     "explain_ru": "Imperfecto выражает привычки и длящиеся фоновые действия: hablaba — я говорил (обычно / в тот момент).",
+     "ui": {
+      "ru": {
+       "q": "'Yo hablaba' обозначает привычное или длительное действие в прошлом."
+      }
+     }
     },
     {
      "id": "e06",
@@ -1576,7 +1663,12 @@
      "q": "'Ayer fui al cine' describes a habitual action.",
      "answer": false,
      "explain_en": "Fui is indefinido: one completed event yesterday. A habit would be 'iba al cine'.",
-     "explain_ru": "Fui — indefinido: одно завершённое событие вчера. Привычка была бы «iba al cine»."
+     "explain_ru": "Fui — indefinido: одно завершённое событие вчера. Привычка была бы «iba al cine».",
+     "ui": {
+      "ru": {
+       "q": "'Ayer fui al cine' описывает привычное действие."
+      }
+     }
     },
     {
      "id": "e14",
@@ -1676,7 +1768,29 @@
        "Fui al cine.",
        "Я пошёл в кино."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Leía un libro.",
+         "I was reading a book."
+        ],
+        [
+         "Leí un libro.",
+         "I read a book (and finished it)."
+        ],
+        [
+         "Iba al cine.",
+         "I used to go to the cinema."
+        ],
+        [
+         "Fui al cine.",
+         "I went to the cinema."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e21",
@@ -1723,7 +1837,12 @@
      "q": "In 'Hacía frío y llovía cuando salimos', hacía and llovía describe the background.",
      "answer": true,
      "explain_en": "Weather is the scene (imperfecto); salimos is the event (indefinido).",
-     "explain_ru": "Погода — обстановка (imperfecto); salimos — событие (indefinido)."
+     "explain_ru": "Погода — обстановка (imperfecto); salimos — событие (indefinido).",
+     "ui": {
+      "ru": {
+       "q": "В 'Hacía frío y llovía cuando salimos' формы hacía и llovía описывают фон."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1873,7 +1992,7 @@
     {
      "title_en": "Uses of the futuro simple",
      "title_ru": "Употребление futuro simple",
-     "body_en": "The futuro simple is used for predictions, promises and plans that are not immediate: mañana, la semana que viene, dentro de dos años, en el futuro. It also appears after 'si' in the main clause: 'Si tengo tiempo, te llamaré.' Spanish has only one future form, with no aspect: 'leeré' covers both буду читать and прочитаю.",
+     "body_en": "The futuro simple is used for predictions, promises and plans that are not immediate: mañana, la semana que viene, dentro de dos años, en el futuro. It also appears after 'si' in the main clause: 'Si tengo tiempo, te llamaré.' Spanish has only one future form, with no aspect: 'leeré' covers both Russian 'budu chitat'' (will be reading) and 'prochitayu' (will read through).",
      "body_ru": "Futuro simple употребляется для предсказаний, обещаний и планов, не связанных с ближайшим моментом: mañana, la semana que viene, dentro de dos años, en el futuro. Оно же стоит в главной части после «si»: «Si tengo tiempo, te llamaré.» В испанском одна форма будущего без вида: «leeré» — это и «буду читать», и «прочитаю».",
      "examples": [
       {
@@ -1896,7 +2015,7 @@
     {
      "title_en": "Future of probability",
      "title_ru": "Будущее для предположения",
-     "body_en": "The futuro simple also expresses a guess about the present: '¿Dónde está Juan? — Estará en casa' (he is probably at home). 'Serán las cinco' (it must be about five). Russian uses words like наверное, должно быть; Spanish puts the verb into the future.",
+     "body_en": "The futuro simple also expresses a guess about the present: '¿Dónde está Juan? — Estará en casa' (he is probably at home). 'Serán las cinco' (it must be about five). English uses words like 'probably' or 'must be'; Spanish puts the verb into the future.",
      "body_ru": "Futuro simple выражает и предположение о настоящем: «¿Dónde está Juan? — Estará en casa» (наверное, он дома). «Serán las cinco» (должно быть, около пяти). В русском для этого служат слова «наверное», «должно быть»; в испанском сам глагол ставится в будущее.",
      "examples": [
       {
@@ -1973,7 +2092,7 @@
     {
      "title_en": "Condicional for politeness and advice",
      "title_ru": "Condicional для вежливости и советов",
-     "body_en": "The conditional softens requests and wishes: 'Me gustaría reservar una mesa.' '¿Podría traerme la cuenta?' 'Querría una habitación doble.' 'Deberías descansar más.' It corresponds to Russian мне хотелось бы, не могли бы вы, тебе следовало бы.",
+     "body_en": "The conditional softens requests and wishes: 'Me gustaría reservar una mesa.' '¿Podría traerme la cuenta?' 'Querría una habitación doble.' 'Deberías descansar más.' It corresponds to English 'I would like', 'could you', 'you should'.",
      "body_ru": "Condicional смягчает просьбы и желания: «Me gustaría reservar una mesa.» «¿Podría traerme la cuenta?» «Querría una habitación doble.» «Deberías descansar más.» Соответствует русским «мне хотелось бы», «не могли бы вы», «тебе следовало бы».",
      "examples": [
       {
@@ -2049,7 +2168,12 @@
      "q": "'Yo tendré' is the correct future of tener.",
      "answer": true,
      "explain_en": "Tener uses the stem tendr-: tendré, tendrás, tendrá.",
-     "explain_ru": "У tener основа tendr-: tendré, tendrás, tendrá."
+     "explain_ru": "У tener основа tendr-: tendré, tendrás, tendrá.",
+     "ui": {
+      "ru": {
+       "q": "'Yo tendré' — правильная форма будущего времени глагола tener."
+      }
+     }
     },
     {
      "id": "e06",
@@ -2165,7 +2289,12 @@
      "q": "'Voy a comer' and 'comeré' can both refer to the future.",
      "answer": true,
      "explain_en": "Both forms refer to the future; ir a is more common in speech for plans.",
-     "explain_ru": "Обе формы относятся к будущему; ir a чаще в разговорной речи для планов."
+     "explain_ru": "Обе формы относятся к будущему; ir a чаще в разговорной речи для планов.",
+     "ui": {
+      "ru": {
+       "q": "И 'Voy a comer', и 'comeré' могут относиться к будущему."
+      }
+     }
     },
     {
      "id": "e14",
@@ -2265,7 +2394,33 @@
        "Habrá fiesta.",
        "Будет праздник."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Lloverá.",
+         "It will rain."
+        ],
+        [
+         "Vendrán.",
+         "They will come."
+        ],
+        [
+         "Lo haré.",
+         "I'll do it."
+        ],
+        [
+         "Sabremos.",
+         "We'll find out."
+        ],
+        [
+         "Habrá fiesta.",
+         "There will be a party."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e21",
@@ -2314,7 +2469,12 @@
      "q": "'Yo haceré' is the correct future form of hacer.",
      "answer": false,
      "explain_en": "Hacer is irregular in the future: haré.",
-     "explain_ru": "Hacer в будущем неправильный: haré."
+     "explain_ru": "Hacer в будущем неправильный: haré.",
+     "ui": {
+      "ru": {
+       "q": "'Yo haceré' — правильная форма будущего времени глагола hacer."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2419,7 +2579,7 @@
     {
      "title_en": "Direct object pronouns",
      "title_ru": "Местоимения прямого дополнения",
-     "body_en": "Direct object pronouns (кого? что?): me, te, lo/la, nos, os, los/las. Lo and la also refer to things. '¿Ves la casa? Sí, la veo.' '¿Conoces a mis padres? No, no los conozco.' The pronoun agrees in gender and number with the noun it replaces.",
+     "body_en": "Direct object pronouns (answering 'whom? what?'): me, te, lo/la, nos, os, los/las. Lo and la also refer to things. '¿Ves la casa? Sí, la veo.' '¿Conoces a mis padres? No, no los conozco.' The pronoun agrees in gender and number with the noun it replaces.",
      "body_ru": "Местоимения прямого дополнения (кого? что?): me, te, lo/la, nos, os, los/las. Lo и la относятся и к предметам. «¿Ves la casa? Sí, la veo.» «¿Conoces a mis padres? No, no los conozco.» Местоимение согласуется в роде и числе с заменяемым существительным.",
      "examples": [
       {
@@ -2442,7 +2602,7 @@
     {
      "title_en": "Indirect object pronouns",
      "title_ru": "Местоимения косвенного дополнения",
-     "body_en": "Indirect object pronouns (кому?): me, te, le, nos, os, les. Only the third person differs from the direct forms: le/les instead of lo/la/los/las. 'Le doy el libro a Juan.' 'Les he escrito una carta a mis abuelos.' The indirect pronoun is usually kept even when the noun is present (le ... a Juan).",
+     "body_en": "Indirect object pronouns (answering 'to whom?'): me, te, le, nos, os, les. Only the third person differs from the direct forms: le/les instead of lo/la/los/las. 'Le doy el libro a Juan.' 'Les he escrito una carta a mis abuelos.' The indirect pronoun is usually kept even when the noun is present (le ... a Juan).",
      "body_ru": "Местоимения косвенного дополнения (кому?): me, te, le, nos, os, les. От прямых отличаются только формы третьего лица: le/les вместо lo/la/los/las. «Le doy el libro a Juan.» «Les he escrito una carta a mis abuelos.» Косвенное местоимение обычно сохраняется даже при наличии существительного (le ... a Juan).",
      "examples": [
       {
@@ -2570,7 +2730,7 @@
     {
      "title_en": "Russian and Spanish pronouns",
      "title_ru": "Русские и испанские местоимения",
-     "body_en": "Russian marks case: его (accusative) vs ему (dative). Spanish does the same only in the third person: lo/la (его/её) vs le (ему/ей). Russian can place the pronoun almost anywhere (я его вижу / вижу его); Spanish allows only the positions described above. Also, Spanish often doubles the indirect object (le ... a Juan), which Russian never does.",
+     "body_en": "Russian marks case: 'yego' (him, accusative) vs 'yemu' (to him, dative). Spanish does the same only in the third person: lo/la (him/her) vs le (to him/her). Russian can place the pronoun almost anywhere; Spanish allows only the positions described above. Also, Spanish often doubles the indirect object (le ... a Juan), which Russian never does.",
      "body_ru": "Русский различает падежи: его (винительный) и ему (дательный). Испанский делает то же только в третьем лице: lo/la (его/её) и le (ему/ей). В русском местоимение можно ставить почти куда угодно (я его вижу / вижу его); в испанском допустимы только описанные выше позиции. Кроме того, испанский часто дублирует косвенное дополнение (le ... a Juan), чего в русском не бывает.",
      "examples": [
       {
@@ -2641,7 +2801,12 @@
      "q": "In 'Veo a Juan', 'a Juan' is replaced by 'lo': 'Lo veo'.",
      "answer": true,
      "explain_en": "A person as direct object (with personal a) becomes lo/la. In Spain 'le veo' is also heard.",
-     "explain_ru": "Человек как прямое дополнение (с личным a) заменяется на lo/la. В Испании также говорят «le veo»."
+     "explain_ru": "Человек как прямое дополнение (с личным a) заменяется на lo/la. В Испании также говорят «le veo».",
+     "ui": {
+      "ru": {
+       "q": "В 'Veo a Juan' часть 'a Juan' заменяется на 'lo': 'Lo veo'."
+      }
+     }
     },
     {
      "id": "e06",
@@ -2752,7 +2917,12 @@
      "q": "'Lo voy a comprar' and 'Voy a comprarlo' are both correct.",
      "answer": true,
      "explain_en": "With ir a + infinitive the pronoun may go before ir or attach to the infinitive.",
-     "explain_ru": "С ir a + инфинитив местоимение может стоять перед ir или присоединяться к инфинитиву. Других позиций нет."
+     "explain_ru": "С ir a + инфинитив местоимение может стоять перед ir или присоединяться к инфинитиву. Других позиций нет.",
+     "ui": {
+      "ru": {
+       "q": "И 'Lo voy a comprar', и 'Voy a comprarlo' — правильно."
+      }
+     }
     },
     {
      "id": "e14",
@@ -2856,7 +3026,33 @@
        "Nos llaman.",
        "Нам звонят."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Lo veo.",
+         "I see him."
+        ],
+        [
+         "Le escribo.",
+         "I write to him."
+        ],
+        [
+         "La conozco.",
+         "I know her."
+        ],
+        [
+         "Les hablo.",
+         "I talk to them."
+        ],
+        [
+         "Nos llaman.",
+         "They call us."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e21",
@@ -2902,7 +3098,12 @@
      "q": "'Le lo doy' is correct Spanish.",
      "answer": false,
      "explain_en": "Le before lo always becomes se: se lo doy.",
-     "explain_ru": "Le перед lo всегда превращается в se: se lo doy."
+     "explain_ru": "Le перед lo всегда превращается в se: se lo doy.",
+     "ui": {
+      "ru": {
+       "q": "'Le lo doy' — правильно по-испански."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3025,7 +3226,7 @@
     {
      "title_en": "Estar + gerundio: action in progress",
      "title_ru": "Estar + герундий: действие в процессе",
-     "body_en": "Estar + gerund shows an action happening at this very moment or during the current period: 'Ahora mismo María está preparando la cena.' 'Estoy estudiando mucho este mes.' Russian has no special form and simply uses the present (сейчас готовит), so remember to add estar when you stress that the action is going on.",
+     "body_en": "Estar + gerund shows an action happening at this very moment or during the current period: 'Ahora mismo María está preparando la cena.' 'Estoy estudiando mucho este mes.' Russian has no special form and simply uses the present, so remember to add estar when you stress that the action is going on.",
      "body_ru": "Estar + герундий показывает действие, которое происходит прямо сейчас или в текущий период: «Ahora mismo María está preparando la cena.» «Estoy estudiando mucho este mes.» В русском особой формы нет, используется простое настоящее (сейчас готовит), поэтому не забывайте добавлять estar, когда подчёркиваете, что действие в процессе.",
      "examples": [
       {
@@ -3066,7 +3267,7 @@
     {
      "title_en": "Seguir + gerundio: still doing",
      "title_ru": "Seguir + герундий: всё ещё делать",
-     "body_en": "Seguir (or continuar) + gerund means that an action continues: 'Sigue lloviendo.' '¿Sigues trabajando en la misma empresa?' Russian uses всё ещё / продолжать + infinitive; in Spanish the gerund is obligatory, never 'seguir a + infinitive'.",
+     "body_en": "Seguir (or continuar) + gerund means that an action continues: 'Sigue lloviendo.' '¿Sigues trabajando en la misma empresa?' English uses 'still' or 'keep on / continue + -ing'; in Spanish the gerund is obligatory, never 'seguir a + infinitive'.",
      "body_ru": "Seguir (или continuar) + герундий означает, что действие продолжается: «Sigue lloviendo.» «¿Sigues trabajando en la misma empresa?» По-русски — «всё ещё» или «продолжать» + инфинитив; в испанском обязателен герундий, «seguir a + инфинитив» не говорят.",
      "examples": [
       {
@@ -3089,7 +3290,7 @@
     {
      "title_en": "Llevar + time + gerundio: how long",
      "title_ru": "Llevar + время + герундий: как долго",
-     "body_en": "Llevar + a period of time + gerund says how long an action has been going on and still is: 'Llevo dos años estudiando español.' 'Lleva media hora esperando el autobús.' Russian uses the present with уже: учу уже два года. Note that Spanish uses a present form (llevo), not a past.",
+     "body_en": "Llevar + a period of time + gerund says how long an action has been going on and still is: 'Llevo dos años estudiando español.' 'Lleva media hora esperando el autobús.' English uses 'have been … for'; Russian uses the present with 'uzhe' (already). Note that Spanish uses a present form (llevo), not a past.",
      "body_ru": "Llevar + отрезок времени + герундий сообщает, как долго действие длится и продолжается: «Llevo dos años estudiando español.» «Lleva media hora esperando el autobús.» По-русски — настоящее время с «уже»: учу уже два года. Обратите внимание: в испанском тоже настоящее время (llevo), а не прошедшее.",
      "examples": [
       {
@@ -3112,7 +3313,7 @@
     {
      "title_en": "Acabar de + infinitivo: just now",
      "title_ru": "Acabar de + инфинитив: только что",
-     "body_en": "Acabar de + infinitive says that something happened a moment ago: 'Acabo de llegar.' 'Acabamos de ver una película.' It is used in the present (acabo de) and in the imperfecto (acababa de llegar cuando...). The preposition de is obligatory. Russian: только что + perfective past.",
+     "body_en": "Acabar de + infinitive says that something happened a moment ago: 'Acabo de llegar.' 'Acabamos de ver una película.' It is used in the present (acabo de) and in the imperfecto (acababa de llegar cuando...). The preposition de is obligatory. English: 'have just' + past participle.",
      "body_ru": "Acabar de + инфинитив означает, что что-то произошло только что: «Acabo de llegar.» «Acabamos de ver una película.» Употребляется в настоящем (acabo de) и в imperfecto (acababa de llegar cuando...). Предлог de обязателен. По-русски: «только что» + совершенный вид.",
      "examples": [
       {
@@ -3229,7 +3430,12 @@
      "q": "'Sigo estudiando' means 'I still study / I continue studying'.",
      "answer": true,
      "explain_en": "Seguir + gerund expresses that an action continues.",
-     "explain_ru": "Seguir + герундий выражает продолжение действия (всё ещё учусь)."
+     "explain_ru": "Seguir + герундий выражает продолжение действия (всё ещё учусь).",
+     "ui": {
+      "ru": {
+       "q": "'Sigo estudiando' значит «я всё ещё учусь / продолжаю учиться»."
+      }
+     }
     },
     {
      "id": "e06",
@@ -3345,7 +3551,12 @@
      "q": "'Estoy yendo al trabajo' is the normal way to say 'I'm going to work' (on my way).",
      "answer": false,
      "explain_en": "Verbs of movement use the simple present: Voy al trabajo.",
-     "explain_ru": "Глаголы движения употребляются в простом настоящем: Voy al trabajo."
+     "explain_ru": "Глаголы движения употребляются в простом настоящем: Voy al trabajo.",
+     "ui": {
+      "ru": {
+       "q": "'Estoy yendo al trabajo' — обычный способ сказать «я иду на работу» (я в пути)."
+      }
+     }
     },
     {
      "id": "e14",
@@ -3448,7 +3659,33 @@
        "Va a leer.",
        "Он будет читать."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Está leyendo.",
+         "He is reading right now."
+        ],
+        [
+         "Sigue leyendo.",
+         "He is still reading."
+        ],
+        [
+         "Acaba de leer.",
+         "He has just finished reading."
+        ],
+        [
+         "Lleva horas leyendo.",
+         "He has been reading for hours."
+        ],
+        [
+         "Va a leer.",
+         "He is going to read."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e21",
@@ -3495,7 +3732,12 @@
      "q": "'Acabar de + infinitivo' is used to say that something happened a moment ago.",
      "answer": true,
      "explain_en": "Acabo de llegar = I have just arrived.",
-     "explain_ru": "Acabo de llegar = я только что пришёл."
+     "explain_ru": "Acabo de llegar = я только что пришёл.",
+     "ui": {
+      "ru": {
+       "q": "'Acabar de + infinitivo' используется, чтобы сказать, что что-то произошло только что."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3585,7 +3827,33 @@
        "acabar de",
        "только что (сделать)"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "empezar a",
+         "to start"
+        ],
+        [
+         "dejar de",
+         "to stop"
+        ],
+        [
+         "volver a",
+         "to (do) again"
+        ],
+        [
+         "seguir + gerundio",
+         "to keep on, continue"
+        ],
+        [
+         "acabar de",
+         "to have just (done)"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3599,7 +3867,7 @@
     {
      "title_en": "Más / menos ... que",
      "title_ru": "Más / menos ... que",
-     "body_en": "Spanish compares analytically: más (more) or menos (less) + adjective, adverb or noun + que. 'Madrid es más grande que Sevilla.' 'Hoy hace menos frío que ayer.' 'Tengo menos tiempo que tú.' Russian often uses a special comparative form (больше, выше, холоднее); Spanish always uses más/menos + the normal word.",
+     "body_en": "Spanish compares analytically: más (more) or menos (less) + adjective, adverb or noun + que. 'Madrid es más grande que Sevilla.' 'Hoy hace menos frío que ayer.' 'Tengo menos tiempo que tú.' English and Russian often use a special comparative form (bigger, taller, colder); Spanish always uses más/menos + the normal word.",
      "body_ru": "Испанский сравнивает аналитически: más (более) или menos (менее) + прилагательное, наречие или существительное + que. «Madrid es más grande que Sevilla.» «Hoy hace menos frío que ayer.» «Tengo menos tiempo que tú.» В русском часто есть особая форма (больше, выше, холоднее); в испанском всегда más/menos + обычное слово.",
      "examples": [
       {
@@ -3668,7 +3936,7 @@
     {
      "title_en": "Relative superlative: el más ... de",
      "title_ru": "Относительная превосходная степень: el más ... de",
-     "body_en": "Definite article (+ noun) + más/menos + adjective + de: 'Es la ciudad más bonita de España.' 'Pedro es el estudiante más inteligente de la clase.' With irregulars: el mejor, el peor, el mayor, el menor. Note the preposition de where Russian uses в or из: самый красивый город в Испании.",
+     "body_en": "Definite article (+ noun) + más/menos + adjective + de: 'Es la ciudad más bonita de España.' 'Pedro es el estudiante más inteligente de la clase.' With irregulars: el mejor, el peor, el mayor, el menor. Note the preposition de where English uses 'in': the most beautiful city in Spain.",
      "body_ru": "Определённый артикль (+ существительное) + más/menos + прилагательное + de: «Es la ciudad más bonita de España.» «Pedro es el estudiante más inteligente de la clase.» С неправильными формами: el mejor, el peor, el mayor, el menor. Обратите внимание на предлог de там, где в русском «в» или «из»: самый красивый город в Испании.",
      "examples": [
       {
@@ -3709,7 +3977,7 @@
     {
      "title_en": "Muy vs mucho",
      "title_ru": "Muy и mucho",
-     "body_en": "Muy (очень) is invariable and goes before adjectives and adverbs: muy caliente, muy bien. Mucho goes with nouns and agrees (mucho dinero, mucha gente, muchos amigos) or follows a verb as an adverb, invariable: 'Mis hijos comen mucho.' 'Muy mucho' does not exist; before más/menos use mucho: mucho más grande.",
+     "body_en": "Muy (very) is invariable and goes before adjectives and adverbs: muy caliente, muy bien. Mucho goes with nouns and agrees (mucho dinero, mucha gente, muchos amigos) or follows a verb as an adverb, invariable: 'Mis hijos comen mucho.' 'Muy mucho' does not exist; before más/menos use mucho: mucho más grande.",
      "body_ru": "Muy (очень) не изменяется и стоит перед прилагательными и наречиями: muy caliente, muy bien. Mucho стоит при существительных и согласуется (mucho dinero, mucha gente, muchos amigos) или после глагола как наречие, без изменений: «Mis hijos comen mucho.» «Muy mucho» не существует; перед más/menos — mucho: mucho más grande.",
      "examples": [
       {
@@ -3821,7 +4089,12 @@
      "q": "'Más bueno que' is the standard comparative of bueno.",
      "answer": false,
      "explain_en": "The standard form is mejor que.",
-     "explain_ru": "Стандартная форма — mejor que. «Más bueno» встречается только разговорно о характере."
+     "explain_ru": "Стандартная форма — mejor que. «Más bueno» встречается только разговорно о характере.",
+     "ui": {
+      "ru": {
+       "q": "'Más bueno que' — стандартная сравнительная степень от bueno."
+      }
+     }
     },
     {
      "id": "e06",
@@ -3938,7 +4211,12 @@
      "q": "'Muy' never changes its form.",
      "answer": true,
      "explain_en": "Muy is invariable; mucho is the one that agrees.",
-     "explain_ru": "Muy не изменяется; согласуется только mucho."
+     "explain_ru": "Muy не изменяется; согласуется только mucho.",
+     "ui": {
+      "ru": {
+       "q": "'Muy' никогда не меняет форму."
+      }
+     }
     },
     {
      "id": "e14",
@@ -4041,7 +4319,33 @@
        "altísimo",
        "очень высокий"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "más alto que",
+         "taller than"
+        ],
+        [
+         "tan alto como",
+         "as tall as"
+        ],
+        [
+         "el más alto",
+         "the tallest"
+        ],
+        [
+         "menos alto que",
+         "less tall than"
+        ],
+        [
+         "altísimo",
+         "extremely tall"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e21",
@@ -4089,7 +4393,12 @@
      "q": "'Es muy mucho grande' is correct Spanish.",
      "answer": false,
      "explain_en": "Muy mucho does not exist: es muy grande or es grandísimo.",
-     "explain_ru": "«Muy mucho» не существует: es muy grande или es grandísimo."
+     "explain_ru": "«Muy mucho» не существует: es muy grande или es grandísimo.",
+     "ui": {
+      "ru": {
+       "q": "'Es muy mucho grande' — правильно по-испански."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4241,7 +4550,7 @@
     {
      "title_en": "Negative imperative: no + subjunctive",
      "title_ru": "Отрицательный императив: no + субхунтив",
-     "body_en": "The negative imperative always uses the present subjunctive. Tú: no hables, no comas, no escribas; irregular: no hagas, no digas, no vayas, no pongas, no seas, no tengas, no vengas. Usted: no hable, no coma, no fume. Russian keeps the same form with не (говори / не говори), so the change of form is a key contrast.",
+     "body_en": "The negative imperative always uses the present subjunctive. Tú: no hables, no comas, no escribas; irregular: no hagas, no digas, no vayas, no pongas, no seas, no tengas, no vengas. Usted: no hable, no coma, no fume. English and Russian keep the same form with a negative word (speak / don't speak), so the change of form is a key contrast.",
      "body_ru": "Отрицательный императив всегда использует настоящее время субхунтива. Tú: no hables, no comas, no escribas; неправильные: no hagas, no digas, no vayas, no pongas, no seas, no tengas, no vengas. Usted: no hable, no coma, no fume. В русском форма не меняется (говори / не говори), поэтому смена формы — ключевое различие.",
      "examples": [
       {
@@ -4333,7 +4642,7 @@
     {
      "title_en": "Imperative and Russian",
      "title_ru": "Императив и русский язык",
-     "body_en": "Russian has one imperative form per person for both affirmative and negative (скажи / не скажи, скажите / не говорите) and pronouns move freely (скажи мне это / мне это скажи). Spanish changes the verb form in the negative and fixes the pronoun position: attached when affirmative, in front when negative. Also, the tú/usted distinction mirrors ты/вы.",
+     "body_en": "Russian has one imperative form per person for both affirmative and negative and lets pronouns move freely around the verb. Spanish changes the verb form in the negative and fixes the pronoun position: attached when affirmative, in front when negative. Also, the tú/usted distinction mirrors the Russian ty/vy (informal/formal 'you').",
      "body_ru": "В русском одна форма императива для каждого лица как в утверждении, так и в отрицании (скажи / не говори, скажите / не говорите), а местоимения двигаются свободно (скажи мне это / мне это скажи). Испанский меняет форму глагола в отрицании и фиксирует позицию местоимения: после глагола в утверждении, перед глаголом в отрицании. Различие tú/usted соответствует ты/вы.",
      "examples": [
       {
@@ -4422,7 +4731,12 @@
      "q": "The negative tú imperative uses the subjunctive form: 'no hables'.",
      "answer": true,
      "explain_en": "All negative imperatives use the present subjunctive.",
-     "explain_ru": "Все отрицательные императивы используют настоящее время субхунтива."
+     "explain_ru": "Все отрицательные императивы используют настоящее время субхунтива.",
+     "ui": {
+      "ru": {
+       "q": "В отрицательном повелительном наклонении для tú используется форма subjuntivo: 'no hables'."
+      }
+     }
     },
     {
      "id": "e06",
@@ -4537,7 +4851,12 @@
      "q": "'No haz eso' is the correct negative imperative of hacer (tú).",
      "answer": false,
      "explain_en": "Haz is affirmative only; the negative is no hagas.",
-     "explain_ru": "Haz — только утвердительная форма; отрицательная — no hagas."
+     "explain_ru": "Haz — только утвердительная форма; отрицательная — no hagas.",
+     "ui": {
+      "ru": {
+       "q": "'No haz eso' — правильная отрицательная форма повелительного наклонения hacer (tú)."
+      }
+     }
     },
     {
      "id": "e14",
@@ -4685,7 +5004,12 @@
      "q": "In 'Dímelo', the pronouns are attached to the affirmative imperative.",
      "answer": true,
      "explain_en": "Di + me + lo = dímelo, with an accent to keep the stress on di.",
-     "explain_ru": "Di + me + lo = dímelo, с ударением, чтобы сохранить ударный слог di."
+     "explain_ru": "Di + me + lo = dímelo, с ударением, чтобы сохранить ударный слог di.",
+     "ui": {
+      "ru": {
+       "q": "В 'Dímelo' местоимения присоединяются к утвердительной форме повелительного наклонения."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4792,7 +5116,7 @@
     {
      "title_en": "Para: purpose, recipient, destination, deadline",
      "title_ru": "Para: цель, адресат, направление, срок",
-     "body_en": "Para looks forward to a goal. Purpose: para + infinitive (чтобы) — 'Estudio español para trabajar en España.' Recipient (для): 'Este regalo es para ti.' Destination: 'Salimos para Valencia.' Deadline (к): 'Necesito el informe para el lunes.' Opinion: 'Para mí, esta película es aburrida.'",
+     "body_en": "Para looks forward to a goal. Purpose: para + infinitive (in order to) — 'Estudio español para trabajar en España.' Recipient (for): 'Este regalo es para ti.' Destination: 'Salimos para Valencia.' Deadline (by): 'Necesito el informe para el lunes.' Opinion: 'Para mí, esta película es aburrida.'",
      "body_ru": "Para направлено вперёд, к цели. Цель: para + инфинитив (чтобы) — «Estudio español para trabajar en España.» Адресат (для): «Este regalo es para ti.» Направление: «Salimos para Valencia.» Срок (к): «Necesito el informe para el lunes.» Мнение: «Para mí, esta película es aburrida.»",
      "examples": [
       {
@@ -4815,7 +5139,7 @@
     {
      "title_en": "Por: cause, means, movement through, exchange",
      "title_ru": "Por: причина, средство, движение через, обмен",
-     "body_en": "Por looks back to a cause or describes the way. Cause (из-за, по): 'El museo está cerrado por reformas.' 'No puedo ir por el trabajo.' Means: 'por teléfono', 'por correo'. Through/along: 'pasear por el parque'. Exchange and thanks: 'Gracias por tu ayuda.' 'Pagué veinte euros por el libro.' Approximate time: 'por la mañana', 'por la tarde'.",
+     "body_en": "Por looks back to a cause or describes the way. Cause (because of): 'El museo está cerrado por reformas.' 'No puedo ir por el trabajo.' Means: 'por teléfono', 'por correo'. Through/along: 'pasear por el parque'. Exchange and thanks: 'Gracias por tu ayuda.' 'Pagué veinte euros por el libro.' Approximate time: 'por la mañana', 'por la tarde'.",
      "body_ru": "Por смотрит назад, на причину, или описывает способ. Причина (из-за, по): «El museo está cerrado por reformas.» «No puedo ir por el trabajo.» Средство: «por teléfono», «por correo». Через/по: «pasear por el parque». Обмен и благодарность: «Gracias por tu ayuda.» «Pagué veinte euros por el libro.» Приблизительное время: «por la mañana», «por la tarde».",
      "examples": [
       {
@@ -4843,7 +5167,7 @@
     {
      "title_en": "Por or para? Minimal pairs",
      "title_ru": "Por или para? Минимальные пары",
-     "body_en": "'Lo hago por ti' = because of you, for your sake; 'Lo hago para ti' = so that you receive it. 'Por la mañana' = in the morning; 'para la mañana' = by the morning. A rough guide for Russian speakers: для / чтобы / к → para; из-за / по / через / за (спасибо за) → por.",
+     "body_en": "'Lo hago por ti' = because of you, for your sake; 'Lo hago para ti' = so that you receive it. 'Por la mañana' = in the morning; 'para la mañana' = by the morning. A rough guide: for (a recipient) / in order to / by (a deadline) → para; because of / through / along / for (in thanks or exchange) → por.",
      "body_ru": "«Lo hago por ti» = из-за тебя, ради тебя; «Lo hago para ti» = чтобы это досталось тебе. «Por la mañana» = утром; «para la mañana» = к утру. Ориентир для русскоязычных: для / чтобы / к → para; из-за / по / через / за (спасибо за) → por.",
      "examples": [
       {
@@ -4917,7 +5241,7 @@
     {
      "title_en": "Verbs without a preposition",
      "title_ru": "Глаголы без предлога",
-     "body_en": "Some Spanish verbs take a direct object where Russian uses a preposition or a different case: buscar (искать), esperar (ждать), mirar (смотреть на), escuchar (слушать), pedir (просить о), agradecer (благодарить за). 'Espero el autobús' (not 'por el autobús'). 'Miro la tele.' Remember the personal a with people: 'Espero a Juan.'",
+     "body_en": "Some Spanish verbs take a direct object where English uses a preposition: buscar (to look for), esperar (to wait for), mirar (to look at), escuchar (to listen to), pedir (to ask for), agradecer (to thank for). 'Espero el autobús' (not 'por el autobús'). 'Miro la tele.' Remember the personal a with people: 'Espero a Juan.'",
      "body_ru": "Некоторые испанские глаголы принимают прямое дополнение там, где русский использует предлог или другой падеж: buscar (искать), esperar (ждать), mirar (смотреть на), escuchar (слушать), pedir (просить о), agradecer (благодарить за). «Espero el autobús» (не «por el autobús»). «Miro la tele.» Не забывайте личное a с людьми: «Espero a Juan.»",
      "examples": [
       {
@@ -4976,7 +5300,7 @@
     {
      "title_en": "Desde, hasta, desde hace",
      "title_ru": "Desde, hasta, desde hace",
-     "body_en": "Desde marks the starting point in time or space: 'Trabajo en Madrid desde 2015.' Hasta marks the end: 'hasta las cinco', 'hasta mañana'. Desde hace + period says how long something has been going on: 'Estudio español desde hace tres años' (уже три года).",
+     "body_en": "Desde marks the starting point in time or space: 'Trabajo en Madrid desde 2015.' Hasta marks the end: 'hasta las cinco', 'hasta mañana'. Desde hace + period says how long something has been going on: 'Estudio español desde hace tres años' (I have been studying Spanish for three years).",
      "body_ru": "Desde обозначает начальную точку во времени или пространстве: «Trabajo en Madrid desde 2015.» Hasta — конечную: «hasta las cinco», «hasta mañana». Desde hace + период говорит, как долго что-то длится: «Estudio español desde hace tres años» (уже три года).",
      "examples": [
       {
@@ -5052,7 +5376,12 @@
      "q": "'Para' expresses the purpose or goal: 'Estudio para aprender'.",
      "answer": true,
      "explain_en": "Para + infinitive = in order to.",
-     "explain_ru": "Para + инфинитив = чтобы."
+     "explain_ru": "Para + инфинитив = чтобы.",
+     "ui": {
+      "ru": {
+       "q": "'Para' выражает цель: 'Estudio para aprender'."
+      }
+     }
     },
     {
      "id": "e06",
@@ -5116,7 +5445,7 @@
      "answer": [
       "en"
      ],
-     "explain_en": "Pensar en = to think about (Russian о + prepositional).",
+     "explain_en": "Pensar en = to think about (Russian uses 'o' + the prepositional case).",
      "explain_ru": "Pensar en = думать о (русское «о тебе», испанское «en ti»)."
     },
     {
@@ -5163,7 +5492,12 @@
      "q": "'Espero por el autobús' is the standard way to say 'I'm waiting for the bus'.",
      "answer": false,
      "explain_en": "Esperar takes a direct object: Espero el autobús.",
-     "explain_ru": "Esperar принимает прямое дополнение без предлога: Espero el autobús."
+     "explain_ru": "Esperar принимает прямое дополнение без предлога: Espero el autobús.",
+     "ui": {
+      "ru": {
+       "q": "'Espero por el autobús' — стандартный способ сказать «я жду автобус»."
+      }
+     }
     },
     {
      "id": "e14",
@@ -5267,7 +5601,33 @@
        "por eso",
        "поэтому"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "por la mañana",
+         "in the morning"
+        ],
+        [
+         "para el lunes",
+         "by Monday"
+        ],
+        [
+         "por correo",
+         "by post"
+        ],
+        [
+         "para ti",
+         "for you"
+        ],
+        [
+         "por eso",
+         "that's why"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e21",
@@ -5314,7 +5674,12 @@
      "q": "In 'Busco a mi hermano', the 'a' is the personal 'a' before a person.",
      "answer": true,
      "explain_en": "Buscar has no preposition, but a person as direct object takes the personal a.",
-     "explain_ru": "Buscar употребляется без предлога, но одушевлённое прямое дополнение получает личное a."
+     "explain_ru": "Buscar употребляется без предлога, но одушевлённое прямое дополнение получает личное a.",
+     "ui": {
+      "ru": {
+       "q": "В 'Busco a mi hermano' 'a' — это личное 'a' перед человеком."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5405,7 +5770,33 @@
        "pedir",
        "просить (о)"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "buscar",
+         "to look for"
+        ],
+        [
+         "esperar",
+         "to wait for"
+        ],
+        [
+         "mirar",
+         "to look at"
+        ],
+        [
+         "escuchar",
+         "to listen to"
+        ],
+        [
+         "pedir",
+         "to ask for"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5442,7 +5833,7 @@
     {
      "title_en": "The double negative",
      "title_ru": "Двойное отрицание",
-     "body_en": "When a negative word (nada, nadie, nunca, ningún, tampoco) comes after the verb, 'no' is required before the verb: 'No veo nada.' 'No ha venido nadie.' When the negative word comes before the verb, 'no' disappears: 'Nadie ha venido.' 'Nunca como carne.' Russian always keeps не (никто не пришёл), so watch out for 'Nadie no ha venido', which is wrong.",
+     "body_en": "When a negative word (nada, nadie, nunca, ningún, tampoco) comes after the verb, 'no' is required before the verb: 'No veo nada.' 'No ha venido nadie.' When the negative word comes before the verb, 'no' disappears: 'Nadie ha venido.' 'Nunca como carne.' Russian always keeps the negative particle 'ne' (literally 'nobody not came'), so watch out for 'Nadie no ha venido', which is wrong.",
      "body_ru": "Когда отрицательное слово (nada, nadie, nunca, ningún, tampoco) стоит после глагола, перед глаголом обязательно «no»: «No veo nada.» «No ha venido nadie.» Когда отрицательное слово стоит перед глаголом, «no» исчезает: «Nadie ha venido.» «Nunca como carne.» В русском «не» сохраняется всегда (никто не пришёл), поэтому «Nadie no ha venido» — типичная ошибка.",
      "examples": [
       {
@@ -5511,7 +5902,7 @@
     {
      "title_en": "Ya and todavía",
      "title_ru": "Ya и todavía",
-     "body_en": "Ya = already (уже): 'Ya he terminado.' Todavía (or aún) = still (ещё): 'Todavía vivo con mis padres.' Todavía no = not yet (ещё не): 'Todavía no he terminado.' Ya no = no longer (уже не): 'Ya no vivo en esa calle.' The two negatives are the ones learners mix up most.",
+     "body_en": "Ya = already: 'Ya he terminado.' Todavía (or aún) = still: 'Todavía vivo con mis padres.' Todavía no = not yet: 'Todavía no he terminado.' Ya no = no longer: 'Ya no vivo en esa calle.' The two negatives are the ones learners mix up most.",
      "body_ru": "Ya = уже: «Ya he terminado.» Todavía (или aún) = ещё: «Todavía vivo con mis padres.» Todavía no = ещё не: «Todavía no he terminado.» Ya no = уже не: «Ya no vivo en esa calle.» Именно эти две отрицательные пары чаще всего путают.",
      "examples": [
       {
@@ -5534,7 +5925,7 @@
     {
      "title_en": "También and tampoco",
      "title_ru": "También и tampoco",
-     "body_en": "También (тоже) echoes an affirmative statement; tampoco (тоже не) echoes a negative one. 'Vivo en Madrid. — Yo también.' 'No me gusta el café. — A mí tampoco.' Tampoco follows the double-negative rule: 'Yo tampoco fumo' or 'Yo no fumo tampoco.' Russian uses тоже in both cases, so remember to switch to tampoco after a negative.",
+     "body_en": "También (also, too) echoes an affirmative statement; tampoco (neither, not either) echoes a negative one. 'Vivo en Madrid. — Yo también.' 'No me gusta el café. — A mí tampoco.' Tampoco follows the double-negative rule: 'Yo tampoco fumo' or 'Yo no fumo tampoco.' Russian uses one word ('tozhe') in both cases, so remember to switch to tampoco after a negative.",
      "body_ru": "También (тоже) отвечает на утверждение; tampoco (тоже не) — на отрицание. «Vivo en Madrid. — Yo también.» «No me gusta el café. — A mí tampoco.» Tampoco подчиняется правилу двойного отрицания: «Yo tampoco fumo» или «Yo no fumo tampoco.» В русском в обоих случаях «тоже», поэтому после отрицания не забывайте переключаться на tampoco.",
      "examples": [
       {
@@ -5573,9 +5964,9 @@
      ]
     },
     {
-     "title_en": "Russian кто-то / кто-нибудь and Spanish alguien",
+     "title_en": "Russian 'someone' vs 'anyone' and Spanish alguien",
      "title_ru": "Русские кто-то / кто-нибудь и испанское alguien",
-     "body_en": "Russian distinguishes кто-то (a specific unknown person) from кто-нибудь (anyone at all); Spanish uses alguien for both: 'Alguien ha llamado' and '¿Hay alguien?' The same applies to algo (что-то / что-нибудь) and algún (какой-то / какой-нибудь). In the negative, Spanish has one word each: nadie, nada, ningún.",
+     "body_en": "Russian distinguishes 'kto-to' (a specific unknown person, someone) from 'kto-nibud'' (anyone at all); Spanish uses alguien for both: 'Alguien ha llamado' and '¿Hay alguien?' The same applies to algo (something / anything) and algún (some / any). In the negative, Spanish has one word each: nadie, nada, ningún.",
      "body_ru": "Русский различает «кто-то» (конкретный неизвестный человек) и «кто-нибудь» (кто угодно); испанский использует alguien в обоих случаях: «Alguien ha llamado» и «¿Hay alguien?» То же с algo (что-то / что-нибудь) и algún (какой-то / какой-нибудь). В отрицании в испанском по одному слову: nadie, nada, ningún.",
      "examples": [
       {
@@ -5627,7 +6018,7 @@
       "Algún"
      ],
      "answer": 0,
-     "explain_en": "An unknown person: alguien (кто-то).",
+     "explain_en": "An unknown person: alguien (someone).",
      "explain_ru": "Неизвестный человек: alguien (кто-то)."
     },
     {
@@ -5646,7 +6037,12 @@
      "q": "'No veo a nadie' is correct: nadie after the verb requires 'no' before it.",
      "answer": true,
      "explain_en": "Negative words after the verb need no before the verb (double negative).",
-     "explain_ru": "Отрицательные слова после глагола требуют «no» перед глаголом (двойное отрицание), как в русском «никого не вижу»."
+     "explain_ru": "Отрицательные слова после глагола требуют «no» перед глаголом (двойное отрицание), как в русском «никого не вижу».",
+     "ui": {
+      "ru": {
+       "q": "'No veo a nadie' — правильно: если nadie стоит после глагола, перед глаголом нужно 'no'."
+      }
+     }
     },
     {
      "id": "e06",
@@ -5672,7 +6068,33 @@
        "algún",
        "какой-нибудь"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "algo",
+         "something"
+        ],
+        [
+         "nada",
+         "nothing"
+        ],
+        [
+         "alguien",
+         "someone"
+        ],
+        [
+         "nadie",
+         "nobody"
+        ],
+        [
+         "algún",
+         "some, any"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e07",
@@ -5758,7 +6180,12 @@
      "q": "'Nadie no ha venido' is correct Spanish.",
      "answer": false,
      "explain_en": "When nadie comes before the verb, no is dropped: Nadie ha venido.",
-     "explain_ru": "Когда nadie стоит перед глаголом, «no» опускается: Nadie ha venido. Русское «никто не пришёл» здесь обманывает."
+     "explain_ru": "Когда nadie стоит перед глаголом, «no» опускается: Nadie ha venido. Русское «никто не пришёл» здесь обманывает.",
+     "ui": {
+      "ru": {
+       "q": "'Nadie no ha venido' — правильно по-испански."
+      }
+     }
     },
     {
      "id": "e14",
@@ -5860,7 +6287,33 @@
        "también",
        "тоже"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ya",
+         "already"
+        ],
+        [
+         "todavía",
+         "still"
+        ],
+        [
+         "ya no",
+         "no longer"
+        ],
+        [
+         "todavía no",
+         "not yet"
+        ],
+        [
+         "también",
+         "also, too"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e21",
@@ -5906,8 +6359,13 @@
      "type": "tf",
      "q": "'Ya no trabajo aquí' means 'I don't work here anymore'.",
      "answer": true,
-     "explain_en": "Ya no = no longer (уже не).",
-     "explain_ru": "Ya no = уже не, больше не."
+     "explain_en": "Ya no = no longer.",
+     "explain_ru": "Ya no = уже не, больше не.",
+     "ui": {
+      "ru": {
+       "q": "'Ya no trabajo aquí' значит «я здесь больше не работаю»."
+      }
+     }
     },
     {
      "id": "e25",

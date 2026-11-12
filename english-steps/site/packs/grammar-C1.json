@@ -214,7 +214,12 @@
      "q": "'Only after the meeting did we realise the mistake' is grammatically correct.",
      "answer": true,
      "explain_en": "Only after + phrase requires inversion in the main clause: did we realise.",
-     "explain_ru": "Only after + оборот требует инверсии в главном предложении: did we realise."
+     "explain_ru": "Only after + оборот требует инверсии в главном предложении: did we realise.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'Only after the meeting did we realise the mistake' грамматически правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -282,7 +287,12 @@
      "q": "Spot the error: 'Under no circumstances you should open this file' is correct.",
      "answer": false,
      "explain_en": "Under no circumstances is a fronted negative phrase, so inversion is required: should you open.",
-     "explain_ru": "Under no circumstances — отрицательный оборот в начале, поэтому нужна инверсия: should you open."
+     "explain_ru": "Under no circumstances — отрицательный оборот в начале, поэтому нужна инверсия: should you open.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'Under no circumstances you should open this file' правильное."
+      }
+     }
     },
     {
      "id": "e10",
@@ -329,7 +339,12 @@
      "q": "'Here comes she' is correct English.",
      "answer": false,
      "explain_en": "With a pronoun subject there is no inversion after here/there: Here she comes.",
-     "explain_ru": "С подлежащим-местоимением после here/there инверсии нет: Here she comes."
+     "explain_ru": "С подлежащим-местоимением после here/there инверсии нет: Here she comes.",
+     "ui": {
+      "ru": {
+       "q": "'Here comes she' — правильный английский."
+      }
+     }
     },
     {
      "id": "e14",
@@ -397,7 +412,12 @@
      "q": "Spot the error: 'Not only the hotel was expensive, but it was also noisy' uses correct inversion.",
      "answer": false,
      "explain_en": "After Not only the auxiliary must come before the subject: Not only was the hotel expensive.",
-     "explain_ru": "После Not only вспомогательный глагол должен стоять перед подлежащим: Not only was the hotel expensive."
+     "explain_ru": "После Not only вспомогательный глагол должен стоять перед подлежащим: Not only was the hotel expensive.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: в предложении 'Not only the hotel was expensive, but it was also noisy' инверсия использована правильно."
+      }
+     }
     },
     {
      "id": "e19",
@@ -452,7 +472,12 @@
      ],
      "answer": 1,
      "explain_en": "When only modifies the subject (Only John), there is no inversion.",
-     "explain_ru": "Если only относится к подлежащему (Only John), инверсия не делается."
+     "explain_ru": "Если only относится к подлежащему (Only John), инверсия не делается.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e23",
@@ -460,7 +485,12 @@
      "q": "'Scarcely had the ceremony ended when the storm broke' is correct.",
      "answer": true,
      "explain_en": "Scarcely behaves like hardly: past perfect with inversion, followed by when.",
-     "explain_ru": "Scarcely ведёт себя как hardly: past perfect с инверсией и затем when."
+     "explain_ru": "Scarcely ведёт себя как hardly: past perfect с инверсией и затем when.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'Scarcely had the ceremony ended when the storm broke' правильное."
+      }
+     }
     },
     {
      "id": "e24",
@@ -511,7 +541,33 @@
        "Little did she know",
        "она и не подозревала"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Never again",
+         "not ever in the future"
+        ],
+        [
+         "Seldom",
+         "rarely"
+        ],
+        [
+         "Nowhere",
+         "in no place"
+        ],
+        [
+         "No sooner",
+         "immediately before something else happened"
+        ],
+        [
+         "Little did she know",
+         "she had no idea at all"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -533,7 +589,12 @@
      "q": "Spot the error: 'Most of the time does he work from home' is correct.",
      "answer": false,
      "explain_en": "Most of the time is not negative or restrictive, so no inversion: Most of the time he works from home.",
-     "explain_ru": "Most of the time — не отрицательный и не ограничительный оборот, поэтому инверсии нет: Most of the time he works from home."
+     "explain_ru": "Most of the time — не отрицательный и не ограничительный оборот, поэтому инверсии нет: Most of the time he works from home.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'Most of the time does he work from home' правильное."
+      }
+     }
     }
    ]
   },
@@ -752,7 +813,12 @@
      "q": "'It was yesterday that I saw him' is a correct cleft sentence.",
      "answer": true,
      "explain_en": "After a time focus in an it-cleft we use that, not when.",
-     "explain_ru": "После фокуса на времени в it-cleft используется that, а не when."
+     "explain_ru": "После фокуса на времени в it-cleft используется that, а не when.",
+     "ui": {
+      "ru": {
+       "q": "'It was yesterday that I saw him' — правильное расщеплённое (cleft) предложение."
+      }
+     }
     },
     {
      "id": "e05",
@@ -806,7 +872,12 @@
      "q": "Spot the error: 'It was she that she broke the vase' is correct.",
      "answer": false,
      "explain_en": "The focused element must not be repeated: It was she who broke the vase.",
-     "explain_ru": "Выделенный элемент не повторяется: It was she who broke the vase."
+     "explain_ru": "Выделенный элемент не повторяется: It was she who broke the vase.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'It was she that she broke the vase' правильное."
+      }
+     }
     },
     {
      "id": "e09",
@@ -869,7 +940,12 @@
      "q": "'Do sit down' is a polite emphatic imperative.",
      "answer": true,
      "explain_en": "Do + imperative makes an invitation warmer or more insistent.",
-     "explain_ru": "Do + повелительное наклонение делает приглашение теплее или настойчивее."
+     "explain_ru": "Do + повелительное наклонение делает приглашение теплее или настойчивее.",
+     "ui": {
+      "ru": {
+       "q": "'Do sit down' — вежливая эмфатическая форма повелительного наклонения."
+      }
+     }
     },
     {
      "id": "e14",
@@ -919,7 +995,33 @@
        "not at all",
        "вовсе нет"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "the very idea",
+         "just the thought itself"
+        ],
+        [
+         "none whatsoever",
+         "none at all"
+        ],
+        [
+         "What on earth",
+         "what (showing surprise or anger)"
+        ],
+        [
+         "the point is",
+         "what matters is that"
+        ],
+        [
+         "not at all",
+         "not in the slightest"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -937,7 +1039,12 @@
      "q": "Spot the error: 'It was the manager whom resigned' is correct.",
      "answer": false,
      "explain_en": "The relative pronoun is the subject of resigned, so it must be who, not whom.",
-     "explain_ru": "Относительное местоимение — подлежащее при resigned, поэтому нужно who, а не whom."
+     "explain_ru": "Относительное местоимение — подлежащее при resigned, поэтому нужно who, а не whom.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'It was the manager whom resigned' правильное."
+      }
+     }
     },
     {
      "id": "e19",
@@ -951,7 +1058,12 @@
      ],
      "answer": 0,
      "explain_en": "The element placed after It was is the focus: on Monday.",
-     "explain_ru": "В фокусе оказывается то, что стоит после It was: on Monday."
+     "explain_ru": "В фокусе оказывается то, что стоит после It was: on Monday.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении выделено время?"
+      }
+     }
     },
     {
      "id": "e20",
@@ -998,7 +1110,12 @@
      "q": "'It is I who am responsible' is formal but correct.",
      "answer": true,
      "explain_en": "Formal English uses the subject pronoun I, and the verb agrees with it: who am.",
-     "explain_ru": "В формальном стиле используется местоимение I, и глагол согласуется с ним: who am."
+     "explain_ru": "В формальном стиле используется местоимение I, и глагол согласуется с ним: who am.",
+     "ui": {
+      "ru": {
+       "q": "'It is I who am responsible' — формально, но правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1075,7 +1192,12 @@
      "q": "Spot the error: 'What I need it is a break' is correct.",
      "answer": false,
      "explain_en": "The what-clause is already the subject; do not add it: What I need is a break.",
-     "explain_ru": "Придаточное с what уже является подлежащим; it добавлять нельзя: What I need is a break."
+     "explain_ru": "Придаточное с what уже является подлежащим; it добавлять нельзя: What I need is a break.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'What I need it is a break' правильное."
+      }
+     }
     }
    ]
   },
@@ -1295,7 +1417,12 @@
      "q": "'Hadn't it been for the delay, we would have won' is correct.",
      "answer": false,
      "explain_en": "In inverted conditionals the negative is not contracted: Had it not been for the delay.",
-     "explain_ru": "В инвертированных условных отрицание не сокращается: Had it not been for the delay."
+     "explain_ru": "В инвертированных условных отрицание не сокращается: Had it not been for the delay.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'Hadn't it been for the delay, we would have won' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -1363,7 +1490,12 @@
      "q": "'In case it rains, take an umbrella' means the same as 'If it rains, take an umbrella'.",
      "answer": false,
      "explain_en": "In case describes a precaution taken beforehand; if describes a condition that must come true first.",
-     "explain_ru": "In case — мера предосторожности заранее; if — условие, которое должно наступить сначала."
+     "explain_ru": "In case — мера предосторожности заранее; if — условие, которое должно наступить сначала.",
+     "ui": {
+      "ru": {
+       "q": "'In case it rains, take an umbrella' означает то же самое, что 'If it rains, take an umbrella'."
+      }
+     }
     },
     {
      "id": "e10",
@@ -1373,7 +1505,12 @@
       "but"
      ],
      "explain_en": "Would have + but introduces an implied condition: if I hadn't lost it.",
-     "explain_ru": "Would have + but вводит подразумеваемое условие: если бы я не потерял его."
+     "explain_ru": "Would have + but вводит подразумеваемое условие: если бы я не потерял его.",
+     "ui": {
+      "ru": {
+       "q": "Вставьте одно слово (скрытое условие): I'd have called you, ___ I lost your number."
+      }
+     }
     },
     {
      "id": "e11",
@@ -1429,7 +1566,12 @@
      "q": "'Were I you, I would apologise' is a correct inverted conditional.",
      "answer": true,
      "explain_en": "Were I you = If I were you.",
-     "explain_ru": "Were I you = If I were you — инвертированная форма условия."
+     "explain_ru": "Were I you = If I were you — инвертированная форма условия.",
+     "ui": {
+      "ru": {
+       "q": "'Were I you, I would apologise' — правильное условное предложение с инверсией."
+      }
+     }
     },
     {
      "id": "e15",
@@ -1453,7 +1595,12 @@
      ],
      "answer": 0,
      "explain_en": "Past condition (had studied) with a present result (would be now).",
-     "explain_ru": "Прошлое условие (had studied) и настоящий результат (would be now)."
+     "explain_ru": "Прошлое условие (had studied) и настоящий результат (would be now).",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение является смешанным условным?"
+      }
+     }
     },
     {
      "id": "e17",
@@ -1483,7 +1630,37 @@
        "if so",
        "если так"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "but for",
+         "if it were not for"
+        ],
+        [
+         "provided that",
+         "on condition that"
+        ],
+        [
+         "unless",
+         "except if"
+        ],
+        [
+         "supposing",
+         "imagine that"
+        ],
+        [
+         "otherwise",
+         "if not; or else"
+        ],
+        [
+         "if so",
+         "if that is the case"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e18",
@@ -1493,7 +1670,12 @@
       "otherwise"
      ],
      "explain_en": "Otherwise = if you don't.",
-     "explain_ru": "Otherwise = если ты этого не сделаешь."
+     "explain_ru": "Otherwise = если ты этого не сделаешь.",
+     "ui": {
+      "ru": {
+       "q": "Вставьте одно слово (скрытое условие): Take the keys; ___ you won't be able to get back in."
+      }
+     }
     },
     {
      "id": "e19",
@@ -1501,7 +1683,12 @@
      "q": "Spot the error: 'Should you to require assistance, press the red button' is correct.",
      "answer": false,
      "explain_en": "Should is followed by a bare infinitive: Should you require assistance.",
-     "explain_ru": "После should идёт инфинитив без to: Should you require assistance."
+     "explain_ru": "После should идёт инфинитив без to: Should you require assistance.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'Should you to require assistance, press the red button' правильное."
+      }
+     }
     },
     {
      "id": "e20",
@@ -1563,7 +1750,12 @@
      "q": "'If necessary, the meeting can be postponed' is a reduced conditional with the subject and verb omitted.",
      "answer": true,
      "explain_en": "If necessary = if it is necessary.",
-     "explain_ru": "If necessary = if it is necessary — подлежащее и глагол опущены."
+     "explain_ru": "If necessary = if it is necessary — подлежащее и глагол опущены.",
+     "ui": {
+      "ru": {
+       "q": "'If necessary, the meeting can be postponed' — сокращённое условное предложение, в котором опущены подлежащее и глагол."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1611,7 +1803,12 @@
      "q": "Spot the error: 'Unless you don't hurry, we'll miss the train' is correct.",
      "answer": false,
      "explain_en": "Unless already means if not; a second negative is wrong: Unless you hurry.",
-     "explain_ru": "Unless уже означает 'если не'; второе отрицание ошибочно: Unless you hurry."
+     "explain_ru": "Unless уже означает 'если не'; второе отрицание ошибочно: Unless you hurry.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'Unless you don't hurry, we'll miss the train' правильное."
+      }
+     }
     },
     {
      "id": "e29",
@@ -1852,7 +2049,12 @@
      "q": "Spot the error: 'Walking across the field, the castle came into view' is correct.",
      "answer": false,
      "explain_en": "The participle dangles: the castle was not walking. Say: Walking across the field, we saw the castle.",
-     "explain_ru": "Причастие 'повисло': замок не шёл. Правильно: Walking across the field, we saw the castle."
+     "explain_ru": "Причастие 'повисло': замок не шёл. Правильно: Walking across the field, we saw the castle.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'Walking across the field, the castle came into view' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -1924,7 +2126,12 @@
      "q": "'Having been built in a hurry, the bridge needed repairs within a year' is correct.",
      "answer": true,
      "explain_en": "Having been + past participle is the passive perfect participle; the subject (the bridge) matches.",
-     "explain_ru": "Having been + причастие — пассивное перфектное причастие; подлежащее (the bridge) совпадает."
+     "explain_ru": "Having been + причастие — пассивное перфектное причастие; подлежащее (the bridge) совпадает.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'Having been built in a hurry, the bridge needed repairs within a year' правильное."
+      }
+     }
     },
     {
      "id": "e10",
@@ -1982,7 +2189,12 @@
      "q": "Spot the error: 'Being Sunday, the shops were closed' is correct.",
      "answer": false,
      "explain_en": "The shops were not Sunday; the absolute construction needs its own subject: It being Sunday, the shops were closed.",
-     "explain_ru": "Магазины не были 'воскресеньем'; абсолютной конструкции нужно собственное подлежащее: It being Sunday, the shops were closed."
+     "explain_ru": "Магазины не были 'воскресеньем'; абсолютной конструкции нужно собственное подлежащее: It being Sunday, the shops were closed.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'Being Sunday, the shops were closed' правильное."
+      }
+     }
     },
     {
      "id": "e15",
@@ -2022,7 +2234,33 @@
        "generally speaking",
        "вообще говоря"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "weather permitting",
+         "if the weather is good enough"
+        ],
+        [
+         "all things considered",
+         "taking everything into account"
+        ],
+        [
+         "with the door open",
+         "while the door is not closed"
+        ],
+        [
+         "having said that",
+         "even so; nevertheless"
+        ],
+        [
+         "generally speaking",
+         "in most cases; on the whole"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -2032,7 +2270,12 @@
       "without saying"
      ],
      "explain_en": "After the preposition without we use the -ing form.",
-     "explain_ru": "После предлога without используется форма на -ing."
+     "explain_ru": "После предлога without используется форма на -ing.",
+     "ui": {
+      "ru": {
+       "q": "Вставьте нужную форму: He left the room ___ (without / say) a word."
+      }
+     }
     },
     {
      "id": "e18",
@@ -2046,7 +2289,12 @@
      ],
      "answer": 0,
      "explain_en": "In the first sentence the machine seems to have read the instructions.",
-     "explain_ru": "В первом предложении получается, что инструкцию прочитал прибор."
+     "explain_ru": "В первом предложении получается, что инструкцию прочитал прибор.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении есть «висящее» причастие (dangling participle)?"
+      }
+     }
     },
     {
      "id": "e19",
@@ -2078,7 +2326,12 @@
      "q": "'When asked about the plan, the minister refused to comment' is a reduced passive clause with a conjunction.",
      "answer": true,
      "explain_en": "When asked = when he was asked; subject and be are omitted.",
-     "explain_ru": "When asked = when he was asked; подлежащее и be опущены."
+     "explain_ru": "When asked = when he was asked; подлежащее и be опущены.",
+     "ui": {
+      "ru": {
+       "q": "'When asked about the plan, the minister refused to comment' — сокращённый пассивный оборот с союзом."
+      }
+     }
     },
     {
      "id": "e22",
@@ -2142,7 +2395,12 @@
      "q": "Spot the error: 'Having been raining all night, the pitch was unplayable' is correct.",
      "answer": false,
      "explain_en": "The pitch was not raining; use a full clause or an absolute: It having rained all night, the pitch was unplayable.",
-     "explain_ru": "Поле не 'шло дождём'; нужно полное придаточное или абсолютная конструкция: It having rained all night, the pitch was unplayable."
+     "explain_ru": "Поле не 'шло дождём'; нужно полное придаточное или абсолютная конструкция: It having rained all night, the pitch was unplayable.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'Having been raining all night, the pitch was unplayable' правильное."
+      }
+     }
     },
     {
      "id": "e27",
@@ -2395,7 +2653,12 @@
      "q": "'I wish I were taller' is correct.",
      "answer": true,
      "explain_en": "Wish + past subjunctive were for an unreal present.",
-     "explain_ru": "Wish + сослагательное were для нереального настоящего."
+     "explain_ru": "Wish + сослагательное were для нереального настоящего.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I wish I were taller' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -2467,7 +2730,12 @@
      "q": "Spot the error: 'They suggested him to apply for the grant' is correct.",
      "answer": false,
      "explain_en": "Suggest does not take object + to-infinitive: They suggested that he apply.",
-     "explain_ru": "Suggest не сочетается с дополнением + инфинитив с to: They suggested that he apply."
+     "explain_ru": "Suggest не сочетается с дополнением + инфинитив с to: They suggested that he apply.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'They suggested him to apply for the grant' правильное."
+      }
+     }
     },
     {
      "id": "e10",
@@ -2528,7 +2796,12 @@
      "q": "'God save the Queen' uses a fossilised subjunctive.",
      "answer": true,
      "explain_en": "Save is a base form expressing a wish — a fixed subjunctive formula.",
-     "explain_ru": "Save — базовая форма, выражающая пожелание: застывшая формула сослагательного наклонения."
+     "explain_ru": "Save — базовая форма, выражающая пожелание: застывшая формула сослагательного наклонения.",
+     "ui": {
+      "ru": {
+       "q": "В 'God save the Queen' использовано застывшее сослагательное наклонение."
+      }
+     }
     },
     {
      "id": "e15",
@@ -2572,7 +2845,37 @@
        "long live",
        "да здравствует"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "lest",
+         "so that ... not; for fear that"
+        ],
+        [
+         "as it were",
+         "so to speak"
+        ],
+        [
+         "be that as it may",
+         "however that may be; even so"
+        ],
+        [
+         "so be it",
+         "let it be so; I accept it"
+        ],
+        [
+         "heaven forbid",
+         "I hope that never happens"
+        ],
+        [
+         "long live",
+         "may ... live and prosper for a long time"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -2604,7 +2907,12 @@
      "q": "Spot the error: 'The doctor insisted that she takes the medicine' is acceptable in formal written English.",
      "answer": false,
      "explain_en": "Formal English requires the subjunctive take (or should take) after insist that.",
-     "explain_ru": "Формальный стиль требует сослагательного take (или should take) после insist that."
+     "explain_ru": "Формальный стиль требует сослагательного take (или should take) после insist that.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'The doctor insisted that she takes the medicine' допустимо в официальном письменном английском."
+      }
+     }
     },
     {
      "id": "e20",
@@ -2659,7 +2967,12 @@
      "q": "'If I was you, I would accept' is the only correct form in formal English.",
      "answer": false,
      "explain_en": "Formal English prefers If I were you; was is informal.",
-     "explain_ru": "В формальном стиле предпочтительно If I were you; was — разговорный вариант."
+     "explain_ru": "В формальном стиле предпочтительно If I were you; was — разговорный вариант.",
+     "ui": {
+      "ru": {
+       "q": "'If I was you, I would accept' — единственная правильная форма в официальном английском."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2707,7 +3020,12 @@
      "q": "Spot the error: 'He acted as if he knew nothing' is incorrect because 'as if' always needs 'were'.",
      "answer": false,
      "explain_en": "As if takes were only with the verb be; other verbs use the past simple: as if he knew.",
-     "explain_ru": "Were после as if нужно только с глаголом be; другие глаголы стоят в past simple: as if he knew."
+     "explain_ru": "Were после as if нужно только с глаголом be; другие глаголы стоят в past simple: as if he knew.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'He acted as if he knew nothing' неправильно, потому что после 'as if' всегда нужно 'were'."
+      }
+     }
     },
     {
      "id": "e29",
@@ -2966,7 +3284,12 @@
      "q": "'I didn't need to call him, so I didn't' is correct.",
      "answer": true,
      "explain_en": "Didn't need to says the action was unnecessary and, here, not done.",
-     "explain_ru": "Didn't need to означает, что действие не требовалось и здесь не было совершено."
+     "explain_ru": "Didn't need to означает, что действие не требовалось и здесь не было совершено.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I didn't need to call him, so I didn't' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -3031,7 +3354,12 @@
      ],
      "answer": 0,
      "explain_en": "Appear to suggest a possible link stacks three hedges; the others are boosters.",
-     "explain_ru": "Appear to suggest a possible link содержит три хеджа; остальные варианты — усилители."
+     "explain_ru": "Appear to suggest a possible link содержит три хеджа; остальные варианты — усилители.",
+     "ui": {
+      "ru": {
+       "q": "Какое утверждение самое осторожное (смягчённое)?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -3039,7 +3367,12 @@
      "q": "Spot the error: 'You had better to leave now' is correct.",
      "answer": false,
      "explain_en": "Had better is followed by a bare infinitive: had better leave.",
-     "explain_ru": "После had better идёт инфинитив без to: had better leave."
+     "explain_ru": "После had better идёт инфинитив без to: had better leave.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'You had better to leave now' правильное."
+      }
+     }
     },
     {
      "id": "e10",
@@ -3098,7 +3431,12 @@
      "q": "'He must have missed the train' expresses a strong deduction about the past.",
      "answer": true,
      "explain_en": "Must have + past participle = the speaker is almost certain.",
-     "explain_ru": "Must have + причастие = говорящий почти уверен."
+     "explain_ru": "Must have + причастие = говорящий почти уверен.",
+     "ui": {
+      "ru": {
+       "q": "'He must have missed the train' выражает уверенное предположение о прошлом."
+      }
+     }
     },
     {
      "id": "e15",
@@ -3138,7 +3476,33 @@
        "there is some evidence that",
        "есть некоторые данные о том, что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "arguably",
+         "it can be argued that"
+        ],
+        [
+         "to some extent",
+         "partly; up to a point"
+        ],
+        [
+         "it is likely that",
+         "it is probable that"
+        ],
+        [
+         "tend to",
+         "usually do; be inclined to"
+        ],
+        [
+         "there is some evidence that",
+         "some data suggest that"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -3171,7 +3535,12 @@
      "q": "Spot the error: 'We needn't have hurried, so we took our time' is logical.",
      "answer": false,
      "explain_en": "Needn't have hurried means they did hurry; the sentence contradicts itself. Use: We didn't need to hurry, so we took our time.",
-     "explain_ru": "Needn't have hurried означает, что они спешили; предложение противоречит себе. Правильно: We didn't need to hurry, so we took our time."
+     "explain_ru": "Needn't have hurried означает, что они спешили; предложение противоречит себе. Правильно: We didn't need to hurry, so we took our time.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'We needn't have hurried, so we took our time' логично."
+      }
+     }
     },
     {
      "id": "e20",
@@ -3209,7 +3578,12 @@
      ],
      "answer": 0,
      "explain_en": "Proves beyond doubt is a booster unsuitable for limited evidence.",
-     "explain_ru": "Proves beyond doubt — усилитель, неуместный при ограниченных данных."
+     "explain_ru": "Proves beyond doubt — усилитель, неуместный при ограниченных данных.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении утверждение слишком категорично для академического эссе?"
+      }
+     }
     },
     {
      "id": "e23",
@@ -3228,7 +3602,12 @@
      "q": "'Would you mind if I opened the window?' is more polite than 'Open the window.'",
      "answer": true,
      "explain_en": "Would you mind if + past tense is a tentative, polite request.",
-     "explain_ru": "Would you mind if + прошедшее время — осторожная вежливая просьба."
+     "explain_ru": "Would you mind if + прошедшее время — осторожная вежливая просьба.",
+     "ui": {
+      "ru": {
+       "q": "'Would you mind if I opened the window?' вежливее, чем 'Open the window.'"
+      }
+     }
     },
     {
      "id": "e25",
@@ -3274,7 +3653,12 @@
      "q": "Spot the error: 'He can't have been at home, because his car wasn't there' is correct.",
      "answer": true,
      "explain_en": "Can't have been is the correct negative deduction about the past.",
-     "explain_ru": "Can't have been — правильный отрицательный вывод о прошлом."
+     "explain_ru": "Can't have been — правильный отрицательный вывод о прошлом.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'He can't have been at home, because his car wasn't there' правильное."
+      }
+     }
     },
     {
      "id": "e29",
@@ -3505,7 +3889,12 @@
       "failure"
      ],
      "explain_en": "Fail → failure; the noun keeps the to-infinitive pattern.",
-     "explain_ru": "Fail → failure; существительное сохраняет модель с инфинитивом."
+     "explain_ru": "Fail → failure; существительное сохраняет модель с инфинитивом.",
+     "ui": {
+      "ru": {
+       "q": "Замените глагол существительным: They failed to comply with the rules, which led to a fine. → Their ___ (fail) to comply with the rules led to a fine."
+      }
+     }
     },
     {
      "id": "e03",
@@ -3530,7 +3919,12 @@
      "q": "'The committee's refusal to negotiate surprised the union' contains a nominalisation of 'refuse'.",
      "answer": true,
      "explain_en": "Refusal is the noun formed from refuse with the suffix -al.",
-     "explain_ru": "Refusal — существительное от refuse с суффиксом -al."
+     "explain_ru": "Refusal — существительное от refuse с суффиксом -al.",
+     "ui": {
+      "ru": {
+       "q": "В предложении 'The committee's refusal to negotiate surprised the union' есть номинализация глагола 'refuse'."
+      }
+     }
     },
     {
      "id": "e05",
@@ -3574,7 +3968,12 @@
      ],
      "answer": 0,
      "explain_en": "Passive + Latinate verb (conduct) + nominalisation (investigation) mark formal register.",
-     "explain_ru": "Пассив + латинский глагол (conduct) + номинализация (investigation) — признаки формального стиля."
+     "explain_ru": "Пассив + латинский глагол (conduct) + номинализация (investigation) — признаки формального стиля.",
+     "ui": {
+      "ru": {
+       "q": "Какой вариант самый формальный?"
+      }
+     }
     },
     {
      "id": "e07",
@@ -3584,7 +3983,12 @@
       "inaccuracy"
      ],
      "explain_en": "Not accurate → inaccuracy (negative prefix + suffix -cy).",
-     "explain_ru": "Not accurate → inaccuracy (отрицательная приставка + суффикс -cy)."
+     "explain_ru": "Not accurate → inaccuracy (отрицательная приставка + суффикс -cy).",
+     "ui": {
+      "ru": {
+       "q": "Образуйте существительное от прилагательного: The data were not accurate, which caused problems. → The ___ (accurate) of the data caused problems."
+      }
+     }
     },
     {
      "id": "e08",
@@ -3606,7 +4010,12 @@
      "q": "Spot the error: 'The possibility to reach an agreement is remote' is standard English.",
      "answer": false,
      "explain_en": "Possibility takes of + -ing: the possibility of reaching an agreement.",
-     "explain_ru": "Possibility требует of + -ing: the possibility of reaching an agreement."
+     "explain_ru": "Possibility требует of + -ing: the possibility of reaching an agreement.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: 'The possibility to reach an agreement is remote' — нормативный английский."
+      }
+     }
     },
     {
      "id": "e10",
@@ -3664,7 +4073,12 @@
      "q": "Nominalised style is always clearer than verbal style.",
      "answer": false,
      "explain_en": "Over-nominalisation makes prose heavy; verbs are often clearer.",
-     "explain_ru": "Чрезмерная номинализация утяжеляет текст; глаголы часто яснее."
+     "explain_ru": "Чрезмерная номинализация утяжеляет текст; глаголы часто яснее.",
+     "ui": {
+      "ru": {
+       "q": "Номинативный стиль всегда понятнее глагольного."
+      }
+     }
     },
     {
      "id": "e15",
@@ -3690,7 +4104,33 @@
        "with regard to",
        "в отношении / что касается"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "the implementation of",
+         "the putting into practice of"
+        ],
+        [
+         "failure to",
+         "not doing what is required"
+        ],
+        [
+         "the extent of",
+         "the size or degree of"
+        ],
+        [
+         "in the absence of",
+         "without; when there is no"
+        ],
+        [
+         "with regard to",
+         "concerning; regarding"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e16",
@@ -3714,7 +4154,12 @@
       "refusal"
      ],
      "explain_en": "Refuse → refusal + to-infinitive.",
-     "explain_ru": "Refuse → refusal + инфинитив с to."
+     "explain_ru": "Refuse → refusal + инфинитив с to.",
+     "ui": {
+      "ru": {
+       "q": "Перепишите, используя 'refusal': The minister refused to comment, which angered the press. → The minister's ___ to comment angered the press."
+      }
+     }
     },
     {
      "id": "e18",
@@ -3728,7 +4173,12 @@
      ],
      "answer": 0,
      "explain_en": "Utilisation and completion of registration hide simple actions behind abstract nouns.",
-     "explain_ru": "Utilisation и completion of registration прячут простые действия за абстрактными существительными."
+     "explain_ru": "Utilisation и completion of registration прячут простые действия за абстрактными существительными.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение перегружено номинализацией и его следует упростить?"
+      }
+     }
     },
     {
      "id": "e19",
@@ -3764,7 +4214,12 @@
      "q": "'The emergence of new markets' is a correct nominalisation of 'new markets emerged'.",
      "answer": true,
      "explain_en": "Emerge → emergence; the subject becomes an of-phrase.",
-     "explain_ru": "Emerge → emergence; подлежащее становится оборотом с of."
+     "explain_ru": "Emerge → emergence; подлежащее становится оборотом с of.",
+     "ui": {
+      "ru": {
+       "q": "'The emergence of new markets' — правильная номинализация фразы 'new markets emerged'."
+      }
+     }
     },
     {
      "id": "e22",
@@ -3778,7 +4233,12 @@
      ],
      "answer": 0,
      "explain_en": "The fixed phrase is the extent to which.",
-     "explain_ru": "Устойчивое выражение: the extent to which."
+     "explain_ru": "Устойчивое выражение: the extent to which.",
+     "ui": {
+      "ru": {
+       "q": "Выберите вариант: The study examines the ___ which income affects health."
+      }
+     }
     },
     {
      "id": "e23",
@@ -3826,7 +4286,12 @@
      "q": "Spot the error: 'The government's rapid response to the crisis was praised' is correct.",
      "answer": true,
      "explain_en": "Respond → response; the adverb rapidly becomes the adjective rapid.",
-     "explain_ru": "Respond → response; наречие rapidly становится прилагательным rapid."
+     "explain_ru": "Respond → response; наречие rapidly становится прилагательным rapid.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'The government's rapid response to the crisis was praised' правильное."
+      }
+     }
     },
     {
      "id": "e27",
@@ -4079,7 +4544,12 @@
      "q": "'I don't think so' and 'I think not' both mean the same thing, but the second is more formal.",
      "answer": true,
      "explain_en": "Both negate the substituted clause; I think not is formal or emphatic.",
-     "explain_ru": "Оба отрицают замещённое предложение; I think not — формальный или эмфатический вариант."
+     "explain_ru": "Оба отрицают замещённое предложение; I think not — формальный или эмфатический вариант.",
+     "ui": {
+      "ru": {
+       "q": "'I don't think so' и 'I think not' означают одно и то же, но второй вариант более формальный."
+      }
+     }
     },
     {
      "id": "e05",
@@ -4156,7 +4626,12 @@
      "q": "Spot the error: 'Both Tom and Anna applied; the latter was accepted' refers to Tom.",
      "answer": false,
      "explain_en": "The latter refers to the second item mentioned: Anna.",
-     "explain_ru": "The latter относится ко второму из упомянутых: Anna."
+     "explain_ru": "The latter относится ко второму из упомянутых: Anna.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: в предложении 'Both Tom and Anna applied; the latter was accepted' слово 'the latter' относится к Тому."
+      }
+     }
     },
     {
      "id": "e10",
@@ -4222,7 +4697,12 @@
      ],
      "answer": 0,
      "explain_en": "He could refer to either the manager or the clerk.",
-     "explain_ru": "He может относиться и к менеджеру, и к клерку."
+     "explain_ru": "He может относиться и к менеджеру, и к клерку.",
+     "ui": {
+      "ru": {
+       "q": "Какое слово неоднозначно в предложении 'The manager told the clerk that he was wrong'?"
+      }
+     }
     },
     {
      "id": "e15",
@@ -4230,7 +4710,12 @@
      "q": "'Sounds good!' is an example of situational ellipsis (the subject 'that' is omitted).",
      "answer": true,
      "explain_en": "Informal speech drops the obvious subject: (That) sounds good.",
-     "explain_ru": "В неформальной речи очевидное подлежащее опускается: (That) sounds good."
+     "explain_ru": "В неформальной речи очевидное подлежащее опускается: (That) sounds good.",
+     "ui": {
+      "ru": {
+       "q": "'Sounds good!' — пример ситуативного эллипсиса (опущено подлежащее 'that')."
+      }
+     }
     },
     {
      "id": "e16",
@@ -4256,7 +4741,33 @@
        "the following",
        "следующее / нижеследующее"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "the former",
+         "the first of two"
+        ],
+        [
+         "the latter",
+         "the second of two"
+        ],
+        [
+         "respectively",
+         "in the order mentioned"
+        ],
+        [
+         "the aforementioned",
+         "mentioned earlier"
+        ],
+        [
+         "the following",
+         "what comes next"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -4266,7 +4777,12 @@
       "respectively"
      ],
      "explain_en": "Respectively matches two lists in order.",
-     "explain_ru": "Respectively соотносит два списка по порядку."
+     "explain_ru": "Respectively соотносит два списка по порядку.",
+     "ui": {
+      "ru": {
+       "q": "Вставьте одно слово: Gold and silver rose by 3% and 5% ___."
+      }
+     }
     },
     {
      "id": "e18",
@@ -4288,7 +4804,12 @@
      "q": "Spot the error: 'She can play the piano, but her brother can't to' is correct.",
      "answer": false,
      "explain_en": "After a modal the verb phrase is simply dropped: her brother can't.",
-     "explain_ru": "После модального глагола глагольная группа просто опускается: her brother can't."
+     "explain_ru": "После модального глагола глагольная группа просто опускается: her brother can't.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'She can play the piano, but her brother can't to' правильное."
+      }
+     }
     },
     {
      "id": "e20",
@@ -4346,7 +4867,12 @@
      "q": "In 'The team won, and so did the reserves', the 'so' replaces 'won'.",
      "answer": true,
      "explain_en": "So did = also won.",
-     "explain_ru": "So did = тоже выиграли."
+     "explain_ru": "So did = тоже выиграли.",
+     "ui": {
+      "ru": {
+       "q": "В предложении 'The team won, and so did the reserves' слово 'so' заменяет 'won'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4360,7 +4886,12 @@
      ],
      "answer": 0,
      "explain_en": "Do so follows the modal directly and takes no object.",
-     "explain_ru": "Do so стоит сразу после модального глагола и не принимает дополнения."
+     "explain_ru": "Do so стоит сразу после модального глагола и не принимает дополнения.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении 'do so' употреблено правильно?"
+      }
+     }
     },
     {
      "id": "e26",
@@ -4415,7 +4946,12 @@
      "q": "Spot the error: 'The report, the summary and the appendix were sent to the client, the board and the auditor respectively' is correct.",
      "answer": true,
      "explain_en": "Respectively pairs the two lists in order: report–client, summary–board, appendix–auditor.",
-     "explain_ru": "Respectively соотносит списки по порядку: отчёт — клиенту, резюме — совету, приложение — аудитору."
+     "explain_ru": "Respectively соотносит списки по порядку: отчёт — клиенту, резюме — совету, приложение — аудитору.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'The report, the summary and the appendix were sent to the client, the board and the auditor respectively' правильное."
+      }
+     }
     }
    ]
   },
@@ -4636,7 +5172,12 @@
      "q": "'The reason because he left is unknown' is correct.",
      "answer": false,
      "explain_en": "The reason takes why or that: The reason why he left.",
-     "explain_ru": "The reason сочетается с why или that: The reason why he left."
+     "explain_ru": "The reason сочетается с why или that: The reason why he left.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'The reason because he left is unknown' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -4708,7 +5249,12 @@
      "q": "Spot the error: 'What he needs are a good rest' is correct.",
      "answer": false,
      "explain_en": "A what-clause subject takes a singular verb: What he needs is a good rest.",
-     "explain_ru": "Подлежащее-придаточное с what требует глагола в единственном числе: What he needs is a good rest."
+     "explain_ru": "Подлежащее-придаточное с what требует глагола в единственном числе: What he needs is a good rest.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'What he needs are a good rest' правильное."
+      }
+     }
     },
     {
      "id": "e10",
@@ -4718,7 +5264,12 @@
       "whereupon"
      ],
      "explain_en": "Whereupon = immediately after which.",
-     "explain_ru": "Whereupon = сразу после чего."
+     "explain_ru": "Whereupon = сразу после чего.",
+     "ui": {
+      "ru": {
+       "q": "Вставьте одно слово со значением «сразу после чего»: The judge delivered the verdict, ___ the defendant collapsed."
+      }
+     }
     },
     {
      "id": "e11",
@@ -4780,7 +5331,12 @@
      "q": "'The question of whether we should expand remains open' is correct.",
      "answer": true,
      "explain_en": "The question (of) whether introduces an indirect question.",
-     "explain_ru": "The question (of) whether вводит косвенный вопрос."
+     "explain_ru": "The question (of) whether вводит косвенный вопрос.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'The question of whether we should expand remains open' правильное."
+      }
+     }
     },
     {
      "id": "e16",
@@ -4806,7 +5362,33 @@
        "the way in which",
        "то, как / способ, которым"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "the extent to which",
+         "how far; to what degree"
+        ],
+        [
+         "whereby",
+         "by means of which; according to which"
+        ],
+        [
+         "in which case",
+         "if that happens"
+        ],
+        [
+         "by which time",
+         "before that moment"
+        ],
+        [
+         "the way in which",
+         "how; the method by which"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -4830,7 +5412,12 @@
      ],
      "answer": 0,
      "explain_en": "A non-defining clause sits between two commas and uses who, not that.",
-     "explain_ru": "Распространительное придаточное стоит между двумя запятыми и использует who, а не that."
+     "explain_ru": "Распространительное придаточное стоит между двумя запятыми и использует who, а не that.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении правильно расставлены знаки препинания?"
+      }
+     }
     },
     {
      "id": "e19",
@@ -4838,7 +5425,12 @@
      "q": "Spot the error: 'The people with who I work are friendly' is correct.",
      "answer": false,
      "explain_en": "After a preposition the pronoun must be whom: with whom I work.",
-     "explain_ru": "После предлога нужно whom: with whom I work."
+     "explain_ru": "После предлога нужно whom: with whom I work.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'The people with who I work are friendly' правильное."
+      }
+     }
     },
     {
      "id": "e20",
@@ -4865,7 +5457,12 @@
       "The way in which"
      ],
      "explain_en": "The way in which = how (formal).",
-     "explain_ru": "The way in which = how (формально)."
+     "explain_ru": "The way in which = how (формально).",
+     "ui": {
+      "ru": {
+       "q": "Перепишите, используя 'the way in which': How the data were collected is unclear. → ___ the data were collected is unclear."
+      }
+     }
     },
     {
      "id": "e22",
@@ -4897,7 +5494,12 @@
      "q": "In 'The claim that he made was false', the that-clause is a relative clause, not a noun complement clause.",
      "answer": true,
      "explain_en": "Here that = which (the claim which he made), so it is a relative clause.",
-     "explain_ru": "Здесь that = which (the claim which he made), значит это относительное придаточное."
+     "explain_ru": "Здесь that = which (the claim which he made), значит это относительное придаточное.",
+     "ui": {
+      "ru": {
+       "q": "В предложении 'The claim that he made was false' придаточное с that — определительное, а не дополнение к существительному."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4951,7 +5553,12 @@
      "q": "Spot the error: 'Whoever arrives first should unlock the office' is correct.",
      "answer": true,
      "explain_en": "Whoever arrives first is a nominal clause acting as subject.",
-     "explain_ru": "Whoever arrives first — именное придаточное в роли подлежащего."
+     "explain_ru": "Whoever arrives first — именное придаточное в роли подлежащего.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'Whoever arrives first should unlock the office' правильное."
+      }
+     }
     },
     {
      "id": "e29",
@@ -5158,7 +5765,12 @@
      ],
      "answer": 0,
      "explain_en": "A semicolon must join two independent clauses.",
-     "explain_ru": "Точка с запятой должна соединять два независимых предложения."
+     "explain_ru": "Точка с запятой должна соединять два независимых предложения.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении точка с запятой употреблена правильно?"
+      }
+     }
     },
     {
      "id": "e02",
@@ -5172,7 +5784,18 @@
      ],
      "answer": 0,
      "explain_en": "A colon introduces a list after a complete clause.",
-     "explain_ru": "Двоеточие вводит список после законченного предложения."
+     "explain_ru": "Двоеточие вводит список после законченного предложения.",
+     "ui": {
+      "ru": {
+       "q": "Какой знак препинания подходит: 'There are three options ___ wait, negotiate or withdraw.'",
+       "options": [
+        "двоеточие (:)",
+        "точка с запятой (;)",
+        "без знака препинания",
+        "вопросительный знак (?)"
+       ]
+      }
+     }
     },
     {
      "id": "e03",
@@ -5183,7 +5806,12 @@
       "nonetheless"
      ],
      "explain_en": "Nevertheless/nonetheless after a semicolon signals contrast.",
-     "explain_ru": "Nevertheless/nonetheless после точки с запятой выражают контраст."
+     "explain_ru": "Nevertheless/nonetheless после точки с запятой выражают контраст.",
+     "ui": {
+      "ru": {
+       "q": "Вставьте формальное наречие со значением противопоставления (одно слово на n): The plan was ambitious; ___, it failed."
+      }
+     }
     },
     {
      "id": "e04",
@@ -5191,7 +5819,12 @@
      "q": "'I came home late, my family had already eaten' is a comma splice.",
      "answer": true,
      "explain_en": "Two independent clauses are joined by a comma alone.",
-     "explain_ru": "Два независимых предложения соединены одной запятой."
+     "explain_ru": "Два независимых предложения соединены одной запятой.",
+     "ui": {
+      "ru": {
+       "q": "'I came home late, my family had already eaten' — пример comma splice (два независимых предложения, соединённые только запятой)."
+      }
+     }
     },
     {
      "id": "e05",
@@ -5249,7 +5882,12 @@
       "Notwithstanding"
      ],
      "explain_en": "Despite + noun phrase; although would need a clause.",
-     "explain_ru": "Despite + именная группа; although потребовало бы придаточного."
+     "explain_ru": "Despite + именная группа; although потребовало бы придаточного.",
+     "ui": {
+      "ru": {
+       "q": "Вставьте уступительный предлог (одно слово): ___ the heavy rain, the match went ahead."
+      }
+     }
     },
     {
      "id": "e08",
@@ -5263,7 +5901,12 @@
      ],
      "answer": 0,
      "explain_en": "Despite takes a noun; although takes a clause; despite of does not exist.",
-     "explain_ru": "Despite требует существительного; although — придаточного; despite of не существует."
+     "explain_ru": "Despite требует существительного; although — придаточного; despite of не существует.",
+     "ui": {
+      "ru": {
+       "q": "Какой вариант правильный?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -5271,7 +5914,12 @@
      "q": "Spot the error: 'The author, who's book was banned, fled abroad' is correct.",
      "answer": false,
      "explain_en": "Who's = who is; the possessive is whose.",
-     "explain_ru": "Who's = who is; притяжательная форма — whose."
+     "explain_ru": "Who's = who is; притяжательная форма — whose.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: предложение 'The author, who's book was banned, fled abroad' правильное."
+      }
+     }
     },
     {
      "id": "e10",
@@ -5282,7 +5930,12 @@
       "yet"
      ],
      "explain_en": "A coordinating conjunction (but/yet) can join two clauses with a comma.",
-     "explain_ru": "Сочинительный союз (but/yet) может соединять два предложения с запятой."
+     "explain_ru": "Сочинительный союз (but/yet) может соединять два предложения с запятой.",
+     "ui": {
+      "ru": {
+       "q": "Исправьте comma splice одним сочинительным союзом: She was exhausted, ___ she kept working."
+      }
+     }
     },
     {
      "id": "e11",
@@ -5296,7 +5949,12 @@
      ],
      "answer": 0,
      "explain_en": "Only before the verb could modify eats, fish or on Fridays.",
-     "explain_ru": "Only перед глаголом может относиться к eats, fish или on Fridays."
+     "explain_ru": "Only перед глаголом может относиться к eats, fish или on Fridays.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение неоднозначно?"
+      }
+     }
     },
     {
      "id": "e12",
@@ -5323,7 +5981,12 @@
       "well-known"
      ],
      "explain_en": "Compound modifiers before a noun are hyphenated: well-known.",
-     "explain_ru": "Составные определения перед существительным пишутся через дефис: well-known."
+     "explain_ru": "Составные определения перед существительным пишутся через дефис: well-known.",
+     "ui": {
+      "ru": {
+       "q": "Вставьте правильную форму (составное слово через дефис перед существительным): a ___ (well / know) author"
+      }
+     }
     },
     {
      "id": "e14",
@@ -5331,7 +5994,12 @@
      "q": "A colon can follow 'such as' to introduce a list, e.g. 'fruit such as: apples and pears'.",
      "answer": false,
      "explain_en": "No colon after such as or directly after a verb.",
-     "explain_ru": "После such as и сразу после глагола двоеточие не ставится."
+     "explain_ru": "После such as и сразу после глагола двоеточие не ставится.",
+     "ui": {
+      "ru": {
+       "q": "После 'such as' можно ставить двоеточие перед перечислением, например 'fruit such as: apples and pears'."
+      }
+     }
     },
     {
      "id": "e15",
@@ -5345,7 +6013,12 @@
      ],
      "answer": 0,
      "explain_en": "But and whereas are conjunctions; the others are adverbs needing a semicolon or full stop.",
-     "explain_ru": "But и whereas — союзы; остальные — наречия, которым нужна точка с запятой или точка."
+     "explain_ru": "But и whereas — союзы; остальные — наречия, которым нужна точка с запятой или точка.",
+     "ui": {
+      "ru": {
+       "q": "Какая пара — союзы (а не наречия), которые могут соединять два предложения через запятую?"
+      }
+     }
     },
     {
      "id": "e16",
@@ -5375,7 +6048,37 @@
        "in a nutshell",
        "в двух словах"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "nevertheless",
+         "even so; in spite of that"
+        ],
+        [
+         "hence",
+         "for this reason"
+        ],
+        [
+         "whereas",
+         "while, in contrast"
+        ],
+        [
+         "namely",
+         "that is; specifically"
+        ],
+        [
+         "that said",
+         "even so; having said that"
+        ],
+        [
+         "in a nutshell",
+         "in a few words; briefly"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e17",
@@ -5385,7 +6088,12 @@
       "its"
      ],
      "explain_en": "Its is the possessive; it's = it is.",
-     "explain_ru": "Its — притяжательная форма; it's = it is."
+     "explain_ru": "Its — притяжательная форма; it's = it is.",
+     "ui": {
+      "ru": {
+       "q": "Выберите its или it's: The company changed ___ policy last year."
+      }
+     }
     },
     {
      "id": "e18",
@@ -5399,7 +6107,12 @@
      ],
      "answer": 0,
      "explain_en": "Almost should modify the whole, not ate: I ate almost the whole pizza.",
-     "explain_ru": "Almost должно относиться к the whole, а не к ate: I ate almost the whole pizza."
+     "explain_ru": "Almost должно относиться к the whole, а не к ate: I ate almost the whole pizza.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении определение стоит не на своём месте?"
+      }
+     }
     },
     {
      "id": "e19",
@@ -5407,7 +6120,12 @@
      "q": "'It's' is the possessive form of 'it'.",
      "answer": false,
      "explain_en": "It's = it is / it has; the possessive is its.",
-     "explain_ru": "It's = it is / it has; притяжательная форма — its."
+     "explain_ru": "It's = it is / it has; притяжательная форма — its.",
+     "ui": {
+      "ru": {
+       "q": "'It's' — притяжательная форма от 'it'."
+      }
+     }
     },
     {
      "id": "e20",
@@ -5445,7 +6163,12 @@
      ],
      "answer": 0,
      "explain_en": "Mind you introduces a concession or qualification in speech.",
-     "explain_ru": "Mind you вводит уступку или оговорку в разговорной речи."
+     "explain_ru": "Mind you вводит уступку или оговорку в разговорной речи.",
+     "ui": {
+      "ru": {
+       "q": "Какой маркер выражает уступку в разговорном английском?"
+      }
+     }
     },
     {
      "id": "e23",
@@ -5463,7 +6186,12 @@
      "q": "Spot the error: 'The CEO resigned — a decision that shocked the market' uses the dash correctly.",
      "answer": true,
      "explain_en": "A dash can introduce an emphatic afterthought or comment.",
-     "explain_ru": "Тире может вводить эмфатическое добавление или комментарий."
+     "explain_ru": "Тире может вводить эмфатическое добавление или комментарий.",
+     "ui": {
+      "ru": {
+       "q": "Проверьте: в предложении 'The CEO resigned — a decision that shocked the market' тире употреблено правильно."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5477,7 +6205,12 @@
      ],
      "answer": 0,
      "explain_en": "Repeating the noun makes clear who was nervous; he could refer to either man.",
-     "explain_ru": "Повтор существительного проясняет, кто нервничал; he может относиться к любому из двух."
+     "explain_ru": "Повтор существительного проясняет, кто нервничал; he может относиться к любому из двух.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении нет двусмысленности?"
+      }
+     }
     },
     {
      "id": "e26",
@@ -5504,7 +6237,12 @@
       "colon"
      ],
      "explain_en": "A colon introduces the single item that explains the goal.",
-     "explain_ru": "Двоеточие вводит элемент, раскрывающий, какая именно цель."
+     "explain_ru": "Двоеточие вводит элемент, раскрывающий, какая именно цель.",
+     "ui": {
+      "ru": {
+       "q": "Назовите знак препинания, который нужен здесь: 'He had one goal ___ to win.' (ответ по-английски: colon или semicolon)"
+      }
+     }
     },
     {
      "id": "e28",
@@ -5512,7 +6250,12 @@
      "q": "'The report is thorough, however, it is too long' is correctly punctuated.",
      "answer": false,
      "explain_en": "However is an adverb, so a semicolon or full stop is needed before it.",
-     "explain_ru": "However — наречие, поэтому перед ним нужна точка с запятой или точка."
+     "explain_ru": "However — наречие, поэтому перед ним нужна точка с запятой или точка.",
+     "ui": {
+      "ru": {
+       "q": "В предложении 'The report is thorough, however, it is too long' знаки препинания расставлены правильно."
+      }
+     }
     },
     {
      "id": "e29",

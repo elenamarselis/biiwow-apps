@@ -103,7 +103,7 @@
     {
      "title_en": "Main verb in the past: imperfetto or trapassato",
      "title_ru": "Главный глагол в прошедшем: imperfetto или trapassato",
-     "body_en": "After a main verb in a past tense (passato prossimo, imperfetto, passato remoto, trapassato), use the congiuntivo imperfetto for a simultaneous action and the congiuntivo trapassato for an earlier one. Russian keeps the present here (Я думал, что он дома), Italian must shift: Pensavo che fosse a casa.",
+     "body_en": "After a main verb in a past tense (passato prossimo, imperfetto, passato remoto, trapassato), use the congiuntivo imperfetto for a simultaneous action and the congiuntivo trapassato for an earlier one. Russian keeps the present here ('I thought that he is at home'), while Italian must shift: Pensavo che fosse a casa.",
      "body_ru": "Если главный глагол в прошедшем времени (passato prossimo, imperfetto, passato remoto, trapassato), то одновременное действие выражается через congiuntivo imperfetto, а предшествующее — через congiuntivo trapassato. В русском языке согласования времён нет: «Я думал, что он дома» — настоящее время. В итальянском нужен сдвиг: Pensavo che fosse a casa; «Я думал, что он ушёл» — Pensavo che fosse uscito.",
      "examples": [
       {
@@ -233,7 +233,7 @@
       "sarai"
      ],
      "answer": 0,
-     "explain_en": "Past main verb + simultaneous action: congiuntivo imperfetto. Russian keeps the present ('что ты дома'), Italian shifts.",
+     "explain_en": "Past main verb + simultaneous action: congiuntivo imperfetto. Russian keeps the present ('that you are at home'), Italian shifts.",
      "explain_ru": "Главный глагол в прошедшем + одновременное действие: congiuntivo imperfetto. По-русски «что ты дома» — настоящее время, а в итальянском нужен сдвиг."
     },
     {
@@ -478,7 +478,12 @@
      "q": "'Pensavo che sei a casa' is correct standard Italian.",
      "answer": false,
      "explain_en": "Wrong: a past main verb requires the congiuntivo imperfetto: Pensavo che fossi a casa.",
-     "explain_ru": "Неверно: после главного глагола в прошедшем нужен congiuntivo imperfetto: Pensavo che fossi a casa."
+     "explain_ru": "Неверно: после главного глагола в прошедшем нужен congiuntivo imperfetto: Pensavo che fossi a casa.",
+     "ui": {
+      "ru": {
+       "q": "«Pensavo che sei a casa» — правильный литературный итальянский."
+      }
+     }
     },
     {
      "id": "e24",
@@ -486,7 +491,12 @@
      "q": "The congiuntivo trapassato is formed with the congiuntivo imperfetto of avere or essere + past participle.",
      "answer": true,
      "explain_en": "Correct: avessi fatto, fossi andato.",
-     "explain_ru": "Верно: avessi fatto, fossi andato."
+     "explain_ru": "Верно: avessi fatto, fossi andato.",
+     "ui": {
+      "ru": {
+       "q": "Congiuntivo trapassato образуется из congiuntivo imperfetto глагола avere или essere + причастие прошедшего времени."
+      }
+     }
     },
     {
      "id": "e25",
@@ -494,7 +504,12 @@
      "q": "After 'vorrei che' the congiuntivo presente is normal: 'Vorrei che tu venga.'",
      "answer": false,
      "explain_en": "Wrong: after a conditional use the congiuntivo imperfetto: Vorrei che tu venissi.",
-     "explain_ru": "Неверно: после условного наклонения нужен congiuntivo imperfetto: Vorrei che tu venissi."
+     "explain_ru": "Неверно: после условного наклонения нужен congiuntivo imperfetto: Vorrei che tu venissi.",
+     "ui": {
+      "ru": {
+       "q": "После «vorrei che» обычно употребляется congiuntivo presente: «Vorrei che tu venga»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -599,9 +614,9 @@
      ]
     },
     {
-     "title_en": "Russian 'бы' covers two Italian types",
+     "title_en": "One Russian conditional, two Italian types",
      "title_ru": "Русское «бы» соответствует двум итальянским типам",
-     "body_en": "Russian uses the same form for present and past unreality: «Если бы у меня было время, я бы пришёл» can mean now or then. Italian must choose: Se avessi tempo, verrei (now, type 2) / Se avessi avuto tempo, sarei venuto (then, type 3). Look for time words (ieri, adesso) to decide.",
+     "body_en": "Russian uses the same form for present and past unreality: 'If I had time, I would come' and 'If I had had time, I would have come' are the same sentence in Russian. Italian must choose: Se avessi tempo, verrei (now, type 2) / Se avessi avuto tempo, sarei venuto (then, type 3). Look for time words (ieri, adesso) to decide.",
      "body_ru": "В русском одна и та же форма с «бы» описывает и нереальное настоящее, и нереальное прошлое: «Если бы у меня было время, я бы пришёл» — сейчас или тогда? В итальянском нужно выбрать: Se avessi tempo, verrei (сейчас, тип 2) / Se avessi avuto tempo, sarei venuto (тогда, тип 3). Подсказкой служат слова времени: ieri, adesso, l'anno scorso.",
      "examples": [
       {
@@ -670,7 +685,7 @@
     {
      "title_en": "No conditional after se",
      "title_ru": "После se не бывает условного наклонения",
-     "body_en": "In hypothetical sentences the se clause never takes the conditional: *Se avrei saputo is a typical mistake, influenced by Russian, where «бы» appears in both halves. The correct form is Se avessi saputo, avrei… The conditional goes only in the main clause.",
+     "body_en": "In hypothetical sentences the se clause never takes the conditional: *Se avrei saputo is a typical mistake, influenced by Russian, where the conditional particle appears in both halves. The correct form is Se avessi saputo, avrei… The conditional goes only in the main clause.",
      "body_ru": "В условных предложениях после se никогда не ставится condizionale: *Se avrei saputo — типичная ошибка, в том числе под влиянием русского языка, где «бы» стоит в обеих частях («если бы знал, я бы…»). Правильно: Se avessi saputo, avrei… Условное наклонение — только в главной части, после se — только congiuntivo.",
      "examples": [
       {
@@ -706,7 +721,7 @@
     {
      "title_en": "Without se: Avessi saputo…, Fossi in te…",
      "title_ru": "Без se: Avessi saputo…, Fossi in te…",
-     "body_en": "Se can be dropped and the clause starts with the subjunctive: Avessi saputo che eri qui, sarei venuto prima. The fixed phrase Fossi in te (= Se fossi in te) means «на твоём месте». This is like Russian «Знай я…», «Будь я на твоём месте…».",
+     "body_en": "Se can be dropped and the clause starts with the subjunctive: Avessi saputo che eri qui, sarei venuto prima. The fixed phrase Fossi in te (= Se fossi in te) means 'if I were you'. This is like English inversion: 'Had I known…', 'Were I in your place…'.",
      "body_ru": "Se можно опустить, и придаточное начинается прямо с congiuntivo: Avessi saputo che eri qui, sarei venuto prima — «Знай я, что ты здесь, я бы пришёл раньше». Устойчивое Fossi in te (= Se fossi in te) значит «на твоём месте». Это похоже на русские конструкции «Знай я…», «Будь я на твоём месте…».",
      "examples": [
       {
@@ -729,7 +744,7 @@
     {
      "title_en": "Regret and reproach: avrei dovuto, avrei potuto",
      "title_ru": "Сожаление и упрёк: avrei dovuto, avrei potuto",
-     "body_en": "The condizionale passato of modal verbs expresses regret or reproach about the past: Avresti dovuto dirmelo («Тебе следовало мне сказать»), Avrei potuto aiutarti («Я мог бы тебе помочь»), Avrei voluto vederlo. With a verb that takes essere, the modal can take essere too: Sarei dovuto partire prima.",
+     "body_en": "The condizionale passato of modal verbs expresses regret or reproach about the past: Avresti dovuto dirmelo ('You should have told me'), Avrei potuto aiutarti ('I could have helped you'), Avrei voluto vederlo. With a verb that takes essere, the modal can take essere too: Sarei dovuto partire prima.",
      "body_ru": "Condizionale passato модальных глаголов выражает сожаление или упрёк о прошлом: Avresti dovuto dirmelo — «Тебе следовало мне сказать», Avrei potuto aiutarti — «Я мог бы тебе помочь», Avrei voluto vederlo — «Я бы хотел его увидеть». В русском здесь просто «следовало», «мог бы», а в итальянском нужна сложная форма. С глаголом на essere модальный глагол тоже может брать essere: Sarei dovuto partire prima.",
      "examples": [
       {
@@ -846,7 +861,7 @@
       "Sia"
      ],
      "answer": 2,
-     "explain_en": "Fixed phrase without se: Fossi in te = «на твоём месте».",
+     "explain_en": "Fixed phrase without se: Fossi in te = 'if I were you'.",
      "explain_ru": "Устойчивое выражение без se: Fossi in te — «на твоём месте»."
     },
     {
@@ -875,7 +890,12 @@
      ],
      "answer": 0,
      "explain_en": "Spoken Italian often uses the imperfetto in both clauses instead of type 3. The other options are simply wrong.",
-     "explain_ru": "В разговорной речи вместо третьего типа часто используют imperfetto в обеих частях. Остальные варианты просто ошибочны."
+     "explain_ru": "В разговорной речи вместо третьего типа часто используют imperfetto в обеих частях. Остальные варианты просто ошибочны.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение разговорное, но очень частое в устной речи?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -948,7 +968,7 @@
      "answer": [
       "avresti dovuto"
      ],
-     "explain_en": "Reproach about the past: condizionale passato of dovere. Russian: «Тебе следовало…».",
+     "explain_en": "Reproach about the past: condizionale passato of dovere, 'You should have…'.",
      "explain_ru": "Упрёк о прошлом: condizionale passato от dovere. По-русски — «Тебе следовало…»."
     },
     {
@@ -970,7 +990,7 @@
       "Fossi",
       "fossi"
      ],
-     "explain_en": "Fossi in te = Se fossi in te, «на твоём месте».",
+     "explain_en": "Fossi in te = Se fossi in te, 'if I were you'.",
      "explain_ru": "Fossi in te = Se fossi in te — «на твоём месте»."
     },
     {
@@ -1039,7 +1059,12 @@
      "q": "'Se avrei saputo, sarei venuto' is correct standard Italian.",
      "answer": false,
      "explain_en": "Wrong: no conditional after se. Correct: Se avessi saputo, sarei venuto.",
-     "explain_ru": "Неверно: после se не бывает condizionale. Правильно: Se avessi saputo, sarei venuto."
+     "explain_ru": "Неверно: после se не бывает condizionale. Правильно: Se avessi saputo, sarei venuto.",
+     "ui": {
+      "ru": {
+       "q": "«Se avrei saputo, sarei venuto» — правильный литературный итальянский."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1047,7 +1072,12 @@
      "q": "In 'Se avessi preso l'ombrello, ora non sarei bagnato' the condition is in the past and the result in the present.",
      "answer": true,
      "explain_en": "Correct: this is a mixed conditional (trapassato + condizionale presente).",
-     "explain_ru": "Верно: это смешанный тип (trapassato + condizionale presente)."
+     "explain_ru": "Верно: это смешанный тип (trapassato + condizionale presente).",
+     "ui": {
+      "ru": {
+       "q": "В «Se avessi preso l'ombrello, ora non sarei bagnato» условие относится к прошлому, а результат — к настоящему."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1055,7 +1085,15 @@
      "q": "Russian «Если бы я знал» always corresponds to Italian 'Se sapessi'.",
      "answer": false,
      "explain_en": "Wrong: if it refers to the past, Italian needs Se avessi saputo.",
-     "explain_ru": "Неверно: если речь о прошлом, в итальянском нужно Se avessi saputo."
+     "explain_ru": "Неверно: если речь о прошлом, в итальянском нужно Se avessi saputo.",
+     "ui": {
+      "en": {
+       "q": "English 'If I knew' and 'If I had known' are both always translated as Italian 'Se sapessi'."
+      },
+      "ru": {
+       "q": "Русское «Если бы я знал» всегда соответствует итальянскому «Se sapessi»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1099,7 +1137,29 @@
        "fossi in te",
        "на твоём месте"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "avrei dovuto",
+         "I should have"
+        ],
+        [
+         "avrei potuto",
+         "I could have (back then)"
+        ],
+        [
+         "avrei voluto",
+         "I would have liked (back then)"
+        ],
+        [
+         "fossi in te",
+         "if I were you"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1135,7 +1195,7 @@
     {
      "title_en": "Sebbene, nonostante, malgrado + congiuntivo",
      "title_ru": "Sebbene, nonostante, malgrado + congiuntivo",
-     "body_en": "Sebbene, nonostante (che) and malgrado (che) mean 'although', like benché, and require the subjunctive: Sebbene piova, usciamo. Anche se means the same but takes the indicative: Anche se piove, usciamo. Russian «хотя» always takes the indicative, so the subjunctive here is a trap.",
+     "body_en": "Sebbene, nonostante (che) and malgrado (che) mean 'although', like benché, and require the subjunctive: Sebbene piova, usciamo. Anche se means the same but takes the indicative: Anche se piove, usciamo. English 'although' (and its Russian equivalent) always takes the indicative, so the subjunctive here is a trap.",
      "body_ru": "Sebbene, nonostante (che) и malgrado (che) значат «хотя», как и benché, и требуют congiuntivo: Sebbene piova, usciamo — «Хотя идёт дождь, мы выходим». Anche se значит то же самое, но требует indicativo: Anche se piove, usciamo. Русское «хотя» всегда с изъявительным наклонением, поэтому congiuntivo здесь — ловушка для русскоговорящих.",
      "examples": [
       {
@@ -1176,7 +1236,7 @@
     {
      "title_en": "Purché, a patto che, a condizione che",
      "title_ru": "Purché, a patto che, a condizione che",
-     "body_en": "These conjunctions introduce a condition («при условии, что», «лишь бы») and take the subjunctive: Ti presto la macchina purché tu me la riporti stasera. A patto che and a condizione che are a little more formal. The tense follows the concordanza: … a patto che tornassi presto.",
+     "body_en": "These conjunctions introduce a condition ('provided that', 'as long as') and take the subjunctive: Ti presto la macchina purché tu me la riporti stasera. A patto che and a condizione che are a little more formal. The tense follows the concordanza: … a patto che tornassi presto.",
      "body_ru": "Эти союзы вводят условие («при условии, что», «лишь бы») и требуют congiuntivo: Ti presto la macchina purché tu me la riporti stasera — «Я одолжу тебе машину при условии, что ты вернёшь её вечером». A patto che и a condizione che звучат чуть официальнее. Время подчиняется согласованию: Mi ha dato il permesso a patto che tornassi presto.",
      "examples": [
       {
@@ -1199,7 +1259,7 @@
     {
      "title_en": "Qualora and nel caso in cui",
      "title_ru": "Qualora и nel caso in cui",
-     "body_en": "Qualora (formal) and nel caso in cui / in caso mean «в случае если» and take the subjunctive, usually the presente or imperfetto: Qualora ci fossero problemi, chiamateci. Nel caso in cui tu non possa venire, avvisami. They are typical of instructions, contracts and official letters.",
+     "body_en": "Qualora (formal) and nel caso in cui / in caso mean 'in case, if' and take the subjunctive, usually the presente or imperfetto: Qualora ci fossero problemi, chiamateci. Nel caso in cui tu non possa venire, avvisami. They are typical of instructions, contracts and official letters.",
      "body_ru": "Qualora (официальный стиль) и nel caso in cui / in caso значат «в случае если» и требуют congiuntivo, обычно presente или imperfetto: Qualora ci fossero problemi, chiamateci — «В случае возникновения проблем звоните нам». Nel caso in cui tu non possa venire, avvisami. Это типично для инструкций, договоров и официальных писем.",
      "examples": [
       {
@@ -1222,7 +1282,7 @@
     {
      "title_en": "A meno che (non): the empty non",
      "title_ru": "A meno che (non): «пустое» non",
-     "body_en": "A meno che means «если только не», «разве что», and takes the subjunctive. It is usually followed by a non that does NOT negate anything: Vengo, a meno che non piova = I'll come unless it rains. Do not translate this non: it is expletive.",
+     "body_en": "A meno che means 'unless', 'except if', and takes the subjunctive. It is usually followed by a non that does NOT negate anything: Vengo, a meno che non piova = I'll come unless it rains. Do not translate this non: it is expletive.",
      "body_ru": "A meno che значит «если только не», «разве что» и требует congiuntivo. После него обычно стоит non, которое НИЧЕГО не отрицает: Vengo, a meno che non piova — «Я приду, если только не будет дождя». Это «пустое» (плеонастическое) non, его не надо переводить как отрицание. Похожее явление есть в русском: «пока не придёт» = «до тех пор, как придёт».",
      "examples": [
       {
@@ -1240,7 +1300,7 @@
     {
      "title_en": "Senza che vs senza + infinitive",
      "title_ru": "Senza che и senza + инфинитив",
-     "body_en": "Senza che + subjunctive is used when the subjects are different: È uscito senza che nessuno lo vedesse. When the subject is the same, use senza + infinitive: È uscito senza salutare. Russian uses «так, что никто не…» or a gerund («не попрощавшись»).",
+     "body_en": "Senza che + subjunctive is used when the subjects are different: È uscito senza che nessuno lo vedesse. When the subject is the same, use senza + infinitive: È uscito senza salutare. English uses 'without' + a gerund in both cases ('without anyone seeing him', 'without saying goodbye').",
      "body_ru": "Senza che + congiuntivo используется, когда подлежащие разные: È uscito senza che nessuno lo vedesse — «Он вышел так, что никто его не увидел». Если подлежащее одно и то же, нужен senza + инфинитив: È uscito senza salutare — «Он вышел не попрощавшись». В русском здесь обычно деепричастие или оборот «так, что никто не…».",
      "examples": [
       {
@@ -1263,7 +1323,7 @@
     {
      "title_en": "Come se + congiuntivo imperfetto or trapassato",
      "title_ru": "Come se + congiuntivo imperfetto или trapassato",
-     "body_en": "Come se («как будто») is followed only by the congiuntivo imperfetto (simultaneous) or trapassato (earlier), even when the main verb is in the present: Parla come se fosse il capo. Mi guarda come se non mi avesse mai visto. Russian «как будто» takes the indicative.",
+     "body_en": "Come se ('as if') is followed only by the congiuntivo imperfetto (simultaneous) or trapassato (earlier), even when the main verb is in the present: Parla come se fosse il capo. Mi guarda come se non mi avesse mai visto. Russian 'as if' takes the indicative.",
      "body_ru": "После come se («как будто») ставится только congiuntivo imperfetto (одновременное действие) или trapassato (предшествующее) — даже если главный глагол в настоящем: Parla come se fosse il capo — «Он говорит так, как будто он начальник». Mi guarda come se non mi avesse mai visto. В русском «как будто» сочетается с обычным изъявительным наклонением, а в итальянском congiuntivo presente после come se невозможен.",
      "examples": [
       {
@@ -1286,7 +1346,7 @@
     {
      "title_en": "Chiunque, qualunque, dovunque, comunque",
      "title_ru": "Chiunque, qualunque, dovunque, comunque",
-     "body_en": "These indefinites mean «кто бы ни», «какой бы ни», «где бы ни», «как бы ни» and take the subjunctive: Chiunque chiami, di' che non ci sono. Qualunque cosa tu faccia, ti sosterrò. Dovunque tu vada, ti seguirò. Comunque vada, sarà un successo.",
+     "body_en": "These indefinites mean 'whoever', 'whatever', 'wherever', 'however' and take the subjunctive: Chiunque chiami, di' che non ci sono. Qualunque cosa tu faccia, ti sosterrò. Dovunque tu vada, ti seguirò. Comunque vada, sarà un successo.",
      "body_ru": "Эти неопределённые слова соответствуют русским «кто бы ни», «какой бы ни», «где бы ни», «как бы ни» и требуют congiuntivo: Chiunque chiami, di' che non ci sono — «Кто бы ни позвонил, скажи, что меня нет». Qualunque cosa tu faccia, ti sosterrò. Dovunque tu vada, ti seguirò. Comunque vada, sarà un successo. Русская частица «бы» здесь подсказывает итальянское сослагательное наклонение.",
      "examples": [
       {
@@ -1347,7 +1407,7 @@
       "purché"
      ],
      "answer": 3,
-     "explain_en": "A condition («при условии, что»): purché + congiuntivo.",
+     "explain_en": "A condition ('provided that'): purché + congiuntivo.",
      "explain_ru": "Условие («при условии, что»): purché + congiuntivo."
     },
     {
@@ -1431,7 +1491,7 @@
       "Purché"
      ],
      "answer": 2,
-     "explain_en": "Qualora = «в случае если», formal, with the subjunctive.",
+     "explain_en": "Qualora = 'in case, if', formal, with the subjunctive.",
      "explain_ru": "Qualora — «в случае если», официальный стиль, с congiuntivo."
     },
     {
@@ -1445,7 +1505,7 @@
       "Qualunque"
      ],
      "answer": 0,
-     "explain_en": "«Кто бы ни позвонил» = chiunque + congiuntivo.",
+     "explain_en": "'Whoever calls' = chiunque + congiuntivo.",
      "explain_ru": "«Кто бы ни позвонил» — chiunque + congiuntivo."
     },
     {
@@ -1601,7 +1661,12 @@
      "q": "'Anche se' is normally followed by the indicative: 'Anche se piove, esco.'",
      "answer": true,
      "explain_en": "Correct: anche se takes the indicative, unlike sebbene.",
-     "explain_ru": "Верно: anche se требует indicativo, в отличие от sebbene."
+     "explain_ru": "Верно: anche se требует indicativo, в отличие от sebbene.",
+     "ui": {
+      "ru": {
+       "q": "После «anche se» обычно стоит индикатив: «Anche se piove, esco»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1609,7 +1674,12 @@
      "q": "In 'a meno che non venga' the word 'non' makes the clause negative.",
      "answer": false,
      "explain_en": "Wrong: this non is expletive; the meaning is 'unless he comes'.",
-     "explain_ru": "Неверно: это «пустое» non; смысл — «если только он не придёт»."
+     "explain_ru": "Неверно: это «пустое» non; смысл — «если только он не придёт».",
+     "ui": {
+      "ru": {
+       "q": "В «a meno che non venga» слово «non» делает придаточное отрицательным."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1617,7 +1687,12 @@
      "q": "'Come se' is followed by the congiuntivo presente: 'Parla come se sappia tutto.'",
      "answer": false,
      "explain_en": "Wrong: come se takes the imperfetto or trapassato: come se sapesse tutto.",
-     "explain_ru": "Неверно: после come se — imperfetto или trapassato: come se sapesse tutto."
+     "explain_ru": "Неверно: после come se — imperfetto или trapassato: come se sapesse tutto.",
+     "ui": {
+      "ru": {
+       "q": "После «come se» употребляется congiuntivo presente: «Parla come se sappia tutto»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1647,7 +1722,37 @@
        "qualora",
        "в случае если"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "sebbene",
+         "although"
+        ],
+        [
+         "purché",
+         "provided that"
+        ],
+        [
+         "a meno che non",
+         "unless"
+        ],
+        [
+         "come se",
+         "as if"
+        ],
+        [
+         "senza che",
+         "without (someone doing)"
+        ],
+        [
+         "qualora",
+         "in case, if"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1695,7 +1800,29 @@
        "comunque",
        "как бы ни"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "chiunque",
+         "whoever"
+        ],
+        [
+         "qualunque cosa",
+         "whatever"
+        ],
+        [
+         "dovunque",
+         "wherever"
+        ],
+        [
+         "comunque",
+         "however, no matter how"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1732,7 +1859,7 @@
     {
      "title_en": "After negatives: nessuno, niente, non c'è",
      "title_ru": "После отрицания: nessuno, niente, non c'è",
-     "body_en": "If the antecedent is denied (nessuno, niente, non c'è, non conosco nessuno), the relative clause takes the subjunctive: Non c'è nessuno che mi capisca. Non c'è niente che tu possa fare. Russian often uses «бы» here too: «Нет никого, кто бы меня понимал».",
+     "body_en": "If the antecedent is denied (nessuno, niente, non c'è, non conosco nessuno), the relative clause takes the subjunctive: Non c'è nessuno che mi capisca. Non c'è niente che tu possa fare. Russian often uses its conditional particle here too ('There is nobody who would understand me').",
      "body_ru": "Если существование предмета отрицается (nessuno, niente, non c'è, non conosco nessuno), в относительном придаточном нужен congiuntivo: Non c'è nessuno che mi capisca — «Нет никого, кто бы меня понимал». Non c'è niente che tu possa fare — «Ты ничего не можешь сделать». В русском здесь тоже часто появляется «бы», и это хорошая подсказка.",
      "examples": [
       {
@@ -1982,7 +2109,12 @@
      ],
      "answer": 1,
      "explain_en": "The indicative (parla) describes a real, known person; the subjunctive describes a requirement.",
-     "explain_ru": "Indicativo (parla) описывает реального, знакомого человека; congiuntivo — требование к любому подходящему."
+     "explain_ru": "Indicativo (parla) описывает реального, знакомого человека; congiuntivo — требование к любому подходящему.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение показывает, что говорящий имеет в виду конкретную девушку?"
+      }
+     }
     },
     {
      "id": "e08",
@@ -2174,7 +2306,12 @@
      "q": "In 'Cerco una casa che abbia un giardino' the subjunctive shows that the speaker has no specific house in mind.",
      "answer": true,
      "explain_en": "Correct: the house is only a wish, not a known house.",
-     "explain_ru": "Верно: дом — только желание, а не конкретный известный дом."
+     "explain_ru": "Верно: дом — только желание, а не конкретный известный дом.",
+     "ui": {
+      "ru": {
+       "q": "В «Cerco una casa che abbia un giardino» сослагательное наклонение показывает, что говорящий не имеет в виду конкретный дом."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2182,7 +2319,12 @@
      "q": "After a superlative the congiuntivo is the standard choice: 'il film più bello che io abbia mai visto'.",
      "answer": true,
      "explain_en": "Correct: the indicative here is colloquial.",
-     "explain_ru": "Верно: indicativo в этом случае — разговорный вариант."
+     "explain_ru": "Верно: indicativo в этом случае — разговорный вариант.",
+     "ui": {
+      "ru": {
+       "q": "После превосходной степени нормой является congiuntivo: «il film più bello che io abbia mai visto»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2190,7 +2332,12 @@
      "q": "'Ho comprato una macchina che consumi poco' is the normal way to describe a car you have already bought.",
      "answer": false,
      "explain_en": "Wrong: a real car you own takes the indicative: che consuma poco.",
-     "explain_ru": "Неверно: о реальной купленной машине говорят с indicativo: che consuma poco."
+     "explain_ru": "Неверно: о реальной купленной машине говорят с indicativo: che consuma poco.",
+     "ui": {
+      "ru": {
+       "q": "«Ho comprato una macchina che consumi poco» — обычный способ описать машину, которую вы уже купили."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2238,7 +2385,33 @@
        "nessuno che",
        "никто, кто бы"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "l'unico che",
+         "the only one who"
+        ],
+        [
+         "il primo che",
+         "the first one who"
+        ],
+        [
+         "l'ultimo che",
+         "the last one who"
+        ],
+        [
+         "il migliore che",
+         "the best one who"
+        ],
+        [
+         "nessuno che",
+         "nobody who"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2274,7 +2447,7 @@
     {
      "title_en": "Futuro semplice for guesses about now",
      "title_ru": "Futuro semplice для предположений о настоящем",
-     "body_en": "The simple future often expresses a guess about the PRESENT, not the future: Sarà a casa = «Он, наверное, дома». Che ore saranno? — Saranno le tre. Russian uses «наверное», «должно быть» with the present tense; Italian puts the verb in the future.",
+     "body_en": "The simple future often expresses a guess about the PRESENT, not the future: Sarà a casa = 'He's probably at home'. Che ore saranno? — Saranno le tre. English uses 'probably', 'must be' with the present tense; Italian puts the verb in the future.",
      "body_ru": "Простое будущее время часто выражает предположение о НАСТОЯЩЕМ, а не о будущем: Sarà a casa — «Он, наверное, дома». Che ore saranno? — Saranno le tre — «Который может быть час? — Наверное, три». В русском для этого нужны слова «наверное», «должно быть» с настоящим временем, а в итальянском сам глагол ставится в будущее.",
      "examples": [
       {
@@ -2315,7 +2488,7 @@
     {
      "title_en": "Futuro anteriore for guesses about the past",
      "title_ru": "Futuro anteriore для предположений о прошлом",
-     "body_en": "The futuro anteriore expresses a guess about something that has (probably) already happened: Avrà perso il treno = «Наверное, он опоздал на поезд». Sarà già partito. In questions it shows puzzlement: Dove avrò messo le chiavi? = «Куда же я дел ключи?»",
+     "body_en": "The futuro anteriore expresses a guess about something that has (probably) already happened: Avrà perso il treno = 'He must have missed the train'. Sarà già partito. In questions it shows puzzlement: Dove avrò messo le chiavi? = 'Where on earth did I put my keys?'",
      "body_ru": "Futuro anteriore выражает предположение о том, что, вероятно, уже произошло: Avrà perso il treno — «Наверное, он опоздал на поезд». Sarà già partito — «Он, должно быть, уже уехал». В вопросах — недоумение: Dove avrò messo le chiavi? — «Куда же я дел ключи?» По-русски — прошедшее время + «наверное», в итальянском — сложное будущее.",
      "examples": [
       {
@@ -2336,9 +2509,9 @@
      ]
     },
     {
-     "title_en": "Epistemic dovere: «должно быть»",
+     "title_en": "Epistemic dovere: 'must be'",
      "title_ru": "Dovere в значении «должно быть»",
-     "body_en": "Dovere does not only mean obligation. In the present it can express a strong deduction: Deve essere stanco = «Он, должно быть, устал». Deve avere trent'anni = «Ему, должно быть, тридцать». The same verb, two meanings: Deve lavorare (obligation) vs Deve lavorare molto, è sempre stanco (deduction).",
+     "body_en": "Dovere does not only mean obligation. In the present it can express a strong deduction: Deve essere stanco = 'He must be tired'. Deve avere trent'anni = 'He must be thirty'. The same verb, two meanings: Deve lavorare (obligation) vs Deve lavorare molto, è sempre stanco (deduction).",
      "body_ru": "Dovere выражает не только обязанность. В настоящем времени он может передавать уверенный вывод: Deve essere stanco — «Он, должно быть, устал». Deve avere trent'anni — «Ему, должно быть, лет тридцать». Это совпадает с русским «должно быть». Смысл определяется контекстом: Deve lavorare (обязанность) / Deve lavorare molto, è sempre stanco (вывод).",
      "examples": [
       {
@@ -2361,7 +2534,7 @@
     {
      "title_en": "Dovere for deductions about the past",
      "title_ru": "Dovere для выводов о прошлом",
-     "body_en": "For a deduction about the past use the present of dovere + past infinitive: Deve essere uscito = «Он, должно быть, ушёл». Deve aver capito. Do not confuse with Ha dovuto uscire = «Ему пришлось уйти» (obligation). Doveva essere molto giovane describes a past state: «Тогда он, должно быть, был очень молод».",
+     "body_en": "For a deduction about the past use the present of dovere + past infinitive: Deve essere uscito = 'He must have gone out'. Deve aver capito. Do not confuse with Ha dovuto uscire = 'He had to go out' (obligation). Doveva essere molto giovane describes a past state: 'He must have been very young then'.",
      "body_ru": "Для вывода о прошлом используется настоящее время dovere + инфинитив прошедшего времени: Deve essere uscito — «Он, должно быть, ушёл». Deve aver capito — «Он, должно быть, понял». Не путайте с Ha dovuto uscire — «Ему пришлось уйти» (обязанность). Doveva essere molto giovane описывает состояние в прошлом: «Тогда он, должно быть, был очень молод».",
      "examples": [
       {
@@ -2384,7 +2557,7 @@
     {
      "title_en": "Possibility: può darsi che, potrebbe",
      "title_ru": "Возможность: può darsi che, potrebbe",
-     "body_en": "Weaker guesses use potere: Può darsi che + subjunctive («может быть, что…»): Può darsi che abbia ragione. The conditional potrebbe sounds tentative: Potrebbe essere vero. Potrebbe aver dimenticato = «Он мог забыть». È probabile / possibile che also take the subjunctive.",
+     "body_en": "Weaker guesses use potere: Può darsi che + subjunctive ('it may be that…'): Può darsi che abbia ragione. The conditional potrebbe sounds tentative: Potrebbe essere vero. Potrebbe aver dimenticato = 'He may have forgotten'. È probabile / possibile che also take the subjunctive.",
      "body_ru": "Менее уверенные предположения выражаются через potere: Può darsi che + congiuntivo — «может быть, что…»: Può darsi che abbia ragione — «Может быть, он прав». Условное наклонение potrebbe звучит осторожно: Potrebbe essere vero — «Это может быть правдой». Potrebbe aver dimenticato — «Он мог забыть». После è probabile che, è possibile che тоже нужен congiuntivo.",
      "examples": [
       {
@@ -2407,7 +2580,7 @@
     {
      "title_en": "Adverbs of probability and the mood",
      "title_ru": "Наречия вероятности и наклонение",
-     "body_en": "Adverbs like forse, probabilmente, sicuramente, magari («может быть», colloquial) do not require the subjunctive: Forse ha ragione. Probabilmente arriverà tardi. Only expressions with che (è probabile che, può darsi che, dubito che) need it. Learners often overuse the subjunctive after forse.",
+     "body_en": "Adverbs like forse, probabilmente, sicuramente, magari ('maybe', colloquial) do not require the subjunctive: Forse ha ragione. Probabilmente arriverà tardi. Only expressions with che (è probabile che, può darsi che, dubito che) need it. Learners often overuse the subjunctive after forse.",
      "body_ru": "Наречия forse, probabilmente, sicuramente, magari (разг. «может быть») не требуют congiuntivo: Forse ha ragione — «Может быть, он прав». Probabilmente arriverà tardi. Congiuntivo нужен только после выражений с che: è probabile che, può darsi che, dubito che. Учащиеся часто ошибочно ставят congiuntivo после forse — так же, как в русском после «может быть», здесь нужно обычное изъявительное наклонение.",
      "examples": [
       {
@@ -2430,7 +2603,7 @@
     {
      "title_en": "Concessive future and chissà",
      "title_ru": "Уступительное будущее и chissà",
-     "body_en": "The future can also concede a point before an objection: Sarà anche bravo, ma è antipatico = «Может, он и способный, но неприятный». Chissà («интересно», «кто знает») is often followed by a future of probability: Chissà dove sarà andato.",
+     "body_en": "The future can also concede a point before an objection: Sarà anche bravo, ma è antipatico = 'He may well be clever, but he's unpleasant'. Chissà ('I wonder', 'who knows') is often followed by a future of probability: Chissà dove sarà andato.",
      "body_ru": "Будущее время может выражать уступку перед возражением: Sarà anche bravo, ma è antipatico — «Может, он и способный, но неприятный». Avrà anche ragione, ma… — «Пусть он и прав, но…». Chissà («интересно», «кто его знает») часто сочетается с будущим предположения: Chissà dove sarà andato — «Интересно, куда он делся».",
      "examples": [
       {
@@ -2519,8 +2692,19 @@
       "He will be forty next year."
      ],
      "answer": 1,
-     "explain_en": "Epistemic dovere: a deduction, «ему, должно быть, сорок».",
-     "explain_ru": "Dovere в значении вывода: «ему, должно быть, сорок»."
+     "explain_en": "Epistemic dovere: a deduction, 'he must be about forty'.",
+     "explain_ru": "Dovere в значении вывода: «ему, должно быть, сорок».",
+     "ui": {
+      "ru": {
+       "q": "«Deve avere quarant'anni» значит:",
+       "options": [
+        "Ему обязательно должно быть сорок лет (обязанность).",
+        "Ему, вероятно, около сорока.",
+        "Он хочет, чтобы ему было сорок.",
+        "В следующем году ему будет сорок."
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -2533,8 +2717,13 @@
       "Deve essere partito."
      ],
      "answer": 3,
-     "explain_en": "Deve + past infinitive is a deduction; ha dovuto partire means «ему пришлось уехать».",
-     "explain_ru": "Deve + инфинитив прошедшего времени — вывод; ha dovuto partire значит «ему пришлось уехать»."
+     "explain_en": "Deve + past infinitive is a deduction; ha dovuto partire means 'he had to leave'.",
+     "explain_ru": "Deve + инфинитив прошедшего времени — вывод; ha dovuto partire значит «ему пришлось уехать».",
+     "ui": {
+      "en": {
+       "q": "Which sentence means 'He must have left'?"
+      }
+     }
     },
     {
      "id": "e07",
@@ -2575,7 +2764,7 @@
       "Avrà"
      ],
      "answer": 1,
-     "explain_en": "Concessive future: Sarà anche simpatico, ma… = «Может, он и симпатичный, но…».",
+     "explain_en": "Concessive future: Sarà anche simpatico, ma… = 'He may well be nice, but…'.",
      "explain_ru": "Уступительное будущее: Sarà anche simpatico, ma… — «Может, он и симпатичный, но…»."
     },
     {
@@ -2589,7 +2778,7 @@
       "avrò messo"
      ],
      "answer": 3,
-     "explain_en": "Puzzled question about the past: futuro anteriore, «куда же я дел…».",
+     "explain_en": "Puzzled question about the past: futuro anteriore, 'where on earth did I put…'.",
      "explain_ru": "Вопрос-недоумение о прошлом: futuro anteriore — «куда же я дел…»."
     },
     {
@@ -2733,7 +2922,15 @@
      "q": "'Sarà a casa' can mean «Он, наверное, дома», not only «Он будет дома».",
      "answer": true,
      "explain_en": "Correct: the future often expresses a guess about the present.",
-     "explain_ru": "Верно: будущее время часто выражает предположение о настоящем."
+     "explain_ru": "Верно: будущее время часто выражает предположение о настоящем.",
+     "ui": {
+      "en": {
+       "q": "'Sarà a casa' can mean 'He's probably at home', not only 'He will be at home'."
+      },
+      "ru": {
+       "q": "«Sarà a casa» может значить «Он, наверное, дома», а не только «Он будет дома»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2741,15 +2938,25 @@
      "q": "'Forse' must always be followed by the congiuntivo.",
      "answer": false,
      "explain_en": "Wrong: forse takes the indicative: Forse ha ragione.",
-     "explain_ru": "Неверно: после forse — indicativo: Forse ha ragione."
+     "explain_ru": "Неверно: после forse — indicativo: Forse ha ragione.",
+     "ui": {
+      "ru": {
+       "q": "После «forse» всегда должен стоять congiuntivo."
+      }
+     }
     },
     {
      "id": "e25",
      "type": "tf",
      "q": "'Ha dovuto uscire' and 'Deve essere uscito' mean the same thing.",
      "answer": false,
-     "explain_en": "Wrong: the first is an obligation («ему пришлось уйти»), the second a deduction («он, должно быть, ушёл»).",
-     "explain_ru": "Неверно: первое — обязанность («ему пришлось уйти»), второе — вывод («он, должно быть, ушёл»)."
+     "explain_en": "Wrong: the first is an obligation ('he had to go out'), the second a deduction ('he must have gone out').",
+     "explain_ru": "Неверно: первое — обязанность («ему пришлось уйти»), второе — вывод («он, должно быть, ушёл»).",
+     "ui": {
+      "ru": {
+       "q": "«Ha dovuto uscire» и «Deve essere uscito» значат одно и то же."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2775,7 +2982,33 @@
        "Dove avrò messo gli occhiali?",
        "Куда же я дел очки?"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Sarà a casa.",
+         "He's probably at home."
+        ],
+        [
+         "Sarà uscito.",
+         "He has probably gone out."
+        ],
+        [
+         "Deve avere fame.",
+         "He must be hungry."
+        ],
+        [
+         "Può darsi che piova.",
+         "It may rain."
+        ],
+        [
+         "Dove avrò messo gli occhiali?",
+         "Where on earth did I put my glasses?"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2823,7 +3056,29 @@
        "difficilmente",
        "вряд ли"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "sicuramente",
+         "surely, certainly"
+        ],
+        [
+         "probabilmente",
+         "probably"
+        ],
+        [
+         "forse",
+         "maybe"
+        ],
+        [
+         "difficilmente",
+         "hardly, unlikely"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3139,7 +3394,12 @@
      ],
      "answer": 3,
      "explain_en": "Vedere follows the 1-3-3 pattern: vidi, vedesti, vide.",
-     "explain_ru": "Vedere следует схеме «1-3-3»: vidi, vedesti, vide."
+     "explain_ru": "Vedere следует схеме «1-3-3»: vidi, vedesti, vide.",
+     "ui": {
+      "ru": {
+       "q": "Какая пара форм (io / lui) глагола vedere правильная?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3153,7 +3413,12 @@
      ],
      "answer": 0,
      "explain_en": "A historical fact with a date: passato remoto.",
-     "explain_ru": "Исторический факт с датой: passato remoto."
+     "explain_ru": "Исторический факт с датой: passato remoto.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение наиболее естественно для учебника истории?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -3302,7 +3567,12 @@
      "q": "In the passato remoto many irregular verbs are irregular only in the io, lui/lei and loro forms.",
      "answer": true,
      "explain_en": "Correct: this is the 1-3-3 pattern (presi, prese, presero).",
-     "explain_ru": "Верно: это схема «1-3-3» (presi, prese, presero)."
+     "explain_ru": "Верно: это схема «1-3-3» (presi, prese, presero).",
+     "ui": {
+      "ru": {
+       "q": "В passato remoto многие неправильные глаголы неправильны только в формах io, lui/lei и loro."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3310,7 +3580,12 @@
      "q": "In northern Italy the passato remoto is very common in everyday conversation.",
      "answer": false,
      "explain_en": "Wrong: in the North people speak with the passato prossimo; the remoto lives on in the South, in Tuscany and in writing.",
-     "explain_ru": "Неверно: на севере говорят с passato prossimo; passato remoto жив на юге, в Тоскане и в письменной речи."
+     "explain_ru": "Неверно: на севере говорят с passato prossimo; passato remoto жив на юге, в Тоскане и в письменной речи.",
+     "ui": {
+      "ru": {
+       "q": "На севере Италии passato remoto очень распространён в повседневной разговорной речи."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3318,7 +3593,12 @@
      "q": "'Fu' is the passato remoto of both essere and andare.",
      "answer": false,
      "explain_en": "Wrong: fu is essere only; andare gives andò.",
-     "explain_ru": "Неверно: fu — только от essere; от andare — andò."
+     "explain_ru": "Неверно: fu — только от essere; от andare — andò.",
+     "ui": {
+      "ru": {
+       "q": "«Fu» — это форма passato remoto и глагола essere, и глагола andare."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3396,7 +3676,25 @@
        "passato prossimo",
        "прошлое, связанное с настоящим"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "passato remoto",
+         "an event in a story about the distant past"
+        ],
+        [
+         "imperfetto",
+         "background, description, habit"
+        ],
+        [
+         "passato prossimo",
+         "the past connected to the present"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3410,7 +3708,7 @@
     {
      "title_en": "What a pronominal verb is",
      "title_ru": "Что такое местоименный глагол",
-     "body_en": "A pronominal verb is a verb fused with one or two pronouns (ci, ne, la, si) that no longer refer to anything concrete; together they have a new, idiomatic meaning: fare → farcela («справиться»), andare → andarsene («уйти»). The infinitive shows the pronouns: farcela = fare + ci + la.",
+     "body_en": "A pronominal verb is a verb fused with one or two pronouns (ci, ne, la, si) that no longer refer to anything concrete; together they have a new, idiomatic meaning: fare → farcela ('to manage'), andare → andarsene ('to leave'). The infinitive shows the pronouns: farcela = fare + ci + la.",
      "body_ru": "Местоименный глагол — это глагол, слитый с одним или двумя местоимениями (ci, ne, la, si), которые уже ни на что конкретное не указывают; вместе они получают новое, идиоматическое значение: fare → farcela («справиться»), andare → andarsene («уйти»). Инфинитив показывает местоимения: farcela = fare + ci + la. Русскому языку это не свойственно, такие глаголы нужно учить как отдельные слова.",
      "examples": [
       {
@@ -3428,7 +3726,7 @@
     {
      "title_en": "Farcela: to manage, to make it",
      "title_ru": "Farcela: справиться, суметь",
-     "body_en": "Farcela means «справиться, суметь». Ci becomes ce before la: ce la faccio, ce la fai, ce la fa, ce la facciamo, ce la fate, ce la fanno. In compound tenses it takes avere and the participle agrees with la: ce l'ho fatta, ce l'abbiamo fatta. Non ce la faccio più = «Я больше не могу».",
+     "body_en": "Farcela means 'to manage, to make it'. Ci becomes ce before la: ce la faccio, ce la fai, ce la fa, ce la facciamo, ce la fate, ce la fanno. In compound tenses it takes avere and the participle agrees with la: ce l'ho fatta, ce l'abbiamo fatta. Non ce la faccio più = 'I can't take it any more'.",
      "body_ru": "Farcela значит «справиться, суметь». Перед la частица ci превращается в ce: ce la faccio, ce la fai, ce la fa, ce la facciamo, ce la fate, ce la fanno. В сложных временах — avere, а причастие согласуется с la: ce l'ho fatta — «у меня получилось», ce l'abbiamo fatta. Non ce la faccio più — «Я больше не могу (не выдерживаю)».",
      "examples": [
       {
@@ -3451,7 +3749,7 @@
     {
      "title_en": "Andarsene: to leave, to go away",
      "title_ru": "Andarsene: уйти, уехать",
-     "body_en": "Andarsene means «уйти, уехать (откуда-то)». Si becomes se before ne: me ne vado, te ne vai, se ne va, ce ne andiamo, ve ne andate, se ne vanno. Compound tenses take essere: me ne sono andato/a. Imperative: vattene!, andiamocene!, andatevene!",
+     "body_en": "Andarsene means 'to leave, to go away (from somewhere)'. Si becomes se before ne: me ne vado, te ne vai, se ne va, ce ne andiamo, ve ne andate, se ne vanno. Compound tenses take essere: me ne sono andato/a. Imperative: vattene!, andiamocene!, andatevene!",
      "body_ru": "Andarsene значит «уйти, уехать (откуда-то, прочь)». Перед ne местоимения mi, ti, si, ci, vi превращаются в me, te, se, ce, ve: me ne vado, te ne vai, se ne va, ce ne andiamo, ve ne andate, se ne vanno. В сложных временах — essere: me ne sono andato/a, se n'è andata. Повелительное наклонение: vattene! — «уходи!», andiamocene! — «пойдём отсюда!», andatevene!",
      "examples": [
       {
@@ -3474,7 +3772,7 @@
     {
      "title_en": "Metterci and volerci: time and effort",
      "title_ru": "Metterci и volerci: время и усилия",
-     "body_en": "Both express how long something takes, but differently. Metterci has a personal subject: Ci metto mezz'ora («У меня уходит полчаса»). Volerci is impersonal and agrees with what is needed: Ci vuole un'ora, Ci vogliono due ore («Нужен час / нужно два часа»).",
+     "body_en": "Both express how long something takes, but differently. Metterci has a personal subject: Ci metto mezz'ora ('It takes me half an hour'). Volerci is impersonal and agrees with what is needed: Ci vuole un'ora, Ci vogliono due ore ('It takes an hour / two hours').",
      "body_ru": "Оба глагола говорят о том, сколько времени что-то занимает, но по-разному. У metterci есть подлежащее-человек: Ci metto mezz'ora — «У меня уходит полчаса», Quanto ci metti? — «Сколько у тебя уходит?». Volerci — безличный глагол, он согласуется с тем, что требуется: Ci vuole un'ora, Ci vogliono due ore — «Нужен час / нужно два часа». Это как русские «я трачу» и «требуется».",
      "examples": [
       {
@@ -3497,7 +3795,7 @@
     {
      "title_en": "Volerci for things needed; past tenses",
      "title_ru": "Volerci для того, что нужно; прошедшие времена",
-     "body_en": "Volerci also means «нужно, требуется» for things and qualities: Ci vuole pazienza. Ci vogliono tre uova. In compound tenses volerci takes essere and agrees: ci è voluta un'ora, ci sono voluti tre anni. Metterci takes avere: ci ho messo due ore.",
+     "body_en": "Volerci also means 'to be needed, to take' for things and qualities: Ci vuole pazienza. Ci vogliono tre uova. In compound tenses volerci takes essere and agrees: ci è voluta un'ora, ci sono voluti tre anni. Metterci takes avere: ci ho messo due ore.",
      "body_ru": "Volerci значит также «нужно, требуется» для предметов и качеств: Ci vuole pazienza — «Нужно терпение». Ci vogliono tre uova — «Нужно три яйца». В сложных временах volerci берёт essere и согласуется: ci è voluta un'ora, ci sono voluti tre anni. Metterci же спрягается с avere: ci ho messo due ore — «я потратил два часа».",
      "examples": [
       {
@@ -3520,7 +3818,7 @@
     {
      "title_en": "Entrarci and tenerci",
      "title_ru": "Entrarci и tenerci",
-     "body_en": "Entrarci means «иметь отношение»: Che c'entra? («При чём тут это?»), Io non c'entro («Я тут ни при чём»). Tenerci means «дорожить, придавать значение»: Ci tengo molto a questo regalo. Ci tengo a dirti grazie = «Мне важно сказать тебе спасибо».",
+     "body_en": "Entrarci means 'to have to do with': Che c'entra? ('What does that have to do with it?'), Io non c'entro ('It's nothing to do with me'). Tenerci means 'to care about, to value': Ci tengo molto a questo regalo. Ci tengo a dirti grazie = 'I really want to thank you'.",
      "body_ru": "Entrarci значит «иметь отношение»: Che c'entra? — «При чём тут это?», Io non c'entro — «Я тут ни при чём». Перед гласной ci пишется c': c'entra. Tenerci значит «дорожить, придавать значение»: Ci tengo molto a questo regalo — «Мне очень дорог этот подарок». Ci tengo a dirti grazie — «Мне важно сказать тебе спасибо».",
      "examples": [
       {
@@ -3543,7 +3841,7 @@
     {
      "title_en": "Avercela, sentirsela, smetterla",
      "title_ru": "Avercela, sentirsela, smetterla",
-     "body_en": "Avercela con qualcuno = «злиться на кого-то»: Ce l'ha con me. Sentirsela = «чувствовать себя в силах, решиться»: Non me la sento di guidare di notte. Smetterla = «прекратить»: Smettila! = «Прекрати!». Finirla works the same: Finitela!",
+     "body_en": "Avercela con qualcuno = 'to be angry with someone': Ce l'ha con me. Sentirsela = 'to feel up to, to bring oneself to': Non me la sento di guidare di notte. Smetterla = 'to stop it': Smettila! = 'Stop it!'. Finirla works the same: Finitela!",
      "body_ru": "Avercela con qualcuno — «злиться на кого-то, иметь зуб»: Ce l'ha con me — «Он на меня злится». Sentirsela — «чувствовать себя в силах, решиться»: Non me la sento di guidare di notte — «Я не решаюсь ехать ночью». Smetterla — «прекратить»: Smettila! — «Прекрати!». Так же finirla: Finitela! — «Хватит уже!».",
      "examples": [
       {
@@ -3589,7 +3887,7 @@
     {
      "title_en": "Colloquial pronominal verbs",
      "title_ru": "Разговорные местоименные глаголы",
-     "body_en": "Spoken Italian has many more such verbs, often informal: fregarsene («плевать», quite rude: Me ne frego), infischiarsene (milder), svignarsela («улизнуть»), godersela («наслаждаться»). Use them with friends, not in formal situations.",
+     "body_en": "Spoken Italian has many more such verbs, often informal: fregarsene ('not to give a damn', quite rude: Me ne frego), infischiarsene (milder), svignarsela ('to sneak off'), godersela ('to enjoy oneself'). Use them with friends, not in formal situations.",
      "body_ru": "В разговорном итальянском таких глаголов гораздо больше, и многие из них неформальные: fregarsene — «плевать на что-то», довольно грубо (Me ne frego — «Мне плевать»), infischiarsene — помягче, svignarsela — «улизнуть», godersela — «наслаждаться жизнью». Используйте их с друзьями, но не в официальной обстановке.",
      "examples": [
       {
@@ -3622,7 +3920,7 @@
       "ce lo faccio"
      ],
      "answer": 1,
-     "explain_en": "Farcela: ce la faccio = «я справлюсь».",
+     "explain_en": "Farcela: ce la faccio = 'I'll manage'.",
      "explain_ru": "Farcela: ce la faccio — «я справлюсь»."
     },
     {
@@ -3706,7 +4004,7 @@
       "se ne va"
      ],
      "answer": 0,
-     "explain_en": "Entrarci: non c'entra niente = «он тут ни при чём».",
+     "explain_en": "Entrarci: non c'entra niente = 'he has nothing to do with it'.",
      "explain_ru": "Entrarci: non c'entra niente — «он тут совершенно ни при чём»."
     },
     {
@@ -3720,8 +4018,19 @@
       "I made it for her."
      ],
      "answer": 2,
-     "explain_en": "Passato prossimo of farcela: ce l'ho fatta = «у меня получилось».",
-     "explain_ru": "Passato prossimo от farcela: ce l'ho fatta — «у меня получилось!»."
+     "explain_en": "Passato prossimo of farcela: ce l'ho fatta = 'I made it'.",
+     "explain_ru": "Passato prossimo от farcela: ce l'ho fatta — «у меня получилось!».",
+     "ui": {
+      "ru": {
+       "q": "«Ce l'ho fatta!» значит:",
+       "options": [
+        "Оно у меня с собой.",
+        "Я ухожу.",
+        "Я смог! (у меня получилось)",
+        "Я сделал это для неё."
+       ]
+      }
+     }
     },
     {
      "id": "e09",
@@ -3734,7 +4043,7 @@
       "l'ha"
      ],
      "answer": 1,
-     "explain_en": "Avercela con qualcuno = «злиться на кого-то»: ce l'ha con me.",
+     "explain_en": "Avercela con qualcuno = 'to be angry with someone': ce l'ha con me.",
      "explain_ru": "Avercela con qualcuno — «злиться на кого-то»: ce l'ha con me."
     },
     {
@@ -3758,7 +4067,7 @@
      "answer": [
       "ce la faccio"
      ],
-     "explain_en": "Non ce la faccio più = «я больше не могу».",
+     "explain_en": "Non ce la faccio più = 'I can't take it any more'.",
      "explain_ru": "Non ce la faccio più — «я больше не могу»."
     },
     {
@@ -3818,7 +4127,7 @@
      "answer": [
       "ci tengo"
      ],
-     "explain_en": "Tenerci: ci tengo = «мне это дорого».",
+     "explain_en": "Tenerci: ci tengo = 'it means a lot to me'.",
      "explain_ru": "Tenerci: ci tengo — «мне это дорого»."
     },
     {
@@ -3893,7 +4202,12 @@
      "q": "In 'Ci vogliono due ore' the verb agrees with 'due ore'.",
      "answer": true,
      "explain_en": "Correct: volerci agrees with what is needed.",
-     "explain_ru": "Верно: volerci согласуется с тем, что требуется."
+     "explain_ru": "Верно: volerci согласуется с тем, что требуется.",
+     "ui": {
+      "ru": {
+       "q": "В «Ci vogliono due ore» глагол согласуется с «due ore»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3901,15 +4215,28 @@
      "q": "'Andarsene' forms the passato prossimo with avere: 'me ne ho andato'.",
      "answer": false,
      "explain_en": "Wrong: it takes essere: me ne sono andato.",
-     "explain_ru": "Неверно: нужен essere: me ne sono andato."
+     "explain_ru": "Неверно: нужен essere: me ne sono andato.",
+     "ui": {
+      "ru": {
+       "q": "«Andarsene» образует passato prossimo с avere: «me ne ho andato»."
+      }
+     }
     },
     {
      "id": "e25",
      "type": "tf",
      "q": "'Ci tengo' can mean «Для меня это важно».",
      "answer": true,
-     "explain_en": "Correct: tenerci = «дорожить, придавать значение».",
-     "explain_ru": "Верно: tenerci — «дорожить, придавать значение»."
+     "explain_en": "Correct: tenerci = 'to care about, to value'.",
+     "explain_ru": "Верно: tenerci — «дорожить, придавать значение».",
+     "ui": {
+      "en": {
+       "q": "'Ci tengo' can mean 'It matters to me'."
+      },
+      "ru": {
+       "q": "«Ci tengo» может значить «Для меня это важно»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3939,7 +4266,37 @@
        "tenerci",
        "дорожить"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "farcela",
+         "to manage, make it"
+        ],
+        [
+         "andarsene",
+         "to leave, go away"
+        ],
+        [
+         "metterci",
+         "to take (time)"
+        ],
+        [
+         "volerci",
+         "to be needed"
+        ],
+        [
+         "entrarci",
+         "to have to do with"
+        ],
+        [
+         "tenerci",
+         "to care about"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4009,7 +4366,7 @@
     {
      "title_en": "Gerundio for cause, time and means",
      "title_ru": "Gerundio для причины, времени и способа",
-     "body_en": "The gerundio presente (parlando, essendo, avendo) can replace a whole clause of cause, time or means: Essendo stanco, è andato a letto (= siccome era stanco). Leggendo il giornale, ho scoperto la notizia. It works much like the Russian imperfective деепричастие: «будучи», «читая».",
+     "body_en": "The gerundio presente (parlando, essendo, avendo) can replace a whole clause of cause, time or means: Essendo stanco, è andato a letto (= siccome era stanco). Leggendo il giornale, ho scoperto la notizia. It works much like an English -ing clause: 'being tired', 'reading the paper'.",
      "body_ru": "Простой gerundio (parlando, essendo, avendo) может заменять целое придаточное причины, времени или способа: Essendo stanco, è andato a letto — «Будучи уставшим (так как он устал), он лёг спать». Leggendo il giornale, ho scoperto la notizia — «Читая газету, я узнал новость». Это очень похоже на русское деепричастие несовершенного вида: «будучи», «читая».",
      "examples": [
       {
@@ -4032,7 +4389,7 @@
     {
      "title_en": "Gerundio composto: an earlier action",
      "title_ru": "Gerundio composto: предшествующее действие",
-     "body_en": "The gerundio composto is avendo or essendo + past participle and shows an action completed before the main one: Avendo finito il lavoro, è uscito. Essendo arrivati tardi, abbiamo perso l'inizio. With essendo the participle agrees with the subject. It matches the Russian perfective деепричастие: «закончив», «приехав».",
+     "body_en": "The gerundio composto is avendo or essendo + past participle and shows an action completed before the main one: Avendo finito il lavoro, è uscito. Essendo arrivati tardi, abbiamo perso l'inizio. With essendo the participle agrees with the subject. It matches English 'having finished', 'having arrived'.",
      "body_ru": "Сложный gerundio образуется из avendo или essendo + причастие и выражает действие, завершённое до основного: Avendo finito il lavoro, è uscito — «Закончив работу, он вышел». Essendo arrivati tardi, abbiamo perso l'inizio — «Приехав поздно, мы пропустили начало». С essendo причастие согласуется с подлежащим. Это соответствует русскому деепричастию совершенного вида: «закончив», «приехав».",
      "examples": [
       {
@@ -4078,7 +4435,7 @@
     {
      "title_en": "The subject of the gerund",
      "title_ru": "Подлежащее при герундии",
-     "body_en": "Normally the gerund has the same subject as the main verb, exactly as with the Russian деепричастие. *Uscendo di casa, mi ha telefonato Luca is wrong if I was the one leaving; say Mentre uscivo di casa, mi ha telefonato Luca. Impersonal gerunds are fine: Essendo tardi, siamo tornati a casa.",
+     "body_en": "Normally the gerund has the same subject as the main verb, just like an English participle clause. *Uscendo di casa, mi ha telefonato Luca is wrong if I was the one leaving; say Mentre uscivo di casa, mi ha telefonato Luca. Impersonal gerunds are fine: Essendo tardi, siamo tornati a casa.",
      "body_ru": "Обычно у герундия то же подлежащее, что и у главного глагола, — точно как у русского деепричастия («Подъезжая к станции, у меня слетела шляпа» — классическая ошибка). *Uscendo di casa, mi ha telefonato Luca — неверно, если из дома выходил я; правильно: Mentre uscivo di casa, mi ha telefonato Luca. Безличные герундии допустимы: Essendo tardi, siamo tornati a casa — «Так как было поздно, мы вернулись домой».",
      "examples": [
       {
@@ -4124,7 +4481,7 @@
     {
      "title_en": "Participio passato as a clause",
      "title_ru": "Participio passato в роли придаточного",
-     "body_en": "The past participle alone can form a time clause (participio assoluto), meaning «после того как»: Finito il lavoro, siamo andati al bar. With transitive verbs it agrees with the object: Finita la cena, … Letta la lettera, … With verbs taking essere it agrees with the subject: Arrivati a casa, abbiamo acceso la TV. Una volta and appena can come in front: Una volta arrivati, chiamateci.",
+     "body_en": "The past participle alone can form a time clause (participio assoluto), meaning 'after…, once…': Finito il lavoro, siamo andati al bar. With transitive verbs it agrees with the object: Finita la cena, … Letta la lettera, … With verbs taking essere it agrees with the subject: Arrivati a casa, abbiamo acceso la TV. Una volta and appena can come in front: Una volta arrivati, chiamateci.",
      "body_ru": "Одно лишь причастие прошедшего времени может образовать придаточное времени (participio assoluto) со значением «после того как»: Finito il lavoro, siamo andati al bar — «Закончив работу, мы пошли в бар». С переходными глаголами оно согласуется с дополнением: Finita la cena…, Letta la lettera… С глаголами на essere — с подлежащим: Arrivati a casa, abbiamo acceso la TV. Перед ним может стоять una volta или appena: Una volta arrivati, chiamateci — «Как доберётесь, позвоните нам».",
      "examples": [
       {
@@ -4147,7 +4504,7 @@
     {
      "title_en": "Participio presente",
      "title_ru": "Participio presente",
-     "body_en": "The participio presente (-ante, -ente) is mostly used as an adjective or noun: interessante, divertente, cantante, studente, partecipante. In formal written Italian it can replace a relative clause: i documenti riguardanti il contratto = i documenti che riguardano il contratto. Russian uses such participles («касающиеся») much more often; spoken Italian prefers che + verb.",
+     "body_en": "The participio presente (-ante, -ente) is mostly used as an adjective or noun: interessante, divertente, cantante, studente, partecipante. In formal written Italian it can replace a relative clause: i documenti riguardanti il contratto = i documenti che riguardano il contratto (the documents concerning the contract). Spoken Italian prefers che + verb.",
      "body_ru": "Participio presente (-ante, -ente) обычно используется как прилагательное или существительное: interessante, divertente, cantante, studente, partecipante. В официальном письменном языке он может заменять относительное придаточное: i documenti riguardanti il contratto = i documenti che riguardano il contratto — «документы, касающиеся договора». В русском такие действительные причастия («касающиеся», «проживающие») употребляются гораздо чаще; в разговорном итальянском предпочитают che + глагол.",
      "examples": [
       {
@@ -4231,7 +4588,7 @@
       "Stato"
      ],
      "answer": 2,
-     "explain_en": "Cause with essere: Essendo stanco = «будучи уставшим».",
+     "explain_en": "Cause with essere: Essendo stanco = 'being tired'.",
      "explain_ru": "Причина с essere: Essendo stanco — «будучи уставшим»."
     },
     {
@@ -4287,8 +4644,13 @@
       "Uscendo di casa, è piovuto."
      ],
      "answer": 1,
-     "explain_en": "The gerund must share the subject of the main verb (io esco – io ho incontrato), like a Russian деепричастие.",
-     "explain_ru": "У герундия должно быть то же подлежащее, что у главного глагола (io esco — io ho incontrato), как у русского деепричастия."
+     "explain_en": "The gerund must share the subject of the main verb (io esco – io ho incontrato), like an English participle clause.",
+     "explain_ru": "У герундия должно быть то же подлежащее, что у главного глагола (io esco — io ho incontrato), как у русского деепричастия.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e08",
@@ -4489,7 +4851,15 @@
      "q": "Like a Russian деепричастие, an Italian gerund normally has the same subject as the main clause.",
      "answer": true,
      "explain_en": "Correct: otherwise use an explicit clause (mentre uscivo…).",
-     "explain_ru": "Верно: иначе нужно явное придаточное (mentre uscivo…)."
+     "explain_ru": "Верно: иначе нужно явное придаточное (mentre uscivo…).",
+     "ui": {
+      "en": {
+       "q": "Like an English participle clause, an Italian gerund normally has the same subject as the main clause."
+      },
+      "ru": {
+       "q": "Как и русское деепричастие, итальянский герундий обычно имеет то же подлежащее, что и главное предложение."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4497,15 +4867,28 @@
      "q": "In 'Finita la cena', the participle agrees with 'la cena'.",
      "answer": true,
      "explain_en": "Correct: with transitive verbs the participio assoluto agrees with the object.",
-     "explain_ru": "Верно: у переходных глаголов participio assoluto согласуется с дополнением."
+     "explain_ru": "Верно: у переходных глаголов participio assoluto согласуется с дополнением.",
+     "ui": {
+      "ru": {
+       "q": "В «Finita la cena» причастие согласуется с «la cena»."
+      }
+     }
     },
     {
      "id": "e25",
      "type": "tf",
      "q": "'Pur' + gerund expresses a cause («потому что»).",
      "answer": false,
-     "explain_en": "Wrong: pur + gerundio expresses concession («хотя»).",
-     "explain_ru": "Неверно: pur + gerundio выражает уступку («хотя»)."
+     "explain_en": "Wrong: pur + gerundio expresses concession ('although').",
+     "explain_ru": "Неверно: pur + gerundio выражает уступку («хотя»).",
+     "ui": {
+      "en": {
+       "q": "'Pur' + gerund expresses a cause ('because')."
+      },
+      "ru": {
+       "q": "«Pur» + герундий выражает причину («потому что»)."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4549,7 +4932,29 @@
        "pur sapendo",
        "даже зная"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "leggendo",
+         "reading"
+        ],
+        [
+         "avendo letto",
+         "having read"
+        ],
+        [
+         "essendo uscito",
+         "having gone out"
+        ],
+        [
+         "pur sapendo",
+         "even though knowing"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4575,7 +4980,33 @@
        "partecipante",
        "участник"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "interessante",
+         "interesting"
+        ],
+        [
+         "cantante",
+         "singer"
+        ],
+        [
+         "riguardante",
+         "concerning"
+        ],
+        [
+         "seguente",
+         "following"
+        ],
+        [
+         "partecipante",
+         "participant"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4589,7 +5020,7 @@
     {
      "title_en": "When tenses change",
      "title_ru": "Когда меняются времена",
-     "body_en": "If the reporting verb is in the present or future (dice, dirà), the tenses of the original words stay the same: «Sono stanco» → Dice che è stanco. If it is in a past tense (ha detto, disse, diceva), the tenses shift back. Russian never shifts: «Он сказал, что устал», «Он сказал, что придёт».",
+     "body_en": "If the reporting verb is in the present or future (dice, dirà), the tenses of the original words stay the same: «Sono stanco» → Dice che è stanco. If it is in a past tense (ha detto, disse, diceva), the tenses shift back, as in English: 'He said he was tired', 'He said he would come'. Russian never shifts.",
      "body_ru": "Если глагол речи стоит в настоящем или будущем времени (dice, dirà), времена исходной фразы не меняются: «Sono stanco» → Dice che è stanco. Если он в прошедшем (ha detto, disse, diceva), времена сдвигаются назад. В русском сдвига нет: «Он сказал, что устал», «Он сказал, что придёт» — поэтому русскоговорящие часто забывают менять времена в итальянском.",
      "examples": [
       {
@@ -4704,7 +5135,7 @@
     {
      "title_en": "Reporting verbs beyond dire",
      "title_ru": "Глаголы речи помимо dire",
-     "body_en": "Precise reporting verbs make a text richer: affermare, sostenere, dichiarare («утверждать, заявлять»), ammettere («признать»), negare («отрицать»), spiegare, aggiungere, rispondere + che; promettere, minacciare, consigliare, suggerire, proporre, ordinare, pregare + di + infinitive. Negare and ammettere often take di + past infinitive: Negò di aver rubato.",
+     "body_en": "Precise reporting verbs make a text richer: affermare, sostenere, dichiarare ('to state, claim, declare'), ammettere ('to admit'), negare ('to deny'), spiegare, aggiungere, rispondere + che; promettere, minacciare, consigliare, suggerire, proporre, ordinare, pregare + di + infinitive. Negare and ammettere often take di + past infinitive: Negò di aver rubato.",
      "body_ru": "Точные глаголы речи делают текст богаче: affermare, sostenere, dichiarare («утверждать, заявлять»), ammettere («признать»), negare («отрицать»), spiegare, aggiungere, rispondere + che; promettere, minacciare, consigliare, suggerire, proporre, ordinare, pregare + di + инфинитив. Negare и ammettere часто сочетаются с di + инфинитивом прошедшего времени: Negò di aver rubato — «Он отрицал, что украл». Обратите внимание: consigliare a qualcuno di fare — «посоветовать кому-то сделать».",
      "examples": [
       {
@@ -4727,7 +5158,7 @@
     {
      "title_en": "Reported questions",
      "title_ru": "Косвенные вопросы",
-     "body_en": "Yes/no questions are introduced by se («ли»), other questions keep their question word: «Hai fame?» → Mi ha chiesto se avevo fame. «Dove abiti?» → Mi chiese dove abitavo / abitassi. After a past verb the indicative is normal in speech; the congiuntivo is more formal. Chiedere di + infinitive is a request: Mi ha chiesto di aspettare.",
+     "body_en": "Yes/no questions are introduced by se ('if, whether'), other questions keep their question word: «Hai fame?» → Mi ha chiesto se avevo fame. «Dove abiti?» → Mi chiese dove abitavo / abitassi. After a past verb the indicative is normal in speech; the congiuntivo is more formal. Chiedere di + infinitive is a request: Mi ha chiesto di aspettare.",
      "body_ru": "Общие вопросы вводятся союзом se — русское «ли»: «Hai fame?» → Mi ha chiesto se avevo fame — «Он спросил, голоден ли я». Специальные вопросы сохраняют вопросительное слово: «Dove abiti?» → Mi chiese dove abitavo / abitassi. В разговоре после прошедшего времени обычно indicativo, congiuntivo звучит официальнее. Chiedere di + инфинитив — это просьба: Mi ha chiesto di aspettare — «Он попросил меня подождать».",
      "examples": [
       {
@@ -4975,7 +5406,7 @@
      "answer": [
       "se"
      ],
-     "explain_en": "Yes/no questions are reported with se («ли»).",
+     "explain_en": "Yes/no questions are reported with se ('whether').",
      "explain_ru": "Общие вопросы передаются с se — русское «ли»."
     },
     {
@@ -5056,7 +5487,12 @@
      "q": "When the reporting verb is in the present (dice), the tenses usually do not change.",
      "answer": true,
      "explain_en": "Correct: Dice che è stanco.",
-     "explain_ru": "Верно: Dice che è stanco."
+     "explain_ru": "Верно: Dice che è stanco.",
+     "ui": {
+      "ru": {
+       "q": "Когда глагол, вводящий речь, стоит в настоящем времени (dice), времена обычно не меняются."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5064,7 +5500,12 @@
      "q": "«Verrò», reported after 'ha detto', becomes 'ha detto che verrebbe'.",
      "answer": false,
      "explain_en": "Wrong: the future becomes condizionale passato: ha detto che sarebbe venuto.",
-     "explain_ru": "Неверно: будущее превращается в condizionale passato: ha detto che sarebbe venuto."
+     "explain_ru": "Неверно: будущее превращается в condizionale passato: ha detto che sarebbe venuto.",
+     "ui": {
+      "ru": {
+       "q": "«Verrò» в косвенной речи после «ha detto» превращается в «ha detto che verrebbe»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5072,7 +5513,12 @@
      "q": "In reported speech 'domani' often becomes 'il giorno dopo'.",
      "answer": true,
      "explain_en": "Correct, when the report is made on a different day.",
-     "explain_ru": "Верно, если пересказ происходит в другой день."
+     "explain_ru": "Верно, если пересказ происходит в другой день.",
+     "ui": {
+      "ru": {
+       "q": "В косвенной речи «domani» часто превращается в «il giorno dopo»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5158,7 +5604,37 @@
        "suggerire",
        "предложить"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ammettere",
+         "to admit"
+        ],
+        [
+         "negare",
+         "to deny"
+        ],
+        [
+         "sostenere",
+         "to claim"
+        ],
+        [
+         "promettere",
+         "to promise"
+        ],
+        [
+         "minacciare",
+         "to threaten"
+        ],
+        [
+         "suggerire",
+         "to suggest"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5172,7 +5648,7 @@
     {
      "title_en": "Structuring a text",
      "title_ru": "Структура текста",
-     "body_en": "To guide the reader, mark the steps of an argument: innanzitutto / in primo luogo, in secondo luogo, poi, infine; per quanto riguarda… («что касается…»), a proposito di…; per concludere / in conclusione / insomma. Da un lato… dall'altro (lato) presents two sides.",
+     "body_en": "To guide the reader, mark the steps of an argument: innanzitutto / in primo luogo, in secondo luogo, poi, infine; per quanto riguarda… ('as regards…'), a proposito di…; per concludere / in conclusione / insomma. Da un lato… dall'altro (lato) presents two sides.",
      "body_ru": "Чтобы вести читателя, отмечайте шаги рассуждения: innanzitutto / in primo luogo («во-первых»), in secondo luogo («во-вторых»), poi, infine («наконец»); per quanto riguarda… («что касается…»), a proposito di… («кстати о…»); per concludere / in conclusione («в заключение»). Da un lato… dall'altro (lato) — «с одной стороны… с другой».",
      "examples": [
       {
@@ -5195,7 +5671,7 @@
     {
      "title_en": "Adding information",
      "title_ru": "Добавление информации",
-     "body_en": "Inoltre and per di più add a new argument («кроме того», «к тому же»). Oltre a + noun or infinitive = «помимо»: Oltre a parlare inglese, sa il cinese. Non solo… ma anche = «не только… но и». Persino / perfino = «даже».",
+     "body_en": "Inoltre and per di più add a new argument ('moreover', 'what's more'). Oltre a + noun or infinitive = 'besides, apart from': Oltre a parlare inglese, sa il cinese. Non solo… ma anche = 'not only… but also'. Persino / perfino = 'even'.",
      "body_ru": "Inoltre и per di più добавляют новый аргумент («кроме того», «к тому же»). Oltre a + существительное или инфинитив — «помимо»: Oltre a parlare inglese, sa il cinese — «Помимо английского, он знает китайский». Non solo… ma anche — «не только… но и». Persino / perfino — «даже»: Persino il professore ha riso.",
      "examples": [
       {
@@ -5218,7 +5694,7 @@
     {
      "title_en": "Contrast and correction",
      "title_ru": "Противопоставление и уточнение",
-     "body_en": "Però and ma = «но»; tuttavia (more formal) = «однако»; eppure = «и всё же, а ведь». Invece contrasts two subjects or facts («а», «зато»), mentre does the same as a conjunction: Io lavoro, mentre lui dorme. Invece di + infinitive = «вместо того чтобы». Anzi corrects or strengthens: Non è antipatico, anzi! («Наоборот!»).",
+     "body_en": "Però and ma = 'but'; tuttavia (more formal) = 'however'; eppure = 'and yet'. Invece contrasts two subjects or facts ('whereas', 'instead'), mentre does the same as a conjunction: Io lavoro, mentre lui dorme. Invece di + infinitive = 'instead of'. Anzi corrects or strengthens: Non è antipatico, anzi! ('Quite the opposite!').",
      "body_ru": "Però и ma — «но»; tuttavia (книжнее) — «однако»; eppure — «и всё же, а ведь». Invece противопоставляет два лица или факта (русское «а», «зато»), mentre делает то же как союз: Io lavoro, mentre lui dorme — «Я работаю, а он спит». Invece di + инфинитив — «вместо того чтобы». Anzi поправляет или усиливает сказанное: Non è antipatico, anzi! — «Он вовсе не неприятный, наоборот!».",
      "examples": [
       {
@@ -5241,7 +5717,7 @@
     {
      "title_en": "Giving reasons; the false friend infatti",
      "title_ru": "Причина; ложный друг infatti",
-     "body_en": "Siccome introduces a cause at the START of the sentence: Siccome pioveva, siamo rimasti a casa. Perché normally follows the main clause. Poiché, dato che, visto che, dal momento che can go in either position. Infatti confirms or explains what was just said («и правда», «ведь», «действительно») – it is not a way to contradict.",
+     "body_en": "Siccome introduces a cause at the START of the sentence: Siccome pioveva, siamo rimasti a casa. Perché normally follows the main clause. Poiché, dato che, visto che, dal momento che can go in either position. Infatti confirms or explains what was just said ('indeed', 'in fact', 'that's right') – it is not a way to contradict.",
      "body_ru": "Siccome вводит причину в НАЧАЛЕ предложения: Siccome pioveva, siamo rimasti a casa — «Так как шёл дождь, мы остались дома». Perché обычно стоит после главной части. Poiché, dato che, visto che, dal momento che возможны в любой позиции. Infatti подтверждает или объясняет сказанное («и правда», «ведь», «действительно»): È molto bravo, infatti ha vinto. Это не «фактически» и не способ возразить.",
      "examples": [
       {
@@ -5264,7 +5740,7 @@
     {
      "title_en": "Consequence and conclusion",
      "title_ru": "Следствие и вывод",
-     "body_en": "Quindi, perciò, per questo = «поэтому»; dunque = «итак, значит»; pertanto and di conseguenza are more formal («следовательно»). Quindi and dunque can also appear in the middle of the clause: È tardi, dobbiamo quindi partire.",
+     "body_en": "Quindi, perciò, per questo = 'so, that's why'; dunque = 'so, then'; pertanto and di conseguenza are more formal ('therefore', 'consequently'). Quindi and dunque can also appear in the middle of the clause: È tardi, dobbiamo quindi partire.",
      "body_ru": "Quindi, perciò, per questo — «поэтому»; dunque — «итак, значит»; pertanto и di conseguenza — более официальные («следовательно», «вследствие этого»). Quindi и dunque могут стоять и в середине предложения: È tardi, dobbiamo quindi partire — «Уже поздно, так что нам надо ехать».",
      "examples": [
       {
@@ -5333,7 +5809,7 @@
     {
      "title_en": "Reference words: avoiding repetition",
      "title_ru": "Слова-отсылки: как избежать повторов",
-     "body_en": "Good texts refer back without repeating nouns: quest'ultimo / quest'ultima («последний из названных»), il primo… il secondo, tale («такой», formal), ciò («это», formal for questo): Ciò significa che… Russian uses «последний», «первый… второй», «это» in the same way.",
+     "body_en": "Good texts refer back without repeating nouns: quest'ultimo / quest'ultima ('the latter'), il primo… il secondo ('the former… the latter'), tale ('such', formal), ciò ('this, that', formal for questo): Ciò significa che…",
      "body_ru": "В хорошем тексте к уже названному отсылают, не повторяя существительные: quest'ultimo / quest'ultima — «последний (из названных)», il primo… il secondo — «первый… второй», tale — «такой» (официально), ciò — «это» (книжный вариант questo): Ciò significa che… — «Это означает, что…». В русском такие слова используются точно так же.",
      "examples": [
       {
@@ -5366,7 +5842,7 @@
       "perciò"
      ],
      "answer": 1,
-     "explain_en": "Contrast between 'long' and 'I liked it': tuttavia = «однако».",
+     "explain_en": "Contrast between 'long' and 'I liked it': tuttavia = 'however'.",
      "explain_ru": "Противопоставление «длинный» и «понравился»: tuttavia — «однако»."
     },
     {
@@ -5394,7 +5870,7 @@
       "eppure"
      ],
      "answer": 2,
-     "explain_en": "The second sentence confirms the first: infatti = «и правда».",
+     "explain_en": "The second sentence confirms the first: infatti = 'indeed'.",
      "explain_ru": "Вторая часть подтверждает первую: infatti — «и правда»."
     },
     {
@@ -5408,7 +5884,7 @@
       "infatti"
      ],
      "answer": 0,
-     "explain_en": "Contrast between two people: invece (Russian «а»).",
+     "explain_en": "Contrast between two people: invece ('whereas').",
      "explain_ru": "Противопоставление двух людей: invece — русское «а»."
     },
     {
@@ -5422,7 +5898,7 @@
       "anzi"
      ],
      "answer": 3,
-     "explain_en": "Anzi corrects the negative statement: «наоборот».",
+     "explain_en": "Anzi corrects the negative statement: 'on the contrary'.",
      "explain_ru": "Anzi исправляет отрицательное утверждение: «наоборот»."
     },
     {
@@ -5436,7 +5912,7 @@
       "Mentre"
      ],
      "answer": 1,
-     "explain_en": "Before an infinitive: invece di = «вместо того чтобы».",
+     "explain_en": "Before an infinitive: invece di = 'instead of'.",
      "explain_ru": "Перед инфинитивом — invece di: «вместо того чтобы»."
     },
     {
@@ -5451,7 +5927,12 @@
      ],
      "answer": 0,
      "explain_en": "The new information (who) goes at the end, after the verb.",
-     "explain_ru": "Новая информация (кто звонил) ставится в конец, после глагола."
+     "explain_ru": "Новая информация (кто звонил) ставится в конец, после глагола.",
+     "ui": {
+      "ru": {
+       "q": "Какой ответ на «Chi ha telefonato?» наиболее естественный?"
+      }
+     }
     },
     {
      "id": "e08",
@@ -5464,8 +5945,19 @@
       "Marco doesn't speak German."
      ],
      "answer": 1,
-     "explain_en": "Anche stands before Marco, so it refers to Marco: «и Марко тоже».",
-     "explain_ru": "Anche стоит перед Marco и относится к нему: «и Марко тоже»."
+     "explain_en": "Anche stands before Marco, so it refers to Marco: 'Marco too'.",
+     "explain_ru": "Anche стоит перед Marco и относится к нему: «и Марко тоже».",
+     "ui": {
+      "ru": {
+       "q": "«Anche Marco parla tedesco» значит:",
+       "options": [
+        "Марко говорит по-немецки, а также на других языках.",
+        "Марко, как и другие, говорит по-немецки.",
+        "Марко говорит только по-немецки.",
+        "Марко не говорит по-немецки."
+       ]
+      }
+     }
     },
     {
      "id": "e09",
@@ -5492,7 +5984,7 @@
       "Riguardo"
      ],
      "answer": 2,
-     "explain_en": "Fixed expression: per quanto riguarda = «что касается».",
+     "explain_en": "Fixed expression: per quanto riguarda = 'as regards'.",
      "explain_ru": "Устойчивое выражение: per quanto riguarda — «что касается»."
     },
     {
@@ -5502,7 +5994,7 @@
      "answer": [
       "ma"
      ],
-     "explain_en": "Non solo… ma anche = «не только… но и».",
+     "explain_en": "Non solo… ma anche = 'not only… but also'.",
      "explain_ru": "Non solo… ma anche — «не только… но и»."
     },
     {
@@ -5512,7 +6004,7 @@
      "answer": [
       "dall'altro"
      ],
-     "explain_en": "Da un lato… dall'altro = «с одной стороны… с другой».",
+     "explain_en": "Da un lato… dall'altro = 'on the one hand… on the other'.",
      "explain_ru": "Da un lato… dall'altro — «с одной стороны… с другой»."
     },
     {
@@ -5523,7 +6015,7 @@
       "Oltre",
       "oltre"
      ],
-     "explain_en": "Oltre a + infinitive = «помимо того, что».",
+     "explain_en": "Oltre a + infinitive = 'besides, apart from'.",
      "explain_ru": "Oltre a + инфинитив — «помимо того, что»."
     },
     {
@@ -5538,7 +6030,12 @@
       "pertanto"
      ],
      "explain_en": "Consequence: perciò, quindi, per questo (pertanto and di conseguenza are more formal).",
-     "explain_ru": "Следствие: perciò, quindi, per questo (pertanto и di conseguenza — более официальные)."
+     "explain_ru": "Следствие: perciò, quindi, per questo (pertanto и di conseguenza — более официальные).",
+     "ui": {
+      "en": {
+       "q": "Il treno era in ritardo, ___ (therefore) siamo arrivati tardi."
+      }
+     }
     },
     {
      "id": "e15",
@@ -5550,7 +6047,12 @@
       "ciononostante"
      ],
      "explain_en": "Unexpected contrast: eppure, tuttavia.",
-     "explain_ru": "Неожиданное противопоставление: eppure, tuttavia — «и всё же»."
+     "explain_ru": "Неожиданное противопоставление: eppure, tuttavia — «и всё же».",
+     "ui": {
+      "en": {
+       "q": "Ha studiato tanto, ___ (and yet) non ha superato l'esame."
+      }
+     }
     },
     {
      "id": "e16",
@@ -5559,7 +6061,7 @@
      "answer": [
       "luogo"
      ],
-     "explain_en": "In primo luogo… in secondo luogo = «во-первых… во-вторых».",
+     "explain_en": "In primo luogo… in secondo luogo = 'firstly… secondly'.",
      "explain_ru": "In primo luogo… in secondo luogo — «во-первых… во-вторых»."
     },
     {
@@ -5571,8 +6073,13 @@
       "specialmente",
       "in particolare"
      ],
-     "explain_en": "Soprattutto / specialmente / in particolare = «особенно».",
-     "explain_ru": "Soprattutto / specialmente / in particolare — «особенно»."
+     "explain_en": "Soprattutto / specialmente / in particolare = 'especially'.",
+     "explain_ru": "Soprattutto / specialmente / in particolare — «особенно».",
+     "ui": {
+      "en": {
+       "q": "Mi è piaciuto molto il film, ___ (especially) la musica."
+      }
+     }
     },
     {
      "id": "e18",
@@ -5581,7 +6088,7 @@
      "answer": [
       "secondo"
      ],
-     "explain_en": "Il primo… il secondo = «первый… второй».",
+     "explain_en": "Il primo… il secondo = 'the former… the latter'.",
      "explain_ru": "Il primo… il secondo — «первый… второй»."
     },
     {
@@ -5652,23 +6159,38 @@
      "q": "'Siccome' normally introduces a cause at the beginning of the sentence.",
      "answer": true,
      "explain_en": "Correct: Siccome pioveva, siamo rimasti a casa.",
-     "explain_ru": "Верно: Siccome pioveva, siamo rimasti a casa."
+     "explain_ru": "Верно: Siccome pioveva, siamo rimasti a casa.",
+     "ui": {
+      "ru": {
+       "q": "«Siccome» обычно вводит причину в начале предложения."
+      }
+     }
     },
     {
      "id": "e24",
      "type": "tf",
      "q": "Italian 'infatti' is used to contradict what was said before.",
      "answer": false,
-     "explain_en": "Wrong: infatti confirms or explains («и правда», «ведь»); to contradict use invece, anzi, al contrario.",
-     "explain_ru": "Неверно: infatti подтверждает или объясняет («и правда», «ведь»); для возражения — invece, anzi, al contrario."
+     "explain_en": "Wrong: infatti confirms or explains ('indeed', 'in fact'); to contradict use invece, anzi, al contrario.",
+     "explain_ru": "Неверно: infatti подтверждает или объясняет («и правда», «ведь»); для возражения — invece, anzi, al contrario.",
+     "ui": {
+      "ru": {
+       "q": "Итальянское «infatti» используется, чтобы возразить сказанному ранее."
+      }
+     }
     },
     {
      "id": "e25",
      "type": "tf",
      "q": "In 'È arrivato il treno' the subject comes after the verb, which is natural in Italian.",
      "answer": true,
-     "explain_en": "Correct: with verbs of arrival the new subject often follows the verb, as in Russian «Пришёл поезд».",
-     "explain_ru": "Верно: с глаголами прибытия новое подлежащее часто стоит после глагола, как в русском «Пришёл поезд»."
+     "explain_en": "Correct: with verbs of arrival the new subject often follows the verb (literally 'Has arrived the train'), as also happens in Russian.",
+     "explain_ru": "Верно: с глаголами прибытия новое подлежащее часто стоит после глагола, как в русском «Пришёл поезд».",
+     "ui": {
+      "ru": {
+       "q": "В «È arrivato il treno» подлежащее стоит после глагола, и для итальянского это естественно."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5698,7 +6220,37 @@
        "infatti",
        "и действительно"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "inoltre",
+         "moreover"
+        ],
+        [
+         "tuttavia",
+         "however"
+        ],
+        [
+         "eppure",
+         "and yet"
+        ],
+        [
+         "pertanto",
+         "therefore"
+        ],
+        [
+         "anzi",
+         "on the contrary"
+        ],
+        [
+         "infatti",
+         "indeed"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5724,7 +6276,33 @@
        "invece",
        "противопоставление"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "in primo luogo",
+         "starting a list"
+        ],
+        [
+         "per concludere",
+         "conclusion"
+        ],
+        [
+         "per esempio",
+         "example"
+        ],
+        [
+         "cioè",
+         "clarification"
+        ],
+        [
+         "invece",
+         "contrast"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",

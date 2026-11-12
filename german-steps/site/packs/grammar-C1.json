@@ -484,7 +484,12 @@
      "q": "„Kritik üben an etwas“ means the same as „etwas kritisieren“.",
      "answer": true,
      "explain_en": "Correct: üben has lost its meaning 'practise' here.",
-     "explain_ru": "Верно: üben здесь потерял значение «упражняться»."
+     "explain_ru": "Верно: üben здесь потерял значение «упражняться».",
+     "ui": {
+      "ru": {
+       "q": "„Kritik üben an etwas“ означает то же, что „etwas kritisieren“."
+      }
+     }
     },
     {
      "id": "e24",
@@ -492,7 +497,12 @@
      "q": "„Zu der Sprache bringen“ is an equally correct variant of „zur Sprache bringen“.",
      "answer": false,
      "explain_en": "The form of a Funktionsverbgefüge is fixed: only zur Sprache bringen.",
-     "explain_ru": "Форма сочетания фиксирована: только zur Sprache bringen."
+     "explain_ru": "Форма сочетания фиксирована: только zur Sprache bringen.",
+     "ui": {
+      "ru": {
+       "q": "„Zu der Sprache bringen“ — столь же правильный вариант, как „zur Sprache bringen“."
+      }
+     }
     },
     {
      "id": "e25",
@@ -500,7 +510,12 @@
      "q": "In „Der Plan steht zur Diskussion“ the plan is the thing being discussed, not the one who acts.",
      "answer": true,
      "explain_en": "stehen is the passive-like counterpart of stellen: Wir stellen den Plan zur Diskussion.",
-     "explain_ru": "Верно: stehen — «пассивная» пара к stellen: Wir stellen den Plan zur Diskussion."
+     "explain_ru": "Верно: stehen — «пассивная» пара к stellen: Wir stellen den Plan zur Diskussion.",
+     "ui": {
+      "ru": {
+       "q": "В „Der Plan steht zur Diskussion“ план — это то, что обсуждают, а не тот, кто действует."
+      }
+     }
     },
     {
      "id": "e26",
@@ -574,7 +589,33 @@
        "zur Verantwortung ziehen",
        "привлекать к ответственности"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "in Frage stellen",
+         "to call into question"
+        ],
+        [
+         "in Betracht ziehen",
+         "to consider as an option"
+        ],
+        [
+         "Einfluss nehmen auf",
+         "to exert influence on"
+        ],
+        [
+         "in Kauf nehmen",
+         "to put up with (a drawback)"
+        ],
+        [
+         "zur Verantwortung ziehen",
+         "to hold accountable"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1062,7 +1103,12 @@
      "q": "In „die im Garten spielenden Kinder“ the children are doing the action.",
      "answer": true,
      "explain_en": "Partizip I is active: die Kinder, die im Garten spielen.",
-     "explain_ru": "Верно: Partizip I активен — die Kinder, die im Garten spielen."
+     "explain_ru": "Верно: Partizip I активен — die Kinder, die im Garten spielen.",
+     "ui": {
+      "ru": {
+       "q": "В „die im Garten spielenden Kinder“ действие совершают дети."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1070,7 +1116,12 @@
      "q": "„Die gearbeitete Frau“ is a correct way to say 'the woman who has worked'.",
      "answer": false,
      "explain_en": "arbeiten is intransitive with haben; its Partizip II cannot be an attribute. Use a relative clause.",
-     "explain_ru": "arbeiten — непереходный глагол с haben, его Partizip II не бывает определением. Нужно придаточное."
+     "explain_ru": "arbeiten — непереходный глагол с haben, его Partizip II не бывает определением. Нужно придаточное.",
+     "ui": {
+      "ru": {
+       "q": "„Die gearbeitete Frau“ — правильный способ сказать «женщина, которая поработала»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1078,7 +1129,12 @@
      "q": "In an extended attribute the complements stand before the participle, in the same order as in the middle field.",
      "answer": true,
      "explain_en": "die gestern vom Chef unterschriebene Vollmacht – like: … die gestern vom Chef unterschrieben wurde.",
-     "explain_ru": "Верно: die gestern vom Chef unterschriebene Vollmacht — как в придаточном: … die gestern vom Chef unterschrieben wurde."
+     "explain_ru": "Верно: die gestern vom Chef unterschriebene Vollmacht — как в придаточном: … die gestern vom Chef unterschrieben wurde.",
+     "ui": {
+      "ru": {
+       "q": "В распространённом определении зависимые слова стоят перед причастием в том же порядке, что и в среднем поле."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1126,7 +1182,33 @@
        "der verliebte Junge",
        "влюблённый мальчик"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "das schlafende Kind",
+         "the sleeping child"
+        ],
+        [
+         "das gefundene Geld",
+         "the money that was found"
+        ],
+        [
+         "der verschwundene Koffer",
+         "the missing suitcase"
+        ],
+        [
+         "die sich nähernde Gefahr",
+         "the approaching danger"
+        ],
+        [
+         "der verliebte Junge",
+         "the boy in love"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1185,7 +1267,7 @@
     {
      "title_en": "ja: shared knowledge and surprise",
      "title_ru": "ja: общее знание и удивление",
-     "body_en": "In statements, ja signals that the information is known to both speakers (‘as you know’) or expresses surprise at something obvious. Do not confuse it with the answer word Ja, which stands outside the sentence. The particle ja corresponds roughly to Russian ведь or же.",
+     "body_en": "In statements, ja signals that the information is known to both speakers (‘as you know’) or expresses surprise at something obvious. Do not confuse it with the answer word Ja, which stands outside the sentence. The particle ja corresponds roughly to English 'after all', 'you know' or an emphatic 'really'.",
      "body_ru": "В утверждениях ja показывает, что информация известна обоим («как ты знаешь»), или выражает удивление очевидным фактом. Не путайте её со словом-ответом Ja, которое стоит вне предложения. Частица ja примерно соответствует русским «ведь» или «же»: Du weißt ja, dass … — «Ты ведь знаешь, что …»; Das ist ja unglaublich! — «Да это же невероятно!».",
      "examples": [
       {
@@ -1654,7 +1736,12 @@
      "q": "Modal particles can stand in position 1, before the conjugated verb.",
      "answer": false,
      "explain_en": "They always stand in the middle field: Das ist ja toll, never 'Ja ist das toll'.",
-     "explain_ru": "Они всегда стоят в середине предложения: Das ist ja toll, но не «Ja ist das toll»."
+     "explain_ru": "Они всегда стоят в середине предложения: Das ist ja toll, но не «Ja ist das toll».",
+     "ui": {
+      "ru": {
+       "q": "Модальные частицы могут стоять на первом месте, перед спрягаемым глаголом."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1662,7 +1749,12 @@
      "q": "As a modal particle, „denn“ is used only in questions.",
      "answer": true,
      "explain_en": "In statements denn is a conjunction (because), not a particle.",
-     "explain_ru": "Верно: в утверждениях denn — союз («потому что»), а не частица."
+     "explain_ru": "Верно: в утверждениях denn — союз («потому что»), а не частица.",
+     "ui": {
+      "ru": {
+       "q": "Как модальная частица „denn“ употребляется только в вопросах."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1670,7 +1762,12 @@
      "q": "„halt“ and „eben“ mean almost the same; „halt“ is more typical of southern Germany and Austria.",
      "answer": true,
      "explain_en": "Both express resignation; the difference is mainly regional.",
-     "explain_ru": "Верно: обе выражают смирение, разница в основном региональная."
+     "explain_ru": "Верно: обе выражают смирение, разница в основном региональная.",
+     "ui": {
+      "ru": {
+       "q": "„halt“ и „eben“ значат почти одно и то же; „halt“ более характерно для юга Германии и Австрии."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1722,7 +1819,33 @@
        "Das ist halt so.",
        "Что поделаешь, так уж есть."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Komm mal her!",
+         "Come over here, will you!"
+        ],
+        [
+         "Das ist ja toll!",
+         "Why, that's great!"
+        ],
+        [
+         "Wo bist du denn?",
+         "Where are you, then?"
+        ],
+        [
+         "Er ist wohl krank.",
+         "He's probably ill."
+        ],
+        [
+         "Das ist halt so.",
+         "That's just the way it is."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2230,7 +2353,12 @@
      "q": "„Aufgrund“ can also be written as two words: „auf Grund“.",
      "answer": true,
      "explain_en": "Both spellings are correct.",
-     "explain_ru": "Верно: оба написания правильны."
+     "explain_ru": "Верно: оба написания правильны.",
+     "ui": {
+      "ru": {
+       "q": "„Aufgrund“ можно писать и раздельно: „auf Grund“."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2238,7 +2366,12 @@
      "q": "„Zufolge“ with the dative stands after the noun: „dem Bericht zufolge“.",
      "answer": true,
      "explain_en": "Postposed zufolge takes the dative.",
-     "explain_ru": "Верно: zufolge после существительного требует дательного падежа."
+     "explain_ru": "Верно: zufolge после существительного требует дательного падежа.",
+     "ui": {
+      "ru": {
+       "q": "„Zufolge“ с дательным падежом стоит после существительного: „dem Bericht zufolge“."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2246,7 +2379,12 @@
      "q": "„Mittels“ is typical of relaxed everyday conversation.",
      "answer": false,
      "explain_en": "mittels is formal; in conversation people say mit.",
-     "explain_ru": "Неверно: mittels — книжное слово; в разговоре говорят mit."
+     "explain_ru": "Неверно: mittels — книжное слово; в разговоре говорят mit.",
+     "ui": {
+      "ru": {
+       "q": "„Mittels“ типично для непринуждённой повседневной беседы."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2298,7 +2436,33 @@
        "zugunsten",
        "в пользу"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "angesichts",
+         "in view of"
+        ],
+        [
+         "infolge",
+         "as a result of"
+        ],
+        [
+         "mittels",
+         "by means of"
+        ],
+        [
+         "hinsichtlich",
+         "with regard to"
+        ],
+        [
+         "zugunsten",
+         "in favour of"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2403,7 +2567,7 @@
     {
      "title_en": "Reflexive middle: Das Buch liest sich gut",
      "title_ru": "Возвратный медий: Das Buch liest sich gut",
-     "body_en": "Some transitive verbs can be used reflexively without any agent to describe a property or a spontaneous process: Das Buch liest sich leicht. Die Tür öffnet sich. Der Schlüssel hat sich gefunden. Fixed expressions: Die Frage stellt sich, ob … Das versteht sich von selbst. Here German behaves very much like Russian verbs in -ся.",
+     "body_en": "Some transitive verbs can be used reflexively without any agent to describe a property or a spontaneous process: Das Buch liest sich leicht. Die Tür öffnet sich. Der Schlüssel hat sich gefunden. Fixed expressions: Die Frage stellt sich, ob … Das versteht sich von selbst. Here German behaves very much like Russian reflexive verbs in -sya, and like English 'the book reads easily'.",
      "body_ru": "Некоторые переходные глаголы можно употребить возвратно, без деятеля, чтобы описать свойство или самопроизвольный процесс: Das Buch liest sich leicht («Книга легко читается»). Die Tür öffnet sich («Дверь открывается»). Der Schlüssel hat sich gefunden («Ключ нашёлся»). Устойчивые выражения: Die Frage stellt sich, ob … («Возникает вопрос, …»), Das versteht sich von selbst («Это само собой разумеется»). Здесь немецкий ведёт себя очень похоже на русские глаголы на -ся.",
      "examples": [
       {
@@ -2803,7 +2967,12 @@
      "q": "„Heute wird es gearbeitet“ is correct, because the impersonal passive always needs es.",
      "answer": false,
      "explain_en": "es only fills position 1. With Heute in position 1: Heute wird gearbeitet.",
-     "explain_ru": "Неверно: es лишь занимает первое место. Если там Heute: Heute wird gearbeitet."
+     "explain_ru": "Неверно: es лишь занимает первое место. Если там Heute: Heute wird gearbeitet.",
+     "ui": {
+      "ru": {
+       "q": "„Heute wird es gearbeitet“ правильно, потому что безличному пассиву всегда нужно es."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2811,7 +2980,12 @@
      "q": "„die zu prüfenden Anträge“ means applications that have to be (or are to be) checked.",
      "answer": true,
      "explain_en": "The Gerundiv has a passive meaning of necessity or possibility.",
-     "explain_ru": "Верно: герундив имеет пассивное значение необходимости или возможности."
+     "explain_ru": "Верно: герундив имеет пассивное значение необходимости или возможности.",
+     "ui": {
+      "ru": {
+       "q": "„die zu prüfenden Anträge“ означает заявления, которые нужно (или предстоит) проверить."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2819,7 +2993,15 @@
      "q": "„Das Buch liest sich gut“ works much like Russian «книга хорошо читается».",
      "answer": true,
      "explain_en": "Both languages use a reflexive form without an agent to describe a property.",
-     "explain_ru": "Верно: оба языка используют возвратную форму без деятеля, чтобы описать свойство."
+     "explain_ru": "Верно: оба языка используют возвратную форму без деятеля, чтобы описать свойство.",
+     "ui": {
+      "en": {
+       "q": "„Das Buch liest sich gut“ works much like the Russian reflexive construction ('the book reads well')."
+      },
+      "ru": {
+       "q": "„Das Buch liest sich gut“ устроено почти так же, как русское «книга хорошо читается»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2867,7 +3049,33 @@
        "Das versteht sich von selbst.",
        "Это само собой разумеется."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Es heißt, …",
+         "They say that …"
+        ],
+        [
+         "Er gilt als Experte.",
+         "He is considered an expert."
+        ],
+        [
+         "Das lässt sich machen.",
+         "That can be done."
+        ],
+        [
+         "Es bleibt abzuwarten.",
+         "It remains to be seen."
+        ],
+        [
+         "Das versteht sich von selbst.",
+         "That goes without saying."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3369,7 +3577,12 @@
      "q": "In the inseparable verb „übersetzen“ (to translate) the prefix über- is stressed.",
      "answer": false,
      "explain_en": "In inseparable verbs the stem is stressed: überSETZen.",
-     "explain_ru": "Неверно: в неотделяемых глаголах ударение на корне — überSETZen."
+     "explain_ru": "Неверно: в неотделяемых глаголах ударение на корне — überSETZen.",
+     "ui": {
+      "ru": {
+       "q": "В неотделяемом глаголе „übersetzen“ (переводить) приставка über- ударная."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3377,7 +3590,12 @@
      "q": "Inseparable verbs form the Partizip II without ge-: umfahren, durchschaut.",
      "answer": true,
      "explain_en": "Like all inseparable verbs: übersetzt, umfahren, durchschaut.",
-     "explain_ru": "Верно: как и все неотделяемые глаголы — übersetzt, umfahren, durchschaut."
+     "explain_ru": "Верно: как и все неотделяемые глаголы — übersetzt, umfahren, durchschaut.",
+     "ui": {
+      "ru": {
+       "q": "Неотделяемые глаголы образуют Partizip II без ge-: umfahren, durchschaut."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3385,7 +3603,12 @@
      "q": "„widersprechen“ is separable: „Ich spreche dir wider.“",
      "answer": false,
      "explain_en": "widersprechen is inseparable: Ich widerspreche dir.",
-     "explain_ru": "Неверно: widersprechen — неотделяемый: Ich widerspreche dir."
+     "explain_ru": "Неверно: widersprechen — неотделяемый: Ich widerspreche dir.",
+     "ui": {
+      "ru": {
+       "q": "„widersprechen“ — отделяемый глагол: „Ich spreche dir wider.“"
+      }
+     }
     },
     {
      "id": "e26",
@@ -3415,7 +3638,37 @@
        "durchSCHAUen",
        "раскусить (кого-то)"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ÜBERsetzen",
+         "to ferry across"
+        ],
+        [
+         "überSETZEN",
+         "to translate (a text)"
+        ],
+        [
+         "UMfahren",
+         "to knock down (with a car)"
+        ],
+        [
+         "umFAHRen",
+         "to drive around, bypass"
+        ],
+        [
+         "DURCHschauen",
+         "to look through"
+        ],
+        [
+         "durchSCHAUen",
+         "to see through (someone)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3437,7 +3690,29 @@
        "wiederholen (забрать обратно)",
        "wiedergeholt"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "umgehen mit (to deal with)",
+         "umgegangen"
+        ],
+        [
+         "umgehen (to get around the law)",
+         "umgangen"
+        ],
+        [
+         "wiederholen (to repeat)",
+         "wiederholt"
+        ],
+        [
+         "wiederholen (to fetch back)",
+         "wiedergeholt"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3459,7 +3734,29 @@
        "Ich stelle das Fahrrad im Keller unter.",
        "Я ставлю велосипед на хранение в подвал."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Die Polizei umstellte das Haus.",
+         "The police surrounded the house."
+        ],
+        [
+         "Wir stellten die Möbel um.",
+         "We rearranged the furniture."
+        ],
+        [
+         "Er unterstellt mir Lügen.",
+         "He accuses me of lying."
+        ],
+        [
+         "Ich stelle das Fahrrad im Keller unter.",
+         "I'm storing the bike in the cellar."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3935,7 +4232,12 @@
      "q": "Konjunktiv I in a news report shows that the journalist personally confirms the information.",
      "answer": false,
      "explain_en": "It shows the opposite: the content is only reported.",
-     "explain_ru": "Неверно: наоборот, он показывает, что информация лишь передаётся."
+     "explain_ru": "Неверно: наоборот, он показывает, что информация лишь передаётся.",
+     "ui": {
+      "ru": {
+       "q": "Konjunktiv I в новостном сообщении показывает, что журналист лично подтверждает информацию."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3943,7 +4245,12 @@
      "q": "If the Konjunktiv I form is identical to the indicative (sie haben), Konjunktiv II is used instead (sie hätten).",
      "answer": true,
      "explain_en": "This substitution keeps the reported character visible.",
-     "explain_ru": "Верно: такая замена сохраняет видимость косвенной речи."
+     "explain_ru": "Верно: такая замена сохраняет видимость косвенной речи.",
+     "ui": {
+      "ru": {
+       "q": "Если форма Konjunktiv I совпадает с индикативом (sie haben), вместо неё используют Konjunktiv II (sie hätten)."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3951,7 +4258,12 @@
      "q": "In „Es sei x eine natürliche Zahl“ the Konjunktiv I expresses an assumption, not reported speech.",
      "answer": true,
      "explain_en": "Konjunktiv I also expresses assumptions and instructions.",
-     "explain_ru": "Верно: конъюнктив I выражает также допущения и указания."
+     "explain_ru": "Верно: конъюнктив I выражает также допущения и указания.",
+     "ui": {
+      "ru": {
+       "q": "В „Es sei x eine natürliche Zahl“ Konjunktiv I выражает допущение, а не косвенную речь."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3999,7 +4311,33 @@
        "mitteilen",
        "сообщать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "einräumen",
+         "to admit reluctantly"
+        ],
+        [
+         "bestreiten",
+         "to deny"
+        ],
+        [
+         "betonen",
+         "to emphasise"
+        ],
+        [
+         "behaupten",
+         "to claim"
+        ],
+        [
+         "mitteilen",
+         "to inform, announce"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4021,7 +4359,29 @@
        "Es sei darauf hingewiesen, dass …",
        "Следует отметить, что …"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Es wäre zu prüfen, ob …",
+         "It would need to be checked whether …"
+        ],
+        [
+         "Man könnte einwenden, dass …",
+         "One could object that …"
+        ],
+        [
+         "Dies dürfte daran liegen, dass …",
+         "This is probably because …"
+        ],
+        [
+         "Es sei darauf hingewiesen, dass …",
+         "It should be noted that …"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4035,7 +4395,7 @@
     {
      "title_en": "Compounds: the last part is the head",
      "title_ru": "Сложные слова: главная часть — последняя",
-     "body_en": "In a German compound the last element is the head: it determines the word class, the gender and the plural. All elements before it narrow its meaning: die Tür → die Haustür → die Haustürklingel. The main stress falls on the first element. Russian usually renders compounds with an adjective or a genitive: das Kinderzimmer = детская комната, der Datenschutz = защита данных.",
+     "body_en": "In a German compound the last element is the head: it determines the word class, the gender and the plural. All elements before it narrow its meaning: die Tür → die Haustür → die Haustürklingel. The main stress falls on the first element. English often renders compounds as separate words or with 'of': das Kinderzimmer = children's room, der Datenschutz = data protection.",
      "body_ru": "В немецком сложном слове главная часть — последняя: она определяет часть речи, род и множественное число. Всё, что стоит перед ней, уточняет её значение: die Tür → die Haustür → die Haustürklingel. Главное ударение падает на первую часть. В русском сложные слова обычно передаются прилагательным или родительным падежом: das Kinderzimmer = «детская комната», der Datenschutz = «защита данных». Поэтому переводить надо с конца: Haustürklingel — «звонок входной двери».",
      "examples": [
       {
@@ -4266,7 +4626,12 @@
      ],
      "answer": 0,
      "explain_en": "After -ung the linking -s- is obligatory.",
-     "explain_ru": "После -ung соединительное -s- обязательно."
+     "explain_ru": "После -ung соединительное -s- обязательно.",
+     "ui": {
+      "ru": {
+       "q": "Какая форма правильная?"
+      }
+     }
     },
     {
      "id": "e03",
@@ -4518,7 +4883,12 @@
      "q": "In a compound the last element determines the gender: die Tür → die Haustür.",
      "answer": true,
      "explain_en": "The head is always at the end.",
-     "explain_ru": "Верно: главная часть всегда в конце."
+     "explain_ru": "Верно: главная часть всегда в конце.",
+     "ui": {
+      "ru": {
+       "q": "В сложном слове последний элемент определяет род: die Tür → die Haustür."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4526,7 +4896,12 @@
      "q": "All nouns ending in -heit, -keit, -ung and -schaft are feminine.",
      "answer": true,
      "explain_en": "These suffixes always give feminine nouns.",
-     "explain_ru": "Верно: эти суффиксы всегда дают женский род."
+     "explain_ru": "Верно: эти суффиксы всегда дают женский род.",
+     "ui": {
+      "ru": {
+       "q": "Все существительные на -heit, -keit, -ung и -schaft женского рода."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4534,7 +4909,12 @@
      "q": "„-bar“ can be added to nouns: „Kindbar“ means 'childlike'.",
      "answer": false,
      "explain_en": "-bar is added to transitive verbs; 'childlike' is kindlich.",
-     "explain_ru": "Неверно: -bar присоединяется к переходным глаголам; «детский» — kindlich."
+     "explain_ru": "Неверно: -bar присоединяется к переходным глаголам; «детский» — kindlich.",
+     "ui": {
+      "ru": {
+       "q": "„-bar“ можно присоединять к существительным: „Kindbar“ значит «детский, ребячливый»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4616,7 +4996,33 @@
        "die Straßenbahn",
        "трамвай"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "der Datenschutz",
+         "data protection"
+        ],
+        [
+         "der Arbeitsplatz",
+         "workplace, job"
+        ],
+        [
+         "der Geburtstag",
+         "birthday"
+        ],
+        [
+         "der Kinderwagen",
+         "pram"
+        ],
+        [
+         "die Straßenbahn",
+         "tram"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5107,7 +5513,12 @@
      "q": "„nämlich“ can stand in position 1: „Nämlich ist er krank.“",
      "answer": false,
      "explain_en": "nämlich stands only in the middle field: Er ist nämlich krank.",
-     "explain_ru": "Неверно: nämlich стоит только в середине предложения: Er ist nämlich krank."
+     "explain_ru": "Неверно: nämlich стоит только в середине предложения: Er ist nämlich krank.",
+     "ui": {
+      "ru": {
+       "q": "„nämlich“ может стоять на первом месте: „Nämlich ist er krank.“"
+      }
+     }
     },
     {
      "id": "e24",
@@ -5115,7 +5526,12 @@
      "q": "After „folglich“ in position 1 the conjugated verb follows directly: „Folglich ist er schuld.“",
      "answer": true,
      "explain_en": "Connecting adverbs in position 1 cause inversion.",
-     "explain_ru": "Верно: соединительные наречия на первом месте вызывают инверсию."
+     "explain_ru": "Верно: соединительные наречия на первом месте вызывают инверсию.",
+     "ui": {
+      "ru": {
+       "q": "Если „folglich“ стоит на первом месте, сразу за ним следует спрягаемый глагол: „Folglich ist er schuld.“"
+      }
+     }
     },
     {
      "id": "e25",
@@ -5123,7 +5539,12 @@
      "q": "„zumal“ is a coordinating conjunction like „denn“ and does not move the verb.",
      "answer": false,
      "explain_en": "zumal is subordinating: the verb goes to the end.",
-     "explain_ru": "Неверно: zumal — подчинительный союз, глагол уходит в конец."
+     "explain_ru": "Неверно: zumal — подчинительный союз, глагол уходит в конец.",
+     "ui": {
+      "ru": {
+       "q": "„zumal“ — сочинительный союз, как „denn“, и не влияет на место глагола."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5153,7 +5574,37 @@
        "nämlich",
        "дело в том, что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "zumal",
+         "especially since"
+        ],
+        [
+         "folglich",
+         "consequently"
+        ],
+        [
+         "hingegen",
+         "on the other hand"
+        ],
+        [
+         "insofern",
+         "in this respect"
+        ],
+        [
+         "allerdings",
+         "admittedly, however"
+        ],
+        [
+         "nämlich",
+         "you see, the thing is"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5678,7 +6129,12 @@
      "q": "Swiss Standard German does not use the letter ß.",
      "answer": true,
      "explain_en": "In Switzerland ss is always written: Strasse, gross.",
-     "explain_ru": "Верно: в Швейцарии всегда пишут ss — Strasse, gross."
+     "explain_ru": "Верно: в Швейцарии всегда пишут ss — Strasse, gross.",
+     "ui": {
+      "ru": {
+       "q": "В швейцарском литературном немецком не используется буква ß."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5686,7 +6142,12 @@
      "q": "In everyday conversation the Präteritum is used for most verbs instead of the Perfekt.",
      "answer": false,
      "explain_en": "It is the other way round: speech prefers the Perfekt, except for sein, haben and modal verbs.",
-     "explain_ru": "Неверно: наоборот, устная речь предпочитает перфект, кроме sein, haben и модальных глаголов."
+     "explain_ru": "Неверно: наоборот, устная речь предпочитает перфект, кроме sein, haben и модальных глаголов.",
+     "ui": {
+      "ru": {
+       "q": "В повседневной речи для большинства глаголов вместо Perfekt используется Präteritum."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5694,7 +6155,12 @@
      "q": "Austrian Standard German is a dialect and therefore incorrect in official texts.",
      "answer": false,
      "explain_en": "It is a full standard variety, used in Austrian laws, schools and newspapers.",
-     "explain_ru": "Неверно: это полноценный стандартный вариант, на нём пишутся австрийские законы, учебники и газеты."
+     "explain_ru": "Неверно: это полноценный стандартный вариант, на нём пишутся австрийские законы, учебники и газеты.",
+     "ui": {
+      "ru": {
+       "q": "Австрийский литературный немецкий — это диалект, поэтому в официальных текстах он неправилен."
+      }
+     }
     },
     {
      "id": "e26",

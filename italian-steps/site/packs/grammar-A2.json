@@ -11,7 +11,7 @@
     {
      "title_en": "How the passato prossimo is formed",
      "title_ru": "Как образуется passato prossimo",
-     "body_en": "The passato prossimo has two parts: the present of avere or essere + the past participle. Regular participles: -are → -ato (parlato), -ere → -uto (venduto), -ire → -ito (finito). It is used for completed actions and events, roughly like a Russian perfective past: Ho mangiato una pizza = 'Я съел пиццу'.",
+     "body_en": "The passato prossimo has two parts: the present of avere or essere + the past participle. Regular participles: -are → -ato (parlato), -ere → -uto (venduto), -ire → -ito (finito). It is used for completed actions and events, roughly like a Russian perfective past: Ho mangiato una pizza = 'I ate (up) a pizza'.",
      "body_ru": "Passato prossimo состоит из двух частей: настоящее время avere или essere + причастие прошедшего времени. Правильные причастия: -are → -ato (parlato), -ere → -uto (venduto), -ire → -ito (finito). Время описывает завершённые действия и события и часто соответствует русскому прошедшему времени совершенного вида: Ho mangiato una pizza — «Я съел пиццу». В русском одно слово, в итальянском — два.",
      "examples": [
       {
@@ -80,7 +80,7 @@
     {
      "title_en": "Agreement with essere",
      "title_ru": "Согласование с essere",
-     "body_en": "With essere the participle agrees with the subject like an adjective: -o, -a, -i, -e. Marco è partito, Anna è partita, Marco e Luca sono partiti, Anna e Sara sono partite. A mixed group takes the masculine plural. This is similar to Russian 'ушёл / ушла / ушли', but Italian also has a separate feminine plural.",
+     "body_en": "With essere the participle agrees with the subject like an adjective: -o, -a, -i, -e. Marco è partito, Anna è partita, Marco e Luca sono partiti, Anna e Sara sono partite. A mixed group takes the masculine plural. This is similar to the Russian past tense, which also changes for gender, but Italian also has a separate feminine plural.",
      "body_ru": "С essere причастие согласуется с подлежащим, как прилагательное: -o, -a, -i, -e. Marco è partito, Anna è partita, Marco e Luca sono partiti, Anna e Sara sono partite. Смешанная группа требует мужского рода множественного числа. Это похоже на русское «ушёл / ушла / ушли», но в итальянском есть ещё и отдельная форма женского рода множественного числа.",
      "examples": [
       {
@@ -103,7 +103,7 @@
     {
      "title_en": "Reflexive verbs take essere",
      "title_ru": "Возвратные глаголы спрягаются с essere",
-     "body_en": "All reflexive verbs form the passato prossimo with essere, so the participle agrees with the subject: mi sono alzato (a man), mi sono alzata (a woman), ci siamo divertiti. The reflexive pronoun comes before the auxiliary. Russian marks these verbs with -ся; Italian adds the pronoun and essere.",
+     "body_en": "All reflexive verbs form the passato prossimo with essere, so the participle agrees with the subject: mi sono alzato (a man), mi sono alzata (a woman), ci siamo divertiti. The reflexive pronoun comes before the auxiliary. Russian marks these verbs with the ending '-sya'; Italian adds the pronoun and essere.",
      "body_ru": "Все возвратные глаголы образуют passato prossimo с essere, поэтому причастие согласуется с подлежащим: mi sono alzato (говорит мужчина), mi sono alzata (говорит женщина), ci siamo divertiti. Возвратное местоимение стоит перед вспомогательным глаголом. В русском такие глаголы отмечены частицей -ся, а в итальянском — местоимением и глаголом essere.",
      "examples": [
       {
@@ -195,7 +195,7 @@
     {
      "title_en": "Time expressions and negation",
      "title_ru": "Выражения времени и отрицание",
-     "body_en": "Typical time markers are ieri, l'altro ieri, stamattina, la settimana scorsa, l'anno scorso, nel 2020 and fa, which comes after the period: tre giorni fa = 'три дня назад'. Non goes before the whole verb, that is before the auxiliary: Non ho capito. Non sono andato.",
+     "body_en": "Typical time markers are ieri, l'altro ieri, stamattina, la settimana scorsa, l'anno scorso, nel 2020 and fa, which comes after the period, like English 'ago': tre giorni fa = 'three days ago'. Non goes before the whole verb, that is before the auxiliary: Non ho capito. Non sono andato.",
      "body_ru": "Типичные указатели времени: ieri, l'altro ieri, stamattina, la settimana scorsa, l'anno scorso, nel 2020 и fa, которое ставится после отрезка времени: tre giorni fa — «три дня назад», как и русское «назад». Non ставится перед всей глагольной формой, то есть перед вспомогательным глаголом: Non ho capito — «Я не понял». Non sono andato.",
      "examples": [
       {
@@ -340,7 +340,7 @@
       "per due giorni fa"
      ],
      "answer": 1,
-     "explain_en": "Fa comes after the period of time, like Russian 'назад': due giorni fa.",
+     "explain_en": "Fa comes after the period of time, like English 'ago': due giorni fa.",
      "explain_ru": "Fa ставится после отрезка времени, как русское «назад»: due giorni fa."
     },
     {
@@ -500,7 +500,12 @@
      "q": "'Anna ha andata a casa' is correct.",
      "answer": false,
      "explain_en": "Andare takes essere: Anna è andata a casa.",
-     "explain_ru": "Andare спрягается с essere: Anna è andata a casa."
+     "explain_ru": "Andare спрягается с essere: Anna è andata a casa.",
+     "ui": {
+      "ru": {
+       "q": "'Anna ha andata a casa' — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -508,7 +513,12 @@
      "q": "With avere, the participle normally does not agree with the subject: 'Maria ha mangiato'.",
      "answer": true,
      "explain_en": "Correct: agreement with avere happens only with a preceding lo, la, li, le.",
-     "explain_ru": "Верно: с avere согласование бывает только с предшествующими lo, la, li, le."
+     "explain_ru": "Верно: с avere согласование бывает только с предшествующими lo, la, li, le.",
+     "ui": {
+      "ru": {
+       "q": "С avere причастие обычно не согласуется с подлежащим: 'Maria ha mangiato'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -516,7 +526,12 @@
      "q": "'Ho finito il lavoro' and 'Il lavoro è finito' use the same auxiliary.",
      "answer": false,
      "explain_en": "With an object finire takes avere; without one it takes essere.",
-     "explain_ru": "С дополнением finire берёт avere, без дополнения — essere."
+     "explain_ru": "С дополнением finire берёт avere, без дополнения — essere.",
+     "ui": {
+      "ru": {
+       "q": "В 'Ho finito il lavoro' и 'Il lavoro è finito' используется один и тот же вспомогательный глагол."
+      }
+     }
     },
     {
      "id": "e26",
@@ -602,7 +617,37 @@
        "l'anno scorso",
        "в прошлом году"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ieri",
+         "yesterday"
+        ],
+        [
+         "l'altro ieri",
+         "the day before yesterday"
+        ],
+        [
+         "la settimana scorsa",
+         "last week"
+        ],
+        [
+         "due anni fa",
+         "two years ago"
+        ],
+        [
+         "stamattina",
+         "this morning"
+        ],
+        [
+         "l'anno scorso",
+         "last year"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -777,7 +822,7 @@
     {
      "title_en": "Piacere in the past",
      "title_ru": "Piacere в прошедшем времени",
-     "body_en": "Piacere takes essere, so its participle piaciuto agrees with the thing that is liked, not with the person: Mi è piaciuto il film, Mi è piaciuta la pizza, Mi sono piaciuti i musei. This mirrors Russian: 'мне понравился фильм', 'мне понравилась пицца'.",
+     "body_en": "Piacere takes essere, so its participle piaciuto agrees with the thing that is liked, not with the person: Mi è piaciuto il film, Mi è piaciuta la pizza, Mi sono piaciuti i musei. This mirrors Russian, where the verb 'to like' also agrees with the thing liked.",
      "body_ru": "Piacere спрягается с essere, поэтому причастие piaciuto согласуется с тем, что нравится, а не с человеком: Mi è piaciuto il film, Mi è piaciuta la pizza, Mi sono piaciuti i musei. Это точно как в русском: «мне понравился фильм», «мне понравилась пицца», «мне понравились музеи».",
      "examples": [
       {
@@ -1084,7 +1129,12 @@
      "q": "The past participle of 'venire' is 'venito'.",
      "answer": false,
      "explain_en": "It is venuto, in -uto, although venire is an -ire verb.",
-     "explain_ru": "Правильно venuto, на -uto, хотя venire — глагол на -ire."
+     "explain_ru": "Правильно venuto, на -uto, хотя venire — глагол на -ire.",
+     "ui": {
+      "ru": {
+       "q": "Причастие прошедшего времени от 'venire' — 'venito'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1092,7 +1142,12 @@
      "q": "'Stato' is the participle of both essere and stare.",
      "answer": true,
      "explain_en": "Yes: sono stato can mean 'I was' or 'I stayed'.",
-     "explain_ru": "Да: sono stato может значить «я был» или «я находился, пробыл»."
+     "explain_ru": "Да: sono stato может значить «я был» или «я находился, пробыл».",
+     "ui": {
+      "ru": {
+       "q": "'Stato' — причастие и от essere, и от stare."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1100,7 +1155,12 @@
      "q": "'Ho aperto' and 'ho apruto' are both correct.",
      "answer": false,
      "explain_en": "Only aperto is correct.",
-     "explain_ru": "Правильно только aperto."
+     "explain_ru": "Правильно только aperto.",
+     "ui": {
+      "ru": {
+       "q": "И 'Ho aperto', и 'ho apruto' — правильные формы."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1246,7 +1306,7 @@
     {
      "title_en": "Habits in the past",
      "title_ru": "Привычки в прошлом",
-     "body_en": "Use the imperfetto for repeated, habitual actions in the past, often with di solito, sempre, ogni estate, da bambino: Da bambino andavo al mare ogni estate. This is very close to the Russian imperfective past: 'в детстве я каждое лето ездил на море'.",
+     "body_en": "Use the imperfetto for repeated, habitual actions in the past, often with di solito, sempre, ogni estate, da bambino: Da bambino andavo al mare ogni estate. This is very close to the Russian imperfective past and to English 'used to': 'as a child I used to go to the seaside every summer'.",
      "body_ru": "Imperfetto используется для повторяющихся, привычных действий в прошлом, часто со словами di solito, sempre, ogni estate, da bambino: Da bambino andavo al mare ogni estate. Это очень близко к русскому несовершенному виду: «в детстве я каждое лето ездил на море».",
      "examples": [
       {
@@ -1292,7 +1352,7 @@
     {
      "title_en": "Actions in progress: mentre",
      "title_ru": "Длящиеся действия: mentre",
-     "body_en": "Two actions going on at the same time in the past are both in the imperfetto, often linked by mentre (while): Mentre io cucinavo, lui leggeva. Russian uses the imperfective here too: 'пока я готовил, он читал'.",
+     "body_en": "Two actions going on at the same time in the past are both in the imperfetto, often linked by mentre (while): Mentre io cucinavo, lui leggeva. Russian uses the imperfective here too, and English the past continuous: 'while I was cooking, he was reading'.",
      "body_ru": "Два действия, которые происходили одновременно в прошлом, оба стоят в imperfetto, часто со словом mentre (пока, в то время как): Mentre io cucinavo, lui leggeva. В русском здесь тоже несовершенный вид: «пока я готовил, он читал».",
      "examples": [
       {
@@ -1338,7 +1398,7 @@
     {
      "title_en": "A closed period: passato prossimo, not imperfetto",
      "title_ru": "Законченный период: passato prossimo, а не imperfetto",
-     "body_en": "A trap for Russian speakers: an action with a fixed length or a number of times is seen as complete, so it takes the passato prossimo: Ho vissuto a Roma per dieci anni. Ho letto il libro tre volte. Russian uses the imperfective here ('жил десять лет'), but Italian does not use the imperfetto.",
+     "body_en": "A trap for Russian speakers: an action with a fixed length or a number of times is seen as complete, so it takes the passato prossimo: Ho vissuto a Roma per dieci anni. Ho letto il libro tre volte. Russian uses the imperfective here ('lived for ten years'), but Italian does not use the imperfetto.",
      "body_ru": "Ловушка для русскоговорящих: действие с указанной продолжительностью или количеством раз воспринимается как законченное и требует passato prossimo: Ho vissuto a Roma per dieci anni. Ho letto il libro tre volte. В русском здесь несовершенный вид («жил десять лет», «читал три раза»), но в итальянском imperfetto в таких случаях не используется.",
      "examples": [
       {
@@ -1384,7 +1444,7 @@
     {
      "title_en": "Polite imperfetto",
      "title_ru": "Вежливое imperfetto",
-     "body_en": "In shops and offices the imperfetto of volere softens a request: Volevo un chilo di mele. Volevo chiedere un'informazione. It sounds more polite than voglio, close to vorrei. Russian has a similar softening past: 'я хотел спросить...'.",
+     "body_en": "In shops and offices the imperfetto of volere softens a request: Volevo un chilo di mele. Volevo chiedere un'informazione. It sounds more polite than voglio, close to vorrei. English has a similar softening past: 'I wanted to ask...'.",
      "body_ru": "В магазинах и учреждениях imperfetto от volere смягчает просьбу: Volevo un chilo di mele. Volevo chiedere un'informazione. Это звучит вежливее, чем voglio, и близко к vorrei. В русском есть похожее смягчение прошедшим временем: «я хотел спросить...».",
      "examples": [
       {
@@ -1482,7 +1542,7 @@
       "Ho vissuto"
      ],
      "answer": 3,
-     "explain_en": "A closed period (per cinque anni) → passato prossimo, although Russian says 'жил'.",
+     "explain_en": "A closed period (per cinque anni) → passato prossimo, although Russian uses an imperfective verb here.",
      "explain_ru": "Законченный период (per cinque anni) → passato prossimo, хотя по-русски «жил»."
     },
     {
@@ -1686,7 +1746,15 @@
      "q": "'Ho vissuto a Roma per dieci anni' is correct, even though Russian uses an imperfective verb ('жил').",
      "answer": true,
      "explain_en": "A closed period of time takes the passato prossimo in Italian.",
-     "explain_ru": "Законченный период времени требует в итальянском passato prossimo."
+     "explain_ru": "Законченный период времени требует в итальянском passato prossimo.",
+     "ui": {
+      "en": {
+       "q": "'Ho vissuto a Roma per dieci anni' is correct, even though Russian uses an imperfective verb here."
+      },
+      "ru": {
+       "q": "'Ho vissuto a Roma per dieci anni' — правильно, хотя в русском здесь глагол несовершенного вида («жил»)."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1694,7 +1762,12 @@
      "q": "The imperfetto of essere for 'io' is 'eravo'.",
      "answer": false,
      "explain_en": "It is ero.",
-     "explain_ru": "Правильно ero."
+     "explain_ru": "Правильно ero.",
+     "ui": {
+      "ru": {
+       "q": "Форма imperfetto глагола essere для 'io' — 'eravo'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1702,7 +1775,12 @@
      "q": "In 'Dormivo quando è suonato il telefono', the imperfetto describes the interrupted background action.",
      "answer": true,
      "explain_en": "Dormivo is the background, è suonato the event.",
-     "explain_ru": "Dormivo — фон, è suonato — событие."
+     "explain_ru": "Dormivo — фон, è suonato — событие.",
+     "ui": {
+      "ru": {
+       "q": "В 'Dormivo quando è suonato il telefono' imperfetto описывает прерванное фоновое действие."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1788,7 +1866,37 @@
        "ho dovuto",
        "мне пришлось"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "sapevo",
+         "I knew"
+        ],
+        [
+         "ho saputo",
+         "I found out"
+        ],
+        [
+         "conoscevo",
+         "I knew (someone)"
+        ],
+        [
+         "ho conosciuto",
+         "I met (for the first time)"
+        ],
+        [
+         "dovevo",
+         "I was supposed to"
+        ],
+        [
+         "ho dovuto",
+         "I had to"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1802,7 +1910,7 @@
     {
      "title_en": "Futuro semplice: regular forms",
      "title_ru": "Futuro semplice: правильные формы",
-     "body_en": "Drop the final -e of the infinitive and add -ò, -ai, -à, -emo, -ete, -anno. In -are verbs the a changes to e: parlare → parlerò, prendere → prenderò, dormire → dormirò, finire → finirò. The stress is on the ending: parlerò, parlerà. Russian needs 'буду' or a perfective verb; Italian has one word.",
+     "body_en": "Drop the final -e of the infinitive and add -ò, -ai, -à, -emo, -ete, -anno. In -are verbs the a changes to e: parlare → parlerò, prendere → prenderò, dormire → dormirò, finire → finirò. The stress is on the ending: parlerò, parlerà. English needs 'will' + verb; Italian has one word.",
      "body_ru": "Отбросьте конечное -e инфинитива и добавьте -ò, -ai, -à, -emo, -ete, -anno. У глаголов на -are буква a меняется на e: parlare → parlerò, prendere → prenderò, dormire → dormirò, finire → finirò. Ударение падает на окончание: parlerò, parlerà. В русском нужно «буду» или глагол совершенного вида, а в итальянском — одно слово.",
      "examples": [
       {
@@ -1894,7 +2002,7 @@
     {
      "title_en": "Using the future",
      "title_ru": "Употребление будущего времени",
-     "body_en": "The futuro is used for plans and predictions: L'anno prossimo andremo in Giappone. For the near future Italians often use the present with a time word: Domani parto. After quando, appena and se, when they refer to the future, written Italian uses the future, just as Russian does: Quando arriverò, ti chiamerò ('когда приеду').",
+     "body_en": "The futuro is used for plans and predictions: L'anno prossimo andremo in Giappone. For the near future Italians often use the present with a time word: Domani parto. After quando, appena and se, when they refer to the future, written Italian uses the future (unlike English, which uses the present): Quando arriverò, ti chiamerò ('when I arrive, I'll call you').",
      "body_ru": "Futuro используется для планов и прогнозов: L'anno prossimo andremo in Giappone. Для ближайшего будущего итальянцы часто используют настоящее время со словом-указателем: Domani parto — «Завтра я уезжаю». После quando, appena и se, если речь о будущем, в литературном языке ставится будущее время, как и в русском: Quando arriverò, ti chiamerò — «Когда приеду, позвоню».",
      "examples": [
       {
@@ -1917,7 +2025,7 @@
     {
      "title_en": "The future of probability",
      "title_ru": "Будущее время предположения",
-     "body_en": "The futuro can express a guess about the present, like Russian 'наверное': Che ore sono? — Saranno le dieci ('Наверное, десять'). Dov'è Marco? — Sarà a casa. The verb is in the future, but the meaning is 'now, probably'.",
+     "body_en": "The futuro can express a guess about the present, like English 'probably' or 'must be': Che ore sono? — Saranno le dieci ('It's probably ten'). Dov'è Marco? — Sarà a casa. The verb is in the future, but the meaning is 'now, probably'.",
      "body_ru": "Futuro может выражать предположение о настоящем, как русское «наверное, должно быть»: Che ore sono? — Saranno le dieci — «Наверное, десять». Dov'è Marco? — Sarà a casa — «Он, должно быть, дома». Глагол стоит в будущем времени, но смысл — «сейчас, вероятно».",
      "examples": [
       {
@@ -1963,7 +2071,7 @@
     {
      "title_en": "Polite requests and wishes",
      "title_ru": "Вежливые просьбы и пожелания",
-     "body_en": "The conditional makes requests and wishes polite, like Russian 'бы': Vorrei un caffè. Potrebbe aiutarmi? Mi piacerebbe vedere Venezia. Le dispiacerebbe chiudere la porta? In shops, cafés and offices vorrei is much more natural than voglio.",
+     "body_en": "The conditional makes requests and wishes polite, like English 'would': Vorrei un caffè. Potrebbe aiutarmi? Mi piacerebbe vedere Venezia. Le dispiacerebbe chiudere la porta? In shops, cafés and offices vorrei is much more natural than voglio.",
      "body_ru": "Условное наклонение делает просьбы и пожелания вежливыми, как русская частица «бы»: Vorrei un caffè — «Я бы хотел кофе». Potrebbe aiutarmi? — «Не могли бы Вы мне помочь?» Mi piacerebbe vedere Venezia. Le dispiacerebbe chiudere la porta? В магазине, кафе и учреждении vorrei звучит гораздо естественнее, чем voglio.",
      "examples": [
       {
@@ -1986,7 +2094,7 @@
     {
      "title_en": "Giving advice",
      "title_ru": "Как дать совет",
-     "body_en": "Dovresti + infinitive gives friendly advice, like Russian 'тебе следовало бы': Dovresti dormire di più. Another way is Al posto tuo... ('на твоём месте'): Al posto tuo, io prenderei il treno. Potresti softens a suggestion: Potresti chiamarla.",
+     "body_en": "Dovresti + infinitive gives friendly advice, like English 'you should': Dovresti dormire di più. Another way is Al posto tuo... ('if I were you'): Al posto tuo, io prenderei il treno. Potresti softens a suggestion: Potresti chiamarla.",
      "body_ru": "Dovresti + инфинитив — дружеский совет, как русское «тебе следовало бы»: Dovresti dormire di più. Другой способ — Al posto tuo... («на твоём месте»): Al posto tuo, io prenderei il treno. Potresti смягчает предложение: Potresti chiamarla — «Ты мог бы ей позвонить».",
      "examples": [
       {
@@ -2061,7 +2169,7 @@
       "arrivato"
      ],
      "answer": 0,
-     "explain_en": "After quando about the future, Italian uses the future, as Russian does: 'когда приеду'.",
+     "explain_en": "After quando about the future, Italian uses the future, whereas English uses the present: 'when I arrive'.",
      "explain_ru": "После quando о будущем в итальянском ставится будущее время, как и в русском: «когда приеду»."
     },
     {
@@ -2075,7 +2183,7 @@
       "saremo"
      ],
      "answer": 1,
-     "explain_en": "The future of probability: sarà a casa = 'он, наверное, дома'.",
+     "explain_en": "The future of probability: sarà a casa = 'he's probably at home'.",
      "explain_ru": "Будущее время предположения: sarà a casa — «он, наверное, дома»."
     },
     {
@@ -2287,7 +2395,12 @@
      "q": "The future of 'andare' is 'anderò'.",
      "answer": false,
      "explain_en": "It is andrò, with the short stem andr-.",
-     "explain_ru": "Правильно andrò, с сокращённой основой andr-."
+     "explain_ru": "Правильно andrò, с сокращённой основой andr-.",
+     "ui": {
+      "ru": {
+       "q": "Будущее время от 'andare' — 'anderò'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2295,7 +2408,12 @@
      "q": "'Verremo' (we will come) and 'verremmo' (we would come) are two spellings of the same form.",
      "answer": false,
      "explain_en": "They are different: one m in the future, two m in the conditional.",
-     "explain_ru": "Это разные формы: одно m в будущем времени, два m в условном наклонении."
+     "explain_ru": "Это разные формы: одно m в будущем времени, два m в условном наклонении.",
+     "ui": {
+      "ru": {
+       "q": "'Verremo' (мы придём) и 'verremmo' (мы пришли бы) — два написания одной и той же формы."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2303,7 +2421,12 @@
      "q": "'Saranno le otto' can mean 'It's probably eight o'clock'.",
      "answer": true,
      "explain_en": "Yes, this is the future of probability.",
-     "explain_ru": "Да, это будущее время предположения: «наверное, восемь»."
+     "explain_ru": "Да, это будущее время предположения: «наверное, восемь».",
+     "ui": {
+      "ru": {
+       "q": "'Saranno le otto' может означать «Сейчас, наверное, восемь часов»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2359,7 +2482,33 @@
        "Sarebbe possibile...?",
        "Можно ли было бы...?"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Vorrei...",
+         "I would like..."
+        ],
+        [
+         "Potrebbe...?",
+         "Could you...?"
+        ],
+        [
+         "Mi piacerebbe...",
+         "I would love to..."
+        ],
+        [
+         "Dovresti...",
+         "You should..."
+        ],
+        [
+         "Sarebbe possibile...?",
+         "Would it be possible...?"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2426,7 +2575,7 @@
     {
      "title_en": "Lo, la, li, le: gender and number",
      "title_ru": "Lo, la, li, le: род и число",
-     "body_en": "Choose the pronoun by the gender and number of the noun, not of the Russian word: il libro → lo, la mela → la, i libri → li, le mele → le. Formal 'you' is La: La ringrazio. Lo can also replace a whole idea: Lo so. Non lo so ('я не знаю', literally 'I don't know it').",
+     "body_en": "Choose the pronoun by the gender and number of the Italian noun, not of its translation: il libro → lo, la mela → la, i libri → li, le mele → le. Formal 'you' is La: La ringrazio. Lo can also replace a whole idea: Lo so. Non lo so ('I don't know', literally 'I don't know it').",
      "body_ru": "Местоимение выбирается по роду и числу итальянского существительного, а не русского слова: il libro → lo, la mela → la, i libri → li, le mele → le. Вежливое «Вас» — La: La ringrazio — «Благодарю Вас». Lo может заменять целую мысль: Lo so. Non lo so — «Я не знаю» (буквально «не знаю этого»).",
      "examples": [
       {
@@ -2472,7 +2621,7 @@
     {
      "title_en": "Different from Russian: aiutare, chiedere, chiamare",
      "title_ru": "Не так, как в русском: aiutare, chiedere, chiamare",
-     "body_en": "Some verbs take a different object than in Russian. Aiutare, chiamare (to call on the phone), ringraziare and ascoltare take a direct object: Lo aiuto ('помогаю ему'), La chiamo ('звоню ей'). Chiedere a, domandare a and rispondere a take an indirect object: Gli chiedo ('спрашиваю его').",
+     "body_en": "Some verbs take a different object than in Russian. Aiutare, chiamare (to call on the phone), ringraziare and ascoltare take a direct object: Lo aiuto ('I help him'), La chiamo ('I call her'). Chiedere a, domandare a and rispondere a take an indirect object: Gli chiedo ('I ask him').",
      "body_ru": "Некоторые глаголы требуют не того дополнения, что в русском. Aiutare, chiamare (звонить по телефону), ringraziare и ascoltare имеют прямое дополнение: Lo aiuto — «помогаю ему», La chiamo — «звоню ей». А chiedere a, domandare a и rispondere a — косвенное: Gli chiedo — «спрашиваю его». Учите глагол вместе с его управлением.",
      "examples": [
       {
@@ -2541,7 +2690,7 @@
     {
      "title_en": "Combined pronouns: me lo, te la, ce li",
      "title_ru": "Сдвоенные местоимения: me lo, te la, ce li",
-     "body_en": "When an indirect and a direct pronoun go together, the indirect one comes first and changes its i to e: mi → me, ti → te, ci → ce, vi → ve. So: me lo, te la, ce li, ve le. Me lo dai? ('Ты мне его дашь?'). Te la presto. Russian puts the words in any order; Italian has a fixed one.",
+     "body_en": "When an indirect and a direct pronoun go together, the indirect one comes first and changes its i to e: mi → me, ti → te, ci → ce, vi → ve. So: me lo, te la, ce li, ve le. Me lo dai? ('Will you give it to me?'). Te la presto. Russian allows a free word order here; Italian has a fixed one.",
      "body_ru": "Когда косвенное и прямое местоимения стоят вместе, косвенное идёт первым и меняет i на e: mi → me, ti → te, ci → ce, vi → ve. Получается: me lo, te la, ce li, ve le. Me lo dai? — «Ты мне его дашь?» Te la presto — «Я тебе её одолжу». В русском порядок свободный, а в итальянском — строго фиксированный.",
      "examples": [
       {
@@ -2564,7 +2713,7 @@
     {
      "title_en": "Glielo, gliela, glieli, gliele",
      "title_ru": "Glielo, gliela, glieli, gliele",
-     "body_en": "Gli and le (to him, to her, to you formal, to them) both become glie- and join the direct pronoun in one word: glielo, gliela, glieli, gliele. Glielo dico io = 'Я ему (ей, им, Вам) это скажу'. Before avere, glielo and gliela become gliel': Gliel'ho dato.",
+     "body_en": "Gli and le (to him, to her, to you formal, to them) both become glie- and join the direct pronoun in one word: glielo, gliela, glieli, gliele. Glielo dico io = 'I'll tell him (her, them, you) about it'. Before avere, glielo and gliela become gliel': Gliel'ho dato.",
      "body_ru": "Gli и le («ему», «ей», «Вам», «им») оба превращаются в glie- и пишутся слитно с прямым местоимением: glielo, gliela, glieli, gliele. Glielo dico io — «Я ему (ей, им, Вам) это скажу». Перед avere glielo и gliela превращаются в gliel': Gliel'ho dato. Кому именно — понятно из контекста.",
      "examples": [
       {
@@ -2648,7 +2797,7 @@
       "l'ho chiamato"
      ],
      "answer": 2,
-     "explain_en": "Chiamare takes a direct object; la elides before ho and the participle agrees: l'ho chiamata. Russian says 'позвонил ей', but Italian uses la.",
+     "explain_en": "Chiamare takes a direct object; la elides before ho and the participle agrees: l'ho chiamata. Russian uses the dative here ('phoned to her'), but Italian uses la.",
      "explain_ru": "Chiamare требует прямого дополнения; la перед ho сокращается, а причастие согласуется: l'ho chiamata. По-русски «позвонил ей», а в итальянском — la."
     },
     {
@@ -2746,7 +2895,7 @@
       "aiutarlo"
      ],
      "answer": 2,
-     "explain_en": "Aiutare takes a direct object, and the formal 'you' is La: aiutarLa. Russian says 'помочь Вам' with the dative.",
+     "explain_en": "Aiutare takes a direct object, and the formal 'you' is La: aiutarLa. Russian uses the dative here.",
      "explain_ru": "Aiutare требует прямого дополнения, а вежливое «Вас» — La: aiutarLa. По-русски «помочь Вам» с дательным падежом."
     },
     {
@@ -2886,7 +3035,15 @@
      "q": "'Aiutare' takes a direct object in Italian, so 'help him' is 'aiutarlo', unlike Russian 'помочь ему'.",
      "answer": true,
      "explain_en": "Correct: aiutare qualcuno, with a direct object.",
-     "explain_ru": "Верно: aiutare qualcuno — с прямым дополнением, в отличие от русского «помогать кому»."
+     "explain_ru": "Верно: aiutare qualcuno — с прямым дополнением, в отличие от русского «помогать кому».",
+     "ui": {
+      "en": {
+       "q": "'Aiutare' takes a direct object in Italian, so 'help him' is 'aiutarlo', unlike Russian, which uses the dative here."
+      },
+      "ru": {
+       "q": "'Aiutare' в итальянском требует прямого дополнения, поэтому «помочь ему» — 'aiutarlo', в отличие от русского."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2894,7 +3051,12 @@
      "q": "'Gli lo do' is the correct way to say 'I give it to him'.",
      "answer": false,
      "explain_en": "Gli + lo join into one word: Glielo do.",
-     "explain_ru": "Gli + lo сливаются в одно слово: Glielo do."
+     "explain_ru": "Gli + lo сливаются в одно слово: Glielo do.",
+     "ui": {
+      "ru": {
+       "q": "'Gli lo do' — правильный способ сказать «Я даю это ему»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2902,7 +3064,12 @@
      "q": "With modal verbs, both 'Lo voglio comprare' and 'Voglio comprarlo' are correct.",
      "answer": true,
      "explain_en": "Yes, with modals the pronoun can go in either position.",
-     "explain_ru": "Да, с модальными глаголами местоимение может стоять в любой из двух позиций."
+     "explain_ru": "Да, с модальными глаголами местоимение может стоять в любой из двух позиций.",
+     "ui": {
+      "ru": {
+       "q": "С модальными глаголами правильны оба варианта: 'Lo voglio comprare' и 'Voglio comprarlo'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2932,7 +3099,37 @@
        "их (жен.)",
        "le"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "me",
+         "mi"
+        ],
+        [
+         "you",
+         "ti"
+        ],
+        [
+         "him / it",
+         "lo"
+        ],
+        [
+         "her / it",
+         "la"
+        ],
+        [
+         "us",
+         "ci"
+        ],
+        [
+         "them (fem.)",
+         "le"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2988,7 +3185,33 @@
        "rispondere a qualcuno",
        "отвечать кому-то"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "aiutare qualcuno",
+         "to help someone"
+        ],
+        [
+         "chiedere a qualcuno",
+         "to ask someone"
+        ],
+        [
+         "telefonare a qualcuno",
+         "to phone someone"
+        ],
+        [
+         "ascoltare qualcuno",
+         "to listen to someone"
+        ],
+        [
+         "rispondere a qualcuno",
+         "to answer someone"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3002,7 +3225,7 @@
     {
      "title_en": "Ci for places",
      "title_ru": "Ci для обозначения места",
-     "body_en": "Ci replaces a place introduced by a, in, da or su: 'there', Russian 'туда' or 'там'. Vai a Roma? — Sì, ci vado domani. Abiti in centro? — Sì, ci abito da tre anni. Like other pronouns, ci goes before the conjugated verb.",
+     "body_en": "Ci replaces a place introduced by a, in, da or su: 'there'. Vai a Roma? — Sì, ci vado domani. Abiti in centro? — Sì, ci abito da tre anni. Like other pronouns, ci goes before the conjugated verb.",
      "body_ru": "Ci заменяет место, введённое предлогами a, in, da или su: по-русски «туда» или «там». Vai a Roma? — Sì, ci vado domani — «Да, поеду туда завтра». Abiti in centro? — Sì, ci abito da tre anni. Как и другие местоимения, ci стоит перед спрягаемым глаголом. В русском «туда» часто опускается, а в итальянском ci обязательно.",
      "examples": [
       {
@@ -3071,7 +3294,7 @@
     {
      "title_en": "Ne with quantities",
      "title_ru": "Ne при обозначении количества",
-     "body_en": "When you mention a quantity of something already named, ne replaces the noun ('of it, of them'): Quanti figli hai? — Ne ho due. Russian can just say 'двое', but in Italian ne cannot be left out: 'Ho due' is wrong. Ne also works with numbers, kilos, a lot, a bit: Ne prendo un chilo.",
+     "body_en": "When you mention a quantity of something already named, ne replaces the noun ('of it, of them'): Quanti figli hai? — Ne ho due. English can just say 'I have two', but in Italian ne cannot be left out: 'Ho due' is wrong. Ne also works with numbers, kilos, a lot, a bit: Ne prendo un chilo.",
      "body_ru": "Когда вы называете количество уже упомянутого предмета, ne заменяет существительное («его, их, из них»): Quanti figli hai? — Ne ho due. По-русски можно сказать просто «двое», но в итальянском ne опустить нельзя: 'Ho due' — ошибка. Ne работает с числами, килограммами, словами «много», «немного»: Ne prendo un chilo.",
      "examples": [
       {
@@ -3117,7 +3340,7 @@
     {
      "title_en": "Ne = di + something",
      "title_ru": "Ne = di + что-то",
-     "body_en": "Ne also replaces di + thing or idea after verbs like parlare di, avere bisogno di, sapere di, pensare di (have an opinion): Ne parliamo domani. Ne ho bisogno. Non ne so niente. Che ne pensi? = 'Что ты об этом думаешь?'.",
+     "body_en": "Ne also replaces di + thing or idea after verbs like parlare di, avere bisogno di, sapere di, pensare di (have an opinion): Ne parliamo domani. Ne ho bisogno. Non ne so niente. Che ne pensi? = 'What do you think about it?'.",
      "body_ru": "Ne также заменяет di + предмет или мысль после глаголов parlare di, avere bisogno di, sapere di, pensare di (иметь мнение): Ne parliamo domani — «Поговорим об этом завтра». Ne ho bisogno — «Мне это нужно». Non ne so niente — «Я об этом ничего не знаю». Che ne pensi? — «Что ты об этом думаешь?»",
      "examples": [
       {
@@ -3196,7 +3419,7 @@
       "gli"
      ],
      "answer": 0,
-     "explain_en": "Al cinema is a place with a → ci ('туда').",
+     "explain_en": "Al cinema is a place with a → ci ('there').",
      "explain_ru": "Al cinema — место с предлогом a → ci («туда»)."
     },
     {
@@ -3464,7 +3687,12 @@
      "q": "In 'Ho due fratelli' → 'Ne ho due', 'ne' can be left out: 'Ho due' is also correct.",
      "answer": false,
      "explain_en": "Ne is obligatory with a quantity when the noun is not repeated.",
-     "explain_ru": "Ne обязательно при указании количества, если существительное не повторяется."
+     "explain_ru": "Ne обязательно при указании количества, если существительное не повторяется.",
+     "ui": {
+      "ru": {
+       "q": "В 'Ho due fratelli' → 'Ne ho due' частицу 'ne' можно опустить: 'Ho due' тоже правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3472,7 +3700,12 @@
      "q": "'Ci vuole' is used with a singular noun and 'ci vogliono' with a plural noun.",
      "answer": true,
      "explain_en": "Ci vuole un'ora, ci vogliono due ore.",
-     "explain_ru": "Верно: ci vuole un'ora — «нужен час», ci vogliono due ore — «нужно два часа»."
+     "explain_ru": "Верно: ci vuole un'ora — «нужен час», ci vogliono due ore — «нужно два часа».",
+     "ui": {
+      "ru": {
+       "q": "'Ci vuole' употребляется с существительным в единственном числе, а 'ci vogliono' — во множественном."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3480,7 +3713,12 @@
      "q": "In 'Ci penso io', 'ci' means 'there'.",
      "answer": false,
      "explain_en": "Here ci stands for 'about it': 'I'll take care of it'.",
-     "explain_ru": "Здесь ci значит «об этом»: «я этим займусь»."
+     "explain_ru": "Здесь ci значит «об этом»: «я этим займусь».",
+     "ui": {
+      "ru": {
+       "q": "В 'Ci penso io' частица 'ci' означает «там»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3536,7 +3774,37 @@
        "Ci vuole pazienza.",
        "Нужно терпение."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ci vado.",
+         "I'm going there."
+        ],
+        [
+         "Ne ho tre.",
+         "I have three (of them)."
+        ],
+        [
+         "Ci penso io.",
+         "I'll take care of it."
+        ],
+        [
+         "Non ne so niente.",
+         "I know nothing about it."
+        ],
+        [
+         "Ce l'ho.",
+         "I've got it."
+        ],
+        [
+         "Ci vuole pazienza.",
+         "It takes patience."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3599,7 +3867,7 @@
     {
      "title_en": "Stare + gerundio: right now",
      "title_ru": "Stare + gerundio: прямо сейчас",
-     "body_en": "Stare in the present + gerundio stresses an action in progress at this moment: Sto lavorando. Che cosa stai facendo? Russian simply says 'я работаю (сейчас)'. The plain present is also possible, but stare + gerundio makes clear that it is happening now.",
+     "body_en": "Stare in the present + gerundio stresses an action in progress at this moment: Sto lavorando. Che cosa stai facendo? Russian simply uses the present: 'I work (now)'. The plain present is also possible in Italian, but stare + gerundio makes clear that it is happening now.",
      "body_ru": "Stare в настоящем времени + gerundio подчёркивает действие, которое происходит в данный момент: Sto lavorando — «Я (сейчас) работаю». Che cosa stai facendo? — «Что ты сейчас делаешь?» В русском достаточно простого настоящего времени. В итальянском оно тоже возможно, но stare + gerundio ясно показывает, что действие идёт прямо сейчас.",
      "examples": [
       {
@@ -3691,7 +3959,7 @@
     {
      "title_en": "Stavo per: I was about to",
      "title_ru": "Stavo per: я как раз собирался",
-     "body_en": "You already know stare per + infinitive ('to be about to'). In the imperfetto it means 'I was about to' or 'I almost': Stavo per uscire quando ha telefonato Anna. Stavo per cadere = 'я чуть не упал'. Do not confuse it with stavo + gerundio: stavo uscendo = I was (already) going out.",
+     "body_en": "You already know stare per + infinitive ('to be about to'). In the imperfetto it means 'I was about to' or 'I almost': Stavo per uscire quando ha telefonato Anna. Stavo per cadere = 'I nearly fell'. Do not confuse it with stavo + gerundio: stavo uscendo = I was (already) going out.",
      "body_ru": "Вы уже знаете stare per + инфинитив («вот-вот, собираться»). В imperfetto эта конструкция значит «я как раз собирался» или «я чуть не»: Stavo per uscire quando ha telefonato Anna. Stavo per cadere — «я чуть не упал». Не путайте со stavo + gerundio: stavo uscendo — «я (уже) выходил».",
      "examples": [
       {
@@ -3714,7 +3982,7 @@
     {
      "title_en": "Appena: just",
      "title_ru": "Appena: только что",
-     "body_en": "With the passato prossimo, appena means 'just', Russian 'только что'. It goes between the auxiliary and the participle: Sono appena arrivato. Ho appena finito. Si sono appena sposati.",
+     "body_en": "With the passato prossimo, appena means 'just' (a moment ago). It goes between the auxiliary and the participle: Sono appena arrivato. Ho appena finito. Si sono appena sposati.",
      "body_ru": "С passato prossimo appena значит «только что». Оно ставится между вспомогательным глаголом и причастием: Sono appena arrivato — «Я только что пришёл». Ho appena finito. Si sono appena sposati — «Они только что поженились».",
      "examples": [
       {
@@ -3737,7 +4005,7 @@
     {
      "title_en": "Appena: as soon as",
      "title_ru": "Appena: как только",
-     "body_en": "At the start of a clause, (non) appena means 'as soon as', Russian 'как только': Appena arrivo, ti chiamo. For the future, the written language uses the futuro in both parts: Appena arriverò, ti chiamerò. For the past: Appena è entrato, ha visto il regalo.",
+     "body_en": "At the start of a clause, (non) appena means 'as soon as': Appena arrivo, ti chiamo. For the future, the written language uses the futuro in both parts: Appena arriverò, ti chiamerò. For the past: Appena è entrato, ha visto il regalo.",
      "body_ru": "В начале придаточного предложения (non) appena значит «как только»: Appena arrivo, ti chiamo — «Как только приеду, позвоню». О будущем в литературном языке futuro ставится в обеих частях: Appena arriverò, ti chiamerò. О прошлом: Appena è entrato, ha visto il regalo.",
      "examples": [
       {
@@ -3863,7 +4131,7 @@
       "sempre"
      ],
      "answer": 2,
-     "explain_en": "Appena with the passato prossimo = 'только что'.",
+     "explain_en": "Appena with the passato prossimo = 'just'.",
      "explain_ru": "Appena с passato prossimo — «только что»."
     },
     {
@@ -3979,8 +4247,13 @@
      "answer": [
       "appena"
      ],
-     "explain_en": "'Только что' = appena, between the auxiliary and the participle.",
-     "explain_ru": "«Только что» — appena, между вспомогательным глаголом и причастием."
+     "explain_en": "'Just' (a moment ago) = appena, between the auxiliary and the participle.",
+     "explain_ru": "«Только что» — appena, между вспомогательным глаголом и причастием.",
+     "ui": {
+      "en": {
+       "q": "Sono ___ (just) tornata dal lavoro."
+      }
+     }
     },
     {
      "id": "e17",
@@ -4062,7 +4335,12 @@
      "q": "'Sto avendo una macchina' is the normal way to say 'I have a car'.",
      "answer": false,
      "explain_en": "Possession is a state, not an action in progress: Ho una macchina.",
-     "explain_ru": "Обладание — это состояние, а не длящееся действие: Ho una macchina."
+     "explain_ru": "Обладание — это состояние, а не длящееся действие: Ho una macchina.",
+     "ui": {
+      "ru": {
+       "q": "'Sto avendo una macchina' — обычный способ сказать «У меня есть машина»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4070,7 +4348,15 @@
      "q": "In 'Ho appena mangiato', appena means 'just', like Russian 'только что'.",
      "answer": true,
      "explain_en": "Yes: I have just eaten.",
-     "explain_ru": "Да: «я только что поел»."
+     "explain_ru": "Да: «я только что поел».",
+     "ui": {
+      "en": {
+       "q": "In 'Ho appena mangiato', appena means 'just' (= a moment ago)."
+      },
+      "ru": {
+       "q": "В 'Ho appena mangiato' слово appena означает «только что»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4078,7 +4364,12 @@
      "q": "'Stavo per cadere' means 'I was falling for a long time'.",
      "answer": false,
      "explain_en": "It means 'I almost fell' or 'I was about to fall'.",
-     "explain_ru": "Это значит «я чуть не упал»."
+     "explain_ru": "Это значит «я чуть не упал».",
+     "ui": {
+      "ru": {
+       "q": "'Stavo per cadere' означает «Я долго падал»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4134,7 +4425,33 @@
        "Stavo mangiando.",
        "Я как раз ел (в тот момент)."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Sto mangiando.",
+         "I'm eating (right now)."
+        ],
+        [
+         "Sto per mangiare.",
+         "I'm about to eat."
+        ],
+        [
+         "Ho appena mangiato.",
+         "I've just eaten."
+        ],
+        [
+         "Ho già mangiato.",
+         "I've already eaten."
+        ],
+        [
+         "Stavo mangiando.",
+         "I was eating (at that moment)."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4178,7 +4495,7 @@
     {
      "title_en": "Più / meno ... di",
      "title_ru": "Più / meno ... di",
-     "body_en": "Italian forms the comparative with più (more) or meno (less) + adjective: più alto, meno caro. The thing compared is introduced by di, which merges with the article: Marco è più alto di Luca. Roma è più grande di Firenze. Il treno è meno caro dell'aereo. Di works like the Russian genitive in 'выше брата'.",
+     "body_en": "Italian forms the comparative with più (more) or meno (less) + adjective: più alto, meno caro. The thing compared is introduced by di, which merges with the article: Marco è più alto di Luca. Roma è più grande di Firenze. Il treno è meno caro dell'aereo. Di works like English 'than' here (and like the Russian genitive after a comparative).",
      "body_ru": "Сравнительная степень образуется с помощью più (более) или meno (менее) + прилагательное: più alto, meno caro. То, с чем сравнивают, вводится предлогом di, который сливается с артиклем: Marco è più alto di Luca. Roma è più grande di Firenze. Il treno è meno caro dell'aereo. Di здесь работает как русский родительный падеж: «выше брата», «дороже машины». В итальянском нет одного слова вроде «выше» — всегда più + прилагательное.",
      "examples": [
       {
@@ -4201,7 +4518,7 @@
     {
      "title_en": "Più ... che",
      "title_ru": "Più ... che",
-     "body_en": "Use che instead of di when you compare two words of the same kind that are not a noun or pronoun: two adjectives (più bello che utile), two verbs (Mi piace più leggere che scrivere), two expressions with a preposition (Meglio al mare che in montagna), or two quantities (più ragazze che ragazzi). Russian uses 'чем' in all these cases.",
+     "body_en": "Use che instead of di when you compare two words of the same kind that are not a noun or pronoun: two adjectives (più bello che utile), two verbs (Mi piace più leggere che scrivere), two expressions with a preposition (Meglio al mare che in montagna), or two quantities (più ragazze che ragazzi). English uses 'than' in all these cases.",
      "body_ru": "Che вместо di используется, когда сравниваются два однотипных слова, но не существительные и не местоимения: два прилагательных (più bello che utile), два глагола (Mi piace più leggere che scrivere), два выражения с предлогом (Meglio al mare che in montagna) или два количества (più ragazze che ragazzi). В русском во всех этих случаях — «чем».",
      "examples": [
       {
@@ -4224,7 +4541,7 @@
     {
      "title_en": "Equality: come and quanto",
      "title_ru": "Равенство: come и quanto",
-     "body_en": "To say 'as ... as', use (così) ... come or (tanto) ... quanto: Sono alto come te. Questo libro è interessante quanto l'altro. Così and tanto are usually dropped. Russian: 'такой же высокий, как ты'.",
+     "body_en": "To say 'as ... as', use (così) ... come or (tanto) ... quanto: Sono alto come te. Questo libro è interessante quanto l'altro. Così and tanto are usually dropped: 'I'm as tall as you'.",
      "body_ru": "Чтобы сказать «такой же..., как», используйте (così) ... come или (tanto) ... quanto: Sono alto come te — «Я такого же роста, как ты». Questo libro è interessante quanto l'altro. Così и tanto обычно опускаются. По-русски: «такой же высокий, как ты».",
      "examples": [
       {
@@ -4247,7 +4564,7 @@
     {
      "title_en": "The relative superlative: il più",
      "title_ru": "Относительная превосходная степень: il più",
-     "body_en": "'The most' is article + più/meno + adjective, and the group is introduced by di: È il più alto della classe. After a noun, the article is not repeated: la città più bella d'Italia (not 'la città la più bella'). Russian uses 'самый': 'самый красивый город Италии'.",
+     "body_en": "'The most' is article + più/meno + adjective, and the group is introduced by di: È il più alto della classe. After a noun, the article is not repeated: la città più bella d'Italia (not 'la città la più bella'), 'the most beautiful city in Italy'.",
      "body_ru": "«Самый» передаётся как артикль + più/meno + прилагательное, а группа вводится предлогом di: È il più alto della classe — «Он самый высокий в классе». После существительного артикль не повторяется: la città più bella d'Italia (а не 'la città la più bella'). По-русски: «самый красивый город Италии».",
      "examples": [
       {
@@ -4316,7 +4633,7 @@
     {
      "title_en": "Meglio and peggio: adverbs",
      "title_ru": "Meglio и peggio: наречия",
-     "body_en": "Bene and male are adverbs, and their comparatives are meglio (better) and peggio (worse): Canta meglio di me. Oggi sto meglio. Russian 'лучше' is both an adjective and an adverb, so be careful: with a noun use migliore (un lavoro migliore), with a verb use meglio (lavora meglio).",
+     "body_en": "Bene and male are adverbs, and their comparatives are meglio (better) and peggio (worse): Canta meglio di me. Oggi sto meglio. English 'better' is both an adjective and an adverb (as is its Russian equivalent), so be careful: with a noun use migliore (un lavoro migliore), with a verb use meglio (lavora meglio).",
      "body_ru": "Bene и male — наречия, а их сравнительные формы — meglio (лучше) и peggio (хуже): Canta meglio di me — «Она поёт лучше меня». Oggi sto meglio — «Сегодня мне лучше». Русское «лучше» — и прилагательное, и наречие, поэтому будьте внимательны: с существительным — migliore (un lavoro migliore), с глаголом — meglio (lavora meglio).",
      "examples": [
       {
@@ -4339,7 +4656,7 @@
     {
      "title_en": "Maggiore, minore, ottimo, pessimo",
      "title_ru": "Maggiore, minore, ottimo, pessimo",
-     "body_en": "Grande and piccolo have regular forms (più grande, più piccolo) and irregular ones: maggiore and minore, used especially for brothers and sisters: mia sorella maggiore ('старшая'), il fratello minore. Ottimo (excellent) and pessimo (terrible) are the absolute forms of buono and cattivo. Sempre più means 'more and more'.",
+     "body_en": "Grande and piccolo have regular forms (più grande, più piccolo) and irregular ones: maggiore and minore, used especially for brothers and sisters: mia sorella maggiore ('my older sister'), il fratello minore. Ottimo (excellent) and pessimo (terrible) are the absolute forms of buono and cattivo. Sempre più means 'more and more'.",
      "body_ru": "У grande и piccolo есть правильные формы (più grande, più piccolo) и неправильные: maggiore и minore, особенно о братьях и сёстрах: mia sorella maggiore — «моя старшая сестра», il fratello minore — «младший брат». Ottimo (отличный) и pessimo (ужасный) — абсолютные формы от buono и cattivo. Sempre più значит «всё более».",
      "examples": [
       {
@@ -4470,7 +4787,7 @@
       "come"
      ],
      "answer": 3,
-     "explain_en": "Equality: come te = 'как ты'.",
+     "explain_en": "Equality: come te = 'as you'.",
      "explain_ru": "Равенство: come te — «как ты»."
     },
     {
@@ -4645,7 +4962,12 @@
      "q": "'Più migliore' is correct Italian for 'better'.",
      "answer": false,
      "explain_en": "Migliore already means 'better'.",
-     "explain_ru": "Migliore уже значит «лучше»."
+     "explain_ru": "Migliore уже значит «лучше».",
+     "ui": {
+      "ru": {
+       "q": "'Più migliore' — правильный итальянский вариант для «лучше»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4653,7 +4975,15 @@
      "q": "'Meglio' is an adverb and 'migliore' is an adjective, although Russian uses 'лучше' for both.",
      "answer": true,
      "explain_en": "Lavora meglio, but un lavoro migliore.",
-     "explain_ru": "Lavora meglio — «работает лучше», но un lavoro migliore — «лучшая работа»."
+     "explain_ru": "Lavora meglio — «работает лучше», но un lavoro migliore — «лучшая работа».",
+     "ui": {
+      "en": {
+       "q": "'Meglio' is an adverb and 'migliore' is an adjective, although Russian uses one word for both."
+      },
+      "ru": {
+       "q": "'Meglio' — наречие, а 'migliore' — прилагательное, хотя в русском для обоих говорят «лучше»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4661,7 +4991,12 @@
      "q": "You must repeat the article after the noun: 'la città la più bella d'Italia'.",
      "answer": false,
      "explain_en": "The article is not repeated: la città più bella d'Italia.",
-     "explain_ru": "Артикль не повторяется: la città più bella d'Italia."
+     "explain_ru": "Артикль не повторяется: la città più bella d'Italia.",
+     "ui": {
+      "ru": {
+       "q": "После существительного нужно повторять артикль: 'la città la più bella d'Italia'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4743,7 +5078,33 @@
        "altissimo",
        "очень высокий"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "più alto di me",
+         "taller than me"
+        ],
+        [
+         "meno caro di",
+         "less expensive than"
+        ],
+        [
+         "alto come",
+         "as tall as"
+        ],
+        [
+         "il più alto",
+         "the tallest"
+        ],
+        [
+         "altissimo",
+         "very tall"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4780,7 +5141,7 @@
     {
      "title_en": "Voi and noi",
      "title_ru": "Voi и noi",
-     "body_en": "The voi imperative is the same as the present: parlate!, prendete!, sentite!, finite! The noi form, also like the present, means 'let's': Andiamo! Mangiamo! It corresponds to Russian 'давай(те)' + verb: 'давайте пойдём'.",
+     "body_en": "The voi imperative is the same as the present: parlate!, prendete!, sentite!, finite! The noi form, also like the present, means 'let's': Andiamo! Mangiamo! = 'Let's go! Let's eat!'.",
      "body_ru": "Повелительная форма для voi совпадает с настоящим временем: parlate!, prendete!, sentite!, finite! Форма noi, тоже как в настоящем времени, значит «давай(те)»: Andiamo! — «Пойдём!» Mangiamo! — «Давайте есть!» В русском здесь нужно слово «давай(те)».",
      "examples": [
       {
@@ -4826,7 +5187,7 @@
     {
      "title_en": "Negative imperative",
      "title_ru": "Отрицательное повелительное наклонение",
-     "body_en": "For tu, the negative is non + infinitive: Non parlare! Non mangiare troppo! For voi and noi, just put non before the affirmative form: Non parlate! Non andiamo! Russian uses the imperative form after 'не' ('не говори'), but Italian uses the infinitive for tu.",
+     "body_en": "For tu, the negative is non + infinitive: Non parlare! Non mangiare troppo! For voi and noi, just put non before the affirmative form: Non parlate! Non andiamo! Russian uses the imperative form after 'not', but Italian uses the infinitive for tu.",
      "body_ru": "Для tu отрицание строится как non + инфинитив: Non parlare! — «Не говори!» Non mangiare troppo! Для voi и noi просто ставится non перед утвердительной формой: Non parlate! Non andiamo! В русском после «не» стоит повелительная форма («не говори»), а в итальянском для tu — инфинитив.",
      "examples": [
       {
@@ -5221,7 +5582,12 @@
      "q": "The negative tu imperative is 'non' + infinitive: 'Non parlare!'",
      "answer": true,
      "explain_en": "Correct: Non parlare! = Don't speak!",
-     "explain_ru": "Верно: Non parlare! — «Не говори!»"
+     "explain_ru": "Верно: Non parlare! — «Не говори!»",
+     "ui": {
+      "ru": {
+       "q": "Отрицательный императив для tu — 'non' + инфинитив: 'Non parlare!'"
+      }
+     }
     },
     {
      "id": "e24",
@@ -5229,7 +5595,12 @@
      "q": "'Scusa' is the formal form and 'Scusi' is the informal form.",
      "answer": false,
      "explain_en": "It is the other way round: scusa (tu), scusi (Lei).",
-     "explain_ru": "Наоборот: scusa — для tu, scusi — для Lei."
+     "explain_ru": "Наоборот: scusa — для tu, scusi — для Lei.",
+     "ui": {
+      "ru": {
+       "q": "'Scusa' — вежливая форма, а 'Scusi' — неформальная."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5237,7 +5608,12 @@
      "q": "In 'Fammi un favore', the m is doubled because the pronoun is attached to the short form fa'.",
      "answer": true,
      "explain_en": "Yes: fa' + mi → fammi.",
-     "explain_ru": "Да: fa' + mi → fammi — «сделай мне одолжение»."
+     "explain_ru": "Да: fa' + mi → fammi — «сделай мне одолжение».",
+     "ui": {
+      "ru": {
+       "q": "В 'Fammi un favore' буква m удваивается, потому что местоимение присоединяется к краткой форме fa'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5293,7 +5669,33 @@
        "Stammi bene!",
        "Будь здоров! (при прощании)"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Dimmi!",
+         "Tell me!"
+        ],
+        [
+         "Fammi vedere!",
+         "Show me! / Let me see!"
+        ],
+        [
+         "Dammi una mano!",
+         "Give me a hand!"
+        ],
+        [
+         "Aspettami!",
+         "Wait for me!"
+        ],
+        [
+         "Stammi bene!",
+         "Take care! (when saying goodbye)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5315,7 +5717,29 @@
        "Parliamo!",
        "Давайте поговорим!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Non parlare!",
+         "Don't speak! (tu)"
+        ],
+        [
+         "Non parlate!",
+         "Don't speak! (you, several people)"
+        ],
+        [
+         "Non parli!",
+         "Don't speak! (formal you)"
+        ],
+        [
+         "Parliamo!",
+         "Let's talk!"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5329,7 +5753,7 @@
     {
      "title_en": "Qualche and alcuni",
      "title_ru": "Qualche и alcuni",
-     "body_en": "Qualche means 'some, a few' and is always followed by a singular noun, with a singular verb: qualche libro, qualche giorno, C'è qualche problema. Alcuni / alcune mean the same but take a plural noun: alcuni amici, alcune volte. Russian says 'несколько книг' with a plural; qualche keeps the singular.",
+     "body_en": "Qualche means 'some, a few' and is always followed by a singular noun, with a singular verb: qualche libro, qualche giorno, C'è qualche problema. Alcuni / alcune mean the same but take a plural noun: alcuni amici, alcune volte. English says 'a few books' with a plural; qualche keeps the singular.",
      "body_ru": "Qualche значит «несколько, некоторые» и всегда стоит с существительным в единственном числе, а глагол тоже в единственном числе: qualche libro, qualche giorno, C'è qualche problema. Alcuni / alcune значат то же самое, но с существительным во множественном числе: alcuni amici, alcune volte. По-русски «несколько книг» — множественное число, а после qualche — единственное.",
      "examples": [
       {
@@ -5375,7 +5799,7 @@
     {
      "title_en": "Qualcosa, qualcuno, niente + di / da",
      "title_ru": "Qualcosa, qualcuno, niente + di / da",
-     "body_en": "Qualcosa (something), qualcuno (someone), niente / nulla (nothing) take di before an adjective: qualcosa di bello, niente di nuovo, qualcuno di simpatico. Before an infinitive they take da: qualcosa da bere, niente da fare. Russian says 'что-то красивое' and 'что-нибудь попить' without a preposition.",
+     "body_en": "Qualcosa (something), qualcuno (someone), niente / nulla (nothing) take di before an adjective: qualcosa di bello, niente di nuovo, qualcuno di simpatico. Before an infinitive they take da: qualcosa da bere, niente da fare. English says 'something nice' and 'something to drink'.",
      "body_ru": "Qualcosa (что-то), qualcuno (кто-то), niente / nulla (ничего) требуют предлога di перед прилагательным: qualcosa di bello, niente di nuovo, qualcuno di simpatico. Перед инфинитивом — предлог da: qualcosa da bere — «что-нибудь попить», niente da fare. По-русски «что-то красивое» и «что-нибудь попить» говорят без предлога.",
      "examples": [
       {
@@ -5421,7 +5845,7 @@
     {
      "title_en": "Tutto",
      "title_ru": "Tutto",
-     "body_en": "Tutto agrees with the noun and is followed by the article: tutto il giorno (весь день), tutta la notte, tutti i ragazzi, tutte le sere. Tutti i giorni means 'every day' (= ogni giorno), but tutto il giorno means 'all day'. Alone, tutto means 'everything' and tutti 'everyone', with a plural verb: Tutti sono arrivati.",
+     "body_en": "Tutto agrees with the noun and is followed by the article: tutto il giorno (all day), tutta la notte, tutti i ragazzi, tutte le sere. Tutti i giorni means 'every day' (= ogni giorno), but tutto il giorno means 'all day'. Alone, tutto means 'everything' and tutti 'everyone', with a plural verb: Tutti sono arrivati.",
      "body_ru": "Tutto согласуется с существительным, после него ставится артикль: tutto il giorno (весь день), tutta la notte, tutti i ragazzi, tutte le sere. Tutti i giorni — «каждый день» (= ogni giorno), а tutto il giorno — «весь день». Отдельно tutto значит «всё», а tutti — «все», с глаголом во множественном числе: Tutti sono arrivati — «Все пришли».",
      "examples": [
       {
@@ -5467,7 +5891,7 @@
     {
      "title_en": "Già and non... ancora",
      "title_ru": "Già и non... ancora",
-     "body_en": "Già (already) and non... ancora (not yet) are opposites. In compound tenses, già and ancora go between the auxiliary and the participle: Ho già mangiato. Non ho ancora mangiato. Russian 'ещё не' becomes non + verb + ancora: Non è ancora arrivato ('он ещё не пришёл').",
+     "body_en": "Già (already) and non... ancora (not yet) are opposites. In compound tenses, già and ancora go between the auxiliary and the participle: Ho già mangiato. Non ho ancora mangiato. 'Not yet' becomes non + verb + ancora: Non è ancora arrivato ('he hasn't arrived yet').",
      "body_ru": "Già (уже) и non... ancora (ещё не) — противоположности. В сложных временах già и ancora стоят между вспомогательным глаголом и причастием: Ho già mangiato. Non ho ancora mangiato. Русское «ещё не» превращается в non + глагол + ancora: Non è ancora arrivato — «Он ещё не пришёл».",
      "examples": [
       {
@@ -5490,7 +5914,7 @@
     {
      "title_en": "Ancora and non... più",
      "title_ru": "Ancora и non... più",
-     "body_en": "Ancora also means 'still' (Sei ancora qui?) and 'again, more' (Ancora un caffè? Leggilo ancora). Its opposite is non... più, 'no longer, not any more', Russian 'больше не': Non fumo più. Non abito più a Milano. In compound tenses più goes between the auxiliary and the participle: Non l'ho più visto.",
+     "body_en": "Ancora also means 'still' (Sei ancora qui?) and 'again, more' (Ancora un caffè? Leggilo ancora). Its opposite is non... più, 'no longer, not any more': Non fumo più. Non abito più a Milano. In compound tenses più goes between the auxiliary and the participle: Non l'ho più visto.",
      "body_ru": "Ancora значит также «всё ещё» (Sei ancora qui? — «Ты всё ещё здесь?») и «ещё, снова» (Ancora un caffè? Leggilo ancora). Противоположное — non... più, «больше не»: Non fumo più — «Я больше не курю». Non abito più a Milano. В сложных временах più стоит между вспомогательным глаголом и причастием: Non l'ho più visto — «Я больше его не видел».",
      "examples": [
       {
@@ -5513,7 +5937,7 @@
     {
      "title_en": "Mai and sempre",
      "title_ru": "Mai и sempre",
-     "body_en": "In questions, mai means 'ever', Russian 'когда-нибудь': Sei mai stato in Sicilia? In negative sentences, non... mai means 'never': Non sono mai stato in Sicilia. Sempre (always) and mai go between the auxiliary and the participle: Ho sempre vissuto qui. Non ho mai visto la neve.",
+     "body_en": "In questions, mai means 'ever': Sei mai stato in Sicilia? In negative sentences, non... mai means 'never': Non sono mai stato in Sicilia. Sempre (always) and mai go between the auxiliary and the participle: Ho sempre vissuto qui. Non ho mai visto la neve.",
      "body_ru": "В вопросах mai значит «когда-нибудь»: Sei mai stato in Sicilia? — «Ты когда-нибудь был на Сицилии?» В отрицательных предложениях non... mai значит «никогда»: Non sono mai stato in Sicilia. Sempre (всегда) и mai стоят между вспомогательным глаголом и причастием: Ho sempre vissuto qui. Non ho mai visto la neve.",
      "examples": [
       {
@@ -5616,7 +6040,7 @@
       "ogni"
      ],
      "answer": 0,
-     "explain_en": "Tutto agrees with la notte → tutta la notte ('всю ночь').",
+     "explain_en": "Tutto agrees with la notte → tutta la notte ('all night').",
      "explain_ru": "Tutto согласуется с la notte → tutta la notte — «всю ночь»."
     },
     {
@@ -5644,7 +6068,7 @@
       "già"
      ],
      "answer": 0,
-     "explain_en": "No longer = non... più ('больше не').",
+     "explain_en": "No longer = non... più.",
      "explain_ru": "«Больше не» — non... più."
     },
     {
@@ -5658,7 +6082,7 @@
       "mai"
      ],
      "answer": 3,
-     "explain_en": "In a question, mai = ever ('когда-нибудь').",
+     "explain_en": "In a question, mai = ever.",
      "explain_ru": "В вопросе mai — «когда-нибудь»."
     },
     {
@@ -5682,8 +6106,13 @@
      "answer": [
       "nessuno"
      ],
-     "explain_en": "'Никого' = non... nessuno.",
-     "explain_ru": "«Никого» — non... nessuno."
+     "explain_en": "'Nobody / not anybody' = non... nessuno.",
+     "explain_ru": "«Никого» — non... nessuno.",
+     "ui": {
+      "en": {
+       "q": "Non ho visto ___ (anybody)."
+      }
+     }
     },
     {
      "id": "e12",
@@ -5693,7 +6122,12 @@
       "qualcuno"
      ],
      "explain_en": "Someone = qualcuno.",
-     "explain_ru": "«Кто-то» — qualcuno."
+     "explain_ru": "«Кто-то» — qualcuno.",
+     "ui": {
+      "en": {
+       "q": "C'è ___ (someone) alla porta."
+      }
+     }
     },
     {
      "id": "e13",
@@ -5704,7 +6138,12 @@
       "ogni"
      ],
      "explain_en": "Every week = ogni settimana.",
-     "explain_ru": "«Каждую неделю» — ogni settimana."
+     "explain_ru": "«Каждую неделю» — ogni settimana.",
+     "ui": {
+      "en": {
+       "q": "___ (every) settimana vado dalla nonna."
+      }
+     }
     },
     {
      "id": "e14",
@@ -5734,7 +6173,12 @@
       "ancora"
      ],
      "explain_en": "Non... ancora = not yet.",
-     "explain_ru": "Non... ancora — «ещё не»."
+     "explain_ru": "Non... ancora — «ещё не».",
+     "ui": {
+      "en": {
+       "q": "Non ho ___ (yet) visto il nuovo film."
+      }
+     }
     },
     {
      "id": "e17",
@@ -5744,7 +6188,12 @@
       "già"
      ],
      "explain_en": "Already = già, with an accent.",
-     "explain_ru": "«Уже» — già, со знаком ударения."
+     "explain_ru": "«Уже» — già, со знаком ударения.",
+     "ui": {
+      "en": {
+       "q": "Hai ___ (already) prenotato l'albergo?"
+      }
+     }
     },
     {
      "id": "e18",
@@ -5818,7 +6267,12 @@
      "q": "'Qualche' is always followed by a singular noun: 'qualche amico'.",
      "answer": true,
      "explain_en": "Yes, even though it means 'some, a few'.",
-     "explain_ru": "Да, хотя и значит «несколько»."
+     "explain_ru": "Да, хотя и значит «несколько».",
+     "ui": {
+      "ru": {
+       "q": "После 'qualche' всегда стоит существительное в единственном числе: 'qualche amico'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5826,7 +6280,12 @@
      "q": "'Ogni giorni' is correct because 'ogni' means 'every'.",
      "answer": false,
      "explain_en": "Ogni takes a singular noun: ogni giorno.",
-     "explain_ru": "После ogni существительное стоит в единственном числе: ogni giorno."
+     "explain_ru": "После ogni существительное стоит в единственном числе: ogni giorno.",
+     "ui": {
+      "ru": {
+       "q": "'Ogni giorni' — правильно, потому что 'ogni' значит «каждый»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5834,7 +6293,12 @@
      "q": "'Tutto il giorno' means 'every day'.",
      "answer": false,
      "explain_en": "Tutto il giorno = all day; every day = tutti i giorni.",
-     "explain_ru": "Tutto il giorno — «весь день»; «каждый день» — tutti i giorni."
+     "explain_ru": "Tutto il giorno — «весь день»; «каждый день» — tutti i giorni.",
+     "ui": {
+      "ru": {
+       "q": "'Tutto il giorno' означает «каждый день»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5864,7 +6328,37 @@
        "tutti",
        "все"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "qualcosa",
+         "something"
+        ],
+        [
+         "qualcuno",
+         "someone"
+        ],
+        [
+         "niente",
+         "nothing"
+        ],
+        [
+         "nessuno",
+         "nobody"
+        ],
+        [
+         "ognuno",
+         "everyone (each one)"
+        ],
+        [
+         "tutti",
+         "everybody, all"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5894,7 +6388,37 @@
        "non... mai",
        "никогда"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "già",
+         "already"
+        ],
+        [
+         "non... ancora",
+         "not yet"
+        ],
+        [
+         "ancora",
+         "still"
+        ],
+        [
+         "non... più",
+         "no longer"
+        ],
+        [
+         "mai (in a question)",
+         "ever"
+        ],
+        [
+         "non... mai",
+         "never"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5920,7 +6444,33 @@
        "ogni tanto",
        "время от времени"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "tutto il giorno",
+         "all day"
+        ],
+        [
+         "tutti i giorni",
+         "every day"
+        ],
+        [
+         "tutta la notte",
+         "all night"
+        ],
+        [
+         "qualche volta",
+         "sometimes"
+        ],
+        [
+         "ogni tanto",
+         "from time to time"
+        ]
+       ]
+      }
+     }
     }
    ]
   }

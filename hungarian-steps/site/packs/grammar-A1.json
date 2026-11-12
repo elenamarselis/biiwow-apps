@@ -67,7 +67,7 @@
     {
      "title_en": "The vowels a, á, e, é and the rounded ö, ü",
      "title_ru": "Гласные a, á, e, é и огублённые ö, ü",
-     "body_en": "Hungarian a is a rounded back sound between Russian а and о (apa 'father'); á is a long open [a:], like Russian а in 'мама' but longer. e is open, like э in 'это'; é is a long closed [e:]. The vowels ö/ő and ü/ű are front rounded vowels that Russian lacks: say э or и while rounding your lips, as in German ö and ü.",
+     "body_en": "Hungarian a is a rounded back sound between the a in 'father' and the o in 'hot' (apa 'father'); á is a long open [a:], like the a in 'father' but longer. e is open, like the e in 'bed'; é is a long closed [e:]. The vowels ö/ő and ü/ű are front rounded vowels that neither English nor Russian has: say 'e' or 'i' while rounding your lips, as in German ö and ü.",
      "body_ru": "Венгерское a — огублённый задний звук между русскими а и о (apa «папа»); á — долгий открытый [а:], как в «мама», но длиннее. e — открытый, как э в «это»; é — долгий закрытый [е:], похож на е в «мел» без мягкого согласного. Звуков ö/ő и ü/ű в русском нет: произносите э или и, округлив губы, как немецкие ö и ü.",
      "examples": [
       {
@@ -95,7 +95,7 @@
     {
      "title_en": "Consonants that differ from Russian",
      "title_ru": "Согласные, которые читаются не так, как в русском",
-     "body_en": "Several letters do not sound the way a Russian speaker expects: s = ш (sör), sz = с (szó), c = ц (cica), cs = ч (család), zs = ж (zseb), z = з (zene). Soft consonants are written with y: gy ≈ дь (gyerek), ny ≈ нь (nyár), ty ≈ ть (tyúk). Both j and ly are pronounced й (jó, lyuk). h is always pronounced (ház).",
+     "body_en": "Several letters do not sound the way you might expect: s = 'sh' (sör), sz = 's' (szó), c = 'ts' (cica), cs = 'ch' (család), zs = 'zh' as in 'measure' (zseb), z = 'z' (zene). Soft (palatal) consonants are written with y: gy ≈ a soft 'd' (gyerek), ny ≈ 'ny' as in 'canyon' (nyár), ty ≈ a soft 't' (tyúk). Both j and ly are pronounced like English 'y' in 'yes' (jó, lyuk). h is always pronounced (ház).",
      "body_ru": "Некоторые буквы читаются не так, как ожидает русский: s = ш (sör), sz = с (szó), c = ц (cica), cs = ч (család), zs = ж (zseb), z = з (zene). Мягкие согласные пишутся с y: gy ≈ дь (gyerek), ny ≈ нь (nyár), ty ≈ ть (tyúk). И j, и ly читаются как й (jó, lyuk). Самая частая ошибка — прочитать s как с: Budapest звучит «Будапешт».",
      "examples": [
       {
@@ -258,8 +258,16 @@
       "z"
      ],
      "answer": 0,
-     "explain_en": "s = ш (sör), sz = с (szó). That is why Budapest is pronounced 'Budapesht'.",
-     "explain_ru": "Буква s читается как ш (sör), а sz — как с (szó). Поэтому Budapest звучит «Будапешт»."
+     "explain_en": "s = 'sh' (sör), sz = 's' (szó). That is why Budapest is pronounced 'Budapesht'.",
+     "explain_ru": "Буква s читается как ш (sör), а sz — как с (szó). Поэтому Budapest звучит «Будапешт».",
+     "ui": {
+      "en": {
+       "q": "Which letter is pronounced 'sh' (as in 'shop')?"
+      },
+      "ru": {
+       "q": "Какая буква читается как русское ш?"
+      }
+     }
     },
     {
      "id": "e02",
@@ -272,8 +280,16 @@
       "cs"
      ],
      "answer": 0,
-     "explain_en": "sz = с (szó, szép). Single s is ш, zs is ж, cs is ч.",
-     "explain_ru": "sz = с (szó, szép). Одиночное s — это ш, zs — ж, cs — ч. Для русского это зеркально непривычно."
+     "explain_en": "sz = 's' (szó, szép). A single s is 'sh', zs is 'zh', cs is 'ch'.",
+     "explain_ru": "sz = с (szó, szép). Одиночное s — это ш, zs — ж, cs — ч. Для русского это зеркально непривычно.",
+     "ui": {
+      "en": {
+       "q": "Which letter is pronounced 's' (as in 'sun')?"
+      },
+      "ru": {
+       "q": "Какая буква читается как русское с?"
+      }
+     }
     },
     {
      "id": "e03",
@@ -287,7 +303,12 @@
      ],
      "answer": 0,
      "explain_en": "The accent marks length: kór 'disease' has a long ó; kor 'age' has a short o.",
-     "explain_ru": "Знак над гласной — это долгота, не ударение: kór «болезнь» с долгим ó, kor «возраст» с кратким o."
+     "explain_ru": "Знак над гласной — это долгота, не ударение: kór «болезнь» с долгим ó, kor «возраст» с кратким o.",
+     "ui": {
+      "ru": {
+       "q": "В каком слове ДОЛГИЙ гласный?"
+      }
+     }
     },
     {
      "id": "e04",
@@ -301,7 +322,12 @@
      ],
      "answer": 0,
      "explain_en": "Stress is always on the first syllable; the long á at the end is long but unstressed.",
-     "explain_ru": "Ударение всегда на первом слоге; долгое á в конце — долгое, но безударное. В русском ударение подвижно, в венгерском — нет."
+     "explain_ru": "Ударение всегда на первом слоге; долгое á в конце — долгое, но безударное. В русском ударение подвижно, в венгерском — нет.",
+     "ui": {
+      "ru": {
+       "q": "Где ударение в слове Magyarország?"
+      }
+     }
     },
     {
      "id": "e05",
@@ -314,8 +340,16 @@
       "zs"
      ],
      "answer": 0,
-     "explain_en": "cs = ч (család, csak). c alone is ц.",
-     "explain_ru": "cs = ч (család, csak). Одиночное c читается как ц."
+     "explain_en": "cs = 'ch' (család, csak). c on its own is 'ts'.",
+     "explain_ru": "cs = ч (család, csak). Одиночное c читается как ц.",
+     "ui": {
+      "en": {
+       "q": "Which digraph is pronounced 'ch' (as in 'church')?"
+      },
+      "ru": {
+       "q": "Какой диграф читается как русское ч?"
+      }
+     }
     },
     {
      "id": "e06",
@@ -328,8 +362,22 @@
       "дж"
      ],
      "answer": 0,
-     "explain_en": "gy is a soft d-sound, close to Russian дь. The letter y marks softness in gy, ny, ty.",
-     "explain_ru": "gy — мягкий звук, близкий к русскому дь. Буква y обозначает мягкость в gy, ny, ty."
+     "explain_en": "gy is a soft d-sound, close to the Russian soft 'd' or the 'd' in British 'duty'. The letter y marks softness in gy, ny, ty.",
+     "explain_ru": "gy — мягкий звук, близкий к русскому дь. Буква y обозначает мягкость в gy, ny, ty.",
+     "ui": {
+      "en": {
+       "q": "gy in gyerek sounds like…",
+       "options": [
+        "a soft 'd', like 'd' in British 'duty'",
+        "a hard 'g', as in 'go'",
+        "'zh', as in 'measure'",
+        "'j', as in 'jam'"
+       ]
+      },
+      "ru": {
+       "q": "gy в слове gyerek звучит как русское…"
+      }
+     }
     },
     {
      "id": "e07",
@@ -343,7 +391,12 @@
      ],
      "answer": 0,
      "explain_en": "öt 'five' has a short ö; őt with a long ő means 'him/her'.",
-     "explain_ru": "öt «пять» — с кратким ö; őt с долгим ő значит «его/её». Долгота меняет смысл."
+     "explain_ru": "öt «пять» — с кратким ö; őt с долгим ő значит «его/её». Долгота меняет смысл.",
+     "ui": {
+      "ru": {
+       "q": "Какое слово значит «пять»?"
+      }
+     }
     },
     {
      "id": "e08",
@@ -385,7 +438,12 @@
      ],
      "answer": 0,
      "explain_en": "The ö-form goes with words whose last vowel is ö, ő, ü or ű: földön. asztalon, széken, házon.",
-     "explain_ru": "Форма с ö — для слов с последней гласной ö, ő, ü, ű: földön. Остальные: asztalon, széken, házon."
+     "explain_ru": "Форма с ö — для слов с последней гласной ö, ő, ü, ű: földön. Остальные: asztalon, széken, házon.",
+     "ui": {
+      "ru": {
+       "q": "Какое слово принимает суффикс -ön?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -434,8 +492,16 @@
      "answer": [
       "sör"
      ],
-     "explain_en": "The sound ш is written with a single s: sör.",
-     "explain_ru": "Звук ш пишется одной буквой s: sör «пиво»."
+     "explain_en": "The 'sh' sound is written with a single s: sör.",
+     "explain_ru": "Звук ш пишется одной буквой s: sör «пиво».",
+     "ui": {
+      "en": {
+       "q": "Write the Hungarian word for 'beer', pronounced roughly [shör]: ___"
+      },
+      "ru": {
+       "q": "Напишите венгерское слово «пиво», произносится [шёр]: ___"
+      }
+     }
     },
     {
      "id": "e16",
@@ -444,8 +510,16 @@
      "answer": [
       "szó"
      ],
-     "explain_en": "The sound с is written sz, and the long o is ó: szó.",
-     "explain_ru": "Звук с пишется sz, а долгое о — ó: szó «слово»."
+     "explain_en": "The 's' sound is written sz, and the long o is ó: szó.",
+     "explain_ru": "Звук с пишется sz, а долгое о — ó: szó «слово».",
+     "ui": {
+      "en": {
+       "q": "Write the Hungarian word for 'word', pronounced [so:]: ___"
+      },
+      "ru": {
+       "q": "Напишите венгерское слово «слово», произносится [со:]: ___"
+      }
+     }
     },
     {
      "id": "e17",
@@ -465,7 +539,12 @@
       "őt"
      ],
      "explain_en": "őt 'him/her' is spelled with the long ő.",
-     "explain_ru": "őt «его/её» пишется с долгим ő. Одно слово на оба рода: в венгерском нет грамматического рода."
+     "explain_ru": "őt «его/её» пишется с долгим ő. Одно слово на оба рода: в венгерском нет грамматического рода.",
+     "ui": {
+      "ru": {
+       "q": "öt значит «пять»; слово «его/её» с долгим гласным — ___"
+      }
+     }
     },
     {
      "id": "e19",
@@ -520,8 +599,16 @@
      "type": "tf",
      "q": "The letter combination sz is pronounced like Russian ш.",
      "answer": false,
-     "explain_en": "sz = с. It is the single s that sounds like ш.",
-     "explain_ru": "sz = с. Как ш читается одиночное s. Это самая частая путаница у русскоязычных."
+     "explain_en": "sz = 's'. It is the single s that sounds like 'sh'.",
+     "explain_ru": "sz = с. Как ш читается одиночное s. Это самая частая путаница у русскоязычных.",
+     "ui": {
+      "en": {
+       "q": "The letter combination sz is pronounced 'sh'."
+      },
+      "ru": {
+       "q": "Сочетание букв sz читается как русское ш."
+      }
+     }
     },
     {
      "id": "e24",
@@ -529,7 +616,12 @@
      "q": "Hungarian stress always falls on the first syllable.",
      "answer": true,
      "explain_en": "Stress is fixed on the first syllable in every word.",
-     "explain_ru": "Ударение всегда на первом слоге, без исключений — в отличие от русского подвижного ударения."
+     "explain_ru": "Ударение всегда на первом слоге, без исключений — в отличие от русского подвижного ударения.",
+     "ui": {
+      "ru": {
+       "q": "В венгерском ударение всегда падает на первый слог."
+      }
+     }
     },
     {
      "id": "e25",
@@ -537,7 +629,12 @@
      "q": "The form kertben follows vowel harmony correctly.",
      "answer": true,
      "explain_en": "kert has a front vowel, so the front form -ben is right.",
-     "explain_ru": "В kert передняя гласная, поэтому передняя форма -ben правильна."
+     "explain_ru": "В kert передняя гласная, поэтому передняя форма -ben правильна.",
+     "ui": {
+      "ru": {
+       "q": "Форма kertben правильно соблюдает гармонию гласных."
+      }
+     }
     },
     {
      "id": "e26",
@@ -563,7 +660,33 @@
        "zs",
        "ж"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "s",
+         "sh, as in 'shop'"
+        ],
+        [
+         "sz",
+         "s, as in 'sun'"
+        ],
+        [
+         "c",
+         "ts, as in 'cats'"
+        ],
+        [
+         "cs",
+         "ch, as in 'church'"
+        ],
+        [
+         "zs",
+         "zh, as in 'measure'"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -599,7 +722,7 @@
     {
      "title_en": "No grammatical gender",
      "title_ru": "Нет грамматического рода",
-     "body_en": "Hungarian nouns have no gender: there is no masculine, feminine or neuter, and nothing has to agree with the noun. Even the pronoun ő means both 'he' and 'she'. This is a big simplification for Russian speakers: you never need to learn whether a word is 'он', 'она' or 'оно'.",
+     "body_en": "Hungarian nouns have no gender: there is no masculine, feminine or neuter, and nothing has to agree with the noun. Even the pronoun ő means both 'he' and 'she'. This is a big simplification for Russian speakers: you never need to learn whether a word is masculine, feminine or neuter.",
      "body_ru": "У венгерских существительных нет рода: нет мужского, женского и среднего, и ничто не согласуется с существительным по роду. Даже местоимение ő значит и «он», и «она». Для русскоязычных это большое облегчение: не нужно запоминать, слово «он», «она» или «оно».",
      "examples": [
       {
@@ -701,7 +824,7 @@
     {
      "title_en": "Plural -k after a vowel",
      "title_ru": "Множественное число -k после гласного",
-     "body_en": "The plural ending is always -k. After a vowel it is attached directly: autó → autók, fiú → fiúk, nő → nők. A final -a or -e becomes long: alma → almák, körte → körték. Russian has many plural endings (-ы, -и, -а, -я); Hungarian has one.",
+     "body_en": "The plural ending is always -k. After a vowel it is attached directly: autó → autók, fiú → fiúk, nő → nők. A final -a or -e becomes long: alma → almák, körte → körték. Russian has many plural endings (-y, -i, -a, -ya); Hungarian has one.",
      "body_ru": "Окончание множественного числа всегда -k. После гласного оно присоединяется прямо: autó → autók, fiú → fiúk, nő → nők. Конечные -a и -e удлиняются: alma → almák, körte → körték. В русском много окончаний множественного числа (-ы, -и, -а, -я), в венгерском — одно.",
      "examples": [
       {
@@ -780,7 +903,7 @@
     {
      "title_en": "No plural after numerals and quantity words",
      "title_ru": "Нет множественного числа после числительных и слов количества",
-     "body_en": "After a numeral or a quantity word (sok 'many', kevés 'few', néhány 'some', hány? 'how many?') the noun stays SINGULAR: két könyv 'two books', sok ember 'many people'. The verb is singular too: Két fiú van itt. This is the opposite of Russian (две книги, много людей).",
+     "body_en": "After a numeral or a quantity word (sok 'many', kevés 'few', néhány 'some', hány? 'how many?') the noun stays SINGULAR: két könyv 'two books', sok ember 'many people'. The verb is singular too: Két fiú van itt. This is the opposite of English and Russian, where the noun goes into the plural.",
      "body_ru": "После числительного или слова количества (sok «много», kevés «мало», néhány «несколько», hány? «сколько?») существительное стоит в ЕДИНСТВЕННОМ числе: két könyv «две книги», sok ember «много людей». Глагол тоже единственного числа: Két fiú van itt. Это прямая противоположность русскому (две книги, много людей).",
      "examples": [
       {
@@ -803,7 +926,7 @@
     {
      "title_en": "Demonstratives ez / az with the article",
      "title_ru": "Указательные ez / az с артиклем",
-     "body_en": "ez 'this' and az 'that' stand alone as a subject: Ez egy ház 'This is a house'. Before a noun they need the definite article: ez a ház 'this house', az az alma 'that apple'. Plural: ezek a házak, azok az almák. Russian has no article here (этот дом), so do not drop it.",
+     "body_en": "ez 'this' and az 'that' stand alone as a subject: Ez egy ház 'This is a house'. Before a noun they need the definite article: ez a ház 'this house', az az alma 'that apple'. Plural: ezek a házak, azok az almák. Russian and English have no article here ('this house'), so do not drop it.",
      "body_ru": "ez «это, этот» и az «то, тот» стоят самостоятельно как подлежащее: Ez egy ház «Это дом». Перед существительным нужен определённый артикль: ez a ház «этот дом», az az alma «то яблоко». Множественное число: ezek a házak, azok az almák. В русском артикля здесь нет («этот дом»), поэтому его легко забыть — не забывайте.",
      "examples": [
       {
@@ -863,7 +986,12 @@
      ],
      "answer": 0,
      "explain_en": "ház belongs to the group of back-vowel words with the linking vowel -a-: házak.",
-     "explain_ru": "ház — из группы слов с задними гласными и соединительной -a-: házak. Такие слова нужно запоминать."
+     "explain_ru": "ház — из группы слов с задними гласными и соединительной -a-: házak. Такие слова нужно запоминать.",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от ház:"
+      }
+     }
     },
     {
      "id": "e04",
@@ -877,7 +1005,12 @@
      ],
      "answer": 0,
      "explain_en": "After a vowel -k is added directly: autók.",
-     "explain_ru": "После гласной -k присоединяется прямо: autók."
+     "explain_ru": "После гласной -k присоединяется прямо: autók.",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от autó:"
+      }
+     }
     },
     {
      "id": "e05",
@@ -891,7 +1024,12 @@
      ],
      "answer": 0,
      "explain_en": "A final -a lengthens to -á before -k: almák.",
-     "explain_ru": "Конечное -a удлиняется в -á перед -k: almák."
+     "explain_ru": "Конечное -a удлиняется в -á перед -k: almák.",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от alma:"
+      }
+     }
     },
     {
      "id": "e06",
@@ -905,7 +1043,12 @@
      ],
      "answer": 0,
      "explain_en": "Front-vowel word, linking vowel -e-: székek.",
-     "explain_ru": "Слово с передней гласной, соединительная -e-: székek."
+     "explain_ru": "Слово с передней гласной, соединительная -e-: székek.",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от szék:"
+      }
+     }
     },
     {
      "id": "e07",
@@ -919,7 +1062,12 @@
      ],
      "answer": 0,
      "explain_en": "The last vowel is ö, so the linking vowel is -ö-: gyümölcsök.",
-     "explain_ru": "Последняя гласная ö, поэтому соединительная -ö-: gyümölcsök."
+     "explain_ru": "Последняя гласная ö, поэтому соединительная -ö-: gyümölcsök.",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от gyümölcs:"
+      }
+     }
     },
     {
      "id": "e08",
@@ -933,7 +1081,12 @@
      ],
      "answer": 0,
      "explain_en": "The long é shortens before the plural ending: kezek.",
-     "explain_ru": "Долгое é сокращается перед окончанием: kezek «руки»."
+     "explain_ru": "Долгое é сокращается перед окончанием: kezek «руки».",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от kéz:"
+      }
+     }
     },
     {
      "id": "e09",
@@ -946,7 +1099,12 @@
      ],
      "answer": 0,
      "explain_en": "A new, unspecified object takes the indefinite article egy.",
-     "explain_ru": "Новый, неконкретный предмет вводится неопределённым артиклем egy («одна, какая-то книга»)."
+     "explain_ru": "Новый, неконкретный предмет вводится неопределённым артиклем egy («одна, какая-то книга»).",
+     "ui": {
+      "ru": {
+       "q": "Van ___ könyv az asztalon. (На столе есть книга.)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -969,7 +1127,12 @@
       "lányok"
      ],
      "explain_en": "Back-vowel word with the usual linking vowel -o-: lányok.",
-     "explain_ru": "Слово с задней гласной и обычной соединительной -o-: lányok «девочки»."
+     "explain_ru": "Слово с задней гласной и обычной соединительной -o-: lányok «девочки».",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от lány: ___"
+      }
+     }
     },
     {
      "id": "e12",
@@ -979,7 +1142,12 @@
       "emberek"
      ],
      "explain_en": "Front-vowel word: emberek.",
-     "explain_ru": "Слово с передними гласными: emberek «люди»."
+     "explain_ru": "Слово с передними гласными: emberek «люди».",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от ember: ___"
+      }
+     }
     },
     {
      "id": "e13",
@@ -989,7 +1157,12 @@
       "körték"
      ],
      "explain_en": "Final -e lengthens to -é: körték.",
-     "explain_ru": "Конечное -e удлиняется в -é: körték «груши»."
+     "explain_ru": "Конечное -e удлиняется в -é: körték «груши».",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от körte: ___"
+      }
+     }
     },
     {
      "id": "e14",
@@ -999,7 +1172,12 @@
       "tükrök"
      ],
      "explain_en": "The second ö drops out: tükrök.",
-     "explain_ru": "Второе ö выпадает: tükrök «зеркала»."
+     "explain_ru": "Второе ö выпадает: tükrök «зеркала».",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от tükör: ___"
+      }
+     }
     },
     {
      "id": "e15",
@@ -1009,7 +1187,12 @@
       "madarak"
      ],
      "explain_en": "The long á shortens: madarak.",
-     "explain_ru": "Долгое á сокращается: madarak «птицы»."
+     "explain_ru": "Долгое á сокращается: madarak «птицы».",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от madár: ___"
+      }
+     }
     },
     {
      "id": "e16",
@@ -1019,7 +1202,12 @@
       "Az"
      ],
      "explain_en": "asztal starts with a vowel: az asztal.",
-     "explain_ru": "asztal начинается с гласной: az asztal."
+     "explain_ru": "asztal начинается с гласной: az asztal.",
+     "ui": {
+      "ru": {
+       "q": "___ asztal nagy. (определённый артикль)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -1029,7 +1217,12 @@
       "A"
      ],
      "explain_en": "tanár starts with a consonant: a tanár.",
-     "explain_ru": "tanár начинается с согласной: a tanár."
+     "explain_ru": "tanár начинается с согласной: a tanár.",
+     "ui": {
+      "ru": {
+       "q": "___ tanár magyar. (определённый артикль)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -1039,7 +1232,12 @@
       "lovak"
      ],
      "explain_en": "ló is a v-stem: lovak.",
-     "explain_ru": "ló — основа на v: lovak «лошади»."
+     "explain_ru": "ló — основа на v: lovak «лошади».",
+     "ui": {
+      "ru": {
+       "q": "Множественное число от ló: ___"
+      }
+     }
     },
     {
      "id": "e19",
@@ -1099,7 +1297,12 @@
      "q": "Hungarian nouns have three genders, like Russian.",
      "answer": false,
      "explain_en": "Hungarian has no grammatical gender at all.",
-     "explain_ru": "В венгерском вообще нет грамматического рода — ни трёх, ни двух."
+     "explain_ru": "В венгерском вообще нет грамматического рода — ни трёх, ни двух.",
+     "ui": {
+      "ru": {
+       "q": "У венгерских существительных три рода, как в русском."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1107,7 +1310,12 @@
      "q": "The article az is used before words beginning with a vowel.",
      "answer": true,
      "explain_en": "az alma, az ember; a before consonants.",
-     "explain_ru": "az alma, az ember; перед согласными — a."
+     "explain_ru": "az alma, az ember; перед согласными — a.",
+     "ui": {
+      "ru": {
+       "q": "Артикль az ставится перед словами, которые начинаются с гласной."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1115,7 +1323,12 @@
      "q": "The phrase két könyvek is correct Hungarian for 'two books'.",
      "answer": false,
      "explain_en": "After a numeral the noun is singular: két könyv.",
-     "explain_ru": "После числительного существительное в единственном числе: két könyv. Русское «две книги» здесь сбивает."
+     "explain_ru": "После числительного существительное в единственном числе: két könyv. Русское «две книги» здесь сбивает.",
+     "ui": {
+      "ru": {
+       "q": "Сочетание két könyvek — правильный венгерский перевод «две книги»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1177,7 +1390,7 @@
     {
      "title_en": "The conjugation of van",
      "title_ru": "Спряжение глагола van",
-     "body_en": "Present tense of 'to be': (én) vagyok, (te) vagy, (ő) van, (mi) vagyunk, (ti) vagytok, (ők) vannak. Unlike Russian, where 'есть' is almost never used in the present, Hungarian uses these forms all the time in the 1st and 2nd person: Tanár vagyok 'I am a teacher'.",
+     "body_en": "Present tense of 'to be': (én) vagyok, (te) vagy, (ő) van, (mi) vagyunk, (ti) vagytok, (ők) vannak. Unlike Russian, which almost never uses 'to be' in the present, Hungarian uses these forms all the time in the 1st and 2nd person: Tanár vagyok 'I am a teacher'.",
      "body_ru": "Настоящее время глагола «быть»: (én) vagyok, (te) vagy, (ő) van, (mi) vagyunk, (ti) vagytok, (ők) vannak. В русском «есть» в настоящем времени почти не употребляется, а в венгерском в 1-м и 2-м лице эти формы обязательны: Tanár vagyok «Я учитель».",
      "examples": [
       {
@@ -1228,7 +1441,7 @@
     {
      "title_en": "3rd person: no verb before a noun or adjective",
      "title_ru": "3-е лицо: без глагола перед существительным или прилагательным",
-     "body_en": "When the predicate is a noun or an adjective, the 3rd person forms van/vannak are OMITTED: Péter tanár 'Peter is a teacher', A ház nagy 'The house is big', Ők diákok 'They are students'. This is just like Russian (Пётр — учитель). In the 1st and 2nd person the verb stays: Tanár vagyok.",
+     "body_en": "When the predicate is a noun or an adjective, the 3rd person forms van/vannak are OMITTED: Péter tanár 'Peter is a teacher', A ház nagy 'The house is big', Ők diákok 'They are students'. Russian drops the verb in the same way ('Peter — teacher'). In the 1st and 2nd person the verb stays: Tanár vagyok.",
      "body_ru": "Если сказуемое — существительное или прилагательное, формы 3-го лица van/vannak ОПУСКАЮТСЯ: Péter tanár «Петер — учитель», A ház nagy «Дом большой», Ők diákok «Они студенты». Это совсем как в русском (Пётр — учитель). В 1-м и 2-м лице глагол остаётся: Tanár vagyok.",
      "examples": [
       {
@@ -1256,7 +1469,7 @@
     {
      "title_en": "van/vannak for location and existence",
      "title_ru": "van/vannak для места и существования",
-     "body_en": "When you say WHERE someone is, or that something EXISTS, van/vannak cannot be omitted: Péter otthon van 'Peter is at home', A könyvek az asztalon vannak 'The books are on the table', Van egy bolt a sarkon 'There is a shop on the corner'. Russian drops the verb here (Пётр дома), Hungarian never does.",
+     "body_en": "When you say WHERE someone is, or that something EXISTS, van/vannak cannot be omitted: Péter otthon van 'Peter is at home', A könyvek az asztalon vannak 'The books are on the table', Van egy bolt a sarkon 'There is a shop on the corner'. Russian drops the verb here ('Peter — at home'), Hungarian never does.",
      "body_ru": "Когда вы говорите, ГДЕ кто-то находится, или что что-то СУЩЕСТВУЕТ, van/vannak опускать нельзя: Péter otthon van «Петер дома», A könyvek az asztalon vannak «Книги на столе», Van egy bolt a sarkon «На углу есть магазин». В русском глагол здесь опускается (Пётр дома), в венгерском — никогда.",
      "examples": [
       {
@@ -1348,7 +1561,7 @@
     {
      "title_en": "Hogy vagy? – Jól vagyok.",
      "title_ru": "Hogy vagy? – Jól vagyok.",
-     "body_en": "To ask how someone is, use van: Hogy vagy? (informal), Hogy van? (formal). Answer with the verb: Jól vagyok, köszönöm 'I am fine, thanks', Rosszul vagyok 'I feel bad'. In Russian the verb is missing (Как дела? – Хорошо); in Hungarian vagyok is normally kept.",
+     "body_en": "To ask how someone is, use van: Hogy vagy? (informal), Hogy van? (formal). Answer with the verb: Jól vagyok, köszönöm 'I am fine, thanks', Rosszul vagyok 'I feel bad'. Russian leaves the verb out ('How are things? – Fine'); in Hungarian vagyok is normally kept.",
      "body_ru": "Чтобы спросить, как дела, используют van: Hogy vagy? (на «ты»), Hogy van? (на «вы»). Отвечают с глаголом: Jól vagyok, köszönöm «Хорошо, спасибо», Rosszul vagyok «Мне плохо». В русском глагола нет (Как дела? – Хорошо), в венгерском vagyok обычно сохраняется.",
      "examples": [
       {
@@ -1452,7 +1665,12 @@
      ],
      "answer": 0,
      "explain_en": "The negation of van is nincs; 'nem van' does not exist.",
-     "explain_ru": "Отрицание van — nincs; формы «nem van» не существует."
+     "explain_ru": "Отрицание van — nincs; формы «nem van» не существует.",
+     "ui": {
+      "ru": {
+       "q": "Péter ___ otthon. (его нет)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -1466,7 +1684,12 @@
      ],
      "answer": 0,
      "explain_en": "A noun predicate is negated with nem; there is no verb to replace with nincs.",
-     "explain_ru": "Именное сказуемое отрицается через nem: глагола здесь нет, заменять его на nincs нельзя."
+     "explain_ru": "Именное сказуемое отрицается через nem: глагола здесь нет, заменять его на nincs нельзя.",
+     "ui": {
+      "ru": {
+       "q": "Anna ___ tanár. (не)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -1479,7 +1702,12 @@
      ],
      "answer": 0,
      "explain_en": "Before a noun predicate the 3rd person verb is omitted.",
-     "explain_ru": "Перед именным сказуемым глагол 3-го лица опускается — как в русском «Петер — учитель»."
+     "explain_ru": "Перед именным сказуемым глагол 3-го лица опускается — как в русском «Петер — учитель».",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -1493,7 +1721,12 @@
      ],
      "answer": 0,
      "explain_en": "Plural negation of vannak is nincsenek.",
-     "explain_ru": "Отрицание vannak во множественном числе — nincsenek."
+     "explain_ru": "Отрицание vannak во множественном числе — nincsenek.",
+     "ui": {
+      "ru": {
+       "q": "A gyerekek ___ itt. (их нет)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -1507,7 +1740,12 @@
      ],
      "answer": 0,
      "explain_en": "Informal question to one person: Hogy vagy?",
-     "explain_ru": "Неформальный вопрос одному человеку: Hogy vagy?"
+     "explain_ru": "Неформальный вопрос одному человеку: Hogy vagy?",
+     "ui": {
+      "ru": {
+       "q": "Hogy ___? – Jól, köszönöm. (на «ты»)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -1577,7 +1815,12 @@
       "nincsenek"
      ],
      "explain_en": "Plural: nincsenek.",
-     "explain_ru": "Множественное число: nincsenek «Учителей здесь нет»."
+     "explain_ru": "Множественное число: nincsenek «Учителей здесь нет».",
+     "ui": {
+      "ru": {
+       "q": "A tanárok ___ itt. (их нет; одно слово)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -1587,7 +1830,12 @@
       "nem"
      ],
      "explain_en": "Adjective predicate: nem, no verb.",
-     "explain_ru": "Сказуемое-прилагательное: nem, без глагола."
+     "explain_ru": "Сказуемое-прилагательное: nem, без глагола.",
+     "ui": {
+      "ru": {
+       "q": "A ház ___ nagy. (не)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -1645,7 +1893,12 @@
      "q": "The sentence Péter van tanár is correct.",
      "answer": false,
      "explain_en": "With a noun predicate the 3rd person verb is omitted: Péter tanár.",
-     "explain_ru": "При именном сказуемом глагол 3-го лица опускается: Péter tanár."
+     "explain_ru": "При именном сказуемом глагол 3-го лица опускается: Péter tanár.",
+     "ui": {
+      "ru": {
+       "q": "Предложение Péter van tanár правильное."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1653,7 +1906,12 @@
      "q": "The correct negation of van is nem van.",
      "answer": false,
      "explain_en": "The negation of van is nincs.",
-     "explain_ru": "Отрицание van — nincs, а не «nem van»."
+     "explain_ru": "Отрицание van — nincs, а не «nem van».",
+     "ui": {
+      "ru": {
+       "q": "Правильное отрицание van — nem van."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1661,7 +1919,12 @@
      "q": "In Anna otthon van the verb van cannot be left out.",
      "answer": true,
      "explain_en": "For location the verb is obligatory, unlike in Russian.",
-     "explain_ru": "При указании места глагол обязателен — в отличие от русского «Анна дома»."
+     "explain_ru": "При указании места глагол обязателен — в отличие от русского «Анна дома».",
+     "ui": {
+      "ru": {
+       "q": "В предложении Anna otthon van глагол van нельзя опустить."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1727,7 +1990,7 @@
     {
      "title_en": "The dictionary form and the infinitive",
      "title_ru": "Словарная форма и инфинитив",
-     "body_en": "The dictionary form of a Hungarian verb is the 3rd person singular present: tanul 'he/she learns', beszél 'speaks', ül 'sits'. It is also the stem to which endings are added. The infinitive ends in -ni: tanulni, beszélni, ülni. Russian dictionaries list the infinitive (учить); Hungarian ones list the bare stem.",
+     "body_en": "The dictionary form of a Hungarian verb is the 3rd person singular present: tanul 'he/she learns', beszél 'speaks', ül 'sits'. It is also the stem to which endings are added. The infinitive ends in -ni: tanulni, beszélni, ülni. Russian and English dictionaries list the infinitive ('to learn'); Hungarian ones list the bare stem.",
      "body_ru": "Словарная форма венгерского глагола — 3-е лицо единственного числа настоящего времени: tanul «он/она учится», beszél «говорит», ül «сидит». Это и есть основа, к которой добавляются окончания. Инфинитив оканчивается на -ni: tanulni, beszélni, ülni. В русском словаре даётся инфинитив (учить), в венгерском — голая основа.",
      "examples": [
       {
@@ -1908,7 +2171,7 @@
     {
      "title_en": "Present tense for the future; no aspect pairs",
      "title_ru": "Настоящее время вместо будущего; нет видовых пар",
-     "body_en": "With a time expression the present tense refers to the future: Holnap dolgozom 'Tomorrow I will work', Este jövök 'I will come in the evening'. Hungarian verbs have no perfective/imperfective pairs like Russian делать/сделать; one verb covers both, and context or prefixes add the nuance.",
+     "body_en": "With a time expression the present tense refers to the future: Holnap dolgozom 'Tomorrow I will work', Este jövök 'I will come in the evening'. Hungarian verbs have no perfective/imperfective pairs like Russian 'delat/sdelat'; one verb covers both, and context or prefixes add the nuance.",
      "body_ru": "С указанием времени настоящее время обозначает будущее: Holnap dolgozom «Завтра я работаю / буду работать», Este jövök «Я приду вечером». У венгерских глаголов нет видовых пар вроде делать/сделать: один глагол покрывает оба значения, а оттенок добавляют контекст или приставки.",
      "examples": [
       {
@@ -2229,7 +2492,12 @@
      "q": "The dictionary form of a Hungarian verb is the 3rd person singular (tanul), not the infinitive.",
      "answer": true,
      "explain_en": "Dictionaries list tanul, beszél; the infinitive is tanulni, beszélni.",
-     "explain_ru": "В словаре tanul, beszél; инфинитив — tanulni, beszélni. В русском словаре даётся инфинитив."
+     "explain_ru": "В словаре tanul, beszél; инфинитив — tanulni, beszélni. В русском словаре даётся инфинитив.",
+     "ui": {
+      "ru": {
+       "q": "Словарная форма венгерского глагола — 3-е лицо ед. ч. (tanul), а не инфинитив."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2237,7 +2505,12 @@
      "q": "Én lakok is the standard 1st person singular form of lakik.",
      "answer": false,
      "explain_en": "-ik verbs take -om: lakom.",
-     "explain_ru": "Глаголы на -ik берут -om: lakom."
+     "explain_ru": "Глаголы на -ik берут -om: lakom.",
+     "ui": {
+      "ru": {
+       "q": "Én lakok — стандартная форма 1-го лица ед. ч. глагола lakik."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2245,7 +2518,12 @@
      "q": "Holnap dolgozom can mean 'Tomorrow I will work'.",
      "answer": true,
      "explain_en": "The present with a time word expresses the future.",
-     "explain_ru": "Настоящее время с указанием времени выражает будущее."
+     "explain_ru": "Настоящее время с указанием времени выражает будущее.",
+     "ui": {
+      "ru": {
+       "q": "Holnap dolgozom может значить «Завтра я буду работать»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2754,7 +3032,12 @@
       "tudom"
      ],
      "explain_en": "The implied object 'it' is definite: Nem tudom.",
-     "explain_ru": "Подразумеваемый объект «это» определённый: Nem tudom «Не знаю»."
+     "explain_ru": "Подразумеваемый объект «это» определённый: Nem tudom «Не знаю».",
+     "ui": {
+      "ru": {
+       "q": "Nem ___. (tud, én – «я этого не знаю»)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -2822,7 +3105,12 @@
      "q": "The sentence Látom egy házat is correct.",
      "answer": false,
      "explain_en": "egy házat is indefinite, so the verb must be látok.",
-     "explain_ru": "egy házat — неопределённый объект, поэтому глагол должен быть látok."
+     "explain_ru": "egy házat — неопределённый объект, поэтому глагол должен быть látok.",
+     "ui": {
+      "ru": {
+       "q": "Предложение Látom egy házat правильное."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2830,7 +3118,12 @@
      "q": "With the object Pétert (a name) the verb takes the definite conjugation.",
      "answer": true,
      "explain_en": "Proper names are definite: Ismerem Pétert.",
-     "explain_ru": "Имена собственные — определённые объекты: Ismerem Pétert."
+     "explain_ru": "Имена собственные — определённые объекты: Ismerem Pétert.",
+     "ui": {
+      "ru": {
+       "q": "С дополнением Pétert (имя) глагол стоит в определённом спряжении."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2838,7 +3131,12 @@
      "q": "Szeretlek means 'I love you'.",
      "answer": true,
      "explain_en": "-lek marks subject 'I' and object 'you'.",
-     "explain_ru": "-lek обозначает подлежащее «я» и объект «тебя» — одно слово вместо трёх русских."
+     "explain_ru": "-lek обозначает подлежащее «я» и объект «тебя» — одно слово вместо трёх русских.",
+     "ui": {
+      "ru": {
+       "q": "Szeretlek значит «Я тебя люблю»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2904,7 +3202,7 @@
     {
      "title_en": "The object ending -t",
      "title_ru": "Окончание объекта -t",
-     "body_en": "The direct object is marked with -t on every noun, regardless of gender or animacy (Russian distinguishes вижу дом / вижу брата; Hungarian does not). After a vowel -t is added directly: autó → autót, kávé → kávét. A final -a or -e becomes long: alma → almát, körte → körtét.",
+     "body_en": "The direct object is marked with -t on every noun, regardless of gender or animacy (Russian treats animate and inanimate objects differently; Hungarian does not). After a vowel -t is added directly: autó → autót, kávé → kávét. A final -a or -e becomes long: alma → almát, körte → körtét.",
      "body_ru": "Прямой объект обозначается окончанием -t у любого существительного, независимо от рода и одушевлённости (русский различает вижу дом / вижу брата, венгерский — нет). После гласной -t присоединяется прямо: autó → autót, kávé → kávét. Конечные -a и -e удлиняются: alma → almát, körte → körtét.",
      "examples": [
       {
@@ -2973,7 +3271,7 @@
     {
      "title_en": "Stem changes in the accusative",
      "title_ru": "Изменения основы в винительном падеже",
-     "body_en": "The same stem changes as in the plural appear before -t: kéz → kezet, víz → vizet, madár → madarat, kenyér → kenyeret, ló → lovat, tükör → tükröt. Russian also changes stems in declension (день → дня), so the idea is familiar.",
+     "body_en": "The same stem changes as in the plural appear before -t: kéz → kezet, víz → vizet, madár → madarat, kenyér → kenyeret, ló → lovat, tükör → tükröt. Russian also changes stems in declension ('den' → 'dnya'), so the idea is familiar.",
      "body_ru": "Те же изменения основы, что и во множественном числе, появляются перед -t: kéz → kezet, víz → vizet, madár → madarat, kenyér → kenyeret, ló → lovat, tükör → tükröt. В русском основа тоже меняется при склонении (день → дня), так что идея знакома.",
      "examples": [
       {
@@ -3093,7 +3391,7 @@
     {
      "title_en": "nem before the negated word",
      "title_ru": "nem перед отрицаемым словом",
-     "body_en": "nem stands directly before what it negates, usually the verb: Nem olvasok 'I am not reading'. To negate another element, put nem before it and move it into focus: Nem Péter dolgozik a boltban, hanem Anna 'It is not Peter who works in the shop, but Anna'. hanem is 'but' after a negation, like Russian а.",
+     "body_en": "nem stands directly before what it negates, usually the verb: Nem olvasok 'I am not reading'. To negate another element, put nem before it and move it into focus: Nem Péter dolgozik a boltban, hanem Anna 'It is not Peter who works in the shop, but Anna'. hanem is 'but (rather)' after a negation.",
      "body_ru": "nem стоит прямо перед тем, что отрицает, обычно перед глаголом: Nem olvasok «Я не читаю». Чтобы отрицать другой член предложения, nem ставят перед ним и выносят его в фокус: Nem Péter dolgozik a boltban, hanem Anna «В магазине работает не Петер, а Анна». hanem — это «а» после отрицания.",
      "examples": [
       {
@@ -3127,7 +3425,12 @@
      ],
      "answer": 0,
      "explain_en": "ház takes the linking vowel -a- (as in házak): házat.",
-     "explain_ru": "ház берёт соединительную -a- (как в házak): házat."
+     "explain_ru": "ház берёт соединительную -a- (как в házak): házat.",
+     "ui": {
+      "ru": {
+       "q": "Винительный падеж от ház:"
+      }
+     }
     },
     {
      "id": "e02",
@@ -3141,7 +3444,12 @@
      ],
      "answer": 0,
      "explain_en": "Final -a lengthens before -t: almát.",
-     "explain_ru": "Конечное -a удлиняется перед -t: almát."
+     "explain_ru": "Конечное -a удлиняется перед -t: almát.",
+     "ui": {
+      "ru": {
+       "q": "Винительный падеж от alma:"
+      }
+     }
     },
     {
      "id": "e03",
@@ -3155,7 +3463,12 @@
      ],
      "answer": 0,
      "explain_en": "After -l the -t is added directly: asztalt.",
-     "explain_ru": "После -l окончание -t присоединяется прямо: asztalt."
+     "explain_ru": "После -l окончание -t присоединяется прямо: asztalt.",
+     "ui": {
+      "ru": {
+       "q": "Винительный падеж от asztal:"
+      }
+     }
     },
     {
      "id": "e04",
@@ -3169,7 +3482,12 @@
      ],
      "answer": 0,
      "explain_en": "Linking vowel -e- as in könyvek: könyvet.",
-     "explain_ru": "Соединительная -e-, как в könyvek: könyvet."
+     "explain_ru": "Соединительная -e-, как в könyvek: könyvet.",
+     "ui": {
+      "ru": {
+       "q": "Винительный падеж от könyv:"
+      }
+     }
     },
     {
      "id": "e05",
@@ -3183,7 +3501,12 @@
      ],
      "answer": 0,
      "explain_en": "The long é shortens and -et is added: kezet.",
-     "explain_ru": "Долгое é сокращается, добавляется -et: kezet."
+     "explain_ru": "Долгое é сокращается, добавляется -et: kezet.",
+     "ui": {
+      "ru": {
+       "q": "Винительный падеж от kéz:"
+      }
+     }
     },
     {
      "id": "e06",
@@ -3224,7 +3547,12 @@
      ],
      "answer": 0,
      "explain_en": "The question word must stand right before the verb.",
-     "explain_ru": "Вопросительное слово должно стоять прямо перед глаголом — не как в русском «Где Петер работает?»."
+     "explain_ru": "Вопросительное слово должно стоять прямо перед глаголом — не как в русском «Где Петер работает?».",
+     "ui": {
+      "ru": {
+       "q": "Какой вопрос правильный?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -3238,7 +3566,12 @@
      ],
      "answer": 0,
      "explain_en": "Linking vowel -ö- as in gyümölcsök: gyümölcsöt.",
-     "explain_ru": "Соединительная -ö-, как в gyümölcsök: gyümölcsöt."
+     "explain_ru": "Соединительная -ö-, как в gyümölcsök: gyümölcsöt.",
+     "ui": {
+      "ru": {
+       "q": "Винительный падеж от gyümölcs:"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3261,7 +3594,12 @@
       "széket"
      ],
      "explain_en": "Linking vowel -e-: széket.",
-     "explain_ru": "Соединительная -e-: széket."
+     "explain_ru": "Соединительная -e-: széket.",
+     "ui": {
+      "ru": {
+       "q": "Винительный падеж от szék: ___"
+      }
+     }
     },
     {
      "id": "e12",
@@ -3271,7 +3609,12 @@
       "lányt"
      ],
      "explain_en": "After -ny the -t is added directly: lányt.",
-     "explain_ru": "После -ny окончание -t присоединяется прямо: lányt."
+     "explain_ru": "После -ny окончание -t присоединяется прямо: lányt.",
+     "ui": {
+      "ru": {
+       "q": "Винительный падеж от lány: ___"
+      }
+     }
     },
     {
      "id": "e13",
@@ -3281,7 +3624,12 @@
       "vizet"
      ],
      "explain_en": "The long í shortens: vizet.",
-     "explain_ru": "Долгое í сокращается: vizet."
+     "explain_ru": "Долгое í сокращается: vizet.",
+     "ui": {
+      "ru": {
+       "q": "Винительный падеж от víz: ___"
+      }
+     }
     },
     {
      "id": "e14",
@@ -3291,7 +3639,12 @@
       "körtét"
      ],
      "explain_en": "Final -e lengthens: körtét.",
-     "explain_ru": "Конечное -e удлиняется: körtét."
+     "explain_ru": "Конечное -e удлиняется: körtét.",
+     "ui": {
+      "ru": {
+       "q": "Винительный падеж от körte: ___"
+      }
+     }
     },
     {
      "id": "e15",
@@ -3321,7 +3674,12 @@
       "lovat"
      ],
      "explain_en": "v-stem: lovat.",
-     "explain_ru": "Основа на v: lovat."
+     "explain_ru": "Основа на v: lovat.",
+     "ui": {
+      "ru": {
+       "q": "Винительный падеж от ló: ___"
+      }
+     }
     },
     {
      "id": "e18",
@@ -3331,7 +3689,12 @@
       "boltot"
      ],
      "explain_en": "Linking vowel -o- as in boltok: boltot.",
-     "explain_ru": "Соединительная -o-, как в boltok: boltot."
+     "explain_ru": "Соединительная -o-, как в boltok: boltot.",
+     "ui": {
+      "ru": {
+       "q": "Винительный падеж от bolt: ___"
+      }
+     }
     },
     {
      "id": "e19",
@@ -3387,7 +3750,12 @@
      "q": "In Hungarian the direct object is marked by the ending -t.",
      "answer": true,
      "explain_en": "Every direct object noun takes -t.",
-     "explain_ru": "Каждое существительное в роли прямого объекта получает -t, независимо от рода и одушевлённости."
+     "explain_ru": "Каждое существительное в роли прямого объекта получает -t, независимо от рода и одушевлённости.",
+     "ui": {
+      "ru": {
+       "q": "В венгерском прямое дополнение обозначается окончанием -t."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3395,7 +3763,12 @@
      "q": "The accusative of autó is autót.",
      "answer": true,
      "explain_en": "After a vowel -t is added directly.",
-     "explain_ru": "После гласной -t присоединяется прямо."
+     "explain_ru": "После гласной -t присоединяется прямо.",
+     "ui": {
+      "ru": {
+       "q": "Винительный падеж от autó — autót."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3403,7 +3776,12 @@
      "q": "Hol Péter dolgozik? is a correct question.",
      "answer": false,
      "explain_en": "The question word must be immediately before the verb: Hol dolgozik Péter?",
-     "explain_ru": "Вопросительное слово должно стоять сразу перед глаголом: Hol dolgozik Péter?"
+     "explain_ru": "Вопросительное слово должно стоять сразу перед глаголом: Hol dolgozik Péter?",
+     "ui": {
+      "ru": {
+       "q": "Hol Péter dolgozik? — правильный вопрос."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3467,13 +3845,13 @@
    "id": "place-suffixes-hol-hova-honnan",
    "title_en": "Place: -ban/-ben, -ba/-be, -ból/-ből, -n/-on/-en/-ön, -ra/-re, -ról/-ről; hol? hová? honnan?",
    "title_ru": "Место: -ban/-ben, -ba/-be, -ból/-ből, -n/-on/-en/-ön, -ra/-re, -ról/-ről; hol? hová? honnan?",
-   "summary_en": "Where Russian uses prepositions (в, на, из, с), Hungarian uses suffixes. There are two series: inside (-ban, -ba, -ból) and on the surface (-n, -ra, -ról), each answering hol? (where), hová? (where to) and honnan? (where from).",
+   "summary_en": "Where English and Russian use prepositions (in, on, from), Hungarian uses suffixes. There are two series: inside (-ban, -ba, -ból) and on the surface (-n, -ra, -ról), each answering hol? (where), hová? (where to) and honnan? (where from).",
    "summary_ru": "Там, где русский ставит предлоги (в, на, из, с), венгерский использует суффиксы. Есть две серии: внутри (-ban, -ba, -ból) и на поверхности (-n, -ra, -ról), каждая отвечает на вопросы hol? (где), hová? (куда) и honnan? (откуда).",
    "rules": [
     {
      "title_en": "Three questions: hol? hová? honnan?",
      "title_ru": "Три вопроса: hol? hová? honnan?",
-     "body_en": "Hungarian always distinguishes location (hol? 'where?'), direction towards (hová? or hova? 'where to?') and direction from (honnan? 'where from?'). Each has its own suffixes. Russian expresses the same with prepositions plus cases (в доме, в дом, из дома); Hungarian puts everything into one suffix.",
+     "body_en": "Hungarian always distinguishes location (hol? 'where?'), direction towards (hová? or hova? 'where to?') and direction from (honnan? 'where from?'). Each has its own suffixes. Russian expresses the same with prepositions plus cases ('in the house', 'into the house', 'out of the house'); Hungarian puts everything into one suffix.",
      "body_ru": "Венгерский всегда различает место (hol? «где?»), направление куда (hová? или hova? «куда?») и направление откуда (honnan? «откуда?»). У каждого свои суффиксы. Русский выражает то же предлогами с падежами (в доме, в дом, из дома); венгерский упаковывает всё в один суффикс без предлога.",
      "examples": [
       {
@@ -3616,7 +3994,7 @@
     {
      "title_en": "Place adverbs in three forms",
      "title_ru": "Наречия места в трёх формах",
-     "body_en": "Adverbs also come in triplets: itt 'here' – ide 'to here' – innen 'from here'; ott 'there' – oda 'to there' – onnan 'from there'; otthon 'at home' – haza 'home(wards)' – otthonról 'from home'. Russian has the same idea in здесь – сюда – отсюда.",
+     "body_en": "Adverbs also come in triplets: itt 'here' – ide 'to here' – innen 'from here'; ott 'there' – oda 'to there' – onnan 'from there'; otthon 'at home' – haza 'home(wards)' – otthonról 'from home'. Russian has the same idea in 'zdes – syuda – otsyuda' (here – to here – from here).",
      "body_ru": "Наречия тоже образуют тройки: itt «здесь» – ide «сюда» – innen «отсюда»; ott «там» – oda «туда» – onnan «оттуда»; otthon «дома» – haza «домой» – otthonról «из дома». В русском та же идея: здесь – сюда – отсюда, дома – домой – из дома.",
      "examples": [
       {
@@ -3665,9 +4043,9 @@
      ]
     },
     {
-     "title_en": "Russian в/на and Hungarian suffixes",
+     "title_en": "Russian 'v/na' and Hungarian suffixes",
      "title_ru": "Русские в/на и венгерские суффиксы",
-     "body_en": "Often the choice matches Russian: a boltban = в магазине, az utcán = на улице, a postán = на почте, az egyetemen = в университете (Hungarian prefers 'on' here). But not always: Magyarországon = в Венгрии, Budapesten = в Будапеште. Learn the suffix together with the noun.",
+     "body_en": "Often the choice matches Russian 'v' (in) and 'na' (on): a boltban = in the shop, az utcán = on the street, a postán = at the post office (Russian 'na'), az egyetemen = at the university (Hungarian prefers 'on' here). But not always: Magyarországon = in Hungary, Budapesten = in Budapest, although Russian uses 'v' (in) for both. Learn the suffix together with the noun.",
      "body_ru": "Часто выбор совпадает с русским: a boltban = в магазине, az utcán = на улице, a postán = на почте. Но не всегда: az egyetemen = в университете, Magyarországon = в Венгрии, Budapesten = в Будапеште (венгерский здесь говорит «на»). Запоминайте суффикс вместе с существительным.",
      "examples": [
       {
@@ -3847,7 +4225,12 @@
       "boltba"
      ],
      "explain_en": "Direction into: boltba.",
-     "explain_ru": "Направление внутрь: boltba «в магазин»."
+     "explain_ru": "Направление внутрь: boltba «в магазин».",
+     "ui": {
+      "ru": {
+       "q": "Péter a ___ megy. (bolt, куда: внутрь)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -3857,7 +4240,12 @@
       "falon"
      ],
      "explain_en": "On the wall: falon.",
-     "explain_ru": "На стене: falon."
+     "explain_ru": "На стене: falon.",
+     "ui": {
+      "ru": {
+       "q": "A kép a ___ van. (fal, где: на)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -3877,7 +4265,12 @@
       "Budapestről"
      ],
      "explain_en": "From a Hungarian town: Budapestről.",
-     "explain_ru": "Из венгерского города: Budapestről (серия «на поверхности»)."
+     "explain_ru": "Из венгерского города: Budapestről (серия «на поверхности»).",
+     "ui": {
+      "ru": {
+       "q": "Anna ___ jön. (Budapest, откуда)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -3897,7 +4290,12 @@
       "földön"
      ],
      "explain_en": "Last vowel ö → -ön: földön.",
-     "explain_ru": "Последняя гласная ö → -ön: földön «на земле»."
+     "explain_ru": "Последняя гласная ö → -ön: földön «на земле».",
+     "ui": {
+      "ru": {
+       "q": "A kutya a ___ fekszik. (föld, где: на)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -3966,7 +4364,12 @@
      "q": "Budapesten means 'in Budapest'.",
      "answer": true,
      "explain_en": "Hungarian towns use the surface suffix -n for location.",
-     "explain_ru": "Венгерские города используют суффикс -n для места, хотя по-русски «в Будапеште»."
+     "explain_ru": "Венгерские города используют суффикс -n для места, хотя по-русски «в Будапеште».",
+     "ui": {
+      "ru": {
+       "q": "Budapesten значит «в Будапеште»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3974,7 +4377,12 @@
      "q": "The suffix -ba/-be answers the question hol?",
      "answer": false,
      "explain_en": "-ba/-be answers hová? (where to); hol? takes -ban/-ben.",
-     "explain_ru": "-ba/-be отвечает на hová? (куда); на hol? отвечает -ban/-ben."
+     "explain_ru": "-ba/-be отвечает на hová? (куда); на hol? отвечает -ban/-ben.",
+     "ui": {
+      "ru": {
+       "q": "Суффикс -ba/-be отвечает на вопрос hol?"
+      }
+     }
     },
     {
      "id": "e25",
@@ -3982,7 +4390,12 @@
      "q": "Magyarországon is the correct form for 'in Hungary'.",
      "answer": true,
      "explain_en": "Magyarország takes -on, unlike most countries.",
-     "explain_ru": "Magyarország берёт -on, в отличие от большинства стран (Oroszországban)."
+     "explain_ru": "Magyarország берёт -on, в отличие от большинства стран (Oroszországban).",
+     "ui": {
+      "ru": {
+       "q": "Magyarországon — правильная форма для «в Венгрии»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4032,7 +4445,7 @@
     {
      "title_en": "Possessive suffixes instead of pronouns",
      "title_ru": "Притяжательные суффиксы вместо местоимений",
-     "body_en": "Possession is marked on the possessed noun. Back-vowel word ház: házam 'my house', házad 'your house', háza 'his/her house', házunk 'our house', házatok 'your (pl) house', házuk 'their house'. Russian uses separate words (мой дом); Hungarian uses one word.",
+     "body_en": "Possession is marked on the possessed noun. Back-vowel word ház: házam 'my house', házad 'your house', háza 'his/her house', házunk 'our house', házatok 'your (pl) house', házuk 'their house'. English and Russian use separate words ('my house'); Hungarian uses one word.",
      "body_ru": "Принадлежность отмечается на самом предмете обладания. Слово с задними гласными ház: házam «мой дом», házad «твой дом», háza «его/её дом», házunk «наш дом», házatok «ваш дом», házuk «их дом». Русский использует отдельные слова (мой дом), венгерский — одно слово с суффиксом.",
      "examples": [
       {
@@ -4139,7 +4552,7 @@
     {
      "title_en": "Possessor noun: Péter háza",
      "title_ru": "Обладатель-существительное: Péter háza",
-     "body_en": "When the possessor is a noun, it stands FIRST, unchanged, and the possessed noun takes the 3rd person suffix: Péter háza 'Peter's house', Anna könyve 'Anna's book', a tanár autója 'the teacher's car'. Russian puts the possessor second in the genitive (дом Петра); Hungarian reverses the order.",
+     "body_en": "When the possessor is a noun, it stands FIRST, unchanged, and the possessed noun takes the 3rd person suffix: Péter háza 'Peter's house', Anna könyve 'Anna's book', a tanár autója 'the teacher's car'. Russian puts the possessor second in the genitive ('the house of Peter'); Hungarian reverses the order.",
      "body_ru": "Если обладатель — существительное, он стоит ПЕРВЫМ, без изменений, а предмет обладания получает суффикс 3-го лица: Péter háza «дом Петера», Anna könyve «книга Анны», a tanár autója «машина учителя». Русский ставит обладателя вторым в родительном падеже (дом Петра); венгерский меняет порядок на обратный.",
      "examples": [
       {
@@ -4162,7 +4575,7 @@
     {
      "title_en": "'To have': X-nak van Y-a",
      "title_ru": "«Иметь»: X-nak van Y-a",
-     "body_en": "Hungarian has no verb 'to have'. Use van + a possessed noun: Van egy kutyám 'I have a dog' (literally 'there is my dog'). To name the owner, add -nak/-nek: Péternek van autója 'Peter has a car', Annának van macskája. This is very close to Russian у Петра есть машина.",
+     "body_en": "Hungarian has no verb 'to have'. Use van + a possessed noun: Van egy kutyám 'I have a dog' (literally 'there is my dog'). To name the owner, add -nak/-nek: Péternek van autója 'Peter has a car', Annának van macskája. This is very close to the Russian construction 'u Petra est mashina' ('at Peter there is a car').",
      "body_ru": "В венгерском нет глагола «иметь». Используется van + существительное с притяжательным суффиксом: Van egy kutyám «У меня есть собака» (буквально «есть моя собака»). Чтобы назвать владельца, добавляют -nak/-nek: Péternek van autója «У Петера есть машина», Annának van macskája. Это очень близко к русскому «у Петра есть машина».",
      "examples": [
       {
@@ -4185,7 +4598,7 @@
     {
      "title_en": "Negation: nincs + possessed noun",
      "title_ru": "Отрицание: nincs + существительное с суффиксом",
-     "body_en": "'I do not have' is nincs + possessed noun: Nincs autóm 'I have no car', Nincs időm 'I have no time', Péternek nincs pénze 'Peter has no money'. In the plural: Nincsenek barátaim. Russian works the same way: у меня нет машины.",
+     "body_en": "'I do not have' is nincs + possessed noun: Nincs autóm 'I have no car', Nincs időm 'I have no time', Péternek nincs pénze 'Peter has no money'. In the plural: Nincsenek barátaim. Russian works the same way ('u menya net mashiny').",
      "body_ru": "«У меня нет» — это nincs + существительное с суффиксом: Nincs autóm «У меня нет машины», Nincs időm «У меня нет времени», Péternek nincs pénze «У Петера нет денег». Во множественном числе: Nincsenek barátaim. Русский устроен так же: у меня нет машины.",
      "examples": [
       {
@@ -4265,7 +4678,12 @@
      ],
      "answer": 0,
      "explain_en": "1st person singular with linking vowel -a-: házam.",
-     "explain_ru": "1-е лицо единственного числа с соединительной -a-: házam. Одно слово вместо русского «мой дом»."
+     "explain_ru": "1-е лицо единственного числа с соединительной -a-: házam. Одно слово вместо русского «мой дом».",
+     "ui": {
+      "ru": {
+       "q": "мой дом:"
+      }
+     }
     },
     {
      "id": "e02",
@@ -4279,7 +4697,12 @@
      ],
      "answer": 0,
      "explain_en": "2nd person singular, front vowel: könyved.",
-     "explain_ru": "2-е лицо единственного числа, передняя гласная: könyved."
+     "explain_ru": "2-е лицо единственного числа, передняя гласная: könyved.",
+     "ui": {
+      "ru": {
+       "q": "твоя книга:"
+      }
+     }
     },
     {
      "id": "e03",
@@ -4293,7 +4716,12 @@
      ],
      "answer": 0,
      "explain_en": "After a vowel the 3rd person suffix is -ja: autója.",
-     "explain_ru": "После гласной суффикс 3-го лица — -ja: autója."
+     "explain_ru": "После гласной суффикс 3-го лица — -ja: autója.",
+     "ui": {
+      "ru": {
+       "q": "его/её машина:"
+      }
+     }
     },
     {
      "id": "e04",
@@ -4320,7 +4748,12 @@
      ],
      "answer": 0,
      "explain_en": "A possessed noun takes the definite article: a táskám.",
-     "explain_ru": "Существительное с притяжательным суффиксом идёт с определённым артиклем: a táskám."
+     "explain_ru": "Существительное с притяжательным суффиксом идёт с определённым артиклем: a táskám.",
+     "ui": {
+      "ru": {
+       "q": "Ez ___ táskám. (Это моя сумка.)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -4334,7 +4767,12 @@
      ],
      "answer": 0,
      "explain_en": "The possessed noun takes the 3rd person suffix -a: Péter háza.",
-     "explain_ru": "Предмет обладания получает суффикс 3-го лица -a: Péter háza. Порядок слов обратный русскому «дом Петера»."
+     "explain_ru": "Предмет обладания получает суффикс 3-го лица -a: Péter háza. Порядок слов обратный русскому «дом Петера».",
+     "ui": {
+      "ru": {
+       "q": "Péter ___ (дом Петера)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -4348,7 +4786,12 @@
      ],
      "answer": 0,
      "explain_en": "The owner takes -nak/-nek: Péternek.",
-     "explain_ru": "Владелец получает -nak/-nek: Péternek, как русское «у Петера»."
+     "explain_ru": "Владелец получает -nak/-nek: Péternek, как русское «у Петера».",
+     "ui": {
+      "ru": {
+       "q": "___ van autója. (У Петера есть машина.)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -4361,7 +4804,12 @@
      ],
      "answer": 0,
      "explain_en": "Possession uses the 3rd person van, because the dog is the subject.",
-     "explain_ru": "Конструкция обладания использует van в 3-м лице: подлежащее — собака, а не «я»."
+     "explain_ru": "Конструкция обладания использует van в 3-м лице: подлежащее — собака, а не «я».",
+     "ui": {
+      "ru": {
+       "q": "Nekem ___ kutyám. (У меня есть собака.)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -4375,7 +4823,12 @@
      ],
      "answer": 0,
      "explain_en": "3rd person plural: házuk.",
-     "explain_ru": "3-е лицо множественного числа: házuk."
+     "explain_ru": "3-е лицо множественного числа: házuk.",
+     "ui": {
+      "ru": {
+       "q": "их дом:"
+      }
+     }
     },
     {
      "id": "e10",
@@ -4389,7 +4842,12 @@
      ],
      "answer": 0,
      "explain_en": "Plural possession uses -i-: könyveim.",
-     "explain_ru": "Множественное число предмета обладания образуется через -i-: könyveim."
+     "explain_ru": "Множественное число предмета обладания образуется через -i-: könyveim.",
+     "ui": {
+      "ru": {
+       "q": "мои книги:"
+      }
+     }
     },
     {
      "id": "e11",
@@ -4399,7 +4857,12 @@
       "házatok"
      ],
      "explain_en": "2nd person plural: házatok.",
-     "explain_ru": "2-е лицо множественного числа: házatok «ваш дом»."
+     "explain_ru": "2-е лицо множественного числа: házatok «ваш дом».",
+     "ui": {
+      "ru": {
+       "q": "ваш дом (на «вы», мн. ч.): ___"
+      }
+     }
     },
     {
      "id": "e12",
@@ -4409,7 +4872,12 @@
       "anyja"
      ],
      "explain_en": "anya is irregular in the 3rd person: anyja.",
-     "explain_ru": "anya в 3-м лице неправильное: anyja «его/её мать»."
+     "explain_ru": "anya в 3-м лице неправильное: anyja «его/её мать».",
+     "ui": {
+      "ru": {
+       "q": "его/её мама: ___ (anya)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -4419,7 +4887,12 @@
       "nevem"
      ],
      "explain_en": "The long é shortens: nevem.",
-     "explain_ru": "Долгое é сокращается: nevem «моё имя»."
+     "explain_ru": "Долгое é сокращается: nevem «моё имя».",
+     "ui": {
+      "ru": {
+       "q": "моё имя: ___ (név)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -4429,7 +4902,12 @@
       "van"
      ],
      "explain_en": "'Has' is expressed with van.",
-     "explain_ru": "«Есть / имеет» выражается через van: Annának van macskája."
+     "explain_ru": "«Есть / имеет» выражается через van: Annának van macskája.",
+     "ui": {
+      "ru": {
+       "q": "Annának ___ macskája. (У Анны есть кошка.)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -4439,7 +4917,12 @@
       "Nincs"
      ],
      "explain_en": "Negative possession: nincs.",
-     "explain_ru": "Отрицание обладания: nincs, как русское «нет»."
+     "explain_ru": "Отрицание обладания: nincs, как русское «нет».",
+     "ui": {
+      "ru": {
+       "q": "___ autóm. (У меня нет машины.)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -4449,7 +4932,12 @@
       "nek"
      ],
      "explain_en": "Péter has a front vowel, so the dative is -nek: Péternek.",
-     "explain_ru": "В Péter передняя гласная, поэтому дательный суффикс -nek: Péternek."
+     "explain_ru": "В Péter передняя гласная, поэтому дательный суффикс -nek: Péternek.",
+     "ui": {
+      "ru": {
+       "q": "Péter___ nincs ideje. (добавьте суффикс дательного падежа)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -4459,7 +4947,12 @@
       "könyve"
      ],
      "explain_en": "Possessor first, possessed noun with -e: Anna könyve.",
-     "explain_ru": "Обладатель впереди, предмет с -e: Anna könyve «книга Анны»."
+     "explain_ru": "Обладатель впереди, предмет с -e: Anna könyve «книга Анны».",
+     "ui": {
+      "ru": {
+       "q": "Anna ___ szép. (книга Анны: könyv)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -4469,7 +4962,12 @@
       "Neked"
      ],
      "explain_en": "Dative pronoun 2nd person: neked.",
-     "explain_ru": "Дательное местоимение 2-го лица: neked «у тебя»."
+     "explain_ru": "Дательное местоимение 2-го лица: neked «у тебя».",
+     "ui": {
+      "ru": {
+       "q": "___ van tollad? (А у ТЕБЯ есть ручка?)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -4527,7 +5025,12 @@
      "q": "Házam means 'my house'.",
      "answer": true,
      "explain_en": "-am is the 1st person singular possessive suffix.",
-     "explain_ru": "-am — притяжательный суффикс 1-го лица единственного числа."
+     "explain_ru": "-am — притяжательный суффикс 1-го лица единственного числа.",
+     "ui": {
+      "ru": {
+       "q": "Házam значит «мой дом»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4535,15 +5038,25 @@
      "q": "Péter háza means 'Peter's house'.",
      "answer": true,
      "explain_en": "Possessor first, then the noun with -a.",
-     "explain_ru": "Сначала обладатель, потом предмет с суффиксом -a — порядок обратный русскому."
+     "explain_ru": "Сначала обладатель, потом предмет с суффиксом -a — порядок обратный русскому.",
+     "ui": {
+      "ru": {
+       "q": "Péter háza значит «дом Петера»."
+      }
+     }
     },
     {
      "id": "e25",
      "type": "tf",
      "q": "Hungarian has a verb meaning 'to have', used like English 'have'.",
      "answer": false,
-     "explain_en": "Possession is expressed with van + a possessed noun, like Russian у меня есть.",
-     "explain_ru": "Обладание выражается через van + существительное с суффиксом, как русское «у меня есть»."
+     "explain_en": "Possession is expressed with van + a possessed noun, like the Russian 'u menya est' ('at me there is').",
+     "explain_ru": "Обладание выражается через van + существительное с суффиксом, как русское «у меня есть».",
+     "ui": {
+      "ru": {
+       "q": "В венгерском есть глагол «иметь», который употребляется как английское have."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4617,7 +5130,7 @@
     {
      "title_en": "Adjective before a noun: no agreement",
      "title_ru": "Прилагательное перед существительным не согласуется",
-     "body_en": "An adjective that stands before a noun never changes its form: nagy ház 'big house', nagy házak 'big houses', nagy házat 'big house (object)', a nagy házban 'in the big house'. Only the noun takes endings. Russian agrees the adjective in gender, number and case (большой дом, большие дома, большого дома); Hungarian does not.",
+     "body_en": "An adjective that stands before a noun never changes its form: nagy ház 'big house', nagy házak 'big houses', nagy házat 'big house (object)', a nagy házban 'in the big house'. Only the noun takes endings. Russian adjectives agree with the noun in gender, number and case; Hungarian ones do not.",
      "body_ru": "Прилагательное перед существительным никогда не меняет форму: nagy ház «большой дом», nagy házak «большие дома», nagy házat «большой дом (объект)», a nagy házban «в большом доме». Окончания получает только существительное. Русский согласует прилагательное в роде, числе и падеже (большой дом, большие дома, большого дома); венгерский — нет.",
      "examples": [
       {
@@ -4834,7 +5347,7 @@
     {
      "title_en": "Milyen? and age",
      "title_ru": "Milyen? и возраст",
-     "body_en": "Milyen? 'what kind of? what is it like?' asks for an adjective: Milyen a ház? – Nagy és szép. Milyen színű? 'what colour?' – Piros. Age is expressed with éves: Hány éves vagy? – Huszonöt éves vagyok 'I am 25 years old'; the verb vagyok is kept, unlike in Russian (мне 25 лет).",
+     "body_en": "Milyen? 'what kind of? what is it like?' asks for an adjective: Milyen a ház? – Nagy és szép. Milyen színű? 'what colour?' – Piros. Age is expressed with éves: Hány éves vagy? – Huszonöt éves vagyok 'I am 25 years old'; the verb vagyok is kept, unlike in Russian, which says 'to me 25 years'.",
      "body_ru": "Milyen? «какой?» спрашивает о признаке: Milyen a ház? – Nagy és szép. Milyen színű? «какого цвета?» – Piros. Возраст выражается словом éves: Hány éves vagy? – Huszonöt éves vagyok «Мне 25 лет»; глагол vagyok сохраняется, в отличие от русского «мне 25 лет» без глагола.",
      "examples": [
       {
@@ -4979,7 +5492,12 @@
      ],
      "answer": 0,
      "explain_en": "Singular noun and singular verb after a numeral.",
-     "explain_ru": "После числительного и существительное, и глагол в единственном числе."
+     "explain_ru": "После числительного и существительное, и глагол в единственном числе.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -4993,7 +5511,12 @@
      ],
      "answer": 0,
      "explain_en": "szép has an irregular comparative: szebb.",
-     "explain_ru": "У szép неправильная сравнительная степень: szebb «красивее»."
+     "explain_ru": "У szép неправильная сравнительная степень: szebb «красивее».",
+     "ui": {
+      "ru": {
+       "q": "Сравнительная степень от szép:"
+      }
+     }
     },
     {
      "id": "e11",
@@ -5013,7 +5536,12 @@
       "huszonegy"
      ],
      "explain_en": "huszon- + egy: huszonegy.",
-     "explain_ru": "huszon- + egy: huszonegy, одним словом."
+     "explain_ru": "huszon- + egy: huszonegy, одним словом.",
+     "ui": {
+      "ru": {
+       "q": "Двадцать один: ___"
+      }
+     }
     },
     {
      "id": "e13",
@@ -5053,7 +5581,12 @@
       "legfiatalabb"
      ],
      "explain_en": "leg- + fiatalabb: legfiatalabb.",
-     "explain_ru": "leg- + fiatalabb: legfiatalabb «самая младшая»."
+     "explain_ru": "leg- + fiatalabb: legfiatalabb «самая младшая».",
+     "ui": {
+      "ru": {
+       "q": "Anna a ___ a családban. (fiatal, превосходная степень)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -5133,7 +5666,12 @@
      "q": "An adjective before a noun agrees in number, so nagyok házak is correct.",
      "answer": false,
      "explain_en": "Attributive adjectives never change: nagy házak.",
-     "explain_ru": "Прилагательное перед существительным не меняется: nagy házak. Согласование, как в русском, здесь ошибка."
+     "explain_ru": "Прилагательное перед существительным не меняется: nagy házak. Согласование, как в русском, здесь ошибка.",
+     "ui": {
+      "ru": {
+       "q": "Прилагательное перед существительным согласуется в числе, поэтому nagyok házak — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5141,15 +5679,25 @@
      "q": "After a numeral the noun stays singular: öt alma.",
      "answer": true,
      "explain_en": "Numerals and quantity words take a singular noun.",
-     "explain_ru": "После числительных и слов количества существительное в единственном числе — в отличие от русского «пять яблок»."
+     "explain_ru": "После числительных и слов количества существительное в единственном числе — в отличие от русского «пять яблок».",
+     "ui": {
+      "ru": {
+       "q": "После числительного существительное остаётся в единственном числе: öt alma."
+      }
+     }
     },
     {
      "id": "e25",
      "type": "tf",
      "q": "Jobb is the comparative of jó.",
      "answer": true,
-     "explain_en": "jó → jobb is irregular, like Russian хороший → лучше.",
-     "explain_ru": "jó → jobb — неправильная форма, как русское хороший → лучше."
+     "explain_en": "jó → jobb is irregular, like English good → better.",
+     "explain_ru": "jó → jobb — неправильная форма, как русское хороший → лучше.",
+     "ui": {
+      "ru": {
+       "q": "Jobb — сравнительная степень от jó."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5215,7 +5763,7 @@
     {
      "title_en": "Yes/no questions",
      "title_ru": "Общие вопросы",
-     "body_en": "A yes/no question has the same word order as the statement; only the intonation changes (rising, then falling on the last syllable): Beszélsz magyarul? 'Do you speak Hungarian?'. Answer with Igen / Nem, or by repeating the verb: Beszélsz magyarul? – Beszélek. Russian works the same way (Говоришь? – Говорю).",
+     "body_en": "A yes/no question has the same word order as the statement; only the intonation changes (rising, then falling on the last syllable): Beszélsz magyarul? 'Do you speak Hungarian?'. Answer with Igen / Nem, or by repeating the verb: Beszélsz magyarul? – Beszélek. Russian works the same way (you can answer just 'I speak').",
      "body_ru": "Общий вопрос имеет тот же порядок слов, что и утверждение; меняется только интонация (подъём, затем падение на последнем слоге): Beszélsz magyarul? «Ты говоришь по-венгерски?». Отвечают Igen / Nem или повторяют глагол: Beszélsz magyarul? – Beszélek. В русском так же (Говоришь? – Говорю).",
      "examples": [
       {
@@ -5289,7 +5837,7 @@
     {
      "title_en": "Double negation: senki, semmi, sehol, soha",
      "title_ru": "Двойное отрицание: senki, semmi, sehol, soha",
-     "body_en": "Negative words need nem (or nincs) as well: Senki nem tudja 'Nobody knows', Nem látok semmit 'I see nothing', Sehol nincs 'It is nowhere', Soha nem késik 'He is never late'. This is exactly like Russian никто не знает. sem can replace nem: Senki sem tudja.",
+     "body_en": "Negative words need nem (or nincs) as well: Senki nem tudja 'Nobody knows', Nem látok semmit 'I see nothing', Sehol nincs 'It is nowhere', Soha nem késik 'He is never late'. This is exactly like the Russian double negative ('nobody not knows'). sem can replace nem: Senki sem tudja.",
      "body_ru": "Отрицательные слова требуют ещё и nem (или nincs): Senki nem tudja «Никто не знает», Nem látok semmit «Я ничего не вижу», Sehol nincs «Нигде нет», Soha nem késik «Он никогда не опаздывает». Это точно как в русском «никто не знает». Вместо nem может стоять sem: Senki sem tudja.",
      "examples": [
       {
@@ -5358,7 +5906,7 @@
     {
      "title_en": "Polite address: ön / önök",
      "title_ru": "Вежливое обращение: ön / önök",
-     "body_en": "te/ti is informal. The polite 'you' is ön (plural önök), or the slightly less formal maga. The verb is in the 3RD person: Ön magyar? 'Are you Hungarian?', Hogy van? 'How are you?', Hol laknak önök? Russian вы takes the 2nd person plural; Hungarian ön takes the 3rd person, as if speaking about someone else.",
+     "body_en": "te/ti is informal. The polite 'you' is ön (plural önök), or the slightly less formal maga. The verb is in the 3RD person: Ön magyar? 'Are you Hungarian?', Hogy van? 'How are you?', Hol laknak önök? Russian polite 'vy' takes the 2nd person plural; Hungarian ön takes the 3rd person, as if speaking about someone else.",
      "body_ru": "te/ti — обращение на «ты». Вежливое «вы» — ön (множественное önök) или чуть менее официальное maga. Глагол стоит в 3-м ЛИЦЕ: Ön magyar? «Вы венгр?», Hogy van? «Как вы поживаете?», Hol laknak önök? «Где вы живёте?». Русское «вы» требует 2-го лица множественного числа; венгерское ön — 3-го лица, как будто говорят о ком-то третьем.",
      "examples": [
       {
@@ -5527,7 +6075,12 @@
      ],
      "answer": 0,
      "explain_en": "ön takes the 3rd person singular: lakik.",
-     "explain_ru": "При ön глагол в 3-м лице единственного числа: lakik — не во 2-м лице, как русское «вы живёте»."
+     "explain_ru": "При ön глагол в 3-м лице единственного числа: lakik — не во 2-м лице, как русское «вы живёте».",
+     "ui": {
+      "ru": {
+       "q": "Ön hol ___? (lakik, вежливо)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -5541,7 +6094,12 @@
      ],
      "answer": 0,
      "explain_en": "Jó napot kívánok! is the formal 'good day'.",
-     "explain_ru": "Jó napot kívánok! — официальное «добрый день»; Szia, Sziasztok, Hali — на «ты»."
+     "explain_ru": "Jó napot kívánok! — официальное «добрый день»; Szia, Sziasztok, Hali — на «ты».",
+     "ui": {
+      "ru": {
+       "q": "Какое приветствие официальное?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -5569,7 +6127,12 @@
      ],
      "answer": 0,
      "explain_en": "The reply to thanks is Szívesen.",
-     "explain_ru": "Ответ на благодарность — Szívesen «пожалуйста, не за что»."
+     "explain_ru": "Ответ на благодарность — Szívesen «пожалуйста, не за что».",
+     "ui": {
+      "ru": {
+       "q": "Вам говорят Köszönöm! Вы отвечаете:"
+      }
+     }
     },
     {
      "id": "e11",
@@ -5629,7 +6192,12 @@
       "Ön"
      ],
      "explain_en": "Polite pronoun ön with the 3rd person verb.",
-     "explain_ru": "Вежливое местоимение ön с глаголом в 3-м лице."
+     "explain_ru": "Вежливое местоимение ön с глаголом в 3-м лице.",
+     "ui": {
+      "ru": {
+       "q": "___ beszél angolul? (вежливое «вы»)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -5639,7 +6207,12 @@
       "Szívesen"
      ],
      "explain_en": "Szívesen answers thanks.",
-     "explain_ru": "Szívesen — ответ на благодарность."
+     "explain_ru": "Szívesen — ответ на благодарность.",
+     "ui": {
+      "ru": {
+       "q": "– Köszönöm szépen! – ___! (Пожалуйста / не за что)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -5704,8 +6277,13 @@
      "type": "tf",
      "q": "With ön the verb is in the 3rd person singular.",
      "answer": true,
-     "explain_en": "Ön magyar? Hogy van? – 3rd person, unlike Russian вы.",
-     "explain_ru": "Ön magyar? Hogy van? — 3-е лицо, в отличие от русского «вы» со 2-м лицом множественного числа."
+     "explain_en": "Ön magyar? Hogy van? – 3rd person, unlike Russian polite 'vy'.",
+     "explain_ru": "Ön magyar? Hogy van? — 3-е лицо, в отличие от русского «вы» со 2-м лицом множественного числа.",
+     "ui": {
+      "ru": {
+       "q": "С ön глагол стоит в 3-м лице единственного числа."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5713,7 +6291,12 @@
      "q": "Nem is placed after the verb, as in Beszélek nem oroszul.",
      "answer": false,
      "explain_en": "nem comes before the verb: Nem beszélek oroszul.",
-     "explain_ru": "nem стоит перед глаголом: Nem beszélek oroszul, как русское «не говорю»."
+     "explain_ru": "nem стоит перед глаголом: Nem beszélek oroszul, как русское «не говорю».",
+     "ui": {
+      "ru": {
+       "q": "Nem ставится после глагола, как в Beszélek nem oroszul."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5721,7 +6304,12 @@
      "q": "Hungarian, like Russian, uses double negation: Senki nem tudja.",
      "answer": true,
      "explain_en": "Negative words require nem or nincs as well.",
-     "explain_ru": "Отрицательные слова требуют ещё и nem или nincs — как в русском «никто не знает»."
+     "explain_ru": "Отрицательные слова требуют ещё и nem или nincs — как в русском «никто не знает».",
+     "ui": {
+      "ru": {
+       "q": "В венгерском, как и в русском, двойное отрицание: Senki nem tudja."
+      }
+     }
     },
     {
      "id": "e26",

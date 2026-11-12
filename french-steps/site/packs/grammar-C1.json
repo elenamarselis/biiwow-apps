@@ -11,7 +11,7 @@
     {
      "title_en": "Forming the futur antérieur",
      "title_ru": "Образование futur antérieur",
-     "body_en": "The futur antérieur = futur simple of avoir or être + past participle: j'aurai fini, tu seras parti, elle se sera levée, nous aurons pu. The choice of auxiliary and the agreement rules are exactly those of the passé composé. Russian has no separate tense for this: it uses the perfective future (закончу, уйду).",
+     "body_en": "The futur antérieur = futur simple of avoir or être + past participle: j'aurai fini, tu seras parti, elle se sera levée, nous aurons pu. The choice of auxiliary and the agreement rules are exactly those of the passé composé. Russian has no separate tense for this: it uses the perfective future ('zakonchu', I will finish; 'uydu', I will leave).",
      "body_ru": "Futur antérieur = futur simple глагола avoir или être + причастие прошедшего времени: j'aurai fini, tu seras parti, elle se sera levée, nous aurons pu. Выбор вспомогательного глагола и правила согласования — такие же, как в passé composé. В русском отдельного времени нет: его передаёт будущее совершенного вида (закончу, уйду).",
      "examples": [
       {
@@ -34,7 +34,7 @@
     {
      "title_en": "After quand, dès que, une fois que",
      "title_ru": "После quand, dès que, une fois que",
-     "body_en": "When one future action happens before another, French marks it with the futur antérieur after quand, lorsque, dès que, aussitôt que, une fois que and après que; the main clause is in the futur simple or the imperative. English uses the present perfect here (when I have finished), and Russian a perfective future (когда закончу), but French needs a future tense in both clauses.",
+     "body_en": "When one future action happens before another, French marks it with the futur antérieur after quand, lorsque, dès que, aussitôt que, une fois que and après que; the main clause is in the futur simple or the imperative. English uses the present perfect here (when I have finished), and Russian a perfective future ('when I will finish'), but French needs a future tense in both clauses.",
      "body_ru": "Если одно будущее действие предшествует другому, после quand, lorsque, dès que, aussitôt que, une fois que и après que ставится futur antérieur, а в главном предложении — futur simple или императив. По-русски говорят «когда закончу», и французский тоже требует будущего времени в обеих частях; настоящее время здесь ошибка (в отличие от английского when I have finished).",
      "examples": [
       {
@@ -126,7 +126,7 @@
     {
      "title_en": "The journalistic conditional",
      "title_ru": "Журналистское условное наклонение",
-     "body_en": "The press uses the conditional to report information that is not confirmed and for which the writer does not take responsibility. The conditionnel présent refers to a present or future situation (le suspect serait en fuite), the conditionnel passé to a past event (l'incendie aurait fait trois victimes). Russian uses words instead: якобы, по имеющимся данным, предположительно.",
+     "body_en": "The press uses the conditional to report information that is not confirmed and for which the writer does not take responsibility. The conditionnel présent refers to a present or future situation (le suspect serait en fuite), the conditionnel passé to a past event (l'incendie aurait fait trois victimes). Russian (like English) uses words instead: 'allegedly', 'according to reports', 'reportedly'.",
      "body_ru": "Пресса использует условное наклонение, чтобы сообщить непроверенную информацию, за которую автор не отвечает. Conditionnel présent относится к настоящему или будущему (le suspect serait en fuite — подозреваемый, по данным, скрывается), conditionnel passé — к прошлому событию (l'incendie aurait fait trois victimes). В русском такую дистанцию выражают словами: якобы, по имеющимся данным, предположительно.",
      "examples": [
       {
@@ -481,7 +481,15 @@
      "q": "In 'Quand j'aurai fini, je partirai', Russian would use a perfective future ('когда закончу'), not a past tense.",
      "answer": true,
      "explain_en": "Yes: both languages see the action as future; French marks the anteriority with the futur antérieur.",
-     "explain_ru": "Да: оба языка видят действие как будущее; французский подчёркивает предшествование с помощью futur antérieur."
+     "explain_ru": "Да: оба языка видят действие как будущее; французский подчёркивает предшествование с помощью futur antérieur.",
+     "ui": {
+      "en": {
+       "q": "In 'Quand j'aurai fini, je partirai', Russian would use a perfective future ('kogda zakonchu', 'when I finish'), not a past tense."
+      },
+      "ru": {
+       "q": "В «Quand j'aurai fini, je partirai» по-русски было бы будущее совершенного вида («когда закончу»), а не прошедшее время."
+      }
+     }
     },
     {
      "id": "e24",
@@ -489,7 +497,12 @@
      "q": "In a news report, 'Le président aurait démissionné' presents the resignation as a confirmed fact.",
      "answer": false,
      "explain_en": "No: the conditional signals unconfirmed information (≈ 'reportedly').",
-     "explain_ru": "Нет: условное наклонение сигнализирует, что информация не подтверждена (≈ «якобы»)."
+     "explain_ru": "Нет: условное наклонение сигнализирует, что информация не подтверждена (≈ «якобы»).",
+     "ui": {
+      "ru": {
+       "q": "В новостном сообщении «Le président aurait démissionné» подаёт отставку как подтверждённый факт."
+      }
+     }
     },
     {
      "id": "e25",
@@ -497,7 +510,12 @@
      "q": "In 'Cette saison, il aura marqué trente buts', the futur antérieur sums up a period that is ending.",
      "answer": true,
      "explain_en": "This is the futur antérieur of summing up, frequent in journalism.",
-     "explain_ru": "Это futur antérieur подведения итогов, частый в журналистике."
+     "explain_ru": "Это futur antérieur подведения итогов, частый в журналистике.",
+     "ui": {
+      "ru": {
+       "q": "В «Cette saison, il aura marqué trente buts» futur antérieur подводит итог заканчивающемуся периоду."
+      }
+     }
     },
     {
      "id": "e26",
@@ -545,7 +563,29 @@
        "Il aurait dû démissionner.",
        "Ему следовало уйти в отставку."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Il aurait démissionné.",
+         "He has reportedly resigned."
+        ],
+        [
+         "Il démissionnerait.",
+         "He is reportedly going to resign."
+        ],
+        [
+         "Il aura démissionné.",
+         "By then he will have resigned."
+        ],
+        [
+         "Il aurait dû démissionner.",
+         "He should have resigned."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -571,7 +611,33 @@
        "de source sûre",
        "из надёжного источника"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "d'ici lundi",
+         "by Monday"
+        ],
+        [
+         "une fois que",
+         "once, after"
+        ],
+        [
+         "selon",
+         "according to"
+        ],
+        [
+         "à en croire",
+         "if we are to believe"
+        ],
+        [
+         "de source sûre",
+         "from a reliable source"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -626,7 +692,7 @@
     {
      "title_en": "Alternatives: que… ou que, que… ou non",
      "title_ru": "Альтернатива: que… ou que, que… ou non",
-     "body_en": "Two opposite possibilities introduced by que take the subjonctif: Qu'il pleuve ou qu'il neige, je sors. The second que can be replaced by ou non / ou pas: Qu'il le veuille ou non. The meaning is 'whether… or…'. Russian uses a similar construction with или: хочет он того или нет.",
+     "body_en": "Two opposite possibilities introduced by que take the subjonctif: Qu'il pleuve ou qu'il neige, je sors. The second que can be replaced by ou non / ou pas: Qu'il le veuille ou non. The meaning is 'whether… or…'. English uses a similar construction: whether he likes it or not.",
      "body_ru": "Две противоположные возможности, вводимые que, требуют subjonctif: Qu'il pleuve ou qu'il neige, je sors. Вторую часть можно заменить на ou non / ou pas: Qu'il le veuille ou non. Смысл — «будь то… или…». По-русски похоже: «хочет он того или нет», «в дождь или в снег».",
      "examples": [
       {
@@ -718,7 +784,7 @@
     {
      "title_en": "Si / aussi / pour + adjective + que",
      "title_ru": "Si / aussi / pour + прилагательное + que",
-     "body_en": "To say 'however + adjective', French uses si, aussi or (more literary) pour + adjective + que + subjonctif: Si intelligent qu'il soit, il se trompe parfois. Aussi étrange que cela puisse paraître, c'est vrai. Russian uses каким бы… ни: каким бы умным он ни был. Do not add a second 'ne': the French has no negation here.",
+     "body_en": "To say 'however + adjective', French uses si, aussi or (more literary) pour + adjective + que + subjonctif: Si intelligent qu'il soit, il se trompe parfois. Aussi étrange que cela puisse paraître, c'est vrai. English says: however clever he may be. Do not add a second 'ne': the French has no negation here.",
      "body_ru": "Чтобы сказать «каким бы… ни», французский использует si, aussi или (книжно) pour + прилагательное + que + subjonctif: Si intelligent qu'il soit, il se trompe parfois. Aussi étrange que cela puisse paraître, c'est vrai. Обратите внимание: русское «ни» не переводится отрицанием — во французской фразе нет ne.",
      "examples": [
       {
@@ -1049,7 +1115,12 @@
      "q": "In 'Quoique fatigué, il est venu', quoique can be replaced by bien que.",
      "answer": true,
      "explain_en": "Quoique (one word) = bien que = although.",
-     "explain_ru": "Quoique (одним словом) = bien que = «хотя»."
+     "explain_ru": "Quoique (одним словом) = bien que = «хотя».",
+     "ui": {
+      "ru": {
+       "q": "В «Quoique fatigué, il est venu» quoique можно заменить на bien que."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1057,7 +1128,12 @@
      "q": "'Quel que soit' always stays masculine singular, whatever noun follows.",
      "answer": false,
      "explain_en": "Quel agrees with the noun: quelle que soit la raison, quels que soient les risques.",
-     "explain_ru": "Quel согласуется с существительным: quelle que soit la raison, quels que soient les risques."
+     "explain_ru": "Quel согласуется с существительным: quelle que soit la raison, quels que soient les risques.",
+     "ui": {
+      "ru": {
+       "q": "«Quel que soit» всегда остаётся в мужском роде единственного числа, какое бы существительное ни следовало."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1065,7 +1141,12 @@
      "q": "In 'Que le climat change, personne ne le conteste', the subjonctif is used although the fact is accepted as true.",
      "answer": true,
      "explain_en": "A fronted que-clause takes the subjonctif regardless of truth.",
-     "explain_ru": "Вынесенное вперёд придаточное с que требует subjonctif независимо от истинности факта."
+     "explain_ru": "Вынесенное вперёд придаточное с que требует subjonctif независимо от истинности факта.",
+     "ui": {
+      "ru": {
+       "q": "В «Que le climat change, personne ne le conteste» употребляется subjonctif, хотя факт признаётся истинным."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1091,7 +1172,33 @@
        "quel que soit",
        "каков бы ни был"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "quoi que",
+         "whatever"
+        ],
+        [
+         "quoique",
+         "although"
+        ],
+        [
+         "qui que",
+         "whoever"
+        ],
+        [
+         "où que",
+         "wherever"
+        ],
+        [
+         "quel que soit",
+         "whatever (it may be)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1135,7 +1242,29 @@
        "Quoi qu'il en soit",
        "как бы то ни было"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Qu'il pleuve ou qu'il vente",
+         "come rain or shine"
+        ],
+        [
+         "Qu'il le veuille ou non",
+         "whether he likes it or not"
+        ],
+        [
+         "Aussi étrange que cela paraisse",
+         "strange as it may seem"
+        ],
+        [
+         "Quoi qu'il en soit",
+         "be that as it may"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1167,7 +1296,7 @@
     {
      "title_en": "Dire que: report or order",
      "title_ru": "Dire que: сообщение или приказ",
-     "body_en": "Dire que + indicatif reports a statement: Elle dit qu'il fait froid. Dire que + subjonctif transmits an order or request: Elle dit qu'on ferme la fenêtre (she says to close the window). This is exactly the Russian contrast сказать, что vs сказать, чтобы. In everyday speech, dire de + infinitive is a common alternative: Elle m'a dit de fermer la fenêtre.",
+     "body_en": "Dire que + indicatif reports a statement: Elle dit qu'il fait froid. Dire que + subjonctif transmits an order or request: Elle dit qu'on ferme la fenêtre (she says to close the window). This is exactly the Russian contrast between 'skazat, chto' (say that) and 'skazat, chtoby' (tell someone to). In everyday speech, dire de + infinitive is a common alternative: Elle m'a dit de fermer la fenêtre.",
      "body_ru": "Dire que + индикатив передаёт сообщение: Elle dit qu'il fait froid. Dire que + subjonctif передаёт приказ или просьбу: Elle dit qu'on ferme la fenêtre. Это в точности русское противопоставление «сказать, что» и «сказать, чтобы». В разговорной речи вместо subjonctif часто используют dire de + инфинитив: Elle m'a dit de fermer la fenêtre.",
      "examples": [
       {
@@ -1213,7 +1342,7 @@
     {
      "title_en": "Comprendre que: realise or find normal",
      "title_ru": "Comprendre que: осознать или считать естественным",
-     "body_en": "Comprendre que + indicatif means 'realise, learn': J'ai compris qu'il mentait. Comprendre que + subjonctif means 'find understandable, sympathise with': Je comprends qu'il soit fâché (I can understand why he is angry). Russian makes the same distinction with понимать, что vs понимать, почему.",
+     "body_en": "Comprendre que + indicatif means 'realise, learn': J'ai compris qu'il mentait. Comprendre que + subjonctif means 'find understandable, sympathise with': Je comprends qu'il soit fâché (I can understand why he is angry). English makes a similar distinction: 'understand that' vs 'understand why'.",
      "body_ru": "Comprendre que + индикатив значит «осознать, узнать»: J'ai compris qu'il mentait — «я понял, что он лжёт». Comprendre que + subjonctif значит «находить понятным, естественным»: Je comprends qu'il soit fâché — «я понимаю, почему он сердится». По-русски разница передаётся через «понимать, что» и «понимать, почему».",
      "examples": [
       {
@@ -1259,7 +1388,7 @@
     {
      "title_en": "Supposer que: belief or hypothesis",
      "title_ru": "Supposer que: предположение-мнение или гипотеза",
-     "body_en": "Je suppose que + indicatif expresses a probable belief (I guess): Je suppose qu'il est déjà parti. The imperative supposons que, à supposer que, en supposant que and imaginons que introduce a pure hypothesis and take the subjonctif: Supposons qu'il soit déjà parti… Russian: полагаю, что vs предположим, что.",
+     "body_en": "Je suppose que + indicatif expresses a probable belief (I guess): Je suppose qu'il est déjà parti. The imperative supposons que, à supposer que, en supposant que and imaginons que introduce a pure hypothesis and take the subjonctif: Supposons qu'il soit déjà parti… English: 'I suppose that' vs 'let's suppose that'.",
      "body_ru": "Je suppose que + индикатив выражает вероятное мнение («полагаю, наверное»): Je suppose qu'il est déjà parti. Повелительное supposons que, а также à supposer que, en supposant que, imaginons que вводят чистую гипотезу и требуют subjonctif: Supposons qu'il soit déjà parti… По-русски: «полагаю, что…» и «предположим, что…».",
      "examples": [
       {
@@ -1606,15 +1735,28 @@
      "q": "'Il dit que tu viens' and 'Il dit que tu viennes' mean the same thing.",
      "answer": false,
      "explain_en": "The first reports a fact (he says you are coming), the second transmits an order (he says you should come).",
-     "explain_ru": "Первая фраза передаёт факт («говорит, что ты придёшь»), вторая — приказ («велит, чтобы ты пришёл»)."
+     "explain_ru": "Первая фраза передаёт факт («говорит, что ты придёшь»), вторая — приказ («велит, чтобы ты пришёл»).",
+     "ui": {
+      "ru": {
+       "q": "«Il dit que tu viens» и «Il dit que tu viennes» означают одно и то же."
+      }
+     }
     },
     {
      "id": "e24",
      "type": "tf",
      "q": "The contrast 'dire que + indicatif' / 'dire que + subjonctif' is close to Russian 'сказать, что' / 'сказать, чтобы'.",
      "answer": true,
-     "explain_en": "Yes: чтобы plays the role of the French subjonctif here.",
-     "explain_ru": "Да: «чтобы» здесь играет роль французского subjonctif."
+     "explain_en": "Yes: the Russian conjunction 'chtoby' plays the role of the French subjonctif here.",
+     "explain_ru": "Да: «чтобы» здесь играет роль французского subjonctif.",
+     "ui": {
+      "en": {
+       "q": "The contrast 'dire que + indicatif' / 'dire que + subjonctif' is close to English 'say that' / 'tell someone to'."
+      },
+      "ru": {
+       "q": "Противопоставление «dire que + indicatif» / «dire que + subjonctif» близко к русскому «сказать, что» / «сказать, чтобы»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1622,7 +1764,12 @@
      "q": "In 'Je suppose qu'il est malade', the speaker states a likely belief, so the indicatif is correct.",
      "answer": true,
      "explain_en": "Je suppose que (I guess) takes the indicatif; only supposons que / à supposer que take the subjonctif.",
-     "explain_ru": "Je suppose que («полагаю») требует индикатива; subjonctif нужен после supposons que / à supposer que."
+     "explain_ru": "Je suppose que («полагаю») требует индикатива; subjonctif нужен после supposons que / à supposer que.",
+     "ui": {
+      "ru": {
+       "q": "В «Je suppose qu'il est malade» говорящий высказывает вероятное предположение, поэтому indicatif правилен."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1644,7 +1791,29 @@
        "Je comprends que tu partes.",
        "Я понимаю, почему ты уезжаешь."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Il dit que tu pars.",
+         "He says you are leaving."
+        ],
+        [
+         "Il dit que tu partes.",
+         "He says you must leave."
+        ],
+        [
+         "Je comprends que tu pars.",
+         "I understand that you are leaving."
+        ],
+        [
+         "Je comprends que tu partes.",
+         "I understand why you are leaving."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1670,7 +1839,33 @@
        "supposons que + subjonctif",
        "предположим, что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "dire que + subjonctif",
+         "to order"
+        ],
+        [
+         "comprendre que + subjonctif",
+         "to find it natural"
+        ],
+        [
+         "admettre que + subjonctif",
+         "to allow, tolerate"
+        ],
+        [
+         "entendre que + subjonctif",
+         "to demand"
+        ],
+        [
+         "supposons que + subjonctif",
+         "let's suppose that"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1688,7 +1883,25 @@
        "Je n'admets pas qu'on mente.",
        "Я не терплю лжи."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "J'admets que j'ai eu tort.",
+         "I admit I was wrong."
+        ],
+        [
+         "Admettons que ce soit vrai.",
+         "Let's assume it's true."
+        ],
+        [
+         "Je n'admets pas qu'on mente.",
+         "I won't tolerate lying."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1702,7 +1915,7 @@
     {
      "title_en": "Causative faire + infinitive",
      "title_ru": "Каузатив faire + инфинитив",
-     "body_en": "Faire + infinitive means 'to make someone do something' or 'to have something done': Je fais réparer ma voiture (I have my car repaired). Faire and the infinitive stay together, and the person who performs the action comes after them: Il fait rire les enfants. Russian uses different verbs depending on the meaning: заставлять, отдавать в ремонт, велеть.",
+     "body_en": "Faire + infinitive means 'to make someone do something' or 'to have something done': Je fais réparer ma voiture (I have my car repaired). Faire and the infinitive stay together, and the person who performs the action comes after them: Il fait rire les enfants. Russian uses different verbs depending on the meaning: 'force', 'take for repair', 'order'.",
      "body_ru": "Faire + инфинитив значит «заставить кого-то что-то сделать» или «поручить сделать»: Je fais réparer ma voiture — «я отдаю машину в ремонт». Faire и инфинитив стоят рядом, а исполнитель действия — после них: Il fait rire les enfants — «он смешит детей». В русском для этого нужны разные глаголы: заставлять, велеть, отдавать в ремонт, а иногда один глагол (смешить, сажать, будить).",
      "examples": [
       {
@@ -1807,7 +2020,7 @@
     {
      "title_en": "Se faire + infinitive",
      "title_ru": "Se faire + инфинитив",
-     "body_en": "Se faire + infinitive shows that something is done to the subject by someone else. It may be intended (Je me suis fait couper les cheveux) or suffered (Il s'est fait voler son portefeuille, elle s'est fait renverser par une voiture). Russian often uses an impersonal third-person plural: у него украли кошелёк, её сбила машина.",
+     "body_en": "Se faire + infinitive shows that something is done to the subject by someone else. It may be intended (Je me suis fait couper les cheveux) or suffered (Il s'est fait voler son portefeuille, elle s'est fait renverser par une voiture). Russian often uses an impersonal third-person plural ('they stole his wallet'), where English uses the passive: his wallet was stolen, she was knocked down by a car.",
      "body_ru": "Se faire + инфинитив показывает, что с подлежащим что-то делает кто-то другой. Это может быть желаемым (Je me suis fait couper les cheveux — «я подстригся») или неприятным (Il s'est fait voler son portefeuille — «у него украли кошелёк», elle s'est fait renverser — «её сбила машина»). По-русски часто подходит неопределённо-личная форма: украли, сбили, оперировали.",
      "examples": [
       {
@@ -1853,7 +2066,7 @@
     {
      "title_en": "The infinitif passé after après",
      "title_ru": "Infinitif passé после après",
-     "body_en": "The past infinitive = avoir or être + past participle: avoir mangé, être arrivé(e), s'être levé(e). After the preposition après it is obligatory: après avoir mangé, après être arrivée (never *après manger in written French). The participle agrees as in the passé composé. Russian often translates it with a perfective gerund: поев, приехав.",
+     "body_en": "The past infinitive = avoir or être + past participle: avoir mangé, être arrivé(e), s'être levé(e). After the preposition après it is obligatory: après avoir mangé, après être arrivée (never *après manger in written French). The participle agrees as in the passé composé. Russian often translates it with a perfective gerund ('poyev', having eaten; 'priyekhav', having arrived).",
      "body_ru": "Прошедший инфинитив = avoir или être + причастие: avoir mangé, être arrivé(e), s'être levé(e). После предлога après он обязателен: après avoir mangé, après être arrivée (а не *après manger в письменной речи). Причастие согласуется, как в passé composé. По-русски его часто передаёт деепричастие совершенного вида: поев, приехав.",
      "examples": [
       {
@@ -2181,23 +2394,41 @@
      "q": "In 'Les robes qu'elle a fait faire', fait must agree and be written 'faites'.",
      "answer": false,
      "explain_en": "Fait + infinitive is always invariable: les robes qu'elle a fait faire.",
-     "explain_ru": "Fait + инфинитив всегда неизменяемо: les robes qu'elle a fait faire."
+     "explain_ru": "Fait + инфинитив всегда неизменяемо: les robes qu'elle a fait faire.",
+     "ui": {
+      "ru": {
+       "q": "В «Les robes qu'elle a fait faire» fait должно согласоваться и писаться «faites»."
+      }
+     }
     },
     {
      "id": "e24",
      "type": "tf",
      "q": "'Il s'est fait voler sa voiture' means that he stole a car.",
      "answer": false,
-     "explain_en": "It means his car was stolen (у него угнали машину).",
-     "explain_ru": "Это значит, что у него угнали машину."
+     "explain_en": "It means his car was stolen.",
+     "explain_ru": "Это значит, что у него угнали машину.",
+     "ui": {
+      "ru": {
+       "q": "«Il s'est fait voler sa voiture» значит, что он украл машину."
+      }
+     }
     },
     {
      "id": "e25",
      "type": "tf",
      "q": "After après, French uses the past infinitive (après avoir mangé), whereas Russian often uses a perfective gerund (поев).",
      "answer": true,
-     "explain_en": "Yes: après avoir mangé ≈ поев.",
-     "explain_ru": "Да: après avoir mangé ≈ «поев»."
+     "explain_en": "Yes: après avoir mangé ≈ Russian 'poyev' (having eaten).",
+     "explain_ru": "Да: après avoir mangé ≈ «поев».",
+     "ui": {
+      "en": {
+       "q": "After après, French uses the past infinitive (après avoir mangé), whereas Russian often uses a perfective gerund ('poyev', 'having eaten')."
+      },
+      "ru": {
+       "q": "После après во французском употребляется прошедший инфинитив (après avoir mangé), а в русском часто — деепричастие совершенного вида (поев)."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2223,7 +2454,33 @@
        "faire savoir",
        "сообщить"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "faire réparer",
+         "to have repaired"
+        ],
+        [
+         "faire attendre",
+         "to keep waiting"
+        ],
+        [
+         "laisser tomber",
+         "to drop, give up"
+        ],
+        [
+         "se faire couper les cheveux",
+         "to have one's hair cut"
+        ],
+        [
+         "faire savoir",
+         "to let know, inform"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2245,7 +2502,29 @@
        "Il se laisse aider.",
        "Он позволяет себе помочь."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Je le fais entrer.",
+         "I show him in."
+        ],
+        [
+         "Je le laisse entrer.",
+         "I let him in."
+        ],
+        [
+         "Il se fait aider.",
+         "He gets someone to help him."
+        ],
+        [
+         "Il se laisse aider.",
+         "He lets himself be helped."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2267,7 +2546,29 @@
        "avant de partir",
        "перед уходом"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "après avoir mangé",
+         "having eaten"
+        ],
+        [
+         "sans avoir lu",
+         "without having read"
+        ],
+        [
+         "pour avoir menti",
+         "for having lied"
+        ],
+        [
+         "avant de partir",
+         "before leaving"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2281,7 +2582,7 @@
     {
      "title_en": "About to: être sur le point de, être en passe de",
      "title_ru": "Вот-вот: être sur le point de, être en passe de",
-     "body_en": "Être sur le point de + infinitive = be about to: J'étais sur le point de partir quand tu as appelé. Être près de is a slightly literary synonym (do not confuse it with prêt à, 'ready to'). In the press, être en passe de means 'be well on the way to': L'entreprise est en passe de devenir leader. Russian: вот-вот, собираться, чуть было не.",
+     "body_en": "Être sur le point de + infinitive = be about to: J'étais sur le point de partir quand tu as appelé. Être près de is a slightly literary synonym (do not confuse it with prêt à, 'ready to'). In the press, être en passe de means 'be well on the way to': L'entreprise est en passe de devenir leader. English: be about to, be on the point of, be on the verge of.",
      "body_ru": "Être sur le point de + инфинитив = «вот-вот, собираться»: J'étais sur le point de partir quand tu as appelé — «я уже собирался уходить, когда ты позвонил». Être près de — немного книжный синоним (не путайте с prêt à — «готов к»). В прессе être en passe de значит «быть на пути к»: L'entreprise est en passe de devenir leader.",
      "examples": [
       {
@@ -2304,7 +2605,7 @@
     {
      "title_en": "Starting: se mettre à",
      "title_ru": "Начало: se mettre à",
-     "body_en": "Se mettre à + infinitive marks the sudden or decided start of an action: Il s'est mis à pleuvoir. Elle s'est mise à rire. It is more expressive than commencer à. Russian often uses a prefix instead: заплакать, засмеяться, побежать. Related fixed phrases: éclater de rire, fondre en larmes.",
+     "body_en": "Se mettre à + infinitive marks the sudden or decided start of an action: Il s'est mis à pleuvoir. Elle s'est mise à rire. It is more expressive than commencer à. Russian often uses a verbal prefix instead ('start crying', 'start laughing', 'break into a run' are single verbs). Related fixed phrases: éclater de rire, fondre en larmes.",
      "body_ru": "Se mettre à + инфинитив обозначает внезапное или решительное начало действия: Il s'est mis à pleuvoir — «пошёл дождь». Elle s'est mise à rire — «она засмеялась». Это выразительнее, чем commencer à. По-русски начало часто передаётся приставкой: заплакать, засмеяться, побежать. Близкие выражения: éclater de rire (расхохотаться), fondre en larmes (расплакаться).",
      "examples": [
       {
@@ -2327,7 +2628,7 @@
     {
      "title_en": "Ending up: finir par vs finir de",
      "title_ru": "Итог: finir par и finir de",
-     "body_en": "Finir par + infinitive = end up doing, after a long time or many attempts: Il a fini par accepter (в конце концов согласился). Finir de + infinitive = finish doing: J'ai fini de manger. Similar: en venir à (come to, reach the point of), ne pas tarder à (not be long in).",
+     "body_en": "Finir par + infinitive = end up doing, after a long time or many attempts: Il a fini par accepter (he eventually agreed). Finir de + infinitive = finish doing: J'ai fini de manger. Similar: en venir à (come to, reach the point of), ne pas tarder à (not be long in).",
      "body_ru": "Finir par + инфинитив = «в конце концов сделать», после долгого времени или многих попыток: Il a fini par accepter — «в конце концов он согласился». Finir de + инфинитив = «закончить делать»: J'ai fini de manger — «я поел, закончил есть». Близкие обороты: en venir à («дойти до того, чтобы»), ne pas tarder à («не заставить себя ждать»).",
      "examples": [
       {
@@ -2350,7 +2651,7 @@
     {
      "title_en": "Ne faire que + infinitive",
      "title_ru": "Ne faire que + инфинитив",
-     "body_en": "Ne faire que + infinitive means 'do nothing but, keep doing': Il ne fait que se plaindre (только и делает, что жалуется). It can also mean 'only, merely': Je ne fais que passer (I'm just passing by). Je ne fais que répéter ce qu'il a dit (I'm only repeating). Do not confuse it with ne… que on another verb: Il ne mange que des fruits.",
+     "body_en": "Ne faire que + infinitive means 'do nothing but, keep doing': Il ne fait que se plaindre (he does nothing but complain). It can also mean 'only, merely': Je ne fais que passer (I'm just passing by). Je ne fais que répéter ce qu'il a dit (I'm only repeating). Do not confuse it with ne… que on another verb: Il ne mange que des fruits.",
      "body_ru": "Ne faire que + инфинитив значит «только и делать, что…»: Il ne fait que se plaindre — «он только и делает, что жалуется». Может значить и «лишь, всего лишь»: Je ne fais que passer — «я только на минутку». Je ne fais que répéter ce qu'il a dit — «я лишь повторяю его слова». Не путайте с ne… que при другом глаголе: Il ne mange que des fruits.",
      "examples": [
       {
@@ -2373,7 +2674,7 @@
     {
      "title_en": "Avoir beau: futile effort",
      "title_ru": "Avoir beau: напрасные усилия",
-     "body_en": "Avoir beau + infinitive means 'however much…, it's no use…': J'ai beau chercher, je ne trouve rien. The tense is shown on avoir (j'avais beau, il aura beau), and the second clause states the disappointing result, without a conjunction. Russian: сколько ни…, как ни…: сколько ни ищу, ничего не нахожу.",
+     "body_en": "Avoir beau + infinitive means 'however much…, it's no use…': J'ai beau chercher, je ne trouve rien. The tense is shown on avoir (j'avais beau, il aura beau), and the second clause states the disappointing result, without a conjunction. English: however much I look, I can't find anything.",
      "body_ru": "Avoir beau + инфинитив значит «сколько ни…, как ни…, напрасно…»: J'ai beau chercher, je ne trouve rien — «сколько ни ищу, ничего не нахожу». Время выражается глаголом avoir (j'avais beau, il aura beau), а вторая часть без союза сообщает разочаровывающий результат. Слово beau здесь не имеет отношения к красоте.",
      "examples": [
       {
@@ -2396,7 +2697,7 @@
     {
      "title_en": "Near misses: faillir + infinitive",
      "title_ru": "«Чуть не»: faillir + инфинитив",
-     "body_en": "Faillir + infinitive, almost always in the passé composé, means that something almost happened but did not: J'ai failli tomber. Unlike Russian чуть не упал, French has no negation here: *J'ai failli ne pas tomber means the opposite. Manquer de + infinitive is a synonym: Il a manqué de se noyer.",
+     "body_en": "Faillir + infinitive, almost always in the passé composé, means that something almost happened but did not: J'ai failli tomber. Unlike Russian 'chut ne upal' (literally 'almost not fell'), French has no negation here: *J'ai failli ne pas tomber means the opposite. Manquer de + infinitive is a synonym: Il a manqué de se noyer.",
      "body_ru": "Faillir + инфинитив, почти всегда в passé composé, означает, что что-то едва не произошло: J'ai failli tomber — «я чуть не упал». В отличие от русского «чуть не», во французском нет отрицания: J'ai failli ne pas venir означает «я чуть было не остался дома», то есть противоположное. Синоним — manquer de + инфинитив: Il a manqué de se noyer — «он чуть не утонул».",
      "examples": [
       {
@@ -2739,7 +3040,15 @@
      "q": "'J'ai failli tomber' needs a negation in French, like Russian 'чуть не упал'.",
      "answer": false,
      "explain_en": "No negation: j'ai failli tomber = I almost fell.",
-     "explain_ru": "Отрицания нет: j'ai failli tomber = «я чуть не упал»."
+     "explain_ru": "Отрицания нет: j'ai failli tomber = «я чуть не упал».",
+     "ui": {
+      "en": {
+       "q": "'J'ai failli tomber' needs a negation in French, like Russian 'chut ne upal' ('I almost fell', literally 'almost not fell')."
+      },
+      "ru": {
+       "q": "«J'ai failli tomber» требует во французском отрицания, как русское «чуть не упал»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2747,7 +3056,12 @@
      "q": "'Finir par + infinitive' means 'to end up doing', while 'finir de + infinitive' means 'to finish doing'.",
      "answer": true,
      "explain_en": "Correct: two different meanings.",
-     "explain_ru": "Верно: это два разных значения."
+     "explain_ru": "Верно: это два разных значения.",
+     "ui": {
+      "ru": {
+       "q": "«Finir par + инфинитив» значит «в конце концов сделать», а «finir de + инфинитив» — «закончить делать»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2755,7 +3069,12 @@
      "q": "With 'avoir beau', the tense is shown on avoir and the verb that follows stays in the infinitive.",
      "answer": true,
      "explain_en": "J'avais beau essayer, il aura beau dire…",
-     "explain_ru": "J'avais beau essayer, il aura beau dire… — время меняется только у avoir."
+     "explain_ru": "J'avais beau essayer, il aura beau dire… — время меняется только у avoir.",
+     "ui": {
+      "ru": {
+       "q": "С «avoir beau» время выражается глаголом avoir, а следующий глагол остаётся в инфинитиве."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2781,7 +3100,33 @@
        "faillir",
        "чуть не"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "être sur le point de",
+         "to be about to"
+        ],
+        [
+         "se mettre à",
+         "to start, set about"
+        ],
+        [
+         "finir par",
+         "to end up doing"
+        ],
+        [
+         "avoir beau",
+         "however much, no matter how"
+        ],
+        [
+         "faillir",
+         "to almost (do)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2803,7 +3148,29 @@
        "se mettre à courir",
        "побежать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "se mettre à pleurer",
+         "to start crying"
+        ],
+        [
+         "éclater de rire",
+         "to burst out laughing"
+        ],
+        [
+         "fondre en larmes",
+         "to burst into tears"
+        ],
+        [
+         "se mettre à courir",
+         "to break into a run"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2825,7 +3192,29 @@
        "venir à disparaître",
        "вдруг исчезнуть"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ne faire que se plaindre",
+         "to do nothing but complain"
+        ],
+        [
+         "ne pas manquer d'écrire",
+         "to be sure to write"
+        ],
+        [
+         "ne cesser de pleuvoir",
+         "to keep on raining"
+        ],
+        [
+         "venir à disparaître",
+         "to happen to disappear"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3331,7 +3720,12 @@
      "q": "'Il est un médecin' is the normal way to say 'he is a doctor' in French.",
      "answer": false,
      "explain_en": "Il est médecin or c'est un médecin.",
-     "explain_ru": "Правильно: il est médecin или c'est un médecin."
+     "explain_ru": "Правильно: il est médecin или c'est un médecin.",
+     "ui": {
+      "ru": {
+       "q": "«Il est un médecin» — обычный способ сказать «он врач» по-французски."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3339,7 +3733,12 @@
      "q": "After 'ne… que', the partitive article stays: 'Je ne mange que du pain'.",
      "answer": true,
      "explain_en": "Ne… que means 'only', it is not a negation.",
-     "explain_ru": "Ne… que значит «только», это не отрицание."
+     "explain_ru": "Ne… que значит «только», это не отрицание.",
+     "ui": {
+      "ru": {
+       "q": "После «ne… que» частичный артикль сохраняется: «Je ne mange que du pain»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3347,7 +3746,12 @@
      "q": "'Ce n'est pas de problème' is correct because the sentence is negative.",
      "answer": false,
      "explain_en": "After être the article stays: ce n'est pas un problème.",
-     "explain_ru": "После être артикль сохраняется: ce n'est pas un problème."
+     "explain_ru": "После être артикль сохраняется: ce n'est pas un problème.",
+     "ui": {
+      "ru": {
+       "q": "«Ce n'est pas de problème» правильно, потому что предложение отрицательное."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3373,7 +3777,33 @@
        "donner rendez-vous",
        "назначить встречу"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "avoir faim",
+         "to be hungry"
+        ],
+        [
+         "prendre froid",
+         "to catch a cold"
+        ],
+        [
+         "rendre service",
+         "to do a favour"
+        ],
+        [
+         "faire attention",
+         "to pay attention"
+        ],
+        [
+         "donner rendez-vous",
+         "to arrange to meet"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3395,7 +3825,29 @@
        "un professeur de français",
        "преподаватель французского"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "une tasse de thé",
+         "a cup of tea"
+        ],
+        [
+         "une tasse à thé",
+         "a teacup"
+        ],
+        [
+         "une robe en soie",
+         "a silk dress"
+        ],
+        [
+         "un professeur de français",
+         "a French teacher"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3417,7 +3869,29 @@
        "Il fait du vent.",
        "Дует ветер."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Il a du talent.",
+         "He has talent."
+        ],
+        [
+         "C'est du Molière.",
+         "That's typical Molière."
+        ],
+        [
+         "Elle fait du piano.",
+         "She plays the piano."
+        ],
+        [
+         "Il fait du vent.",
+         "It's windy."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3431,7 +3905,7 @@
     {
      "title_en": "Time: en vs dans",
      "title_ru": "Время: en и dans",
-     "body_en": "En + duration = the time needed to complete something: J'ai lu ce livre en deux jours (за два дня). Dans + duration = the time from now until something happens: Je pars dans deux jours (через два дня). Dans also refers to a future moment from the point of view of the speaker, so it is not used for the past: there you need deux jours plus tard.",
+     "body_en": "En + duration = the time needed to complete something: J'ai lu ce livre en deux jours (in two days). Dans + duration = the time from now until something happens: Je pars dans deux jours (in two days' time). Dans also refers to a future moment from the point of view of the speaker, so it is not used for the past: there you need deux jours plus tard.",
      "body_ru": "En + срок = время, за которое что-то сделано: J'ai lu ce livre en deux jours — «за два дня». Dans + срок = время, через которое что-то произойдёт: Je pars dans deux jours — «через два дня». Dans отсчитывает время от момента речи, поэтому для прошлого его не используют — там нужно deux jours plus tard («через два дня, два дня спустя»).",
      "examples": [
       {
@@ -3574,7 +4048,7 @@
     {
      "title_en": "Direct in one language, prepositional in the other",
      "title_ru": "Прямое дополнение в одном языке, предложное в другом",
-     "body_en": "Some French verbs take a direct object where Russian uses a preposition: attendre le bus (ждать автобус — also direct), payer le repas (платить за обед), chercher (искать), regarder, écouter. Others need à or de where Russian has a direct case: obéir à ses parents (слушаться родителей), ressembler à (быть похожим на), assister à (присутствовать на), douter de (сомневаться в), se méfier de.",
+     "body_en": "Some French verbs take a direct object where English (and often Russian) uses a preposition: attendre le bus (wait for), payer le repas (pay for), chercher (look for), regarder (look at), écouter (listen to). Others need à or de where English or Russian has a direct object: obéir à ses parents (obey one's parents), ressembler à (resemble), assister à (attend), douter de (doubt), se méfier de (distrust).",
      "body_ru": "Некоторые французские глаголы требуют прямого дополнения там, где в русском есть предлог: payer le repas — «платить за обед», attendre qn — «ждать кого-то» (без pour!). Другие, наоборот, требуют à или de: obéir à ses parents — «слушаться родителей», ressembler à — «быть похожим на», assister à — «присутствовать на», douter de — «сомневаться в», se méfier de — «остерегаться». Assister qn без предлога значит «помогать кому-то».",
      "examples": [
       {
@@ -3653,7 +4127,7 @@
       "depuis"
      ],
      "answer": 0,
-     "explain_en": "Time needed to finish → en (за три дня).",
+     "explain_en": "Time needed to finish → en (in three days).",
      "explain_ru": "Время, за которое сделано действие → en («за три дня»)."
     },
     {
@@ -3667,7 +4141,7 @@
       "il y a"
      ],
      "answer": 1,
-     "explain_en": "Time from now until the event → dans (через десять минут).",
+     "explain_en": "Time from now until the event → dans (in ten minutes' time).",
      "explain_ru": "Время до события → dans («через десять минут»)."
     },
     {
@@ -3710,7 +4184,12 @@
      ],
      "answer": 1,
      "explain_en": "The person who is missed is the subject: tu me manques.",
-     "explain_ru": "Подлежащее — тот, по кому скучают: tu me manques."
+     "explain_ru": "Подлежащее — тот, по кому скучают: tu me manques.",
+     "ui": {
+      "en": {
+       "q": "___ beaucoup. (= I miss you a lot.)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -3790,7 +4269,12 @@
       "dans"
      ],
      "explain_en": "Time until the event → dans.",
-     "explain_ru": "Время до события → dans."
+     "explain_ru": "Время до события → dans.",
+     "ui": {
+      "en": {
+       "q": "Je pars ___ une semaine. (= in a week's time)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -3800,7 +4284,12 @@
       "en"
      ],
      "explain_en": "Time needed → en.",
-     "explain_ru": "Время, потребовавшееся на действие → en."
+     "explain_ru": "Время, потребовавшееся на действие → en.",
+     "ui": {
+      "en": {
+       "q": "Ils ont construit leur maison ___ six mois. (= within six months)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -3925,7 +4414,12 @@
      "q": "'Tu me manques' means 'I miss you': in French the person who is missed is the subject.",
      "answer": true,
      "explain_en": "Yes: manquer à inverts the roles compared with English 'miss'.",
-     "explain_ru": "Да: в конструкции manquer à подлежащее — тот, по кому скучают."
+     "explain_ru": "Да: в конструкции manquer à подлежащее — тот, по кому скучают.",
+     "ui": {
+      "ru": {
+       "q": "«Tu me manques» значит «я скучаю по тебе»: во французском подлежащим является тот, по кому скучают."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3933,7 +4427,12 @@
      "q": "'Attendre' needs the preposition 'pour' before its object: 'J'attends pour le bus'.",
      "answer": false,
      "explain_en": "Attendre takes a direct object: j'attends le bus.",
-     "explain_ru": "Attendre требует прямого дополнения: j'attends le bus."
+     "explain_ru": "Attendre требует прямого дополнения: j'attends le bus.",
+     "ui": {
+      "ru": {
+       "q": "Перед дополнением «attendre» требует предлога «pour»: «J'attends pour le bus»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3941,7 +4440,12 @@
      "q": "'Grâce à' introduces a positive cause, while 'à cause de' usually introduces a negative one.",
      "answer": true,
      "explain_en": "Grâce à ton aide (positive), à cause de la pluie (negative).",
-     "explain_ru": "Grâce à ton aide — положительная причина, à cause de la pluie — отрицательная."
+     "explain_ru": "Grâce à ton aide — положительная причина, à cause de la pluie — отрицательная.",
+     "ui": {
+      "ru": {
+       "q": "«Grâce à» вводит положительную причину, а «à cause de» — обычно отрицательную."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3967,7 +4471,33 @@
        "tenir de quelqu'un",
        "пойти в кого-то"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "penser à quelqu'un",
+         "to think about someone"
+        ],
+        [
+         "penser du bien de quelque chose",
+         "to think highly of something"
+        ],
+        [
+         "jouer du piano",
+         "to play the piano"
+        ],
+        [
+         "jouer aux échecs",
+         "to play chess"
+        ],
+        [
+         "tenir de quelqu'un",
+         "to take after someone"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3993,7 +4523,33 @@
        "douter de tout",
        "сомневаться во всём"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "obéir à ses parents",
+         "to obey one's parents"
+        ],
+        [
+         "attendre le bus",
+         "to wait for the bus"
+        ],
+        [
+         "payer le repas",
+         "to pay for the meal"
+        ],
+        [
+         "ressembler à sa mère",
+         "to look like one's mother"
+        ],
+        [
+         "douter de tout",
+         "to doubt everything"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4015,7 +4571,29 @@
        "il y a deux heures",
        "два часа назад"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "en deux heures",
+         "in (within) two hours"
+        ],
+        [
+         "dans deux heures",
+         "in two hours' time"
+        ],
+        [
+         "pendant deux heures",
+         "for two hours"
+        ],
+        [
+         "il y a deux heures",
+         "two hours ago"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4029,7 +4607,7 @@
     {
      "title_en": "C'est… qui: highlighting the subject",
      "title_ru": "C'est… qui: выделение подлежащего",
-     "body_en": "To highlight the subject, put it between c'est and qui: C'est Marie qui a gagné. Where Russian simply stresses a word or adds именно (выиграла именно Мари), French needs this structure. With a pronoun, use the stressed form, and the verb after qui agrees with it: C'est moi qui ai raison, c'est nous qui sommes partis, c'est vous qui l'avez dit.",
+     "body_en": "To highlight the subject, put it between c'est and qui: C'est Marie qui a gagné. Where Russian simply stresses a word or adds 'imenno' ('precisely': it was precisely Marie who won), French needs this structure. With a pronoun, use the stressed form, and the verb after qui agrees with it: C'est moi qui ai raison, c'est nous qui sommes partis, c'est vous qui l'avez dit.",
      "body_ru": "Чтобы выделить подлежащее, его ставят между c'est и qui: C'est Marie qui a gagné. Там, где по-русски достаточно интонации или слова «именно» (выиграла именно Мари), французский требует этой конструкции. С местоимением используют ударную форму, а глагол после qui согласуется с ним: C'est moi qui ai raison, c'est nous qui sommes partis, c'est vous qui l'avez dit.",
      "examples": [
       {
@@ -4093,7 +4671,7 @@
     {
      "title_en": "Pseudo-clefts: ce qui… c'est, ce que… c'est",
      "title_ru": "Ce qui… c'est, ce que… c'est",
-     "body_en": "To announce something and then reveal it, use ce qui (subject) or ce que (object) + clause, then c'est + the key element: Ce qui m'énerve, c'est son retard. Ce que je veux, c'est partir. Before a clause, use c'est que: Ce qui est sûr, c'est qu'il viendra. Russian uses a dash or главное: Главное — здоровье.",
+     "body_en": "To announce something and then reveal it, use ce qui (subject) or ce que (object) + clause, then c'est + the key element: Ce qui m'énerve, c'est son retard. Ce que je veux, c'est partir. Before a clause, use c'est que: Ce qui est sûr, c'est qu'il viendra. Russian often uses a dash or 'the main thing is': The main thing is health.",
      "body_ru": "Чтобы сначала создать ожидание, а потом назвать главное, используют ce qui (подлежащее) или ce que (дополнение) + придаточное, затем c'est + ключевой элемент: Ce qui m'énerve, c'est son retard — «что меня раздражает, так это его опоздание». Ce que je veux, c'est partir. Перед придаточным — c'est que: Ce qui est sûr, c'est qu'il viendra. По-русски часто тире: «Главное — здоровье».",
      "examples": [
       {
@@ -4134,7 +4712,7 @@
     {
      "title_en": "Left dislocation",
      "title_ru": "Вынос влево",
-     "body_en": "In speech, the topic is often placed at the front and repeated by a pronoun in the clause: Ce film, je l'ai vu. Moi, je reste. Ton frère, je lui ai parlé. With de or à phrases, use en and y: Des problèmes, on en a tous. À Rome, j'y vais chaque année. In Russian the word can simply move to the front (Этот фильм я видел); in French the pronoun is obligatory.",
+     "body_en": "In speech, the topic is often placed at the front and repeated by a pronoun in the clause: Ce film, je l'ai vu. Moi, je reste. Ton frère, je lui ai parlé. With de or à phrases, use en and y: Des problèmes, on en a tous. À Rome, j'y vais chaque année. In Russian the word can simply move to the front ('This film I saw'); in French the pronoun is obligatory.",
      "body_ru": "В устной речи тему часто выносят в начало и повторяют местоимением внутри предложения: Ce film, je l'ai vu. Moi, je reste. Ton frère, je lui ai parlé. С группами на de и à используют en и y: Des problèmes, on en a tous. À Rome, j'y vais chaque année. По-русски слово можно просто переставить вперёд («Этот фильм я видел»), а во французском местоимение-повтор обязательно.",
      "examples": [
       {
@@ -4157,7 +4735,7 @@
     {
      "title_en": "Right dislocation",
      "title_ru": "Вынос вправо",
-     "body_en": "The noun can also come at the end, after a pronoun, as an afterthought or to express feeling: Je l'ai vu, ce film. Il est fou, ce type ! Ça me plaît, la musique. This is typical of spoken French and gives an emotional, conversational tone. Russian has a similar pattern: Да он сумасшедший, этот тип!",
+     "body_en": "The noun can also come at the end, after a pronoun, as an afterthought or to express feeling: Je l'ai vu, ce film. Il est fou, ce type ! Ça me plaît, la musique. This is typical of spoken French and gives an emotional, conversational tone. English has a similar pattern: He's crazy, that guy!",
      "body_ru": "Существительное можно поставить и в конец, после местоимения, — как уточнение или для эмоциональности: Je l'ai vu, ce film. Il est fou, ce type ! Ça me plaît, la musique. Это типично для разговорного французского и придаёт речи живой, эмоциональный тон. В русском есть похожая модель: «Да он сумасшедший, этот тип!»",
      "examples": [
       {
@@ -4503,7 +5081,12 @@
      "q": "In 'C'est moi qui ai raison', the verb agrees with moi (first person singular).",
      "answer": true,
      "explain_en": "The verb after qui agrees with the highlighted pronoun.",
-     "explain_ru": "Глагол после qui согласуется с выделенным местоимением."
+     "explain_ru": "Глагол после qui согласуется с выделенным местоимением.",
+     "ui": {
+      "ru": {
+       "q": "В «C'est moi qui ai raison» глагол согласуется с moi (1-е лицо ед. ч.)."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4511,7 +5094,12 @@
      "q": "'C'est à Paris où je l'ai rencontré' is the standard form of the cleft sentence.",
      "answer": false,
      "explain_en": "Standard: c'est à Paris que je l'ai rencontré.",
-     "explain_ru": "Норма: c'est à Paris que je l'ai rencontré."
+     "explain_ru": "Норма: c'est à Paris que je l'ai rencontré.",
+     "ui": {
+      "ru": {
+       "q": "«C'est à Paris où je l'ai rencontré» — нормативная форма выделительного оборота."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4519,7 +5107,15 @@
      "q": "In left dislocation ('Ce film, je l'ai vu'), the pronoun l' can be dropped, as in Russian 'Этот фильм я видел'.",
      "answer": false,
      "explain_en": "The resumptive pronoun is obligatory in French.",
-     "explain_ru": "Во французском местоимение-повтор обязательно."
+     "explain_ru": "Во французском местоимение-повтор обязательно.",
+     "ui": {
+      "en": {
+       "q": "In left dislocation ('Ce film, je l'ai vu'), the pronoun l' can be dropped, as in Russian 'Etot film ya videl' ('This film I saw')."
+      },
+      "ru": {
+       "q": "При вынесении влево («Ce film, je l'ai vu») местоимение l' можно опустить, как в русском «Этот фильм я видел»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4541,7 +5137,29 @@
        "Ce que Paul veut, c'est partir.",
        "Поль хочет одного — уехать."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "C'est Paul qui a appelé.",
+         "It was Paul who called."
+        ],
+        [
+         "C'est hier que Paul a appelé.",
+         "It was yesterday that Paul called."
+        ],
+        [
+         "C'est moi que Paul a appelé.",
+         "It was me Paul called."
+        ],
+        [
+         "Ce que Paul veut, c'est partir.",
+         "What Paul wants is to leave."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4585,7 +5203,29 @@
        "Seul compte le résultat.",
        "Важен только результат."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Rares sont ceux qui…",
+         "Few are those who…"
+        ],
+        [
+         "Tel est le problème.",
+         "That is the problem."
+        ],
+        [
+         "Reste à savoir…",
+         "It remains to be seen…"
+        ],
+        [
+         "Seul compte le résultat.",
+         "Only the result counts."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4599,7 +5239,7 @@
     {
      "title_en": "The three values of on",
      "title_ru": "Три значения on",
-     "body_en": "On always takes a third-person singular verb, but it can mean people in general (En France, on mange tard), an unknown someone (On a sonné), or nous in everyday speech (On part demain). When on means nous, adjectives and participles with être may agree in the plural: On est contents, on est arrivées. Russian uses impersonal plural forms: говорят, звонят.",
+     "body_en": "On always takes a third-person singular verb, but it can mean people in general (En France, on mange tard), an unknown someone (On a sonné), or nous in everyday speech (On part demain). When on means nous, adjectives and participles with être may agree in the plural: On est contents, on est arrivées. Russian uses impersonal plural forms ('they say', 'they're ringing').",
      "body_ru": "После on глагол всегда стоит в 3-м лице единственного числа, но значение бывает разным: «люди вообще» (En France, on mange tard), «кто-то неизвестный» (On a sonné — «позвонили в дверь») и «мы» в разговорной речи (On part demain). Когда on = nous, прилагательные и причастия при être могут стоять во множественном числе: On est contents, on est arrivées. В русском этому соответствуют неопределённо-личные формы: говорят, звонят.",
      "examples": [
       {
@@ -4645,7 +5285,7 @@
     {
      "title_en": "Il s'agit de",
      "title_ru": "Il s'agit de",
-     "body_en": "S'agir de exists only in the impersonal form il s'agit de (it is about, it is a matter of). Its subject is always il, never a noun: say Dans ce livre, il s'agit de la guerre or Ce livre parle de la guerre, not *Ce livre s'agit de… With an infinitive it means 'what is needed is': Il s'agit de faire vite. Russian: речь идёт о, дело в том, нужно.",
+     "body_en": "S'agir de exists only in the impersonal form il s'agit de (it is about, it is a matter of). Its subject is always il, never a noun: say Dans ce livre, il s'agit de la guerre or Ce livre parle de la guerre, not *Ce livre s'agit de… With an infinitive it means 'what is needed is': Il s'agit de faire vite. English: it's about, the point is, what's needed is.",
      "body_ru": "Глагол s'agir de существует только в безличной форме il s'agit de («речь идёт о», «дело в»). Подлежащее — всегда il, никогда не существительное: Dans ce livre, il s'agit de la guerre или Ce livre parle de la guerre, но не *Ce livre s'agit de… С инфинитивом оборот значит «нужно, главное — …»: Il s'agit de faire vite — «надо действовать быстро».",
      "examples": [
       {
@@ -4691,7 +5331,7 @@
     {
      "title_en": "Il paraît que vs il semble que",
      "title_ru": "Il paraît que и il semble que",
-     "body_en": "Il paraît que + indicatif reports hearsay (говорят, что…): Il paraît qu'il va neiger. It can be inserted as paraît-il. Il semble que expresses an impression and usually takes the subjonctif: Il semble qu'il y ait un problème. But il me semble que (with a personal pronoun) expresses an opinion and takes the indicatif: Il me semble que tu as raison.",
+     "body_en": "Il paraît que + indicatif reports hearsay (apparently, they say that…): Il paraît qu'il va neiger. It can be inserted as paraît-il. Il semble que expresses an impression and usually takes the subjonctif: Il semble qu'il y ait un problème. But il me semble que (with a personal pronoun) expresses an opinion and takes the indicatif: Il me semble que tu as raison.",
      "body_ru": "Il paraît que + индикатив передаёт слухи («говорят, что…»): Il paraît qu'il va neiger. Может вставляться в предложение как paraît-il. Il semble que выражает впечатление и обычно требует subjonctif: Il semble qu'il y ait un problème — «похоже, есть проблема». Но il me semble que (с личным местоимением) выражает мнение и требует индикатива: Il me semble que tu as raison — «мне кажется, ты прав».",
      "examples": [
       {
@@ -4714,7 +5354,7 @@
     {
      "title_en": "Il suffit, il reste, il manque",
      "title_ru": "Il suffit, il reste, il manque",
-     "body_en": "Il suffit de + infinitive or noun (Il suffit d'un mot) and il suffit que + subjonctif (Il suffit que tu signes). Il reste and il manque introduce what remains or is missing: Il reste trois places. Il manque deux euros. The verb stays singular, agreeing with il, while in Russian the noun is the subject: остаются три места, не хватает двух евро.",
+     "body_en": "Il suffit de + infinitive or noun (Il suffit d'un mot) and il suffit que + subjonctif (Il suffit que tu signes). Il reste and il manque introduce what remains or is missing: Il reste trois places. Il manque deux euros. The verb stays singular, agreeing with il, while in Russian the noun is the subject ('three seats remain', 'two euros are lacking').",
      "body_ru": "Il suffit de + инфинитив или существительное (Il suffit d'un mot — «достаточно одного слова») и il suffit que + subjonctif (Il suffit que tu signes). Il reste и il manque вводят то, что осталось или чего не хватает: Il reste trois places. Il manque deux euros. Глагол остаётся в единственном числе, согласуясь с il, а в русском подлежащим является существительное: «остаются три места».",
      "examples": [
       {
@@ -4737,7 +5377,7 @@
     {
      "title_en": "Impersonal sentences with the real subject after the verb",
      "title_ru": "Безличные предложения с реальным подлежащим после глагола",
-     "body_en": "Formal French often begins with impersonal il when the real subject is new information: Il est arrivé un accident. Il existe plusieurs solutions. Il se passe quelque chose. Il s'est produit une explosion. The verb stays singular and, with être, the participle stays masculine singular. Russian simply reverses the word order: Произошла авария.",
+     "body_en": "Formal French often begins with impersonal il when the real subject is new information: Il est arrivé un accident. Il existe plusieurs solutions. Il se passe quelque chose. Il s'est produit une explosion. The verb stays singular and, with être, the participle stays masculine singular. Russian simply reverses the word order ('Happened an accident').",
      "body_ru": "Во французском, особенно книжном, предложение часто начинается с безличного il, если реальное подлежащее — новая информация: Il est arrivé un accident. Il existe plusieurs solutions. Il se passe quelque chose. Il s'est produit une explosion. Глагол остаётся в единственном числе, а причастие при être — в мужском роде единственного числа. В русском достаточно поменять порядок слов: «Произошла авария».",
      "examples": [
       {
@@ -5087,7 +5727,12 @@
      "q": "'Ce livre s'agit de la guerre' is correct French.",
      "answer": false,
      "explain_en": "S'agir de only has il as subject: dans ce livre, il s'agit de la guerre (or ce livre parle de la guerre).",
-     "explain_ru": "У s'agir de подлежащее только il: dans ce livre, il s'agit de la guerre (или ce livre parle de la guerre)."
+     "explain_ru": "У s'agir de подлежащее только il: dans ce livre, il s'agit de la guerre (или ce livre parle de la guerre).",
+     "ui": {
+      "ru": {
+       "q": "«Ce livre s'agit de la guerre» — правильный французский."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5095,7 +5740,12 @@
      "q": "In 'Il reste trois places', the verb stays singular although trois places is plural.",
      "answer": true,
      "explain_en": "The verb agrees with impersonal il.",
-     "explain_ru": "Глагол согласуется с безличным il."
+     "explain_ru": "Глагол согласуется с безличным il.",
+     "ui": {
+      "ru": {
+       "q": "В «Il reste trois places» глагол стоит в единственном числе, хотя trois places — множественное."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5103,7 +5753,12 @@
      "q": "When on means nous, the adjective can agree in the plural: 'On est contents'.",
      "answer": true,
      "explain_en": "The verb stays singular (est), but the adjective may be plural.",
-     "explain_ru": "Глагол остаётся в ед. ч. (est), а прилагательное может стоять во мн. ч."
+     "explain_ru": "Глагол остаётся в ед. ч. (est), а прилагательное может стоять во мн. ч.",
+     "ui": {
+      "ru": {
+       "q": "Когда on значит nous, прилагательное может стоять во множественном числе: «On est contents»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5129,7 +5784,33 @@
        "il y va de",
        "на карту поставлено"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "il s'agit de",
+         "it is about, it's a matter of"
+        ],
+        [
+         "il vaut mieux",
+         "it is better (to)"
+        ],
+        [
+         "il paraît que",
+         "apparently, they say that"
+        ],
+        [
+         "il suffit de",
+         "all you need is to"
+        ],
+        [
+         "il y va de",
+         "… is at stake"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5151,7 +5832,29 @@
        "Il est temps de…",
        "Пора…"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Il en va de même pour…",
+         "The same goes for…"
+        ],
+        [
+         "Il n'empêche que…",
+         "All the same…"
+        ],
+        [
+         "Il était une fois…",
+         "Once upon a time…"
+        ],
+        [
+         "Il est temps de…",
+         "It's time to…"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5173,7 +5876,29 @@
        "Il va pleuvoir.",
        "Сейчас пойдёт дождь."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Il paraît qu'il pleut.",
+         "Apparently it's raining."
+        ],
+        [
+         "Il semble qu'il pleuve.",
+         "It seems to be raining."
+        ],
+        [
+         "Il pleut.",
+         "It's raining."
+        ],
+        [
+         "Il va pleuvoir.",
+         "It's going to rain."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5279,7 +6004,7 @@
     {
      "title_en": "Discourse particles: quoi, hein, ben, du coup",
      "title_ru": "Дискурсивные частицы: quoi, hein, ben, du coup",
-     "body_en": "Final quoi sums up or closes a statement: C'est bizarre, quoi. Hein asks for agreement (C'est bien, hein ?). Ben / bah (= eh bien) hesitates, enfin corrects, en fait clarifies, du coup (so, as a result) links ideas in speech. They correspond to Russian ну, короче, в общем, типа. Avoid them in writing.",
+     "body_en": "Final quoi sums up or closes a statement: C'est bizarre, quoi. Hein asks for agreement (C'est bien, hein ?). Ben / bah (= eh bien) hesitates, enfin corrects, en fait clarifies, du coup (so, as a result) links ideas in speech. They correspond to English well, anyway, basically, like. Avoid them in writing.",
      "body_ru": "Quoi в конце фразы подытоживает или закрывает высказывание: C'est bizarre, quoi — «странно, в общем». Hein просит согласия (C'est bien, hein ? — «Хорошо, да?»). Ben / bah (= eh bien) выражает колебание, enfin — поправку, en fait — уточнение, du coup («поэтому, в итоге») связывает мысли в устной речи. Им соответствуют русские «ну», «короче», «в общем», «типа». На письме их избегают.",
      "examples": [
       {
@@ -5302,7 +6027,7 @@
     {
      "title_en": "Genre, trop, grave: youth intensifiers",
      "title_ru": "Genre, trop, grave: молодёжные усилители",
-     "body_en": "Young speakers use genre like 'like / типа' to approximate or quote: Il était genre super énervé. Trop means 'very, really': C'est trop bien ! Grave means 'totally': Je suis grave d'accord. Super, hyper and méga intensify adjectives. These forms are informal and should never appear in academic or professional writing.",
+     "body_en": "Young speakers use genre much like English 'like' to approximate or quote: Il était genre super énervé. Trop means 'very, really': C'est trop bien ! Grave means 'totally': Je suis grave d'accord. Super, hyper and méga intensify adjectives. These forms are informal and should never appear in academic or professional writing.",
      "body_ru": "Молодёжь использует genre как русское «типа» — для приблизительности или цитаты: Il était genre super énervé — «он был типа очень злой». Trop значит «очень, ужасно»: C'est trop bien ! — «это так круто!», а не «слишком хорошо». Grave значит «полностью»: Je suis grave d'accord — «я абсолютно согласен». Super, hyper, méga усиливают прилагательные. Всё это фамильярный регистр, недопустимый в академическом и деловом тексте.",
      "examples": [
       {
@@ -5525,7 +6250,7 @@
       "exactement"
      ],
      "answer": 0,
-     "explain_en": "Colloquial genre = like, sort of (типа).",
+     "explain_en": "Colloquial genre = like, sort of.",
      "explain_ru": "Разговорное genre = «типа, как бы»."
     },
     {
@@ -5670,7 +6395,12 @@
      "q": "In everyday spoken French, ne is very often dropped: 'Je sais pas'.",
      "answer": true,
      "explain_en": "Yes; pas alone carries the negation in speech.",
-     "explain_ru": "Да, в устной речи отрицание выражает одно pas."
+     "explain_ru": "Да, в устной речи отрицание выражает одно pas.",
+     "ui": {
+      "ru": {
+       "q": "В повседневной разговорной речи ne очень часто опускается: «Je sais pas»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5678,7 +6408,12 @@
      "q": "Verlan words like 'meuf' and 'ouf' are suitable in a formal letter.",
      "answer": false,
      "explain_en": "They are informal and belong to casual speech.",
-     "explain_ru": "Это разговорная лексика, неуместная в официальном письме."
+     "explain_ru": "Это разговорная лексика, неуместная в официальном письме.",
+     "ui": {
+      "ru": {
+       "q": "Слова верлана вроде «meuf» и «ouf» уместны в официальном письме."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5686,7 +6421,15 @@
      "q": "When vous addresses one person, adjectives agree in the singular ('Vous êtes prête ?'), unlike Russian 'вы готовы'.",
      "answer": true,
      "explain_en": "French agrees with the real number and gender of the person.",
-     "explain_ru": "Во французском согласование идёт по реальному числу и роду собеседника."
+     "explain_ru": "Во французском согласование идёт по реальному числу и роду собеседника.",
+     "ui": {
+      "en": {
+       "q": "When vous addresses one person, adjectives agree in the singular ('Vous êtes prête ?'), unlike Russian, where the adjective after polite 'vy' is plural."
+      },
+      "ru": {
+       "q": "Когда vous обращено к одному человеку, прилагательные стоят в единственном числе («Vous êtes prête ?»), в отличие от русского «вы готовы»."
+      }
+     }
     },
     {
      "id": "e26",

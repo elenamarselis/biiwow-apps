@@ -217,7 +217,12 @@
      "q": "'I have seen him yesterday' is correct English.",
      "answer": false,
      "explain_en": "'Yesterday' is finished time, so we need the past simple: I saw him yesterday.",
-     "explain_ru": "'Yesterday' — законченное время, нужен Past Simple: I saw him yesterday."
+     "explain_ru": "'Yesterday' — законченное время, нужен Past Simple: I saw him yesterday.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I have seen him yesterday' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -290,7 +295,12 @@
      "q": "We use 'yet' in negatives and questions, usually at the end of the sentence.",
      "answer": true,
      "explain_en": "Yes: I haven't finished yet. Have you finished yet?",
-     "explain_ru": "Верно: I haven't finished yet. Have you finished yet?"
+     "explain_ru": "Верно: I haven't finished yet. Have you finished yet?",
+     "ui": {
+      "ru": {
+       "q": "'Yet' используется в отрицаниях и вопросах, обычно в конце предложения."
+      }
+     }
     },
     {
      "id": "e10",
@@ -351,7 +361,12 @@
      "q": "'I've lived here for five years' means I still live here.",
      "answer": true,
      "explain_en": "The present perfect with for shows the situation continues now.",
-     "explain_ru": "Present Perfect с for показывает, что ситуация продолжается сейчас."
+     "explain_ru": "Present Perfect с for показывает, что ситуация продолжается сейчас.",
+     "ui": {
+      "ru": {
+       "q": "'I've lived here for five years' означает, что я до сих пор здесь живу."
+      }
+     }
     },
     {
      "id": "e15",
@@ -424,7 +439,12 @@
      "q": "After 'How long...?' we normally use the present perfect for situations that continue now.",
      "answer": true,
      "explain_en": "How long have you lived here? — the situation continues, so present perfect.",
-     "explain_ru": "How long have you lived here? — ситуация продолжается, поэтому Present Perfect."
+     "explain_ru": "How long have you lived here? — ситуация продолжается, поэтому Present Perfect.",
+     "ui": {
+      "ru": {
+       "q": "После 'How long...?' для ситуаций, которые продолжаются сейчас, обычно используется Present Perfect."
+      }
+     }
     },
     {
      "id": "e20",
@@ -504,7 +524,12 @@
      "q": "'She's gone to Paris' means she is in Paris now.",
      "answer": true,
      "explain_en": "'Has gone to' = went and is still there. 'Has been to' = went and came back.",
-     "explain_ru": "'Has gone to' — уехала и ещё там. 'Has been to' — съездила и вернулась."
+     "explain_ru": "'Has gone to' — уехала и ещё там. 'Has been to' — съездила и вернулась.",
+     "ui": {
+      "ru": {
+       "q": "'She's gone to Paris' означает, что сейчас она в Париже."
+      }
+     }
     },
     {
      "id": "e26",
@@ -576,7 +601,7 @@
     {
      "title_en": "The 'earlier past': why English needs the past perfect",
      "title_ru": "«Более раннее прошлое»: зачем английскому Past Perfect",
-     "body_en": "When we are already talking about the past and want to go back to an earlier moment, we use the past perfect. When I arrived, the film had started: the film started first, then I arrived. Russian uses the same past tense for both events and relies on context or words like 'уже'; English marks the order with the verb form.",
+     "body_en": "When we are already talking about the past and want to go back to an earlier moment, we use the past perfect. When I arrived, the film had started: the film started first, then I arrived. Russian uses the same past tense for both events and relies on context or words like 'uzhe' (already); English marks the order with the verb form.",
      "body_ru": "Когда мы уже говорим о прошлом и хотим «отступить» ещё дальше назад, нужен Past Perfect. When I arrived, the film had started — фильм начался раньше, а потом пришёл я. В русском оба действия стоят в одном прошедшем времени, и порядок понятен из контекста или слова «уже»; в английском порядок событий показывает сама форма глагола. Полезная подсказка: если по-русски хочется вставить «уже» или «до этого», по-английски, скорее всего, нужен Past Perfect.",
      "examples": [
       {
@@ -760,7 +785,12 @@
      "q": "'When I arrived, the film started' means the film started after I arrived.",
      "answer": true,
      "explain_en": "Two past simple verbs with 'when' show one action following the other. 'Had started' would mean it started before.",
-     "explain_ru": "Два глагола в Past Simple с 'when' — действия одно за другим. 'Had started' означало бы, что фильм начался раньше."
+     "explain_ru": "Два глагола в Past Simple с 'when' — действия одно за другим. 'Had started' означало бы, что фильм начался раньше.",
+     "ui": {
+      "ru": {
+       "q": "'When I arrived, the film started' означает, что фильм начался после того, как я пришёл."
+      }
+     }
     },
     {
      "id": "e05",
@@ -832,7 +862,12 @@
      "q": "The contraction 'd in 'I'd finished' means 'had'.",
      "answer": true,
      "explain_en": "Before a past participle, 'd = had. Before a base verb (I'd like), 'd = would.",
-     "explain_ru": "Перед третьей формой 'd = had. Перед глаголом без изменений (I'd like) 'd = would."
+     "explain_ru": "Перед третьей формой 'd = had. Перед глаголом без изменений (I'd like) 'd = would.",
+     "ui": {
+      "ru": {
+       "q": "Сокращение 'd в 'I'd finished' означает 'had'."
+      }
+     }
     },
     {
      "id": "e10",
@@ -884,7 +919,12 @@
      "q": "We use the past perfect for every action in a story about the past.",
      "answer": false,
      "explain_en": "No. The past perfect is only for an action clearly earlier than another past action; most of a story uses the past simple.",
-     "explain_ru": "Нет. Past Perfect нужен только для действия, которое явно раньше другого; основная часть рассказа — в Past Simple."
+     "explain_ru": "Нет. Past Perfect нужен только для действия, которое явно раньше другого; основная часть рассказа — в Past Simple.",
+     "ui": {
+      "ru": {
+       "q": "В рассказе о прошлом Past Perfect используется для каждого действия."
+      }
+     }
     },
     {
      "id": "e14",
@@ -966,7 +1006,12 @@
      "q": "After 'by the time', the main clause usually uses the past perfect.",
      "answer": true,
      "explain_en": "By the time we arrived, everyone had left.",
-     "explain_ru": "By the time we arrived, everyone had left — главное предложение в Past Perfect."
+     "explain_ru": "By the time we arrived, everyone had left — главное предложение в Past Perfect.",
+     "ui": {
+      "ru": {
+       "q": "После 'by the time' в главном предложении обычно используется Past Perfect."
+      }
+     }
     },
     {
      "id": "e20",
@@ -1011,7 +1056,12 @@
      "q": "'I was having a shower when the phone rang' — the phone call interrupted the shower.",
      "answer": true,
      "explain_en": "The past continuous is the longer action; the past simple is the short interruption.",
-     "explain_ru": "Past Continuous — длительное действие, Past Simple — короткое прерывание."
+     "explain_ru": "Past Continuous — длительное действие, Past Simple — короткое прерывание.",
+     "ui": {
+      "ru": {
+       "q": "'I was having a shower when the phone rang' — телефонный звонок прервал душ."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1089,7 +1139,12 @@
      "q": "'He'd like a coffee' — here 'd means 'had'.",
      "answer": false,
      "explain_en": "Before a base verb (like), 'd = would: He would like a coffee.",
-     "explain_ru": "Перед глаголом без изменений (like) 'd = would: He would like a coffee."
+     "explain_ru": "Перед глаголом без изменений (like) 'd = would: He would like a coffee.",
+     "ui": {
+      "ru": {
+       "q": "'He'd like a coffee' — здесь 'd означает 'had'."
+      }
+     }
     }
    ]
   },
@@ -1306,7 +1361,12 @@
      "q": "'The train will leave at 9.15' is the normal way to talk about a timetable.",
      "answer": false,
      "explain_en": "Timetables use the present simple: The train leaves at 9.15.",
-     "explain_ru": "Для расписаний используется Present Simple: The train leaves at 9.15."
+     "explain_ru": "Для расписаний используется Present Simple: The train leaves at 9.15.",
+     "ui": {
+      "ru": {
+       "q": "'The train will leave at 9.15' — обычный способ говорить о расписании."
+      }
+     }
     },
     {
      "id": "e05",
@@ -1375,7 +1435,12 @@
      "q": "After 'as soon as' we use the present simple to talk about the future.",
      "answer": true,
      "explain_en": "We'll start as soon as everyone is here (not 'will be').",
-     "explain_ru": "We'll start as soon as everyone is here (не 'will be')."
+     "explain_ru": "We'll start as soon as everyone is here (не 'will be').",
+     "ui": {
+      "ru": {
+       "q": "После 'as soon as' для будущего используется Present Simple."
+      }
+     }
     },
     {
      "id": "e10",
@@ -1437,7 +1502,12 @@
      "q": "'I'll be working at 9 tomorrow' describes an action in progress at that time.",
      "answer": true,
      "explain_en": "The future continuous describes what will be in progress at a future moment.",
-     "explain_ru": "Future Continuous описывает действие в процессе в определённый момент будущего."
+     "explain_ru": "Future Continuous описывает действие в процессе в определённый момент будущего.",
+     "ui": {
+      "ru": {
+       "q": "'I'll be working at 9 tomorrow' описывает действие, которое будет продолжаться в этот момент."
+      }
+     }
     },
     {
      "id": "e15",
@@ -1521,7 +1591,12 @@
      "q": "The present continuous, not 'will', is the usual form for a fixed arrangement like 'I'm meeting Anna at 6'.",
      "answer": true,
      "explain_en": "Arrangements with other people use the present continuous.",
-     "explain_ru": "Договорённости с другими людьми выражаются Present Continuous."
+     "explain_ru": "Договорённости с другими людьми выражаются Present Continuous.",
+     "ui": {
+      "ru": {
+       "q": "Для твёрдой договорённости, например 'I'm meeting Anna at 6', обычно используется Present Continuous, а не 'will'."
+      }
+     }
     },
     {
      "id": "e21",
@@ -1578,7 +1653,12 @@
      "q": "'Shall we go?' is a suggestion.",
      "answer": true,
      "explain_en": "Shall we...? is used to make suggestions.",
-     "explain_ru": "Shall we...? используется для предложений («Пойдём?»)."
+     "explain_ru": "Shall we...? используется для предложений («Пойдём?»).",
+     "ui": {
+      "ru": {
+       "q": "'Shall we go?' — это предложение что-то сделать."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1842,7 +1922,12 @@
      "q": "In the first conditional, the if-clause uses 'will': 'If it will rain, we'll stay home.'",
      "answer": false,
      "explain_en": "The if-clause uses the present simple: If it rains, we'll stay home.",
-     "explain_ru": "В if-части — Present Simple: If it rains, we'll stay home."
+     "explain_ru": "В if-части — Present Simple: If it rains, we'll stay home.",
+     "ui": {
+      "ru": {
+       "q": "В первом условном предложении в части с if используется 'will': 'If it will rain, we'll stay home.'"
+      }
+     }
     },
     {
      "id": "e05",
@@ -1914,7 +1999,12 @@
      "q": "'If I had time, I'd help you' means I probably don't have time.",
      "answer": true,
      "explain_en": "The second conditional describes an unreal or unlikely situation now.",
-     "explain_ru": "Второй тип описывает нереальную или маловероятную ситуацию в настоящем."
+     "explain_ru": "Второй тип описывает нереальную или маловероятную ситуацию в настоящем.",
+     "ui": {
+      "ru": {
+       "q": "'If I had time, I'd help you' означает, что времени у меня, скорее всего, нет."
+      }
+     }
     },
     {
      "id": "e10",
@@ -1953,7 +2043,12 @@
       "knew"
      ],
      "explain_en": "Second conditional: past simple in the if-clause (she doesn't know the answer).",
-     "explain_ru": "Второй тип: Past Simple в if-части (она не знает ответа)."
+     "explain_ru": "Второй тип: Past Simple в if-части (она не знает ответа).",
+     "ui": {
+      "ru": {
+       "q": "Поставьте глагол в правильную форму: If she ___ (know) the answer, she would tell us."
+      }
+     }
     },
     {
      "id": "e13",
@@ -1975,7 +2070,12 @@
      "q": "'Unless' means 'if not'.",
      "answer": true,
      "explain_en": "Unless you study = If you don't study.",
-     "explain_ru": "Unless you study = If you don't study («если не будешь заниматься»)."
+     "explain_ru": "Unless you study = If you don't study («если не будешь заниматься»).",
+     "ui": {
+      "ru": {
+       "q": "'Unless' означает 'if not'."
+      }
+     }
     },
     {
      "id": "e15",
@@ -2056,7 +2156,12 @@
      "q": "We put a comma when the if-clause comes second: 'We'll go, if it's sunny.'",
      "answer": false,
      "explain_en": "No comma is needed when the if-clause comes second: We'll go if it's sunny.",
-     "explain_ru": "Когда if-часть стоит второй, запятая не нужна: We'll go if it's sunny."
+     "explain_ru": "Когда if-часть стоит второй, запятая не нужна: We'll go if it's sunny.",
+     "ui": {
+      "ru": {
+       "q": "Запятая ставится, когда часть с if стоит второй: 'We'll go, if it's sunny.'"
+      }
+     }
     },
     {
      "id": "e21",
@@ -2114,7 +2219,12 @@
      "q": "The past simple in 'If I had a car' refers to the past.",
      "answer": false,
      "explain_en": "In the second conditional the past simple shows an unreal present, not past time.",
-     "explain_ru": "Во втором типе Past Simple показывает нереальное настоящее, а не прошлое."
+     "explain_ru": "Во втором типе Past Simple показывает нереальное настоящее, а не прошлое.",
+     "ui": {
+      "ru": {
+       "q": "Past Simple в 'If I had a car' относится к прошлому."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2359,7 +2469,12 @@
      ],
      "answer": 0,
      "explain_en": "A general fact with the language as subject: present simple passive.",
-     "explain_ru": "Общий факт, подлежащее — язык: Present Simple Passive."
+     "explain_ru": "Общий факт, подлежащее — язык: Present Simple Passive.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильную форму: English ___ in many countries."
+      }
+     }
     },
     {
      "id": "e03",
@@ -2377,7 +2492,12 @@
      "q": "'The window was broke' is correct.",
      "answer": false,
      "explain_en": "The passive needs the past participle: The window was broken.",
-     "explain_ru": "В пассиве нужна третья форма: The window was broken."
+     "explain_ru": "В пассиве нужна третья форма: The window was broken.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'The window was broke' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -2440,7 +2560,12 @@
      "q": "We use 'by' before the person who does the action in a passive sentence.",
      "answer": true,
      "explain_en": "Hamlet was written by Shakespeare.",
-     "explain_ru": "Hamlet was written by Shakespeare — by вводит деятеля."
+     "explain_ru": "Hamlet was written by Shakespeare — by вводит деятеля.",
+     "ui": {
+      "ru": {
+       "q": "В пассивном предложении перед тем, кто выполняет действие, ставится 'by'."
+      }
+     }
     },
     {
      "id": "e10",
@@ -2499,7 +2624,12 @@
      "q": "'He was arrested by the police' — here 'by the police' is necessary information.",
      "answer": false,
      "explain_en": "It is obvious that the police arrest people, so the agent is usually left out.",
-     "explain_ru": "Очевидно, что арестовывает полиция, поэтому деятеля обычно опускают."
+     "explain_ru": "Очевидно, что арестовывает полиция, поэтому деятеля обычно опускают.",
+     "ui": {
+      "ru": {
+       "q": "'He was arrested by the police' — здесь 'by the police' — необходимая информация."
+      }
+     }
     },
     {
      "id": "e15",
@@ -2584,7 +2714,12 @@
      "q": "Only verbs that take an object can be made passive.",
      "answer": true,
      "explain_en": "The object becomes the subject, so verbs without an object (arrive, sleep) have no passive.",
-     "explain_ru": "Дополнение становится подлежащим, поэтому глаголы без дополнения (arrive, sleep) пассива не имеют."
+     "explain_ru": "Дополнение становится подлежащим, поэтому глаголы без дополнения (arrive, sleep) пассива не имеют.",
+     "ui": {
+      "ru": {
+       "q": "В пассив можно поставить только глаголы, у которых есть дополнение."
+      }
+     }
     },
     {
      "id": "e21",
@@ -2639,7 +2774,12 @@
      "q": "'Rice is grown in India' — 'is grown' is the present simple passive.",
      "answer": true,
      "explain_en": "is + past participle (grown) = present simple passive.",
-     "explain_ru": "is + третья форма (grown) = Present Simple Passive."
+     "explain_ru": "is + третья форма (grown) = Present Simple Passive.",
+     "ui": {
+      "ru": {
+       "q": "'Rice is grown in India' — 'is grown' — это Present Simple в пассиве."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2906,7 +3046,12 @@
      "q": "'She said me she was busy' is correct.",
      "answer": false,
      "explain_en": "Say does not take a person directly: She told me / She said to me.",
-     "explain_ru": "После say лицо напрямую не ставится: She told me / She said to me."
+     "explain_ru": "После say лицо напрямую не ставится: She told me / She said to me.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'She said me she was busy' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -2979,7 +3124,12 @@
      "q": "In reported questions we use the word order of a statement: 'She asked where I lived.'",
      "answer": true,
      "explain_en": "Subject before verb, no did: where I lived.",
-     "explain_ru": "Подлежащее перед глаголом, без did: where I lived."
+     "explain_ru": "Подлежащее перед глаголом, без did: where I lived.",
+     "ui": {
+      "ru": {
+       "q": "В косвенных вопросах используется порядок слов утвердительного предложения: 'She asked where I lived.'"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3040,7 +3190,12 @@
      "q": "After 'tell' we need to say who was told: 'He told me...'",
      "answer": true,
      "explain_en": "Tell always takes an object: told me, told us, told the teacher.",
-     "explain_ru": "После tell всегда есть дополнение: told me, told us, told the teacher."
+     "explain_ru": "После tell всегда есть дополнение: told me, told us, told the teacher.",
+     "ui": {
+      "ru": {
+       "q": "После 'tell' нужно указать, кому сказали: 'He told me...'"
+      }
+     }
     },
     {
      "id": "e15",
@@ -3122,7 +3277,12 @@
      "q": "'He said that the Earth goes round the Sun' is acceptable because it is a general truth.",
      "answer": true,
      "explain_en": "General truths often keep the present tense in reported speech.",
-     "explain_ru": "Общие истины часто сохраняют настоящее время в косвенной речи."
+     "explain_ru": "Общие истины часто сохраняют настоящее время в косвенной речи.",
+     "ui": {
+      "ru": {
+       "q": "'He said that the Earth goes round the Sun' допустимо, потому что это общеизвестная истина."
+      }
+     }
     },
     {
      "id": "e21",
@@ -3180,7 +3340,12 @@
      "q": "'She asked me where did I live' is correct.",
      "answer": false,
      "explain_en": "Reported questions do not use did: She asked me where I lived.",
-     "explain_ru": "В косвенных вопросах нет did: She asked me where I lived."
+     "explain_ru": "В косвенных вопросах нет did: She asked me where I lived.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'She asked me where did I live' правильное."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3427,7 +3592,12 @@
      "q": "In a non-defining relative clause we can use 'that'.",
      "answer": false,
      "explain_en": "Non-defining clauses (with commas) use who or which, never that.",
-     "explain_ru": "В неопределительных придаточных (с запятыми) используются who или which, но не that."
+     "explain_ru": "В неопределительных придаточных (с запятыми) используются who или which, но не that.",
+     "ui": {
+      "ru": {
+       "q": "В неопределительном (non-defining) придаточном можно использовать 'that'."
+      }
+     }
     },
     {
      "id": "e05",
@@ -3501,7 +3671,12 @@
      "q": "The relative pronoun can be left out in 'The film that we saw was great'.",
      "answer": true,
      "explain_en": "'That' is the object here (we saw the film), so it can be omitted: The film we saw was great.",
-     "explain_ru": "'That' здесь дополнение (мы видели фильм), поэтому его можно опустить: The film we saw was great."
+     "explain_ru": "'That' здесь дополнение (мы видели фильм), поэтому его можно опустить: The film we saw was great.",
+     "ui": {
+      "ru": {
+       "q": "В 'The film that we saw was great' относительное местоимение можно опустить."
+      }
+     }
     },
     {
      "id": "e10",
@@ -3515,7 +3690,12 @@
      ],
      "answer": 0,
      "explain_en": "Only in the first sentence is the pronoun the object (I bought the car); in the others it is the subject.",
-     "explain_ru": "Только в первом предложении местоимение — дополнение (I bought the car); в остальных оно подлежащее."
+     "explain_ru": "Только в первом предложении местоимение — дополнение (I bought the car); в остальных оно подлежащее.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении можно опустить относительное местоимение?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -3564,7 +3744,12 @@
      "q": "'The man who he lives next door is a doctor' is correct.",
      "answer": false,
      "explain_en": "The relative pronoun replaces the subject; don't repeat it: The man who lives next door.",
-     "explain_ru": "Относительное местоимение заменяет подлежащее, повторять его нельзя: The man who lives next door."
+     "explain_ru": "Относительное местоимение заменяет подлежащее, повторять его нельзя: The man who lives next door.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'The man who he lives next door is a doctor' правильное."
+      }
+     }
     },
     {
      "id": "e15",
@@ -3578,7 +3763,12 @@
      ],
      "answer": 0,
      "explain_en": "'My mother' is already clear, so the clause is non-defining: My mother, who is 60, is a teacher.",
-     "explain_ru": "'My mother' и так понятно, поэтому придаточное неопределительное: My mother, who is 60, is a teacher."
+     "explain_ru": "'My mother' и так понятно, поэтому придаточное неопределительное: My mother, who is 60, is a teacher.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении нужны запятые?"
+      }
+     }
     },
     {
      "id": "e16",
@@ -3590,7 +3780,12 @@
       "whom"
      ],
      "explain_en": "For a person as object: who, that or (formal) whom. It could also be left out.",
-     "explain_ru": "Для человека в роли дополнения: who, that или (формально) whom. Можно и опустить."
+     "explain_ru": "Для человека в роли дополнения: who, that или (формально) whom. Можно и опустить.",
+     "ui": {
+      "ru": {
+       "q": "Is that the man ___ you were talking about? (впишите одно слово)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -3649,7 +3844,12 @@
      "q": "In defining relative clauses we do not use commas.",
      "answer": true,
      "explain_en": "Defining clauses give essential information and have no commas.",
-     "explain_ru": "Определительные придаточные несут необходимую информацию и не выделяются запятыми."
+     "explain_ru": "Определительные придаточные несут необходимую информацию и не выделяются запятыми.",
+     "ui": {
+      "ru": {
+       "q": "В определительных (defining) придаточных запятые не ставятся."
+      }
+     }
     },
     {
      "id": "e21",
@@ -3706,7 +3906,12 @@
      "q": "'Whose' can be used for things as well as people.",
      "answer": true,
      "explain_en": "A company whose products are famous.",
-     "explain_ru": "A company whose products are famous — whose и для предметов."
+     "explain_ru": "A company whose products are famous — whose и для предметов.",
+     "ui": {
+      "ru": {
+       "q": "'Whose' можно использовать как для людей, так и для предметов."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3969,7 +4174,12 @@
      "q": "'I want that you help me' is correct English.",
      "answer": false,
      "explain_en": "Want takes object + to-infinitive: I want you to help me.",
-     "explain_ru": "После want — дополнение + инфинитив с to: I want you to help me."
+     "explain_ru": "После want — дополнение + инфинитив с to: I want you to help me.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I want that you help me' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -4038,7 +4248,12 @@
      "q": "After a preposition, we use the -ing form of the verb.",
      "answer": true,
      "explain_en": "Interested in learning, good at cooking, without saying.",
-     "explain_ru": "Interested in learning, good at cooking, without saying — после предлога всегда -ing."
+     "explain_ru": "Interested in learning, good at cooking, without saying — после предлога всегда -ing.",
+     "ui": {
+      "ru": {
+       "q": "После предлога используется форма глагола на -ing."
+      }
+     }
     },
     {
      "id": "e10",
@@ -4097,7 +4312,12 @@
      "q": "'Remember to lock the door' and 'I remember locking the door' mean the same thing.",
      "answer": false,
      "explain_en": "Remember to do = a duty; remember doing = a memory of a past action.",
-     "explain_ru": "Remember to do — обязанность; remember doing — воспоминание о прошлом действии."
+     "explain_ru": "Remember to do — обязанность; remember doing — воспоминание о прошлом действии.",
+     "ui": {
+      "ru": {
+       "q": "'Remember to lock the door' и 'I remember locking the door' значат одно и то же."
+      }
+     }
     },
     {
      "id": "e15",
@@ -4180,7 +4400,12 @@
      "q": "'Would like' is followed by the to-infinitive.",
      "answer": true,
      "explain_en": "I'd like to order a coffee (not 'I'd like ordering').",
-     "explain_ru": "I'd like to order a coffee (не 'I'd like ordering')."
+     "explain_ru": "I'd like to order a coffee (не 'I'd like ordering').",
+     "ui": {
+      "ru": {
+       "q": "После 'would like' используется инфинитив с to."
+      }
+     }
     },
     {
      "id": "e21",
@@ -4228,7 +4453,12 @@
       "to answer"
      ],
      "explain_en": "Refuse is followed by the to-infinitive.",
-     "explain_ru": "После refuse идёт инфинитив с to."
+     "explain_ru": "После refuse идёт инфинитив с to.",
+     "ui": {
+      "ru": {
+       "q": "Поставьте глагол в правильную форму: He refused ___ (answer) the question."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4236,7 +4466,12 @@
      "q": "'He stopped to smoke' means he gave up smoking.",
      "answer": false,
      "explain_en": "Stop to do = stop in order to do it. 'He stopped smoking' means he gave up.",
-     "explain_ru": "Stop to do — остановиться, чтобы сделать. «Бросил курить» — He stopped smoking."
+     "explain_ru": "Stop to do — остановиться, чтобы сделать. «Бросил курить» — He stopped smoking.",
+     "ui": {
+      "ru": {
+       "q": "'He stopped to smoke' означает, что он бросил курить."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4503,7 +4738,12 @@
      "q": "'Mustn't' and 'don't have to' mean the same thing.",
      "answer": false,
      "explain_en": "Mustn't = forbidden; don't have to = not necessary.",
-     "explain_ru": "Mustn't — запрещено; don't have to — необязательно."
+     "explain_ru": "Mustn't — запрещено; don't have to — необязательно.",
+     "ui": {
+      "ru": {
+       "q": "'Mustn't' и 'don't have to' значат одно и то же."
+      }
+     }
     },
     {
      "id": "e05",
@@ -4566,7 +4806,12 @@
      "q": "'She must be at work' means she is obliged to be at work.",
      "answer": false,
      "explain_en": "Here must is a deduction: I'm sure she is at work.",
-     "explain_ru": "Здесь must — логический вывод: «она наверняка на работе»."
+     "explain_ru": "Здесь must — логический вывод: «она наверняка на работе».",
+     "ui": {
+      "ru": {
+       "q": "'She must be at work' означает, что она обязана быть на работе."
+      }
+     }
     },
     {
      "id": "e10",
@@ -4629,7 +4874,12 @@
      "q": "We use 'had to' for the past of 'must'.",
      "answer": true,
      "explain_en": "I had to wait (not 'I musted').",
-     "explain_ru": "I had to wait — прошедшее время от must."
+     "explain_ru": "I had to wait — прошедшее время от must.",
+     "ui": {
+      "ru": {
+       "q": "В прошедшем времени вместо 'must' используется 'had to'."
+      }
+     }
     },
     {
      "id": "e15",
@@ -4713,7 +4963,12 @@
      "q": "'I didn't use to like coffee' is the correct negative form.",
      "answer": true,
      "explain_en": "The negative of used to is didn't use to.",
-     "explain_ru": "Отрицание от used to — didn't use to."
+     "explain_ru": "Отрицание от used to — didn't use to.",
+     "ui": {
+      "ru": {
+       "q": "'I didn't use to like coffee' — правильная отрицательная форма."
+      }
+     }
     },
     {
      "id": "e21",
@@ -4770,7 +5025,12 @@
      "q": "'He can't be more than thirty' means it is impossible that he is older than thirty.",
      "answer": true,
      "explain_en": "Can't be = I'm sure it isn't so.",
-     "explain_ru": "Can't be — «уверен, что это не так»."
+     "explain_ru": "Can't be — «уверен, что это не так».",
+     "ui": {
+      "ru": {
+       "q": "'He can't be more than thirty' означает, что он никак не может быть старше тридцати."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5040,7 +5300,12 @@
      "q": "We say 'play the piano'.",
      "answer": true,
      "explain_en": "Musical instruments take the: play the piano, the guitar.",
-     "explain_ru": "С музыкальными инструментами ставится the: play the piano, the guitar."
+     "explain_ru": "С музыкальными инструментами ставится the: play the piano, the guitar.",
+     "ui": {
+      "ru": {
+       "q": "Правильно говорить 'play the piano'."
+      }
+     }
     },
     {
      "id": "e05",
@@ -5100,7 +5365,12 @@
       "too many"
      ],
      "explain_en": "People is plural countable, so too many.",
-     "explain_ru": "People — исчисляемое во множественном числе, поэтому too many."
+     "explain_ru": "People — исчисляемое во множественном числе, поэтому too many.",
+     "ui": {
+      "en": {
+       "q": "There are ___ people here. (more than is good)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -5108,7 +5378,12 @@
      "q": "'Neither of them don't like fish' is correct.",
      "answer": false,
      "explain_en": "Neither is already negative, so the verb is positive: Neither of them likes fish.",
-     "explain_ru": "Neither уже отрицательное, глагол должен быть положительным: Neither of them likes fish."
+     "explain_ru": "Neither уже отрицательное, глагол должен быть положительным: Neither of them likes fish.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'Neither of them don't like fish' правильное."
+      }
+     }
     },
     {
      "id": "e10",
@@ -5167,7 +5442,12 @@
      "q": "After 'each' and 'every' the noun is singular.",
      "answer": true,
      "explain_en": "Each student, every room — singular noun and singular verb.",
-     "explain_ru": "Each student, every room — существительное и глагол в единственном числе."
+     "explain_ru": "Each student, every room — существительное и глагол в единственном числе.",
+     "ui": {
+      "ru": {
+       "q": "После 'each' и 'every' существительное стоит в единственном числе."
+      }
+     }
     },
     {
      "id": "e15",
@@ -5246,7 +5526,12 @@
      "q": "'The most people like music' is correct.",
      "answer": false,
      "explain_en": "Most + noun without the: Most people like music.",
-     "explain_ru": "Most + существительное без the: Most people like music."
+     "explain_ru": "Most + существительное без the: Most people like music.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'The most people like music' правильное."
+      }
+     }
     },
     {
      "id": "e21",
@@ -5294,7 +5579,12 @@
       "None"
      ],
      "explain_en": "None of + the + noun = not one of them.",
-     "explain_ru": "None of + the + существительное — «ни один из»."
+     "explain_ru": "None of + the + существительное — «ни один из».",
+     "ui": {
+      "en": {
+       "q": "___ of the shops were open, so we went home. (not one)"
+      }
+     }
     },
     {
      "id": "e25",
@@ -5302,7 +5592,12 @@
      "q": "'Few people came' means that not many people came.",
      "answer": true,
      "explain_en": "Few without a = almost none, a small number.",
-     "explain_ru": "Few без a — «мало», «почти никто»."
+     "explain_ru": "Few без a — «мало», «почти никто».",
+     "ui": {
+      "ru": {
+       "q": "'Few people came' означает, что пришло немного людей."
+      }
+     }
     },
     {
      "id": "e26",

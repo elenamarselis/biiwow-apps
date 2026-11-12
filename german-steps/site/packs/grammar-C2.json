@@ -505,7 +505,12 @@
      "q": "„Gott sei Dank“ contains a Konjunktiv I form.",
      "answer": true,
      "explain_en": "True: sei is the Konjunktiv I of sein, used as an optative.",
-     "explain_ru": "Верно: sei — конъюнктив I от sein в значении пожелания."
+     "explain_ru": "Верно: sei — конъюнктив I от sein в значении пожелания.",
+     "ui": {
+      "ru": {
+       "q": "„Gott sei Dank“ содержит форму Konjunktiv I."
+      }
+     }
     },
     {
      "id": "e24",
@@ -513,7 +518,12 @@
      "q": "In modern German the dative -e (dem Manne) is obligatory for all masculine nouns.",
      "answer": false,
      "explain_en": "False: it is optional and elevated, obligatory only in fixed phrases like nach Hause.",
-     "explain_ru": "Неверно: оно необязательно и звучит возвышенно; обязательно лишь в устойчивых выражениях вроде nach Hause."
+     "explain_ru": "Неверно: оно необязательно и звучит возвышенно; обязательно лишь в устойчивых выражениях вроде nach Hause.",
+     "ui": {
+      "ru": {
+       "q": "В современном немецком окончание дательного падежа -e (dem Manne) обязательно для всех существительных мужского рода."
+      }
+     }
     },
     {
      "id": "e25",
@@ -521,7 +531,12 @@
      "q": "In „Ich bin mir dessen bewusst“ the word „dessen“ is a genitive pronoun.",
      "answer": true,
      "explain_en": "True: bewusst requires the genitive, so das becomes dessen.",
-     "explain_ru": "Верно: bewusst требует генитива, поэтому das превращается в dessen."
+     "explain_ru": "Верно: bewusst требует генитива, поэтому das превращается в dessen.",
+     "ui": {
+      "ru": {
+       "q": "В „Ich bin mir dessen bewusst“ слово „dessen“ — местоимение в родительном падеже."
+      }
+     }
     },
     {
      "id": "e26",
@@ -547,7 +562,33 @@
        "sich einer Sache schämen",
        "стыдиться чего-либо"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "sich einer Sache bedienen",
+         "to make use of something"
+        ],
+        [
+         "einer Sache bedürfen",
+         "to need something"
+        ],
+        [
+         "einer Person gedenken",
+         "to commemorate someone"
+        ],
+        [
+         "sich einer Sache enthalten",
+         "to abstain from something"
+        ],
+        [
+         "sich einer Sache schämen",
+         "to be ashamed of something"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -573,7 +614,33 @@
        "unverrichteter Dinge",
        "ни с чем, не добившись своего"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "eines Tages",
+         "one day"
+        ],
+        [
+         "meines Wissens",
+         "as far as I know"
+        ],
+        [
+         "schweren Herzens",
+         "with a heavy heart"
+        ],
+        [
+         "letzten Endes",
+         "in the end, ultimately"
+        ],
+        [
+         "unverrichteter Dinge",
+         "empty-handed, without success"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1082,7 +1149,12 @@
      "q": "With a double infinitive in a subordinate clause the finite auxiliary comes before the infinitives: „…, dass er hat kommen dürfen“.",
      "answer": true,
      "explain_en": "True: this is the main exception to verb-final order.",
-     "explain_ru": "Верно: это главное исключение из правила о глаголе в конце придаточного."
+     "explain_ru": "Верно: это главное исключение из правила о глаголе в конце придаточного.",
+     "ui": {
+      "ru": {
+       "q": "При двойном инфинитиве в придаточном предложении спрягаемый вспомогательный глагол стоит перед инфинитивами: „…, dass er hat kommen dürfen“."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1090,7 +1162,12 @@
      "q": "When a dass-clause stands in position 1, the correlate es must stay: „Dass du kommst, freut es mich.“",
      "answer": false,
      "explain_en": "False: es disappears – Dass du kommst, freut mich.",
-     "explain_ru": "Неверно: es исчезает — Dass du kommst, freut mich."
+     "explain_ru": "Неверно: es исчезает — Dass du kommst, freut mich.",
+     "ui": {
+      "ru": {
+       "q": "Когда придаточное с dass стоит на первом месте, коррелят es должен сохраниться: „Dass du kommst, freut es mich.“"
+      }
+     }
     },
     {
      "id": "e25",
@@ -1098,7 +1175,12 @@
      "q": "Moving a long relative clause into the Nachfeld (after the participle) is correct and often improves readability.",
      "answer": true,
      "explain_en": "True: Ich habe den Mann gesehen, der gestern hier war.",
-     "explain_ru": "Верно: Ich habe den Mann gesehen, der gestern hier war — так читать легче."
+     "explain_ru": "Верно: Ich habe den Mann gesehen, der gestern hier war — так читать легче.",
+     "ui": {
+      "ru": {
+       "q": "Вынос длинного относительного придаточного в Nachfeld (после причастия) правилен и часто облегчает чтение."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1124,7 +1206,33 @@
        "Nachfeld",
        "позиция после закрытия рамки"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Vorfeld",
+         "position before the finite verb"
+        ],
+        [
+         "linke Satzklammer",
+         "finite verb or conjunction"
+        ],
+        [
+         "Mittelfeld",
+         "space between the two parts of the bracket"
+        ],
+        [
+         "rechte Satzklammer",
+         "non-finite parts of the verb"
+        ],
+        [
+         "Nachfeld",
+         "position after the bracket closes"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1168,7 +1276,29 @@
        "…, dass er gekommen sein soll",
        "что он якобы пришёл"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "…, dass er hat kommen müssen",
+         "that he had to come"
+        ],
+        [
+         "…, dass er wird kommen müssen",
+         "that he will have to come"
+        ],
+        [
+         "…, dass er hätte kommen müssen",
+         "that he should have come"
+        ],
+        [
+         "…, dass er gekommen sein soll",
+         "that he allegedly came"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1648,7 +1778,12 @@
      "q": "In careful usage, „Er ist scheinbar krank“ means that he only looks ill but in fact is not.",
      "answer": true,
      "explain_en": "True: scheinbar = only seemingly; for a probable truth use anscheinend.",
-     "explain_ru": "Верно: scheinbar — «лишь кажется»; для вероятной правды используется anscheinend."
+     "explain_ru": "Верно: scheinbar — «лишь кажется»; для вероятной правды используется anscheinend.",
+     "ui": {
+      "ru": {
+       "q": "В тщательной речи „Er ist scheinbar krank“ означает, что он только выглядит больным, а на самом деле здоров."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1656,7 +1791,12 @@
      "q": "In its evidential meaning „Er will reich sein“ means that other people say he is rich.",
      "answer": false,
      "explain_en": "False: wollen = he himself claims it; other people's claims are expressed by sollen.",
-     "explain_ru": "Неверно: wollen — так утверждает он сам; чужие слова передаются через sollen."
+     "explain_ru": "Неверно: wollen — так утверждает он сам; чужие слова передаются через sollen.",
+     "ui": {
+      "ru": {
+       "q": "В эвиденциальном значении „Er will reich sein“ означает, что другие говорят, будто он богат."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1664,7 +1804,12 @@
      "q": "„Das dürfte stimmen“ expresses a fairly high degree of probability.",
      "answer": true,
      "explain_en": "True: dürfte = very likely, well-founded estimate.",
-     "explain_ru": "Верно: dürfte — «вполне вероятно», обоснованное предположение."
+     "explain_ru": "Верно: dürfte — «вполне вероятно», обоснованное предположение.",
+     "ui": {
+      "ru": {
+       "q": "„Das dürfte stimmen“ выражает довольно высокую степень вероятности."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1690,7 +1835,33 @@
        "Er will krank sein.",
        "Он утверждает, что болен."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Er muss krank sein.",
+         "He must be ill."
+        ],
+        [
+         "Er dürfte krank sein.",
+         "He is probably ill."
+        ],
+        [
+         "Er könnte krank sein.",
+         "He might be ill."
+        ],
+        [
+         "Er soll krank sein.",
+         "They say he is ill."
+        ],
+        [
+         "Er will krank sein.",
+         "He claims to be ill."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1716,7 +1887,33 @@
        "scheinbar",
        "лишь кажущийся"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "angeblich",
+         "allegedly (according to others)"
+        ],
+        [
+         "vermeintlich",
+         "supposed, wrongly believed"
+        ],
+        [
+         "mutmaßlich",
+         "presumed, suspected (legal)"
+        ],
+        [
+         "anscheinend",
+         "apparently"
+        ],
+        [
+         "scheinbar",
+         "only seemingly"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1752,7 +1949,7 @@
     {
      "title_en": "von: the agent",
      "title_ru": "von: деятель",
-     "body_en": "von + dative names the agent, the one who actively performs the action – usually a person, an institution or an animal: Das Haus wurde von einem berühmten Architekten entworfen. Das Kind wurde von einem Hund gebissen. In Russian both agent and instrument usually stand in the instrumental case (построен архитектором), so learners must actively choose between von and durch.",
+     "body_en": "von + dative names the agent, the one who actively performs the action – usually a person, an institution or an animal: Das Haus wurde von einem berühmten Architekten entworfen. Das Kind wurde von einem Hund gebissen. In Russian both agent and instrument usually stand in the instrumental case (built 'by an architect' uses the same ending as 'with a tool'), so learners must actively choose between von and durch.",
      "body_ru": "von + дательный падеж называет деятеля — того, кто активно совершает действие: обычно это человек, учреждение или животное: Das Haus wurde von einem berühmten Architekten entworfen. Das Kind wurde von einem Hund gebissen. В русском и деятель, и средство обычно стоят в творительном падеже («построен архитектором», «разрушен землетрясением»), поэтому в немецком нужно сознательно выбирать между von и durch.",
      "examples": [
       {
@@ -1844,7 +2041,7 @@
     {
      "title_en": "The bekommen-passive: form",
      "title_ru": "Пассив с bekommen: форма",
-     "body_en": "German has a second passive: bekommen (colloquially kriegen, formally erhalten) + Partizip II. The dative object of the active sentence – the recipient – becomes the subject: Man schenkt ihm ein Buch → Er bekommt ein Buch geschenkt. The accusative object stays in the accusative. The werden-passive keeps the dative and has no subject: Ihm wird ein Buch geschenkt. Russian has no such construction and uses an indefinite-personal active: Ему подарили книгу.",
+     "body_en": "German has a second passive: bekommen (colloquially kriegen, formally erhalten) + Partizip II. The dative object of the active sentence – the recipient – becomes the subject: Man schenkt ihm ein Buch → Er bekommt ein Buch geschenkt. The accusative object stays in the accusative. The werden-passive keeps the dative and has no subject: Ihm wird ein Buch geschenkt. Russian has no such construction and uses an active verb without a subject ('to him they gave a book'), much like English 'he was given a book'.",
      "body_ru": "В немецком есть второй пассив: bekommen (разг. kriegen, офиц. erhalten) + Partizip II. Дательное дополнение активного предложения — получатель — становится подлежащим: Man schenkt ihm ein Buch → Er bekommt ein Buch geschenkt («Ему дарят книгу»). Винительное дополнение остаётся в винительном. Пассив с werden сохраняет дательный падеж и не имеет подлежащего: Ihm wird ein Buch geschenkt. В русском такой конструкции нет: мы говорим неопределённо-личным предложением «Ему подарили книгу».",
      "examples": [
       {
@@ -2220,7 +2417,12 @@
      "q": "In „Er bekommt ein Buch geschenkt“ the subject corresponds to the dative object of the active sentence.",
      "answer": true,
      "explain_en": "True: Man schenkt ihm ein Buch → Er bekommt ein Buch geschenkt.",
-     "explain_ru": "Верно: Man schenkt ihm ein Buch → Er bekommt ein Buch geschenkt."
+     "explain_ru": "Верно: Man schenkt ihm ein Buch → Er bekommt ein Buch geschenkt.",
+     "ui": {
+      "ru": {
+       "q": "В „Er bekommt ein Buch geschenkt“ подлежащее соответствует дательному дополнению активного предложения."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2228,7 +2430,12 @@
      "q": "„Ihm wurde geholfen“ can be turned into the standard bekommen-passive „Er bekam geholfen“.",
      "answer": false,
      "explain_en": "False: helfen has no accusative object, so the bekommen-passive is substandard.",
-     "explain_ru": "Неверно: у helfen нет винительного дополнения, поэтому пассив с bekommen ненормативен."
+     "explain_ru": "Неверно: у helfen нет винительного дополнения, поэтому пассив с bekommen ненормативен.",
+     "ui": {
+      "ru": {
+       "q": "„Ihm wurde geholfen“ можно превратить в нормативный bekommen-пассив „Er bekam geholfen“."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2236,7 +2443,12 @@
      "q": "With an event or process as the cause, durch is typical: „durch ein Erdbeben zerstört“.",
      "answer": true,
      "explain_en": "True: durch names impersonal causes, means and intermediaries.",
-     "explain_ru": "Верно: durch называет безличные причины, средства и посредников."
+     "explain_ru": "Верно: durch называет безличные причины, средства и посредников.",
+     "ui": {
+      "ru": {
+       "q": "Если причина — событие или процесс, типичен предлог durch: „durch ein Erdbeben zerstört“."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2284,7 +2496,33 @@
        "sein + Partizip II",
        "пассив состояния"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "von",
+         "the agent who performs the action"
+        ],
+        [
+         "durch",
+         "means, intermediary or causing event"
+        ],
+        [
+         "bekommen + Partizip II",
+         "recipient passive"
+        ],
+        [
+         "werden + Partizip II",
+         "action passive"
+        ],
+        [
+         "sein + Partizip II",
+         "state passive"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2366,7 +2604,7 @@
     {
      "title_en": "Case agreement with als and wie",
      "title_ru": "Падежное согласование с als и wie",
-     "body_en": "A noun introduced by als (in the role of) or wie (like) takes the case of the word it refers to: Ich kenne ihn als guten Arzt (accusative, like ihn). Ihm als erfahrenem Kollegen vertraue ich (dative). Als Arzt rate ich Ihnen … (nominative, refers to ich). Ich behandle ihn wie einen Bruder; ich helfe ihm wie einem Bruder. Russian uses the instrumental for as (работать врачом), which often misleads learners.",
+     "body_en": "A noun introduced by als (in the role of) or wie (like) takes the case of the word it refers to: Ich kenne ihn als guten Arzt (accusative, like ihn). Ihm als erfahrenem Kollegen vertraue ich (dative). Als Arzt rate ich Ihnen … (nominative, refers to ich). Ich behandle ihn wie einen Bruder; ich helfe ihm wie einem Bruder. Russian uses the instrumental case for 'as' ('to work as a doctor'), which often misleads learners.",
      "body_ru": "Существительное после als («в качестве») или wie («как») стоит в падеже того слова, к которому относится: Ich kenne ihn als guten Arzt (винительный, как ihn). Ihm als erfahrenem Kollegen vertraue ich (дательный). Als Arzt rate ich Ihnen … (именительный, относится к ich). Ich behandle ihn wie einen Bruder; ich helfe ihm wie einem Bruder. В русском «в качестве» часто передаётся творительным падежом («работать врачом», «знаю его хорошим врачом»), и это сбивает с толку: в немецком творительного нет, решает согласование.",
      "examples": [
       {
@@ -2389,7 +2627,7 @@
     {
      "title_en": "Measure words and the measured noun",
      "title_ru": "Слова меры и измеряемое существительное",
-     "body_en": "After a measure word the measured noun normally takes the same case (partitive apposition): ein Glas Wein, mit einem Glas kaltem Wasser, eine Tasse heißen Tee trinken. The elevated alternative is the genitive: eine Tasse heißen Tees, ein Glas guten Weines. Russian uses the genitive here (стакан воды), so learners tend to overuse the German genitive; in neutral German apposition is standard.",
+     "body_en": "After a measure word the measured noun normally takes the same case (partitive apposition): ein Glas Wein, mit einem Glas kaltem Wasser, eine Tasse heißen Tee trinken. The elevated alternative is the genitive: eine Tasse heißen Tees, ein Glas guten Weines. Russian uses the genitive here ('a glass of water' with water in the genitive), so learners tend to overuse the German genitive; in neutral German apposition is standard.",
      "body_ru": "После слова меры измеряемое существительное обычно стоит в том же падеже (партитивное приложение): ein Glas Wein, mit einem Glas kaltem Wasser, eine Tasse heißen Tee trinken. Возвышенная альтернатива — генитив: eine Tasse heißen Tees, ein Glas guten Weines. В русском здесь всегда родительный падеж («стакан воды», «с чашкой горячего чая»), поэтому русскоговорящие склонны злоупотреблять немецким генитивом; в нейтральном немецком нормой является приложение в том же падеже.",
      "examples": [
       {
@@ -2787,7 +3025,12 @@
      "q": "In „Er trank eine Tasse heißen Tee“ the adjective is in the accusative, the same case as „eine Tasse“.",
      "answer": true,
      "explain_en": "True: partitive apposition takes the case of the measure word.",
-     "explain_ru": "Верно: партитивное приложение стоит в падеже слова меры."
+     "explain_ru": "Верно: партитивное приложение стоит в падеже слова меры.",
+     "ui": {
+      "ru": {
+       "q": "В „Er trank eine Tasse heißen Tee“ прилагательное стоит в винительном падеже — том же, что и „eine Tasse“."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2795,7 +3038,12 @@
      "q": "„der Preis von Häusern“ is wrong in written German; it must be „der Preis Häuser“.",
      "answer": false,
      "explain_en": "False: without article or adjective the genitive is invisible, so von is required.",
-     "explain_ru": "Неверно: без артикля и прилагательного генитив не виден, поэтому нужен von."
+     "explain_ru": "Неверно: без артикля и прилагательного генитив не виден, поэтому нужен von.",
+     "ui": {
+      "ru": {
+       "q": "„der Preis von Häusern“ в письменном немецком неправильно; нужно „der Preis Häuser“."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2803,7 +3051,12 @@
      "q": "„am Montag, den 3. Mai“ and „am Montag, dem 3. Mai“ are both accepted.",
      "answer": true,
      "explain_en": "True: dative apposition or accusative of time.",
-     "explain_ru": "Верно: дательное приложение или винительный времени."
+     "explain_ru": "Верно: дательное приложение или винительный времени.",
+     "ui": {
+      "ru": {
+       "q": "Допустимы оба варианта: „am Montag, den 3. Mai“ и „am Montag, dem 3. Mai“."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2829,7 +3082,33 @@
        "zehn Euro",
        "десять евро"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ein Glas Wein",
+         "a glass of wine"
+        ],
+        [
+         "zwei Kilo Äpfel",
+         "two kilos of apples"
+        ],
+        [
+         "eine Tasse heißer Tee",
+         "a cup of hot tea"
+        ],
+        [
+         "drei Flaschen Bier",
+         "three bottles of beer"
+        ],
+        [
+         "zehn Euro",
+         "ten euros"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2881,7 +3160,33 @@
        "einen Meter breit",
        "шириной в метр"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "etwas leid sein",
+         "to be tired of something"
+        ],
+        [
+         "etwas gewohnt sein",
+         "to be used to something"
+        ],
+        [
+         "etwas wert sein",
+         "to be worth something"
+        ],
+        [
+         "etwas los sein",
+         "to be rid of something"
+        ],
+        [
+         "einen Meter breit",
+         "one metre wide"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2895,7 +3200,7 @@
     {
      "title_en": "be-: making verbs transitive",
      "title_ru": "be-: превращение глагола в переходный",
-     "body_en": "be- turns an intransitive verb or a verb with a preposition into a transitive verb with an accusative object: antworten auf eine Frage → eine Frage beantworten; wohnen in einem Haus → ein Haus bewohnen; arbeiten an einem Text → einen Text bearbeiten. From nouns and adjectives be- forms verbs meaning to provide with or make: Wasser → bewässern, Grenze → begrenzen, frei → befreien. Russian has a similar device: отвечать на вопрос vs обсуждать вопрос.",
+     "body_en": "be- turns an intransitive verb or a verb with a preposition into a transitive verb with an accusative object: antworten auf eine Frage → eine Frage beantworten; wohnen in einem Haus → ein Haus bewohnen; arbeiten an einem Text → einen Text bearbeiten. From nouns and adjectives be- forms verbs meaning to provide with or make: Wasser → bewässern, Grenze → begrenzen, frei → befreien. Russian has a similar device: 'to answer to a question' with a preposition vs 'to discuss a question' with a direct object; compare English 'to answer a question' vs 'to reply to a question'.",
      "body_ru": "be- превращает непереходный глагол или глагол с предлогом в переходный с прямым дополнением в винительном падеже: antworten auf eine Frage → eine Frage beantworten; wohnen in einem Haus → ein Haus bewohnen («населять дом»); arbeiten an einem Text → einen Text bearbeiten («обрабатывать текст»). От существительных и прилагательных be- образует глаголы со значением «снабдить, сделать»: Wasser → bewässern («орошать»), Grenze → begrenzen («ограничивать»), frei → befreien («освобождать»). В русском похожую роль играют приставки: «жить в доме» → «обжить дом», «говорить о проблеме» → «обговорить проблему».",
      "examples": [
       {
@@ -2941,7 +3246,7 @@
     {
      "title_en": "zer-: into pieces",
      "title_ru": "zer-: на части",
-     "body_en": "zer- always means destruction or division into pieces: zerbrechen, zerreißen, zerschlagen, zerstören, zerlegen, zerkleinern, zerfallen. It corresponds closely to Russian раз-/рас- (разбить, разорвать). zer-verbs can be transitive (Er zerriss den Brief) or intransitive with sein (Das Glas ist zerbrochen). zer- is never separable and has no other meaning.",
+     "body_en": "zer- always means destruction or division into pieces: zerbrechen, zerreißen, zerschlagen, zerstören, zerlegen, zerkleinern, zerfallen. It corresponds closely to the Russian prefix raz-/ras- ('to smash', 'to tear apart') and to English 'to pieces, apart'. zer-verbs can be transitive (Er zerriss den Brief) or intransitive with sein (Das Glas ist zerbrochen). zer- is never separable and has no other meaning.",
      "body_ru": "zer- всегда означает разрушение или разделение на части: zerbrechen, zerreißen, zerschlagen, zerstören, zerlegen («разбирать»), zerkleinern («измельчать»), zerfallen («распадаться»). Оно очень близко русским «раз-/рас-»: «разбить», «разорвать», «распасться». Глаголы с zer- бывают переходными (Er zerriss den Brief) и непереходными с sein (Das Glas ist zerbrochen). zer- никогда не отделяется и других значений не имеет.",
      "examples": [
       {
@@ -2964,7 +3269,7 @@
     {
      "title_en": "er-: result, beginning, death",
      "title_ru": "er-: результат, начало, смерть",
-     "body_en": "er- often expresses reaching a result through an action: erarbeiten (obtain by work), erkämpfen, ersteigen, erreichen, erfinden. With adjectives it means becoming: erröten, erblassen, erkranken, ermüden. A striking group expresses death caused by the action of the base verb: erschießen, erschlagen, erstechen, ertrinken, ersticken, erfrieren. Russian often uses за-/у-/до- here: застрелить, утонуть, задохнуться.",
+     "body_en": "er- often expresses reaching a result through an action: erarbeiten (obtain by work), erkämpfen, ersteigen, erreichen, erfinden. With adjectives it means becoming: erröten, erblassen, erkranken, ermüden. A striking group expresses death caused by the action of the base verb: erschießen, erschlagen, erstechen, ertrinken, ersticken, erfrieren. Russian often uses the prefixes za-, u- or do- here ('to shoot dead', 'to drown', 'to suffocate').",
      "body_ru": "er- часто выражает достижение результата действием: erarbeiten («заработать трудом»), erkämpfen («завоевать»), ersteigen («взойти на вершину»), erreichen, erfinden. С прилагательными — «становиться»: erröten («покраснеть»), erblassen («побледнеть»), erkranken, ermüden. Заметная группа выражает смерть в результате действия базового глагола: erschießen («застрелить»), erschlagen («убить ударом»), erstechen («заколоть»), ertrinken («утонуть»), ersticken («задохнуться»), erfrieren («замёрзнуть насмерть»). В русском здесь работают приставки за-/у-: «застрелить», «утонуть», «задохнуться».",
      "examples": [
       {
@@ -2987,7 +3292,7 @@
     {
      "title_en": "ent-: removal and reversal",
      "title_ru": "ent-: удаление и обратное действие",
-     "body_en": "ent- expresses removal or separation: entfernen, entkommen (escape), entlassen, entführen. With nouns it means removing the thing named: Kalk → entkalken, Gift → entgiften, Waffe → entwaffnen. It also reverses an action: laden → entladen, sperren → entsperren, schlüsseln → entschlüsseln. Less often it marks a beginning: entstehen, entbrennen, entflammen. Russian equivalents vary: раз-, с-, от-, о- (разоружить, сбежать).",
+     "body_en": "ent- expresses removal or separation: entfernen, entkommen (escape), entlassen, entführen. With nouns it means removing the thing named: Kalk → entkalken, Gift → entgiften, Waffe → entwaffnen. It also reverses an action: laden → entladen, sperren → entsperren, schlüsseln → entschlüsseln. Less often it marks a beginning: entstehen, entbrennen, entflammen. English equivalents vary: de-, dis-, un-, away (disarm, escape, unload).",
      "body_ru": "ent- выражает удаление или отделение: entfernen («удалять»), entkommen («ускользнуть»), entlassen («увольнять»), entführen («похищать»). С существительными — удаление того, что названо: Kalk → entkalken («удалять накипь»), Gift → entgiften, Waffe → entwaffnen («разоружать»). Кроме того, ent- обозначает обратное действие: laden → entladen («разгрузить»), sperren → entsperren («разблокировать»), schlüsseln → entschlüsseln («расшифровать»). Реже — начало: entstehen («возникать»), entbrennen («разгораться»). Русские соответствия разнообразны: раз-, с-, от-, о-.",
      "examples": [
       {
@@ -3360,7 +3665,12 @@
      "q": "The prefix zer- always expresses destruction or breaking into pieces.",
      "answer": true,
      "explain_en": "True: zer- has no other meaning.",
-     "explain_ru": "Верно: других значений у zer- нет."
+     "explain_ru": "Верно: других значений у zer- нет.",
+     "ui": {
+      "ru": {
+       "q": "Приставка zer- всегда выражает разрушение или разделение на части."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3368,7 +3678,12 @@
      "q": "„sich verhören“ means to interrogate oneself.",
      "answer": false,
      "explain_en": "False: sich verhören = to mishear (ver- = error). To interrogate is verhören without sich.",
-     "explain_ru": "Неверно: sich verhören — «ослышаться» (ver- = ошибка). «Допрашивать» — verhören без sich."
+     "explain_ru": "Неверно: sich verhören — «ослышаться» (ver- = ошибка). «Допрашивать» — verhören без sich.",
+     "ui": {
+      "ru": {
+       "q": "„sich verhören“ означает «допрашивать самого себя»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3376,7 +3691,12 @@
      "q": "„fällen“ is the causative of „fallen“: to make something fall.",
      "answer": true,
      "explain_en": "True: einen Baum fällen = to fell a tree.",
-     "explain_ru": "Верно: einen Baum fällen — «срубить (повалить) дерево»."
+     "explain_ru": "Верно: einen Baum fällen — «срубить (повалить) дерево».",
+     "ui": {
+      "ru": {
+       "q": "„fällen“ — каузатив к „fallen“: заставить что-то упасть."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3402,7 +3722,33 @@
        "ent-",
        "удаление, отделение"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "be-",
+         "makes a verb transitive"
+        ],
+        [
+         "ver-",
+         "error or change of state"
+        ],
+        [
+         "zer-",
+         "destruction into pieces"
+        ],
+        [
+         "er-",
+         "reaching a result"
+        ],
+        [
+         "ent-",
+         "removal, separation"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3959,7 +4305,12 @@
      "q": "After the spelling reform, ß is written only after long vowels and diphthongs.",
      "answer": true,
      "explain_en": "True: Straße, heißen – but Fluss, muss after short vowels.",
-     "explain_ru": "Верно: Straße, heißen — но после краткого гласного Fluss, muss."
+     "explain_ru": "Верно: Straße, heißen — но после краткого гласного Fluss, muss.",
+     "ui": {
+      "ru": {
+       "q": "После реформы орфографии ß пишется только после долгих гласных и дифтонгов."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3967,7 +4318,12 @@
      "q": "A comma is obligatory before an infinitive clause introduced by „um“, „ohne“ or „statt“.",
      "answer": true,
      "explain_en": "True: these conjunctions always require a comma.",
-     "explain_ru": "Верно: при этих союзах запятая обязательна всегда."
+     "explain_ru": "Верно: при этих союзах запятая обязательна всегда.",
+     "ui": {
+      "ru": {
+       "q": "Запятая обязательна перед инфинитивным оборотом с „um“, „ohne“ или „statt“."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3975,7 +4331,12 @@
      "q": "In „heute Abend“ the word „Abend“ should be written in lower case.",
      "answer": false,
      "explain_en": "False: after heute, gestern, morgen the time of day is a noun: heute Abend.",
-     "explain_ru": "Неверно: после heute, gestern, morgen время суток — существительное: heute Abend."
+     "explain_ru": "Неверно: после heute, gestern, morgen время суток — существительное: heute Abend.",
+     "ui": {
+      "ru": {
+       "q": "В „heute Abend“ слово „Abend“ нужно писать со строчной буквы."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4027,7 +4388,29 @@
        "schwer fallen",
        "тяжело упасть"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "freisprechen",
+         "to acquit (in court)"
+        ],
+        [
+         "frei sprechen",
+         "to speak without notes"
+        ],
+        [
+         "schwerfallen",
+         "to be difficult (for someone)"
+        ],
+        [
+         "schwer fallen",
+         "to fall heavily"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4090,7 +4473,7 @@
     {
      "title_en": "Verbs with a dative object",
      "title_ru": "Глаголы с дательным дополнением",
-     "body_en": "Formal German has many verbs with a dative object and no preposition: sich entziehen (evade), widersprechen, entsprechen (correspond to), ausweichen (avoid), sich widersetzen (resist), misstrauen, vorbeugen (prevent), beiwohnen (attend), unterliegen (be subject to, lose to), obliegen (be the duty of). Russian sometimes matches (противоречить кому – widersprechen), but often uses other cases: избегать чего (genitive) – ausweichen + dative.",
+     "body_en": "Formal German has many verbs with a dative object and no preposition: sich entziehen (evade), widersprechen, entsprechen (correspond to), ausweichen (avoid), sich widersetzen (resist), misstrauen, vorbeugen (prevent), beiwohnen (attend), unterliegen (be subject to, lose to), obliegen (be the duty of). Russian sometimes matches (its verb 'to contradict' also takes the dative, like widersprechen), but often uses other cases: the Russian verb 'to avoid' takes the genitive, while ausweichen takes the dative.",
      "body_ru": "В книжном немецком много глаголов с дательным дополнением без предлога: sich entziehen («уклоняться от»), widersprechen («противоречить»), entsprechen («соответствовать»), ausweichen («избегать, уворачиваться»), sich widersetzen («сопротивляться»), misstrauen («не доверять»), vorbeugen («предотвращать»), beiwohnen («присутствовать на»), unterliegen («подлежать; проиграть»), obliegen («входить в обязанности»). Иногда русский совпадает («противоречить кому» — widersprechen), но часто нет: «избегать чего» (родительный) — ausweichen + Dat., «предотвращать что» (винительный) — vorbeugen + Dat.",
      "examples": [
       {
@@ -4136,7 +4519,7 @@
     {
      "title_en": "über, um, nach, von",
      "title_ru": "über, um, nach, von",
-     "body_en": "Further important patterns: verfügen über + Akk. (have at one's disposal), sich hinwegsetzen über + Akk. (disregard), sich bewerben um (apply for), ringen um (struggle for), es geht um (it is about), sich erkundigen nach (enquire about), streben nach (strive for), absehen von (refrain from), zeugen von (testify to), abhängen von. None of these prepositions can be predicted from Russian: располагать чем – verfügen über.",
+     "body_en": "Further important patterns: verfügen über + Akk. (have at one's disposal), sich hinwegsetzen über + Akk. (disregard), sich bewerben um (apply for), ringen um (struggle for), es geht um (it is about), sich erkundigen nach (enquire about), streben nach (strive for), absehen von (refrain from), zeugen von (testify to), abhängen von. None of these prepositions can be predicted from Russian or English: Russian 'to have at one's disposal' takes the instrumental with no preposition, whereas German says verfügen über.",
      "body_ru": "Другие важные модели: verfügen über + Akk. («располагать чем-то»), sich hinwegsetzen über + Akk. («пренебрегать»), sich bewerben um («претендовать на, подавать заявку»), ringen um («бороться за»), es geht um («речь идёт о»), sich erkundigen nach («осведомляться о»), streben nach («стремиться к»), absehen von («воздержаться от»), zeugen von («свидетельствовать о»), abhängen von («зависеть от»). Ни один из этих предлогов нельзя вывести из русского: «располагать чем» — verfügen über, «стремиться к» — streben nach.",
      "examples": [
       {
@@ -4275,7 +4658,7 @@
       "für"
      ],
      "answer": 0,
-     "explain_en": "verzichten auf + Akk., not von (despite Russian отказаться от).",
+     "explain_en": "verzichten auf + Akk., not von (despite the Russian 'otkazatsya ot', literally 'refuse from').",
      "explain_ru": "verzichten auf + Akk., а не von — несмотря на русское «отказаться от»."
     },
     {
@@ -4532,7 +4915,12 @@
      "q": "„bestehen auf“ (to insist) takes the dative: „Er besteht auf seinem Recht.“",
      "answer": true,
      "explain_en": "True: bestehen, beharren and beruhen take auf + dative.",
-     "explain_ru": "Верно: bestehen, beharren и beruhen требуют auf + Dat."
+     "explain_ru": "Верно: bestehen, beharren и beruhen требуют auf + Dat.",
+     "ui": {
+      "ru": {
+       "q": "„bestehen auf“ (настаивать) требует дательного падежа: „Er besteht auf seinem Recht.“"
+      }
+     }
     },
     {
      "id": "e24",
@@ -4540,7 +4928,12 @@
      "q": "„sich entziehen“ takes the accusative: „Er entzieht sich die Verantwortung.“",
      "answer": false,
      "explain_en": "False: sich entziehen + dative – der Verantwortung.",
-     "explain_ru": "Неверно: sich entziehen + дательный — der Verantwortung."
+     "explain_ru": "Неверно: sich entziehen + дательный — der Verantwortung.",
+     "ui": {
+      "ru": {
+       "q": "„sich entziehen“ требует винительного падежа: „Er entzieht sich die Verantwortung.“"
+      }
+     }
     },
     {
      "id": "e25",
@@ -4548,7 +4941,12 @@
      "q": "Nouns derived from prepositional verbs usually keep the verb's preposition: verzichten auf → der Verzicht auf.",
      "answer": true,
      "explain_en": "True: also die Teilnahme an, der Zweifel an, die Bitte um.",
-     "explain_ru": "Верно: также die Teilnahme an, der Zweifel an, die Bitte um."
+     "explain_ru": "Верно: также die Teilnahme an, der Zweifel an, die Bitte um.",
+     "ui": {
+      "ru": {
+       "q": "Существительные, образованные от глаголов с предлогом, обычно сохраняют предлог глагола: verzichten auf → der Verzicht auf."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4574,7 +4972,33 @@
        "zweifeln an",
        "сомневаться в"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "sich berufen auf",
+         "to refer to, cite"
+        ],
+        [
+         "verzichten auf",
+         "to do without, renounce"
+        ],
+        [
+         "verfügen über",
+         "to have at one's disposal"
+        ],
+        [
+         "sich erkundigen nach",
+         "to enquire about"
+        ],
+        [
+         "zweifeln an",
+         "to doubt"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4596,7 +5020,29 @@
        "eine Prüfung bestehen",
        "сдать экзамен"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "bestehen auf",
+         "to insist on"
+        ],
+        [
+         "bestehen aus",
+         "to consist of"
+        ],
+        [
+         "bestehen in",
+         "to lie in, consist in"
+        ],
+        [
+         "eine Prüfung bestehen",
+         "to pass an exam"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4705,7 +5151,7 @@
     {
      "title_en": "Understatement and litotes",
      "title_ru": "Преуменьшение и литота",
-     "body_en": "German often says something positive or negative by negating its opposite: nicht schlecht (quite good), nicht ganz unproblematisch (rather problematic), nicht gerade billig (expensive), nicht unbedingt (not really), Das ist nicht ohne (that's quite something / quite tough). The literal meaning is weaker than the intended one; the listener is expected to decode it. Russian неплохо works the same way.",
+     "body_en": "German often says something positive or negative by negating its opposite: nicht schlecht (quite good), nicht ganz unproblematisch (rather problematic), nicht gerade billig (expensive), nicht unbedingt (not really), Das ist nicht ohne (that's quite something / quite tough). The literal meaning is weaker than the intended one; the listener is expected to decode it. Russian 'neplokho' (not bad) and English 'not bad' work the same way.",
      "body_ru": "По-немецки часто выражают положительную или отрицательную оценку через отрицание противоположного: nicht schlecht («неплохо», то есть хорошо), nicht ganz unproblematisch («не вполне беспроблемно», то есть проблематично), nicht gerade billig («не то чтобы дёшево», то есть дорого), nicht unbedingt («не обязательно», то есть скорее нет), Das ist nicht ohne («это не шутки»). Буквальный смысл слабее задуманного; слушатель должен его расшифровать. Русское «неплохо», «небезызвестный» работает так же.",
      "examples": [
       {
@@ -5099,7 +5545,12 @@
      "q": "In many German start-ups and online communities du is used even with superiors.",
      "answer": true,
      "explain_en": "True: the informal du is spreading in these settings.",
-     "explain_ru": "Верно: в таких средах du распространяется и в общении с начальством."
+     "explain_ru": "Верно: в таких средах du распространяется и в общении с начальством.",
+     "ui": {
+      "ru": {
+       "q": "Во многих немецких стартапах и онлайн-сообществах du используют даже в общении с начальством."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5107,15 +5558,25 @@
      "q": "In a German job reference, „Er war stets bemüht“ is high praise.",
      "answer": false,
      "explain_en": "False: it is coded criticism – he tried, but without success.",
-     "explain_ru": "Неверно: это закодированная критика — старался, но безуспешно."
+     "explain_ru": "Неверно: это закодированная критика — старался, но безуспешно.",
+     "ui": {
+      "ru": {
+       "q": "В немецкой характеристике с места работы „Er war stets bemüht“ — высокая похвала."
+      }
+     }
     },
     {
      "id": "e25",
      "type": "tf",
      "q": "„nicht schlecht“ is often an understatement meaning „quite good“.",
      "answer": true,
-     "explain_en": "True: a typical litotes, like Russian неплохо.",
-     "explain_ru": "Верно: типичная литота, как русское «неплохо»."
+     "explain_en": "True: a typical litotes, like English 'not bad' (Russian 'neplokho').",
+     "explain_ru": "Верно: типичная литота, как русское «неплохо».",
+     "ui": {
+      "ru": {
+       "q": "„nicht schlecht“ часто служит преуменьшением со значением «довольно хорошо»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5141,7 +5602,33 @@
        "ein Stück weit",
        "отчасти"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "eigentlich",
+         "actually, really"
+        ],
+        [
+         "gewissermaßen",
+         "in a way, so to speak"
+        ],
+        [
+         "sozusagen",
+         "so to speak"
+        ],
+        [
+         "tendenziell",
+         "on the whole, tending to"
+        ],
+        [
+         "ein Stück weit",
+         "to some extent"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5167,7 +5654,33 @@
        "Wollen wir uns duzen?",
        "предложение перейти на «ты»"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Na toll!",
+         "irony: everything is bad"
+        ],
+        [
+         "Das sehe ich etwas anders.",
+         "polite disagreement"
+        ],
+        [
+         "Wären Sie so freundlich …?",
+         "a very polite request"
+        ],
+        [
+         "nicht ganz unproblematisch",
+         "softened criticism"
+        ],
+        [
+         "Wollen wir uns duzen?",
+         "an offer to switch to du"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5193,7 +5706,33 @@
        "apropos",
        "к слову о"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "übrigens",
+         "by the way"
+        ],
+        [
+         "jedenfalls",
+         "in any case"
+        ],
+        [
+         "wie gesagt",
+         "as I said"
+        ],
+        [
+         "na ja",
+         "well, sort of"
+        ],
+        [
+         "apropos",
+         "speaking of"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5402,7 +5941,12 @@
      ],
      "answer": 1,
      "explain_en": "In writing wegen takes the genitive: wegen des schlechten Wetters.",
-     "explain_ru": "На письме wegen требует генитива: wegen des schlechten Wetters."
+     "explain_ru": "На письме wegen требует генитива: wegen des schlechten Wetters.",
+     "ui": {
+      "ru": {
+       "q": "Какая форма правильна в письменном литературном немецком?"
+      }
+     }
     },
     {
      "id": "e02",
@@ -5528,7 +6072,12 @@
      ],
      "answer": 0,
      "explain_en": "Standard: meinetwegen (deinetwegen, seinetwegen …).",
-     "explain_ru": "Норма: meinetwegen (deinetwegen, seinetwegen …)."
+     "explain_ru": "Норма: meinetwegen (deinetwegen, seinetwegen …).",
+     "ui": {
+      "ru": {
+       "q": "Какая литературная форма употребляется вместо „wegen mir“?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -5675,7 +6224,12 @@
      "q": "In spoken German „weil“ followed by main-clause order is very common, but it is considered wrong in formal writing.",
      "answer": true,
      "explain_en": "True: in writing use weil + verb-final or denn + main-clause order.",
-     "explain_ru": "Верно: на письме используйте weil с глаголом в конце или denn с порядком главного предложения."
+     "explain_ru": "Верно: на письме используйте weil с глаголом в конце или denn с порядком главного предложения.",
+     "ui": {
+      "ru": {
+       "q": "В разговорном немецком „weil“ с порядком слов главного предложения очень распространено, но в официальной письменной речи считается ошибкой."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5683,7 +6237,12 @@
      "q": "„wegen + Dativ“ (wegen dem Wetter) is the recommended form in formal written German.",
      "answer": false,
      "explain_en": "False: formal writing requires the genitive – wegen des Wetters.",
-     "explain_ru": "Неверно: официальный текст требует генитива — wegen des Wetters."
+     "explain_ru": "Неверно: официальный текст требует генитива — wegen des Wetters.",
+     "ui": {
+      "ru": {
+       "q": "„wegen + Dativ“ (wegen dem Wetter) — рекомендуемая форма в официальном письменном немецком."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5691,7 +6250,12 @@
      "q": "Low German did not undergo the High German consonant shift, so it has forms like „Water“ and „maken“.",
      "answer": true,
      "explain_en": "True: compare Wasser, machen in High German.",
-     "explain_ru": "Верно: ср. верхненемецкие Wasser, machen."
+     "explain_ru": "Верно: ср. верхненемецкие Wasser, machen.",
+     "ui": {
+      "ru": {
+       "q": "В нижненемецком не произошло верхненемецкое передвижение согласных, поэтому там есть формы вроде „Water“ и „maken“."
+      }
+     }
     },
     {
      "id": "e26",

@@ -126,7 +126,7 @@
     {
      "title_en": "Como se + imperfeito",
      "title_ru": "Como se + imperfeito",
-     "body_en": "Como se (as if) is always followed by the imperfeito do conjuntivo for simultaneous actions, whatever the tense of the main verb: Fala como se fosse o chefe. Falava como se fosse o chefe. For an earlier action, use the mais-que-perfeito do conjuntivo (see the next section). Russian uses как будто with the indicative.",
+     "body_en": "Como se (as if) is always followed by the imperfeito do conjuntivo for simultaneous actions, whatever the tense of the main verb: Fala como se fosse o chefe. Falava como se fosse o chefe. For an earlier action, use the mais-que-perfeito do conjuntivo (see the next section). Russian uses 'kak budto' (as if) with the indicative.",
      "body_ru": "После como se («как будто») для одновременного действия всегда стоит imperfeito do conjuntivo, каким бы ни было время главного глагола: Fala como se fosse o chefe — Он говорит, как будто он начальник. Falava como se fosse o chefe — Он говорил так же. Для предшествующего действия нужен mais-que-perfeito do conjuntivo (см. следующий раздел). В русском после «как будто» стоит обычное изъявительное наклонение.",
      "examples": [
       {
@@ -172,7 +172,7 @@
     {
      "title_en": "Traps for Russian and Spanish speakers; Brazil",
      "title_ru": "Ловушки для русско- и испаноговорящих; Бразилия",
-     "body_en": "Russian чтобы is always followed by a past form (хочу, чтобы ты пришёл), which tempts learners to write Quero que viesses. Wrong: a present main verb needs Quero que venhas. Spanish has two imperfect subjunctives (-se and -ra); Portuguese only has -sse, and fizera is a different tense (mais-que-perfeito simples). Brazil uses the same rules; relaxed speech in both countries sometimes breaks them, but standard language does not.",
+     "body_en": "Russian 'chtoby' (so that, that) is always followed by a past form ('khochu, chtoby ty prishyol' — I want you to come), which tempts learners to write Quero que viesses. Wrong: a present main verb needs Quero que venhas. Spanish has two imperfect subjunctives (-se and -ra); Portuguese only has -sse, and fizera is a different tense (mais-que-perfeito simples). Brazil uses the same rules; relaxed speech in both countries sometimes breaks them, but standard language does not.",
      "body_ru": "После русского «чтобы» всегда стоит форма прошедшего времени (хочу, чтобы ты пришёл), поэтому так и хочется написать «Quero que viesses». Это ошибка: при главном глаголе в настоящем нужно Quero que venhas. В испанском две формы imperfecto de subjuntivo (-se и -ra), а в португальском только -sse; fizera — это совсем другое время (mais-que-perfeito simples). В Бразилии правила те же; в небрежной речи их иногда нарушают в обеих странах, но норма их строго соблюдает.",
      "examples": [
       {
@@ -477,7 +477,12 @@
      "q": "'Queria que venhas' is correct standard Portuguese.",
      "answer": false,
      "explain_en": "A past main verb requires the imperfeito: Queria que viesses.",
-     "explain_ru": "Главный глагол в прошедшем требует imperfeito: Queria que viesses."
+     "explain_ru": "Главный глагол в прошедшем требует imperfeito: Queria que viesses.",
+     "ui": {
+      "ru": {
+       "q": "«Queria que venhas» — правильный литературный португальский."
+      }
+     }
     },
     {
      "id": "e24",
@@ -485,7 +490,12 @@
      "q": "'Como se' is followed by the imperfeito (or mais-que-perfeito) do conjuntivo, even after a present verb.",
      "answer": true,
      "explain_en": "Fala como se fosse o chefe: como se never takes the present.",
-     "explain_ru": "Fala como se fosse o chefe: после como se настоящее время не употребляется."
+     "explain_ru": "Fala como se fosse o chefe: после como se настоящее время не употребляется.",
+     "ui": {
+      "ru": {
+       "q": "После «como se» употребляется imperfeito (или mais-que-perfeito) do conjuntivo, даже если главный глагол стоит в настоящем времени."
+      }
+     }
     },
     {
      "id": "e25",
@@ -493,7 +503,12 @@
      "q": "In Portuguese, 'fizera' is a form of the imperfeito do conjuntivo, like Spanish 'hiciera'.",
      "answer": false,
      "explain_en": "Fizera is the mais-que-perfeito simples do indicativo; the imperfeito do conjuntivo is fizesse.",
-     "explain_ru": "Fizera — это mais-que-perfeito simples do indicativo; imperfeito do conjuntivo — fizesse."
+     "explain_ru": "Fizera — это mais-que-perfeito simples do indicativo; imperfeito do conjuntivo — fizesse.",
+     "ui": {
+      "ru": {
+       "q": "В португальском «fizera» — форма imperfeito do conjuntivo, как испанское «hiciera»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -563,7 +578,29 @@
        "надеюсь, ты отдохнул",
        "espero que tenhas descansado"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "I wanted you to come",
+         "queria que viesses"
+        ],
+        [
+         "I want you to come",
+         "quero que venhas"
+        ],
+        [
+         "as if he knew",
+         "como se ele soubesse"
+        ],
+        [
+         "I hope you've rested",
+         "espero que tenhas descansado"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -600,7 +637,7 @@
     {
      "title_en": "Unreal conditions in the past",
      "title_ru": "Нереальное условие в прошлом",
-     "body_en": "To talk about a past that did not happen, use se + mais-que-perfeito do conjuntivo in the if-clause and the condicional composto (teria + participle) in the result: Se tivesse sabido, teria vindo. Russian если бы я знал covers both present and past; Portuguese distinguishes se soubesse (now) from se tivesse sabido (then).",
+     "body_en": "To talk about a past that did not happen, use se + mais-que-perfeito do conjuntivo in the if-clause and the condicional composto (teria + participle) in the result: Se tivesse sabido, teria vindo. Russian 'esli by ya znal' covers both 'if I knew' and 'if I had known'; Portuguese distinguishes se soubesse (now) from se tivesse sabido (then).",
      "body_ru": "Чтобы говорить о прошлом, которое не случилось, в условной части используется se + mais-que-perfeito do conjuntivo, а в главной — condicional composto (teria + причастие): Se tivesse sabido, teria vindo — Если бы я знал, я бы пришёл. Русское «если бы я знал» относится и к настоящему, и к прошлому, а португальский их различает: se soubesse (сейчас) и se tivesse sabido (тогда).",
      "examples": [
       {
@@ -715,7 +752,7 @@
     {
      "title_en": "Without se: não fosse…",
      "title_ru": "Без se: não fosse…",
-     "body_en": "Não fosse + noun (or se não fosse) means 'if it were not for, but for': Não fosse a tua ajuda, teríamos perdido tudo. For the past you may also say se não tivesse sido. In formal and literary style the conjuntivo can open the clause without se: Tivesse eu sabido, nunca teria aceitado. Russian has a close equivalent: если бы не…, не будь…",
+     "body_en": "Não fosse + noun (or se não fosse) means 'if it were not for, but for': Não fosse a tua ajuda, teríamos perdido tudo. For the past you may also say se não tivesse sido. In formal and literary style the conjuntivo can open the clause without se: Tivesse eu sabido, nunca teria aceitado. Russian has a close equivalent: 'esli by ne…', 'ne bud'…' (if it weren't for…).",
      "body_ru": "Não fosse + существительное (или se não fosse) значит «если бы не…»: Não fosse a tua ajuda, teríamos perdido tudo — Если бы не твоя помощь, мы бы всё потеряли. О прошлом можно сказать и se não tivesse sido. В книжном стиле conjuntivo может начинать предложение без se: Tivesse eu sabido, nunca teria aceitado — Знай я это, никогда бы не согласился. Сравните с русским «не будь…».",
      "examples": [
       {
@@ -1053,7 +1090,12 @@
      "q": "'Se eu tivesse sabido, tinha vindo' is common and accepted in spoken European Portuguese.",
      "answer": true,
      "explain_en": "Tinha + participle often replaces teria + participle in speech.",
-     "explain_ru": "В устной речи tinha + причастие часто заменяет teria + причастие."
+     "explain_ru": "В устной речи tinha + причастие часто заменяет teria + причастие.",
+     "ui": {
+      "ru": {
+       "q": "«Se eu tivesse sabido, tinha vindo» — распространённая и допустимая конструкция в разговорном европейском португальском."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1061,7 +1103,15 @@
      "q": "Russian 'если бы я знал (тогда)' is translated as 'se eu soubesse'.",
      "answer": false,
      "explain_en": "About the past Portuguese needs se eu tivesse sabido; se eu soubesse refers to now.",
-     "explain_ru": "О прошлом нужно se eu tivesse sabido; se eu soubesse относится к настоящему."
+     "explain_ru": "О прошлом нужно se eu tivesse sabido; se eu soubesse относится к настоящему.",
+     "ui": {
+      "en": {
+       "q": "Russian 'esli by ya znal (togda)', i.e. 'if I had known (back then)', is translated as 'se eu soubesse'."
+      },
+      "ru": {
+       "q": "Русское «если бы я знал (тогда)» переводится как «se eu soubesse»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1069,7 +1119,12 @@
      "q": "'Se tiveres acabado' (futuro composto do conjuntivo) describes an unreal past situation.",
      "answer": false,
      "explain_en": "It is a real future condition; the unreal past is se tivesses acabado.",
-     "explain_ru": "Это реальное условие в будущем; нереальное прошлое — se tivesses acabado."
+     "explain_ru": "Это реальное условие в будущем; нереальное прошлое — se tivesses acabado.",
+     "ui": {
+      "ru": {
+       "q": "«Se tiveres acabado» (futuro composto do conjuntivo) описывает нереальную ситуацию в прошлом."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1135,7 +1190,29 @@
        "как будто ничего не случилось",
        "como se nada tivesse acontecido"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "if I had known (back then)",
+         "se tivesse sabido"
+        ],
+        [
+         "if I knew (now)",
+         "se soubesse"
+        ],
+        [
+         "if it weren't for him",
+         "não fosse ele"
+        ],
+        [
+         "as if nothing had happened",
+         "como se nada tivesse acontecido"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1149,7 +1226,7 @@
     {
      "title_en": "Real or hypothetical antecedent",
      "title_ru": "Реальный или гипотетический предмет",
-     "body_en": "The mood in a relative clause depends on whether you are talking about something that exists and is known. Conheço alguém que sabe alemão (a real person: indicative). Procuro alguém que saiba alemão (anyone, I don't know who: conjuntivo). Russian often marks this with бы: ищу человека, который бы знал немецкий.",
+     "body_en": "The mood in a relative clause depends on whether you are talking about something that exists and is known. Conheço alguém que sabe alemão (a real person: indicative). Procuro alguém que saiba alemão (anyone, I don't know who: conjuntivo). Russian often marks this with the particle 'by' (I'm looking for someone who would know German).",
      "body_ru": "Наклонение в определительном придаточном зависит от того, говорим ли мы о чём-то существующем и известном. Conheço alguém que sabe alemão — Я знаю человека, который говорит по-немецки (реальный человек: изъявительное). Procuro alguém que saiba alemão — Я ищу кого-нибудь, кто знает немецкий (любого, неизвестно кого: conjuntivo). По-русски это иногда передаётся частицей «бы»: ищу человека, который бы знал немецкий.",
      "examples": [
       {
@@ -1287,7 +1364,7 @@
     {
      "title_en": "Quem quer que, o que quer que, onde quer que",
      "title_ru": "Quem quer que, o que quer que, onde quer que",
-     "body_en": "The '-ever' words are built with quer que and always take the conjuntivo: quem quer que (whoever), o que quer que (whatever), onde quer que (wherever), quando quer que (whenever), como quer que (however). Quem quer que seja, não abras a porta. Onde quer que vás, leva o passaporte. They match Russian кто бы ни, что бы ни, где бы ни.",
+     "body_en": "The '-ever' words are built with quer que and always take the conjuntivo: quem quer que (whoever), o que quer que (whatever), onde quer que (wherever), quando quer que (whenever), como quer que (however). Quem quer que seja, não abras a porta. Onde quer que vás, leva o passaporte. They match the Russian 'kto by ni', 'chto by ni', 'gde by ni' (whoever, whatever, wherever).",
      "body_ru": "Слова со значением «какой бы ни» строятся с quer que и всегда требуют conjuntivo: quem quer que — кто бы ни, o que quer que — что бы ни, onde quer que — где бы ни, quando quer que — когда бы ни, como quer que — как бы ни. Quem quer que seja, não abras a porta — Кто бы это ни был, не открывай дверь. Onde quer que vás, leva o passaporte — Куда бы ты ни поехал, бери паспорт. Русское «бы ни» — хорошая подсказка: оно указывает на conjuntivo.",
      "examples": [
       {
@@ -1620,15 +1697,28 @@
      "q": "'Tenho um colega que saiba japonês' is correct, because the colleague is a real, known person.",
      "answer": false,
      "explain_en": "A real, known antecedent takes the indicative: que sabe japonês.",
-     "explain_ru": "Реальный, известный человек требует изъявительного: que sabe japonês."
+     "explain_ru": "Реальный, известный человек требует изъявительного: que sabe japonês.",
+     "ui": {
+      "ru": {
+       "q": "«Tenho um colega que saiba japonês» — правильно, потому что коллега — реальный, известный человек."
+      }
+     }
     },
     {
      "id": "e24",
      "type": "tf",
      "q": "Russian 'кто бы ни' corresponds to Portuguese 'quem quer que' + conjuntivo.",
      "answer": true,
-     "explain_en": "Quem quer que seja = кто бы это ни был.",
-     "explain_ru": "Quem quer que seja = кто бы это ни был."
+     "explain_en": "Quem quer que seja = whoever it may be.",
+     "explain_ru": "Quem quer que seja = кто бы это ни был.",
+     "ui": {
+      "en": {
+       "q": "Russian 'kto by ni' (whoever) corresponds to Portuguese 'quem quer que' + conjuntivo."
+      },
+      "ru": {
+       "q": "Русскому «кто бы ни» соответствует португальское «quem quer que» + conjuntivo."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1636,7 +1726,12 @@
      "q": "'Qualquer que seja' has the plural form 'quaisquer que sejam'.",
      "answer": true,
      "explain_en": "Quaisquer que sejam os motivos.",
-     "explain_ru": "Quaisquer que sejam os motivos — какими бы ни были причины."
+     "explain_ru": "Quaisquer que sejam os motivos — какими бы ни были причины.",
+     "ui": {
+      "ru": {
+       "q": "У «qualquer que seja» есть форма множественного числа «quaisquer que sejam»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1662,7 +1757,33 @@
        "como quer que",
        "как бы ни"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "quem quer que",
+         "whoever"
+        ],
+        [
+         "o que quer que",
+         "whatever"
+        ],
+        [
+         "onde quer que",
+         "wherever"
+        ],
+        [
+         "quando quer que",
+         "whenever"
+        ],
+        [
+         "como quer que",
+         "however"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1706,7 +1827,29 @@
        "Qualquer que seja a razão…",
        "Какова бы ни была причина…"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Há alguém que fale inglês?",
+         "Does anyone speak English?"
+        ],
+        [
+         "Não há nada que eu possa fazer.",
+         "There's nothing I can do."
+        ],
+        [
+         "Não há quem o aguente.",
+         "Nobody can stand him."
+        ],
+        [
+         "Qualquer que seja a razão…",
+         "Whatever the reason may be…"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2182,7 +2325,12 @@
      "q": "'Darei-te' is a correct form in European Portuguese.",
      "answer": false,
      "explain_en": "With the future the pronoun goes inside: dar-te-ei (or before it after a trigger: não te darei).",
-     "explain_ru": "В будущем времени местоимение ставится внутрь: dar-te-ei (или перед глаголом после «притягивающего» слова: não te darei)."
+     "explain_ru": "В будущем времени местоимение ставится внутрь: dar-te-ei (или перед глаголом после «притягивающего» слова: não te darei).",
+     "ui": {
+      "ru": {
+       "q": "«Darei-te» — правильная форма в европейском португальском."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2190,7 +2338,12 @@
      "q": "After 'não', the pronoun goes before the future verb: 'Não te darei'.",
      "answer": true,
      "explain_en": "Não is a trigger, so there is no mesoclisis.",
-     "explain_ru": "Não «притягивает» местоимение, поэтому мезоклизы нет."
+     "explain_ru": "Não «притягивает» местоимение, поэтому мезоклизы нет.",
+     "ui": {
+      "ru": {
+       "q": "После «não» местоимение ставится перед глаголом в будущем времени: «Não te darei»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2198,7 +2351,12 @@
      "q": "In everyday Brazilian speech mesoclisis is very common.",
      "answer": false,
      "explain_en": "Brazilians use proclisis: te darei, vou te dar.",
-     "explain_ru": "Бразильцы используют проклизу: te darei, vou te dar."
+     "explain_ru": "Бразильцы используют проклизу: te darei, vou te dar.",
+     "ui": {
+      "ru": {
+       "q": "В повседневной бразильской речи мезоклиза очень распространена."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2268,7 +2426,29 @@
        "Ver-nos-emos amanhã.",
        "Увидимся завтра."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Dir-se-ia que…",
+         "One would say that…"
+        ],
+        [
+         "Far-se-á tudo.",
+         "Everything will be done."
+        ],
+        [
+         "Não te direi.",
+         "I won't tell you."
+        ],
+        [
+         "Ver-nos-emos amanhã.",
+         "We'll see each other tomorrow."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2282,7 +2462,7 @@
     {
      "title_en": "Andar a + infinitive",
      "title_ru": "Andar a + инфинитив",
-     "body_en": "Andar a + infinitive describes an activity that has been going on repeatedly or over a period lately, not necessarily at this very moment: Ando a ler um livro muito bom. Ultimamente ando a dormir mal. Compare estar a + infinitive (right now): Estou a ler. Russian uses the imperfective with в последнее время.",
+     "body_en": "Andar a + infinitive describes an activity that has been going on repeatedly or over a period lately, not necessarily at this very moment: Ando a ler um livro muito bom. Ultimamente ando a dormir mal. Compare estar a + infinitive (right now): Estou a ler. Russian uses the imperfective with 'v posledneye vremya' (lately).",
      "body_ru": "Andar a + инфинитив описывает действие, которое повторяется или длится в последнее время, но не обязательно прямо сейчас: Ando a ler um livro muito bom — Я сейчас (в эти дни) читаю очень хорошую книгу. Ultimamente ando a dormir mal — В последнее время я плохо сплю. Сравните estar a + инфинитив — прямо сейчас: Estou a ler. В русском здесь несовершенный вид со словами «в последнее время».",
      "examples": [
       {
@@ -2305,7 +2485,7 @@
     {
      "title_en": "Ficar a and continuar a",
      "title_ru": "Ficar a и continuar a",
-     "body_en": "Ficar a + infinitive means to stay doing something for a while, often longer than planned: Ficámos a conversar até às três. Continuar a + infinitive means to go on doing: Continua a chover. Ele continua a trabalhar no banco. Russian often uses prefixes here: засиделись, продолжает.",
+     "body_en": "Ficar a + infinitive means to stay doing something for a while, often longer than planned: Ficámos a conversar até às três. Continuar a + infinitive means to go on doing: Continua a chover. Ele continua a trabalhar no banco. Russian often uses verbal prefixes for these meanings instead.",
      "body_ru": "Ficar a + инфинитив значит «остаться и делать что-то какое-то время», часто дольше, чем собирались: Ficámos a conversar até às três — Мы проговорили до трёх часов. Continuar a + инфинитив — продолжать что-то делать: Continua a chover — Всё ещё идёт дождь. Ele continua a trabalhar no banco — Он по-прежнему работает в банке. В русском тут часто помогают приставки: засиделись, проговорили.",
      "examples": [
       {
@@ -2374,7 +2554,7 @@
     {
      "title_en": "Voltar a and tornar a: again",
      "title_ru": "Voltar a и tornar a: снова",
-     "body_en": "Voltar a + infinitive (more formally tornar a) means to do something again: Voltei a ver o filme. Tornou a ligar. With nunca mais it means 'never again': Nunca mais voltei a vê-lo. Portuguese prefers this to adding outra vez, although both are correct. Russian uses снова or a prefix: перечитать = voltar a ler.",
+     "body_en": "Voltar a + infinitive (more formally tornar a) means to do something again: Voltei a ver o filme. Tornou a ligar. With nunca mais it means 'never again': Nunca mais voltei a vê-lo. Portuguese prefers this to adding outra vez, although both are correct. Russian uses 'snova' (again) or a prefix ('pere-': to reread = voltar a ler).",
      "body_ru": "Voltar a + инфинитив (в более книжном стиле tornar a) значит «сделать что-то снова»: Voltei a ver o filme — Я пересмотрел фильм. Tornou a ligar — Он снова позвонил. С nunca mais — «больше никогда»: Nunca mais voltei a vê-lo — Больше я его никогда не видел. Португальский предпочитает эту конструкцию добавлению outra vez, хотя правильно и то и другое. В русском — «снова» или приставка: перечитать = voltar a ler.",
      "examples": [
       {
@@ -2420,7 +2600,7 @@
     {
      "title_en": "Vir a and passar a",
      "title_ru": "Vir a и passar a",
-     "body_en": "Vir a + infinitive means 'eventually, later on': Veio a saber a verdade anos depois. O jovem pintor viria a ser famoso (would later become). Passar a + infinitive marks a new habit from a certain point: Desde janeiro passei a trabalhar em casa. Russian expresses these with со временем and стал + infinitive.",
+     "body_en": "Vir a + infinitive means 'eventually, later on': Veio a saber a verdade anos depois. O jovem pintor viria a ser famoso (would later become). Passar a + infinitive marks a new habit from a certain point: Desde janeiro passei a trabalhar em casa. Russian expresses these with 'so vremenem' (eventually) and 'stal' (began) + infinitive.",
      "body_ru": "Vir a + инфинитив значит «со временем, впоследствии»: Veio a saber a verdade anos depois — Правду он узнал лишь годы спустя. O jovem pintor viria a ser famoso — Молодому художнику предстояло прославиться. Passar a + инфинитив обозначает новую привычку с какого-то момента: Desde janeiro passei a trabalhar em casa — С января я стал работать дома. В русском это «со временем», «впоследствии» и «стал + инфинитив».",
      "examples": [
       {
@@ -2773,7 +2953,12 @@
      "q": "'Acabei de chegar' means 'I have just arrived'.",
      "answer": true,
      "explain_en": "Acabar de in the perfeito = to have just done.",
-     "explain_ru": "Acabar de в perfeito = только что сделать."
+     "explain_ru": "Acabar de в perfeito = только что сделать.",
+     "ui": {
+      "ru": {
+       "q": "«Acabei de chegar» означает «я только что пришёл»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2781,7 +2966,12 @@
      "q": "'Deixar de fumar' means 'to let someone smoke'.",
      "answer": false,
      "explain_en": "Deixar de = to stop; 'to let' is deixar + infinitive without de.",
-     "explain_ru": "Deixar de = перестать; «позволить» — deixar + инфинитив без de."
+     "explain_ru": "Deixar de = перестать; «позволить» — deixar + инфинитив без de.",
+     "ui": {
+      "ru": {
+       "q": "«Deixar de fumar» означает «разрешить кому-то курить»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2789,7 +2979,12 @@
      "q": "Brazilian 'Ando lendo muito' corresponds to Portugal's 'Ando a ler muito'.",
      "answer": true,
      "explain_en": "Brazil uses the gerund where Portugal uses a + infinitive.",
-     "explain_ru": "В Бразилии употребляют герундий там, где в Португалии a + инфинитив."
+     "explain_ru": "В Бразилии употребляют герундий там, где в Португалии a + инфинитив.",
+     "ui": {
+      "ru": {
+       "q": "Бразильскому «Ando lendo muito» соответствует португальское «Ando a ler muito»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2819,7 +3014,37 @@
        "vir a",
        "со временем, впоследствии"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "andar a",
+         "lately, repeatedly"
+        ],
+        [
+         "acabar de",
+         "to have just"
+        ],
+        [
+         "deixar de",
+         "to stop"
+        ],
+        [
+         "voltar a",
+         "again"
+        ],
+        [
+         "chegar a",
+         "to go as far as"
+        ],
+        [
+         "vir a",
+         "eventually, later on"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2863,7 +3088,29 @@
        "passou a viver sozinho",
        "стал жить один"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "acabou por aceitar",
+         "eventually agreed"
+        ],
+        [
+         "não deixes de ligar",
+         "be sure to call"
+        ],
+        [
+         "esteve para desistir",
+         "almost gave up"
+        ],
+        [
+         "passou a viver sozinho",
+         "started living alone"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2900,7 +3147,7 @@
     {
      "title_en": "Finished before a future moment",
      "title_ru": "Завершится к моменту в будущем",
-     "body_en": "Its first use is an action that will be completed before a point in the future: Às oito já terei acabado. Quando chegares, já teremos jantado. Até ao fim do ano terão construído a ponte. In everyday speech Portuguese often simplifies this with the perfeito: Quando chegares, já jantámos. Russian uses the perfective future: к восьми я закончу.",
+     "body_en": "Its first use is an action that will be completed before a point in the future: Às oito já terei acabado. Quando chegares, já teremos jantado. Até ao fim do ano terão construído a ponte. In everyday speech Portuguese often simplifies this with the perfeito: Quando chegares, já jantámos. Russian simply uses the perfective future ('I will finish by eight').",
      "body_ru": "Первое значение — действие, которое завершится к определённому моменту в будущем: Às oito já terei acabado — К восьми я уже закончу. Quando chegares, já teremos jantado — Когда ты придёшь, мы уже поужинаем. Até ao fim do ano terão construído a ponte — К концу года мост построят. В разговорной речи это часто упрощают с помощью perfeito: Quando chegares, já jantámos. В русском здесь будущее совершенного вида: «к восьми я закончу».",
      "examples": [
       {
@@ -2923,7 +3170,7 @@
     {
      "title_en": "Guessing about the past: terá sido?",
      "title_ru": "Догадки о прошлом: terá sido?",
-     "body_en": "The futuro composto also expresses a guess or a wondering question about the past, like the futuro simples does about the present: O João ainda não chegou. Terá perdido o comboio? Onde terá ele posto as chaves? Quem terá sido? Russian uses наверное, интересно or неужели for this.",
+     "body_en": "The futuro composto also expresses a guess or a wondering question about the past, like the futuro simples does about the present: O João ainda não chegou. Terá perdido o comboio? Onde terá ele posto as chaves? Quem terá sido? Russian uses words like 'navernoye' (probably), 'interesno' (I wonder) or 'neuzheli' (can it really be) for this.",
      "body_ru": "Futuro composto выражает и предположение или вопрос-размышление о прошлом — так же, как futuro simples о настоящем: O João ainda não chegou. Terá perdido o comboio? — Жуан ещё не пришёл. Может, опоздал на поезд? Onde terá ele posto as chaves? — Куда же он положил ключи? Quem terá sido? — Кто бы это мог быть? В русском для этого служат слова «наверное», «интересно», «неужели».",
      "examples": [
       {
@@ -3038,7 +3285,7 @@
     {
      "title_en": "News reports: terá (Portugal) vs teria (Brazil)",
      "title_ru": "Новости: terá (Португалия) и teria (Бразилия)",
-     "body_en": "Journalists use these tenses for unconfirmed information. Portuguese media prefer the future: O suspeito terá fugido para Espanha (allegedly fled). Brazilian media prefer the condicional: O suspeito teria fugido para a Espanha. Russian uses якобы or по некоторым данным. Do not read terá fugido as a future here.",
+     "body_en": "Journalists use these tenses for unconfirmed information. Portuguese media prefer the future: O suspeito terá fugido para Espanha (allegedly fled). Brazilian media prefer the condicional: O suspeito teria fugido para a Espanha. Russian uses 'yakoby' (allegedly) or 'according to some reports'. Do not read terá fugido as a future here.",
      "body_ru": "Журналисты используют эти времена для неподтверждённой информации. Португальские СМИ предпочитают будущее время: O suspeito terá fugido para Espanha — Подозреваемый, по имеющимся данным, бежал в Испанию. Бразильские СМИ — condicional: O suspeito teria fugido para a Espanha. В русском здесь «якобы» или «по некоторым данным». Не воспринимайте terá fugido в таком контексте как будущее время.",
      "examples": [
       {
@@ -3348,7 +3595,12 @@
      "q": "'Deve ter saído' expresses an obligation: 'he had to leave'.",
      "answer": false,
      "explain_en": "It expresses probability: he must have left.",
-     "explain_ru": "Это предположение: он, должно быть, ушёл."
+     "explain_ru": "Это предположение: он, должно быть, ушёл.",
+     "ui": {
+      "ru": {
+       "q": "«Deve ter saído» выражает обязанность: «он должен был уйти»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3356,7 +3608,12 @@
      "q": "In Portuguese newspapers 'O suspeito terá fugido' means that the suspect has allegedly fled.",
      "answer": true,
      "explain_en": "The futuro composto marks unconfirmed information.",
-     "explain_ru": "Futuro composto обозначает неподтверждённую информацию."
+     "explain_ru": "Futuro composto обозначает неподтверждённую информацию.",
+     "ui": {
+      "ru": {
+       "q": "В португальских газетах «O suspeito terá fugido» означает, что подозреваемый якобы сбежал."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3364,7 +3621,12 @@
      "q": "'Pode ter saído' expresses more certainty than 'tem de ter saído'.",
      "answer": false,
      "explain_en": "Tem de ter saído is the most certain; pode ter saído only says it is possible.",
-     "explain_ru": "Tem de ter saído — максимальная уверенность; pode ter saído — лишь возможность."
+     "explain_ru": "Tem de ter saído — максимальная уверенность; pode ter saído — лишь возможность.",
+     "ui": {
+      "ru": {
+       "q": "«Pode ter saído» выражает большую уверенность, чем «tem de ter saído»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3386,7 +3648,29 @@
        "não pode ter saído",
        "не мог уйти"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "tem de ter saído",
+         "must have left"
+        ],
+        [
+         "deve ter saído",
+         "probably left"
+        ],
+        [
+         "pode ter saído",
+         "may have left"
+        ],
+        [
+         "não pode ter saído",
+         "can't have left"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3430,7 +3714,29 @@
        "Teria gostado de ir.",
        "Я бы с удовольствием пошёл."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Terá sido ele?",
+         "Could it have been him?"
+        ],
+        [
+         "Seriam três horas.",
+         "It must have been about three o'clock."
+        ],
+        [
+         "Terei acabado às oito.",
+         "I'll have finished by eight."
+        ],
+        [
+         "Teria gostado de ir.",
+         "I would have liked to go."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3444,7 +3750,7 @@
     {
      "title_en": "Ainda que and mesmo que",
      "title_ru": "Ainda que и mesmo que",
-     "body_en": "Ainda que and mesmo que mean 'even if, even though' and always take the conjuntivo, even when the fact is real: Mesmo que chova, vamos sair. Ainda que esteja cansado, vou contigo. Embora (B1) is close in meaning but presents the fact as true; mesmo que often sounds more hypothetical. Russian: даже если, хотя бы и.",
+     "body_en": "Ainda que and mesmo que mean 'even if, even though' and always take the conjuntivo, even when the fact is real: Mesmo que chova, vamos sair. Ainda que esteja cansado, vou contigo. Embora (B1) is close in meaning but presents the fact as true; mesmo que often sounds more hypothetical. Russian: 'dazhe esli' (even if).",
      "body_ru": "Ainda que и mesmo que значат «даже если, хотя» и всегда требуют conjuntivo, даже когда речь идёт о реальном факте: Mesmo que chova, vamos sair — Даже если пойдёт дождь, мы пойдём гулять. Ainda que esteja cansado, vou contigo — Хоть я и устал, я пойду с тобой. Embora (уровень B1) близок по смыслу, но подаёт факт как данность; mesmo que чаще звучит гипотетически. По-русски: «даже если», «хотя бы и».",
      "examples": [
       {
@@ -3605,7 +3911,7 @@
     {
      "title_en": "Choosing the right word; Brazil",
      "title_ru": "Как выбрать союз; Бразилия",
-     "body_en": "Se + futuro do conjuntivo is the neutral future condition (Se precisares). Caso + presente sounds a little more cautious (Caso precises). Desde que and contanto que set a requirement. In Brazil the system is the same; contanto que sounds formal there too, and colloquial Brazilian 'se caso' (se caso você precisar) is considered redundant. Russian has fewer options: если, при условии что, даже если.",
+     "body_en": "Se + futuro do conjuntivo is the neutral future condition (Se precisares). Caso + presente sounds a little more cautious (Caso precises). Desde que and contanto que set a requirement. In Brazil the system is the same; contanto que sounds formal there too, and colloquial Brazilian 'se caso' (se caso você precisar) is considered redundant. Russian has fewer options: 'if', 'provided that', 'even if'.",
      "body_ru": "Se + futuro do conjuntivo — нейтральное условие в будущем (Se precisares). Caso + presente звучит чуть осторожнее (Caso precises). Desde que и contanto que выдвигают требование. В Бразилии система та же; contanto que и там звучит книжно, а разговорное бразильское «se caso» (se caso você precisar) считается избыточным. В русском выбор меньше: «если», «при условии что», «даже если».",
      "examples": [
       {
@@ -3909,7 +4215,12 @@
      "q": "'Caso houver problemas' is correct standard Portuguese.",
      "answer": false,
      "explain_en": "Caso takes the presente or imperfeito do conjuntivo: caso haja problemas.",
-     "explain_ru": "После caso нужен presente или imperfeito do conjuntivo: caso haja problemas."
+     "explain_ru": "После caso нужен presente или imperfeito do conjuntivo: caso haja problemas.",
+     "ui": {
+      "ru": {
+       "q": "«Caso houver problemas» — правильный литературный португальский."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3917,7 +4228,12 @@
      "q": "'Desde que' + conjuntivo means 'provided that', while 'desde que' + indicative means 'since'.",
      "answer": true,
      "explain_en": "The mood distinguishes condition from time.",
-     "explain_ru": "Наклонение различает условие и время."
+     "explain_ru": "Наклонение различает условие и время.",
+     "ui": {
+      "ru": {
+       "q": "«Desde que» + conjuntivo означает «при условии, что», а «desde que» + изъявительное наклонение — «с тех пор как»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3925,7 +4241,12 @@
      "q": "'Mesmo que' takes the indicative when the fact is real.",
      "answer": false,
      "explain_en": "Mesmo que always takes the conjuntivo.",
-     "explain_ru": "После mesmo que всегда conjuntivo."
+     "explain_ru": "После mesmo que всегда conjuntivo.",
+     "ui": {
+      "ru": {
+       "q": "После «mesmo que» употребляется изъявительное наклонение, если факт реальный."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3951,7 +4272,33 @@
        "apesar de",
        "несмотря на"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "mesmo que",
+         "even if"
+        ],
+        [
+         "desde que (+ conjuntivo)",
+         "provided that"
+        ],
+        [
+         "caso",
+         "in case"
+        ],
+        [
+         "quer … quer",
+         "whether … or"
+        ],
+        [
+         "apesar de",
+         "despite"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4170,7 +4517,7 @@
     {
      "title_en": "Causative and perception verbs",
      "title_ru": "Глаголы побуждения и восприятия",
-     "body_en": "After mandar, deixar, fazer, ver and ouvir, an object pronoun + plain infinitive is the most natural choice: Mandei-os entrar. Vi-os sair. Deixa-me ver. With a noun, both the plain and the personal infinitive are found: Vi os miúdos sair / saírem. Que + conjuntivo is possible after mandar and deixar: Mandei que entrassem. Russian uses велел войти, видел, как они выходили.",
+     "body_en": "After mandar, deixar, fazer, ver and ouvir, an object pronoun + plain infinitive is the most natural choice: Mandei-os entrar. Vi-os sair. Deixa-me ver. With a noun, both the plain and the personal infinitive are found: Vi os miúdos sair / saírem. Que + conjuntivo is possible after mandar and deixar: Mandei que entrassem. Russian says 'told them to come in', 'saw how they were leaving'.",
      "body_ru": "После mandar, deixar, fazer, ver и ouvir естественнее всего местоимение-дополнение + простой инфинитив: Mandei-os entrar — Я велел им войти. Vi-os sair — Я видел, как они выходили. Deixa-me ver — Дай посмотреть. С существительным встречаются оба инфинитива: Vi os miúdos sair / saírem. После mandar и deixar возможно и que + conjuntivo: Mandei que entrassem. В русском: «велел войти», «видел, как они выходили».",
      "examples": [
       {
@@ -4474,7 +4821,12 @@
      "q": "'Quero vires comigo' is a correct alternative to 'Quero que venhas comigo'.",
      "answer": false,
      "explain_en": "Querer with a different subject only allows que + conjuntivo.",
-     "explain_ru": "Querer при другом подлежащем допускает только que + conjuntivo."
+     "explain_ru": "Querer при другом подлежащем допускает только que + conjuntivo.",
+     "ui": {
+      "ru": {
+       "q": "«Quero vires comigo» — правильная альтернатива «Quero que venhas comigo»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4482,7 +4834,12 @@
      "q": "The personal infinitive does not change with the sequence of tenses: 'para lermos' works after both present and past main verbs.",
      "answer": true,
      "explain_en": "Dá-nos / Deu-nos o texto para lermos.",
-     "explain_ru": "Dá-nos / Deu-nos o texto para lermos — форма одна и та же."
+     "explain_ru": "Dá-nos / Deu-nos o texto para lermos — форма одна и та же.",
+     "ui": {
+      "ru": {
+       "q": "Личный инфинитив не зависит от согласования времён: «para lermos» подходит и после настоящего, и после прошедшего времени главного глагола."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4490,7 +4847,12 @@
      "q": "'Embora' can be followed by the personal infinitive: 'embora estarem cansados'.",
      "answer": false,
      "explain_en": "Embora needs the conjuntivo; use apesar de estarem cansados.",
-     "explain_ru": "После embora нужен conjuntivo; с инфинитивом — apesar de estarem cansados."
+     "explain_ru": "После embora нужен conjuntivo; с инфинитивом — apesar de estarem cansados.",
+     "ui": {
+      "ru": {
+       "q": "После «embora» может стоять личный инфинитив: «embora estarem cansados»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4538,7 +4900,29 @@
        "Pedi-lhes que viessem.",
        "Я попросил их прийти."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "É bom teres vindo.",
+         "It's good that you came."
+        ],
+        [
+         "Lamento teres de ir.",
+         "I'm sorry you have to go."
+        ],
+        [
+         "Quero que venhas.",
+         "I want you to come."
+        ],
+        [
+         "Pedi-lhes que viessem.",
+         "I asked them to come."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4597,7 +4981,7 @@
     {
      "title_en": "Time",
      "title_ru": "Время",
-     "body_en": "A gerund clause at the beginning of a sentence often means 'when, as soon as': Chegando a casa, tomou um duche = Quando chegou a casa / Ao chegar a casa. Russian uses a деепричастие: придя домой. In everyday Portuguese speech ao + infinitive is more common than the gerund for this meaning.",
+     "body_en": "A gerund clause at the beginning of a sentence often means 'when, as soon as': Chegando a casa, tomou um duche = Quando chegou a casa / Ao chegar a casa. Russian uses an adverbial participle here ('having come home'). In everyday Portuguese speech ao + infinitive is more common than the gerund for this meaning.",
      "body_ru": "Оборот с герундием в начале предложения часто значит «когда, как только»: Chegando a casa, tomou um duche = Quando chegou a casa / Ao chegar a casa — Придя домой, он принял душ. В русском здесь деепричастие. В повседневной португальской речи для этого значения чаще используют ao + инфинитив, чем герундий.",
      "examples": [
       {
@@ -4620,7 +5004,7 @@
     {
      "title_en": "Cause",
      "title_ru": "Причина",
-     "body_en": "The gerund can give the reason for the main action: Estando doente, não foi trabalhar = Como estava doente. Não tendo dinheiro, ficámos em casa. Sendo assim, vamos adiar a reunião (That being the case…). Russian: будучи больным, не имея денег.",
+     "body_en": "The gerund can give the reason for the main action: Estando doente, não foi trabalhar = Como estava doente. Não tendo dinheiro, ficámos em casa. Sendo assim, vamos adiar a reunião (That being the case…). Russian uses adverbial participles in the same way ('being ill', 'not having money').",
      "body_ru": "Герундий может выражать причину: Estando doente, não foi trabalhar = Como estava doente — Будучи больным, он не пошёл на работу. Não tendo dinheiro, ficámos em casa — Не имея денег, мы остались дома. Sendo assim, vamos adiar a reunião — В таком случае давайте перенесём совещание. Сравните с русскими «будучи больным», «не имея денег».",
      "examples": [
       {
@@ -4666,7 +5050,7 @@
     {
      "title_en": "Manner and accompanying action",
      "title_ru": "Образ действия и сопутствующее действие",
-     "body_en": "To say how something is done, the gerund comes after the verb: Entrou sorrindo. Ela saiu, batendo a porta. With verbs of movement, Portugal prefers a + infinitive: Saiu a correr, Veio a cantar. Brazil uses the gerund: saiu correndo. Russian uses a деепричастие or an adverb: вышла, хлопнув дверью; выбежал.",
+     "body_en": "To say how something is done, the gerund comes after the verb: Entrou sorrindo. Ela saiu, batendo a porta. With verbs of movement, Portugal prefers a + infinitive: Saiu a correr, Veio a cantar. Brazil uses the gerund: saiu correndo. Russian uses an adverbial participle or an adverb ('she left, slamming the door'; 'he ran out').",
      "body_ru": "Чтобы сказать, как совершается действие, герундий ставят после глагола: Entrou sorrindo — Он вошёл, улыбаясь. Ela saiu, batendo a porta — Она вышла, хлопнув дверью. С глаголами движения в Португалии предпочитают a + инфинитив: Saiu a correr — Он выбежал, Veio a cantar — Он пришёл, напевая. В Бразилии — герундий: saiu correndo. В русском — деепричастие или наречие.",
      "examples": [
       {
@@ -4689,7 +5073,7 @@
     {
      "title_en": "Tendo feito: the earlier action",
      "title_ru": "Tendo feito: предшествующее действие",
-     "body_en": "The compound gerund tendo + participle shows that one action was completed before another: Tendo terminado o relatório, foi para casa. Tendo dito isto, saiu da sala. It belongs to a formal or written style and matches the Russian perfective деепричастие: закончив, сказав. Pronouns attach to tendo: Tendo-se despedido, saiu.",
+     "body_en": "The compound gerund tendo + participle shows that one action was completed before another: Tendo terminado o relatório, foi para casa. Tendo dito isto, saiu da sala. It belongs to a formal or written style and matches the Russian perfective adverbial participle ('having finished', 'having said'). Pronouns attach to tendo: Tendo-se despedido, saiu.",
      "body_ru": "Сложный герундий tendo + причастие показывает, что одно действие завершилось раньше другого: Tendo terminado o relatório, foi para casa — Закончив отчёт, он ушёл домой. Tendo dito isto, saiu da sala — Сказав это, он вышел из комнаты. Это книжный, письменный стиль; ему соответствует русское деепричастие совершенного вида: закончив, сказав. Местоимение присоединяется к tendo: Tendo-se despedido, saiu — Попрощавшись, он вышел.",
      "examples": [
       {
@@ -4735,7 +5119,7 @@
     {
      "title_en": "Subjects and pronouns",
      "title_ru": "Подлежащее и местоимения",
-     "body_en": "Unlike the Russian деепричастие, a Portuguese gerund clause may have its own subject, placed after the gerund: Chegando o João, começamos (when João arrives…). Without one, the subject must be that of the main verb. Object pronouns follow the gerund with a hyphen in Portugal: abraçando-a, dizendo-lhe; after não they go before it: não lhe dizendo nada.",
+     "body_en": "Unlike the Russian adverbial participle, a Portuguese gerund clause may have its own subject, placed after the gerund: Chegando o João, começamos (when João arrives…). Without one, the subject must be that of the main verb. Object pronouns follow the gerund with a hyphen in Portugal: abraçando-a, dizendo-lhe; after não they go before it: não lhe dizendo nada.",
      "body_ru": "В отличие от русского деепричастия, у португальского оборота с герундием может быть собственное подлежащее — оно стоит после герундия: Chegando o João, começamos — Как только придёт Жуан, начнём. Если его нет, подлежащим считается подлежащее главного глагола. Местоимения в Португалии ставятся после герундия через дефис: abraçando-a, dizendo-lhe; после não — перед ним: não lhe dizendo nada.",
      "examples": [
       {
@@ -4862,7 +5246,12 @@
      ],
      "answer": 1,
      "explain_en": "Here the gerund expresses cause: como estava doente.",
-     "explain_ru": "Здесь герундий выражает причину: como estava doente."
+     "explain_ru": "Здесь герундий выражает причину: como estava doente.",
+     "ui": {
+      "ru": {
+       "q": "«Estando doente, não foi trabalhar» означает:"
+      }
+     }
     },
     {
      "id": "e07",
@@ -4876,7 +5265,12 @@
      ],
      "answer": 3,
      "explain_en": "The gerund expresses a condition: se estudares.",
-     "explain_ru": "Герундий выражает условие: se estudares."
+     "explain_ru": "Герундий выражает условие: se estudares.",
+     "ui": {
+      "ru": {
+       "q": "«Estudando todos os dias, vais passar no exame» означает:"
+      }
+     }
     },
     {
      "id": "e08",
@@ -5070,7 +5464,12 @@
      "q": "In 'Feitas as contas, …' the participle agrees with 'as contas'.",
      "answer": true,
      "explain_en": "Participle clauses agree with their noun: feitas as contas.",
-     "explain_ru": "В оборотах с причастием оно согласуется с существительным: feitas as contas."
+     "explain_ru": "В оборотах с причастием оно согласуется с существительным: feitas as contas.",
+     "ui": {
+      "ru": {
+       "q": "В «Feitas as contas, …» причастие согласуется с «as contas»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5078,7 +5477,12 @@
      "q": "European Portuguese never uses the gerund.",
      "answer": false,
      "explain_en": "It is not used for actions in progress, but it is common in adverbial clauses.",
-     "explain_ru": "Его не используют для действия в процессе, но в обстоятельственных оборотах он обычен."
+     "explain_ru": "Его не используют для действия в процессе, но в обстоятельственных оборотах он обычен.",
+     "ui": {
+      "ru": {
+       "q": "В европейском португальском герундий никогда не употребляется."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5086,7 +5490,12 @@
      "q": "'Vou estar enviando o documento' is recommended standard usage in Portugal.",
      "answer": false,
      "explain_en": "This is the criticised gerundismo; say vou enviar o documento.",
-     "explain_ru": "Это критикуемый gerundismo; правильно vou enviar o documento."
+     "explain_ru": "Это критикуемый gerundismo; правильно vou enviar o documento.",
+     "ui": {
+      "ru": {
+       "q": "«Vou estar enviando o documento» — рекомендуемая литературная норма в Португалии."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5130,7 +5539,29 @@
        "a correr",
        "бегом"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "chegando",
+         "on arriving"
+        ],
+        [
+         "tendo terminado",
+         "having finished"
+        ],
+        [
+         "terminado o trabalho",
+         "once the work was done"
+        ],
+        [
+         "a correr",
+         "running"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5166,7 +5597,7 @@
     {
      "title_en": "Contrast: mas, porém, contudo, todavia, no entanto",
      "title_ru": "Противопоставление: mas, porém, contudo, todavia, no entanto",
-     "body_en": "Mas is neutral and always comes at the start of its clause. Porém, contudo and todavia are more formal, and no entanto and ainda assim are common in both speech and writing. Unlike mas, the formal ones can also stand inside the clause between commas: O plano, contudo, falhou. Russian однако, тем не менее, всё же.",
+     "body_en": "Mas is neutral and always comes at the start of its clause. Porém, contudo and todavia are more formal, and no entanto and ainda assim are common in both speech and writing. Unlike mas, the formal ones can also stand inside the clause between commas: O plano, contudo, falhou. In English: however, nevertheless, still.",
      "body_ru": "Mas — нейтральное «но», оно всегда стоит в начале своей части. Porém, contudo и todavia более книжные, а no entanto и ainda assim обычны и в речи, и на письме. В отличие от mas, книжные связки могут стоять внутри предложения между запятыми: O plano, contudo, falhou — План, однако, провалился. По-русски: «однако», «тем не менее», «всё же».",
      "examples": [
       {
@@ -5235,7 +5666,7 @@
     {
      "title_en": "Addition: além disso, ainda por cima, não só … como também",
      "title_ru": "Добавление: além disso, ainda por cima, não só … como também",
-     "body_en": "Além disso (besides, moreover) is neutral; ainda por cima (on top of that) is colloquial and usually adds something negative: O hotel era caro e, ainda por cima, o quarto era pequeno. Não só … como também / mas também means 'not only … but also'. De resto (for the rest, apart from that) closes a list. Russian: кроме того, вдобавок, к тому же.",
+     "body_en": "Além disso (besides, moreover) is neutral; ainda por cima (on top of that) is colloquial and usually adds something negative: O hotel era caro e, ainda por cima, o quarto era pequeno. Não só … como também / mas também means 'not only … but also'. De resto (for the rest, apart from that) closes a list. In English: besides, on top of that, what's more.",
      "body_ru": "Além disso («кроме того») — нейтральное; ainda por cima («вдобавок, мало того») — разговорное и обычно добавляет что-то неприятное: O hotel era caro e, ainda por cima, o quarto era pequeno — Отель был дорогой, а вдобавок номер был маленький. Não só … como também / mas também — «не только …, но и». De resto («в остальном») завершает перечисление. По-русски: «кроме того», «вдобавок», «к тому же».",
      "examples": [
       {
@@ -5258,7 +5689,7 @@
     {
      "title_en": "Aliás",
      "title_ru": "Aliás",
-     "body_en": "Aliás has two main uses. It adds a stronger point, 'in fact, actually': Não gosto dele; aliás, ninguém gosta. And it corrects what was just said, 'or rather': Ele chega amanhã, aliás, depois de amanhã. It has nothing to do with English 'alias'. Russian equivalents: впрочем, более того, точнее, кстати.",
+     "body_en": "Aliás has two main uses. It adds a stronger point, 'in fact, actually': Não gosto dele; aliás, ninguém gosta. And it corrects what was just said, 'or rather': Ele chega amanhã, aliás, depois de amanhã. It has nothing to do with English 'alias'. English equivalents: in fact, what's more, or rather, by the way.",
      "body_ru": "У aliás два основных значения. Оно добавляет более сильный довод — «более того, собственно говоря»: Não gosto dele; aliás, ninguém gosta — Он мне не нравится; да он вообще никому не нравится. И исправляет только что сказанное — «точнее, вернее»: Ele chega amanhã, aliás, depois de amanhã — Он приезжает завтра, вернее, послезавтра. С английским alias это слово не имеет ничего общего. Русские соответствия: «впрочем», «более того», «точнее», «кстати».",
      "examples": [
       {
@@ -5468,7 +5899,12 @@
      ],
      "answer": 2,
      "explain_en": "Portugal: de facto; Brazil: de fato. In Portugal fato means 'suit'.",
-     "explain_ru": "В Португалии de facto, в Бразилии de fato; в Португалии fato — это «костюм»."
+     "explain_ru": "В Португалии de facto, в Бразилии de fato; в Португалии fato — это «костюм».",
+     "ui": {
+      "en": {
+       "q": "Em Portugal escreve-se: 'de ___' (= in fact)."
+      }
+     }
     },
     {
      "id": "e08",
@@ -5482,7 +5918,12 @@
      ],
      "answer": 2,
      "explain_en": "Atualmente = currently (a false friend of 'actually').",
-     "explain_ru": "Atualmente = в настоящее время («ложный друг» английского actually)."
+     "explain_ru": "Atualmente = в настоящее время («ложный друг» английского actually).",
+     "ui": {
+      "en": {
+       "q": "(= currently) ___, a cidade tem cerca de 500 mil habitantes."
+      }
+     }
     },
     {
      "id": "e09",
@@ -5658,7 +6099,12 @@
      "q": "'Mas' can stand inside a clause between commas, like 'contudo': 'O plano, mas, falhou.'",
      "answer": false,
      "explain_en": "Mas always opens its clause; only contudo, porém, todavia etc. can move inside.",
-     "explain_ru": "Mas всегда открывает свою часть; внутрь могут переходить только contudo, porém, todavia и т. п."
+     "explain_ru": "Mas всегда открывает свою часть; внутрь могут переходить только contudo, porém, todavia и т. п.",
+     "ui": {
+      "ru": {
+       "q": "«Mas» может стоять внутри предложения между запятыми, как «contudo»: «O plano, mas, falhou.»"
+      }
+     }
     },
     {
      "id": "e24",
@@ -5666,7 +6112,12 @@
      "q": "Portuguese 'atualmente' means 'actually'.",
      "answer": false,
      "explain_en": "Atualmente means 'currently'; 'actually' is na verdade.",
-     "explain_ru": "Atualmente значит «в настоящее время»; «на самом деле» — na verdade."
+     "explain_ru": "Atualmente значит «в настоящее время»; «на самом деле» — na verdade.",
+     "ui": {
+      "ru": {
+       "q": "Португальское «atualmente» означает «на самом деле»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5674,7 +6125,12 @@
      "q": "'Nomeadamente' is typical of European Portuguese and means 'namely, in particular'.",
      "answer": true,
      "explain_en": "Brazilians more often say principalmente or em especial.",
-     "explain_ru": "В Бразилии чаще говорят principalmente или em especial."
+     "explain_ru": "В Бразилии чаще говорят principalmente или em especial.",
+     "ui": {
+      "ru": {
+       "q": "«Nomeadamente» характерно для европейского португальского и означает «а именно, в частности»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5704,7 +6160,37 @@
        "pelos vistos",
        "судя по всему"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "contudo",
+         "however"
+        ],
+        [
+         "portanto",
+         "therefore"
+        ],
+        [
+         "aliás",
+         "moreover, or rather"
+        ],
+        [
+         "ou seja",
+         "that is"
+        ],
+        [
+         "além disso",
+         "besides"
+        ],
+        [
+         "pelos vistos",
+         "apparently"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",

@@ -205,7 +205,7 @@
     {
      "title_en": "Perfeito and Russian aspect",
      "title_ru": "Perfeito и русский вид глагола",
-     "body_en": "The pretérito perfeito usually corresponds to the Russian perfective (сделал, купил), but not only. When an action lasted a limited, finished period, Portuguese still uses the perfeito, where Russian may use an imperfective verb: Ontem trabalhei oito horas (Вчера я работал восемь часов). Morei dois anos em Braga: the two years are over.",
+     "body_en": "The pretérito perfeito usually corresponds to the Russian perfective past ('sdelal' – did, 'kupil' – bought), but not only. When an action lasted a limited, finished period, Portuguese still uses the perfeito, where Russian may use an imperfective verb: Ontem trabalhei oito horas (Yesterday I worked eight hours). Morei dois anos em Braga: the two years are over.",
      "body_ru": "Pretérito perfeito чаще всего соответствует русскому совершенному виду (сделал, купил), но не только ему. Если действие длилось ограниченный и уже закончившийся период, португальский тоже использует perfeito, хотя по-русски мы говорим глаголом несовершенного вида: Ontem trabalhei oito horas — Вчера я работал восемь часов. Morei dois anos em Braga — Я два года жил в Браге (и уже не живу).",
      "examples": [
       {
@@ -364,7 +364,7 @@
       "por"
      ],
      "answer": 2,
-     "explain_en": "Há + period with the perfeito means 'ago': há dois anos = два года назад.",
+     "explain_en": "Há + period with the perfeito means 'ago': há dois anos = two years ago.",
      "explain_ru": "Há + срок с perfeito значит «назад»: há dois anos — два года назад."
     },
     {
@@ -507,7 +507,12 @@
      "q": "In European Portuguese 'falámos' (with an accent) is past and 'falamos' is present.",
      "answer": true,
      "explain_en": "Yes: the accent marks the past form in Portugal: falámos = we spoke, falamos = we speak.",
-     "explain_ru": "Да: в Португалии ударение отмечает прошедшее время: falámos — мы говорили, falamos — мы говорим."
+     "explain_ru": "Да: в Португалии ударение отмечает прошедшее время: falámos — мы говорили, falamos — мы говорим.",
+     "ui": {
+      "ru": {
+       "q": "В европейском португальском 'falámos' (со знаком ударения) — прошедшее время, а 'falamos' — настоящее."
+      }
+     }
     },
     {
      "id": "e24",
@@ -515,7 +520,12 @@
      "q": "'Fui' can be the past tense of both ser and ir.",
      "answer": true,
      "explain_en": "Ser and ir share all their pretérito perfeito forms.",
-     "explain_ru": "У ser и ir все формы pretérito perfeito одинаковые."
+     "explain_ru": "У ser и ir все формы pretérito perfeito одинаковые.",
+     "ui": {
+      "ru": {
+       "q": "'Fui' может быть прошедшим временем и от ser, и от ir."
+      }
+     }
     },
     {
      "id": "e25",
@@ -523,7 +533,12 @@
      "q": "'Há três dias' means 'in three days'.",
      "answer": false,
      "explain_en": "Há três dias means 'three days ago'. 'In three days' is daqui a três dias.",
-     "explain_ru": "Há três dias значит «три дня назад». «Через три дня» — daqui a três dias."
+     "explain_ru": "Há três dias значит «три дня назад». «Через три дня» — daqui a três dias.",
+     "ui": {
+      "ru": {
+       "q": "'Há três dias' значит «через три дня»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -688,7 +703,7 @@
     {
      "title_en": "Habits in the past",
      "title_ru": "Привычки в прошлом",
-     "body_en": "The imperfeito tells what used to happen regularly: Quando era criança, jogava futebol todos os dias. Typical words: sempre, todos os dias, normalmente, muitas vezes, antigamente and, in Portugal, dantes (in the old days). This is close to the Russian imperfective: играл, ходил, жил.",
+     "body_en": "The imperfeito tells what used to happen regularly: Quando era criança, jogava futebol todos os dias. Typical words: sempre, todos os dias, normalmente, muitas vezes, antigamente and, in Portugal, dantes (in the old days). This is close to the Russian imperfective past and to English 'used to': I used to play, used to go, used to live.",
      "body_ru": "Imperfeito рассказывает о том, что регулярно происходило раньше: Quando era criança, jogava futebol todos os dias — Когда я был ребёнком, я каждый день играл в футбол. Типичные слова: sempre, todos os dias, normalmente, muitas vezes, antigamente и португальское dantes (раньше, в былые времена). Здесь imperfeito близок к русскому несовершенному виду: играл, ходил, жил.",
      "examples": [
       {
@@ -711,7 +726,7 @@
     {
      "title_en": "Description: time, age, weather, feelings",
      "title_ru": "Описание: время, возраст, погода, чувства",
-     "body_en": "Use the imperfeito to describe the scene in the past: time (Eram dez horas, Era uma hora), age (Tinha vinte anos), weather (Estava frio, Chovia), people, places and feelings (Estava cansado, A casa era grande). Fairy tales start with Era uma vez… (Жили-были…).",
+     "body_en": "Use the imperfeito to describe the scene in the past: time (Eram dez horas, Era uma hora), age (Tinha vinte anos), weather (Estava frio, Chovia), people, places and feelings (Estava cansado, A casa era grande). Fairy tales start with Era uma vez… (Once upon a time…).",
      "body_ru": "Imperfeito используется для описания обстановки в прошлом: время (Eram dez horas — было десять часов, Era uma hora — был час), возраст (Tinha vinte anos — мне было двадцать лет), погода (Estava frio, Chovia), люди, места и чувства (Estava cansado, A casa era grande). Сказки начинаются словами Era uma vez… — «Жили-были…».",
      "examples": [
       {
@@ -757,7 +772,7 @@
     {
      "title_en": "Imperfeito or perfeito: not the same as Russian aspect",
      "title_ru": "Imperfeito или perfeito: это не русский вид",
-     "body_en": "Russian aspect is a guide, not a rule. Ask: is the action a finished event in a closed period (perfeito), or a habit, description or background (imperfeito)? Ontem trabalhei oito horas (perfeito, finished day) but Trabalhava oito horas por dia (imperfeito, habit). Both are 'работал' in Russian.",
+     "body_en": "Russian aspect is a guide, not a rule. Ask: is the action a finished event in a closed period (perfeito), or a habit, description or background (imperfeito)? Ontem trabalhei oito horas (perfeito, finished day) but Trabalhava oito horas por dia (imperfeito, habit). Russian uses the same imperfective verb ('rabotal', worked) for both.",
      "body_ru": "Русский вид — подсказка, а не правило. Спросите себя: это законченное событие в закрытом отрезке времени (perfeito) или привычка, описание, фон (imperfeito)? Ontem trabalhei oito horas — perfeito, вчерашний день закончен; Trabalhava oito horas por dia — imperfeito, привычка. По-русски оба предложения звучат с «работал».",
      "examples": [
       {
@@ -934,7 +949,7 @@
       "trabalhavam"
      ],
      "answer": 0,
-     "explain_en": "A finished period on a specific day: perfeito, although Russian says 'работал'.",
+     "explain_en": "A finished period on a specific day: perfeito, although Russian uses an imperfective verb here.",
      "explain_ru": "Законченный отрезок в конкретный день: perfeito, хотя по-русски «работал»."
     },
     {
@@ -962,7 +977,7 @@
       "conheci"
      ],
      "answer": 1,
-     "explain_en": "Meeting someone for the first time is an event: conheceu (познакомилась).",
+     "explain_en": "Meeting someone for the first time is an event: conheceu (she met).",
      "explain_ru": "Знакомство — однократное событие: conheceu (познакомилась). Conhecia — «была знакома»."
     },
     {
@@ -1109,7 +1124,15 @@
      "q": "Russian 'работал' (imperfective) is always translated with the imperfeito.",
      "answer": false,
      "explain_en": "No: for a finished period, Portuguese uses the perfeito: Ontem trabalhei oito horas.",
-     "explain_ru": "Нет: для законченного отрезка времени португальский использует perfeito: Ontem trabalhei oito horas."
+     "explain_ru": "Нет: для законченного отрезка времени португальский использует perfeito: Ontem trabalhei oito horas.",
+     "ui": {
+      "en": {
+       "q": "The Russian imperfective past (e.g. 'rabotal', 'was working / worked') is always translated with the imperfeito."
+      },
+      "ru": {
+       "q": "Русское «работал» (несовершенный вид) всегда переводится формой imperfeito."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1117,7 +1140,12 @@
      "q": "The imperfeito of ser is: era, eras, era, éramos, eram.",
      "answer": true,
      "explain_en": "Yes, ser is one of the four irregular verbs in the imperfeito.",
-     "explain_ru": "Да, ser — один из четырёх неправильных глаголов в imperfeito."
+     "explain_ru": "Да, ser — один из четырёх неправильных глаголов в imperfeito.",
+     "ui": {
+      "ru": {
+       "q": "Imperfeito глагола ser: era, eras, era, éramos, eram."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1125,7 +1153,12 @@
      "q": "'Conheci a Ana em Lisboa' means 'I already knew Ana in Lisbon'.",
      "answer": false,
      "explain_en": "Conheci means 'I met (for the first time)'. 'I already knew' is já conhecia.",
-     "explain_ru": "Conheci значит «я познакомился». «Я уже был знаком» — já conhecia."
+     "explain_ru": "Conheci значит «я познакомился». «Я уже был знаком» — já conhecia.",
+     "ui": {
+      "ru": {
+       "q": "'Conheci a Ana em Lisboa' значит «Я уже знал Ану в Лиссабоне»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1173,7 +1206,29 @@
        "Queria um café.",
        "вежливая просьба"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ontem fui à praia.",
+         "one-off event"
+        ],
+        [
+         "Todos os verões ia à praia.",
+         "past habit"
+        ],
+        [
+         "Estava calor.",
+         "background description"
+        ],
+        [
+         "Queria um café.",
+         "polite request"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1213,7 +1268,7 @@
     {
      "title_en": "Direct object pronouns",
      "title_ru": "Прямые дополнения",
-     "body_en": "Direct object pronouns replace the thing or person that receives the action (Russian accusative: меня, его, её): me, te, o, a, nos, vos, os, as. O and a also mean 'you' for você, o senhor and a senhora. They agree with the noun they replace: O livro? Comprei-o. A carta? Li-a.",
+     "body_en": "Direct object pronouns replace the thing or person that receives the action (English me, him, her, it; the Russian accusative): me, te, o, a, nos, vos, os, as. O and a also mean 'you' for você, o senhor and a senhora. They agree with the noun they replace: O livro? Comprei-o. A carta? Li-a.",
      "body_ru": "Прямые дополнения заменяют предмет или человека, на которого направлено действие (русский винительный падеж: меня, его, её): me, te, o, a, nos, vos, os, as. O и a также значат «вас» при обращении você, o senhor, a senhora. Они согласуются с заменяемым существительным: O livro? Comprei-o. A carta? Li-a.",
      "examples": [
       {
@@ -1236,7 +1291,7 @@
     {
      "title_en": "Indirect object pronouns: lhe, lhes",
      "title_ru": "Косвенные дополнения: lhe, lhes",
-     "body_en": "Indirect object pronouns answer 'to whom?' (Russian dative: мне, ему, ей): me, te, lhe, nos, vos, lhes. Lhe means to him, to her and to you (você): Dei-lhe o livro. Verbs like dar, dizer, mostrar, telefonar a, escrever a, perguntar a take lhe: Telefonei-lhe ontem.",
+     "body_en": "Indirect object pronouns answer 'to whom?' (English to me, to him, to her; the Russian dative): me, te, lhe, nos, vos, lhes. Lhe means to him, to her and to you (você): Dei-lhe o livro. Verbs like dar, dizer, mostrar, telefonar a, escrever a, perguntar a take lhe: Telefonei-lhe ontem.",
      "body_ru": "Косвенные дополнения отвечают на вопрос «кому?» (русский дательный падеж: мне, ему, ей): me, te, lhe, nos, vos, lhes. Lhe значит «ему», «ей» и «вам» (você): Dei-lhe o livro — Я дал ему книгу. С глаголами dar, dizer, mostrar, telefonar a, escrever a, perguntar a используется lhe: Telefonei-lhe ontem — Я позвонил ему вчера.",
      "examples": [
       {
@@ -1478,7 +1533,12 @@
      ],
      "answer": 3,
      "explain_en": "In Portugal the pronoun follows the verb with a hyphen; it cannot start the sentence.",
-     "explain_ru": "В Португалии местоимение стоит после глагола через дефис; начинать с него предложение нельзя."
+     "explain_ru": "В Португалии местоимение стоит после глагола через дефис; начинать с него предложение нельзя.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильно в европейском португальском?"
+      }
+     }
     },
     {
      "id": "e05",
@@ -1492,7 +1552,12 @@
      ],
      "answer": 1,
      "explain_en": "Não attracts the pronoun before the verb: Não o conheço.",
-     "explain_ru": "Não притягивает местоимение и ставит его перед глаголом: Não o conheço."
+     "explain_ru": "Não притягивает местоимение и ставит его перед глаголом: Não o conheço.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильное предложение."
+      }
+     }
     },
     {
      "id": "e06",
@@ -1706,7 +1771,12 @@
      "q": "In Portugal a sentence can start with an unstressed pronoun: 'Me dá o livro.'",
      "answer": false,
      "explain_en": "This is Brazilian speech. In Portugal: Dá-me o livro.",
-     "explain_ru": "Это бразильская разговорная речь. В Португалии: Dá-me o livro."
+     "explain_ru": "Это бразильская разговорная речь. В Португалии: Dá-me o livro.",
+     "ui": {
+      "ru": {
+       "q": "В Португалии предложение может начинаться с безударного местоимения: 'Me dá o livro.'"
+      }
+     }
     },
     {
      "id": "e24",
@@ -1714,7 +1784,12 @@
      "q": "After 'não', the pronoun goes before the verb: 'Não o vejo.'",
      "answer": true,
      "explain_en": "Não is an attractor, so the pronoun comes before the verb.",
-     "explain_ru": "Não «притягивает» местоимение, поэтому оно стоит перед глаголом."
+     "explain_ru": "Não «притягивает» местоимение, поэтому оно стоит перед глаголом.",
+     "ui": {
+      "ru": {
+       "q": "После 'não' местоимение ставится перед глаголом: 'Não o vejo.'"
+      }
+     }
     },
     {
      "id": "e25",
@@ -1722,7 +1797,12 @@
      "q": "'Lhe' can mean 'to him', 'to her' and 'to you (você)'.",
      "answer": true,
      "explain_en": "Lhe is the indirect object for all 3rd-person singular forms, including você.",
-     "explain_ru": "Lhe — косвенное дополнение для всего 3-го лица ед. ч., включая você."
+     "explain_ru": "Lhe — косвенное дополнение для всего 3-го лица ед. ч., включая você.",
+     "ui": {
+      "ru": {
+       "q": "'Lhe' может значить «ему», «ей» и «вам (você)»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1748,7 +1828,33 @@
        "ao João (кому?)",
        "lhe"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "o João",
+         "o"
+        ],
+        [
+         "a Ana",
+         "a"
+        ],
+        [
+         "os livros",
+         "os"
+        ],
+        [
+         "as chaves",
+         "as"
+        ],
+        [
+         "ao João (to whom?)",
+         "lhe"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1774,7 +1880,33 @@
        "lhes",
        "им"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "me",
+         "me, to me"
+        ],
+        [
+         "te",
+         "you, to you"
+        ],
+        [
+         "lhe",
+         "to him, to her"
+        ],
+        [
+         "nos",
+         "us, to us"
+        ],
+        [
+         "lhes",
+         "to them"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1808,13 +1940,13 @@
    "id": "reflexive-verbs",
    "title_en": "Reflexive verbs (levantar-se, chamar-se, sentir-se)",
    "title_ru": "Возвратные глаголы (levantar-se, chamar-se, sentir-se)",
-   "summary_en": "Reflexive pronouns me, te, se, nos, vos, se; their position in Portugal and Brazil; common reflexive verbs and where they do not match Russian -ся.",
+   "summary_en": "Reflexive pronouns me, te, se, nos, vos, se; their position in Portugal and Brazil; common reflexive verbs and where they do not match Russian reflexive verbs in -sya.",
    "summary_ru": "Возвратные местоимения me, te, se, nos, vos, se; их место в Португалии и Бразилии; частые возвратные глаголы и случаи, когда они не совпадают с русским -ся.",
    "rules": [
     {
      "title_en": "Reflexive pronouns",
      "title_ru": "Возвратные местоимения",
-     "body_en": "A reflexive verb has a pronoun that refers back to the subject, like Russian -ся / себя: levantar-se (вставать), lavar-se (умываться). The pronouns are me, te, se, nos, vos, se: eu levanto-me, tu levantas-te, ele / você levanta-se, nós levantamo-nos, eles / vocês levantam-se. In dictionaries the verb is written with -se.",
+     "body_en": "A reflexive verb has a pronoun that refers back to the subject, like English 'oneself' or the Russian ending -sya: levantar-se (to get up), lavar-se (to wash oneself). The pronouns are me, te, se, nos, vos, se: eu levanto-me, tu levantas-te, ele / você levanta-se, nós levantamo-nos, eles / vocês levantam-se. In dictionaries the verb is written with -se.",
      "body_ru": "У возвратного глагола есть местоимение, которое указывает на само подлежащее, как русское -ся или «себя»: levantar-se (вставать), lavar-se (умываться). Местоимения: me, te, se, nos, vos, se: eu levanto-me, tu levantas-te, ele / você levanta-se, nós levantamo-nos, eles / vocês levantam-se. В словарях такие глаголы даются с -se.",
      "examples": [
       {
@@ -1909,9 +2041,9 @@
      ]
     },
     {
-     "title_en": "Not the same as Russian -ся",
+     "title_en": "Not the same as Russian -sya verbs",
      "title_ru": "Не всегда как русское -ся",
-     "body_en": "Many Russian -ся verbs are not reflexive in Portuguese: учиться = estudar / aprender, смеяться = rir, бояться = ter medo de, надеяться = esperar, нравиться = gostar de. And some Portuguese reflexive verbs are not reflexive in Russian: lembrar-se (помнить), esquecer-se (забыть) and chamar-se (меня зовут).",
+     "body_en": "Many Russian reflexive verbs in -sya are not reflexive in Portuguese: to study = estudar / aprender, to laugh = rir, to be afraid = ter medo de, to hope = esperar, to like = gostar de. And some Portuguese reflexive verbs are not reflexive in Russian: lembrar-se (to remember), esquecer-se (to forget) and chamar-se (to be called).",
      "body_ru": "Многие русские глаголы на -ся в португальском не возвратные: учиться = estudar / aprender, смеяться = rir, бояться = ter medo de, надеяться = esperar, нравиться = gostar de. И наоборот, некоторые португальские возвратные глаголы в русском обходятся без -ся: lembrar-se (помнить), esquecer-se (забыть), chamar-se (меня зовут — букв. «я называюсь»). Учите глагол вместе с -se.",
      "examples": [
       {
@@ -1957,7 +2089,7 @@
     {
      "title_en": "Each other: reciprocal se and nos",
      "title_ru": "Друг друга: взаимное se и nos",
-     "body_en": "In the plural, the same pronouns can mean 'each other' (Russian друг друга or -ся): Conhecemo-nos em Lisboa (we met), Eles beijam-se, Vemo-nos amanhã, Os dois ajudam-se muito. Context shows whether the meaning is reflexive or reciprocal.",
+     "body_en": "In the plural, the same pronouns can mean 'each other': Conhecemo-nos em Lisboa (we met), Eles beijam-se, Vemo-nos amanhã, Os dois ajudam-se muito. Context shows whether the meaning is reflexive or reciprocal.",
      "body_ru": "Во множественном числе те же местоимения могут значить «друг друга» (по-русски — «друг друга» или -ся): Conhecemo-nos em Lisboa (Мы познакомились в Лиссабоне), Eles beijam-se (Они целуются), Vemo-nos amanhã (Увидимся завтра), Os dois ajudam-se muito (Они много помогают друг другу). Возвратное это значение или взаимное, понятно из контекста.",
      "examples": [
       {
@@ -2084,7 +2216,12 @@
      ],
      "answer": 3,
      "explain_en": "Reciprocal meaning, eles, past: conheceram-se.",
-     "explain_ru": "Взаимное значение, eles, прошедшее время: conheceram-se."
+     "explain_ru": "Взаимное значение, eles, прошедшее время: conheceram-se.",
+     "ui": {
+      "en": {
+       "q": "Eles ___ em Lisboa em 2015. (they met each other)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -2111,8 +2248,13 @@
       "Estudo na universidade."
      ],
      "answer": 3,
-     "explain_en": "Estudar is not reflexive, although Russian учиться has -ся.",
-     "explain_ru": "Estudar — не возвратный глагол, хотя в русском «учиться» с -ся."
+     "explain_en": "Estudar is not reflexive, although the Russian verb for 'to study' is.",
+     "explain_ru": "Estudar — не возвратный глагол, хотя в русском «учиться» с -ся.",
+     "ui": {
+      "en": {
+       "q": "«I study at university» in Portuguese:"
+      }
+     }
     },
     {
      "id": "e09",
@@ -2282,7 +2424,15 @@
      "q": "Russian 'учиться' becomes the reflexive 'estudar-se' in Portuguese.",
      "answer": false,
      "explain_en": "Estudar is not reflexive: Estudo português.",
-     "explain_ru": "Estudar — не возвратный глагол: Estudo português."
+     "explain_ru": "Estudar — не возвратный глагол: Estudo português.",
+     "ui": {
+      "en": {
+       "q": "The Russian reflexive verb 'uchitsya' (to study) becomes the reflexive 'estudar-se' in Portuguese."
+      },
+      "ru": {
+       "q": "Русское «учиться» в португальском становится возвратным 'estudar-se'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2290,7 +2440,12 @@
      "q": "In the nós form the -s drops before -nos: levantamo-nos.",
      "answer": true,
      "explain_en": "Yes: levantamos + nos → levantamo-nos.",
-     "explain_ru": "Да: levantamos + nos → levantamo-nos."
+     "explain_ru": "Да: levantamos + nos → levantamo-nos.",
+     "ui": {
+      "ru": {
+       "q": "В форме nós перед -nos выпадает -s: levantamo-nos."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2298,7 +2453,12 @@
      "q": "In Brazil 'Eu me chamo Ana' is the normal word order.",
      "answer": true,
      "explain_en": "In Brazil the pronoun usually goes before the verb; in Portugal: Chamo-me Ana.",
-     "explain_ru": "В Бразилии местоимение обычно стоит перед глаголом; в Португалии — Chamo-me Ana."
+     "explain_ru": "В Бразилии местоимение обычно стоит перед глаголом; в Португалии — Chamo-me Ana.",
+     "ui": {
+      "ru": {
+       "q": "В Бразилии 'Eu me chamo Ana' — обычный порядок слов."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2350,7 +2510,33 @@
        "веселиться",
        "divertir-se"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "to remember",
+         "lembrar-se de"
+        ],
+        [
+         "to forget",
+         "esquecer-se de"
+        ],
+        [
+         "to sit down",
+         "sentar-se"
+        ],
+        [
+         "to go to bed",
+         "deitar-se"
+        ],
+        [
+         "to have fun",
+         "divertir-se"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2372,7 +2558,29 @@
        "надеяться",
        "esperar"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "to study",
+         "estudar"
+        ],
+        [
+         "to laugh",
+         "rir"
+        ],
+        [
+         "to be afraid",
+         "ter medo de"
+        ],
+        [
+         "to hope",
+         "esperar"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2386,7 +2594,7 @@
     {
      "title_en": "More than: mais … do que",
      "title_ru": "Больше, чем: mais … do que",
-     "body_en": "Portuguese adjectives do not change for the comparative, as Russian ones do (выше, красивее). Use mais + adjective + do que: A Ana é mais alta do que o irmão. Do que and que are both correct; do que is more common in Portugal. The adjective still agrees: As casas são mais caras do que os apartamentos.",
+     "body_en": "Portuguese adjectives do not change for the comparative, as English and Russian ones often do (taller, prettier). Use mais + adjective + do que: A Ana é mais alta do que o irmão. Do que and que are both correct; do que is more common in Portugal. The adjective still agrees: As casas são mais caras do que os apartamentos.",
      "body_ru": "Португальские прилагательные не меняют форму в сравнительной степени, как русские (выше, красивее). Используется mais + прилагательное + do que: A Ana é mais alta do que o irmão — Ана выше брата. Do que и que оба правильны, в Португалии чаще говорят do que. Прилагательное по-прежнему согласуется: As casas são mais caras do que os apartamentos.",
      "examples": [
       {
@@ -2478,7 +2686,7 @@
     {
      "title_en": "The superlative: o mais … de",
      "title_ru": "Превосходная степень: o mais … de",
-     "body_en": "To say 'the most' (Russian самый), put the definite article before mais or before the noun: a cidade mais bonita do país, o melhor restaurante da cidade, o maior país do mundo. 'Of / in' is de (+ article): de Portugal, da turma, do mundo. Do not repeat the article: o rio mais longo, not 'o rio o mais longo'.",
+     "body_en": "To say 'the most', put the definite article before mais or before the noun: a cidade mais bonita do país, o melhor restaurante da cidade, o maior país do mundo. 'Of / in' is de (+ article): de Portugal, da turma, do mundo. Do not repeat the article: o rio mais longo, not 'o rio o mais longo'.",
      "body_ru": "Чтобы сказать «самый», ставят определённый артикль перед mais или перед существительным: a cidade mais bonita do país (самый красивый город страны), o melhor restaurante da cidade, o maior país do mundo. «Из, в» передаётся предлогом de (+ артикль): de Portugal, da turma, do mundo. Артикль не повторяют: o rio mais longo, а не «o rio o mais longo».",
      "examples": [
       {
@@ -2524,7 +2732,7 @@
     {
      "title_en": "More than with numbers: mais de",
      "title_ru": "Больше с числами: mais de",
-     "body_en": "Before a number or quantity, 'more than / less than' is mais de / menos de, not do que: Havia mais de cem pessoas. Custa menos de dez euros. This is like Russian 'более ста', 'меньше десяти'. Do que is used when comparing two things: Ele tem mais livros do que eu.",
+     "body_en": "Before a number or quantity, 'more than / less than' is mais de / menos de, not do que: Havia mais de cem pessoas. Custa menos de dez euros. Do que is used when comparing two things: Ele tem mais livros do que eu.",
      "body_ru": "Перед числом или количеством «больше / меньше» передаётся через mais de / menos de, а не do que: Havia mais de cem pessoas — Было больше ста человек. Custa menos de dez euros — Стоит меньше десяти евро. Это похоже на русское «более ста», «меньше десяти». Do que используется при сравнении двух предметов: Ele tem mais livros do que eu.",
      "examples": [
       {
@@ -2678,7 +2886,7 @@
       "mais de"
      ],
      "answer": 3,
-     "explain_en": "Before a number: mais de (более ста).",
+     "explain_en": "Before a number: mais de (more than a hundred).",
      "explain_ru": "Перед числом: mais de (более ста)."
     },
     {
@@ -2860,7 +3068,12 @@
      "q": "'Mais bom' is the correct comparative of bom.",
      "answer": false,
      "explain_en": "The comparative of bom is melhor.",
-     "explain_ru": "Сравнительная степень от bom — melhor."
+     "explain_ru": "Сравнительная степень от bom — melhor.",
+     "ui": {
+      "ru": {
+       "q": "'Mais bom' — правильная сравнительная степень от bom."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2868,7 +3081,12 @@
      "q": "In Portugal 'mais pequeno' is common and correct.",
      "answer": true,
      "explain_en": "Yes; in Brazil menor is preferred.",
-     "explain_ru": "Да; в Бразилии предпочитают menor."
+     "explain_ru": "Да; в Бразилии предпочитают menor.",
+     "ui": {
+      "ru": {
+       "q": "В Португалии 'mais pequeno' — распространённая и правильная форма."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2876,7 +3094,12 @@
      "q": "'Mais que dez pessoas' is the normal way to say 'more than ten people'.",
      "answer": false,
      "explain_en": "Before a number use mais de: mais de dez pessoas.",
-     "explain_ru": "Перед числом нужно mais de: mais de dez pessoas."
+     "explain_ru": "Перед числом нужно mais de: mais de dez pessoas.",
+     "ui": {
+      "ru": {
+       "q": "'Mais que dez pessoas' — обычный способ сказать «больше десяти человек»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2954,7 +3177,33 @@
        "cada vez mais",
        "всё больше"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "mais … do que",
+         "more … than"
+        ],
+        [
+         "menos … do que",
+         "less … than"
+        ],
+        [
+         "tão … como",
+         "as … as"
+        ],
+        [
+         "o mais …",
+         "the most …"
+        ],
+        [
+         "cada vez mais",
+         "more and more"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2968,7 +3217,7 @@
     {
      "title_en": "Affirmative tu",
      "title_ru": "Утвердительная форма для tu",
-     "body_en": "For tu, the affirmative imperative is usually the same as the ele form of the present: falar → fala, comer → come, abrir → abre, ler → lê, ouvir → ouve. Fala mais devagar! Come a sopa! Abre a janela. Russian uses one form for 'ты' (говори / не говори), but Portuguese changes it in the negative.",
+     "body_en": "For tu, the affirmative imperative is usually the same as the ele form of the present: falar → fala, comer → come, abrir → abre, ler → lê, ouvir → ouve. Fala mais devagar! Come a sopa! Abre a janela. Russian uses the same form for the informal 'you' in both the affirmative and the negative ('speak!' / 'don't speak!'), but Portuguese changes it in the negative.",
      "body_ru": "Для tu утвердительный императив обычно совпадает с формой ele настоящего времени: falar → fala, comer → come, abrir → abre, ler → lê, ouvir → ouve. Fala mais devagar! (Говори медленнее!) Come a sopa! Abre a janela. В русском одна форма «говори» и для утверждения, и для запрета, а в португальском в отрицании форма меняется.",
      "examples": [
       {
@@ -3435,7 +3684,12 @@
      "q": "The affirmative tu imperative usually equals the ele form of the present: fala, come, abre.",
      "answer": true,
      "explain_en": "Yes, except for a few irregular verbs (sê, vai, tem, põe…).",
-     "explain_ru": "Да, кроме нескольких неправильных глаголов (sê, vai, tem, põe…)."
+     "explain_ru": "Да, кроме нескольких неправильных глаголов (sê, vai, tem, põe…).",
+     "ui": {
+      "ru": {
+       "q": "Утвердительный императив для tu обычно совпадает с формой ele в настоящем времени: fala, come, abre."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3443,7 +3697,12 @@
      "q": "'Não fala!' is the standard negative imperative for tu in Portugal.",
      "answer": false,
      "explain_en": "Standard negative tu: não fales. 'Não fala' is colloquial Brazilian.",
-     "explain_ru": "Нормативное отрицание для tu: não fales. «Não fala» — бразильская разговорная форма."
+     "explain_ru": "Нормативное отрицание для tu: não fales. «Não fala» — бразильская разговорная форма.",
+     "ui": {
+      "ru": {
+       "q": "'Não fala!' — стандартный отрицательный императив для tu в Португалии."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3451,7 +3710,12 @@
      "q": "Signs often use the infinitive: 'Não fumar'.",
      "answer": true,
      "explain_en": "Public instructions often use the infinitive: Não fumar, Empurrar, Puxar.",
-     "explain_ru": "В надписях и инструкциях часто используется инфинитив: Não fumar, Empurrar, Puxar."
+     "explain_ru": "В надписях и инструкциях часто используется инфинитив: Não fumar, Empurrar, Puxar.",
+     "ui": {
+      "ru": {
+       "q": "На табличках часто используется инфинитив: 'Não fumar'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3612,7 +3876,7 @@
     {
      "title_en": "The future of probability",
      "title_ru": "Будущее предположения",
-     "body_en": "The futuro simples also expresses a guess or wonder about the present: Onde estará o João? (Где же Жоао? / Интересно, где Жоао?) Que horas serão? Serão umas dez horas (It's probably about ten). Russian uses words like наверное, интересно, где же; Portuguese can do it with the verb alone.",
+     "body_en": "The futuro simples also expresses a guess or wonder about the present: Onde estará o João? (Where can João be? / I wonder where João is.) Que horas serão? Serão umas dez horas (It's probably about ten). English uses words like 'probably' or 'I wonder'; Portuguese can do it with the verb alone.",
      "body_ru": "Futuro simples также выражает догадку или недоумение по поводу настоящего: Onde estará o João? — Где же Жоао? Интересно, где Жоао? Que horas serão? — Интересно, который час? Serão umas dez horas — Сейчас, наверное, около десяти. По-русски для этого нужны слова «наверное», «интересно», «где же», а по-португальски достаточно формы глагола.",
      "examples": [
       {
@@ -3658,7 +3922,7 @@
     {
      "title_en": "Condicional: forms",
      "title_ru": "Condicional: формы",
-     "body_en": "The conditional uses the infinitive plus -ia, -ias, -ia, -íamos, -iam: falar → falaria, falarias, falaria, falaríamos, falariam; comer → comeria. The same three verbs are irregular: faria, diria, traria. It corresponds to Russian 'бы': Eu compraria = Я купил бы.",
+     "body_en": "The conditional uses the infinitive plus -ia, -ias, -ia, -íamos, -iam: falar → falaria, falarias, falaria, falaríamos, falariam; comer → comeria. The same three verbs are irregular: faria, diria, traria. It corresponds to English 'would' (and the Russian particle 'by'): Eu compraria = I would buy.",
      "body_ru": "Условное наклонение образуется от инфинитива с окончаниями -ia, -ias, -ia, -íamos, -iam: falar → falaria, falarias, falaria, falaríamos, falariam; comer → comeria. Неправильны те же три глагола: faria, diria, traria. Condicional соответствует русской частице «бы»: Eu compraria — Я купил бы. Форма nós пишется с ударением: falaríamos.",
      "examples": [
       {
@@ -3802,7 +4066,7 @@
       "serão"
      ],
      "answer": 2,
-     "explain_en": "Quem takes the 3rd person singular: será (Кто бы это мог быть?).",
+     "explain_en": "Quem takes the 3rd person singular: será (Who could that be?).",
      "explain_ru": "Quem требует 3-го лица ед. ч.: será (Кто бы это мог быть?)."
     },
     {
@@ -3887,7 +4151,12 @@
      ],
      "answer": 2,
      "explain_en": "A pronoun cannot follow a future form, and 'dizer-te-ei' is a wrong form too (formal: dir-te-ei); ir + infinitive + pronoun is the everyday solution.",
-     "explain_ru": "Местоимение нельзя ставить после формы будущего времени, а «dizer-te-ei» — тоже ошибка (книжная форма — dir-te-ei); в речи используют ir + инфинитив + местоимение."
+     "explain_ru": "Местоимение нельзя ставить после формы будущего времени, а «dizer-te-ei» — тоже ошибка (книжная форма — dir-te-ei); в речи используют ir + инфинитив + местоимение.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -4033,7 +4302,12 @@
      "q": "In everyday speech in Portugal, 'Vou jantar fora' is more common than 'Jantarei fora'.",
      "answer": true,
      "explain_en": "Yes: ir + infinitive is the normal spoken future; the futuro simples is more formal.",
-     "explain_ru": "Да: ir + инфинитив — обычное разговорное будущее; futuro simples звучит официальнее."
+     "explain_ru": "Да: ir + инфинитив — обычное разговорное будущее; futuro simples звучит официальнее.",
+     "ui": {
+      "ru": {
+       "q": "В повседневной речи в Португалии 'Vou jantar fora' употребляется чаще, чем 'Jantarei fora'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4041,15 +4315,25 @@
      "q": "The future of fazer is 'fazerei'.",
      "answer": false,
      "explain_en": "Fazer is irregular: farei.",
-     "explain_ru": "Fazer — неправильный глагол: farei."
+     "explain_ru": "Fazer — неправильный глагол: farei.",
+     "ui": {
+      "ru": {
+       "q": "Будущее время от fazer — 'fazerei'."
+      }
+     }
     },
     {
      "id": "e25",
      "type": "tf",
      "q": "'Onde estará o João?' can express that the speaker is wondering, not a future action.",
      "answer": true,
-     "explain_en": "This is the future of probability: Где же Жоао?",
-     "explain_ru": "Это будущее предположения: «Где же Жоао?»"
+     "explain_en": "This is the future of probability: Where can João be?",
+     "explain_ru": "Это будущее предположения: «Где же Жоао?»",
+     "ui": {
+      "ru": {
+       "q": "'Onde estará o João?' может выражать размышление говорящего, а не будущее действие."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4123,7 +4407,33 @@
        "Hei de conseguir!",
        "твёрдое намерение"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Amanhã choverá.",
+         "forecast"
+        ],
+        [
+         "Gostaria de um café.",
+         "polite request"
+        ],
+        [
+         "Serão dez horas.",
+         "guess, supposition"
+        ],
+        [
+         "No teu lugar, eu iria.",
+         "advice"
+        ],
+        [
+         "Hei de conseguir!",
+         "firm intention"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4137,7 +4447,7 @@
     {
      "title_en": "Three distances: este, esse, aquele",
      "title_ru": "Три расстояния: este, esse, aquele",
-     "body_en": "Russian has two demonstratives (этот, тот); Portuguese has three, linked to the people in the conversation. Este = near me (the speaker), esse = near you (the listener), aquele = far from both of us. Este livro (in my hand), esse livro (in your hand), aquele livro (over there on the shelf).",
+     "body_en": "Russian has two demonstratives (this, that); Portuguese has three, linked to the people in the conversation. Este = near me (the speaker), esse = near you (the listener), aquele = far from both of us. Este livro (in my hand), esse livro (in your hand), aquele livro (over there on the shelf).",
      "body_ru": "В русском два указательных местоимения (этот, тот), а в португальском — три, и они связаны с участниками разговора. Este — рядом со мной (говорящим), esse — рядом с тобой (собеседником), aquele — далеко от нас обоих. Este livro — книга у меня в руках, esse livro — у тебя в руках, aquele livro — там, на полке.",
      "examples": [
       {
@@ -4444,7 +4754,12 @@
      ],
      "answer": 3,
      "explain_en": "Gostar de + isso = disso; isto cannot go before a noun.",
-     "explain_ru": "Gostar de + isso = disso; isto не ставится перед существительным."
+     "explain_ru": "Gostar de + isso = disso; isto не ставится перед существительным.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильное предложение."
+      }
+     }
     },
     {
      "id": "e10",
@@ -4602,7 +4917,12 @@
      "q": "'Isto' can be used before a noun: 'isto livro'.",
      "answer": false,
      "explain_en": "Isto, isso, aquilo never go before a noun: este livro.",
-     "explain_ru": "Isto, isso, aquilo никогда не ставятся перед существительным: este livro."
+     "explain_ru": "Isto, isso, aquilo никогда не ставятся перед существительным: este livro.",
+     "ui": {
+      "ru": {
+       "q": "'Isto' можно ставить перед существительным: 'isto livro'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4610,7 +4930,12 @@
      "q": "Esse refers to something near the person you are talking to.",
      "answer": true,
      "explain_en": "Yes: este = near me, esse = near you, aquele = far from both.",
-     "explain_ru": "Да: este — рядом со мной, esse — рядом с тобой, aquele — далеко от обоих."
+     "explain_ru": "Да: este — рядом со мной, esse — рядом с тобой, aquele — далеко от обоих.",
+     "ui": {
+      "ru": {
+       "q": "Esse указывает на что-то рядом с собеседником."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4618,7 +4943,12 @@
      "q": "In spoken Brazilian Portuguese, esse is often used for things near the speaker too.",
      "answer": true,
      "explain_en": "In Brazil este and esse have largely merged in speech.",
-     "explain_ru": "В бразильской разговорной речи este и esse во многом слились."
+     "explain_ru": "В бразильской разговорной речи este и esse во многом слились.",
+     "ui": {
+      "ru": {
+       "q": "В разговорном бразильском португальском esse часто употребляют и для предметов рядом с говорящим."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4688,7 +5018,33 @@
        "то (вон там)",
        "aquilo"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "this (near me)",
+         "este"
+        ],
+        [
+         "that (near you)",
+         "esse"
+        ],
+        [
+         "that (far away)",
+         "aquele"
+        ],
+        [
+         "this (thing near me)",
+         "isto"
+        ],
+        [
+         "that (thing over there)",
+         "aquilo"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4702,7 +5058,7 @@
     {
      "title_en": "Para: destination and purpose",
      "title_ru": "Para: направление и цель",
-     "body_en": "Para points to a goal. It marks the destination (Vou para casa, O comboio para o Porto), the purpose, 'in order to', before an infinitive (Estudo para ser médica) and the recipient (Isto é para ti). Russian uses different words here: в / на, чтобы, для.",
+     "body_en": "Para points to a goal. It marks the destination (Vou para casa, O comboio para o Porto), the purpose, 'in order to', before an infinitive (Estudo para ser médica) and the recipient (Isto é para ti). English uses different words here: to, in order to, for.",
      "body_ru": "Para указывает на цель. Он обозначает направление (Vou para casa — Я иду домой, O comboio para o Porto — поезд в Порту), цель «чтобы» перед инфинитивом (Estudo para ser médica — Я учусь, чтобы стать врачом) и получателя (Isto é para ti — Это для тебя). В русском здесь разные слова: «в / на», «чтобы», «для».",
      "examples": [
       {
@@ -4748,7 +5104,7 @@
     {
      "title_en": "Por: through, along, around",
      "title_ru": "Por: через, по, мимо",
-     "body_en": "Por describes movement through or along a place: Passei por Coimbra (via Coimbra), Entrou pela janela, Andámos pela cidade, O ladrão fugiu por ali. Remember that por + o / a = pelo / pela. Russian uses через, по, мимо.",
+     "body_en": "Por describes movement through or along a place: Passei por Coimbra (via Coimbra), Entrou pela janela, Andámos pela cidade, O ladrão fugiu por ali. Remember that por + o / a = pelo / pela. English uses through, along, past, around.",
      "body_ru": "Por описывает движение через какое-то место или по нему: Passei por Coimbra (я проехал через Коимбру), Entrou pela janela (Он влез через окно), Andámos pela cidade (Мы гуляли по городу), O ladrão fugiu por ali (Вор убежал вон туда). Помните: por + o / a = pelo / pela. По-русски здесь «через», «по», «мимо».",
      "examples": [
       {
@@ -4975,7 +5331,7 @@
       "até"
      ],
      "answer": 1,
-     "explain_en": "Price: por (за тридцать евро).",
+     "explain_en": "Price: por (for thirty euros).",
      "explain_ru": "Цена: por (за тридцать евро)."
     },
     {
@@ -5003,8 +5359,13 @@
       "desde"
      ],
      "answer": 0,
-     "explain_en": "A deadline: para sexta-feira (к пятнице).",
-     "explain_ru": "Срок: para sexta-feira (к пятнице)."
+     "explain_en": "A deadline: para sexta-feira (by Friday).",
+     "explain_ru": "Срок: para sexta-feira (к пятнице).",
+     "ui": {
+      "en": {
+       "q": "O relatório é ___ sexta-feira. (deadline)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -5032,7 +5393,12 @@
      ],
      "answer": 2,
      "explain_en": "Under: debaixo de; de + a = da.",
-     "explain_ru": "Под: debaixo de; de + a = da."
+     "explain_ru": "Под: debaixo de; de + a = da.",
+     "ui": {
+      "en": {
+       "q": "O gato está ___ da mesa. (under)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -5046,7 +5412,12 @@
      ],
      "answer": 0,
      "explain_en": "In (from now): daqui a. Há means 'ago'.",
-     "explain_ru": "Через (от настоящего момента): daqui a. Há значит «назад»."
+     "explain_ru": "Через (от настоящего момента): daqui a. Há значит «назад».",
+     "ui": {
+      "en": {
+       "q": "A reunião começa ___ dez minutos. (in, from now)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -5055,7 +5426,7 @@
      "answer": [
       "para"
      ],
-     "explain_en": "The recipient: para ti (для тебя).",
+     "explain_en": "The recipient: para ti (for you).",
      "explain_ru": "Получатель: para ti (для тебя)."
     },
     {
@@ -5087,7 +5458,12 @@
       "por"
      ],
      "explain_en": "For a period: durante (or por) três horas.",
-     "explain_ru": "В течение срока: durante (или por) três horas."
+     "explain_ru": "В течение срока: durante (или por) três horas.",
+     "ui": {
+      "en": {
+       "q": "Trabalhei ___ três horas sem parar. (for, during)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -5106,7 +5482,7 @@
      "answer": [
       "por"
      ],
-     "explain_en": "Approximate time: por volta de (около).",
+     "explain_en": "Approximate time: por volta de (around, at about).",
      "explain_ru": "Приблизительное время: por volta de (около)."
     },
     {
@@ -5192,7 +5568,12 @@
      "q": "'Obrigado para a ajuda' is correct.",
      "answer": false,
      "explain_en": "Thanks take por: Obrigado pela ajuda.",
-     "explain_ru": "Благодарность — с por: Obrigado pela ajuda."
+     "explain_ru": "Благодарность — с por: Obrigado pela ajuda.",
+     "ui": {
+      "ru": {
+       "q": "'Obrigado para a ajuda' — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5200,7 +5581,12 @@
      "q": "'Há dois anos' looks back, 'daqui a dois anos' looks forward.",
      "answer": true,
      "explain_en": "Há = ago, daqui a = in (from now).",
-     "explain_ru": "Há — «назад», daqui a — «через»."
+     "explain_ru": "Há — «назад», daqui a — «через».",
+     "ui": {
+      "ru": {
+       "q": "'Há dois anos' — взгляд назад, 'daqui a dois anos' — взгляд вперёд."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5208,7 +5594,12 @@
      "q": "In Portugal 'Cheguei em casa' is the standard form.",
      "answer": false,
      "explain_en": "In Portugal: Cheguei a casa. Chegar em is Brazilian speech.",
-     "explain_ru": "В Португалии: Cheguei a casa. Chegar em — бразильская разговорная форма."
+     "explain_ru": "В Португалии: Cheguei a casa. Chegar em — бразильская разговорная форма.",
+     "ui": {
+      "ru": {
+       "q": "В Португалии 'Cheguei em casa' — стандартная форма."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5234,7 +5625,33 @@
        "Estudo para aprender.",
        "цель, чтобы"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Vou para Faro.",
+         "direction"
+        ],
+        [
+         "Passei por Faro.",
+         "route, through"
+        ],
+        [
+         "Obrigado pela ajuda.",
+         "reason"
+        ],
+        [
+         "Comprei-o por 5 euros.",
+         "price"
+        ],
+        [
+         "Estudo para aprender.",
+         "purpose, in order to"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5260,7 +5677,33 @@
        "daqui a",
        "через"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "desde",
+         "since (a point in time)"
+        ],
+        [
+         "até",
+         "until"
+        ],
+        [
+         "durante",
+         "during, for"
+        ],
+        [
+         "há",
+         "ago"
+        ],
+        [
+         "daqui a",
+         "in (from now)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5290,7 +5733,37 @@
        "entre",
        "между"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "em cima de",
+         "on"
+        ],
+        [
+         "debaixo de",
+         "under"
+        ],
+        [
+         "ao lado de",
+         "next to"
+        ],
+        [
+         "atrás de",
+         "behind"
+        ],
+        [
+         "dentro de",
+         "inside"
+        ],
+        [
+         "entre",
+         "between"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5304,7 +5777,7 @@
     {
      "title_en": "Algum, alguma, alguns, algumas",
      "title_ru": "Algum, alguma, alguns, algumas",
-     "body_en": "Algum agrees with its noun and means 'some, any': Tens alguma pergunta? (Any questions?), Alguns amigos vieram (Some friends came). In questions Russian often uses какой-нибудь or no word at all, but Portuguese needs algum. In the plural it means 'a few, several'.",
+     "body_en": "Algum agrees with its noun and means 'some, any': Tens alguma pergunta? (Any questions?), Alguns amigos vieram (Some friends came). Where Russian often uses no word at all in questions, Portuguese needs algum. In the plural it means 'a few, several'.",
      "body_ru": "Algum согласуется с существительным и значит «какой-то, какой-нибудь, некоторый»: Tens alguma pergunta? (Есть вопросы?), Alguns amigos vieram (Пришли некоторые друзья). В вопросах по-русски часто говорят «какой-нибудь» или вовсе обходятся без слова, а по-португальски algum нужен. Во множественном числе — «несколько».",
      "examples": [
       {
@@ -5373,7 +5846,7 @@
     {
      "title_en": "Todo o / toda a and todos os / todas as",
      "title_ru": "Todo o / toda a и todos os / todas as",
-     "body_en": "In the singular with an article, todo means 'whole': todo o dia (весь день), toda a casa. In the plural with an article it means 'all, every': todos os dias (каждый день), todas as pessoas. Toda a gente (Portugal) = everybody; Brazil says todo mundo and uses todo dia (no article) for 'every day'.",
+     "body_en": "In the singular with an article, todo means 'whole': todo o dia (all day, the whole day), toda a casa. In the plural with an article it means 'all, every': todos os dias (every day), todas as pessoas. Toda a gente (Portugal) = everybody; Brazil says todo mundo and uses todo dia (no article) for 'every day'.",
      "body_ru": "В единственном числе с артиклем todo значит «весь, целый»: todo o dia (весь день), toda a casa (весь дом). Во множественном числе с артиклем — «все, каждый»: todos os dias (каждый день), todas as pessoas (все люди). Toda a gente (в Португалии) — «все, все люди»; в Бразилии говорят todo mundo, а todo dia без артикля значит «каждый день».",
      "examples": [
       {
@@ -5442,7 +5915,7 @@
     {
      "title_en": "Outro and mais um",
      "title_ru": "Outro и mais um",
-     "body_en": "Outro / outra / outros / outras = another, other (a different one): Prefiro outra cor. O outro = the other one. Outra vez = again. But 'one more of the same' is mais um / mais uma: Mais um café, por favor. Russian 'ещё один' is mais um, not 'ainda um'; 'другой' is outro.",
+     "body_en": "Outro / outra / outros / outras = another, other (a different one): Prefiro outra cor. O outro = the other one. Outra vez = again. But 'one more of the same' is mais um / mais uma: Mais um café, por favor. 'One more' is mais um, not 'ainda um'; 'a different one' is outro.",
      "body_ru": "Outro / outra / outros / outras — «другой» (иной): Prefiro outra cor — Я предпочитаю другой цвет. O outro — тот, другой. Outra vez — снова, ещё раз. Но «ещё один такой же» — mais um / mais uma: Mais um café, por favor. Русское «ещё один» — это mais um, а не «ainda um»; «другой» — outro.",
      "examples": [
       {
@@ -5488,7 +5961,7 @@
     {
      "title_en": "Ainda and ainda não",
      "title_ru": "Ainda и ainda não",
-     "body_en": "Ainda = still: Ainda moro em Braga. Ainda não = not yet, used with the pretérito perfeito for something that has not happened: Ainda não acabei. Short answers: Já jantaste? — Já (or Jantei). / Ainda não. Russian 'ещё один' is not ainda: it is mais um. Ainda não also attracts pronouns: Ainda não o li.",
+     "body_en": "Ainda = still: Ainda moro em Braga. Ainda não = not yet, used with the pretérito perfeito for something that has not happened: Ainda não acabei. Short answers: Já jantaste? — Já (or Jantei). / Ainda não. 'One more' is not ainda: it is mais um. Ainda não also attracts pronouns: Ainda não o li.",
      "body_ru": "Ainda — «всё ещё, ещё»: Ainda moro em Braga (Я всё ещё живу в Браге). Ainda não — «ещё не», с pretérito perfeito о том, что пока не произошло: Ainda não acabei — Я ещё не закончил. Краткие ответы: Já jantaste? — Já (или Jantei). / Ainda não. Русское «ещё один» — это не ainda, а mais um. Ainda não тоже притягивает местоимение: Ainda não o li.",
      "examples": [
       {
@@ -5564,7 +6037,12 @@
      ],
      "answer": 2,
      "explain_en": "The whole day: todo o dia.",
-     "explain_ru": "Весь день: todo o dia."
+     "explain_ru": "Весь день: todo o dia.",
+     "ui": {
+      "en": {
+       "q": "Fiquei em casa ___ o dia. (all day)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -5578,7 +6056,12 @@
      ],
      "answer": 1,
      "explain_en": "Everything, without a noun: tudo.",
-     "explain_ru": "«Всё» без существительного: tudo."
+     "explain_ru": "«Всё» без существительного: tudo.",
+     "ui": {
+      "en": {
+       "q": "Comeste ___? (everything)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -5592,7 +6075,12 @@
      ],
      "answer": 3,
      "explain_en": "Each: cada, which never changes.",
-     "explain_ru": "Каждый: cada, которое не изменяется."
+     "explain_ru": "Каждый: cada, которое не изменяется.",
+     "ui": {
+      "en": {
+       "q": "___ aluno tem o seu livro. (each)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -5606,7 +6094,12 @@
      ],
      "answer": 1,
      "explain_en": "One more of the same: mais um. 'Ainda um' is a calque from Russian.",
-     "explain_ru": "Ещё один такой же: mais um. «Ainda um» — калька с русского."
+     "explain_ru": "Ещё один такой же: mais um. «Ainda um» — калька с русского.",
+     "ui": {
+      "en": {
+       "q": "«One more coffee, please» in Portuguese:"
+      }
+     }
     },
     {
      "id": "e08",
@@ -5634,7 +6127,12 @@
      ],
      "answer": 0,
      "explain_en": "No longer: já não.",
-     "explain_ru": "Больше не: já não."
+     "explain_ru": "Больше не: já não.",
+     "ui": {
+      "en": {
+       "q": "Moro em Lisboa, mas ___ não trabalho lá. (no longer)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -5648,7 +6146,12 @@
      ],
      "answer": 2,
      "explain_en": "Someone (a person): alguém.",
-     "explain_ru": "Кто-то (человек): alguém."
+     "explain_ru": "Кто-то (человек): alguém.",
+     "ui": {
+      "en": {
+       "q": "___ está à porta. (someone)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -5669,7 +6172,12 @@
       "nenhum"
      ],
      "explain_en": "After the noun in a negative sentence: algum (or nenhum).",
-     "explain_ru": "После существительного в отрицательном предложении: algum (или nenhum)."
+     "explain_ru": "После существительного в отрицательном предложении: algum (или nenhum).",
+     "ui": {
+      "en": {
+       "q": "Não tenho dinheiro ___. (at all)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -5689,7 +6197,12 @@
       "já"
      ],
      "explain_en": "In questions, já means 'ever'.",
-     "explain_ru": "В вопросах já значит «когда-нибудь»."
+     "explain_ru": "В вопросах já значит «когда-нибудь».",
+     "ui": {
+      "en": {
+       "q": "Tu ___ estiveste no Brasil? (ever)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -5719,7 +6232,12 @@
       "qualquer"
      ],
      "explain_en": "Any type at all: qualquer.",
-     "explain_ru": "Любой: qualquer."
+     "explain_ru": "Любой: qualquer.",
+     "ui": {
+      "en": {
+       "q": "Gosto de ___ tipo de música. (any)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -5729,7 +6247,12 @@
       "alguns"
      ],
      "explain_en": "Some, a few, masculine plural: alguns.",
-     "explain_ru": "Несколько, мужской род, мн. ч.: alguns."
+     "explain_ru": "Несколько, мужской род, мн. ч.: alguns.",
+     "ui": {
+      "en": {
+       "q": "Vieram à festa ___ amigos meus. (some, several)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -5793,7 +6316,12 @@
      "q": "'Todo o dia' and 'todos os dias' mean the same.",
      "answer": false,
      "explain_en": "Todo o dia = all day long; todos os dias = every day.",
-     "explain_ru": "Todo o dia — весь день; todos os dias — каждый день."
+     "explain_ru": "Todo o dia — весь день; todos os dias — каждый день.",
+     "ui": {
+      "ru": {
+       "q": "'Todo o dia' и 'todos os dias' значат одно и то же."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5801,7 +6329,12 @@
      "q": "In Portugal 'toda a gente' means 'everybody'.",
      "answer": true,
      "explain_en": "Yes; in Brazil the usual form is todo mundo.",
-     "explain_ru": "Да; в Бразилии обычно говорят todo mundo."
+     "explain_ru": "Да; в Бразилии обычно говорят todo mundo.",
+     "ui": {
+      "ru": {
+       "q": "В Португалии 'toda a gente' значит «все»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5809,7 +6342,12 @@
      "q": "'Ainda um café' is the normal way to order another coffee.",
      "answer": false,
      "explain_en": "One more is mais um: Mais um café, por favor.",
-     "explain_ru": "«Ещё один» — mais um: Mais um café, por favor."
+     "explain_ru": "«Ещё один» — mais um: Mais um café, por favor.",
+     "ui": {
+      "ru": {
+       "q": "'Ainda um café' — обычный способ заказать ещё один кофе."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5835,7 +6373,33 @@
        "toda a gente",
        "все люди"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "todo o dia",
+         "all day"
+        ],
+        [
+         "todos os dias",
+         "every day"
+        ],
+        [
+         "tudo",
+         "everything"
+        ],
+        [
+         "cada um",
+         "each one"
+        ],
+        [
+         "toda a gente",
+         "everybody"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5857,7 +6421,29 @@
        "já não",
        "больше не"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "já",
+         "already"
+        ],
+        [
+         "ainda",
+         "still"
+        ],
+        [
+         "ainda não",
+         "not yet"
+        ],
+        [
+         "já não",
+         "no longer"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",

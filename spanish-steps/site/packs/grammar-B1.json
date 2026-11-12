@@ -11,7 +11,7 @@
     {
      "title_en": "What the subjunctive is and how it is built",
      "title_ru": "Что такое subjuntivo и как он строится",
-     "body_en": "Spanish has two moods: the indicative states facts (Juan viene) and the subjunctive presents an action as wished, doubted, feared or not yet real (Quiero que Juan venga). Russian has no separate verb forms for this; it uses чтобы + past tense or the particle бы. To build the present subjunctive, take the yo form of the present indicative, drop the -o and add the 'opposite' endings: -ar verbs take -e endings, -er and -ir verbs take -a endings.",
+     "body_en": "Spanish has two moods: the indicative states facts (Juan viene) and the subjunctive presents an action as wished, doubted, feared or not yet real (Quiero que Juan venga). Russian has no separate verb forms for this; it uses 'chtoby' (so that) + past tense or the particle 'by'. To build the present subjunctive, take the yo form of the present indicative, drop the -o and add the 'opposite' endings: -ar verbs take -e endings, -er and -ir verbs take -a endings.",
      "body_ru": "В испанском два наклонения: индикатив сообщает факты (Juan viene), а субхунтив представляет действие как желаемое, сомнительное или ещё не реальное (Quiero que Juan venga). В русском отдельных форм для этого нет: мы говорим «чтобы + прошедшее время» или используем частицу «бы». Чтобы образовать presente de subjuntivo, берём форму yo настоящего времени, отбрасываем -o и добавляем «противоположные» окончания: глаголы на -ar получают окончания с -e, глаголы на -er и -ir — с -a.",
      "examples": [
       {
@@ -272,7 +272,12 @@
      "q": "The yo and él/ella forms of the present subjunctive are identical (yo hable, ella hable).",
      "answer": true,
      "explain_en": "Yes: in the present subjunctive the first and third person singular always coincide, so a pronoun often clarifies the subject.",
-     "explain_ru": "Верно: в presente de subjuntivo первое и третье лицо единственного числа всегда совпадают, поэтому подлежащее часто уточняют местоимением."
+     "explain_ru": "Верно: в presente de subjuntivo первое и третье лицо единственного числа всегда совпадают, поэтому подлежащее часто уточняют местоимением.",
+     "ui": {
+      "ru": {
+       "q": "Формы yo и él/ella в presente de subjuntivo совпадают (yo hable, ella hable)."
+      }
+     }
     },
     {
      "id": "e07",
@@ -417,7 +422,12 @@
      "q": "The correct nosotros form of the present subjunctive of 'sentir' is 'sentamos'.",
      "answer": false,
      "explain_en": "False: -ir verbs change in every form, so nosotros is sintamos (and vosotros sintáis).",
-     "explain_ru": "Неверно: у глаголов на -ir корень меняется во всех формах, поэтому nosotros — sintamos (а vosotros — sintáis)."
+     "explain_ru": "Неверно: у глаголов на -ir корень меняется во всех формах, поэтому nosotros — sintamos (а vosotros — sintáis).",
+     "ui": {
+      "ru": {
+       "q": "Правильная форма nosotros глагола 'sentir' в presente de subjuntivo — 'sentamos'."
+      }
+     }
     },
     {
      "id": "e18",
@@ -542,7 +552,12 @@
      "q": "'Ojalá sepan la respuesta' uses the correct present subjunctive of 'saber'.",
      "answer": true,
      "explain_en": "True: saber → sepa, sepas, sepa, sepamos, sepáis, sepan.",
-     "explain_ru": "Верно: saber → sepa, sepas, sepa, sepamos, sepáis, sepan."
+     "explain_ru": "Верно: saber → sepa, sepas, sepa, sepamos, sepáis, sepan.",
+     "ui": {
+      "ru": {
+       "q": "В 'Ojalá sepan la respuesta' использована правильная форма presente de subjuntivo глагола 'saber'."
+      }
+     }
     },
     {
      "id": "e27",
@@ -627,7 +642,7 @@
     {
      "title_en": "Two subjects: que + subjunctive; one subject: infinitive",
      "title_ru": "Два субъекта: que + субхунтив; один субъект: инфинитив",
-     "body_en": "The subjunctive appears in a subordinate clause introduced by que when the subject of the main verb and the subject of the subordinate verb are different: Quiero que (tú) vengas. If both actions have the same subject, Spanish uses the infinitive: Quiero venir. Russian works the same way with чтобы (хочу, чтобы ты пришёл / хочу прийти), but it puts the verb after чтобы in the past-tense form, while Spanish uses the present subjunctive.",
+     "body_en": "The subjunctive appears in a subordinate clause introduced by que when the subject of the main verb and the subject of the subordinate verb are different: Quiero que (tú) vengas. If both actions have the same subject, Spanish uses the infinitive: Quiero venir. Russian works the same way with 'chtoby' (I want you to come / I want to come), but it puts the verb after 'chtoby' in the past-tense form, while Spanish uses the present subjunctive.",
      "body_ru": "Субхунтив стоит в придаточном с que, когда субъект главного глагола и субъект придаточного различны: Quiero que (tú) vengas. Если субъект один, используется инфинитив: Quiero venir. В русском такая же логика с «чтобы» (хочу, чтобы ты пришёл / хочу прийти), но после «чтобы» стоит глагол в форме прошедшего времени, а в испанском — настоящее время субхунтива.",
      "examples": [
       {
@@ -650,7 +665,7 @@
     {
      "title_en": "Verbs of wish and will",
      "title_ru": "Глаголы желания и волеизъявления",
-     "body_en": "Querer, desear, esperar, preferir, necesitar, pedir, exigir, prohibir, recomendar, aconsejar, sugerir and permitir are followed by que + subjunctive when the subjects differ. Many take an indirect object pronoun: te pido que, le aconsejo que, nos prohíben que. Russian often uses an infinitive instead (советую тебе отдохнуть), but Spanish prefers the que-clause.",
+     "body_en": "Querer, desear, esperar, preferir, necesitar, pedir, exigir, prohibir, recomendar, aconsejar, sugerir and permitir are followed by que + subjunctive when the subjects differ. Many take an indirect object pronoun: te pido que, le aconsejo que, nos prohíben que. Russian and English often use an infinitive instead (I advise you to rest), but Spanish prefers the que-clause.",
      "body_ru": "Querer, desear, esperar, preferir, necesitar, pedir, exigir, prohibir, recomendar, aconsejar, sugerir, permitir требуют que + субхунтив, если субъекты разные. Многие употребляются с местоимением косвенного объекта: te pido que, le aconsejo que, nos prohíben que. В русском часто ставится инфинитив (советую тебе отдохнуть), а в испанском предпочтительнее придаточное с que.",
      "examples": [
       {
@@ -673,7 +688,7 @@
     {
      "title_en": "Emotions and evaluations",
      "title_ru": "Эмоции и оценка",
-     "body_en": "Expressions of feeling take que + subjunctive: me alegra que, me gusta que, me encanta que, me molesta que, me da pena que, me sorprende que, siento que, tengo miedo de que, es una pena que. This is a key contrast with Russian, which uses the ordinary indicative here: 'Я рад, что ты здесь' = 'Me alegro de que estés aquí'. The fact may be real, but the speaker's reaction triggers the subjunctive.",
+     "body_en": "Expressions of feeling take que + subjunctive: me alegra que, me gusta que, me encanta que, me molesta que, me da pena que, me sorprende que, siento que, tengo miedo de que, es una pena que. This is a key contrast with Russian (and English), which use the ordinary indicative here: 'I'm glad that you are here' = 'Me alegro de que estés aquí'. The fact may be real, but the speaker's reaction triggers the subjunctive.",
      "body_ru": "Выражения чувств требуют que + субхунтив: me alegra que, me gusta que, me encanta que, me molesta que, me da pena que, me sorprende que, siento que, tengo miedo de que, es una pena que. Это ключевое отличие от русского, где стоит обычный индикатив: «Я рад, что ты здесь» = «Me alegro de que estés aquí». Факт может быть вполне реальным, но реакция говорящего требует субхунтива.",
      "examples": [
       {
@@ -757,7 +772,7 @@
     {
      "title_en": "Ojalá and que for wishes",
      "title_ru": "Ojalá и que для пожеланий",
-     "body_en": "Ojalá (que) + present subjunctive expresses a hope about something possible: Ojalá apruebe el examen. An independent que + subjunctive is used for wishes and good-byes: ¡Que tengas buen viaje!, ¡Que aproveche!, ¡Que te mejores! Russian uses хоть бы, пусть or a plain imperative-like phrase (Хорошего пути!).",
+     "body_en": "Ojalá (que) + present subjunctive expresses a hope about something possible: Ojalá apruebe el examen. An independent que + subjunctive is used for wishes and good-byes: ¡Que tengas buen viaje!, ¡Que aproveche!, ¡Que te mejores! English uses 'I hope…', 'may…' or a set phrase (Have a good trip!).",
      "body_ru": "Ojalá (que) + presente de subjuntivo выражает надежду на возможное: Ojalá apruebe el examen. Самостоятельное que + субхунтив служит для пожеланий и прощаний: ¡Que tengas buen viaje!, ¡Que aproveche!, ¡Que te mejores! По-русски это «хоть бы», «пусть» или просто пожелание («Счастливого пути!»).",
      "examples": [
       {
@@ -780,7 +795,7 @@
     {
      "title_en": "Decir: information vs command",
      "title_ru": "Decir: информация или приказ",
-     "body_en": "Some verbs change meaning with the mood. Decir que + indicative reports information (Dice que viene = he says he is coming); decir que + subjunctive transmits an order or request (Dice que vengas = he tells you to come). The same happens with insistir, escribir and avisar. Russian marks the difference with говорит, что / говорит, чтобы.",
+     "body_en": "Some verbs change meaning with the mood. Decir que + indicative reports information (Dice que viene = he says he is coming); decir que + subjunctive transmits an order or request (Dice que vengas = he tells you to come). The same happens with insistir, escribir and avisar. Russian marks the difference with 'chto' (that) vs 'chtoby' (so that).",
      "body_ru": "Некоторые глаголы меняют значение в зависимости от наклонения. Decir que + индикатив передаёт информацию (Dice que viene — он говорит, что придёт); decir que + субхунтив передаёт приказ или просьбу (Dice que vengas — он говорит, чтобы ты пришёл). Так же ведут себя insistir, escribir, avisar. В русском разница выражается союзами «что» и «чтобы».",
      "examples": [
       {
@@ -893,7 +908,12 @@
      "q": "In 'Sé que tienes razón' the verb 'tienes' is correctly in the indicative.",
      "answer": true,
      "explain_en": "True: saber que states a fact and takes the indicative.",
-     "explain_ru": "Верно: saber que сообщает факт и требует индикатива."
+     "explain_ru": "Верно: saber que сообщает факт и требует индикатива.",
+     "ui": {
+      "ru": {
+       "q": "В 'Sé que tienes razón' глагол 'tienes' правильно стоит в indicativo."
+      }
+     }
     },
     {
      "id": "e07",
@@ -1014,7 +1034,12 @@
      "q": "'Me molesta que la gente grita en el metro' is grammatically correct.",
      "answer": false,
      "explain_en": "False: me molesta que requires the subjunctive, so it must be 'grite'.",
-     "explain_ru": "Неверно: после me molesta que нужен субхунтив — grite. Русское «меня раздражает, что люди кричат» здесь не помогает."
+     "explain_ru": "Неверно: после me molesta que нужен субхунтив — grite. Русское «меня раздражает, что люди кричат» здесь не помогает.",
+     "ui": {
+      "ru": {
+       "q": "'Me molesta que la gente grita en el metro' — грамматически правильно."
+      }
+     }
     },
     {
      "id": "e16",
@@ -1075,7 +1100,29 @@
        "¡Que descanses!",
        "Отдыхай хорошо!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "¡Que aproveche!",
+         "Enjoy your meal!"
+        ],
+        [
+         "¡Que te mejores!",
+         "Get well soon!"
+        ],
+        [
+         "¡Que tengas suerte!",
+         "Good luck!"
+        ],
+        [
+         "¡Que descanses!",
+         "Have a good rest!"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e20",
@@ -1131,7 +1178,12 @@
      "q": "In '¿No crees que es demasiado caro?' the indicative 'es' is correct.",
      "answer": true,
      "explain_en": "True: in a negative question the speaker believes the content, so the indicative is normal.",
-     "explain_ru": "Верно: в отрицательном вопросе говорящий сам так считает, поэтому индикатив уместен."
+     "explain_ru": "Верно: в отрицательном вопросе говорящий сам так считает, поэтому индикатив уместен.",
+     "ui": {
+      "ru": {
+       "q": "В '¿No crees que es demasiado caro?' indicativo 'es' — правильно."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1236,7 +1288,7 @@
     {
      "title_en": "Purpose: para que + subjunctive, para + infinitive",
      "title_ru": "Цель: para que + субхунтив, para + инфинитив",
-     "body_en": "Para que introduces a purpose with a different subject and always takes the subjunctive: Te llamo para que me ayudes. If the subject is the same, use para + infinitive: Te llamo para pedirte ayuda. More formal equivalents: a fin de que, con el fin de que. Russian uses чтобы in both cases, so remember that Spanish distinguishes infinitive and subjunctive by the subjects.",
+     "body_en": "Para que introduces a purpose with a different subject and always takes the subjunctive: Te llamo para que me ayudes. If the subject is the same, use para + infinitive: Te llamo para pedirte ayuda. More formal equivalents: a fin de que, con el fin de que. Russian uses 'chtoby' (in order to / so that) in both cases, so remember that Spanish distinguishes infinitive and subjunctive by the subjects.",
      "body_ru": "Para que вводит цель с другим субъектом и всегда требует субхунтива: Te llamo para que me ayudes. Если субъект тот же, используется para + инфинитив: Te llamo para pedirte ayuda. Более официальные варианты: a fin de que, con el fin de que. В русском в обоих случаях «чтобы», поэтому помните: испанский различает инфинитив и субхунтив по субъектам.",
      "examples": [
       {
@@ -1259,7 +1311,7 @@
     {
      "title_en": "Cuando: future → subjunctive, habit or past → indicative",
      "title_ru": "Cuando: будущее → субхунтив, привычка или прошлое → индикатив",
-     "body_en": "When cuando refers to a future event, the verb is in the present subjunctive, never in the future tense: Cuando llegues, llámame. For habits and past events the indicative is used: Cuando llego a casa, ceno; Cuando llegué, cené. This is a strong contrast with Russian, which uses the future indicative: когда придёшь, позвони.",
+     "body_en": "When cuando refers to a future event, the verb is in the present subjunctive, never in the future tense: Cuando llegues, llámame. For habits and past events the indicative is used: Cuando llego a casa, ceno; Cuando llegué, cené. This is a strong contrast with Russian, which uses the future indicative here (literally 'when you will come, call').",
      "body_ru": "Если cuando относится к будущему, глагол стоит в presente de subjuntivo и никогда в будущем времени: Cuando llegues, llámame. Для привычек и прошлого используется индикатив: Cuando llego a casa, ceno; Cuando llegué, cené. Это резкое отличие от русского, где стоит будущее изъявительного наклонения: «когда придёшь, позвони».",
      "examples": [
       {
@@ -1497,7 +1549,12 @@
      "q": "'Cuando tendré dinero, compraré una casa' is correct Spanish.",
      "answer": false,
      "explain_en": "False: after cuando the future tense is not used; it must be 'Cuando tenga dinero'.",
-     "explain_ru": "Неверно: после cuando будущее время не употребляется; правильно «Cuando tenga dinero». Это частая ошибка под влиянием русского."
+     "explain_ru": "Неверно: после cuando будущее время не употребляется; правильно «Cuando tenga dinero». Это частая ошибка под влиянием русского.",
+     "ui": {
+      "ru": {
+       "q": "'Cuando tendré dinero, compraré una casa' — правильно по-испански."
+      }
+     }
     },
     {
      "id": "e07",
@@ -1539,7 +1596,33 @@
        "a menos que",
        "если только не"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "para que",
+         "so that (different subject)"
+        ],
+        [
+         "antes de que",
+         "before"
+        ],
+        [
+         "en cuanto",
+         "as soon as"
+        ],
+        [
+         "hasta que",
+         "until"
+        ],
+        [
+         "a menos que",
+         "unless"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e09",
@@ -1623,7 +1706,12 @@
      "q": "'Es importante comer bien' is correct: with no specific subject the infinitive is used.",
      "answer": true,
      "explain_en": "True: a general statement without a specific subject takes the infinitive.",
-     "explain_ru": "Верно: общее утверждение без конкретного субъекта строится с инфинитивом, как и в русском «важно хорошо питаться»."
+     "explain_ru": "Верно: общее утверждение без конкретного субъекта строится с инфинитивом, как и в русском «важно хорошо питаться».",
+     "ui": {
+      "ru": {
+       "q": "'Es importante comer bien' — правильно: если конкретного субъекта нет, используется инфинитив."
+      }
+     }
     },
     {
      "id": "e16",
@@ -1756,7 +1844,12 @@
      "q": "In 'Mientras estés aquí, no tendrás problemas' the subjunctive 'estés' is correct because it refers to the future.",
      "answer": true,
      "explain_en": "True: mientras with future reference takes the subjunctive.",
-     "explain_ru": "Верно: mientras с отнесённостью к будущему требует субхунтива."
+     "explain_ru": "Верно: mientras с отнесённостью к будущему требует субхунтива.",
+     "ui": {
+      "ru": {
+       "q": "В 'Mientras estés aquí, no tendrás problemas' subjuntivo 'estés' правильный, потому что речь идёт о будущем."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1872,7 +1965,7 @@
     {
      "title_en": "Meaning: a past before another past",
      "title_ru": "Значение: прошлое до другого прошлого",
-     "body_en": "The pluscuamperfecto expresses an action completed before another past moment or action: Cuando llegamos, la película ya había empezado. Russian has only one past tense, so it uses adverbs (уже, раньше, до этого) or the context; Spanish marks the sequence with the verb form itself. Typical markers: ya, todavía no, antes, nunca.",
+     "body_en": "The pluscuamperfecto expresses an action completed before another past moment or action: Cuando llegamos, la película ya había empezado. Russian has only one past tense, so it uses adverbs (already, earlier, before that) or the context; Spanish marks the sequence with the verb form itself. Typical markers: ya, todavía no, antes, nunca.",
      "body_ru": "Pluscuamperfecto выражает действие, завершившееся раньше другого момента или действия в прошлом: Cuando llegamos, la película ya había empezado. В русском одно прошедшее время, и последовательность передаётся словами (уже, раньше, до этого) или контекстом; в испанском её показывает сама форма глагола. Типичные маркеры: ya, todavía no, antes, nunca.",
      "examples": [
       {
@@ -1895,7 +1988,7 @@
     {
      "title_en": "Indefinido: the events of the story",
      "title_ru": "Indefinido: события рассказа",
-     "body_en": "In narration the pretérito indefinido carries the plot: each completed action that moves the story forward. Markers: ayer, entonces, de repente, un día, en 2015. Russian uses the perfective past here (вошёл, увидел, сказал). The indefinido answers 'what happened next?'.",
+     "body_en": "In narration the pretérito indefinido carries the plot: each completed action that moves the story forward. Markers: ayer, entonces, de repente, un día, en 2015. Russian uses the perfective past here (voshyol 'came in', uvidel 'saw', skazal 'said'). The indefinido answers 'what happened next?'.",
      "body_ru": "В повествовании pretérito indefinido ведёт сюжет: каждое завершённое действие, продвигающее рассказ. Маркеры: ayer, entonces, de repente, un día, en 2015. В русском здесь совершенный вид (вошёл, увидел, сказал). Indefinido отвечает на вопрос «что произошло дальше?».",
      "examples": [
       {
@@ -1918,7 +2011,7 @@
     {
      "title_en": "Imperfecto: background, description and habits",
      "title_ru": "Imperfecto: фон, описание и привычки",
-     "body_en": "The imperfecto paints the scene: descriptions, states, ongoing actions interrupted by an event, and repeated habits in the past. Markers: siempre, todos los días, mientras, antes, de niño. Russian usually uses the imperfective past (шёл дождь, я читал). In a story, the imperfecto answers 'what was the situation?'.",
+     "body_en": "The imperfecto paints the scene: descriptions, states, ongoing actions interrupted by an event, and repeated habits in the past. Markers: siempre, todos los días, mientras, antes, de niño. Russian usually uses the imperfective past (it was raining, I was reading). In a story, the imperfecto answers 'what was the situation?'.",
      "body_ru": "Imperfecto рисует обстановку: описания, состояния, длящиеся действия, прерванные событием, и повторяющиеся привычки в прошлом. Маркеры: siempre, todos los días, mientras, antes, de niño. В русском обычно несовершенный вид (шёл дождь, я читал). В рассказе imperfecto отвечает на вопрос «какова была ситуация?».",
      "examples": [
       {
@@ -1987,7 +2080,7 @@
     {
      "title_en": "Pluscuamperfecto in reported thoughts and explanations",
      "title_ru": "Pluscuamperfecto в передаче мыслей и объяснениях",
-     "body_en": "The pluscuamperfecto often appears after verbs of saying or thinking in the past (dijo que, pensé que, me di cuenta de que) to refer to something earlier: Me di cuenta de que había olvidado el pasaporte. It also explains a past situation by its cause: Estaba cansado porque había trabajado toda la noche. Russian would just say забыл, поработал.",
+     "body_en": "The pluscuamperfecto often appears after verbs of saying or thinking in the past (dijo que, pensé que, me di cuenta de que) to refer to something earlier: Me di cuenta de que había olvidado el pasaporte. It also explains a past situation by its cause: Estaba cansado porque había trabajado toda la noche. Russian would just use the simple past (forgot, worked).",
      "body_ru": "Pluscuamperfecto часто стоит после глаголов речи и мысли в прошлом (dijo que, pensé que, me di cuenta de que), когда речь о более раннем событии: Me di cuenta de que había olvidado el pasaporte. Оно также объясняет прошлую ситуацию её причиной: Estaba cansado porque había trabajado toda la noche. По-русски просто «забыл», «проработал».",
      "examples": [
       {
@@ -2086,7 +2179,12 @@
      "q": "In the pluscuamperfecto the participle agrees with the subject: 'Ellas habían salidas'.",
      "answer": false,
      "explain_en": "False: the participle after haber is invariable: ellas habían salido.",
-     "explain_ru": "Неверно: причастие после haber не изменяется: ellas habían salido."
+     "explain_ru": "Неверно: причастие после haber не изменяется: ellas habían salido.",
+     "ui": {
+      "ru": {
+       "q": "В pluscuamperfecto причастие согласуется с подлежащим: 'Ellas habían salidas'."
+      }
+     }
     },
     {
      "id": "e06",
@@ -2202,7 +2300,12 @@
      "q": "'Cuando salí, llovía' means that it was already raining when I went out.",
      "answer": true,
      "explain_en": "True: the imperfecto llovía describes an ongoing situation at the moment of salí.",
-     "explain_ru": "Верно: imperfecto llovía описывает ситуацию, длившуюся в момент salí. «Empezó a llover» означало бы, что дождь начался именно тогда."
+     "explain_ru": "Верно: imperfecto llovía описывает ситуацию, длившуюся в момент salí. «Empezó a llover» означало бы, что дождь начался именно тогда.",
+     "ui": {
+      "ru": {
+       "q": "'Cuando salí, llovía' значит, что дождь уже шёл, когда я вышел."
+      }
+     }
     },
     {
      "id": "e14",
@@ -2333,7 +2436,12 @@
      "q": "'Nunca había probado la paella hasta que fui a Valencia' correctly combines pluscuamperfecto and indefinido.",
      "answer": true,
      "explain_en": "True: the experience (not trying paella) is earlier than the event fui.",
-     "explain_ru": "Верно: опыт (не пробовал паэлью) предшествует событию fui, поэтому pluscuamperfecto + indefinido."
+     "explain_ru": "Верно: опыт (не пробовал паэлью) предшествует событию fui, поэтому pluscuamperfecto + indefinido.",
+     "ui": {
+      "ru": {
+       "q": "В 'Nunca había probado la paella hasta que fui a Valencia' pluscuamperfecto и indefinido сочетаются правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2438,7 +2546,29 @@
        "Hoy no he desayunado.",
        "связь с настоящим"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Llovía y hacía frío.",
+         "background description"
+        ],
+        [
+         "De repente alguien gritó.",
+         "event"
+        ],
+        [
+         "Ya se habían ido.",
+         "earlier action"
+        ],
+        [
+         "Hoy no he desayunado.",
+         "link to the present"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2446,7 +2576,7 @@
    "id": "condicional-simple-futuro-probabilidad",
    "title_en": "Condicional simple: hypotheses, advice and probability; futuro de probabilidad",
    "title_ru": "Condicional simple: гипотезы, советы и вероятность; futuro de probabilidad",
-   "summary_en": "The conditional (hablaría) expresses what would happen, gives advice and guesses about the past; the future tense can express a guess about the present. Russian renders most of these with бы or with наверное, so the Spanish forms need practice.",
+   "summary_en": "The conditional (hablaría) expresses what would happen, gives advice and guesses about the past; the future tense can express a guess about the present. Russian renders most of these with the particle 'by' or with 'navernoe' (probably), so the Spanish forms need practice.",
    "summary_ru": "Condicional (hablaría) выражает то, что произошло бы, даёт советы и строит догадки о прошлом; будущее время может выражать догадку о настоящем. В русском почти всё это передаётся частицей «бы» или словом «наверное», поэтому испанские формы требуют тренировки.",
    "rules": [
     {
@@ -2498,7 +2628,7 @@
     {
      "title_en": "Hypothetical situations",
      "title_ru": "Гипотетические ситуации",
-     "body_en": "The conditional describes what would happen in an imagined or unreal situation: Con más tiempo, viajaría más. It often appears with en tu lugar, yo que tú, con más dinero, or with si-clauses (section 6). Russian uses the particle бы + past tense: я бы путешествовал.",
+     "body_en": "The conditional describes what would happen in an imagined or unreal situation: Con más tiempo, viajaría más. It often appears with en tu lugar, yo que tú, con más dinero, or with si-clauses (section 6). Russian uses the particle 'by' + past tense; English uses 'would': I would travel.",
      "body_ru": "Condicional описывает, что произошло бы в воображаемой или нереальной ситуации: Con más tiempo, viajaría más. Часто встречается с en tu lugar, yo que tú, con más dinero или в условных предложениях (раздел 6). В русском это «бы» + прошедшее время: я бы путешествовал.",
      "examples": [
       {
@@ -2521,7 +2651,7 @@
     {
      "title_en": "Advice and suggestions: deberías, podrías, yo + conditional",
      "title_ru": "Советы и предложения: deberías, podrías, yo + condicional",
-     "body_en": "To give advice gently, Spanish uses deberías + infinitive (you should), podrías + infinitive (you could), tendrías que + infinitive, or 'yo + conditional' (Yo hablaría con él). Habría que + infinitive gives impersonal advice. Russian: тебе следовало бы, ты мог бы, я бы поговорил.",
+     "body_en": "To give advice gently, Spanish uses deberías + infinitive (you should), podrías + infinitive (you could), tendrías que + infinitive, or 'yo + conditional' (Yo hablaría con él). Habría que + infinitive gives impersonal advice. English: you ought to, you could, I would talk to him.",
      "body_ru": "Для мягкого совета используются deberías + инфинитив (тебе следовало бы), podrías + инфинитив (ты мог бы), tendrías que + инфинитив или «yo + condicional» (Yo hablaría con él). Habría que + инфинитив — безличный совет. По-русски: тебе следовало бы, ты мог бы, я бы поговорил.",
      "examples": [
       {
@@ -2549,7 +2679,7 @@
     {
      "title_en": "Polite requests and wishes",
      "title_ru": "Вежливые просьбы и пожелания",
-     "body_en": "The conditional softens requests and wishes: ¿Podría ayudarme?, Me gustaría reservar una mesa, Querría un café, ¿Te importaría cerrar la ventana? Querría and quisiera are both used in shops and restaurants. Russian has the same softening effect with бы: Я бы хотел…, Вы не могли бы…",
+     "body_en": "The conditional softens requests and wishes: ¿Podría ayudarme?, Me gustaría reservar una mesa, Querría un café, ¿Te importaría cerrar la ventana? Querría and quisiera are both used in shops and restaurants. English has the same softening effect with 'would' and 'could': I would like…, Could you…",
      "body_ru": "Condicional смягчает просьбы и пожелания: ¿Podría ayudarme?, Me gustaría reservar una mesa, Querría un café, ¿Te importaría cerrar la ventana? Querría и quisiera одинаково употребительны в магазинах и ресторанах. В русском тот же смягчающий эффект даёт «бы»: Я бы хотел…, Вы не могли бы…",
      "examples": [
       {
@@ -2572,7 +2702,7 @@
     {
      "title_en": "Future in the past",
      "title_ru": "Будущее в прошедшем",
-     "body_en": "The conditional expresses a future action seen from a past moment, typically in reported speech: Dijo que vendría (he said he would come). Compare: Dice que vendrá (present → future) / Dijo que vendría (past → conditional). Russian keeps the future tense in both cases (сказал, что придёт), so this shift is a classic error source.",
+     "body_en": "The conditional expresses a future action seen from a past moment, typically in reported speech: Dijo que vendría (he said he would come). Compare: Dice que vendrá (present → future) / Dijo que vendría (past → conditional). Russian keeps the future tense in both cases (literally 'he said that he will come'), so this shift is a classic error source.",
      "body_ru": "Condicional выражает действие, будущее по отношению к моменту в прошлом, обычно в косвенной речи: Dijo que vendría (он сказал, что придёт). Сравните: Dice que vendrá (настоящее → будущее) / Dijo que vendría (прошедшее → condicional). В русском будущее сохраняется в обоих случаях («сказал, что придёт»), поэтому этот сдвиг — классический источник ошибок.",
      "examples": [
       {
@@ -2595,7 +2725,7 @@
     {
      "title_en": "Futuro de probabilidad: guessing about the present",
      "title_ru": "Futuro de probabilidad: догадка о настоящем",
-     "body_en": "The future tense can express a supposition about the present moment: ¿Qué hora es? — Serán las cinco (it's probably five). Juan no contesta: estará durmiendo. This use has nothing to do with future time; it means 'probably, I suppose'. Russian uses наверное, должно быть, вероятно with the present tense.",
+     "body_en": "The future tense can express a supposition about the present moment: ¿Qué hora es? — Serán las cinco (it's probably five). Juan no contesta: estará durmiendo. This use has nothing to do with future time; it means 'probably, I suppose'. English uses 'probably', 'must be', 'I suppose' with the present tense.",
      "body_ru": "Будущее время может выражать предположение о настоящем: ¿Qué hora es? — Serán las cinco (наверное, пять). Juan no contesta: estará durmiendo. Это употребление не связано с будущим временем и означает «наверное, должно быть». В русском — «наверное», «должно быть», «вероятно» с настоящим временем.",
      "examples": [
       {
@@ -2618,7 +2748,7 @@
     {
      "title_en": "Condicional de probabilidad: guessing about the past",
      "title_ru": "Condicional de probabilidad: догадка о прошлом",
-     "body_en": "In the same way, the conditional expresses a guess about a past situation (the one described with the imperfecto): Ayer no vino. — Estaría enfermo (he was probably ill). Serían las diez cuando llegó (it was probably ten). The pattern is: present fact → future tense; past fact → conditional. Russian again uses наверное + past tense.",
+     "body_en": "In the same way, the conditional expresses a guess about a past situation (the one described with the imperfecto): Ayer no vino. — Estaría enfermo (he was probably ill). Serían las diez cuando llegó (it was probably ten). The pattern is: present fact → future tense; past fact → conditional. English again uses 'probably' + past tense.",
      "body_ru": "Аналогично condicional выражает догадку о прошлой ситуации (той, что описывалась бы imperfecto): Ayer no vino. — Estaría enfermo (наверное, болел). Serían las diez cuando llegó (было, наверное, десять). Схема: факт в настоящем → будущее время; факт в прошлом → condicional. В русском снова «наверное» + прошедшее время.",
      "examples": [
       {
@@ -2651,7 +2781,7 @@
       "compraba"
      ],
      "answer": 2,
-     "explain_en": "A hypothetical situation → conditional: compraría (я бы купил).",
+     "explain_en": "A hypothetical situation → conditional: compraría (I would buy).",
      "explain_ru": "Гипотетическая ситуация → condicional: compraría — «я бы купил»."
     },
     {
@@ -2675,7 +2805,7 @@
      "answer": [
       "gustaría"
      ],
-     "explain_en": "Me gustaría expresses a wish politely: я бы хотел.",
+     "explain_en": "Me gustaría expresses a wish politely: I would like.",
      "explain_ru": "Me gustaría вежливо выражает желание: «мне бы хотелось»."
     },
     {
@@ -2694,7 +2824,12 @@
      "q": "The conditional of 'tener' is 'tenería'.",
      "answer": false,
      "explain_en": "False: tener has the irregular stem tendr-, so the conditional is tendría.",
-     "explain_ru": "Неверно: у tener неправильная основа tendr-, поэтому condicional — tendría (как и в будущем tendré)."
+     "explain_ru": "Неверно: у tener неправильная основа tendr-, поэтому condicional — tendría (как и в будущем tendré).",
+     "ui": {
+      "ru": {
+       "q": "Condicional от 'tener' — 'tenería'."
+      }
+     }
     },
     {
      "id": "e06",
@@ -2749,7 +2884,7 @@
       "Debiste"
      ],
      "answer": 0,
-     "explain_en": "Deberías + infinitive gives gentle advice: тебе следовало бы.",
+     "explain_en": "Deberías + infinitive gives gentle advice: you should, you ought to.",
      "explain_ru": "Deberías + инфинитив — мягкий совет: «тебе следовало бы сходить к врачу»."
     },
     {
@@ -2791,8 +2926,13 @@
      "type": "tf",
      "q": "'¿Podría ayudarme?' is a more polite request than '¿Puede ayudarme?'.",
      "answer": true,
-     "explain_en": "True: the conditional softens a request, like Russian 'Вы не могли бы…'.",
-     "explain_ru": "Верно: condicional смягчает просьбу, как русское «Вы не могли бы…»."
+     "explain_en": "True: the conditional softens a request, like English 'Could you…?'.",
+     "explain_ru": "Верно: condicional смягчает просьбу, как русское «Вы не могли бы…».",
+     "ui": {
+      "ru": {
+       "q": "'¿Podría ayudarme?' — более вежливая просьба, чем '¿Puede ayudarme?'."
+      }
+     }
     },
     {
      "id": "e13",
@@ -2833,7 +2973,7 @@
       "venga"
      ],
      "answer": 1,
-     "explain_en": "Future seen from the past → conditional: dijo que vendría. Russian keeps the future here (сказала, что придёт).",
+     "explain_en": "Future seen from the past → conditional: dijo que vendría. Russian keeps the future here (literally 'she said she will come').",
      "explain_ru": "Будущее с точки зрения прошлого → condicional: dijo que vendría. В русском остаётся будущее («сказала, что придёт»)."
     },
     {
@@ -2890,7 +3030,29 @@
        "Vendrá mañana.",
        "Он придёт завтра."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Dice que vendrá.",
+         "He says he will come."
+        ],
+        [
+         "Dijo que vendría.",
+         "He said he would come."
+        ],
+        [
+         "Vendría, pero no puede.",
+         "He would come, but he can't."
+        ],
+        [
+         "Vendrá mañana.",
+         "He will come tomorrow."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e20",
@@ -2903,7 +3065,7 @@
       "estará"
      ],
      "answer": 3,
-     "explain_en": "A guess about the present → future tense (futuro de probabilidad): estará = наверное, он в библиотеке.",
+     "explain_en": "A guess about the present → future tense (futuro de probabilidad): estará = he's probably in the library.",
      "explain_ru": "Догадка о настоящем → будущее время (futuro de probabilidad): estará — «наверное, он в библиотеке»."
     },
     {
@@ -2936,7 +3098,12 @@
      "q": "In 'Tendrá unos cincuenta años' the speaker is talking about the future.",
      "answer": false,
      "explain_en": "False: this is a guess about the present (he is probably about fifty).",
-     "explain_ru": "Неверно: это догадка о настоящем («ему, наверное, около пятидесяти»), а не о будущем."
+     "explain_ru": "Неверно: это догадка о настоящем («ему, наверное, около пятидесяти»), а не о будущем.",
+     "ui": {
+      "ru": {
+       "q": "В 'Tendrá unos cincuenta años' говорящий говорит о будущем."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2963,7 +3130,7 @@
       "Estuviera"
      ],
      "answer": 1,
-     "explain_en": "A guess about a past situation → conditional: estaría enfermo (наверное, болел).",
+     "explain_en": "A guess about a past situation → conditional: estaría enfermo (he was probably ill).",
      "explain_ru": "Догадка о прошлой ситуации → condicional: estaría enfermo («наверное, болел»)."
     },
     {
@@ -3036,7 +3203,29 @@
        "Deberías estar en casa.",
        "Тебе следовало бы быть дома."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Estará en casa.",
+         "He's probably at home."
+        ],
+        [
+         "Estaría en casa.",
+         "He was probably at home."
+        ],
+        [
+         "Estaría en casa, pero prefiero salir.",
+         "I would stay at home, but I prefer to go out."
+        ],
+        [
+         "Deberías estar en casa.",
+         "You should be at home."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3050,7 +3239,7 @@
     {
      "title_en": "Type 1: si + present indicative, real condition",
      "title_ru": "Тип 1: si + настоящее время индикатива, реальное условие",
-     "body_en": "When the condition is possible or likely, the si-clause takes the present indicative, never the future and never the present subjunctive: Si tengo tiempo, te llamo / te llamaré / llámame. The main clause can be present, future or imperative. Russian uses the future in both parts (если будет время, позвоню), so the present after si is the detail to remember.",
+     "body_en": "When the condition is possible or likely, the si-clause takes the present indicative, never the future and never the present subjunctive: Si tengo tiempo, te llamo / te llamaré / llámame. The main clause can be present, future or imperative. Russian uses the future in both parts (literally 'if there will be time, I will call'), so the present after si is the detail to remember.",
      "body_ru": "Если условие возможно или вероятно, в части с si стоит настоящее время индикатива — не будущее и не presente de subjuntivo: Si tengo tiempo, te llamo / te llamaré / llámame. Главная часть может быть в настоящем, будущем или в императиве. В русском в обеих частях будущее («если будет время, позвоню»), поэтому настоящее после si — главная деталь для запоминания.",
      "examples": [
       {
@@ -3137,7 +3326,7 @@
     {
      "title_en": "Type 2: si + imperfect subjunctive + conditional",
      "title_ru": "Тип 2: si + imperfecto de subjuntivo + condicional",
-     "body_en": "For an unreal or unlikely condition in the present or future, the si-clause takes the imperfect subjunctive and the main clause the conditional: Si tuviera tiempo, viajaría más. The order can be reversed: Viajaría más si tuviera tiempo. Russian uses бы in both halves with the past tense (если бы было, я бы путешествовал); Spanish uses two different forms, and never the conditional after si.",
+     "body_en": "For an unreal or unlikely condition in the present or future, the si-clause takes the imperfect subjunctive and the main clause the conditional: Si tuviera tiempo, viajaría más. The order can be reversed: Viajaría más si tuviera tiempo. Russian uses the particle 'by' in both halves with the past tense; Spanish uses two different forms, and never the conditional after si.",
      "body_ru": "Для нереального или маловероятного условия в настоящем или будущем часть с si стоит в imperfecto de subjuntivo, а главная — в condicional: Si tuviera tiempo, viajaría más. Порядок можно поменять: Viajaría más si tuviera tiempo. В русском «бы» стоит в обеих половинах с прошедшим временем («если бы было, я бы путешествовал»); в испанском две разные формы, и после si никогда не ставится condicional.",
      "examples": [
       {
@@ -3183,7 +3372,7 @@
     {
      "title_en": "Imperfect subjunctive after past main verbs",
      "title_ru": "Imperfecto de subjuntivo после главного глагола в прошлом",
-     "body_en": "The imperfect subjunctive is also required when a subjunctive trigger (querer que, pedir que, para que, antes de que, era importante que) is in a past tense or in the conditional: Quería que vinieras; Me pidió que lo ayudara; Me gustaría que me escucharas. This agreement of tenses (consecutio temporum) does not exist in Russian, where чтобы is always followed by the same past form.",
+     "body_en": "The imperfect subjunctive is also required when a subjunctive trigger (querer que, pedir que, para que, antes de que, era importante que) is in a past tense or in the conditional: Quería que vinieras; Me pidió que lo ayudara; Me gustaría que me escucharas. This agreement of tenses (consecutio temporum) does not exist in Russian, where 'chtoby' is always followed by the same past form.",
      "body_ru": "Imperfecto de subjuntivo нужен и тогда, когда «запускающее» субхунтив выражение (querer que, pedir que, para que, antes de que, era importante que) стоит в прошедшем времени или в condicional: Quería que vinieras; Me pidió que lo ayudara; Me gustaría que me escucharas. Такого согласования времён (consecutio temporum) в русском нет: после «чтобы» всегда одна и та же форма прошедшего времени.",
      "examples": [
       {
@@ -3211,7 +3400,7 @@
     {
      "title_en": "Como si and ojalá with the imperfect subjunctive",
      "title_ru": "Como si и ojalá с imperfecto de subjuntivo",
-     "body_en": "Como si (as if) is always followed by the imperfect subjunctive: Habla como si fuera el jefe. Ojalá + imperfect subjunctive expresses a wish that is unlikely or impossible now: Ojalá tuviera más tiempo (I wish I had more time), compared with Ojalá tenga tiempo (I hope I will). Russian: как будто он начальник; вот бы у меня было больше времени.",
+     "body_en": "Como si (as if) is always followed by the imperfect subjunctive: Habla como si fuera el jefe. Ojalá + imperfect subjunctive expresses a wish that is unlikely or impossible now: Ojalá tuviera más tiempo (I wish I had more time), compared with Ojalá tenga tiempo (I hope I will). English: he talks as if he were the boss; if only I had more time.",
      "body_ru": "После como si (как будто) всегда стоит imperfecto de subjuntivo: Habla como si fuera el jefe. Ojalá + imperfecto de subjuntivo выражает маловероятное или невозможное сейчас желание: Ojalá tuviera más tiempo (вот бы у меня было больше времени) в отличие от Ojalá tenga tiempo (надеюсь, будет). По-русски: «как будто он начальник»; «вот бы у меня было больше времени».",
      "examples": [
       {
@@ -3277,7 +3466,12 @@
      "q": "'Si tendré tiempo, iré al cine' is correct Spanish.",
      "answer": false,
      "explain_en": "False: the future is never used after si; it must be 'Si tengo tiempo'.",
-     "explain_ru": "Неверно: после si будущее время не употребляется; правильно «Si tengo tiempo». Это типичная ошибка под влиянием русского."
+     "explain_ru": "Неверно: после si будущее время не употребляется; правильно «Si tengo tiempo». Это типичная ошибка под влиянием русского.",
+     "ui": {
+      "ru": {
+       "q": "'Si tendré tiempo, iré al cine' — правильно по-испански."
+      }
+     }
     },
     {
      "id": "e05",
@@ -3381,7 +3575,12 @@
      "q": "'Hablase' and 'hablara' are two forms of the same tense with the same meaning.",
      "answer": true,
      "explain_en": "True: the -se and -ra forms of the imperfect subjunctive are interchangeable.",
-     "explain_ru": "Верно: формы на -se и на -ra imperfecto de subjuntivo взаимозаменяемы; в Испании обе употребительны."
+     "explain_ru": "Верно: формы на -se и на -ra imperfecto de subjuntivo взаимозаменяемы; в Испании обе употребительны.",
+     "ui": {
+      "ru": {
+       "q": "'Hablase' и 'hablara' — две формы одного и того же времени с одинаковым значением."
+      }
+     }
     },
     {
      "id": "e12",
@@ -3453,7 +3652,12 @@
      "q": "'Si tendría dinero, compraría un coche' is correct Spanish.",
      "answer": false,
      "explain_en": "False: the conditional cannot follow si; the correct form is 'Si tuviera dinero'.",
-     "explain_ru": "Неверно: condicional не ставится после si; правильно «Si tuviera dinero». В русском «бы» стоит в обеих частях, в испанском формы разные."
+     "explain_ru": "Неверно: condicional не ставится после si; правильно «Si tuviera dinero». В русском «бы» стоит в обеих частях, в испанском формы разные.",
+     "ui": {
+      "ru": {
+       "q": "'Si tendría dinero, compraría un coche' — правильно по-испански."
+      }
+     }
     },
     {
      "id": "e18",
@@ -3527,7 +3731,7 @@
       "estudiara",
       "estudiase"
      ],
-     "explain_en": "Past main verb (quería) → imperfect subjunctive in the que-clause: estudiara. Russian keeps 'чтобы я изучал' regardless of the main tense.",
+     "explain_en": "Past main verb (quería) → imperfect subjunctive in the que-clause: estudiara. Russian keeps the same 'chtoby' + past form regardless of the main tense.",
      "explain_ru": "Главный глагол в прошлом (quería) → imperfecto de subjuntivo в придаточном: estudiara. В русском «чтобы я изучал» не зависит от времени главного глагола."
     },
     {
@@ -3645,7 +3849,29 @@
        "Si vinieras, cenaríamos juntos.",
        "Если бы ты пришёл, мы бы поужинали вместе."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Quiero que vengas.",
+         "I want you to come."
+        ],
+        [
+         "Quería que vinieras.",
+         "I wanted you to come."
+        ],
+        [
+         "Si vienes, cenamos juntos.",
+         "If you come, we'll have dinner together."
+        ],
+        [
+         "Si vinieras, cenaríamos juntos.",
+         "If you came, we would have dinner together."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3682,7 +3908,7 @@
     {
      "title_en": "Past reporting verb: present → imperfecto",
      "title_ru": "Глагол речи в прошлом: настоящее → imperfecto",
-     "body_en": "After dijo que, contó que, explicó que, preguntó si, the present indicative of the original words becomes the imperfecto: 'Tengo hambre' → Dijo que tenía hambre. 'Estoy estudiando' → Dijo que estaba estudiando. Russian keeps the present (сказал, что голоден), so Russian speakers tend to forget the shift.",
+     "body_en": "After dijo que, contó que, explicó que, preguntó si, the present indicative of the original words becomes the imperfecto: 'Tengo hambre' → Dijo que tenía hambre. 'Estoy estudiando' → Dijo que estaba estudiando. Russian keeps the present (literally 'he said that he is hungry'), so Russian speakers tend to forget the shift.",
      "body_ru": "После dijo que, contó que, explicó que, preguntó si настоящее время исходных слов превращается в imperfecto: «Tengo hambre» → Dijo que tenía hambre. «Estoy estudiando» → Dijo que estaba estudiando. В русском настоящее сохраняется («сказал, что голоден»), поэтому русскоязычные часто забывают о сдвиге.",
      "examples": [
       {
@@ -3728,7 +3954,7 @@
     {
      "title_en": "Future → conditional",
      "title_ru": "Будущее → condicional",
-     "body_en": "The future tense and ir a + infinitive shift: 'Llegaré tarde' → Dijo que llegaría tarde. 'Voy a comprar pan' → Dijo que iba a comprar pan. The conditional here is a 'future in the past'. Russian keeps the future tense (сказал, что опоздает).",
+     "body_en": "The future tense and ir a + infinitive shift: 'Llegaré tarde' → Dijo que llegaría tarde. 'Voy a comprar pan' → Dijo que iba a comprar pan. The conditional here is a 'future in the past'. Russian keeps the future tense (literally 'he said that he will be late').",
      "body_ru": "Будущее время и ir a + инфинитив сдвигаются: «Llegaré tarde» → Dijo que llegaría tarde. «Voy a comprar pan» → Dijo que iba a comprar pan. Condicional здесь — «будущее в прошедшем». В русском будущее сохраняется («сказал, что опоздает»).",
      "examples": [
       {
@@ -3751,7 +3977,7 @@
     {
      "title_en": "Reporting commands: imperative → subjunctive",
      "title_ru": "Передача приказов: императив → субхунтив",
-     "body_en": "Commands and requests are reported with decir, pedir, ordenar, aconsejar + que + subjunctive. With a present reporting verb use the present subjunctive: 'Cierra la puerta' → Me dice que cierre la puerta. With a past reporting verb use the imperfect subjunctive: Me dijo que cerrara la puerta. Russian uses чтобы + past (сказал, чтобы я закрыл) or an infinitive (велел закрыть).",
+     "body_en": "Commands and requests are reported with decir, pedir, ordenar, aconsejar + que + subjunctive. With a present reporting verb use the present subjunctive: 'Cierra la puerta' → Me dice que cierre la puerta. With a past reporting verb use the imperfect subjunctive: Me dijo que cerrara la puerta. Russian uses 'chtoby' + past or an infinitive (he told me to close it).",
      "body_ru": "Приказы и просьбы передаются глаголами decir, pedir, ordenar, aconsejar + que + субхунтив. При глаголе речи в настоящем — presente de subjuntivo: «Cierra la puerta» → Me dice que cierre la puerta. При глаголе речи в прошлом — imperfecto de subjuntivo: Me dijo que cerrara la puerta. В русском — «чтобы + прошедшее» (сказал, чтобы я закрыл) или инфинитив (велел закрыть).",
      "examples": [
       {
@@ -3774,7 +4000,7 @@
     {
      "title_en": "Reporting questions",
      "title_ru": "Передача вопросов",
-     "body_en": "Yes/no questions are reported with si; questions with a question word keep that word (with its accent): 'Qué quieres?' → Me preguntó qué quería. 'Vienes?' → Me preguntó si venía. Tenses shift as in statements. Note that Spanish si (if/whether) has no accent, unlike sí (yes). Russian uses the particle ли: спросил, иду ли я.",
+     "body_en": "Yes/no questions are reported with si; questions with a question word keep that word (with its accent): 'Qué quieres?' → Me preguntó qué quería. 'Vienes?' → Me preguntó si venía. Tenses shift as in statements. Note that Spanish si (if/whether) has no accent, unlike sí (yes). Russian uses the particle 'li' (he asked whether I was coming).",
      "body_ru": "Общие вопросы передаются через si; вопросы с вопросительным словом сохраняют это слово (с ударением): «¿Qué quieres?» → Me preguntó qué quería. «¿Vienes?» → Me preguntó si venía. Времена сдвигаются так же, как в утверждениях. Si (ли) пишется без ударения, в отличие от sí (да). В русском используется частица «ли»: спросил, иду ли я.",
      "examples": [
       {
@@ -3896,7 +4122,12 @@
      "q": "In 'Dijo que vive en Madrid' the tense shift has been applied correctly.",
      "answer": false,
      "explain_en": "False: after dijo que the present vive should become vivía (unless the speaker stresses that it is still true).",
-     "explain_ru": "Неверно: после dijo que настоящее vive должно стать vivía (кроме случаев, когда подчёркивается, что это верно до сих пор)."
+     "explain_ru": "Неверно: после dijo que настоящее vive должно стать vivía (кроме случаев, когда подчёркивается, что это верно до сих пор).",
+     "ui": {
+      "ru": {
+       "q": "В 'Dijo que vive en Madrid' согласование времён применено правильно."
+      }
+     }
     },
     {
      "id": "e06",
@@ -3984,7 +4215,7 @@
       "llegó"
      ],
      "answer": 0,
-     "explain_en": "Future → conditional: llegaría. Russian keeps the future (сказал, что приедет).",
+     "explain_en": "Future → conditional: llegaría. Russian keeps the future (literally 'he said he will arrive').",
      "explain_ru": "Будущее → condicional: llegaría. В русском будущее сохраняется («сказал, что приедет»)."
     },
     {
@@ -4013,7 +4244,12 @@
      "q": "'Dijo que vendría' is the correct report of '«Vendré»'.",
      "answer": true,
      "explain_en": "True: the future vendré becomes the conditional vendría.",
-     "explain_ru": "Верно: будущее vendré становится condicional vendría."
+     "explain_ru": "Верно: будущее vendré становится condicional vendría.",
+     "ui": {
+      "ru": {
+       "q": "'Dijo que vendría' — правильная передача в косвенной речи фразы «Vendré»."
+      }
+     }
     },
     {
      "id": "e15",
@@ -4147,7 +4383,12 @@
      "q": "In reported yes/no questions the word 'si' (whether) is written with an accent: 'Me preguntó sí venía'.",
      "answer": false,
      "explain_en": "False: si meaning 'whether/if' has no accent; sí with an accent means 'yes'.",
-     "explain_ru": "Неверно: si в значении «ли» пишется без ударения; sí с ударением значит «да»."
+     "explain_ru": "Неверно: si в значении «ли» пишется без ударения; sí с ударением значит «да».",
+     "ui": {
+      "ru": {
+       "q": "В косвенных общих вопросах слово 'si' (ли) пишется со знаком ударения: 'Me preguntó sí venía'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4259,7 +4500,7 @@
     {
      "title_en": "Que: the universal relative",
      "title_ru": "Que: универсальное относительное местоимение",
-     "body_en": "Que refers to people and things, singular and plural, as subject or object: El chico que canta es mi primo; La película que vimos era aburrida. It never changes form and cannot be omitted. Russian который agrees in gender, number and case (который, которая, которых), while Spanish que stays the same.",
+     "body_en": "Que refers to people and things, singular and plural, as subject or object: El chico que canta es mi primo; La película que vimos era aburrida. It never changes form and cannot be omitted. Russian 'kotoryy' (which, who) agrees in gender, number and case, while Spanish que stays the same.",
      "body_ru": "Que относится к людям и предметам, в единственном и множественном числе, как подлежащее или дополнение: El chico que canta es mi primo; La película que vimos era aburrida. Оно не изменяется и не опускается. Русское «который» согласуется в роде, числе и падеже (который, которая, которых), а испанское que всегда одно.",
      "examples": [
       {
@@ -4282,7 +4523,7 @@
     {
      "title_en": "Preposition + el que / la que / los que / las que",
      "title_ru": "Предлог + el que / la que / los que / las que",
-     "body_en": "After a preposition (en, con, de, a, por, para) the relative needs an article agreeing with the noun: la casa en la que vivo, el amigo con el que trabajo, los temas de los que hablamos. In Russian the preposition is also placed before который (в котором, с которым), so the structure feels familiar; the new element is the article, which Russian does not have.",
+     "body_en": "After a preposition (en, con, de, a, por, para) the relative needs an article agreeing with the noun: la casa en la que vivo, el amigo con el que trabajo, los temas de los que hablamos. In Russian the preposition is also placed before the relative word ('in which', 'with whom'), so the structure feels familiar; the new element is the article, which Russian does not have.",
      "body_ru": "После предлога (en, con, de, a, por, para) относительному местоимению нужен артикль, согласованный с существительным: la casa en la que vivo, el amigo con el que trabajo, los temas de los que hablamos. В русском предлог тоже стоит перед «который» (в котором, с которым), так что структура знакома; новый элемент — артикль, которого в русском нет.",
      "examples": [
       {
@@ -4328,7 +4569,7 @@
     {
      "title_en": "El que / la que / lo que without a noun",
      "title_ru": "El que / la que / lo que без существительного",
-     "body_en": "El que, la que, los que, las que can stand alone meaning 'the one(s) who / that': El que quiera venir, que venga; Los que llegaron tarde no entraron. Lo que refers to an idea or a whole sentence: No entiendo lo que dices; Lo que más me gusta es el mar. Russian: тот, кто; то, что.",
+     "body_en": "El que, la que, los que, las que can stand alone meaning 'the one(s) who / that': El que quiera venir, que venga; Los que llegaron tarde no entraron. Lo que refers to an idea or a whole sentence: No entiendo lo que dices; Lo que más me gusta es el mar. English: he who, those who; what, the thing that.",
      "body_ru": "El que, la que, los que, las que могут стоять самостоятельно в значении «тот, кто / те, которые»: El que quiera venir, que venga; Los que llegaron tarde no entraron. Lo que относится к идее или целому предложению: No entiendo lo que dices; Lo que más me gusta es el mar. По-русски: «тот, кто», «то, что».",
      "examples": [
       {
@@ -4374,7 +4615,7 @@
     {
      "title_en": "Cuyo: possession",
      "title_ru": "Cuyo: принадлежность",
-     "body_en": "Cuyo, cuya, cuyos, cuyas mean 'whose' and agree with the noun that follows (the thing possessed), not with the owner: el escritor cuya novela leímos; la empresa cuyos empleados protestan. It is formal and mostly written; in speech people often say 'que tiene…'. Russian чей/которого behaves differently, so check the agreement carefully.",
+     "body_en": "Cuyo, cuya, cuyos, cuyas mean 'whose' and agree with the noun that follows (the thing possessed), not with the owner: el escritor cuya novela leímos; la empresa cuyos empleados protestan. It is formal and mostly written; in speech people often say 'que tiene…'. Russian 'chey' / 'kotorogo' behave differently, so check the agreement carefully.",
      "body_ru": "Cuyo, cuya, cuyos, cuyas означают «чей» и согласуются с существительным, которое следует за ними (с предметом обладания), а не с обладателем: el escritor cuya novela leímos; la empresa cuyos empleados protestan. Это книжная форма; в речи чаще говорят «que tiene…». Русские «чей / которого» ведут себя иначе, так что следите за согласованием.",
      "examples": [
       {
@@ -4501,7 +4742,12 @@
      "q": "'La chica quien canta es mi hermana' is correct Spanish.",
      "answer": false,
      "explain_en": "False: quien is not used directly after a noun without a preposition or comma; it should be 'la chica que canta'.",
-     "explain_ru": "Неверно: quien не ставится сразу после существительного без предлога или запятой; правильно «la chica que canta»."
+     "explain_ru": "Неверно: quien не ставится сразу после существительного без предлога или запятой; правильно «la chica que canta».",
+     "ui": {
+      "ru": {
+       "q": "'La chica quien canta es mi hermana' — правильно по-испански."
+      }
+     }
     },
     {
      "id": "e06",
@@ -4610,7 +4856,12 @@
      "q": "'Los que llegaron tarde no entraron' means 'Those who arrived late did not get in'.",
      "answer": true,
      "explain_en": "True: los que stands alone meaning 'those who'.",
-     "explain_ru": "Верно: los que стоит самостоятельно в значении «те, кто»."
+     "explain_ru": "Верно: los que стоит самостоятельно в значении «те, кто».",
+     "ui": {
+      "ru": {
+       "q": "'Los que llegaron tarde no entraron' значит «Те, кто пришёл поздно, не вошли»."
+      }
+     }
     },
     {
      "id": "e14",
@@ -4649,7 +4900,12 @@
       "donde"
      ],
      "explain_en": "Relative donde has no accent; dónde with an accent is the question word.",
-     "explain_ru": "Относительное donde пишется без ударения; dónde с ударением — вопросительное слово."
+     "explain_ru": "Относительное donde пишется без ударения; dónde с ударением — вопросительное слово.",
+     "ui": {
+      "ru": {
+       "q": "Este es el restaurante ___ comimos el año pasado. (место, одно слово, без знака ударения)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -4681,7 +4937,12 @@
      "q": "In 'la chica cuyo padre es médico', 'cuyo' agrees with 'chica'.",
      "answer": false,
      "explain_en": "False: cuyo agrees with padre (masculine singular), the noun that follows it.",
-     "explain_ru": "Неверно: cuyo согласуется с padre (м. р., ед. ч.), существительным, которое следует за ним, а не с chica."
+     "explain_ru": "Неверно: cuyo согласуется с padre (м. р., ед. ч.), существительным, которое следует за ним, а не с chica.",
+     "ui": {
+      "ru": {
+       "q": "В 'la chica cuyo padre es médico' слово 'cuyo' согласуется с 'chica'."
+      }
+     }
     },
     {
      "id": "e20",
@@ -4707,7 +4968,33 @@
        "lo que",
        "то, что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "que",
+         "that, which, who (universal)"
+        ],
+        [
+         "quien",
+         "who (a person, after a preposition)"
+        ],
+        [
+         "donde",
+         "where"
+        ],
+        [
+         "cuyo",
+         "whose"
+        ],
+        [
+         "lo que",
+         "what, that which"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e21",
@@ -4801,7 +5088,12 @@
      "q": "'Conozco a un médico que trabaja los domingos' correctly uses the indicative.",
      "answer": true,
      "explain_en": "True: the speaker knows a specific doctor, so the antecedent is real → indicative.",
-     "explain_ru": "Верно: говорящий знает конкретного врача, антецедент реален → индикатив."
+     "explain_ru": "Верно: говорящий знает конкретного врача, антецедент реален → индикатив.",
+     "ui": {
+      "ru": {
+       "q": "В 'Conozco a un médico que trabaja los domingos' правильно использован indicativo."
+      }
+     }
     },
     {
      "id": "e29",
@@ -4853,7 +5145,7 @@
     {
      "title_en": "Se pasivo (pasiva refleja): se + verb agreeing with the thing",
      "title_ru": "Se pasivo (pasiva refleja): se + глагол, согласованный с предметом",
-     "body_en": "The most common passive in Spanish is se + verb in the 3rd person, agreeing with the noun that receives the action: Se vende piso / Se venden pisos; Se habla español; Aquí se hacen llaves. The noun is the grammatical subject, so the verb is singular or plural accordingly. It is used for things, not for specific people. Russian equivalents: продаётся / продаются (reflexive passive) or the 3rd person plural (здесь делают ключи).",
+     "body_en": "The most common passive in Spanish is se + verb in the 3rd person, agreeing with the noun that receives the action: Se vende piso / Se venden pisos; Se habla español; Aquí se hacen llaves. The noun is the grammatical subject, so the verb is singular or plural accordingly. It is used for things, not for specific people. Russian equivalents: a reflexive passive verb in -sya ('is sold / are sold') or the 3rd person plural ('they make keys here').",
      "body_ru": "Самый частый пассив в испанском — se + глагол в 3-м лице, согласованный с существительным, на которое направлено действие: Se vende piso / Se venden pisos; Se habla español; Aquí se hacen llaves. Существительное — грамматическое подлежащее, поэтому глагол стоит в единственном или множественном числе. Употребляется с предметами, не с конкретными людьми. Русские аналоги: продаётся / продаются или 3-е лицо множественного числа (здесь делают ключи).",
      "examples": [
       {
@@ -4881,7 +5173,7 @@
     {
      "title_en": "Se impersonal: se + verb always in the singular",
      "title_ru": "Se impersonal: se + глагол всегда в единственном числе",
-     "body_en": "With intransitive verbs, or when the object is a person introduced by a, the construction is impersonal and the verb stays in the 3rd person singular: Se come bien en Galicia; Se vive tranquilo aquí; Se busca a los culpables; En España se cena tarde. It describes what people in general do. Russian uses the 3rd person plural (здесь хорошо едят) or an infinitive construction (здесь можно хорошо поесть).",
+     "body_en": "With intransitive verbs, or when the object is a person introduced by a, the construction is impersonal and the verb stays in the 3rd person singular: Se come bien en Galicia; Se vive tranquilo aquí; Se busca a los culpables; En España se cena tarde. It describes what people in general do. Russian uses the 3rd person plural ('they eat well here') or an infinitive construction ('one can eat well here').",
      "body_ru": "С непереходными глаголами или когда объект — человек с предлогом a, конструкция безличная и глагол остаётся в 3-м лице единственного числа: Se come bien en Galicia; Se vive tranquilo aquí; Se busca a los culpables; En España se cena tarde. Она описывает, что делают люди в целом. В русском — 3-е лицо множественного числа (здесь хорошо едят) или конструкция с инфинитивом (здесь можно хорошо поесть).",
      "examples": [
       {
@@ -4932,7 +5224,7 @@
     {
      "title_en": "Ser + participio: the formal passive",
      "title_ru": "Ser + participio: книжный пассив",
-     "body_en": "Ser + past participle, with the participle agreeing with the subject, forms the passive proper: La catedral fue construida en el siglo XIII; Los ladrones fueron detenidos por la policía. The agent is introduced by por. This passive is typical of news, history and formal writing; in conversation Spanish prefers the active voice or se. Russian has a similar form (был построен), also mostly written.",
+     "body_en": "Ser + past participle, with the participle agreeing with the subject, forms the passive proper: La catedral fue construida en el siglo XIII; Los ladrones fueron detenidos por la policía. The agent is introduced by por. This passive is typical of news, history and formal writing; in conversation Spanish prefers the active voice or se. English has a similar form (was built), more common than in Spanish; Russian uses it mostly in writing too.",
      "body_ru": "Ser + причастие, согласованное с подлежащим, образует собственно пассив: La catedral fue construida en el siglo XIII; Los ladrones fueron detenidos por la policía. Деятель вводится предлогом por. Этот пассив характерен для новостей, истории и официальных текстов; в разговоре испанцы предпочитают активный залог или se. В русском есть похожая форма (был построен), тоже в основном письменная.",
      "examples": [
       {
@@ -4978,7 +5270,7 @@
     {
      "title_en": "Estar + participio: the resulting state",
      "title_ru": "Estar + participio: состояние как результат",
-     "body_en": "Estar + participle describes the state that results from an action, not the action itself: La tienda está cerrada (it is closed now); La mesa está puesta; Los deberes están hechos. The participle agrees with the subject. Compare: La puerta fue cerrada por el portero (event) / La puerta está cerrada (state). Russian makes the same distinction with была закрыта (кем-то) vs закрыта (сейчас).",
+     "body_en": "Estar + participle describes the state that results from an action, not the action itself: La tienda está cerrada (it is closed now); La mesa está puesta; Los deberes están hechos. The participle agrees with the subject. Compare: La puerta fue cerrada por el portero (event) / La puerta está cerrada (state). English makes the same distinction with 'was closed (by someone)' vs 'is closed (now)'.",
      "body_ru": "Estar + причастие описывает состояние как результат действия, а не само действие: La tienda está cerrada (сейчас закрыта); La mesa está puesta; Los deberes están hechos. Причастие согласуется с подлежащим. Сравните: La puerta fue cerrada por el portero (событие) / La puerta está cerrada (состояние). В русском различие похожее: «была закрыта (кем-то)» и «закрыта (сейчас)».",
      "examples": [
       {
@@ -5024,7 +5316,7 @@
     {
      "title_en": "Other impersonal forms: 3rd person plural, uno, hay que",
      "title_ru": "Другие безличные формы: 3-е лицо множественного числа, uno, hay que",
-     "body_en": "Spanish also uses the 3rd person plural without a subject, exactly like Russian: Llaman a la puerta (стучат в дверь); Dicen que va a nevar (говорят, что…). Uno/una + 3rd person singular is used for general experience, especially with reflexive verbs where se cannot be doubled: Uno se acostumbra a todo. Hay que + infinitive expresses general obligation (надо): Hay que reservar con antelación.",
+     "body_en": "Spanish also uses the 3rd person plural without a subject, exactly like Russian: Llaman a la puerta (someone is knocking at the door); Dicen que va a nevar (they say that…). Uno/una + 3rd person singular is used for general experience, especially with reflexive verbs where se cannot be doubled: Uno se acostumbra a todo. Hay que + infinitive expresses general obligation (one must): Hay que reservar con antelación.",
      "body_ru": "В испанском также употребляется 3-е лицо множественного числа без подлежащего, в точности как в русском: Llaman a la puerta (стучат в дверь); Dicen que va a nevar (говорят, что…). Uno/una + 3-е лицо единственного числа — для обобщённого опыта, особенно с возвратными глаголами, где se нельзя удвоить: Uno se acostumbra a todo. Hay que + инфинитив выражает общую необходимость (надо): Hay que reservar con antelación.",
      "examples": [
       {
@@ -5105,7 +5397,12 @@
      "q": "'Se alquila habitaciones' is correct Spanish.",
      "answer": false,
      "explain_en": "False: with a plural thing-noun the verb must agree: se alquilan habitaciones.",
-     "explain_ru": "Неверно: с существительным во множественном числе глагол согласуется: se alquilan habitaciones («сдаются комнаты»)."
+     "explain_ru": "Неверно: с существительным во множественном числе глагол согласуется: se alquilan habitaciones («сдаются комнаты»).",
+     "ui": {
+      "ru": {
+       "q": "'Se alquila habitaciones' — правильно по-испански."
+      }
+     }
     },
     {
      "id": "e06",
@@ -5199,7 +5496,12 @@
      "q": "In 'Se vive muy tranquilo en este pueblo' the verb is singular because the construction is impersonal.",
      "answer": true,
      "explain_en": "True: vivir is intransitive, so the se construction is impersonal and always singular.",
-     "explain_ru": "Верно: vivir — непереходный глагол, поэтому конструкция с se безличная и всегда в единственном числе."
+     "explain_ru": "Верно: vivir — непереходный глагол, поэтому конструкция с se безличная и всегда в единственном числе.",
+     "ui": {
+      "ru": {
+       "q": "В 'Se vive muy tranquilo en este pueblo' глагол стоит в единственном числе, потому что конструкция безличная."
+      }
+     }
     },
     {
      "id": "e13",
@@ -5284,7 +5586,12 @@
      "q": "In the passive with ser, the participle never changes: 'Las casas fueron construido'.",
      "answer": false,
      "explain_en": "False: after ser the participle agrees like an adjective: las casas fueron construidas.",
-     "explain_ru": "Неверно: после ser причастие согласуется как прилагательное: las casas fueron construidas. Не изменяется оно только после haber (he construido)."
+     "explain_ru": "Неверно: после ser причастие согласуется как прилагательное: las casas fueron construidas. Не изменяется оно только после haber (he construido).",
+     "ui": {
+      "ru": {
+       "q": "В пассиве с ser причастие никогда не меняется: 'Las casas fueron construido'."
+      }
+     }
     },
     {
      "id": "e20",
@@ -5391,7 +5698,12 @@
      "q": "'El cuadro fue pintado por Goya' describes an action and names the agent with 'por'.",
      "answer": true,
      "explain_en": "True: ser + participle + por + agent is the formal passive.",
-     "explain_ru": "Верно: ser + причастие + por + деятель — это книжный пассив («написана Гойей»)."
+     "explain_ru": "Верно: ser + причастие + por + деятель — это книжный пассив («написана Гойей»).",
+     "ui": {
+      "ru": {
+       "q": "'El cuadro fue pintado por Goya' описывает действие и называет исполнителя с помощью 'por'."
+      }
+     }
     },
     {
      "id": "e28",
@@ -5404,7 +5716,7 @@
       "Está llamado"
      ],
      "answer": 1,
-     "explain_en": "An unspecified agent is expressed with the 3rd person plural, exactly like Russian 'стучат'.",
+     "explain_en": "An unspecified agent is expressed with the 3rd person plural, exactly like Russian (literally 'they are knocking').",
      "explain_ru": "Неопределённый деятель выражается 3-м лицом множественного числа, как в русском «стучат»: Llaman a la puerta."
     },
     {
@@ -5446,7 +5758,33 @@
        "Dicen que nevará.",
        "Говорят, что будет снег."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Se venden pisos.",
+         "Flats for sale."
+        ],
+        [
+         "Se come bien aquí.",
+         "You eat well here."
+        ],
+        [
+         "Fue construido en 1900.",
+         "It was built in 1900."
+        ],
+        [
+         "Está cerrado.",
+         "It's closed."
+        ],
+        [
+         "Dicen que nevará.",
+         "They say it will snow."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5460,7 +5798,7 @@
     {
      "title_en": "Acabar de + infinitive: just done",
      "title_ru": "Acabar de + инфинитив: только что",
-     "body_en": "Acabar de + infinitive means that something happened a moment ago: Acabo de llegar (I have just arrived). It is used in the present (acabo de) and in the imperfect for a past reference point (acababa de salir cuando llamaste). Do not confuse it with acabar (to finish): Acabé el trabajo. Russian: только что + perfective past.",
+     "body_en": "Acabar de + infinitive means that something happened a moment ago: Acabo de llegar (I have just arrived). It is used in the present (acabo de) and in the imperfect for a past reference point (acababa de salir cuando llamaste). Do not confuse it with acabar (to finish): Acabé el trabajo. English: have just + past participle.",
      "body_ru": "Acabar de + инфинитив означает, что что-то произошло только что: Acabo de llegar (я только что приехал). Употребляется в настоящем (acabo de) и в имперфекте для точки отсчёта в прошлом (acababa de salir cuando llamaste). Не путайте с acabar (закончить): Acabé el trabajo. По-русски: «только что» + глагол совершенного вида.",
      "examples": [
       {
@@ -5483,7 +5821,7 @@
     {
      "title_en": "Seguir + gerundio and llevar + time + gerundio",
      "title_ru": "Seguir + gerundio и llevar + время + gerundio",
-     "body_en": "Seguir (or continuar) + gerundio means to continue doing something: Sigo estudiando español (I am still studying). Llevar + period of time + gerundio expresses how long an action has been going on: Llevo tres años viviendo en Madrid (I have been living in Madrid for three years). Note that Spanish uses the present here, where English uses the perfect; Russian also uses the present (живу уже три года).",
+     "body_en": "Seguir (or continuar) + gerundio means to continue doing something: Sigo estudiando español (I am still studying). Llevar + period of time + gerundio expresses how long an action has been going on: Llevo tres años viviendo en Madrid (I have been living in Madrid for three years). Note that Spanish uses the present here, where English uses the perfect; Russian also uses the present.",
      "body_ru": "Seguir (или continuar) + gerundio означает продолжать что-то делать: Sigo estudiando español (я всё ещё учу испанский). Llevar + отрезок времени + gerundio выражает, как долго длится действие: Llevo tres años viviendo en Madrid (я живу в Мадриде уже три года). В испанском здесь настоящее время, как и в русском («живу уже три года»).",
      "examples": [
       {
@@ -5534,7 +5872,7 @@
     {
      "title_en": "Volver a + infinitive: again",
      "title_ru": "Volver a + инфинитив: снова",
-     "body_en": "Volver a + infinitive means to do something again: Volví a leer el libro (I read the book again); No vuelvas a hacer eso (don't do that again). It is more common than otra vez in many contexts. Russian uses снова, опять or the prefix пере- (перечитал). Volver alone means to return: Volví a casa.",
+     "body_en": "Volver a + infinitive means to do something again: Volví a leer el libro (I read the book again); No vuelvas a hacer eso (don't do that again). It is more common than otra vez in many contexts. English uses 'again' or the prefix re- (reread). Volver alone means to return: Volví a casa.",
      "body_ru": "Volver a + инфинитив означает сделать что-то снова: Volví a leer el libro (я перечитал книгу); No vuelvas a hacer eso (больше так не делай). Во многих контекстах употребительнее, чем otra vez. В русском — «снова», «опять» или приставка пере- (перечитал). Volver само по себе значит вернуться: Volví a casa.",
      "examples": [
       {
@@ -5557,7 +5895,7 @@
     {
      "title_en": "Ponerse a and empezar a: beginning an action",
      "title_ru": "Ponerse a и empezar a: начало действия",
-     "body_en": "Empezar a / comenzar a + infinitive is the neutral way to say 'start doing': Empezó a llover. Ponerse a + infinitive adds the idea of a sudden or energetic start: Se puso a llorar (she burst into tears); Me puse a estudiar (I got down to studying). Echarse a + infinitive is used with a few verbs: echarse a reír, echarse a correr. Russian: начал, принялся, расплакался.",
+     "body_en": "Empezar a / comenzar a + infinitive is the neutral way to say 'start doing': Empezó a llover. Ponerse a + infinitive adds the idea of a sudden or energetic start: Se puso a llorar (she burst into tears); Me puse a estudiar (I got down to studying). Echarse a + infinitive is used with a few verbs: echarse a reír, echarse a correr. English: started, set about, burst into tears.",
      "body_ru": "Empezar a / comenzar a + инфинитив — нейтральный способ сказать «начать»: Empezó a llover. Ponerse a + инфинитив добавляет оттенок внезапного или энергичного начала: Se puso a llorar (она расплакалась); Me puse a estudiar (я взялся за учёбу). Echarse a + инфинитив употребляется с несколькими глаголами: echarse a reír, echarse a correr. По-русски: начал, принялся, расплакался.",
      "examples": [
       {
@@ -5580,7 +5918,7 @@
     {
      "title_en": "Tener que, hay que, deber: obligation",
      "title_ru": "Tener que, hay que, deber: необходимость",
-     "body_en": "Tener que + infinitive expresses a personal obligation or need: Tengo que trabajar mañana (я должен работать). Hay que + infinitive is impersonal and general: Hay que comer verduras (надо есть овощи). Deber + infinitive is a moral or recommended obligation: Debes estudiar más. Deber de + infinitive expresses probability: Debe de estar en casa (he must be at home).",
+     "body_en": "Tener que + infinitive expresses a personal obligation or need: Tengo que trabajar mañana (I have to work tomorrow). Hay que + infinitive is impersonal and general: Hay que comer verduras (one must eat vegetables). Deber + infinitive is a moral or recommended obligation: Debes estudiar más. Deber de + infinitive expresses probability: Debe de estar en casa (he must be at home).",
      "body_ru": "Tener que + инфинитив выражает личную обязанность или необходимость: Tengo que trabajar mañana (я должен работать). Hay que + инфинитив — безличное и общее: Hay que comer verduras (надо есть овощи). Deber + инфинитив — моральный долг или рекомендация: Debes estudiar más. Deber de + инфинитив выражает вероятность: Debe de estar en casa (он, должно быть, дома).",
      "examples": [
       {
@@ -5636,7 +5974,7 @@
     {
      "title_en": "Consequence and cause: por lo tanto, así que, por eso, como, ya que",
      "title_ru": "Следствие и причина: por lo tanto, así que, por eso, como, ya que",
-     "body_en": "Consequence: por lo tanto (therefore, formal), así que (so, colloquial), por eso (that's why), en consecuencia. Cause: porque (after the main clause), como (at the beginning of the sentence: Como llovía, no salimos), ya que and puesto que (since, more formal). Note that como at the start means 'since', not 'how'. Russian: поэтому, так что, так как, поскольку.",
+     "body_en": "Consequence: por lo tanto (therefore, formal), así que (so, colloquial), por eso (that's why), en consecuencia. Cause: porque (after the main clause), como (at the beginning of the sentence: Como llovía, no salimos), ya que and puesto que (since, more formal). Note that como at the start means 'since', not 'how'. English: therefore, so, since, as.",
      "body_ru": "Следствие: por lo tanto (следовательно, официально), así que (так что, разговорно), por eso (поэтому), en consecuencia. Причина: porque (после главной части), como (в начале предложения: Como llovía, no salimos), ya que и puesto que (поскольку, более официально). Como в начале фразы значит «так как», а не «как». По-русски: поэтому, так что, так как, поскольку.",
      "examples": [
       {
@@ -5717,7 +6055,12 @@
      "q": "'Acabé el informe' and 'Acabo de terminar el informe' mean the same thing.",
      "answer": false,
      "explain_en": "False: acabar alone means 'to finish'; acabar de + infinitive means 'to have just done'.",
-     "explain_ru": "Неверно: acabar само по себе значит «закончить» (я закончил отчёт); acabar de + инфинитив — «только что сделать» (только что закончил)."
+     "explain_ru": "Неверно: acabar само по себе значит «закончить» (я закончил отчёт); acabar de + инфинитив — «только что сделать» (только что закончил).",
+     "ui": {
+      "ru": {
+       "q": "'Acabé el informe' и 'Acabo de terminar el informe' значат одно и то же."
+      }
+     }
     },
     {
      "id": "e06",
@@ -5758,7 +6101,33 @@
        "ponerse a",
        "приняться"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "acabar de",
+         "to have just"
+        ],
+        [
+         "dejar de",
+         "to stop"
+        ],
+        [
+         "volver a",
+         "to do again"
+        ],
+        [
+         "seguir",
+         "to keep on"
+        ],
+        [
+         "ponerse a",
+         "to start, set about"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e08",
@@ -5814,7 +6183,12 @@
      "q": "'Llevo cinco años estudiando español' means that I studied Spanish for five years but stopped.",
      "answer": false,
      "explain_en": "False: llevar + gerundio means the action is still going on (I have been studying for five years).",
-     "explain_ru": "Неверно: llevar + gerundio означает, что действие продолжается («я учу испанский уже пять лет»)."
+     "explain_ru": "Неверно: llevar + gerundio означает, что действие продолжается («я учу испанский уже пять лет»).",
+     "ui": {
+      "ru": {
+       "q": "'Llevo cinco años estudiando español' значит, что я изучал испанский пять лет, но бросил."
+      }
+     }
     },
     {
      "id": "e13",
@@ -5902,7 +6276,33 @@
        "Me puse a comer.",
        "Я принялся есть."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Acabo de comer.",
+         "I've just eaten."
+        ],
+        [
+         "Sigo comiendo.",
+         "I'm still eating."
+        ],
+        [
+         "Dejé de comer carne.",
+         "I stopped eating meat."
+        ],
+        [
+         "Volví a comer.",
+         "I ate again."
+        ],
+        [
+         "Me puse a comer.",
+         "I started eating."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e19",
@@ -5947,8 +6347,13 @@
      "type": "tf",
      "q": "'Hay que' is impersonal and never changes for person: 'Hay que estudiar' means 'one must study'.",
      "answer": true,
-     "explain_en": "True: hay que is invariable, like Russian 'надо'.",
-     "explain_ru": "Верно: hay que не изменяется по лицам, как русское «надо»."
+     "explain_en": "True: hay que is invariable, like English 'one must'.",
+     "explain_ru": "Верно: hay que не изменяется по лицам, как русское «надо».",
+     "ui": {
+      "ru": {
+       "q": "'Hay que' — безличная конструкция, она никогда не меняется по лицам: 'Hay que estudiar' значит «нужно учиться»."
+      }
+     }
     },
     {
      "id": "e23",
@@ -6037,7 +6442,12 @@
      "q": "In 'Aunque sea caro, lo compraré' the subjunctive 'sea' shows that the speaker does not know for sure whether it is expensive.",
      "answer": true,
      "explain_en": "True: aunque + subjunctive presents the obstacle as hypothetical or irrelevant (even if it is expensive).",
-     "explain_ru": "Верно: aunque + субхунтив представляет препятствие как гипотетическое или несущественное («даже если дорого»)."
+     "explain_ru": "Верно: aunque + субхунтив представляет препятствие как гипотетическое или несущественное («даже если дорого»).",
+     "ui": {
+      "ru": {
+       "q": "В 'Aunque sea caro, lo compraré' subjuntivo 'sea' показывает, что говорящий точно не знает, дорого ли это."
+      }
+     }
     },
     {
      "id": "e30",
@@ -6080,7 +6490,33 @@
        "ya que",
        "поскольку"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "sin embargo",
+         "however"
+        ],
+        [
+         "aunque",
+         "although"
+        ],
+        [
+         "a pesar de",
+         "despite"
+        ],
+        [
+         "por lo tanto",
+         "therefore"
+        ],
+        [
+         "ya que",
+         "since, because"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e32",
