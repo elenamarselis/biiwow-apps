@@ -347,7 +347,12 @@
      ],
      "answer": 3,
      "explain_en": "Voir: nous voyons → que nous voyions (y + ions).",
-     "explain_ru": "Voir: nous voyons → que nous voyions (y + окончание -ions). Voyons — изъявительное наклонение."
+     "explain_ru": "Voir: nous voyons → que nous voyions (y + окончание -ions). Voyons — изъявительное наклонение.",
+     "ui": {
+      "ru": {
+       "q": "Какая форма — subjonctif глагола voir для nous?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -500,7 +505,12 @@
      "q": "'Que nous soyions' is the correct subjonctif of être.",
      "answer": false,
      "explain_en": "The correct form is que nous soyons, without i.",
-     "explain_ru": "Правильно: que nous soyons — без i после y."
+     "explain_ru": "Правильно: que nous soyons — без i после y.",
+     "ui": {
+      "ru": {
+       "q": "'Que nous soyions' — правильная форма subjonctif глагола être."
+      }
+     }
     },
     {
      "id": "e24",
@@ -508,7 +518,12 @@
      "q": "In 'il faut que nous parlions', the verb form is identical to the imparfait 'nous parlions'.",
      "answer": true,
      "explain_en": "Nous and vous forms of the subjonctif coincide with the imparfait.",
-     "explain_ru": "Формы nous и vous субжонктива совпадают с имперфектом; различает их только контекст."
+     "explain_ru": "Формы nous и vous субжонктива совпадают с имперфектом; различает их только контекст.",
+     "ui": {
+      "ru": {
+       "q": "В 'il faut que nous parlions' форма глагола совпадает с imparfait 'nous parlions'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -516,7 +531,12 @@
      "q": "The subjonctif of faire is formed regularly from 'ils font': 'que je fonde'.",
      "answer": false,
      "explain_en": "Faire is irregular: que je fasse.",
-     "explain_ru": "Faire — неправильный глагол: que je fasse, que nous fassions."
+     "explain_ru": "Faire — неправильный глагол: que je fasse, que nous fassions.",
+     "ui": {
+      "ru": {
+       "q": "Subjonctif глагола faire образуется по правилу от 'ils font': 'que je fonde'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -943,7 +963,12 @@
      ],
      "answer": 3,
      "explain_en": "Two subjects: vouloir que + subjonctif.",
-     "explain_ru": "Два разных подлежащих: vouloir que + субжонктив. «Je veux que je…» неправильно — при одном подлежащем нужен инфинитив."
+     "explain_ru": "Два разных подлежащих: vouloir que + субжонктив. «Je veux que je…» неправильно — при одном подлежащем нужен инфинитив.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -1096,7 +1121,12 @@
      "q": "'J'espère que tu viennes' is correct French.",
      "answer": false,
      "explain_en": "Espérer takes the indicative: j'espère que tu viendras.",
-     "explain_ru": "Espérer требует изъявительного наклонения: j'espère que tu viendras."
+     "explain_ru": "Espérer требует изъявительного наклонения: j'espère que tu viendras.",
+     "ui": {
+      "ru": {
+       "q": "'J'espère que tu viennes' — правильная французская фраза."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1104,7 +1134,15 @@
      "q": "After 'je suis content que', French uses the subjonctif, although Russian uses an ordinary verb after 'рад, что'.",
      "answer": true,
      "explain_en": "Emotions always trigger the subjonctif.",
-     "explain_ru": "Выражения эмоций всегда требуют субжонктива: je suis content que tu sois là."
+     "explain_ru": "Выражения эмоций всегда требуют субжонктива: je suis content que tu sois là.",
+     "ui": {
+      "en": {
+       "q": "After 'je suis content que', French uses the subjonctif, although Russian uses an ordinary verb after its 'glad that'."
+      },
+      "ru": {
+       "q": "После 'je suis content que' во французском используется subjonctif, хотя в русском после «рад, что» стоит обычный глагол."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1112,7 +1150,15 @@
      "q": "'Je veux que je parte' is the right way to say 'Я хочу уйти'.",
      "answer": false,
      "explain_en": "Same subject: je veux partir.",
-     "explain_ru": "Подлежащее одно и то же — нужен инфинитив: je veux partir."
+     "explain_ru": "Подлежащее одно и то же — нужен инфинитив: je veux partir.",
+     "ui": {
+      "en": {
+       "q": "'Je veux que je parte' is the right way to say 'I want to leave'."
+      },
+      "ru": {
+       "q": "'Je veux que je parte' — правильный способ сказать «Я хочу уйти»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1142,7 +1188,37 @@
        "j'ai peur que",
        "боюсь, что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "il faut que",
+         "it is necessary that"
+        ],
+        [
+         "il est possible que",
+         "it is possible that"
+        ],
+        [
+         "je doute que",
+         "I doubt that"
+        ],
+        [
+         "c'est dommage que",
+         "it's a pity that"
+        ],
+        [
+         "il est temps que",
+         "it's time that"
+        ],
+        [
+         "j'ai peur que",
+         "I'm afraid that"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -1168,7 +1244,33 @@
        "s'étonner que",
        "удивляться, что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "vouloir que",
+         "to want someone to"
+        ],
+        [
+         "exiger que",
+         "to demand that"
+        ],
+        [
+         "souhaiter que",
+         "to wish that"
+        ],
+        [
+         "regretter que",
+         "to regret that"
+        ],
+        [
+         "s'étonner que",
+         "to be surprised that"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1678,7 +1780,12 @@
      "q": "'Bien qu'il est fatigué' is correct standard French.",
      "answer": false,
      "explain_en": "Bien que takes the subjonctif: bien qu'il soit fatigué.",
-     "explain_ru": "Bien que требует субжонктива: bien qu'il soit fatigué."
+     "explain_ru": "Bien que требует субжонктива: bien qu'il soit fatigué.",
+     "ui": {
+      "ru": {
+       "q": "'Bien qu'il est fatigué' — правильно с точки зрения литературной нормы."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1686,7 +1793,15 @@
      "q": "Where Russian says 'пока я не вернусь', French says 'jusqu'à ce que je revienne' without a negation.",
      "answer": true,
      "explain_en": "Jusqu'à ce que is not followed by ne…pas.",
-     "explain_ru": "После jusqu'à ce que отрицание ne…pas не ставится."
+     "explain_ru": "После jusqu'à ce que отрицание ne…pas не ставится.",
+     "ui": {
+      "en": {
+       "q": "Where Russian says 'until I do not come back' (with a negation), French says 'jusqu'à ce que je revienne' without a negation."
+      },
+      "ru": {
+       "q": "Там, где по-русски говорят «пока я не вернусь», по-французски говорят 'jusqu'à ce que je revienne' — без отрицания."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1694,7 +1809,12 @@
      "q": "'Parce que' is followed by the subjonctif.",
      "answer": false,
      "explain_en": "Parce que introduces a real cause: indicative.",
-     "explain_ru": "Parce que вводит реальную причину — изъявительное наклонение."
+     "explain_ru": "Parce que вводит реальную причину — изъявительное наклонение.",
+     "ui": {
+      "ru": {
+       "q": "После 'parce que' употребляется subjonctif."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1724,7 +1844,37 @@
        "à moins que",
        "если только не"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "pour que",
+         "so that"
+        ],
+        [
+         "bien que",
+         "although"
+        ],
+        [
+         "avant que",
+         "before"
+        ],
+        [
+         "jusqu'à ce que",
+         "until"
+        ],
+        [
+         "à condition que",
+         "provided that"
+        ],
+        [
+         "à moins que",
+         "unless"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2178,7 +2328,12 @@
       "jamais"
      ],
      "explain_en": "Ne…jamais around the auxiliary.",
-     "explain_ru": "Ne…jamais (никогда не) вокруг вспомогательного глагола."
+     "explain_ru": "Ne…jamais (никогда не) вокруг вспомогательного глагола.",
+     "ui": {
+      "en": {
+       "q": "Elle n'avait ___ vu la mer avant ses vingt ans. (never)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -2260,7 +2415,12 @@
      "q": "The plus-que-parfait is formed with the imparfait of avoir or être.",
      "answer": true,
      "explain_en": "J'avais fini, j'étais parti.",
-     "explain_ru": "Да: j'avais fini, j'étais parti — имперфект вспомогательного глагола + причастие."
+     "explain_ru": "Да: j'avais fini, j'étais parti — имперфект вспомогательного глагола + причастие.",
+     "ui": {
+      "ru": {
+       "q": "Plus-que-parfait образуется с помощью imparfait глагола avoir или être."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2268,7 +2428,15 @@
      "q": "In a past story, 'hier' is the right word for 'накануне'.",
      "answer": false,
      "explain_en": "In a past story use la veille.",
-     "explain_ru": "В рассказе о прошлом «накануне» — la veille; hier отсчитывается от сегодняшнего дня."
+     "explain_ru": "В рассказе о прошлом «накануне» — la veille; hier отсчитывается от сегодняшнего дня.",
+     "ui": {
+      "en": {
+       "q": "In a past story, 'hier' is the right word for 'the day before'."
+      },
+      "ru": {
+       "q": "В рассказе о прошлом «накануне» правильно передать словом 'hier'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2276,7 +2444,12 @@
      "q": "When events are told in chronological order, each of them should be in the plus-que-parfait.",
      "answer": false,
      "explain_en": "Chronological events take the passé composé.",
-     "explain_ru": "События в хронологическом порядке передаются через passé composé; плюсквамперфект — только для «шага назад»."
+     "explain_ru": "События в хронологическом порядке передаются через passé composé; плюсквамперфект — только для «шага назад».",
+     "ui": {
+      "ru": {
+       "q": "Когда события излагаются в хронологическом порядке, каждое из них должно стоять в plus-que-parfait."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2328,7 +2501,33 @@
        "la semaine précédente",
        "на предыдущей неделе"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "la veille",
+         "the day before"
+        ],
+        [
+         "le lendemain",
+         "the next day"
+        ],
+        [
+         "auparavant",
+         "before that, previously"
+        ],
+        [
+         "quelques jours plus tôt",
+         "a few days earlier"
+        ],
+        [
+         "la semaine précédente",
+         "the previous week"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2346,7 +2545,25 @@
        "plus-que-parfait",
        "более раннее событие"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "passé composé",
+         "an event that moves the story on"
+        ],
+        [
+         "imparfait",
+         "background, description, habit"
+        ],
+        [
+         "plus-que-parfait",
+         "an earlier event"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2827,7 +3044,12 @@
      "q": "'Je parlerai' and 'je parlerais' are the same form.",
      "answer": false,
      "explain_en": "Parlerai is the future, parlerais the conditionnel.",
-     "explain_ru": "Parlerai — будущее время, parlerais — conditionnel."
+     "explain_ru": "Parlerai — будущее время, parlerais — conditionnel.",
+     "ui": {
+      "ru": {
+       "q": "'Je parlerai' и 'je parlerais' — одна и та же форма."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2835,7 +3057,15 @@
      "q": "'Tu aurais dû' means 'тебе следовало (в прошлом)'.",
      "answer": true,
      "explain_en": "Conditionnel passé of devoir.",
-     "explain_ru": "Да, это conditionnel passé глагола devoir."
+     "explain_ru": "Да, это conditionnel passé глагола devoir.",
+     "ui": {
+      "en": {
+       "q": "'Tu aurais dû' means 'you should have (in the past)'."
+      },
+      "ru": {
+       "q": "'Tu aurais dû' значит «тебе следовало (в прошлом)»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2843,7 +3073,12 @@
      "q": "After 'il a dit que', French keeps the future: 'Il a dit qu'il viendra le lendemain'.",
      "answer": false,
      "explain_en": "Future in the past: il viendrait le lendemain.",
-     "explain_ru": "После глагола в прошедшем нужен conditionnel: il viendrait le lendemain."
+     "explain_ru": "После глагола в прошедшем нужен conditionnel: il viendrait le lendemain.",
+     "ui": {
+      "ru": {
+       "q": "После 'il a dit que' во французском сохраняется будущее время: 'Il a dit qu'il viendra le lendemain'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2899,7 +3134,33 @@
        "on pourrait",
        "мы могли бы"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "tu devrais",
+         "you should"
+        ],
+        [
+         "tu aurais dû",
+         "you should have"
+        ],
+        [
+         "je voudrais",
+         "I would like"
+        ],
+        [
+         "il aurait pu",
+         "he could have (back then)"
+        ],
+        [
+         "on pourrait",
+         "we could"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3256,7 +3517,12 @@
      ],
      "answer": 3,
      "explain_en": "Si + imparfait, conditionnel in the main clause.",
-     "explain_ru": "Si + imparfait, в главном предложении conditionnel présent."
+     "explain_ru": "Si + imparfait, в главном предложении conditionnel présent.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -3408,7 +3674,12 @@
      "q": "'S'il pleuvra demain' is correct because the action is in the future.",
      "answer": false,
      "explain_en": "After si (if) use the présent: s'il pleut demain.",
-     "explain_ru": "После si (если) ставится présent: s'il pleut demain."
+     "explain_ru": "После si (если) ставится présent: s'il pleut demain.",
+     "ui": {
+      "ru": {
+       "q": "'S'il pleuvra demain' — правильно, потому что действие относится к будущему."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3416,7 +3687,12 @@
      "q": "'Si j'aurais le temps' is a well-known mistake; the correct form is 'si j'avais le temps'.",
      "answer": true,
      "explain_en": "No conditionnel after si.",
-     "explain_ru": "После si conditionnel не ставится: si j'avais le temps."
+     "explain_ru": "После si conditionnel не ставится: si j'avais le temps.",
+     "ui": {
+      "ru": {
+       "q": "'Si j'aurais le temps' — известная ошибка; правильно — 'si j'avais le temps'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3424,7 +3700,12 @@
      "q": "Si becomes s' before 'elle': 's'elle vient'.",
      "answer": false,
      "explain_en": "Only before il/ils: s'il, but si elle.",
-     "explain_ru": "Элизия только перед il/ils: s'il, но si elle."
+     "explain_ru": "Элизия только перед il/ils: s'il, но si elle.",
+     "ui": {
+      "ru": {
+       "q": "Перед 'elle' si превращается в s': 's'elle vient'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3472,7 +3753,33 @@
        "si seulement",
        "если бы только"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "si",
+         "if; whether"
+        ],
+        [
+         "même si",
+         "even if"
+        ],
+        [
+         "au cas où",
+         "in case"
+        ],
+        [
+         "sinon",
+         "otherwise"
+        ],
+        [
+         "si seulement",
+         "if only"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3494,7 +3801,29 @@
        "je ne sais pas s'il viendra",
        "не знаю, придёт ли он"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "si j'avais le temps",
+         "if I had the time"
+        ],
+        [
+         "si j'ai le temps",
+         "if I have the time"
+        ],
+        [
+         "si on allait…",
+         "how about going…"
+        ],
+        [
+         "je ne sais pas s'il viendra",
+         "I don't know whether he'll come"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3985,7 +4314,12 @@
      "q": "In indirect speech you can say: 'Il demande qu'est-ce que tu veux'.",
      "answer": false,
      "explain_en": "Correct: il demande ce que tu veux.",
-     "explain_ru": "Правильно: il demande ce que tu veux."
+     "explain_ru": "Правильно: il demande ce que tu veux.",
+     "ui": {
+      "ru": {
+       "q": "В косвенной речи можно сказать: 'Il demande qu'est-ce que tu veux'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3993,7 +4327,12 @@
      "q": "A reported yes/no question is introduced by 'si'.",
      "answer": true,
      "explain_en": "Il demande si tu viens.",
-     "explain_ru": "Да: il demande si tu viens (спрашивает, придёшь ли ты)."
+     "explain_ru": "Да: il demande si tu viens (спрашивает, придёшь ли ты).",
+     "ui": {
+      "ru": {
+       "q": "Косвенный общий вопрос (да/нет) вводится словом 'si'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4001,7 +4340,12 @@
      "q": "French que can be left out like English 'that': 'Il dit il est malade'.",
      "answer": false,
      "explain_en": "Que is obligatory: il dit qu'il est malade.",
-     "explain_ru": "Que обязателен: il dit qu'il est malade."
+     "explain_ru": "Que обязателен: il dit qu'il est malade.",
+     "ui": {
+      "ru": {
+       "q": "Французское que можно опустить, как английское «that»: 'Il dit il est malade'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4551,7 +4895,12 @@
      "q": "As in English, the French relative pronoun can be omitted: 'Le livre je lis'.",
      "answer": false,
      "explain_en": "It is obligatory: le livre que je lis.",
-     "explain_ru": "Относительное местоимение обязательно: le livre que je lis."
+     "explain_ru": "Относительное местоимение обязательно: le livre que je lis.",
+     "ui": {
+      "ru": {
+       "q": "Как и в английском, французское относительное местоимение можно опустить: 'Le livre je lis'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4559,7 +4908,12 @@
      "q": "'Qui' never elides: 'l'homme qui est là', not 'qu'est là'.",
      "answer": true,
      "explain_en": "Only que elides, never qui.",
-     "explain_ru": "Элизия бывает только у que (qu'), у qui — никогда."
+     "explain_ru": "Элизия бывает только у que (qu'), у qui — никогда.",
+     "ui": {
+      "ru": {
+       "q": "'Qui' никогда не теряет гласную: 'l'homme qui est là', а не 'qu'est là'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4567,7 +4921,12 @@
      "q": "'Le jour quand je suis né' is correct French.",
      "answer": false,
      "explain_en": "After a time noun use où: le jour où je suis né.",
-     "explain_ru": "После слова времени — où: le jour où je suis né."
+     "explain_ru": "После слова времени — où: le jour où je suis né.",
+     "ui": {
+      "ru": {
+       "q": "'Le jour quand je suis né' — правильная французская фраза."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4633,7 +4992,29 @@
        "tout ce que",
        "всё, что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ce qui",
+         "what (as subject)"
+        ],
+        [
+         "ce que",
+         "what (as object)"
+        ],
+        [
+         "ce dont",
+         "what (with de)"
+        ],
+        [
+         "tout ce que",
+         "everything that"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4898,7 +5279,12 @@
      ],
      "answer": 0,
      "explain_en": "Téléphoner à has no passive: use on.",
-     "explain_ru": "У téléphoner à нет пассива — используем on: on m'a téléphoné (мне позвонили)."
+     "explain_ru": "У téléphoner à нет пассива — используем on: on m'a téléphoné (мне позвонили).",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e06",
@@ -5118,7 +5504,12 @@
      "q": "The verb téléphoner can be used in the passive: 'Je suis téléphoné'.",
      "answer": false,
      "explain_en": "Téléphoner à has no passive: on m'a téléphoné.",
-     "explain_ru": "У téléphoner à нет пассива: on m'a téléphoné."
+     "explain_ru": "У téléphoner à нет пассива: on m'a téléphoné.",
+     "ui": {
+      "ru": {
+       "q": "Глагол téléphoner можно употребить в пассиве: 'Je suis téléphoné'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5126,7 +5517,12 @@
      "q": "In 'elle s'est fait couper les cheveux', 'fait' does not agree with 'elle'.",
      "answer": true,
      "explain_en": "Fait before an infinitive is invariable.",
-     "explain_ru": "Fait перед инфинитивом не изменяется."
+     "explain_ru": "Fait перед инфинитивом не изменяется.",
+     "ui": {
+      "ru": {
+       "q": "В 'elle s'est fait couper les cheveux' причастие 'fait' не согласуется с 'elle'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5134,7 +5530,12 @@
      "q": "In the passive, the participle never agrees with the subject.",
      "answer": false,
      "explain_en": "It agrees: la lettre est écrite, les maisons sont vendues.",
-     "explain_ru": "Согласуется: la lettre est écrite, les maisons sont vendues."
+     "explain_ru": "Согласуется: la lettre est écrite, les maisons sont vendues.",
+     "ui": {
+      "ru": {
+       "q": "В пассиве причастие никогда не согласуется с подлежащим."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5178,7 +5579,29 @@
        "Ça se mange froid.",
        "Это едят холодным."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ça ne se fait pas.",
+         "That's not done."
+        ],
+        [
+         "Ça se voit.",
+         "It shows."
+        ],
+        [
+         "Ça ne se dit pas.",
+         "People don't say that."
+        ],
+        [
+         "Ça se mange froid.",
+         "It's eaten cold."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5200,7 +5623,29 @@
        "se faire + infinitif",
        "с подлежащим что-то сделали"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "par",
+         "the agent of the action (par Monet)"
+        ],
+        [
+         "de",
+         "a feeling or description (aimé de tous)"
+        ],
+        [
+         "on",
+         "an unspecified subject (someone called me)"
+        ],
+        [
+         "se faire + infinitif",
+         "something was done to the subject"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5502,7 +5947,12 @@
      ],
      "answer": 3,
      "explain_en": "The gérondif must refer to the subject (nous).",
-     "explain_ru": "Gérondif должен относиться к подлежащему (nous); дождь не выходил из кино."
+     "explain_ru": "Gérondif должен относиться к подлежащему (nous); дождь не выходил из кино.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e07",
@@ -5629,7 +6079,12 @@
       "alors"
      ],
      "explain_en": "Consequence: donc or alors.",
-     "explain_ru": "Следствие: donc или alors (поэтому)."
+     "explain_ru": "Следствие: donc или alors (поэтому).",
+     "ui": {
+      "en": {
+       "q": "Il est fatigué, ___ il va se coucher. (so, therefore)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -5639,7 +6094,12 @@
       "Malgré"
      ],
      "explain_en": "Malgré + noun.",
-     "explain_ru": "Malgré (несмотря на) + существительное."
+     "explain_ru": "Malgré (несмотря на) + существительное.",
+     "ui": {
+      "en": {
+       "q": "___ la neige, le train est arrivé à l'heure. (despite)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -5712,7 +6172,12 @@
      "q": "The gérondif is formed with 'en' + participe présent.",
      "answer": true,
      "explain_en": "En parlant, en finissant.",
-     "explain_ru": "Да: en parlant, en finissant."
+     "explain_ru": "Да: en parlant, en finissant.",
+     "ui": {
+      "ru": {
+       "q": "Gérondif образуется так: 'en' + participe présent."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5720,7 +6185,12 @@
      "q": "'En sortant, la pluie a commencé' is correct, because the gérondif can refer to any noun.",
      "answer": false,
      "explain_en": "It must refer to the subject of the main verb.",
-     "explain_ru": "Gérondif должен относиться к подлежащему главного глагола."
+     "explain_ru": "Gérondif должен относиться к подлежащему главного глагола.",
+     "ui": {
+      "ru": {
+       "q": "'En sortant, la pluie a commencé' — правильно, потому что gérondif может относиться к любому существительному."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5728,7 +6198,12 @@
      "q": "'Grâce à' introduces a cause with a negative result.",
      "answer": false,
      "explain_en": "For a negative result use à cause de.",
-     "explain_ru": "Для плохого результата — à cause de; grâce à — благодаря (о хорошем)."
+     "explain_ru": "Для плохого результата — à cause de; grâce à — благодаря (о хорошем).",
+     "ui": {
+      "ru": {
+       "q": "'Grâce à' вводит причину с отрицательным результатом."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5788,7 +6263,37 @@
        "malgré",
        "несмотря на"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "parce que",
+         "because"
+        ],
+        [
+         "donc",
+         "so, therefore"
+        ],
+        [
+         "pourtant",
+         "however, yet"
+        ],
+        [
+         "grâce à",
+         "thanks to"
+        ],
+        [
+         "à cause de",
+         "because of"
+        ],
+        [
+         "malgré",
+         "despite"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5814,7 +6319,33 @@
        "de plus",
        "кроме того"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "d'abord",
+         "first"
+        ],
+        [
+         "ensuite",
+         "then, next"
+        ],
+        [
+         "enfin",
+         "finally"
+        ],
+        [
+         "en revanche",
+         "on the other hand"
+        ],
+        [
+         "de plus",
+         "moreover"
+        ]
+       ]
+      }
+     }
     }
    ]
   }
