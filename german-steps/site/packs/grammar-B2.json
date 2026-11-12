@@ -1475,7 +1475,12 @@
      ],
      "answer": 0,
      "explain_en": "Konjunktiv I 'sie haben' = indicative, so Konjunktiv II hätten replaces it.",
-     "explain_ru": "Конъюнктив I «sie haben» совпадает с индикативом, поэтому его заменяет конъюнктив II hätten."
+     "explain_ru": "Конъюнктив I «sie haben» совпадает с индикативом, поэтому его заменяет конъюнктив II hätten.",
+     "ui": {
+      "ru": {
+       "q": "Официальный стиль: Die Kinder sagten, sie ___ Hunger."
+      }
+     }
     },
     {
      "id": "e05",
@@ -4693,7 +4698,18 @@
      ],
      "answer": 2,
      "explain_en": "Präteritum of the modal = objective meaning: she had to.",
-     "explain_ru": "Претерит модального глагола — объективное значение: ей пришлось."
+     "explain_ru": "Претерит модального глагола — объективное значение: ей пришлось.",
+     "ui": {
+      "ru": {
+       "q": "„Sie musste gestern lange arbeiten“ выражает:",
+       "options": [
+        "слух",
+        "утверждение подлежащего о себе",
+        "обязанность в прошлом",
+        "предположение о прошлом"
+       ]
+      }
+     }
     },
     {
      "id": "e11",

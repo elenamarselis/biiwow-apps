@@ -272,7 +272,18 @@
      ],
      "answer": 1,
      "explain_en": "Se me não engano is a classical interpolation still used by educated speakers in Portugal.",
-     "explain_ru": "Se me não engano — классическая интерполяция, которую до сих пор используют образованные португальцы."
+     "explain_ru": "Se me não engano — классическая интерполяция, которую до сих пор используют образованные португальцы.",
+     "ui": {
+      "ru": {
+       "q": "В 'Se me não engano, a sessão é às dez' позиция me — это:",
+       "options": [
+        "опечатка вместо 'se não me engano'",
+        "интерполяция, книжная европейская формула",
+        "типичное бразильское разговорное употребление",
+        "ошибка в любом варианте языка"
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -339,7 +350,12 @@
      ],
      "answer": 2,
      "explain_en": "Vinde is the vós imperative of vir; today the plural command is venham (vocês).",
-     "explain_ru": "Vinde — повелительное наклонение vós от vir; сегодня во множественном числе говорят venham (vocês)."
+     "explain_ru": "Vinde — повелительное наклонение vós от vir; сегодня во множественном числе говорят venham (vocês).",
+     "ui": {
+      "ru": {
+       "q": "Литературный императив 'Vinde!' соответствует современному:"
+      }
+     }
     },
     {
      "id": "e10",
@@ -1631,7 +1647,12 @@
      ],
      "answer": 3,
      "explain_en": "Há que + infinitive = one must; it is invariable.",
-     "explain_ru": "Há que + инфинитив — «необходимо»; не изменяется."
+     "explain_ru": "Há que + инфинитив — «необходимо»; не изменяется.",
+     "ui": {
+      "ru": {
+       "q": "___ tomar medidas urgentes. (формально, безлично: «необходимо»)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -1645,7 +1666,18 @@
      ],
      "answer": 1,
      "explain_en": "Pretenso = so-called, would-be: the speaker doubts the claim.",
-     "explain_ru": "Pretenso — «так называемый, мнимый»: говорящий сомневается."
+     "explain_ru": "Pretenso — «так называемый, мнимый»: говорящий сомневается.",
+     "ui": {
+      "ru": {
+       "q": "'O pretenso especialista' показывает, что говорящий:",
+       "options": [
+        "восхищается экспертом",
+        "сомневается, что он действительно эксперт",
+        "цитирует официальное звание",
+        "считает эксперта очень молодым"
+       ]
+      }
+     }
     },
     {
      "id": "e10",
@@ -2337,7 +2369,12 @@
       "menos"
      ],
      "explain_en": "Quanto mais … menos: inverse proportion.",
-     "explain_ru": "Quanto mais … menos — обратная пропорция."
+     "explain_ru": "Quanto mais … menos — обратная пропорция.",
+     "ui": {
+      "ru": {
+       "q": "Quanto mais trabalha, ___ ganha. (чем больше он работает, тем МЕНЬШЕ зарабатывает)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -2964,7 +3001,12 @@
      ],
      "answer": 3,
      "explain_en": "Formal Brazilian writing uses the direct object o before the verb: Eu o vi ontem.",
-     "explain_ru": "Официальный бразильский письменный язык использует прямое дополнение o перед глаголом: Eu o vi ontem."
+     "explain_ru": "Официальный бразильский письменный язык использует прямое дополнение o перед глаголом: Eu o vi ontem.",
+     "ui": {
+      "ru": {
+       "q": "Разговорному бразильскому 'Eu vi ele ontem' в официальном бразильском письме соответствует:"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3021,7 +3063,12 @@
       "me"
      ],
      "explain_en": "Ninguém triggers proclisis before the first verb: ninguém me quis ouvir.",
-     "explain_ru": "Ninguém вызывает проклизу перед первым глаголом: ninguém me quis ouvir."
+     "explain_ru": "Ninguém вызывает проклизу перед первым глаголом: ninguém me quis ouvir.",
+     "ui": {
+      "ru": {
+       "q": "Ninguém ___ quis ouvir. (a mim, местоимение переходит к первому глаголу)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -3552,7 +3599,12 @@
      ],
      "answer": 0,
      "explain_en": "En- + rico + -ecer → enriquecer (c → qu before e).",
-     "explain_ru": "En- + rico + -ecer → enriquecer (c → qu перед e)."
+     "explain_ru": "En- + rico + -ecer → enriquecer (c → qu перед e).",
+     "ui": {
+      "ru": {
+       "q": "Глагол со значением «разбогатеть»:"
+      }
+     }
     },
     {
      "id": "e03",
@@ -3580,7 +3632,12 @@
      ],
      "answer": 3,
      "explain_en": "Perder → a perda: the ending is dropped and -a added.",
-     "explain_ru": "Perder → a perda: окончание отсекается и добавляется -a."
+     "explain_ru": "Perder → a perda: окончание отсекается и добавляется -a.",
+     "ui": {
+      "ru": {
+       "q": "Бессуффиксное (регрессивное) существительное со значением «потеря» от perder:"
+      }
+     }
     },
     {
      "id": "e05",
@@ -3594,7 +3651,12 @@
      ],
      "answer": 0,
      "explain_en": "Fluvial comes from Latin fluvius (river); pluvial refers to rain.",
-     "explain_ru": "Fluvial — от латинского fluvius («река»); pluvial относится к дождю."
+     "explain_ru": "Fluvial — от латинского fluvius («река»); pluvial относится к дождю.",
+     "ui": {
+      "ru": {
+       "q": "Прилагательное со значением «речной»:"
+      }
+     }
     },
     {
      "id": "e06",
@@ -3608,7 +3670,12 @@
      ],
      "answer": 2,
      "explain_en": "Admitir → admissão with -ssão, like permitir → permissão.",
-     "explain_ru": "Admitir → admissão с -ssão, как permitir → permissão."
+     "explain_ru": "Admitir → admissão с -ssão, как permitir → permissão.",
+     "ui": {
+      "ru": {
+       "q": "Существительное от 'admitir':"
+      }
+     }
     },
     {
      "id": "e07",
@@ -3622,7 +3689,12 @@
      ],
      "answer": 1,
      "explain_en": "The Latin stem feroc- reappears: ferocidade.",
-     "explain_ru": "Появляется латинская основа feroc-: ferocidade."
+     "explain_ru": "Появляется латинская основа feroc-: ferocidade.",
+     "ui": {
+      "ru": {
+       "q": "Существительное от 'feroz':"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3636,7 +3708,12 @@
      ],
      "answer": 3,
      "explain_en": "Portugal uses the Romance acronym a sida; Brazil uses a aids.",
-     "explain_ru": "В Португалии используют романскую аббревиатуру a sida, в Бразилии — a aids."
+     "explain_ru": "В Португалии используют романскую аббревиатуру a sida, в Бразилии — a aids.",
+     "ui": {
+      "ru": {
+       "q": "Как в Португалии называют болезнь СПИД?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -3714,7 +3791,12 @@
       "ataque"
      ],
      "explain_en": "Atacar → o ataque.",
-     "explain_ru": "Atacar → o ataque — «атака, штурм»: окончание глагола отсекается."
+     "explain_ru": "Atacar → o ataque — «атака, штурм»: окончание глагола отсекается.",
+     "ui": {
+      "ru": {
+       "q": "O ___ ao castelo começou de madrugada. (atacar → существительное)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -3724,7 +3806,12 @@
       "compreensão"
      ],
      "explain_en": "Compreender → compreensão (-ensão, from the Latin stem).",
-     "explain_ru": "Compreender → compreensão (-ensão, по латинской основе)."
+     "explain_ru": "Compreender → compreensão (-ensão, по латинской основе).",
+     "ui": {
+      "ru": {
+       "q": "Peço a sua ___. (compreender → существительное)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -3734,7 +3821,12 @@
       "prós"
      ],
      "explain_en": "Conversion: o pró → os prós.",
-     "explain_ru": "Конверсия: o pró → os prós."
+     "explain_ru": "Конверсия: o pró → os prós.",
+     "ui": {
+      "ru": {
+       "q": "Discutimos os ___ e os contras da proposta. (pró → существительное во мн. ч.)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -3744,7 +3836,12 @@
       "porquê"
      ],
      "explain_en": "As a noun, 'reason' is written o porquê, with an accent.",
-     "explain_ru": "Как существительное («причина») пишется o porquê, с ударением."
+     "explain_ru": "Как существительное («причина») пишется o porquê, с ударением.",
+     "ui": {
+      "ru": {
+       "q": "Ninguém percebeu o ___ da sua decisão. (porque → существительное)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -3754,7 +3851,12 @@
       "surdez"
      ],
      "explain_en": "Surdo → surdez (-ez for qualities).",
-     "explain_ru": "Surdo → surdez (-ez для качеств) — «глухота»."
+     "explain_ru": "Surdo → surdez (-ez для качеств) — «глухота».",
+     "ui": {
+      "ru": {
+       "q": "A ___ é muito comum entre os idosos. (surdo → существительное)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -5473,7 +5575,12 @@
      ],
      "answer": 2,
      "explain_en": "The imperfeito queria is the everyday polite form in Portugal.",
-     "explain_ru": "Imperfeito queria — обычная вежливая форма в Португалии."
+     "explain_ru": "Imperfeito queria — обычная вежливая форма в Португалии.",
+     "ui": {
+      "ru": {
+       "q": "Самая естественная вежливая просьба в лиссабонском кафе:"
+      }
+     }
     },
     {
      "id": "e02",
@@ -5487,7 +5594,12 @@
      ],
      "answer": 0,
      "explain_en": "Importar-se de + infinitive; the imperfeito makes it polite: Importava-se de…?",
-     "explain_ru": "Importar-se de + инфинитив; imperfeito делает просьбу вежливой: Importava-se de…?"
+     "explain_ru": "Importar-se de + инфинитив; imperfeito делает просьбу вежливой: Importava-se de…?",
+     "ui": {
+      "ru": {
+       "q": "___ de fechar a janela? Está frio. (очень вежливо)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -5559,7 +5671,18 @@
      ],
      "answer": 2,
      "explain_en": "Era o que faltava! = That's all we need! / No way!",
-     "explain_ru": "Era o que faltava! — «Ещё чего не хватало!»."
+     "explain_ru": "Era o que faltava! — «Ещё чего не хватало!».",
+     "ui": {
+      "ru": {
+       "q": "'Pagar eu a conta de todos? Era o que faltava!' выражает:",
+       "options": [
+        "благодарность",
+        "вежливую просьбу",
+        "возмущённый отказ",
+        "извинение"
+       ]
+      }
+     }
     },
     {
      "id": "e07",
@@ -5598,7 +5721,12 @@
      ],
      "answer": 2,
      "explain_en": "The diminutive minutinho makes the wait sound shorter and the request softer.",
-     "explain_ru": "Уменьшительное minutinho делает ожидание «короче», а просьбу мягче."
+     "explain_ru": "Уменьшительное minutinho делает ожидание «короче», а просьбу мягче.",
+     "ui": {
+      "ru": {
+       "q": "Espere só ___, por favor. (вежливое смягчение)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -5641,7 +5769,12 @@
       "Podia"
      ],
      "explain_en": "Podia…? is the everyday polite request in Portugal.",
-     "explain_ru": "Podia…? — обычная вежливая просьба в Португалии."
+     "explain_ru": "Podia…? — обычная вежливая просьба в Португалии.",
+     "ui": {
+      "ru": {
+       "q": "___ dizer-me onde fica a estação? (poder, imperfeito, вежливо)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -6310,7 +6443,12 @@
       "meio"
      ],
      "explain_en": "Adverbial meio is invariable.",
-     "explain_ru": "Meio в роли наречия не изменяется."
+     "explain_ru": "Meio в роли наречия не изменяется.",
+     "ui": {
+      "ru": {
+       "q": "Ela ficou ___ cansada depois da viagem. (довольно, наречие)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -6360,7 +6498,12 @@
       "porque"
      ],
      "explain_en": "Portugal writes porque in questions: porque é que…",
-     "explain_ru": "В Португалии в вопросах пишут porque: porque é que…"
+     "explain_ru": "В Португалии в вопросах пишут porque: porque é que…",
+     "ui": {
+      "ru": {
+       "q": "Não sei ___ é que ele não veio. (Португалия, «почему»)"
+      }
+     }
     },
     {
      "id": "e19",

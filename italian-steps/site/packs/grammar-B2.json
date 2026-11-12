@@ -1450,7 +1450,18 @@
      ],
      "answer": 1,
      "explain_en": "The non after a meno che is expletive and does not negate the verb.",
-     "explain_ru": "Non после a meno che — «пустое», оно не отрицает глагол: «если только не пойдёт дождь»."
+     "explain_ru": "Non после a meno che — «пустое», оно не отрицает глагол: «если только не пойдёт дождь».",
+     "ui": {
+      "ru": {
+       "q": "Что делает 'non' во фразе 'Vengo, a meno che non piova'?",
+       "options": [
+        "Отрицает глагол: получается «приду, если только дождь НЕ не пойдёт»",
+        "Ничего: фраза значит «приду, если только не пойдёт дождь»",
+        "Означает «никогда»",
+        "Это грамматическая ошибка"
+       ]
+      }
+     }
     },
     {
      "id": "e07",
@@ -2722,6 +2733,9 @@
      "ui": {
       "en": {
        "q": "Which sentence means 'He must have left'?"
+      },
+      "ru": {
+       "q": "Какое предложение значит «Он, должно быть, уехал»?"
       }
      }
     },
@@ -3310,7 +3324,12 @@
      ],
      "answer": 0,
      "explain_en": "Avere: ebbi, avesti, ebbe…; ebbero is the plural.",
-     "explain_ru": "Avere: ebbi, avesti, ebbe…; ebbero — форма множественного числа."
+     "explain_ru": "Avere: ebbi, avesti, ebbe…; ebbero — форма множественного числа.",
+     "ui": {
+      "ru": {
+       "q": "Passato remoto глагола avere, 3-е лицо ед. ч.:"
+      }
+     }
     },
     {
      "id": "e04",
@@ -5971,7 +5990,12 @@
      ],
      "answer": 1,
      "explain_en": "Quest'ultimo refers to the last person mentioned: il ministro.",
-     "explain_ru": "Quest'ultimo отсылает к последнему названному лицу: il ministro."
+     "explain_ru": "Quest'ultimo отсылает к последнему названному лицу: il ministro.",
+     "ui": {
+      "ru": {
+       "q": "Il direttore ha incontrato il ministro; quest'ultimo ha poi parlato con i giornalisti. Кто поговорил с журналистами?"
+      }
+     }
     },
     {
      "id": "e10",

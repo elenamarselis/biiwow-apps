@@ -1350,7 +1350,7 @@
     {
      "title_en": "Perfectum vs imperfectum in conversation",
      "title_ru": "Perfectum и imperfectum в разговоре",
-     "body_en": "The choice is not about aspect (as between Russian perfective and imperfective verbs). In conversation you usually start with the perfectum for a finished event or result (Ik ben naar Parijs geweest) and continue with the imperfectum for details and description (Het was mooi, het regende niet). With zijn, hebben and modal verbs the imperfectum is very common even in speech: Ik was moe, ik moest werken.",
+     "body_en": "The choice is not about finished versus ongoing action (as between English 'I did' and 'I was doing'). In conversation you usually start with the perfectum for a finished event or result (Ik ben naar Parijs geweest) and continue with the imperfectum for details and description (Het was mooi, het regende niet). With zijn, hebben and modal verbs the imperfectum is very common even in speech: Ik was moe, ik moest werken.",
      "body_ru": "Выбор времени не совпадает с русским видом («сделал / делал»). В разговоре обычно начинают с perfectum, сообщая о законченном событии или результате (Ik ben naar Parijs geweest), а детали и описание дают в imperfectum (Het was mooi, het regende niet). С zijn, hebben и модальными глаголами imperfectum очень частотен и в устной речи: Ik was moe, ik moest werken.",
      "examples": [
       {
@@ -1805,7 +1805,7 @@
     {
      "title_en": "The whole system in one table",
      "title_ru": "Вся система в одной таблице",
-     "body_en": "De-words: de grote tafel, een grote tafel, grote tafels. Het-words: het grote huis, but een groot huis, and grote huizen in the plural. So only one cell has no -e: een (or a similar word) + singular het-word. Russian adjectives change for gender, number and case; Dutch has only two forms: groot and grote.",
+     "body_en": "De-words: de grote tafel, een grote tafel, grote tafels. Het-words: het grote huis, but een groot huis, and grote huizen in the plural. So only one cell has no -e: een (or a similar word) + singular het-word. English adjectives never change; Dutch has two forms: groot and grote.",
      "body_ru": "Слова с de: de grote tafel, een grote tafel, grote tafels. Слова с het: het grote huis, но een groot huis, а во множественном числе grote huizen. Значит, без -e остаётся только одна клетка таблицы: een (или похожее слово) + слово с het в единственном числе. Русское прилагательное меняется по родам, числам и падежам, а в нидерландском у него всего две формы: groot и grote.",
      "examples": [
       {
@@ -3322,7 +3322,12 @@
      ],
      "answer": 1,
      "explain_en": "Indirect object without a preposition: hun.",
-     "explain_ru": "Косвенное дополнение без предлога — hun («им»)."
+     "explain_ru": "Косвенное дополнение без предлога — hun («им»).",
+     "ui": {
+      "ru": {
+       "q": "Официальный письменный нидерландский: Ik geef ___ (= de kinderen) een cadeau."
+      }
+     }
     },
     {
      "id": "e10",
@@ -5577,7 +5582,7 @@
    "id": "er-place-prepositions",
    "title_en": "The word er (1); prepositions of place and time",
    "title_ru": "Слово er (1); предлоги места и времени",
-   "summary_en": "Er means 'there' as an unstressed place word and introduces sentences with an indefinite subject (er is, er staat, er was). Prepositions of place and time often differ from Russian: op school, aan de muur, over een week, twee jaar geleden.",
+   "summary_en": "Er means 'there' as an unstressed place word and introduces sentences with an indefinite subject (er is, er staat, er was). Prepositions of place and time often differ from English: op school (at school), aan de muur (on the wall), over een week (in a week), twee jaar geleden (two years ago).",
    "summary_ru": "Er значит «там» как безударное слово места и вводит предложения с неопределённым подлежащим (er is, er staat, er was). Предлоги места и времени часто не совпадают с русскими: op school, aan de muur, over een week, twee jaar geleden.",
    "rules": [
     {
