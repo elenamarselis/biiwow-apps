@@ -240,7 +240,17 @@
      ],
      "answer": 1,
      "explain_en": "Oe is simply [u], like Russian 'у': boek [buk].",
-     "explain_ru": "Oe — это просто [u], как русское «у»: boek [buk]."
+     "explain_ru": "Oe — это просто [u], как русское «у»: boek [buk].",
+     "ui": {
+      "en": {
+       "options": [
+        "als de 'o' in het Engelse 'hot'",
+        "als de 'oo' in het Engelse 'food'",
+        "als de 'u' in het Engelse 'cute'",
+        "als de 'o' in het Engelse 'go'"
+       ]
+      }
+     }
     },
     {
      "id": "e03",
@@ -268,7 +278,17 @@
      ],
      "answer": 3,
      "explain_en": "Dutch g is a guttural sound, close to Russian 'х': goed [ɣut].",
-     "explain_ru": "Нидерландское g — гортанный звук, близкий к русскому «х»: goed [ɣut]. Как «г» оно не читается."
+     "explain_ru": "Нидерландское g — гортанный звук, близкий к русскому «х»: goed [ɣut]. Как «г» оно не читается.",
+     "ui": {
+      "en": {
+       "options": [
+        "als de 'g' in het Engelse 'go'",
+        "als de 's' in het Engelse 'pleasure'",
+        "als de 'k' in het Engelse 'kite'",
+        "als de 'ch' in het Schotse 'loch'"
+       ]
+      }
+     }
     },
     {
      "id": "e05",
@@ -496,7 +516,12 @@
      "q": "'Mijn' and 'klein' have the same vowel sound.",
      "answer": true,
      "explain_en": "Ij and ei are two spellings of one sound [ɛi].",
-     "explain_ru": "Ij и ei — два написания одного звука [ɛi]."
+     "explain_ru": "Ij и ei — два написания одного звука [ɛi].",
+     "ui": {
+      "ru": {
+       "q": "В 'mijn' и 'klein' один и тот же гласный звук."
+      }
+     }
     },
     {
      "id": "e24",
@@ -504,7 +529,15 @@
      "q": "In 'school' the letters 'sch' sound like Russian 'ш'.",
      "answer": false,
      "explain_en": "Sch is [sx], s + guttural ch: [sxoːl].",
-     "explain_ru": "Sch читается [sx] — s + гортанное ch: [sxoːl], «схол»."
+     "explain_ru": "Sch читается [sx] — s + гортанное ch: [sxoːl], «схол».",
+     "ui": {
+      "en": {
+       "q": "In 'school' the letters 'sch' sound like English 'sh'."
+      },
+      "ru": {
+       "q": "В слове 'school' буквы 'sch' звучат как русское «ш»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -512,7 +545,15 @@
      "q": "'Man' (мужчина) and 'maan' (луна) are pronounced the same.",
      "answer": false,
      "explain_en": "Man has a short [ɑ], maan a long [aː]. Vowel length changes the meaning.",
-     "explain_ru": "В man краткое [ɑ], в maan долгое [aː]. Долгота гласной меняет смысл слова."
+     "explain_ru": "В man краткое [ɑ], в maan долгое [aː]. Долгота гласной меняет смысл слова.",
+     "ui": {
+      "en": {
+       "q": "'Man' (man) and 'maan' (moon) are pronounced the same."
+      },
+      "ru": {
+       "q": "'Man' (мужчина) и 'maan' (луна) произносятся одинаково."
+      }
+     }
     },
     {
      "id": "e26",
@@ -538,7 +579,33 @@
        "j",
        "й"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "oe",
+         "oo (as in 'food')"
+        ],
+        [
+         "ij / ei",
+         "ay (as in 'say')"
+        ],
+        [
+         "ou / au",
+         "ow (as in 'now')"
+        ],
+        [
+         "g / ch",
+         "ch (as in Scottish 'loch')"
+        ],
+        [
+         "j",
+         "y (as in 'yes')"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -594,7 +661,37 @@
        "het boek",
        "книга"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "de deur",
+         "door"
+        ],
+        [
+         "de neus",
+         "nose"
+        ],
+        [
+         "het huis",
+         "house"
+        ],
+        [
+         "de trein",
+         "train"
+        ],
+        [
+         "koud",
+         "cold"
+        ],
+        [
+         "het boek",
+         "book"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -924,7 +1021,12 @@
      ],
      "answer": 3,
      "explain_en": "Een has no plural form, so the plural has no article: boeken.",
-     "explain_ru": "У een нет формы множественного числа, поэтому перед boeken артикля нет."
+     "explain_ru": "У een нет формы множественного числа, поэтому перед boeken артикля нет.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -1073,7 +1175,12 @@
      "q": "All plural nouns take the article 'de', also het-words.",
      "answer": true,
      "explain_en": "Het huis – de huizen: in the plural there is only de.",
-     "explain_ru": "Het huis – de huizen: во множественном числе есть только de."
+     "explain_ru": "Het huis – de huizen: во множественном числе есть только de.",
+     "ui": {
+      "ru": {
+       "q": "Все существительные во множественном числе имеют артикль 'de', в том числе het-слова."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1081,7 +1188,12 @@
      "q": "'Meisje' (girl) is a de-word because it refers to a female person.",
      "answer": false,
      "explain_en": "All diminutives in -je are het: het meisje.",
-     "explain_ru": "Все уменьшительные на -je — с het: het meisje."
+     "explain_ru": "Все уменьшительные на -je — с het: het meisje.",
+     "ui": {
+      "ru": {
+       "q": "'Meisje' (девочка) — de-слово, потому что обозначает лицо женского пола."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1089,7 +1201,12 @@
      "q": "'Een' is used both with de-words and with het-words: een man, een huis.",
      "answer": true,
      "explain_en": "Een is the same for both genders.",
-     "explain_ru": "Een одинаков для обоих родов."
+     "explain_ru": "Een одинаков для обоих родов.",
+     "ui": {
+      "ru": {
+       "q": "'Een' употребляется и с de-словами, и с het-словами: een man, een huis."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1141,7 +1258,33 @@
        "de man",
        "мужчина"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "het meisje",
+         "girl"
+        ],
+        [
+         "de jongen",
+         "boy"
+        ],
+        [
+         "het kind",
+         "child"
+        ],
+        [
+         "de vrouw",
+         "woman"
+        ],
+        [
+         "de man",
+         "man"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1163,7 +1306,29 @@
        "het katje",
        "котёнок"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "het huisje",
+         "little house"
+        ],
+        [
+         "het kopje",
+         "little cup"
+        ],
+        [
+         "het boekje",
+         "little book"
+        ],
+        [
+         "het katje",
+         "kitten"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1639,7 +1804,12 @@
      "q": "'Ze' can mean both 'she' and 'they'.",
      "answer": true,
      "explain_en": "The verb shows the meaning: ze is (she), ze zijn (they).",
-     "explain_ru": "Значение показывает глагол: ze is (она), ze zijn (они)."
+     "explain_ru": "Значение показывает глагол: ze is (она), ze zijn (они).",
+     "ui": {
+      "ru": {
+       "q": "'Ze' может значить и «она», и «они»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1647,7 +1817,15 @@
      "q": "Like Russian 'Я студент', Dutch can drop the verb: 'Ik student.'",
      "answer": false,
      "explain_en": "Zijn is obligatory: Ik ben student.",
-     "explain_ru": "Zijn обязателен: Ik ben student."
+     "explain_ru": "Zijn обязателен: Ik ben student.",
+     "ui": {
+      "en": {
+       "q": "As in Russian ('Ya student'), Dutch can drop the verb 'to be': 'Ik student.'"
+      },
+      "ru": {
+       "q": "Как в русском «Я студент», в нидерландском можно опустить глагол: 'Ik student.'"
+      }
+     }
     },
     {
      "id": "e25",
@@ -1655,7 +1833,12 @@
      "q": "To give your age you use hebben: 'Ik heb twintig jaar.'",
      "answer": false,
      "explain_en": "Age uses zijn: Ik ben twintig (jaar).",
-     "explain_ru": "Возраст выражается через zijn: Ik ben twintig (jaar)."
+     "explain_ru": "Возраст выражается через zijn: Ik ben twintig (jaar).",
+     "ui": {
+      "ru": {
+       "q": "Чтобы сказать свой возраст, используют hebben: 'Ik heb twintig jaar.'"
+      }
+     }
     },
     {
      "id": "e26",
@@ -1699,7 +1882,29 @@
        "jullie",
        "hebben"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ik",
+         "heb"
+        ],
+        [
+         "jij",
+         "hebt"
+        ],
+        [
+         "zij (she)",
+         "heeft"
+        ],
+        [
+         "jullie",
+         "hebben"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -2038,7 +2243,12 @@
      ],
      "answer": 3,
      "explain_en": "Stem word + t: wordt. The t is written although you do not hear it.",
-     "explain_ru": "Основа word + t: wordt. T пишется, хотя не слышно."
+     "explain_ru": "Основа word + t: wordt. T пишется, хотя не слышно.",
+     "ui": {
+      "ru": {
+       "q": "Какая форма правильная?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -2072,7 +2282,12 @@
       "loopt"
      ],
      "explain_en": "Stem loop + t: loopt.",
-     "explain_ru": "Основа loop + t: loopt."
+     "explain_ru": "Основа loop + t: loopt.",
+     "ui": {
+      "en": {
+       "q": "Zij (she) ___ (lopen) naar school."
+      }
+     }
     },
     {
      "id": "e13",
@@ -2196,7 +2411,12 @@
      "q": "With hij after the verb the -t also drops: 'Werk hij?'",
      "answer": false,
      "explain_en": "Only jij/je causes the -t to drop. With hij: Werkt hij?",
-     "explain_ru": "-t отпадает только с jij/je. С hij: Werkt hij?"
+     "explain_ru": "-t отпадает только с jij/je. С hij: Werkt hij?",
+     "ui": {
+      "ru": {
+       "q": "С hij после глагола -t тоже отпадает: 'Werk hij?'"
+      }
+     }
     },
     {
      "id": "e24",
@@ -2204,7 +2424,12 @@
      "q": "In 'wij wonen' the o is written once because wo- is an open syllable.",
      "answer": true,
      "explain_en": "Open syllable: one letter for a long vowel; closed stem: ik woon.",
-     "explain_ru": "Открытый слог — одна буква для долгой гласной; в закрытой основе — ik woon."
+     "explain_ru": "Открытый слог — одна буква для долгой гласной; в закрытой основе — ik woon.",
+     "ui": {
+      "ru": {
+       "q": "В 'wij wonen' o пишется одной буквой, потому что wo- — открытый слог."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2212,7 +2437,12 @@
      "q": "The Dutch present tense has six different personal forms, like Russian.",
      "answer": false,
      "explain_en": "There are only three forms: werk, werkt, werken.",
-     "explain_ru": "Форм всего три: werk, werkt, werken."
+     "explain_ru": "Форм всего три: werk, werkt, werken.",
+     "ui": {
+      "ru": {
+       "q": "В нидерландском настоящем времени шесть разных личных форм, как в русском."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2282,7 +2512,33 @@
        "lopen",
        "идти пешком"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "werken",
+         "to work"
+        ],
+        [
+         "wonen",
+         "to live, to reside"
+        ],
+        [
+         "leren",
+         "to learn, to teach"
+        ],
+        [
+         "spreken",
+         "to speak"
+        ],
+        [
+         "lopen",
+         "to walk"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2481,7 +2737,12 @@
      ],
      "answer": 1,
      "explain_en": "The verb stays second; after vandaag the subject follows the verb.",
-     "explain_ru": "Глагол остаётся на втором месте; после vandaag подлежащее идёт за глаголом."
+     "explain_ru": "Глагол остаётся на втором месте; после vandaag подлежащее идёт за глаголом.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e02",
@@ -2579,7 +2840,12 @@
      ],
      "answer": 2,
      "explain_en": "Verb first, and no -t before je: Woon je in Gent?",
-     "explain_ru": "Глагол на первом месте и без -t перед je: Woon je in Gent?"
+     "explain_ru": "Глагол на первом месте и без -t перед je: Woon je in Gent?",
+     "ui": {
+      "ru": {
+       "q": "Какой вопрос правильный?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -2752,7 +3018,12 @@
      "q": "In 'Vandaag werk ik thuis' the verb is in second position.",
      "answer": true,
      "explain_en": "Vandaag is the first element, werk the second.",
-     "explain_ru": "Vandaag — первый элемент, werk — второй."
+     "explain_ru": "Vandaag — первый элемент, werk — второй.",
+     "ui": {
+      "ru": {
+       "q": "В 'Vandaag werk ik thuis' глагол стоит на втором месте."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2760,7 +3031,12 @@
      "q": "After 'want' the subject goes after the verb: 'want ben ik ziek'.",
      "answer": false,
      "explain_en": "Want does not change the order: want ik ben ziek.",
-     "explain_ru": "Want не меняет порядок слов: want ik ben ziek."
+     "explain_ru": "Want не меняет порядок слов: want ik ben ziek.",
+     "ui": {
+      "ru": {
+       "q": "После 'want' подлежащее идёт после глагола: 'want ben ik ziek'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2768,7 +3044,12 @@
      "q": "A yes/no question starts with the verb: 'Heb je tijd?'",
      "answer": true,
      "explain_en": "Verb first, then the subject.",
-     "explain_ru": "Сначала глагол, потом подлежащее."
+     "explain_ru": "Сначала глагол, потом подлежащее.",
+     "ui": {
+      "ru": {
+       "q": "Вопрос без вопросительного слова (да/нет) начинается с глагола: 'Heb je tijd?'"
+      }
+     }
     },
     {
      "id": "e26",
@@ -2798,7 +3079,37 @@
        "hoe",
        "как"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "wat",
+         "what"
+        ],
+        [
+         "wie",
+         "who"
+        ],
+        [
+         "waar",
+         "where"
+        ],
+        [
+         "wanneer",
+         "when"
+        ],
+        [
+         "waarom",
+         "why"
+        ],
+        [
+         "hoe",
+         "how"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -2842,7 +3153,29 @@
        "Hoeveel kost het?",
        "Сколько это стоит?"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Waar kom je vandaan?",
+         "Where are you from?"
+        ],
+        [
+         "Hoe gaat het?",
+         "How are you?"
+        ],
+        [
+         "Hoe laat is het?",
+         "What time is it?"
+        ],
+        [
+         "Hoeveel kost het?",
+         "How much does it cost?"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3096,7 +3429,12 @@
      ],
      "answer": 1,
      "explain_en": "De man has a definite article, so niet, after the object.",
-     "explain_ru": "У de man определённый артикль, поэтому niet, после дополнения."
+     "explain_ru": "У de man определённый артикль, поэтому niet, после дополнения.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e06",
@@ -3243,7 +3581,12 @@
       "nooit"
      ],
      "explain_en": "'Never' = nooit, with no extra niet.",
-     "explain_ru": "«Никогда» = nooit, без дополнительного niet."
+     "explain_ru": "«Никогда» = nooit, без дополнительного niet.",
+     "ui": {
+      "en": {
+       "q": "Mijn broer belt me ___. (never)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -3304,7 +3647,12 @@
      "q": "'Geen' replaces 'niet + een': Ik heb geen fiets.",
      "answer": true,
      "explain_en": "Een fiets → geen fiets.",
-     "explain_ru": "Да: een fiets → geen fiets («нет велосипеда»)."
+     "explain_ru": "Да: een fiets → geen fiets («нет велосипеда»).",
+     "ui": {
+      "ru": {
+       "q": "'Geen' заменяет 'niet + een': Ik heb geen fiets."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3312,7 +3660,12 @@
      "q": "As in Russian, 'niet' always comes directly before the verb: 'Ik niet werk.'",
      "answer": false,
      "explain_en": "Niet comes late: Ik werk niet.",
-     "explain_ru": "Niet стоит после глагола, ближе к концу: Ik werk niet."
+     "explain_ru": "Niet стоит после глагола, ближе к концу: Ik werk niet.",
+     "ui": {
+      "ru": {
+       "q": "Как в русском, 'niet' всегда стоит прямо перед глаголом: 'Ik niet werk.'"
+      }
+     }
     },
     {
      "id": "e25",
@@ -3320,7 +3673,15 @@
      "q": "'Ik zie niemand niet' is correct standard Dutch, like Russian 'Я никого не вижу'.",
      "answer": false,
      "explain_en": "No double negation: Ik zie niemand.",
-     "explain_ru": "Двойного отрицания нет: Ik zie niemand."
+     "explain_ru": "Двойного отрицания нет: Ik zie niemand.",
+     "ui": {
+      "en": {
+       "q": "'Ik zie niemand niet' is correct standard Dutch, like the Russian double negative 'Ya nikogo ne vizhu' (I don't see nobody)."
+      },
+      "ru": {
+       "q": "'Ik zie niemand niet' — правильный литературный нидерландский, как русское «Я никого не вижу»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3342,7 +3703,29 @@
        "nergens",
        "нигде"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "niemand",
+         "nobody"
+        ],
+        [
+         "niets",
+         "nothing"
+        ],
+        [
+         "nooit",
+         "never"
+        ],
+        [
+         "nergens",
+         "nowhere"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3386,7 +3769,29 @@
        "geen idee",
        "понятия не имею"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "niet groot",
+         "not big"
+        ],
+        [
+         "geen tijd",
+         "no time"
+        ],
+        [
+         "niet ver",
+         "not far"
+        ],
+        [
+         "geen idee",
+         "no idea"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3595,7 +4000,12 @@
      ],
      "answer": 0,
      "explain_en": "Mijn does not change: mijn moeder, mijn vader.",
-     "explain_ru": "Mijn не изменяется: mijn moeder, mijn vader — в отличие от русского «мой/моя»."
+     "explain_ru": "Mijn не изменяется: mijn moeder, mijn vader — в отличие от русского «мой/моя».",
+     "ui": {
+      "en": {
+       "q": "Dit is ___ moeder. (I)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -3609,7 +4019,12 @@
      ],
      "answer": 2,
      "explain_en": "The owner is Peter (he), so zijn. Dutch has no 'свой'.",
-     "explain_ru": "Владелец — Петер (он), поэтому zijn. Слова «свой» в нидерландском нет."
+     "explain_ru": "Владелец — Петер (он), поэтому zijn. Слова «свой» в нидерландском нет.",
+     "ui": {
+      "en": {
+       "q": "Peter belt ___ moeder. (= Peter's mother)"
+      }
+     }
     },
     {
      "id": "e03",
@@ -3623,7 +4038,12 @@
      ],
      "answer": 1,
      "explain_en": "The owner is Anna (she), so haar.",
-     "explain_ru": "Владелец — Анна (она), поэтому haar."
+     "explain_ru": "Владелец — Анна (она), поэтому haar.",
+     "ui": {
+      "en": {
+       "q": "Anna en ___ broer wonen in Gent. (= Anna's brother)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -3637,7 +4057,12 @@
      ],
      "answer": 1,
      "explain_en": "Huis is a singular het-word: ons huis.",
-     "explain_ru": "Huis — слово с het в единственном числе: ons huis."
+     "explain_ru": "Huis — слово с het в единственном числе: ons huis.",
+     "ui": {
+      "en": {
+       "q": "___ huis is groot. (we)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -3651,7 +4076,12 @@
      ],
      "answer": 0,
      "explain_en": "A plural noun: onze kinderen.",
-     "explain_ru": "Множественное число: onze kinderen."
+     "explain_ru": "Множественное число: onze kinderen.",
+     "ui": {
+      "en": {
+       "q": "___ kinderen gaan naar school. (we)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -3679,7 +4109,12 @@
      ],
      "answer": 3,
      "explain_en": "'Their' is hun. Hen is an object pronoun ('them').",
-     "explain_ru": "«Их» (чей?) — hun. Hen — объектное местоимение («их» — кого?)."
+     "explain_ru": "«Их» (чей?) — hun. Hen — объектное местоимение («их» — кого?).",
+     "ui": {
+      "en": {
+       "q": "De kinderen spelen met ___ hond. (their)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3692,7 +4127,12 @@
      ],
      "answer": 1,
      "explain_en": "Auto is a de-word: onze auto.",
-     "explain_ru": "Auto — слово с de: onze auto."
+     "explain_ru": "Auto — слово с de: onze auto.",
+     "ui": {
+      "en": {
+       "q": "___ auto is nieuw. (we)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -3706,7 +4146,12 @@
      ],
      "answer": 3,
      "explain_en": "A possessive replaces the article: mijn fiets.",
-     "explain_ru": "Притяжательное местоимение заменяет артикль: mijn fiets."
+     "explain_ru": "Притяжательное местоимение заменяет артикль: mijn fiets.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3719,7 +4164,12 @@
      ],
      "answer": 2,
      "explain_en": "Van + object pronoun: van mij ('mine').",
-     "explain_ru": "Van + объектное местоимение: van mij («моя»)."
+     "explain_ru": "Van + объектное местоимение: van mij («моя»).",
+     "ui": {
+      "en": {
+       "q": "Van wie is deze tas? – Van ___. (I)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -3730,7 +4180,12 @@
       "m'n"
      ],
      "explain_en": "Mijn, or informal m'n.",
-     "explain_ru": "Mijn или разговорное m'n."
+     "explain_ru": "Mijn или разговорное m'n.",
+     "ui": {
+      "en": {
+       "q": "Ik woon met ___ vriend in Utrecht. (my)"
+      }
+     }
     },
     {
      "id": "e12",
@@ -3740,7 +4195,12 @@
       "jouw"
      ],
      "explain_en": "Contrast with mijn: the stressed form jouw.",
-     "explain_ru": "Противопоставление с mijn: ударная форма jouw."
+     "explain_ru": "Противопоставление с mijn: ударная форма jouw.",
+     "ui": {
+      "en": {
+       "q": "Is dit ___ telefoon of mijn telefoon? (your, stressed)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -3751,7 +4211,12 @@
       "z'n"
      ],
      "explain_en": "The owner is hij: zijn (informal z'n).",
-     "explain_ru": "Владелец — hij: zijn (разговорное z'n). «Свой» переводится по лицу владельца."
+     "explain_ru": "Владелец — hij: zijn (разговорное z'n). «Свой» переводится по лицу владельца.",
+     "ui": {
+      "en": {
+       "q": "Hij werkt samen met ___ vader. (his, his own)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -3761,7 +4226,12 @@
       "haar"
      ],
      "explain_en": "The owner is zij (she): haar.",
-     "explain_ru": "Владелец — zij (она): haar."
+     "explain_ru": "Владелец — zij (она): haar.",
+     "ui": {
+      "en": {
+       "q": "Zij woont in ___ eigen huis. (her, her own)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -3771,7 +4241,12 @@
       "ons"
      ],
      "explain_en": "Het huis → ons huis.",
-     "explain_ru": "Het huis → ons huis: перед словом с het в единственном числе — ons."
+     "explain_ru": "Het huis → ons huis: перед словом с het в единственном числе — ons.",
+     "ui": {
+      "en": {
+       "q": "Wij verkopen ___ huis. (our)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -3781,7 +4256,12 @@
       "onze"
      ],
      "explain_en": "Plural: onze ouders.",
-     "explain_ru": "Множественное число: onze ouders."
+     "explain_ru": "Множественное число: onze ouders.",
+     "ui": {
+      "en": {
+       "q": "Wij bellen ___ ouders. (our)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -3792,7 +4272,12 @@
       "je"
      ],
      "explain_en": "'Your' for a group: jullie, or unstressed je.",
-     "explain_ru": "«Ваш» для группы: jullie или безударное je."
+     "explain_ru": "«Ваш» для группы: jullie или безударное je.",
+     "ui": {
+      "en": {
+       "q": "Kinderen, waar zijn ___ schoenen? (your, plural)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -3802,7 +4287,12 @@
       "hun"
      ],
      "explain_en": "'Their' = hun.",
-     "explain_ru": "«Их» = hun."
+     "explain_ru": "«Их» = hun.",
+     "ui": {
+      "en": {
+       "q": "Mijn buren verkopen ___ auto. (their)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -3865,7 +4355,15 @@
      "q": "Dutch has no word like Russian 'свой'; you choose mijn, zijn, haar etc. according to the owner.",
      "answer": true,
      "explain_en": "Hij belt zijn moeder; ik bel mijn moeder.",
-     "explain_ru": "Hij belt zijn moeder; ik bel mijn moeder — «свой» передаётся по лицу владельца."
+     "explain_ru": "Hij belt zijn moeder; ik bel mijn moeder — «свой» передаётся по лицу владельца.",
+     "ui": {
+      "en": {
+       "q": "Dutch has no special reflexive possessive like Russian 'svoy' (one's own); you choose mijn, zijn, haar etc. according to the owner."
+      },
+      "ru": {
+       "q": "В нидерландском нет слова, подобного русскому «свой»; mijn, zijn, haar и т. д. выбирают по владельцу."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3873,7 +4371,12 @@
      "q": "'Onze' is used with singular het-words: 'onze huis'.",
      "answer": false,
      "explain_en": "With a singular het-word use ons: ons huis.",
-     "explain_ru": "Со словом с het в единственном числе — ons: ons huis."
+     "explain_ru": "Со словом с het в единственном числе — ons: ons huis.",
+     "ui": {
+      "ru": {
+       "q": "'Onze' употребляется с het-словами в единственном числе: 'onze huis'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3881,7 +4384,12 @@
      "q": "'Mijn' changes its form before feminine nouns: 'mijne moeder'.",
      "answer": false,
      "explain_en": "Mijn never changes: mijn moeder.",
-     "explain_ru": "Mijn не изменяется: mijn moeder."
+     "explain_ru": "Mijn не изменяется: mijn moeder.",
+     "ui": {
+      "ru": {
+       "q": "'Mijn' меняет форму перед существительными женского рода: 'mijne moeder'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3911,7 +4419,37 @@
        "zij (они)",
        "hun"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ik",
+         "mijn"
+        ],
+        [
+         "jij",
+         "jouw"
+        ],
+        [
+         "hij",
+         "zijn"
+        ],
+        [
+         "zij (she)",
+         "haar"
+        ],
+        [
+         "wij",
+         "ons / onze"
+        ],
+        [
+         "zij (they)",
+         "hun"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -3933,7 +4471,29 @@
        "ons kind",
        "наш ребёнок"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ons huis",
+         "our house"
+        ],
+        [
+         "onze auto",
+         "our car"
+        ],
+        [
+         "onze kinderen",
+         "our children"
+        ],
+        [
+         "ons kind",
+         "our child"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3959,7 +4519,33 @@
        "haar",
        "её"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "mijn",
+         "my"
+        ],
+        [
+         "jouw",
+         "your (informal)"
+        ],
+        [
+         "uw",
+         "your (polite)"
+        ],
+        [
+         "hun",
+         "their"
+        ],
+        [
+         "haar",
+         "her"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4222,7 +4808,12 @@
      ],
      "answer": 1,
      "explain_en": "Modal second, niet right before the infinitive at the end.",
-     "explain_ru": "Модальный глагол на втором месте, niet прямо перед инфинитивом в конце."
+     "explain_ru": "Модальный глагол на втором месте, niet прямо перед инфинитивом в конце.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e06",
@@ -4264,7 +4855,17 @@
      ],
      "answer": 0,
      "explain_en": "Mag ik …? is a polite request: 'May I have …?'",
-     "explain_ru": "Mag ik …? — вежливая просьба: «Можно мне …?»"
+     "explain_ru": "Mag ik …? — вежливая просьба: «Можно мне …?»",
+     "ui": {
+      "en": {
+       "options": [
+        "May I have a glass of water?",
+        "Do I have to drink a glass of water?",
+        "I want a glass of water.",
+        "Do I have a glass of water?"
+       ]
+      }
+     }
     },
     {
      "id": "e09",
@@ -4441,7 +5042,12 @@
      "q": "After kunnen, moeten, willen and mogen the infinitive stands at the end, without te.",
      "answer": true,
      "explain_en": "Ik wil morgen naar Gent gaan.",
-     "explain_ru": "Ik wil morgen naar Gent gaan — инфинитив в конце, без te."
+     "explain_ru": "Ik wil morgen naar Gent gaan — инфинитив в конце, без te.",
+     "ui": {
+      "ru": {
+       "q": "После kunnen, moeten, willen и mogen инфинитив стоит в конце, без te."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4449,7 +5055,12 @@
      "q": "'Hij kant' is the correct form of kunnen for hij.",
      "answer": false,
      "explain_en": "Modals have no -t with hij: hij kan.",
-     "explain_ru": "У модальных глаголов нет -t с hij: hij kan."
+     "explain_ru": "У модальных глаголов нет -t с hij: hij kan.",
+     "ui": {
+      "ru": {
+       "q": "'Hij kant' — правильная форма kunnen для hij."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4457,7 +5068,12 @@
      "q": "'Je moet niet komen' means 'you don't have to come'.",
      "answer": false,
      "explain_en": "It means 'you should not come'. 'Don't have to' is Je hoeft niet te komen.",
-     "explain_ru": "Это значит «тебе не следует приходить». «Не нужно приходить» — Je hoeft niet te komen."
+     "explain_ru": "Это значит «тебе не следует приходить». «Не нужно приходить» — Je hoeft niet te komen.",
+     "ui": {
+      "ru": {
+       "q": "'Je moet niet komen' значит «тебе не нужно приходить»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4479,7 +5095,29 @@
        "mogen",
        "иметь разрешение"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "kunnen",
+         "can, to be able to"
+        ],
+        [
+         "moeten",
+         "must, to have to"
+        ],
+        [
+         "willen",
+         "to want"
+        ],
+        [
+         "mogen",
+         "may, to be allowed to"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4505,7 +5143,33 @@
        "jullie willen",
        "вы хотите"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ik wil",
+         "I want"
+        ],
+        [
+         "hij moet",
+         "he must"
+        ],
+        [
+         "wij mogen",
+         "we are allowed"
+        ],
+        [
+         "jij kunt",
+         "you can"
+        ],
+        [
+         "jullie willen",
+         "you (plural) want"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4527,7 +5191,29 @@
        "Je hoeft niet te …",
        "Тебе не нужно …"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Mag ik …?",
+         "May I …?"
+        ],
+        [
+         "Kun je …?",
+         "Can you …?"
+        ],
+        [
+         "Ik wil graag …",
+         "I would like …"
+        ],
+        [
+         "Je hoeft niet te …",
+         "You don't have to …"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4736,7 +5422,12 @@
      ],
      "answer": 1,
      "explain_en": "Verb second, prefix op at the end.",
-     "explain_ru": "Глагол на втором месте, приставка op в конце."
+     "explain_ru": "Глагол на втором месте, приставка op в конце.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e02",
@@ -4848,7 +5539,12 @@
      ],
      "answer": 3,
      "explain_en": "The prefix op goes to the very end of the sentence.",
-     "explain_ru": "Приставка op уходит в самый конец предложения."
+     "explain_ru": "Приставка op уходит в самый конец предложения.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильное?"
+      }
+     }
     },
     {
      "id": "e10",
@@ -5005,7 +5701,12 @@
      "q": "In a main clause the prefix of a separable verb goes to the end: 'Ik bel je morgen op.'",
      "answer": true,
      "explain_en": "Verb second, prefix last.",
-     "explain_ru": "Глагол на втором месте, приставка — в конце."
+     "explain_ru": "Глагол на втором месте, приставка — в конце.",
+     "ui": {
+      "ru": {
+       "q": "В главном предложении приставка отделяемого глагола уходит в конец: 'Ik bel je morgen op.'"
+      }
+     }
     },
     {
      "id": "e24",
@@ -5013,7 +5714,12 @@
      "q": "'Betalen' is a separable verb: 'Ik taal de rekening be.'",
      "answer": false,
      "explain_en": "Be- never separates: Ik betaal de rekening.",
-     "explain_ru": "Be- никогда не отделяется: Ik betaal de rekening."
+     "explain_ru": "Be- никогда не отделяется: Ik betaal de rekening.",
+     "ui": {
+      "ru": {
+       "q": "'Betalen' — отделяемый глагол: 'Ik taal de rekening be.'"
+      }
+     }
     },
     {
      "id": "e25",
@@ -5021,7 +5727,12 @@
      "q": "The informal imperative has the same form for one person and for several: 'Kom!'",
      "answer": true,
      "explain_en": "Kom! means both 'приходи' and 'приходите'.",
-     "explain_ru": "Kom! значит и «приходи», и «приходите»."
+     "explain_ru": "Kom! значит и «приходи», и «приходите».",
+     "ui": {
+      "ru": {
+       "q": "Неформальный императив имеет одну и ту же форму для одного человека и для нескольких: 'Kom!'"
+      }
+     }
     },
     {
      "id": "e26",
@@ -5047,7 +5758,33 @@
        "uitgaan",
        "ходить развлекаться"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "opbellen",
+         "to phone"
+        ],
+        [
+         "meenemen",
+         "to take along"
+        ],
+        [
+         "aankomen",
+         "to arrive"
+        ],
+        [
+         "opstaan",
+         "to get up"
+        ],
+        [
+         "uitgaan",
+         "to go out"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -5091,7 +5828,29 @@
        "Doe de deur dicht!",
        "Закрой дверь!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Kom binnen!",
+         "Come in!"
+        ],
+        [
+         "Wacht even!",
+         "Wait a moment!"
+        ],
+        [
+         "Wees stil!",
+         "Be quiet!"
+        ],
+        [
+         "Doe de deur dicht!",
+         "Close the door!"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5572,7 +6331,15 @@
      "q": "'Half vier' means 3:30, just like Russian 'половина четвёртого'.",
      "answer": true,
      "explain_en": "Half refers to the coming hour.",
-     "explain_ru": "Half указывает на наступающий час — как в русском."
+     "explain_ru": "Half указывает на наступающий час — как в русском.",
+     "ui": {
+      "en": {
+       "q": "'Half vier' means 3:30, just like Russian 'polovina chetvyortogo' (half of the fourth hour)."
+      },
+      "ru": {
+       "q": "'Half vier' означает 3:30, как и русское «половина четвёртого»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5580,7 +6347,12 @@
      "q": "In Dutch, 25 is 'twintigvijf', with the tens first as in Russian.",
      "answer": false,
      "explain_en": "Units first: vijfentwintig.",
-     "explain_ru": "Сначала единицы: vijfentwintig."
+     "explain_ru": "Сначала единицы: vijfentwintig.",
+     "ui": {
+      "ru": {
+       "q": "По-нидерландски 25 — 'twintigvijf': десятки идут первыми, как в русском."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5588,7 +6360,12 @@
      "q": "'Een groot huis' has no -e because huis is a het-word after een.",
      "answer": true,
      "explain_en": "Een + singular het-word: no -e.",
-     "explain_ru": "Een + слово с het в единственном числе: без -e."
+     "explain_ru": "Een + слово с het в единственном числе: без -e.",
+     "ui": {
+      "ru": {
+       "q": "В 'Een groot huis' нет -e, потому что huis — het-слово после een."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5670,7 +6447,37 @@
        "zaterdag",
        "суббота"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "maandag",
+         "Monday"
+        ],
+        [
+         "dinsdag",
+         "Tuesday"
+        ],
+        [
+         "woensdag",
+         "Wednesday"
+        ],
+        [
+         "donderdag",
+         "Thursday"
+        ],
+        [
+         "vrijdag",
+         "Friday"
+        ],
+        [
+         "zaterdag",
+         "Saturday"
+        ]
+       ]
+      }
+     }
     }
    ]
   }

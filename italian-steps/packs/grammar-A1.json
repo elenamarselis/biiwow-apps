@@ -216,7 +216,17 @@
      ],
      "answer": 1,
      "explain_en": "Before e and i, c is soft [tʃ], like Russian 'ч': cena [ˈtʃeːna].",
-     "explain_ru": "Перед e и i буква c мягкая [tʃ], как русское «ч»: cena [ˈtʃeːna]."
+     "explain_ru": "Перед e и i буква c мягкая [tʃ], как русское «ч»: cena [ˈtʃeːna].",
+     "ui": {
+      "en": {
+       "options": [
+        "like 'k' in 'kit'",
+        "like 'ch' in 'church'",
+        "like 'ts' in 'cats'",
+        "like 's' in 'sun'"
+       ]
+      }
+     }
     },
     {
      "id": "e02",
@@ -230,7 +240,12 @@
      ],
      "answer": 2,
      "explain_en": "G is soft [dʒ] only before e and i: gelato. Before a, o and consonants it is hard [g].",
-     "explain_ru": "G мягкая [dʒ] только перед e и i: gelato. Перед a, o и согласными она твёрдая [г]."
+     "explain_ru": "G мягкая [dʒ] только перед e и i: gelato. Перед a, o и согласными она твёрдая [г].",
+     "ui": {
+      "en": {
+       "q": "In quale parola la g si pronuncia come 'j' in 'jam'?"
+      }
+     }
     },
     {
      "id": "e03",
@@ -272,7 +287,17 @@
      ],
      "answer": 1,
      "explain_en": "gn is a long soft [ɲɲ], like Russian 'нь': bagno [ˈbaɲɲo].",
-     "explain_ru": "gn — долгий мягкий звук [ɲɲ], как русское «нь»: bagno [ˈbaɲɲo]. Звука [г] здесь нет."
+     "explain_ru": "gn — долгий мягкий звук [ɲɲ], как русское «нь»: bagno [ˈbaɲɲo]. Звука [г] здесь нет.",
+     "ui": {
+      "en": {
+       "options": [
+        "like 'g' + 'n' in 'signal'",
+        "like 'ny' in 'canyon'",
+        "like 'ng' in 'sing'",
+        "like 'n' in 'no'"
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -286,7 +311,17 @@
      ],
      "answer": 2,
      "explain_en": "sc before e or i is [ʃ], like Russian 'ш': pesce [ˈpeʃʃe].",
-     "explain_ru": "sc перед e или i читается как [ш]: pesce [ˈpeʃʃe]. Перед a, o, u было бы [ск]."
+     "explain_ru": "sc перед e или i читается как [ш]: pesce [ˈpeʃʃe]. Перед a, o, u было бы [ск].",
+     "ui": {
+      "en": {
+       "options": [
+        "like 'sk' in 'sky'",
+        "like 'sh' + 'ch' in 'fresh cheese'",
+        "like 'sh' in 'ship'",
+        "like 's' in 'sun'"
+       ]
+      }
+     }
     },
     {
      "id": "e07",
@@ -314,7 +349,12 @@
      ],
      "answer": 2,
      "explain_en": "Nonno, with a double n. 'Nono' means 'ninth' and 'nonna' means 'grandmother'.",
-     "explain_ru": "Nonno — с двойной n. 'Nono' значит «девятый», а 'nonna' — «бабушка». Двойная согласная меняет смысл."
+     "explain_ru": "Nonno — с двойной n. 'Nono' значит «девятый», а 'nonna' — «бабушка». Двойная согласная меняет смысл.",
+     "ui": {
+      "en": {
+       "q": "Quale parola significa 'grandfather'?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -485,7 +525,15 @@
      "q": "In 'cinema' the letter c is pronounced like Russian 'с'.",
      "answer": false,
      "explain_en": "Before i, c is [tʃ]: cinema [ˈtʃiːnema].",
-     "explain_ru": "Перед i буква c читается как «ч»: cinema [ˈtʃiːnema], а не «синема»."
+     "explain_ru": "Перед i буква c читается как «ч»: cinema [ˈtʃiːnema], а не «синема».",
+     "ui": {
+      "en": {
+       "q": "In 'cinema' the letter c is pronounced like English 's'."
+      },
+      "ru": {
+       "q": "В слове 'cinema' буква c произносится как русская «с»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -493,7 +541,12 @@
      "q": "'Palla' and 'pala' are pronounced the same in Italian.",
      "answer": false,
      "explain_en": "The double l is held longer, and the words differ: palla = ball, pala = shovel.",
-     "explain_ru": "Двойная l произносится дольше, и это разные слова: palla — мяч, pala — лопата."
+     "explain_ru": "Двойная l произносится дольше, и это разные слова: palla — мяч, pala — лопата.",
+     "ui": {
+      "ru": {
+       "q": "'Palla' и 'pala' в итальянском произносятся одинаково."
+      }
+     }
     },
     {
      "id": "e25",
@@ -501,7 +554,12 @@
      "q": "In 'ciao' the letter i is not pronounced as a separate vowel.",
      "answer": true,
      "explain_en": "The i only shows that c is soft: [ˈtʃaːo].",
-     "explain_ru": "i лишь показывает, что c мягкая: [ˈtʃaːo] — «чао», а не «чиао»."
+     "explain_ru": "i лишь показывает, что c мягкая: [ˈtʃaːo] — «чао», а не «чиао».",
+     "ui": {
+      "ru": {
+       "q": "В 'ciao' буква i не произносится как отдельный гласный."
+      }
+     }
     },
     {
      "id": "e26",
@@ -531,7 +589,37 @@
        "sce / sci",
        "ш"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ce / ci",
+         "ch as in 'church'"
+        ],
+        [
+         "che / chi",
+         "k"
+        ],
+        [
+         "ge / gi",
+         "j as in 'jam'"
+        ],
+        [
+         "gli",
+         "soft 'lli' as in 'million'"
+        ],
+        [
+         "gn",
+         "ny as in 'canyon'"
+        ],
+        [
+         "sce / sci",
+         "sh"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -561,7 +649,37 @@
        "sonno",
        "сон"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "pala",
+         "shovel"
+        ],
+        [
+         "palla",
+         "ball"
+        ],
+        [
+         "caro",
+         "dear"
+        ],
+        [
+         "carro",
+         "cart"
+        ],
+        [
+         "sono",
+         "I am"
+        ],
+        [
+         "sonno",
+         "sleep"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1099,7 +1217,12 @@
      "q": "'Il problema' is correct, although the noun ends in -a.",
      "answer": true,
      "explain_en": "'Problema' is one of the masculine nouns in -a: il problema, i problemi.",
-     "explain_ru": "'Problema' — одно из существительных мужского рода на -a: il problema, i problemi."
+     "explain_ru": "'Problema' — одно из существительных мужского рода на -a: il problema, i problemi.",
+     "ui": {
+      "ru": {
+       "q": "'Il problema' — правильно, хотя существительное оканчивается на -a."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1107,7 +1230,12 @@
      "q": "Before a masculine noun starting with a vowel you write un' with an apostrophe: un'amico.",
      "answer": false,
      "explain_en": "The apostrophe is only for the feminine: un amico, but un'amica.",
-     "explain_ru": "Апостроф ставится только в женском роде: un amico, но un'amica."
+     "explain_ru": "Апостроф ставится только в женском роде: un amico, но un'amica.",
+     "ui": {
+      "ru": {
+       "q": "Перед существительным мужского рода, начинающимся с гласной, пишут un' с апострофом: un'amico."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1115,7 +1243,12 @@
      "q": "Italian has a neuter gender, like Russian.",
      "answer": false,
      "explain_en": "Italian has only masculine and feminine; Russian neuter nouns get one of the two: il latte, la finestra.",
-     "explain_ru": "В итальянском только мужской и женский род; русские слова среднего рода переводятся словами одного из двух родов: il latte (молоко), la finestra (окно)."
+     "explain_ru": "В итальянском только мужской и женский род; русские слова среднего рода переводятся словами одного из двух родов: il latte (молоко), la finestra (окно).",
+     "ui": {
+      "ru": {
+       "q": "В итальянском, как и в русском, есть средний род."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1674,7 +1807,15 @@
      "q": "'Io sono 25 anni' is the correct way to say 'Мне 25 лет'.",
      "answer": false,
      "explain_en": "Age is expressed with avere: Ho 25 anni.",
-     "explain_ru": "Возраст выражается глаголом avere: Ho 25 anni."
+     "explain_ru": "Возраст выражается глаголом avere: Ho 25 anni.",
+     "ui": {
+      "en": {
+       "q": "'Io sono 25 anni' is the correct way to say 'I am 25 years old'."
+      },
+      "ru": {
+       "q": "'Io sono 25 anni' — правильный способ сказать «Мне 25 лет»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -1682,7 +1823,12 @@
      "q": "In 'hanno' the h is silent, so it sounds like 'anno' (year).",
      "answer": true,
      "explain_en": "H is never pronounced; only the spelling shows the difference.",
-     "explain_ru": "H никогда не читается; разницу видно только на письме."
+     "explain_ru": "H никогда не читается; разницу видно только на письме.",
+     "ui": {
+      "ru": {
+       "q": "В 'hanno' буква h не читается, поэтому слово звучит как 'anno' (год)."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1690,7 +1836,12 @@
      "q": "'Ci sono' is used before a plural noun.",
      "answer": true,
      "explain_en": "C'è + singular, ci sono + plural: ci sono due bagni.",
-     "explain_ru": "C'è + единственное число, ci sono + множественное: ci sono due bagni."
+     "explain_ru": "C'è + единственное число, ci sono + множественное: ci sono due bagni.",
+     "ui": {
+      "ru": {
+       "q": "'Ci sono' употребляется перед существительным во множественном числе."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1776,7 +1927,37 @@
        "avere ragione",
        "быть правым"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "avere fame",
+         "to be hungry"
+        ],
+        [
+         "avere sete",
+         "to be thirsty"
+        ],
+        [
+         "avere freddo",
+         "to be cold"
+        ],
+        [
+         "avere sonno",
+         "to be sleepy"
+        ],
+        [
+         "avere paura",
+         "to be afraid"
+        ],
+        [
+         "avere ragione",
+         "to be right"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2254,7 +2435,12 @@
      "q": "In 'parlano' the stress falls on the first syllable: PAR-la-no.",
      "answer": true,
      "explain_en": "In the loro form the stress stays on the stem: PAR-la-no.",
-     "explain_ru": "В форме loro ударение остаётся на основе: PAR-la-no."
+     "explain_ru": "В форме loro ударение остаётся на основе: PAR-la-no.",
+     "ui": {
+      "ru": {
+       "q": "В 'parlano' ударение падает на первый слог: PAR-la-no."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2262,7 +2448,12 @@
      "q": "'Capire' keeps -isc- in the noi form: capisciamo.",
      "answer": false,
      "explain_en": "Noi and voi have no -isc-: capiamo, capite.",
-     "explain_ru": "В формах noi и voi -isc- нет: capiamo, capite."
+     "explain_ru": "В формах noi и voi -isc- нет: capiamo, capite.",
+     "ui": {
+      "ru": {
+       "q": "'Capire' сохраняет -isc- в форме noi: capisciamo."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2270,7 +2461,15 @@
      "q": "'Abito a Roma da tre anni' uses the present tense, just like Russian 'Я живу в Риме три года'.",
      "answer": true,
      "explain_en": "For an action that is still going on, Italian uses the present + da.",
-     "explain_ru": "Для действия, которое продолжается, в итальянском используется настоящее время + da — как и в русском."
+     "explain_ru": "Для действия, которое продолжается, в итальянском используется настоящее время + da — как и в русском.",
+     "ui": {
+      "en": {
+       "q": "'Abito a Roma da tre anni' uses the present tense, where English says 'I have lived in Rome for three years'."
+      },
+      "ru": {
+       "q": "В 'Abito a Roma da tre anni' стоит настоящее время, как и в русском «Я живу в Риме три года»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2356,7 +2555,37 @@
        "cercare",
        "искать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "parlare",
+         "to speak"
+        ],
+        [
+         "prendere",
+         "to take"
+        ],
+        [
+         "dormire",
+         "to sleep"
+        ],
+        [
+         "capire",
+         "to understand"
+        ],
+        [
+         "aspettare",
+         "to wait"
+        ],
+        [
+         "cercare",
+         "to look for"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -2835,7 +3064,12 @@
      "q": "After 'voglio' you need a preposition before the infinitive: 'voglio a andare'.",
      "answer": false,
      "explain_en": "Modal verbs take the infinitive directly: voglio andare.",
-     "explain_ru": "Модальные глаголы присоединяют инфинитив напрямую: voglio andare — как «хочу пойти»."
+     "explain_ru": "Модальные глаголы присоединяют инфинитив напрямую: voglio andare — как «хочу пойти».",
+     "ui": {
+      "ru": {
+       "q": "После 'voglio' перед инфинитивом нужен предлог: 'voglio a andare'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -2843,7 +3077,15 @@
      "q": "Italian uses 'andare' both for Russian 'идти' and 'ехать'.",
      "answer": true,
      "explain_en": "Andare covers all kinds of going; the means is added with in: vado in macchina.",
-     "explain_ru": "Andare охватывает любое движение; способ добавляется с in: vado in macchina — «еду на машине»."
+     "explain_ru": "Andare охватывает любое движение; способ добавляется с in: vado in macchina — «еду на машине».",
+     "ui": {
+      "en": {
+       "q": "Italian uses 'andare' both for going on foot and for going by vehicle."
+      },
+      "ru": {
+       "q": "В итальянском 'andare' означает и «идти», и «ехать»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2851,7 +3093,12 @@
      "q": "The io form of 'uscire' is 'usco'.",
      "answer": false,
      "explain_en": "In stressed forms u becomes e: esco.",
-     "explain_ru": "В ударных формах u меняется на e: esco."
+     "explain_ru": "В ударных формах u меняется на e: esco.",
+     "ui": {
+      "ru": {
+       "q": "Форма io глагола 'uscire' — 'usco'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2933,7 +3180,33 @@
        "fare una foto",
        "фотографировать"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "fare colazione",
+         "to have breakfast"
+        ],
+        [
+         "fare la spesa",
+         "to do the food shopping"
+        ],
+        [
+         "fare una domanda",
+         "to ask a question"
+        ],
+        [
+         "fa caldo",
+         "it's hot"
+        ],
+        [
+         "fare una foto",
+         "to take a photo"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3198,7 +3471,12 @@
      ],
      "answer": 1,
      "explain_en": "Masculine singular with the article: il mio libro.",
-     "explain_ru": "Мужской род, единственное число, с артиклем: il mio libro."
+     "explain_ru": "Мужской род, единственное число, с артиклем: il mio libro.",
+     "ui": {
+      "en": {
+       "q": "Dov'è ___ libro? (my)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -3212,7 +3490,12 @@
      ],
      "answer": 0,
      "explain_en": "Singular family noun without adjective: no article, mia madre.",
-     "explain_ru": "Родственник в единственном числе без прилагательного — без артикля: mia madre."
+     "explain_ru": "Родственник в единственном числе без прилагательного — без артикля: mia madre.",
+     "ui": {
+      "en": {
+       "q": "___ madre è medico. (my)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -3226,7 +3509,12 @@
      ],
      "answer": 3,
      "explain_en": "Masculine plural with the article: i miei amici.",
-     "explain_ru": "Мужской род, множественное число, с артиклем: i miei amici."
+     "explain_ru": "Мужской род, множественное число, с артиклем: i miei amici.",
+     "ui": {
+      "en": {
+       "q": "Ecco ___ amici. (my)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3240,7 +3528,12 @@
      ],
      "answer": 1,
      "explain_en": "'Moglie' is feminine singular and a family noun: sua moglie, no article.",
-     "explain_ru": "'Moglie' — женский род, единственное число, родственник: sua moglie, без артикля. Русскому «свою» соответствует sua."
+     "explain_ru": "'Moglie' — женский род, единственное число, родственник: sua moglie, без артикля. Русскому «свою» соответствует sua.",
+     "ui": {
+      "en": {
+       "q": "Paolo ama ___ moglie. (his)"
+      }
+     }
     },
     {
      "id": "e09",
@@ -3254,7 +3547,12 @@
      ],
      "answer": 0,
      "explain_en": "Loro never changes and always takes the article: la loro casa.",
-     "explain_ru": "Loro не меняется и всегда стоит с артиклем: la loro casa."
+     "explain_ru": "Loro не меняется и всегда стоит с артиклем: la loro casa.",
+     "ui": {
+      "en": {
+       "q": "Anna e Luca vendono ___ casa. (their)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3416,7 +3714,12 @@
      "q": "In 'Marco e sua sorella', 'sua' is feminine because it agrees with 'sorella', not with Marco.",
      "answer": true,
      "explain_en": "Possessives agree with the thing owned: sua sorella = his sister.",
-     "explain_ru": "Притяжательные согласуются с предметом владения: sua sorella — «его сестра»."
+     "explain_ru": "Притяжательные согласуются с предметом владения: sua sorella — «его сестра».",
+     "ui": {
+      "ru": {
+       "q": "В 'Marco e sua sorella' слово 'sua' стоит в женском роде, потому что согласуется с 'sorella', а не с Marco."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3424,7 +3727,15 @@
      "q": "'La mia madre' is the normal way to say 'моя мама'.",
      "answer": false,
      "explain_en": "Singular family nouns drop the article: mia madre.",
-     "explain_ru": "С родственниками в единственном числе артикль опускается: mia madre."
+     "explain_ru": "С родственниками в единственном числе артикль опускается: mia madre.",
+     "ui": {
+      "en": {
+       "q": "'La mia madre' is the normal way to say 'my mother'."
+      },
+      "ru": {
+       "q": "'La mia madre' — обычный способ сказать «моя мама»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3432,7 +3743,12 @@
      "q": "Colour adjectives usually come after the noun: 'una borsa nera'.",
      "answer": true,
      "explain_en": "Colours always follow the noun in Italian.",
-     "explain_ru": "Цвета в итальянском всегда стоят после существительного, в отличие от русского «чёрная сумка»."
+     "explain_ru": "Цвета в итальянском всегда стоят после существительного, в отличие от русского «чёрная сумка».",
+     "ui": {
+      "ru": {
+       "q": "Прилагательные цвета обычно стоят после существительного: 'una borsa nera'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3502,7 +3818,33 @@
        "il nostro gatto",
        "наш кот"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "mio padre",
+         "my father"
+        ],
+        [
+         "i miei fratelli",
+         "my brothers"
+        ],
+        [
+         "la loro madre",
+         "their mother"
+        ],
+        [
+         "la sua macchina",
+         "his / her car"
+        ],
+        [
+         "il nostro gatto",
+         "our cat"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3864,7 +4206,12 @@
       "nulla"
      ],
      "explain_en": "Non ... niente (or nulla) = nothing.",
-     "explain_ru": "Non ... niente (или nulla) — «ничего не»."
+     "explain_ru": "Non ... niente (или nulla) — «ничего не».",
+     "ui": {
+      "en": {
+       "q": "Non mangio ___ (nothing)."
+      }
+     }
     },
     {
      "id": "e13",
@@ -3874,7 +4221,12 @@
       "nessuno"
      ],
      "explain_en": "Non ... nessuno = nobody.",
-     "explain_ru": "Non ... nessuno — «никого не, никто не»."
+     "explain_ru": "Non ... nessuno — «никого не, никто не».",
+     "ui": {
+      "en": {
+       "q": "Non c'è ___ in casa. (nobody)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -3884,7 +4236,12 @@
       "Quanti"
      ],
      "explain_en": "'Anni' is masculine plural: quanti.",
-     "explain_ru": "'Anni' — мужской род, множественное число: quanti."
+     "explain_ru": "'Anni' — мужской род, множественное число: quanti.",
+     "ui": {
+      "en": {
+       "q": "___ anni hai? (How many)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -3894,7 +4251,12 @@
       "che"
      ],
      "explain_en": "A che ora? = At what time?",
-     "explain_ru": "A che ora? — «Во сколько?»"
+     "explain_ru": "A che ora? — «Во сколько?»",
+     "ui": {
+      "en": {
+       "q": "A ___ ora parte il treno? (what time)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -3904,7 +4266,12 @@
       "lo"
      ],
      "explain_en": "Non lo so = I don't know (it). The pronoun goes between non and the verb.",
-     "explain_ru": "Non lo so — «Не знаю (этого)». Местоимение стоит между non и глаголом."
+     "explain_ru": "Non lo so — «Не знаю (этого)». Местоимение стоит между non и глаголом.",
+     "ui": {
+      "en": {
+       "q": "Non ___ so. (I don't know it)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -3914,7 +4281,12 @@
       "più"
      ],
      "explain_en": "Non ... più = no longer.",
-     "explain_ru": "Non ... più — «больше не»."
+     "explain_ru": "Non ... più — «больше не».",
+     "ui": {
+      "en": {
+       "q": "Non lavoro ___: sono in pensione. (no longer)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -3986,7 +4358,15 @@
      "q": "'Non vedo niente' is correct, with two negative words, just like Russian 'Я ничего не вижу'.",
      "answer": true,
      "explain_en": "Italian requires double negation with niente, nessuno, mai, più.",
-     "explain_ru": "В итальянском, как в русском, двойное отрицание обязательно с niente, nessuno, mai, più."
+     "explain_ru": "В итальянском, как в русском, двойное отрицание обязательно с niente, nessuno, mai, più.",
+     "ui": {
+      "en": {
+       "q": "'Non vedo niente' is correct, with two negative words (literally 'I don't see nothing')."
+      },
+      "ru": {
+       "q": "'Non vedo niente' — правильно, с двумя отрицаниями, как в русском «Я ничего не вижу»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -3994,7 +4374,12 @@
      "q": "'Qual è' is written with an apostrophe: 'qual'è'.",
      "answer": false,
      "explain_en": "Qual è is written without an apostrophe.",
-     "explain_ru": "Qual è пишется без апострофа — это частая ошибка даже у итальянцев."
+     "explain_ru": "Qual è пишется без апострофа — это частая ошибка даже у итальянцев.",
+     "ui": {
+      "ru": {
+       "q": "'Qual è' пишется с апострофом: 'qual'è'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4002,7 +4387,12 @@
      "q": "To make a yes/no question in Italian you must change the word order, as in English.",
      "answer": false,
      "explain_en": "Only intonation changes: Parli italiano?",
-     "explain_ru": "Меняется только интонация: Parli italiano? — как в русском."
+     "explain_ru": "Меняется только интонация: Parli italiano? — как в русском.",
+     "ui": {
+      "ru": {
+       "q": "Чтобы задать вопрос «да/нет» в итальянском, нужно изменить порядок слов, как в английском."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4032,7 +4422,37 @@
        "perché",
        "почему"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "chi",
+         "who"
+        ],
+        [
+         "che cosa",
+         "what"
+        ],
+        [
+         "dove",
+         "where"
+        ],
+        [
+         "quando",
+         "when"
+        ],
+        [
+         "come",
+         "how"
+        ],
+        [
+         "perché",
+         "why"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4080,7 +4500,29 @@
        "non ... più",
        "больше не"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "non ... niente",
+         "nothing / not anything"
+        ],
+        [
+         "non ... nessuno",
+         "nobody / not anyone"
+        ],
+        [
+         "non ... mai",
+         "never"
+        ],
+        [
+         "non ... più",
+         "no longer / not any more"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4566,7 +5008,12 @@
      "q": "'Vado a Italia' is correct.",
      "answer": false,
      "explain_en": "Countries take in: Vado in Italia.",
-     "explain_ru": "Со странами ставится in: Vado in Italia."
+     "explain_ru": "Со странами ставится in: Vado in Italia.",
+     "ui": {
+      "ru": {
+       "q": "'Vado a Italia' — правильно."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4574,7 +5021,12 @@
      "q": "'Di' + 'il' becomes 'del'.",
      "answer": true,
      "explain_en": "di + il = del: il libro del professore.",
-     "explain_ru": "Верно: di + il = del, il libro del professore — «книга преподавателя»."
+     "explain_ru": "Верно: di + il = del, il libro del professore — «книга преподавателя».",
+     "ui": {
+      "ru": {
+       "q": "'Di' + 'il' превращается в 'del'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4582,7 +5034,12 @@
      "q": "'Vado da Marco' means 'I'm going to Marco's place'.",
      "answer": true,
      "explain_en": "Da + person = to / at someone's place.",
-     "explain_ru": "Da + человек = «к кому-то, у кого-то»: «иду к Марко»."
+     "explain_ru": "Da + человек = «к кому-то, у кого-то»: «иду к Марко».",
+     "ui": {
+      "ru": {
+       "q": "'Vado da Marco' означает «Я иду к Марко»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4638,7 +5095,33 @@
        "vado in Italia",
        "я еду в Италию"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "il libro di Anna",
+         "Anna's book"
+        ],
+        [
+         "vado da Anna",
+         "I'm going to Anna's"
+        ],
+        [
+         "vengo da Roma",
+         "I come from Rome"
+        ],
+        [
+         "sono a Roma",
+         "I'm in Rome"
+        ],
+        [
+         "vado in Italia",
+         "I'm going to Italy"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4901,7 +5384,12 @@
      ],
      "answer": 2,
      "explain_en": "To you (informal) = ti.",
-     "explain_ru": "Тебе = ti."
+     "explain_ru": "Тебе = ti.",
+     "ui": {
+      "en": {
+       "q": "___ piace il calcio? (to you)"
+      }
+     }
     },
     {
      "id": "e04",
@@ -4915,7 +5403,12 @@
      ],
      "answer": 3,
      "explain_en": "To him = gli.",
-     "explain_ru": "Ему = gli."
+     "explain_ru": "Ему = gli.",
+     "ui": {
+      "en": {
+       "q": "Marco? ___ piace molto il cinema. (to him)"
+      }
+     }
     },
     {
      "id": "e05",
@@ -4929,7 +5422,12 @@
      ],
      "answer": 0,
      "explain_en": "To her = le.",
-     "explain_ru": "Ей = le."
+     "explain_ru": "Ей = le.",
+     "ui": {
+      "en": {
+       "q": "Anna? ___ piacciono i gatti. (to her)"
+      }
+     }
     },
     {
      "id": "e06",
@@ -4943,7 +5441,12 @@
      ],
      "answer": 1,
      "explain_en": "With piacere: anche a me, not anche io.",
-     "explain_ru": "С piacere: anche a me («мне тоже»), а не anche io («я тоже»)."
+     "explain_ru": "С piacere: anche a me («мне тоже»), а не anche io («я тоже»).",
+     "ui": {
+      "en": {
+       "q": "A me piace il mare. — ___ (me too)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -4957,7 +5460,12 @@
      ],
      "answer": 2,
      "explain_en": "Agreeing with a negative: neanche a me.",
-     "explain_ru": "Согласие с отрицанием: neanche a me."
+     "explain_ru": "Согласие с отрицанием: neanche a me.",
+     "ui": {
+      "en": {
+       "q": "Non mi piace il pesce. — ___ (me neither)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -4999,7 +5507,12 @@
      ],
      "answer": 1,
      "explain_en": "Telefonare a qualcuno → indirect pronoun: ti telefono.",
-     "explain_ru": "Telefonare a qualcuno («звонить кому») → косвенное местоимение: ti telefono — «я тебе позвоню»."
+     "explain_ru": "Telefonare a qualcuno («звонить кому») → косвенное местоимение: ti telefono — «я тебе позвоню».",
+     "ui": {
+      "en": {
+       "q": "Marco, domani ___ telefono. (you)"
+      }
+     }
     },
     {
      "id": "e11",
@@ -5039,7 +5552,12 @@
       "gli"
      ],
      "explain_en": "To him = gli, after non and before the verb.",
-     "explain_ru": "Ему = gli, после non и перед глаголом."
+     "explain_ru": "Ему = gli, после non и перед глаголом.",
+     "ui": {
+      "en": {
+       "q": "Non ___ piace il freddo. (to him)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -5050,7 +5568,12 @@
       "le"
      ],
      "explain_en": "Scrivere a lei → le scrivo.",
-     "explain_ru": "Scrivere a lei («писать ей») → le scrivo."
+     "explain_ru": "Scrivere a lei («писать ей») → le scrivo.",
+     "ui": {
+      "en": {
+       "q": "___ scrivo un'email stasera. (to her)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -5060,7 +5583,12 @@
       "vi"
      ],
      "explain_en": "To you (plural) = vi.",
-     "explain_ru": "Вам (нескольким людям) = vi."
+     "explain_ru": "Вам (нескольким людям) = vi.",
+     "ui": {
+      "en": {
+       "q": "Ragazzi, ___ piace la pizza? (to you, plural)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -5070,7 +5598,12 @@
       "me"
      ],
      "explain_en": "Stressed form after a: a me.",
-     "explain_ru": "Ударная форма после a: a me."
+     "explain_ru": "Ударная форма после a: a me.",
+     "ui": {
+      "en": {
+       "q": "A ___ piace il tè, e a te? (to me - stressed form)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -5144,7 +5677,12 @@
      "q": "'Io piaccio la pizza' means 'I like pizza'.",
      "answer": false,
      "explain_en": "The thing liked is the subject: Mi piace la pizza.",
-     "explain_ru": "То, что нравится, — подлежащее: Mi piace la pizza. 'Io piaccio' значит «я нравлюсь»."
+     "explain_ru": "То, что нравится, — подлежащее: Mi piace la pizza. 'Io piaccio' значит «я нравлюсь».",
+     "ui": {
+      "ru": {
+       "q": "'Io piaccio la pizza' означает «Мне нравится пицца»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5152,7 +5690,12 @@
      "q": "With an infinitive, 'piace' is singular: 'Mi piace ballare'.",
      "answer": true,
      "explain_en": "Infinitives always take the singular piace.",
-     "explain_ru": "С инфинитивом всегда единственное число piace."
+     "explain_ru": "С инфинитивом всегда единственное число piace.",
+     "ui": {
+      "ru": {
+       "q": "С инфинитивом 'piace' стоит в единственном числе: 'Mi piace ballare'."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5160,7 +5703,12 @@
      "q": "'Gli' can mean both 'to him' and 'to them'.",
      "answer": true,
      "explain_en": "Gli = to him and, in modern Italian, to them.",
-     "explain_ru": "Gli значит «ему» и, в современном итальянском, «им»."
+     "explain_ru": "Gli значит «ему» и, в современном итальянском, «им».",
+     "ui": {
+      "ru": {
+       "q": "'Gli' может означать и «ему», и «им»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5216,7 +5764,33 @@
        "Le piacciono i fiori.",
        "Ей нравятся цветы."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Mi piace il mare.",
+         "I like the sea."
+        ],
+        [
+         "Mi manchi.",
+         "I miss you."
+        ],
+        [
+         "Mi serve una penna.",
+         "I need a pen."
+        ],
+        [
+         "Gli piace ballare.",
+         "He likes dancing."
+        ],
+        [
+         "Le piacciono i fiori.",
+         "She likes flowers."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -5238,7 +5812,29 @@
        "A me sì.",
        "А мне да."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Anche a me.",
+         "Me too."
+        ],
+        [
+         "Neanche a me.",
+         "Me neither."
+        ],
+        [
+         "A me no.",
+         "Not me."
+        ],
+        [
+         "A me sì.",
+         "I do."
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5719,7 +6315,12 @@
      "q": "In Italian, months and days of the week are written with a capital letter: 'Lunedì 5 Maggio'.",
      "answer": false,
      "explain_en": "They are written with a small letter, as in Russian: lunedì 5 maggio.",
-     "explain_ru": "Они пишутся со строчной буквы, как в русском: lunedì 5 maggio."
+     "explain_ru": "Они пишутся со строчной буквы, как в русском: lunedì 5 maggio.",
+     "ui": {
+      "ru": {
+       "q": "В итальянском месяцы и дни недели пишутся с заглавной буквы: 'Lunedì 5 Maggio'."
+      }
+     }
     },
     {
      "id": "e24",
@@ -5727,7 +6328,12 @@
      "q": "'Mi chiamo Anna' literally means 'I call myself Anna'.",
      "answer": true,
      "explain_en": "Chiamarsi is reflexive: 'to call oneself'.",
-     "explain_ru": "Chiamarsi — возвратный глагол: буквально «называть себя». По-русски — «меня зовут»."
+     "explain_ru": "Chiamarsi — возвратный глагол: буквально «называть себя». По-русски — «меня зовут».",
+     "ui": {
+      "ru": {
+       "q": "'Mi chiamo Anna' дословно означает «Я зову себя Анна»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -5735,7 +6341,12 @@
      "q": "'Sto per mangiare' means 'I have just eaten'.",
      "answer": false,
      "explain_en": "Stare per = to be about to: I'm about to eat.",
-     "explain_ru": "Stare per — «вот-вот, собираюсь»: «я сейчас буду есть», а не «я только что поел»."
+     "explain_ru": "Stare per — «вот-вот, собираюсь»: «я сейчас буду есть», а не «я только что поел».",
+     "ui": {
+      "ru": {
+       "q": "'Sto per mangiare' означает «Я только что поел»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5821,7 +6432,37 @@
        "divertirsi",
        "веселиться"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "alzarsi",
+         "to get up"
+        ],
+        [
+         "svegliarsi",
+         "to wake up"
+        ],
+        [
+         "lavarsi",
+         "to wash (oneself)"
+        ],
+        [
+         "vestirsi",
+         "to get dressed"
+        ],
+        [
+         "chiamarsi",
+         "to be called"
+        ],
+        [
+         "divertirsi",
+         "to have fun"
+        ]
+       ]
+      }
+     }
     }
    ]
   }

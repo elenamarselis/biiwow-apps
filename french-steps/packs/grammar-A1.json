@@ -67,7 +67,7 @@
     {
      "title_en": "Vowel combinations",
      "title_ru": "Сочетания гласных",
-     "body_en": "Several letters often stand for one sound: ou = [u] (vous), u = [y] (tu, a sound Russian lacks: say 'и' with rounded lips), ai and ei = [ɛ] (lait, neige), au and eau = [o] (chaud, beau), eu = [ø] (deux), oi = [wa] (moi). Read them as one sound, not letter by letter.",
+     "body_en": "Several letters often stand for one sound: ou = [u] (vous), u = [y] (tu, a sound Russian lacks: say 'ee' with rounded lips), ai and ei = [ɛ] (lait, neige), au and eau = [o] (chaud, beau), eu = [ø] (deux), oi = [wa] (moi). Read them as one sound, not letter by letter.",
      "body_ru": "Несколько букв часто обозначают один звук: ou = [у] (vous), u = [ю]-образный звук [y] (tu — скажите 'и', округлив губы, как для 'у'; в русском такого звука нет), ai и ei = [э] (lait, neige), au и eau = [о] (chaud, beau), eu = [ё] (deux), oi = [уа] (moi). Читайте их как один звук, а не по буквам.",
      "examples": [
       {
@@ -95,7 +95,7 @@
     {
      "title_en": "Nasal vowels",
      "title_ru": "Носовые гласные",
-     "body_en": "When a vowel is followed by n or m in the same syllable, it becomes nasal and the n/m is not pronounced: an/en [ɑ̃] (enfant), on [ɔ̃] (bon), in/ain/ein/un [ɛ̃] (vin, pain). If n or m is followed by a vowel or doubled, there is no nasal: bonne [bɔn], année [ane]. Russian has no nasal vowels, so do not add a clear [н].",
+     "body_en": "When a vowel is followed by n or m in the same syllable, it becomes nasal and the n/m is not pronounced: an/en [ɑ̃] (enfant), on [ɔ̃] (bon), in/ain/ein/un [ɛ̃] (vin, pain). If n or m is followed by a vowel or doubled, there is no nasal: bonne [bɔn], année [ane]. Russian has no nasal vowels, so do not add a clear [n].",
      "body_ru": "Если за гласной в том же слоге идёт n или m, гласная становится носовой, а n/m не произносится: an/en [ɑ̃] (enfant), on [ɔ̃] (bon), in/ain/ein/un [ɛ̃] (vin, pain). Если после n/m стоит гласная или n/m удвоена, носового звука нет: bonne [бон], année [ане]. В русском носовых гласных нет, поэтому не добавляйте чёткое [н]: 'bon' — это не [бон].",
      "examples": [
       {
@@ -118,7 +118,7 @@
     {
      "title_en": "Consonant spellings",
      "title_ru": "Написание согласных",
-     "body_en": "C and g are hard [k], [ɡ] before a, o, u and soft [s], [ʒ] before e, i, y: café / cinéma, gare / girafe. Ch = [ʃ] (chat), gn = [ɲ] like Russian 'нь' (montagne), qu = [k] (qui). A single s between vowels is [z] (maison), ss is [s] (poisson). The French r is pronounced in the throat, not rolled.",
+     "body_en": "C and g are hard [k], [ɡ] before a, o, u and soft [s], [ʒ] before e, i, y: café / cinéma, gare / girafe. Ch = [ʃ] (chat), gn = [ɲ], like the soft 'ny' of Russian or the 'ny' in 'canyon' (montagne), qu = [k] (qui). A single s between vowels is [z] (maison), ss is [s] (poisson). The French r is pronounced in the throat, not rolled.",
      "body_ru": "C и g твёрдые [к], [г] перед a, o, u и мягкие [с], [ж] перед e, i, y: café / cinéma, gare / girafe. Ch = [ш] (chat), gn = [нь] (montagne), qu = [к] (qui). Одна s между гласными читается как [з] (maison), ss — как [с] (poisson): poisson (рыба) и poison (яд) — разные слова. Французское r произносится горлом, а не языком, как русское 'р'.",
      "examples": [
       {
@@ -230,7 +230,17 @@
      ],
      "answer": 2,
      "explain_en": "Final consonants are usually silent: petit [pəti].",
-     "explain_ru": "Конечные согласные обычно не читаются: petit [пти]."
+     "explain_ru": "Конечные согласные обычно не читаются: petit [пти].",
+     "ui": {
+      "ru": {
+       "q": "Какая буква НЕ произносится в слове 'petit'?",
+       "options": [
+        "p",
+        "i",
+        "конечная t"
+       ]
+      }
+     }
     },
     {
      "id": "e02",
@@ -285,7 +295,12 @@
      ],
      "answer": 1,
      "explain_en": "In 'pain', ain is in the same syllable before nothing: nasal [ɛ̃]. In année and une the n is followed by a vowel.",
-     "explain_ru": "В 'pain' сочетание ain даёт носовой звук [ɛ̃]. В année и une после n идёт гласная, поэтому носового звука нет."
+     "explain_ru": "В 'pain' сочетание ain даёт носовой звук [ɛ̃]. В année и une после n идёт гласная, поэтому носового звука нет.",
+     "ui": {
+      "ru": {
+       "q": "В каком слове есть носовой гласный?"
+      }
+     }
     },
     {
      "id": "e06",
@@ -299,7 +314,12 @@
      ],
      "answer": 3,
      "explain_en": "Before o, c would be [k]; the cedilla makes it [s]: garçon.",
-     "explain_ru": "Перед o буква c читалась бы как [к]; седиль делает её [с]: garçon."
+     "explain_ru": "Перед o буква c читалась бы как [к]; седиль делает её [с]: garçon.",
+     "ui": {
+      "en": {
+       "q": "un gar___on (boy)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -326,7 +346,12 @@
      ],
      "answer": 2,
      "explain_en": "Final c is usually heard (sac); final t, x, z are silent.",
-     "explain_ru": "Конечная c обычно звучит (sac), а конечные t, x, z не читаются."
+     "explain_ru": "Конечная c обычно звучит (sac), а конечные t, x, z не читаются.",
+     "ui": {
+      "ru": {
+       "q": "Какое слово оканчивается на произносимую согласную?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -406,7 +431,12 @@
       "é"
      ],
      "explain_en": "Café is written with é (accent aigu).",
-     "explain_ru": "Café пишется с é (accent aigu): последний слог читается [е]."
+     "explain_ru": "Café пишется с é (accent aigu): последний слог читается [е].",
+     "ui": {
+      "en": {
+       "q": "Un caf___, s'il vous plaît. (coffee)"
+      }
+     }
     },
     {
      "id": "e16",
@@ -416,7 +446,12 @@
       "à"
      ],
      "explain_en": "'Là' (there) has an accent grave; 'la' without it is the article.",
-     "explain_ru": "'Là' (там) пишется с accent grave; 'la' без знака — это артикль."
+     "explain_ru": "'Là' (там) пишется с accent grave; 'la' без знака — это артикль.",
+     "ui": {
+      "en": {
+       "q": "Le livre est l___. (there)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -426,7 +461,12 @@
       "ù"
      ],
      "explain_en": "'Où' (where) has an accent grave; 'ou' means 'or'.",
-     "explain_ru": "'Où' (где) пишется с accent grave; 'ou' без знака значит 'или'."
+     "explain_ru": "'Où' (где) пишется с accent grave; 'ou' без знака значит 'или'.",
+     "ui": {
+      "en": {
+       "q": "Tu habites o___ ? (where)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -501,7 +541,12 @@
      "q": "In French the stress usually falls on the last syllable of a word or phrase.",
      "answer": true,
      "explain_en": "French stress is fixed on the last pronounced syllable.",
-     "explain_ru": "Французское ударение постоянное — на последнем произносимом слоге, в отличие от подвижного русского."
+     "explain_ru": "Французское ударение постоянное — на последнем произносимом слоге, в отличие от подвижного русского.",
+     "ui": {
+      "ru": {
+       "q": "Во французском ударение обычно падает на последний слог слова или фразы."
+      }
+     }
     },
     {
      "id": "e24",
@@ -509,7 +554,12 @@
      "q": "'L'héros' is the correct form for 'the hero'.",
      "answer": false,
      "explain_en": "Héros has h aspiré, so no élision: le héros.",
-     "explain_ru": "В слове héros h aspiré, элизии нет: le héros."
+     "explain_ru": "В слове héros h aspiré, элизии нет: le héros.",
+     "ui": {
+      "ru": {
+       "q": "'L'héros' — правильная форма для «герой» с артиклем."
+      }
+     }
     },
     {
      "id": "e25",
@@ -517,7 +567,12 @@
      "q": "In 'un homme et une femme', the t of 'et' is pronounced before 'une'.",
      "answer": false,
      "explain_en": "Liaison never happens after 'et'.",
-     "explain_ru": "После 'et' связывание никогда не делается: t в 'et' не читается."
+     "explain_ru": "После 'et' связывание никогда не делается: t в 'et' не читается.",
+     "ui": {
+      "ru": {
+       "q": "В 'un homme et une femme' буква t в 'et' произносится перед 'une'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -609,7 +664,7 @@
     {
      "title_en": "Two genders",
      "title_ru": "Два рода",
-     "body_en": "Every French noun is masculine or feminine; there is no neuter. Gender often differs from Russian: le lait (молоко), la mer (море), le problème. Learn each noun together with its article, because the article is often the only signal of gender in speech.",
+     "body_en": "Every French noun is masculine or feminine; there is no neuter. Gender often differs from Russian: le lait (milk, neuter in Russian), la mer (the sea, also neuter in Russian), le problème. Learn each noun together with its article, because the article is often the only signal of gender in speech.",
      "body_ru": "Каждое французское существительное — мужского или женского рода; среднего рода нет. Род часто не совпадает с русским: le lait (молоко — м. р.), la mer (море — ж. р.), le problème (проблема — м. р.). Учите каждое слово вместе с артиклем: в устной речи только он показывает род.",
      "examples": [
       {
@@ -655,7 +710,7 @@
     {
      "title_en": "Feminine of people and animals",
      "title_ru": "Женский род для людей и животных",
-     "body_en": "For many nouns of people, add -e to form the feminine: un ami → une amie, un étudiant → une étudiante. Other patterns: -eur → -euse (vendeur → vendeuse), -teur → -trice (acteur → actrice), -ien → -ienne (Italien → Italienne). This is like Russian -ка or -ница: студент → студентка.",
+     "body_en": "For many nouns of people, add -e to form the feminine: un ami → une amie, un étudiant → une étudiante. Other patterns: -eur → -euse (vendeur → vendeuse), -teur → -trice (acteur → actrice), -ien → -ienne (Italien → Italienne). This is like the Russian feminine suffixes -ka or -nitsa (student → studentka).",
      "body_ru": "У многих существительных, обозначающих людей, женский род образуется добавлением -e: un ami → une amie, un étudiant → une étudiante. Другие модели: -eur → -euse (vendeur → vendeuse), -teur → -trice (acteur → actrice), -ien → -ienne (Italien → Italienne). Это похоже на русские суффиксы -ка, -ница: студент → студентка.",
      "examples": [
       {
@@ -701,7 +756,7 @@
     {
      "title_en": "Definite articles le, la, l', les",
      "title_ru": "Определённые артикли le, la, l', les",
-     "body_en": "Le (masculine), la (feminine), l' (before a vowel or silent h) and les (plural) mean a specific, known thing, like 'этот самый'. They are also used for things in general, especially after aimer, adorer, détester: J'aime le café. Russian has no articles, but in French a noun almost never stands without one.",
+     "body_en": "Le (masculine), la (feminine), l' (before a vowel or silent h) and les (plural) mean a specific, known thing, like 'the'. They are also used for things in general, especially after aimer, adorer, détester: J'aime le café. Russian has no articles, but in French a noun almost never stands without one.",
      "body_ru": "Le (м. р.), la (ж. р.), l' (перед гласной или немой h) и les (мн. ч.) указывают на конкретный, известный предмет — примерно 'тот самый'. Они же используются для понятий в целом, особенно после aimer, adorer, détester: J'aime le café (Я люблю кофе вообще). В русском артиклей нет, но во французском существительное почти никогда не стоит без артикля.",
      "examples": [
       {
@@ -724,7 +779,7 @@
     {
      "title_en": "Indefinite articles un, une, des",
      "title_ru": "Неопределённые артикли un, une, des",
-     "body_en": "Un (masculine) and une (feminine) mean 'a, one', introducing something new or one of many. The plural is des, and it cannot be dropped: J'ai des amis, not *J'ai amis. In Russian you just say 'У меня есть друзья', with no word for 'des'.",
+     "body_en": "Un (masculine) and une (feminine) mean 'a, one', introducing something new or one of many. The plural is des, and it cannot be dropped: J'ai des amis, not *J'ai amis. Russian simply says 'I have friends', with no word for 'des'.",
      "body_ru": "Un (м. р.) и une (ж. р.) значат 'какой-то, один' и вводят новый предмет или один из многих. Во множественном числе используется des, и его нельзя опустить: J'ai des amis, а не *J'ai amis. По-русски мы просто говорим 'У меня есть друзья', а по-французски артикль обязателен.",
      "examples": [
       {
@@ -747,7 +802,7 @@
     {
      "title_en": "Partitive articles du, de la, de l'",
      "title_ru": "Частичные артикли du, de la, de l'",
-     "body_en": "With things you cannot count (food, drinks, substances), French uses the partitive: du (m.), de la (f.), de l' (before a vowel). It means 'some, a portion of', where Russian uses the genitive or nothing: Je bois du café (Я пью кофе), Je veux de l'eau (Я хочу воды).",
+     "body_en": "With things you cannot count (food, drinks, substances), French uses the partitive: du (m.), de la (f.), de l' (before a vowel). It means 'some, a portion of', where Russian uses the genitive or nothing: Je bois du café (I drink coffee), Je veux de l'eau (I want some water).",
      "body_ru": "С неисчисляемыми существительными (еда, напитки, вещества) используется частичный артикль: du (м. р.), de la (ж. р.), de l' (перед гласной). Он означает 'некоторое количество, часть'; в русском здесь родительный падеж или ничего: Je bois du café (Я пью кофе), Je veux de l'eau (Я хочу воды).",
      "examples": [
       {
@@ -888,7 +943,12 @@
      ],
      "answer": 1,
      "explain_en": "Nouns in -tion are feminine; -age, -eau, -ment are usually masculine.",
-     "explain_ru": "Существительные на -tion — женского рода; на -age, -eau, -ment — обычно мужского."
+     "explain_ru": "Существительные на -tion — женского рода; на -age, -eau, -ment — обычно мужского.",
+     "ui": {
+      "ru": {
+       "q": "Какое существительное женского рода?"
+      }
+     }
     },
     {
      "id": "e08",
@@ -954,7 +1014,12 @@
       "le"
      ],
      "explain_en": "After aimer, use the definite article for things in general: le chocolat.",
-     "explain_ru": "После aimer для предметов в целом нужен определённый артикль: le chocolat."
+     "explain_ru": "После aimer для предметов в целом нужен определённый артикль: le chocolat.",
+     "ui": {
+      "en": {
+       "q": "J'aime ___ chocolat. (definite article)"
+      }
+     }
     },
     {
      "id": "e13",
@@ -964,7 +1029,12 @@
       "des"
      ],
      "explain_en": "The plural indefinite article des cannot be omitted.",
-     "explain_ru": "Неопределённый артикль des во множественном числе нельзя опустить, хотя в русском ему ничего не соответствует."
+     "explain_ru": "Неопределённый артикль des во множественном числе нельзя опустить, хотя в русском ему ничего не соответствует.",
+     "ui": {
+      "en": {
+       "q": "J'ai ___ amis à Paris. (indefinite article)"
+      }
+     }
     },
     {
      "id": "e14",
@@ -1092,7 +1162,12 @@
      "q": "'Le problème' is masculine even though it ends in -e.",
      "answer": true,
      "explain_en": "Problème is masculine; final -e does not guarantee feminine gender.",
-     "explain_ru": "Problème — мужского рода: окончание -e не гарантирует женский род."
+     "explain_ru": "Problème — мужского рода: окончание -e не гарантирует женский род.",
+     "ui": {
+      "ru": {
+       "q": "'Le problème' — мужского рода, хотя оканчивается на -e."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1100,7 +1175,15 @@
      "q": "'J'ai livres' is correct, like Russian 'У меня есть книги'.",
      "answer": false,
      "explain_en": "The plural article des is obligatory: J'ai des livres.",
-     "explain_ru": "Артикль des обязателен: J'ai des livres."
+     "explain_ru": "Артикль des обязателен: J'ai des livres.",
+     "ui": {
+      "en": {
+       "q": "'J'ai livres' is correct, with no article, just as in Russian."
+      },
+      "ru": {
+       "q": "'J'ai livres' — правильно, как русское «У меня есть книги»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1108,7 +1191,12 @@
      "q": "In 'Je n'aime pas le café', le does not change to de.",
      "answer": true,
      "explain_en": "Only indefinite and partitive articles become de after a negation; le/la/les stay.",
-     "explain_ru": "После отрицания в de превращаются только неопределённые и частичные артикли; le/la/les остаются."
+     "explain_ru": "После отрицания в de превращаются только неопределённые и частичные артикли; le/la/les остаются.",
+     "ui": {
+      "ru": {
+       "q": "В 'Je n'aime pas le café' артикль le не меняется на de."
+      }
+     }
     },
     {
      "id": "e27",
@@ -1192,7 +1280,7 @@
     {
      "title_en": "Être in the present",
      "title_ru": "Глагол être в настоящем времени",
-     "body_en": "Être is irregular: je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont. Unlike Russian, French cannot drop the verb 'to be' in the present: 'Я студент' is 'Je suis étudiant'. Every sentence needs a verb.",
+     "body_en": "Être is irregular: je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont. Unlike Russian, French cannot drop the verb 'to be' in the present: 'I (am a) student' is 'Je suis étudiant'. Every sentence needs a verb.",
      "body_ru": "Глагол être неправильный: je suis, tu es, il/elle/on est, nous sommes, vous êtes, ils/elles sont. В отличие от русского, во французском глагол 'быть' в настоящем времени нельзя опустить: 'Я студент' — 'Je suis étudiant'. В каждом предложении должен быть глагол.",
      "examples": [
       {
@@ -1215,7 +1303,7 @@
     {
      "title_en": "Avoir in the present",
      "title_ru": "Глагол avoir в настоящем времени",
-     "body_en": "Avoir: j'ai, tu as, il/elle/on a, nous avons, vous avez, ils/elles ont. Russian says 'У меня есть' with the owner in the genitive; French makes the owner the subject: J'ai un chien. Note the liaison: nous‿avons [nuzavɔ̃], ils‿ont [ilzɔ̃]; do not confuse ils ont [ilzɔ̃] with ils sont [ilsɔ̃].",
+     "body_en": "Avoir: j'ai, tu as, il/elle/on a, nous avons, vous avez, ils/elles ont. Russian says 'by me there is', with the owner in the genitive; French makes the owner the subject: J'ai un chien. Note the liaison: nous‿avons [nuzavɔ̃], ils‿ont [ilzɔ̃]; do not confuse ils ont [ilzɔ̃] with ils sont [ilsɔ̃].",
      "body_ru": "Avoir: j'ai, tu as, il/elle/on a, nous avons, vous avez, ils/elles ont. По-русски говорят 'У меня есть', а по-французски владелец — подлежащее: J'ai un chien (досл. 'Я имею собаку'). Обратите внимание на связывание: nous‿avons [нузавон], ils‿ont [ильзон]; не путайте ils ont [ильзон] (у них есть) и ils sont [ильсон] (они есть).",
      "examples": [
       {
@@ -1238,7 +1326,7 @@
     {
      "title_en": "Avoir in fixed expressions",
      "title_ru": "Avoir в устойчивых выражениях",
-     "body_en": "Many states that Russian expresses with 'мне' or with other verbs use avoir in French: avoir faim (be hungry), avoir soif (be thirsty), avoir froid/chaud (be cold/hot), avoir peur (be afraid), avoir raison/tort (be right/wrong). Age also uses avoir: J'ai vingt ans, never *Je suis vingt ans.",
+     "body_en": "Many states that Russian expresses with 'to me' (the dative) or with other verbs use avoir in French: avoir faim (be hungry), avoir soif (be thirsty), avoir froid/chaud (be cold/hot), avoir peur (be afraid), avoir raison/tort (be right/wrong). Age also uses avoir: J'ai vingt ans, never *Je suis vingt ans.",
      "body_ru": "Многие состояния, которые в русском выражаются через 'мне' или другие глаголы, во французском передаются через avoir: avoir faim (быть голодным), avoir soif (хотеть пить), avoir froid/chaud (мёрзнуть / быть жарко), avoir peur (бояться), avoir raison/tort (быть правым/неправым). Возраст — тоже с avoir: J'ai vingt ans (Мне двадцать лет), никогда не *Je suis vingt ans.",
      "examples": [
       {
@@ -1266,7 +1354,7 @@
     {
      "title_en": "Subject pronouns: tu, vous, on",
      "title_ru": "Личные местоимения: tu, vous, on",
-     "body_en": "Tu is informal 'ты'; vous is both polite 'Вы' and plural 'вы', exactly as in Russian. On means 'one, people' and in everyday speech also 'we'; it always takes the il form: On est en retard. Il/elle replace both people and things: Le livre ? Il est sur la table.",
+     "body_en": "Tu is the informal 'you'; vous is both the polite 'you' and the plural 'you', exactly as in Russian. On means 'one, people' and in everyday speech also 'we'; it always takes the il form: On est en retard. Il/elle replace both people and things: Le livre ? Il est sur la table.",
      "body_ru": "Tu — неформальное 'ты'; vous — и вежливое 'Вы', и множественное 'вы', как в русском. On значит 'люди, кто-то', а в разговорной речи — 'мы'; глагол с ним всегда в форме il: On est en retard (Мы опаздываем). Il/elle заменяют и людей, и предметы: Le livre ? Il est sur la table (книга — 'он').",
      "examples": [
       {
@@ -1340,7 +1428,7 @@
     {
      "title_en": "Il y a: there is, there are",
      "title_ru": "Il y a — 'есть, имеется'",
-     "body_en": "Il y a states that something exists somewhere, like Russian 'есть' or 'находится': Il y a un parc près d'ici. It never changes for plural: Il y a des livres. The negative is il n'y a pas de: Il n'y a pas de pain. The question is Est-ce qu'il y a… ? or Il y a… ?",
+     "body_en": "Il y a states that something exists somewhere, like 'there is / there are': Il y a un parc près d'ici. It never changes for plural: Il y a des livres. The negative is il n'y a pas de: Il n'y a pas de pain. The question is Est-ce qu'il y a… ? or Il y a… ?",
      "body_ru": "Il y a сообщает, что что-то существует или находится где-то, как русское 'есть': Il y a un parc près d'ici (Здесь рядом есть парк). Оборот не меняется во множественном числе: Il y a des livres. Отрицание — il n'y a pas de: Il n'y a pas de pain (Хлеба нет). Вопрос — Est-ce qu'il y a… ? или просто Il y a… ? с вопросительной интонацией.",
      "examples": [
       {
@@ -1467,7 +1555,12 @@
      ],
      "answer": 3,
      "explain_en": "Feeling cold is avoir froid: j'ai froid.",
-     "explain_ru": "'Мне холодно' — avoir froid: j'ai froid. 'Je suis froid' значит 'я холодный (по характеру)'."
+     "explain_ru": "'Мне холодно' — avoir froid: j'ai froid. 'Je suis froid' значит 'я холодный (по характеру)'.",
+     "ui": {
+      "en": {
+       "q": "I'm cold. → ___ froid."
+      }
+     }
     },
     {
      "id": "e07",
@@ -1683,7 +1776,15 @@
      "q": "'J'ai vingt ans' is the correct way to say 'Мне двадцать лет'.",
      "answer": true,
      "explain_en": "Age is expressed with avoir.",
-     "explain_ru": "Возраст выражается глаголом avoir: j'ai vingt ans."
+     "explain_ru": "Возраст выражается глаголом avoir: j'ai vingt ans.",
+     "ui": {
+      "en": {
+       "q": "'J'ai vingt ans' is the correct way to say 'I am twenty'."
+      },
+      "ru": {
+       "q": "'J'ai vingt ans' — правильный способ сказать «Мне двадцать лет»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -1691,7 +1792,15 @@
      "q": "'C'est médecin' is correct for 'Он врач'.",
      "answer": false,
      "explain_en": "Say 'Il est médecin' or 'C'est un médecin'.",
-     "explain_ru": "Нужно 'Il est médecin' или 'C'est un médecin'."
+     "explain_ru": "Нужно 'Il est médecin' или 'C'est un médecin'.",
+     "ui": {
+      "en": {
+       "q": "'C'est médecin' is correct for 'He is a doctor'."
+      },
+      "ru": {
+       "q": "'C'est médecin' — правильный перевод фразы «Он врач»."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1699,7 +1808,12 @@
      "q": "In the plural, 'il y a' becomes 'ils y ont'.",
      "answer": false,
      "explain_en": "Il y a never changes: il y a des livres.",
-     "explain_ru": "Il y a не меняется: il y a des livres."
+     "explain_ru": "Il y a не меняется: il y a des livres.",
+     "ui": {
+      "ru": {
+       "q": "Во множественном числе 'il y a' превращается в 'ils y ont'."
+      }
+     }
     },
     {
      "id": "e27",
@@ -1785,7 +1899,33 @@
        "avoir chaud",
        "испытывать жару"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "avoir faim",
+         "to be hungry"
+        ],
+        [
+         "avoir soif",
+         "to be thirsty"
+        ],
+        [
+         "avoir peur",
+         "to be afraid"
+        ],
+        [
+         "avoir raison",
+         "to be right"
+        ],
+        [
+         "avoir chaud",
+         "to feel hot"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -1822,7 +1962,7 @@
     {
      "title_en": "Four forms sound the same",
      "title_ru": "Четыре формы звучат одинаково",
-     "body_en": "The endings -e, -es, -e and -ent are silent, so je parle, tu parles, il parle and ils parlent are all pronounced [paʁl]. Only the nous and vous forms sound different. That is why the subject pronoun is obligatory in French: you cannot drop it as in Russian 'Говорю по-французски'.",
+     "body_en": "The endings -e, -es, -e and -ent are silent, so je parle, tu parles, il parle and ils parlent are all pronounced [paʁl]. Only the nous and vous forms sound different. That is why the subject pronoun is obligatory in French: you cannot drop it as Russian does ('Speak French' for 'I speak French').",
      "body_ru": "Окончания -e, -es, -e и -ent не читаются, поэтому je parle, tu parles, il parle и ils parlent звучат одинаково — [парль]. На слух отличаются только формы nous и vous. Поэтому подлежащее во французском обязательно: нельзя опустить местоимение, как в русском 'Говорю по-французски'. По окончанию глагола лицо не определить.",
      "examples": [
       {
@@ -1937,7 +2077,7 @@
     {
      "title_en": "Depuis + present",
      "title_ru": "Depuis + настоящее время",
-     "body_en": "For an action that started in the past and still continues, French uses depuis with the present, exactly like Russian 'уже… с…': J'habite à Paris depuis deux ans (Я живу в Париже уже два года). Do not use a past tense here.",
+     "body_en": "For an action that started in the past and still continues, French uses depuis with the present, exactly as Russian does: J'habite à Paris depuis deux ans (I have been living in Paris for two years). Do not use a past tense here.",
      "body_ru": "Для действия, которое началось в прошлом и продолжается сейчас, во французском используется depuis с настоящим временем — точно как в русском: J'habite à Paris depuis deux ans (Я живу в Париже уже два года). Прошедшее время здесь не нужно. Depuis переводится как 'с' (depuis 2020 — с 2020 года) или 'уже… (в течение)'.",
      "examples": [
       {
@@ -1960,7 +2100,7 @@
     {
      "title_en": "Jouer à and jouer de",
      "title_ru": "Jouer à и jouer de",
-     "body_en": "Jouer means 'to play'. For games and sports use jouer à: jouer au football, jouer aux cartes. For musical instruments use jouer de: jouer du piano, jouer de la guitare. À + le = au and de + le = du (see section 8). In Russian the cases differ too: играть в футбол / играть на пианино.",
+     "body_en": "Jouer means 'to play'. For games and sports use jouer à: jouer au football, jouer aux cartes. For musical instruments use jouer de: jouer du piano, jouer de la guitare. À + le = au and de + le = du (see section 8). Russian also uses different prepositions here: 'v' for games, 'na' for instruments.",
      "body_ru": "Jouer значит 'играть'. С играми и видами спорта употребляется jouer à: jouer au football, jouer aux cartes (играть в футбол, в карты). С музыкальными инструментами — jouer de: jouer du piano, jouer de la guitare (играть на пианино, на гитаре). Слияния à + le = au и de + le = du подробно разобраны в разделе 8. В русском тоже разные предлоги: 'в' и 'на'.",
      "examples": [
       {
@@ -2281,7 +2421,12 @@
      "q": "'Je parle', 'tu parles' and 'ils parlent' are pronounced the same.",
      "answer": true,
      "explain_en": "The endings -e, -es, -ent are silent.",
-     "explain_ru": "Окончания -e, -es, -ent не читаются, поэтому все три формы звучат как [парль]."
+     "explain_ru": "Окончания -e, -es, -ent не читаются, поэтому все три формы звучат как [парль].",
+     "ui": {
+      "ru": {
+       "q": "'Je parle', 'tu parles' и 'ils parlent' произносятся одинаково."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2289,7 +2434,12 @@
      "q": "'Nous mangons' is correctly spelled.",
      "answer": false,
      "explain_en": "It must be 'nous mangeons' to keep the [ʒ] sound.",
-     "explain_ru": "Правильно 'nous mangeons': e сохраняет звук [ж]."
+     "explain_ru": "Правильно 'nous mangeons': e сохраняет звук [ж].",
+     "ui": {
+      "ru": {
+       "q": "'Nous mangons' написано правильно."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2297,7 +2447,15 @@
      "q": "To say 'Я живу здесь уже два года', French uses the present: 'J'habite ici depuis deux ans'.",
      "answer": true,
      "explain_en": "Depuis + present for an action that still continues.",
-     "explain_ru": "Depuis + настоящее время — для действия, которое продолжается, как и в русском."
+     "explain_ru": "Depuis + настоящее время — для действия, которое продолжается, как и в русском.",
+     "ui": {
+      "en": {
+       "q": "To say 'I have been living here for two years', French uses the present: 'J'habite ici depuis deux ans'."
+      },
+      "ru": {
+       "q": "Чтобы сказать «Я живу здесь уже два года», во французском используют настоящее время: 'J'habite ici depuis deux ans'."
+      }
+     }
     },
     {
      "id": "e27",
@@ -2353,7 +2511,37 @@
        "manger",
        "есть"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "habiter",
+         "to live"
+        ],
+        [
+         "travailler",
+         "to work"
+        ],
+        [
+         "chercher",
+         "to look for"
+        ],
+        [
+         "regarder",
+         "to watch"
+        ],
+        [
+         "écouter",
+         "to listen"
+        ],
+        [
+         "manger",
+         "to eat"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e29",
@@ -2393,7 +2581,7 @@
     {
      "title_en": "Aller",
      "title_ru": "Глагол aller",
-     "body_en": "Aller (to go) ends in -er but is irregular: je vais, tu vas, il va, nous allons, vous allez, ils vont. It is used with à + place: Je vais à Paris. It also appears in 'Ça va ?' (How are you?). French uses aller for any going, on foot or by transport, unlike Russian идти/ехать.",
+     "body_en": "Aller (to go) ends in -er but is irregular: je vais, tu vas, il va, nous allons, vous allez, ils vont. It is used with à + place: Je vais à Paris. It also appears in 'Ça va ?' (How are you?). French uses aller for any going, on foot or by transport, whereas Russian has two different verbs for these.",
      "body_ru": "Aller (идти, ехать) оканчивается на -er, но спрягается неправильно: je vais, tu vas, il va, nous allons, vous allez, ils vont. Употребляется с à + место: Je vais à Paris. Встречается в 'Ça va ?' (Как дела?). В отличие от русского 'идти / ехать', aller используется для любого способа передвижения.",
      "examples": [
       {
@@ -2490,7 +2678,7 @@
     {
      "title_en": "Devoir",
      "title_ru": "Глагол devoir",
-     "body_en": "Devoir means 'must, have to' (должен): je dois, tu dois, il doit, nous devons, vous devez, ils doivent. Like vouloir and pouvoir, it is followed by an infinitive: Je dois travailler. In Russian 'должен' is a short adjective; in French it is a normal verb.",
+     "body_en": "Devoir means 'must, have to': je dois, tu dois, il doit, nous devons, vous devez, ils doivent. Like vouloir and pouvoir, it is followed by an infinitive: Je dois travailler. In Russian 'must' is a short adjective; in French it is a normal verb.",
      "body_ru": "Devoir значит 'быть должным, обязанным': je dois, tu dois, il doit, nous devons, vous devez, ils doivent. Как vouloir и pouvoir, после него идёт инфинитив: Je dois travailler (Я должен работать). В русском 'должен' — краткое прилагательное, которое меняется по родам (должен/должна), а во французском это обычный глагол, одинаковый для мужчин и женщин.",
      "examples": [
       {
@@ -2582,7 +2770,7 @@
     {
      "title_en": "Regular -re verbs: attendre",
      "title_ru": "Правильные глаголы на -re: attendre",
-     "body_en": "Verbs like attendre (wait), vendre (sell), répondre (answer), entendre (hear) and descendre (go down) add -s, -s, nothing, -ons, -ez, -ent to the stem: j'attends, tu attends, il attend, nous attendons, vous attendez, ils attendent. The d of il attend is silent. Attendre takes a direct object: J'attends le bus (Я жду автобус).",
+     "body_en": "Verbs like attendre (wait), vendre (sell), répondre (answer), entendre (hear) and descendre (go down) add -s, -s, nothing, -ons, -ez, -ent to the stem: j'attends, tu attends, il attend, nous attendons, vous attendez, ils attendent. The d of il attend is silent. Attendre takes a direct object: J'attends le bus (I'm waiting for the bus).",
      "body_ru": "Глаголы вроде attendre (ждать), vendre (продавать), répondre (отвечать), entendre (слышать) и descendre (спускаться) добавляют к основе -s, -s, ничего, -ons, -ez, -ent: j'attends, tu attends, il attend, nous attendons, vous attendez, ils attendent. D в il attend не читается. Attendre употребляется с прямым дополнением без предлога: J'attends le bus (Я жду автобус).",
      "examples": [
       {
@@ -2903,7 +3091,12 @@
      "q": "'Vous disez' is the correct vous form of dire.",
      "answer": false,
      "explain_en": "The correct form is 'vous dites'.",
-     "explain_ru": "Правильная форма — 'vous dites'."
+     "explain_ru": "Правильная форма — 'vous dites'.",
+     "ui": {
+      "ru": {
+       "q": "'Vous disez' — правильная форма глагола dire для vous."
+      }
+     }
     },
     {
      "id": "e25",
@@ -2911,7 +3104,12 @@
      "q": "Comprendre and apprendre are conjugated like prendre.",
      "answer": true,
      "explain_en": "Je comprends, ils apprennent: same pattern as prendre.",
-     "explain_ru": "Je comprends, ils apprennent — та же модель, что у prendre."
+     "explain_ru": "Je comprends, ils apprennent — та же модель, что у prendre.",
+     "ui": {
+      "ru": {
+       "q": "Comprendre и apprendre спрягаются как prendre."
+      }
+     }
     },
     {
      "id": "e26",
@@ -2919,7 +3117,12 @@
      "q": "In 'il attend' the final d is pronounced.",
      "answer": false,
      "explain_en": "The d is silent: [il atɑ̃].",
-     "explain_ru": "D не читается: [иль атан]."
+     "explain_ru": "D не читается: [иль атан].",
+     "ui": {
+      "ru": {
+       "q": "В 'il attend' конечная d произносится."
+      }
+     }
     },
     {
      "id": "e27",
@@ -3088,7 +3291,7 @@
     {
      "title_en": "Position: usually after the noun",
      "title_ru": "Место: обычно после существительного",
-     "body_en": "Most French adjectives come after the noun, the opposite of Russian: une voiture rouge (красная машина), un film intéressant (интересный фильм). Colours, nationalities and long adjectives always follow the noun: un restaurant italien.",
+     "body_en": "Most French adjectives come after the noun, the opposite of Russian: une voiture rouge (a red car), un film intéressant (an interesting film). Colours, nationalities and long adjectives always follow the noun: un restaurant italien.",
      "body_ru": "Большинство французских прилагательных стоят после существительного — в отличие от русского: une voiture rouge (красная машина), un film intéressant (интересный фильм). Цвета, национальности и длинные прилагательные всегда идут после существительного: un restaurant italien (итальянский ресторан).",
      "examples": [
       {
@@ -3157,7 +3360,7 @@
     {
      "title_en": "Possessives: mon, ma, mes",
      "title_ru": "Притяжательные: mon, ma, mes",
-     "body_en": "Possessive words agree with the thing owned, not the owner: mon frère, ma sœur, mes parents. Son, sa, ses mean both 'его' and 'её': sa mère can be his mother or her mother. French has no equivalent of Russian 'свой': Il aime sa mère = Он любит свою маму.",
+     "body_en": "Possessive words agree with the thing owned, not the owner: mon frère, ma sœur, mes parents. Son, sa, ses mean both 'his' and 'her': sa mère can be his mother or her mother. French has no equivalent of the Russian reflexive possessive 'svoy': Il aime sa mère = He loves his (own) mother.",
      "body_ru": "Притяжательные слова согласуются с тем, чем владеют, а не с владельцем: mon frère, ma sœur, mes parents. Son, sa, ses означают и 'его', и 'её': sa mère — это 'его мама' или 'её мама'. Аналога русского 'свой' нет: Il aime sa mère = Он любит свою маму. Род выбирается по слову mère, а не по тому, кто владелец.",
      "examples": [
       {
@@ -3203,7 +3406,7 @@
     {
      "title_en": "Notre, votre, leur",
      "title_ru": "Notre, votre, leur",
-     "body_en": "For several owners: notre/nos (our), votre/vos (your), leur/leurs (their). Notre, votre and leur are used before any singular noun; nos, vos, leurs before plurals: notre maison, nos enfants, leur fils, leurs amis. Votre/vos is also the polite 'Ваш'.",
+     "body_en": "For several owners: notre/nos (our), votre/vos (your), leur/leurs (their). Notre, votre and leur are used before any singular noun; nos, vos, leurs before plurals: notre maison, nos enfants, leur fils, leurs amis. Votre/vos is also the polite 'your'.",
      "body_ru": "Для нескольких владельцев: notre/nos (наш), votre/vos (ваш), leur/leurs (их). Notre, votre и leur стоят перед любым существительным в единственном числе, nos, vos, leurs — перед множественным: notre maison, nos enfants, leur fils, leurs amis. Votre/vos — это ещё и вежливое 'Ваш'. В русском 'их' не меняется, а во французском leur получает -s во множественном числе.",
      "examples": [
       {
@@ -3237,7 +3440,12 @@
      ],
      "answer": 0,
      "explain_en": "Blanc has the irregular feminine blanche.",
-     "explain_ru": "У blanc особая форма женского рода — blanche."
+     "explain_ru": "У blanc особая форма женского рода — blanche.",
+     "ui": {
+      "en": {
+       "q": "une robe ___ (a white dress)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -3307,7 +3515,12 @@
      ],
      "answer": 0,
      "explain_en": "Plural noun: tes.",
-     "explain_ru": "Существительное во множественном числе: tes."
+     "explain_ru": "Существительное во множественном числе: tes.",
+     "ui": {
+      "en": {
+       "q": "J'aime ___ livres. (your, tu-form)"
+      }
+     }
     },
     {
      "id": "e07",
@@ -3335,7 +3548,12 @@
      ],
      "answer": 0,
      "explain_en": "Colours go after the noun and agree with it.",
-     "explain_ru": "Цвета ставятся после существительного и согласуются с ним."
+     "explain_ru": "Цвета ставятся после существительного и согласуются с ним.",
+     "ui": {
+      "ru": {
+       "q": "Какой вариант правильный?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -3349,7 +3567,12 @@
      ],
      "answer": 3,
      "explain_en": "Masculine plural: noirs.",
-     "explain_ru": "Мужской род, множественное число: noirs."
+     "explain_ru": "Мужской род, множественное число: noirs.",
+     "ui": {
+      "en": {
+       "q": "des chats ___ (black)"
+      }
+     }
     },
     {
      "id": "e10",
@@ -3433,7 +3656,12 @@
       "notre"
      ],
      "explain_en": "Singular noun, several owners: notre.",
-     "explain_ru": "Существительное в единственном числе, несколько владельцев: notre."
+     "explain_ru": "Существительное в единственном числе, несколько владельцев: notre.",
+     "ui": {
+      "en": {
+       "q": "Nous aimons ___ maison. (our)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -3443,7 +3671,12 @@
       "vos"
      ],
      "explain_en": "Plural noun: vos.",
-     "explain_ru": "Существительное во множественном числе: vos."
+     "explain_ru": "Существительное во множественном числе: vos.",
+     "ui": {
+      "en": {
+       "q": "Vous avez ___ passeports ? (your, vous-form)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -3453,7 +3686,12 @@
       "mon"
      ],
      "explain_en": "École is feminine but starts with a vowel: mon école.",
-     "explain_ru": "École — женского рода, но начинается с гласной: mon école."
+     "explain_ru": "École — женского рода, но начинается с гласной: mon école.",
+     "ui": {
+      "en": {
+       "q": "C'est ___ école. (my)"
+      }
+     }
     },
     {
      "id": "e20",
@@ -3518,7 +3756,15 @@
      "q": "'Sa' in 'sa voiture' can mean both 'его' and 'её'.",
      "answer": true,
      "explain_en": "Sa agrees with voiture; the owner can be a man or a woman.",
-     "explain_ru": "Sa согласуется со словом voiture; владелец может быть и мужчиной, и женщиной."
+     "explain_ru": "Sa согласуется со словом voiture; владелец может быть и мужчиной, и женщиной.",
+     "ui": {
+      "en": {
+       "q": "'Sa' in 'sa voiture' can mean both 'his' and 'her'."
+      },
+      "ru": {
+       "q": "'Sa' в 'sa voiture' может значить и «его», и «её»."
+      }
+     }
     },
     {
      "id": "e25",
@@ -3526,7 +3772,12 @@
      "q": "Colour adjectives usually go before the noun in French.",
      "answer": false,
      "explain_en": "Colours always go after the noun: une robe noire.",
-     "explain_ru": "Цвета всегда стоят после существительного: une robe noire."
+     "explain_ru": "Цвета всегда стоят после существительного: une robe noire.",
+     "ui": {
+      "ru": {
+       "q": "Прилагательные цвета во французском обычно стоят перед существительным."
+      }
+     }
     },
     {
      "id": "e26",
@@ -3534,7 +3785,12 @@
      "q": "'Mon école' is correct even though école is feminine.",
      "answer": true,
      "explain_en": "Mon replaces ma before a vowel.",
-     "explain_ru": "Mon заменяет ma перед гласной."
+     "explain_ru": "Mon заменяет ma перед гласной.",
+     "ui": {
+      "ru": {
+       "q": "'Mon école' — правильно, хотя école женского рода."
+      }
+     }
     },
     {
      "id": "e27",
@@ -3620,7 +3876,33 @@
        "sa sœur",
        "его (её) сестра"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "une voiture rouge",
+         "a red car"
+        ],
+        [
+         "un petit chat",
+         "a little cat"
+        ],
+        [
+         "mes amis",
+         "my friends"
+        ],
+        [
+         "leurs parents",
+         "their parents"
+        ],
+        [
+         "sa sœur",
+         "his (her) sister"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -3634,7 +3916,7 @@
     {
      "title_en": "Questions with intonation",
      "title_ru": "Вопрос с помощью интонации",
-     "body_en": "The simplest way to ask a yes/no question is to keep the word order of a statement and raise your voice at the end: Tu parles français ? This is the most common form in everyday speech and works just like Russian 'Ты говоришь по-французски?'.",
+     "body_en": "The simplest way to ask a yes/no question is to keep the word order of a statement and raise your voice at the end: Tu parles français ? This is the most common form in everyday speech and works just like a Russian question made by intonation alone.",
      "body_ru": "Самый простой способ задать вопрос 'да/нет' — сохранить порядок слов утвердительного предложения и повысить голос в конце: Tu parles français ? Это самая частая форма в разговорной речи, она работает так же, как русское 'Ты говоришь по-французски?'.",
      "examples": [
       {
@@ -3657,7 +3939,7 @@
     {
      "title_en": "Est-ce que",
      "title_ru": "Est-ce que",
-     "body_en": "Putting est-ce que (est-ce qu' before a vowel) in front of a statement turns it into a neutral question, good in both speech and writing: Est-ce que tu parles français ? Est-ce qu'il travaille ? The word order after it does not change. Est-ce que itself has no translation; it is like the Russian particle 'ли'.",
+     "body_en": "Putting est-ce que (est-ce qu' before a vowel) in front of a statement turns it into a neutral question, good in both speech and writing: Est-ce que tu parles français ? Est-ce qu'il travaille ? The word order after it does not change. Est-ce que itself has no translation; it is like the Russian question particle 'li'.",
      "body_ru": "Если поставить est-ce que (est-ce qu' перед гласной) перед утвердительным предложением, получится нейтральный вопрос, уместный и в устной, и в письменной речи: Est-ce que tu parles français ? Est-ce qu'il travaille ? Порядок слов после него не меняется. Сам оборот не переводится — он похож на русскую частицу 'ли' ('Говоришь ли ты…?').",
      "examples": [
       {
@@ -3777,7 +4059,7 @@
     {
      "title_en": "Ne…jamais, ne…plus, ne…rien",
      "title_ru": "Ne…jamais, ne…plus, ne…rien",
-     "body_en": "Replace pas with another word to change the meaning: ne…jamais (never), ne…plus (no longer, not any more), ne…rien (nothing). Do not add pas to them: Je ne vois rien, not *Je ne vois pas rien. Russian stacks negatives ('никогда ничего не'), but in French ne + one negative word is enough.",
+     "body_en": "Replace pas with another word to change the meaning: ne…jamais (never), ne…plus (no longer, not any more), ne…rien (nothing). Do not add pas to them: Je ne vois rien, not *Je ne vois pas rien. Russian stacks negatives ('never nothing not'), but in French ne + one negative word is enough.",
      "body_ru": "Замените pas другим словом, чтобы изменить смысл: ne…jamais (никогда не), ne…plus (больше не), ne…rien (ничего не). Pas к ним не добавляется: Je ne vois rien (Я ничего не вижу), а не *Je ne vois pas rien. В русском отрицания нагромождаются ('ничего не', 'никогда не'), а во французском хватает ne и одного отрицательного слова.",
      "examples": [
       {
@@ -3800,7 +4082,7 @@
     {
      "title_en": "Answering negative questions: si",
      "title_ru": "Ответ на отрицательный вопрос: si",
-     "body_en": "To answer 'yes' to a negative question, French uses si instead of oui: Tu n'aimes pas le café ? — Si, j'aime le café ! Non confirms the negative: Non, je n'aime pas le café. Russian uses 'Нет, люблю' or 'Да нет', which can be confusing; si removes the ambiguity.",
+     "body_en": "To answer 'yes' to a negative question, French uses si instead of oui: Tu n'aimes pas le café ? — Si, j'aime le café ! Non confirms the negative: Non, je n'aime pas le café. Russian answers such questions with 'no, I do' or 'yes, no', which can be confusing; si removes the ambiguity.",
      "body_ru": "Чтобы ответить 'да' на отрицательный вопрос, вместо oui используется si: Tu n'aimes pas le café ? — Si, j'aime le café ! (Ты не любишь кофе? — Нет, люблю!) Non подтверждает отрицание: Non, je n'aime pas le café. В русском в таких ответах часто путаются 'да' и 'нет', а si снимает двусмысленность.",
      "examples": [
       {
@@ -3918,7 +4200,12 @@
      ],
      "answer": 2,
      "explain_en": "Never = ne…jamais, without pas.",
-     "explain_ru": "'Никогда не' = ne…jamais, без pas."
+     "explain_ru": "'Никогда не' = ne…jamais, без pas.",
+     "ui": {
+      "en": {
+       "q": "Il ne mange ___ de viande. (never)"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3932,7 +4219,12 @@
      ],
      "answer": 0,
      "explain_en": "Nothing = ne…rien; pas is not added.",
-     "explain_ru": "'Ничего не' = ne…rien; pas не добавляется."
+     "explain_ru": "'Ничего не' = ne…rien; pas не добавляется.",
+     "ui": {
+      "en": {
+       "q": "I don't understand anything. → Je ne comprends ___."
+      }
+     }
     },
     {
      "id": "e09",
@@ -4000,7 +4292,12 @@
       "plus"
      ],
      "explain_en": "No longer = ne…plus.",
-     "explain_ru": "'Больше не' = ne…plus."
+     "explain_ru": "'Больше не' = ne…plus.",
+     "ui": {
+      "en": {
+       "q": "Je ne fume ___. (no longer)"
+      }
+     }
     },
     {
      "id": "e15",
@@ -4020,7 +4317,12 @@
       "pas"
      ],
      "explain_en": "Simple negation: ne…pas.",
-     "explain_ru": "Простое отрицание: ne…pas."
+     "explain_ru": "Простое отрицание: ne…pas.",
+     "ui": {
+      "en": {
+       "q": "Elle n'a ___ de voiture. (not)"
+      }
+     }
     },
     {
      "id": "e17",
@@ -4040,7 +4342,12 @@
       "quand"
      ],
      "explain_en": "When = quand; in speech it can go at the end.",
-     "explain_ru": "'Когда' = quand; в разговорной речи может стоять в конце."
+     "explain_ru": "'Когда' = quand; в разговорной речи может стоять в конце.",
+     "ui": {
+      "en": {
+       "q": "Tu viens ___ ? — Demain. (when)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -4108,7 +4415,15 @@
      "q": "'Je ne vois pas rien' is correct for 'Я ничего не вижу'.",
      "answer": false,
      "explain_en": "With rien, pas is not used: Je ne vois rien.",
-     "explain_ru": "С rien слово pas не употребляется: Je ne vois rien."
+     "explain_ru": "С rien слово pas не употребляется: Je ne vois rien.",
+     "ui": {
+      "en": {
+       "q": "'Je ne vois pas rien' is correct for 'I can't see anything'."
+      },
+      "ru": {
+       "q": "'Je ne vois pas rien' — правильный перевод фразы «Я ничего не вижу»."
+      }
+     }
     },
     {
      "id": "e24",
@@ -4116,7 +4431,12 @@
      "q": "'Si' is used to say 'yes' in answer to a negative question.",
      "answer": true,
      "explain_en": "Tu ne viens pas ? — Si !",
-     "explain_ru": "Tu ne viens pas ? — Si ! ('Ты не придёшь? — Приду!')"
+     "explain_ru": "Tu ne viens pas ? — Si ! ('Ты не придёшь? — Приду!')",
+     "ui": {
+      "ru": {
+       "q": "'Si' используют, чтобы сказать «да» в ответ на отрицательный вопрос."
+      }
+     }
     },
     {
      "id": "e25",
@@ -4124,7 +4444,12 @@
      "q": "In everyday spoken French, 'ne' is often dropped: 'Je sais pas'.",
      "answer": true,
      "explain_en": "Colloquially, ne is often omitted; in writing keep it.",
-     "explain_ru": "В разговорной речи ne часто опускают, но на письме его нужно сохранять."
+     "explain_ru": "В разговорной речи ne часто опускают, но на письме его нужно сохранять.",
+     "ui": {
+      "ru": {
+       "q": "В повседневной устной речи 'ne' часто опускают: 'Je sais pas'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4154,7 +4479,37 @@
        "qui",
        "кто"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "où",
+         "where"
+        ],
+        [
+         "quand",
+         "when"
+        ],
+        [
+         "comment",
+         "how"
+        ],
+        [
+         "pourquoi",
+         "why"
+        ],
+        [
+         "combien",
+         "how much / how many"
+        ],
+        [
+         "qui",
+         "who"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -4176,7 +4531,29 @@
        "ne…rien",
        "ничего не"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "ne…pas",
+         "not"
+        ],
+        [
+         "ne…jamais",
+         "never"
+        ],
+        [
+         "ne…plus",
+         "no longer"
+        ],
+        [
+         "ne…rien",
+         "nothing"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -4331,7 +4708,7 @@
     {
      "title_en": "In or to a country: en, au, aux",
      "title_ru": "В страну / в стране: en, au, aux",
-     "body_en": "To say 'in' or 'to' a country, use en with feminine countries and countries starting with a vowel (en France, en Russie, en Iran), au with masculine countries (au Canada, au Japon), and aux with plural ones (aux États-Unis). Russian uses 'в' for all of these.",
+     "body_en": "To say 'in' or 'to' a country, use en with feminine countries and countries starting with a vowel (en France, en Russie, en Iran), au with masculine countries (au Canada, au Japon), and aux with plural ones (aux États-Unis). Russian uses the same preposition for all of these.",
      "body_ru": "Чтобы сказать 'в стране' или 'в страну', употребляется en со странами женского рода и со всеми, что начинаются с гласной (en France, en Russie, en Iran), au — со странами мужского рода (au Canada, au Japon) и aux — с названиями во множественном числе (aux États-Unis). В русском во всех случаях просто 'в'.",
      "examples": [
       {
@@ -4354,7 +4731,7 @@
     {
      "title_en": "From a country: de, du, des",
      "title_ru": "Из страны: de, du, des",
-     "body_en": "For 'from' a country: de (d' before a vowel) with feminine countries (de France, d'Italie), du with masculine ones (du Japon, du Brésil), des with plural ones (des États-Unis). Je viens de Russie = Я из России.",
+     "body_en": "For 'from' a country: de (d' before a vowel) with feminine countries (de France, d'Italie), du with masculine ones (du Japon, du Brésil), des with plural ones (des États-Unis). Je viens de Russie = I'm from Russia.",
      "body_ru": "Чтобы сказать 'из страны': de (d' перед гласной) со странами женского рода (de France, d'Italie), du — со странами мужского рода (du Japon, du Brésil), des — с названиями во множественном числе (des États-Unis). Je viens de Russie = Я из России.",
      "examples": [
       {
@@ -4377,7 +4754,7 @@
     {
      "title_en": "Chez",
      "title_ru": "Предлог chez",
-     "body_en": "Chez means 'at the home or place of a person': chez moi (at my place, at home), chez Marie, chez mes parents, chez le médecin. It is used with people, not with places: chez le boulanger but à la boulangerie. It corresponds to Russian 'у' or 'к': у Мари, к врачу.",
+     "body_en": "Chez means 'at the home or place of a person': chez moi (at my place, at home), chez Marie, chez mes parents, chez le médecin. It is used with people, not with places: chez le boulanger but à la boulangerie. It corresponds to the Russian prepositions 'u' (at someone's) and 'k' (to someone's).",
      "body_ru": "Chez значит 'у кого-то дома, у кого-то': chez moi (у меня, дома), chez Marie (у Мари), chez mes parents (у родителей), chez le médecin (у врача / к врачу). Он употребляется с людьми, а не с местами: chez le boulanger, но à la boulangerie. Соответствует русским 'у' и 'к': у Мари, к врачу.",
      "examples": [
       {
@@ -4411,7 +4788,12 @@
      ],
      "answer": 3,
      "explain_en": "Under = sous; sur means on.",
-     "explain_ru": "'Под' = sous; sur значит 'на'."
+     "explain_ru": "'Под' = sous; sur значит 'на'.",
+     "ui": {
+      "en": {
+       "q": "Le chat est ___ la table. (under)"
+      }
+     }
     },
     {
      "id": "e02",
@@ -4633,7 +5015,12 @@
       "chez"
      ],
      "explain_en": "At home = chez moi.",
-     "explain_ru": "'Дома' = chez moi."
+     "explain_ru": "'Дома' = chez moi.",
+     "ui": {
+      "en": {
+       "q": "Je suis ___ moi. (at home)"
+      }
+     }
     },
     {
      "id": "e20",
@@ -4712,7 +5099,12 @@
      "q": "With masculine countries you use en: 'en Canada'.",
      "answer": false,
      "explain_en": "Masculine countries take au: au Canada.",
-     "explain_ru": "Со странами мужского рода употребляется au: au Canada."
+     "explain_ru": "Со странами мужского рода употребляется au: au Canada.",
+     "ui": {
+      "ru": {
+       "q": "С названиями стран мужского рода используют en: 'en Canada'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -4720,7 +5112,12 @@
      "q": "'À le' is always contracted to 'au'.",
      "answer": true,
      "explain_en": "À + le always becomes au.",
-     "explain_ru": "À + le всегда превращается в au."
+     "explain_ru": "À + le всегда превращается в au.",
+     "ui": {
+      "ru": {
+       "q": "'À le' всегда сливается в 'au'."
+      }
+     }
     },
     {
      "id": "e27",
@@ -4728,7 +5125,12 @@
      "q": "Chez is used with people, not places: 'chez Marie', 'chez le dentiste'.",
      "answer": true,
      "explain_en": "With places use à or dans: à la pharmacie.",
-     "explain_ru": "С местами употребляется à или dans: à la pharmacie."
+     "explain_ru": "С местами употребляется à или dans: à la pharmacie.",
+     "ui": {
+      "ru": {
+       "q": "Chez употребляется с людьми, а не с местами: 'chez Marie', 'chez le dentiste'."
+      }
+     }
     },
     {
      "id": "e28",
@@ -4810,7 +5212,37 @@
        "entre",
        "между"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "sur",
+         "on"
+        ],
+        [
+         "sous",
+         "under"
+        ],
+        [
+         "dans",
+         "in, inside"
+        ],
+        [
+         "devant",
+         "in front of"
+        ],
+        [
+         "derrière",
+         "behind"
+        ],
+        [
+         "entre",
+         "between"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -4824,7 +5256,7 @@
     {
      "title_en": "Aimer, adorer, détester + definite article",
      "title_ru": "Aimer, adorer, détester + определённый артикль",
-     "body_en": "In French the person who likes is the subject: J'aime le café (Russian: Мне нравится кофе / Я люблю кофе). After aimer, adorer (love, adore), détester (hate) and préférer, a noun takes the definite article, because it means the thing in general: J'adore la musique, Il déteste les chats. Never use the partitive here: *J'aime du café.",
+     "body_en": "In French the person who likes is the subject: J'aime le café (Russian says 'coffee pleases me' or 'I love coffee'). After aimer, adorer (love, adore), détester (hate) and préférer, a noun takes the definite article, because it means the thing in general: J'adore la musique, Il déteste les chats. Never use the partitive here: *J'aime du café.",
      "body_ru": "Во французском тот, кому нравится, — подлежащее: J'aime le café (по-русски: 'Мне нравится кофе' или 'Я люблю кофе'). После aimer, adorer (обожать), détester (ненавидеть) и préférer существительное употребляется с определённым артиклем, потому что речь о предмете вообще: J'adore la musique, Il déteste les chats. Частичный артикль здесь невозможен: *J'aime du café — ошибка.",
      "examples": [
       {
@@ -4847,7 +5279,7 @@
     {
      "title_en": "Aimer + infinitive; aimer bien",
      "title_ru": "Aimer + инфинитив; aimer bien",
-     "body_en": "These verbs can be followed directly by an infinitive: J'aime lire, Tu aimes danser ? Note: with people, aimer means 'to love', while aimer bien means 'to like': J'aime Paul (Я люблю Поля), J'aime bien Paul (Мне нравится Поль, он симпатичный). So 'bien' makes it weaker, not stronger. 'Beaucoup' intensifies: J'aime beaucoup ce film.",
+     "body_en": "These verbs can be followed directly by an infinitive: J'aime lire, Tu aimes danser ? Note: with people, aimer means 'to love', while aimer bien means 'to like': J'aime Paul (I love Paul), J'aime bien Paul (I like Paul, he's nice). So 'bien' makes it weaker, not stronger. 'Beaucoup' intensifies: J'aime beaucoup ce film.",
      "body_ru": "После этих глаголов может сразу стоять инфинитив: J'aime lire (Я люблю читать), Tu aimes danser ? Важно: о людях aimer значит 'любить', а aimer bien — 'хорошо относиться, симпатизировать': J'aime Paul (Я люблю Поля), J'aime bien Paul (Мне нравится Поль). Так что 'bien' ослабляет, а не усиливает! Усиливает 'beaucoup': J'aime beaucoup ce film.",
      "examples": [
       {
@@ -4985,7 +5417,7 @@
     {
      "title_en": "Dates and years",
      "title_ru": "Даты и годы",
-     "body_en": "A date is le + cardinal number + month: le 14 juillet (le quatorze juillet), le 8 mars. Only the first day uses an ordinal: le 1er mai (le premier mai). Russian uses ordinals ('четырнадцатое июля'), French uses plain numbers. Years take en: en 2025 (deux mille vingt-cinq). To ask the date: Quelle est la date aujourd'hui ? or On est le combien ?",
+     "body_en": "A date is le + cardinal number + month: le 14 juillet (le quatorze juillet), le 8 mars. Only the first day uses an ordinal: le 1er mai (le premier mai). Russian uses ordinals ('the fourteenth of July'), French uses plain numbers. Years take en: en 2025 (deux mille vingt-cinq). To ask the date: Quelle est la date aujourd'hui ? or On est le combien ?",
      "body_ru": "Дата строится так: le + количественное число + месяц: le 14 juillet (le quatorze juillet), le 8 mars. Только первое число месяца — порядковое: le 1er mai (le premier mai). В русском даты порядковые ('четырнадцатое июля'), а во французском — обычные числа. С годом употребляется en: en 2025 (deux mille vingt-cinq). Спросить дату: Quelle est la date aujourd'hui ? или On est le combien ?",
      "examples": [
       {
@@ -5033,7 +5465,12 @@
      ],
      "answer": 3,
      "explain_en": "The person who likes is the subject; le café is general; je → j'.",
-     "explain_ru": "Тот, кому нравится, — подлежащее; le café — кофе вообще; je → j' перед гласной."
+     "explain_ru": "Тот, кому нравится, — подлежащее; le café — кофе вообще; je → j' перед гласной.",
+     "ui": {
+      "en": {
+       "q": "I like coffee. →"
+      }
+     }
     },
     {
      "id": "e03",
@@ -5219,7 +5656,12 @@
       "premier"
      ],
      "explain_en": "The 1st = le premier.",
-     "explain_ru": "Первое число = le premier."
+     "explain_ru": "Первое число = le premier.",
+     "ui": {
+      "en": {
+       "q": "Nous sommes le ___ janvier. (1st)"
+      }
+     }
     },
     {
      "id": "e18",
@@ -5316,7 +5758,12 @@
      "q": "In Belgium and Switzerland, 70 is usually 'septante'.",
      "answer": true,
      "explain_en": "Belgian and Swiss French use septante (70) and nonante (90).",
-     "explain_ru": "В Бельгии и Швейцарии говорят septante (70) и nonante (90)."
+     "explain_ru": "В Бельгии и Швейцарии говорят septante (70) и nonante (90).",
+     "ui": {
+      "ru": {
+       "q": "В Бельгии и Швейцарии 70 обычно — 'septante'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5324,7 +5771,12 @@
      "q": "Days of the week and months are written with a capital letter in French.",
      "answer": false,
      "explain_en": "They are written with a small letter: lundi, mai.",
-     "explain_ru": "Они пишутся со строчной буквы, как в русском: lundi, mai."
+     "explain_ru": "Они пишутся со строчной буквы, как в русском: lundi, mai.",
+     "ui": {
+      "ru": {
+       "q": "Дни недели и месяцы во французском пишутся с заглавной буквы."
+      }
+     }
     },
     {
      "id": "e27",
@@ -5332,7 +5784,12 @@
      "q": "'J'aime bien Paul' is stronger than 'J'aime Paul'.",
      "answer": false,
      "explain_en": "J'aime Paul = I love Paul; j'aime bien = I like him (weaker).",
-     "explain_ru": "J'aime Paul = я люблю Поля; j'aime bien Paul = он мне нравится (слабее)."
+     "explain_ru": "J'aime Paul = я люблю Поля; j'aime bien Paul = он мне нравится (слабее).",
+     "ui": {
+      "ru": {
+       "q": "'J'aime bien Paul' звучит сильнее, чем 'J'aime Paul'."
+      }
+     }
     },
     {
      "id": "e28",
@@ -5418,7 +5875,37 @@
        "dimanche",
        "воскресенье"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "lundi",
+         "Monday"
+        ],
+        [
+         "mardi",
+         "Tuesday"
+        ],
+        [
+         "mercredi",
+         "Wednesday"
+        ],
+        [
+         "jeudi",
+         "Thursday"
+        ],
+        [
+         "vendredi",
+         "Friday"
+        ],
+        [
+         "dimanche",
+         "Sunday"
+        ]
+       ]
+      }
+     }
     }
    ]
   },
@@ -5432,7 +5919,7 @@
     {
      "title_en": "Futur proche: aller + infinitive",
      "title_ru": "Futur proche: aller + инфинитив",
-     "body_en": "To talk about the near or planned future, use the present of aller + an infinitive: je vais manger, tu vas partir, il va pleuvoir, nous allons voir, vous allez travailler, ils vont venir. It is the most common future in speech and is close to Russian 'собираюсь / буду делать'.",
+     "body_en": "To talk about the near or planned future, use the present of aller + an infinitive: je vais manger, tu vas partir, il va pleuvoir, nous allons voir, vous allez travailler, ils vont venir. It is the most common future in speech and is close to English 'I'm going to do'.",
      "body_ru": "Чтобы говорить о ближайшем или запланированном будущем, используют aller в настоящем времени + инфинитив: je vais manger, tu vas partir, il va pleuvoir, nous allons voir, vous allez travailler, ils vont venir. Это самое частое будущее время в разговорной речи; по смыслу оно близко к русскому 'собираюсь / буду делать / сейчас сделаю'.",
      "examples": [
       {
@@ -5501,7 +5988,7 @@
     {
      "title_en": "Pronominal verbs",
      "title_ru": "Местоименные глаголы",
-     "body_en": "Pronominal verbs have a reflexive pronoun that matches the subject: se laver → je me lave, tu te laves, il se lave, nous nous lavons, vous vous lavez, ils se lavent. They are listed with se in dictionaries. They often correspond to Russian verbs in -ся: se laver = мыться, s'habiller = одеваться.",
+     "body_en": "Pronominal verbs have a reflexive pronoun that matches the subject: se laver → je me lave, tu te laves, il se lave, nous nous lavons, vous vous lavez, ils se lavent. They are listed with se in dictionaries. They often correspond to Russian reflexive verbs in -sya: se laver = to wash (oneself), s'habiller = to get dressed.",
      "body_ru": "У местоименных глаголов есть возвратное местоимение, которое согласуется с подлежащим: se laver → je me lave, tu te laves, il se lave, nous nous lavons, vous vous lavez, ils se lavent. В словаре они даются с se. Часто им соответствуют русские глаголы на -ся: se laver = мыться, s'habiller = одеваться. Но в русском -ся одно для всех лиц, а во французском местоимение меняется.",
      "examples": [
       {
@@ -5545,9 +6032,9 @@
      ]
     },
     {
-     "title_en": "Not always -ся in Russian",
+     "title_en": "Not always a reflexive verb in Russian",
      "title_ru": "Не всегда '-ся' в русском",
-     "body_en": "Many pronominal verbs have no -ся in Russian: se lever (вставать), se coucher (ложиться спать), se promener (гулять), se reposer (отдыхать), se marier (жениться/выйти замуж). With parts of the body French uses the definite article, not a possessive: Je me lave les mains (Я мою руки), not *mes mains.",
+     "body_en": "Many pronominal verbs are not reflexive (no -sya) in Russian: se lever (to get up), se coucher (to go to bed), se promener (to go for a walk), se reposer (to rest), se marier (to get married). With parts of the body French uses the definite article, not a possessive: Je me lave les mains (I wash my hands), not *mes mains.",
      "body_ru": "У многих местоименных глаголов в русском нет -ся: se lever (вставать), se coucher (ложиться спать), se promener (гулять), se reposer (отдыхать), se marier (жениться / выйти замуж). С частями тела во французском употребляется определённый артикль, а не притяжательное слово: Je me lave les mains (Я мою руки), а не *mes mains.",
      "examples": [
       {
@@ -5925,7 +6412,12 @@
      "q": "'Je vais au cinéma' is an example of futur proche.",
      "answer": false,
      "explain_en": "Here aller means movement to a place; futur proche needs an infinitive.",
-     "explain_ru": "Здесь aller означает движение к месту; для futur proche нужен инфинитив."
+     "explain_ru": "Здесь aller означает движение к месту; для futur proche нужен инфинитив.",
+     "ui": {
+      "ru": {
+       "q": "'Je vais au cinéma' — пример futur proche."
+      }
+     }
     },
     {
      "id": "e26",
@@ -5933,15 +6425,28 @@
      "q": "In 'Je vais me coucher', the reflexive pronoun agrees with the subject je.",
      "answer": true,
      "explain_en": "Je → me: je vais me coucher.",
-     "explain_ru": "Подлежащее je, значит, местоимение me: je vais me coucher."
+     "explain_ru": "Подлежащее je, значит, местоимение me: je vais me coucher.",
+     "ui": {
+      "ru": {
+       "q": "В 'Je vais me coucher' возвратное местоимение согласуется с подлежащим je."
+      }
+     }
     },
     {
      "id": "e27",
      "type": "tf",
      "q": "Every French pronominal verb is translated by a Russian verb in -ся.",
      "answer": false,
-     "explain_en": "Se lever = вставать, se promener = гулять: no -ся.",
-     "explain_ru": "Se lever = вставать, se promener = гулять — без -ся."
+     "explain_en": "Se lever (to get up) and se promener (to go for a walk) are not reflexive in Russian: they have no -sya.",
+     "explain_ru": "Se lever = вставать, se promener = гулять — без -ся.",
+     "ui": {
+      "en": {
+       "q": "Every French pronominal verb is translated into Russian by a reflexive verb ending in -sya."
+      },
+      "ru": {
+       "q": "Любой французский местоименный глагол переводится на русский глаголом на -ся."
+      }
+     }
     },
     {
      "id": "e28",
@@ -5997,7 +6502,33 @@
        "s'habiller",
        "одеваться"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "se lever",
+         "to get up"
+        ],
+        [
+         "se coucher",
+         "to go to bed"
+        ],
+        [
+         "se promener",
+         "to go for a walk"
+        ],
+        [
+         "se reposer",
+         "to rest"
+        ],
+        [
+         "s'habiller",
+         "to get dressed"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e30",

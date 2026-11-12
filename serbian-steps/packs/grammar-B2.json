@@ -245,7 +245,12 @@
      ],
      "answer": 2,
      "explain_en": "Ode is the aorist of otići; otišao je is perfekat, ide is present, otići će is future.",
-     "explain_ru": "Ode — аорист от otići; otišao je — перфект, ide — настоящее, otići će — будущее."
+     "explain_ru": "Ode — аорист от otići; otišao je — перфект, ide — настоящее, otići će — будущее.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении используется аорист?"
+      }
+     }
     },
     {
      "id": "e03",
@@ -263,7 +268,12 @@
      "q": "The aorist is used almost always with perfective verbs.",
      "answer": true,
      "explain_en": "True. The aorist describes a completed event, so it is formed from perfective verbs; imperfective verbs take the imperfekat.",
-     "explain_ru": "Верно. Аорист описывает завершённое событие и образуется от глаголов совершенного вида; несовершенные глаголы образуют имперфект."
+     "explain_ru": "Верно. Аорист описывает завершённое событие и образуется от глаголов совершенного вида; несовершенные глаголы образуют имперфект.",
+     "ui": {
+      "ru": {
+       "q": "Аорист почти всегда употребляется с глаголами совершенного вида."
+      }
+     }
     },
     {
      "id": "e05",
@@ -303,7 +313,33 @@
        "rekoše",
        "они сказали"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "rekoh",
+         "I said"
+        ],
+        [
+         "reče",
+         "he said"
+        ],
+        [
+         "rekosmo",
+         "we said"
+        ],
+        [
+         "rekoste",
+         "you (pl.) said"
+        ],
+        [
+         "rekoše",
+         "they said"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e07",
@@ -351,7 +387,12 @@
      "q": "In the sentence 'Rekao bih ti istinu' the form bih is the aorist tense meaning 'I was'.",
      "answer": false,
      "explain_en": "False. Here bih is the conditional auxiliary (I would tell). The same forms serve as aorist of biti, but the meaning depends on context.",
-     "explain_ru": "Неверно. Здесь bih — вспомогательный глагол условного наклонения («я бы сказал»). Те же формы служат аористом biti, но значение зависит от контекста."
+     "explain_ru": "Неверно. Здесь bih — вспомогательный глагол условного наклонения («я бы сказал»). Те же формы служат аористом biti, но значение зависит от контекста.",
+     "ui": {
+      "ru": {
+       "q": "В предложении 'Rekao bih ti istinu' форма bih — это аорист со значением «я был»."
+      }
+     }
     },
     {
      "id": "e11",
@@ -376,7 +417,12 @@
      ],
      "answer": 2,
      "explain_en": "The imperfekat gives the background; the aorist moves the plot forward.",
-     "explain_ru": "Имперфект даёт фон; аорист двигает сюжет. В русском это различие передаётся видом глагола."
+     "explain_ru": "Имперфект даёт фон; аорист двигает сюжет. В русском это различие передаётся видом глагола.",
+     "ui": {
+      "ru": {
+       "q": "Какое время рисует фон в рассказе (что происходило)?"
+      }
+     }
     },
     {
      "id": "e13",
@@ -452,7 +498,12 @@
      "q": "'Šta reče?' and 'Šta kaže?' mean the same thing.",
      "answer": false,
      "explain_en": "False. Šta reče? is aorist (What did he say?), Šta kaže? is present (What does he say?).",
-     "explain_ru": "Неверно. Šta reče? — аорист («Что он сказал?»), Šta kaže? — настоящее время («Что он говорит?»)."
+     "explain_ru": "Неверно. Šta reče? — аорист («Что он сказал?»), Šta kaže? — настоящее время («Что он говорит?»).",
+     "ui": {
+      "ru": {
+       "q": "'Šta reče?' и 'Šta kaže?' значат одно и то же."
+      }
+     }
     },
     {
      "id": "e18",
@@ -505,7 +556,12 @@
      ],
      "answer": 0,
      "explain_en": "-oste is the 2nd person plural ending: dođoste. Dođoše is 3rd plural, dođosmo 1st plural, došli ste perfekat.",
-     "explain_ru": "-oste — окончание 2-го лица множественного числа: dođoste («вы пришли»). Dođoše — 3-е лицо мн. ч., dođosmo — 1-е лицо мн. ч., došli ste — перфект."
+     "explain_ru": "-oste — окончание 2-го лица множественного числа: dođoste («вы пришли»). Dođoše — 3-е лицо мн. ч., dođosmo — 1-е лицо мн. ч., došli ste — перфект.",
+     "ui": {
+      "ru": {
+       "q": "Какая форма — аорист 2-го лица множественного числа от doći?"
+      }
+     }
     },
     {
      "id": "e22",
@@ -513,7 +569,12 @@
      "q": "Russian has a living aorist tense that corresponds to Serbian rekoh.",
      "answer": false,
      "explain_en": "False. Russian lost the aorist long ago; Serbian aorist is translated with the ordinary perfective past (сказал).",
-     "explain_ru": "Неверно. Русский утратил аорист давно; сербский аорист переводится обычным прошедшим совершенного вида («сказал»)."
+     "explain_ru": "Неверно. Русский утратил аорист давно; сербский аорист переводится обычным прошедшим совершенного вида («сказал»).",
+     "ui": {
+      "ru": {
+       "q": "В русском языке есть живой аорист, соответствующий сербскому rekoh."
+      }
+     }
     },
     {
      "id": "e23",
@@ -537,7 +598,12 @@
      ],
      "answer": 1,
      "explain_en": "The aorist expresses a sudden just-completed event: Pade mi telefon! The other sentences are habitual or future.",
-     "explain_ru": "Аорист выражает внезапное только что совершившееся событие: Pade mi telefon! Остальные предложения — привычное действие или будущее."
+     "explain_ru": "Аорист выражает внезапное только что совершившееся событие: Pade mi telefon! Остальные предложения — привычное действие или будущее.",
+     "ui": {
+      "ru": {
+       "q": "Выберите предложение, в котором аорист стилистически ожидаем."
+      }
+     }
     },
     {
      "id": "e25",
@@ -580,7 +646,33 @@
        "Zakasnismo!",
        "Мы опоздали!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Odoh ja.",
+         "I'm off."
+        ],
+        [
+         "Zaboravih ključeve!",
+         "I forgot the keys!"
+        ],
+        [
+         "Šta bi?",
+         "What happened?"
+        ],
+        [
+         "Gde ode?",
+         "Where did he go?"
+        ],
+        [
+         "Zakasnismo!",
+         "We're late!"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e27",
@@ -612,7 +704,12 @@
      "q": "In the aorist, the 2nd and 3rd person singular forms are identical (ti reče = on reče).",
      "answer": true,
      "explain_en": "True. Both have no ending (vowel stems) or -e (consonant stems); context or a pronoun shows the subject.",
-     "explain_ru": "Верно. Обе формы либо без окончания (гласные основы), либо на -e (согласные основы); подлежащее понятно из контекста или по местоимению."
+     "explain_ru": "Верно. Обе формы либо без окончания (гласные основы), либо на -e (согласные основы); подлежащее понятно из контекста или по местоимению.",
+     "ui": {
+      "ru": {
+       "q": "В аористе формы 2-го и 3-го лица единственного числа совпадают (ti reče = on reče)."
+      }
+     }
     },
     {
      "id": "e30",
@@ -626,7 +723,12 @@
      ],
      "answer": 2,
      "explain_en": "The aorist of biti: bih, bi, bi, bismo, biste, biše. Besmo is imperfekat, bili smo perfekat, bejahu imperfekat 3rd plural.",
-     "explain_ru": "Аорист biti: bih, bi, bi, bismo, biste, biše. Besmo — имперфект, bili smo — перфект, bejahu — имперфект 3-го лица мн. ч."
+     "explain_ru": "Аорист biti: bih, bi, bi, bismo, biste, biše. Besmo — имперфект, bili smo — перфект, bejahu — имперфект 3-го лица мн. ч.",
+     "ui": {
+      "ru": {
+       "q": "Какая форма — правильный аорист 1-го лица множественного числа от biti?"
+      }
+     }
     }
    ]
   },
@@ -853,7 +955,12 @@
      "q": "Russian has a special pluperfect tense that corresponds exactly to Serbian 'bio sam rekao'.",
      "answer": false,
      "explain_en": "False. Russian uses the ordinary past tense, often with уже or к тому времени.",
-     "explain_ru": "Неверно. В русском используется обычное прошедшее время, часто с «уже» или «к тому времени»."
+     "explain_ru": "Неверно. В русском используется обычное прошедшее время, часто с «уже» или «к тому времени».",
+     "ui": {
+      "ru": {
+       "q": "В русском языке есть особое давнопрошедшее время, точно соответствующее сербскому 'bio sam rekao'."
+      }
+     }
     },
     {
      "id": "e04",
@@ -910,7 +1017,33 @@
        "behu otišli",
        "они (уже) ушли"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "bio sam rekao",
+         "I had (already) said"
+        ],
+        [
+         "bila je otišla",
+         "she had (already) left"
+        ],
+        [
+         "bili smo stigli",
+         "we had (already) arrived"
+        ],
+        [
+         "beše zaspao",
+         "he had (already) fallen asleep"
+        ],
+        [
+         "behu otišli",
+         "they had (already) left"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e07",
@@ -935,7 +1068,12 @@
      ],
      "answer": 1,
      "explain_en": "Već (already) signals that the earlier action was complete: već je bio otišao.",
-     "explain_ru": "Već («уже») сигнализирует, что раннее действие завершилось: već je bio otišao."
+     "explain_ru": "Već («уже») сигнализирует, что раннее действие завершилось: već je bio otišao.",
+     "ui": {
+      "ru": {
+       "q": "Какое наречие чаще всего сопровождает плюсквамперфект?"
+      }
+     }
     },
     {
      "id": "e09",
@@ -943,7 +1081,12 @@
      "q": "Serbian requires the pluskvamperfekat whenever one past action precedes another.",
      "answer": false,
      "explain_en": "False. It is optional; conjunctions like pošto or pre nego što already show the order, and two perfekats are normal.",
-     "explain_ru": "Неверно. Он необязателен; союзы pošto или pre nego što уже показывают порядок, и два перфекта — норма."
+     "explain_ru": "Неверно. Он необязателен; союзы pošto или pre nego što уже показывают порядок, и два перфекта — норма.",
+     "ui": {
+      "ru": {
+       "q": "В сербском плюсквамперфект обязателен всякий раз, когда одно прошедшее действие предшествует другому."
+      }
+     }
     },
     {
      "id": "e10",
@@ -999,7 +1142,12 @@
      ],
      "answer": 0,
      "explain_en": "Negate the auxiliary (nisam), clitic je in second position, then bio upoznao.",
-     "explain_ru": "Отрицается вспомогательный глагол (nisam), клитика je на второй позиции, затем bio upoznao."
+     "explain_ru": "Отрицается вспомогательный глагол (nisam), клитика je на второй позиции, затем bio upoznao.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильный отрицательный плюсквамперфект: «Я ещё не был с ней знаком»."
+      }
+     }
     },
     {
      "id": "e14",
@@ -1017,7 +1165,12 @@
      "q": "Beše is a clitic and must stand in second position in the sentence.",
      "answer": false,
      "explain_en": "False. Beše is a full stressed word; only the perfekat auxiliaries sam, si, je... are clitics.",
-     "explain_ru": "Неверно. Beše — полнозначное ударное слово; клитиками являются только вспомогательные sam, si, je..."
+     "explain_ru": "Неверно. Beše — полнозначное ударное слово; клитиками являются только вспомогательные sam, si, je...",
+     "ui": {
+      "ru": {
+       "q": "Beše — энклитика и должна стоять на втором месте в предложении."
+      }
+     }
     },
     {
      "id": "e16",
@@ -1031,7 +1184,12 @@
      ],
      "answer": 3,
      "explain_en": "Padaše is imperfekat (background: it was raining); the other three are aorists (successive events).",
-     "explain_ru": "Padaše — имперфект (фон: шёл дождь); остальные три — аористы (последовательные события)."
+     "explain_ru": "Padaše — имперфект (фон: шёл дождь); остальные три — аористы (последовательные события).",
+     "ui": {
+      "ru": {
+       "q": "Какое время задаёт фон в: 'Uđe, sede i zaćuta. Napolju padaše kiša.'?"
+      }
+     }
     },
     {
      "id": "e17",
@@ -1057,7 +1215,33 @@
        "upravo",
        "только что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "već",
+         "already"
+        ],
+        [
+         "tek što",
+         "barely / hardly had"
+        ],
+        [
+         "do tada",
+         "by then"
+        ],
+        [
+         "pre toga",
+         "before that"
+        ],
+        [
+         "upravo",
+         "just (now)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e18",
@@ -1081,7 +1265,12 @@
      ],
      "answer": 1,
      "explain_en": "The literary pluskvamperfekat with imperfekat of biti, 3rd plural behu, fits the aorist ostade.",
-     "explain_ru": "Книжный плюсквамперфект с имперфектом biti в 3-м лице мн. ч. behu сочетается с аористом ostade."
+     "explain_ru": "Книжный плюсквамперфект с имперфектом biti в 3-м лице мн. ч. behu сочетается с аористом ostade.",
+     "ui": {
+      "ru": {
+       "q": "Svi ___ otišli, samo on ostade. (книжная форма)"
+      }
+     }
     },
     {
      "id": "e20",
@@ -1106,7 +1295,12 @@
      "q": "'Pošto je završio posao, otišao je kući' is wrong because the first verb must be in the pluskvamperfekat.",
      "answer": false,
      "explain_en": "False. Two perfekats are perfectly normal; pošto shows the order of events.",
-     "explain_ru": "Неверно. Два перфекта — норма; pošto показывает порядок событий."
+     "explain_ru": "Неверно. Два перфекта — норма; pošto показывает порядок событий.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'Pošto je završio posao, otišao je kući' неправильно, потому что первый глагол должен стоять в плюсквамперфекте."
+      }
+     }
     },
     {
      "id": "e22",
@@ -1120,7 +1314,12 @@
      ],
      "answer": 0,
      "explain_en": "Two past events with the state already achieved: Kad su stigli, večera je (bila) gotova.",
-     "explain_ru": "Два прошедших события, состояние уже достигнуто: Kad su stigli, večera je (bila) gotova."
+     "explain_ru": "Два прошедших события, состояние уже достигнуто: Kad su stigli, večera je (bila) gotova.",
+     "ui": {
+      "en": {
+       "q": "How would you translate 'When they arrived, dinner was already ready', stressing anteriority?"
+      }
+     }
     },
     {
      "id": "e23",
@@ -1213,7 +1412,12 @@
      "q": "In 'Beše jednom jedan car' the form beše is an imperfekat used on its own, not a pluskvamperfekat.",
      "answer": true,
      "explain_en": "True. There is no l-participle, so beše is simply the imperfekat of biti: once upon a time there was a tsar.",
-     "explain_ru": "Верно. Здесь нет l-причастия, поэтому beše — просто имперфект biti: «жил-был один царь»."
+     "explain_ru": "Верно. Здесь нет l-причастия, поэтому beše — просто имперфект biti: «жил-был один царь».",
+     "ui": {
+      "ru": {
+       "q": "В 'Beše jednom jedan car' форма beše — самостоятельный имперфект, а не плюсквамперфект."
+      }
+     }
     },
     {
      "id": "e30",
@@ -1465,7 +1669,18 @@
      ],
      "answer": 1,
      "explain_en": "The secondary imperfective is formed with -ivati: potpisivati (potpisujem).",
-     "explain_ru": "Вторичный несовершенный глагол образуется с -ivati: potpisivati (potpisujem) — «подписывать»."
+     "explain_ru": "Вторичный несовершенный глагол образуется с -ivati: potpisivati (potpisujem) — «подписывать».",
+     "ui": {
+      "ru": {
+       "q": "Какой глагол — несовершенная пара к potpisati?",
+       "options": [
+        "pisati",
+        "potpisivati",
+        "popisati",
+        "potpisnuti"
+       ]
+      }
+     }
     },
     {
      "id": "e02",
@@ -1497,7 +1712,12 @@
      "q": "'Prestala je da popuši' is a correct sentence.",
      "answer": false,
      "explain_en": "False. After prestati only an imperfective verb is possible: prestala je da puši.",
-     "explain_ru": "Неверно. После prestati возможен только несовершенный вид: prestala je da puši («бросила курить»)."
+     "explain_ru": "Неверно. После prestati возможен только несовершенный вид: prestala je da puši («бросила курить»).",
+     "ui": {
+      "ru": {
+       "q": "'Prestala je da popuši' — правильное предложение."
+      }
+     }
     },
     {
      "id": "e05",
@@ -1595,7 +1815,12 @@
      "q": "In Serbian, phase verbs like početi and nastaviti can be followed by either aspect, unlike in Russian.",
      "answer": false,
      "explain_en": "False. Like Russian, Serbian allows only the imperfective after phase verbs.",
-     "explain_ru": "Неверно. Как и в русском, после фазовых глаголов в сербском возможен только несовершенный вид."
+     "explain_ru": "Неверно. Как и в русском, после фазовых глаголов в сербском возможен только несовершенный вид.",
+     "ui": {
+      "ru": {
+       "q": "В сербском, в отличие от русского, после фазовых глаголов вроде početi и nastaviti может стоять глагол любого вида."
+      }
+     }
     },
     {
      "id": "e12",
@@ -1609,7 +1834,18 @@
      ],
      "answer": 2,
      "explain_en": "Only the prefixed verb without -ivati is perfective: prepisati.",
-     "explain_ru": "Совершенный только приставочный глагол без -ivati: prepisati («переписать»)."
+     "explain_ru": "Совершенный только приставочный глагол без -ivati: prepisati («переписать»).",
+     "ui": {
+      "ru": {
+       "q": "Какой член тройки pisati – prepisati – prepisivati совершенного вида?",
+       "options": [
+        "pisati",
+        "prepisivati",
+        "prepisati",
+        "все три"
+       ]
+      }
+     }
     },
     {
      "id": "e13",
@@ -1655,7 +1891,12 @@
      "q": "'Čim se probudim, popijem kafu' describes a habit, even though both verbs are perfective present.",
      "answer": true,
      "explain_en": "True. Serbian uses perfective presents for repeated completed chains; Russian would say просыпаюсь, выпиваю.",
-     "explain_ru": "Верно. Сербский использует совершенное настоящее для повторяющихся завершённых цепочек; по-русски — «просыпаюсь, выпиваю»."
+     "explain_ru": "Верно. Сербский использует совершенное настоящее для повторяющихся завершённых цепочек; по-русски — «просыпаюсь, выпиваю».",
+     "ui": {
+      "ru": {
+       "q": "'Čim se probudim, popijem kafu' описывает привычку, хотя оба глагола стоят в настоящем времени совершенного вида."
+      }
+     }
     },
     {
      "id": "e17",
@@ -1691,7 +1932,12 @@
      ],
      "answer": 1,
      "explain_en": "A process happening now: imperfective present počinje.",
-     "explain_ru": "Процесс происходит сейчас — несовершенное настоящее počinje («начинается»)."
+     "explain_ru": "Процесс происходит сейчас — несовершенное настоящее počinje («начинается»).",
+     "ui": {
+      "ru": {
+       "q": "___ da pada kiša, uzmi kišobran. (начинается прямо сейчас)"
+      }
+     }
     },
     {
      "id": "e19",
@@ -1715,7 +1961,12 @@
      ],
      "answer": 1,
      "explain_en": "Ručati can be both: Upravo ručam (am having lunch) / Kad ručam, doći ću (when I have had lunch).",
-     "explain_ru": "Ručati двувидовой: Upravo ručam («обедаю») / Kad ručam, doći ću («когда пообедаю»). В русском — пара «обедать – пообедать»."
+     "explain_ru": "Ručati двувидовой: Upravo ručam («обедаю») / Kad ručam, doći ću («когда пообедаю»). В русском — пара «обедать – пообедать».",
+     "ui": {
+      "ru": {
+       "q": "Какой глагол двувидовой (dvovidski — и совершенного, и несовершенного вида)?"
+      }
+     }
     },
     {
      "id": "e21",
@@ -1774,7 +2025,12 @@
      "q": "The present tense of prodavati is 'prodavam'.",
      "answer": false,
      "explain_en": "False. Verbs from dati keep the short present: prodajem, prodaješ, prodaje...",
-     "explain_ru": "Неверно. Глаголы от dati сохраняют краткое настоящее: prodajem, prodaješ, prodaje... («продаю»)."
+     "explain_ru": "Неверно. Глаголы от dati сохраняют краткое настоящее: prodajem, prodaješ, prodaje... («продаю»).",
+     "ui": {
+      "ru": {
+       "q": "Настоящее время глагола prodavati — 'prodavam'."
+      }
+     }
     },
     {
      "id": "e26",
@@ -1810,7 +2066,29 @@
        "Ne zaboravi ključeve!",
        "Не забудь ключи!"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Nisam čitao tu knjigu.",
+         "I haven't read that book."
+        ],
+        [
+         "Nisam pročitao tu knjigu.",
+         "I haven't finished reading that book."
+        ],
+        [
+         "Ne otvaraj prozor!",
+         "Don't open the window!"
+        ],
+        [
+         "Ne zaboravi ključeve!",
+         "Don't forget the keys!"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -1835,7 +2113,12 @@
      ],
      "answer": 2,
      "explain_en": "Počeo je da napiše combines a phase verb with a perfective – impossible, as in Russian.",
-     "explain_ru": "Počeo je da napiše соединяет фазовый глагол с совершенным видом — невозможно, как и в русском («начал написать»)."
+     "explain_ru": "Počeo je da napiše соединяет фазовый глагол с совершенным видом — невозможно, как и в русском («начал написать»).",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение невозможно в сербском?"
+      }
+     }
     },
     {
      "id": "e30",
@@ -2117,7 +2400,15 @@
      "q": "'Ne spava mi se' means 'I can't fall asleep', exactly like Russian 'мне не спится'.",
      "answer": false,
      "explain_en": "False. Ne spava mi se means I don't feel like sleeping; I can't fall asleep is Ne mogu da zaspim.",
-     "explain_ru": "Неверно. Ne spava mi se – «мне не хочется спать»; «не могу уснуть» – Ne mogu da zaspim. Ложный друг для русских!"
+     "explain_ru": "Неверно. Ne spava mi se – «мне не хочется спать»; «не могу уснуть» – Ne mogu da zaspim. Ложный друг для русских!",
+     "ui": {
+      "en": {
+       "q": "'Ne spava mi se' means 'I can't fall asleep', exactly like Russian 'mne ne spitsya'."
+      },
+      "ru": {
+       "q": "'Ne spava mi se' значит «я не могу уснуть», точно как русское «мне не спится»."
+      }
+     }
     },
     {
      "id": "e06",
@@ -2142,7 +2433,12 @@
      ],
      "answer": 3,
      "explain_en": "Dative + se construction: jede mi se; the dative clitic mi comes before se.",
-     "explain_ru": "Конструкция «датив + se»: jede mi se; энклитика mi стоит перед se."
+     "explain_ru": "Конструкция «датив + se»: jede mi se; энклитика mi стоит перед se.",
+     "ui": {
+      "en": {
+       "q": "How do you say 'I feel like having something sweet'?"
+      }
+     }
     },
     {
      "id": "e08",
@@ -2187,7 +2483,15 @@
      "q": "In Serbian the agent of a passive can be put in the instrumental, like Russian 'построен рабочими'.",
      "answer": false,
      "explain_en": "False. Serbian has no instrumental agent; use od strane + genitive (formal) or, better, the active voice.",
-     "explain_ru": "Неверно. Творительного деятеля в сербском нет; используется od strane + родительный (официально) или, лучше, актив."
+     "explain_ru": "Неверно. Творительного деятеля в сербском нет; используется od strane + родительный (официально) или, лучше, актив.",
+     "ui": {
+      "en": {
+       "q": "In Serbian the agent of a passive can be put in the instrumental, like Russian 'postroen rabochimi' (built by workers)."
+      },
+      "ru": {
+       "q": "В сербском деятеля в пассиве можно выразить творительным падежом, как в русском «построен рабочими»."
+      }
+     }
     },
     {
      "id": "e12",
@@ -2223,7 +2527,33 @@
        "Jede mi se.",
        "Мне хочется есть."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Spava mi se.",
+         "I feel sleepy."
+        ],
+        [
+         "Ne ide mi se.",
+         "I don't feel like going."
+        ],
+        [
+         "Plače mi se.",
+         "I feel like crying."
+        ],
+        [
+         "Pije mi se kafa.",
+         "I feel like a coffee."
+        ],
+        [
+         "Jede mi se.",
+         "I feel like eating."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e14",
@@ -2237,7 +2567,12 @@
      ],
      "answer": 1,
      "explain_en": "The active voice is preferred; od strane is bureaucratic, and an instrumental agent does not exist.",
-     "explain_ru": "Предпочтителен актив; od strane – канцелярит, а творительного деятеля не существует."
+     "explain_ru": "Предпочтителен актив; od strane – канцелярит, а творительного деятеля не существует.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение наиболее естественно в нейтральном стиле?"
+      }
+     }
     },
     {
      "id": "e15",
@@ -2275,7 +2610,20 @@
      ],
      "answer": 2,
      "explain_en": "With people, se is reflexive: the children are bathing themselves.",
-     "explain_ru": "С людьми se понимается как возвратное: дети купаются сами. Для «детей купают» нужно Decu kupaju."
+     "explain_ru": "С людьми se понимается как возвратное: дети купаются сами. Для «детей купают» нужно Decu kupaju.",
+     "ui": {
+      "en": {
+       "options": [
+        "The children are being bathed (by someone else).",
+        "The children were bathed.",
+        "The children are bathing.",
+        "The children will bathe."
+       ]
+      },
+      "ru": {
+       "q": "Что значит 'Deca se kupaju'?"
+      }
+     }
     },
     {
      "id": "e18",
@@ -2293,7 +2641,12 @@
      "q": "'Vrata se zatvaraju u 22 časa' describes a regular process, while 'Vrata su zatvorena' describes a resulting state.",
      "answer": true,
      "explain_en": "True. Se + imperfective = process or routine; biti + perfective participle = state.",
-     "explain_ru": "Верно. Se + несовершенный вид – процесс или регулярное действие; biti + причастие совершенного вида – состояние."
+     "explain_ru": "Верно. Se + несовершенный вид – процесс или регулярное действие; biti + причастие совершенного вида – состояние.",
+     "ui": {
+      "ru": {
+       "q": "'Vrata se zatvaraju u 22 časa' описывает регулярный процесс, а 'Vrata su zatvorena' — результирующее состояние."
+      }
+     }
     },
     {
      "id": "e20",
@@ -2345,7 +2698,12 @@
      ],
      "answer": 2,
      "explain_en": "Clitics cannot start the sentence, and the dative mi comes before se.",
-     "explain_ru": "Энклитики не могут начинать предложение, а датив mi стоит перед se."
+     "explain_ru": "Энклитики не могут начинать предложение, а датив mi стоит перед se.",
+     "ui": {
+      "en": {
+       "q": "Choose the correct sentence: 'I feel like going to the seaside.'"
+      }
+     }
     },
     {
      "id": "e24",
@@ -2371,7 +2729,33 @@
        "Kuća bi bila izgrađena.",
        "Дом был бы построен."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Kuća se gradi.",
+         "The house is being built."
+        ],
+        [
+         "Kuća je izgrađena.",
+         "The house has been built."
+        ],
+        [
+         "Kuća je bila izgrađena.",
+         "The house had been built (already by then)."
+        ],
+        [
+         "Kuća će biti izgrađena.",
+         "The house will be built."
+        ],
+        [
+         "Kuća bi bila izgrađena.",
+         "The house would be built."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e25",
@@ -2395,7 +2779,12 @@
      ],
      "answer": 0,
      "explain_en": "With persons the passive meaning needs biti + participle: Lopov je uhvaćen. Forms with se would be read as reflexive.",
-     "explain_ru": "С лицами пассивное значение требует biti + причастие: Lopov je uhvaćen («вор пойман»). Формы с se прочитались бы как возвратные."
+     "explain_ru": "С лицами пассивное значение требует biti + причастие: Lopov je uhvaćen («вор пойман»). Формы с se прочитались бы как возвратные.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение однозначно значит, что вора поймали (кто-то)?"
+      }
+     }
     },
     {
      "id": "e27",
@@ -2403,7 +2792,15 @@
      "q": "In 'Radi se o novom projektu', the phrase 'radi se o' corresponds to Russian 'речь идёт о'.",
      "answer": true,
      "explain_en": "True. Radi se o + locative = it is about, it concerns.",
-     "explain_ru": "Верно. Radi se o + местный падеж = «речь идёт о», «дело касается»."
+     "explain_ru": "Верно. Radi se o + местный падеж = «речь идёт о», «дело касается».",
+     "ui": {
+      "en": {
+       "q": "In 'Radi se o novom projektu', the phrase 'radi se o' corresponds to English 'it is about' (Russian 'rech' idyot o')."
+      },
+      "ru": {
+       "q": "В 'Radi se o novom projektu' выражение 'radi se o' соответствует русскому «речь идёт о»."
+      }
+     }
     },
     {
      "id": "e28",
@@ -2680,7 +3077,15 @@
      "q": "In Serbian unreal conditions, the 'if' clause normally contains bi, just as Russian 'если бы' contains бы.",
      "answer": false,
      "explain_en": "False. The da-clause has the present or perfekat without bi; bi appears only in the main clause.",
-     "explain_ru": "Неверно. В предложении с da стоит настоящее или перфект без bi; bi появляется только в главном предложении."
+     "explain_ru": "Неверно. В предложении с da стоит настоящее или перфект без bi; bi появляется только в главном предложении.",
+     "ui": {
+      "en": {
+       "q": "In Serbian unreal conditions, the 'if' clause normally contains bi, just as Russian 'esli by' contains 'by'."
+      },
+      "ru": {
+       "q": "В сербских нереальных условных предложениях придаточное с «если» обычно содержит bi, так же как русское «если бы» содержит «бы»."
+      }
+     }
     },
     {
      "id": "e05",
@@ -2706,7 +3111,33 @@
        "Ma koliko dolazio, ...",
        "«сколько бы ни»"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Ako dođeš, ...",
+         "real condition"
+        ],
+        [
+         "Kad bi došao, ...",
+         "possible condition"
+        ],
+        [
+         "Da si došao, ...",
+         "unreal condition in the past"
+        ],
+        [
+         "Iako je došao, ...",
+         "concession"
+        ],
+        [
+         "Ma koliko dolazio, ...",
+         "'however much'"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -2769,7 +3200,12 @@
      ],
      "answer": 3,
      "explain_en": "Potencijal II = bio + bih + l-participle. Bio sam došao is pluskvamperfekat, budem došao is futur II.",
-     "explain_ru": "Потенциал II = bio + bih + l-причастие. Bio sam došao – плюсквамперфект, budem došao – футур II."
+     "explain_ru": "Потенциал II = bio + bih + l-причастие. Bio sam došao – плюсквамперфект, budem došao – футур II.",
+     "ui": {
+      "ru": {
+       "q": "Какая форма — потенциал II?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -2777,7 +3213,15 @@
      "q": "'Ma koliko bi se trudio' is the correct way to say 'как бы он ни старался'.",
      "answer": false,
      "explain_en": "False. Ma koliko takes no bi: Ma koliko se trudio / se trudi.",
-     "explain_ru": "Неверно. После ma koliko не ставится bi: Ma koliko se trudio / se trudi."
+     "explain_ru": "Неверно. После ma koliko не ставится bi: Ma koliko se trudio / se trudi.",
+     "ui": {
+      "en": {
+       "q": "'Ma koliko bi se trudio' is the correct way to say 'however hard he tried'."
+      },
+      "ru": {
+       "q": "'Ma koliko bi se trudio' — правильный способ сказать «как бы он ни старался»."
+      }
+     }
     },
     {
      "id": "e12",
@@ -2827,7 +3271,33 @@
        "čak i da",
        "даже если бы"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "iako",
+         "although"
+        ],
+        [
+         "ma koliko",
+         "however much"
+        ],
+        [
+         "ma ko",
+         "whoever"
+        ],
+        [
+         "ma gde",
+         "wherever"
+        ],
+        [
+         "čak i da",
+         "even if"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e15",
@@ -2884,7 +3354,12 @@
      "q": "Potencijal II (bio bih došao) is typical of careful written style; in everyday speech potencijal I is used for the past too.",
      "answer": true,
      "explain_en": "True. In speech people say Da sam znao, došao bih rather than bio bih došao.",
-     "explain_ru": "Верно. В речи говорят Da sam znao, došao bih, а не bio bih došao."
+     "explain_ru": "Верно. В речи говорят Da sam znao, došao bih, а не bio bih došao.",
+     "ui": {
+      "ru": {
+       "q": "Потенциал II (bio bih došao) характерен для тщательного письменного стиля; в повседневной речи для прошлого тоже используется потенциал I."
+      }
+     }
     },
     {
      "id": "e20",
@@ -2937,7 +3412,12 @@
      ],
      "answer": 1,
      "explain_en": "Unreal present: da + present, main clause potencijal. Da bih means in order to.",
-     "explain_ru": "Нереальное настоящее: da + настоящее, в главном – потенциал. Da bih значит «чтобы»."
+     "explain_ru": "Нереальное настоящее: da + настоящее, в главном – потенциал. Da bih значит «чтобы».",
+     "ui": {
+      "en": {
+       "q": "Choose the correct translation: 'If I had time now, I would help.'"
+      }
+     }
     },
     {
      "id": "e24",
@@ -2969,7 +3449,12 @@
      "q": "In 'Mada je bilo hladno, kupali smo se', mada can be replaced by iako without changing the meaning.",
      "answer": true,
      "explain_en": "True. Mada and iako are synonyms meaning although.",
-     "explain_ru": "Верно. Mada и iako – синонимы со значением «хотя»."
+     "explain_ru": "Верно. Mada и iako – синонимы со значением «хотя».",
+     "ui": {
+      "ru": {
+       "q": "В 'Mada je bilo hladno, kupali smo se' союз mada можно заменить на iako без изменения смысла."
+      }
+     }
     },
     {
      "id": "e27",
@@ -2991,7 +3476,29 @@
        "Iako me je pozvao, nisam otišao.",
        "Хотя он меня пригласил, я не пошёл."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Da me je pozvao, otišao bih.",
+         "If he had invited me then, I would have gone."
+        ],
+        [
+         "Ako me pozove, otići ću.",
+         "If he invites me, I will go."
+        ],
+        [
+         "Kad bi me pozvao, otišao bih.",
+         "If he ever invited me, I would go."
+        ],
+        [
+         "Iako me je pozvao, nisam otišao.",
+         "Although he invited me, I didn't go."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e28",
@@ -3021,7 +3528,12 @@
      ],
      "answer": 2,
      "explain_en": "Da bih introduces purpose (in order to), not a condition.",
-     "explain_ru": "Da bih вводит цель («чтобы»), а не условие."
+     "explain_ru": "Da bih вводит цель («чтобы»), а не условие.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение НЕправильно?"
+      }
+     }
     },
     {
      "id": "e30",
@@ -3263,7 +3775,12 @@
      ],
      "answer": 1,
      "explain_en": "The clitic sam stands in second position, right after the first stressed word juče.",
-     "explain_ru": "Энклитика sam стоит на втором месте, сразу после первого ударного слова juče."
+     "explain_ru": "Энклитика sam стоит на втором месте, сразу после первого ударного слова juče.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильное предложение."
+      }
+     }
     },
     {
      "id": "e02",
@@ -3295,7 +3812,12 @@
      "q": "The sentence 'Sam ga video juče' is correct.",
      "answer": false,
      "explain_en": "False. Clitics cannot begin a sentence: Video sam ga juče or Juče sam ga video.",
-     "explain_ru": "Неверно. Энклитики не могут начинать предложение: Video sam ga juče или Juče sam ga video."
+     "explain_ru": "Неверно. Энклитики не могут начинать предложение: Video sam ga juče или Juče sam ga video.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'Sam ga video juče' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -3349,7 +3871,12 @@
      ],
      "answer": 3,
      "explain_en": "Cluster order: li – si – mu – ga.",
-     "explain_ru": "Порядок в цепочке: li – si – mu – ga."
+     "explain_ru": "Порядок в цепочке: li – si – mu – ga.",
+     "ui": {
+      "en": {
+       "q": "How do you say 'Did you give it to him?'"
+      }
+     }
     },
     {
      "id": "e08",
@@ -3397,7 +3924,12 @@
      "q": "In the 3rd person singular, je is usually dropped after se: 'Dopao mu se.'",
      "answer": true,
      "explain_en": "True. Dopao mu se is the normal form; dopao mu se je is rare.",
-     "explain_ru": "Верно. Dopao mu se – обычная форма; dopao mu se je встречается редко."
+     "explain_ru": "Верно. Dopao mu se – обычная форма; dopao mu se je встречается редко.",
+     "ui": {
+      "ru": {
+       "q": "В 3-м лице единственного числа je после se обычно опускается: 'Dopao mu se.'"
+      }
+     }
     },
     {
      "id": "e12",
@@ -3421,7 +3953,12 @@
      ],
      "answer": 0,
      "explain_en": "Contrast requires the full form njemu, which can begin the sentence.",
-     "explain_ru": "Для противопоставления нужна полная форма njemu, которая может начинать предложение."
+     "explain_ru": "Для противопоставления нужна полная форма njemu, которая может начинать предложение.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение подчёркивает «именно ЕМУ, а не ей»?"
+      }
+     }
     },
     {
      "id": "e14",
@@ -3504,7 +4041,12 @@
      "q": "In a cluster, the dative clitic comes before the accusative: 'Dao sam mu ga', not 'Dao sam ga mu'.",
      "answer": true,
      "explain_en": "True. The order is aux – dative – accusative.",
-     "explain_ru": "Верно. Порядок: вспомогательный глагол – датив – аккузатив."
+     "explain_ru": "Верно. Порядок: вспомогательный глагол – датив – аккузатив.",
+     "ui": {
+      "ru": {
+       "q": "В цепочке энклитик дательная стоит перед винительной: 'Dao sam mu ga', а не 'Dao sam ga mu'."
+      }
+     }
     },
     {
      "id": "e20",
@@ -3557,7 +4099,12 @@
      ],
      "answer": 2,
      "explain_en": "After a long subject phrase the clitics follow the whole phrase, in the order mi je.",
-     "explain_ru": "После длинной группы подлежащего энклитики идут после всей группы, в порядке mi je."
+     "explain_ru": "После длинной группы подлежащего энклитики идут после всей группы, в порядке mi je.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильно в нейтральной разговорной речи?"
+      }
+     }
     },
     {
      "id": "e24",
@@ -3579,7 +4126,29 @@
        "Rekao sam joj.",
        "Я ей сказал."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Mene je pozvao.",
+         "It was me he invited."
+        ],
+        [
+         "Pozvao me je.",
+         "He invited me."
+        ],
+        [
+         "Njoj sam rekao, ne tebi.",
+         "I told her, not you."
+        ],
+        [
+         "Rekao sam joj.",
+         "I told her."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e25",
@@ -3589,7 +4158,12 @@
       "njega"
      ],
      "explain_en": "Contrast requires the full accusative form njega.",
-     "explain_ru": "Противопоставление требует полной формы аккузатива njega."
+     "explain_ru": "Противопоставление требует полной формы аккузатива njega.",
+     "ui": {
+      "ru": {
+       "q": "Ne pitam tebe, pitam ___. (on — полная форма)"
+      }
+     }
     },
     {
      "id": "e26",
@@ -3603,7 +4177,12 @@
      ],
      "answer": 3,
      "explain_en": "The clitics bih and mu form a cluster after ne; to is a full word and follows.",
-     "explain_ru": "Энклитики bih и mu образуют цепочку после ne; to – полноударное слово и идёт после неё."
+     "explain_ru": "Энклитики bih и mu образуют цепочку после ne; to – полноударное слово и идёт после неё.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильно?"
+      }
+     }
     },
     {
      "id": "e27",
@@ -3627,7 +4206,12 @@
      "q": "'I sam mu rekao' is correct, because the conjunction i counts as the first word.",
      "answer": false,
      "explain_en": "False. I does not host clitics: I rekao sam mu.",
-     "explain_ru": "Неверно. После i энклитика не ставится: I rekao sam mu."
+     "explain_ru": "Неверно. После i энклитика не ставится: I rekao sam mu.",
+     "ui": {
+      "ru": {
+       "q": "'I sam mu rekao' — правильно, потому что союз i считается первым словом."
+      }
+     }
     },
     {
      "id": "e29",
@@ -3931,7 +4515,15 @@
      "q": "'Lišće je opalo' uses singular agreement, although Russian says 'листья опали' in the plural.",
      "answer": true,
      "explain_en": "True. Lišće is a neuter singular collective noun.",
-     "explain_ru": "Верно. Lišće – собирательное существительное среднего рода единственного числа."
+     "explain_ru": "Верно. Lišće – собирательное существительное среднего рода единственного числа.",
+     "ui": {
+      "en": {
+       "q": "'Lišće je opalo' uses singular agreement, although Russian says 'list'ya opali' (the leaves fell) in the plural."
+      },
+      "ru": {
+       "q": "В 'Lišće je opalo' согласование в единственном числе, хотя по-русски говорят «листья опали» во множественном."
+      }
+     }
     },
     {
      "id": "e05",
@@ -4008,7 +4600,12 @@
      ],
      "answer": 2,
      "explain_en": "A possessor with its own modifiers requires the genitive.",
-     "explain_ru": "Обладатель с собственными определениями требует родительного падежа."
+     "explain_ru": "Обладатель с собственными определениями требует родительного падежа.",
+     "ui": {
+      "en": {
+       "q": "How do you say 'my older brother's car'?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -4016,7 +4613,12 @@
      "q": "Like Russian, Serbian does not decline the name Pikaso: 'o Pikaso'.",
      "answer": false,
      "explain_en": "False. Serbian declines it: o Pikasu, slike Pikasa.",
-     "explain_ru": "Неверно. В сербском оно склоняется: o Pikasu, slike Pikasa."
+     "explain_ru": "Неверно. В сербском оно склоняется: o Pikasu, slike Pikasa.",
+     "ui": {
+      "ru": {
+       "q": "Как и в русском, в сербском имя Pikaso не склоняется: 'o Pikaso'."
+      }
+     }
     },
     {
      "id": "e12",
@@ -4126,7 +4728,12 @@
      "q": "In 'Ovo je Petrov auto', Petrov is an adjective that agrees with auto.",
      "answer": true,
      "explain_en": "True. Possessive adjectives agree with the possessed noun.",
-     "explain_ru": "Верно. Притяжательные прилагательные согласуются с тем, чем владеют."
+     "explain_ru": "Верно. Притяжательные прилагательные согласуются с тем, чем владеют.",
+     "ui": {
+      "ru": {
+       "q": "В 'Ovo je Petrov auto' слово Petrov — прилагательное, согласованное с auto."
+      }
+     }
     },
     {
      "id": "e20",
@@ -4201,7 +4808,29 @@
        "pitanje velike važnosti",
        "вопрос большой важности"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "čovek velikog srca",
+         "a man with a big heart"
+        ],
+        [
+         "devojka crne kose",
+         "a girl with black hair"
+        ],
+        [
+         "žena jake volje",
+         "a woman of strong will"
+        ],
+        [
+         "pitanje velike važnosti",
+         "a question of great importance"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e25",
@@ -4225,7 +4854,12 @@
      ],
      "answer": 2,
      "explain_en": "A genitive chain: every noun after odluka is in the genitive.",
-     "explain_ru": "Цепочка родительных: каждое существительное после odluka стоит в родительном."
+     "explain_ru": "Цепочка родительных: каждое существительное после odluka стоит в родительном.",
+     "ui": {
+      "en": {
+       "q": "How do you say 'the decision of the Government of the Republic of Serbia'?"
+      }
+     }
     },
     {
      "id": "e27",
@@ -4233,7 +4867,12 @@
      "q": "'Mog bratov auto' is a correct way to say 'my brother's car'.",
      "answer": false,
      "explain_en": "False. With a modifier, use the genitive: auto mog brata (or simply bratov auto).",
-     "explain_ru": "Неверно. При наличии определения нужен родительный: auto mog brata (или просто bratov auto)."
+     "explain_ru": "Неверно. При наличии определения нужен родительный: auto mog brata (или просто bratov auto).",
+     "ui": {
+      "ru": {
+       "q": "'Mog bratov auto' — правильный способ сказать «машина моего брата»."
+      }
+     }
     },
     {
      "id": "e28",
@@ -4552,7 +5191,15 @@
      "q": "'Govori po-srpski' is the correct Serbian for 'говорит по-сербски'.",
      "answer": false,
      "explain_en": "False. Serbian has no po-: govori srpski.",
-     "explain_ru": "Неверно. В сербском нет «по-»: govori srpski."
+     "explain_ru": "Неверно. В сербском нет «по-»: govori srpski.",
+     "ui": {
+      "en": {
+       "q": "'Govori po-srpski' is the correct Serbian for 'he speaks Serbian' (Russian 'govorit po-serbski')."
+      },
+      "ru": {
+       "q": "'Govori po-srpski' — правильный сербский перевод фразы «говорит по-сербски»."
+      }
+     }
     },
     {
      "id": "e05",
@@ -4637,7 +5284,12 @@
      "q": "Adjectives in -ski (srpski, gradski) have only the definite (long) form.",
      "answer": true,
      "explain_en": "True. There is no short form *srpsk.",
-     "explain_ru": "Верно. Краткой формы *srpsk не существует."
+     "explain_ru": "Верно. Краткой формы *srpsk не существует.",
+     "ui": {
+      "ru": {
+       "q": "Прилагательные на -ski (srpski, gradski) имеют только определённую (полную) форму."
+      }
+     }
     },
     {
      "id": "e12",
@@ -4748,7 +5400,15 @@
      "q": "'Vrlo bolji' is the normal way to say 'намного лучше'.",
      "answer": false,
      "explain_en": "False. Vrlo goes with the positive degree; use mnogo bolji.",
-     "explain_ru": "Неверно. Vrlo сочетается с положительной степенью; нужно mnogo bolji."
+     "explain_ru": "Неверно. Vrlo сочетается с положительной степенью; нужно mnogo bolji.",
+     "ui": {
+      "en": {
+       "q": "'Vrlo bolji' is the normal way to say 'much better'."
+      },
+      "ru": {
+       "q": "'Vrlo bolji' — обычный способ сказать «намного лучше»."
+      }
+     }
     },
     {
      "id": "e20",
@@ -4802,7 +5462,12 @@
      ],
      "answer": 3,
      "explain_en": "Superlative = naj- + comparative lepši: najlepši.",
-     "explain_ru": "Превосходная степень = naj- + сравнительная lepši: najlepši."
+     "explain_ru": "Превосходная степень = naj- + сравнительная lepši: najlepši.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение правильно?"
+      }
+     }
     },
     {
      "id": "e24",
@@ -4828,7 +5493,33 @@
        "još bolje",
        "ещё лучше"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "što pre",
+         "as soon as possible"
+        ],
+        [
+         "što više",
+         "as much as possible"
+        ],
+        [
+         "što bolje",
+         "as well as possible"
+        ],
+        [
+         "sve više",
+         "more and more"
+        ],
+        [
+         "još bolje",
+         "even better"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e25",
@@ -4852,7 +5543,12 @@
      ],
      "answer": 1,
      "explain_en": "Nimalo with negation = not at all.",
-     "explain_ru": "Nimalo с отрицанием = «ничуть», «нисколько»."
+     "explain_ru": "Nimalo с отрицанием = «ничуть», «нисколько».",
+     "ui": {
+      "en": {
+       "q": "'I'm not tired at all.' = Nisam ___ umoran."
+      }
+     }
     },
     {
      "id": "e27",
@@ -4860,7 +5556,12 @@
      "q": "In 'Taj stan je nov', the indefinite form is used because the adjective is in the predicate.",
      "answer": true,
      "explain_en": "True. The indefinite form is the norm in the predicate.",
-     "explain_ru": "Верно. В сказуемом нормой является неопределённая форма."
+     "explain_ru": "Верно. В сказуемом нормой является неопределённая форма.",
+     "ui": {
+      "ru": {
+       "q": "В 'Taj stan je nov' употреблена неопределённая форма, потому что прилагательное стоит в сказуемом."
+      }
+     }
     },
     {
      "id": "e28",
@@ -5135,7 +5836,12 @@
      "q": "'Jer' can begin a sentence: 'Jer pada kiša, ostajemo kod kuće.'",
      "answer": false,
      "explain_en": "False. Jer cannot start a sentence; use Pošto pada kiša or Budući da pada kiša.",
-     "explain_ru": "Неверно. Jer не может начинать предложение; используйте Pošto pada kiša или Budući da pada kiša."
+     "explain_ru": "Неверно. Jer не может начинать предложение; используйте Pošto pada kiša или Budući da pada kiša.",
+     "ui": {
+      "ru": {
+       "q": "С 'Jer' можно начать предложение: 'Jer pada kiša, ostajemo kod kuće.'"
+      }
+     }
     },
     {
      "id": "e05",
@@ -5165,7 +5871,37 @@
        "tako da",
        "так что"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "čim",
+         "as soon as"
+        ],
+        [
+         "dok",
+         "while"
+        ],
+        [
+         "pošto (vremensko)",
+         "after"
+        ],
+        [
+         "pre nego što",
+         "before"
+        ],
+        [
+         "jer",
+         "because"
+        ],
+        [
+         "tako da",
+         "so that"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -5235,7 +5971,15 @@
      "q": "After čim with future reference, Serbian uses the present of a perfective verb (Čim dođem…), whereas Russian uses the future (как только приду).",
      "answer": true,
      "explain_en": "True. Futur I is not used in such temporal clauses.",
-     "explain_ru": "Верно. Футур I в таких придаточных времени не употребляется."
+     "explain_ru": "Верно. Футур I в таких придаточных времени не употребляется.",
+     "ui": {
+      "en": {
+       "q": "After čim with future reference, Serbian uses the present of a perfective verb (Čim dođem…), whereas Russian uses the future ('kak tol'ko pridu')."
+      },
+      "ru": {
+       "q": "После čim с отнесённостью к будущему в сербском употребляется настоящее время совершенного вида (Čim dođem…), а в русском — будущее (как только приду)."
+      }
+     }
     },
     {
      "id": "e12",
@@ -5298,7 +6042,29 @@
        "Dok je jeo, gledao je televiziju.",
        "Пока он ел, он смотрел телевизор."
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "Pošto pada kiša, ostajemo kod kuće.",
+         "Since it's raining, we're staying at home."
+        ],
+        [
+         "Pošto je pojeo, otišao je.",
+         "After he had eaten, he left."
+        ],
+        [
+         "Pre nego što je jeo, oprao je ruke.",
+         "Before eating, he washed his hands."
+        ],
+        [
+         "Dok je jeo, gledao je televiziju.",
+         "While he was eating, he watched TV."
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e16",
@@ -5342,7 +6108,15 @@
      "q": "In 'Došao sam da te vidim', Serbian uses da + present where Russian uses чтобы + infinitive.",
      "answer": true,
      "explain_en": "True. Da + present is the standard purpose construction.",
-     "explain_ru": "Верно. Da + настоящее время – стандартная конструкция цели."
+     "explain_ru": "Верно. Da + настоящее время – стандартная конструкция цели.",
+     "ui": {
+      "en": {
+       "q": "In 'Došao sam da te vidim', Serbian uses da + present where Russian uses 'chtoby' + infinitive."
+      },
+      "ru": {
+       "q": "В 'Došao sam da te vidim' в сербском стоит da + настоящее время там, где в русском «чтобы» + инфинитив."
+      }
+     }
     },
     {
      "id": "e20",
@@ -5417,7 +6191,29 @@
        "da biste",
        "чтобы вы"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "da bih",
+         "so that I"
+        ],
+        [
+         "da bi",
+         "so that you / he / they"
+        ],
+        [
+         "da bismo",
+         "so that we"
+        ],
+        [
+         "da biste",
+         "so that you (pl.)"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e25",
@@ -5449,7 +6245,12 @@
      "q": "In 'Pošto je pojeo, otišao je', pošto means 'because'.",
      "answer": false,
      "explain_en": "False. Here pošto is temporal: after he had eaten.",
-     "explain_ru": "Неверно. Здесь pošto временное: «после того как поел»."
+     "explain_ru": "Неверно. Здесь pošto временное: «после того как поел».",
+     "ui": {
+      "ru": {
+       "q": "В 'Pošto je pojeo, otišao je' слово pošto значит «потому что»."
+      }
+     }
     },
     {
      "id": "e28",
@@ -5488,7 +6289,12 @@
      ],
      "answer": 3,
      "explain_en": "Futur I is not used after čim; use the present or futur II.",
-     "explain_ru": "После čim футур I не употребляется; нужно настоящее время или футур II."
+     "explain_ru": "После čim футур I не употребляется; нужно настоящее время или футур II.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение НЕправильно?"
+      }
+     }
     }
    ]
   },
@@ -5720,7 +6526,12 @@
      ],
      "answer": 0,
      "explain_en": "Ekavian has e for old jat: mleko.",
-     "explain_ru": "В экавице на месте ятя – e: mleko."
+     "explain_ru": "В экавице на месте ятя – e: mleko.",
+     "ui": {
+      "ru": {
+       "q": "Какова экавская форма слова 'mlijeko'?"
+      }
+     }
     },
     {
      "id": "e02",
@@ -5768,7 +6579,15 @@
      "q": "Serbian Cyrillic has the letters я, ю and щ.",
      "answer": false,
      "explain_en": "False. Serbian Cyrillic has ђ, ј, љ, њ, ћ, џ but none of я, ю, щ.",
-     "explain_ru": "Неверно. В сербской кириллице есть ђ, ј, љ, њ, ћ, џ, но нет я, ю, щ."
+     "explain_ru": "Неверно. В сербской кириллице есть ђ, ј, љ, њ, ћ, џ, но нет я, ю, щ.",
+     "ui": {
+      "en": {
+       "q": "Serbian Cyrillic has the Russian letters ya, yu and shch."
+      },
+      "ru": {
+       "q": "В сербской кириллице есть буквы я, ю и щ."
+      }
+     }
     },
     {
      "id": "e05",
@@ -5782,7 +6601,12 @@
      ],
      "answer": 2,
      "explain_en": "Lj is a single letter, Љ / љ.",
-     "explain_ru": "Lj – одна буква, Љ / љ."
+     "explain_ru": "Lj – одна буква, Љ / љ.",
+     "ui": {
+      "en": {
+       "q": "How is 'Ljubljana' written in Serbian Cyrillic?"
+      }
+     }
     },
     {
      "id": "e06",
@@ -5853,7 +6677,15 @@
      "q": "In Serbian Cyrillic, 'nj' is written with one letter, њ.",
      "answer": true,
      "explain_en": "True. Nj = њ, lj = љ, dž = џ.",
-     "explain_ru": "Верно. Nj = њ, lj = љ, dž = џ."
+     "explain_ru": "Верно. Nj = њ, lj = љ, dž = џ.",
+     "ui": {
+      "en": {
+       "q": "In Serbian Cyrillic, 'nj' is written with a single letter (a ligature of n and the soft sign)."
+      },
+      "ru": {
+       "q": "В сербской кириллице 'nj' пишется одной буквой — њ."
+      }
+     }
     },
     {
      "id": "e12",
@@ -5943,7 +6775,12 @@
      ],
      "answer": 2,
      "explain_en": "Verbal style: a full verb with an agent.",
-     "explain_ru": "Глагольный стиль: полнозначный глагол и деятель."
+     "explain_ru": "Глагольный стиль: полнозначный глагол и деятель.",
+     "ui": {
+      "ru": {
+       "q": "Какое предложение написано в глагольном (а не именном) стиле?"
+      }
+     }
     },
     {
      "id": "e18",
@@ -5961,7 +6798,12 @@
      "q": "Both ekavian and ijekavian are standard pronunciations of Serbian.",
      "answer": true,
      "explain_en": "True. Ekavian dominates in Serbia, ijekavian in Montenegro and Republika Srpska.",
-     "explain_ru": "Верно. Экавица преобладает в Сербии, иекавица – в Черногории и Республике Сербской."
+     "explain_ru": "Верно. Экавица преобладает в Сербии, иекавица – в Черногории и Республике Сербской.",
+     "ui": {
+      "ru": {
+       "q": "И экавское, и иекавское произношение являются нормативными для сербского языка."
+      }
+     }
     },
     {
      "id": "e20",
@@ -5975,7 +6817,12 @@
      ],
      "answer": 3,
      "explain_en": "Cyrillic is the official script; Latin is widely used but not official.",
-     "explain_ru": "Официальная азбука – кириллица; латиница широко распространена, но официального статуса не имеет."
+     "explain_ru": "Официальная азбука – кириллица; латиница широко распространена, но официального статуса не имеет.",
+     "ui": {
+      "ru": {
+       "q": "Какое письмо является официальным согласно Конституции Сербии?"
+      }
+     }
     },
     {
      "id": "e21",
@@ -6003,7 +6850,12 @@
       "beo"
      ],
      "explain_en": "Ekavian beo (bela, belo); final -l became -o.",
-     "explain_ru": "Экавское beo (bela, belo); конечное -l перешло в -o."
+     "explain_ru": "Экавское beo (bela, belo); конечное -l перешло в -o.",
+     "ui": {
+      "en": {
+       "q": "Ekavian ___ = 'white' (ijekavian bijel)."
+      }
+     }
     },
     {
      "id": "e23",
@@ -6017,7 +6869,12 @@
      ],
      "answer": 3,
      "explain_en": "Poštovani, is the neutral formal opening.",
-     "explain_ru": "Poštovani, – нейтральное официальное начало письма."
+     "explain_ru": "Poštovani, – нейтральное официальное начало письма.",
+     "ui": {
+      "ru": {
+       "q": "Какое приветствие подходит для официального письма незнакомому человеку?"
+      }
+     }
     },
     {
      "id": "e24",
@@ -6043,7 +6900,33 @@
        "u međuvremenu",
        "тем временем"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "prema rečima",
+         "according to"
+        ],
+        [
+         "kako se saznaje",
+         "as has been learned"
+        ],
+        [
+         "navodno",
+         "allegedly"
+        ],
+        [
+         "s tim u vezi",
+         "in this connection"
+        ],
+        [
+         "u međuvremenu",
+         "meanwhile"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e25",
@@ -6067,7 +6950,12 @@
      ],
      "answer": 1,
      "explain_en": "Ijekavian vidio corresponds to ekavian video.",
-     "explain_ru": "Иекавское vidio соответствует экавскому video."
+     "explain_ru": "Иекавское vidio соответствует экавскому video.",
+     "ui": {
+      "ru": {
+       "q": "Выберите иекавскую форму: 'On je to ___ juče.' (videti)"
+      }
+     }
     },
     {
      "id": "e27",
@@ -6075,7 +6963,12 @@
      "q": "Like Russian, Serbian uses patronymics in formal address (name + otčestvo).",
      "answer": false,
      "explain_en": "False. Serbian uses gospodine / gospođo + surname or a title.",
-     "explain_ru": "Неверно. В сербском используется gospodine / gospođo + фамилия или звание."
+     "explain_ru": "Неверно. В сербском используется gospodine / gospođo + фамилия или звание.",
+     "ui": {
+      "ru": {
+       "q": "Как и в русском, в сербском при официальном обращении используется отчество (имя + otčestvo)."
+      }
+     }
     },
     {
      "id": "e28",
@@ -6118,7 +7011,12 @@
      ],
      "answer": 2,
      "explain_en": "Lepo is ekavian, vrijeme ijekavian; a text must keep one variant.",
-     "explain_ru": "Lepo – экавское, vrijeme – иекавское; текст должен быть выдержан в одном варианте."
+     "explain_ru": "Lepo – экавское, vrijeme – иекавское; текст должен быть выдержан в одном варианте.",
+     "ui": {
+      "ru": {
+       "q": "В каком предложении смешаны экавские и иекавские формы (ошибка)?"
+      }
+     }
     }
    ]
   }

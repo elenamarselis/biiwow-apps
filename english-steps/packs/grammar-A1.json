@@ -232,7 +232,12 @@
      "q": "'He are a teacher.' is correct English.",
      "answer": false,
      "explain_en": "With 'he' we use 'is': He is a teacher.",
-     "explain_ru": "С he используем is: He is a teacher."
+     "explain_ru": "С he используем is: He is a teacher.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'He are a teacher.' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -293,7 +298,12 @@
      "q": "'I'm' is the short form of 'I am'.",
      "answer": true,
      "explain_en": "Yes. The apostrophe replaces the letter 'a' in 'am'.",
-     "explain_ru": "Верно. Апостроф заменяет букву a в слове am."
+     "explain_ru": "Верно. Апостроф заменяет букву a в слове am.",
+     "ui": {
+      "ru": {
+       "q": "'I'm' — краткая форма от 'I am'."
+      }
+     }
     },
     {
      "id": "e10",
@@ -378,7 +388,12 @@
      "q": "In English you can say 'I student' without a verb.",
      "answer": false,
      "explain_en": "English always needs a verb. Say 'I am a student'.",
-     "explain_ru": "В английском предложении обязательно нужен глагол: I am a student. В русском «Я студент» без глагола — норма, в английском — ошибка."
+     "explain_ru": "В английском предложении обязательно нужен глагол: I am a student. В русском «Я студент» без глагола — норма, в английском — ошибка.",
+     "ui": {
+      "ru": {
+       "q": "По-английски можно сказать 'I student' без глагола."
+      }
+     }
     },
     {
      "id": "e16",
@@ -446,7 +461,12 @@
      "q": "'Yes, I'm.' is a correct short answer.",
      "answer": false,
      "explain_en": "In a positive short answer we do not use the short form. Say 'Yes, I am.'",
-     "explain_ru": "В положительном кратком ответе сокращение не используется. Правильно: Yes, I am."
+     "explain_ru": "В положительном кратком ответе сокращение не используется. Правильно: Yes, I am.",
+     "ui": {
+      "ru": {
+       "q": "'Yes, I'm.' — правильный краткий ответ."
+      }
+     }
     },
     {
      "id": "e22",
@@ -568,7 +588,12 @@
      "q": "'Where is she?' is a correct question.",
      "answer": true,
      "explain_en": "Yes: question word + is + subject.",
-     "explain_ru": "Верно: вопросительное слово + is + подлежащее."
+     "explain_ru": "Верно: вопросительное слово + is + подлежащее.",
+     "ui": {
+      "ru": {
+       "q": "'Where is she?' — правильно построенный вопрос."
+      }
+     }
     },
     {
      "id": "e31",
@@ -826,7 +851,12 @@
      "q": "'It' is used for things and animals.",
      "answer": true,
      "explain_en": "Yes. 'It' replaces a thing or an animal.",
-     "explain_ru": "Верно. It заменяет предмет или животное."
+     "explain_ru": "Верно. It заменяет предмет или животное.",
+     "ui": {
+      "ru": {
+       "q": "'It' употребляется для предметов и животных."
+      }
+     }
     },
     {
      "id": "e05",
@@ -895,7 +925,12 @@
      "q": "'My' changes to 'mys' before a plural noun.",
      "answer": false,
      "explain_en": "'My' never changes: my book, my books.",
-     "explain_ru": "My не меняется: my book, my books. В отличие от русского «мой / мои»."
+     "explain_ru": "My не меняется: my book, my books. В отличие от русского «мой / мои».",
+     "ui": {
+      "ru": {
+       "q": "Перед существительным во множественном числе 'my' меняется на 'mys'."
+      }
+     }
     },
     {
      "id": "e10",
@@ -977,7 +1012,12 @@
      "q": "'It's' means 'it is'.",
      "answer": true,
      "explain_en": "Yes. 'It's' = 'it is'. 'Its' without an apostrophe is possessive.",
-     "explain_ru": "Верно. It's = it is. Its без апострофа — притяжательная форма."
+     "explain_ru": "Верно. It's = it is. Its без апострофа — притяжательная форма.",
+     "ui": {
+      "ru": {
+       "q": "'It's' означает 'it is'."
+      }
+     }
     },
     {
      "id": "e16",
@@ -1045,7 +1085,12 @@
      "q": "'This' is used for one thing near you.",
      "answer": true,
      "explain_en": "Yes. 'This' = singular and near; 'that' = singular and far.",
-     "explain_ru": "Верно. This — один предмет рядом; that — один предмет далеко."
+     "explain_ru": "Верно. This — один предмет рядом; that — один предмет далеко.",
+     "ui": {
+      "ru": {
+       "q": "'This' употребляется для одного предмета рядом с вами."
+      }
+     }
     },
     {
      "id": "e22",
@@ -1130,7 +1175,12 @@
      "q": "In English, 'you' can mean one person or many people.",
      "answer": true,
      "explain_en": "Yes. 'You' is both singular and plural.",
-     "explain_ru": "Верно. You — это и «ты», и «вы»."
+     "explain_ru": "Верно. You — это и «ты», и «вы».",
+     "ui": {
+      "ru": {
+       "q": "В английском 'you' может обозначать одного человека или многих людей."
+      }
+     }
     },
     {
      "id": "e29",
@@ -1439,7 +1489,12 @@
      "q": "Russian has articles like 'a' and 'the'.",
      "answer": false,
      "explain_en": "No. Russian has no articles. In English most singular nouns need one.",
-     "explain_ru": "Нет. В русском языке артиклей нет, а в английском они нужны почти перед каждым существительным в единственном числе."
+     "explain_ru": "Нет. В русском языке артиклей нет, а в английском они нужны почти перед каждым существительным в единственном числе.",
+     "ui": {
+      "ru": {
+       "q": "В русском языке есть артикли, такие как 'a' и 'the'."
+      }
+     }
     },
     {
      "id": "e05",
@@ -1508,7 +1563,12 @@
      "q": "We say 'an university'.",
      "answer": false,
      "explain_en": "'University' starts with the sound 'you' (a consonant sound), so it is 'a university'.",
-     "explain_ru": "University начинается со звука «ю» (согласный звук), поэтому a university."
+     "explain_ru": "University начинается со звука «ю» (согласный звук), поэтому a university.",
+     "ui": {
+      "ru": {
+       "q": "Правильно говорить 'an university'."
+      }
+     }
     },
     {
      "id": "e10",
@@ -1583,7 +1643,12 @@
      "q": "'Peoples' is the plural of 'person'.",
      "answer": false,
      "explain_en": "The plural of 'person' is 'people'. 'People' is already plural.",
-     "explain_ru": "Множественное число от person — people. People уже множественное число, «peoples» не говорят."
+     "explain_ru": "Множественное число от person — people. People уже множественное число, «peoples» не говорят.",
+     "ui": {
+      "ru": {
+       "q": "'Peoples' — множественное число от 'person'."
+      }
+     }
     },
     {
      "id": "e16",
@@ -1650,7 +1715,12 @@
      "q": "'An hour' is correct because the 'h' is silent.",
      "answer": true,
      "explain_en": "Yes. 'Hour' starts with a vowel sound, so we use 'an'.",
-     "explain_ru": "Верно. В слове hour буква h не читается, слово начинается с гласного звука, поэтому an."
+     "explain_ru": "Верно. В слове hour буква h не читается, слово начинается с гласного звука, поэтому an.",
+     "ui": {
+      "ru": {
+       "q": "'An hour' — правильно, потому что 'h' не читается."
+      }
+     }
     },
     {
      "id": "e22",
@@ -1744,7 +1814,12 @@
      "q": "'The' can be used with plural nouns.",
      "answer": true,
      "explain_en": "Yes: the books, the children. Only 'a / an' cannot go with plurals.",
-     "explain_ru": "Верно: the books, the children. Только a / an нельзя ставить перед множественным числом."
+     "explain_ru": "Верно: the books, the children. Только a / an нельзя ставить перед множественным числом.",
+     "ui": {
+      "ru": {
+       "q": "Артикль 'the' можно употреблять с существительными во множественном числе."
+      }
+     }
     },
     {
      "id": "e29",
@@ -2022,7 +2097,12 @@
      "q": "'They likes music.' is correct.",
      "answer": false,
      "explain_en": "With 'they' the verb has no -s: They like music.",
-     "explain_ru": "С they глагол без -s: They like music."
+     "explain_ru": "С they глагол без -s: They like music.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'They likes music.' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -2068,7 +2148,12 @@
      ],
      "answer": 0,
      "explain_en": "Consonant + y: study → studies.",
-     "explain_ru": "Согласная + y: study → studies."
+     "explain_ru": "Согласная + y: study → studies.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильную форму: My sister ___ English every day."
+      }
+     }
     },
     {
      "id": "e08",
@@ -2087,7 +2172,12 @@
      "q": "After 'doesn't' the verb has no -s.",
      "answer": true,
      "explain_en": "Yes: She doesn't work (not 'doesn't works').",
-     "explain_ru": "Верно: She doesn't work (не «doesn't works»)."
+     "explain_ru": "Верно: She doesn't work (не «doesn't works»).",
+     "ui": {
+      "ru": {
+       "q": "После 'doesn't' глагол употребляется без -s."
+      }
+     }
     },
     {
      "id": "e10",
@@ -2100,7 +2190,12 @@
      ],
      "answer": 0,
      "explain_en": "With 'you' the question starts with 'Do'.",
-     "explain_ru": "С you вопрос начинается с Do."
+     "explain_ru": "С you вопрос начинается с Do.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильное слово: ___ you speak English?"
+      }
+     }
     },
     {
      "id": "e11",
@@ -2166,7 +2261,12 @@
      "q": "'Does she works here?' is correct.",
      "answer": false,
      "explain_en": "After 'does' the verb has no -s: Does she work here?",
-     "explain_ru": "После does глагол без -s: Does she work here?"
+     "explain_ru": "После does глагол без -s: Does she work here?",
+     "ui": {
+      "ru": {
+       "q": "Вопрос 'Does she works here?' построен правильно."
+      }
+     }
     },
     {
      "id": "e16",
@@ -2234,7 +2334,12 @@
      "q": "Adverbs like 'always' go before the main verb.",
      "answer": true,
      "explain_en": "Yes: I always get up early. But after 'to be': He is always late.",
-     "explain_ru": "Верно: I always get up early. Но после to be: He is always late."
+     "explain_ru": "Верно: I always get up early. Но после to be: He is always late.",
+     "ui": {
+      "ru": {
+       "q": "Наречия вроде 'always' ставятся перед смысловым глаголом."
+      }
+     }
     },
     {
      "id": "e22",
@@ -2324,7 +2429,12 @@
      "q": "'I go to the gym every day.' is present simple.",
      "answer": true,
      "explain_en": "Yes. It is a habit with 'every day', so present simple.",
-     "explain_ru": "Верно. Это привычка (every day), поэтому Present Simple."
+     "explain_ru": "Верно. Это привычка (every day), поэтому Present Simple.",
+     "ui": {
+      "ru": {
+       "q": "'I go to the gym every day.' — это Present Simple."
+      }
+     }
     },
     {
      "id": "e29",
@@ -2625,7 +2735,12 @@
      "q": "'There' in 'there is a shop' means 'in that place'.",
      "answer": false,
      "explain_en": "No. 'There is' only says that something exists.",
-     "explain_ru": "Нет. There is просто говорит, что что-то есть, существует; «там» это слово здесь не означает."
+     "explain_ru": "Нет. There is просто говорит, что что-то есть, существует; «там» это слово здесь не означает.",
+     "ui": {
+      "ru": {
+       "q": "'There' в 'there is a shop' означает «в том месте»."
+      }
+     }
     },
     {
      "id": "e05",
@@ -2695,7 +2810,12 @@
      "q": "'Some' is used in positive sentences, 'any' in questions and negatives.",
      "answer": true,
      "explain_en": "Yes. That is the basic rule: some (+), any (? and -).",
-     "explain_ru": "Верно. Базовое правило: some в утверждении, any в вопросе и отрицании."
+     "explain_ru": "Верно. Базовое правило: some в утверждении, any в вопросе и отрицании.",
+     "ui": {
+      "ru": {
+       "q": "'Some' употребляется в утвердительных предложениях, 'any' — в вопросах и отрицаниях."
+      }
+     }
     },
     {
      "id": "e10",
@@ -2775,7 +2895,12 @@
      "q": "'He's got a car' means 'He is got a car'.",
      "answer": false,
      "explain_en": "'He's got' = 'He has got'.",
-     "explain_ru": "He's got = He has got («у него есть»), а не he is."
+     "explain_ru": "He's got = He has got («у него есть»), а не he is.",
+     "ui": {
+      "ru": {
+       "q": "'He's got a car' означает 'He is got a car'."
+      }
+     }
     },
     {
      "id": "e16",
@@ -2842,7 +2967,12 @@
      "q": "'I have a dog' and 'I have got a dog' mean the same.",
      "answer": true,
      "explain_en": "Yes. Both mean possession. 'Have got' is more British.",
-     "explain_ru": "Верно. Оба значат «у меня есть собака». Have got чаще в британском английском."
+     "explain_ru": "Верно. Оба значат «у меня есть собака». Have got чаще в британском английском.",
+     "ui": {
+      "ru": {
+       "q": "'I have a dog' и 'I have got a dog' значат одно и то же."
+      }
+     }
     },
     {
      "id": "e22",
@@ -2929,7 +3059,12 @@
      "q": "'There is some books on the table.' is correct.",
      "answer": false,
      "explain_en": "'Books' is plural: There are some books on the table.",
-     "explain_ru": "Books — множественное число: There are some books on the table."
+     "explain_ru": "Books — множественное число: There are some books on the table.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'There is some books on the table.' правильное."
+      }
+     }
     },
     {
      "id": "e29",
@@ -3204,7 +3339,12 @@
      "q": "'He can to swim.' is correct.",
      "answer": false,
      "explain_en": "After 'can' there is no 'to': He can swim.",
-     "explain_ru": "После can нет to: He can swim."
+     "explain_ru": "После can нет to: He can swim.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'He can to swim.' правильное."
+      }
+     }
     },
     {
      "id": "e05",
@@ -3266,7 +3406,12 @@
      "q": "'Can' has the same form for I, you, he, she, we and they.",
      "answer": true,
      "explain_en": "Yes. 'Can' never adds -s.",
-     "explain_ru": "Верно. Can никогда не получает -s."
+     "explain_ru": "Верно. Can никогда не получает -s.",
+     "ui": {
+      "ru": {
+       "q": "'Can' имеет одну и ту же форму для I, you, he, she, we и they."
+      }
+     }
     },
     {
      "id": "e10",
@@ -3279,7 +3424,12 @@
      ],
      "answer": 0,
      "explain_en": "The question with 'can' starts with 'can'. No 'do'.",
-     "explain_ru": "Вопрос с can начинается с can, без do."
+     "explain_ru": "Вопрос с can начинается с can, без do.",
+     "ui": {
+      "ru": {
+       "q": "Выберите правильное слово: ___ you speak English? — Yes, I can."
+      }
+     }
     },
     {
      "id": "e11",
@@ -3346,7 +3496,12 @@
      "q": "'Sit down' can be said to one person or to many people.",
      "answer": true,
      "explain_en": "Yes. The imperative has one form for everyone.",
-     "explain_ru": "Верно. Повелительная форма одна для всех: и «садись», и «садитесь»."
+     "explain_ru": "Верно. Повелительная форма одна для всех: и «садись», и «садитесь».",
+     "ui": {
+      "ru": {
+       "q": "'Sit down' можно сказать одному человеку или нескольким людям."
+      }
+     }
     },
     {
      "id": "e16",
@@ -3413,7 +3568,12 @@
      "q": "'Let's go' means 'I suggest we go together'.",
      "answer": true,
      "explain_en": "Yes. 'Let's' = 'let us' and makes a suggestion.",
-     "explain_ru": "Верно. Let's = let us, это предложение сделать что-то вместе («давай пойдём»)."
+     "explain_ru": "Верно. Let's = let us, это предложение сделать что-то вместе («давай пойдём»).",
+     "ui": {
+      "ru": {
+       "q": "'Let's go' означает «предлагаю пойти вместе»."
+      }
+     }
     },
     {
      "id": "e22",
@@ -3504,7 +3664,12 @@
      "q": "'She cans speak English.' is correct.",
      "answer": false,
      "explain_en": "'Can' never takes -s: She can speak English.",
-     "explain_ru": "Can не получает -s: She can speak English."
+     "explain_ru": "Can не получает -s: She can speak English.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'She cans speak English.' правильное."
+      }
+     }
     },
     {
      "id": "e29",
@@ -3553,7 +3718,29 @@
        "sing",
        "петь"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "swim",
+         "move through water"
+        ],
+        [
+         "drive",
+         "control a car"
+        ],
+        [
+         "cook",
+         "make food"
+        ],
+        [
+         "sing",
+         "make music with your voice"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e32",
@@ -3807,7 +3994,12 @@
      "q": "We say 'in Monday'.",
      "answer": false,
      "explain_en": "Days of the week take 'on': on Monday.",
-     "explain_ru": "С днями недели используем on: on Monday."
+     "explain_ru": "С днями недели используем on: on Monday.",
+     "ui": {
+      "ru": {
+       "q": "Правильно говорить 'in Monday'."
+      }
+     }
     },
     {
      "id": "e05",
@@ -3870,7 +4062,15 @@
      "q": "'In the kitchen' is correct for 'на кухне'.",
      "answer": true,
      "explain_en": "Yes. The kitchen is a room, and you are inside it: 'in'.",
-     "explain_ru": "Верно. Кухня — комната, мы внутри неё, поэтому in, хотя по-русски «на»."
+     "explain_ru": "Верно. Кухня — комната, мы внутри неё, поэтому in, хотя по-русски «на».",
+     "ui": {
+      "en": {
+       "q": "'In the kitchen' is correct (not 'on the kitchen')."
+      },
+      "ru": {
+       "q": "'In the kitchen' — правильный перевод для «на кухне»."
+      }
+     }
     },
     {
      "id": "e10",
@@ -3948,7 +4148,33 @@
        "next to",
        "рядом с"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "under",
+         "below something"
+        ],
+        [
+         "behind",
+         "at the back of something"
+        ],
+        [
+         "between",
+         "in the middle of two things"
+        ],
+        [
+         "in front of",
+         "facing the front of something"
+        ],
+        [
+         "next to",
+         "at the side of something"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e15",
@@ -3956,7 +4182,12 @@
      "q": "We say 'at night' but 'in the morning'.",
      "answer": true,
      "explain_en": "Yes. 'At night' is an exception; other parts of the day take 'in'.",
-     "explain_ru": "Верно. At night — исключение; с другими частями дня используем in."
+     "explain_ru": "Верно. At night — исключение; с другими частями дня используем in.",
+     "ui": {
+      "ru": {
+       "q": "Говорят 'at night', но 'in the morning'."
+      }
+     }
     },
     {
      "id": "e16",
@@ -4025,7 +4256,12 @@
      "q": "'On the bus' is correct English.",
      "answer": true,
      "explain_en": "Yes. For buses, trains and planes we say 'on'.",
-     "explain_ru": "Верно. Про автобусы, поезда и самолёты говорят on, хотя по-русски «в автобусе»."
+     "explain_ru": "Верно. Про автобусы, поезда и самолёты говорят on, хотя по-русски «в автобусе».",
+     "ui": {
+      "ru": {
+       "q": "'On the bus' — правильное английское выражение."
+      }
+     }
     },
     {
      "id": "e22",
@@ -4047,7 +4283,29 @@
        "next to the box",
        "рядом с коробкой"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "in the box",
+         "inside the box"
+        ],
+        [
+         "on the box",
+         "on top of the box"
+        ],
+        [
+         "under the box",
+         "below the box"
+        ],
+        [
+         "next to the box",
+         "beside the box"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e23",
@@ -4117,7 +4375,12 @@
      "q": "'I go to home' is correct.",
      "answer": false,
      "explain_en": "'Home' takes no 'to': I go home.",
-     "explain_ru": "Перед home предлог to не нужен: I go home."
+     "explain_ru": "Перед home предлог to не нужен: I go home.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I go to home' правильное."
+      }
+     }
     },
     {
      "id": "e29",
@@ -4400,7 +4663,12 @@
      "q": "The question word goes at the start of the question.",
      "answer": true,
      "explain_en": "Yes. Where is he? What do you want?",
-     "explain_ru": "Верно. Where is he? What do you want? — вопросительное слово всегда в начале."
+     "explain_ru": "Верно. Where is he? What do you want? — вопросительное слово всегда в начале.",
+     "ui": {
+      "ru": {
+       "q": "Вопросительное слово стоит в начале вопроса."
+      }
+     }
     },
     {
      "id": "e05",
@@ -4426,7 +4694,33 @@
        "Why",
        "почему"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "What",
+         "asks about a thing"
+        ],
+        [
+         "Where",
+         "asks about a place"
+        ],
+        [
+         "When",
+         "asks about a time"
+        ],
+        [
+         "Who",
+         "asks about a person"
+        ],
+        [
+         "Why",
+         "asks about a reason"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e06",
@@ -4469,7 +4763,12 @@
      "q": "'Where you live?' is a correct question.",
      "answer": false,
      "explain_en": "We need 'do': Where do you live?",
-     "explain_ru": "Нужен вспомогательный do: Where do you live?"
+     "explain_ru": "Нужен вспомогательный do: Where do you live?",
+     "ui": {
+      "ru": {
+       "q": "'Where you live?' — правильно построенный вопрос."
+      }
+     }
     },
     {
      "id": "e10",
@@ -4548,7 +4847,12 @@
      "q": "'How much' is used with plural nouns like 'books'.",
      "answer": false,
      "explain_en": "With plural countable nouns use 'how many': How many books?",
-     "explain_ru": "С исчисляемыми во множественном числе используем how many: How many books?"
+     "explain_ru": "С исчисляемыми во множественном числе используем how many: How many books?",
+     "ui": {
+      "ru": {
+       "q": "'How much' употребляется с существительными во множественном числе, например 'books'."
+      }
+     }
     },
     {
      "id": "e16",
@@ -4615,7 +4919,12 @@
      "q": "You can answer 'Where do you live?' with 'Yes'.",
      "answer": false,
      "explain_en": "No. A wh-question asks for information, not yes or no: Where do you live? — In Moscow.",
-     "explain_ru": "Нет. На вопрос с вопросительным словом нужно дать информацию, а не «да/нет»: Where do you live? — In Moscow."
+     "explain_ru": "Нет. На вопрос с вопросительным словом нужно дать информацию, а не «да/нет»: Where do you live? — In Moscow.",
+     "ui": {
+      "ru": {
+       "q": "На вопрос 'Where do you live?' можно ответить 'Yes'."
+      }
+     }
     },
     {
      "id": "e22",
@@ -4705,7 +5014,12 @@
      "q": "With 'to be' we do not use 'do' in questions: 'Where is she?'",
      "answer": true,
      "explain_en": "Yes. Question word + is/are + subject. No 'do'.",
-     "explain_ru": "Верно. Вопросительное слово + is/are + подлежащее, без do."
+     "explain_ru": "Верно. Вопросительное слово + is/are + подлежащее, без do.",
+     "ui": {
+      "ru": {
+       "q": "С глаголом 'to be' в вопросах не используется 'do': 'Where is she?'"
+      }
+     }
     },
     {
      "id": "e29",
@@ -4980,7 +5294,12 @@
      "q": "The present continuous is for actions happening now.",
      "answer": true,
      "explain_en": "Yes. 'I am reading' = right now.",
-     "explain_ru": "Верно. I am reading — прямо сейчас."
+     "explain_ru": "Верно. I am reading — прямо сейчас.",
+     "ui": {
+      "ru": {
+       "q": "Present Continuous используется для действий, которые происходят сейчас."
+      }
+     }
     },
     {
      "id": "e05",
@@ -5045,7 +5364,12 @@
      "q": "'I am work now.' is correct.",
      "answer": false,
      "explain_en": "We need -ing: I am working now.",
-     "explain_ru": "Нужно окончание -ing: I am working now."
+     "explain_ru": "Нужно окончание -ing: I am working now.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I am work now.' правильное."
+      }
+     }
     },
     {
      "id": "e10",
@@ -5124,7 +5448,12 @@
      "q": "'I am wanting a coffee.' is correct.",
      "answer": false,
      "explain_en": "'Want' is not used in the continuous: I want a coffee.",
-     "explain_ru": "Want не используется в Present Continuous: I want a coffee."
+     "explain_ru": "Want не используется в Present Continuous: I want a coffee.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I am wanting a coffee.' правильное."
+      }
+     }
     },
     {
      "id": "e16",
@@ -5190,7 +5519,12 @@
      "q": "'Study' becomes 'studing' with -ing.",
      "answer": false,
      "explain_en": "The -y stays: studying.",
-     "explain_ru": "Буква y сохраняется: studying."
+     "explain_ru": "Буква y сохраняется: studying.",
+     "ui": {
+      "ru": {
+       "q": "С окончанием -ing 'study' превращается в 'studing'."
+      }
+     }
     },
     {
      "id": "e22",
@@ -5279,7 +5613,12 @@
      "q": "'I'm having lunch with Tom tomorrow' talks about a plan.",
      "answer": true,
      "explain_en": "Yes. Present continuous + 'tomorrow' = a plan for the future.",
-     "explain_ru": "Верно. Present Continuous + tomorrow — план на будущее."
+     "explain_ru": "Верно. Present Continuous + tomorrow — план на будущее.",
+     "ui": {
+      "ru": {
+       "q": "'I'm having lunch with Tom tomorrow' говорит о плане."
+      }
+     }
     },
     {
      "id": "e29",
@@ -5580,7 +5919,12 @@
      "q": "'Was' is used with I, he, she and it.",
      "answer": true,
      "explain_en": "Yes. 'Were' is for you, we and they.",
-     "explain_ru": "Верно. Were — для you, we, they."
+     "explain_ru": "Верно. Were — для you, we, they.",
+     "ui": {
+      "ru": {
+       "q": "'Was' употребляется с I, he, she и it."
+      }
+     }
     },
     {
      "id": "e05",
@@ -5645,7 +5989,12 @@
      "q": "'I didn't worked yesterday.' is correct.",
      "answer": false,
      "explain_en": "After 'didn't' the verb has no -ed: I didn't work.",
-     "explain_ru": "После didn't глагол без -ed: I didn't work."
+     "explain_ru": "После didn't глагол без -ed: I didn't work.",
+     "ui": {
+      "ru": {
+       "q": "Предложение 'I didn't worked yesterday.' правильное."
+      }
+     }
     },
     {
      "id": "e10",
@@ -5680,7 +6029,12 @@
       "studied"
      ],
      "explain_en": "Consonant + y: change -y to -ied.",
-     "explain_ru": "Согласная + y: меняем -y на -ied."
+     "explain_ru": "Согласная + y: меняем -y на -ied.",
+     "ui": {
+      "ru": {
+       "q": "Поставьте глагол в Past Simple: I ___ (study) English at school."
+      }
+     }
     },
     {
      "id": "e13",
@@ -5724,7 +6078,12 @@
      "q": "Regular past verbs have the same form for all persons.",
      "answer": true,
      "explain_en": "Yes: I worked, she worked, they worked.",
-     "explain_ru": "Верно: I worked, she worked, they worked — одна форма для всех."
+     "explain_ru": "Верно: I worked, she worked, they worked — одна форма для всех.",
+     "ui": {
+      "ru": {
+       "q": "Правильные глаголы в прошедшем времени имеют одну форму для всех лиц."
+      }
+     }
     },
     {
      "id": "e16",
@@ -5793,7 +6152,12 @@
      "q": "'Ago' goes before the time: 'ago two days'.",
      "answer": false,
      "explain_en": "'Ago' comes after the time: two days ago.",
-     "explain_ru": "Ago стоит после периода: two days ago («два дня назад»)."
+     "explain_ru": "Ago стоит после периода: two days ago («два дня назад»).",
+     "ui": {
+      "ru": {
+       "q": "'Ago' ставится перед указанием времени: 'ago two days'."
+      }
+     }
     },
     {
      "id": "e22",
@@ -5890,7 +6254,12 @@
      "q": "In 'wanted' the -ed is an extra syllable.",
      "answer": true,
      "explain_en": "Yes. After 't' or 'd' the -ed sounds like 'id'.",
-     "explain_ru": "Верно. После t или d окончание -ed читается как отдельный слог «-ид»."
+     "explain_ru": "Верно. После t или d окончание -ed читается как отдельный слог «-ид».",
+     "ui": {
+      "ru": {
+       "q": "В слове 'wanted' окончание -ed образует дополнительный слог."
+      }
+     }
     },
     {
      "id": "e29",
@@ -5939,7 +6308,29 @@
        "last night",
        "вчера вечером"
       ]
-     ]
+     ],
+     "ui": {
+      "en": {
+       "pairs": [
+        [
+         "yesterday",
+         "the day before today"
+        ],
+        [
+         "last week",
+         "the week before this one"
+        ],
+        [
+         "two days ago",
+         "two days before today"
+        ],
+        [
+         "last night",
+         "yesterday evening"
+        ]
+       ]
+      }
+     }
     },
     {
      "id": "e32",
