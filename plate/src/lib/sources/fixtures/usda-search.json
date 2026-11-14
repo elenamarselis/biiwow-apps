@@ -1,0 +1,51 @@
+{
+  "foods": [
+    {
+      "fdcId": 171287,
+      "description": "Egg, whole, raw, fresh",
+      "dataType": "SR Legacy",
+      "foodCategory": "Dairy and Egg Products",
+      "foodNutrients": [
+        { "nutrientNumber": "208", "value": 143, "unitName": "KCAL" },
+        { "nutrientNumber": "203", "value": 12.6, "unitName": "G" },
+        { "nutrientNumber": "205", "value": 0.72, "unitName": "G" },
+        { "nutrientNumber": "204", "value": 9.51, "unitName": "G" },
+        { "nutrientNumber": "291", "value": 0, "unitName": "G" },
+        { "nutrientNumber": "307", "value": 142, "unitName": "MG" },
+        { "nutrientNumber": "328", "value": 2, "unitName": "UG" }
+      ],
+      "foodMeasures": [
+        { "disseminationText": "1 large", "gramWeight": 50 },
+        { "disseminationText": "Quantity not specified", "gramWeight": 50 }
+      ]
+    },
+    {
+      "fdcId": 173944,
+      "description": "BANANAS, RAW",
+      "dataType": "SR Legacy",
+      "foodCategory": "Fruits and Fruit Juices",
+      "foodNutrients": [
+        { "nutrientNumber": "208", "value": 89, "unitName": "KCAL" },
+        { "nutrientNumber": "203", "value": 1.09, "unitName": "G" },
+        { "nutrientNumber": "205", "value": 22.8, "unitName": "G" },
+        { "nutrientNumber": "204", "value": 0.33, "unitName": "G" },
+        { "nutrientNumber": "291", "value": 2.6, "unitName": "G" },
+        { "nutrientNumber": "306", "value": 358, "unitName": "MG" }
+      ],
+      "foodMeasures": [{ "disseminationText": "1 medium (7\" to 7-7/8\" long)", "gramWeight": 118 }]
+    },
+    {
+      "fdcId": 9999001,
+      "description": "Milk, whole, 3.25% milkfat",
+      "dataType": "SR Legacy",
+      "foodCategory": "Dairy and Egg Products",
+      "foodNutrients": [
+        { "nutrientNumber": "208", "value": 61, "unitName": "KCAL" },
+        { "nutrientNumber": "203", "value": 3.15, "unitName": "G" },
+        { "nutrientNumber": "205", "value": 4.8, "unitName": "G" },
+        { "nutrientNumber": "204", "value": 3.25, "unitName": "G" }
+      ],
+      "foodMeasures": [{ "disseminationText": "1 cup", "gramWeight": 244 }]
+    }
+  ]
+}

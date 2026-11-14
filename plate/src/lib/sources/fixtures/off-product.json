@@ -1,0 +1,26 @@
+{
+  "status": 1,
+  "product": {
+    "code": "5000000000017",
+    "product_name": "Oat & honey bar",
+    "brands": "Test Bakery",
+    "quantity": "40 g",
+    "product_quantity_unit": "g",
+    "serving_size": "1 bar (40 g)",
+    "serving_quantity": 40,
+    "serving_quantity_unit": "g",
+    "nutriments": {
+      "energy-kcal_100g": 420,
+      "proteins_100g": 7.5,
+      "carbohydrates_100g": 62,
+      "sugars_100g": 24,
+      "fat_100g": 15,
+      "saturated-fat_100g": 2.1,
+      "fiber_100g": 6.2,
+      "salt_100g": 0.5
+    },
+    "allergens_tags": ["en:gluten"],
+    "ingredients_text": "Oats, honey, sunflower oil, rice flour, salt",
+    "categories_tags": ["en:snacks", "en:cereal-bars"]
+  }
+}
