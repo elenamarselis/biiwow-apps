@@ -1,0 +1,48 @@
+# Publishes biiwow Plate (the full app) to Cloudflare Pages: https://biiwow-plate.pages.dev
+# Static export + Pages Functions (functions/) for food search. Login and data go to Supabase
+# from the browser; row-level security in Postgres keeps every row private to its owner.
+# The Supabase URL and publishable key below are public by design (they ship to every browser).
+# Needs the repository secret CLOUDFLARE_API_TOKEN, like deploy.yml.
+name: Plate
+on:
+  push:
+    branches: [main, claude/wonderful-albattani-08e3f8]
+    paths: ['plate/**', '.github/workflows/plate.yml']
+  workflow_dispatch:
+concurrency:
+  group: plate
+  cancel-in-progress: true
+env:
+  CLOUDFLARE_ACCOUNT_ID: 46ad8d9b54e0a0a2ad68447def7ab415
+  NEXT_PUBLIC_SUPABASE_URL: https://utnidhggcwemyxxrvjdc.supabase.co
+  NEXT_PUBLIC_SUPABASE_ANON_KEY: sb_publishable_cFnzHdb3joBpwlEYgJW1nA_-LF2Dl8N
+jobs:
+  plate:
+    name: Build and publish Plate
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: plate
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: plate/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build:pages
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: plate
+          command: pages deploy pages-out --project-name biiwow-plate --branch main --commit-dirty=true
+      - name: Verify live
+        working-directory: .
+        run: |
+          sleep 20
+          curl -sSf "https://biiwow-plate.pages.dev/login?v=${{ github.sha }}" | grep -q "biiwow Plate" && echo "Plate live"
+          test "$(curl -s -o /dev/null -w '%{http_code}' 'https://biiwow-plate.pages.dev/api/foods/search?q=egg')" = "401" && echo "Search refuses signed-out requests"

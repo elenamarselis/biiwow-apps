@@ -1,6 +1,6 @@
 # biiwow apps
 
-The biiwow apps. The learning apps are each a static site plus a Cloudflare Pages worker (`site/_worker.js`) backed by a KV namespace bound as `PROGRESS`. Plate is a Next.js app with its own setup, tests and deployment notes in `plate/README.md`; the Cloudflare workflow does not deploy it.
+The biiwow apps. The learning apps are each a static site plus a Cloudflare Pages worker (`site/_worker.js`) backed by a KV namespace bound as `PROGRESS`. Plate is a Next.js app with its own setup, tests and deployment notes in `plate/README.md`; it is published by `.github/workflows/plate.yml` (demo: `plate-demo.yml`), not by `deploy.yml`.
 
 | App | Folder | Live |
 |---|---|---|
@@ -11,7 +11,7 @@ The biiwow apps. The learning apps are each a static site plus a Cloudflare Page
 | Spanish Steps (A1–C2) | `spanish-steps/` | https://biiwow-spanish-steps.pages.dev |
 | Italian Steps (A1–C2) | `italian-steps/` | https://biiwow-italian-steps.pages.dev |
 | French Steps (A1–C2) | `french-steps/` | https://biiwow-french-steps.pages.dev |
-| Plate (private food & drink planner; Next.js + Supabase) | `plate/` | not deployed yet; see `plate/README.md` |
+| Plate (private food & drink planner; Next.js + Supabase) | `plate/` | https://biiwow-plate.pages.dev (demo: https://biiwow-plate-demo.pages.dev) |
 
 ## Build
 
