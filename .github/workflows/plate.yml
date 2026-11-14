@@ -46,3 +46,13 @@ jobs:
           sleep 20
           curl -sSf "https://biiwow-plate.pages.dev/login?v=${{ github.sha }}" | grep -q "biiwow Plate" && echo "Plate live"
           test "$(curl -s -o /dev/null -w '%{http_code}' 'https://biiwow-plate.pages.dev/api/foods/search?q=egg')" = "401" && echo "Search refuses signed-out requests"
+      - name: Check Supabase setup (informational)
+        working-directory: .
+        run: |
+          U="$NEXT_PUBLIC_SUPABASE_URL"; K="$NEXT_PUBLIC_SUPABASE_ANON_KEY"
+          echo "--- tables (a permission error is good: the table exists and signed-out access is refused)"
+          curl -s "$U/rest/v1/catalog_foods?select=id&limit=1" -H "apikey: $K"; echo
+          curl -s "$U/rest/v1/diary_entries?select=id&limit=1" -H "apikey: $K"; echo
+          echo "--- public sign-up (should say signups are not allowed)"
+          curl -s -X POST "$U/auth/v1/signup" -H "apikey: $K" -H "content-type: application/json" \
+            -d '{"email":"signup-check@example.invalid","password":"not-a-real-account-123"}' | head -c 300; echo
