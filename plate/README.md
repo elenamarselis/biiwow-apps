@@ -102,12 +102,26 @@ The e2e suite starts `next start` on port 3100 with `FOOD_SOURCES_MOCK=1` and cr
 
 ## Deployment
 
-The app needs a Node runtime (server routes and middleware), so it deploys differently from the static biiwow sites.
+### Cloudflare Pages (how biiwow Plate is published)
 
-1. **Supabase:** create a project. Run `npx supabase link --project-ref <ref>`, then `npx supabase db push` to apply the migrations. In Auth settings, turn **off** "Allow new users to sign up", set the Site URL to your app URL, and add `https://<your-domain>/auth/callback` to the redirect URLs.
-2. **Account:** with `.env.local` pointing at the project, run `npm run invite -- you@example.com` (email invite) or add `--password`.
-3. **App:** deploy `plate/` to Vercel (set the root directory to `plate`). Set the variables above, with `FOOD_SOURCES_MOCK=0`, and keep the service role key server-only (no `NEXT_PUBLIC_` prefix). Any Node host that runs `npm run build && npm start` works too. For Cloudflare, alongside the other biiwow apps, use the OpenNext Cloudflare adapter (`@opennextjs/cloudflare`); this is not set up in this repository.
-4. Optional: put it behind `biiwow.com/plate` by adding a path to `router/worker.js` (the app would then need `basePath: '/plate'` in `next.config.ts`).
+Because Supabase handles login and data from the browser (row-level security still protects every row), the app is built as a static site (`npm run build:pages` → `pages-out/`). Food search and barcode lookup run as Cloudflare Pages Functions (`functions/api/foods/*`) so the USDA key stays private; they answer signed-in users only, checking the Supabase session.
+
+1. **Supabase:** create a project. Run `supabase/migrations/20261114000001_schema.sql`, then `…000002_catalog.sql`, in the SQL Editor (or `npx supabase db push`). Then in Authentication:
+   - turn off "Allow new users to sign up";
+   - set the Site URL to `https://biiwow-plate.pages.dev`, and add `https://biiwow-plate.pages.dev/**` to Redirect URLs;
+   - create your account under Users → Add user.
+2. **Cloudflare Pages project `biiwow-plate`:** set these variables for the functions: `SUPABASE_URL`, `SUPABASE_ANON_KEY`, and optionally the secret `FDC_API_KEY` for USDA search.
+3. **Build and deploy:** `.github/workflows/plate.yml` builds with `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` (both public) and deploys `pages-out/` with the functions, using the repository's `CLOUDFLARE_API_TOKEN` secret.
+
+On this build there is no server-side service role key, so "delete my login" is not offered; Delete my data still removes every row. Remove the login itself in Supabase → Authentication → Users.
+
+### Demo
+
+`npm run build:demo` → `demo-out/`: no login and no Supabase; data stays in the visitor's browser and starts with a sample week. `.github/workflows/plate-demo.yml` publishes it to https://biiwow-plate-demo.pages.dev.
+
+### Node hosting (optional)
+
+`npm run build && npm start` runs the full Next.js server (middleware, API routes, CSV export on the server, deleting your login with `SUPABASE_SERVICE_ROLE_KEY`). It deploys to Vercel or any Node host; set the variables from the Credentials table with `FOOD_SOURCES_MOCK=0`.
 
 ## Catalog accuracy
 

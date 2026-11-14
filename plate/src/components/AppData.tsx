@@ -1,6 +1,8 @@
 'use client';
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react';
 import * as data from '@/lib/data';
+import { STATIC } from '@/lib/demo/mode';
+import { supabase } from '@/lib/supabase/client';
 import { localDate } from '@/lib/dates';
 import type { Candidate } from '@/lib/recommend';
 import type { CatalogFood, FoodLike, Profile, SavedMeal, Targets, UserFood } from '@/lib/types';
@@ -59,7 +61,15 @@ export function AppDataProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   useEffect(() => {
-    reload().finally(() => setReady(true));
+    (async () => {
+      if (STATIC) {
+        // Cloudflare Pages build has no middleware: check the session here.
+        const { data: u } = await supabase().auth.getUser();
+        if (!u.user) { window.location.replace('/login'); return; }
+      }
+      await reload();
+      setReady(true);
+    })();
   }, [reload]);
 
   const toast = useCallback((m: string) => {

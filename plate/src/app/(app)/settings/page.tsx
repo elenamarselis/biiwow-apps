@@ -4,7 +4,7 @@ import { useApp } from '@/components/AppData';
 import * as data from '@/lib/data';
 import { supabase } from '@/lib/supabase/client';
 import { deleteMyData, exportCsv } from '@/lib/api';
-import { DEMO } from '@/lib/demo/mode';
+import { DEMO, NO_SERVER } from '@/lib/demo/mode';
 import { targetsFor } from '@/lib/day';
 import { DASHBOARD_CHOICES, label, unitOf, type MetricKey } from '@/lib/nutrients';
 import type { TargetSpec, Targets } from '@/lib/types';
@@ -197,7 +197,7 @@ function DataCard() {
       <h2>Your data</h2>
       {DEMO ? <p className="small muted">Demo: everything is stored in this browser only. Nothing is uploaded or synced.</p> : email && <p className="small muted">Signed in as {email}</p>}
       <div className="row wrap">
-        <button className="btn" onClick={() => exportCsv()}>Export diary (CSV)</button>
+        <button className="btn" onClick={() => exportCsv().catch((e) => setMsg(`Export failed: ${(e as Error).message}`))}>Export diary (CSV)</button>
         {DEMO
           ? <button className="btn" onClick={async () => { const m = await import('@/lib/demo/client'); m.resetDemo(); window.location.href = '/today'; }}>Restart demo with sample week</button>
           : <button className="btn" onClick={async () => { await supabase().auth.signOut(); window.location.href = '/login'; }}>Sign out</button>}
@@ -206,7 +206,7 @@ function DataCard() {
         <summary className="err" style={{ cursor: 'pointer' }}>Delete my data</summary>
         <div className="stack" style={{ marginTop: 8 }}>
           <p className="small">This permanently deletes your diary, foods, meals and targets. Export first if you want a copy.</p>
-          {!DEMO && <label className="row small"><input type="checkbox" checked={account} onChange={(e) => setAccount(e.target.checked)} /> Also delete my login</label>}
+          {!NO_SERVER && <label className="row small"><input type="checkbox" checked={account} onChange={(e) => setAccount(e.target.checked)} /> Also delete my login</label>}
           <label className="field">Type DELETE to confirm<input type="text" value={confirm} onChange={(e) => setConfirm(e.target.value)} /></label>
           <button className="btn danger" disabled={confirm !== 'DELETE'} onClick={async () => {
             let j: { account: boolean; note?: string };

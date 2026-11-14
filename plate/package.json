@@ -15,7 +15,8 @@
     "db:catalog": "tsx scripts/build-catalog-migration.ts",
     "invite": "tsx scripts/invite.ts",
     "demo:seed": "tsx scripts/seed-demo.ts",
-    "build:demo": "node scripts/build-demo.mjs"
+    "build:demo": "node scripts/build-static.mjs demo",
+    "build:pages": "node scripts/build-static.mjs cloud"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

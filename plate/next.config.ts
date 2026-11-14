@@ -2,17 +2,22 @@ import type { NextConfig } from 'next';
 import { resolve } from 'node:path';
 
 const demo = process.env.NEXT_PUBLIC_DEMO === '1';
+const staticExport = demo || process.env.NEXT_PUBLIC_STATIC === '1';
 
-const config: NextConfig = demo
-  ? { reactStrictMode: true, output: 'export', images: { unoptimized: true } } // static demo (npm run build:demo)
+// Keep the demo-only in-browser store (and its bundled catalog) out of every real build.
+const webpack: NextConfig['webpack'] = (cfg) => {
+  if (!demo) {
+    cfg.resolve.alias = { ...(cfg.resolve.alias ?? {}), [resolve(__dirname, 'src/lib/demo/client.ts')]: resolve(__dirname, 'src/lib/demo/stub.ts') };
+  }
+  return cfg;
+};
+
+const config: NextConfig = staticExport
+  ? { reactStrictMode: true, output: 'export', images: { unoptimized: true }, webpack } // npm run build:demo / build:pages
   : {
       reactStrictMode: true,
       poweredByHeader: false,
-      webpack(cfg) {
-        // keep the demo-only in-browser store out of the real app
-        cfg.resolve.alias = { ...(cfg.resolve.alias ?? {}), [resolve(__dirname, 'src/lib/demo/client.ts')]: resolve(__dirname, 'src/lib/demo/stub.ts') };
-        return cfg;
-      },
+      webpack,
       async headers() {
         return [{
           source: '/(.*)',

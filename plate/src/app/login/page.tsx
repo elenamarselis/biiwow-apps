@@ -1,8 +1,8 @@
 'use client';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { supabase } from '@/lib/supabase/client';
 import { Wordmark } from '@/components/Logo';
-import { DEMO } from '@/lib/demo/mode';
+import { DEMO, STATIC } from '@/lib/demo/mode';
 
 export default function LoginPage() {
   if (DEMO && typeof window !== 'undefined') window.location.replace('/today');
@@ -11,6 +11,10 @@ export default function LoginPage() {
   const [mode, setMode] = useState<'password' | 'link'>('password');
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState<{ ok?: string; err?: string }>({});
+  // Without middleware (Cloudflare Pages build), skip the form if a session already exists.
+  useEffect(() => {
+    if (STATIC) supabase().auth.getUser().then(({ data }) => { if (data.user) window.location.replace('/today'); });
+  }, []);
 
   async function submit(e: React.FormEvent) {
     e.preventDefault();
@@ -22,7 +26,7 @@ export default function LoginPage() {
       if (error) { setMsg({ err: error.message === 'Invalid login credentials' ? 'Wrong email or password.' : error.message }); setBusy(false); return; }
       window.location.href = '/today';
     } else {
-      const { error } = await sb.auth.signInWithOtp({ email, options: { shouldCreateUser: false, emailRedirectTo: `${location.origin}/auth/callback` } });
+      const { error } = await sb.auth.signInWithOtp({ email, options: { shouldCreateUser: false, emailRedirectTo: STATIC ? `${location.origin}/today` : `${location.origin}/auth/callback` } });
       setMsg(error ? { err: error.message } : { ok: 'Check your email for a sign-in link.' });
       setBusy(false);
     }
