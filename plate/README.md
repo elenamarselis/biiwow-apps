@@ -2,7 +2,7 @@
 
 A private, mobile-first planner and tracker for what you eat and drink. It answers one question: **given what I've already had and what I'm planning for later, what should I add, swap or resize to get closer to my targets?**
 
-Next.js 15 (App Router, TypeScript) · Supabase Auth + Postgres with row-level security · rules-based recommendation engine · biiwow look and feel.
+Next.js 15 (App Router, TypeScript) · Supabase Auth + Postgres with row-level security · rules-based recommendation engine · biiwow layout and type with its own green / blue palette (green for food and actions, blue for plans and drinks).
 
 ## What it does
 

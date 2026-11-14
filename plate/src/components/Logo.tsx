@@ -2,7 +2,7 @@ export function Logo() {
   return (
     <svg className="bwlogo" viewBox="0 0 100 100" aria-hidden="true" focusable="false">
       <defs>
-        <linearGradient id="bwg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#fec72f" /><stop offset=".55" stopColor="#fa712d" /><stop offset="1" stopColor="#ff514b" /></linearGradient>
+        <linearGradient id="bwg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#3ddc97" /><stop offset=".55" stopColor="#14b8a6" /><stop offset="1" stopColor="#2f7fe0" /></linearGradient>
         <clipPath id="bwc"><rect width="100" height="100" rx="24" /></clipPath>
       </defs>
       <rect width="100" height="100" rx="24" fill="url(#bwg)" />
