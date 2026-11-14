@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { AppDataProvider } from '@/components/AppData';
 import { Wordmark } from '@/components/Logo';
+import { DEMO } from '@/lib/demo/mode';
 
 const TABS = [
   { href: '/today', label: 'Today', icon: <><circle cx="12" cy="12" r="8.5" /><path d="M12 7v5l3 2" /></> },
@@ -18,6 +19,7 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
       <div className="app">
         <header className="top">
           <Link href="/today" style={{ textDecoration: 'none', color: 'inherit' }} aria-label="biiwow Plate, Today"><Wordmark /></Link>
+          {DEMO && <p className="demo-note">Demo: your entries stay in this browser. No login, no sync.</p>}
         </header>
         <main id="main"><div className="page">{children}</div></main>
         <nav className="tabs" aria-label="Main">

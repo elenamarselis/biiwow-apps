@@ -2,8 +2,10 @@
 import { useState } from 'react';
 import { supabase } from '@/lib/supabase/client';
 import { Wordmark } from '@/components/Logo';
+import { DEMO } from '@/lib/demo/mode';
 
 export default function LoginPage() {
+  if (DEMO && typeof window !== 'undefined') window.location.replace('/today');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [mode, setMode] = useState<'password' | 'link'>('password');

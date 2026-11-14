@@ -199,3 +199,4 @@ table.t td.n, table.t th.n { text-align: right; font-variant-numeric: tabular-nu
 .login .card { width: 100%; max-width: 400px; display: grid; gap: 14px; }
 .skeleton { background: linear-gradient(90deg, var(--line2), var(--surface2), var(--line2)); background-size: 200% 100%; animation: sk 1.2s infinite; border-radius: 10px; height: 18px; }
 @keyframes sk { to { background-position: -200% 0; } }
+.demo-note { margin: 6px 0 0; font-size: .76rem; font-weight: 800; color: var(--drink); }

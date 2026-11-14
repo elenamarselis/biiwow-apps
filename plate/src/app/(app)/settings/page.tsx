@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react';
 import { useApp } from '@/components/AppData';
 import * as data from '@/lib/data';
 import { supabase } from '@/lib/supabase/client';
+import { deleteMyData, exportCsv } from '@/lib/api';
+import { DEMO } from '@/lib/demo/mode';
 import { targetsFor } from '@/lib/day';
 import { DASHBOARD_CHOICES, label, unitOf, type MetricKey } from '@/lib/nutrients';
 import type { TargetSpec, Targets } from '@/lib/types';
@@ -193,21 +195,22 @@ function DataCard() {
   return (
     <section className="card stack" aria-label="Your data">
       <h2>Your data</h2>
-      {email && <p className="small muted">Signed in as {email}</p>}
+      {DEMO ? <p className="small muted">Demo: everything is stored in this browser only. Nothing is uploaded or synced.</p> : email && <p className="small muted">Signed in as {email}</p>}
       <div className="row wrap">
-        <a className="btn" href="/api/export" download>Export diary (CSV)</a>
-        <button className="btn" onClick={async () => { await supabase().auth.signOut(); window.location.href = '/login'; }}>Sign out</button>
+        <button className="btn" onClick={() => exportCsv()}>Export diary (CSV)</button>
+        {DEMO
+          ? <button className="btn" onClick={async () => { const m = await import('@/lib/demo/client'); m.resetDemo(); window.location.href = '/today'; }}>Restart demo with sample week</button>
+          : <button className="btn" onClick={async () => { await supabase().auth.signOut(); window.location.href = '/login'; }}>Sign out</button>}
       </div>
       <details>
         <summary className="err" style={{ cursor: 'pointer' }}>Delete my data</summary>
         <div className="stack" style={{ marginTop: 8 }}>
           <p className="small">This permanently deletes your diary, foods, meals and targets. Export first if you want a copy.</p>
-          <label className="row small"><input type="checkbox" checked={account} onChange={(e) => setAccount(e.target.checked)} /> Also delete my login</label>
+          {!DEMO && <label className="row small"><input type="checkbox" checked={account} onChange={(e) => setAccount(e.target.checked)} /> Also delete my login</label>}
           <label className="field">Type DELETE to confirm<input type="text" value={confirm} onChange={(e) => setConfirm(e.target.value)} /></label>
           <button className="btn danger" disabled={confirm !== 'DELETE'} onClick={async () => {
-            const res = await fetch('/api/account/delete', { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ confirm, account }) });
-            const j = await res.json();
-            if (!res.ok) return setMsg(j.error);
+            let j: { account: boolean; note?: string };
+            try { j = await deleteMyData(account); } catch (e) { return setMsg((e as Error).message); }
             if (j.account) { window.location.href = '/login'; return; }
             setMsg(j.note ?? 'Your data has been deleted.');
             setTimeout(() => window.location.reload(), 1200);

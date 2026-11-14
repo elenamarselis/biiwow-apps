@@ -14,7 +14,8 @@
     "db:reset": "supabase db reset",
     "db:catalog": "tsx scripts/build-catalog-migration.ts",
     "invite": "tsx scripts/invite.ts",
-    "demo:seed": "tsx scripts/seed-demo.ts"
+    "demo:seed": "tsx scripts/seed-demo.ts",
+    "build:demo": "node scripts/build-demo.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.12.7",

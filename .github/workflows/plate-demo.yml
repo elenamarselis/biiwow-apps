@@ -1,0 +1,43 @@
+# Publishes the static demo of biiwow Plate (data stays in the visitor's browser; no login,
+# no Supabase) to Cloudflare Pages: https://biiwow-plate-demo.pages.dev
+# Needs the repository secret CLOUDFLARE_API_TOKEN (Cloudflare Pages: Edit), like deploy.yml.
+name: Plate demo
+on:
+  push:
+    branches: [main, claude/wonderful-albattani-08e3f8]
+    paths: ['plate/**', '.github/workflows/plate-demo.yml']
+  workflow_dispatch:
+concurrency:
+  group: plate-demo
+  cancel-in-progress: true
+env:
+  CLOUDFLARE_ACCOUNT_ID: 46ad8d9b54e0a0a2ad68447def7ab415
+jobs:
+  demo:
+    name: Build and publish Plate demo
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: plate
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: plate/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build:demo
+      - uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: plate/demo-out
+          command: pages deploy . --project-name biiwow-plate-demo --branch main --commit-dirty=true
+      - name: Verify live
+        working-directory: .
+        run: |
+          sleep 20
+          curl -sSf "https://biiwow-plate-demo.pages.dev/today?v=${{ github.sha }}" | grep -q "biiwow Plate" && echo "Plate demo live"

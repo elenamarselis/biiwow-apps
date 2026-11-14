@@ -6,6 +6,7 @@ import { Sheet } from './Sheet';
 import { FoodForm } from './FoodForm';
 import { findUserFood, useApp } from './AppData';
 import * as data from '@/lib/data';
+import { lookupBarcode, searchOnline } from '@/lib/api';
 import { entryFromFood } from '@/lib/entries';
 import { fmt, scale, NUTRIENTS } from '@/lib/nutrients';
 import { recipeAsFood, fmtYield } from '@/lib/recipes';
@@ -69,9 +70,8 @@ export function AddSheet({ date, meal: initialMeal, parent, pickOnly, onClose, o
     timer.current = window.setTimeout(async () => {
       setOnline((o) => ({ ...o, loading: true }));
       try {
-        const res = await fetch(`/api/foods/search?q=${encodeURIComponent(term)}`);
-        const json = (await res.json()) as { results?: FoodLike[]; errors?: string[]; error?: string };
-        setOnline({ q: term, results: json.results ?? [], errors: json.errors ?? (json.error ? [json.error] : []), loading: false });
+        const r = await searchOnline(term);
+        setOnline({ q: term, results: r.results, errors: r.errors, loading: false });
       } catch (e) {
         setOnline({ q: term, results: [], errors: [(e as Error).message], loading: false });
       }
@@ -379,10 +379,7 @@ function BarcodeStep({ onBack, onFound, onManual }: { onBack: () => void; onFoun
     const mine = app.foods.find((f) => f.barcode === code.trim());
     if (mine) { onFound(mine); return; }
     try {
-      const res = await fetch(`/api/foods/barcode?code=${encodeURIComponent(code.trim())}`);
-      const json = (await res.json()) as { food?: FoodLike; error?: string };
-      if (!res.ok || !json.food) throw new Error(json.error ?? 'Not found');
-      onFound(json.food);
+      onFound(await lookupBarcode(code.trim()));
     } catch (e2) { setErr((e2 as Error).message); setBusy(false); }
   }
   return (
