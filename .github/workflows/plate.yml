@@ -53,6 +53,5 @@ jobs:
           echo "--- tables (a permission error is good: the table exists and signed-out access is refused)"
           curl -s "$U/rest/v1/catalog_foods?select=id&limit=1" -H "apikey: $K"; echo
           curl -s "$U/rest/v1/diary_entries?select=id&limit=1" -H "apikey: $K"; echo
-          echo "--- public sign-up (should say signups are not allowed)"
-          curl -s -X POST "$U/auth/v1/signup" -H "apikey: $K" -H "content-type: application/json" \
-            -d '{"email":"signup-check@example.invalid","password":"not-a-real-account-123"}' | head -c 300; echo
+          echo "--- public sign-up (disable_signup should be true)"
+          curl -s "$U/auth/v1/settings" -H "apikey: $K" | grep -o '"disable_signup":[a-z]*'
