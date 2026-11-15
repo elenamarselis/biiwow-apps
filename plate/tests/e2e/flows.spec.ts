@@ -271,8 +271,15 @@ test('7. personal targets from age, sex, height and weight; avoided foods are fl
 });
 
 test('8. without planning, everything added is logged as eaten (no planned step)', async ({ page }) => {
-  await admin().from('profiles').update({ planning: false }).eq('user_id', await userId(USERS.a.email));
+  const uid = await userId(USERS.a.email);
+  await admin().from('profiles').update({ planning: false }).eq('user_id', uid);
+  // A leftover planned item from before planning was switched off is turned into eaten.
+  await admin().from('diary_entries').insert({ user_id: uid, entry_date: new Date().toISOString().slice(0, 10), meal: 'drinks', status: 'planned',
+    name: 'Leftover planned juice', kind: 'drink', basis: 'ml', unit: 'ml', amount: 240, planned_amount: 240, nutrients: { energy_kcal: 45 } });
   await login(page, 'a');
+  await expect(page.locator('[data-name="Leftover planned juice"][data-status=consumed]')).toBeVisible();
+  await expect(page.getByTestId('kcal-planned')).toHaveCount(0);
+  await admin().from('diary_entries').delete().eq('user_id', uid);
   await setTargets(page, 2000, { Protein: 120 });
   await page.goto('/today');
   await page.getByRole('button', { name: /Add food or drink/ }).click();

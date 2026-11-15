@@ -52,7 +52,7 @@ export default function WeekPage() {
         <>
           <section className="card" aria-label="Calories by day">
             <h2>Calories</h2>
-            <p className="muted small">Past days show what you had; today shows consumed plus planned.</p>
+            <p className="muted small">{app.profile?.planning ? 'Past days show what you had; today shows consumed plus planned.' : 'What you ate each day against your goal.'}</p>
             <div className="weekgrid" style={{ marginTop: 12 }}>
               {rows.map((r) => {
                 const v = r.shown.energy_kcal.value;

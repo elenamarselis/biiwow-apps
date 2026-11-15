@@ -51,7 +51,7 @@ export function Suggestions({ plan, date, entries, result, onPreview, onApplied 
             {s.note && <p className="tiny muted">{s.note}</p>}
             <div className="row">
               <button className="btn sm" aria-expanded={open === s.id} onClick={() => togglePreview(s)}>{open === s.id ? 'Hide preview' : 'Preview'}</button>
-              <button className="btn sm primary" disabled={busy === s.id} onClick={() => apply(s)}>{busy === s.id ? 'Saving…' : !plan && s.appliesTo <= app.today && s.actions.every((a) => a.type === 'add') ? 'Log it' : 'Apply to plan'}</button>
+              {(plan || s.appliesTo === date) && <button className="btn sm primary" disabled={busy === s.id} onClick={() => apply(s)}>{busy === s.id ? 'Saving…' : plan ? 'Apply to plan' : 'Log it'}</button>}
             </div>
             {open === s.id && (
               <div className="preview" data-testid="suggestion-preview">

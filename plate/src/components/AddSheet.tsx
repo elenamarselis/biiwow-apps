@@ -213,8 +213,9 @@ function AmountStep({ planning, food, date, initialMeal, parent, pickOnly, onPic
   const isGroup = food.mealRef?.kind === 'group';
   const defaultMeal: Meal = parent ? parent.meal : initialMeal ?? food.mealRef?.default_meal ?? (food.kind === 'drink' ? 'drinks' : upcomingMeal(localHour()));
   const [meal, setMeal] = useState<Meal>(defaultMeal);
-  const defaultStatus: Status = date < app.today ? 'consumed' : date > app.today ? 'planned'
-    : parent ? (parent.status === 'skipped' ? 'planned' : parent.status) : planning ? 'planned' : 'consumed';
+  // Without planning everything is logged as eaten, whatever the date.
+  const defaultStatus: Status = !planning ? 'consumed' : date < app.today ? 'consumed' : date > app.today ? 'planned'
+    : parent ? (parent.status === 'skipped' ? 'planned' : parent.status) : 'planned';
   const [status, setStatus] = useState<Status>(defaultStatus);
   const firstPortion = food.lastAmount ? null : portions[0] ?? null;
   const [portion, setPortion] = useState<Portion | null>(firstPortion);

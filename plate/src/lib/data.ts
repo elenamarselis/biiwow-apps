@@ -276,7 +276,7 @@ export async function applyActions(actions: Action[], entries: Entry[], opts: { 
   for (const a of actions) {
     if (a.type === 'add') {
       // Without planning, taking a suggestion today logs it as eaten; future days are always a plan.
-      const status = opts.logAsEaten && (!opts.today || a.date <= opts.today) ? 'consumed' : 'planned';
+      const status = opts.logAsEaten ? 'consumed' : 'planned';
       await insertEntries([entryFromFood(asSavable(a.food), { date: a.date, meal: a.meal, amount: a.amount, status, portion: a.portion, portionCount: a.portionCount })]);
     } else {
       const e = entries.find((x) => x.id === a.entryId);

@@ -38,6 +38,17 @@ export function Today() {
   useEffect(() => { setAll(null); load(); }, [load]);
 
   const entries = useMemo(() => (all ?? []).filter((e) => e.entry_date === date), [all, date]);
+
+  // With planning off, anything still marked planned (from before, or copied) is turned into eaten.
+  useEffect(() => {
+    if (!all || !app.profile || app.profile.planning) return;
+    const left = all.filter((e) => e.status === 'planned');
+    if (!left.length) return;
+    (async () => {
+      for (const e of left) await data.updateEntry(e.id, { status: 'consumed', planned_amount: null, consumed_at: e.consumed_at ?? new Date().toISOString() });
+      await load();
+    })().catch((err) => setErr((err as Error).message));
+  }, [all, app.profile, load]);
   const targets = targetsFor(app.targets, date);
   const shown = preview ?? entries;
   const s = useMemo(() => summarize(shown, targets), [shown, targets]);
@@ -72,9 +83,9 @@ export function Today() {
   const dash = (app.profile?.dashboard_nutrients ?? ['protein_g', 'fiber_g', 'fluid_ml']) as MetricKey[];
 
   const streak = all ? streakOf(all, app.today) : 0;
-  // Planning ahead is optional (Settings). Otherwise everything is logged as eaten; future days and
-  // any leftover planned items still show the plan view.
-  const plan = !!app.profile?.planning || date > app.today || entries.some((e) => e.status === 'planned');
+  // Planning ahead is optional (Settings → Plan meals ahead). When it is off, there is no planned
+  // state anywhere: everything is logged as eaten.
+  const plan = !!app.profile?.planning;
   const firstName = (app.profile?.display_name ?? '').split(/[\s@.]/)[0];
   const hasMicroTargets = Object.keys(targets?.nutrients ?? {}).some((k) => /_(mg|ug)$/.test(k) && k !== 'sodium_mg' && k !== 'caffeine_mg');
 
@@ -132,7 +143,7 @@ export function Today() {
         onWater={() => act(async () => {
           const w = app.catalog.find((c) => c.id === 'cat-water');
           if (!w) throw new Error('Water is missing from the catalog');
-          await data.insertEntries([entryFromFood({ ...w, catalogId: w.id }, { date, meal: 'drinks', amount: 250, status: date > app.today ? 'planned' : 'consumed' })]);
+          await data.insertEntries([entryFromFood({ ...w, catalogId: w.id }, { date, meal: 'drinks', amount: 250, status: plan && date > app.today ? 'planned' : 'consumed' })]);
         }, '💧 +250 ml water')} />
 
       {!all ? <div className="card"><div className="skeleton" /></div> : MEALS.map((m) => (
