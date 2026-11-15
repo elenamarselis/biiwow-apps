@@ -44,7 +44,7 @@ export function GapFiller({ date, entries, targets, plan, onLogged }: {
     setBusy(null);
   }
 
-  const shownGaps = showAll ? gaps : gaps.slice(0, 6);
+  const shownGaps = showAll ? gaps : gaps.slice(0, 5);
   const fully = gaps.filter((g) => (basket.after[g.key] ?? 0) >= 0.98).length;
 
   return (
@@ -57,30 +57,12 @@ export function GapFiller({ date, entries, targets, plan, onLogged }: {
         <p className="small"><b>All your nutrient targets are met so far today.</b> 🎉</p>
       ) : (
         <>
-          <p className="small muted">So far today you&rsquo;re short on {gaps.length} nutrient{gaps.length === 1 ? '' : 's'}. Bars show how much of each daily target you&rsquo;ve had.</p>
-          <div className="gaplist">
-            {shownGaps.map((g) => {
-              const after = basket.after[g.key] ?? g.pct;
-              return (
-                <div className="gaprow" key={g.key} title={`${fmt(g.have, g.key)} of ${fmt(g.min, g.key)} ${unitOf(g.key)}`}>
-                  <span className="gname">{label(g.key)}{g.uncertain && <span className="muted" title="Some foods you ate have no data for this, so you may have had more"> *</span>}</span>
-                  <span className="gbar" aria-hidden="true">
-                    <span className="gafter" style={{ width: `${Math.min(100, after * 100)}%` }} />
-                    <span className="gnow" style={{ width: `${Math.min(100, g.pct * 100)}%` }} />
-                  </span>
-                  <span className="gpct num">{Math.round(g.pct * 100)}%{items.length > 0 && after > g.pct + 0.005 && <span className="gup"> → {Math.min(999, Math.round(after * 100))}%</span>}</span>
-                </div>
-              );
-            })}
-          </div>
-          {gaps.length > 6 && <button className="btn sm ghost" style={{ justifySelf: 'start' }} onClick={() => setShowAll(!showAll)}>{showAll ? 'Show fewer' : `Show all ${gaps.length}`}</button>}
-          {gaps.some((g) => g.uncertain) && <p className="tiny muted">* Some foods you logged have no data for this nutrient, so you may have had more.</p>}
-
+          <p className="small muted">You&rsquo;re short on {gaps.length} nutrient{gaps.length === 1 ? '' : 's'} so far today. These foods close the most of them for the fewest calories:</p>
           {items.length === 0 ? (
-            <p className="small muted">No foods in your list close these gaps within your calories and preferences.</p>
+            <p className="small muted">No food in your list closes these gaps without going past one of your limits (sugar, salt…) or your preferences.</p>
           ) : (
             <>
-              <div className="eyebrow" style={{ marginTop: 4 }}>Best foods for this · {fmt(basket.kcal)} kcal in total</div>
+              
               <div className="basket">
                 {items.map((it) => {
                   const top = (Object.entries(it.adds) as [NutrientKey, number][])
@@ -109,6 +91,25 @@ export function GapFiller({ date, entries, targets, plan, onLogged }: {
               {items.length > 1 && <button className="btn primary" disabled={!!busy} onClick={() => log()}>{busy === 'all' ? 'Logging…' : `Log all ${items.length} (${fmt(basket.kcal)} kcal)`}</button>}
             </>
           )}
+          <div className="eyebrow" style={{ marginTop: 6 }}>What you&rsquo;re short on so far today</div>
+          <div className="gaplist">
+            {shownGaps.map((g) => {
+              const after = basket.after[g.key] ?? g.pct;
+              return (
+                <div className="gaprow" key={g.key} title={`${fmt(g.have, g.key)} of ${fmt(g.min, g.key)} ${unitOf(g.key)}`}>
+                  <span className="gname">{label(g.key)}{g.uncertain && <span className="muted" title="Some foods you ate have no data for this, so you may have had more"> *</span>}</span>
+                  <span className="gbar" aria-hidden="true">
+                    <span className="gafter" style={{ width: `${Math.min(100, after * 100)}%` }} />
+                    <span className="gnow" style={{ width: `${Math.min(100, g.pct * 100)}%` }} />
+                  </span>
+                  <span className="gpct num">{Math.round(g.pct * 100)}%{items.length > 0 && after > g.pct + 0.005 && <span className="gup"> → {Math.min(999, Math.round(after * 100))}%</span>}</span>
+                </div>
+              );
+            })}
+          </div>
+          {gaps.length > 5 && <button className="btn sm ghost" style={{ justifySelf: 'start' }} onClick={() => setShowAll(!showAll)}>{showAll ? 'Show fewer' : `Show all ${gaps.length}`}</button>}
+          {gaps.some((g) => g.uncertain) && <p className="tiny muted">* Some foods you logged have no data for this nutrient, so you may have had more.</p>}
+
         </>
       )}
     </section>

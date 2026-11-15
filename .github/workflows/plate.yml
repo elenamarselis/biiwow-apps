@@ -55,3 +55,6 @@ jobs:
           curl -s "$U/rest/v1/diary_entries?select=id&limit=1" -H "apikey: $K"; echo
           echo "--- public sign-up (disable_signup should be true)"
           curl -s "$U/auth/v1/settings" -H "apikey: $K" | grep -o '"disable_signup":[a-z]*'
+          echo "--- food sources reachable from the internet"
+          curl -s -o /dev/null -w "Open Food Facts search: HTTP %{http_code} in %{time_total}s\n" "https://world.openfoodfacts.org/cgi/search.pl?search_terms=yogurt&search_simple=1&action=process&json=1&page_size=3"
+          curl -s -o /dev/null -w "USDA search (DEMO_KEY): HTTP %{http_code}\n" "https://api.nal.usda.gov/fdc/v1/foods/search?api_key=DEMO_KEY&query=egg&pageSize=1"

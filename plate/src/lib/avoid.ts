@@ -61,7 +61,22 @@ export function avoidReasons(f: FoodLike, p: { diet: string[]; allergies: string
   }
   for (const raw of p.avoid) {
     const term = raw.toLowerCase().trim();
+    // Free text like "cow-based dairy" or "pork products" means the whole food group.
+    const group = groupFromText(term);
+    if (group && CHECKS[group](f)) { out.push(AVOID_CHOICES.find((c) => c.code === group)!.label); continue; }
     if (term.length >= 3 && t.includes(term)) out.push(`Avoided: ${term}`);
   }
   return [...new Set(out)];
+}
+
+/** Map free-text avoid terms onto the food groups above ("dairy", "cow milk" → no_dairy, …). */
+export function groupFromText(term: string): string | null {
+  const t = term.toLowerCase();
+  if (/\b(dairy|cow'?s?[- ]?(milk|based)|lactose|milk products?)\b/.test(t)) return 'no_dairy';
+  if (/\b(pork|pig|bacon|ham)\b/.test(t)) return 'no_pork';
+  if (/\bred meat\b/.test(t)) return 'no_red_meat';
+  if (/\b(beef|veal)\b/.test(t)) return 'no_beef';
+  if (/\b(alcohol|booze)\b/.test(t)) return 'no_alcohol';
+  if (/\b(caffeine|coffee)\b/.test(t)) return 'no_caffeine';
+  return null;
 }

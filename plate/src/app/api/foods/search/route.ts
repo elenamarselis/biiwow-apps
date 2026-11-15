@@ -17,7 +17,8 @@ export async function GET(req: Request) {
 
   const errors: string[] = [];
   const timeout = () => AbortSignal.timeout(7000);
-  const key = process.env.FDC_API_KEY;
+  // Without a personal key, USDA's shared DEMO_KEY works but is heavily rate-limited.
+  const key = process.env.FDC_API_KEY || 'DEMO_KEY';
   const [usda, off] = await Promise.all([
     key
       ? searchUsda(q, key, timeout()).catch((e: Error) => { errors.push(`USDA: ${e.message}`); return [] as FoodLike[]; })

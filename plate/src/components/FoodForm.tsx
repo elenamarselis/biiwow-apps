@@ -1,7 +1,10 @@
 'use client';
 // Manual entry: custom foods and drinks, or values copied from a product label.
 // Blank nutrient fields are saved as UNKNOWN, not zero.
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
+import { useApp } from './AppData';
+import { matchScore } from '@/lib/search';
+import type { CatalogFood } from '@/lib/types';
 import { NUTRIENTS, sanitize, type NutrientKey } from '@/lib/nutrients';
 import type { FoodLike, Portion, UserFood } from '@/lib/types';
 
@@ -41,6 +44,35 @@ export function FoodForm({ initial, onSave, onCancel, busy }: {
   const [barcode, setBarcode] = useState(initial?.barcode ?? '');
   const [ingredients, setIngredients] = useState(initial?.ingredients ?? '');
   const [err, setErr] = useState<string | null>(null);
+  const { catalog } = useApp();
+  const [basedOn, setBasedOn] = useState<string | null>(null);
+  const [nameTouched, setNameTouched] = useState(false);
+
+  // Catalogue matches for the name being typed: pick one to fill in all its values.
+  const matches = useMemo(() => {
+    if (initial?.id || basedOn || name.trim().length < 2) return [];
+    return catalog.map((c) => ({ c, s: matchScore(name, `${c.name} ${c.state ?? ''}`) }))
+      .filter((x) => x.s > 0).sort((a, b) => b.s - a.s).slice(0, 5).map((x) => x.c);
+  }, [catalog, name, basedOn, initial?.id]);
+
+  function applyCatalog(c: CatalogFood) {
+    setBasedOn(c.name);
+    if (!nameTouched || name.trim().length < 3) setName(c.name);
+    setKind(c.kind);
+    setState(c.state ?? '');
+    setBasisUnit(c.basis === 'ml' ? 'ml' : 'g');
+    setPer('100');
+    const p0 = c.portions?.[0];
+    setServingSize(p0 ? String(p0.amount) : '');
+    setServingLabel(p0?.label ?? '');
+    const v: Record<string, string> = {};
+    for (const [k, val] of Object.entries(c.nutrients)) v[k] = String(Math.round(Number(val) * 1000) / 1000);
+    setVals(v);
+    setShowMicro(Object.keys(c.nutrients).some((k) => MICRO.includes(k as NutrientKey)));
+    setTags(c.tags ?? []);
+    setAllergens(c.allergens ?? []);
+    setFromLabel(false);
+  }
 
   const toggle = (list: string[], set: (v: string[]) => void, x: string) => set(list.includes(x) ? list.filter((y) => y !== x) : [...list, x]);
 
@@ -83,7 +115,21 @@ export function FoodForm({ initial, onSave, onCancel, busy }: {
         <button type="button" aria-pressed={kind === 'food'} onClick={() => { setKind('food'); setBasisUnit('g'); }}>Food</button>
         <button type="button" aria-pressed={kind === 'drink'} onClick={() => { setKind('drink'); setBasisUnit('ml'); }}>Drink</button>
       </div>
-      <label className="field">Name<input type="text" value={name} onChange={(e) => setName(e.target.value)} required /></label>
+      <label className="field">Name<input type="text" value={name} onChange={(e) => { setName(e.target.value); setNameTouched(true); }} required placeholder="Start typing, e.g. poached egg" /></label>
+      {matches.length > 0 && (
+        <div className="catmatch" data-testid="catalog-matches">
+          <div className="eyebrow">From the food catalogue: tap to fill in all values</div>
+          {matches.map((c) => (
+            <button type="button" key={c.id} className="catrow" onClick={() => applyCatalog(c)}>
+              <span><b>{c.name}</b>{c.state && <span className="muted small"> · {c.state}</span>}</span>
+              <span className="muted small num">{c.nutrients.energy_kcal !== undefined ? `${Math.round(c.nutrients.energy_kcal)} kcal / 100 ${c.basis}` : ''}</span>
+            </button>
+          ))}
+        </div>
+      )}
+      {basedOn && (
+        <p className="small ok" role="status">Values filled in from &ldquo;{basedOn}&rdquo;. Rename it or change anything you like. <button type="button" className="btn sm ghost" onClick={() => { setBasedOn(null); }}>Choose another</button></p>
+      )}
       <div className="row">
         <label className="field grow">Brand (optional)<input type="text" value={brand} onChange={(e) => setBrand(e.target.value)} /></label>
         <label className="field" style={{ width: 130 }}>State

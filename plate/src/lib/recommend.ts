@@ -160,7 +160,7 @@ export function allowed(f: FoodLike, p: Preferences): boolean {
   if (diet.includes('vegetarian') && has('meat', 'poultry', 'fish', 'shellfish')) return false;
   if (diet.includes('pescatarian') && has('meat', 'poultry')) return false;
   // Foods avoided for non-allergy reasons (cow's-milk dairy, pork, beef, red meat, alcohol, caffeine).
-  if (avoidReasons(f, { diet: p.diet, allergies: [], avoid: [] }).length) return false;
+  if (avoidReasons(f, { diet: p.diet, allergies: [], avoid: p.avoid }).length) return false;
   return true;
 }
 

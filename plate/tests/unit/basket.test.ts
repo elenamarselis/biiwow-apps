@@ -56,3 +56,25 @@ describe('fill my gaps', () => {
     expect(b.items).toHaveLength(0);
   });
 });
+
+describe('limits and free-text avoid', () => {
+  it('still recommends foods when a limit is reached, skipping only those that add a real amount', () => {
+    // ~30 g sugar already, limit 30 g: spinach (0.4 g sugar) must still be possible, juice must not.
+    const day = [entry('cat-orange-juice', 240, 'consumed', 'drinks'), entry('cat-egg-hard-boiled', 100, 'consumed', 'breakfast'),
+      { ...entry('cat-banana', 100, 'consumed', 'breakfast'), nutrients: { energy_kcal: 52, sugar_g: 9.5 } }];
+    const t = targets({ calories: 1200, nutrients: { iron_mg: { min: 18 }, folate_ug: { min: 400 }, magnesium_mg: { min: 320 }, fiber_g: { min: 17 }, sugar_g: { max: 30 } } });
+    const b = fillGaps({ entries: day, targets: t, candidates: CATALOG, prefs: noPrefs });
+    expect(b.items.length).toBeGreaterThan(0);
+    for (const it of b.items) expect((it.food.nutrients.sugar_g ?? 0) * it.amount / 100).toBeLessThanOrEqual(1.5);
+  });
+  it('understands "cow-based dairy" and "pork" typed as free text', async () => {
+    const { avoidReasons } = await import('@/lib/avoid');
+    const prefs = { diet: [], allergies: [], avoid: ['cow-based dairy', 'pork'] };
+    const cat = (id: string) => CATALOG.find((c) => c.ref.id === id)!;
+    expect(avoidReasons(cat('cat-milk-whole'), prefs).length).toBeGreaterThan(0);
+    expect(avoidReasons(cat('cat-cheddar'), prefs).length).toBeGreaterThan(0);
+    expect(avoidReasons(cat('cat-soy-drink'), prefs)).toEqual([]);
+    const b = fillGaps({ entries: [entry('cat-apple', 100, 'consumed')], targets: targets({ calories: 1500, nutrients: { calcium_mg: { min: 1000 }, protein_g: { min: 80 } } }), candidates: CATALOG, prefs: { ...noPrefs, avoid: ['cow-based dairy', 'pork'] } });
+    for (const it of b.items) { expect(it.food.tags).not.toContain('dairy'); expect(it.food.tags).not.toContain('pork'); }
+  });
+});

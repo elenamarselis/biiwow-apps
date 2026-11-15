@@ -344,3 +344,33 @@ test('9. fill my gaps logs low-calorie foods for missing nutrients; calories are
   await page.getByRole('button', { name: '30 days' }).click();
   await expect(stats).toContainText('1 day logged, including today (in progress)');
 });
+
+test('10. search finds everyday foods however typed; a new food can be filled in from the catalogue', async ({ page }) => {
+  await admin().from('profiles').update({ planning: false }).eq('user_id', await userId(USERS.a.email));
+  await login(page, 'a');
+  await setTargets(page, 1800);
+  await page.goto('/today');
+  await page.getByRole('button', { name: /Add food or drink/ }).click();
+  const dlg = page.getByRole('dialog');
+  for (const [q, expected] of [['poached eggs', /Egg, whole, poached/], ['tomatoes', /Tomato/], ['yoghurt', /yogurt/i], ['prawns', /Shrimp/]] as const) {
+    await page.getByLabel('Search foods and drinks').fill(q);
+    await expect(dlg.getByRole('button', { name: expected }).first()).toBeVisible();
+  }
+
+  // Create a custom food starting from a catalogue item.
+  await page.getByLabel('Search foods and drinks').fill('');
+  await dlg.getByRole('button', { name: '+ Create custom' }).click();
+  await dlg.getByRole('textbox', { name: 'Name', exact: true }).fill('poached egg');
+  const matches = dlg.getByTestId('catalog-matches');
+  await matches.getByRole('button', { name: /Egg, whole, poached/ }).click();
+  await expect(dlg.getByText(/Values filled in from/)).toBeVisible();
+  await expect(dlg.getByLabel('Calories (kcal)')).not.toHaveValue('');
+  await expect(dlg.getByLabel('Protein (g)')).not.toHaveValue('');
+  await dlg.getByRole('textbox', { name: 'Name', exact: true }).fill('My poached egg');
+  await dlg.getByRole('button', { name: 'Save food' }).click();
+  await expect(dlg.getByRole('heading', { name: 'My poached egg' })).toBeVisible();
+  await dlg.getByRole('button', { name: 'Log it' }).click();
+  await expect(page.locator('[data-name="My poached egg"][data-status=consumed]')).toBeVisible();
+  const food = (await admin().from('foods').select('*').eq('user_id', await userId(USERS.a.email)).eq('name', 'My poached egg').single()).data!;
+  expect(food.nutrients.energy_kcal).toBeGreaterThan(100);
+});

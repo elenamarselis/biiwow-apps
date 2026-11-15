@@ -351,3 +351,6 @@ h2 { display: flex; align-items: center; gap: 8px; }
 .lg-today { background: repeating-linear-gradient(135deg, #12a39a 0 3px, #5fc7bd 3px 6px); }
 .statgrid .today-stat { background: linear-gradient(135deg, var(--accent-soft), var(--drink-soft)); }
 .statgrid .today-stat { grid-column: 1 / -1; }
+.catmatch { display: grid; gap: 4px; padding: 8px; border-radius: 12px; background: var(--surface2); border: 1px solid var(--line); }
+.catrow { display: flex; justify-content: space-between; gap: 10px; align-items: center; text-align: left; padding: 8px 10px; border-radius: 10px; border: 0; background: var(--surface); }
+.catrow:hover { background: var(--accent-soft); }

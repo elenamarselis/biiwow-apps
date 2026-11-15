@@ -125,9 +125,18 @@ export function fillGaps(opts: {
           if (rem > 0) value += (Math.min(add, rem) / g.min) * weight.get(g.key)! * (g.uncertain ? 0.7 : 1);
         }
         if (value <= 0.05) continue;
-        // Never push a limit over.
-        if (limits.some((l) => l.have + (c.nutrients[l.key] ?? 0) * factor(a.amount, c.basis) > l.max)) continue;
-        let score = value / (kcal + 40);
+        // Limits (sugar, sodium, saturated fat, caffeine…): a trace never rules a food out, but a
+        // food that adds a real amount to a limit you would pass is skipped.
+        let limitPenalty = 1;
+        let blocked = false;
+        for (const l of limits) {
+          const add = (c.nutrients[l.key] ?? 0) * factor(a.amount, c.basis);
+          if (l.have + add <= l.max || add <= 0) continue;
+          if (add > l.max * 0.05) { blocked = true; break; }
+          limitPenalty *= 0.85;
+        }
+        if (blocked) continue;
+        let score = (value / (kcal + 40)) * limitPenalty;
         if (c.atHome) score *= 1.2;
         if (c.favorite) score *= 1.1;
         // A varied plate: the second food from the same group counts for less.

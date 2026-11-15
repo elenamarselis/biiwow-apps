@@ -8,6 +8,7 @@ import { findUserFood, useApp } from './AppData';
 import * as data from '@/lib/data';
 import { lookupBarcode, searchOnline } from '@/lib/api';
 import { avoidReasons } from '@/lib/avoid';
+import { matchScore } from '@/lib/search';
 import type { Profile } from '@/lib/types';
 import { entryFromFood } from '@/lib/entries';
 import { fmt, scale, NUTRIENTS } from '@/lib/nutrients';
@@ -50,19 +51,20 @@ export function AddSheet({ date, meal: initialMeal, parent, pickOnly, planning, 
   const recent = useMemo<Pickable[]>(() => app.recent.map((r) => ({ ...r, id: r.foodId ?? undefined, catalogId: r.catalogId })), [app.recent]);
 
   const local = useMemo(() => {
-    const words = q.toLowerCase().split(/\s+/).filter(Boolean);
-    if (!words.length) return [];
-    const hay = (f: Pickable) => `${f.name} ${f.brand ?? ''} ${f.state ?? ''} ${f.kind}`.toLowerCase();
+    if (!q.trim()) return [];
+    const hay = (f: Pickable) => `${f.name} ${f.brand ?? ''} ${f.state ?? ''} ${f.kind}`;
     const seen = new Set<string>();
-    const out: Pickable[] = [];
-    for (const f of [...recent, ...library]) {
+    const scored: { f: Pickable; score: number }[] = [];
+    for (const [i, f] of [...recent, ...library].entries()) {
       const key = `${f.name}|${f.brand ?? ''}`;
       if (seen.has(key)) continue;
-      if (words.every((w) => hay(f).includes(w))) { seen.add(key); out.push(f); }
+      const score = matchScore(q, hay(f));
+      if (score > 0) { seen.add(key); scored.push({ f, score: score + (i < recent.length ? 1 : 0) }); }
     }
-    const meals = pickOnly || parent ? [] : app.meals.filter((m) => words.every((w) => m.name.toLowerCase().includes(w)))
+    scored.sort((x, y) => y.score - x.score);
+    const meals = pickOnly || parent ? [] : app.meals.filter((m) => matchScore(q, m.name) > 0)
       .map((m) => ({ ...recipeAsFood(m), name: m.name, mealRef: m } as Pickable));
-    return [...meals, ...out].slice(0, 40);
+    return [...meals, ...scored.map((x) => x.f)].slice(0, 40);
   }, [q, recent, library, app.meals, pickOnly, parent]);
 
   // debounced online search

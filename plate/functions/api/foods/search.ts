@@ -9,7 +9,8 @@ export async function onRequestGet(ctx: Ctx): Promise<Response> {
   const q = (new URL(ctx.request.url).searchParams.get('q') ?? '').trim().slice(0, 80);
   if (q.length < 2) return json({ results: [], errors: [] });
   const errors: string[] = [];
-  const key = ctx.env.FDC_API_KEY;
+  // Without a personal key, USDA's shared DEMO_KEY works but is heavily rate-limited.
+  const key = ctx.env.FDC_API_KEY || 'DEMO_KEY';
   const [usda, off] = await Promise.all([
     key
       ? searchUsda(q, key, AbortSignal.timeout(7000)).catch((e: Error) => { errors.push(`USDA: ${e.message}`); return [] as FoodLike[]; })
