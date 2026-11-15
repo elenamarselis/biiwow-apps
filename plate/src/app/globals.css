@@ -347,3 +347,7 @@ h2 { display: flex; align-items: center; gap: 8px; }
 .mealsplit span { height: 100%; }
 .mealsplit-legend { display: grid; gap: 4px; margin-top: 10px; font-size: .86rem; }
 .mealsplit-legend i, .legend i { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.kbar.today { background: repeating-linear-gradient(135deg, #12a39a 0 6px, #5fc7bd 6px 12px); opacity: .85; }
+.lg-today { background: repeating-linear-gradient(135deg, #12a39a 0 3px, #5fc7bd 3px 6px); }
+.statgrid .today-stat { background: linear-gradient(135deg, var(--accent-soft), var(--drink-soft)); }
+.statgrid .today-stat { grid-column: 1 / -1; }

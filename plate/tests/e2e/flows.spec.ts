@@ -338,8 +338,9 @@ test('9. fill my gaps logs low-calorie foods for missing nutrients; calories are
 
   await page.getByRole('link', { name: 'Progress' }).click();
   const stats = page.getByTestId('calorie-stats');
-  await expect(stats).toContainText('1 day logged');
-  near(n(await stats.getByTestId('avg-kcal').textContent()), before + total, 2);
+  await expect(stats).toContainText('1 day logged, including today (in progress)');
+  near(n(await stats.getByTestId('today-kcal').textContent()), before + total, 2);
+  await expect(stats).toContainText('no finished days yet');
   await page.getByRole('button', { name: '30 days' }).click();
-  await expect(stats).toContainText('1 day logged');
+  await expect(stats).toContainText('1 day logged, including today (in progress)');
 });

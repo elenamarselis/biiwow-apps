@@ -34,18 +34,20 @@ export default function WeekPage() {
     return { date: d, t, s, shown, byMeal, logged: es.some((e) => e.status === 'consumed'), planned: d >= app.today };
   }), [days, entries, app.targets, app.today, plan]);
 
-  // ---- calorie stats over logged days
+  // ---- calorie stats. Today is still going, so only finished days are judged against the goal.
   const logged = rows.filter((r) => r.logged);
   const kcal = (r: (typeof rows)[number]) => r.shown.energy_kcal.value;
-  const avg = logged.length ? logged.reduce((a, r) => a + kcal(r), 0) / logged.length : 0;
-  const withGoal = logged.filter((r) => r.t);
+  const finished = logged.filter((r) => r.date < app.today);
+  const todayRow = rows.find((r) => r.date === app.today);
+  const avg = finished.length ? finished.reduce((a, r) => a + kcal(r), 0) / finished.length : 0;
+  const withGoal = finished.filter((r) => r.t);
   const onTarget = withGoal.filter((r) => kcal(r) <= r.t!.calories * 1.05 && kcal(r) >= r.t!.calories * 0.8).length;
   const over = withGoal.filter((r) => kcal(r) > r.t!.calories * 1.05).length;
   const vsGoal = withGoal.reduce((a, r) => a + (kcal(r) - r.t!.calories), 0);
   const p = app.profile;
   const energy = p ? recommendTargets({ age: ageFrom(p.birth_year), sex: p.sex, heightCm: p.height_cm, weightKg: p.weight_kg, activity: p.activity }, null).energy : null;
   // Only completed days count towards the weight estimate (today is still going).
-  const done = logged.filter((r) => r.date < app.today);
+  const done = finished;
   const vsMaint = energy ? done.reduce((a, r) => a + (kcal(r) - energy.maintenance), 0) : 0;
   const kgChange = vsMaint / 7700;
   const mealAvg = MEALS.map((m) => ({ ...m, kcal: logged.length ? logged.reduce((a, r) => a + r.byMeal[m.key], 0) / logged.length : 0 }));
@@ -86,14 +88,23 @@ export default function WeekPage() {
         <>
           <section className="card" aria-label="Calorie summary" data-testid="calorie-stats">
             <h2><span className="h-icon" aria-hidden="true">🔥</span> Calories</h2>
-            <p className="muted small">{days[0]} to {days.at(-1)}{end === app.today ? ' (today included)' : ''} · {logged.length} day{logged.length === 1 ? '' : 's'} logged</p>
+            <p className="muted small">{days[0]} to {days.at(-1)}{end === app.today ? ' (today included)' : ''} · {logged.length} day{logged.length === 1 ? '' : 's'} logged{todayRow?.logged && end === app.today ? ', including today (in progress)' : ''}</p>
             <div className="statgrid" style={{ marginTop: 10 }}>
-              <div><span className="k">Average a day</span><b className="num" data-testid="avg-kcal">{fmt(avg)}</b><span className="u">kcal</span></div>
-              <div><span className="k">On target</span><b className="num">{onTarget}<span className="u"> / {withGoal.length}</span></b><span className="u">days{over ? ` · ${over} over` : ''}</span></div>
-              <div><span className="k">vs your goals</span><b className={`num ${vsGoal > 0 ? 'neg' : 'pos'}`}>{vsGoal > 0 ? '+' : '−'}{fmt(Math.abs(vsGoal))}</b><span className="u">kcal in total</span></div>
+              {todayRow && end === app.today && (
+                <div className="today-stat">
+                  <span className="k">Today so far</span>
+                  <b className="num" data-testid="today-kcal">{fmt(kcal(todayRow))}</b>
+                  <span className="u">{todayRow.t ? (kcal(todayRow) <= todayRow.t.calories ? `kcal · ${fmt(todayRow.t.calories - kcal(todayRow))} left of ${fmt(todayRow.t.calories)}` : `kcal · ${fmt(kcal(todayRow) - todayRow.t.calories)} over ${fmt(todayRow.t.calories)}`) : 'kcal'}</span>
+                </div>
+              )}
+              <div><span className="k">Average a day</span>{finished.length ? <><b className="num" data-testid="avg-kcal">{fmt(avg)}</b><span className="u">kcal, finished days</span></> : <><b className="num">—</b><span className="u">no finished days yet</span></>}</div>
+              <div><span className="k">On target</span>{withGoal.length ? <><b className="num">{onTarget}<span className="u"> / {withGoal.length}</span></b><span className="u">finished days{over ? ` · ${over} over` : ''}</span></> : <><b className="num">—</b><span className="u">from tomorrow</span></>}</div>
+              <div><span className="k">vs your goals</span>{withGoal.length ? <><b className={`num ${vsGoal > 0 ? 'neg' : 'pos'}`}>{vsGoal > 0 ? '+' : '−'}{fmt(Math.abs(vsGoal))}</b><span className="u">kcal, finished days</span></> : <><b className="num">—</b><span className="u">no finished days yet</span></>}</div>
               <div>
                 <span className="k">Est. weight change</span>
-                {energy ? <><b className={`num ${kgChange > 0 ? 'neg' : 'pos'}`}>{kgChange > 0 ? '+' : kgChange < 0 ? '−' : ''}{fmt(Math.abs(kgChange))}</b><span className="u">kg from {done.length} full day{done.length === 1 ? '' : 's'}</span></>
+                {energy ? (done.length
+                  ? <><b className={`num ${kgChange > 0 ? 'neg' : 'pos'}`}>{kgChange > 0 ? '+' : kgChange < 0 ? '−' : ''}{fmt(Math.abs(kgChange))}</b><span className="u">kg from {done.length} finished day{done.length === 1 ? '' : 's'}</span></>
+                  : <><b className="num">—</b><span className="u">from tomorrow</span></>)
                   : <><b className="num">—</b><a className="u" href="/settings#about">add your details</a></>}
               </div>
             </div>
@@ -102,7 +113,7 @@ export default function WeekPage() {
               {rows.map((r) => {
                 const v = kcal(r);
                 const t = r.t?.calories;
-                const cls = !r.logged ? 'none' : t && v > t * 1.05 ? 'over' : t && v < t * 0.8 ? 'low' : 'ok';
+                const cls = r.date === app.today ? 'today' : !r.logged ? 'none' : t && v > t * 1.05 ? 'over' : t && v < t * 0.8 ? 'low' : 'ok';
                 return (
                   <div className="kcol" key={r.date} title={`${r.date}: ${fmt(v)} kcal${t ? ` of ${fmt(t)}` : ''}`}>
                     {span === 7 && r.logged && <span className="kval num">{fmt(v)}</span>}
@@ -116,8 +127,9 @@ export default function WeekPage() {
               {rows.map((r, i) => <span key={r.date}>{span === 7 ? shortDay(r.date) : (i % 5 === 0 || i === rows.length - 1 ? r.date.slice(8) : '')}</span>)}
             </div>
             <div className="legend" style={{ marginTop: 8 }}>
+              <span><i className="lg-today" />today so far</span>
               <span><i style={{ background: 'var(--accent)' }} />on target</span>
-              <span><i style={{ background: '#7fb6ea' }} />under 80%</span>
+              <span><i style={{ background: '#7fb6ea' }} />well under goal</span>
               <span><i style={{ background: 'var(--bad)' }} />over goal</span>
               <span><i style={{ background: 'var(--fg)', height: 2, verticalAlign: 3 }} />goal</span>
             </div>
