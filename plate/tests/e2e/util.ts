@@ -68,8 +68,10 @@ export async function addItem(page: Page, query: string, resultName: string | Re
   if (await unitBtn.count()) await unitBtn.click();
   await page.getByLabel(/Amount in (g|ml|servings)/).fill(String(opts.amount));
   if (opts.meal) await page.getByRole('dialog').getByLabel('Meal').selectOption(opts.meal);
-  if (opts.had) await page.getByRole('button', { name: /Already (ate|drank)/ }).click();
-  await page.getByRole('dialog').getByRole('button', { name: opts.had ? 'Log it' : 'Add to plan' }).click();
+  const planning = await page.getByRole('group', { name: 'Planned or had' }).count();
+  if (opts.had && planning) await page.getByRole('button', { name: /Already (ate|drank)/ }).click();
+  // Without planning there is no choice: the button is always "Log it".
+  await page.getByRole('dialog').getByRole('button', { name: opts.had || !planning ? 'Log it' : 'Add to plan' }).click();
   await expect(page.getByRole('dialog')).toHaveCount(0);
 }
 

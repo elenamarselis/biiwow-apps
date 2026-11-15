@@ -5,6 +5,7 @@ import { useApp } from './AppData';
 import { AddSheet } from './AddSheet';
 import { Sheet } from './Sheet';
 import { Suggestions } from './Suggestions';
+import { GapFiller } from './GapFiller';
 import * as data from '@/lib/data';
 import { addDays, isValidDate, localHour, prettyDate } from '@/lib/dates';
 import { calorieStatus, contributors, drinkSummary, summarize, targetFor, targetsFor, type DaySummary, type MetricTotal } from '@/lib/day';
@@ -125,8 +126,12 @@ export function Today() {
 
       <CalorieCard plan={plan} s={s} targets={targets} previewing={!!preview} onDetail={() => setDetail('energy_kcal')} />
 
+      {all && (
+        <GapFiller date={date} entries={entries} targets={targets} plan={plan} onLogged={load} />
+      )}
+
       {all && rec && (
-        <Suggestions plan={plan} date={date} entries={entries} result={rec} onPreview={setPreview}
+        <Suggestions plan={plan} date={date} entries={entries} result={plan ? rec : { ...rec, suggestions: rec.suggestions.filter((x) => x.kind !== 'fill_gap') }} onPreview={setPreview}
           onApplied={async () => { setPreview(null); await load(); }} />
       )}
 

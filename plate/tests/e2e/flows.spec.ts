@@ -302,12 +302,44 @@ test('8. without planning, everything added is logged as eaten (no planned step)
   await page.getByTestId('add-water').click();
   await expect(page.getByTestId('nbar-fluid_ml')).toContainText('250');
 
-  // Taking a suggestion logs it as eaten.
-  const sugg = page.getByTestId('suggestion').filter({ hasText: /protein is/ }).first();
-  await expect(sugg).toContainText(/Your logged protein/);
-  await sugg.getByRole('button', { name: 'Log it' }).click();
-  await expect(page.getByText('Logged', { exact: true })).toBeVisible();
+  // Taking a gap-filling food logs it as eaten.
+  const first = page.getByTestId('gap-filler').locator('.bitem').first();
+  await first.getByRole('button', { name: /^Log / }).click();
+  await expect(page.getByText(/^Logged /).first()).toBeVisible();
+  await expect.poll(async () => (await entriesOf(USERS.a.email)).length).toBe(3);
   const rows = await entriesOf(USERS.a.email);
   expect(rows.every((r) => r.status === 'consumed')).toBe(true);
-  expect(rows.length).toBe(3);
+});
+
+test('9. fill my gaps logs low-calorie foods for missing nutrients; calories are tracked over time', async ({ page }) => {
+  const uid = await userId(USERS.a.email);
+  await admin().from('profiles').update({ planning: false, diet: ['no_dairy', 'no_pork'], birth_year: new Date().getFullYear() - 35, sex: 'female', height_cm: 168, weight_kg: 70, activity: 'light' }).eq('user_id', uid);
+  await admin().from('targets').insert({ user_id: uid, effective_date: '2026-01-01', calories: 1600, fluid_ml: 2200,
+    nutrients: { protein_g: { min: 84 }, fiber_g: { min: 22 }, vitamin_c_mg: { min: 75 }, folate_ug: { min: 400 }, iron_mg: { min: 18 }, magnesium_mg: { min: 320 }, potassium_mg: { min: 2600 }, calcium_mg: { min: 1000 }, sodium_mg: { max: 2300 } } });
+  await login(page, 'a');
+  await addItem(page, 'oats dry', /Oats, rolled, dry/, { amount: 50, meal: 'breakfast' });
+
+  const card = page.getByTestId('gap-filler');
+  await expect(card).toContainText(/short on \d+ nutrients/);
+  const items = card.locator('.bitem');
+  const count = await items.count();
+  expect(count).toBeGreaterThan(0);
+  expect(count).toBeLessThanOrEqual(3);
+  const total = n((await card.getByRole('button', { name: /Log all/ }).textContent())!.match(/\(([\d,]+) kcal\)/)![1]);
+  expect(total).toBeLessThanOrEqual(1600);
+  for (const t of await items.allTextContents()) expect(t).not.toMatch(/milk|cheese|yogurt|pork|bacon|ham\b/i);
+  const before = n(await page.getByTestId('kcal-consumed').textContent());
+  await card.getByRole('button', { name: /Log all/ }).click();
+  await expect(page.getByText(`Logged ${count} foods`)).toBeVisible();
+  const rows = await entriesOf(USERS.a.email);
+  expect(rows.length).toBe(1 + count);
+  expect(rows.every((r) => r.status === 'consumed')).toBe(true);
+  near(n(await page.getByTestId('kcal-consumed').textContent()), before + total, 2);
+
+  await page.getByRole('link', { name: 'Progress' }).click();
+  const stats = page.getByTestId('calorie-stats');
+  await expect(stats).toContainText('1 day logged');
+  near(n(await stats.getByTestId('avg-kcal').textContent()), before + total, 2);
+  await page.getByRole('button', { name: '30 days' }).click();
+  await expect(stats).toContainText('1 day logged');
 });
