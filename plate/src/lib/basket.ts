@@ -75,10 +75,20 @@ export function fillGaps(opts: {
   candidates: Candidate[];
   prefs: Preferences;
   maxItems?: number;
+  /** Only these gaps (e.g. vitamins and minerals). */
+  onlyKeys?: (k: NutrientKey) => boolean;
+  /** Simple single foods only (no prepared dishes), each at most this many kcal. */
+  simple?: { maxItemKcal: number };
+  /** Foods not to use (already suggested elsewhere). */
+  exclude?: Set<string>;
+  /** Kinds of food not to use, e.g. "spinach" when spinach is already suggested. */
+  excludeBases?: string[];
 }): Basket {
   const { entries, targets, prefs } = opts;
   const maxItems = opts.maxItems ?? 3;
-  const { gaps, unreliable } = findGaps(entries, targets);
+  const found = findGaps(entries, targets);
+  const gaps = opts.onlyKeys ? found.gaps.filter((g) => opts.onlyKeys!(g.key)) : found.gaps;
+  const unreliable = found.unreliable;
   const s = summarize(entries, targets);
   const room = (targets?.calories ?? 0) - s.projected.energy_kcal.value;
   const empty: Basket = { gaps, items: [], kcal: 0, after: {}, unreliable, room };
@@ -93,6 +103,8 @@ export function fillGaps(opts: {
   const weight = new Map<NutrientKey, number>(gaps.map((g) => [g.key, 1 + (1 - g.pct)])); // further behind → more weight
   const pool = opts.candidates.filter((c) =>
     allowed(c, prefs) && !notReady(c) && !isExtra(c) && (c.nutrients.energy_kcal ?? 0) > 0 &&
+    !opts.exclude?.has(c.ref.type + ':' + c.ref.id) &&
+    (!opts.simple || (c.state !== 'prepared' && !c.tags?.includes('sweet') && !c.tags?.includes('alcohol') && !c.tags?.includes('sweet_drink'))) &&
     gaps.some((g) => (c.nutrients[g.key] ?? 0) > 0));
 
   // Budget: what is left of the calorie goal, but never less than a small snack's worth,
@@ -101,16 +113,19 @@ export function fillGaps(opts: {
   const items: BasketItem[] = [];
   const used = new Set<string>();
   const usedGroups = new Set<string>();
+  // "Spinach, raw" and "Spinach, boiled" are the same food: one of each kind per list.
+  const baseOf = (c: Candidate) => c.name.toLowerCase().split(/[,(/]/)[0].trim();
+  const usedBases = new Set<string>(opts.excludeBases ?? []);
   const groupOf = (c: Candidate) => ['vegetable', 'fruit', 'legume', 'nuts_seeds', 'fish', 'meat', 'poultry', 'egg', 'dairy', 'grain'].find((t) => c.tags?.includes(t)) ?? c.kind;
 
   for (let round = 0; round < maxItems && budget > 20; round++) {
     let best: { item: BasketItem; score: number; value: number } | null = null;
     for (const c of pool) {
       const id = c.ref.type + ':' + c.ref.id;
-      if (used.has(id)) continue;
+      if (used.has(id) || usedBases.has(baseOf(c))) continue;
       const def = c.default_amount ?? 100;
       for (const mult of [0.5, 1, 1.5]) {
-        const a = pickAmount(c, def * mult, budget);
+        const a = pickAmount(c, def * mult, opts.simple ? Math.min(budget, opts.simple.maxItemKcal) : budget);
         if (!a) continue;
         const kcal = (c.nutrients.energy_kcal ?? 0) * factor(a.amount, c.basis);
         if (kcal <= 0) continue;
@@ -136,7 +151,8 @@ export function fillGaps(opts: {
           limitPenalty *= 0.85;
         }
         if (blocked) continue;
-        let score = (value / (kcal + 40)) * limitPenalty;
+        // Simple boosters lean harder towards the lowest-calorie foods.
+        let score = (value / (kcal + (opts.simple ? 15 : 40))) * limitPenalty;
         if (c.atHome) score *= 1.2;
         if (c.favorite) score *= 1.1;
         // A varied plate: the second food from the same group counts for less.
@@ -149,6 +165,7 @@ export function fillGaps(opts: {
     items.push(best.item);
     used.add(best.item.food.ref.type + ':' + best.item.food.ref.id);
     usedGroups.add(groupOf(best.item.food));
+    usedBases.add(baseOf(best.item.food));
     budget -= best.item.kcal;
     for (const [k, v] of Object.entries(best.item.adds) as [NutrientKey, number][]) {
       remaining.set(k, (remaining.get(k) ?? 0) - v);
@@ -170,3 +187,31 @@ export function listNutrients(keys: NutrientKey[]): string {
   return `${names.slice(0, -1).join(', ')} and ${names.at(-1)}`;
 }
 
+
+/** Vitamins and minerals (the micronutrients with a daily minimum). */
+export const isMicro = (k: NutrientKey) => /_(mg|ug)$/.test(k) && k !== 'sodium_mg' && k !== 'caffeine_mg';
+
+/**
+ * Two lists for the Today card: simple low-calorie "vitamin boosters" for the vitamin and
+ * mineral gaps, then foods for what is still short (protein, fiber, anything left).
+ */
+export function recommendForGaps(opts: Parameters<typeof fillGaps>[0]) {
+  const boosters = fillGaps({ ...opts, onlyKeys: isMicro, simple: { maxItemKcal: 100 }, maxItems: 4 });
+  // What the boosters leave: count them as eaten, then fill the rest.
+  const exclude = new Set(boosters.items.map((i) => i.food.ref.type + ':' + i.food.ref.id));
+  const asEntries = boosters.items.map((it, i) => ({
+    id: `b${i}`, entry_date: '', meal: 'snacks', status: 'planned', position: 0, food_id: null, catalog_id: null, name: it.food.name,
+    brand: null, kind: it.food.kind, state: it.food.state ?? null, source: null, source_ref: null, basis: it.food.basis, density: null,
+    nutrients: it.food.nutrients, tags: [], allergens: [], amount: it.amount, unit: it.food.basis, portion_label: null, portion_count: null,
+    planned_amount: null, split_from: null, parent_id: null, swapped_from: null, note: null, consumed_at: null,
+  } as Entry));
+  const bases = boosters.items.map((i) => i.food.name.toLowerCase().split(/[,(/]/)[0].trim());
+  const rest = fillGaps({ ...opts, entries: [...opts.entries, ...asEntries], exclude, excludeBases: bases, maxItems: 2 });
+  const all = findGaps(opts.entries, opts.targets);
+  const after: Basket['after'] = {};
+  for (const g of all.gaps) {
+    const added = [...boosters.items, ...rest.items].reduce((a, it) => a + (it.adds[g.key] ?? (it.food.nutrients[g.key] ?? 0) * factor(it.amount, it.food.basis)), 0);
+    after[g.key] = (g.have + added) / g.min;
+  }
+  return { gaps: all.gaps, boosters, rest, after, room: boosters.room, kcal: boosters.kcal + rest.kcal };
+}

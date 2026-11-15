@@ -324,12 +324,17 @@ test('9. fill my gaps logs low-calorie foods for missing nutrients; calories are
   const items = card.locator('.bitem');
   const count = await items.count();
   expect(count).toBeGreaterThan(0);
-  expect(count).toBeLessThanOrEqual(3);
-  const total = n((await card.getByRole('button', { name: /Log all/ }).textContent())!.match(/\(([\d,]+) kcal\)/)![1]);
+  expect(count).toBeLessThanOrEqual(6);
+  // Vitamin boosters: simple foods under 100 kcal each.
+  const boosters = card.getByTestId('boosters').locator('.bitem');
+  expect(await boosters.count()).toBeGreaterThan(0);
+  for (const t of await boosters.allTextContents()) expect(n(t.match(/(\d+) kcal/)![1])).toBeLessThanOrEqual(100);
+  const logAll = card.getByRole('button', { name: /^Log all \d+ \(/ });
+  const total = n((await logAll.textContent())!.match(/\(([\d,]+) kcal\)/)![1]);
   expect(total).toBeLessThanOrEqual(1600);
   for (const t of await items.allTextContents()) expect(t).not.toMatch(/milk|cheese|yogurt|pork|bacon|ham\b/i);
   const before = n(await page.getByTestId('kcal-consumed').textContent());
-  await card.getByRole('button', { name: /Log all/ }).click();
+  await logAll.click();
   await expect(page.getByText(`Logged ${count} foods`)).toBeVisible();
   const rows = await entriesOf(USERS.a.email);
   expect(rows.length).toBe(1 + count);

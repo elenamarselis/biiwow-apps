@@ -29,7 +29,7 @@ async function main() {
   await sb.from('targets').insert([
     { user_id: uid, effective_date: day(-30), calories: 2100, nutrients: { protein_g: { min: 90 }, fiber_g: { min: 28 } }, fluid_ml: 2000 },
     { user_id: uid, effective_date: day(-3), calories: 1900, fluid_ml: 2000,
-      nutrients: { protein_g: { min: 100 }, fiber_g: { min: 30 }, vitamin_c_mg: { min: 90 }, sugar_g: { max: 50 }, caffeine_mg: { max: 300 } } },
+      nutrients: { protein_g: { min: 100 }, fiber_g: { min: 30 }, vitamin_a_ug: { min: 700 }, vitamin_c_mg: { min: 75 }, vitamin_d_ug: { min: 15 }, vitamin_k_ug: { min: 90 }, folate_ug: { min: 400 }, vitamin_b12_ug: { min: 2.4 }, calcium_mg: { min: 1000 }, iron_mg: { min: 18 }, magnesium_mg: { min: 320 }, potassium_mg: { min: 2600 }, sugar_g: { max: 50 }, sodium_mg: { max: 2300 }, caffeine_mg: { max: 300 } } },
   ]);
   // foods at home / favourites
   const flags: [string, boolean, boolean][] = [['cat-greek-yogurt-nonfat', true, true], ['cat-blueberries', true, true], ['cat-lentils-cooked', false, true],
