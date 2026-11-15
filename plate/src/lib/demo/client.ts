@@ -23,6 +23,7 @@ export const uuid = () =>
 const PROFILE_DEFAULTS = {
   display_name: 'Demo', timezone: 'UTC', dashboard_nutrients: ['protein_g', 'fiber_g', 'fluid_ml'],
   diet: [], allergies: [], avoid_ingredients: [], liked_foods: [],
+  birth_year: null, sex: null, height_cm: null, weight_kg: null, activity: null, planning: false,
 };
 const DEFAULTS: Record<string, Row> = {
   diary_entries: { status: 'planned', position: 0, tags: [], allergens: [], food_id: null, catalog_id: null, meal_id: null, brand: null, state: null,

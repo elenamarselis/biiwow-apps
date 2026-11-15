@@ -2128,7 +2128,8 @@
     "tags": [
       "meat",
       "protein",
-      "meal_main"
+      "meal_main",
+      "beef"
     ],
     "allergens": []
   },
@@ -3933,6 +3934,3532 @@
     "tags": [
       "grain",
       "snack",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-egg-poached",
+    "name": "Egg, whole, poached",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 143,
+      "protein_g": 12.51,
+      "carbs_g": 0.71,
+      "fat_g": 9.47,
+      "fiber_g": 0,
+      "sugar_g": 0.37,
+      "sodium_mg": 297
+    },
+    "portions": [
+      {
+        "label": "1 large egg",
+        "amount": 50
+      }
+    ],
+    "default_amount": 50,
+    "max_amount": 200,
+    "tags": [
+      "egg",
+      "protein",
+      "breakfast",
+      "vegetarian"
+    ],
+    "allergens": [
+      "egg"
+    ]
+  },
+  {
+    "id": "cat-egg-fried",
+    "name": "Egg, whole, fried (in fat)",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 196,
+      "protein_g": 13.61,
+      "carbs_g": 0.83,
+      "fat_g": 14.84,
+      "fiber_g": 0,
+      "sugar_g": 0.4,
+      "sat_fat_g": 4.3,
+      "sodium_mg": 207
+    },
+    "portions": [
+      {
+        "label": "1 large egg",
+        "amount": 46
+      }
+    ],
+    "default_amount": 46,
+    "max_amount": 200,
+    "tags": [
+      "egg",
+      "protein",
+      "breakfast",
+      "vegetarian"
+    ],
+    "allergens": [
+      "egg"
+    ]
+  },
+  {
+    "id": "cat-egg-scrambled",
+    "name": "Egg, scrambled (with milk and fat)",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 149,
+      "protein_g": 9.99,
+      "carbs_g": 1.61,
+      "fat_g": 10.98,
+      "fiber_g": 0,
+      "sugar_g": 1.39,
+      "sodium_mg": 145
+    },
+    "portions": [
+      {
+        "label": "1 large egg",
+        "amount": 61
+      },
+      {
+        "label": "1 cup",
+        "amount": 220
+      }
+    ],
+    "default_amount": 122,
+    "max_amount": 300,
+    "tags": [
+      "egg",
+      "protein",
+      "breakfast",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "egg",
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-omelet-plain",
+    "name": "Omelet, plain (egg with milk and fat)",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 154,
+      "protein_g": 10.57,
+      "carbs_g": 0.64,
+      "fat_g": 11.66,
+      "fiber_g": 0
+    },
+    "portions": [
+      {
+        "label": "1 large egg",
+        "amount": 61
+      }
+    ],
+    "default_amount": 122,
+    "max_amount": 300,
+    "tags": [
+      "egg",
+      "protein",
+      "breakfast",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "egg",
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-omelet-cheese",
+    "name": "Omelet with cheese",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 190,
+      "protein_g": 12,
+      "carbs_g": 1.5,
+      "fat_g": 15
+    },
+    "portions": [],
+    "default_amount": 150,
+    "max_amount": 350,
+    "tags": [
+      "egg",
+      "protein",
+      "breakfast",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "egg",
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-egg-white",
+    "name": "Egg white, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 52,
+      "protein_g": 10.9,
+      "carbs_g": 0.73,
+      "fat_g": 0.17,
+      "fiber_g": 0,
+      "sugar_g": 0.71,
+      "sodium_mg": 166,
+      "potassium_mg": 163
+    },
+    "portions": [
+      {
+        "label": "1 large egg white",
+        "amount": 33
+      }
+    ],
+    "default_amount": 99,
+    "max_amount": 300,
+    "tags": [
+      "egg",
+      "protein",
+      "breakfast",
+      "vegetarian"
+    ],
+    "allergens": [
+      "egg"
+    ]
+  },
+  {
+    "id": "cat-egg-yolk",
+    "name": "Egg yolk, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 322,
+      "protein_g": 15.86,
+      "carbs_g": 3.59,
+      "fat_g": 26.54,
+      "fiber_g": 0,
+      "sugar_g": 0.56,
+      "sodium_mg": 48
+    },
+    "portions": [
+      {
+        "label": "1 large egg yolk",
+        "amount": 17
+      }
+    ],
+    "default_amount": 17,
+    "max_amount": 100,
+    "tags": [
+      "egg",
+      "protein",
+      "vegetarian"
+    ],
+    "allergens": [
+      "egg"
+    ]
+  },
+  {
+    "id": "cat-porridge-milk",
+    "name": "Porridge (oatmeal) made with reduced-fat milk",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 98,
+      "protein_g": 4.6,
+      "carbs_g": 13.6,
+      "fat_g": 2.6,
+      "fiber_g": 1.3
+    },
+    "portions": [],
+    "default_amount": 250,
+    "max_amount": 500,
+    "tags": [
+      "grain",
+      "breakfast",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "milk",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-muesli",
+    "name": "Muesli, with dried fruit and nuts",
+    "kind": "food",
+    "state": "dry",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 340,
+      "protein_g": 9.7,
+      "carbs_g": 66.4,
+      "fat_g": 5.4,
+      "fiber_g": 7.3
+    },
+    "portions": [],
+    "default_amount": 50,
+    "max_amount": 120,
+    "tags": [
+      "grain",
+      "breakfast",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "tree_nuts"
+    ]
+  },
+  {
+    "id": "cat-cornflakes",
+    "name": "Corn flakes, ready-to-eat cereal",
+    "kind": "food",
+    "state": "dry",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 357,
+      "protein_g": 7.5,
+      "carbs_g": 84.1,
+      "fat_g": 0.4,
+      "fiber_g": 3.3,
+      "sugar_g": 9.5
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 28
+      }
+    ],
+    "default_amount": 30,
+    "max_amount": 100,
+    "tags": [
+      "grain",
+      "breakfast",
+      "vegetarian"
+    ],
+    "allergens": [
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-pancakes",
+    "name": "Pancakes, plain, homemade",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 227,
+      "protein_g": 6.4,
+      "carbs_g": 28.3,
+      "fat_g": 9.7
+    },
+    "portions": [
+      {
+        "label": "1 pancake (4\" dia)",
+        "amount": 38
+      }
+    ],
+    "default_amount": 114,
+    "max_amount": 300,
+    "tags": [
+      "grain",
+      "breakfast",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "milk",
+      "egg"
+    ]
+  },
+  {
+    "id": "cat-waffles",
+    "name": "Waffles, plain, homemade",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 291,
+      "protein_g": 7.9,
+      "carbs_g": 32.9,
+      "fat_g": 14.1
+    },
+    "portions": [
+      {
+        "label": "1 waffle (7\" dia)",
+        "amount": 75
+      }
+    ],
+    "default_amount": 75,
+    "max_amount": 225,
+    "tags": [
+      "grain",
+      "breakfast",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "milk",
+      "egg"
+    ]
+  },
+  {
+    "id": "cat-croissant",
+    "name": "Croissant, butter",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 406,
+      "protein_g": 8.2,
+      "carbs_g": 45.8,
+      "fat_g": 21,
+      "fiber_g": 2.6,
+      "sugar_g": 11.3
+    },
+    "portions": [
+      {
+        "label": "1 medium croissant",
+        "amount": 57
+      }
+    ],
+    "default_amount": 57,
+    "max_amount": 171,
+    "tags": [
+      "grain",
+      "breakfast",
+      "snack",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "milk",
+      "egg"
+    ]
+  },
+  {
+    "id": "cat-bagel-plain",
+    "name": "Bagel, plain",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 257,
+      "protein_g": 10.02,
+      "carbs_g": 50.46,
+      "fat_g": 1.6,
+      "fiber_g": 2.1
+    },
+    "portions": [
+      {
+        "label": "1 medium bagel (3½–4\" dia)",
+        "amount": 105
+      }
+    ],
+    "default_amount": 105,
+    "max_amount": 210,
+    "tags": [
+      "grain",
+      "breakfast",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-english-muffin",
+    "name": "English muffin, plain",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 227,
+      "protein_g": 8.87,
+      "carbs_g": 44.17,
+      "fat_g": 1.69,
+      "fiber_g": 3.5
+    },
+    "portions": [
+      {
+        "label": "1 muffin",
+        "amount": 57
+      }
+    ],
+    "default_amount": 57,
+    "max_amount": 171,
+    "tags": [
+      "grain",
+      "breakfast",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-jam",
+    "name": "Jam / preserves",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 278,
+      "protein_g": 0.37,
+      "carbs_g": 68.86,
+      "fat_g": 0.07,
+      "fiber_g": 1.1,
+      "sugar_g": 48.5
+    },
+    "portions": [
+      {
+        "label": "1 tbsp",
+        "amount": 20
+      }
+    ],
+    "default_amount": 20,
+    "max_amount": 60,
+    "tags": [
+      "sweet",
+      "breakfast",
+      "fruit",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-bread-rye",
+    "name": "Bread, rye",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 259,
+      "protein_g": 8.5,
+      "carbs_g": 48.3,
+      "fat_g": 3.3,
+      "fiber_g": 5.8,
+      "sugar_g": 3.85,
+      "sodium_mg": 603
+    },
+    "portions": [
+      {
+        "label": "1 slice",
+        "amount": 32
+      }
+    ],
+    "default_amount": 64,
+    "max_amount": 160,
+    "tags": [
+      "grain",
+      "breakfast",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-bread-sourdough",
+    "name": "Bread, French / sourdough",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 272,
+      "protein_g": 10.75,
+      "carbs_g": 51.88,
+      "fat_g": 2.42,
+      "fiber_g": 2.2
+    },
+    "portions": [],
+    "default_amount": 60,
+    "max_amount": 200,
+    "tags": [
+      "grain",
+      "breakfast",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-pita-white",
+    "name": "Pita bread, white",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 275,
+      "protein_g": 9.1,
+      "carbs_g": 55.7,
+      "fat_g": 1.2,
+      "fiber_g": 2.2
+    },
+    "portions": [
+      {
+        "label": "1 pita (6½\" dia)",
+        "amount": 60
+      }
+    ],
+    "default_amount": 60,
+    "max_amount": 180,
+    "tags": [
+      "grain",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-tortilla-flour",
+    "name": "Tortilla, flour (wheat)",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 312,
+      "protein_g": 8.29,
+      "carbs_g": 51.63,
+      "fat_g": 8,
+      "fiber_g": 3.5
+    },
+    "portions": [
+      {
+        "label": "1 tortilla (7–8\" dia)",
+        "amount": 49
+      }
+    ],
+    "default_amount": 49,
+    "max_amount": 150,
+    "tags": [
+      "grain",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-tortilla-corn",
+    "name": "Tortilla, corn",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 218,
+      "protein_g": 5.7,
+      "carbs_g": 44.6,
+      "fat_g": 2.85,
+      "fiber_g": 6.3
+    },
+    "portions": [],
+    "default_amount": 50,
+    "max_amount": 150,
+    "tags": [
+      "grain",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-couscous-cooked",
+    "name": "Couscous, cooked",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 112,
+      "protein_g": 3.79,
+      "carbs_g": 23.22,
+      "fat_g": 0.16,
+      "fiber_g": 1.4,
+      "sugar_g": 0.1
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 157
+      }
+    ],
+    "default_amount": 157,
+    "max_amount": 400,
+    "tags": [
+      "grain",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-bulgur-cooked",
+    "name": "Bulgur, cooked",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 83,
+      "protein_g": 3.08,
+      "carbs_g": 18.58,
+      "fat_g": 0.24,
+      "fiber_g": 4.5,
+      "sugar_g": 0.1
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 182
+      }
+    ],
+    "default_amount": 182,
+    "max_amount": 400,
+    "tags": [
+      "grain",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-egg-noodles-cooked",
+    "name": "Egg noodles, enriched, cooked",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 138,
+      "protein_g": 4.54,
+      "carbs_g": 25.16,
+      "fat_g": 2.07,
+      "fiber_g": 1.2,
+      "sugar_g": 0.4
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 160
+      }
+    ],
+    "default_amount": 160,
+    "max_amount": 400,
+    "tags": [
+      "grain",
+      "side",
+      "vegetarian"
+    ],
+    "allergens": [
+      "egg",
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-rice-noodles-cooked",
+    "name": "Rice noodles, cooked",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 108,
+      "protein_g": 1.79,
+      "carbs_g": 24.01,
+      "fat_g": 0.2,
+      "fiber_g": 1
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 176
+      }
+    ],
+    "default_amount": 176,
+    "max_amount": 400,
+    "tags": [
+      "grain",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-potato-baked",
+    "name": "Potato, baked, flesh and skin, no salt",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 93,
+      "protein_g": 2.5,
+      "carbs_g": 21.15,
+      "fat_g": 0.13,
+      "fiber_g": 2.2,
+      "sugar_g": 1.18,
+      "potassium_mg": 535
+    },
+    "portions": [
+      {
+        "label": "1 medium potato (2¼–3¼\" dia)",
+        "amount": 173
+      }
+    ],
+    "default_amount": 173,
+    "max_amount": 400,
+    "tags": [
+      "vegetable",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-mashed-potatoes",
+    "name": "Mashed potatoes, homemade with whole milk and butter",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 113,
+      "protein_g": 1.86,
+      "carbs_g": 16.81,
+      "fat_g": 4.2,
+      "fiber_g": 1.5
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 210
+      }
+    ],
+    "default_amount": 210,
+    "max_amount": 400,
+    "tags": [
+      "vegetable",
+      "side",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-french-fries",
+    "name": "French fries (fast-food style)",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 312,
+      "protein_g": 3.43,
+      "carbs_g": 41.44,
+      "fat_g": 14.73,
+      "fiber_g": 3.8,
+      "sodium_mg": 210
+    },
+    "portions": [],
+    "default_amount": 115,
+    "max_amount": 300,
+    "tags": [
+      "side",
+      "snack",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-bacon-cooked",
+    "name": "Bacon, pork, pan-fried",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 541,
+      "protein_g": 37.04,
+      "carbs_g": 1.43,
+      "fat_g": 41.78,
+      "fiber_g": 0,
+      "sodium_mg": 1717
+    },
+    "portions": [
+      {
+        "label": "1 slice, cooked",
+        "amount": 8
+      }
+    ],
+    "default_amount": 24,
+    "max_amount": 80,
+    "tags": [
+      "meat",
+      "pork",
+      "protein",
+      "breakfast"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-ham-sliced",
+    "name": "Ham, sliced, regular (about 11% fat)",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 163,
+      "protein_g": 16.6,
+      "carbs_g": 3.83,
+      "fat_g": 8.6,
+      "fiber_g": 0
+    },
+    "portions": [],
+    "default_amount": 56,
+    "max_amount": 200,
+    "tags": [
+      "meat",
+      "pork",
+      "protein"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-pork-chop-cooked",
+    "name": "Pork chop, loin, lean and fat, broiled",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 231,
+      "protein_g": 26,
+      "carbs_g": 0,
+      "fat_g": 13.4,
+      "fiber_g": 0,
+      "sugar_g": 0
+    },
+    "portions": [],
+    "default_amount": 150,
+    "max_amount": 350,
+    "tags": [
+      "meat",
+      "pork",
+      "protein",
+      "meal_main"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-pork-sausage-cooked",
+    "name": "Pork sausage, fresh, cooked",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 325,
+      "protein_g": 18.53,
+      "carbs_g": 1.42,
+      "fat_g": 27.25,
+      "fiber_g": 0
+    },
+    "portions": [],
+    "default_amount": 50,
+    "max_amount": 200,
+    "tags": [
+      "meat",
+      "pork",
+      "protein",
+      "breakfast"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-beef-steak-cooked",
+    "name": "Beef steak (sirloin), lean and fat, broiled",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 220,
+      "protein_g": 29,
+      "carbs_g": 0,
+      "fat_g": 11.5,
+      "fiber_g": 0,
+      "sugar_g": 0
+    },
+    "portions": [],
+    "default_amount": 170,
+    "max_amount": 400,
+    "tags": [
+      "meat",
+      "beef",
+      "protein",
+      "meal_main"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-beef-burger-patty",
+    "name": "Beef burger patty, 80% lean, broiled",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 254,
+      "protein_g": 25.75,
+      "carbs_g": 0,
+      "fat_g": 16.82,
+      "fiber_g": 0,
+      "sugar_g": 0
+    },
+    "portions": [],
+    "default_amount": 85,
+    "max_amount": 300,
+    "tags": [
+      "meat",
+      "beef",
+      "protein",
+      "meal_main"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-lamb-chop-cooked",
+    "name": "Lamb chop, loin, lean and fat, broiled",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 316,
+      "protein_g": 25.2,
+      "carbs_g": 0,
+      "fat_g": 23.08,
+      "fiber_g": 0,
+      "sugar_g": 0
+    },
+    "portions": [],
+    "default_amount": 120,
+    "max_amount": 350,
+    "tags": [
+      "meat",
+      "protein",
+      "meal_main"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-turkey-breast-roasted",
+    "name": "Turkey breast, meat only, roasted",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 147,
+      "protein_g": 30.13,
+      "carbs_g": 0,
+      "fat_g": 2.08,
+      "fiber_g": 0,
+      "sugar_g": 0
+    },
+    "portions": [],
+    "default_amount": 100,
+    "max_amount": 300,
+    "tags": [
+      "poultry",
+      "protein",
+      "meal_main"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-chicken-thigh-roasted",
+    "name": "Chicken thigh, meat only (skinless), roasted",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 209,
+      "protein_g": 25.95,
+      "carbs_g": 0,
+      "fat_g": 10.88,
+      "fiber_g": 0,
+      "sugar_g": 0
+    },
+    "portions": [],
+    "default_amount": 100,
+    "max_amount": 300,
+    "tags": [
+      "poultry",
+      "protein",
+      "meal_main"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-chicken-nuggets",
+    "name": "Chicken nuggets, breaded, cooked",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 296,
+      "protein_g": 15,
+      "carbs_g": 15.5,
+      "fat_g": 19.8
+    },
+    "portions": [],
+    "default_amount": 100,
+    "max_amount": 300,
+    "tags": [
+      "poultry",
+      "protein",
+      "meal_main",
+      "snack"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-cod-cooked",
+    "name": "Cod, Atlantic, cooked (dry heat)",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 105,
+      "protein_g": 22.83,
+      "carbs_g": 0,
+      "fat_g": 0.86,
+      "fiber_g": 0,
+      "sugar_g": 0,
+      "sodium_mg": 78
+    },
+    "portions": [],
+    "default_amount": 150,
+    "max_amount": 350,
+    "tags": [
+      "fish",
+      "protein",
+      "meal_main"
+    ],
+    "allergens": [
+      "fish"
+    ]
+  },
+  {
+    "id": "cat-tuna-steak-cooked",
+    "name": "Tuna steak, yellowfin, cooked (dry heat)",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 130,
+      "protein_g": 29.15,
+      "carbs_g": 0,
+      "fat_g": 0.59,
+      "fiber_g": 0,
+      "sugar_g": 0
+    },
+    "portions": [],
+    "default_amount": 150,
+    "max_amount": 350,
+    "tags": [
+      "fish",
+      "protein",
+      "meal_main"
+    ],
+    "allergens": [
+      "fish"
+    ]
+  },
+  {
+    "id": "cat-shrimp-cooked",
+    "name": "Shrimp / prawns, cooked",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 99,
+      "protein_g": 23.98,
+      "carbs_g": 0.2,
+      "fat_g": 0.28,
+      "fiber_g": 0
+    },
+    "portions": [],
+    "default_amount": 100,
+    "max_amount": 300,
+    "tags": [
+      "fish",
+      "protein",
+      "meal_main"
+    ],
+    "allergens": [
+      "shellfish"
+    ]
+  },
+  {
+    "id": "cat-salmon-smoked",
+    "name": "Salmon, smoked",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 117,
+      "protein_g": 18.28,
+      "carbs_g": 0,
+      "fat_g": 4.32,
+      "fiber_g": 0,
+      "sugar_g": 0,
+      "sodium_mg": 784
+    },
+    "portions": [
+      {
+        "label": "1 oz",
+        "amount": 28
+      }
+    ],
+    "default_amount": 56,
+    "max_amount": 200,
+    "tags": [
+      "fish",
+      "protein",
+      "breakfast"
+    ],
+    "allergens": [
+      "fish"
+    ]
+  },
+  {
+    "id": "cat-mackerel-cooked",
+    "name": "Mackerel, Atlantic, cooked (dry heat)",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 262,
+      "protein_g": 23.85,
+      "carbs_g": 0,
+      "fat_g": 17.81,
+      "fiber_g": 0,
+      "sugar_g": 0
+    },
+    "portions": [],
+    "default_amount": 100,
+    "max_amount": 300,
+    "tags": [
+      "fish",
+      "protein",
+      "meal_main"
+    ],
+    "allergens": [
+      "fish"
+    ]
+  },
+  {
+    "id": "cat-feta",
+    "name": "Cheese, feta",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 264,
+      "protein_g": 14.21,
+      "carbs_g": 4.09,
+      "fat_g": 21.28,
+      "fiber_g": 0,
+      "sugar_g": 4.09,
+      "sat_fat_g": 14.95
+    },
+    "portions": [
+      {
+        "label": "1 oz",
+        "amount": 28
+      }
+    ],
+    "default_amount": 30,
+    "max_amount": 100,
+    "tags": [
+      "dairy",
+      "protein",
+      "vegetarian"
+    ],
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-parmesan",
+    "name": "Cheese, parmesan, hard",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 392,
+      "protein_g": 35.75,
+      "carbs_g": 3.22,
+      "fat_g": 25.83,
+      "fiber_g": 0,
+      "calcium_mg": 1184
+    },
+    "portions": [
+      {
+        "label": "1 oz",
+        "amount": 28
+      }
+    ],
+    "default_amount": 15,
+    "max_amount": 60,
+    "tags": [
+      "dairy",
+      "protein",
+      "vegetarian"
+    ],
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-cream-cheese",
+    "name": "Cream cheese",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 342,
+      "protein_g": 5.93,
+      "carbs_g": 4.07,
+      "fat_g": 34.24,
+      "fiber_g": 0
+    },
+    "portions": [
+      {
+        "label": "1 tbsp",
+        "amount": 14.5
+      }
+    ],
+    "default_amount": 30,
+    "max_amount": 100,
+    "tags": [
+      "dairy",
+      "fat_oil",
+      "breakfast",
+      "vegetarian"
+    ],
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-sour-cream",
+    "name": "Sour cream, cultured",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 198,
+      "protein_g": 2.44,
+      "carbs_g": 4.63,
+      "fat_g": 19.35,
+      "fiber_g": 0
+    },
+    "portions": [
+      {
+        "label": "1 tbsp",
+        "amount": 12
+      }
+    ],
+    "default_amount": 30,
+    "max_amount": 120,
+    "tags": [
+      "dairy",
+      "fat_oil",
+      "vegetarian"
+    ],
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-lettuce-romaine",
+    "name": "Lettuce, romaine (cos), raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 17,
+      "protein_g": 1.23,
+      "carbs_g": 3.29,
+      "fat_g": 0.3,
+      "fiber_g": 2.1,
+      "sugar_g": 1.19
+    },
+    "portions": [
+      {
+        "label": "1 cup, shredded",
+        "amount": 47
+      }
+    ],
+    "default_amount": 47,
+    "max_amount": 300,
+    "tags": [
+      "vegetable",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-onion-raw",
+    "name": "Onion, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 40,
+      "protein_g": 1.1,
+      "carbs_g": 9.34,
+      "fat_g": 0.1,
+      "fiber_g": 1.7,
+      "sugar_g": 4.24
+    },
+    "portions": [
+      {
+        "label": "1 medium onion (2½\" dia)",
+        "amount": 110
+      },
+      {
+        "label": "1 cup, chopped",
+        "amount": 160
+      }
+    ],
+    "default_amount": 50,
+    "max_amount": 300,
+    "tags": [
+      "vegetable",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-garlic-raw",
+    "name": "Garlic, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 149,
+      "protein_g": 6.36,
+      "carbs_g": 33.06,
+      "fat_g": 0.5,
+      "fiber_g": 2.1,
+      "sugar_g": 1
+    },
+    "portions": [
+      {
+        "label": "1 clove",
+        "amount": 3
+      }
+    ],
+    "default_amount": 6,
+    "max_amount": 30,
+    "tags": [
+      "vegetable",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-zucchini-raw",
+    "name": "Zucchini (courgette), raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 17,
+      "protein_g": 1.21,
+      "carbs_g": 3.11,
+      "fat_g": 0.32,
+      "fiber_g": 1,
+      "sugar_g": 2.5
+    },
+    "portions": [
+      {
+        "label": "1 medium",
+        "amount": 196
+      }
+    ],
+    "default_amount": 100,
+    "max_amount": 400,
+    "tags": [
+      "vegetable",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-cauliflower-raw",
+    "name": "Cauliflower, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 25,
+      "protein_g": 1.92,
+      "carbs_g": 4.97,
+      "fat_g": 0.28,
+      "fiber_g": 2,
+      "sugar_g": 1.91
+    },
+    "portions": [
+      {
+        "label": "1 cup, chopped",
+        "amount": 107
+      }
+    ],
+    "default_amount": 107,
+    "max_amount": 400,
+    "tags": [
+      "vegetable",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-green-beans-raw",
+    "name": "Green beans, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 31,
+      "protein_g": 1.83,
+      "carbs_g": 6.97,
+      "fat_g": 0.22,
+      "fiber_g": 2.7,
+      "sugar_g": 3.26
+    },
+    "portions": [],
+    "default_amount": 100,
+    "max_amount": 400,
+    "tags": [
+      "vegetable",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-peas-cooked",
+    "name": "Green peas, frozen, boiled, no salt",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 78,
+      "protein_g": 5.15,
+      "carbs_g": 14.26,
+      "fat_g": 0.27,
+      "fiber_g": 4.5
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 160
+      }
+    ],
+    "default_amount": 80,
+    "max_amount": 320,
+    "tags": [
+      "vegetable",
+      "legume",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-corn-cooked",
+    "name": "Sweet corn, yellow, boiled, no salt",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 96,
+      "protein_g": 3.41,
+      "carbs_g": 20.98,
+      "fat_g": 1.5,
+      "fiber_g": 2.4,
+      "sugar_g": 4.54
+    },
+    "portions": [],
+    "default_amount": 100,
+    "max_amount": 300,
+    "tags": [
+      "vegetable",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-eggplant-raw",
+    "name": "Eggplant (aubergine), raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 25,
+      "protein_g": 0.98,
+      "carbs_g": 5.88,
+      "fat_g": 0.18,
+      "fiber_g": 3,
+      "sugar_g": 3.53
+    },
+    "portions": [
+      {
+        "label": "1 cup, cubes",
+        "amount": 82
+      }
+    ],
+    "default_amount": 100,
+    "max_amount": 400,
+    "tags": [
+      "vegetable",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-beetroot-raw",
+    "name": "Beetroot, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 43,
+      "protein_g": 1.61,
+      "carbs_g": 9.56,
+      "fat_g": 0.17,
+      "fiber_g": 2.8,
+      "sugar_g": 6.76
+    },
+    "portions": [
+      {
+        "label": "1 beet (2\" dia)",
+        "amount": 82
+      },
+      {
+        "label": "1 cup",
+        "amount": 136
+      }
+    ],
+    "default_amount": 82,
+    "max_amount": 300,
+    "tags": [
+      "vegetable",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-cabbage-raw",
+    "name": "Cabbage, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 25,
+      "protein_g": 1.28,
+      "carbs_g": 5.8,
+      "fat_g": 0.1,
+      "fiber_g": 2.5,
+      "sugar_g": 3.2
+    },
+    "portions": [
+      {
+        "label": "1 cup, chopped",
+        "amount": 89
+      }
+    ],
+    "default_amount": 89,
+    "max_amount": 400,
+    "tags": [
+      "vegetable",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-asparagus-raw",
+    "name": "Asparagus, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 20,
+      "protein_g": 2.2,
+      "carbs_g": 3.88,
+      "fat_g": 0.12,
+      "fiber_g": 2.1,
+      "sugar_g": 1.88
+    },
+    "portions": [
+      {
+        "label": "1 medium spear",
+        "amount": 16
+      }
+    ],
+    "default_amount": 100,
+    "max_amount": 300,
+    "tags": [
+      "vegetable",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-grapes",
+    "name": "Grapes, red or green, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 69,
+      "protein_g": 0.72,
+      "carbs_g": 18.1,
+      "fat_g": 0.16,
+      "fiber_g": 0.9,
+      "sugar_g": 15.48
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 151
+      }
+    ],
+    "default_amount": 151,
+    "max_amount": 400,
+    "tags": [
+      "fruit",
+      "snack",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-pear",
+    "name": "Pear, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 57,
+      "protein_g": 0.36,
+      "carbs_g": 15.23,
+      "fat_g": 0.14,
+      "fiber_g": 3.1,
+      "sugar_g": 9.75
+    },
+    "portions": [
+      {
+        "label": "1 medium",
+        "amount": 178
+      }
+    ],
+    "default_amount": 178,
+    "max_amount": 400,
+    "tags": [
+      "fruit",
+      "snack",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-mango",
+    "name": "Mango, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 60,
+      "protein_g": 0.82,
+      "carbs_g": 14.98,
+      "fat_g": 0.38,
+      "fiber_g": 1.6,
+      "sugar_g": 13.66
+    },
+    "portions": [
+      {
+        "label": "1 cup, pieces",
+        "amount": 165
+      }
+    ],
+    "default_amount": 165,
+    "max_amount": 400,
+    "tags": [
+      "fruit",
+      "snack",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-pineapple",
+    "name": "Pineapple, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 50,
+      "protein_g": 0.54,
+      "carbs_g": 13.12,
+      "fat_g": 0.12,
+      "fiber_g": 1.4,
+      "sugar_g": 9.85
+    },
+    "portions": [
+      {
+        "label": "1 cup, chunks",
+        "amount": 165
+      }
+    ],
+    "default_amount": 165,
+    "max_amount": 400,
+    "tags": [
+      "fruit",
+      "snack",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-watermelon",
+    "name": "Watermelon, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 30,
+      "protein_g": 0.61,
+      "carbs_g": 7.55,
+      "fat_g": 0.15,
+      "fiber_g": 0.4,
+      "sugar_g": 6.2
+    },
+    "portions": [
+      {
+        "label": "1 cup, diced",
+        "amount": 152
+      }
+    ],
+    "default_amount": 280,
+    "max_amount": 800,
+    "tags": [
+      "fruit",
+      "snack",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-raspberries",
+    "name": "Raspberries, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 52,
+      "protein_g": 1.2,
+      "carbs_g": 11.94,
+      "fat_g": 0.65,
+      "fiber_g": 6.5,
+      "sugar_g": 4.42
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 123
+      }
+    ],
+    "default_amount": 123,
+    "max_amount": 300,
+    "tags": [
+      "fruit",
+      "snack",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-peach",
+    "name": "Peach, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 39,
+      "protein_g": 0.91,
+      "carbs_g": 9.54,
+      "fat_g": 0.25,
+      "fiber_g": 1.5,
+      "sugar_g": 8.39
+    },
+    "portions": [
+      {
+        "label": "1 medium (2⅔\" dia)",
+        "amount": 150
+      }
+    ],
+    "default_amount": 150,
+    "max_amount": 400,
+    "tags": [
+      "fruit",
+      "snack",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-plum",
+    "name": "Plum, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 46,
+      "protein_g": 0.7,
+      "carbs_g": 11.42,
+      "fat_g": 0.28,
+      "fiber_g": 1.4,
+      "sugar_g": 9.92
+    },
+    "portions": [
+      {
+        "label": "1 fruit (2⅛\" dia)",
+        "amount": 66
+      }
+    ],
+    "default_amount": 66,
+    "max_amount": 300,
+    "tags": [
+      "fruit",
+      "snack",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-cherries",
+    "name": "Cherries, sweet, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 63,
+      "protein_g": 1.06,
+      "carbs_g": 16.01,
+      "fat_g": 0.2,
+      "fiber_g": 2.1,
+      "sugar_g": 12.82
+    },
+    "portions": [
+      {
+        "label": "1 cup, with pits (edible weight)",
+        "amount": 138
+      }
+    ],
+    "default_amount": 138,
+    "max_amount": 400,
+    "tags": [
+      "fruit",
+      "snack",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-dates-medjool",
+    "name": "Dates, Medjool, dried",
+    "kind": "food",
+    "state": "dry",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 277,
+      "protein_g": 1.81,
+      "carbs_g": 74.97,
+      "fat_g": 0.15,
+      "fiber_g": 6.7,
+      "sugar_g": 66.47
+    },
+    "portions": [
+      {
+        "label": "1 date, pitted",
+        "amount": 24
+      }
+    ],
+    "default_amount": 48,
+    "max_amount": 150,
+    "tags": [
+      "fruit",
+      "snack",
+      "sweet",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-raisins",
+    "name": "Raisins, seedless",
+    "kind": "food",
+    "state": "dry",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 299,
+      "protein_g": 3.07,
+      "carbs_g": 79.18,
+      "fat_g": 0.46,
+      "fiber_g": 3.7,
+      "sugar_g": 59.19
+    },
+    "portions": [
+      {
+        "label": "1 small box (1.5 oz)",
+        "amount": 43
+      },
+      {
+        "label": "1 cup, packed",
+        "amount": 165
+      }
+    ],
+    "default_amount": 30,
+    "max_amount": 150,
+    "tags": [
+      "fruit",
+      "snack",
+      "sweet",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-lemon-juice",
+    "name": "Lemon juice, fresh",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 22,
+      "protein_g": 0.35,
+      "carbs_g": 6.9,
+      "fat_g": 0.24,
+      "fiber_g": 0.3,
+      "sugar_g": 2.52
+    },
+    "portions": [
+      {
+        "label": "1 tbsp",
+        "amount": 15.2
+      }
+    ],
+    "default_amount": 15,
+    "max_amount": 100,
+    "tags": [
+      "fruit",
+      "drink_extra",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-kidney-beans-cooked",
+    "name": "Kidney beans, red, boiled, no salt",
+    "kind": "food",
+    "state": "cooked",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 127,
+      "protein_g": 8.67,
+      "carbs_g": 22.8,
+      "fat_g": 0.5,
+      "fiber_g": 6.4,
+      "sugar_g": 0.32
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 177
+      }
+    ],
+    "default_amount": 130,
+    "max_amount": 350,
+    "tags": [
+      "legume",
+      "protein",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-tempeh",
+    "name": "Tempeh",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 192,
+      "protein_g": 20.29,
+      "carbs_g": 7.64,
+      "fat_g": 10.8
+    },
+    "portions": [],
+    "default_amount": 100,
+    "max_amount": 250,
+    "tags": [
+      "legume",
+      "protein",
+      "meal_main",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": [
+      "soy"
+    ]
+  },
+  {
+    "id": "cat-falafel",
+    "name": "Falafel",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 333,
+      "protein_g": 13.31,
+      "carbs_g": 31.84,
+      "fat_g": 17.8
+    },
+    "portions": [
+      {
+        "label": "1 patty (about 2¼\" dia)",
+        "amount": 17
+      }
+    ],
+    "default_amount": 85,
+    "max_amount": 250,
+    "tags": [
+      "legume",
+      "protein",
+      "meal_main",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-peanuts-roasted",
+    "name": "Peanuts, dry-roasted, unsalted",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 585,
+      "protein_g": 23.68,
+      "carbs_g": 21.51,
+      "fat_g": 49.66,
+      "fiber_g": 8
+    },
+    "portions": [
+      {
+        "label": "1 oz",
+        "amount": 28
+      }
+    ],
+    "default_amount": 28,
+    "max_amount": 100,
+    "tags": [
+      "nuts_seeds",
+      "legume",
+      "snack",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": [
+      "peanuts"
+    ]
+  },
+  {
+    "id": "cat-cashews",
+    "name": "Cashews, raw",
+    "kind": "food",
+    "state": "raw",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 553,
+      "protein_g": 18.22,
+      "carbs_g": 30.19,
+      "fat_g": 43.85,
+      "fiber_g": 3.3,
+      "sugar_g": 5.91
+    },
+    "portions": [
+      {
+        "label": "1 oz",
+        "amount": 28
+      }
+    ],
+    "default_amount": 28,
+    "max_amount": 100,
+    "tags": [
+      "nuts_seeds",
+      "snack",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": [
+      "tree_nuts"
+    ]
+  },
+  {
+    "id": "cat-sunflower-seeds",
+    "name": "Sunflower seed kernels, dried",
+    "kind": "food",
+    "state": "dry",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 584,
+      "protein_g": 20.78,
+      "carbs_g": 20,
+      "fat_g": 51.46,
+      "fiber_g": 8.6,
+      "sugar_g": 2.62
+    },
+    "portions": [
+      {
+        "label": "¼ cup",
+        "amount": 35
+      }
+    ],
+    "default_amount": 20,
+    "max_amount": 100,
+    "tags": [
+      "nuts_seeds",
+      "snack",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-flaxseed",
+    "name": "Flaxseed",
+    "kind": "food",
+    "state": "dry",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 534,
+      "protein_g": 18.29,
+      "carbs_g": 28.88,
+      "fat_g": 42.16,
+      "fiber_g": 27.3,
+      "sugar_g": 1.55
+    },
+    "portions": [
+      {
+        "label": "1 tbsp, whole",
+        "amount": 10.3
+      }
+    ],
+    "default_amount": 10,
+    "max_amount": 50,
+    "tags": [
+      "nuts_seeds",
+      "breakfast",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-tahini",
+    "name": "Tahini (sesame paste)",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 595,
+      "protein_g": 17,
+      "carbs_g": 21.19,
+      "fat_g": 53.76,
+      "fiber_g": 9.3
+    },
+    "portions": [
+      {
+        "label": "1 tbsp",
+        "amount": 15
+      }
+    ],
+    "default_amount": 15,
+    "max_amount": 60,
+    "tags": [
+      "nuts_seeds",
+      "fat_oil",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": [
+      "sesame"
+    ]
+  },
+  {
+    "id": "cat-pizza-cheese",
+    "name": "Pizza, cheese, regular crust",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 266,
+      "protein_g": 11.39,
+      "carbs_g": 33.33,
+      "fat_g": 9.69,
+      "fiber_g": 2.3
+    },
+    "portions": [
+      {
+        "label": "1 slice (⅛ of 14\" pizza)",
+        "amount": 107
+      }
+    ],
+    "default_amount": 214,
+    "max_amount": 600,
+    "tags": [
+      "meal_main",
+      "grain",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-pizza-pepperoni",
+    "name": "Pizza, pepperoni, regular crust",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 298,
+      "protein_g": 12.9,
+      "carbs_g": 32.7,
+      "fat_g": 12.9
+    },
+    "portions": [],
+    "default_amount": 220,
+    "max_amount": 600,
+    "tags": [
+      "meal_main",
+      "grain",
+      "dairy",
+      "meat",
+      "pork",
+      "beef"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-spaghetti-bolognese",
+    "name": "Spaghetti with meat sauce (bolognese)",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 142,
+      "protein_g": 6.9,
+      "carbs_g": 18.5,
+      "fat_g": 4.7
+    },
+    "portions": [],
+    "default_amount": 350,
+    "max_amount": 700,
+    "tags": [
+      "meal_main",
+      "grain",
+      "meat",
+      "beef"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-lasagna-meat",
+    "name": "Lasagna with meat and cheese",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 163,
+      "protein_g": 9.4,
+      "carbs_g": 14.2,
+      "fat_g": 7.6
+    },
+    "portions": [],
+    "default_amount": 300,
+    "max_amount": 600,
+    "tags": [
+      "meal_main",
+      "grain",
+      "meat",
+      "beef",
+      "dairy"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "milk",
+      "egg"
+    ]
+  },
+  {
+    "id": "cat-chicken-curry",
+    "name": "Chicken curry (tomato-based sauce)",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 140,
+      "protein_g": 13,
+      "carbs_g": 4,
+      "fat_g": 8
+    },
+    "portions": [],
+    "default_amount": 300,
+    "max_amount": 600,
+    "tags": [
+      "meal_main",
+      "poultry",
+      "protein"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-soup-vegetable",
+    "name": "Vegetable soup, canned, ready-to-serve",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 30,
+      "protein_g": 1.2,
+      "carbs_g": 5,
+      "fat_g": 0.6
+    },
+    "portions": [],
+    "default_amount": 250,
+    "max_amount": 600,
+    "tags": [
+      "vegetable",
+      "meal_main",
+      "side"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-soup-tomato",
+    "name": "Tomato soup, canned, prepared with water",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 30,
+      "protein_g": 0.8,
+      "carbs_g": 6.5,
+      "fat_g": 0.3
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 244
+      }
+    ],
+    "default_amount": 244,
+    "max_amount": 600,
+    "tags": [
+      "vegetable",
+      "meal_main",
+      "side",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-soup-chicken-noodle",
+    "name": "Chicken noodle soup, canned, prepared with water",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 26,
+      "protein_g": 1.3,
+      "carbs_g": 3.1,
+      "fat_g": 0.9
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 241
+      }
+    ],
+    "default_amount": 241,
+    "max_amount": 600,
+    "tags": [
+      "meal_main",
+      "side",
+      "poultry"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "egg"
+    ]
+  },
+  {
+    "id": "cat-salad-green-vinaigrette",
+    "name": "Green salad with vinaigrette dressing",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 76,
+      "protein_g": 1,
+      "carbs_g": 4.5,
+      "fat_g": 6
+    },
+    "portions": [],
+    "default_amount": 150,
+    "max_amount": 400,
+    "tags": [
+      "vegetable",
+      "side",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-sushi-salmon-nigiri",
+    "name": "Sushi, salmon nigiri",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 147,
+      "protein_g": 7,
+      "carbs_g": 23,
+      "fat_g": 3
+    },
+    "portions": [],
+    "default_amount": 150,
+    "max_amount": 400,
+    "tags": [
+      "meal_main",
+      "fish",
+      "grain"
+    ],
+    "allergens": [
+      "fish"
+    ]
+  },
+  {
+    "id": "cat-hamburger",
+    "name": "Hamburger, single beef patty in bun, plain",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 263,
+      "protein_g": 13.4,
+      "carbs_g": 30,
+      "fat_g": 10
+    },
+    "portions": [],
+    "default_amount": 110,
+    "max_amount": 300,
+    "tags": [
+      "meal_main",
+      "meat",
+      "beef",
+      "grain"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-chicken-sandwich",
+    "name": "Chicken sandwich, grilled chicken with mayonnaise",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 194,
+      "protein_g": 14,
+      "carbs_g": 20,
+      "fat_g": 6.5
+    },
+    "portions": [],
+    "default_amount": 200,
+    "max_amount": 400,
+    "tags": [
+      "meal_main",
+      "poultry",
+      "grain"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "egg"
+    ]
+  },
+  {
+    "id": "cat-cheese-sandwich",
+    "name": "Cheese sandwich (cheddar on white bread)",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 315,
+      "protein_g": 13.8,
+      "carbs_g": 32.4,
+      "fat_g": 14
+    },
+    "portions": [],
+    "default_amount": 80,
+    "max_amount": 250,
+    "tags": [
+      "meal_main",
+      "dairy",
+      "grain",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-burrito-bean-cheese",
+    "name": "Burrito with beans and cheese",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 206,
+      "protein_g": 7,
+      "carbs_g": 30,
+      "fat_g": 6.5
+    },
+    "portions": [],
+    "default_amount": 200,
+    "max_amount": 450,
+    "tags": [
+      "meal_main",
+      "legume",
+      "grain",
+      "dairy"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-fried-rice",
+    "name": "Fried rice with egg, meatless",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 165,
+      "protein_g": 3.8,
+      "carbs_g": 25,
+      "fat_g": 5.5
+    },
+    "portions": [],
+    "default_amount": 200,
+    "max_amount": 450,
+    "tags": [
+      "meal_main",
+      "grain",
+      "side",
+      "vegetarian"
+    ],
+    "allergens": [
+      "egg",
+      "soy",
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-mac-and-cheese",
+    "name": "Macaroni and cheese",
+    "kind": "food",
+    "state": "prepared",
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 169,
+      "protein_g": 6.5,
+      "carbs_g": 20,
+      "fat_g": 7
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 200
+      }
+    ],
+    "default_amount": 200,
+    "max_amount": 450,
+    "tags": [
+      "meal_main",
+      "grain",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-muffin-blueberry",
+    "name": "Muffin, blueberry",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 377,
+      "protein_g": 4.4,
+      "carbs_g": 54,
+      "fat_g": 16
+    },
+    "portions": [],
+    "default_amount": 110,
+    "max_amount": 250,
+    "tags": [
+      "snack",
+      "sweet",
+      "breakfast",
+      "grain",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "egg",
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-cookie-choc-chip",
+    "name": "Cookie, chocolate chip",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 492,
+      "protein_g": 5.4,
+      "carbs_g": 64.2,
+      "fat_g": 24.7
+    },
+    "portions": [],
+    "default_amount": 30,
+    "max_amount": 120,
+    "tags": [
+      "snack",
+      "sweet",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "milk",
+      "egg",
+      "soy"
+    ]
+  },
+  {
+    "id": "cat-brownie",
+    "name": "Brownie",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 405,
+      "protein_g": 4.8,
+      "carbs_g": 64,
+      "fat_g": 16.3
+    },
+    "portions": [],
+    "default_amount": 55,
+    "max_amount": 150,
+    "tags": [
+      "snack",
+      "sweet",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "egg",
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-graham-crackers",
+    "name": "Graham crackers, plain (digestive-type biscuit)",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 430,
+      "protein_g": 6.69,
+      "carbs_g": 77.66,
+      "fat_g": 10.6
+    },
+    "portions": [
+      {
+        "label": "1 rectangular piece (2 squares)",
+        "amount": 14
+      }
+    ],
+    "default_amount": 28,
+    "max_amount": 100,
+    "tags": [
+      "snack",
+      "sweet",
+      "grain",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-pretzels",
+    "name": "Pretzels, hard, salted",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 380,
+      "protein_g": 10.34,
+      "carbs_g": 79.76,
+      "fat_g": 2.63,
+      "fiber_g": 2.8
+    },
+    "portions": [
+      {
+        "label": "1 oz",
+        "amount": 28
+      }
+    ],
+    "default_amount": 28,
+    "max_amount": 100,
+    "tags": [
+      "snack",
+      "grain",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-apple-pie",
+    "name": "Apple pie",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 237,
+      "protein_g": 1.9,
+      "carbs_g": 34,
+      "fat_g": 11
+    },
+    "portions": [],
+    "default_amount": 120,
+    "max_amount": 300,
+    "tags": [
+      "snack",
+      "sweet",
+      "fruit",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten"
+    ]
+  },
+  {
+    "id": "cat-doughnut-glazed",
+    "name": "Doughnut, yeast-raised, glazed",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 403,
+      "protein_g": 6.4,
+      "carbs_g": 44.3,
+      "fat_g": 22.4
+    },
+    "portions": [
+      {
+        "label": "1 medium (3¾\" dia)",
+        "amount": 60
+      }
+    ],
+    "default_amount": 60,
+    "max_amount": 180,
+    "tags": [
+      "snack",
+      "sweet",
+      "breakfast",
+      "dairy",
+      "vegetarian"
+    ],
+    "allergens": [
+      "wheat",
+      "gluten",
+      "milk",
+      "egg",
+      "soy"
+    ]
+  },
+  {
+    "id": "cat-gumdrops",
+    "name": "Gummy / jelly candies (gumdrops)",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 396,
+      "protein_g": 0,
+      "carbs_g": 98.9,
+      "fat_g": 0,
+      "fiber_g": 0
+    },
+    "portions": [],
+    "default_amount": 30,
+    "max_amount": 100,
+    "tags": [
+      "snack",
+      "sweet"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-mayonnaise",
+    "name": "Mayonnaise",
+    "kind": "food",
+    "state": null,
+    "basis": "g",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 680,
+      "protein_g": 0.96,
+      "carbs_g": 0.57,
+      "fat_g": 74.85
+    },
+    "portions": [
+      {
+        "label": "1 tbsp",
+        "amount": 13.8
+      }
+    ],
+    "default_amount": 14,
+    "max_amount": 60,
+    "tags": [
+      "fat_oil",
+      "vegetarian"
+    ],
+    "allergens": [
+      "egg"
+    ]
+  },
+  {
+    "id": "cat-latte",
+    "name": "Caffe latte, whole milk",
+    "kind": "drink",
+    "state": "prepared",
+    "basis": "ml",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 55,
+      "protein_g": 2.9,
+      "carbs_g": 4.3,
+      "fat_g": 2.9,
+      "water_g": 88.5,
+      "alcohol_g": 0
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 240
+      },
+      {
+        "label": "1 large mug (350 ml)",
+        "amount": 350
+      }
+    ],
+    "default_amount": 350,
+    "max_amount": 600,
+    "tags": [
+      "hot_drink",
+      "caffeinated",
+      "milk",
+      "dairy",
+      "alcohol_free",
+      "vegetarian",
+      "breakfast"
+    ],
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-cappuccino",
+    "name": "Cappuccino, whole milk",
+    "kind": "drink",
+    "state": "prepared",
+    "basis": "ml",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 40,
+      "protein_g": 2.2,
+      "carbs_g": 3.3,
+      "fat_g": 2,
+      "water_g": 91.5,
+      "alcohol_g": 0
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 240
+      },
+      {
+        "label": "1 cup (180 ml)",
+        "amount": 180
+      }
+    ],
+    "default_amount": 180,
+    "max_amount": 500,
+    "tags": [
+      "hot_drink",
+      "caffeinated",
+      "milk",
+      "dairy",
+      "alcohol_free",
+      "vegetarian",
+      "breakfast"
+    ],
+    "allergens": [
+      "milk"
+    ]
+  },
+  {
+    "id": "cat-energy-drink",
+    "name": "Energy drink, regular (sugar-sweetened)",
+    "kind": "drink",
+    "state": null,
+    "basis": "ml",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 45,
+      "protein_g": 0,
+      "carbs_g": 11,
+      "fat_g": 0,
+      "caffeine_mg": 32,
+      "alcohol_g": 0,
+      "water_g": 88.5
+    },
+    "portions": [
+      {
+        "label": "1 small can (250 ml)",
+        "amount": 250
+      },
+      {
+        "label": "1 can (500 ml)",
+        "amount": 500
+      }
+    ],
+    "default_amount": 250,
+    "max_amount": 750,
+    "tags": [
+      "cold_drink",
+      "sweet_drink",
+      "caffeinated",
+      "alcohol_free",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-coconut-water",
+    "name": "Coconut water",
+    "kind": "drink",
+    "state": null,
+    "basis": "ml",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 19,
+      "protein_g": 0.72,
+      "carbs_g": 3.71,
+      "fat_g": 0.2,
+      "fiber_g": 1.1,
+      "sugar_g": 2.61,
+      "sodium_mg": 105,
+      "potassium_mg": 250,
+      "water_g": 94.99,
+      "caffeine_mg": 0,
+      "alcohol_g": 0
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 240
+      },
+      {
+        "label": "1 bottle (330 ml)",
+        "amount": 330
+      }
+    ],
+    "default_amount": 330,
+    "max_amount": 1000,
+    "tags": [
+      "cold_drink",
+      "juice",
+      "alcohol_free",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-tomato-juice",
+    "name": "Tomato juice, canned",
+    "kind": "drink",
+    "state": null,
+    "basis": "ml",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 17,
+      "protein_g": 0.85,
+      "carbs_g": 3.53,
+      "fat_g": 0.29,
+      "fiber_g": 0.4,
+      "sugar_g": 2.58,
+      "water_g": 94,
+      "caffeine_mg": 0,
+      "alcohol_g": 0
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 240
+      },
+      {
+        "label": "1 glass (200 ml)",
+        "amount": 200
+      }
+    ],
+    "default_amount": 200,
+    "max_amount": 750,
+    "tags": [
+      "cold_drink",
+      "juice",
+      "vegetable",
+      "alcohol_free",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-spirits-40",
+    "name": "Spirits, 40% abv (vodka, gin, rum, whisky)",
+    "kind": "drink",
+    "state": null,
+    "basis": "ml",
+    "density": 0.95,
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 220,
+      "protein_g": 0,
+      "carbs_g": 0,
+      "fat_g": 0,
+      "alcohol_g": 31.7,
+      "water_g": 63.3,
+      "sugar_g": 0,
+      "fiber_g": 0,
+      "caffeine_mg": 0
+    },
+    "portions": [
+      {
+        "label": "1 single measure (25 ml)",
+        "amount": 25
+      },
+      {
+        "label": "1 shot (1.5 fl oz, 44 ml)",
+        "amount": 44
+      }
+    ],
+    "default_amount": 44,
+    "max_amount": 300,
+    "tags": [
+      "alcohol",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-gin-tonic",
+    "name": "Gin and tonic (1 part gin to 3 parts tonic)",
+    "kind": "drink",
+    "state": "prepared",
+    "basis": "ml",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 81,
+      "protein_g": 0,
+      "carbs_g": 6.6,
+      "fat_g": 0,
+      "alcohol_g": 7.9,
+      "water_g": 84,
+      "caffeine_mg": 0
+    },
+    "portions": [
+      {
+        "label": "1 glass (200 ml)",
+        "amount": 200
+      }
+    ],
+    "default_amount": 200,
+    "max_amount": 600,
+    "tags": [
+      "alcohol",
+      "cold_drink",
+      "sweet_drink",
+      "vegan",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-sparkling-wine",
+    "name": "Sparkling wine (champagne-style), about 12% abv",
+    "kind": "drink",
+    "state": null,
+    "basis": "ml",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 72,
+      "protein_g": 0.2,
+      "carbs_g": 1.5,
+      "fat_g": 0,
+      "alcohol_g": 9.5,
+      "water_g": 88,
+      "caffeine_mg": 0
+    },
+    "portions": [
+      {
+        "label": "1 glass (125 ml)",
+        "amount": 125
+      },
+      {
+        "label": "1 flute (150 ml)",
+        "amount": 150
+      }
+    ],
+    "default_amount": 125,
+    "max_amount": 750,
+    "tags": [
+      "alcohol",
+      "cold_drink",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-cider",
+    "name": "Cider (hard), about 5% abv",
+    "kind": "drink",
+    "state": null,
+    "basis": "ml",
+    "source_ref": "USDA FoodData Central (FNDDS)",
+    "nutrients": {
+      "energy_kcal": 50,
+      "protein_g": 0,
+      "carbs_g": 5.5,
+      "fat_g": 0,
+      "alcohol_g": 3.9,
+      "water_g": 90,
+      "caffeine_mg": 0
+    },
+    "portions": [
+      {
+        "label": "1 bottle (330 ml)",
+        "amount": 330
+      },
+      {
+        "label": "1 pint (568 ml)",
+        "amount": 568
+      }
+    ],
+    "default_amount": 330,
+    "max_amount": 1000,
+    "tags": [
+      "alcohol",
+      "cold_drink",
+      "vegetarian"
+    ],
+    "allergens": []
+  },
+  {
+    "id": "cat-iced-tea-sweetened",
+    "name": "Iced tea, black, sweetened (ready-to-drink)",
+    "kind": "drink",
+    "state": null,
+    "basis": "ml",
+    "source_ref": "USDA FoodData Central (SR Legacy)",
+    "nutrients": {
+      "energy_kcal": 36,
+      "protein_g": 0,
+      "carbs_g": 9,
+      "fat_g": 0,
+      "water_g": 91,
+      "alcohol_g": 0
+    },
+    "portions": [
+      {
+        "label": "1 cup",
+        "amount": 240
+      },
+      {
+        "label": "1 bottle (500 ml)",
+        "amount": 500
+      }
+    ],
+    "default_amount": 330,
+    "max_amount": 1000,
+    "tags": [
+      "cold_drink",
+      "sweet_drink",
+      "caffeinated",
+      "alcohol_free",
       "vegan",
       "vegetarian"
     ],

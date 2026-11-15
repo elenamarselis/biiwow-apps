@@ -272,10 +272,12 @@ export async function addSavedMeal(m: SavedMeal, opts: { date: string; meal: Mea
 // ------------------------------------------------------------ suggestions
 
 /** Apply a suggestion's actions. Only planned entries are changed. */
-export async function applyActions(actions: Action[], entries: Entry[]) {
+export async function applyActions(actions: Action[], entries: Entry[], opts: { logAsEaten?: boolean; today?: string } = {}) {
   for (const a of actions) {
     if (a.type === 'add') {
-      await insertEntries([entryFromFood(asSavable(a.food), { date: a.date, meal: a.meal, amount: a.amount, status: 'planned', portion: a.portion, portionCount: a.portionCount })]);
+      // Without planning, taking a suggestion today logs it as eaten; future days are always a plan.
+      const status = opts.logAsEaten && (!opts.today || a.date <= opts.today) ? 'consumed' : 'planned';
+      await insertEntries([entryFromFood(asSavable(a.food), { date: a.date, meal: a.meal, amount: a.amount, status, portion: a.portion, portionCount: a.portionCount })]);
     } else {
       const e = entries.find((x) => x.id === a.entryId);
       if (!e || e.status !== 'planned') throw new Error('That item is no longer planned, so the suggestion was not applied.');

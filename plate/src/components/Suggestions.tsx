@@ -8,9 +8,12 @@ import { prettyDate } from '@/lib/dates';
 import { fmtAmt } from '@/lib/entries';
 import type { Entry } from '@/lib/types';
 
+const ICON: Record<Suggestion['kind'], string> = { fill_gap: '➕', swap_for_gap: '🔄', cut_calories: '✂️', fluids: '💧', drink_limit: '🥤', pattern: '📅' };
+
 const u = (k: MetricKey) => (unitOf(k) === 'kcal' ? ' kcal' : ` ${unitOf(k)}`);
 
-export function Suggestions({ date, entries, result, onPreview, onApplied }: {
+export function Suggestions({ plan, date, entries, result, onPreview, onApplied }: {
+  plan: boolean;
   date: string; entries: Entry[]; result: RecommendResult;
   onPreview: (e: Entry[] | null) => void; onApplied: () => Promise<void>;
 }) {
@@ -21,8 +24,8 @@ export function Suggestions({ date, entries, result, onPreview, onApplied }: {
   async function apply(s: Suggestion) {
     setBusy(s.id);
     try {
-      await data.applyActions(s.actions, entries);
-      app.toast(s.appliesTo === date ? 'Plan updated' : `Added to ${prettyDate(s.appliesTo, app.today).toLowerCase()}'s plan`);
+      await data.applyActions(s.actions, entries, { logAsEaten: !plan, today: app.today });
+      app.toast(s.appliesTo === date ? (plan ? 'Plan updated' : 'Logged') : `Added to ${prettyDate(s.appliesTo, app.today).toLowerCase()}'s plan`);
       setOpen(null);
       onPreview(null);
       await onApplied();
@@ -34,27 +37,27 @@ export function Suggestions({ date, entries, result, onPreview, onApplied }: {
   function togglePreview(s: Suggestion) {
     if (open === s.id) { setOpen(null); onPreview(null); return; }
     setOpen(s.id);
-    onPreview(s.appliesTo === date ? simulate(entries, s.actions) : null);
+    onPreview(plan && s.appliesTo === date ? simulate(entries, s.actions) : null);
   }
 
   return (
     <section className="card" aria-label="Suggestions" data-testid="suggestions">
-      <div className="spread"><h2>Suggestions</h2><span className="tiny muted">from your plan and logs</span></div>
+      <div className="spread"><h2><span className="h-icon" aria-hidden="true">✨</span> Suggestions</h2><span className="tiny muted">{plan ? 'from your plan and logs' : 'from what you logged'}</span></div>
       <div className="stack" style={{ marginTop: 8 }}>
         {result.suggestions.map((s) => (
           <article key={s.id} className="sugg" data-testid="suggestion" data-kind={s.kind}>
-            <div className="title">{s.title}</div>
+            <div className="sugg-head"><span className={`sugg-icon si-${s.kind}`} aria-hidden="true">{ICON[s.kind]}</span><div className="title">{s.title}</div></div>
             <p className="small">{s.reason}</p>
             {s.note && <p className="tiny muted">{s.note}</p>}
             <div className="row">
               <button className="btn sm" aria-expanded={open === s.id} onClick={() => togglePreview(s)}>{open === s.id ? 'Hide preview' : 'Preview'}</button>
-              <button className="btn sm primary" disabled={busy === s.id} onClick={() => apply(s)}>{busy === s.id ? 'Applying…' : 'Apply to plan'}</button>
+              <button className="btn sm primary" disabled={busy === s.id} onClick={() => apply(s)}>{busy === s.id ? 'Saving…' : !plan && s.appliesTo <= app.today && s.actions.every((a) => a.type === 'add') ? 'Log it' : 'Apply to plan'}</button>
             </div>
             {open === s.id && (
               <div className="preview" data-testid="suggestion-preview">
-                <div className="eyebrow">Changes to {s.appliesTo === date ? 'this plan' : `${prettyDate(s.appliesTo, app.today).toLowerCase()}'s plan`}</div>
+                <div className="eyebrow">{plan || s.appliesTo !== date ? 'Changes to ' : 'Adds to today'}{!plan && s.appliesTo === date ? '' : s.appliesTo === date ? 'this plan' : `${prettyDate(s.appliesTo, app.today).toLowerCase()}'s plan`}</div>
                 {s.actions.map((a, i) => <ChangeLine key={i} a={a} entries={entries} />)}
-                <div className="eyebrow">Projected end of day</div>
+                <div className="eyebrow">{plan ? 'Projected end of day' : 'Your day after this'}</div>
                 <div className="impacts num">
                   {s.impacts.map((i) => {
                     const d = i.after - i.before;

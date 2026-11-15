@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { createClient } from '@supabase/supabase-js';
-import { ANON, URL, USERS, addItem, cat, entriesOf, kcal, login, n, reset, setTargets, totals, userId } from './util';
+import { ANON, URL, USERS, addItem, admin, cat, entriesOf, kcal, login, n, reset, setTargets, totals, userId } from './util';
 
 const near = (a: number, b: number, tol = 1.01) => expect(Math.abs(a - b), `${a} vs ${b}`).toBeLessThanOrEqual(tol);
 
@@ -224,4 +224,83 @@ test('6. second device sees the same diary; a separate account cannot read it', 
   // anonymous: nothing
   const anon = createClient(URL, ANON, { auth: { persistSession: false } });
   expect((await anon.from('diary_entries').select('*')).data ?? []).toEqual([]);
+});
+
+test('7. personal targets from age, sex, height and weight; avoided foods are flagged and never suggested', async ({ page }) => {
+  await login(page, 'a');
+  await page.goto('/settings');
+  const about = page.getByRole('region', { name: 'About you' });
+  await about.getByLabel('Birth year').fill(String(new Date().getFullYear() - 35));
+  await about.getByRole('button', { name: 'Female' }).click();
+  await about.getByLabel('Height in cm').fill('168');
+  await about.getByLabel('Weight in kg').fill('70');
+  await about.getByLabel('Activity').selectOption('light');
+  await about.getByLabel('Daily calorie goal').fill('1600');
+  const rec = about.getByTestId('recommended');
+  await expect(rec.locator('.recrow', { hasText: 'Iron' })).toContainText('18 mg');
+  await expect(rec.locator('.recrow', { hasText: 'Vitamin D' })).toContainText('15 µg');
+  await expect(rec.locator('.recrow', { hasText: 'Protein' })).toContainText('84 g');
+  await expect(about.getByTestId('energy')).toContainText('1,414');
+  await about.getByRole('button', { name: 'Use these as my daily targets' }).click();
+  await expect(about.getByText(/Saved as your targets from today/)).toBeVisible();
+
+  const prefs = page.getByRole('region', { name: 'Preferences' });
+  await prefs.getByRole('button', { name: "Cow's milk dairy" }).click();
+  await prefs.getByRole('button', { name: 'Pork' }).click();
+  await prefs.getByRole('button', { name: 'Save preferences' }).click();
+  await expect(prefs.getByText('Saved.')).toBeVisible();
+
+  const { data: t } = await admin().from('targets').select('*').eq('user_id', await userId(USERS.a.email));
+  const row = t!.at(-1)!;
+  expect(Number(row.calories)).toBe(1600);
+  expect(row.nutrients.iron_mg.min).toBe(18);
+  expect(row.nutrients.calcium_mg.min).toBe(1000);
+  expect(Number(row.fluid_ml)).toBe(2200);
+
+  await page.goto('/today');
+  await expect(page.getByTestId('nbar-vitamin_d_ug')).toBeVisible();
+  await page.getByRole('button', { name: /Add food or drink/ }).click();
+  await page.getByLabel('Search foods and drinks').fill('cheddar');
+  await page.getByRole('dialog').getByRole('button', { name: /Cheese, cheddar/ }).first().click();
+  await expect(page.getByTestId('avoid-warning')).toContainText("Cow's milk dairy");
+  await page.getByRole('button', { name: 'Close' }).click();
+
+  for (const s of await page.getByTestId('suggestion').allTextContents()) {
+    expect(s).not.toMatch(/milk|cheese|yogurt|cheddar|pork|bacon|ham\b/i);
+  }
+});
+
+test('8. without planning, everything added is logged as eaten (no planned step)', async ({ page }) => {
+  await admin().from('profiles').update({ planning: false }).eq('user_id', await userId(USERS.a.email));
+  await login(page, 'a');
+  await setTargets(page, 2000, { Protein: 120 });
+  await page.goto('/today');
+  await page.getByRole('button', { name: /Add food or drink/ }).click();
+  await page.getByLabel('Search foods and drinks').fill('poached');
+  await page.getByRole('dialog').getByRole('button', { name: /Egg, whole, poached/ }).first().click();
+  await expect(page.getByRole('group', { name: 'Planned or had' })).toHaveCount(0);
+  await page.getByRole('dialog').getByRole('button', { name: 'Log it' }).click();
+  await expect(page.getByRole('dialog')).toHaveCount(0);
+
+  const egg = (await entriesOf(USERS.a.email))[0];
+  expect(egg.status).toBe('consumed');
+  await expect(page.getByTestId('kcal-planned')).toHaveCount(0);
+  const eaten = n(await page.getByTestId('kcal-consumed').textContent());
+  expect(eaten).toBeGreaterThan(0);
+  near(n(await page.getByTestId('kcal-left').textContent()), 2000 - eaten);
+  await expect(page.getByTestId('kcal-headline')).toContainText('kcal left today');
+  await expect(page.locator('[data-status=consumed]')).toHaveCount(1);
+  await expect(page.getByRole('button', { name: /Mark .* as had/ })).toHaveCount(0);
+
+  await page.getByTestId('add-water').click();
+  await expect(page.getByTestId('nbar-fluid_ml')).toContainText('250');
+
+  // Taking a suggestion logs it as eaten.
+  const sugg = page.getByTestId('suggestion').filter({ hasText: /protein is/ }).first();
+  await expect(sugg).toContainText(/Your logged protein/);
+  await sugg.getByRole('button', { name: 'Log it' }).click();
+  await expect(page.getByText('Logged', { exact: true })).toBeVisible();
+  const rows = await entriesOf(USERS.a.email);
+  expect(rows.every((r) => r.status === 'consumed')).toBe(true);
+  expect(rows.length).toBe(3);
 });

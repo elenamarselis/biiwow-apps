@@ -158,3 +158,35 @@ describe('helpers', () => {
     expect(allowed(cat('cat-almonds'), { ...noPrefs, avoid: ['almond'] })).toBe(false);
   });
 });
+
+describe('foods I avoid (not allergies)', () => {
+  it('detects cow dairy and pork, but not plant milks or peanut butter', async () => {
+    const { avoidReasons, isCowDairy, isPork } = await import('@/lib/avoid');
+    expect(isCowDairy(cat('cat-milk-whole'))).toBe(true);
+    expect(isCowDairy(cat('cat-cheddar'))).toBe(true);
+    expect(isCowDairy(cat('cat-greek-yogurt-nonfat'))).toBe(true);
+    expect(isCowDairy(cat('cat-butter'))).toBe(true);
+    expect(isCowDairy(cat('cat-soy-drink'))).toBe(false);
+    expect(isCowDairy(cat('cat-oat-drink'))).toBe(false);
+    expect(isCowDairy(cat('cat-peanut-butter'))).toBe(false);
+    expect(isCowDairy({ name: 'Goat cheese, soft', kind: 'food', basis: 'g', nutrients: {} })).toBe(false);
+    expect(isCowDairy({ name: 'Granola bar', ingredients: 'oats, honey, milk powder', kind: 'food', basis: 'g', nutrients: {} })).toBe(true);
+    expect(isPork({ name: 'Bacon, cooked', kind: 'food', basis: 'g', nutrients: {} })).toBe(true);
+    expect(isPork({ name: 'Pizza', ingredients: 'flour, tomato, ham, mozzarella', kind: 'food', basis: 'g', nutrients: {} })).toBe(true);
+    expect(isPork(cat('cat-chicken-breast-roasted'))).toBe(false);
+    expect(avoidReasons(cat('cat-milk-whole'), { diet: ['no_dairy', 'no_pork'], allergies: [], avoid: [] })).toEqual(["Cow's milk dairy"]);
+  });
+
+  it('never suggests avoided foods', () => {
+    const entries = [entry('cat-oats-dry', 50, 'consumed', 'breakfast')];
+    const t = targets({ calories: 2000, nutrients: { protein_g: { min: 120 }, calcium_mg: { min: 1000 } } });
+    const res = recommend({ date: DATE, hour: 9, entries, targets: t, candidates: CATALOG, prefs: { ...noPrefs, diet: ['no_dairy', 'no_pork'] } });
+    expect(res.suggestions.length).toBeGreaterThan(0);
+    for (const s of res.suggestions) for (const a of s.actions) {
+      if (a.type === 'add' || a.type === 'replace') {
+        expect(a.food.tags).not.toContain('dairy');
+        expect(a.food.name).not.toMatch(/milk|cheese|yogurt|pork|bacon|ham/i);
+      }
+    }
+  });
+});

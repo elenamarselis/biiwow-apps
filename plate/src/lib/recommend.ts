@@ -3,6 +3,7 @@
 // foods the user can choose from, preferences, and the previous days.
 // Output: up to three suggestions, each with concrete actions on PLANNED items
 // only, and before/after projected totals computed from the food data.
+import { avoidReasons } from './avoid';
 import { entryFromFood, roundToStep, round2 } from './entries';
 import { summarize, targetFor, totalsOf, entryValue, type Totals, type DaySummary } from './day';
 import { factor, fmt, label, lowerLabel, unitOf, type MetricKey, type NutrientKey } from './nutrients';
@@ -158,7 +159,8 @@ export function allowed(f: FoodLike, p: Preferences): boolean {
   if (diet.includes('vegan') && /honey/.test(text)) return false;
   if (diet.includes('vegetarian') && has('meat', 'poultry', 'fish', 'shellfish')) return false;
   if (diet.includes('pescatarian') && has('meat', 'poultry')) return false;
-  if (diet.includes('no_alcohol') && has('alcohol')) return false;
+  // Foods avoided for non-allergy reasons (cow's-milk dairy, pork, beef, red meat, alcohol, caffeine).
+  if (avoidReasons(f, { diet: p.diet, allergies: [], avoid: [] }).length) return false;
   return true;
 }
 
@@ -331,6 +333,8 @@ export function recommend(input: RecommendInput): RecommendResult {
   const room = target - projectedKcal;
   const pool = input.candidates.filter((c) => allowed(c, prefs) && typeof c.nutrients.energy_kcal === 'number' && !notReadyToEat(c));
   const planned = live.filter((e) => e.status === 'planned' && !e.parent_id);
+  /** 'logged and planned' when the day has a plan, otherwise just 'logged'. */
+  const lp = planned.length ? 'logged and planned' : 'logged';
   const out: Suggestion[] = [];
   let seq = 0;
   const make = (s: Omit<Suggestion, 'id' | 'impacts' | 'tradeoffs' | 'appliesTo'> & { extraKeys?: MetricKey[]; on?: string; baseEntries?: Entry[] }) => {
@@ -491,7 +495,7 @@ export function recommend(input: RecommendInput): RecommendResult {
         make({
           kind: 'fill_gap', subject: g.key,
           title: `Add ${amountText(c, amt)} ${nice(c)} to ${meal}`,
-          reason: `Your logged and planned ${lower(g.key)} is ${amountOf(g.gap, g.key)} below your ${amountOf(g.min, g.key)} target. This adds ${amountOf(best.got, g.key)} for ${fmt(kcalOf(c, amt.amount))} kcal, within the ${fmt(room)} kcal you have left.`,
+          reason: `Your ${lp} ${lower(g.key)} is ${amountOf(g.gap, g.key)} below your ${amountOf(g.min, g.key)} target. This adds ${amountOf(best.got, g.key)} for ${fmt(kcalOf(c, amt.amount))} kcal, within the ${fmt(room)} kcal you have left.`,
           actions: [{ type: 'add', date, meal, food: c, amount: amt.amount, portion: amt.portion, portionCount: amt.count }],
           score: best.score + g.pct * 20,
           note: c.atHome ? 'You have this at home.' : c.favorite ? 'One of your favourites.' : undefined,
@@ -529,7 +533,7 @@ export function recommend(input: RecommendInput): RecommendResult {
         make({
           kind: 'swap_for_gap', subject: g.key,
           title: `Swap the planned ${e.name} for ${amountText(c, amt)} ${nice(c)}`,
-          reason: `You're close to your calorie target and your logged and planned ${lower(g.key)} is ${amountOf(g.gap, g.key)} short. This swap adds ${amountOf(best.gain, g.key)} for about the same calories.`,
+          reason: `You're close to your calorie target and your ${lp} ${lower(g.key)} is ${amountOf(g.gap, g.key)} short. This swap adds ${amountOf(best.gain, g.key)} for about the same calories.`,
           actions: [{ type: 'replace', entryId: e.id, food: c, amount: amt.amount, portion: amt.portion, portionCount: amt.count }],
           score: best.score + g.pct * 20,
         });
@@ -553,7 +557,7 @@ export function recommend(input: RecommendInput): RecommendResult {
         make({
           kind: 'fluids', subject: 'fluid_ml',
           title: `Add ${glasses === 1 ? 'a glass' : `${glasses} glasses`} of ${w.name.toLowerCase()} (${amount} ml)`,
-          reason: `Your logged and planned fluids are ${fmt(have)} ml of your ${fmt(fluidT.min)} ml target. This adds ${amount} ml with ${fmt(kcalOf(w, amount))} kcal.`,
+          reason: `Your ${lp} fluids are ${fmt(have)} ml of your ${fmt(fluidT.min)} ml target. This adds ${amount} ml with ${fmt(kcalOf(w, amount))} kcal.`,
           actions: [{ type: 'add', date, meal: 'drinks', food: w, amount, portion: null, portionCount: null }],
           score: 35 + Math.min(1, gap / fluidT.min) * 30 + preferenceBonus(w, prefs),
         });
@@ -590,8 +594,8 @@ export function recommend(input: RecommendInput): RecommendResult {
         kind: 'drink_limit', subject: key,
         title: `Swap the planned ${d.name} for ${fmt(d.amount)} ${d.unit} ${nice(best.c)}`,
         reason: over
-          ? `Your logged and planned ${lower(key)} is ${amountOf(have, key)}, ${amountOf(have - max, key)} over your ${amountOf(max, key)} limit.`
-          : `Your logged and planned ${lower(key)} is ${amountOf(have, key)}, close to your ${amountOf(max, key)} limit.`,
+          ? `Your ${lp} ${lower(key)} is ${amountOf(have, key)}, ${amountOf(have - max, key)} over your ${amountOf(max, key)} limit.`
+          : `Your ${lp} ${lower(key)} is ${amountOf(have, key)}, close to your ${amountOf(max, key)} limit.`,
         actions: [{ type: 'replace', entryId: d.id, food: best.c, amount: d.amount, portion: null, portionCount: null }],
         score: best.score + (over ? 15 : 0),
         extraKeys: ['fluid_ml', 'sugar_g'],
@@ -672,7 +676,7 @@ export function recommend(input: RecommendInput): RecommendResult {
       message = `You're at your calorie target with gaps in ${gaps.map((g) => lower(g.key)).join(', ')}, and nothing is still planned that could be swapped.`;
     else if (gaps.length || overshoot > 25)
       message = 'No worthwhile suggestion found from your foods and the catalog that respects your preferences.';
-    else message = "You're on track: your logged and planned intake meets your targets. Nothing to change.";
+    else message = `You're on track: your ${lp} intake meets your targets. Nothing to change.`;
   }
   return { suggestions: picked, message, notes };
 }

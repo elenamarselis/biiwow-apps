@@ -23,7 +23,7 @@ export async function reset(email: string) {
   const id = await userId(email);
   const sb = admin();
   for (const t of ['diary_entries', 'meal_items', 'meals', 'foods', 'targets']) await sb.from(t).delete().eq('user_id', id);
-  await sb.from('profiles').update({ dashboard_nutrients: ['protein_g', 'fiber_g', 'fluid_ml'], diet: [], allergies: [], avoid_ingredients: [], liked_foods: [], timezone: 'UTC' }).eq('user_id', id);
+  await sb.from('profiles').update({ dashboard_nutrients: ['protein_g', 'fiber_g', 'fluid_ml'], diet: [], allergies: [], avoid_ingredients: [], liked_foods: [], timezone: 'UTC', birth_year: null, sex: null, height_cm: null, weight_kg: null, activity: null, planning: true }).eq('user_id', id);
   return id;
 }
 export async function entriesOf(email: string) {
@@ -69,7 +69,7 @@ export async function addItem(page: Page, query: string, resultName: string | Re
   await page.getByLabel(/Amount in (g|ml|servings)/).fill(String(opts.amount));
   if (opts.meal) await page.getByRole('dialog').getByLabel('Meal').selectOption(opts.meal);
   if (opts.had) await page.getByRole('button', { name: /Already (ate|drank)/ }).click();
-  await page.getByRole('button', { name: opts.had ? 'Log it' : 'Add to plan' }).click();
+  await page.getByRole('dialog').getByRole('button', { name: opts.had ? 'Log it' : 'Add to plan' }).click();
   await expect(page.getByRole('dialog')).toHaveCount(0);
 }
 

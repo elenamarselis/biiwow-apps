@@ -8,7 +8,7 @@ import { Suggestions } from './Suggestions';
 import * as data from '@/lib/data';
 import { addDays, isValidDate, localHour, prettyDate } from '@/lib/dates';
 import { calorieStatus, contributors, drinkSummary, summarize, targetFor, targetsFor, type DaySummary, type MetricTotal } from '@/lib/day';
-import { describeAmount, fmtAmt, logDifferentAmount, markConsumed, markPlannedAgain, markSkipped } from '@/lib/entries';
+import { entryFromFood, describeAmount, fmtAmt, logDifferentAmount, markConsumed, markPlannedAgain, markSkipped } from '@/lib/entries';
 import { fmt, label, lowerLabel, unitOf, type MetricKey } from '@/lib/nutrients';
 import { recommend } from '@/lib/recommend';
 import { MEALS, type Entry, type Meal, type Targets } from '@/lib/types';
@@ -71,8 +71,21 @@ export function Today() {
 
   const dash = (app.profile?.dashboard_nutrients ?? ['protein_g', 'fiber_g', 'fluid_ml']) as MetricKey[];
 
+  const streak = all ? streakOf(all, app.today) : 0;
+  // Planning ahead is optional (Settings). Otherwise everything is logged as eaten; future days and
+  // any leftover planned items still show the plan view.
+  const plan = !!app.profile?.planning || date > app.today || entries.some((e) => e.status === 'planned');
+  const firstName = (app.profile?.display_name ?? '').split(/[\s@.]/)[0];
+  const hasMicroTargets = Object.keys(targets?.nutrients ?? {}).some((k) => /_(mg|ug)$/.test(k) && k !== 'sodium_mg' && k !== 'caffeine_mg');
+
   return (
     <>
+      {date === app.today && (
+        <div className="greet">
+          <p className="greet-hi">{greeting(localHour())}{firstName ? `, ${firstName[0].toUpperCase()}${firstName.slice(1)}` : ''} 👋</p>
+          {streak >= 2 && <span className="chip streak" title="Days in a row with something logged">🔥 {streak >= 7 ? '7+' : streak}-day streak</span>}
+        </div>
+      )}
       <div className="datenav">
         <button className="iconbtn" onClick={() => go(addDays(date, -1))} aria-label="Previous day">‹</button>
         <div style={{ textAlign: 'center' }}>
@@ -91,26 +104,39 @@ export function Today() {
         </div>
       )}
 
-      <CalorieCard s={s} targets={targets} previewing={!!preview} onDetail={() => setDetail('energy_kcal')} />
+      {targets && !hasMicroTargets && (
+        <a className="nudge" href="/settings#about">
+          <span className="nudge-icon" aria-hidden="true">🧬</span>
+          <span><b>Get your personal vitamin targets</b><br /><span className="small">Add age, sex, height and weight to see what you need each day.</span></span>
+          <span aria-hidden="true">›</span>
+        </a>
+      )}
+
+      <CalorieCard plan={plan} s={s} targets={targets} previewing={!!preview} onDetail={() => setDetail('energy_kcal')} />
 
       {all && rec && (
-        <Suggestions date={date} entries={entries} result={rec} onPreview={setPreview}
+        <Suggestions plan={plan} date={date} entries={entries} result={rec} onPreview={setPreview}
           onApplied={async () => { setPreview(null); await load(); }} />
       )}
 
       {targets && dash.length > 0 && (
         <section className="card" aria-label="Nutrients">
-          <div className="spread"><h2>Nutrients</h2><span className="legend"><span><i style={{ background: 'var(--accent)' }} />had</span><span><i style={{ background: 'var(--plan)' }} />planned</span></span></div>
+          <div className="spread"><h2>Nutrients</h2>{plan && <span className="legend"><span><i style={{ background: 'var(--accent)' }} />had</span><span><i style={{ background: 'var(--plan)' }} />planned</span></span>}</div>
           <div className="nbars" style={{ marginTop: 10 }}>
-            {dash.map((k) => <NutrientBar key={k} k={k} s={s} targets={targets} onClick={() => setDetail(k)} />)}
+            {dash.map((k) => <NutrientBar plan={plan} key={k} k={k} s={s} targets={targets} onClick={() => setDetail(k)} />)}
           </div>
         </section>
       )}
 
-      <DrinksCard entries={shown} targets={targets} onDetail={() => setDetail('fluid_ml')} />
+      <DrinksCard entries={shown} targets={targets} onDetail={() => setDetail('fluid_ml')}
+        onWater={() => act(async () => {
+          const w = app.catalog.find((c) => c.id === 'cat-water');
+          if (!w) throw new Error('Water is missing from the catalog');
+          await data.insertEntries([entryFromFood({ ...w, catalogId: w.id }, { date, meal: 'drinks', amount: 250, status: date > app.today ? 'planned' : 'consumed' })]);
+        }, '💧 +250 ml water')} />
 
       {!all ? <div className="card"><div className="skeleton" /></div> : MEALS.map((m) => (
-        <MealSection key={m.key} meal={m.key} label={m.label} entries={entries.filter((e) => e.meal === m.key)}
+        <MealSection plan={plan} key={m.key} meal={m.key} label={m.label} entries={entries.filter((e) => e.meal === m.key)}
           onAdd={() => setAdding({ meal: m.key })}
           onHad={(e) => act(() => data.setStatusWithExtras(e, entries, markConsumed(e)), `Logged ${e.name}`)}
           onOpen={setEditing}
@@ -122,15 +148,15 @@ export function Today() {
       <button className="btn primary fab" onClick={() => setAdding({ meal: null })}>＋ Add food or drink</button>
 
       {adding && (
-        <AddSheet date={date} meal={adding.meal} parent={adding.parent} onClose={() => setAdding(null)} onAdded={() => load()} />
+        <AddSheet planning={plan} date={date} meal={adding.meal} parent={adding.parent} onClose={() => setAdding(null)} onAdded={() => load()} />
       )}
       {editing && (
         <EntrySheet e={editing} all={entries} onClose={() => setEditing(null)}
           onAddExtra={() => { setAdding({ meal: editing.meal, parent: editing }); setEditing(null); }}
           act={async (fn, msg) => { await act(fn, msg); setEditing(null); }} />
       )}
-      {detail && <NutrientDetail k={detail} entries={entries} targets={targets} s={base} onClose={() => setDetail(null)} />}
-      {copying && <CopyMealSheet meal={copying} date={date} onClose={() => setCopying(null)} onDone={(n) => { setCopying(null); app.toast(`Copied ${n} item${n === 1 ? '' : 's'}`); load(); }} />}
+      {detail && <NutrientDetail plan={plan} k={detail} entries={entries} targets={targets} s={base} onClose={() => setDetail(null)} />}
+      {copying && <CopyMealSheet plan={plan} meal={copying} date={date} onClose={() => setCopying(null)} onDone={(n) => { setCopying(null); app.toast(`Copied ${n} item${n === 1 ? '' : 's'}`); load(); }} />}
       {savingMeal && <SaveMealSheet meal={savingMeal} entries={entries.filter((e) => e.meal === savingMeal && e.status !== 'skipped')} onClose={() => setSavingMeal(null)} />}
     </>
   );
@@ -138,38 +164,76 @@ export function Today() {
 
 // ---------------------------------------------------------------- calorie summary
 
-function CalorieCard({ s, targets, previewing, onDetail }: { s: DaySummary; targets: Targets | null; previewing: boolean; onDetail: () => void }) {
+function CalorieCard({ plan, s, targets, previewing, onDetail }: { plan: boolean; s: DaySummary; targets: Targets | null; previewing: boolean; onDetail: () => void }) {
   const target = targets?.calories ?? 0;
   const st = calorieStatus(s, target || 1);
-  const scaleMax = Math.max(target, st.projected) || 1;
   const inc = st.incomplete;
+  // Ring: consumed (solid) then planned (dashed) around the circle; the circle is the target,
+  // or the projection when that is larger, so going over shows as a red arc past the start.
+  const R = 52, C = 2 * Math.PI * R;
+  const full = Math.max(target, st.projected) || 1;
+  const cLen = (st.consumed / full) * C;
+  const pLen = (st.planned / full) * C;
+  const pct = target ? Math.round((st.projected / target) * 100) : 0;
   return (
-    <section className="card kcal-hero" aria-label="Calories" style={previewing ? { outline: '2px dashed var(--accent)' } : undefined}>
-      {previewing && <span className="chip planned" style={{ justifySelf: 'start' }}>Preview: not saved</span>}
-      {targets ? (
-        <div>
-          <div className="eyebrow">Calories · target {fmt(target)} kcal</div>
-          {st.over > 0
-            ? <p className="headline over" data-testid="kcal-headline">Projected {fmt(st.over)} kcal over</p>
-            : <p className="headline" data-testid="kcal-headline">{fmt(st.roomAfterPlan)} kcal left after your plan</p>}
+    <section className={`hero${st.over > 0 ? ' over' : ''}${previewing ? ' previewing' : ''}`} aria-label="Calories">
+      <div className="hero-top">
+        <div className="hero-text">
+          {previewing && <span className="chip hero-chip">Preview: not saved</span>}
+          <div className="hero-eyebrow">Calories{targets ? ` · goal ${fmt(target)} kcal` : ''}</div>
+          {targets ? (plan
+            ? (st.over > 0
+              ? <p className="headline" data-testid="kcal-headline">Projected {fmt(st.over)} kcal over</p>
+              : <p className="headline" data-testid="kcal-headline">{fmt(st.roomAfterPlan)} kcal left after your plan</p>)
+            : (st.over > 0
+              ? <p className="headline" data-testid="kcal-headline">{fmt(st.over)} kcal over your goal</p>
+              : <p className="headline" data-testid="kcal-headline">{fmt(st.roomAfterPlan)} kcal left today</p>))
+            : <p className="headline">Set a goal to see what&rsquo;s left</p>}
         </div>
-      ) : <div className="eyebrow">Calories</div>}
-      <div className="three num" role="group" aria-label="Calorie totals">
-        <div><div className="l">Consumed</div><div className="v" data-testid="kcal-consumed">{fmt(st.consumed)}</div></div>
-        <div><div className="l">Still planned</div><div className="v" data-testid="kcal-planned">{fmt(st.planned)}</div></div>
-        <div><div className="l">Projected</div><div className="v" data-testid="kcal-projected">{fmt(st.projected)}</div></div>
+        <svg className="ring" viewBox="0 0 128 128" role="img" aria-label={`${pct}% of calorie goal projected`}>
+          <circle cx="64" cy="64" r={R} className="ring-track" />
+          <circle cx="64" cy="64" r={R} className="ring-planned" strokeDasharray={`${pLen} ${C}`} strokeDashoffset={-cLen} transform="rotate(-90 64 64)" />
+          <circle cx="64" cy="64" r={R} className="ring-consumed" strokeDasharray={`${cLen} ${C}`} transform="rotate(-90 64 64)" />
+          {target > 0 && st.projected > target && (
+            <circle cx="64" cy="64" r={R} className="ring-target" strokeDasharray={`2 ${C}`} strokeDashoffset={-(target / full) * C} transform="rotate(-90 64 64)" />
+          )}
+          <text x="64" y="62" className="ring-big">{target ? `${pct}%` : '—'}</text>
+          <text x="64" y="80" className="ring-small">of goal</text>
+        </svg>
       </div>
-      <div className={`bar${st.over > 0 ? ' over' : ''}`} aria-hidden="true">
-        <div className="c" style={{ width: `${(st.consumed / scaleMax) * 100}%` }} />
-        <div className="p" style={{ left: `${(st.consumed / scaleMax) * 100}%`, width: `${(st.planned / scaleMax) * 100}%` }} />
-        {target > 0 && <div className="t" style={{ left: `calc(${(target / scaleMax) * 100}% - 1px)` }} />}
-      </div>
+      {plan ? (
+        <div className="three num" role="group" aria-label="Calorie totals">
+          <div><div className="l">Consumed</div><div className="v" data-testid="kcal-consumed">{fmt(st.consumed)}</div></div>
+          <div><div className="l">Still planned</div><div className="v" data-testid="kcal-planned">{fmt(st.planned)}</div></div>
+          <div><div className="l">Projected</div><div className="v" data-testid="kcal-projected">{fmt(st.projected)}</div></div>
+        </div>
+      ) : (
+        <div className="three two num" role="group" aria-label="Calorie totals">
+          <div><div className="l">Eaten</div><div className="v" data-testid="kcal-consumed">{fmt(st.consumed)}</div></div>
+          <div><div className="l">{st.over > 0 ? 'Over' : 'Left'}</div><div className="v" data-testid="kcal-left">{fmt(Math.abs(st.roomAfterPlan))}</div></div>
+        </div>
+      )}
       <div className="spread">
-        {inc ? <button className="chip warn" onClick={onDetail}>Incomplete: {s.projected.energy_kcal.unknown.length} item(s) without calories</button> : <span />}
-        <button className="btn sm ghost" onClick={onDetail}>Details</button>
+        {inc ? <button className="chip hero-chip" onClick={onDetail}>⚠ {s.projected.energy_kcal.unknown.length} item(s) without calories</button> : (plan ? <span className="hero-legend"><i className="lc" />had <i className="lp" />planned</span> : <span />)}
+        <button className="btn sm hero-btn" onClick={onDetail}>Details</button>
       </div>
     </section>
   );
+}
+
+const MEAL_ICON: Record<Meal, string> = { breakfast: '🍳', lunch: '🥗', dinner: '🍝', snacks: '🍎', drinks: '🥤' };
+
+/** Days in a row (ending today or yesterday) with something logged as had. */
+function streakOf(all: Entry[], today: string): number {
+  const days = new Set(all.filter((e) => e.status === 'consumed').map((e) => e.entry_date));
+  let d = days.has(today) ? today : addDays(today, -1);
+  let n = 0;
+  while (days.has(d)) { n++; d = addDays(d, -1); }
+  return n;
+}
+
+function greeting(hour: number) {
+  return hour < 5 ? 'Good night' : hour < 12 ? 'Good morning' : hour < 18 ? 'Good afternoon' : 'Good evening';
 }
 
 export function IncompleteChip({ t, testid }: { t: MetricTotal; testid?: string }) {
@@ -177,7 +241,7 @@ export function IncompleteChip({ t, testid }: { t: MetricTotal; testid?: string 
   return <span className="chip warn" data-testid={testid} title={`Unknown for: ${t.unknown.map((u) => u.name).join(', ')}`}>incomplete</span>;
 }
 
-function NutrientBar({ k, s, targets, onClick }: { k: MetricKey; s: DaySummary; targets: Targets | null; onClick: () => void }) {
+function NutrientBar({ plan, k, s, targets, onClick }: { plan: boolean; k: MetricKey; s: DaySummary; targets: Targets | null; onClick: () => void }) {
   const t = targetFor(targets, k);
   const c = s.consumed[k].value;
   const p = s.planned[k].value;
@@ -189,9 +253,13 @@ function NutrientBar({ k, s, targets, onClick }: { k: MetricKey; s: DaySummary; 
   return (
     <button className="nbar" onClick={onClick} data-testid={`nbar-${k}`} aria-label={`${label(k)} details`}>
       <span className="spread small">
-        <span style={{ fontWeight: 800 }}>{label(k)} <IncompleteChip t={s.projected[k]} testid={`incomplete-${k}`} /></span>
+        <span className="nb-label">{label(k)}
+          {t.min !== undefined && c >= t.min && <span className="chip goal" title="Goal reached">✓ goal met</span>}
+          {plan && t.min !== undefined && c < t.min && proj >= t.min && <span className="chip ontrack" title="Your plan reaches the goal">on track</span>}
+          {over && <span className="chip bad">over limit</span>}
+          <IncompleteChip t={s.projected[k]} testid={`incomplete-${k}`} /></span>
         <span className="num">
-          <b>{fmt(c, k)}</b> had · <b>{fmt(proj, k)}</b> projected
+          {plan ? <><b>{fmt(c, k)}</b> had · <b>{fmt(proj, k)}</b> projected</> : <b>{fmt(c, k)}</b>}
           {goal !== undefined ? <> / {t.min !== undefined ? '' : '≤ '}{fmt(goal, k)} {u}</> : <> {u}</>}
         </span>
       </span>
@@ -204,29 +272,36 @@ function NutrientBar({ k, s, targets, onClick }: { k: MetricKey; s: DaySummary; 
   );
 }
 
-function DrinksCard({ entries, targets, onDetail }: { entries: Entry[]; targets: Targets | null; onDetail: () => void }) {
+function DrinksCard({ entries, targets, onDetail, onWater }: { entries: Entry[]; targets: Targets | null; onDetail: () => void; onWater: () => void }) {
   const d = drinkSummary(entries);
   const c = drinkSummary(entries, ['consumed']);
-  if (!d.count) return null;
   const fluidT = targetFor(targets, 'fluid_ml').min;
+  const glasses = fluidT ? Math.max(1, Math.round(fluidT / 250)) : 8;
+  const filled = Math.min(glasses, Math.floor(c.volume.value / 250));
   const cell = (l: string, t: MetricTotal, k: MetricKey, had?: MetricTotal) => (
     <div><div className="l">{l}</div><div className="v num">{fmt(t.value, k)} {unitOf(k)}{t.unknown.length ? '*' : ''}</div>
       {had && <div className="tiny muted num">{fmt(had.value, k)} had</div>}</div>
   );
   return (
     <section className="card" aria-label="Drinks">
-      <div className="spread"><h2>Drinks</h2><button className="btn sm ghost" onClick={onDetail}>Details</button></div>
-      <p className="muted small" style={{ marginBottom: 8 }}>
-        {d.count} drink{d.count === 1 ? '' : 's'} logged or planned{fluidT ? ` · fluid target ${fmt(fluidT)} ml${targets?.fluid_mode === 'water_only' ? ' (water only)' : ''}` : ''}. Also counted once in your daily totals.
-      </p>
-      <div className="drinkgrid">
-        {cell('Volume', d.volume, 'fluid_ml', c.volume)}
-        {cell('Water', d.water, 'water_g')}
-        {cell('Calories', d.energy, 'energy_kcal', c.energy)}
-        {cell('Sugar', d.sugar, 'sugar_g')}
-        {cell('Caffeine', d.caffeine, 'caffeine_mg')}
-        {cell('Alcohol', d.alcohol, 'alcohol_g')}
+      <div className="spread"><h2><span className="meal-badge mb-drinks" aria-hidden="true">💧</span>Drinks</h2><button className="btn sm ghost" onClick={onDetail}>Details</button></div>
+      <div className="glasses" aria-label={`${filled} of ${glasses} glasses drunk`}>
+        {Array.from({ length: Math.min(glasses, 16) }, (_, i) => <span key={i} className={`glass${i < filled ? ' full' : ''}`} aria-hidden="true" />)}
+        <button className="btn sm water-btn" onClick={onWater} data-testid="add-water">＋ Glass of water</button>
       </div>
+      <p className="muted small" style={{ margin: '8px 0' }}>
+        {d.count ? `${d.count} drink${d.count === 1 ? '' : 's'}` : 'No drinks yet'}{fluidT ? ` · goal ${fmt(fluidT)} ml${targets?.fluid_mode === 'water_only' ? ' (water only)' : ''}` : ''}. Drinks count once in your daily totals.
+      </p>
+      {d.count > 0 && (
+        <div className="drinkgrid">
+          {cell('Volume', d.volume, 'fluid_ml', c.volume)}
+          {cell('Water', d.water, 'water_g')}
+          {cell('Calories', d.energy, 'energy_kcal', c.energy)}
+          {cell('Sugar', d.sugar, 'sugar_g')}
+          {cell('Caffeine', d.caffeine, 'caffeine_mg')}
+          {cell('Alcohol', d.alcohol, 'alcohol_g')}
+        </div>
+      )}
       {[d.volume, d.water, d.sugar, d.caffeine, d.alcohol].some((t) => t.unknown.length) && <p className="tiny muted" style={{ marginTop: 6 }}>* incomplete: some drinks have no value for this.</p>}
     </section>
   );
@@ -234,23 +309,23 @@ function DrinksCard({ entries, targets, onDetail }: { entries: Entry[]; targets:
 
 // ---------------------------------------------------------------- meals
 
-function MealSection({ meal, label: title, entries, onAdd, onHad, onOpen, onCopy, onSave }: {
-  meal: Meal; label: string; entries: Entry[]; onAdd: () => void; onHad: (e: Entry) => void; onOpen: (e: Entry) => void; onCopy: () => void; onSave: () => void;
+function MealSection({ plan, meal, label: title, entries, onAdd, onHad, onOpen, onCopy, onSave }: {
+  plan: boolean; meal: Meal; label: string; entries: Entry[]; onAdd: () => void; onHad: (e: Entry) => void; onOpen: (e: Entry) => void; onCopy: () => void; onSave: () => void;
 }) {
   const s = summarize(entries);
   const parents = entries.filter((e) => !e.parent_id);
   return (
     <section className="card meal" aria-label={title} data-testid={`meal-${meal}`}>
       <div className="meal-head">
-        <h2>{title}</h2>
-        <span className="small muted num">{fmt(s.consumed.energy_kcal.value)} had · {fmt(s.planned.energy_kcal.value)} planned kcal</span>
+        <h2><span className={`meal-badge mb-${meal}`} aria-hidden="true">{MEAL_ICON[meal]}</span>{title}</h2>
+        <span className="small muted num">{plan ? `${fmt(s.consumed.energy_kcal.value)} had · ${fmt(s.planned.energy_kcal.value)} planned kcal` : `${fmt(s.consumed.energy_kcal.value)} kcal`}</span>
       </div>
       {parents.length === 0 && <p className="muted small">Nothing yet.</p>}
       <div>
         {parents.map((e) => (
           <div key={e.id}>
-            <EntryRow e={e} onHad={onHad} onOpen={onOpen} />
-            {entries.filter((x) => x.parent_id === e.id).map((x) => <EntryRow key={x.id} e={x} extra onHad={onHad} onOpen={onOpen} />)}
+            <EntryRow plan={plan} e={e} onHad={onHad} onOpen={onOpen} />
+            {entries.filter((x) => x.parent_id === e.id).map((x) => <EntryRow plan={plan} key={x.id} e={x} extra onHad={onHad} onOpen={onOpen} />)}
           </div>
         ))}
       </div>
@@ -263,7 +338,7 @@ function MealSection({ meal, label: title, entries, onAdd, onHad, onOpen, onCopy
   );
 }
 
-function EntryRow({ e, extra, onHad, onOpen }: { e: Entry; extra?: boolean; onHad: (e: Entry) => void; onOpen: (e: Entry) => void }) {
+function EntryRow({ plan, e, extra, onHad, onOpen }: { plan: boolean; e: Entry; extra?: boolean; onHad: (e: Entry) => void; onOpen: (e: Entry) => void }) {
   const kcal = e.nutrients.energy_kcal !== undefined ? e.nutrients.energy_kcal * (e.basis === 'serving' ? e.amount : e.amount / 100) : null;
   const changed = e.status === 'consumed' && e.planned_amount !== null && Math.abs(e.planned_amount - e.amount) > 0.001;
   return (
@@ -282,7 +357,7 @@ function EntryRow({ e, extra, onHad, onOpen }: { e: Entry; extra?: boolean; onHa
       <div className="actions">
         {e.status === 'planned'
           ? <button className="btn sm primary" onClick={() => onHad(e)} aria-label={`Mark ${e.name} as had`}>✓ {e.kind === 'drink' ? 'Drank' : 'Ate'}</button>
-          : <span className={`chip ${e.status}`}>{e.status === 'consumed' ? 'had' : 'skipped'}</span>}
+          : (plan || e.status === 'skipped') && <span className={`chip ${e.status}`}>{e.status === 'consumed' ? 'had' : 'skipped'}</span>}
         <button className="iconbtn sm" onClick={() => onOpen(e)} aria-label={`More for ${e.name}`}>⋯</button>
       </div>
     </div>
@@ -354,18 +429,18 @@ function EntrySheet({ e, all, onClose, act, onAddExtra }: {
 
 // ---------------------------------------------------------------- detail, copy, save
 
-function NutrientDetail({ k, entries, targets, s, onClose }: { k: MetricKey; entries: Entry[]; targets: Targets | null; s: DaySummary; onClose: () => void }) {
-  const [which, setWhich] = useState<'projected' | 'consumed'>('projected');
+function NutrientDetail({ plan, k, entries, targets, s, onClose }: { plan: boolean; k: MetricKey; entries: Entry[]; targets: Targets | null; s: DaySummary; onClose: () => void }) {
+  const [which, setWhich] = useState<'projected' | 'consumed'>(plan ? 'projected' : 'consumed');
   const waterOnly = targets?.fluid_mode === 'water_only';
   const rows = contributors(entries, k, which === 'projected' ? ['consumed', 'planned'] : ['consumed'], waterOnly);
   const t = targetFor(targets, k);
   const total = s[which][k];
   return (
     <Sheet title={label(k)} onClose={onClose}>
-      <div className="seg" role="group">
+      {plan && <div className="seg" role="group">
         <button aria-pressed={which === 'projected'} onClick={() => setWhich('projected')}>Projected</button>
         <button aria-pressed={which === 'consumed'} onClick={() => setWhich('consumed')}>Consumed</button>
-      </div>
+      </div>}
       <p className="num"><b>{fmt(total.value, k)} {unitOf(k)}</b>
         {t.min !== undefined && <> of {fmt(t.min, k)} {unitOf(k)} target</>}{t.max !== undefined && <> · limit {fmt(t.max, k)} {unitOf(k)}</>}
         {' '}<IncompleteChip t={total} />
@@ -390,7 +465,7 @@ function NutrientDetail({ k, entries, targets, s, onClose }: { k: MetricKey; ent
   );
 }
 
-function CopyMealSheet({ meal, date, onClose, onDone }: { meal: Meal; date: string; onClose: () => void; onDone: (n: number) => void }) {
+function CopyMealSheet({ plan, meal, date, onClose, onDone }: { plan: boolean; meal: Meal; date: string; onClose: () => void; onDone: (n: number) => void }) {
   const [from, setFrom] = useState(addDays(date, -1));
   const [items, setItems] = useState<Entry[] | null>(null);
   const [busy, setBusy] = useState(false);
@@ -401,10 +476,10 @@ function CopyMealSheet({ meal, date, onClose, onDone }: { meal: Meal; date: stri
       {!items ? <div className="skeleton" /> : items.length === 0 ? <p className="muted small">Nothing in that meal on that day.</p> : (
         <div className="list">{items.map((e) => <div className="li" key={e.id}><span>{e.name}</span><span className="muted small">{describeAmount(e)}</span></div>)}</div>
       )}
-      <p className="muted tiny">Copied items are added as planned. Mark them when you have them.</p>
+      <p className="muted tiny">{plan ? 'Copied items are added as planned. Mark them when you have them.' : 'Copied items are logged as eaten. Adjust or remove any you skip.'}</p>
       <button className="btn primary" disabled={busy || !items?.length} onClick={async () => {
         setBusy(true);
-        const n = await data.copyMeal(from, meal, date, 'planned');
+        const n = await data.copyMeal(from, meal, date, plan ? 'planned' : 'consumed');
         onDone(n);
       }}>Copy {items?.length ?? ''} item{items?.length === 1 ? '' : 's'}</button>
     </Sheet>

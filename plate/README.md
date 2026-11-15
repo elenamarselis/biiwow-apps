@@ -20,12 +20,20 @@ Next.js 15 (App Router, TypeScript) · Supabase Auth + Postgres with row-level s
 
 | Source | Used for | Notes |
 |---|---|---|
-| Bundled catalog (`data/catalog.json`, 95 items) | Generic foods and drinks, instant search, suggestion candidates | Values per 100 g / 100 ml following USDA FoodData Central (SR Legacy). Raw, cooked and dry forms are separate items. Portions are USDA household measures or exact volume conversions only. Nutrients not known with confidence are left out (unknown). Dietary fiber is set to 0 only where it is zero by definition (animal products, oils, water, coffee, tea). **The values were compiled offline; spot-check against fdc.nal.usda.gov before relying on them** (see "Catalog accuracy" below). |
+| Bundled catalog (`data/catalog.json`, 209 items) | Generic foods and drinks, instant search, suggestion candidates | Values per 100 g / 100 ml following USDA FoodData Central (SR Legacy). Raw, cooked and dry forms are separate items. Portions are USDA household measures or exact volume conversions only. Nutrients not known with confidence are left out (unknown). Dietary fiber is set to 0 only where it is zero by definition (animal products, oils, water, coffee, tea). **The values were compiled offline; spot-check against fdc.nal.usda.gov before relying on them** (see "Catalog accuracy" below). |
 | USDA FoodData Central API | Live search of generic and branded foods | Server-side only, needs `FDC_API_KEY`. Portions come from FDC gram weights; density for drinks is derived from a "1 cup" measure where one exists. |
 | Open Food Facts | Packaged products (search and barcode) | Unit-converted (OFF stores values in grams; alcohol is % vol → g per 100 ml). Missing vitamins stay unknown. |
 | Manual / label entry | Local products | Enter per 100 g/ml or per serving with the serving size. Blank fields stay unknown. |
 
 Every diary entry stores a **snapshot** of the nutrient values it was logged with, so history never changes if a source listing changes later. External results you log are saved to your foods with their source reference.
+
+### Added since the first version
+
+- **Log what you ate, by default.** Everything you add is logged as eaten, so there's no planned / eaten bookkeeping. Turn on **Settings → Plan meals ahead** to get the plan view: planned items, the one-tap "had it", and consumed / still planned / projected totals. Future days always use the plan view.
+- **Personal targets (Settings → About you).** Enter birth year, sex, height, weight, activity and calorie goal. The app works out daily vitamins and minerals (US National Academies Dietary Reference Intakes for your age and sex), protein (0.8 g/kg, 1.2 g/kg below maintenance, 1.0 g/kg from 65), fiber (14 g per 1,000 kcal), fluids, and limits (sugar and saturated fat at 10% of calories, sodium 2,300 mg, caffeine 400 mg). It also estimates resting and maintenance energy (Mifflin–St Jeor) and the weekly change your calorie goal implies, with warnings for very low goals. "Use these as my daily targets" saves them with today's effective date. These are reference values for healthy adults, not medical advice.
+- **Foods I avoid (not allergies):** cow's-milk dairy, pork, beef, all red meat, alcohol and caffeine. They're detected from tags, nutrients, names and ingredients lists (so a pizza with ham counts as pork, and oat drink or goat cheese don't count as cow's-milk dairy). They're never suggested, and they're flagged when you add one.
+- **Bigger built-in list:** 209 foods, including eggs every way (poached, fried, scrambled, omelets), breakfast items, pork and beef (tagged), breads, common dishes and drinks.
+- **Design:** Inter for text and Space Grotesk for headings and numbers; a gradient calorie ring; your logging streak; one-tap "+ glass of water"; "goal met" ticks.
 
 ## How it's built
 

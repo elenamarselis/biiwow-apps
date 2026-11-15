@@ -8,20 +8,26 @@ import { DEMO, NO_SERVER } from '@/lib/demo/mode';
 import { targetsFor } from '@/lib/day';
 import { DASHBOARD_CHOICES, label, unitOf, type MetricKey } from '@/lib/nutrients';
 import type { TargetSpec, Targets } from '@/lib/types';
+import { AVOID_CHOICES } from '@/lib/avoid';
+import { AboutYouCard } from '@/components/AboutYou';
 
 const MIN_KEYS: MetricKey[] = ['protein_g', 'fiber_g', 'carbs_g', 'fat_g', 'calcium_mg', 'iron_mg', 'magnesium_mg', 'potassium_mg', 'zinc_mg',
   'vitamin_a_ug', 'vitamin_c_mg', 'vitamin_d_ug', 'vitamin_e_mg', 'vitamin_k_ug', 'vitamin_b6_mg', 'vitamin_b12_ug', 'folate_ug'];
 const MAX_KEYS: MetricKey[] = ['sugar_g', 'sodium_mg', 'sat_fat_g', 'fat_g', 'carbs_g', 'caffeine_mg', 'alcohol_g'];
-const DIETS = ['vegetarian', 'vegan', 'pescatarian', 'no_alcohol'];
+const DIETS = ['vegetarian', 'vegan', 'pescatarian'];
 const ALLERGENS = ['milk', 'egg', 'fish', 'shellfish', 'tree_nuts', 'peanuts', 'wheat', 'gluten', 'soy', 'sesame'];
 
 export default function SettingsPage() {
   const app = useApp();
+  // Re-read the targets form after "Use these as my daily targets" replaces them.
+  const [targetsKey, setTargetsKey] = useState(0);
   if (!app.ready) return <div className="card"><div className="skeleton" /></div>;
   return (
     <>
       <h1>Settings</h1>
-      <TargetsCard />
+      <AboutYouCard onApplied={() => setTargetsKey((k) => k + 1)} />
+      <TargetsCard key={targetsKey} />
+      <PlanningCard />
       <DashboardCard />
       <PrefsCard />
       <DataCard />
@@ -122,6 +128,25 @@ function pick(t: Targets | null, kind: 'min' | 'max'): Record<string, string> {
   return o;
 }
 
+function PlanningCard() {
+  const app = useApp();
+  const on = !!app.profile?.planning;
+  return (
+    <section className="card stack" aria-label="Planning">
+      <div className="spread">
+        <h2><span className="h-icon" aria-hidden="true">🗓️</span> Plan meals ahead</h2>
+        <button className={`switch${on ? ' on' : ''}`} role="switch" aria-checked={on} aria-label="Plan meals ahead"
+          onClick={async () => { await data.saveProfile({ planning: !on }); await app.reload(['profile']); app.toast(on ? 'Logging what you eat only' : 'Planning turned on'); }}>
+          <span />
+        </button>
+      </div>
+      <p className="muted small">{on
+        ? 'On: add meals as planned, tick them off when you eat them, and see consumed, still planned and projected totals.'
+        : 'Off: everything you add is logged as eaten. Turn this on if you want to plan meals in advance.'}</p>
+    </section>
+  );
+}
+
 function DashboardCard() {
   const app = useApp();
   const [sel, setSel] = useState<MetricKey[]>(app.profile?.dashboard_nutrients ?? []);
@@ -163,10 +188,17 @@ function PrefsCard() {
         <div className="row wrap">{DIETS.map((d) => <button key={d} className="chip" aria-pressed={diet.includes(d)} onClick={() => t(diet, setDiet, d)}>{d.replace('_', ' ')}</button>)}</div>
       </fieldset>
       <fieldset className="stack tight" style={{ border: 0, padding: 0 }}>
+        <legend className="eyebrow">Foods I avoid <span style={{ textTransform: 'none', letterSpacing: 0, fontWeight: 600 }}>(not allergies)</span></legend>
+        <div className="row wrap">{AVOID_CHOICES.map((c) => (
+          <button key={c.code} className="chip" title={c.hint} aria-pressed={diet.includes(c.code)} onClick={() => t(diet, setDiet, c.code)}>{c.label}</button>
+        ))}</div>
+        <p className="muted tiny">Never suggested, and flagged when you add something that contains them, including in ingredients lists.</p>
+      </fieldset>
+      <fieldset className="stack tight" style={{ border: 0, padding: 0 }}>
         <legend className="eyebrow">Allergies</legend>
         <div className="row wrap">{ALLERGENS.map((d) => <button key={d} className="chip" aria-pressed={allergies.includes(d)} onClick={() => t(allergies, setAllergies, d)}>{d.replace('_', ' ')}</button>)}</div>
       </fieldset>
-      <label className="field">Ingredients I avoid <span className="muted tiny">comma-separated, e.g. coriander, mushrooms</span>
+      <label className="field">Other ingredients I avoid <span className="muted tiny">comma-separated, e.g. coriander, mushrooms</span>
         <input type="text" value={avoid} onChange={(e) => setAvoid(e.target.value)} /></label>
       <label className="field">Foods I like <span className="muted tiny">used to rank suggestions</span>
         <input type="text" value={liked} onChange={(e) => setLiked(e.target.value)} /></label>

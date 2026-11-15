@@ -106,6 +106,13 @@ export interface Profile {
   allergies: string[];
   avoid_ingredients: string[];
   liked_foods: string[];
+  birth_year: number | null;
+  sex: 'female' | 'male' | null;
+  height_cm: number | null;
+  weight_kg: number | null;
+  activity: 'sedentary' | 'light' | 'moderate' | 'active' | 'very_active' | null;
+  /** Plan meals ahead (planned vs eaten). Off by default: everything added is logged as eaten. */
+  planning: boolean;
 }
 
 export interface SavedMeal {

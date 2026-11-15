@@ -1,5 +1,5 @@
 // Regenerates supabase/migrations/*_catalog.sql from data/catalog.json.
-// Run: npm run db:catalog
+// Run: npm run db:catalog -- supabase/migrations/<timestamp>_catalog_update.sql
 import { readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
@@ -27,5 +27,7 @@ on conflict (id) do update set name = excluded.name, kind = excluded.kind, state
   portions = excluded.portions, default_amount = excluded.default_amount, max_amount = excluded.max_amount,
   tags = excluded.tags, allergens = excluded.allergens;
 `;
-writeFileSync(join(root, 'supabase/migrations/20261114000002_catalog.sql'), sql);
-console.log(`Wrote ${items.length} catalog foods.`);
+// Each catalog change gets its own migration file (the insert is an upsert, so re-running is safe).
+const out = process.argv[2] ?? 'supabase/migrations/20261114000002_catalog.sql';
+writeFileSync(join(root, out), sql);
+console.log(`Wrote ${items.length} catalog foods to ${out}.`);

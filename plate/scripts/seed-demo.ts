@@ -61,8 +61,8 @@ async function main() {
       e(d, 'drinks', 'cat-coffee-brewed', 240, 'consumed'), e(d, 'drinks', 'cat-water', 750, 'consumed'));
   }
   rows.push(e(today, 'breakfast', 'cat-oats-dry', 50, 'consumed'), e(today, 'breakfast', 'cat-blueberries', 75, 'consumed'),
-    e(today, 'lunch', 'cat-rice-white-cooked', 200, 'planned'), e(today, 'lunch', 'cat-salmon-cooked', 120, 'planned'),
-    e(today, 'snacks', 'cat-potato-chips', 40, 'planned'), e(today, 'drinks', 'cat-orange-juice', 330, 'planned'));
+    e(today, 'lunch', 'cat-rice-white-cooked', 200, 'consumed'), e(today, 'lunch', 'cat-salmon-cooked', 120, 'consumed'),
+    e(today, 'snacks', 'cat-potato-chips', 40, 'consumed'), e(today, 'drinks', 'cat-orange-juice', 330, 'consumed'));
   const { error } = await sb.from('diary_entries').insert(rows);
   if (error) throw error;
   const { data: coffee } = await sb.from('diary_entries').insert(e(today, 'drinks', 'cat-coffee-brewed', 240, 'consumed')).select('id').single();

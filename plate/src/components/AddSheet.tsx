@@ -7,6 +7,8 @@ import { FoodForm } from './FoodForm';
 import { findUserFood, useApp } from './AppData';
 import * as data from '@/lib/data';
 import { lookupBarcode, searchOnline } from '@/lib/api';
+import { avoidReasons } from '@/lib/avoid';
+import type { Profile } from '@/lib/types';
 import { entryFromFood } from '@/lib/entries';
 import { fmt, scale, NUTRIENTS } from '@/lib/nutrients';
 import { recipeAsFood, fmtYield } from '@/lib/recipes';
@@ -19,11 +21,13 @@ export interface Picked { food: Pickable; amount: number; portion: Portion | nul
 
 type Tab = 'recent' | 'favorites' | 'home' | 'meals';
 
-export function AddSheet({ date, meal: initialMeal, parent, pickOnly, onClose, onAdded, onPick }: {
+export function AddSheet({ date, meal: initialMeal, parent, pickOnly, planning, onClose, onAdded, onPick }: {
   date: string;
   meal?: Meal | null;
   parent?: Entry | null;
   pickOnly?: boolean;
+  /** Show the planned / eaten choice. Off: items are logged as eaten. */
+  planning?: boolean;
   onClose: () => void;
   onAdded?: (entries: Entry[]) => void;
   onPick?: (p: Picked) => void;
@@ -84,7 +88,7 @@ export function AddSheet({ date, meal: initialMeal, parent, pickOnly, onClose, o
     return (
       <Sheet title={picked.mealRef?.kind === 'group' ? 'Add saved meal' : 'How much?'} onClose={onClose} full>
         <button className="btn sm ghost" onClick={() => setPicked(null)} style={{ justifySelf: 'start' }}>‹ Back</button>
-        <AmountStep food={picked} date={date} initialMeal={parent ? parent.meal : initialMeal ?? null} parent={parent ?? null}
+        <AmountStep planning={!!planning} food={picked} date={date} initialMeal={parent ? parent.meal : initialMeal ?? null} parent={parent ?? null}
           pickOnly={pickOnly} onPick={onPick} onAdded={(e) => { onAdded?.(e); onClose(); }} />
       </Sheet>
     );
@@ -170,6 +174,7 @@ export function sourceLabel(f: Pick<FoodLike, 'source'>): string {
 }
 
 function FoodList({ items, onPick, empty }: { items: Pickable[]; onPick: (f: Pickable) => void; empty: string }) {
+  const { profile } = useApp();
   if (!items.length) return <p className="muted small">{empty}</p>;
   return (
     <div className="list">
@@ -187,6 +192,7 @@ function FoodList({ items, onPick, empty }: { items: Pickable[]; onPick: (f: Pic
               </span>
             </span>
             <span className="row">
+              {clash(f, profile).length > 0 && <span className="chip bad" title={clash(f, profile).join(', ')}>avoid</span>}
               {f.state && <span className="chip">{f.state}</span>}
               {f.kind === 'drink' && <span className="chip drink">drink</span>}
               <span className="chip">{f.mealRef ? (f.mealRef.kind === 'group' ? 'Meal' : 'Recipe') : sourceLabel(f)}</span>
@@ -198,8 +204,8 @@ function FoodList({ items, onPick, empty }: { items: Pickable[]; onPick: (f: Pic
   );
 }
 
-function AmountStep({ food, date, initialMeal, parent, pickOnly, onPick, onAdded }: {
-  food: Pickable; date: string; initialMeal: Meal | null; parent: Entry | null; pickOnly?: boolean;
+function AmountStep({ planning, food, date, initialMeal, parent, pickOnly, onPick, onAdded }: {
+  planning: boolean; food: Pickable; date: string; initialMeal: Meal | null; parent: Entry | null; pickOnly?: boolean;
   onPick?: (p: Picked) => void; onAdded: (e: Entry[]) => void;
 }) {
   const app = useApp();
@@ -208,7 +214,7 @@ function AmountStep({ food, date, initialMeal, parent, pickOnly, onPick, onAdded
   const defaultMeal: Meal = parent ? parent.meal : initialMeal ?? food.mealRef?.default_meal ?? (food.kind === 'drink' ? 'drinks' : upcomingMeal(localHour()));
   const [meal, setMeal] = useState<Meal>(defaultMeal);
   const defaultStatus: Status = date < app.today ? 'consumed' : date > app.today ? 'planned'
-    : parent ? parent.status === 'skipped' ? 'planned' : parent.status : 'planned';
+    : parent ? (parent.status === 'skipped' ? 'planned' : parent.status) : planning ? 'planned' : 'consumed';
   const [status, setStatus] = useState<Status>(defaultStatus);
   const firstPortion = food.lastAmount ? null : portions[0] ?? null;
   const [portion, setPortion] = useState<Portion | null>(firstPortion);
@@ -278,6 +284,9 @@ function AmountStep({ food, date, initialMeal, parent, pickOnly, onPick, onAdded
         </div>
       </div>
 
+      {clash(food, app.profile).length > 0 && (
+        <p className="warnbox small" role="alert" data-testid="avoid-warning">⚠️ You avoid this: {clash(food, app.profile).join(', ')}.</p>
+      )}
       {isGroup && food.mealRef ? (
         <div className="list">
           {food.mealRef.items.map((it, i) => <div className="li" key={i}><span>{it.name}</span><span className="muted small">{fmt(it.amount)} {it.basis}</span></div>)}
@@ -309,7 +318,7 @@ function AmountStep({ food, date, initialMeal, parent, pickOnly, onPick, onAdded
           </select>
         </label>
       )}
-      {!pickOnly && (
+      {!pickOnly && planning && (
         <div className="seg" role="group" aria-label="Planned or had">
           <button aria-pressed={status === 'planned'} onClick={() => setStatus('planned')}>Planned</button>
           <button aria-pressed={status === 'consumed'} onClick={() => setStatus('consumed')}>{food.kind === 'drink' ? 'Already drank' : 'Already ate'}</button>
@@ -394,4 +403,10 @@ function BarcodeStep({ onBack, onFound, onManual }: { onBack: () => void; onFoun
       </div>
     </form>
   );
+}
+
+/** Avoided food groups, allergies and ingredients this item clashes with. */
+function clash(f: FoodLike, p: Profile | null): string[] {
+  if (!p) return [];
+  return avoidReasons(f, { diet: p.diet, allergies: p.allergies, avoid: p.avoid_ingredients });
 }

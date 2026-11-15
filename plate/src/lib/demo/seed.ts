@@ -49,8 +49,8 @@ export function seedDemo(db: Record<string, Row[]>, uid: string) {
   }
   const coffee = e(today, 'drinks', 'cat-coffee-brewed', 240, 'consumed');
   db.diary_entries.push(e(today, 'breakfast', 'cat-oats-dry', 50, 'consumed'), e(today, 'breakfast', 'cat-blueberries', 75, 'consumed'),
-    e(today, 'lunch', 'cat-rice-white-cooked', 200, 'planned'), e(today, 'lunch', 'cat-salmon-cooked', 120, 'planned'),
-    e(today, 'snacks', 'cat-potato-chips', 40, 'planned'), e(today, 'drinks', 'cat-orange-juice', 330, 'planned'),
+    e(today, 'lunch', 'cat-rice-white-cooked', 200, 'consumed'), e(today, 'lunch', 'cat-salmon-cooked', 120, 'consumed'),
+    e(today, 'snacks', 'cat-potato-chips', 40, 'consumed'), e(today, 'drinks', 'cat-orange-juice', 330, 'consumed'),
     coffee, e(today, 'drinks', 'cat-milk-2pct', 30, 'consumed', { parent_id: coffee.id }));
 
   const meal = newRow('meals', { name: 'Overnight oats', kind: 'recipe', yield_amount: 2, yield_unit: 'serving', default_meal: 'breakfast', is_favorite: true });
